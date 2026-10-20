@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -146,7 +147,7 @@ En el simulador se ven las dos tendencias con tres ramas iguales alimentadas a t
     line((f0, 0), (f0, 2), stroke: (thickness: 0.5pt, dash: "dashed"))
     circle((f0, 2), radius: 0.06, fill: black)
     content((f0, -0.1), anchor: "north", _i1-t($f_0$))
-    content((f0 + 0.15, 2.1), anchor: "south-west", _i1-t[aquí $X_L = X_C$: resonancia])
+    content((f0 + 0.45, 1.97), anchor: "west", _i1-t[aquí $X_L = X_C$: resonancia])
     content((6.9, 3.75), anchor: "east", _i1-t(c: col.naranja)[$X_L = 2 pi f L$ (bobina)])
     content((5.0, 0.6), anchor: "west", _i1-t(c: col.senal1)[$X_C = display(1 / (2 pi f C))$ (condensador)])
   })
@@ -423,7 +424,7 @@ Los dos primeros son, en el fondo, los dos filtros RC que acabas de ver, colocad
     capacitor("ca", (2.1, 1.8), (3.5, 1.8), label: [$C_a$ = 10~μF])
     wire((3.5, 1.8), (4.6, 1.8))
     rect((4.0, -0.75), (7.0, 2.3), stroke: (thickness: 0.5pt, dash: "dashed", paint: col.gris), radius: 0.08)
-    resistor("rent", (4.6, 1.8), (4.6, 0), label: [$R_"ent"$ = 10~kΩ], n: "*-")
+    resistor("rent", (4.6, 1.8), (4.6, 0), label: [$R_"ent"$ \ 10~kΩ], n: "*-")
     ground("g1", (4.6, 0))
     content((5.5, -1.0), _i1-t(c: col.gris, s: 7pt)[entrada de la etapa 2])
     content((2.4, -1.5), _i1-t[(a) acoplo: paso alto])
@@ -1056,7 +1057,7 @@ Con esta caja de herramientas — reactancia, desfase, impedancia, resonancia, $
     for (dx, l) in ((-0.45, 0.62), (0, 0.55), (0.4, 0.5), (0.8, 0.46)) { line((cx + dx, -l), (cx + dx, l), stroke: 1.4pt) }
     content((cx - 0.5, 0.8), anchor: "south", _i1-t(s: 6.5pt)[reflector])
     content((cx + 1.0, 0.65), anchor: "south-west", _i1-t(s: 6.5pt)[directores])
-    content((cx + 2.6, 0.1), anchor: "south-west", _i1-t(s: 7pt)[lóbulo principal])
+    content((cx + 2.75, 0.2), anchor: "south-west", _i1-t(s: 7pt)[lóbulo principal])
     content((cx + 0.3, -1.95), anchor: "north", _i1-t[(b) Yagi de cuatro elementos])
   })
 ] <i1-fig-diagramas>
@@ -1073,8 +1074,7 @@ Con esto ya tenemos las dos mitades del problema: sabemos hacer una onda (#ver(<
 $ s(t) = A [1 + m cos(omega_m t)] cos(omega_c t), $
 donde $m$ (el *índice de modulación*) mide cuánto abre y cierra la voz la amplitud. El corchete es la *envolvente*: la silueta lenta que dibuja la voz sobre la portadora rápida (@i1-fig-am[figura]). _La envolvente es el mensaje_; todo lo demás es transporte.
 
-// FALSTAD-CUSTOM: modulacion-am
-#circuito(caption: [Una portadora modulada en amplitud por un tono, con tres índices de modulación. La envolvente (a trazos) copia el tono. Con $m = 0,5$ la amplitud oscila entre la mitad y vez y media de la portadora; con $m = 1$ (100~%) llega justo a cero en los valles; con $m > 1$ la envolvente ideal tendría que ser negativa, el transmisor la recorta, y la voz sale distorsionada.])[
+#circuito(sim: fc.at("modulacion-am"), caption: [Una portadora modulada en amplitud por un tono, con tres índices de modulación. La envolvente (a trazos) copia el tono. Con $m = 0,5$ la amplitud oscila entre la mitad y vez y media de la portadora; con $m = 1$ (100~%) llega justo a cero en los valles; con $m > 1$ la envolvente ideal tendría que ser negativa, el transmisor la recorta, y la voz sale distorsionada.])[
   #cetz.canvas({
     import cetz.draw: *
     let w = 4.7
@@ -1187,12 +1187,11 @@ El espectro son tres rayas: la portadora, que no lleva información ninguna, y d
 
 #ptitulo[La cadena de recepción: el superheterodino] En el receptor la antena entrega una tensión diminuta —quizá un microvoltio— mezclada con miles de emisoras. Hay que hacer dos cosas: _elegir_ una y _amplificarla_ enormemente. Filtrar y amplificar con precisión a cualquier frecuencia es carísimo, así que Armstrong ideó un truco que gobierna casi todas las radios: el *superheterodino*. Un *oscilador local* y un *mezclador* trasladan la emisora elegida —sea cual sea su frecuencia— a una *frecuencia intermedia (FI)* fija, y allí, a una frecuencia siempre la misma, se ponen los mejores filtros y amplificadores de una vez para siempre. Sintonizar el dial no es más que mover el oscilador local para que la emisora deseada caiga en la FI.
 
-// FALSTAD-CUSTOM: mezclador
-#circuito(caption: [Receptor superheterodino por bloques, con los números de un receptor de HF típico. La emisora de 7,1~MHz y el oscilador local de 16,1~MHz entran en el mezclador; su diferencia, 9~MHz, es la FI, donde se hacen el filtrado fino y casi toda la amplificación. Para escuchar 7,15~MHz basta con subir el oscilador local a 16,15~MHz: la FI no cambia.])[
+#circuito(sim: fc.at("mezclador"), caption: [Receptor superheterodino por bloques, con los números de un receptor de HF típico. La emisora de 7,1~MHz y el oscilador local de 16,1~MHz entran en el mezclador; su diferencia, 9~MHz, es la FI, donde se hacen el filtrado fino y casi toda la amplificación. Para escuchar 7,15~MHz basta con subir el oscilador local a 16,15~MHz: la FI no cambia.])[
   #diagram(
     node-stroke: 0.7pt, node-corner-radius: 2pt, spacing: (7.5mm, 8mm),
-    node((0, 0), text(size: 7.5pt)[Antena], stroke: none),
-    edge("-|>", label: text(size: 6.5pt)[7,1~MHz], label-side: left),
+    node((0, 0), align(center, text(size: 7.5pt)[Antena\ #text(size: 6.5pt)[7,1~MHz]]), stroke: none),
+    edge("-|>"),
     _i1-bs((1, 0), [Amp. RF\ sintonizado]),
     edge("-|>"),
     _i1-b((2, 0), [Mezclador]),
@@ -1279,8 +1278,7 @@ El espectro son tres rayas: la portadora, que no lleva información ninguna, y d
 
 #ptitulo[La otra manera de montar la voz] En vez de mover la amplitud de la portadora, podemos dejarla constante y mover su *frecuencia instantánea* al ritmo de la voz: cuando la voz sube, la portadora se aparta un poco hacia arriba; cuando baja, hacia abajo (@i1-fig-fm[figura]). Es la *modulación de frecuencia*. Lo que la voz controla ahora es la *desviación* $Delta f$ —cuánto se aparta la portadora de su frecuencia central—, proporcional al volumen de la voz.
 
-// FALSTAD-CUSTOM: modulacion-fm
-#circuito(caption: [Modulación de frecuencia. Arriba, la señal moduladora (la voz, aquí un tono). Abajo, la portadora modulada: su amplitud no cambia nunca; lo que cambia es lo apretados que están los ciclos. Donde la moduladora es máxima, la frecuencia instantánea es $f_c + Delta f$; donde es mínima, $f_c - Delta f$.])[
+#circuito(sim: fc.at("modulacion-fm"), caption: [Modulación de frecuencia. Arriba, la señal moduladora (la voz, aquí un tono). Abajo, la portadora modulada: su amplitud no cambia nunca; lo que cambia es lo apretados que están los ciclos. Donde la moduladora es máxima, la frecuencia instantánea es $f_c + Delta f$; donde es mínima, $f_c - Delta f$.])[
   #cetz.canvas({
     import cetz.draw: *
     let w = 14.2

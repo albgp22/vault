@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -221,8 +222,7 @@ El filtro de cristal es caro y fija la frecuencia. El *método de fase* elimina 
 
 === El transmisor de AM
 
-// FALSTAD-CUSTOM: modulacion-am
-#circuito(caption: [Transmisor de AM con modulación de alto nivel: el amplificador de audio varía la tensión de alimentación del final al ritmo de la voz. Abajo, el espectro: portadora y dos bandas laterales, $2 f_m$ de anchura.])[
+#circuito(sim: fc.at("modulacion-am"), caption: [Transmisor de AM con modulación de alto nivel: el amplificador de audio varía la tensión de alimentación del final al ritmo de la voz. Abajo, el espectro: portadora y dos bandas laterales, $2 f_m$ de anchura.])[
   #stack(
     dir: ttb,
     spacing: 4mm,
@@ -263,8 +263,7 @@ La AM no está entre los diagramas de bloques del temario, pero ayuda a entender
 
 === El transmisor de FM
 
-// FALSTAD-CUSTOM: modulacion-fm
-#circuito(caption: [Transmisor de FM para 2 m con multiplicación ×12. Debajo de cada etapa, la frecuencia y la desviación de pico de su salida: los multiplicadores multiplican las dos.])[
+#circuito(sim: fc.at("modulacion-fm"), caption: [Transmisor de FM para 2 m con multiplicación ×12. Debajo de cada etapa, la frecuencia y la desviación de pico de su salida: los multiplicadores multiplican las dos.])[
   #_t5-diagrama(
     spacing: (5mm, 4mm),
     node((0, 0), _t5-mic, stroke: none, fill: none),
@@ -470,8 +469,7 @@ La potencia de pico de la AM se ve en la envolvente (@t5-fig-am100). Sin modulac
   })
 ] <t5-fig-armonicos>
 
-// FALSTAD-CUSTOM: red-pi
-#circuito(caption: [Filtro paso bajo en pi (C–L–C) a la salida del amplificador final. Valores para un corte de unos 10 MHz en 50 Ω, adecuado para la banda de 40 m.])[
+#circuito(sim: fc.at("red-pi"), caption: [Filtro paso bajo en pi (C–L–C) a la salida del amplificador final. Valores para un corte de unos 10 MHz en 50 Ω, adecuado para la banda de 40 m.])[
   #esquema({
     import zap: *
     import cetz.draw: content
@@ -747,7 +745,6 @@ Entre el oscilador y la antena median varias etapas con papeles precisos: el *ex
   Un oscilador de cristal es muy estable hasta unas decenas de megahercios, pero no hay cristales fundamentales prácticos de 144 MHz. ¿Cómo se consigue una portadora de 2 m con la estabilidad de un cristal de 48 MHz?
 ]
 
-// FALSTAD-CUSTOM: clase-c
 #circuito(caption: [Doblador de frecuencia: un transistor en clase C con el circuito resonante del colector sintonizado a $2 f$.])[
   #esquema({
     import zap: *

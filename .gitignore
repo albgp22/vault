@@ -1,0 +1,9 @@
+# Salidas de trabajo (tools/check.sh, pruebas de Falstad, temporales)
+build/check-*.typ
+build/png/
+build/tmp/
+build/falstad-test/
+build/*.pdf
+!build/examen-radioaficionado.pdf
+!build/cheatsheet.pdf
+__pycache__/

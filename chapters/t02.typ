@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -1331,8 +1332,7 @@ Los tres dispositivos amplificadores del temario hacen lo mismo con nombres dist
 
 Según qué terminal sea común a entrada y salida hay tres configuraciones (emisor/fuente común la más usada), con distintas impedancias y ganancias. De las tres configuraciones del transistor, el *emisor común* da ganancia de tensión y de corriente (la etapa amplificadora por defecto, inversora), la *base común* se prefiere en RF por su estabilidad (impedancia de entrada baja, no inversora) y el *colector común* — el seguidor de emisor — no amplifica tensión pero aísla: entrada de alta impedancia, salida de baja, un adaptador de impedancias activo.
 
-// FALSTAD-CUSTOM: base-comun
-#circuito(caption: [Las tres configuraciones, vistas solo para la señal: el terminal común va a masa. La entrada se aplica a uno de los otros dos y la salida se toma del tercero. En el colector común, el colector va a la alimentación, que para la señal es masa: un condensador de desacoplo la une a masa.])[
+#circuito(sim: fc.at("base-comun"), caption: [Las tres configuraciones, vistas solo para la señal: el terminal común va a masa. La entrada se aplica a uno de los otros dos y la salida se toma del tercero. En el colector común, el colector va a la alimentación, que para la señal es masa: un condensador de desacoplo la une a masa.])[
   #esquema({
     import zap: *
     import cetz.draw: content

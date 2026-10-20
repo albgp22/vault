@@ -24,7 +24,7 @@ r 320 288 448 288 0 47000
 R 448 288 480 288 0 0 40 12 0 0 0.5
 x 16 160 120 164 4 12 Entrada\s20\smV
 x 160 136 328 140 4 12 Entrada\spor\sel\semisor
-x 456 136 632 140 4 12 Salida\spor\sel\scolector
+x 456 224 632 228 4 12 Salida\spor\sel\scolector
 x 128 400 344 404 4 12 Base\sa\smasa\sen\salterna\s(Cb)
 x 48 440 848 444 4 12 La\sseñal\sentra\spor\sel\semisor\sy\ssale\spor\sel\scolector.\sCuando\sla\sentrada\ssube,\sla\ssalida\stambién\ssube:
 x 48 460 456 464 4 12 no\shay\sinversión\sde\sfase.\sGanancia\sde\stensión\s≈\s40.

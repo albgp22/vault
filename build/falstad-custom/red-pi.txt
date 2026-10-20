@@ -17,7 +17,7 @@ x 16 120 176 124 4 12 «PA»:\scuadrada\s1\skHz
 x 264 200 352 204 4 12 L\s\q\s4,77\smH
 x 160 320 256 324 4 12 C1\s\q\s9,55\sµF
 x 352 320 448 324 4 12 C2\s\q\s9,55\sµF
-x 512 232 592 236 4 12 Carga\s50\sΩ
+x 464 320 544 324 4 12 Carga\s50\sΩ
 x 48 360 664 364 4 12 La\sred\sdeja\spasar\s1\skHz\sy\sfrena\slos\sarmónicos\s3,\s5,\s7...\sde\sla\sonda\scuadrada:
 x 48 380 608 384 4 12 en\sla\scarga\squeda\suna\ssenoide\slimpia.\sCompare\slos\sdos\sespectros\s(FFT).
 o 2 2 0 4098 5 0.1 0 2 9 0 Salida\sdel\sPA\s(cuadrada)\sy\stensión\sen\sla\scarga

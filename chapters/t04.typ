@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -96,8 +97,7 @@ La idea de Armstrong (1918) le da la vuelta al problema: *en lugar de mover los 
 
 === El superheterodino, bloque a bloque
 
-// FALSTAD-CUSTOM: mezclador
-#circuito(caption: [Diagrama de bloques del receptor superheterodino. El mezclador traslada la señal sintonizada a la FI fija, donde se filtra y amplifica; el CAG realimenta la ganancia para mantener la salida constante, y el BFO reinserta la portadora cuando se demodula SSB o CW.])[
+#circuito(sim: fc.at("mezclador"), caption: [Diagrama de bloques del receptor superheterodino. El mezclador traslada la señal sintonizada a la FI fija, donde se filtra y amplifica; el CAG realimenta la ganancia para mantener la salida constante, y el BFO reinserta la portadora cuando se demodula SSB o CW.])[
   #_t4-diagrama(
     spacing: (7mm, 9mm),
     node((0, 0), _t4-ant, stroke: none, fill: none),

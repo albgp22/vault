@@ -5,7 +5,8 @@
 //             typst compile --root . cheatsheet.typ build/cheatsheet.pdf
 // =====================================================================
 #import "/lib/template.typ": col, fuente-texto, fuente-sans, fuente-mate, fuente-mono, falstad, cetz, diagram, node, edge
-#import "/lib/circuits.typ": esquema, zap, onda, ejes
+#import "/lib/circuits.typ": esquema, zap, onda, ejes, bateria
+#import "/lib/falstad-custom.typ": fc
 
 #set document(title: "Examen de radioaficionado (HAREC) — hoja de conceptos clave", author: "")
 #set page(
@@ -480,7 +481,7 @@
     edge("-|>"),
     node((4, 1), [Antena], stroke: none, fill: none),
     edge(<pb>, (3, 1.6), (1.5, 1.6), (1.5, 1.08), "-|>", stroke: (paint: col.senal3, dash: "dashed", thickness: 0.6pt)),
-    node((3.3, 1.85), text(fill: col.senal3)[ALC: muestra la salida y frena la excitación], stroke: none, fill: none),
+    node((3.2, 1.95), align(center, text(fill: col.senal3)[ALC: muestra la salida \ y frena la excitación]), stroke: none, fill: none),
   )
 }
 
@@ -522,13 +523,13 @@
 #let fig-c-cc = esquema(escala: 0.55, {
   import zap: *
   import cetz.draw: content
-  vsource("v", (0, 0), (0, 2.4))
+  bateria("v", (0, 2.4), (0, 0))
   resistor("r1", (0, 2.4), (2.6, 2.4))
   resistor("r2", (2.6, 2.4), (2.6, 0))
   wire((2.6, 2.4), (4.0, 2.4))
   capacitor("c", (4.0, 2.4), (4.0, 0))
   wire((0, 0), (4.0, 0))
-  content((-0.62, 1.2), anchor: "east", t7[12 V])
+  content((-0.45, 1.2), anchor: "east", t7[12 V])
   content((1.3, 2.75), anchor: "south", t7[1 kΩ])
   content((2.12, 1.2), anchor: "east", t7[3 kΩ])
   content((4.45, 1.2), anchor: "west", t7[$C$: 9 V])
@@ -594,7 +595,7 @@
 #sub[Campos y onda electromagnética]
 - #k[Campo eléctrico] $E = V slash d$ (V/m). Se apantalla con metal puesto a tierra. El *magnético* de baja frecuencia solo se apantalla con materiales ferromagnéticos.
 - #k[Onda EM:] $arrow(E) perp arrow(B)$ (y los dos, perpendiculares al avance). *Polarización = dirección de $arrow(E)$*. Velocidad en el vacío constante: $c = 3 dot 10^8$ m/s (300 000 km/s).
-#fml([$c = lambda f$ \ $lambda ("m") approx 300 / (f ("MHz"))$])[$lambda$ longitud de onda (m) · $f$ frecuencia. Úsala para pasar de frecuencia a nombre de banda. #ej[144 o 145 MHz → 2 m · 430 MHz → 70 cm · 7 MHz → 40 m · 3,5 MHz → 80 m.]]
+#fml([$c = lambda f$ \ #v(0.25em) $lambda ("m") approx 300 / (f ("MHz"))$])[$lambda$ longitud de onda (m) · $f$ frecuencia. Úsala para pasar de frecuencia a nombre de banda. #ej[144 o 145 MHz → 2 m · 430 MHz → 70 cm · 7 MHz → 40 m · 3,5 MHz → 80 m.]]
 
 #sub[Señal senoidal, fase y otras señales]
 #fig(fig-senoide, cap: [Una senoide. El *eficaz* (RMS) da el mismo calor en una resistencia que una continua de ese valor. «Amplitud» = máximo − valor medio.])
@@ -612,9 +613,7 @@
 - #k[Ruido blanco:] igual a todas las frecuencias. #k[Ruido térmico:] $P = k T B$ ($k = 1,38 dot 10^(-23)$ J/K, $T$ en K, $B$ ancho en Hz): a más ancho de banda, más ruido. Señal *analógica*: infinitos valores posibles.
 
 #sub[Modulación]
-// FALSTAD-CUSTOM: modulacion-am
-// FALSTAD-CUSTOM: modulacion-fm
-#fig(fig-espectros, cap: [Espectros típicos (la frecuencia menor, a la izquierda). Modulada con un solo tono, la BLU es *una sola raya*; con voz, una banda de 2,7 kHz.])
+#fig(fig-espectros, cap: [Espectros típicos (la frecuencia menor, a la izquierda). Modulada con un solo tono, la BLU es *una sola raya*; con voz, una banda de 2,7 kHz.], sim: ((fc.at("modulacion-am"), [AM]), (fc.at("modulacion-fm"), [FM])))
 #table(
   columns: (1.75cm, 1.6cm, 1fr),
   th[Clase][Varía][Lo que cae en el examen],
@@ -700,9 +699,7 @@ $p$ primario, $s$ secundario, $N$ espiras. Ideal: $P_p = P_s$ (lo que gana en te
 La antena recoge todas las emisoras a la vez. Un circuito $L C$ responde fuerte a *una* frecuencia: la de resonancia. Allí $X_L = X_C$, se anulan y solo queda $R$.
 #fml($f_0 = 1 / (2 pi sqrt(L C))$)[$f_0$ (Hz) · $L$ (H) · $C$ (F). Más $L$ o más $C$ → menor $f_0$ (×4 la $C$ → $f_0$ ÷ 2). #ej[10 μH y 50 pF → ≈ 7,1 MHz.]]
 #fml($Q = f_0 / B = X / R$)[$Q$ factor de calidad · $B$ ancho de banda a −3 dB (Hz) · $X$ reactancia de $L$ (o $C$) en resonancia · $R$ resistencia de pérdidas. #ej[7 MHz con $Q$ = 100 → $B$ = 70 kHz.]]
-// FALSTAD-CUSTOM: resonancia-serie
-// FALSTAD-CUSTOM: tanque-paralelo
-#fig(fig-resonancia, cap: [Curva de resonancia. $Q$ alta = curva estrecha = más selectivo.], sim: "res-series.txt")
+#fig(fig-resonancia, cap: [Curva de resonancia. $Q$ alta = curva estrecha = más selectivo.], sim: ((fc.at("resonancia-serie"), [serie]), (fc.at("tanque-paralelo"), [paralelo])))
 #table(
   columns: (auto, 1fr, 1fr),
   th[En $f_0$][$L C$ serie][$L C$ paralelo («tanque»)],
@@ -718,8 +715,7 @@ La antena recoge todas las emisoras a la vez. Un circuito $L C$ responde fuerte 
 )
 
 #sub[Fuente de alimentación]
-// FALSTAD-CUSTOM: fuente-completa
-#fig(fig-fuente, cap: [Forma de onda a la salida de cada bloque.], sim: (("fullrectf.txt", [puente + filtro]), ("zenerref.txt", [zéner])))
+#fig(fig-fuente, cap: [Forma de onda a la salida de cada bloque.], sim: ((fc.at("fuente-completa"), [fuente completa]), ("fullrectf.txt", [puente + filtro]), ("zenerref.txt", [zéner])))
 - #k[Rectificador.] Media onda: 1 diodo, rizado de 50 Hz. Onda completa: 2 diodos (con toma media) o *puente de 4*, rizado de *100 Hz* (más fácil de filtrar).
 #porque[el condensador se carga en cada pico y se descarga despacio en la carga: rellena los huecos. Quita la *alterna residual (rizado)*, no la continua. El regulador mantiene fija la tensión aunque cambien la carga o la red.]
 - #k[Conmutada]: trocea a decenas o cientos de kHz; ligera y de buen rendimiento, pero genera ruido de RF (hay que filtrarla).
@@ -742,9 +738,7 @@ La antena recoge todas las emisoras a la vez. Un circuito $L C$ responde fuerte 
 ]
 
 #sub[Clases de amplificador]
-// FALSTAD-CUSTOM: clases-ab
-// FALSTAD-CUSTOM: clase-c
-#fig(fig-clases, cap: [Menos tiempo conduciendo = más rendimiento y peor copia.], sim: (("pushpullxover.txt", [clase B]), ("pushpull.txt", [clase AB])))
+#fig(fig-clases, cap: [Menos tiempo conduciendo = más rendimiento y peor copia.], sim: ((fc.at("clases-ab"), [B frente a AB]), (fc.at("clase-c"), [clase C])))
 #table(
   columns: (auto, auto, auto, 1fr),
   th[Clase][Conduce][Rendimiento][Uso],
@@ -762,10 +756,7 @@ La antena recoge todas las emisoras a la vez. Un circuito $L C$ responde fuerte 
 
 #sub[Filtros y redes L, π y T]
 - Tipos: *paso bajo* (salida del TX: quita armónicos), *paso alto*, *paso banda* (FI), *rechazo de banda*. $f_c$ = frecuencia de corte, a −3 dB. Pendiente: 6 dB/octava por polo (célula). RC simple: $f_c = 1 slash (2 pi R C)$. #ej[1 kΩ y 100 nF → 1,6 kHz.]
-// FALSTAD-CUSTOM: red-L
-// FALSTAD-CUSTOM: red-pi
-// FALSTAD-CUSTOM: red-T
-#fig(fig-redes, cap: [El nombre sale de la forma del dibujo (L, π, T).], sim: (("tlmatch1.txt", [red L de adaptación]),))
+#fig(fig-redes, cap: [El nombre sale de la forma del dibujo (L, π, T).], sim: ((fc.at("red-L"), [red L]), (fc.at("red-pi"), [red π]), (fc.at("red-T"), [red T])))
 #porque[en un paso bajo, la bobina va *en serie* (frena las frecuencias altas) y el condensador *a masa* (las desvía). En paso alto se cambian los papeles. Además de filtrar, la red *transforma la impedancia*: la red π del final adapta el transistor a 50 Ω y quita los armónicos. El acoplador de antena (red π o T) adapta final, línea y antena.]
 #recuerda[π paso bajo = C–L–C; T paso bajo = L–C–L. Cuenta las ramas: π tiene *dos a masa*; T tiene *dos en serie*.]
 - #k[Cuarzo]: piezoeléctrico, $Q$ de decenas de miles: filtros muy estrechos y osciladores estables. Filtros digitales: FIR sin realimentación; IIR con ella.
@@ -774,8 +765,7 @@ La antena recoge todas las emisoras a la vez. Un circuito $L C$ responde fuerte 
 - #k[Oscilador] = amplificador + realimentación *positiva*; la ganancia del lazo compensa las pérdidas y la fase total es 360° (Barkhausen). Convierte continua en alterna. Cristal: muy estable (por encima de unos 20–30 MHz trabaja en sobretono). VCO: sintonizado con varicap; deriva con la temperatura. #falstad("colpitts.txt", texto: [Colpitts]) #falstad("crystalosc2.txt", texto: [cristal]) #falstad("varactorvco.txt", texto: [VCO])
 #fig(fig-pll, cap: [PLL: el comparador corrige el VCO hasta que $f_"VCO" slash N$ iguala a la referencia. Cambiar $N$ cambia de canal.], sim: "pll.txt")
 #fml($f_"out" = N f_"ref"$)[$N$ divisor programable. #ej[12,5 kHz × 11 600 = 145 MHz; $N$ + 1 → canal siguiente, 145,0125 MHz.]]
-// FALSTAD-CUSTOM: mezclador
-#fml($f_1 plus.minus f_2$)[salida de un *mezclador* (multiplica dos señales). #ej[14 y 4 MHz → 18 y 10 MHz.]]
+#fml($f_1 plus.minus f_2$)[salida de un *mezclador* (multiplica dos señales). #ej[14 y 4 MHz → 18 y 10 MHz.] #falstad(fc.at("mezclador"), texto: [mezclador])]
 - #k[Detectores.] AM: de *envolvente* (diodo + RC; asíncrono). BLU y CW: de *producto* + BFO (reinyecta la portadora). FM: de pendiente, discriminador, detector de relación o PLL (normalmente tras un limitador). Diodo + $L C$ paralelo + auricular = receptor de AM («de galena»). #falstad("amdetect.txt", texto: [detector AM])
 
 #tema("T4", [Receptores], [≈13 %])

@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -451,7 +452,7 @@ Con 2,1 V en la base y $R_E = 1,5$ kΩ, $I_E = 1,5 "V" slash 1,5 "kΩ" = 1$ mA, 
     import zap: *
     import cetz.draw: content, line
     // (a) resistencia de base
-    wire((0.8, 5), (3.4, 5))
+    wire((0.8, 5), (3.2, 5))
     node("va", (0.8, 5), fill: false, label: (content: _i2b-t[+12 V], anchor: "north"))
     resistor("rb", (1.4, 5), (1.4, 2.5), label: (content: _i2b-e($R_B space 1,1 "MΩ"$), anchor: "south"))
     npn("qa", (3.2, 2.5))
@@ -463,7 +464,7 @@ Con 2,1 V en la base y $R_E = 1,5$ kΩ, $I_E = 1,5 "V" slash 1,5 "kΩ" = 1$ mA, 
     node("na1", (1.4, 5))
     content((2.1, -0.75), anchor: "north", align(center, _i2b-t[$beta = 100$: $I_C = 1$ mA \ #text(fill: col.senal2)[$beta = 300$: saturado]]))
     // (b) divisor + R_E
-    wire((6.6, 5), (9.6, 5))
+    wire((6.6, 5), (9.2, 5))
     node("vb", (6.6, 5), fill: false, label: (content: _i2b-t[+12 V], anchor: "north"))
     resistor("r1", (7.2, 5), (7.2, 2.5), label: _i2b-e($R_1 space 47 "kΩ"$))
     resistor("r2", (7.2, 2.5), (7.2, 0), label: _i2b-e($R_2 space 10 "kΩ"$))
@@ -842,8 +843,7 @@ Es la etapa que ya conoces (@i2b-fig-ec): ganancia de tensión de decenas a cien
 
 #ptitulo[El problema que resuelve] En el emisor común hay un condensador escondido: la capacidad de unos pocos picofaradios entre el colector y la base, dentro del propio transistor. Une la salida con la entrada, y como la salida es 190 veces mayor e invertida, esa capacidad «tira» de la entrada como si fuera 190 veces mayor: es el *efecto Miller*. Con 2 pF, la entrada ve unos 380 pF. En audio no importa; a 145 MHz esa capacidad es casi un cortocircuito a masa, la ganancia se hunde y la realimentación entre salida y entrada puede hacer oscilar la etapa. La base común lo evita: la base, unida a masa, queda entre la entrada (emisor) y la salida (colector) como una pantalla (@i2b-fig-basecomun).
 
-// FALSTAD-CUSTOM: base-comun
-#circuito(caption: [Amplificador en base común. La señal entra por el emisor y sale por el colector. La base está polarizada por el divisor $R_1$–$R_2$ y unida a masa para la señal por $C_B$. Con $R_E = 3,3$ kΩ, la corriente de reposo es de unos 0,46 mA y la impedancia de entrada, $r_e approx 55$ Ω, queda cerca de los 50 Ω de un coaxial. En un preamplificador real, $R_C$ sería un circuito sintonizado (#ver(<sec-amp-sintonizado>)).])[
+#circuito(sim: fc.at("base-comun"), caption: [Amplificador en base común. La señal entra por el emisor y sale por el colector. La base está polarizada por el divisor $R_1$–$R_2$ y unida a masa para la señal por $C_B$. Con $R_E = 3,3$ kΩ, la corriente de reposo es de unos 0,46 mA y la impedancia de entrada, $r_e approx 55$ Ω, queda cerca de los 50 Ω de un coaxial. En un preamplificador real, $R_C$ sería un circuito sintonizado (#ver(<sec-amp-sintonizado>)).])[
   #esquema({
     import zap: *
     import cetz.draw: content, line
@@ -933,8 +933,7 @@ Es la etapa que ya conoces (@i2b-fig-ec): ganancia de tensión de decenas a cien
 
 #ptitulo[La clase la decide el punto de reposo] Todo depende de dónde se aparca el punto de trabajo, es decir, de cuánta tensión continua tiene la base respecto al umbral de conducción de 0,6 V. La @i2b-fig-clases lo muestra. A la izquierda, la tensión de la base: una sinusoide montada sobre la tensión de reposo; la línea de trazos es el umbral, y solo la parte de la onda que queda por encima hace conducir al transistor. A la derecha, la corriente de colector que resulta. La fracción del ciclo durante la cual el transistor conduce se mide en grados y se llama *ángulo de conducción*: 360° es el ciclo entero.
 
-// FALSTAD-CUSTOM: clases-ab
-#circuito(caption: [El ángulo de conducción de cada clase. A la izquierda, la tensión de la base (entrada) frente al umbral de conducción de unos 0,6 V (trazos): en rojo, la parte de la onda que hace conducir al transistor. A la derecha, la corriente de colector (salida). Cuanto más bajo se polariza la base, menos parte del ciclo conduce el transistor: menos se parece la salida a la entrada, y menos energía se pierde en calor.])[
+#circuito(sim: fc.at("clases-ab"), caption: [El ángulo de conducción de cada clase. A la izquierda, la tensión de la base (entrada) frente al umbral de conducción de unos 0,6 V (trazos): en rojo, la parte de la onda que hace conducir al transistor. A la derecha, la corriente de colector (salida). Cuanto más bajo se polariza la base, menos parte del ciclo conduce el transistor: menos se parece la salida a la entrada, y menos energía se pierde en calor.])[
   #cetz.canvas({
     import cetz.draw: *
     let T = 2.2
@@ -1127,8 +1126,7 @@ La pregunta clave es *dónde viaja la información*.
 
 #ptitulo[El tanque como carga] La ganancia del emisor común es $g_m$ por la impedancia que el colector tiene como carga. Con $R_C$, esa impedancia es la misma a todas las frecuencias. Con un *tanque* LC en paralelo es otra cosa. A la frecuencia de resonancia $f_0$, la bobina y el condensador se compensan y el tanque presenta una resistencia alta, la *resistencia dinámica* $R_D = Q X_L$, de miles de ohmios. Lejos de $f_0$, la bobina cortocircuita las frecuencias bajas y el condensador las altas, y la impedancia cae a unas decenas de ohmios. La ganancia sigue a la impedancia: es grande alrededor de $f_0$, en una banda de anchura $f_0 slash Q$, y casi nula fuera. La etapa amplifica y filtra a la vez (@i2b-fig-sintonizado).
 
-// FALSTAD-CUSTOM: clase-c
-#circuito(caption: [Amplificadores sintonizados. (a) De pequeña señal, en clase A: la polarización es la del emisor común, pero la carga del colector es el tanque $L$–$C_T$; un devanado secundario de pocas espiras saca la señal hacia la etapa siguiente sin cargar el tanque. (b) Final en clase C: la base vuelve a masa por una bobina de choque, sin polarización, y el transistor solo conduce en las crestas de la excitación; el tanque del colector restituye la sinusoide y la red de salida elimina los armónicos.])[
+#circuito(sim: fc.at("clase-c"), caption: [Amplificadores sintonizados. (a) De pequeña señal, en clase A: la polarización es la del emisor común, pero la carga del colector es el tanque $L$–$C_T$; un devanado secundario de pocas espiras saca la señal hacia la etapa siguiente sin cargar el tanque. (b) Final en clase C: la base vuelve a masa por una bobina de choque, sin polarización, y el transistor solo conduce en las crestas de la excitación; el tanque del colector restituye la sinusoide y la red de salida elimina los armónicos.])[
   #esquema(escala: 0.85, {
     import zap: *
     import cetz.draw: content, line

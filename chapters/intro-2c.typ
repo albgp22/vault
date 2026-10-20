@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -412,8 +413,7 @@ Un transmisor moderno necesita las dos virtudes a la vez: la *estabilidad* del c
 
 #ejemplo(titulo: [de 14,2 MHz a la FI de 9 MHz])[La emisora está en $f_s = 14,2 "MHz"$ y el receptor tiene su FI en 9 MHz. Se pone el oscilador local en $f_"OL" = 14,2 + 9 = 23,2 "MHz"$. El mezclador entrega $23,2 - 14,2 = 9,0 "MHz"$ y $23,2 + 14,2 = 37,4 "MHz"$ (@i2c-fig-mezcla). El filtro de FI, de 9 MHz, se queda con la diferencia y tira la suma. Para escuchar 14,3 MHz basta con subir el oscilador local a 23,3 MHz: la nueva emisora cae otra vez en 9 MHz, y el filtro no se ha movido. *Sintonizar es mover el oscilador local.*]
 
-// FALSTAD-CUSTOM: mezclador
-#circuito(caption: [Lo que hace un mezclador, visto en el espectro. Arriba, lo que entra: la emisora (14,2 MHz) y el oscilador local (23,2 MHz). Abajo, lo que sale: la diferencia (9 MHz, la FI) y la suma (37,4 MHz). En gris, restos de las dos entradas que un mezclador sencillo deja pasar y uno equilibrado suprime. El filtro de FI elige la raya de 9 MHz.])[
+#circuito(sim: fc.at("mezclador"), caption: [Lo que hace un mezclador, visto en el espectro. Arriba, lo que entra: la emisora (14,2 MHz) y el oscilador local (23,2 MHz). Abajo, lo que sale: la diferencia (9 MHz, la FI) y la suma (37,4 MHz). En gris, restos de las dos entradas que un mezclador sencillo deja pasar y uno equilibrado suprime. El filtro de FI elige la raya de 9 MHz.])[
   #cetz.canvas({
     import cetz.draw: *
     let sx = 0.27
@@ -842,7 +842,6 @@ En FM la amplitud no lleva información: la voz está en cuánto se aparta la fr
 
 La idea más directa para la AM aprovecha una propiedad del amplificador de clase C (#ver(<sec-clases>)): el transistor trabaja casi como un interruptor que da un golpe de corriente en cada ciclo, y el tanque del colector convierte esos golpes en una sinusoide cuya amplitud es casi igual a la *tensión de alimentación*. Si alimentas el paso final con 13,8 V, en el colector hay una oscilación de unos 13,8 V de pico; con 6,9 V, la mitad. Basta entonces con que la alimentación siga a la voz: $V_"CC" + v_"audio"$. Es la *modulación de colector* (@i2c-fig-mod-colector), la forma clásica de la AM de *alto nivel*: se modula el último paso, el de potencia.
 
-// FALSTAD-CUSTOM: modulacion-am
 #circuito(caption: [Modulación de AM de colector. El paso final, en clase C, recibe la portadora del oscilador en la base. Su alimentación no es una continua fija: el secundario del transformador de modulación, en serie con los +13,8 V, le suma la tensión del audio. La amplitud de la RF en el tanque sigue a esa alimentación, es decir, a la voz.])[
   #esquema({
     import zap: *
@@ -893,8 +892,7 @@ La idea más directa para la AM aprovecha una propiedad del amplificador de clas
   - *$C_D$* une a masa la RF en el punto de alimentación (para que no vuelva por el transformador), pero tiene que ser lo bastante pequeño para *no* cortocircuitar el audio: 10 nF son 2,3 Ω a 7 MHz y 5,3 kΩ a 3 kHz.
 ]
 
-// FALSTAD-CUSTOM: modulacion-am
-#circuito(caption: [Lo que sale del modulador de colector. La alimentación del colector (en ámbar) sube y baja con la voz alrededor de $V_"CC"$; la RF de salida (en azul) tiene en cada instante una amplitud igual a esa alimentación. La envolvente de la emisión es la voz.])[
+#circuito(sim: fc.at("modulacion-am"), caption: [Lo que sale del modulador de colector. La alimentación del colector (en ámbar) sube y baja con la voz alrededor de $V_"CC"$; la RF de salida (en azul) tiene en cada instante una amplitud igual a esa alimentación. La envolvente de la emisión es la voz.])[
   #cetz.canvas({
     import cetz.draw: *
     let env(t) = 1 + 0.75 * calc.sin(2 * calc.pi * t / 6)
@@ -1279,7 +1277,7 @@ La @i2c-fig-conv-directa es un receptor completo, de los que los radioaficionado
     wire((13.0, 2.75), (13.4, 2.75))
     altavoz("aur", (13.4, 2.75), (13.4, 1.2))
     ground("gaur", (13.4, 1.2))
-    content((13.85, 2.0), anchor: "west", _i2c-t[auricular])
+    content((14.15, 2.0), anchor: "west", _i2c-t[auricular])
   })
 ] <i2c-fig-conv-directa>
 

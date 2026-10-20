@@ -90,9 +90,17 @@
   import cetz.draw: *
   let style = (width: .3, height: .6)
   let draw(ctx, position, style) = {
-    zap.interface((-.15, -.3), (.15, .3), io: position.len() < 2)
-    rect((-.15, -.3), (.15, .3), fill: white, ..style)
-    line((.15, .3), (.55, .65), (.55, -.65), (.15, -.3), ..style, fill: white)
+    if position.len() < 2 {
+      // suelto: cono hacia la derecha
+      zap.interface((-.15, -.3), (.15, .3), io: true)
+      rect((-.15, -.3), (.15, .3), fill: white, ..style)
+      line((.15, .3), (.55, .65), (.55, -.65), (.15, -.3), ..style, fill: white)
+    } else {
+      // entre dos nodos: el cuerpo sobre el cable y el cono hacia un lado, sin tapar el cable
+      zap.interface((-.3, -.15), (.3, .15), io: false)
+      rect((-.3, -.15), (.3, .15), fill: white, ..style)
+      line((-.3, .15), (-.65, .55), (.65, .55), (.3, .15), close: true, ..style, fill: white)
+    }
   }
   zap.component("altavoz", name, node, draw: draw, style: style, ..params)
 }

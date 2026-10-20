@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -514,7 +515,7 @@ Una bobina de 100 μH ofrece 0,03 Ω a la red de 50 Hz —~un cable~— y 4,4 k�
     wire((3, 2.4), "q.c")
     node("nc", (3, 2.4))
     ground("g2", "q.e")
-    capacitor("cs", (3, 2.4), (5, 2.4), label: (content: $C_"acoplo"$, anchor: "south"))
+    capacitor("cs", (3, 2.4), (5, 2.4), label: $C_"acoplo"$)
     node("o", (5, 2.4), fill: false)
     content((5.1, 2.4), anchor: "west", _i2a-t[a la etapa \ siguiente])
     content((1.6, 1.3), anchor: "east", _i2a-t[señal])
@@ -967,8 +968,7 @@ $ R' = R (N_1 / N_2)^2 $
   El rizado se estima con la ley del depósito: el condensador entrega una carga $Delta q = I Delta t$ entre crestas, y su tensión baja $Delta v = I Delta t slash C$. Tomemos $I = 0,5$ A —~el consumo de un equipo mayor que esta radio, que pide bastante menos; el número redondo sirve para ver el orden de magnitud~—, crestas cada $Delta t = 10$ ms (100 Hz tras el puente) y $C = 2200$ μF: $Delta v = 0,5 dot 0,01 slash 0,0022 approx 2,3$ V de rizado sobre los ∼20 V de continua. Duplicar el condensador lo deja en la mitad; el estabilizador se encarga del resto.
 ]
 
-// FALSTAD-CUSTOM: fuente-completa
-#circuito(caption: [La fuente de alimentación completa: el transformador baja la red a 15 V y aísla; el puente rectifica los dos semiciclos; el electrolítico sostiene la tensión entre crestas. La «radio» que cuelga a la derecha es todo lo demás de este capítulo. En un equipo real seguiría un regulador (zéner o integrado) para dejar los 12 V limpios.])[
+#circuito(sim: fc.at("fuente-completa"), caption: [La fuente de alimentación completa: el transformador baja la red a 15 V y aísla; el puente rectifica los dos semiciclos; el electrolítico sostiene la tensión entre crestas. La «radio» que cuelga a la derecha es todo lo demás de este capítulo. En un equipo real seguiría un regulador (zéner o integrado) para dejar los 12 V limpios.])[
   #esquema({
     import zap: *
     import cetz.draw: content, line, arc
@@ -993,7 +993,8 @@ $ R' = R (N_1 / N_2)^2 $
     content((7.1, -2.6), anchor: "west", _i2a-t[masa])
     node("n1", (4.6, 2.0))
     node("n2", (4.6, -2.6))
-    pcapacitor("c", (4.6, -2.6), (4.6, 2.0), label: $C space 2200 "μF"$)
+    pcapacitor("c", (4.6, -2.6), (4.6, 2.0))
+    content((4.3, 0.9), anchor: "east", $C space 2200 "μF"$)
     content((4.85, 0.05), anchor: "west", _i2a-t(size: 7pt)[+])
     node("n3", (6.1, 2.0))
     node("n4", (6.1, -2.6))
@@ -1039,8 +1040,7 @@ $ R' = R (N_1 / N_2)^2 $
 
 #ptitulo[El filtro en pi: condensador, bobina, condensador] Cuando el rizado de un solo condensador es demasiado, se añade una segunda etapa de filtrado: una bobina en serie y otro condensador a masa (@i2a-fig-pi-fuente). El conjunto $C_1$–$L$–$C_2$ dibuja una letra griega $pi$ (dos patas a masa y un travesaño), y por eso se llama *filtro en pi*. $C_1$ hace el trabajo de antes y deja su rizado; la bobina, que no se opone a la continua, frena con fuerza la componente de 100 Hz del rizado; $C_2$, para esa frecuencia, es casi un cortocircuito a masa. Bobina y $C_2$ forman un divisor de tensión _para el rizado_ que deja pasar la continua entera.
 
-// FALSTAD-CUSTOM: filtro-pi-fuente
-#circuito(caption: [Filtro en pi (CLC) tras el puente. Arriba, la tensión en cada condensador: el rizado de $C_1$ (2,3 V con los valores del ejemplo) llega a $C_2$ reducido a unas tres décimas de voltio. La continua (ámbar) cruza la bobina sin pérdida.])[
+#circuito(sim: fc.at("filtro-pi-fuente"), caption: [Filtro en pi (CLC) tras el puente. Arriba, la tensión en cada condensador: el rizado de $C_1$ (2,3 V con los valores del ejemplo) llega a $C_2$ reducido a unas tres décimas de voltio. La continua (ámbar) cruza la bobina sin pérdida.])[
   #esquema({
     import zap: *
     import cetz.draw: content, line, group, translate
@@ -1263,7 +1263,7 @@ Si la carga es muy pequeña, circula mucha corriente, pero casi toda la potencia
 #destacada($ Q = sqrt(R_"alta" / R_"baja" - 1), quad X_s = Q R_"baja", quad X_p = R_"alta" / Q $, nota: [$X_s$: reactancia del elemento en serie; $X_p$: la del elemento en paralelo])
 $Q$ mide cuánto se «estira» la palanca: cuanto mayor es la relación entre las dos resistencias, mayor es $Q$.
 
-#circuito(caption: [Red en L que adapta un transmisor de 50 Ω a una antena de 200 Ω a 7 MHz. El elemento en paralelo ($C$) va en el lado de la resistencia alta; el elemento en serie ($L$), en el de la baja. Con la bobina en serie y el condensador a masa, la red es además un paso bajo.], sim: "tlmatch1.txt")[
+#circuito(caption: [Red en L que adapta un transmisor de 50 Ω a una antena de 200 Ω a 7 MHz. El elemento en paralelo ($C$) va en el lado de la resistencia alta; el elemento en serie ($L$), en el de la baja. Con la bobina en serie y el condensador a masa, la red es además un paso bajo.], sim: ((fc.at("red-L"), [esta red L]), ("tlmatch1.txt", [otra red L, 75 → 300 Ω])))[
   #esquema({
     import zap: *
     import cetz.draw: content, line
@@ -1304,8 +1304,7 @@ $Q$ mide cuánto se «estira» la palanca: cuanto mayor es la relación entre la
 
 #ptitulo[Dos L espalda con espalda] Imagina dos redes en L puestas en cadena. La primera baja la resistencia alta del final hasta una resistencia intermedia _virtual_ $R_v$, más baja que las de los dos extremos; la segunda sube esa $R_v$ hasta los 50 Ω de la antena. Las dos L ponen su elemento en paralelo hacia fuera (en los extremos, donde la resistencia es mayor) y sus dos bobinas en serie quedan juntas en el centro: se suman en una sola. El resultado es la *red en pi* (@i2a-fig-red-pi): condensador a masa, bobina en serie, condensador a masa. Y aquí está la ganancia: $R_v$ la eliges tú, y con ella eliges $Q$, independientemente de la relación de resistencias.
 
-// FALSTAD-CUSTOM: red-pi
-#circuito(caption: [Red en pi a la salida de un final de válvula: adapta los 2500 Ω de placa a 50 Ω a 7 MHz con $Q = 12$. La bobina se ha dibujado partida en dos para ver las dos redes en L que la forman: en el punto central la resistencia vista es la virtual $R_v approx 17$ Ω, más baja que las de los extremos. $C_1$ es el mando de sintonía (TUNE o PLATE) y $C_2$, el de carga (LOAD).])[
+#circuito(sim: fc.at("red-pi"), caption: [Red en pi a la salida de un final de válvula: adapta los 2500 Ω de placa a 50 Ω a 7 MHz con $Q = 12$. La bobina se ha dibujado partida en dos para ver las dos redes en L que la forman: en el punto central la resistencia vista es la virtual $R_v approx 17$ Ω, más baja que las de los extremos. $C_1$ es el mando de sintonía (TUNE o PLATE) y $C_2$, el de carga (LOAD).])[
   #esquema({
     import zap: *
     import cetz.draw: content, line
@@ -1361,8 +1360,7 @@ $Q$ mide cuánto se «estira» la palanca: cuanto mayor es la relación entre la
 
 #ptitulo[La L doble, al revés] Si las dos redes en L se ponen al revés, con una resistencia virtual _más alta_ que las de los extremos, los elementos en serie quedan fuera y los dos elementos en paralelo se juntan en el centro: es la *red en T* (@i2a-fig-red-t). La versión que usan los radioaficionados tiene dos condensadores variables en serie y una bobina variable a masa (a menudo una bobina «de rodillo», con un contacto que se desliza por las espiras): es el *acoplador en T* (_T-match_), el más común de los acopladores de antena manuales.
 
-// FALSTAD-CUSTOM: red-T
-#circuito(caption: [Acoplador de antena en T. Dos condensadores variables en serie y una bobina variable a masa: con tres mandos, adapta a 50 Ω antenas de impedancias muy distintas. Es un paso alto: no quita armónicos.])[
+#circuito(sim: fc.at("red-T"), caption: [Acoplador de antena en T. Dos condensadores variables en serie y una bobina variable a masa: con tres mandos, adapta a 50 Ω antenas de impedancias muy distintas. Es un paso alto: no quita armónicos.])[
   #esquema({
     import zap: *
     import cetz.draw: content, line

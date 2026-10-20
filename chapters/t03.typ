@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -311,8 +312,7 @@ A frecuencias altas, además, ningún componente real se comporta como su símbo
 
 Una fuente lineal encadena cuatro bloques: transformador (baja la tensión de red), *rectificador* (el diodo recorta la alterna: media onda con un diodo, onda completa con dos y toma media, o *puente* de cuatro), *filtrado* y *estabilización*. El rectificador entrega una tensión pulsante; el condensador de filtro la sostiene entre picos y reduce el *rizado* residual (a 100 Hz tras un puente en red de 50 Hz). Finalmente un zéner o un regulador integrado fija la tensión de salida frente a variaciones de red y de carga. Las *fuentes conmutadas* trocean la tensión a decenas o cientos de kHz y la reconstruyen: mucho más ligeras y eficientes — un transformador de alta frecuencia, minúsculo, sigue aislando galvánicamente el primario del secundario —, a cambio de generar ruido de conmutación que exige buen filtrado, también en la entrada para no verterlo a la red, y apantallamiento (compatibilidad electromagnética, tema T9).
 
-// FALSTAD-CUSTOM: fuente-completa
-#circuito(caption: [Los cuatro bloques de una fuente lineal y la forma de la tensión entre ellos. Cada bloque hace una sola cosa, y el orden no puede cambiarse: no se puede alisar el rizado antes de crearlo.])[
+#circuito(sim: fc.at("fuente-completa"), caption: [Los cuatro bloques de una fuente lineal y la forma de la tensión entre ellos. Cada bloque hace una sola cosa, y el orden no puede cambiarse: no se puede alisar el rizado antes de crearlo.])[
   #cetz.canvas({
     import cetz.draw: *
     let caja(x, t) = {
@@ -518,14 +518,14 @@ Tras el filtro la tensión aún sube y baja con el rizado, con la red y con el c
 
 #circuito(caption: [Fuente conmutada. La red se rectifica directamente; un transistor la trocea a decenas o cientos de kHz; un transformador pequeño baja la tensión y aísla; un segundo rectificador y un filtro dan la continua. El control compara la salida y ajusta la anchura de los pulsos.])[
   #diagram(
-    node-stroke: .7pt, node-corner-radius: 2pt, spacing: (6mm, 9mm),
+    node-stroke: .7pt, node-corner-radius: 2pt, spacing: (4mm, 9mm),
     node((0, 0), [Red\ 230 V~], stroke: none),
     edge("-|>"),
     node((1, 0), [Rectificador\ y filtro], shape: rect),
     edge("-|>"),
     node((2, 0), [Conmutador\ (100 kHz)], shape: rect),
     edge("-|>"),
-    node((3, 0), [Transformador\ de AF], shape: rect),
+    node((3, 0), [Transformador\ de ferrita], shape: rect),
     edge("-|>"),
     node((4, 0), [Rectificador\ y filtro], shape: rect),
     edge("-|>"),
@@ -546,8 +546,7 @@ Tras el filtro la tensión aún sube y baja con el rizado, con la red y con el c
 
 Un transistor tiene tres patas, y la señal entra por una y sale por otra. La tercera queda *común* a la entrada y a la salida (conectada a masa para la señal), y da nombre al montaje. Los tres montajes de la @t3-fig-configuraciones amplifican de forma distinta; el detalle de cada uno está en #ver(<sec-configuraciones>) y el del emisor común, con su polarización, en #ver(<sec-amplificador-ec>).
 
-// FALSTAD-CUSTOM: base-comun
-#circuito(caption: [Los tres montajes del transistor bipolar, dibujados solo para la señal (sin la red de polarización). El terminal común es el que queda unido a masa para la señal.], sim: "ceamp.txt")[
+#circuito(sim: (("ceamp.txt", [emisor común]), (fc.at("base-comun"), [base común])), caption: [Los tres montajes del transistor bipolar, dibujados solo para la señal (sin la red de polarización). El terminal común es el que queda unido a masa para la señal.])[
   #esquema(escala: 0.85, {
     import zap: *
     import cetz.draw: translate
@@ -808,8 +807,7 @@ En radiofrecuencia las resistencias de un filtro RC gastarían la señal: se usa
 
 Una red en pi o en T es, sencillamente, un filtro LC de *tres* elementos. El nombre lo da el dibujo (@t3-fig-pi-t): en la *pi* hay dos elementos a masa y uno en serie entre ellos, como las dos patas y el travesaño de la letra griega $pi$; en la *T* hay dos elementos en serie y uno a masa en el centro, como la letra T tumbada al revés. Si los elementos en serie son bobinas y los de masa condensadores, la red es un paso bajo; si se intercambian, un paso alto. Las redes de adaptación en general se explican en #ver(<sec-redes-adaptacion>).
 
-// FALSTAD-CUSTOM: red-T
-#circuito(caption: [Redes de adaptación de dos y de tres elementos, en versión paso bajo (arriba) y paso alto (abajo). La red en L es la más sencilla; la pi y la T añaden un tercer elemento.])[
+#circuito(sim: ((fc.at("red-L"), [red L]), (fc.at("red-pi"), [red pi]), (fc.at("red-T"), [red T])), caption: [Redes de adaptación de dos y de tres elementos, en versión paso bajo (arriba) y paso alto (abajo). La red en L es la más sencilla; la pi y la T añaden un tercer elemento.])[
   #esquema(escala: 0.72, {
     import zap: *
     import cetz.draw: translate, group
@@ -872,8 +870,7 @@ Una red en pi o en T es, sencillamente, un filtro LC de *tres* elementos. El nom
   - *Pi o T.* La pi de paso bajo pone condensadores a masa en los dos extremos: absorben las capacidades parásitas de la válvula o del transistor y de la línea, y llevan los armónicos a masa. Por eso es *la* red de salida de los transmisores. La T de paso alto (condensador–bobina–condensador) es la base de muchos acopladores de antena.
 ]
 
-// FALSTAD-CUSTOM: red-pi
-#circuito(caption: [Red en pi a la salida de un paso final de válvula. $C_1$ (sintonía, o «placa») y $C_2$ (carga) son variables. Los valores son los de una red para 7,1 MHz que adapta 2000 Ω a 50 Ω con $Q = 10$.])[
+#circuito(sim: fc.at("red-pi"), caption: [Red en pi a la salida de un paso final de válvula. $C_1$ (sintonía, o «placa») y $C_2$ (carga) son variables. Los valores son los de una red para 7,1 MHz que adapta 2000 Ω a 50 Ω con $Q = 10$.])[
   #esquema({
     import zap: *
     import cetz.draw: content
@@ -916,21 +913,21 @@ Una red en pi o en T es, sencillamente, un filtro LC de *tres* elementos. El nom
 
 El mismo dibujo en pi aparece también en las fuentes de alimentación: condensador, bobina (o resistencia) y condensador después del rectificador forman un *filtro en pi* de paso bajo que deja pasar la continua y frena el rizado mucho mejor que un solo condensador.
 
-// FALSTAD-CUSTOM: filtro-pi-fuente
-#circuito(caption: [Filtro en pi de una fuente de alimentación: la misma forma de red, ahora para separar la continua (frecuencia cero) del rizado de 100 Hz.])[
+#circuito(sim: fc.at("filtro-pi-fuente"), caption: [Filtro en pi de una fuente de alimentación: la misma forma de red, ahora para separar la continua (frecuencia cero) del rizado de 100 Hz.])[
   #esquema({
     import zap: *
-    wire((0, 1.6), (0.8, 1.6))
-    capacitor("c1", (0.8, 0), (0.8, 1.6), label: $C_1$)
+    wire((-0.4, 1.6), (0.8, 1.6))
+    capacitor("c1", (0.8, 0), (0.8, 1.6))
+    _t3-et((1.15, 0.8), $C_1$, anchor: "west", size: 10pt)
     inductor("l", (0.8, 1.6), (3.0, 1.6), label: [choque $L$])
     capacitor("c2", (3.0, 0), (3.0, 1.6), label: $C_2$)
     wire((3.0, 1.6), (4.0, 1.6))
-    wire((0, 0), (4.0, 0))
-    node("a", (0, 1.6), fill: false)
-    node("b", (0, 0), fill: false)
+    wire((-0.4, 0), (4.0, 0))
+    node("a", (-0.4, 1.6), fill: false)
+    node("b", (-0.4, 0), fill: false)
     node("c", (4.0, 1.6), fill: false)
     node("d", (4.0, 0), fill: false)
-    _t3-et((-0.1, 0.8), [del rectificador], anchor: "east", size: 7.5pt)
+    _t3-et((-0.5, 0.8), [del rectificador], anchor: "east", size: 7.5pt)
     _t3-et((4.1, 0.8), [continua], anchor: "west", size: 7.5pt)
   })
 ] <t3-fig-pi-fuente>
@@ -1303,8 +1300,7 @@ Un transistor bipolar no conduce hasta que su tensión base-emisor supera unos 0
 
 === La clase C y el efecto volante
 
-// FALSTAD-CUSTOM: clase-c
-#circuito(caption: [Amplificador de clase C. Sin polarización, el transistor solo conduce en las crestas positivas de la excitación y entrega pulsos de corriente; el tanque $L C$ del colector los convierte otra vez en una sinusoide completa.])[
+#circuito(sim: fc.at("clase-c"), caption: [Amplificador de clase C. Sin polarización, el transistor solo conduce en las crestas positivas de la excitación y entrega pulsos de corriente; el tanque $L C$ del colector los convierte otra vez en una sinusoide completa.])[
   #esquema({
     import zap: *
     import cetz.draw: line, content, translate, rect
@@ -1734,7 +1730,8 @@ Con estas dos reglas y la ley de Ohm se calcula la ganancia de cualquier montaje
     wire((2.0, 0.45), "a2.minus")
     node("n2", (2.4, 0.45))
     wire((2.4, 0.45), (2.4, 2.5))
-    resistor("r2b", (2.4, 1.5), (4.9, 1.5), label: (content: $R_2$, anchor: "south"))
+    resistor("r2b", (2.4, 1.5), (4.9, 1.5))
+    _t3-et((2.3, 1.75), $R_2$, anchor: "east", size: 10pt)
     capacitor("c2b", (2.4, 2.5), (4.9, 2.5), label: $C$)
     wire((4.9, 2.5), (4.9, 0))
     node("n2c", (2.4, 1.5))

@@ -101,6 +101,30 @@ build/                   output and scratch; build/*/ hold the agents' generator
 
 ## 4. Status
 
+**Update 2026-10-20 (second session, «completa la tarea»): all steps of §5 are done.**
+
+- *Custom Falstad circuits:* `www.falstad.com` was blocked, so CircuitJS was compiled from its
+  official source (`github.com/pfalstad/circuitjs1`, `gradle makeSite`) and served locally. The
+  calibration circuit `resonancia-serie` gave exactly the live-site numbers. All 12 drafts were
+  run headless (`tools/falstad-test/`) and pass: correct element count, no errors, and the
+  measured behaviour (table in `lib/falstad-custom.md`). One bug was fixed: `mezclador` used
+  element `213` (VCCS) instead of `212` (VCVS). All 13 links are in `lib/falstad-custom.typ` and
+  used at 27 marked figures in the book and 6 places in the cheatsheet (two markers skipped on
+  purpose, reasons in `lib/falstad-custom.md`). `circuito(sim: …)` now also takes a list of
+  (file or URL, [button text]) pairs. No `FALSTAD-CUSTOM` markers remain.
+- *Visual review:* all 306 figures of the intro chapters and T1–T10 were cropped and checked, and
+  all 8 cheatsheet pages. Fixed: overlapping labels (intro-1 Fig. «reactancias», «filtros RC»,
+  «superheterodino», «diagramas de radiación»; intro-2a «choque», «fuente completa»; t03 T3.19,
+  T3.37; t08 T8.11; t09 T9.11; cheatsheet c = λf box), rail stubs in intro-2b «Dos maneras de
+  polarizar», t03 «fuente conmutada» wider than the text (and «Transformador de AF» → «de
+  ferrita»), cheatsheet BLU transmitter in the margin, cheatsheet 12 V example now uses the
+  battery symbol. Automatic checks (ink outside the text block, overlapping words) are clean on
+  both PDFs. Twelve worked examples were recomputed; all correct.
+- *Small issues:* `altavoz` between two nodes now keeps the cone beside the wire.
+- *Final numbers:* book 659 pages, 0 errors, 0 warnings, 0 open references, 0 missing
+  solutions, 55 of 55 question groups ok; cheatsheet 8 pages.
+
+
 **Update 2026-10-20 (layout pass, after the user said the PDFs looked "not clean"):**
 fonts vendored (see §3); running headers without fake small caps; no header or page number on
 the blank pages before odd-page chapter starts (`<fin-capitulo>` marker + `_pagina-en-blanco`);

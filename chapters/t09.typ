@@ -477,7 +477,7 @@ Cuando la señal que molesta está más cerca de la que se quiere recibir, un pa
     node("c2", (5.5, 0.4))
     wire((5.5, 1.8), (6.8, 1.8))
     earth("t", (6.8, 1.8))
-    content((6.8, 1.0), anchor: "north", _t9-chico[tierra])
+    content((7.05, 1.45), anchor: "west", _t9-chico[tierra])
     node("f2", (7.6, 3.2), fill: false)
     node("n2", (7.6, 0.4), fill: false)
     content((7.8, 1.8), anchor: "west", _t9-chico[al equipo])

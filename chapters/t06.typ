@@ -1,4 +1,5 @@
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -838,7 +839,7 @@ En la estación, los equipos se encadenan en un orden canónico: transceptor, (a
 
 La idea de fondo está en #ver(<sec-redes-adaptacion>). Una resistencia en paralelo con una reactancia equivale, a una frecuencia dada, a otra resistencia *más pequeña* en serie con una reactancia. Basta con anular después esa reactancia con otra de signo contrario: queda una resistencia pura, más pequeña que la original. Bobinas y condensadores solo almacenan y devuelven energía, así que, idealmente, la transformación no pierde nada.
 
-#circuito(caption: [Red en L que adapta una antena de 200 Ω a un transmisor de 50 Ω en 7 MHz. El elemento en paralelo va siempre en el lado de impedancia alta.], sim: "tlmatch1.txt")[
+#circuito(caption: [Red en L que adapta una antena de 200 Ω a un transmisor de 50 Ω en 7 MHz. El elemento en paralelo va siempre en el lado de impedancia alta.], sim: ((fc.at("red-L"), [esta red L]), ("tlmatch1.txt", [otra red L, 75 → 300 Ω])))[
   #esquema({
     import zap: *
     import cetz.draw: content
@@ -874,8 +875,7 @@ La idea de fondo está en #ver(<sec-redes-adaptacion>). Una resistencia en paral
   Comprobación: 200 Ω en paralelo con $-j 115$ Ω da $50 - j 86,6$ Ω; al sumar $+j 86,6$ Ω de la bobina quedan 50 Ω.
 ]
 
-// FALSTAD-CUSTOM: red-pi
-#circuito(caption: [Red en pi: condensador en paralelo, bobina en serie y condensador en paralelo. Es la red de salida de los amplificadores de válvulas y la de muchos acopladores.])[
+#circuito(sim: fc.at("red-pi"), caption: [Red en pi: condensador en paralelo, bobina en serie y condensador en paralelo. Es la red de salida de los amplificadores de válvulas y la de muchos acopladores.])[
   #esquema({
     import zap: *
     import cetz.draw: content
@@ -908,8 +908,7 @@ La idea de fondo está en #ver(<sec-redes-adaptacion>). Una resistencia en paral
   - *En los finales de válvulas*, $C_1$ es el mando de *sintonía* (se busca el mínimo de corriente de placa) y $C_2$ el de *carga* (se ajusta el acoplo hasta la potencia deseada).
 ]
 
-// FALSTAD-CUSTOM: red-T
-#circuito(caption: [Red en T: condensador en serie, bobina en paralelo y condensador en serie. Es la red de la mayoría de los acopladores manuales comerciales.])[
+#circuito(sim: fc.at("red-T"), caption: [Red en T: condensador en serie, bobina en paralelo y condensador en serie. Es la red de la mayoría de los acopladores manuales comerciales.])[
   #esquema({
     import zap: *
     import cetz.draw: content

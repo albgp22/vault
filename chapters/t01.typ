@@ -3,6 +3,7 @@
 // Modo EXPAND: se conserva todo el original y se añaden motivación, figuras,
 // ejemplos y trampas de examen.
 #import "/lib/template.typ": *
+#import "/lib/falstad-custom.typ": fc
 #import "/lib/circuits.typ": *
 
 // ---------------------------------------------------------------------
@@ -716,8 +717,7 @@ El espectro son tres rayas: la portadora y dos *bandas laterales* en $f_c plus.m
   })
 ] <t1-fig-am-espectro>
 
-// FALSTAD-CUSTOM: modulacion-am
-#circuito(caption: [Emisión de AM con índice de modulación $m = (A_"máx" - A_"mín") slash (A_"máx" + A_"mín") = 0,5$. La envolvente reproduce la señal moduladora; si $m$ supera el 100 % (sobremodulación) la envolvente se recorta y aparecen distorsión y emisiones fuera del canal.])[
+#circuito(sim: fc.at("modulacion-am"), caption: [Emisión de AM con índice de modulación $m = (A_"máx" - A_"mín") slash (A_"máx" + A_"mín") = 0,5$. La envolvente reproduce la señal moduladora; si $m$ supera el 100 % (sobremodulación) la envolvente se recorta y aparecen distorsión y emisiones fuera del canal.])[
   #cetz.canvas({
     import cetz.draw: *
     let s = 1.1
@@ -824,8 +824,7 @@ FM de banda estrecha de radioaficionado: desviación $Delta f = 2,5$ kHz y voz h
 
 El precio de la FM es espectral: en rigor, una portadora modulada en frecuencia genera _infinitas_ bandas laterales espaciadas $f_m$, con amplitudes que siguen las funciones de Bessel de orden creciente evaluadas en $m$; la regla de Carson funciona porque más allá de $Delta f + f_m$ las componentes son ya despreciables. A cambio aparece el _efecto captura_: de dos señales de FM en el mismo canal, el receptor engancha casi por completo la más fuerte y suprime la débil — al contrario que en AM, donde ambas se oyen mezcladas.
 
-// FALSTAD-CUSTOM: modulacion-fm
-#circuito(caption: [(a) FM en el tiempo: la amplitud no cambia; la frecuencia instantánea sube cuando la moduladora (arriba) es positiva y baja cuando es negativa. (b) Espectro de FM con $m = 2$: rayas separadas $f_m$, con alturas $|J_n (2)|$ dadas por las funciones de Bessel. Más allá de $plus.minus 3 f_m$ (la anchura de Carson, $2 (Delta f + f_m) = 6 f_m$) las rayas son ya despreciables.])[
+#circuito(sim: fc.at("modulacion-fm"), caption: [(a) FM en el tiempo: la amplitud no cambia; la frecuencia instantánea sube cuando la moduladora (arriba) es positiva y baja cuando es negativa. (b) Espectro de FM con $m = 2$: rayas separadas $f_m$, con alturas $|J_n (2)|$ dadas por las funciones de Bessel. Más allá de $plus.minus 3 f_m$ (la anchura de Carson, $2 (Delta f + f_m) = 6 f_m$) las rayas son ya despreciables.])[
   #grid(
     columns: 1,
     row-gutter: 0.9em,

@@ -108,7 +108,7 @@ class Circuit:
 
     def vcvs(self, x, y, expr, name=None):
         # inputs A (x,y), B (x,y+32); outputs V+ (x+96,y), V- (x+96,y+32)
-        return self.add(f"213 {x} {y} {x + 32} {y} 0 2 {esc(expr)}", name)
+        return self.add(f"212 {x} {y} {x + 32} {y} 0 2 {esc(expr)}", name)  # 212 = VCVS (213 is the VCCS)
 
     def probe(self, x1, y1, x2, y2, meter=1, name=None):
         # voltmeter; meter 0 = instantaneous, 1 = RMS, 2 = max

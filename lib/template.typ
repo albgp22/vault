@@ -390,13 +390,19 @@
   ))
 }
 
-/// Figura con esquema o gráfica. `sim:` añade el enlace a Falstad al pie.
+/// Figura con esquema o gráfica. `sim:` añade el enlace a Falstad al pie: un archivo
+/// o URL, o una lista de pares (archivo o URL, [texto del botón]) para varios botones.
 /// Uso:  #circuito(caption: [...], sim: "lrc.txt")[ #zap.circuit({ ... }) ] <t3-fig-lrc>
-#let circuito(cuerpo, caption: none, sim: none) = figure(
-  cuerpo,
-  kind: image,
-  caption: if sim == none { caption } else { [#caption #h(0.3em) #falstad(sim)] },
-)
+#let circuito(cuerpo, caption: none, sim: none) = {
+  let botones = if sim == none { none } else if type(sim) == array {
+    sim.map(((s, t)) => falstad(s, texto: t)).join(h(0.3em))
+  } else { falstad(sim) }
+  figure(
+    cuerpo,
+    kind: image,
+    caption: if botones == none { caption } else { [#caption #h(0.3em) #botones] },
+  )
+}
 
 // ---------------------------------------------------------------------
 //  Plantilla del documento

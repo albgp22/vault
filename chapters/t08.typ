@@ -573,7 +573,7 @@ La misma física explica el «dip» de la corriente de placa al sintonizar la et
     wire((-0.8, 2.2), (2.2, 2.2))
     node("tx", (-0.8, 2.2), fill: false)
     content((-0.8, 2.55), anchor: "south", _t8-chico[del transmisor])
-    resistor("r", (2.2, 2.2), (2.2, 0), label: (content: [$R$ = 50 Ω], anchor: "south"))
+    resistor("r", (2.2, 2.2), (2.2, 0), label: (content: [$R$ \ 50 Ω], anchor: "south"))
     ground("g1", (2.2, 0))
     wire((2.2, 2.2), (3.3, 2.2))
     diode("d", (3.3, 2.2), (4.6, 2.2))
