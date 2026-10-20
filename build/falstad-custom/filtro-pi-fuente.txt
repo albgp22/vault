@@ -1,0 +1,43 @@
+$ 1 2e-05 50 50 15 50 5e-11
+x 48 40 784 44 4 16 Rectificador\sen\spuente:\sfiltro\scon\sun\scondensador\sfrente\sa\sfiltro\sen\spi\s(50\sHz,\scarga\s100\sΩ)
+v 96 320 96 96 0 1 50 15 0 0 0.5
+d 176 208 224 160 1 0.805904783
+d 176 208 224 256 1 0.805904783
+d 224 160 272 208 1 0.805904783
+d 224 256 272 208 1 0.805904783
+w 96 96 224 96 0
+w 224 96 224 160 0
+w 224 256 224 320 0
+w 224 320 96 320 0
+g 176 208 176 224 0
+w 272 208 336 208 0
+x 320 136 544 140 4 12 Solo\sun\scondensador\s(470\sµF)
+c 336 208 336 304 0 0.00047 0
+g 336 304 336 320 0
+w 336 208 432 208 0
+r 432 208 432 304 0 100
+g 432 304 432 320 0
+v 96 608 96 384 0 1 50 15 0 0 0.5
+d 176 496 224 448 1 0.805904783
+d 176 496 224 544 1 0.805904783
+d 224 448 272 496 1 0.805904783
+d 224 544 272 496 1 0.805904783
+w 96 384 224 384 0
+w 224 384 224 448 0
+w 224 544 224 608 0
+w 224 608 96 608 0
+g 176 496 176 512 0
+w 272 496 336 496 0
+x 320 424 696 428 4 12 Filtro\sen\spi:\sC1\s\q\s470\sµF,\sL\s\q\s1\sH,\sC2\s\q\s470\sµF
+c 336 496 336 592 0 0.00047 0
+g 336 592 336 608 0
+l 336 496 464 496 0 1 0
+c 464 496 464 592 0 0.00047 0
+g 464 592 464 608 0
+w 464 496 560 496 0
+r 560 496 560 592 0 100
+g 560 592 560 608 0
+x 48 664 728 668 4 12 Arriba:\sla\scarga\sve\sun\sdiente\sde\ssierra\sde\sunos\s3\sV.\sAbajo:\sla\sbobina\sfrena\sel\srizado
+x 48 684 456 688 4 12 y\sC2\slo\sderiva\sa\smasa;\sla\stensión\ses\scasi\scontinua.
+o 16 8 0 4098 5 0.1 0 2 36 0 Carga:\ssolo\sC\s(rizado\sgrande)\sy\sfiltro\sen\spi\s(casi\scontinua)
+o 30 8 0 4098 5 0.1 1 2 33 0 Filtro\sen\spi:\srizado\sen\sC1\s(antes\sde\sL)\sy\sen\sC2\s(después)

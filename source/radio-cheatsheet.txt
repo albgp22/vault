@@ -1,0 +1,307 @@
+Examen de radioaficionado (HAREC) — hoja de conceptos clave                                                              15 aciertos de 30 en cada prueba · 45 min por prueba · no restan errores
+
+
+   PRUEBA 1 · ELECTRICIDAD Y RADIOELECTRICIDAD                   trasero. p.r.e. (p.r.a.) (dipolo) y p.i.r.e. (isótropa) = 𝑃 ·𝐺. FI, OL a la 𝑓 de la señal, sale audio.
+                                                                 𝐴𝑒 = 𝜆 2𝐺/4𝜋 . Pasiva: sin amplificador; mismo diagra- Recuerda Señal, OL e imagen equiespaciadas (FI), el
+ ELECTRICIDAD Y SEÑALES (T1, 16 %)                               ma al transmitir y recibir. Líneas: coaxial 50 Ω (75 TV); OL en medio: OL arriba 𝑓 = 𝑓
+                                                                                                                                                                       𝑂𝐿 − 𝑓𝐹 𝐼 ; OL abajo
+Unidades: Ω resistencia; A intensidad; V tensión y fem; paralela 300–600 Ω; guiaondas: no propaga bajo su fre- 𝑓𝑠 = 𝑓𝑂𝐿 + 𝑓𝐹 𝐼 (la resta es el distractor).
+                                                                                                                                                                𝑠
+
+W potencia; J energía; C carga (1 C = 1 A·s); F capacidad;       cuencia
+                                                                      √    de  corte.   FV  <   1 (0,66 coaxial   de  polietileno)
+H autoinducción; Hz frecuencia; V/m campo eléctrico. = 1/ 𝜀𝑟 : 𝐿 𝑓 𝑖𝑠 = 𝐿𝑒𝑙 · FV, la física es menor.                              Sensibilidad        captar señales débiles (1.ª etapa)
+Prefijos: M 106 , k 103 , m 10 −3 , 𝜇 10 −6 , n 10−9 , p 10−12 .               𝑍𝐿 − 𝑍 0                  𝑉𝑚𝑎𝑥        1+𝜌
+                                                                                                                                   Selectividad        separar señales próximas; filtros de
+                                                                         𝜌  =                   ROE   =           =                                    FI
+            𝑉 = 𝐼𝑅        𝑃 = 𝑉 𝐼 = 𝐼 2 𝑅 = 𝑉 2 /𝑅                             𝑍𝐿 + 𝑍 0                  𝑉𝑚𝑖𝑛        1−𝜌           Estabilidad         no derivar de 𝑓 ; oscilador local
+                                                                 Adaptada: 𝜌 = 0, ROE = 1 (1:1; nunca menor que 1; Margen dinámi- lo fija el 1.er mezclador
+ ¡OJO! 𝑃 = 𝐸 2 𝑅 es la fórmula falsa (la 𝑅 divide).
+                                                                 funcionamiento correcto: entre 1 y 2,5). Reflejada = 𝜌 2 : co
+ 𝑅 = 𝜌 𝑙/𝑆: más longitud o resistividad, más 𝑅; más
+                                                                 ROE 1,5 → 4 %; 2 → 11 %; 3 → 25 % (100 W directa, 25 W Otros: S/R en dB; desensibilización y bloqueo; intermo-
+ sección, menos 𝑅.
+                                                                 reflejada: 𝜌 = 0,5, ROE 3, radia 75 W). Tx, línea y antena dulación y modulación cruzada (no linealidad); canal
+Serie: misma 𝐼 , 𝑅 = 𝑅1 + 𝑅2 . Paralelo: misma 𝑉 , de igual 𝑍 : reflejada nula. Línea 𝜆/4: 𝑍 0 = √𝑍𝑙𝑖𝑛 𝑍 𝐿 (50 adyacente (lineal, faldones de FI). Figura de ruido: pesa
+1/𝑅 = 1/𝑅1 +1/𝑅2 (dos: producto/suma; 𝑛 iguales:       ∑︁ 𝑅/𝑛); y 150 Ω → 87 Ω); cortocircuito → circuito abierto; tra- la 1.ª etapa. Ruido estático: descargas atmosféricas
+siempre   menor  que  la menor.  Kirchhoff:     nudo      𝐼 = 0; mos abiertos o en corto: circuitos sintonizados. Balun: (QRN). Mandos: CAG: salida constante (su mando, el
+malla 𝑉 = 0. Coulomb: 𝐹 = 𝑘𝑞 1𝑞 2 /𝑑 2 . Fuente real: coaxial (asimétrico) ↔ dipolo (simétrico). Acoplador tiempo de respuesta); S-meter: intensidad de señal (6 dB
+       ∑︁
+𝑉 = 𝜀 − 𝐼𝑟 ; en cortocircuito 𝐼𝑐𝑐 = 𝜀/𝑟 . Pilas en serie: (red 𝜋 : 𝐶–𝐿–𝐶): adapta final, línea y antena. Relé T-R: por punto, S9 = 50 𝜇V); squelch: corta el audio sin
+suman tensión (misma corriente); en paralelo: misma al transmitir desconecta (a masa) la entrada del receptor; señal; NB: ruido impulsivo; RIT: varía la 𝑓 de recepción
+tensión, más corriente. Batería: energía química → eléc- antenas sin uso, a masa.                                                  sin tocar la de transmisión; RF GAIN: ganancia de RF;
+trica; 𝑡 = 𝐶/𝐼 (7 Ah a 0,5 A: 14 h). Campos: 𝐸 = 𝑉 /𝑑                                                                              LSB ↔ USB: frecuencia de batido; BFO imprescindible
+                                                                  Recuerda Orden: transceptor → (lineal) → medidor
+(V/m), se apantalla con metal a tierra; el magnético de ba-                                                                        en CW y SSB. LSB en 160, 80 y 40 m; USB de 20 m
+                                                                  de ROE → acoplador → antena.
+ja 𝑓 solo con ferromagnéticos. Onda EM: 𝐸® ⊥ ®        𝐵; pola-                                                                     arriba. Filtro de FI más estrecho en CW; SSB ≈2,4 kHz
+rización = dirección de 𝐸;   ® 𝑐 = 3·108 m/s (300 000 km/s) CIRCUITOS (T3, 13 %)                                                   (J3E ocupa ≈2,7 kHz). Conversor para 2 m con receptor
+en el vacío, constante.                                                                                                            de HF.
+                                                                               𝑓0 =      √
+                                                                                          1
+                                                                                                      𝑄=
+                                                                                                            𝑓0 𝑋
+                                                                                                                =                   ¡OJO! NBFM: 12 kHz (FM difusión 200 kHz; 2,4 kHz
+            𝑐 = 𝜆𝑓        𝜆 (m) ≈ 300/𝑓 (MHz)
+                                                                                      2𝜋 𝐿𝐶                 𝐵       𝑅               es SSB).
+144 o 145 MHz → 2 m; 430 → 70 cm; 7 → 40 m; 3,5
+→ 80 m. Senoidal: 𝑇 = 1/𝑓 (25 Hz: 40 ms). 𝑉𝑒 𝑓 =                 Resonancia:       𝑋 𝐿  = 𝑋 𝐶 , 𝑍  resistiva;  serie  𝑍 mínima,     COMPONENTES (T2, 10 %)
+        √                                                        paralelo 𝑍 máxima. Más 𝐿 o 𝐶, menor 𝑓0 . 𝐵 a −3 dB; 𝑄
+𝑉𝑚𝑎𝑥 / 2 = 0,707 𝑉𝑚𝑎𝑥 (100 V: 70,7 V): misma poten- alta = curva estrecha, más selectivo. 𝐿𝐶 serie en deriva- Código de colores: 0 negro, 1 marrón, 2 rojo, 3 naran-
+cia calorífica que la continua. Media de la semionda ción a su resonancia: cortocircuito (el vatímetro marca ja, 4 amarillo, 5 verde, 6 azul, 7 violeta, 8 gris, 9 blanco
+2𝑉𝑚𝑎𝑥 /𝜋 = 0,637 𝑉𝑚𝑎𝑥 ; de la senoide entera, 0. «Am- mínima). En HF, sobre su autorresonancia un condensa- (del rojo al violeta, como el arco iris). 1.ª y 2.ª cifras; 3.ª
+plitud» = máximo − medio. Fase: en 𝑅, 𝑉 e 𝐼 en fase; dor es una bobina.                                                            multiplicador 10𝑛 ; 4.ª tolerancia: marrón 1 %, oro 5 %,
+en 𝐿, 𝑉 adelanta 90◦ ; en 𝐶, 𝐼 adelanta 90◦ ; cos 𝜑 = 𝑃 /𝑆                                                                         plata 10 %. Marrón-negro-rojo-oro = 1 kΩ 5 %; violeta-
+(factor de potencia; 𝜑 = desfase 𝑉 –𝐼 ). No senoidal: Fou- ¡OJO! Condensadores: en paralelo suman, en serie verde-rojo-oro = 7,5 kΩ 5 %. Se fija por valor, potencia
+rier: continua + fundamental + armónicos (2𝑓 , 3𝑓 . . . ). por inversas (al revés que las 𝑅): 400 pF con dos de (𝑃 = 𝐼 2 𝑅) y tolerancia. PTC: 𝑅 ↑ con 𝑇 ; NTC: 𝑅 ↓; varis-
+Ruido blanco: independiente de 𝑓 ; térmico 𝑃 = 𝑘𝑇 𝐵. 100 pF ⇒ 200 pF. En régimen permanente, circuito tor: depende de la tensión (protege de sobretensiones).
+                                                                  abierto (12 V, 1 kΩ y 3 kΩ: 9 V).
+Analógica: infinitos valores.                                                                                                      Condensador: 𝐶 = 𝑄/𝑉 = 𝜀𝑆/𝑑; 𝑋𝐶 = 1/(2𝜋 𝑓 𝐶 ) ba-
+▶ A1A CW: on/off; flancos bruscos ⇒ chasquidos.                  Fuente    lineal: transformador → rectificador → filtro ja con 𝑓 ; 𝐸 = 12 𝐶𝑉 2 ; dieléctrico aislante; 𝜏 = 𝑅𝐶 (63 %
+▶ A3E AM: amplitud; portadora + 2 bandas, 𝐵 = 2𝑓𝑚 → regulador (zéner o integrado). Media onda: 1 diodo, en 𝜏). Electrolítico: polarizado, dieléctrico de óxido, fil-
+   (6 kHz); 𝑚 > 100 %: sobremodulación (distorsión, rizado 50 Hz; onda completa: 2 diodos (toma media) trado de fuentes. Descarga con una resistencia. Bobina:
+   splatter).                                                    o puente de 4, rizado 100 Hz. El filtro (condensador) 𝑋𝐿 = 2𝜋 𝑓 𝐿 (0 en continua); 𝐸 = 12 𝐿𝐼 2 ; sube con espiras,
+▶ J3E SSB: 1 banda, sin portadora; 2,7 kHz.                      quita la alterna residual, no la continua; el regulador diámetro y núcleo ferromagnético; 𝑄 = 𝑋𝐿 /𝑅; efecto
+▶ F3E FM: frecuencia, amplitud constante; 𝑚 = Δ𝑓 /𝑓𝑚 ; fija 𝑉 frente a carga y red. Conmutada: trocea a de- pelicular (la RF va por la superficie).
+   Carson 𝐵 ≈ 2(Δ𝑓 + 𝑓𝑚 ). PM: fase. FM comercial: cenas o cientos de kHz; ligera, genera ruido (filtrar).                               𝑉𝑠     𝑁𝑠        𝐼𝑠   𝑁𝑝              (︂ 𝑁𝑝 )︂ 2
+   VHF.                                                          Clase Conduce Rend.                  Uso                                    =               =          𝑍𝑝 =              𝑍𝑠
+                                                                                                                                         𝑉𝑝     𝑁𝑝       𝐼𝑝    𝑁𝑠                 𝑁𝑠
+▶ Espectros: AM, portadora y 2 bandas simétricas; SSB,                       ◦
+                                                                 A      360           25–50 %         mínima distorsión            Transformador ideal: 𝑃𝑝 = 𝑃𝑠 ; 20:1 con 230 V: 11,5 V;
+   una sola raya; FM, muchas bandas separadas 𝑓𝑚 ; CW,
+                                                                 AB 180–360◦ medio                    lineal SSB
+   una raya.                                                                                                                       reductor: menos espiras en el secundario; con conti-
+                                                                 B      180◦          hasta 78,5 % contrafase
+▶ FSK frecuencia; PSK fase; QAM amplitud + fase;                                ◦                                                  nua no transfiere; autotransformador: devanado común;
+                                                                 C       < 180        el mayor        amplitud constante
+   bit/símbolo = log2 𝑀; 𝐵 según velocidad de símbolo;                                                                             adapta impedancias. Diodo: un sentido (Si ≈ 0,6–0,7 V);
+   CRC detecta, FEC corrige.                                      ¡OJO! Clase C solo para CW o FM, nunca SSB ni AM: zéner estabiliza (inversa); LED luce en directa; varicap:
+AM: 𝑃𝑡 = 𝑃𝑐 (1 + 𝑚 2 /2) (al 100 %, la portadora lleva 23 ). menos conduce, más rinde y peor copia la señal.                       𝐶 según 𝑉 inversa. Transistor: bipolar NPN/PNP (emi-
+                                                                                                                                   sor, base, colector), 𝛽 = 𝐼𝐶 /𝐼𝐵 ; FET: puerta, drenador,
+           𝐺 = 10 log(𝑃2 /𝑃1 ) = 20 log(𝑉2 /𝑉1 )                 Realimentación negativa: menos ganancia, más esta- surtidor, 𝑍
+                                                                                                                                               𝑒𝑛𝑡 muy alta. Emisor común: gana en 𝑉
+                                                                 bilidad, linealidad y 𝐵; la positiva hace oscilar. Opera- e 𝐼 , invierte;        base común: RF, 𝑍𝑒𝑛𝑡 baja, gana en 𝑉 ;
+×2 = +3 dB; ×4 = +6; ×10 = +10; ×100 = +20;
+                                                                 cional:  ganancia    muy   alta, 𝑍     alta, 𝑍     baja; entradas colector común: seguidor de emisor (𝑍𝑒𝑛𝑡 alta, 𝑍𝑠𝑎𝑙
+×104 = +40; en cadena se suman (20 dB con 0,2 W:                                                    𝑒𝑛𝑡         𝑠𝑎𝑙
+                                                                 inversora (−) y no inversora (+); inversor 𝐺 = −𝑅2 /𝑅1 . baja). Semiconductor P: huecos. Válvulas: cátodo ca-
+20 W). dBm ref. 1 mW; dBW ref. 1 W; dB𝜇V: tensión.
+                                                                 Filtros: paso bajo (salida del Tx: quita armónicos); paso liente emite; placa (+) recoge; rejilla controla. Tríodo
+ ¡OJO! 1 W = 30 dBm = 0 dBW (no «30 dBW» ni alto; paso banda (FI); rechazo de banda. 𝑓𝑐 en −3 dB;
+                                                                                                                                   3; tetrodo 4 (pantalla: menos capacidad rejilla-placa);
+ «30 dB»). 100 W = 50 dBm.                                       6 dB/octava por polo. Pi: 𝐶–𝐿–𝐶; T: 𝐿–𝐶–𝐿. Cuarzo: pentodo 5 (cátodo, 3 rejillas, placa). Caldeo antes de
+Adaptación: 𝑅𝐿 = 𝑅𝑔 : máxima transferencia de poten- piezoeléctrico, 𝑄 de decenas de miles. FIR sin realimen- transmitir. Integrados: SSI, MSI, LSI, VLSI (CSI no exis-
+cia. 𝜂 = 𝑃𝑠𝑎𝑙 /𝑃𝑎𝑙𝑖𝑚 . DSP: Nyquist 𝑓𝑠 ≥ 2𝑓𝑚𝑎𝑥 (3 kHz: tación; IIR con ella. Oscilador: realimentación positi-                   ◦ te). Símbolos: diodo, triángulo y barra; 𝑅, rectángulo;
+6 kHz); aliasing ⇒ filtro antisolapamiento antes del A/D va; ganancia del lazo compensa pérdidas y fase 360 𝐶, dos trazos; 𝐿, espiras. Faradio: capacidad (no carga);
+y de reconstrucción tras el D/A; +1 bit ≈ +6 dB.                 (Barkhausen); convierte CC en CA. Cristal: muy estable henrio: autoinducción.
+                                                                 (sobretono a partir de unos 20–30 MHz); VCO: varicap;
+ ANTENAS Y LÍNEAS (T6, 14 %)
+                                                                 deriva por temperatura. PLL: 𝑓𝑜𝑢𝑡 = 𝑁 𝑓𝑟𝑒 𝑓 (12,5 kHz TRANSMISORES (T5, 8 %)
+Dipolo 𝜆/2: 𝐼 máxima en el centro, 𝑉 máxima en los × 11 600 = 145 MHz). Mezclador: 𝑓1 ± 𝑓2 (14 y 4 MHz: SSB: micro → preamp. → compresor → modulador
+extremos; 𝑍 ≈ 73 Ω resistiva (centro), miles de Ω (extre- 18 y 10). Detectores: AM: envolvente (diodo + RC, asín- equilibrado (quita la portadora) → filtro de banda
+mo); banda de 40 m: 20 m. Plegado: ≈ 300 Ω (4 × 73). crono); SSB y CW: producto + BFO; FM: pendiente, dis- lateral (quita una banda) → mezclador (con VFO) →
+Vertical 𝜆/4: plano de tierra o radiales; ≈ 36 Ω (radiales criminador, relación, PLL (con limitador). Diodo + 𝐿𝐶 lineal clase AB → paso bajo. ALC: muestra la salida
+inclinados: hacia 50 Ω); polarización vertical, máximo paralelo + auricular: receptor de AM.                                       y limita la excitación (evita splatter). FM: varicap en
+en el plano horizontal. V invertida: ≈ 50 Ω, un solo RECEPTORES (T4, 13 %)                                                         VCO → multiplicadores (×𝑁 multiplica también la des-
+mástil. Yagi: directiva; un elemento alimentado + pará-                                                                            viación) → clase C; modulador de fase tras cristal: FM
+sitos (reflector más largo detrás, directores más cortos Cadena: antena → amp. RF → mezclador (con OL) → indirecta. Orden: modulador → amplificación y trasla-
+delante). Trampas: 𝐿𝐶 paralelo, multibanda. Bobinas filtro y amp. FI → detector → amp. BF. CAG toma del ción → final → red de acoplo. Excitador: excita al final;
+en los brazos: alargan la longitud eléctrica (resuena detector y baja la ganancia de RF y FI; BFO alimenta al separadora: aísla el oscilador; VOX: pasa a Tx al hablar;
+más bajo que por su longitud física). Helicoidal: pola- detector de producto. FM: FI → limitador → discrimi- CAF: control automático de frecuencia. 𝑍𝑠𝑎𝑙 = 50 Ω. Au-
+rización circular, satélites; ganancia según nº de espiras. nador.                                                                 dio: 300–3000 Hz; el compresor sube la potencia media
+Apertura: bocina, parabólica. Resonancia: 𝑍 resistiva                         𝑓𝐹 𝐼 = | 𝑓𝑂𝐿 − 𝑓𝑠 | 𝑓𝑖𝑚 = 𝑓𝑠 + 2𝑓𝐹 𝐼                 sin pasar el pico; sobremodulación (micro alto): bajar la
+pura; más corta ⇒ capacitiva, más larga ⇒ inductiva; 7 MHz con FI 9: OL 16 MHz; OL 5,2 (debajo) y FI 9: BF. 𝑚 𝐹 𝑀 = Δ𝑓 /𝑓𝑚 (25/10 = 2,5); NBFM: ±2,5 a ±5 kHz.
+bajar 𝑓 = alargar (29,9 → 28,5 MHz). 𝐶 serie acorta; 14,2 MHz; OL 14,655 y FI 455 kHz: 14,2 MHz, imagen Potencias: portadora (un ciclo, sin modular); PEP =
+𝐿 serie alarga. Ganancia: relativa: dBi (isótropa), dBd 15,11 MHz. La imagen se elimina antes del mezclador cresta de la envolvente (≥ media); AM 100 %: pico = 4×
+(dipolo); dBi = dBd + 2,15. Ancho de haz: entre puntos (filtro preselector). Doble conversión: 1.ª FI alta (aleja la portadora. 𝜂 = 𝑃𝑎𝑛𝑡 /𝑃𝑐𝑜𝑛𝑠 . No deseadas = no esencia-
+de −3 dB. Adelante-atrás: dB entre lóbulo principal y imagen), 2.ª baja (selectividad). Conversión directa: sin les (armónicos, espurias, intermodulación) + fuera de
+banda (junto al canal, por la modulación). < 30 MHz:           SEGURIDAD (T10, 4 %)                                      BANDAS Y POTENCIAS (ANEXO I; R4, R8)
+≥40 dB bajo la media, sin pasar de 50 mW (el más restric-  Fusible: en serie; sobreintensidades; siempre del mis- 137 kHz (2200 m); 475 kHz (630 m) 1 W p.i.r.e.
+tivo). 30–235 MHz: > 25 W, 60 dB y ≤ 1 mW; ≤ 25 W,         mo calibre (nunca mayor ni puente). Magnetotérmi- 160 m 1,8 · 80 m 3,5 · 40 m 7 · 30 m 10 1000 W p.c.e.
+40 dB y ≤ 25 𝜇W. Radiación por la estructura: chasis y     co: sobrecargas y cortocircuitos. Diferencial (30 mA): · 20 m 14 · 17 m 18 · 15 m 21 · 12 m
+cables. Ancho necesario: el justo; ocupado: entre límites  ida ≠ retorno: fugas y contactos indirectos; protege per- 24 · 10 m 28 MHz
+                                                           sonas. Tierra: a cada chasis; resistencia mínima; sin 6 m 50 · 4 m 70 · 2 m 144–146 MHz 600 W p.c.e.
+inferior y superior. Ajustar con carga artificial; valvular:
+sintonía (mínimo de placa) y carga. Repetidor: recibe
+y retransmite a la vez en otra 𝑓 desde un punto alto;
+                                                           fusible ni interruptor; terreno húmedo. Interruptor ge- 70 cm 430–440 MHz                                300 W p.c.e.
+                                                           neral. Tormenta: desconectar antena y equipo. Antena 23 cm 1240–1300 · 13 cm 2300–2450 · 1000 W p.i.r.e.
+CTCSS; en 2 m, entrada 600 kHz bajo la salida.             transmitiendo: no tocar. Mástil propio (no el de la ante- 6 cm 5650–5850 MHz; 10 · 24 · 47 ·
+ PROPAGACIÓN (T7, 8 %)                                     na colectiva), lejos de líneas (más que su altura), vientos 75–250 GHz
+VLF 3–30 kHz       miriam. LF 30–300 kHz kilom.            repartidos y tensos por igual, con aisladores. Abrir un
+MF 0,3–3 MHz hectom. HF 3–30 MHz decam.                    equipo: desenchufar y descargar condensadores. Acci- ▶ 630 m: hasta 5 W a más de 800 km de países africanos.
+VHF 30–300 MHz métricas UHF 0,3–3 GHz decim.               dente: cortar la corriente primero; apartar con aislante;        Banda secundaria: ≤ 50 % de la tabla. EME y disper-
+SHF 3–30 GHz       centim. EHF 30–300 GHz milim.           respiración artificial; no dar de beber. Pesan intensidad,       sión meteórica: hasta 1000 W p.c.e. (fuera de casco
+                                                                                                                            urbano). Campo < 3,5 mW/cm2 .
+ Recuerda HF = decamétricas (10–100 m); un escalón         recorrido    y tiempo    (1 mA  se nota,  10–20    mA  agarro-
+                                                                                                                          ▶ Aut. especial: 2300–2450 MHz (salvo 2316–2332),
+ más en 𝑓 , uno menos en tamaño.                           ta,  30 mA   fibrila). Interferencia  a vida humana,    móvil
+                                                           aeronáutico o ICT: dejar de emitir. Incendio: cortar la          5650–5850 (salvo 5700–5720 y 5760–5762), 24,050–
+Capas: D (60–90 km) solo de día, absorbe bandas ba- corriente y extintor adecuado.                                          24,250 GHz. ICM (se acepta su interferencia): 433,05–
+jas (3,5 MHz: de día, menos alcance); E (90–140 km),                                                                        434,79; 2400–2450; 5725–5800 MHz; 24,00–24,25 GHz.
+esporádica-E; F (140–400 km): F1 y F2 de día, una de             PRUEBA 2 · NORMATIVA REGLAMENTARIA (Orden                ▶ Servicio secundario: no interfiere ni reclama protec-
+                                                                             IET/1311/2013 · Ley 11/2022)
+noche. Ciclo solar de 11 años: más manchas, mejo-                                                                           ción frente al primario. p.i.r.e. = 𝑃 · 𝐺𝑖 .
+res bandas altas. Orden: troposfera, estratosfera, io-                                                                    ▶ Bandas: VLF 3–30 kHz · LF 30–300 kHz · MF 0,3–3
+                                                             PLAZOS Y CIFRAS QUE MÁS CAEN (R8)
+nosfera. 𝑓𝑐 : máxima que refleja en incidencia vertical;                                                                    MHz · HF 3–30 MHz · VHF 30–300 MHz (métricas,
+MUF ≈ 𝑓𝑐 /cos 𝜃 ; óptima ≈ 85 % de la MUF. Ángulo Resolver                    6 semanas; silencio = desestimada             B.m, nº 8) · UHF 0,3–3 GHz (nº 9) · SHF 3–30 GHz ·
+de radiación bajo: salto más largo; zona de silencio. solicitud                                                             EHF 30–300 GHz. Clases: A1A CW · A3E AM · J3E
+Por banda: MF: onda de superficie; HF: reflexión io- Vigencia                 hasta renuncia o revocación; sin              BLU · F3E FM.
+nosférica (DX, España–Nueva Zelanda); VHF y UHF:                              renovar                                      CEPT, HAREC Y UIT (R8)
+onda directa, horizonte  √ radioeléctrico
+                               √          algo mayor que Aut.                  ≥1 mes antes; máx. 18 meses,
+el óptico (𝑑 ≈ 4,12( ℎ 1 + ℎ 2 ) km); satélites: VHF experimental ampliable                                                Recuerda 61-01: visito ⇒ licencia CEPT; 61-02: me
+y UHF; EME: VHF y superiores; a más 𝑓 , menos al- Uso portable avisar 5 días antes; usos no                                instalo ⇒ HAREC.
+cance. Especiales: esporádica-E (VHF, verano); auro-                          continuados ≤15 días naturales: sin ▶ Licencia CEPT (61-01): uso temporal en países que
+ra; meteoritos; inversión térmica y conducto (VHF y                           aviso                                         la adoptan; equiparada a la autorización nacional.
+UHF); troposcatter (pérdidas grandes). Atenuación: Extranj. no                autorización temporal ≤90 días                Consta: declaración, nombre y dirección, distinti-
+siempre; campo ∝ 1/𝑑, potencia ∝ 1/𝑑 ; sube con 𝑑 CEPT
+                                             2
+                                                                                                                            vo, validez, autoridad (no asociación ni fecha de
+y 𝑓 ; 𝐿 = 32,4 + 20 log 𝑓 + 20 log 𝑑: doblar 𝑓 o 𝑑 cuesta Licencia de fija fin de obra: comunicar en 6 semanas;             examen). Todas las bandas atribuidas en el país visi-
+6 dB. Difracción: bordea obstáculos. Ruido: atmosférico,                      Jefatura ≤30 días; cambios                    tado; respetar su norma y el RR; mostrarla si la piden;
+galáctico, térmico. Fading: variación momentánea de la                        experimentales ≤60 días                       sin protección contra interferencias perjudiciales.
+intensidad. Espectro: la menor frecuencia, a la izquierda. Desatendida montar en 6 meses; parada >3 meses:                  Identificación: prefijo visitado + propio: EA/M0BVM,
+ MEDIDAS (T8, 8 %)                                                            cancelable                                    EA3/OK2HM.
+                                                           Comunidad          alega en 2 meses; obras: aviso ≥1           ▶ HAREC (61-02): acredita conocimientos (no autoriza
+Amperímetro: en serie, 𝑅𝑖 nula. Voltímetro: en pa-                            mes
+ralelo, 𝑅𝑖 infinita. Óhmetro: sin tensión y con con- Repetidor /              Morse ≤10 pal./min cada ≤10 min;
+                                                                                                                            a emitir); no caduca; sustituyó al diploma de operador;
+densadores descargados. Shunt: en paralelo; amplía la baliza                                                                para examinarse no hace falta. Extranjero residente
+                                                                              baliza cada ≤3 min; SAI ≥6 h                  en España: residencia acreditada + HAREC de país
+escala y protege. Polímetro: 𝑉 , 𝐼 , 𝑅 (sin true RMS falla Distint.            ≤30 días/año por sufijo
+con ondas no senoidales); no la impedancia de√︁una an- temporal                                                             que aplique la 61-02 (CEPT o no) o convenio de reci-
+                                                                                                                            procidad; sin repetir examen.
+tena. Vatímetro direccional: 𝑃𝑑 y 𝑃𝑟 ; 𝜌 = 𝑃𝑟 /𝑃𝑑                                                                         ▶ UIT: aficionados = instrucción individual, intercomu-
+(100 W y 25 W: ROE 3; radia 75 W); reflejada apreciable: AUTORIZACIÓN Y ESTACIONES (R8)                                     nicación y estudios técnicos, sin lucro (por satélite:
+no adaptado. Medidor de ROE: el más imprescindible. ▶ Marco: UIT (RR) > CEPT > España: Ley 11/2022                          estaciones espaciales). Radiocomunicación = teleco-
+Frecuencímetro: frecuencia, con precisión. Oscilosco-         (LGT), Orden IET/1311/2013 («documento funda-                 municación por ondas radioeléctricas. Entre países:
+pio: dominio del tiempo (𝐴, 𝑇 , 𝑓 = 1/𝑇 ). Analizador:        mental»), Ley 19/1983 + RD 2623/1986 (antenas). Com-          permitido salvo oposición (art. 25); sin codificar.
+espectro (portadora, bandas, armónicos). Generador de         petencia exclusiva del Estado (149.1.21.ª CE). CNAF           Regiones (atribuciones distintas en cada una): 1 Euro-
+RF: señal calibrada para probar etapas. Medidor de            = Cuadro Nacional de Atribución de Frecuencias.               pa, África, Oriente Medio, norte de Asia (España) · 2
+campo: V/m (dB𝜇V/m). Dipmeter: resonancia sin ali- ▶ Autorización (SETSI, hoy SETID): personal e in-                        América · 3 Asia S/E y Oceanía.
+mentar el circuito. Carga artificial: 50 Ω no inductiva,      transferible; exige aprobar la prueba ⇒ HAREC; ANTENAS, DESATENDIDAS Y USO (R8)
+sin radiar. 1000 mW = 30 dBm; 40 dB = ×104 ; 1500 mAh:        se otorga con el distintivo; habilita a emitir en las
+1,5 A una hora. S-meter: 6 dB por punto. Final valvular:      bandas del servicio con las características del Anexo ▶ Antenas: derecho a instalarlas fuera del inmueble si
+corriente de placa mínima al sintonizar. Un voltímetro        I. Revocación: fines comerciales, publicitarios o lu-         se está legitimado + autorización administrativa;
+de RF no mide la frecuencia.                                  crativos (no lo es no tener estación); revocada, no se        seguro RC obligatorio. La comunidad no autoriza
+ INTERFERENCIA (T9, 7 %)                                      emite. No obligan: ser socio, tener estación fija, llevar     ni prohíbe: se le informa y alega. Obras: desmontaje
+Fuente, camino, víctima: campo intenso, armónicos y           libro de registro. Sin edad mínima (menor: escrito de         temporal sin indemnización; luego se reinstala. Da-
+espurias, lineal sobreexcitado; vías: antena, líneas (red,    padres/tutores); bilingüe si se pide.                         ños de instalación, mantenimiento y desmontaje: del
+altavoz), radiación directa. Bloqueo: campo intenso ▶ Construcción propia: sin autorización previa, bajo                    titular. Azoteas: señalizar anclajes y riostras; so-
+satura la entrada. Intermodulación: 2 señales inten-          responsabilidad     propia (cumple   Anexo  I). Debe poder    portes sin dañar la obra, de materiales resistentes (no
+sas en una etapa no lineal; 2𝑓1 − 𝑓2 y 2𝑓2 − 𝑓1 (145,0 y      comprobar la banda y medir la potencia (no ROE).              «endebles»); respetar otras antenas.
+145,2 MHz: 144,8 y 145,4); +3 dB de entrada, +9 dB de ▶ Fija: licencia asociada a la autorización; se cancela                            = colectiva sin operador (repetidor:
+producto. Detección en audio: una unión rectifica la          a petición, al revocar aquella o sin seguro de ante- Desatendida amplía el alcance); solo asociaciones
+RF y la voz sale por el altavoz del vecino. Remedios          nas; cancelada: desmontar todo, antenas incluidas,                         reconocidas; nº según cobertura y
+(filtrar, desacoplar, apantallar): paso bajo a la sali-       a costa del titular (banco antiguo: mantener solo                          canales
+da; filtro de línea en la red; ferritas y condensadores       recepción con permiso de la propiedad). Individual o Potencia              VHF/UHF 10 W urbano · 50 W fuera;
+en cables; cable blindado al altavoz; filtro de rechazo       colectiva (solo asociaciones reconocidas). Móviles y                       HF 50 W; ganancia ≤6 dBd
+en el televisor; caja metálica estanca y a tierra (jaula      portátiles no necesitan licencia.                           Acceso         libre (repet. finales); código público
+de Faraday, en ambos sentidos); buena tierra; ROE ba-      ▶  Trámite:   solicitud   + memoria     descriptiva   (no em-  Baliza         estudios de propagación; emite
+ja; potencia mínima; marcado CE (EMC); fibra óptica,          padronamiento) → montaje por instalador de tele-                           identificación, posición y estado
+inmune.                                                       comunicaciones inscrito → seguro RC → licencia.
+                                                              Cambios permanentes: documentación a la SETSI; ▶ Sin codificar; terceros solo en emergen-
+ ¡OJO! Más potencia, más riesgo; desadaptación y li-                                                                        cia/desastre; colaborar con Protección Civil si
+                                                              mover la antena = como primera instalación.
+ neal sobreexcitado interfieren. Ante una queja: revisar
+                                                           ▶ Portable: fija usada temporalmente en otro sitio (sin          lo requiere y hacerle llegar un socorro.
+ la estación y colaborar. CEM = no molestar y no ser
+                                                              distintivo temporal). Portátil: móvil con antena y ▶ Interferencia perjudicial: cesar → medidas técni-
+ molestado.                                                                                                                 cas a su costa → comunicarlo y reiniciar → si persiste,
+                                                              fuente propias. Móvil: en movimiento o parada en
+                                                              punto no determinado. Remota: fija accionada a dis-           la SETSI restringe bandas, potencia u horario. Siempre
+                                                              tancia. Digital: emite con técnicas digitales.                sometida a inspección.
+                                                           ▶ Aut. especial: art. 16 bandas con riesgo de interferir;
+                                                              art. 17 experimental (memoria técnica; nominativa);
+                                                              si interfiere (TV): suspender de inmediato.
+                                                           ▶ Estación ajena: permiso del titular; identificarse con
+                                                              el propio distintivo (banco antiguo: propio precedido
+                                                              del del titular).
+ DISTINTIVOS DE LLAMADA (R5)                               ALFABETO FONÉTICO Y CIFRAS (R1)                                  publicidad, tráfico comercial, salir de banda, distintivo
+                                                                                                                            ajeno; portadora sin modular solo para ensayo breve.
+      EA 5 RCA = prefijo + distrito + sufijo (máx. 6    A Alfa       B Bravo         C Charlie D Delta
+                       caracteres)                      E Echo       F Foxtrot       G Golf       H Hotel                  ¡OJO! Banco antiguo: identificación falsa = GRAVE
+                                                        I India      J Juliett       K Kilo       L Lima                   (Ley 9/2014); si sale con esa opción, es la clave.
+▶ Prefijo: series UIT de España EA–EH y AM–AO. EA EB
+                                                        M Mike       N November O Oscar           P Papa
+  EC: individuales y colectivas; ED: desatendidas. Tem- Q Quebec R Romeo             S Sierra     T Tango                  IARU (R6) Y PROCEDIMIENTOS (R7)
+  porales (los autoriza la Jefatura):                   U Uniform V Victor           W Whiskey X X-ray                 ▶ Plan = reparto recomendado por modo y anchura
+ED EE EF      local, regional, autonómico o nacional;   Y Yankee Z Zulu                                                  de banda (CW, fonía, digitales, balizas, repetidores,
+              mantienen el resto del distintivo         0 Zero · 1 One · 2 Two · 3 Three · 4 Four · 5 Five · 6           satélites; frecuencias de llamada). Voluntario, pero
+              (EA4XYZ→EE4XYZ)                           Six · 7 Seven · 8 Eight · 9 Nine. EA5SWJ = Echo Alfa Five        la Orden lo exige «como norma general»: el de la
+EG EH         concursos, eventos internacionales y      Sierra Whiskey Juliett.                                          Región 1 para todo aficionado en España.
+                                                                                                                       ▶ 2 m: entrada de repetidores 145,000–145,1875 MHz,
+              relevantes local/regional/autonómico;
+                                                         ¡OJO! Cifras en inglés (Five, no «Cinco»). Juliett (no
+              sufijo propio
+                                                         Julio/Juliet), Quebec (no Queen), Sierra (no Santia-            salida +600 kHz. 70 cm: 433,000–433,375 MHz (entra-
+AM AN         eventos relevantes de ámbito                                                                               da). Balizas 144,400–144,491 MHz. LSB bajo 10 MHz,
+              nacional                                   go), November (no Nancy), Alfa (no Able), X-ray con
+                                                                                                                         USB sobre 10 MHz (convenio).
+AO            eventos relevantes de ámbito               guion. Alfabeto viejo, no vale: Able, Baker, Dog, Easy,
+                                                                                                                       ▶ R7: escuchar antes (¿QRL?); lenguaje claro, sin cifrar;
+              internacional                              Jig, Oboe, Peter, Roger, Sugar, Tare, Uncle.
+                                                                                                                         solo temas del servicio y observaciones personales
+1 Galicia, Asturias,            6 Baleares                  SOCORRO, URGENCIA Y SEGURIDAD (R4)                           (sin publicidad, fines lucrativos ni terceros); deletrear
+  Cantabria, C. y León, La                                            Socorro Urgencia Seguridad
+                                                                                                                         con alfabeto internacional; «cambio» recomendable,
+  Rioja                                                    Fonía ×3 Mayday Pan Pan Sécurité                              no obligatorio; nadie posee una frecuencia.
+2 País Vasco, Navarra,          7 Andalucía                Morse ×3 SOS           XXX         TTT                          ¡OJO! 50 MHz: hasta 2010 sin emitir desde Ávila, Gua-
+  Aragón                                                                                                                   dalajara, Madrid, Segovia, Soria, Toledo, Valladolid; el
+                                                           ▶ Prioridad: socorro > urgencia > seguridad. Socorro:
+3 Cataluña                      8 Canarias                                                                                 banco original pide «provincia desde la que se podrá
+                                                             Mayday×3 + «aquí»/«de» + distintivo×3; mensaje:
+4 Madrid, C.-La Mancha sin      9 Ceuta y Melilla                                                                          emitir» = Almería.
+                                                             identificación, posición, naturaleza del peligro (nunca
+  Albacete, Extremadura
+                                                             «Sécurité»). SOS = un solo signo.
+5 C. Valenciana, Murcia,        0 actos del Rey                                                                            CÓDIGO Q Y ABREVIATURAS (R2, R3)
+                                                           ▶ Alarma radiotelefónica: tonos alternos de 2200 y 1300
+  Albacete
+                                                             Hz. DSC (GMDSS): 2187,5 kHz (MF); voz 2182 kHz.           QRM interf. humana              QRN ruido atmosférico
+▶ Cifra = distrito de residencia al otorgar; el 0, solo el ▶ Oyes un socorro: silencio y escucha. Tras emitirlo:       QRO aumente potencia            QRP disminuya potencia
+  día del acto.                                              escuchar en la misma frecuencia. Peligro grave e inmi-    QRQ más deprisa                 QRS más despacio
+▶ Sufijo: hasta 3 letras por orden alfabético y turno        nente: cualquier medio. «SOS»/«Mayday» sin peligro:       QRT cese la transmisión         QRX espere, llamaré
+  de expedición en cada distrito (series de 1, 2 y 3 le-     infracción. Res. 640 (RR): bandas de aficionado en so-    QRV estoy dispuesto             QRU nada para usted
+  tras; desde AAA). Excluidos: DDD PAN SOS TTT XXX           corro por catástrofe natural; colaborar es obligatorio    QRG frecuencia exacta           QRH su frecuencia varía
+  y QAA–QZZ. Reservados: Y.. desatendida analógi-            si lo requiere la autoridad.                              QRK inteligibilidad             QSA fuerza; QRI tono
+  ca, Z.. digital (ED1YBD, ED5ZAA); UR.. asociaciones;                                                                 QRL frecuencia ocupada          QRZ ¿quién me llama?
+                                                            SANCIONES E INSPECCIÓN (R9)
+  RC../RK.. radioclubes.                                                                                               QSY cambie de frecuencia QSB desvanecimiento
+▶ 2 letras: ≥5 años de autorización, 5 de práctica in- Muy              interceptar y divulgar telecom. 20 M€          QSL acuse de recibo             QSO comunicado entre dos
+  ternacional y 5 sin expediente sancionador. 1 letra: grave            no públicas; interferir          3 años        QTH mi posición                 QTR hora exacta
+  igual con 15 de práctica; también para concursos in- art. 106                                                        QRA nombre de la estación QRB distancia
+                                                                        deliberadamente; no atender el
+  ternacionales de alta competitividad.                                 requerimiento de cese                          Otros: QTC tengo mensajes; QSP retransmitir gratis; QSK
+▶ Res. 29-07-2026 (BOE-A-2026-17504; desde 19-09-                                                                      oigo entre mis señales; QSM repita el último mensaje;
+                                                           Grave        mera producción de               2 M€
+  2026): procedimiento ordinario para 1 letra: solicitud art. 107                                                      QSN le oí en. . . kHz; QSD manipulación defectuosa; QSV
+                                                                        interferencias; negarse u        2 años
+  electrónica, por distrito y orden de presentación, has-               obstruir la inspección; no dar                 serie de V; QRW avise a. . . ; QTA anule el mensaje. CQ no
+  ta 10 preferentes; práctica con QSL (2 por año en 15                  datos (2.º requerimiento)                      es código Q.
+  de los últimos 20); sustituye al distintivo anterior.
+                                                           Leve         comunicarse utilizando           100 000 €     CQ llamada general             CL cierre de la estación
+▶ Único e inmodificable; mudarse: lo conserva (solo                                                                    CW telegrafía Morse            DX larga distancia
+                                                           art. 108     estaciones no autorizadas; no 1 año
+  comunica el domicilio). Reasignar solo agotadas to-                                                                  RPT repita; AGN de nuevo SSB banda lateral única
+                                                                        facilitar o retrasar datos;
+  das las combinaciones, salvo al anterior titular (nueva                                                              LSB/USB inferior/superior AR fin de transmisión
+                                                                        instalar estación sin
+  autorización) o a familiares de 1.er grado por falleci-                                                              SK fin del contacto            K invitación a transmitir
+                                                                        autorización
+  miento (no 1 letra). Temporal: solicitud por evento a                                                                BK interrupción (break) 73 saludos; 88 besos
+  la Administración; las asociaciones solo proponen. ▶ 105 clasifica; 106 muy graves, 107 graves, 108 leves            OM amigo                       YL operadora; XYL esposa
+▶ Identificación: al comienzo y final; larga: cada 10        (más gravedad, menos nº); 109 sanciones; 113 pres-        DE de (quien llama)            R recibido
+  min. Móvil/portable (opcional): Morse /M /MM /MA           cripción (infracciones y sanciones).                      RIG equipo; ANT antena PWR potencia; OP operador
+  /P; fonía «móvil», «móvil marítima», «móvil aero- ▶ Accesorias: cese, precintado o incautación de equi-              PSE por favor                  TNX/TKS/TU gracias
+  náutica», «portable»; opc. el distrito desde el que se     pos, clausura. Reiteración (2+ sanciones firmes en 3      WX tiempo; UR su               HR aquí; ES y
+  emite: EA7/EA4KLM/M = móvil del 4 en el 7.                 años): leve → grave.                                      NIL nada                       CFM confirmo
+ ¡OJO! Banco antiguo (si sale, es su clave): «al mudarse ▶ Inspecciona y sanciona el Estado (Jefaturas Provincia-      Otras: ABT aprox.; VY muy; HI risa; FB buen trabajo; CUL
+ de distrito no mantiene el distintivo». ED: desatendi-      les de Inspección de Telecomunicaciones), no CCAA,        hasta luego; GM/GE/GN buenos días/tardes/noches; MSG
+ das y temporal. /P en grafía, «portable» en fonía; no       ayuntamientos ni asociaciones; inspectores = autori-      mensaje; NR número; BUG manipulador semiautomáti-
+ existe /AM; QRP no se añade al distintivo.                  dad pública.                                              co. RST = legibilidad (1–5), intensidad (1–9), tono (1–9,
+                                                           ▶ No es infracción comunicar con estación propia ni         solo CW). Split: emite y recibe en frecuencias distintas.
+                                                             no llevar libro. Nunca: interferir a propósito, música,   Locator: cuadrícula Maidenhead.
+

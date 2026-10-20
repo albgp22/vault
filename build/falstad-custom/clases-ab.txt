@@ -1,0 +1,41 @@
+$ 1 5e-06 20 50 10 50 5e-11
+x 48 16 760 20 4 16 Etapa\spush-pull:\sclase\sB\s(sin\spolarización)\sfrente\sa\sclase\sAB\s(polarizada\scon\sdos\sdiodos)
+t 256 192 320 192 0 1 0 0 100
+t 256 288 320 288 0 -1 0 0 100
+w 320 208 320 240 0
+w 320 240 320 272 0
+w 320 304 320 352 0
+R 320 352 320 400 0 0 40 -10 0 0 0.5
+w 320 128 320 176 0
+R 320 128 320 80 0 0 40 10 0 0 0.5
+w 320 240 400 240 0
+r 400 240 400 352 0 10
+g 400 352 400 368 0
+w 256 192 256 240 0
+w 256 240 256 288 0
+R 256 240 192 240 0 1 1000 5 0 0 0.5
+t 608 192 672 192 0 1 0 0 100
+t 608 288 672 288 0 -1 0 0 100
+w 672 208 672 240 0
+w 672 240 672 272 0
+w 672 304 672 352 0
+R 672 352 672 400 0 0 40 -10 0 0 0.5
+w 672 128 672 176 0
+R 672 128 672 80 0 0 40 10 0 0 0.5
+w 672 240 752 240 0
+r 752 240 752 352 0 10
+g 752 352 752 368 0
+r 608 192 608 128 0 220
+w 608 128 672 128 0
+d 608 192 608 240 1 0.805904783
+d 608 240 608 288 1 0.805904783
+r 608 288 608 352 0 220
+w 608 352 672 352 0
+R 608 240 544 240 0 1 1000 5 0 0 0.5
+x 208 448 432 452 4 12 Clase\sB:\sdistorsión\sde\scruce
+x 560 448 824 452 4 12 Clase\sAB:\ssin\sdistorsión\sde\scruce
+x 48 488 704 492 4 12 Las\sdos\setapas\sreciben\sla\smisma\sseñal\s(1\skHz,\s5\sV\sde\spico)\sy\stienen\scarga\sde\s10\sΩ.
+x 48 508 720 512 4 12 En\sclase\sB\sla\ssalida\sse\squeda\sen\s0\sV\smientras\sla\sentrada\sestá\sentre\s−0,6\sV\sy\s\p0,6\sV.
+o 10 2 0 4098 5 0.1 0 2 24 0 Salida:\sclase\sB\sy\sclase\sAB
+o 10 8 0 5120 5 0.1 1 1 Espectro\sclase\sB:\sarmónicos\s3,\s5...
+o 24 8 0 5120 5 0.1 1 1 Espectro\sclase\sAB:\scasi\ssolo\s1\skHz

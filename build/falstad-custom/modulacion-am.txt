@@ -1,0 +1,12 @@
+$ 1 5e-06 50 50 5 50 5e-11
+x 48 40 608 44 4 16 Modulación\sde\samplitud\s(AM):\sportadora\s2\skHz,\smoduladora\s200\sHz,\s100\s%
+200 176 160 112 160 0 2000 200 5
+w 176 160 288 160 0
+r 288 160 288 288 0 1000
+g 288 288 288 304 0
+x 48 120 144 124 4 12 Generador\sAM
+x 48 344 688 348 4 12 En\sel\stiempo:\sla\samplitud\sde\sla\sportadora\ssigue\sa\sla\smoduladora\s(la\senvolvente).
+x 48 364 696 368 4 12 En\sel\sespectro\s(FFT):\sportadora\sen\s2\skHz\sy\sdos\sbandas\slaterales\sen\s1,8\sy\s2,2\skHz.
+x 48 384 592 388 4 12 Ancho\sde\sbanda\s\q\s2\s×\s200\sHz\s\q\s400\sHz.\sFrecuencias\sescaladas\sa\saudio.
+o 3 4 0 4098 5 0.1 0 1 Señal\sAM\sen\sel\stiempo
+o 3 32 0 5120 5 0.1 1 1 Espectro:\sportadora\sy\sdos\sbandas\slaterales

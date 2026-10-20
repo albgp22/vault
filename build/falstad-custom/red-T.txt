@@ -1,0 +1,33 @@
+$ 1 5e-06 10 50 5 50 5e-11
+x 48 40 816 44 4 16 Red\sT\s(C-L-C,\spaso\salto)\scomo\sen\sun\sacoplador\sde\santena:\s50\sΩ\s→\s200\sΩ\s(1\skHz,\svalores\sescalados)
+x 160 120 480 124 4 12 Con\sred\sT\s(C1\sserie,\sL\sa\smasa,\sC2\sserie)
+v 64 288 64 160 0 1 1000 10 0 0 0.5
+r 64 160 176 160 0 50
+c 176 160 288 160 0 1.061e-06 0
+l 288 160 288 288 0 0.01884 0
+c 288 160 400 160 0 6.497e-07 0
+w 400 160 432 160 0
+r 432 160 432 288 0 200
+w 432 160 528 160 0
+p 528 160 528 288 1 1 0
+w 64 288 288 288 0
+w 288 288 432 288 0
+w 432 288 528 288 0
+g 64 288 64 304 0
+x 184 200 280 204 4 12 C1\s\q\s1,06\sµF
+x 304 248 392 252 4 12 L\s\q\s18,8\smH
+x 320 200 416 204 4 12 C2\s\q\s0,65\sµF
+x 160 336 624 340 4 12 Sin\sred:\sla\smisma\sfuente\sconectada\sdirectamente\sa\sla\scarga
+v 64 504 64 376 0 1 1000 10 0 0 0.5
+r 64 376 176 376 0 50
+w 176 376 432 376 0
+r 432 376 432 504 0 200
+w 432 376 528 376 0
+p 528 376 528 504 1 1 0
+w 64 504 432 504 0
+w 432 504 528 504 0
+g 64 504 64 520 0
+x 48 560 648 564 4 12 Fuente:\s10\sV\sde\spico\scon\s50\sΩ\sinternos.\sCon\sla\sred\sT\sla\scarga\srecibe\s0,25\sW
+x 48 580 536 584 4 12 (la\smáxima\spotencia\sque\sda\sla\sfuente);\ssin\sred\srecibe\s0,16\sW.
+o 8 2 0 4098 5 0.1 0 2 22 0 Tensión\sen\sla\scarga:\scon\sred\sT\s(10\sV)\sy\ssin\sred\s(8\sV)
+o 8 2 7 4098 5 0.1 1 2 1 22 7 1 Potencia\sen\sla\scarga

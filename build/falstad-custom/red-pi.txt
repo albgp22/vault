@@ -1,0 +1,25 @@
+$ 1 5e-06 10 50 5 50 5e-11
+x 48 40 616 44 4 16 Red\sen\spi\s(C-L-C,\spaso\sbajo)\sa\sla\ssalida\sde\sun\samplificador\sde\spotencia
+x 48 64 864 68 4 12 El\sPA\sse\srepresenta\scon\suna\sonda\scuadrada\sde\s1\skHz\sy\s50\sΩ\sde\ssalida;\scarga\sde\s50\sΩ\s(valores\sescalados)
+v 64 288 64 160 0 2 1000 10 0 0 0.5
+r 64 160 176 160 0 50
+w 176 160 240 160 0
+c 240 160 240 288 0 9.549e-06 0
+l 240 160 400 160 0 0.004775 0
+c 400 160 400 288 0 9.549e-06 0
+w 400 160 496 160 0
+r 496 160 496 288 0 50
+w 64 288 240 288 0
+w 240 288 400 288 0
+w 400 288 496 288 0
+g 64 288 64 304 0
+x 16 120 176 124 4 12 «PA»:\scuadrada\s1\skHz
+x 264 200 352 204 4 12 L\s\q\s4,77\smH
+x 160 320 256 324 4 12 C1\s\q\s9,55\sµF
+x 352 320 448 324 4 12 C2\s\q\s9,55\sµF
+x 512 232 592 236 4 12 Carga\s50\sΩ
+x 48 360 664 364 4 12 La\sred\sdeja\spasar\s1\skHz\sy\sfrena\slos\sarmónicos\s3,\s5,\s7...\sde\sla\sonda\scuadrada:
+x 48 380 608 384 4 12 en\sla\scarga\squeda\suna\ssenoide\slimpia.\sCompare\slos\sdos\sespectros\s(FFT).
+o 2 2 0 4098 5 0.1 0 2 9 0 Salida\sdel\sPA\s(cuadrada)\sy\stensión\sen\sla\scarga
+o 2 8 0 5120 5 0.1 1 1 Espectro\sde\sla\scuadrada:\s1,\s3,\s5,\s7...\skHz
+o 9 8 0 5120 5 0.1 1 1 Espectro\sen\sla\scarga:\ssolo\s1\skHz

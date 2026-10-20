@@ -1,0 +1,29 @@
+$ 1 5e-06 50 50 5 50 5e-11
+x 48 16 688 20 4 16 Mezclador:\smultiplicar\sdos\sseñales\sda\sla\ssuma\sy\sla\sdiferencia\sde\ssus\sfrecuencias
+R 144 96 80 96 0 1 1000 5 0 0 0.5
+w 144 96 176 96 0
+w 176 96 176 160 0
+w 176 160 208 160 0
+R 144 256 80 256 0 1 1500 5 0 0 0.5
+w 144 256 176 256 0
+w 176 256 176 192 0
+w 176 192 208 192 0
+213 208 160 240 160 0 2 a*b/5
+g 304 192 304 208 0
+w 304 160 368 160 0
+l 368 160 496 160 0 0.2814 0
+c 496 160 496 288 0 1.407e-07 0
+g 496 288 496 304 0
+w 496 160 592 160 0
+r 592 160 592 288 0 1000
+g 592 288 592 304 0
+x 32 64 200 68 4 12 Oscilador\slocal\s1\skHz
+x 32 304 136 308 4 12 Señal\s1,5\skHz
+x 200 240 352 244 4 12 Multiplicador\sideal
+x 368 128 616 132 4 12 Filtro\spaso\sbajo\s(corte\s800\sHz)
+x 48 360 784 364 4 12 A\sla\ssalida\sdel\smultiplicador\shay\s1,5\s−\s1\s\q\s0,5\skHz\s(diferencia)\sy\s1,5\s\p\s1\s\q\s2,5\skHz\s(suma).
+x 48 380 752 384 4 12 El\sfiltro\spaso\sbajo\sdeja\spasar\sla\sdiferencia\s(la\sfrecuencia\sintermedia)\sy\sfrena\sla\ssuma.
+x 48 400 288 404 4 12 Frecuencias\sescaladas\sa\saudio.
+o 11 4 0 4098 5 0.1 0 2 16 0 Producto\sy\ssalida\sdel\sfiltro
+o 11 32 0 5120 5 0.1 1 1 Antes\sdel\sfiltro:\s0,5\sy\s2,5\skHz
+o 16 32 0 5120 5 0.1 1 1 Después\sdel\sfiltro:\ssolo\s0,5\skHz

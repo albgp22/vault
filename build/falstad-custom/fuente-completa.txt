@@ -1,0 +1,44 @@
+$ 1 2e-05 50 50 20 50 5e-11
+x 48 32 768 36 4 16 Fuente\sde\salimentación\scompleta:\stransformador,\spuente,\sfiltro\sy\sregulador\s(13,8\sV,\s0,5\sA)
+v 64 256 64 128 0 1 50 325.27 0 0 0.5
+w 64 128 160 128 0
+T 160 128 240 128 0 10 0.06666666666666667 0 0 0.999
+w 160 160 160 256 0
+w 160 256 64 256 0
+g 64 256 64 272 0
+w 240 128 240 96 0
+w 240 96 272 96 0
+w 272 96 368 96 0
+w 240 160 240 224 0
+w 240 224 272 224 0
+w 272 224 368 224 0
+p 272 96 272 224 1 1 0
+d 320 144 368 96 1 0.805904783
+d 320 144 368 192 1 0.805904783
+d 368 96 416 144 1 0.805904783
+d 368 192 416 144 1 0.805904783
+w 368 224 368 192 0
+g 320 144 320 160 0
+w 416 144 480 144 0
+c 480 144 480 256 0 0.0022 0
+g 480 256 480 272 0
+w 480 144 544 144 0
+r 544 144 544 208 0 270
+t 608 208 608 144 1 1 0 0 100
+w 544 144 592 144 0
+w 544 208 608 208 0
+z 608 288 608 208 1 0.805904783 14.6
+g 608 288 608 304 0
+w 624 144 704 144 0
+r 704 144 704 256 0 27.6
+g 704 256 704 272 0
+x 24 304 152 308 4 12 Red\s230\sV,\s50\sHz
+x 152 72 296 76 4 12 Transformador\s15:1
+x 328 264 376 268 4 12 Puente
+x 440 296 552 300 4 12 Filtro\s2200\sµF
+x 536 328 808 332 4 12 Zener\s14,6\sV\s\p\stransistor\sen\sserie
+x 672 296 768 300 4 12 Carga\s27,6\sΩ
+x 48 376 816 380 4 12 Siga\sla\stensión\setapa\spor\setapa:\salterna\sen\sel\ssecundario,\scontinua\scon\srizado\sen\sel\scondensador
+x 48 396 560 400 4 12 y\scontinua\scasi\sperfecta\sa\sla\ssalida\s(Vsalida\s≈\sVzener\s−\s0,7\sV).
+o 13 8 0 4098 5 0.1 0 3 21 0 31 0 Secundario,\scondensador\sy\ssalida\sregulada
+o 31 8 0 266242 5 0.1 1 1 1 Rizado\sque\squeda\sen\sla\ssalida\s(solo\salterna)

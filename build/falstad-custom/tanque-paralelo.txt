@@ -1,0 +1,16 @@
+$ 1 1e-05 200 50 5 50 5e-11
+x 48 40 576 44 4 16 Circuito\stanque\sLC\sen\sparalelo:\sla\stensión\ses\smáxima\sen\sf0\s≈\s1\skHz
+x 48 64 808 68 4 12 Generador\sde\sbarrido\s250\sHz\s→\s4\skHz\sy\svuelta,\sa\stravés\sde\sR\s\q\s330\sΩ\s(valores\sescalados\sa\saudio)
+170 128 160 64 160 3 250 4000 5 0.5
+r 128 160 304 160 0 330
+w 304 160 400 160 0
+l 304 160 304 288 0 0.01 0
+c 400 160 400 288 0 2.533e-06 0
+w 304 288 400 288 0
+g 304 288 304 304 0
+x 184 200 256 204 4 12 R\s\q\s330\sΩ
+x 216 232 288 236 4 12 L\s\q\s10\smH
+x 448 232 536 236 4 12 C\s\q\s2,53\sµF
+x 48 344 768 348 4 12 En\sf0\sel\stanque\stiene\simpedancia\smuy\salta:\scasi\stoda\sla\stensión\sdel\sgenerador\squeda\sen\sél.
+x 48 364 624 368 4 12 Lejos\sde\sf0,\sL\so\sC\sse\scomportan\scomo\sun\scortocircuito\sy\sla\stensión\sbaja.
+o 6 256 0 4098 5 0.1 0 1 Tensión\sen\sel\stanque\s(máxima\sen\sf0)

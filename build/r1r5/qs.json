@@ -1,0 +1,4073 @@
+{
+ "R1.1": {
+  "stem": "En el alfabeto fonético internacional, la letra «S» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Santiago"
+   ],
+   [
+    "b",
+    "Sierra"
+   ],
+   [
+    "c",
+    "Sugar"
+   ],
+   [
+    "d",
+    "Sábado"
+   ]
+  ],
+  "ans": "b",
+  "sol": "«S» es _Sierra_. «Santiago» es del alfabeto español antiguo y «Sugar» del militar anglosajón de los años 40."
+ },
+ "R1.2": {
+  "stem": "En el alfabeto fonético internacional, la letra «Q» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Quintal"
+   ],
+   [
+    "b",
+    "Queen"
+   ],
+   [
+    "c",
+    "Quebec"
+   ],
+   [
+    "d",
+    "Quito"
+   ]
+  ],
+  "ans": "c",
+  "sol": "«Q» es _Quebec_; «Queen» es el distractor clásico del alfabeto británico antiguo."
+ },
+ "R1.3": {
+  "stem": "La palabra de deletreo «Whiskey» corresponde a la letra:",
+  "opts": [
+   [
+    "a",
+    "V"
+   ],
+   [
+    "b",
+    "W"
+   ],
+   [
+    "c",
+    "X"
+   ],
+   [
+    "d",
+    "K"
+   ]
+  ],
+  "ans": "b",
+  "sol": "_Whiskey_ deletrea la W; la V es _Victor_ y la X, _X-ray_."
+ },
+ "R1.4": {
+  "stem": "El prefijo `EA` de un distintivo de llamada español se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Eco Antena"
+   ],
+   [
+    "b",
+    "España América"
+   ],
+   [
+    "c",
+    "Echo Alfa"
+   ],
+   [
+    "d",
+    "Echo Able"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`EA` = _Echo Alfa_ (tabla R1.1); grafías oficiales sin hache final ni _ph_."
+ },
+ "R1.5": {
+  "stem": "En el alfabeto fonético internacional, la letra «L» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Londres"
+   ],
+   [
+    "b",
+    "Libra"
+   ],
+   [
+    "c",
+    "Luis"
+   ],
+   [
+    "d",
+    "Lima"
+   ]
+  ],
+  "ans": "d",
+  "sol": "«L» es _Lima_; «Luis» es del alfabeto español antiguo."
+ },
+ "R1.6": {
+  "stem": "El sufijo `BOJ` de un distintivo de llamada se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Bravo Oscar Juliett"
+   ],
+   [
+    "b",
+    "Baker Oboe Jig"
+   ],
+   [
+    "c",
+    "Bravo Omega Julio"
+   ],
+   [
+    "d",
+    "Beta Oscar Java"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`BOJ` = _Bravo Oscar Juliett_; «Baker» y «Oboe» son del alfabeto de 1943."
+ },
+ "R1.7": {
+  "stem": "En el alfabeto fonético internacional, la letra «M» se identifica con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Mario"
+   ],
+   [
+    "b",
+    "Madrid"
+   ],
+   [
+    "c",
+    "Mike"
+   ],
+   [
+    "d",
+    "Metro"
+   ]
+  ],
+  "ans": "c",
+  "sol": "«M» es _Mike_. Mario, Madrid y Metro pertenecen a alfabetos nacionales antiguos, que no se emplean en el servicio de aficionados."
+ },
+ "R1.8": {
+  "stem": "En el alfabeto fonético internacional, la letra «V» se corresponde con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Victor"
+   ],
+   [
+    "b",
+    "Valencia"
+   ],
+   [
+    "c",
+    "Vasco"
+   ],
+   [
+    "d",
+    "Vector"
+   ]
+  ],
+  "ans": "a",
+  "sol": "«V» es _Victor_, sin tilde y pronunciado a la inglesa. Es además la letra que se transmite repetida para ajustar la recepción (`QSV`), por su ritmo inconfundible en Morse."
+ },
+ "R1.9": {
+  "stem": "En el deletreo internacional, la cifra «9» se identifica con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Nono"
+   ],
+   [
+    "b",
+    "Nine"
+   ],
+   [
+    "c",
+    "Novem"
+   ],
+   [
+    "d",
+    "Ene"
+   ]
+  ],
+  "ans": "b",
+  "sol": "En el deletreo del banco oficial, el 9 es _Nine_ (en la práctica aeronáutica se pronuncia «niner» para no confundirlo con el alemán _nein_)."
+ },
+ "R1.10": {
+  "stem": "El sufijo `CID` se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Charlie Italia Delta"
+   ],
+   [
+    "b",
+    "Cid India Delta"
+   ],
+   [
+    "c",
+    "Charlie India Dog"
+   ],
+   [
+    "d",
+    "Charlie India Delta"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`CID` = _Charlie India Delta_; «Italia» y «Dog» pertenecen a otros alfabetos."
+ },
+ "R1.11": {
+  "stem": "El sufijo `TOP` se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Tango Oscar Papa"
+   ],
+   [
+    "b",
+    "Tango Omega Portugal"
+   ],
+   [
+    "c",
+    "Tres Oscar Papa"
+   ],
+   [
+    "d",
+    "Tango Oscar Perú"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`TOP` = _Tango Oscar Papa_."
+ },
+ "R1.12": {
+  "stem": "El distintivo `ED5ZAA` se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Eco Delta Five Zeta Alfa Alfa"
+   ],
+   [
+    "b",
+    "España Delta Five Zulu Alfa Alfa"
+   ],
+   [
+    "c",
+    "Echo Delta Five Zulu Alfa Alfa"
+   ],
+   [
+    "d",
+    "Echo Dog Five Zebra Able Able"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`ED5ZAA` = _Echo Delta Five Zulu Alfa Alfa_: las letras con el alfabeto internacional y la cifra con su nombre inglés (_Five_). La a dice «Eco» y «Zeta», que no son palabras del alfabeto; la b pone «España» por la E; la d mezcla palabras del alfabeto antiguo (_Dog_, _Able_, _Zebra_)."
+ },
+ "R1.13": {
+  "stem": "En el alfabeto fonético internacional, la letra «J» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Jupiter"
+   ],
+   [
+    "b",
+    "Juliett"
+   ],
+   [
+    "c",
+    "Jamaica"
+   ],
+   [
+    "d",
+    "Jaguar"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Se escribe con doble t final, _Juliett_, precisamente para que los francófonos no la pronuncien muda. Las otras tres no pertenecen al alfabeto de la OACI."
+ },
+ "R1.14": {
+  "stem": "En el alfabeto fonético internacional, la letra «G» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Gamma"
+   ],
+   [
+    "b",
+    "Granada"
+   ],
+   [
+    "c",
+    "Gustavo"
+   ],
+   [
+    "d",
+    "Golf"
+   ]
+  ],
+  "ans": "d",
+  "sol": "_Golf_. Gustavo pertenece al antiguo alfabeto español, que ya no se emplea en el servicio de aficionados."
+ },
+ "R1.15": {
+  "stem": "En el alfabeto fonético internacional, la letra «Y» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Yankee"
+   ],
+   [
+    "b",
+    "Yolanda"
+   ],
+   [
+    "c",
+    "Yucatán"
+   ],
+   [
+    "d",
+    "Yeso"
+   ]
+  ],
+  "ans": "a",
+  "sol": "_Yankee_. Aparece a menudo en los sufijos españoles, así que conviene tenerla automatizada."
+ },
+ "R1.16": {
+  "stem": "La palabra de deletreo «Kilo» corresponde a la letra:",
+  "opts": [
+   [
+    "a",
+    "C"
+   ],
+   [
+    "b",
+    "Q"
+   ],
+   [
+    "c",
+    "K"
+   ],
+   [
+    "d",
+    "G"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Kilo_ es la K. Ojo con el reflejo de asociarla al prefijo de las unidades: aquí es simplemente una palabra elegida por sonar distinta de todas las demás."
+ },
+ "R1.17": {
+  "stem": "En el deletreo internacional, la cifra «0» se identifica con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Nada"
+   ],
+   [
+    "b",
+    "Zero"
+   ],
+   [
+    "c",
+    "Cero"
+   ],
+   [
+    "d",
+    "Oscar"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Las cifras se dicen en inglés: _Zero_. Y no debe confundirse con _Oscar_, que es la letra O — la confusión entre el cero y la o es justamente lo que el deletreo evita."
+ },
+ "R1.18": {
+  "stem": "En el deletreo internacional, la cifra «5» se identifica con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Cinco"
+   ],
+   [
+    "b",
+    "Fife"
+   ],
+   [
+    "c",
+    "Penta"
+   ],
+   [
+    "d",
+    "Five"
+   ]
+  ],
+  "ans": "d",
+  "sol": "_Five_. La variante _Fife_ pertenece a la fonética aeronáutica, pensada para radios muy ruidosas, pero no es la del servicio de aficionados."
+ },
+ "R1.19": {
+  "stem": "En el alfabeto fonético internacional, la letra «X» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "X-ray"
+   ],
+   [
+    "b",
+    "Xilófono"
+   ],
+   [
+    "c",
+    "Extra"
+   ],
+   [
+    "d",
+    "Xenón"
+   ]
+  ],
+  "ans": "a",
+  "sol": "_X-ray_, y se pronuncia «ecs-rey». Es de las que más se atragantan al principio porque no se parece en nada a la letra en castellano."
+ },
+ "R1.20": {
+  "stem": "En el alfabeto fonético internacional, la letra «P» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Pedro"
+   ],
+   [
+    "b",
+    "Peter"
+   ],
+   [
+    "c",
+    "Papa"
+   ],
+   [
+    "d",
+    "Portugal"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Papa_, con acento en la última sílaba a la francesa («pa-PÁ»). Pedro y Peter pertenecen a alfabetos nacionales antiguos."
+ },
+ "R1.21": {
+  "stem": "El distintivo de llamada `EA4XYZ` se deletrea:",
+  "opts": [
+   [
+    "a",
+    "España América Four Equis Yolanda Zaragoza"
+   ],
+   [
+    "b",
+    "Echo Alfa Four X-ray Yankee Zulu"
+   ],
+   [
+    "c",
+    "Echo Alfa Four X-ray Yankee Zeta"
+   ],
+   [
+    "d",
+    "Echo Alpha Four Xilófono Yankee Zeta"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Las letras, con las palabras oficiales del alfabeto internacional —_Echo_, con hache, no «Eco»; _Alfa_, no «Alpha»— y la cifra con su nombre inglés, _Four_, como en todo el deletreo internacional. La opción c acierta hasta el final, pero «Zeta» no es palabra del alfabeto (la Z es _Zulu_); la d mezcla «Alpha», «Xilófono» y «Zeta», y la a usa nombres de letras y ciudades en castellano."
+ },
+ "R1.22": {
+  "stem": "En el alfabeto fonético internacional, la letra «H» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Habana"
+   ],
+   [
+    "b",
+    "Hotel Alfa"
+   ],
+   [
+    "c",
+    "Historia"
+   ],
+   [
+    "d",
+    "Hotel"
+   ]
+  ],
+  "ans": "d",
+  "sol": "_Hotel_, una sola palabra por letra. Encadenar dos —«Hotel Alfa»— sería deletrear HA, no H."
+ },
+ "R1.23": {
+  "stem": "El alfabeto fonético internacional se emplea para:",
+  "opts": [
+   [
+    "a",
+    "deletrear letras y cifras evitando confusiones en condiciones difíciles"
+   ],
+   [
+    "b",
+    "cifrar el contenido de los mensajes"
+   ],
+   [
+    "c",
+    "abreviar los mensajes y ganar tiempo"
+   ],
+   [
+    "d",
+    "identificar el país de procedencia de la estación"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Con ruido, desvanecimiento o acentos distintos, una B y una P suenan igual; _Bravo_ y _Papa_, no. No cifra nada —de hecho es público— ni abrevia: al contrario, alarga."
+ },
+ "R1.24": {
+  "stem": "La palabra de deletreo «Foxtrot» corresponde a la letra:",
+  "opts": [
+   [
+    "a",
+    "T"
+   ],
+   [
+    "b",
+    "X"
+   ],
+   [
+    "c",
+    "F"
+   ],
+   [
+    "d",
+    "V"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Foxtrot_ es la F. Conviene fijarse en la palabra entera y no en su primera sílaba, que despista hacia la X."
+ },
+ "R1.25": {
+  "stem": "En el alfabeto fonético internacional, la letra «A» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Antonio"
+   ],
+   [
+    "b",
+    "Able"
+   ],
+   [
+    "c",
+    "Alfa"
+   ],
+   [
+    "d",
+    "América"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Alfa_, escrito así y no «Alpha»: la grafía oficial evita el grupo _ph_, que no todos los idiomas pronuncian igual. _Able_ es del alfabeto anglosajón de los años cuarenta."
+ },
+ "R1.26": {
+  "stem": "En el alfabeto fonético internacional, la letra «B» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Barcelona"
+   ],
+   [
+    "b",
+    "Bravo"
+   ],
+   [
+    "c",
+    "Baker"
+   ],
+   [
+    "d",
+    "Bilbao"
+   ]
+  ],
+  "ans": "b",
+  "sol": "_Bravo_. _Baker_ pertenece al alfabeto de 1943 y aún se oye en películas antiguas, pero no es el vigente."
+ },
+ "R1.27": {
+  "stem": "En el alfabeto fonético internacional, la letra «C» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Carmen"
+   ],
+   [
+    "b",
+    "Canadá"
+   ],
+   [
+    "c",
+    "Coca"
+   ],
+   [
+    "d",
+    "Charlie"
+   ]
+  ],
+  "ans": "d",
+  "sol": "_Charlie_. _Coca_ pertenece al alfabeto aeronáutico de 1951, sustituido en 1956 por el actual y hoy en desuso; el alfabeto de la OACI adoptado por el servicio de aficionados usa Charlie."
+ },
+ "R1.28": {
+  "stem": "En el alfabeto fonético internacional, la letra «D» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Delta"
+   ],
+   [
+    "b",
+    "Dolores"
+   ],
+   [
+    "c",
+    "Dog"
+   ],
+   [
+    "d",
+    "Dinamarca"
+   ]
+  ],
+  "ans": "a",
+  "sol": "_Delta_, una de las más fáciles de recordar por coincidir con la letra griega. _Dog_ es del alfabeto anglosajón antiguo."
+ },
+ "R1.29": {
+  "stem": "En el alfabeto fonético internacional, la letra «E» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Enrique"
+   ],
+   [
+    "b",
+    "Easy"
+   ],
+   [
+    "c",
+    "Echo"
+   ],
+   [
+    "d",
+    "España"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Echo_, con hache intercalada. Ojo con confundirla con _Eco_ a la española: la grafía oficial es la inglesa."
+ },
+ "R1.30": {
+  "stem": "En el alfabeto fonético internacional, la letra «I» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Italia"
+   ],
+   [
+    "b",
+    "India"
+   ],
+   [
+    "c",
+    "Inés"
+   ],
+   [
+    "d",
+    "Item"
+   ]
+  ],
+  "ans": "b",
+  "sol": "_India_. Es de las pocas que coinciden con una palabra castellana reconocible, lo que la hace cómoda pero también fácil de sustituir por «Italia» sin darse cuenta."
+ },
+ "R1.31": {
+  "stem": "En el alfabeto fonético internacional, la letra «N» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Navarra"
+   ],
+   [
+    "b",
+    "Nancy"
+   ],
+   [
+    "c",
+    "Nueva York"
+   ],
+   [
+    "d",
+    "November"
+   ]
+  ],
+  "ans": "d",
+  "sol": "_November_. Junto con _Mike_, es de las que más se atragantan porque no se parecen a nada en castellano."
+ },
+ "R1.32": {
+  "stem": "En el alfabeto fonético internacional, la letra «O» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Oviedo"
+   ],
+   [
+    "b",
+    "Oscar"
+   ],
+   [
+    "c",
+    "Oboe"
+   ],
+   [
+    "d",
+    "Ontario"
+   ]
+  ],
+  "ans": "b",
+  "sol": "_Oscar_. Es además la letra que se confunde con el cero, y por eso el deletreo insiste: la letra es _Oscar_ y la cifra, _Zero_."
+ },
+ "R1.33": {
+  "stem": "En el alfabeto fonético internacional, la letra «R» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Ramón"
+   ],
+   [
+    "b",
+    "Roger"
+   ],
+   [
+    "c",
+    "Romeo"
+   ],
+   [
+    "d",
+    "Roma"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Romeo_. _Roger_, que también empieza por R, significa «recibido» en fonía: son cosas distintas y conviene no mezclarlas."
+ },
+ "R1.34": {
+  "stem": "En el alfabeto fonético internacional, la letra «T» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Tango"
+   ],
+   [
+    "b",
+    "Tarragona"
+   ],
+   [
+    "c",
+    "Toledo"
+   ],
+   [
+    "d",
+    "Tare"
+   ]
+  ],
+  "ans": "a",
+  "sol": "_Tango_. Aparece con frecuencia en los sufijos españoles, así que conviene tenerla automatizada."
+ },
+ "R1.35": {
+  "stem": "En el alfabeto fonético internacional, la letra «U» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Ulises"
+   ],
+   [
+    "b",
+    "Unión"
+   ],
+   [
+    "c",
+    "Uniform"
+   ],
+   [
+    "d",
+    "Uncle"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Uniform_, sin la e final del castellano. _Uncle_ es del alfabeto anglosajón antiguo."
+ },
+ "R1.36": {
+  "stem": "En el alfabeto fonético internacional, la letra «Z» se deletrea:",
+  "opts": [
+   [
+    "a",
+    "Zaragoza"
+   ],
+   [
+    "b",
+    "Zebra"
+   ],
+   [
+    "c",
+    "Zeta"
+   ],
+   [
+    "d",
+    "Zulu"
+   ]
+  ],
+  "ans": "d",
+  "sol": "_Zulú_. _Zebra_ pertenece al alfabeto de 1943; conviene recordar que la Z cierra el alfabeto y da nombre al huso horario de referencia, la hora _zulú_ o UTC."
+ },
+ "R1.37": {
+  "stem": "En el deletreo internacional, la cifra «7» se identifica con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Siete"
+   ],
+   [
+    "b",
+    "Seven"
+   ],
+   [
+    "c",
+    "Sierra"
+   ],
+   [
+    "d",
+    "Severo"
+   ]
+  ],
+  "ans": "b",
+  "sol": "_Seven_. Las cifras se dicen en inglés; _Sierra_ es la letra S y _Severo_ no pertenece a ningún alfabeto normalizado."
+ },
+ "R1.38": {
+  "stem": "En el deletreo internacional, la cifra «3» se identifica con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Tres"
+   ],
+   [
+    "b",
+    "Tango"
+   ],
+   [
+    "c",
+    "Three"
+   ],
+   [
+    "d",
+    "Trío"
+   ]
+  ],
+  "ans": "c",
+  "sol": "_Three_. El distractor _Tango_ juega con que la palabra empieza por T, pero esa es una letra, no una cifra."
+ },
+ "R1.39": {
+  "stem": "En el deletreo internacional, la cifra «8» se identifica con la palabra:",
+  "opts": [
+   [
+    "a",
+    "Ocho"
+   ],
+   [
+    "b",
+    "Octavo"
+   ],
+   [
+    "c",
+    "Oscar"
+   ],
+   [
+    "d",
+    "Eight"
+   ]
+  ],
+  "ans": "d",
+  "sol": "_Eight_. El distractor _Oscar_ aprovecha el parecido entre «ocho» y la letra O en castellano."
+ },
+ "R1.40": {
+  "stem": "El distintivo `EC9ZUL` se deletrea:",
+  "opts": [
+   [
+    "a",
+    "España Carmen Nine Zaragoza Ulises Lima"
+   ],
+   [
+    "b",
+    "Echo Charlie Nine Zulu Uniform Lima"
+   ],
+   [
+    "c",
+    "Echo Coca Nine Zebra Uncle Lima"
+   ],
+   [
+    "d",
+    "Eco Charlie Nine Zeta Unión Luis"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Letra por letra con el alfabeto internacional y la cifra con su nombre inglés: _Echo Charlie Nine Zulu_ _Uniform Lima_. Las demás mezclan palabras de alfabetos nacionales o antiguos (_Carmen_, _Coca_, _Uncle_, _Zebra_, _Luis_…) o escriben «Eco» y «Zeta»."
+ },
+ "R2.1": {
+  "stem": "El grupo `QTH` significa:",
+  "opts": [
+   [
+    "a",
+    "mi posición es…"
+   ],
+   [
+    "b",
+    "¿quién me llama?"
+   ],
+   [
+    "c",
+    "cambie de frecuencia"
+   ],
+   [
+    "d",
+    "acuse de recibo"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`QTH`: «mi posición es…»."
+ },
+ "R2.2": {
+  "stem": "El grupo `QRM` indica:",
+  "opts": [
+   [
+    "a",
+    "parásitos atmosféricos"
+   ],
+   [
+    "b",
+    "interferencia producida por otras estaciones"
+   ],
+   [
+    "c",
+    "desvanecimiento de la señal"
+   ],
+   [
+    "d",
+    "emisión con baja potencia"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`QRM`: interferencia de otras estaciones (origen humano); no confundir con `QRN`."
+ },
+ "R2.3": {
+  "stem": "El grupo `QRN` indica:",
+  "opts": [
+   [
+    "a",
+    "parásitos atmosféricos"
+   ],
+   [
+    "b",
+    "interferencia producida por otras estaciones"
+   ],
+   [
+    "c",
+    "ruido interno del receptor"
+   ],
+   [
+    "d",
+    "aumento de potencia"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`QRN`: parásitos atmosféricos, ruido natural (tormentas). La pareja QRM/QRN es de lo más preguntado."
+ },
+ "R2.4": {
+  "stem": "Para indicar a la estación corresponsal que cambie de frecuencia se emplea el grupo:",
+  "opts": [
+   [
+    "a",
+    "`QRT`"
+   ],
+   [
+    "b",
+    "`QRX`"
+   ],
+   [
+    "c",
+    "`QSY`"
+   ],
+   [
+    "d",
+    "`QSL`"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`QSY`: «cambie de frecuencia»; `QRT` es cesar y `QRX` esperar."
+ },
+ "R2.5": {
+  "stem": "El grupo `QRZ` significa:",
+  "opts": [
+   [
+    "a",
+    "llamada general a todas las estaciones"
+   ],
+   [
+    "b",
+    "¿quién me llama?"
+   ],
+   [
+    "c",
+    "mi nombre es…"
+   ],
+   [
+    "d",
+    "la frecuencia está ocupada"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`QRZ`: «¿quién me llama?»; la llamada general es `CQ`, que no es un grupo Q."
+ },
+ "R2.6": {
+  "stem": "El grupo `QSL` significa:",
+  "opts": [
+   [
+    "a",
+    "señal fuerte y clara"
+   ],
+   [
+    "b",
+    "espere"
+   ],
+   [
+    "c",
+    "acuse de recibo"
+   ],
+   [
+    "d",
+    "fin de la transmisión"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`QSL`: acuse de recibo — de ahí las tarjetas QSL."
+ },
+ "R2.7": {
+  "stem": "El grupo `QRP` significa:",
+  "opts": [
+   [
+    "a",
+    "aumente la potencia"
+   ],
+   [
+    "b",
+    "disminuya la potencia"
+   ],
+   [
+    "c",
+    "estación portátil"
+   ],
+   [
+    "d",
+    "transmita más despacio"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`QRP`: «disminuya la potencia»; por extensión, operar con baja potencia. Su opuesto es `QRO`."
+ },
+ "R2.8": {
+  "stem": "El grupo `QSO` designa:",
+  "opts": [
+   [
+    "a",
+    "el acuse de recibo de una tarjeta"
+   ],
+   [
+    "b",
+    "una interferencia intermitente"
+   ],
+   [
+    "c",
+    "un cambio de operador en la estación"
+   ],
+   [
+    "d",
+    "un comunicado entre dos estaciones"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`QSO`: comunicado entre dos estaciones."
+ },
+ "R2.9": {
+  "stem": "El grupo del código Q que indica que el operador volverá a llamar más tarde es:",
+  "opts": [
+   [
+    "a",
+    "`QRX`"
+   ],
+   [
+    "b",
+    "`QRT`"
+   ],
+   [
+    "c",
+    "`QSY`"
+   ],
+   [
+    "d",
+    "`QRK`"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`QRX`: «espere, volveré a llamar más tarde»; `QRK` pregunta por la inteligibilidad."
+ },
+ "R2.10": {
+  "stem": "El grupo del código Q que indica que debe aumentar la potencia es:",
+  "opts": [
+   [
+    "a",
+    "`QRP`"
+   ],
+   [
+    "b",
+    "`QRO`"
+   ],
+   [
+    "c",
+    "`QRM`"
+   ],
+   [
+    "d",
+    "`QSB`"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`QRO`: «aumente la potencia» (la pareja de `QRP`)."
+ },
+ "R2.11": {
+  "stem": "El grupo `QRT` significa:",
+  "opts": [
+   [
+    "a",
+    "transmita más rápido"
+   ],
+   [
+    "b",
+    "espere un momento"
+   ],
+   [
+    "c",
+    "aumente la potencia"
+   ],
+   [
+    "d",
+    "cese la transmisión"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`QRT`: «cese la transmisión»."
+ },
+ "R2.12": {
+  "stem": "El grupo del código Q que indica «su frecuencia varía» es:",
+  "opts": [
+   [
+    "a",
+    "`QRH`"
+   ],
+   [
+    "b",
+    "`QRG`"
+   ],
+   [
+    "c",
+    "`QSY`"
+   ],
+   [
+    "d",
+    "`QTR`"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`QRH`: «su frecuencia varía» (deriva). `QRG` pregunta por la frecuencia exacta: no confundirlas."
+ },
+ "R2.13": {
+  "stem": "El grupo `QSB` indica que la señal tiene:",
+  "opts": [
+   [
+    "a",
+    "interferencias de otras estaciones"
+   ],
+   [
+    "b",
+    "exceso de potencia"
+   ],
+   [
+    "c",
+    "desvanecimiento (_fading_)"
+   ],
+   [
+    "d",
+    "distorsión de audio"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`QSB`: desvanecimiento o _fading_ de la señal."
+ },
+ "R2.14": {
+  "stem": "El grupo `QSA` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "la distancia que separa a las dos estaciones"
+   ],
+   [
+    "b",
+    "el tono de la señal recibida"
+   ],
+   [
+    "c",
+    "la intensidad con que se reciben las señales"
+   ],
+   [
+    "d",
+    "la hora exacta"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`QSA` se responde con una cifra de 1 a 5, de apenas perceptible a muy buena. Es la _intensidad_; la legibilidad es `QRK` y el tono, `QRI`."
+ },
+ "R2.15": {
+  "stem": "El grupo del código Q con el que se pide a la estación corresponsal que transmita más de prisa es:",
+  "opts": [
+   [
+    "a",
+    "`QRQ`"
+   ],
+   [
+    "b",
+    "`QRS`"
+   ],
+   [
+    "c",
+    "`QRO`"
+   ],
+   [
+    "d",
+    "`QRV`"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`QRQ` es «más de prisa» y `QRS`, «más despacio»: van en pareja y se confunden con facilidad. `QRO` es subir potencia y `QRV`, estar preparado."
+ },
+ "R2.16": {
+  "stem": "El grupo `QSP` significa:",
+  "opts": [
+   [
+    "a",
+    "aumente la potencia de emisión"
+   ],
+   [
+    "b",
+    "cambie a la frecuencia indicada"
+   ],
+   [
+    "c",
+    "su señal presenta desvanecimiento"
+   ],
+   [
+    "d",
+    "retransmitir gratuitamente a la estación indicada"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Es el grupo de la retransmisión de mensajes: «¿quiere retransmitir gratuitamente a …?». La gratuidad no es un detalle menor — el servicio de aficionados no puede tener fines lucrativos."
+ },
+ "R2.17": {
+  "stem": "El grupo `QTC` se emplea para indicar:",
+  "opts": [
+   [
+    "a",
+    "la potencia con que se transmite"
+   ],
+   [
+    "b",
+    "que se tienen mensajes para transmitir"
+   ],
+   [
+    "c",
+    "que se cesa la transmisión"
+   ],
+   [
+    "d",
+    "el emplazamiento de la estación"
+   ]
+  ],
+  "ans": "b",
+  "sol": "«¿Cuántos mensajes tiene para transmitir?» o «tengo _𝑛_ mensajes». Cesar la transmisión es `QRT` y el emplazamiento, `QTH`."
+ },
+ "R2.18": {
+  "stem": "El grupo `QRB` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "el número de mensajes pendientes"
+   ],
+   [
+    "b",
+    "la banda de frecuencias empleada"
+   ],
+   [
+    "c",
+    "la distancia que separa a las dos estaciones"
+   ],
+   [
+    "d",
+    "la calidad del tono de la emisión"
+   ]
+  ],
+  "ans": "c",
+  "sol": "«¿A qué distancia se encuentra de mi estación?». De ahí que en concursos y en VHF se hable del _QRB_ de un contacto para referirse a los kilómetros cubiertos."
+ },
+ "R2.19": {
+  "stem": "El grupo `QSK` indica que:",
+  "opts": [
+   [
+    "a",
+    "se puede oír al corresponsal entre las propias señales"
+   ],
+   [
+    "b",
+    "la frecuencia está ocupada"
+   ],
+   [
+    "c",
+    "se va a cerrar la estación"
+   ],
+   [
+    "d",
+    "las señales se reciben con interferencias"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Es la escucha entre impulsos de telegrafía, lo que en inglés se llama _full break-in_: permite que el corresponsal interrumpa sin esperar al final de la transmisión. La frecuencia ocupada es `QRL`."
+ },
+ "R2.20": {
+  "stem": "El grupo `QSM` se emplea para pedir que:",
+  "opts": [
+   [
+    "a",
+    "se reduzca la velocidad de transmisión"
+   ],
+   [
+    "b",
+    "se cambie de frecuencia"
+   ],
+   [
+    "c",
+    "se confirme la recepción por tarjeta"
+   ],
+   [
+    "d",
+    "se repita el último mensaje transmitido"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Reducir la velocidad es `QRS`, cambiar de frecuencia `QSY` y confirmar por tarjeta `QSL`."
+ },
+ "R2.21": {
+  "stem": "El grupo `QSN` se utiliza para preguntar:",
+  "opts": [
+   [
+    "a",
+    "cuántos mensajes quedan pendientes"
+   ],
+   [
+    "b",
+    "si se ha escuchado a una estación en una frecuencia determinada"
+   ],
+   [
+    "c",
+    "cuál es la hora exacta"
+   ],
+   [
+    "d",
+    "a qué distancia se encuentra la estación"
+   ]
+  ],
+  "ans": "b",
+  "sol": "«¿Me ha oído usted, o ha oído a …, en … kHz?». Sirve para comprobar si una emisión llega a un punto concreto del que no se recibe respuesta directa."
+ },
+ "R2.22": {
+  "stem": "El grupo `QSD` indica que:",
+  "opts": [
+   [
+    "a",
+    "la estación va a cerrar"
+   ],
+   [
+    "b",
+    "se transmite con potencia reducida"
+   ],
+   [
+    "c",
+    "la manipulación es defectuosa"
+   ],
+   [
+    "d",
+    "existe desvanecimiento en la señal"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Avisa de que los puntos y rayas llegan mal formados — manipulador sucio, velocidad irregular o chasquidos. El desvanecimiento es `QSB`."
+ },
+ "R2.23": {
+  "stem": "El grupo `QSV` se emplea para pedir que se transmita:",
+  "opts": [
+   [
+    "a",
+    "una serie de letras V para ajustar la recepción"
+   ],
+   [
+    "b",
+    "el distintivo de llamada tres veces"
+   ],
+   [
+    "c",
+    "un mensaje de prueba de cinco palabras"
+   ],
+   [
+    "d",
+    "la señal de socorro"
+   ]
+  ],
+  "ans": "a",
+  "sol": "La V en Morse (· · · −) es inconfundible y de ritmo muy marcado, ideal para ajustar la sintonía y el filtro del receptor."
+ },
+ "R2.24": {
+  "stem": "El grupo `QRI` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "la intensidad de las señales"
+   ],
+   [
+    "b",
+    "la legibilidad de las señales"
+   ],
+   [
+    "c",
+    "la frecuencia exacta de la emisión"
+   ],
+   [
+    "d",
+    "el tono de la transmisión"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Los tres grupos de la valoración de una señal en telegrafía se reparten así: `QRK` legibilidad, `QSA` intensidad y `QRI` tono — los mismos conceptos que el informe RST."
+ },
+ "R2.25": {
+  "stem": "El grupo `QRW` se emplea para:",
+  "opts": [
+   [
+    "a",
+    "pedir que se aumente la velocidad de manipulación"
+   ],
+   [
+    "b",
+    "avisar a una tercera estación de que se la llama en una frecuencia"
+   ],
+   [
+    "c",
+    "preguntar por la posición de la estación"
+   ],
+   [
+    "d",
+    "indicar que se va a permanecer a la escucha"
+   ]
+  ],
+  "ans": "b",
+  "sol": "«¿Quiere avisar a … de que le llamo en … kHz?». Se usa cuando no se consigue contacto directo y hay una estación intermedia que sí oye a las dos."
+ },
+ "R2.26": {
+  "stem": "El grupo `QTA` se utiliza para indicar que:",
+  "opts": [
+   [
+    "a",
+    "se cambia de antena"
+   ],
+   [
+    "b",
+    "se transmite en una frecuencia distinta"
+   ],
+   [
+    "c",
+    "se anule el mensaje indicado"
+   ],
+   [
+    "d",
+    "la estación queda a la escucha"
+   ]
+  ],
+  "ans": "c",
+  "sol": "«Anule el mensaje número …». Sirve para retirar un mensaje ya transmitido que ha dejado de ser válido, algo especialmente importante en tráfico de emergencia."
+ },
+ "R2.27": {
+  "stem": "El grupo del código Q con el que una estación comunica su posición o localidad es:",
+  "opts": [
+   [
+    "a",
+    "`QTR`"
+   ],
+   [
+    "b",
+    "`QTH`"
+   ],
+   [
+    "c",
+    "`QRA`"
+   ],
+   [
+    "d",
+    "`QTC`"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`QTH` es el emplazamiento. `QTR` es la hora, `QRA` el nombre de la estación y `QTC` los mensajes pendientes: los cuatro se confunden con facilidad porque todos «informan» de algo."
+ },
+ "R2.28": {
+  "stem": "Para indicar que se están sufriendo interferencias producidas por otras estaciones se emplea el grupo:",
+  "opts": [
+   [
+    "a",
+    "`QRN`"
+   ],
+   [
+    "b",
+    "`QSB`"
+   ],
+   [
+    "c",
+    "`QRL`"
+   ],
+   [
+    "d",
+    "`QRM`"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`QRM` es la interferencia de origen humano — otras estaciones, equipos eléctricos—. La pareja con `QRN`, que es ruido natural, es de lo más preguntado del tema."
+ },
+ "R2.29": {
+  "stem": "Para indicar que se están sufriendo parásitos atmosféricos se emplea el grupo:",
+  "opts": [
+   [
+    "a",
+    "`QRN`"
+   ],
+   [
+    "b",
+    "`QRM`"
+   ],
+   [
+    "c",
+    "`QSB`"
+   ],
+   [
+    "d",
+    "`QRK`"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`QRN` son los parásitos atmosféricos: tormentas, estática. Regla para no confundirlos: la _N_ de _natural_ frente a la _M_ de _man made_."
+ },
+ "R2.30": {
+  "stem": "El grupo que se emplea para acusar recibo de una comunicación es:",
+  "opts": [
+   [
+    "a",
+    "`QSO`"
+   ],
+   [
+    "b",
+    "`QSY`"
+   ],
+   [
+    "c",
+    "`QSL`"
+   ],
+   [
+    "d",
+    "`QRZ`"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`QSL` es el acuse de recibo, y de ahí que la tarjeta que confirma un contacto se llame precisamente tarjeta QSL. `QSO` es el contacto en sí."
+ },
+ "R2.31": {
+  "stem": "El contacto establecido entre dos estaciones de aficionado se designa con el grupo:",
+  "opts": [
+   [
+    "a",
+    "`QSL`"
+   ],
+   [
+    "b",
+    "`QSO`"
+   ],
+   [
+    "c",
+    "`QTC`"
+   ],
+   [
+    "d",
+    "`QRV`"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`QSO` designa la comunicación establecida entre dos estaciones. Se usa como sustantivo —«hacer un `QSO`»— con toda naturalidad."
+ },
+ "R2.32": {
+  "stem": "Para pedir a la estación corresponsal que cese la transmisión se emplea el grupo:",
+  "opts": [
+   [
+    "a",
+    "`QRX`"
+   ],
+   [
+    "b",
+    "`QRV`"
+   ],
+   [
+    "c",
+    "`QSK`"
+   ],
+   [
+    "d",
+    "`QRT`"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`QRT` es cesar la transmisión. `QRX` es esperar y volver a llamar, que es distinto: uno cierra, el otro aplaza."
+ },
+ "R2.33": {
+  "stem": "Para indicar que se está dispuesto y preparado para recibir se emplea el grupo:",
+  "opts": [
+   [
+    "a",
+    "`QRV`"
+   ],
+   [
+    "b",
+    "`QRU`"
+   ],
+   [
+    "c",
+    "`QRX`"
+   ],
+   [
+    "d",
+    "`QRQ`"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`QRV` es «estoy dispuesto». `QRU` es «no tengo nada para usted», que se parece en la forma pero significa casi lo contrario."
+ },
+ "R2.34": {
+  "stem": "Para preguntar si la frecuencia está ocupada se emplea el grupo:",
+  "opts": [
+   [
+    "a",
+    "`QRG`"
+   ],
+   [
+    "b",
+    "`QSY`"
+   ],
+   [
+    "c",
+    "`QRL`"
+   ],
+   [
+    "d",
+    "`QRZ`"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`QRL?` es la pregunta obligada antes de ponerse a llamar en una frecuencia: puede estar ocupada por una estación que no oímos. `QRG` pregunta por la frecuencia exacta."
+ },
+ "R3.1": {
+  "stem": "La abreviatura `CQ` significa:",
+  "opts": [
+   [
+    "a",
+    "confirme la recepción"
+   ],
+   [
+    "b",
+    "llamada general a todas las estaciones"
+   ],
+   [
+    "c",
+    "cambio de frecuencia"
+   ],
+   [
+    "d",
+    "cierre de la estación"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`CQ`: llamada general a cualquier estación que escuche."
+ },
+ "R3.2": {
+  "stem": "Entre las abreviaturas más usuales se encuentra `CL`, que significa:",
+  "opts": [
+   [
+    "a",
+    "llamada local"
+   ],
+   [
+    "b",
+    "canal libre"
+   ],
+   [
+    "c",
+    "cambio de banda lateral"
+   ],
+   [
+    "d",
+    "cierre de la estación"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`CL` (_closing_): cierre de la estación."
+ },
+ "R3.3": {
+  "stem": "La abreviatura `RPT` significa:",
+  "opts": [
+   [
+    "a",
+    "repita"
+   ],
+   [
+    "b",
+    "reporte recibido"
+   ],
+   [
+    "c",
+    "repetidor activo"
+   ],
+   [
+    "d",
+    "recepción perfecta"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`RPT` (_repeat_): repita."
+ },
+ "R3.4": {
+  "stem": "La abreviatura `DX` designa:",
+  "opts": [
+   [
+    "a",
+    "una emisión digital experimental"
+   ],
+   [
+    "b",
+    "un duplexor de antena"
+   ],
+   [
+    "c",
+    "un contacto de larga distancia"
+   ],
+   [
+    "d",
+    "una estación desatendida"
+   ]
+  ],
+  "ans": "c",
+  "sol": "`DX`: contacto de larga distancia."
+ },
+ "R3.5": {
+  "stem": "La abreviatura `USB` corresponde a:",
+  "opts": [
+   [
+    "a",
+    "una emisión de urgencia submarina"
+   ],
+   [
+    "b",
+    "la banda lateral superior"
+   ],
+   [
+    "c",
+    "la banda lateral inferior"
+   ],
+   [
+    "d",
+    "la doble banda lateral"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`USB`: banda lateral superior; `LSB`, la inferior. Convenio en HF: LSB por debajo de 10 MHz, USB por encima."
+ },
+ "R3.6": {
+  "stem": "La abreviatura `CW` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "la telegrafía en código Morse (onda continua)"
+   ],
+   [
+    "b",
+    "la telefonía comercial"
+   ],
+   [
+    "c",
+    "una llamada de socorro"
+   ],
+   [
+    "d",
+    "la banda ciudadana"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`CW` (_continuous wave_): telegrafía en Morse."
+ },
+ "R3.7": {
+  "stem": "En telegrafía, la abreviatura de procedimiento empleada para finalizar una transmisión es:",
+  "opts": [
+   [
+    "a",
+    "`CQ`"
+   ],
+   [
+    "b",
+    "`SK9`"
+   ],
+   [
+    "c",
+    "`VA73`"
+   ],
+   [
+    "d",
+    "`AR`"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`AR` marca el fin de la transmisión; `K` invita a transmitir y `SK` cierra el contacto."
+ },
+ "R3.8": {
+  "stem": "El código RST se utiliza para:",
+  "opts": [
+   [
+    "a",
+    "solicitar un cambio de frecuencia"
+   ],
+   [
+    "b",
+    "identificar el distrito de la estación"
+   ],
+   [
+    "c",
+    "informar sobre la señal recibida (legibilidad, intensidad y tono)"
+   ],
+   [
+    "d",
+    "anunciar el cierre de la estación"
+   ]
+  ],
+  "ans": "c",
+  "sol": "RST: legibilidad (1–5), intensidad (1–9) y tono (1–9, solo telegrafía); el «59» es el informe estándar de fonía."
+ },
+ "R3.9": {
+  "stem": "La abreviatura `OM` se emplea para referirse a:",
+  "opts": [
+   [
+    "a",
+    "el operador de la estación corresponsal"
+   ],
+   [
+    "b",
+    "un equipo de fabricación casera"
+   ],
+   [
+    "c",
+    "una emisión de onda media"
+   ],
+   [
+    "d",
+    "el operador de una estación repetidora"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Del inglés _old man_. Es el tratamiento cordial habitual entre radioaficionados varones, sin relación alguna con la edad. La versión femenina es `YL`."
+ },
+ "R3.10": {
+  "stem": "La abreviatura `YL` designa a:",
+  "opts": [
+   [
+    "a",
+    "una estación de baja potencia"
+   ],
+   [
+    "b",
+    "un enlace de larga distancia"
+   ],
+   [
+    "c",
+    "una operadora"
+   ],
+   [
+    "d",
+    "una licencia provisional"
+   ]
+  ],
+  "ans": "c",
+  "sol": "De _young lady_. La baja potencia es `QRP` y la larga distancia, `DX`."
+ },
+ "R3.11": {
+  "stem": "La abreviatura `XYL` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "una estación experimental"
+   ],
+   [
+    "b",
+    "la esposa del radioaficionado"
+   ],
+   [
+    "c",
+    "un distintivo caducado"
+   ],
+   [
+    "d",
+    "una antena de doble polarización"
+   ]
+  ],
+  "ans": "b",
+  "sol": "De _ex-young lady_, con el humor de la vieja jerga radioeléctrica. Se emplea para la esposa, sea o no radioaficionada."
+ },
+ "R3.12": {
+  "stem": "En una comunicación, la abreviatura `DE` colocada antes de un distintivo indica:",
+  "opts": [
+   [
+    "a",
+    "que se solicita respuesta inmediata"
+   ],
+   [
+    "b",
+    "que la estación va a cerrar"
+   ],
+   [
+    "c",
+    "el nombre del operador"
+   ],
+   [
+    "d",
+    "que a continuación viene el distintivo de quien transmite"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Es literalmente la preposición «de»: en «`EA4XYZ` de `EA1ABC`», quien llama es la segunda. Marca quién habla, y por eso va siempre delante del propio distintivo."
+ },
+ "R3.13": {
+  "stem": "En telegrafía, la abreviatura de procedimiento `K` significa:",
+  "opts": [
+   [
+    "a",
+    "invitación a transmitir a la estación corresponsal"
+   ],
+   [
+    "b",
+    "fin definitivo de la comunicación"
+   ],
+   [
+    "c",
+    "petición de repetición del mensaje"
+   ],
+   [
+    "d",
+    "cierre de la estación"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Es el «cambio» de la telegrafía: he terminado, hable usted. No debe confundirse con `SK`, que cierra el contacto entero, ni con `CL`, que cierra la estación."
+ },
+ "R3.14": {
+  "stem": "La abreviatura de procedimiento `SK` indica:",
+  "opts": [
+   [
+    "a",
+    "que se transmite en banda lateral"
+   ],
+   [
+    "b",
+    "que se solicita una tarjeta de confirmación"
+   ],
+   [
+    "c",
+    "el final del contacto entre las dos estaciones"
+   ],
+   [
+    "d",
+    "que la señal se recibe con interferencias"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Cierra la comunicación: ya no se espera respuesta. Si además se apaga la estación, se añade `CL`."
+ },
+ "R3.15": {
+  "stem": "La abreviatura `BK` se emplea para:",
+  "opts": [
+   [
+    "a",
+    "indicar que se cambia de banda"
+   ],
+   [
+    "b",
+    "interrumpir brevemente la transmisión del corresponsal"
+   ],
+   [
+    "c",
+    "pedir que se repita la última palabra"
+   ],
+   [
+    "d",
+    "señalar el comienzo de una llamada general"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Del inglés _break_. Permite cortar sin esperar al final, algo que en telegrafía facilita el `QSK`. El comienzo de una llamada general es `CQ`."
+ },
+ "R3.16": {
+  "stem": "La abreviatura `73` significa:",
+  "opts": [
+   [
+    "a",
+    "el número de contactos realizados"
+   ],
+   [
+    "b",
+    "la potencia empleada, en vatios"
+   ],
+   [
+    "c",
+    "la banda de trabajo, en metros"
+   ],
+   [
+    "d",
+    "saludos cordiales"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Viene de los antiguos códigos telegráficos numéricos y ha sobrevivido como la despedida universal del radioaficionado. Se dice «73», no «setenta y tres saludos»."
+ },
+ "R3.17": {
+  "stem": "La abreviatura `88` se emplea para expresar:",
+  "opts": [
+   [
+    "a",
+    "besos, en despedidas de cortesía"
+   ],
+   [
+    "b",
+    "una señal muy intensa"
+   ],
+   [
+    "c",
+    "la petición de repetir el mensaje"
+   ],
+   [
+    "d",
+    "una comunicación de emergencia"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Del mismo origen numérico que el `73`, y con el mismo tono cordial. Por costumbre se reserva para despedidas entre personas con cierta confianza."
+ },
+ "R3.18": {
+  "stem": "La abreviatura `PSE` corresponde a:",
+  "opts": [
+   [
+    "a",
+    "potencia de salida efectiva"
+   ],
+   [
+    "b",
+    "pausa entre transmisiones"
+   ],
+   [
+    "c",
+    "por favor"
+   ],
+   [
+    "d",
+    "posición estimada"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Contracción del inglés _please_. Es una de las abreviaturas de cortesía que, junto con `TNX`, aparecen constantemente en telegrafía."
+ },
+ "R3.19": {
+  "stem": "La abreviatura `TNX` (o `TKS`) significa:",
+  "opts": [
+   [
+    "a",
+    "transmisión no cifrada"
+   ],
+   [
+    "b",
+    "gracias"
+   ],
+   [
+    "c",
+    "cambio de frecuencia"
+   ],
+   [
+    "d",
+    "transmisor en pruebas"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Contracción de _thanks_. El cambio de frecuencia es `QSY`."
+ },
+ "R3.20": {
+  "stem": "En una comunicación, la abreviatura `WX` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "la potencia de la estación"
+   ],
+   [
+    "b",
+    "la longitud de onda empleada"
+   ],
+   [
+    "c",
+    "el tipo de antena instalada"
+   ],
+   [
+    "d",
+    "las condiciones meteorológicas"
+   ]
+  ],
+  "ans": "d",
+  "sol": "De _weather_. Es uno de los asuntos clásicos de conversación en un contacto, junto con el equipo (`RIG`) y el informe de señal."
+ },
+ "R3.21": {
+  "stem": "La abreviatura `UR` corresponde a:",
+  "opts": [
+   [
+    "a",
+    "el posesivo «su», referido al corresponsal"
+   ],
+   [
+    "b",
+    "una emisión de urgencia"
+   ],
+   [
+    "c",
+    "una estación no identificada"
+   ],
+   [
+    "d",
+    "la banda de UHF"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Contracción de _your_, escrita tal como suena. Aparece continuamente en expresiones como «`UR RST` 599»."
+ },
+ "R3.22": {
+  "stem": "En telegrafía, la abreviatura `R` transmitida como respuesta significa:",
+  "opts": [
+   [
+    "a",
+    "repita el mensaje"
+   ],
+   [
+    "b",
+    "reduzca la potencia"
+   ],
+   [
+    "c",
+    "recibido conforme"
+   ],
+   [
+    "d",
+    "la estación está en reparación"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Del inglés _roger_: he recibido y entendido lo transmitido. Pedir repetición es `RPT` y reducir potencia, `QRP`."
+ },
+ "R3.23": {
+  "stem": "La abreviatura `SSB` corresponde a:",
+  "opts": [
+   [
+    "a",
+    "una emisión de doble banda lateral"
+   ],
+   [
+    "b",
+    "una señal de socorro"
+   ],
+   [
+    "c",
+    "la banda lateral única"
+   ],
+   [
+    "d",
+    "un sistema de sintonía automática"
+   ]
+  ],
+  "ans": "c",
+  "sol": "De _single side band_. Es el modo de fonía por excelencia en HF, porque suprime la portadora y una banda lateral y concentra toda la potencia en la información."
+ },
+ "R3.24": {
+  "stem": "La abreviatura `LSB` designa:",
+  "opts": [
+   [
+    "a",
+    "la banda lateral inferior"
+   ],
+   [
+    "b",
+    "la banda lateral superior"
+   ],
+   [
+    "c",
+    "un limitador de señal"
+   ],
+   [
+    "d",
+    "una emisión de baja potencia"
+   ]
+  ],
+  "ans": "a",
+  "sol": "De _lower side band_. Se emplea por costumbre en 160, 80 y 40 metros; de 20 metros hacia arriba se usa `USB`. Es una convención, no una obligación técnica."
+ },
+ "R3.25": {
+  "stem": "La abreviatura `RIG` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "la relación de ondas estacionarias"
+   ],
+   [
+    "b",
+    "el indicativo de la estación"
+   ],
+   [
+    "c",
+    "la ganancia de la antena"
+   ],
+   [
+    "d",
+    "el equipo de radio de la estación"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Es la jerga habitual para el transceptor y, por extensión, para el conjunto de la estación: «mi `RIG` es un…» es de las frases más repetidas en un contacto."
+ },
+ "R3.26": {
+  "stem": "La abreviatura `ANT` significa:",
+  "opts": [
+   [
+    "a",
+    "anterior"
+   ],
+   [
+    "b",
+    "antena"
+   ],
+   [
+    "c",
+    "antes del mediodía"
+   ],
+   [
+    "d",
+    "anotación"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Contracción de _antenna_. Junto con `RIG` y `PWR` forma el trío con que se describe la estación al corresponsal."
+ },
+ "R3.27": {
+  "stem": "La abreviatura `OP` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "la potencia de salida"
+   ],
+   [
+    "b",
+    "la frecuencia de operación"
+   ],
+   [
+    "c",
+    "el operador de la estación"
+   ],
+   [
+    "d",
+    "la opción de modo"
+   ]
+  ],
+  "ans": "c",
+  "sol": "De _operator_: la persona que está a los mandos, que no siempre coincide con el titular de la estación. Se usa para presentarse: «`OP` Alberto»."
+ },
+ "R3.28": {
+  "stem": "La abreviatura `HR` significa:",
+  "opts": [
+   [
+    "a",
+    "aquí"
+   ],
+   [
+    "b",
+    "hora"
+   ],
+   [
+    "c",
+    "horizontal"
+   ],
+   [
+    "d",
+    "he recibido"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Contracción de _here_: «aquí», referido al lugar desde donde se transmite. Aparece constantemente en expresiones como «`WX HR VY GUD`»."
+ },
+ "R3.29": {
+  "stem": "La abreviatura `ES` se emplea con el significado de:",
+  "opts": [
+   [
+    "a",
+    "España"
+   ],
+   [
+    "b",
+    "estación"
+   ],
+   [
+    "c",
+    "eso es"
+   ],
+   [
+    "d",
+    "y"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Es la conjunción «y», tomada del signo telegráfico correspondiente. Ahorra caracteres en telegrafía, que es de lo que se trata."
+ },
+ "R3.30": {
+  "stem": "La abreviatura `NIL` significa:",
+  "opts": [
+   [
+    "a",
+    "nivel de señal"
+   ],
+   [
+    "b",
+    "nada, sin novedad"
+   ],
+   [
+    "c",
+    "nueva llamada"
+   ],
+   [
+    "d",
+    "no identificado"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Del latín _nihil_ a través del inglés: nada que transmitir, sin novedad. Se emplea para cerrar un tráfico de mensajes cuando no queda ninguno."
+ },
+ "R3.31": {
+  "stem": "La abreviatura `CFM` significa:",
+  "opts": [
+   [
+    "a",
+    "cambio de frecuencia"
+   ],
+   [
+    "b",
+    "conforme al manual"
+   ],
+   [
+    "c",
+    "confirmo"
+   ],
+   [
+    "d",
+    "cierro comunicación"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Contracción de _confirm_: doy por buena la información recibida. Es lo que se transmite al aceptar un informe de señal o un dato del corresponsal."
+ },
+ "R3.32": {
+  "stem": "La abreviatura `AGN` significa:",
+  "opts": [
+   [
+    "a",
+    "de nuevo, otra vez"
+   ],
+   [
+    "b",
+    "agenda de contactos"
+   ],
+   [
+    "c",
+    "antena general"
+   ],
+   [
+    "d",
+    "a la ganancia máxima"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Contracción de _again_. Se usa para pedir repetición de forma abreviada, sola o junto a `PSE`: «`PSE AGN`»."
+ },
+ "R3.33": {
+  "stem": "La abreviatura `ABT` significa:",
+  "opts": [
+   [
+    "a",
+    "abierto"
+   ],
+   [
+    "b",
+    "a bordo"
+   ],
+   [
+    "c",
+    "abandono la transmisión"
+   ],
+   [
+    "d",
+    "aproximadamente"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Contracción de _about_. Sirve para dar un dato aproximado, como la distancia o la potencia, sin comprometerse con una cifra exacta."
+ },
+ "R3.34": {
+  "stem": "La abreviatura `VY` se emplea con el significado de:",
+  "opts": [
+   [
+    "a",
+    "vertical"
+   ],
+   [
+    "b",
+    "muy"
+   ],
+   [
+    "c",
+    "voy"
+   ],
+   [
+    "d",
+    "visibilidad"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Contracción de _very_. Casi siempre va delante de un adjetivo: «`VY GUD`», muy bien; «`VY` 73», saludos muy cordiales."
+ },
+ "R3.35": {
+  "stem": "La abreviatura `TU` se emplea para expresar:",
+  "opts": [
+   [
+    "a",
+    "turno de palabra"
+   ],
+   [
+    "b",
+    "transmisión urgente"
+   ],
+   [
+    "c",
+    "gracias"
+   ],
+   [
+    "d",
+    "tono uniforme"
+   ]
+  ],
+  "ans": "c",
+  "sol": "De _thank you_. Es la forma más corta de dar las gracias, aún más breve que `TNX`, y se emplea mucho al cerrar un contacto rápido de concurso."
+ },
+ "R3.36": {
+  "stem": "La abreviatura `HI` se emplea en telegrafía para expresar:",
+  "opts": [
+   [
+    "a",
+    "una risa"
+   ],
+   [
+    "b",
+    "un saludo inicial"
+   ],
+   [
+    "c",
+    "alta frecuencia"
+   ],
+   [
+    "d",
+    "una petición de repetición"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Es la forma de reírse en telegrafía: se transmite tal cual y el corresponsal lo entiende como una risa. Un rasgo de la vieja cultura telegráfica que ha sobrevivido intacto."
+ },
+ "R3.37": {
+  "stem": "La abreviatura `PWR` se refiere a:",
+  "opts": [
+   [
+    "a",
+    "la propagación"
+   ],
+   [
+    "b",
+    "el prefijo del distintivo"
+   ],
+   [
+    "c",
+    "el periodo de la señal"
+   ],
+   [
+    "d",
+    "la potencia"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Contracción de _power_ : la potencia con que se transmite, dato habitual al describir la estación junto con el equipo y la antena."
+ },
+ "R3.38": {
+  "stem": "La abreviatura `SRI` se emplea para expresar:",
+  "opts": [
+   [
+    "a",
+    "señal recibida intermitente"
+   ],
+   [
+    "b",
+    "lo siento"
+   ],
+   [
+    "c",
+    "servicio de radio internacional"
+   ],
+   [
+    "d",
+    "sin respuesta inmediata"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Contracción de _sorry_. Se emplea para disculparse, por ejemplo al no poder completar un contacto o al haber interrumpido a otra estación."
+ },
+ "R4.1": {
+  "stem": "La señal de socorro en radiotelefonía es:",
+  "opts": [
+   [
+    "a",
+    "Sécurité"
+   ],
+   [
+    "b",
+    "Pan Pan"
+   ],
+   [
+    "c",
+    "Mayday"
+   ],
+   [
+    "d",
+    "Alerta"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Mayday (del francés _m’aider_): socorro en fonía, prioridad absoluta."
+ },
+ "R4.2": {
+  "stem": "La señal de urgencia en radiotelefonía consiste en la transmisión, repetida tres veces, de:",
+  "opts": [
+   [
+    "a",
+    "Pan Pan"
+   ],
+   [
+    "b",
+    "Mayday"
+   ],
+   [
+    "c",
+    "Sécurité"
+   ],
+   [
+    "d",
+    "SOS"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Pan Pan tres veces: urgencia, sin peligro inmediato de vidas."
+ },
+ "R4.3": {
+  "stem": "La señal de seguridad en radiotelefonía se compone de:",
+  "opts": [
+   [
+    "a",
+    "la palabra «Mayday» repetida tres veces"
+   ],
+   [
+    "b",
+    "la palabra «Sécurité» repetida tres veces"
+   ],
+   [
+    "c",
+    "tres tonos largos de 1000 Hz"
+   ],
+   [
+    "d",
+    "la palabra «Seguridad» seguida del distintivo"
+   ]
+  ],
+  "ans": "b",
+  "sol": "SÉcuRitÉ tres veces: avisos de seguridad (meteorológicos o a la navegación)."
+ },
+ "R4.4": {
+  "stem": "Un mensaje de socorro NO incluirá:",
+  "opts": [
+   [
+    "a",
+    "la identificación de la estación en peligro"
+   ],
+   [
+    "b",
+    "la posición de la estación en peligro"
+   ],
+   [
+    "c",
+    "la naturaleza del peligro"
+   ],
+   [
+    "d",
+    "la señal de seguridad «Sécurité»"
+   ]
+  ],
+  "ans": "d",
+  "sol": "El mensaje de socorro lleva identificación, posición y naturaleza del peligro; «Sécurité» es de otra categoría (tabla R4.1)."
+ },
+ "R4.5": {
+  "stem": "La abreviatura `XXX`, transmitida tres veces consecutivas, constituye la señal de:",
+  "opts": [
+   [
+    "a",
+    "socorro"
+   ],
+   [
+    "b",
+    "urgencia"
+   ],
+   [
+    "c",
+    "seguridad"
+   ],
+   [
+    "d",
+    "alarma"
+   ]
+  ],
+  "ans": "b",
+  "sol": "`XXX` tres veces: urgencia telegráfica, equivalente a Pan Pan."
+ },
+ "R4.6": {
+  "stem": "La abreviatura `TTT`, transmitida tres veces consecutivas, constituye la señal de:",
+  "opts": [
+   [
+    "a",
+    "socorro"
+   ],
+   [
+    "b",
+    "urgencia"
+   ],
+   [
+    "c",
+    "alarma"
+   ],
+   [
+    "d",
+    "seguridad"
+   ]
+  ],
+  "ans": "d",
+  "sol": "`TTT` tres veces: seguridad telegráfica, equivalente a SÉcuRitÉ."
+ },
+ "R4.7": {
+  "stem": "La señal de socorro en radiotelegrafía es:",
+  "opts": [
+   [
+    "a",
+    "SOS"
+   ],
+   [
+    "b",
+    "XXX"
+   ],
+   [
+    "c",
+    "TTT"
+   ],
+   [
+    "d",
+    "CQD"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`SOS`: socorro en telegrafía; `CQD` es la señal antigua abandonada a principios del siglo XX."
+ },
+ "R4.8": {
+  "stem": "La señal de alarma en radiotelefonía consiste en dos tonos aproximadamente sinusoidales transmitidos alternativamente, de frecuencias:",
+  "opts": [
+   [
+    "a",
+    "500 Hz y 1000 Hz"
+   ],
+   [
+    "b",
+    "440 Hz y 880 Hz"
+   ],
+   [
+    "c",
+    "2200 Hz y 1300 Hz"
+   ],
+   [
+    "d",
+    "3000 Hz y 300 Hz"
+   ]
+  ],
+  "ans": "c",
+  "sol": "La señal de alarma alterna tonos de 2200 y 1300 Hz para activar los receptores automáticos de guardia antes de un socorro."
+ },
+ "R4.9": {
+  "stem": "La banda de aficionado conocida como «banda de 20 metros» corresponde a una frecuencia próxima a:",
+  "opts": [
+   [
+    "a",
+    "3,5 MHz"
+   ],
+   [
+    "b",
+    "14 MHz"
+   ],
+   [
+    "c",
+    "50 MHz"
+   ],
+   [
+    "d",
+    "144 MHz"
+   ]
+  ],
+  "ans": "b",
+  "sol": "_𝜆_ = 20 m ⇒ _𝑓_ ≈ 300/20 = 15 MHz, y la banda se sitúa en 14 MHz (tabla R4.2). La regla _𝜆_ ≈ 300/_𝑓_ del tema T1 resuelve estas equivalencias."
+ },
+ "R4.10": {
+  "stem": "La Resolución 640 del Reglamento de Radiocomunicaciones se refiere al empleo de las bandas de aficionado:",
+  "opts": [
+   [
+    "a",
+    "para radiodifusión comercial"
+   ],
+   [
+    "b",
+    "en comunicaciones de socorro en caso de catástrofes naturales"
+   ],
+   [
+    "c",
+    "exclusivamente en telegrafía"
+   ],
+   [
+    "d",
+    "para enlaces con satélites meteorológicos"
+   ]
+  ],
+  "ans": "b",
+  "sol": "La Res. 640 (CAMR-79, suprimida por la CMR-97) invitaba a las administraciones a prever el uso de las bandas de aficionado en las comunicaciones de socorro cuando una catástrofe natural inutiliza las redes normales. Hoy lo recogen el número 25.9A del Reglamento de Radiocomunicaciones y, para el tráfico de terceros en emergencia o desastre, el 25.3 y el art. 30.3 de la Orden IET/1311/2013. Sigue figurando en el temario (anexo II, parte segunda, punto 4)."
+ },
+ "R4.11": {
+  "stem": "Entre las tres señales, el orden de prioridad de menor a mayor es:",
+  "opts": [
+   [
+    "a",
+    "socorro, urgencia y seguridad"
+   ],
+   [
+    "b",
+    "seguridad, urgencia y socorro"
+   ],
+   [
+    "c",
+    "urgencia, seguridad y socorro"
+   ],
+   [
+    "d",
+    "las tres tienen la misma prioridad"
+   ]
+  ],
+  "ans": "b",
+  "sol": "De menor a mayor: seguridad (_Sécurité_, avisos de navegación o meteorológicos), urgencia (_Pan Pan_, un problema serio sin peligro inminente) y socorro (_Mayday_, peligro grave e inminente). El socorro tiene prioridad absoluta sobre cualquier otra comunicación."
+ },
+ "R4.12": {
+  "stem": "Una estación de aficionado que escucha una llamada de socorro debe:",
+  "opts": [
+   [
+    "a",
+    "continuar su comunicación en la misma frecuencia"
+   ],
+   [
+    "b",
+    "aumentar su potencia para cubrir la zona"
+   ],
+   [
+    "c",
+    "repetir la llamada en todas las bandas que tenga disponibles"
+   ],
+   [
+    "d",
+    "guardar silencio, permanecer a la escucha y prestar auxilio si puede"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Lo primero es no estorbar: la frecuencia queda para quien está en peligro y para quien pueda auxiliarle. Después, si se está en condiciones de ayudar —o de retransmitir el mensaje a quien pueda— se hace: el art. 30.5 de la Orden obliga a hacer lo posible para que la comunicación de socorro llegue cuanto antes a la Dirección General de Protección Civil y Emergencias. Repetirlo a ciegas por todas las bandas solo multiplica la confusión."
+ },
+ "R4.13": {
+  "stem": "En caso de peligro grave e inminente, una estación de aficionado:",
+  "opts": [
+   [
+    "a",
+    "puede emplear cualquier medio y frecuencia a su alcance para pedir auxilio"
+   ],
+   [
+    "b",
+    "solo puede emitir en las frecuencias de su autorización"
+   ],
+   [
+    "c",
+    "debe esperar autorización expresa de la Administración"
+   ],
+   [
+    "d",
+    "debe limitarse a la banda de 20 metros"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Es una excepción reconocida por el Reglamento de Radiocomunicaciones: ante un peligro grave e inminente, la vida humana está por encima de los límites de la autorización. Fuera de ese supuesto, las frecuencias asignadas son las que son."
+ },
+ "R4.14": {
+  "stem": "Después de transmitir un mensaje de socorro, la estación debe:",
+  "opts": [
+   [
+    "a",
+    "apagar el equipo para no interferir"
+   ],
+   [
+    "b",
+    "cambiar inmediatamente de banda"
+   ],
+   [
+    "c",
+    "permanecer a la escucha en esa misma frecuencia"
+   ],
+   [
+    "d",
+    "repetirlo sin pausa hasta obtener respuesta"
+   ]
+  ],
+  "ans": "c",
+  "sol": "De nada sirve pedir auxilio si nadie puede contestar. Se transmite y se escucha en la misma frecuencia, dejando huecos suficientes para que quien responda pueda hacerlo."
+ },
+ "R4.15": {
+  "stem": "La colaboración de los radioaficionados con los servicios de emergencia en caso de catástrofe:",
+  "opts": [
+   [
+    "a",
+    "es siempre voluntaria y no puede exigirse"
+   ],
+   [
+    "b",
+    "es obligatoria cuando la requiere la autoridad competente"
+   ],
+   [
+    "c",
+    "está prohibida salvo autorización previa por escrito"
+   ],
+   [
+    "d",
+    "solo se admite en la banda de 2 metros"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Una cosa es el espíritu de colaboración, que es voluntario, y otra el requerimiento formal de la autoridad competente en una emergencia: entonces la colaboración es exigible (art. 30.4 de la Orden: a requerimiento de la Dirección General de Protección Civil y Emergencias). Es una de las razones de ser del servicio de aficionados y de que se le reserve espectro."
+ },
+ "R4.16": {
+  "stem": "Emplear las señales de socorro «SOS» o «MAYDAY» sin que exista una situación de peligro constituye:",
+  "opts": [
+   [
+    "a",
+    "una práctica desaconsejada, pero sin consecuencias"
+   ],
+   [
+    "b",
+    "una infracción sancionable"
+   ],
+   [
+    "c",
+    "una conducta permitida a efectos de prueba"
+   ],
+   [
+    "d",
+    "una falta únicamente si se repite"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Las señales de socorro movilizan medios y silencian frecuencias: usarlas en falso está prohibido por la Constitución de la UIT (art. 47) y por el Reglamento de Radiocomunicaciones, es sancionable (la Ley 11/2022 no tiene un tipo específico para ello) y, si moviliza medios de socorro, puede llegar a ser delito (Código Penal, art. 561), además de gravemente irresponsable. Ni siquiera cabe «para probar el equipo»."
+ },
+ "R5.1": {
+  "stem": "El distintivo de llamada de una estación de radioaficionado está constituido, secuencialmente, por:",
+  "opts": [
+   [
+    "a",
+    "sufijo, distrito y prefijo"
+   ],
+   [
+    "b",
+    "prefijo, distrito y sufijo"
+   ],
+   [
+    "c",
+    "distrito, prefijo y sufijo"
+   ],
+   [
+    "d",
+    "prefijo, sufijo y distrito"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Prefijo + distrito + sufijo: `EA5RCA` = EA + 5 + RCA."
+ },
+ "R5.2": {
+  "stem": "Las series de prefijos internacionales atribuidas a España según el Reglamento de Radiocomunicaciones incluyen:",
+  "opts": [
+   [
+    "a",
+    "FM, FN y FA"
+   ],
+   [
+    "b",
+    "KN, KK y KL"
+   ],
+   [
+    "c",
+    "EA, EB y EC"
+   ],
+   [
+    "d",
+    "EPA, EQZ y EAA"
+   ]
+  ],
+  "ans": "c",
+  "sol": "El Reglamento de Radiocomunicaciones atribuye a España las series EA–EH; las habituales son EA, EB y EC."
+ },
+ "R5.3": {
+  "stem": "El distrito de llamada «EA6» corresponde a:",
+  "opts": [
+   [
+    "a",
+    "las Islas Baleares"
+   ],
+   [
+    "b",
+    "las Islas Canarias"
+   ],
+   [
+    "c",
+    "Andalucía"
+   ],
+   [
+    "d",
+    "Cataluña"
+   ]
+  ],
+  "ans": "a",
+  "sol": "EA6 = Baleares (tabla R5.1)."
+ },
+ "R5.4": {
+  "stem": "El distrito de llamada «EA9» corresponde a:",
+  "opts": [
+   [
+    "a",
+    "las Islas Baleares"
+   ],
+   [
+    "b",
+    "las Islas Canarias"
+   ],
+   [
+    "c",
+    "Galicia"
+   ],
+   [
+    "d",
+    "Ceuta y Melilla"
+   ]
+  ],
+  "ans": "d",
+  "sol": "EA9 = Ceuta y Melilla; Canarias es EA8."
+ },
+ "R5.5": {
+  "stem": "Si escuchamos una llamada con el distintivo `EA7RCA`, la estación emite desde:",
+  "opts": [
+   [
+    "a",
+    "Madrid"
+   ],
+   [
+    "b",
+    "Andalucía"
+   ],
+   [
+    "c",
+    "el País Vasco"
+   ],
+   [
+    "d",
+    "Canarias"
+   ]
+  ],
+  "ans": "b",
+  "sol": "La cifra del distintivo es el distrito, y el 7 corresponde a Andalucía (véase la tabla R5.1). Madrid es el 4, el País Vasco el 2 y Canarias el 8."
+ },
+ "R5.6": {
+  "stem": "El distrito 0 de un distintivo de llamada se autoriza exclusivamente:",
+  "opts": [
+   [
+    "a",
+    "con motivo de actos inaugurados o visitados por S. M. el Rey"
+   ],
+   [
+    "b",
+    "para estaciones militares"
+   ],
+   [
+    "c",
+    "para concursos internacionales"
+   ],
+   [
+    "d",
+    "para estaciones marítimas"
+   ]
+  ],
+  "ans": "a",
+  "sol": "El distrito 0 se reserva para actos inaugurados o visitados por S. M. el Rey."
+ },
+ "R5.7": {
+  "stem": "El número total de distritos en que se dividen los indicativos de llamada españoles es:",
+  "opts": [
+   [
+    "a",
+    "siete"
+   ],
+   [
+    "b",
+    "ocho"
+   ],
+   [
+    "c",
+    "nueve"
+   ],
+   [
+    "d",
+    "diez"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Nueve distritos (1 a 9); el 0 es un caso especial reservado."
+ },
+ "R5.8": {
+  "stem": "Las estaciones automáticas desatendidas (por ejemplo, los repetidores) utilizan el prefijo:",
+  "opts": [
+   [
+    "a",
+    "EC"
+   ],
+   [
+    "b",
+    "ED"
+   ],
+   [
+    "c",
+    "EE"
+   ],
+   [
+    "d",
+    "EH"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Las desatendidas (repetidores, balizas, nodos) usan el prefijo ED."
+ },
+ "R5.9": {
+  "stem": "En los distintivos de las estaciones automáticas desatendidas, los sufijos de tres letras que comienzan por Y o por Z se reservan, respectivamente, para estaciones:",
+  "opts": [
+   [
+    "a",
+    "marítimas y aeronáuticas"
+   ],
+   [
+    "b",
+    "colectivas y personales"
+   ],
+   [
+    "c",
+    "experimentales y de concurso"
+   ],
+   [
+    "d",
+    "analógicas y digitales"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Inicial Y = analógica, Z = digital: `ED1YBD` repetidor analógico, `ED5ZAA` digital."
+ },
+ "R5.10": {
+  "stem": "Una estación de aficionado móvil marítima identificará su emisión añadiendo a su distintivo:",
+  "opts": [
+   [
+    "a",
+    "/MM"
+   ],
+   [
+    "b",
+    "/P"
+   ],
+   [
+    "c",
+    "/AM"
+   ],
+   [
+    "d",
+    "/`QRP`"
+   ]
+  ],
+  "ans": "a",
+  "sol": "/MM = móvil marítima; /P portable, /M móvil. El sufijo aeronáutico reglamentario es /MA (art. 29): el «/AM» del enunciado ni siquiera existe en la Orden."
+ },
+ "R5.11": {
+  "stem": "Si un radioaficionado se identifica como `EA/M0BVM`, se trata de:",
+  "opts": [
+   [
+    "a",
+    "una estación española emitiendo desde el Reino Unido"
+   ],
+   [
+    "b",
+    "una estación repetidora del distrito 3"
+   ],
+   [
+    "c",
+    "un radioaficionado extranjero que emite desde España"
+   ],
+   [
+    "d",
+    "una estación colectiva de un radio club"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Prefijo del país visitado «EA/» seguido del distintivo propio: un radioaficionado con licencia CEPT operando temporalmente desde España (el prefijo del país anfitrión se antepone al indicativo)."
+ },
+ "R5.12": {
+  "stem": "El distintivo de llamada estará constituido por un grupo alfanumérico de, como máximo:",
+  "opts": [
+   [
+    "a",
+    "cuatro caracteres"
+   ],
+   [
+    "b",
+    "seis caracteres"
+   ],
+   [
+    "c",
+    "ocho caracteres"
+   ],
+   [
+    "d",
+    "diez caracteres"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Grupo alfanumérico de seis caracteres como máximo."
+ },
+ "R5.13": {
+  "stem": "El sufijo del distintivo de llamada de una autorización de radioaficionado estará constituido por:",
+  "opts": [
+   [
+    "a",
+    "una combinación libre elegida por el titular"
+   ],
+   [
+    "b",
+    "hasta tres letras, asignadas ordenadas alfabéticamente por turno riguroso de expedición"
+   ],
+   [
+    "c",
+    "cifras y letras alternadas"
+   ],
+   [
+    "d",
+    "las iniciales del titular"
+   ]
+  ],
+  "ans": "b",
+  "sol": "El sufijo son hasta tres letras, asignadas por orden alfabético según turno riguroso de expedición."
+ },
+ "R5.14": {
+  "stem": "El prefijo `EG` de un distintivo de llamada se relaciona con:",
+  "opts": [
+   [
+    "a",
+    "las estaciones colectivas de asociaciones"
+   ],
+   [
+    "b",
+    "las radiobalizas de HF"
+   ],
+   [
+    "c",
+    "las estaciones móviles marítimas"
+   ],
+   [
+    "d",
+    "usos temporales de especial relevancia para eventos de carácter regional, autonómico o local"
+   ]
+  ],
+  "ans": "d",
+  "sol": "EG: usos temporales para concursos, eventos internacionales y otros eventos relevantes de ámbito local, regional o autonómico (art. 27.1.b)."
+ },
+ "R5.15": {
+  "stem": "Los prefijos de uso temporal `ED`, `EE` y `EF`, a diferencia de `EG`, `EH`, `AM`, `AN` y `AO`:",
+  "opts": [
+   [
+    "a",
+    "mantienen sin variación el resto del distintivo asignado con carácter permanente al radioaficionado"
+   ],
+   [
+    "b",
+    "obligan a cambiar también el sufijo"
+   ],
+   [
+    "c",
+    "solo pueden usarse en telegrafía"
+   ],
+   [
+    "d",
+    "se asignan exclusivamente a extranjeros"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Con `ED`, `EE` y `EF` solo cambia el prefijo: cifra y sufijo siguen siendo los del distintivo permanente (art. 27.1.a de la Orden; p. ej. `EA4XYZ` emite como `EE4XYZ`). El art. 27.1 no dice lo mismo de `EG`, `EH`, `AM`, `AN` y `AO`, que se asignan con sufijo propio de dos o tres letras. `ED` tiene doble papel: prefijo permanente de las estaciones automáticas desatendidas y también temporal, junto con EE y EF. Ojo: el enunciado del banco público agrupa «EE, EF y EG» como si los tres mantuvieran el resto del distintivo; el art. 27.1.a solo menciona ED, EE y EF, pero si en el examen aparece así, la opción a es la que dan por buena."
+ },
+ "R5.16": {
+  "stem": "Si una estación tiene el indicativo `EF6RCA`, se trata de un distintivo:",
+  "opts": [
+   [
+    "a",
+    "permanente de una estación de Baleares"
+   ],
+   [
+    "b",
+    "de una estación repetidora digital"
+   ],
+   [
+    "c",
+    "concedido para uso temporal por un evento no especialmente significativo"
+   ],
+   [
+    "d",
+    "de una estación militar"
+   ]
+  ],
+  "ans": "c",
+  "sol": "EF = uso temporal por evento no especialmente significativo; los especialmente relevantes usan otros prefijos o el prefijo AO."
+ },
+ "R5.17": {
+  "stem": "El prefijo `AO` se otorgará para eventos temporales:",
+  "opts": [
+   [
+    "a",
+    "de ámbito local"
+   ],
+   [
+    "b",
+    "especiales de relevancia internacional"
+   ],
+   [
+    "c",
+    "deportivos exclusivamente"
+   ],
+   [
+    "d",
+    "de duración inferior a un día"
+   ]
+  ],
+  "ans": "b",
+  "sol": "El prefijo AO (serie AM/AN/AO) se reserva a eventos temporales especiales de relevancia internacional."
+ },
+ "R5.18": {
+  "stem": "Los distintivos de uso temporal con sufijo de una sola letra están reservados para:",
+  "opts": [
+   [
+    "a",
+    "las estaciones de radioclubs"
+   ],
+   [
+    "b",
+    "los radioaficionados veteranos"
+   ],
+   [
+    "c",
+    "las estaciones desatendidas"
+   ],
+   [
+    "d",
+    "la participación en concursos internacionales de alta competitividad"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Sufijo de una sola letra: concursos internacionales de alta competitividad (art. 27.3). Como distintivo temporal, el límite general es de 30 días al año por sufijo y peticionario; los de una letra usados solo en esos concursos pueden autorizarse hasta por dos años (art. 28)."
+ },
+ "R5.19": {
+  "stem": "Sobre los distintivos de llamada con sufijo de dos letras, señale la opción _falsa_:",
+  "opts": [
+   [
+    "a",
+    "podrán asignarse a radioaficionados que cumplan determinadas condiciones"
+   ],
+   [
+    "b",
+    "se asignan en función de las disponibilidades existentes"
+   ],
+   [
+    "c",
+    "se reservan únicamente para estaciones colectivas"
+   ],
+   [
+    "d",
+    "una condición para su adjudicación es no haber sido sometido a expediente sancionador en los últimos cinco años"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Los sufijos de dos letras no son exclusivos de estaciones colectivas: puede obtenerlos cualquier radioaficionado que cumpla las condiciones (actividad acreditada y sin expediente sancionador)."
+ },
+ "R5.20": {
+  "stem": "Los sufijos de tres letras que comienzan por `UR`, `RC` o `RK` están reservados para:",
+  "opts": [
+   [
+    "a",
+    "estaciones colectivas de asociaciones de radioaficionados y radio clubes"
+   ],
+   [
+    "b",
+    "estaciones automáticas desatendidas"
+   ],
+   [
+    "c",
+    "estaciones móviles marítimas"
+   ],
+   [
+    "d",
+    "concursos internacionales"
+   ]
+  ],
+  "ans": "a",
+  "sol": "UR, RC y RK inician los sufijos de las estaciones colectivas: UR, los de asociaciones de radioaficionados, y RC y RK, los de radio clubes, «respectivamente» (art. 27.3). No confundir con las desatendidas, que usan Y/Z."
+ },
+ "R5.21": {
+  "stem": "Los distintivos de llamada se podrán reasignar:",
+  "opts": [
+   [
+    "a",
+    "a cualquier solicitante, transcurrido un año"
+   ],
+   [
+    "b",
+    "en caso de fallecimiento del titular, a familiares en primer grado"
+   ],
+   [
+    "c",
+    "mediante subasta pública"
+   ],
+   [
+    "d",
+    "únicamente a estaciones colectivas"
+   ]
+  ],
+  "ans": "b",
+  "sol": "En caso de fallecimiento del titular, el distintivo puede reasignarse a familiares en primer grado (salvo que tenga sufijo de una letra). Es una excepción: según el art. 28 (párr. 3.º), los distintivos ya utilizados solo se reasignan una vez agotadas todas las combinaciones posibles; la otra excepción es el anterior titular, si obtiene una nueva autorización tras una revocación. Reasignar a cualquier solicitante transcurrido un año (a), por subasta (c) o solo a las colectivas (d) no figura en la Orden."
+ },
+ "R5.22": {
+  "stem": "Un radioaficionado con distintivo del distrito 5 se traslada a vivir a una provincia del distrito 4. Conforme a la Orden IET/1311/2013:",
+  "opts": [
+   [
+    "a",
+    "debe sustituir la cifra de su distintivo por la 4"
+   ],
+   [
+    "b",
+    "pierde su distintivo y tiene que solicitar otro nuevo"
+   ],
+   [
+    "c",
+    "conserva su distintivo, que es único y no puede modificarse, y solo debe comunicar a la SETSI su nuevo domicilio"
+   ],
+   [
+    "d",
+    "debe renunciar a su autorización y pedir otra en el nuevo distrito"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Desde la Orden IET/1311/2013 el distintivo asociado a la autorización «será único y no podrá ser modificado» (art. 28); su cifra es la del distrito de residencia «en el momento del otorgamiento» (art. 27.2), y mudarse solo obliga a comunicar el nuevo domicilio a la SETSI (art. 7.3). Si se emite en móvil o portable desde otro distrito, puede añadirse opcionalmente el número de ese distrito (art. 29.2). Los bancos de preguntas antiguos dan como correcta la regla de la Orden ITC/1791/2006 y de sus Instrucciones de 2006 (derogadas): «no podrá mantener su distintivo si su nueva provincia de residencia pertenece a un distrito distinto». Si en el examen aparece con esa formulación, esa es la opción que dan por buena."
+ },
+ "R5.23": {
+  "stem": "El distintivo de llamada `AM8SOS`:",
+  "opts": [
+   [
+    "a",
+    "no se puede asignar"
+   ],
+   [
+    "b",
+    "corresponde a una estación de socorro de Canarias"
+   ],
+   [
+    "c",
+    "es un distintivo temporal de concurso"
+   ],
+   [
+    "d",
+    "corresponde a una radiobaliza"
+   ]
+  ],
+  "ans": "a",
+  "sol": "`AM8SOS` no es asignable: «SOS» está reservado como señal de socorro y no puede formar parte de un sufijo."
+ },
+ "R5.24": {
+  "stem": "La cifra de distrito que compone el distintivo de llamada de un radioaficionado es:",
+  "opts": [
+   [
+    "a",
+    "un número elegido libremente por el titular"
+   ],
+   [
+    "b",
+    "la cifra que estuviera disponible al expedir la autorización"
+   ],
+   [
+    "c",
+    "la coincidente con el distrito de residencia del titular"
+   ],
+   [
+    "d",
+    "la del lugar donde se realizó el examen"
+   ]
+  ],
+  "ans": "c",
+  "sol": "La cifra de distrito es la del distrito de residencia del titular _en el momento del otorgamiento_ de la autorización (art. 27.2), según la división geográfica reglamentaria."
+ },
+ "R5.25": {
+  "stem": "En relación con los distintivos de llamada, la localidad valenciana de Utiel se identifica con la cifra de distrito:",
+  "opts": [
+   [
+    "a",
+    "4"
+   ],
+   [
+    "b",
+    "5"
+   ],
+   [
+    "c",
+    "6"
+   ],
+   [
+    "d",
+    "7"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Utiel (Valencia) pertenece al distrito 5 (Comunidad Valenciana, Murcia y Albacete)."
+ },
+ "R5.26": {
+  "stem": "De las siguientes, pertenecen al distrito 1:",
+  "opts": [
+   [
+    "a",
+    "Asturias, Ávila y León"
+   ],
+   [
+    "b",
+    "Soria, Sevilla y Santa Cruz de Tenerife"
+   ],
+   [
+    "c",
+    "Salamanca, Castellón y Cádiz"
+   ],
+   [
+    "d",
+    "Valencia, Valladolid y Vizcaya"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Asturias, Ávila y León están las tres en el distrito 1; las demás opciones mezclan distritos."
+ },
+ "R5.27": {
+  "stem": "Si un radioaficionado utiliza, con autorización del titular, una estación que no es suya, se identificará con:",
+  "opts": [
+   [
+    "a",
+    "el distintivo del titular únicamente"
+   ],
+   [
+    "b",
+    "su propio indicativo únicamente"
+   ],
+   [
+    "c",
+    "un distintivo temporal solicitado al efecto"
+   ],
+   [
+    "d",
+    "su propio indicativo precedido del distintivo del titular"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Al usar una estación ajena con permiso, la identificación es el propio indicativo precedido del distintivo del titular (clave del banco de examen). Ojo: esa regla procede de la Orden ITC/1791/2006 (arts. 36.4 y 37.5), derogada; la Orden IET/1311/2013 no regula que un radioaficionado opere la estación de otro, así que no hay precepto vigente que la sostenga (solo dice, en su art. 27, que el distintivo identifica a su titular). Se mantiene como clave porque es la que el banco da por buena; véanse R8.49 y R8.70, que avisan del mismo doble criterio."
+ },
+ "R5.28": {
+  "stem": "Los distintivos de llamada con sufijo de una sola letra se reservan para:",
+  "opts": [
+   [
+    "a",
+    "las estaciones de menor potencia"
+   ],
+   [
+    "b",
+    "los radioaficionados noveles"
+   ],
+   [
+    "c",
+    "la participación en concursos internacionales de alta competitividad"
+   ],
+   [
+    "d",
+    "las estaciones instaladas en Ceuta y Melilla"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Un sufijo de una sola letra es lo más corto —y por tanto lo más rápido de transmitir— que puede haber, y ahí está su valor: en concursos, cada carácter ahorrado cuenta. Por eso el art. 27.3 los reserva, asimismo, para la participación en concursos internacionales de alta competitividad. No quedan cerrados a ese uso: el mismo artículo permite asignarlos como distintivo permanente a titulares con cinco años de autorización española, quince de práctica internacional y sin expediente sancionador en los últimos cinco años, y desde el 19-09-2026 hay un procedimiento ordinario para pedirlos (Resolución de 29-07-2026 de la SETID, hoy la SETSI de la Orden; BOE-A-2026-17504, que deroga la de 2019). Ni la potencia, ni la condición de novel, ni la ubicación intervienen."
+ },
+ "R5.29": {
+  "stem": "Los distintivos de llamada con sufijo de dos letras:",
+  "opts": [
+   [
+    "a",
+    "podrán asignarse a cualquier radioaficionado que cumpla las condiciones establecidas"
+   ],
+   [
+    "b",
+    "están reservados a las asociaciones"
+   ],
+   [
+    "c",
+    "no se utilizan en España"
+   ],
+   [
+    "d",
+    "corresponden siempre a estaciones desatendidas"
+   ]
+  ],
+  "ans": "a",
+  "sol": "No están reservados a ningún colectivo concreto: son asignables a cualquier titular que reúna las condiciones establecidas, con la lógica de que los sufijos cortos son un recurso escaso."
+ },
+ "R5.30": {
+  "stem": "Un sufijo de tres letras que comience por «Y» o por «Z» se reserva para:",
+  "opts": [
+   [
+    "a",
+    "las estaciones móviles"
+   ],
+   [
+    "b",
+    "las estaciones de concurso"
+   ],
+   [
+    "c",
+    "los distintivos temporales"
+   ],
+   [
+    "d",
+    "las estaciones automáticas desatendidas, analógicas y digitales respectivamente"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Es una convención cómoda: viendo el sufijo se sabe si la estación es desatendida y de qué tipo. Un distintivo como `ED1YBD` corresponde a una desatendida analógica, y uno que empiece por Z, a una digital."
+ },
+ "R5.31": {
+  "stem": "Los prefijos de los distintivos de llamada correspondientes a España son, entre otros:",
+  "opts": [
+   [
+    "a",
+    "EA, EB y EC"
+   ],
+   [
+    "b",
+    "AE, BE y CE"
+   ],
+   [
+    "c",
+    "EI, EJ y EK"
+   ],
+   [
+    "d",
+    "AA, BB y CC"
+   ]
+  ],
+  "ans": "a",
+  "sol": "EA es el prefijo clásico, y EB y EC se han ido incorporando al agotarse las series. EI y EJ son de Irlanda y EK, de Armenia. Del resto de la serie española: ED, EE y EF sirven para usos temporales ordinarios (ED es además el prefijo permanente de las desatendidas) y EG y EH se reservan a eventos especialmente relevantes (art. 27)."
+ },
+ "R5.32": {
+  "stem": "Los prefijos de uso temporal ED, EE y EF, al sustituir al habitual:",
+  "opts": [
+   [
+    "a",
+    "obligan a cambiar también el sufijo"
+   ],
+   [
+    "b",
+    "mantienen sin variación el resto del distintivo asignado con carácter permanente"
+   ],
+   [
+    "c",
+    "eliminan la cifra del distrito"
+   ],
+   [
+    "d",
+    "solo pueden usarse en telegrafía"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Lo único que cambia es el prefijo: la cifra del distrito y el sufijo siguen siendo los del distintivo permanente, de modo que se sigue reconociendo a la estación. Así `EA4XYZ` emite temporalmente como `ED4XYZ`."
+ },
+ "R5.33": {
+  "stem": "A efectos de distintivos de llamada, la provincia de La Rioja pertenece al distrito:",
+  "opts": [
+   [
+    "a",
+    "2"
+   ],
+   [
+    "b",
+    "9"
+   ],
+   [
+    "c",
+    "1"
+   ],
+   [
+    "d",
+    "0"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Distrito 1, junto con Galicia, Asturias, Cantabria y Castilla y León: el art. 27 la aparta de sus vecinos del distrito 2 (País Vasco, Navarra y Aragón). Conviene memorizarla precisamente por ir contra la intuición geográfica; el 0, además, no es un distrito geográfico."
+ },
+ "R5.34": {
+  "stem": "Las ciudades de Ceuta y Melilla están identificadas por la cifra de distrito:",
+  "opts": [
+   [
+    "a",
+    "6"
+   ],
+   [
+    "b",
+    "8"
+   ],
+   [
+    "c",
+    "0"
+   ],
+   [
+    "d",
+    "9"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Ambas comparten el distrito 9. Junto con el 6 (Baleares) y el 8 (Canarias), son los que más se preguntan, precisamente por no seguir la lógica peninsular."
+ },
+ "R5.35": {
+  "stem": "Las Islas Baleares y las Islas Canarias corresponden, respectivamente, a las cifras de distrito:",
+  "opts": [
+   [
+    "a",
+    "8 y 6"
+   ],
+   [
+    "b",
+    "6 y 8"
+   ],
+   [
+    "c",
+    "5 y 9"
+   ],
+   [
+    "d",
+    "9 y 6"
+   ]
+  ],
+  "ans": "b",
+  "sol": "Baleares es el 6 y Canarias el 8. La confusión habitual es invertirlos; conviene fijar el 6 con «Baleares, más cerca» y el 8 con «Canarias, más lejos»."
+ },
+ "R5.36": {
+  "stem": "En un distintivo de llamada, la cifra 0 podrá autorizarse exclusivamente:",
+  "opts": [
+   [
+    "a",
+    "a las estaciones de las asociaciones"
+   ],
+   [
+    "b",
+    "a las estaciones desatendidas"
+   ],
+   [
+    "c",
+    "con motivo de actos inaugurados o visitados por Su Majestad el Rey"
+   ],
+   [
+    "d",
+    "a los titulares con más de veinticinco años de antigüedad"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Es la única excepción a la numeración geográfica: la cifra 0 no identifica zona alguna, sino la relevancia del acto. De ahí que sea un distintivo excepcional y siempre temporal."
+ },
+ "R5.37": {
+  "stem": "El sufijo `XXX` en un distintivo de llamada español:",
+  "opts": [
+   [
+    "a",
+    "no puede asignarse"
+   ],
+   [
+    "b",
+    "identifica a una estación sanitaria"
+   ],
+   [
+    "c",
+    "corresponde a las estaciones experimentales"
+   ],
+   [
+    "d",
+    "se reserva para los concursos internacionales"
+   ]
+  ],
+  "ans": "a",
+  "sol": "XXX es la señal radiotelegráfica de urgencia y, como SOS (socorro) y TTT (seguridad), no puede aparecer como sufijo de ningún distintivo: una identificación rutinaria no debe poder confundirse con una señal de socorro, urgencia o seguridad."
+ },
+ "R5.38": {
+  "stem": "El prefijo AO se otorga para eventos temporales:",
+  "opts": [
+   [
+    "a",
+    "de ámbito estrictamente local"
+   ],
+   [
+    "b",
+    "de carácter deportivo"
+   ],
+   [
+    "c",
+    "organizados por las asociaciones"
+   ],
+   [
+    "d",
+    "especiales de relevancia internacional"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Los prefijos especiales se escalonan según la importancia del evento (`ED`/`EE`/`EF`, `EG`/`EH`, `AM`/`AN`) y `AO` queda para los de relevancia internacional (art. 27.1.d). Es un distintivo temporal: termina cuando termina el acontecimiento que lo motivó."
+ },
+ "R5.39": {
+  "stem": "Si escuchamos a una estación identificarse como `EA3/OK2HM`, se trata de:",
+  "opts": [
+   [
+    "a",
+    "una estación española que opera en la República Checa"
+   ],
+   [
+    "b",
+    "un radioaficionado con autorización expedida en otro país que opera ocasionalmente en España"
+   ],
+   [
+    "c",
+    "una estación automática desatendida catalana"
+   ],
+   [
+    "d",
+    "un distintivo temporal de concurso"
+   ]
+  ],
+  "ans": "b",
+  "sol": "La barra separa el prefijo del país donde se está —EA3, Cataluña— del distintivo propio del operador, `OK2HM`, checo. Es la forma de identificarse al amparo de la licencia CEPT: primero dónde estoy, después quién soy."
+ },
+ "R5.40": {
+  "stem": "El distintivo `EA7/EA4KLM/M` corresponde a:",
+  "opts": [
+   [
+    "a",
+    "una estación fija de Andalucía"
+   ],
+   [
+    "b",
+    "una estación desatendida del distrito 7"
+   ],
+   [
+    "c",
+    "un distintivo especial de concurso"
+   ],
+   [
+    "d",
+    "una estación móvil del distrito 4 que opera en el distrito 7"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Se lee de fuera hacia dentro: EA7 dice desde dónde se emite (Andalucía), `EA4KLM` es el titular, del distrito 4, y el sufijo final /M indica que opera en móvil. La misma lógica con /P para portable."
+ },
+ "R5.41": {
+  "stem": "Durante sus emisiones, las estaciones de aficionado deben transmitir su distintivo de llamada:",
+  "opts": [
+   [
+    "a",
+    "al menos al comienzo y al final de cada emisión"
+   ],
+   [
+    "b",
+    "únicamente al comienzo"
+   ],
+   [
+    "c",
+    "solo si otra estación lo solicita"
+   ],
+   [
+    "d",
+    "una sola vez al día"
+   ]
+  ],
+  "ans": "a",
+  "sol": "La identificación al principio y al final de cada emisión es la regla básica: permite saber en todo momento quién ocupa la frecuencia y es lo que hace posible el control del servicio."
+ },
+ "R5.42": {
+  "stem": "En una comunicación de larga duración, además de al principio y al final, el distintivo debe transmitirse:",
+  "opts": [
+   [
+    "a",
+    "solo si cambia el operador"
+   ],
+   [
+    "b",
+    "solo si se cambia de banda"
+   ],
+   [
+    "c",
+    "periódicamente a lo largo de la emisión"
+   ],
+   [
+    "d",
+    "nunca, para no ocupar la frecuencia"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Si la emisión se alarga, quien sintonice a mitad de comunicación no tendría forma de saber quién está transmitiendo. Por eso hay que reidentificarse a intervalos, sin esperar al final. La Orden lo concreta: en emisiones de larga duración, al menos cada diez minutos (art. 29)."
+ },
+ "R5.43": {
+  "stem": "El distintivo de llamada se define como:",
+  "opts": [
+   [
+    "a",
+    "el número de expediente de la autorización"
+   ],
+   [
+    "b",
+    "el grupo de caracteres que constituye la señal de identificación de la estación"
+   ],
+   [
+    "c",
+    "la referencia catastral del emplazamiento"
+   ],
+   [
+    "d",
+    "el código del equipo homologado"
+   ]
+  ],
+  "ans": "b",
+  "sol": "El distintivo identifica a la _estación_ y a su titular ante todo el mundo, y su formato está normalizado internacionalmente por la UIT. No tiene nada que ver con expedientes administrativos ni con los equipos."
+ },
+ "R5.44": {
+  "stem": "Respecto de la autorización de radioaficionado y el distintivo de llamada:",
+  "opts": [
+   [
+    "a",
+    "el distintivo se solicita aparte, un año después"
+   ],
+   [
+    "b",
+    "el distintivo lo asigna la asociación a la que se pertenezca"
+   ],
+   [
+    "c",
+    "el distintivo se elige libremente por el titular"
+   ],
+   [
+    "d",
+    "al concederse la autorización se otorga a la vez el distintivo"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Van juntos: la autorización no serviría de nada sin un distintivo con el que identificarse, así que se otorgan en el mismo acto. Tampoco se elige libremente — lo asigna la Administración conforme a las series disponibles."
+ },
+ "R5.45": {
+  "stem": "Una emisión de una estación de aficionado debe identificarse con su distintivo:",
+  "opts": [
+   [
+    "a",
+    "siempre"
+   ],
+   [
+    "b",
+    "solo en las bandas de HF"
+   ],
+   [
+    "c",
+    "solo cuando se establezca contacto con el extranjero"
+   ],
+   [
+    "d",
+    "solo si se supera una determinada potencia"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Sin excepción de banda, de potencia ni de destino (art. 29.1 de la Orden: distintivo al comienzo y al final de cada emisión y, en las largas, al menos cada diez minutos). No identificarse incumple la Orden y puede ser sancionable conforme al régimen de la Ley General de Telecomunicaciones (art. 34 de la Orden)."
+ },
+ "R5.46": {
+  "stem": "En el servicio de aficionados, una radiobaliza:",
+  "opts": [
+   [
+    "a",
+    "retransmite las señales que recibe"
+   ],
+   [
+    "b",
+    "enlaza dos repetidores entre sí"
+   ],
+   [
+    "c",
+    "basa su funcionamiento en la emisión automática de señales de identificación"
+   ],
+   [
+    "d",
+    "solo funciona durante los concursos"
+   ]
+  ],
+  "ans": "c",
+  "sol": "Es una estación desatendida que transmite de forma automática y continua su identificación desde un emplazamiento conocido, para que los demás puedan evaluar las condiciones de propagación hacia esa zona."
+ },
+ "R5.47": {
+  "stem": "Si un radioaficionado cambia de domicilio y ello implica cambio de distrito:",
+  "opts": [
+   [
+    "a",
+    "pierde necesariamente su sufijo"
+   ],
+   [
+    "b",
+    "debe solicitar un distintivo nuevo con la cifra de su nuevo distrito"
+   ],
+   [
+    "c",
+    "conserva íntegro su distintivo anterior"
+   ],
+   [
+    "d",
+    "debe examinarse de nuevo"
+   ]
+  ],
+  "ans": "c",
+  "sol": "El distintivo asociado a la autorización «será único y no podrá ser modificado» (art. 28) y su cifra es la del distrito de residencia en el momento del otorgamiento (art. 27.2); cambiar de domicilio solo obliga a comunicarlo a la SETSI (art. 7.3). Ni se pierde el distintivo ni hay que examinarse de nuevo. Los bancos de preguntas antiguos dan como correcta «podrá solicitar mantener su sufijo, si estuviera disponible» (regla de las Instrucciones de 2006 que acompañaban a la Orden ITC/1791/2006, derogada); si en el examen aparece esa opción, es la que dan por buena."
+ },
+ "R5.48": {
+  "stem": "Puede solicitarse un distintivo de llamada temporal cuando se desee:",
+  "opts": [
+   [
+    "a",
+    "operar con mayor potencia de la autorizada"
+   ],
+   [
+    "b",
+    "ceder la estación a un tercero"
+   ],
+   [
+    "c",
+    "evitar ser identificado"
+   ],
+   [
+    "d",
+    "participar en concursos, experimentos, ensayos o conmemoraciones"
+   ]
+  ],
+  "ans": "d",
+  "sol": "Los distintivos temporales existen para dar visibilidad a actividades concretas y acotadas en el tiempo. Nunca para operar fuera de lo autorizado ni, mucho menos, para ocultar la identidad."
+ },
+ "R5.49": {
+  "stem": "El acceso a los repetidores de aficionado, analógicos y digitales:",
+  "opts": [
+   [
+    "a",
+    "será necesariamente libre para todos los radioaficionados"
+   ],
+   [
+    "b",
+    "queda reservado a los socios de la asociación titular"
+   ],
+   [
+    "c",
+    "requiere una autorización individual previa"
+   ],
+   [
+    "d",
+    "se limita a las estaciones del mismo distrito"
+   ]
+  ],
+  "ans": "a",
+  "sol": "Un repetidor se autoriza como infraestructura de uso común del servicio: aunque lo gestione una asociación, no puede reservarse a sus socios ni condicionar el acceso. Cosa distinta es respetar sus normas de uso."
+ }
+}

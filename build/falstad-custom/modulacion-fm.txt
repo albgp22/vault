@@ -1,0 +1,17 @@
+$ 1 5e-06 50 50 5 50 5e-11
+x 48 40 568 44 4 16 Modulación\sde\sfrecuencia\s(FM):\sportadora\s2\skHz,\smoduladora\s200\sHz
+201 176 160 112 160 0 2000 200 5 100
+w 176 160 288 160 0
+r 288 160 288 256 0 1000
+g 288 256 288 272 0
+x 320 200 592 204 4 12 Desviación\s100\sHz\s(índice\sβ\s\q\s0,5)
+201 176 352 112 352 0 2000 200 5 600
+w 176 352 288 352 0
+r 288 352 288 448 0 1000
+g 288 448 288 464 0
+x 320 392 576 396 4 12 Desviación\s600\sHz\s(índice\sβ\s\q\s3)
+x 48 504 760 508 4 12 La\samplitud\sno\scambia;\scambia\sla\sfrecuencia.\sLas\sbandas\slaterales\sestán\sseparadas\s200\sHz.
+x 48 524 712 528 4 12 Con\smás\sdesviación\saparecen\smás\sbandas:\sancho\sde\sbanda\s≈\s2\s×\s(desviación\s\p\s200\sHz).
+o 8 4 0 4098 5 0.1 0 1 Señal\sFM\s(β\s\q\s3)\sen\sel\stiempo
+o 3 32 0 5120 5 0.1 1 1 Espectro\scon\sβ\s\q\s0,5:\spocas\sbandas
+o 8 32 0 5120 5 0.1 1 1 Espectro\scon\sβ\s\q\s3:\smuchas\sbandas

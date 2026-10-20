@@ -1,0 +1,26 @@
+$ 1 2e-06 50 50 12 50 5e-11
+x 48 0 544 4 4 16 Amplificador\ssintonizado\sen\sclase\sC\s(1\skHz,\svalores\sescalados)
+R 336 64 336 32 0 0 40 12 0 0 0.5
+w 336 64 336 96 0
+w 272 96 336 96 0
+w 336 96 400 96 0
+l 272 96 272 176 0 0.01 0
+c 336 96 336 176 0 2.533e-06 0
+r 400 96 400 176 0 1000
+w 272 176 336 176 0
+w 336 176 400 176 0
+t 272 240 336 240 0 1 0 0 100
+w 336 176 336 224 0
+g 336 256 336 272 0
+r 160 240 272 240 0 4700
+v 96 304 96 240 0 1 1000 1.5 0 0 0.5
+w 96 240 160 240 0
+g 96 304 96 320 0
+x 432 120 672 124 4 12 Tanque:\sL\s\q\s10\smH,\sC\s\q\s2,53\sµF
+x 432 140 608 144 4 12 f0\s\q\s1\skHz,\scarga\s1\skΩ
+x 40 336 312 340 4 12 Excitación\s1,5\sV,\ssin\spolarización
+x 48 384 816 388 4 12 La\sbase\sno\stiene\spolarización:\sel\stransistor\ssolo\sconduce\sen\slos\spicos\spositivos\s(más\sde\s0,6\sV).
+x 48 404 728 408 4 12 La\scorriente\sde\scolector\sson\simpulsos;\sel\stanque\slos\sconvierte\sen\suna\ssenoide\slimpia.
+o 14 4 0 4098 5 0.1 0 1 Excitación\sen\sla\sbase
+o 10 4 2 4097 5 0.1 0 1 Corriente\sde\scolector:\simpulsos
+o 7 4 0 4098 5 0.1 1 1 Tensión\sen\sel\stanque:\ssenoide\slimpia

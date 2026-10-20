@@ -1,0 +1,32 @@
+$ 1 1e-05 50 50 12 50 5e-11
+x 48 0 632 4 4 16 Amplificador\sen\sbase\scomún\s(1\skHz):\sla\ssalida\sestá\sen\sfase\scon\sla\sentrada
+v 48 320 48 192 0 1 1000 0.02 0 0 0.5
+g 48 320 48 336 0
+r 48 192 128 192 0 50
+c 128 192 208 192 0 2.2e-05 0
+r 208 192 208 320 0 1500
+g 208 320 208 336 0
+t 320 256 320 192 0 1 0 0 100
+w 208 192 304 192 0
+w 336 192 432 192 0
+r 432 192 432 80 0 4700
+R 432 80 432 48 0 0 40 12 0 0 0.5
+c 432 192 528 192 0 1e-06 0
+r 528 192 528 320 0 10000
+g 528 320 528 336 0
+w 320 256 320 288 0
+r 320 288 320 368 0 10000
+g 320 368 320 384 0
+w 320 288 272 288 0
+c 272 288 272 368 0 2.2e-06 0
+g 272 368 272 384 0
+r 320 288 448 288 0 47000
+R 448 288 480 288 0 0 40 12 0 0 0.5
+x 16 160 120 164 4 12 Entrada\s20\smV
+x 160 136 328 140 4 12 Entrada\spor\sel\semisor
+x 456 136 632 140 4 12 Salida\spor\sel\scolector
+x 128 400 344 404 4 12 Base\sa\smasa\sen\salterna\s(Cb)
+x 48 440 848 444 4 12 La\sseñal\sentra\spor\sel\semisor\sy\ssale\spor\sel\scolector.\sCuando\sla\sentrada\ssube,\sla\ssalida\stambién\ssube:
+x 48 460 456 464 4 12 no\shay\sinversión\sde\sfase.\sGanancia\sde\stensión\s≈\s40.
+o 1 1 0 4098 5 0.1 0 1 Entrada\s(20\smV)
+o 13 1 0 4098 5 0.1 0 1 Salida\s(unos\s0,8\sV),\sen\sfase\scon\sla\sentrada

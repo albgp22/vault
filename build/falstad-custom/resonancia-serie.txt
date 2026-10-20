@@ -1,0 +1,14 @@
+$ 1 1e-05 200 50 5 50 5e-11
+x 48 40 624 44 4 16 Resonancia\sserie\sRLC:\sla\scorriente\ses\smáxima\sen\sf0\s\q\s1/(2π√(LC))\s≈\s1\skHz
+x 48 64 624 68 4 12 Generador\sde\sbarrido\s250\sHz\s→\s4\skHz\sy\svuelta\s(valores\sescalados\sa\saudio)
+170 128 160 64 160 3 250 4000 5 0.5
+r 128 160 272 160 0 10
+l 272 160 416 160 0 0.01 0
+c 416 160 416 288 0 2.533e-06 0
+g 416 288 416 304 0
+x 168 200 232 204 4 12 R\s\q\s10\sΩ
+x 312 200 384 204 4 12 L\s\q\s10\smH
+x 320 248 408 252 4 12 C\s\q\s2,53\sµF
+x 48 344 656 348 4 12 Mire\sel\sosciloscopio:\sla\scorriente\ssube\sal\sacercarse\sa\s1\skHz\sy\sbaja\sdespués.
+x 48 364 456 368 4 12 El\sgenerador\smuestra\sla\sfrecuencia\sde\scada\smomento.
+o 3 256 3 4097 5 0.5 0 1 Corriente\s(máxima\sen\sf0)
