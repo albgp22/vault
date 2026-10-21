@@ -1,0 +1,1082 @@
+[
+ {
+  "kid": "K-T6-01-1",
+  "cid": "T6-01",
+  "enunciado": "Un dipolo de media onda de hilo, alimentado en el centro, mide en total unos 10 m. ¿En qué banda resuena?",
+  "opciones": [
+   "En la de 10 m",
+   "En la de 40 m",
+   "En la de 20 m",
+   "En la de 80 m"
+  ],
+  "clave": "c",
+  "sol": "El dipolo de media onda mide aproximadamente $lambda slash 2$, así que 10 m de hilo corresponden a $lambda approx 20$ m: la banda de 20 m (a 14,2 MHz, $L approx 143 slash 14,2 approx 10$ m). Responder «10 m» confunde la longitud de la antena con el nombre de la banda, que es la longitud de onda; «40 m» saldría si el hilo midiera un cuarto de onda.",
+  "fuente": "chapters/t06.typ:89",
+  "angulo": "dato inverso: dada la longitud total del dipolo, deducir la banda"
+ },
+ {
+  "kid": "K-T6-02-1",
+  "cid": "T6-02",
+  "enunciado": "Se mide la impedancia en el punto de alimentación de una antena a distintas frecuencias. Su frecuencia de resonancia es aquella en la que:",
+  "opciones": [
+   "la parte reactiva se anula y la impedancia es resistiva pura",
+   "la parte resistiva se anula y solo queda reactancia",
+   "la impedancia es lo más alta posible, como en un circuito LC en paralelo",
+   "la reactancia inductiva es el doble de la capacitiva"
+  ],
+  "clave": "a",
+  "sol": "Cerca de su resonancia la antena se comporta como un circuito RLC en serie: a la frecuencia de resonancia $X_L = X_C$, las reactancias se anulan y el generador solo ve una resistencia pura, $R_r + R_p$. Lo que se anula es la reactancia, no la resistencia: la resistencia de radiación representa precisamente la potencia que sale como onda.",
+  "fuente": "chapters/t06.typ:126",
+  "angulo": "caso práctico de medida: reconocer la resonancia por la impedancia, con distractores tomados del circuito RLC"
+ },
+ {
+  "kid": "K-T6-03-1",
+  "cid": "T6-03",
+  "enunciado": "Una antena resuena en 144,5 MHz y se quiere que resuene en 146 MHz. Para ello hay que:",
+  "opciones": [
+   "alargarla",
+   "intercalar una bobina en serie en su base",
+   "alimentarla por un extremo",
+   "acortarla"
+  ],
+  "clave": "d",
+  "sol": "Para subir la frecuencia de resonancia hay que acortar la antena, porque su longitud va en proporción inversa a la frecuencia ($lambda = 300 slash f$). Alargarla, o añadir una bobina en serie, que la alarga eléctricamente, haría justo lo contrario: bajar la frecuencia. Alimentarla por un extremo cambia la impedancia, no la resonancia.",
+  "fuente": "chapters/t06.typ:127",
+  "angulo": "sentido contrario al de estudio: subir la frecuencia (acortar), en VHF, con la bobina de carga como distractor"
+ },
+ {
+  "kid": "K-T6-04-1",
+  "cid": "T6-04",
+  "enunciado": "Un medidor de impedancias indica que un dipolo, a la frecuencia a la que se quiere usar, presenta reactancia inductiva además de su resistencia. Eso significa que el dipolo:",
+  "opciones": [
+   "es algo más corto que el resonante y conviene alargarlo",
+   "es algo más largo que el resonante y conviene acortarlo",
+   "es algo más corto que el resonante y necesita una bobina en serie",
+   "está exactamente en resonancia"
+  ],
+  "clave": "b",
+  "sol": "Cerca de su resonancia el dipolo equivale a un RLC en serie: por encima de su frecuencia de resonancia manda $X_L$ y la antena es inductiva, es decir, demasiado larga para esa frecuencia. Acortarla sube su resonancia hasta la frecuencia de trabajo. Una antena demasiado corta sería capacitiva, y en resonancia no habría reactancia alguna.",
+  "fuente": "chapters/t06.typ:125",
+  "angulo": "diagnóstico inverso: de la reactancia medida (inductiva, el caso no preguntado) a la longitud y su corrección"
+ },
+ {
+  "kid": "K-T6-05-1",
+  "cid": "T6-05",
+  "enunciado": "Un látigo de móvil con bobina de carga resuena en la banda de 40 m. Comparada con la de una vertical de cuarto de onda sin bobina para esa misma banda, su longitud física es:",
+  "opciones": [
+   "mayor, porque la bobina lo acorta eléctricamente",
+   "mucho menor, porque la bobina lo alarga eléctricamente",
+   "igual, porque la bobina solo cambia la impedancia y no la resonancia",
+   "mayor, porque la bobina sube su frecuencia de resonancia"
+  ],
+  "clave": "b",
+  "sol": "Una bobina en serie añade la reactancia inductiva que le falta a una antena corta (capacitiva) y la hace resonar a una frecuencia más baja de la que correspondería a su longitud física: la alarga eléctricamente. Por eso un látigo de pocos metros resuena en 40 m, donde un cuarto de onda mediría unos 10 m. Quien acorta eléctricamente la antena, y sube su frecuencia, es el condensador en serie.",
+  "fuente": "chapters/t06.typ:221",
+  "angulo": "consecuencia práctica (tamaño físico de una antena con bobina de carga) en lugar del efecto sobre la frecuencia"
+ },
+ {
+  "kid": "K-T6-08-1",
+  "cid": "T6-08",
+  "enunciado": "De las siguientes antenas en resonancia, la que presenta en su punto de alimentación una impedancia de unos 73 Ω es:",
+  "opciones": [
+   "el dipolo plegado",
+   "la vertical de cuarto de onda con radiales horizontales",
+   "la antena de media onda alimentada por un extremo",
+   "el dipolo de media onda alimentado en el centro, en el espacio libre"
+  ],
+  "clave": "d",
+  "sol": "En el centro del dipolo de media onda la corriente es máxima y la tensión mínima, y el cociente $Z = V slash I$ da unos 73 Ω en el espacio libre. El dipolo plegado multiplica ese valor por cuatro (unos 300 Ω), la vertical de cuarto de onda lo divide por dos (unos 36 Ω) y la media onda alimentada en un extremo presenta miles de ohmios.",
+  "fuente": "chapters/t06.typ:138",
+  "angulo": "dato al revés: del valor de impedancia a la antena, con las demás impedancias del temario como distractores"
+ },
+ {
+  "kid": "K-T6-09-1",
+  "cid": "T6-09",
+  "enunciado": "Para alimentar con coaxial de 50 Ω una antena de media onda por uno de sus extremos, hace falta:",
+  "opciones": [
+   "un transformador de relación alta (por ejemplo, 49:1) que baje su impedancia de miles de ohmios",
+   "nada, porque en el extremo presenta unos 50 Ω",
+   "un transformador que eleve su impedancia, porque en el extremo es casi nula",
+   "solo un balun 1:1, porque el problema es únicamente de simetría"
+  ],
+  "clave": "a",
+  "sol": "En el extremo de una media onda la corriente es nula y la tensión máxima, así que la impedancia es de varios miles de ohmios (de 2000 a 5000 Ω). Para bajarla a 50 Ω se usa un transformador de relación alta, típicamente 49:1. Quien crea que la impedancia en el extremo es baja confunde el extremo con el centro, donde está el vientre de corriente.",
+  "fuente": "chapters/t06.typ:140",
+  "angulo": "consecuencia práctica: qué adaptador exige la alta impedancia del extremo"
+ },
+ {
+  "kid": "K-T6-10-1",
+  "cid": "T6-10",
+  "enunciado": "Un dipolo horizontal tendido entre dos soportes se vuelve a montar en V invertida, con el centro en un único mástil y los brazos caídos. Su impedancia de alimentación:",
+  "opciones": [
+   "sube de unos 73 Ω a unos 300 Ω",
+   "baja a unos 36 Ω, como la de una vertical de cuarto de onda",
+   "baja de unos 73 Ω a unos 50 Ω",
+   "no cambia, porque la longitud del hilo es la misma"
+  ],
+  "clave": "c",
+  "sol": "Al inclinar los brazos hacia abajo la impedancia del dipolo baja a unos 50 Ω, justo la del coaxial; además el diagrama se vuelve casi omnidireccional y basta un solo mástil. Los 300 Ω son los del dipolo plegado y los 36 Ω, los de la vertical de cuarto de onda. Aunque el hilo mida lo mismo, la geometría cambia la impedancia.",
+  "fuente": "chapters/t06.typ:144",
+  "angulo": "caso práctico: efecto de pasar de dipolo horizontal a V invertida"
+ },
+ {
+  "kid": "K-T6-12-1",
+  "cid": "T6-12",
+  "enunciado": "Se quiere alimentar una antena directamente con línea bifilar de 300 Ω, sin ningún adaptador. De las siguientes, la más adecuada es:",
+  "opciones": [
+   "un dipolo simple de media onda alimentado en el centro",
+   "una vertical de cuarto de onda",
+   "un dipolo plegado",
+   "un dipolo en V invertida"
+  ],
+  "clave": "c",
+  "sol": "En el dipolo plegado los dos conductores se reparten la corriente: con la mitad de corriente en los bornes, para radiar la misma potencia la resistencia debe ser cuatro veces mayor, unos $4 times 73 approx 300$ Ω, justo la impedancia de la línea bifilar. El dipolo simple da unos 73 Ω, la V invertida unos 50 Ω y la vertical de cuarto de onda unos 36 Ω.",
+  "fuente": "chapters/t06.typ:170",
+  "angulo": "dato al revés: de la impedancia de la línea a la antena que la iguala"
+ },
+ {
+  "kid": "K-T6-14-1",
+  "cid": "T6-14",
+  "enunciado": "En un dipolo con trampas para 7 y 14 MHz, cuando se transmite en 14 MHz cada trampa:",
+  "opciones": [
+   "presenta una impedancia muy alta y aísla el tramo exterior del brazo",
+   "presenta una impedancia casi nula y une los dos tramos del brazo",
+   "disipa en forma de calor la potencia que no debe radiarse",
+   "actúa como un condensador en serie que alarga eléctricamente la antena"
+  ],
+  "clave": "a",
+  "sol": "Cada trampa es un circuito LC en paralelo que resuena a 14 MHz, y un LC en paralelo en resonancia presenta una impedancia altísima: para la RF es un interruptor abierto. Así solo trabaja la parte interior, que mide media onda en 14 MHz. En 7 MHz, en cambio, la trampa está por debajo de su resonancia, se comporta como una bobina y deja trabajar el hilo entero.",
+  "fuente": "chapters/t06.typ:211",
+  "angulo": "funcionamiento: qué hace la trampa a su frecuencia de resonancia (LC paralelo, impedancia alta)"
+ },
+ {
+  "kid": "K-T6-15-1",
+  "cid": "T6-15",
+  "enunciado": "Se monta una vertical de cuarto de onda en lo alto de un mástil, sin plano de tierra ni radiales. Lo más probable es que:",
+  "opciones": [
+   "funcione igual, porque el plano de tierra solo sirve de soporte mecánico",
+   "pase a radiar con polarización horizontal",
+   "su impedancia baje hasta unos 36 Ω",
+   "falte la mitad de la antena: la impedancia se dispare y el rendimiento se desplome"
+  ],
+  "clave": "d",
+  "sol": "El plano de tierra, sea el suelo o un juego de radiales, actúa de espejo y aporta la mitad que falta del dipolo. Sin él no hay espejo: la impedancia se dispara, la corriente vuelve por el exterior de la malla del coaxial y el rendimiento cae. Los 36 Ω son, precisamente, los de la vertical con su plano de tierra.",
+  "fuente": "chapters/t06.typ:263",
+  "angulo": "consecuencia de que falte el plano de tierra, en lugar de qué necesita la antena"
+ },
+ {
+  "kid": "K-T6-16-1",
+  "cid": "T6-16",
+  "enunciado": "La impedancia de una vertical de cuarto de onda con radiales horizontales es, comparada con la de un dipolo de media onda alimentado en el centro:",
+  "opciones": [
+   "aproximadamente el doble",
+   "aproximadamente la mitad",
+   "unas cuatro veces mayor",
+   "prácticamente igual"
+  ],
+  "clave": "b",
+  "sol": "La vertical es medio dipolo: el plano de tierra aporta la otra mitad por imagen, pero solo radia hacia el hemisferio superior y, con la misma corriente, entrega la mitad de potencia. Su resistencia de radiación es la mitad, unos 73/2 ≈ 36 Ω. Cuatro veces mayor es el dipolo plegado; inclinar los radiales hacia abajo sube la impedancia hacia 50 Ω, pero sigue por debajo de 73 Ω.",
+  "fuente": "chapters/t06.typ:262",
+  "angulo": "relación entre impedancias (la mitad de la del dipolo) en vez del valor en ohmios"
+ },
+ {
+  "kid": "K-T6-17-1",
+  "cid": "T6-17",
+  "enunciado": "Una antena vertical sobre un buen plano de tierra radia:",
+  "opciones": [
+   "con su máximo hacia el cénit y poco hacia el horizonte",
+   "con su máximo hacia el horizonte y prácticamente nada hacia el cénit",
+   "por igual en todas las direcciones del espacio, como la antena isótropa",
+   "solo en la dirección hacia la que apunta uno de sus radiales"
+  ],
+  "clave": "b",
+  "sol": "Un elemento radiante emite al máximo perpendicularmente a su eje y nada a lo largo de él. Puesta en vertical, su eje apunta al cénit: allí está el nulo, y el máximo queda en el plano horizontal, a bajo ángulo. Es omnidireccional en azimut, pero no en elevación: no es una isótropa.",
+  "fuente": "chapters/t06.typ:407",
+  "angulo": "dónde está el nulo, deducido de la orientación del radiante; la isótropa como distractor"
+ },
+ {
+  "kid": "K-T6-18-1",
+  "cid": "T6-18",
+  "enunciado": "Para comunicar con una estación situada en un rumbo concreto y rechazar a la vez las señales que llegan de otros rumbos, la antena más adecuada es:",
+  "opciones": [
+   "una vertical de cuarto de onda",
+   "un dipolo en V invertida",
+   "una antena colineal omnidireccional",
+   "una Yagi"
+  ],
+  "clave": "d",
+  "sol": "La Yagi es la antena directiva por excelencia: concentra la energía en un lóbulo principal dominante, hacia los directores, y recibe poco por los demás rumbos. La vertical y la colineal son omnidireccionales en el plano horizontal, y la V invertida tiene también un diagrama casi omnidireccional.",
+  "fuente": "chapters/t06.typ:166",
+  "angulo": "caso práctico: elegir la antena por su directividad"
+ },
+ {
+  "kid": "K-T6-19-1",
+  "cid": "T6-19",
+  "enunciado": "En una Yagi de cuatro elementos, los elementos conectados a la línea de alimentación son:",
+  "opciones": [
+   "solo uno, el radiante; los demás toman la energía del campo del radiante",
+   "todos, cada uno con su propio cable en fase",
+   "dos: el reflector y el radiante",
+   "los directores, que son los que forman el haz"
+  ],
+  "clave": "a",
+  "sol": "Solo el radiante recibe energía del cable. El reflector y los directores son elementos parásitos: el campo del radiante induce en ellos una corriente que reirradian con otra fase, y por interferencia el conjunto concentra la energía en una dirección. No necesitan conexión, y precisamente por eso se llaman parásitos.",
+  "fuente": "chapters/t06.typ:328",
+  "angulo": "recuento en una Yagi concreta: cuántos elementos van alimentados y cómo reciben energía los demás"
+ },
+ {
+  "kid": "K-T6-20-1",
+  "cid": "T6-20",
+  "enunciado": "En una Yagi, el haz principal sale hacia el lado:",
+  "opciones": [
+   "del reflector, el elemento más largo",
+   "perpendicular al boom, como en un dipolo aislado",
+   "de los directores, los elementos más cortos",
+   "de los dos extremos del boom por igual"
+  ],
+  "clave": "c",
+  "sol": "El reflector, algo más largo que el radiante (inductivo), va detrás: refuerza la radiación hacia el radiante y la anula a su espalda. Los directores, algo más cortos (capacitivos), van delante y tiran del haz hacia ellos, así que el haz sale por su lado. Si saliera por igual hacia los dos extremos no habría relación adelante-atrás.",
+  "fuente": "chapters/t06.typ:283",
+  "angulo": "consecuencia: hacia dónde apunta el haz según la longitud y la posición de los elementos"
+ },
+ {
+  "kid": "K-T6-21-1",
+  "cid": "T6-21",
+  "enunciado": "En un enlace con un satélite, que gira y cambia de orientación, se prefiere una antena helicoidal porque:",
+  "opciones": [
+   "radia por igual en todas las direcciones, sin necesidad de orientarla",
+   "su polarización es horizontal, la única que la ionosfera no gira",
+   "radia con polarización circular, que no depende de la orientación del satélite",
+   "su ganancia no depende del número de espiras"
+  ],
+  "clave": "c",
+  "sol": "La hélice radia a lo largo de su eje con polarización circular, que gira con la onda y no depende de cómo quede orientado el satélite. Es directiva, de modo que hay que apuntarla, y su ganancia crece precisamente con el número de espiras.",
+  "fuente": "chapters/t06.typ:345",
+  "angulo": "del uso a la propiedad que lo justifica (polarización circular)"
+ },
+ {
+  "kid": "K-T6-23-1",
+  "cid": "T6-23",
+  "enunciado": "Las antenas de apertura, como la bocina y el reflector parabólico, se emplean sobre todo:",
+  "opciones": [
+   "en microondas, donde la longitud de onda mide centímetros",
+   "en las bandas bajas de HF, por su pequeño tamaño",
+   "en onda media, para la radiodifusión",
+   "en cualquier banda, porque su ganancia no depende de la longitud de onda"
+  ],
+  "clave": "a",
+  "sol": "En microondas la longitud de onda es de centímetros y resulta fácil construir una boca de muchas longitudes de onda de ancho; la ganancia depende del área de esa boca medida en longitudes de onda. La misma parábola en una banda baja tendría una ganancia insignificante. En HF dominan las antenas de hilo: dipolos, verticales y Yagis.",
+  "fuente": "chapters/t06.typ:337",
+  "angulo": "otra consecuencia del mismo hecho: en qué frecuencias se usan y por qué"
+ },
+ {
+  "kid": "K-T6-26-1",
+  "cid": "T6-26",
+  "enunciado": "En un diagrama de radiación polar, la distancia de la curva al centro en una dirección dada representa:",
+  "opciones": [
+   "la distancia máxima que alcanza la señal en esa dirección",
+   "la impedancia que presenta la antena en esa dirección",
+   "la frecuencia a la que la antena radia mejor en esa dirección",
+   "la intensidad radiada en esa dirección"
+  ],
+  "clave": "d",
+  "sol": "El diagrama de radiación es un mapa de cómo se reparte en el espacio la energía radiada: la distancia de la curva al centro mide la intensidad en cada dirección. No da alcances, que dependen además de la potencia y de la propagación, ni impedancias ni frecuencias.",
+  "fuente": "chapters/t06.typ:378",
+  "angulo": "lectura del diagrama: qué significa la distancia de la curva al centro"
+ },
+ {
+  "kid": "K-T6-27-1",
+  "cid": "T6-27",
+  "enunciado": "Un dipolo de media onda montado horizontalmente, visto desde arriba, radia:",
+  "opciones": [
+   "por igual hacia todos los rumbos del horizonte",
+   "al máximo en las direcciones perpendiculares al hilo y casi nada hacia sus puntas",
+   "al máximo en la dirección de sus puntas",
+   "solo hacia uno de los lados del hilo"
+  ],
+  "clave": "b",
+  "sol": "El dipolo radia al máximo perpendicularmente al hilo y nada en su dirección: montado en horizontal, el corte visto desde arriba es un «ocho» con nulos en las puntas. Solo montado en vertical es omnidireccional en el plano horizontal. Radiar hacia un solo lado exige elementos parásitos, como en una Yagi.",
+  "fuente": "chapters/t06.typ:380",
+  "angulo": "el mismo dipolo en horizontal: por qué la omnidireccionalidad se refiere siempre a un plano"
+ },
+ {
+  "kid": "K-T6-28-1",
+  "cid": "T6-28",
+  "enunciado": "En el lóbulo principal de una antena, la potencia radiada cae 3 dB respecto del máximo a 25° a cada lado del eje, y se anula a 60° a cada lado. Su ancho de haz es de:",
+  "opciones": [
+   "120°",
+   "50°",
+   "25°",
+   "60°"
+  ],
+  "clave": "b",
+  "sol": "El ancho de haz es la apertura angular entre los dos puntos de media potencia (−3 dB) del lóbulo principal: de −25° a +25°, es decir, 50°. Los 120° salen de medir entre los nulos, que es justo lo que no hay que hacer, y los 25° o los 60°, de tomar un solo lado.",
+  "fuente": "chapters/t06.typ:349",
+  "angulo": "cálculo con datos: leer el ancho de haz entre los −3 dB, con los nulos como trampa"
+ },
+ {
+  "kid": "K-T6-29-1",
+  "cid": "T6-29",
+  "enunciado": "En el diagrama de una Yagi, el lóbulo principal está a 0 dB y el lóbulo trasero a −18 dB. Su relación adelante-atrás es de:",
+  "opciones": [
+   "9 dB",
+   "36 dB",
+   "3 dB",
+   "18 dB"
+  ],
+  "clave": "d",
+  "sol": "La relación adelante-atrás es la diferencia en decibelios entre el lóbulo principal y el trasero: 0 − (−18) = 18 dB, un valor típico de una Yagi de tres elementos (15–20 dB). Los 3 dB recuerdan al criterio del ancho de haz, que es un ángulo y no una diferencia de nivel; dividir o duplicar los decibelios no tiene sentido aquí.",
+  "fuente": "chapters/t06.typ:349",
+  "angulo": "cálculo directo de la relación a partir de los niveles de los lóbulos"
+ },
+ {
+  "kid": "K-T6-30-1",
+  "cid": "T6-30",
+  "enunciado": "En un enlace en visión directa en 2 m, una estación usa una antena vertical y la otra una Yagi con los elementos horizontales. Lo más probable es que:",
+  "opciones": [
+   "la señal llegue muy atenuada, 20 dB o más, por la polarización cruzada",
+   "no haya diferencia, porque la polarización solo importa en HF",
+   "la señal mejore, porque se suman las dos polarizaciones",
+   "la onda llegue con polarización circular"
+  ],
+  "clave": "a",
+  "sol": "La polarización es la orientación del campo eléctrico, que sigue la del hilo radiante: vertical en una estación y horizontal en la otra. En visión directa, una antena cruzada respecto de la emisora puede perder 20 dB o más. Es en HF donde importa menos, porque la ionosfera gira la polarización por el camino.",
+  "fuente": "chapters/t06.typ:423",
+  "angulo": "consecuencia práctica de la polarización: pérdida por polarización cruzada"
+ },
+ {
+  "kid": "K-T6-32-1",
+  "cid": "T6-32",
+  "enunciado": "Una antena con una ganancia de 0 dBd:",
+  "opciones": [
+   "tiene ganancia nula y no radia",
+   "tiene la misma ganancia que la antena isótropa",
+   "tiene la misma ganancia que un dipolo de media onda",
+   "radia una potencia de 0 W"
+  ],
+  "clave": "c",
+  "sol": "La ganancia es una comparación con una antena de referencia: dBd significa respecto del dipolo de media onda, así que 0 dBd es ganar lo mismo que él. Respecto de la isótropa esa antena tendría 2,15 dBi. La ganancia nunca se da en vatios, y 0 dB no significa «nada», sino una relación igual a 1.",
+  "fuente": "chapters/t06.typ:349",
+  "angulo": "interpretar un valor concreto (0 dB) respecto de su referencia"
+ },
+ {
+  "kid": "K-T6-33-1",
+  "cid": "T6-33",
+  "enunciado": "La antena A tiene 5 dBd de ganancia y la antena B, 6 dBi. Comparándolas con la misma referencia:",
+  "opciones": [
+   "B gana 1 dB más que A",
+   "las dos tienen la misma ganancia",
+   "A gana unos 1,15 dB más que B",
+   "no se pueden comparar, porque usan referencias distintas"
+  ],
+  "clave": "c",
+  "sol": "Hay que pasar las dos a la misma escala: $G_\"dBi\" = G_\"dBd\" + 2,15$, así que A tiene 5 + 2,15 = 7,15 dBi, frente a los 6 dBi de B: A gana 1,15 dB más. Comparar las cifras sin convertir lleva a creer que B es mejor; y sí se pueden comparar, porque entre dBi y dBd median siempre 2,15 dB.",
+  "fuente": "chapters/t06.typ:351",
+  "angulo": "comparación entre dos antenas dadas en escalas distintas"
+ },
+ {
+  "kid": "K-T6-34-1",
+  "cid": "T6-34",
+  "enunciado": "Para conseguir 100 W de p.r.e. con una antena de 7 dBd y un cable con 1 dB de pérdidas, ¿qué potencia debe dar el transmisor, aproximadamente?",
+  "opciones": [
+   "25 W",
+   "20 W",
+   "16 W",
+   "400 W"
+  ],
+  "clave": "a",
+  "sol": "Ganancia neta: 7 − 1 = 6 dB, que equivale a multiplicar la potencia por 4. Como p.r.e. = P · G, la potencia del transmisor es 100 / 4 = 25 W. Los 20 W salen de olvidar el cable (7 dB ≈ ×5), los 16 W de sumar la pérdida a la ganancia (8 dB ≈ ×6,3) y los 400 W de multiplicar en vez de dividir.",
+  "fuente": "chapters/t06.typ:349",
+  "angulo": "cálculo inverso: dada la p.r.e., hallar la potencia del transmisor"
+ },
+ {
+  "kid": "K-T6-35-1",
+  "cid": "T6-35",
+  "enunciado": "Un aficionado quiere mejorar sus comunicaciones con un corresponsal lejano situado siempre en el mismo rumbo. Si es factible, lo primero que conviene hacer es:",
+  "opciones": [
+   "instalar un amplificador que duplique la potencia del transmisor",
+   "aumentar la anchura de banda de su emisión",
+   "subir la tensión de alimentación del paso final",
+   "sustituir su antena omnidireccional por una directiva orientada hacia él"
+  ],
+  "clave": "d",
+  "sol": "Una antena directiva concentra la energía en la dirección del corresponsal y, por reciprocidad, también recibe mejor sus señales: una de 10 dBd multiplica por 10 la potencia efectiva radiada. Duplicar la potencia solo aporta 3 dB, exige un amplificador y no mejora la recepción. La anchura de banda no da alcance, y subir la tensión del paso final es otra forma de subir potencia.",
+  "fuente": "chapters/ap-b1.typ:3102",
+  "angulo": "caso práctico: elegir entre antena directiva y más potencia"
+ },
+ {
+  "kid": "K-T6-38-1",
+  "cid": "T6-38",
+  "enunciado": "Una Yagi tiene 6 dBd de ganancia en transmisión en la dirección de sus directores. Usada para recibir, su ganancia en esa misma dirección es de:",
+  "opciones": [
+   "0 dBd, porque una antena pasiva solo gana al transmitir",
+   "6 dBd",
+   "3 dBd, la mitad",
+   "12 dBd, el doble"
+  ],
+  "clave": "b",
+  "sol": "Por el principio de reciprocidad, una antena pasiva tiene el mismo diagrama y la misma ganancia emitiendo que recibiendo; por eso apuntar una directiva sirve igual para transmitir que para escuchar. Ser pasiva solo significa que no añade energía: la ganancia procede de concentrarla, y eso vale en los dos sentidos.",
+  "fuente": "chapters/t06.typ:413",
+  "angulo": "aplicación numérica de la reciprocidad a la ganancia"
+ },
+ {
+  "kid": "K-T6-41-1",
+  "cid": "T6-41",
+  "enunciado": "Dos coaxiales tienen el mismo aislante, pero uno es de 50 Ω y el otro de 75 Ω. El de 75 Ω se distingue porque:",
+  "opciones": [
+   "su conductor central es más grueso en relación con la malla",
+   "su conductor central es más fino en relación con la malla",
+   "se fabrica en tramos más largos, porque $Z_0$ crece con la longitud",
+   "está pensado para más potencia, porque $Z_0$ depende de la potencia transportada"
+  ],
+  "clave": "b",
+  "sol": "La impedancia característica depende de la geometría (la relación entre el diámetro de la malla y el del conductor central) y del aislante, que fijan la inductancia y la capacidad por metro. Con el mismo aislante, para pasar de 50 a 75 Ω hay que aumentar $D slash d$ de unos 3,5 a unos 6,7: el conductor central es más fino. Ni la longitud ni la potencia cambian $Z_0$.",
+  "fuente": "chapters/t06.typ:574",
+  "angulo": "consecuencia geométrica: qué cambia físicamente entre un coaxial de 50 y uno de 75 Ω; longitud y potencia como distractores"
+ },
+ {
+  "kid": "K-T6-42-1",
+  "cid": "T6-42",
+  "enunciado": "El aislante de una línea tiene una constante dieléctrica $epsilon_r = 4$. Su factor de velocidad es:",
+  "opciones": [
+   "2",
+   "0,25",
+   "4",
+   "0,5"
+  ],
+  "clave": "d",
+  "sol": "$\"FV\" = 1 slash sqrt(epsilon_r) = 1 slash sqrt(4) = 0,5$: la onda viaja a la mitad de la velocidad de la luz. El 2 sale de olvidar la inversa y el 0,25 de olvidar la raíz. Un factor de velocidad mayor que 1 es imposible: dentro de una línea la onda va siempre más despacio que en el vacío.",
+  "fuente": "chapters/t06.typ:582",
+  "angulo": "cálculo con otro dieléctrico: aplicar la fórmula en lugar de reconocerla"
+ },
+ {
+  "kid": "K-T6-43-1",
+  "cid": "T6-43",
+  "enunciado": "Un tramo de coaxial de 6,6 m de longitud física se comporta como media onda eléctrica a 15 MHz. Su factor de velocidad es:",
+  "opciones": [
+   "0,66",
+   "1,5",
+   "0,33",
+   "1,32"
+  ],
+  "clave": "a",
+  "sol": "A 15 MHz, $lambda = 300 slash 15 = 20$ m y la media onda eléctrica mide 10 m. Como $L_\"fís\" = L_\"el\" times \"FV\"$, FV = 6,6 / 10 = 0,66. El 1,5 sale de dividir al revés (un FV mayor que 1 es imposible: la longitud física siempre es menor que la eléctrica), el 0,33 de comparar con la onda completa y el 1,32 de comparar con un cuarto de onda.",
+  "fuente": "chapters/t06.typ:584",
+  "angulo": "cálculo inverso: de las longitudes física y eléctrica al factor de velocidad"
+ },
+ {
+  "kid": "K-T6-44-1",
+  "cid": "T6-44",
+  "enunciado": "Una guía de ondas tiene una frecuencia de corte de 6,56 GHz. Una señal de 5 GHz introducida en ella:",
+  "opciones": [
+   "se propaga con menos pérdidas que una de 10 GHz",
+   "se propaga, pero con polarización circular",
+   "no se propaga y se atenúa muy deprisa",
+   "se propaga sin ninguna pérdida, porque la guía no tiene conductor central"
+  ],
+  "clave": "c",
+  "sol": "La guía de ondas solo propaga por encima de su frecuencia de corte, $f_c = c slash (2 a)$: por debajo, la onda no cabe en la guía y se atenúa muy deprisa. A 5 GHz la señal está por debajo de los 6,56 GHz de corte, así que no pasa; esta guía (la WR-90) se usa entre 8 y 12 GHz.",
+  "fuente": "chapters/t06.typ:594",
+  "angulo": "caso numérico: decidir si una frecuencia concreta pasa por la guía"
+ },
+ {
+  "kid": "K-T6-45-1",
+  "cid": "T6-45",
+  "enunciado": "Tras ajustar una antena, el medidor de ROE pasa de marcar 2,5 a marcar 1,2. Esto significa que:",
+  "opciones": [
+   "ha aumentado la ganancia de la antena",
+   "ha aumentado la potencia que entrega el transmisor",
+   "ha mejorado la adaptación de impedancias entre el transmisor, la línea y la antena",
+   "ha empeorado la adaptación, porque la ROE ideal es la más alta posible"
+  ],
+  "clave": "c",
+  "sol": "La ROE indica el grado de adaptación de impedancias: cuanto más cerca de 1, menos potencia se refleja (con ROE 2,5 vuelve un 18 %; con 1,2, menos del 1 %). No mide la ganancia de la antena ni la potencia del transmisor, y la ROE ideal es 1, la mínima posible.",
+  "fuente": "chapters/t06.typ:674",
+  "angulo": "lectura práctica del medidor: qué indica que la ROE baje"
+ },
+ {
+  "kid": "K-T6-46-1",
+  "cid": "T6-46",
+  "enunciado": "Sobre una línea con onda estacionaria se mide una tensión máxima de 60 V y una mínima de 20 V. La ROE es:",
+  "opciones": [
+   "3",
+   "2",
+   "0,33",
+   "9"
+  ],
+  "clave": "a",
+  "sol": "La ROE es el cociente entre el máximo y el mínimo de la onda estacionaria: ROE = 60 / 20 = 3. El 2 sale de dividir la diferencia (40 V) entre el mínimo; el 0,33 es el cociente al revés, imposible porque la ROE nunca baja de 1; y el 9 sería la relación de potencias, el cuadrado de la ROE.",
+  "fuente": "chapters/t06.typ:599",
+  "angulo": "cálculo con tensiones medidas en lugar de reconocer la fórmula"
+ },
+ {
+  "kid": "K-T6-47-1",
+  "cid": "T6-47",
+  "enunciado": "Un vatímetro direccional marca 100 W de potencia directa y 0 W de reflejada. Puede afirmarse que:",
+  "opciones": [
+   "la ROE es 0 y el coeficiente de reflexión vale 1",
+   "la ROE es 1:1 y el coeficiente de reflexión vale 1",
+   "la ROE es infinita, porque no vuelve nada",
+   "la ROE es 1:1 y el coeficiente de reflexión vale 0"
+  ],
+  "clave": "d",
+  "sol": "Sin potencia reflejada, $|rho| = sqrt(P_\"refl\" slash P_\"dir\") = 0$ y $\"ROE\" = (1 + 0) slash (1 - 0) = 1$: adaptación perfecta. La trampa es cruzar los números: la ROE vale 1, nunca 0, y el coeficiente de reflexión vale 0. Una ROE infinita corresponde a la reflexión total, con $|rho| = 1$.",
+  "fuente": "chapters/t06.typ:660",
+  "angulo": "lectura del vatímetro: deducir a la vez la ROE y el coeficiente de reflexión"
+ },
+ {
+  "kid": "K-T6-48-1",
+  "cid": "T6-48",
+  "enunciado": "Una antena de 200 Ω se va a alimentar desde un transmisor de 50 Ω mediante coaxial de 50 Ω. Para lograr la máxima transferencia de energía:",
+  "opciones": [
+   "basta con usar el coaxial más corto posible",
+   "hay que intercalar un adaptador de impedancias, como un balun 4:1 o un acoplador",
+   "basta con subir la potencia del transmisor",
+   "no hace falta nada, porque la diferencia de impedancias no influye"
+  ],
+  "clave": "b",
+  "sol": "La máxima transferencia exige que transmisor, línea y antena presenten la misma impedancia; si no coinciden, parte de la energía se refleja. Con 200 Ω frente a 50 Ω hace falta un adaptador: por ejemplo, un balun transformador 4:1, que baja los 200 Ω a 50 Ω, o un acoplador. Acortar la línea o subir la potencia no corrige la desadaptación.",
+  "fuente": "chapters/t06.typ:738",
+  "angulo": "caso práctico con impedancias distintas que exigen adaptador"
+ },
+ {
+  "kid": "K-T6-49-1",
+  "cid": "T6-49",
+  "enunciado": "Un aficionado anota que su antena presenta una ROE de 0,8. Ese dato:",
+  "opciones": [
+   "indica una adaptación mejor que la perfecta",
+   "no puede ser correcto, porque la ROE vale siempre 1 o más",
+   "indica que se refleja el 80 % de la potencia",
+   "es el valor normal de un dipolo bien ajustado"
+  ],
+  "clave": "b",
+  "sol": "La ROE es el cociente entre el máximo y el mínimo de la onda estacionaria, y el máximo nunca es menor que el mínimo: vale como poco 1, que es la adaptación perfecta. Para un funcionamiento adecuado debe quedar entre 1 y 2,5. Una ROE de 0,8 no existe, así que hay un error de medida o de anotación.",
+  "fuente": "cheatsheet.typ:865",
+  "angulo": "detectar un valor imposible de ROE (por debajo de 1)"
+ },
+ {
+  "kid": "K-T6-51-1",
+  "cid": "T6-51",
+  "enunciado": "Una línea de 50 Ω termina en una antena resistiva pura de impedancia menor que 50 Ω, y el medidor marca una ROE de 4. La impedancia de la antena es de:",
+  "opciones": [
+   "200 Ω",
+   "25 Ω",
+   "20 Ω",
+   "12,5 Ω"
+  ],
+  "clave": "d",
+  "sol": "Con carga resistiva, la ROE es la impedancia mayor dividida entre la menor; si la antena está por debajo de 50 Ω, ROE = 50 / $Z_L$, luego $Z_L$ = 50 / 4 = 12,5 Ω. Comprobación: $rho = (12,5 - 50) / (12,5 + 50) = -0,6$ y $\"ROE\" = (1 + 0,6) / (1 - 0,6) = 4$. Los 200 Ω también darían ROE 4, pero son mayores que 50 Ω; los 25 Ω corresponden a ROE 2, y los 20 Ω salen de calcular 50 · (1 − 0,6) olvidando el denominador.",
+  "fuente": "chapters/t06.typ:598",
+  "angulo": "cálculo inverso: de la ROE medida a la impedancia de la carga (menor que la línea)"
+ },
+ {
+  "kid": "K-T6-53-1",
+  "cid": "T6-53",
+  "enunciado": "Una instalación usa 20 m de coaxial que, en la banda de 2 m (145 MHz), pierden 4 dB. Si esos mismos 20 m se usan en la banda de 70 cm (435 MHz), la pérdida:",
+  "opciones": [
+   "será mayor de 4 dB",
+   "será menor de 4 dB, porque la longitud de onda es más corta",
+   "seguirá siendo de 4 dB, porque solo depende de la longitud",
+   "dependerá de la potencia que se aplique"
+  ],
+  "clave": "a",
+  "sol": "La atenuación del coaxial crece con la frecuencia: el efecto pelicular aumenta la resistencia de los conductores y el aislante se calienta más. Un RG-58 que pierde unos 20 dB cada 100 m en 145 MHz pierde unos 36 dB en 435 MHz. La longitud cuenta, porque la pérdida en dB es proporcional a ella, pero no es lo único; y en dB no depende de la potencia.",
+  "fuente": "chapters/t06.typ:674",
+  "angulo": "caso práctico: el mismo cable usado a otra frecuencia"
+ },
+ {
+  "kid": "K-T6-56-1",
+  "cid": "T6-56",
+  "enunciado": "En una estación con un dipolo alimentado directamente con coaxial, el micrófono «pica» y la ROE cambia al tocar el cable. La causa más probable y su remedio son:",
+  "opciones": [
+   "una avería del relé de transmisión-recepción; se corrige sustituyéndolo",
+   "la polarización cruzada; se corrige girando el dipolo 90 grados",
+   "corrientes de RF por el exterior de la malla; se corrigen con un balun en el punto de alimentación",
+   "una impedancia de antena demasiado alta; se corrige alargando el coaxial"
+  ],
+  "clave": "c",
+  "sol": "El coaxial es asimétrico y el dipolo simétrico: sin balun, parte de la corriente de la malla escapa por su cara exterior, el cable se convierte en parte de la antena, radia, deforma el diagrama, mete RF en el cuarto de radio y hace que la ROE cambie al tocarlo. El balun de corriente (ferritas o unas vueltas del propio coaxial) frena esa corriente exterior y equilibra los dos brazos.",
+  "fuente": "chapters/t06.typ:736",
+  "angulo": "diagnóstico por síntomas: reconocer la falta de balun en un caso práctico"
+ },
+ {
+  "kid": "K-T6-58-1",
+  "cid": "T6-58",
+  "enunciado": "Se dispone de un tramo de cuarto de onda de coaxial de 75 Ω. ¿Qué carga resistiva queda adaptada a una línea de 50 Ω al intercalar ese tramo?",
+  "opciones": [
+   "100 Ω",
+   "25 Ω",
+   "112,5 Ω",
+   "33,3 Ω"
+  ],
+  "clave": "c",
+  "sol": "El tramo de cuarto de onda adapta cuando su impedancia es la media geométrica de las otras dos: $Z_0^2 = Z_\"línea\" Z_L$, luego $Z_L = 75^2 slash 50 = 5625 slash 50 = 112,5$ Ω. Comprobación: $75^2 slash 112,5 = 50$ Ω. Los 100 Ω salen de tomar 75 como media aritmética, los 25 Ω de restar y los 33,3 Ω de aplicar la fórmula al revés ($50^2 slash 75$).",
+  "fuente": "chapters/t06.typ:741",
+  "angulo": "cálculo inverso: dada la impedancia del tramo, hallar la carga que adapta"
+ },
+ {
+  "kid": "K-T6-59-1",
+  "cid": "T6-59",
+  "enunciado": "Un tramo de cuarto de onda en cortocircuito se conecta en paralelo con la línea de alimentación. Su efecto es que:",
+  "opciones": [
+   "no carga la línea a la frecuencia fundamental y cortocircuita el segundo armónico",
+   "cortocircuita la frecuencia fundamental y deja pasar el segundo armónico",
+   "eleva la ROE a la frecuencia fundamental",
+   "convierte la línea en simétrica, como un balun"
+  ],
+  "clave": "a",
+  "sol": "A la fundamental el tramo mide $lambda slash 4$ e invierte la impedancia: el cortocircuito del final se ve en la entrada como un circuito abierto, igual que un LC en paralelo resonante, y no carga la línea. A la frecuencia doble mide $lambda slash 2$, repite el cortocircuito y deriva el segundo armónico: es un filtro sencillo y robusto.",
+  "fuente": "chapters/t06.typ:775",
+  "angulo": "aplicación práctica de la inversión: el tramo en cortocircuito como filtro de armónicos"
+ },
+ {
+  "kid": "K-T6-61-1",
+  "cid": "T6-61",
+  "enunciado": "Tras ajustar el acoplador de antena, el medidor de ROE situado junto al transceptor marca 1:1. Puede afirmarse que:",
+  "opciones": [
+   "la antena ha quedado resonante y su ganancia ha aumentado",
+   "ya no hay onda estacionaria en ningún tramo de la línea",
+   "el acoplador amplifica la señal hasta compensar la desadaptación",
+   "el transmisor ve 50 Ω, aunque entre el acoplador y la antena la desadaptación sigue"
+  ],
+  "clave": "d",
+  "sol": "El acoplador transforma la impedancia que presentan la línea y la antena en los 50 Ω que pide la etapa final; no mejora la antena ni su ganancia. Entre el acoplador y la antena la desadaptación sigue ahí, con su onda estacionaria y sus pérdidas: el acoplador solo la esconde al transmisor. Tampoco amplifica nada: es una red de bobinas y condensadores.",
+  "fuente": "chapters/t06.typ:942",
+  "angulo": "lo que el acoplador no hace, en un caso práctico con la lectura del medidor"
+ },
+ {
+  "kid": "K-T6-63-1",
+  "cid": "T6-63",
+  "enunciado": "Se añade un amplificador lineal a una estación formada por transceptor, medidor de ROE, acoplador de antena y antena. El lineal debe conectarse:",
+  "opciones": [
+   "entre el medidor de ROE y el acoplador",
+   "entre el transceptor y el medidor de ROE",
+   "entre el acoplador y la antena",
+   "en paralelo con el medidor de ROE"
+  ],
+  "clave": "b",
+  "sol": "El orden canónico es transceptor, amplificador lineal, medidor de ROE, acoplador y antena. El lineal va antes del medidor para que este lea la potencia real que sale hacia la antena y sirva para ajustar el acoplador. Entre el acoplador y la antena solo va la línea de alimentación.",
+  "fuente": "chapters/t06.typ:807",
+  "angulo": "posición del amplificador lineal en la cadena, en lugar del orden básico"
+ },
+ {
+  "kid": "K-T6-65-1",
+  "cid": "T6-65",
+  "enunciado": "Si el relé de transmisión-recepción de un transceptor se avería y deja la entrada del receptor conectada a la antena mientras se transmite:",
+  "opciones": [
+   "el receptor gana sensibilidad, porque le llega más señal",
+   "la potencia del propio transmisor puede destruir la primera etapa del receptor",
+   "la ROE baja a 1:1",
+   "la antena cambia de polarización"
+  ],
+  "clave": "b",
+  "sol": "La primera etapa del receptor está diseñada para microvoltios; por eso, al transmitir, el relé T-R la desconecta y normalmente la pone a masa. Si el relé falla, los vatios del transmisor llegan directamente a esa etapa y la destruyen. El relé no tiene nada que ver con la ROE ni con la polarización.",
+  "fuente": "chapters/t06.typ:1032",
+  "angulo": "consecuencia de una avería: para qué sirve la desconexión del receptor"
+ },
+ {
+  "kid": "K-T10-01-1",
+  "cid": "T10-01",
+  "enunciado": "En un accidente eléctrico en la estación, conviene que toda la familia sepa dónde está el interruptor general porque:",
+  "opciones": [
+   "al accionarlo se descargan al instante los condensadores de los equipos",
+   "desconecta la toma de tierra, que es por donde llega la descarga",
+   "reduce la potencia del transmisor a un nivel seguro",
+   "lo primero es cortar la corriente, y con él se corta toda la estación de un solo gesto"
+  ],
+  "clave": "d",
+  "sol": "El interruptor general corta de un solo gesto el suministro de toda la estación, y cortar la corriente es la primera medida ante un accidente: mientras haya tensión, quien toque a la víctima entra en el circuito. No descarga los condensadores, que conservan la carga aunque el equipo esté desconectado, y la toma de tierra nunca se desconecta.",
+  "fuente": "chapters/t10.typ:278",
+  "angulo": "para qué sirve el interruptor general en una emergencia, en vez de su existencia obligatoria"
+ },
+ {
+  "kid": "K-T10-02-1",
+  "cid": "T10-02",
+  "enunciado": "Un pájaro posado sobre un único cable de alta tensión no sufre daño porque:",
+  "opciones": [
+   "entre sus patas no hay diferencia de potencial y no circula corriente por su cuerpo",
+   "sus plumas lo aíslan de la alta tensión",
+   "la tensión alterna no afecta a los animales pequeños",
+   "la resistencia de su cuerpo es prácticamente nula"
+  ],
+  "clave": "a",
+  "sol": "Lo que daña es la corriente que atraviesa el cuerpo, no la tensión por sí sola. Con las dos patas sobre el mismo cable no hay diferencia de potencial entre ellas, no se cierra ningún circuito y no pasa corriente. Una persona que toca la fase y a la vez el suelo sí cierra el circuito, y su cuerpo es recorrido por una corriente $I = V slash R$.",
+  "fuente": "chapters/t10.typ:26",
+  "angulo": "ejemplo práctico que separa tensión y corriente"
+ },
+ {
+  "kid": "K-T10-03-1",
+  "cid": "T10-03",
+  "enunciado": "La intensidad a partir de la cual los músculos se contraen y una persona ya no puede soltar el conductor que agarra es del orden de:",
+  "opciones": [
+   "1 mA",
+   "0,1 mA",
+   "10 a 20 mA",
+   "1 A"
+  ],
+  "clave": "c",
+  "sol": "Hacia 1 mA la corriente solo se percibe como un hormigueo; en torno a 10–20 mA los músculos dejan de obedecer y no se puede soltar el conductor; desde unos 30 mA aparece el riesgo de fibrilación ventricular. Por debajo de 1 mA no se nota, y 1 A está muy por encima del umbral de fibrilación.",
+  "fuente": "chapters/t10.typ:20",
+  "angulo": "del efecto fisiológico al umbral de corriente, en vez de ordenar intensidades"
+ },
+ {
+  "kid": "K-T10-05-1",
+  "cid": "T10-05",
+  "enunciado": "Una persona toca 230 V. Con la piel seca, la resistencia del camino mano-pies es de unos 10 kΩ; con las manos mojadas y descalza, de unos 1 kΩ. Al estar mojada, la corriente que la atraviesa pasa de unos:",
+  "opciones": [
+   "230 mA a 23 mA",
+   "23 mA a 2,3 mA",
+   "23 mA a 230 mA",
+   "23 mA a los mismos 23 mA, porque la tensión no cambia"
+  ],
+  "clave": "c",
+  "sol": "Por la ley de Ohm, $I = V slash R$: en seco, 230 / 10 000 = 23 mA; mojada, 230 / 1000 = 230 mA, diez veces más y muy por encima del umbral de fibrilación. Mojarse baja la resistencia del cuerpo y aumenta la corriente, que es lo que daña.",
+  "fuente": "chapters/t10.typ:79",
+  "angulo": "cálculo con la ley de Ohm del efecto de la piel mojada"
+ },
+ {
+  "kid": "K-T10-07-1",
+  "cid": "T10-07",
+  "enunciado": "Tocar el extremo de una antena mientras transmite produce sobre todo:",
+  "opciones": [
+   "quemaduras profundas por radiofrecuencia, a veces sin dolor inmediato",
+   "un calambre como el de la red de 50 Hz",
+   "ningún daño si la potencia es de pocos vatios",
+   "un simple hormigueo, porque la RF no deposita energía en el tejido"
+  ],
+  "clave": "a",
+  "sol": "A millones de hercios el sistema nervioso no responde y no hay calambre, pero la RF calienta el tejido: entra por un punto pequeño de la piel y quema en profundidad. Los extremos de un dipolo pueden estar a cientos o miles de voltios de RF con solo 100 W, y por eso la antena se respeta aunque «solo» haya unos vatios.",
+  "fuente": "chapters/t10.typ:90",
+  "angulo": "el tipo de lesión y por qué no avisa, en lugar de la prohibición"
+ },
+ {
+  "kid": "K-T10-09-1",
+  "cid": "T10-09",
+  "enunciado": "Se desenchufa un amplificador de válvulas y, un minuto después, se va a abrir para repararlo. Lo correcto es:",
+  "opciones": [
+   "abrirlo ya, porque al estar desenchufado no queda tensión",
+   "confiar en la resistencia de descarga, que vacía los condensadores al instante",
+   "volver a enchufarlo para localizar la avería con el equipo en marcha",
+   "descargar los condensadores con una punta de descarga unida a masa y comprobar con el voltímetro que no queda tensión"
+  ],
+  "clave": "d",
+  "sol": "Los condensadores de filtro conservan la carga después de desenchufar, y en un equipo valvular pueden estar a miles de voltios. La resistencia de descarga los vacía de forma exponencial, en decenas de segundos, y puede haberse abierto sin que nadie lo sepa. Por eso, además de desenchufar, hay que descargarlos con una punta a masa y medir antes de meter la mano.",
+  "fuente": "chapters/t10.typ:206",
+  "angulo": "caso práctico: por qué desenchufar no basta"
+ },
+ {
+  "kid": "K-T10-11-1",
+  "cid": "T10-11",
+  "enunciado": "Encuentras a una persona inconsciente agarrada a un equipo que sigue conectado a la red. Antes de nada debes:",
+  "opciones": [
+   "iniciar enseguida las compresiones torácicas, porque cada minuto cuenta",
+   "cortar la corriente con el interruptor general",
+   "darle de beber para reanimarla",
+   "enfriar con agua la zona de contacto con el equipo"
+  ],
+  "clave": "b",
+  "sol": "Mientras haya tensión, quien toque a la víctima entra en el circuito y se convierte en la segunda víctima: lo primero es cortar la corriente. Solo después se avisa al 112, se comprueba si respira y, si no, se inicia la reanimación. Nunca se le da de beber ni se echa agua mientras haya tensión.",
+  "fuente": "chapters/t10.typ:278",
+  "angulo": "caso práctico con la reanimación como distractor tentador"
+ },
+ {
+  "kid": "K-T10-12-1",
+  "cid": "T10-12",
+  "enunciado": "Si no se puede cortar la corriente enseguida, para separar a la víctima de la instalación lo adecuado es usar:",
+  "opciones": [
+   "una barra metálica, para hacer palanca",
+   "un palo de madera seca",
+   "un trapo empapado en agua",
+   "las manos desnudas, actuando con rapidez"
+  ],
+  "clave": "b",
+  "sol": "Hay que separarla con un objeto aislante y seco —un palo o una pértiga de madera seca, una silla de madera, una prenda seca— para que la corriente no pase también por quien auxilia. El metal y el agua conducen, y tocarla con las manos desnudas mientras sigue en contacto con la instalación convierte al socorrista en otra víctima.",
+  "fuente": "chapters/t10.typ:279",
+  "angulo": "elegir el objeto concreto con el que separar a la víctima"
+ },
+ {
+  "kid": "K-T10-16-1",
+  "cid": "T10-16",
+  "enunciado": "Una vez cortada la corriente, el extintor adecuado para un conato de incendio en un transceptor es el de:",
+  "opciones": [
+   "agua",
+   "espuma",
+   "cualquier tipo, porque sin tensión el agente extintor es indiferente",
+   "dióxido de carbono o de polvo"
+  ],
+  "clave": "d",
+  "sol": "Ante fuego en un equipo eléctrico se corta primero la corriente y después se usa un extintor apto para fuego eléctrico, de dióxido de carbono o de polvo. Ni agua ni espuma, que es una disolución acuosa y conduce casi como el agua mientras pueda haber tensión. El agente sigue importando después de cortar, porque en el equipo puede quedar tensión, por ejemplo en sus condensadores.",
+  "fuente": "chapters/t10.typ:285",
+  "angulo": "el agente extintor concreto, con la espuma y el «ya da igual» como distractores (espuma: chapters/ap-b1.typ:4061)"
+ },
+ {
+  "kid": "K-T10-19-1",
+  "cid": "T10-19",
+  "enunciado": "Un radioaficionado comprueba que sus emisiones, hechas dentro de una banda atribuida a la radioafición, interfieren a un servicio de seguridad de la vida humana. Debe:",
+  "opciones": [
+   "dejar de emitir hasta que se resuelva el problema",
+   "seguir emitiendo, porque lo hace en una banda atribuida a los radioaficionados",
+   "reducir la potencia y continuar",
+   "cambiar la polarización de su antena y continuar"
+  ],
+  "clave": "a",
+  "sol": "Cuando una interferencia afecta a la seguridad de la vida humana la norma es única e inmediata: dejar de emitir hasta resolver el problema. Que la banda esté atribuida a la radioafición no da derecho a interferir a esos servicios, y bajar la potencia o cambiar la polarización no garantiza que la interferencia desaparezca.",
+  "fuente": "chapters/t10.typ:98",
+  "angulo": "caso práctico con el distractor de la banda atribuida; el libro no permite otro hecho nuevo, así que se pregunta el mismo dato en situación concreta"
+ },
+ {
+  "kid": "K-T10-20-1",
+  "cid": "T10-20",
+  "enunciado": "Respecto del circuito que protege, un fusible se conecta:",
+  "opciones": [
+   "en paralelo con la carga",
+   "entre el chasis y la toma de tierra",
+   "en serie, para que toda la corriente del circuito lo atraviese",
+   "en paralelo con la fuente de alimentación"
+  ],
+  "clave": "c",
+  "sol": "El fusible es un hilo calibrado en serie con el circuito: toda la corriente pasa por él y, cuando supera cierto valor, se funde y abre el paso. En paralelo no vigilaría la corriente de la carga, y al fundirse no cortaría nada; en el conductor de tierra nunca debe ponerse un fusible.",
+  "fuente": "chapters/t10.typ:333",
+  "angulo": "cómo se conecta (en serie) en vez de qué protege"
+ },
+ {
+  "kid": "K-T10-21-1",
+  "cid": "T10-21",
+  "enunciado": "Se funde el fusible de 5 A de una fuente de alimentación y se sustituye por uno de 10 A «para que aguante más». Con ello:",
+  "opciones": [
+   "la protección mejora, porque el fusible durará más",
+   "nada cambia, porque todos los fusibles cortan a la misma corriente",
+   "el equipo queda desprotegido justo donde ya se sabe que hay un problema",
+   "se protege mejor a las personas frente a los contactos indirectos"
+  ],
+  "clave": "c",
+  "sol": "Un fusible fundido es un aviso de que algo ha consumido de más, y se sustituye siempre por otro del mismo calibre. Uno de más amperios deja pasar sobreintensidades que el original habría cortado, y lo siguiente en quemarse puede ser el cable o el equipo. De los contactos indirectos protege el diferencial, no el fusible.",
+  "fuente": "chapters/t10.typ:448",
+  "angulo": "caso práctico: consecuencia de poner un fusible mayor"
+ },
+ {
+  "kid": "K-T10-22-1",
+  "cid": "T10-22",
+  "enunciado": "Un transceptor de 13,8 V consume como máximo unos 20 A. El fusible más adecuado para su cable de alimentación es de:",
+  "opciones": [
+   "25 A",
+   "15 A",
+   "200 A",
+   "2 A"
+  ],
+  "clave": "a",
+  "sol": "El calibre debe ser ligeramente superior al consumo máximo: con 20 A de consumo, 25 A. Uno de 15 A saltaría en funcionamiento normal sin avería alguna, y uno de 200 A no protegería nada: el cable se quemaría antes de que el fusible se enterase.",
+  "fuente": "chapters/t10.typ:447",
+  "angulo": "cálculo práctico: elegir el calibre para un consumo dado"
+ },
+ {
+  "kid": "K-T10-25-1",
+  "cid": "T10-25",
+  "enunciado": "De los dos mecanismos de un magnetotérmico, el magnético es el que dispara:",
+  "opciones": [
+   "lentamente ante una sobrecarga mantenida",
+   "cuando parte de la corriente se fuga a tierra",
+   "ante las sobretensiones de origen atmosférico",
+   "de forma instantánea ante un cortocircuito"
+  ],
+  "clave": "d",
+  "sol": "El magnetotérmico reúne dos mecanismos: una lámina bimetálica (la parte térmica), que dispara despacio ante sobrecargas mantenidas, y una bobina (la parte magnética), que dispara al instante ante un cortocircuito. La fuga a tierra es cosa del diferencial.",
+  "fuente": "chapters/t10.typ:452",
+  "angulo": "distinguir los dos mecanismos del magnetotérmico"
+ },
+ {
+  "kid": "K-T10-26-1",
+  "cid": "T10-26",
+  "enunciado": "Se produce un cortocircuito franco entre la fase y el neutro de un equipo, sin que nada toque tierra. El interruptor diferencial, por sí solo:",
+  "opciones": [
+   "actúa, porque la corriente es muy grande",
+   "no actúa, porque la corriente de ida y la de vuelta siguen siendo iguales",
+   "actúa, porque la tensión cae a cero",
+   "actúa en cuanto la corriente supera los 30 mA"
+  ],
+  "clave": "b",
+  "sol": "El diferencial no mira cuánta corriente pasa, sino si la que va por la fase vuelve entera por el neutro. En un cortocircuito entre fase y neutro toda la corriente vuelve por el neutro: no hay desequilibrio y el diferencial no se entera; de ese caso se ocupan el magnetotérmico o el fusible. Los 30 mA son la diferencia entre ida y vuelta que lo hace saltar, no la corriente total.",
+  "fuente": "chapters/t10.typ:419",
+  "angulo": "caso en que el diferencial no actúa: cortocircuito sin derivación a tierra"
+ },
+ {
+  "kid": "K-T10-27-1",
+  "cid": "T10-27",
+  "enunciado": "La sensibilidad de 30 mA de los interruptores diferenciales domésticos se elige porque:",
+  "opciones": [
+   "es la corriente máxima que consume un transceptor",
+   "coincide con el umbral de fibrilación: están pensados para proteger a las personas",
+   "es la corriente a partir de la cual se queman los cables de la instalación",
+   "es la corriente de un cortocircuito en la red doméstica"
+  ],
+  "clave": "b",
+  "sol": "Unos 30 mA atravesando el cuerpo bastan para provocar la fibrilación del corazón. El diferencial salta con una fuga de ese orden: está pensado para salvar personas frente a contactos indirectos y defectos de aislamiento, no equipos. Los cables y los cortocircuitos manejan corrientes de amperios, que vigilan el fusible y el magnetotérmico.",
+  "fuente": "chapters/t10.typ:335",
+  "angulo": "por qué el diferencial protege a las personas, a partir de su sensibilidad"
+ },
+ {
+  "kid": "K-T10-29-1",
+  "cid": "T10-29",
+  "enunciado": "Un defecto de aislamiento pone la fase en contacto con el chasis de un equipo que no está conectado a tierra. Lo más probable es que:",
+  "opciones": [
+   "el diferencial dispare de inmediato, antes de que nadie toque el equipo",
+   "el fusible del equipo se funda al instante",
+   "el chasis quede a 0 V, porque la fase pierde su tensión",
+   "el chasis quede en tensión sin que nada lo indique hasta que alguien lo toque"
+  ],
+  "clave": "d",
+  "sol": "Sin toma de tierra el defecto no hace circular corriente: el chasis queda a 230 V en silencio y el diferencial solo actuará cuando alguien lo toque y la corriente atraviese su cuerpo. Con el chasis a tierra, la fuga circula en cuanto aparece y el diferencial corta antes del contacto: eso es lo que protege al operador. El fusible no se entera, porque no hay sobreintensidad.",
+  "fuente": "chapters/t10.typ:144",
+  "angulo": "caso sin tierra: qué ocurre y, por contraste, por qué la tierra protege"
+ },
+ {
+  "kid": "K-T10-30-1",
+  "cid": "T10-30",
+  "enunciado": "En una estación, solo el transceptor está unido a la toma de tierra; la fuente de alimentación y el acoplador no tienen conexión alguna con ella. Esta instalación:",
+  "opciones": [
+   "es incorrecta: la tierra debe llegar a cada uno de los chasis metálicos, unidos entre sí",
+   "es correcta: basta con poner a tierra el equipo de más potencia",
+   "es correcta, porque el acoplador no se alimenta de la red",
+   "es correcta si el mástil de la antena también está a tierra"
+  ],
+  "clave": "a",
+  "sol": "La toma de tierra debe conectarse a cada uno de los chasis metálicos de la estación, interconectados entre sí. Un solo equipo sin tierra rompe la cadena de protección y es justo el punto peligroso. Poner a tierra el equipo principal o el mástil no protege los chasis que quedan sin conectar.",
+  "fuente": "chapters/t10.typ:145",
+  "angulo": "caso práctico: detectar una instalación de tierra incompleta"
+ },
+ {
+  "kid": "K-T10-31-1",
+  "cid": "T10-31",
+  "enunciado": "Con una misma fuga de 30 mA, una toma de tierra de 1000 Ω deja el chasis de un equipo, frente a una de 100 Ω, a:",
+  "opciones": [
+   "3 V en lugar de 30 V",
+   "la misma tensión, porque la fuga es la misma",
+   "30 V en lugar de 3 V",
+   "0 V en los dos casos, porque el chasis está a tierra"
+  ],
+  "clave": "c",
+  "sol": "La tensión del chasis es $V = R_T dot I$: con 100 Ω, 100 · 0,03 = 3 V; con 1000 Ω, 30 V. Cuanto mayor es la resistencia de tierra, más tensión queda en el chasis y peor se deriva la fuga; por eso la toma de tierra debe tener la menor resistencia posible. Estar «a tierra» no garantiza 0 V si la tierra es mala.",
+  "fuente": "chapters/t10.typ:149",
+  "angulo": "cálculo con la ley de Ohm que justifica la resistencia mínima"
+ },
+ {
+  "kid": "K-T10-32-1",
+  "cid": "T10-32",
+  "enunciado": "Un aficionado instala un interruptor en el cable de tierra de la estación para poder abrirlo cuando no la usa. Esta práctica es:",
+  "opciones": [
+   "correcta, siempre que el interruptor sea magnetotérmico",
+   "recomendable, sobre todo ante tormentas",
+   "incorrecta: el conductor de tierra no debe llevar fusible ni interruptor",
+   "obligatoria en las estaciones de más de 100 W"
+  ],
+  "clave": "c",
+  "sol": "El conductor de tierra tiene que estar disponible siempre: un interruptor o un fusible podrían dejarlo abierto justo cuando hace falta, con los chasis en tensión y sin que nada corte. Ante una tormenta se desconecta la antena del equipo, pero la tierra nunca.",
+  "fuente": "chapters/t10.typ:145",
+  "angulo": "caso práctico: un interruptor en el conductor de tierra, con la tormenta como distractor"
+ },
+ {
+  "kid": "K-T10-33-1",
+  "cid": "T10-33",
+  "enunciado": "¿Por qué no sirve el neutro de la red para poner a tierra los chasis de la estación?",
+  "opciones": [
+   "Porque es un conductor activo, por el que vuelve la corriente de la instalación",
+   "Porque su resistencia es demasiado baja",
+   "Porque está aislado de tierra en el transformador de distribución",
+   "Porque solo conduce corriente continua"
+  ],
+  "clave": "a",
+  "sol": "El neutro forma parte del circuito: por él vuelve la corriente de la casa, así que no es un camino reservado para las fugas. Está unido a tierra en el transformador de distribución, pero eso no lo convierte en una toma de tierra válida. Lo que sí puede usarse es la tierra del edificio, si existe y está en buen estado; nunca una tubería, y menos la del gas.",
+  "fuente": "chapters/t10.typ:152",
+  "angulo": "el porqué de la exclusión del neutro"
+ },
+ {
+  "kid": "K-T10-34-1",
+  "cid": "T10-34",
+  "enunciado": "Para clavar la pica de tierra se puede elegir entre un rincón del jardín sombreado y húmedo y una zona seca y soleada junto a la tapia. Conviene:",
+  "opciones": [
+   "la zona seca, porque el sol evita los efectos de la humedad",
+   "la zona seca, para que la toma no derive demasiada corriente",
+   "cualquiera de los dos: la resistencia de la toma no depende del terreno",
+   "el rincón húmedo, porque la humedad hace más conductor el terreno"
+  ],
+  "clave": "d",
+  "sol": "La resistencia de la toma de tierra depende sobre todo del terreno, y la humedad lo hace conductor: las picas se clavan en zonas húmedas y frescas, nunca en terreno seco y soleado. Una toma de tierra no «deriva demasiado»: cuanto menor sea su resistencia, mejor protege.",
+  "fuente": "chapters/t10.typ:152",
+  "angulo": "caso práctico: elegir entre dos emplazamientos"
+ },
+ {
+  "kid": "K-T10-35-1",
+  "cid": "T10-35",
+  "enunciado": "Se va a levantar un mástil de 6 m con una antena que sobresale 2 m por encima de él. La distancia a una línea eléctrica aérea próxima debe ser:",
+  "opciones": [
+   "de al menos 1 m",
+   "mayor de 8 m",
+   "mayor de 6 m",
+   "indiferente si la línea está aislada"
+  ],
+  "clave": "b",
+  "sol": "El criterio es geométrico: si el conjunto cae, no debe poder alcanzar la línea, así que la distancia ha de ser mayor que la altura total de mástil y antena, 6 + 2 = 8 m. Contar solo el mástil se queda corto, y que la línea parezca aislada no cambia nada.",
+  "fuente": "chapters/t10.typ:269",
+  "angulo": "cálculo práctico de la distancia a partir de la altura total"
+ },
+ {
+  "kid": "K-T10-36-1",
+  "cid": "T10-36",
+  "enunciado": "Para sujetar un mástil con tres vientos lo correcto es:",
+  "opciones": [
+   "anclarlos los tres en el lado de donde suele soplar el viento",
+   "anclarlos en direcciones repartidas alrededor del mástil y tensarlos por igual",
+   "tensar más el que mira al viento dominante y dejar flojos los demás",
+   "unirlos a un único punto de anclaje para que tiren en la misma dirección"
+  ],
+  "clave": "b",
+  "sol": "Los vientos trabajan por oposición: repartidos alrededor del mástil y con la misma tensión, lo mantienen vertical venga el viento de donde venga. Si se anclan todos en un mismo lado o tiran en la misma dirección, el mástil queda sin sujeción hacia el lado contrario, y los vientos flojos no sujetan nada.",
+  "fuente": "chapters/t10.typ:270",
+  "angulo": "caso concreto con tres vientos y distractores de orientación"
+ },
+ {
+  "kid": "K-T10-38-1",
+  "cid": "T10-38",
+  "enunciado": "Para ahorrarte un mástil, un vecino te propone fijar tu Yagi al mástil de la antena colectiva de televisión del edificio. Lo correcto es:",
+  "opciones": [
+   "aceptarlo si el mástil es de acero y aguanta el peso",
+   "aceptarlo si la Yagi pesa poco",
+   "aceptarlo si se pone a tierra el mástil",
+   "instalarla en un mástil propio, independiente del de la antena colectiva"
+  ],
+  "clave": "d",
+  "sol": "La antena de aficionado va en un mástil propio. Compartir el de la antena colectiva supone manipular una instalación que no es tuya y es fuente de interferencias y conflictos, por mucho que el mástil aguante o esté a tierra.",
+  "fuente": "chapters/t10.typ:271",
+  "angulo": "caso práctico con condiciones que no justifican compartir mástil; el libro no da otro hecho, así que es el mismo dato en situación concreta"
+ },
+ {
+  "kid": "K-T10-41-1",
+  "cid": "T10-41",
+  "enunciado": "Ante una tormenta próxima, después de desconectar la antena del transceptor, con la toma de tierra del mástil hay que:",
+  "opciones": [
+   "mantenerla conectada, porque es el camino por el que debe descargarse el rayo",
+   "desconectarla, para que el rayo no busque la instalación",
+   "unirla al neutro de la red",
+   "intercalar en ella un fusible"
+  ],
+  "clave": "a",
+  "sol": "Ante una tormenta se desconectan las bajadas de antena del equipo y conviene desenchufar este de la red, pero la toma de tierra del mástil y de los soportes nunca se desconecta: es la vía por la que el rayo debe llegar al suelo sin pasar por la casa. Tampoco puede llevar fusible ni unirse al neutro.",
+  "fuente": "chapters/t10.typ:265",
+  "angulo": "qué se hace con la tierra (no con la antena) ante la tormenta"
+ },
+ {
+  "kid": "K-T10-42-1",
+  "cid": "T10-42",
+  "enunciado": "El descargador que se coloca en la entrada del coaxial a la vivienda:",
+  "opciones": [
+   "filtra los armónicos del transmisor",
+   "adapta la impedancia de la antena a la del coaxial",
+   "no conduce con la tensión normal de RF y, ante una sobretensión, la deriva a tierra",
+   "une permanentemente a tierra el conductor central del coaxial"
+  ],
+  "clave": "c",
+  "sol": "Una tormenta cercana induce sobretensiones en el coaxial aunque no caiga un rayo directo. El descargador, de gas o de chispa, no conduce a la tensión normal de la RF, pero ante una sobretensión se ceba y la deriva a tierra antes de que entre en la casa. Va unido a la misma tierra que el mástil y los chasis.",
+  "fuente": "chapters/t10.typ:263",
+  "angulo": "función del descargador, otro elemento de la protección contra el rayo"
+ }
+]

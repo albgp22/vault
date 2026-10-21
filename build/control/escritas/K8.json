@@ -527,17 +527,17 @@
  {
   "kid": "K-R5-32-1",
   "cid": "R5-32",
-  "enunciado": "EA5ABC obtiene un distintivo con sufijo de una letra por el procedimiento de la Resolución de 29 de julio de 2026. ¿Qué pasa con EA5ABC?",
+  "enunciado": "Dos radioaficionados del distrito 3 que cumplen los requisitos piden como primera preferencia el mismo distintivo con sufijo de una letra. Según la Resolución de 29 de julio de 2026, se le asignará:",
   "opciones": [
-   "Lo conserva y puede usar los dos indistintamente",
-   "Lo conserva para las emisiones habituales y usa el nuevo solo en concursos",
-   "Pasa automáticamente a un familiar de primer grado",
-   "Deja de ser su distintivo, porque el nuevo sustituye al anterior"
+   "a quien tenga más antigüedad en la autorización, y conservará también su distintivo anterior",
+   "por sorteo entre ambos, y el ganador conservará también su distintivo anterior",
+   "a quien aporte más tarjetas QSL, y el nuevo distintivo sustituirá al que ya tenía",
+   "a quien haya presentado antes su solicitud, y el nuevo distintivo sustituirá al que ya tenía"
   ],
   "clave": "d",
-  "sol": "La Resolución establece que el nuevo distintivo sustituye al que tuviera asignado el titular, coherente con que el distintivo sea único. No se acumulan ni se reparten por usos, y la reasignación a familiares solo se prevé por fallecimiento.",
-  "fuente": "chapters/r05.typ:110",
-  "angulo": "consecuencia para el titular: sustitución del distintivo anterior"
+  "sol": "La Resolución asigna estos distintivos por distritos y por estricto orden de presentación de las solicitudes; ni la antigüedad, ni un sorteo, ni el número de QSL deciden. Además, el nuevo distintivo sustituye al que tuviera el titular, coherente con que el distintivo sea único.",
+  "fuente": "cheatsheet.typ:1060",
+  "angulo": "caso práctico: dos solicitantes compiten por el mismo distintivo (criterio de desempate y efecto)"
  },
  {
   "kid": "K-R5-33-1",
@@ -752,7 +752,7 @@
  {
   "kid": "K-R6-02-1",
   "cid": "R6-02",
-  "enunciado": "Sobre los planes de bandas de la IARU, señale la afirmación falsa:",
+  "enunciado": "De las siguientes afirmaciones sobre el carácter de los planes de bandas de la IARU, ¿cuál es falsa?",
   "opciones": [
    "Nacen de acuerdos voluntarios entre asociaciones nacionales",
    "Sirven de guía a los radioaficionados de todo el mundo",
@@ -887,22 +887,22 @@
  {
   "kid": "K-R6-10-1",
   "cid": "R6-10",
-  "enunciado": "Quieres llamar en FM simplex en la banda de 70 cm para buscar corresponsal. La frecuencia de llamada prevista en el plan de la IARU para la Región 1 es:",
+  "enunciado": "Contestas en FM a una estación que llama en 433,500 MHz y os quedáis en esa frecuencia todo el QSO. Según el plan de la IARU para la Región 1, el problema es que estáis ocupando:",
   "opciones": [
-   "432,200 MHz",
-   "434,600 MHz",
-   "433,500 MHz",
-   "433,000 MHz"
+   "el centro de actividad de SSB de 70 cm",
+   "la entrada de un repetidor de 70 cm",
+   "la frecuencia de llamada de FM de 70 cm, que debe quedar libre como punto de encuentro",
+   "el segmento de balizas de 70 cm"
   ],
   "clave": "c",
-  "sol": "En 70 cm la frecuencia de llamada de FM es 433,500 MHz. 432,200 MHz es el centro de actividad de SSB, 433,000 MHz el comienzo de las entradas de repetidores y 434,600 MHz el de sus salidas, todas de la misma banda.",
+  "sol": "En 70 cm la frecuencia de llamada de FM es 433,500 MHz: se llama allí y, al contestar, se pasa a otra frecuencia libre. El centro de SSB está en 432,200 MHz, las entradas de repetidores en 433,000–433,375 MHz y las balizas en 432,400–432,490 MHz.",
   "fuente": "chapters/ap-c2.typ:856",
-  "angulo": "caso práctico con distractores de la misma banda (SSB y repetidores)"
+  "angulo": "dato al revés en caso práctico: reconocer 433,500 MHz como la llamada de FM"
  },
  {
   "kid": "K-R6-11-1",
   "cid": "R6-11",
-  "enunciado": "En la banda de 10 m, la frecuencia de 29,600 MHz está prevista en el plan HF de la IARU para la Región 1 como:",
+  "enunciado": "¿Qué función tiene la frecuencia de 29,600 MHz en el plan HF de la IARU para la Región 1?",
   "opciones": [
    "entrada de repetidores de FM",
    "canal de llamada de FM",

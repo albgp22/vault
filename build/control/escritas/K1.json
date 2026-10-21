@@ -1,0 +1,1202 @@
+[
+ {
+  "kid": "K-T1-01-1",
+  "cid": "T1-01",
+  "enunciado": "En la placa de características de una fuente de alimentación de estación se lee «13,8 V – 20 A». Esas dos cifras indican, respectivamente:",
+  "opciones": [
+   "la tensión de salida y la intensidad máxima que puede entregar",
+   "la potencia de salida y la resistencia interna",
+   "la intensidad de salida y la potencia máxima",
+   "la tensión de salida y la potencia máxima"
+  ],
+  "clave": "a",
+  "sol": "El voltio (V) es la unidad de tensión y el amperio (A) la de intensidad: la fuente da 13,8 V y puede entregar hasta 20 A. La potencia se mide en vatios (W) y la resistencia en ohmios (Ω), así que ninguna de las dos cifras es una potencia; la potencia máxima sería $13,8 times 20 = 276$ W.",
+  "fuente": "chapters/t01.typ:104",
+  "angulo": "del símbolo de la unidad a la magnitud, en un caso práctico (placa de una fuente)"
+ },
+ {
+  "kid": "K-T1-02-1",
+  "cid": "T1-02",
+  "enunciado": "El producto de un ohmio por un amperio equivale a:",
+  "opciones": [
+   "un vatio",
+   "un voltio",
+   "un culombio",
+   "un julio"
+  ],
+  "clave": "b",
+  "sol": "De la ley de Ohm, $V = I R$: si por una resistencia de 1 Ω circula 1 A, entre sus extremos hay 1 V, luego 1 Ω × 1 A = 1 V. El vatio es voltio por amperio ($P = V I$), no ohmio por amperio; el culombio es amperio por segundo y el julio, vatio por segundo.",
+  "fuente": "chapters/t01.typ:108",
+  "angulo": "la equivalencia en forma de producto (Ω · A = V) en lugar del cociente V/A"
+ },
+ {
+  "kid": "K-T1-03-1",
+  "cid": "T1-03",
+  "enunciado": "Por un conductor circula una corriente constante de 2 A. La carga eléctrica que lo atraviesa en un minuto es de:",
+  "opciones": [
+   "2 C",
+   "30 C",
+   "120 C",
+   "0,033 C"
+  ],
+  "clave": "c",
+  "sol": "La carga es corriente por tiempo: $Q = I t = 2 times 60 = 120$ C, porque 1 C = 1 A · 1 s y un minuto son 60 s. Los 2 C serían la carga de un solo segundo; los 30 C y los 0,033 C salen de dividir en lugar de multiplicar.",
+  "fuente": "chapters/t01.typ:105",
+  "angulo": "cálculo con Q = I t (otros datos, tiempo en minutos)"
+ },
+ {
+  "kid": "K-T1-06-1",
+  "cid": "T1-06",
+  "enunciado": "Una resistencia de 2,2 MΩ equivale a:",
+  "opciones": [
+   "2200 Ω",
+   "0,0022 Ω",
+   "22 000 Ω",
+   "2 200 000 Ω"
+  ],
+  "clave": "d",
+  "sol": "El prefijo mega (M, mayúscula) vale $10^6$: 2,2 MΩ = $2,2 times 10^6$ Ω = 2 200 000 Ω. Los 2200 Ω serían 2,2 kΩ (kilo, $10^3$) y los 0,0022 Ω, 2,2 mΩ: confundir la M de mega con la m de mili es el error típico.",
+  "fuente": "chapters/t01.typ:121",
+  "angulo": "otro prefijo (mega) y su confusión con kilo y mili"
+ },
+ {
+  "kid": "K-T1-09-1",
+  "cid": "T1-09",
+  "enunciado": "Se aplican 9 V a una resistencia de 4,5 kΩ. La corriente que circula por ella es de:",
+  "opciones": [
+   "2 mA",
+   "2 A",
+   "0,5 mA",
+   "40,5 mA"
+  ],
+  "clave": "a",
+  "sol": "$I = V slash R = 9 slash 4500 = 0,002$ A = 2 mA. Los 2 A olvidan el prefijo kilo; los 0,5 mA dividen la resistencia entre la tensión, y 40,5 resulta de multiplicar en lugar de dividir.",
+  "fuente": "chapters/t01.typ:37",
+  "angulo": "hallar la intensidad (la de estudio pide la tensión), con prefijos"
+ },
+ {
+  "kid": "K-T1-09-2",
+  "cid": "T1-09",
+  "enunciado": "En un circuito de corriente continua se duplica la resistencia sin variar la tensión aplicada. La corriente:",
+  "opciones": [
+   "se duplica",
+   "se reduce a la mitad",
+   "se reduce a la cuarta parte",
+   "no varía, porque la tensión es la misma"
+  ],
+  "clave": "b",
+  "sol": "Por la ley de Ohm, $I = V slash R$: con $V$ fija, la corriente es inversamente proporcional a la resistencia, así que al doble de resistencia le corresponde la mitad de corriente. La cuarta parte saldría si la resistencia entrara al cuadrado, como ocurre con la corriente en la potencia ($P = I^2 R$), no en la ley de Ohm.",
+  "fuente": "chapters/t01.typ:93",
+  "angulo": "relación cualitativa con la resistencia, en lugar de con la tensión"
+ },
+ {
+  "kid": "K-T1-10-1",
+  "cid": "T1-10",
+  "enunciado": "Un hilo de cobre tiene una resistencia de 0,4 Ω. Otro hilo del mismo cobre, de doble longitud y doble sección, tiene una resistencia de:",
+  "opciones": [
+   "0,8 Ω",
+   "0,2 Ω",
+   "0,4 Ω",
+   "1,6 Ω"
+  ],
+  "clave": "c",
+  "sol": "Con $R = rho l slash S$, doblar la longitud duplica la resistencia y doblar la sección la reduce a la mitad: los dos efectos se compensan y quedan 0,4 Ω. Los 0,8 Ω solo tienen en cuenta la longitud, los 0,2 Ω solo la sección y los 1,6 Ω tratan la sección como si multiplicara.",
+  "fuente": "chapters/t01.typ:74",
+  "angulo": "cálculo con dos cambios a la vez (longitud y sección)"
+ },
+ {
+  "kid": "K-T1-11-1",
+  "cid": "T1-11",
+  "enunciado": "Una resistencia de 8 Ω disipa 32 W. La corriente que la recorre es de:",
+  "opciones": [
+   "4 A",
+   "0,25 A",
+   "0,5 A",
+   "2 A"
+  ],
+  "clave": "d",
+  "sol": "De $P = I^2 R$ se despeja $I = sqrt(P slash R) = sqrt(32 slash 8) = sqrt(4) = 2$ A. Los 4 A olvidan la raíz cuadrada, y los 0,25 y 0,5 A invierten el cociente (8/32), sin raíz y con ella.",
+  "fuente": "chapters/t01.typ:87",
+  "angulo": "cálculo inverso: dadas la potencia y la resistencia, hallar la corriente"
+ },
+ {
+  "kid": "K-T1-11-2",
+  "cid": "T1-11",
+  "enunciado": "Una lámpara de 12 V y 24 W, encendida a su tensión nominal, presenta una resistencia de:",
+  "opciones": [
+   "6 Ω",
+   "2 Ω",
+   "0,5 Ω",
+   "288 Ω"
+  ],
+  "clave": "a",
+  "sol": "De $P = V^2 slash R$ se despeja $R = V^2 slash P = 144 slash 24 = 6$ Ω. Comprobación: la corriente es $I = P slash V = 2$ A y $12 slash 2 = 6$ Ω. Los 2 Ω confunden la corriente con la resistencia; 0,5 Ω y 288 Ω salen de dividir o multiplicar sin más la tensión y la potencia.",
+  "fuente": "chapters/t01.typ:87",
+  "angulo": "otra forma de la fórmula (V²/R) en sentido inverso: hallar R"
+ },
+ {
+  "kid": "K-T1-12-1",
+  "cid": "T1-12",
+  "enunciado": "La ley de Kirchhoff de las corrientes (ley de los nudos) es una consecuencia directa de:",
+  "opciones": [
+   "la conservación de la energía a lo largo de una malla cerrada",
+   "la conservación de la carga eléctrica, que no se acumula en el nudo",
+   "la ley de Coulomb entre las cargas que llegan al nudo",
+   "la ley de Ohm aplicada a cada una de las ramas"
+  ],
+  "clave": "b",
+  "sol": "La carga no se crea, no se destruye y no se acumula en un nudo: toda la que llega por unas ramas tiene que salir por otras, y por eso la suma de las corrientes entrantes iguala a la de las salientes. La conservación de la energía por unidad de carga es el fundamento de la otra ley, la de las tensiones o de las mallas.",
+  "fuente": "chapters/t01.typ:136",
+  "angulo": "fundamento físico de la ley, en lugar de su enunciado o de un cálculo"
+ },
+ {
+  "kid": "K-T1-13-1",
+  "cid": "T1-13",
+  "enunciado": "Una batería de resistencia interna despreciable alimenta dos resistencias en serie. Un voltímetro marca 7,5 V en una de ellas y 4,5 V en la otra. La fuerza electromotriz de la batería es de:",
+  "opciones": [
+   "3 V",
+   "7,5 V",
+   "12 V",
+   "6 V"
+  ],
+  "clave": "c",
+  "sol": "Por la ley de las mallas, la suma de las caídas de tensión a lo largo de la malla es igual a la fem: $7,5 + 4,5 = 12$ V. Los 3 V son la diferencia entre las dos lecturas, 6 V su media y 7,5 V solo la mayor de ellas.",
+  "fuente": "chapters/t01.typ:136",
+  "angulo": "cálculo inverso: dadas las caídas, hallar la fem"
+ },
+ {
+  "kid": "K-T1-14-1",
+  "cid": "T1-14",
+  "enunciado": "Si se duplica el valor de una de las dos cargas y también la distancia que las separa, la fuerza eléctrica entre ellas:",
+  "opciones": [
+   "no varía",
+   "se duplica",
+   "se reduce a la cuarta parte",
+   "se reduce a la mitad"
+  ],
+  "clave": "d",
+  "sol": "Por la ley de Coulomb, $F = k q_1 q_2 slash d^2$: doblar una carga duplica la fuerza y doblar la distancia la divide entre $2^2 = 4$, de modo que queda multiplicada por $2 slash 4 = 1 slash 2$. Pensar que no varía es tratar la distancia como si dividiera sin elevarla al cuadrado.",
+  "fuente": "chapters/t01.typ:201",
+  "angulo": "las dos dependencias a la vez (producto de las cargas y cuadrado de la distancia)"
+ },
+ {
+  "kid": "K-T1-15-1",
+  "cid": "T1-15",
+  "enunciado": "Mientras se recarga una batería de plomo con un cargador, la transformación de energía que tiene lugar en ella es de:",
+  "opciones": [
+   "energía eléctrica en energía química",
+   "energía química en energía eléctrica",
+   "energía mecánica en energía eléctrica",
+   "energía luminosa en energía química"
+  ],
+  "clave": "a",
+  "sol": "Al descargarse, la batería convierte energía química en eléctrica; al cargarla, el proceso va a la inversa y la energía eléctrica del cargador queda almacenada en forma química. La conversión de química en eléctrica es la de la descarga, y la de mecánica en eléctrica es propia de una dinamo.",
+  "fuente": "chapters/t01.typ:407",
+  "angulo": "el mismo hecho en sentido contrario (durante la carga)"
+ },
+ {
+  "kid": "K-T1-17-1",
+  "cid": "T1-17",
+  "enunciado": "Un voltímetro de resistencia interna muy alta, conectado a los bornes de una batería sin ninguna carga conectada, indica directamente su:",
+  "opciones": [
+   "resistencia interna",
+   "fuerza electromotriz",
+   "corriente de cortocircuito",
+   "capacidad en amperios-hora"
+  ],
+  "clave": "b",
+  "sol": "En circuito abierto no circula corriente, no cae tensión en la resistencia interna y en bornes aparece la fem completa, que se mide en voltios como cualquier tensión. La resistencia interna se expresa en ohmios, la corriente de cortocircuito en amperios y la capacidad en amperios-hora: ninguna la da un voltímetro.",
+  "fuente": "chapters/t01.typ:278",
+  "angulo": "caso práctico: la fem es una tensión y se lee con un voltímetro en vacío"
+ },
+ {
+  "kid": "K-T1-18-1",
+  "cid": "T1-18",
+  "enunciado": "Una batería marca 13,2 V en vacío y 12,0 V cuando entrega 15 A. Su resistencia interna es de:",
+  "opciones": [
+   "0,88 Ω",
+   "0,8 Ω",
+   "0,08 Ω",
+   "12,5 Ω"
+  ],
+  "clave": "c",
+  "sol": "En vacío se mide la fem, $epsilon = 13,2$ V; con carga, $V = epsilon - I r$, así que la caída interna es $13,2 - 12,0 = 1,2$ V y $r = 1,2 slash 15 = 0,08$ Ω. Los 0,88 y 0,8 Ω dividen una tensión total entre la corriente, lo que da la resistencia de todo el circuito o la de la carga, no la interna; 12,5 Ω es el cociente invertido.",
+  "fuente": "chapters/t01.typ:277",
+  "angulo": "cálculo inverso: de las tensiones en vacío y en carga, hallar r"
+ },
+ {
+  "kid": "K-T1-19-1",
+  "cid": "T1-19",
+  "enunciado": "Se conectan en serie seis pilas de 1,5 V, cada una con 0,2 Ω de resistencia interna. El conjunto equivale a una fuente de:",
+  "opciones": [
+   "9 V con 0,033 Ω de resistencia interna",
+   "1,5 V con 1,2 Ω de resistencia interna",
+   "1,5 V con 0,033 Ω de resistencia interna",
+   "9 V con 1,2 Ω de resistencia interna"
+  ],
+  "clave": "d",
+  "sol": "En serie se suman las fems, $6 times 1,5 = 9$ V, y también las resistencias internas, $6 times 0,2 = 1,2$ Ω, porque la corriente atraviesa todas las pilas una tras otra. La tensión de una sola pila y los 0,033 Ω ($0,2 slash 6$) corresponden a la asociación en paralelo.",
+  "fuente": "chapters/t01.typ:340",
+  "angulo": "cálculo numérico de la serie, incluida la resistencia interna"
+ },
+ {
+  "kid": "K-T1-19-2",
+  "cid": "T1-19",
+  "enunciado": "Un equipo de 12 V pide más corriente de la que puede dar una sola batería de 12 V. Para alimentarlo con varias baterías iguales de 12 V, hay que conectarlas:",
+  "opciones": [
+   "en paralelo: todos los positivos unidos y todos los negativos unidos",
+   "en serie: el positivo de cada una con el negativo de la siguiente",
+   "en serie, con una resistencia que absorba la tensión sobrante",
+   "en paralelo, uniendo el positivo de cada una con el negativo de la otra"
+  ],
+  "clave": "a",
+  "sol": "En paralelo la tensión del conjunto es la de una sola batería (12 V) y la corriente total se reparte entre todas, así que el conjunto puede dar más amperios. En serie se sumarían las tensiones, y la corriente disponible seguiría siendo la de una sola batería aunque se intercalara una resistencia. Unir el positivo de una con el negativo de otra en paralelo las pondría en cortocircuito.",
+  "fuente": "chapters/t01.typ:340",
+  "angulo": "caso práctico: elegir la asociación para obtener más corriente con la misma tensión"
+ },
+ {
+  "kid": "K-T1-20-1",
+  "cid": "T1-20",
+  "enunciado": "Un equipo portátil consume 250 mA y se quiere que funcione 8 horas seguidas. La capacidad mínima de su batería debe ser de:",
+  "opciones": [
+   "32 Ah",
+   "2 Ah",
+   "0,031 Ah",
+   "2000 Ah"
+  ],
+  "clave": "b",
+  "sol": "De $t = C slash I$ se despeja $C = I t = 0,25 times 8 = 2$ Ah, es decir, 2000 mAh. Los 32 Ah resultan de dividir las horas entre la corriente; los 0,031 Ah, de dividir al revés; y los 2000 Ah, de olvidar que eran miliamperios.",
+  "fuente": "chapters/t01.typ:387",
+  "angulo": "cálculo inverso: dadas la corriente y la autonomía, hallar la capacidad"
+ },
+ {
+  "kid": "K-T1-30-1",
+  "cid": "T1-30",
+  "enunciado": "Una sonda espacial puede comunicarse por radio con la Tierra a través del vacío del espacio porque las ondas de radio:",
+  "opciones": [
+   "son ondas mecánicas de frecuencia mucho más alta que la del sonido",
+   "son ondas acústicas que en el vacío viajan a la velocidad de la luz",
+   "son ondas electromagnéticas, que no necesitan un medio material para propagarse",
+   "son ondas gravitatorias, que atraviesan cualquier medio"
+  ],
+  "clave": "c",
+  "sol": "Las ondas de radio son electromagnéticas: campos eléctrico y magnético que se sostienen mutuamente y se propagan sin necesidad de medio material, igual que la luz. Las ondas mecánicas, como el sonido, necesitan un medio que vibre y no atraviesan el vacío.",
+  "fuente": "chapters/t01.typ:594",
+  "angulo": "consecuencia práctica de su naturaleza (propagación en el vacío)"
+ },
+ {
+  "kid": "K-T1-31-1",
+  "cid": "T1-31",
+  "enunciado": "Una onda electromagnética avanza en dirección horizontal y su campo eléctrico es vertical. Su campo magnético es:",
+  "opciones": [
+   "vertical, paralelo al campo eléctrico",
+   "horizontal y orientado en la misma dirección en que avanza la onda",
+   "nulo, porque la onda tiene polarización vertical",
+   "horizontal y perpendicular a la dirección de avance"
+  ],
+  "clave": "d",
+  "sol": "En una onda electromagnética los campos eléctrico y magnético son perpendiculares entre sí y los dos son perpendiculares a la dirección de propagación. Si el eléctrico es vertical, el magnético tiene que ser horizontal y, además, cruzado respecto al avance: ninguno de los dos apunta en la dirección de propagación. La polarización vertical solo indica hacia dónde apunta el campo eléctrico.",
+  "fuente": "chapters/t01.typ:432",
+  "angulo": "caso concreto con orientaciones: deducir la del campo magnético"
+ },
+ {
+  "kid": "K-T1-33-1",
+  "cid": "T1-33",
+  "enunciado": "Una señal de radio recorre 3000 km en el vacío. Tarda aproximadamente:",
+  "opciones": [
+   "10 ms",
+   "1 ms",
+   "100 ms",
+   "1 s"
+  ],
+  "clave": "a",
+  "sol": "$t = d slash c = 3000 slash 300.000 = 0,01$ s = 10 ms. 1 ms supondría una velocidad de 3.000.000 km/s y 100 ms, de 30.000 km/s: dos errores clásicos en la cifra de $c$. Un segundo correspondería a 300.000 km.",
+  "fuente": "chapters/t01.typ:433",
+  "angulo": "aplicar el valor de c a un tiempo de propagación"
+ },
+ {
+  "kid": "K-T1-33-2",
+  "cid": "T1-33",
+  "enunciado": "Desde la misma antena se emiten a la vez dos señales, una de 3,5 MHz y otra de 430 MHz, hacia una nave en el espacio. Respecto a la de 3,5 MHz, la de 430 MHz llega:",
+  "opciones": [
+   "antes, porque su frecuencia es mayor",
+   "al mismo tiempo, porque en el vacío la velocidad no depende de la frecuencia",
+   "después, porque su longitud de onda es menor",
+   "antes, porque su longitud de onda es menor"
+  ],
+  "clave": "b",
+  "sol": "En el vacío todas las ondas electromagnéticas viajan a $c approx 300.000$ km/s sea cual sea su frecuencia. Lo que cambia con la frecuencia es la longitud de onda ($lambda = c slash f$), no la velocidad, así que las dos llegan a la vez.",
+  "fuente": "chapters/ap-b1.typ:319",
+  "angulo": "consecuencia práctica de que c no depende de la frecuencia"
+ },
+ {
+  "kid": "K-T1-34-1",
+  "cid": "T1-34",
+  "enunciado": "Una emisión con una longitud de onda de 15 m tiene una frecuencia de:",
+  "opciones": [
+   "2 MHz",
+   "200 MHz",
+   "20 MHz",
+   "4500 MHz"
+  ],
+  "clave": "c",
+  "sol": "Despejando de $lambda (\"m\") approx 300 slash f (\"MHz\")$: $f approx 300 slash 15 = 20$ MHz. Los 4500 MHz salen de multiplicar 300 por 15 en lugar de dividir, y 2 y 200 MHz son errores de un factor 10.",
+  "fuente": "chapters/t01.typ:435",
+  "angulo": "cálculo inverso: de la longitud de onda a la frecuencia"
+ },
+ {
+  "kid": "K-T1-36-1",
+  "cid": "T1-36",
+  "enunciado": "Una corriente alterna completa 3000 ciclos en 0,1 s. Su frecuencia es de:",
+  "opciones": [
+   "300 Hz",
+   "3 kHz",
+   "30 Hz",
+   "30 kHz"
+  ],
+  "clave": "d",
+  "sol": "La frecuencia es el número de ciclos por segundo: $3000 slash 0,1 = 30.000$ Hz = 30 kHz. Los 300 Hz resultan de multiplicar por 0,1 en lugar de dividir, y los 3 kHz toman los 3000 ciclos como si se hubieran contado en un segundo.",
+  "fuente": "chapters/t01.typ:111",
+  "angulo": "cálculo de la frecuencia a partir de los ciclos contados en un tiempo"
+ },
+ {
+  "kid": "K-T1-37-1",
+  "cid": "T1-37",
+  "enunciado": "Entre dos máximos consecutivos de una señal sinusoidal transcurren 2 μs. Su frecuencia es de:",
+  "opciones": [
+   "500 kHz",
+   "2 MHz",
+   "250 kHz",
+   "50 kHz"
+  ],
+  "clave": "a",
+  "sol": "El tiempo entre dos máximos consecutivos es el período, $T = 2$ μs, y $f = 1 slash T = 1 slash (2 times 10^(-6)) = 500.000$ Hz = 500 kHz. Los 250 kHz toman ese tiempo como medio período, los 2 MHz leen los microsegundos como megahercios y los 50 kHz son un error de un factor 10.",
+  "fuente": "chapters/t01.typ:617",
+  "angulo": "cálculo inverso: del período (definido entre máximos) a la frecuencia"
+ },
+ {
+  "kid": "K-T1-39-1",
+  "cid": "T1-39",
+  "enunciado": "Una estufa conectada a la red de 230 V eficaces calienta exactamente igual que si se conectara a una tensión continua de:",
+  "opciones": [
+   "325 V",
+   "230 V",
+   "207 V",
+   "163 V"
+  ],
+  "clave": "b",
+  "sol": "El valor eficaz se define precisamente así: es la tensión continua que produce el mismo efecto calorífico en una resistencia, de modo que 230 V eficaces calientan como 230 V de continua. 325 V es el valor de pico de la red, 207 V el valor medio de una semionda y 163 V resulta de dividir otra vez entre $sqrt(2)$.",
+  "fuente": "chapters/t01.typ:554",
+  "angulo": "la definición aplicada a un caso práctico con la tensión de red"
+ },
+ {
+  "kid": "K-T1-39-2",
+  "cid": "T1-39",
+  "enunciado": "El valor eficaz de una tensión alterna se obtiene matemáticamente:",
+  "opciones": [
+   "promediando sus valores instantáneos a lo largo de un período",
+   "dividiendo entre dos su valor de pico a pico",
+   "elevando al cuadrado sus valores instantáneos, promediándolos en un período y extrayendo la raíz cuadrada",
+   "promediando los valores instantáneos de una sola semionda"
+  ],
+  "clave": "c",
+  "sol": "Como la potencia en una resistencia va con $v^2$, el valor que calienta igual es el que tiene el mismo cuadrado medio: $V_\"ef\" = sqrt(\"media de\" v^2)$, que en una sinusoide vale $V_0 slash sqrt(2)$. La media de todo el período es cero en una sinusoide, la de una semionda es el valor medio ($0,637 V_0$) y la mitad del pico a pico es el valor de pico.",
+  "fuente": "chapters/t01.typ:496",
+  "angulo": "cómo se calcula (cuadrado medio), en lugar de su definición verbal"
+ },
+ {
+  "kid": "K-T1-40-1",
+  "cid": "T1-40",
+  "enunciado": "Una tensión sinusoidal de 50 V eficaces tiene un valor de pico a pico aproximado de:",
+  "opciones": [
+   "70,7 V",
+   "100 V",
+   "35,4 V",
+   "141 V"
+  ],
+  "clave": "d",
+  "sol": "El pico es $V_p = V_\"ef\" sqrt(2) = 50 times 1,414 approx 70,7$ V, y el pico a pico, el doble: unos 141 V. Los 70,7 V son solo el pico; los 100 V duplican el eficaz sin pasar por el pico, y los 35,4 V dividen entre $sqrt(2)$ en lugar de multiplicar.",
+  "fuente": "chapters/t01.typ:541",
+  "angulo": "conversión de eficaz a pico a pico (sentido inverso al de estudio)"
+ },
+ {
+  "kid": "K-T1-40-2",
+  "cid": "T1-40",
+  "enunciado": "Se comparan dos tensiones sinusoidales: A, de 10 V eficaces, y B, de 24 V de pico a pico. ¿Cuál tiene mayor valor eficaz?",
+  "opciones": [
+   "A, porque B equivale a unos 8,5 V eficaces",
+   "B, porque equivale a unos 17 V eficaces",
+   "B, porque equivale a unos 12 V eficaces",
+   "B, porque 24 V es más del doble de 10 V"
+  ],
+  "clave": "a",
+  "sol": "B tiene $24 slash 2 = 12$ V de pico y $12 slash sqrt(2) approx 8,5$ V eficaces, menos que los 10 V de A. Los 17 V salen de dividir el pico a pico directamente entre $sqrt(2)$, y los 12 V toman el valor de pico como si fuera el eficaz.",
+  "fuente": "chapters/t01.typ:539",
+  "angulo": "comparar dos tensiones expresadas de forma distinta"
+ },
+ {
+  "kid": "K-T1-43-1",
+  "cid": "T1-43",
+  "enunciado": "En una resistencia alimentada con corriente alterna, en el instante en que la tensión alcanza su máximo, la corriente:",
+  "opciones": [
+   "pasa por cero",
+   "alcanza también su máximo",
+   "alcanza su máximo negativo",
+   "alcanzará su máximo un cuarto de período después"
+  ],
+  "clave": "b",
+  "sol": "En un circuito resistivo la corriente sigue a la tensión sin retraso ($i = v slash R$ en cada instante): están en fase y pasan a la vez por cero y por sus máximos. El retraso de un cuarto de período (90°) es propio de una bobina o un condensador ideales, y el máximo negativo correspondería a la oposición de fase.",
+  "fuente": "chapters/t01.typ:1110",
+  "angulo": "consecuencia instantánea de estar en fase"
+ },
+ {
+  "kid": "K-T1-44-1",
+  "cid": "T1-44",
+  "enunciado": "Una carga alimentada a 230 V eficaces toma 2 A eficaces con un factor de potencia de 0,5. La potencia que consume realmente es de:",
+  "opciones": [
+   "460 W",
+   "920 W",
+   "230 W",
+   "115 W"
+  ],
+  "clave": "c",
+  "sol": "La potencia activa es $P = V_\"ef\" I_\"ef\" cos phi = 230 times 2 times 0,5 = 230$ W. Los 460 W son la potencia aparente, que ignora el desfase; los 920 W dividen entre el factor de potencia en lugar de multiplicar, y los 115 W lo aplican dos veces.",
+  "fuente": "chapters/t01.typ:1111",
+  "angulo": "cálculo con el factor de potencia, en lugar de su definición"
+ },
+ {
+  "kid": "K-T1-45-1",
+  "cid": "T1-45",
+  "enunciado": "Una señal periódica no sinusoidal de 1 kHz se descompone en su fundamental y sus armónicos. ¿Cuál de estas frecuencias no puede ser uno de sus armónicos?",
+  "opciones": [
+   "2 kHz",
+   "3 kHz",
+   "5 kHz",
+   "1,5 kHz"
+  ],
+  "clave": "d",
+  "sol": "Los armónicos son siempre múltiplos enteros de la fundamental: 2, 3, 4, 5 kHz… Los 1,5 kHz serían 1,5 veces la fundamental, que no es un número entero. En una onda cuadrada simétrica solo habría armónicos impares, pero 2 kHz sí puede ser armónico de una señal no sinusoidal cualquiera.",
+  "fuente": "chapters/t01.typ:561",
+  "angulo": "qué frecuencias pueden ser armónicos (múltiplos enteros), en lugar del caso de la onda cuadrada"
+ },
+ {
+  "kid": "K-T1-46-1",
+  "cid": "T1-46",
+  "enunciado": "La temperatura absoluta de una resistencia pasa de 290 K a 580 K y, a la vez, el ancho de banda del receptor se reduce a la mitad. La potencia de ruido térmico disponible:",
+  "opciones": [
+   "no varía",
+   "se duplica",
+   "se cuadruplica",
+   "se reduce a la mitad"
+  ],
+  "clave": "a",
+  "sol": "La potencia de ruido térmico es $P = k T B$, proporcional a la temperatura absoluta y al ancho de banda. Doblar $T$ duplica el ruido y reducir $B$ a la mitad lo divide entre dos: los dos efectos se compensan. Quien solo tiene en cuenta uno de los dos factores obtiene el doble o la mitad.",
+  "fuente": "chapters/t01.typ:583",
+  "angulo": "dos factores de P = k T B a la vez (temperatura y ancho de banda)"
+ },
+ {
+  "kid": "K-T1-49-1",
+  "cid": "T1-49",
+  "enunciado": "Una portadora de radiofrecuencia emitida de forma continua y sin modular:",
+  "opciones": [
+   "transporta la información en su frecuencia, que permanece fija",
+   "no transporta información: hay que variar su amplitud, su frecuencia o su fase al ritmo del mensaje",
+   "transporta más información cuanto mayor es su potencia",
+   "transporta la información en su longitud de onda"
+  ],
+  "clave": "b",
+  "sol": "Una portadora pura es un tono constante y no dice nada; para que transporte información hay que modularla, haciendo que la señal moduladora altere alguno de sus parámetros. Una frecuencia, una longitud de onda o una potencia fijas no cambian con el mensaje, así que no pueden llevarlo.",
+  "fuente": "chapters/t01.typ:667",
+  "angulo": "el hecho al revés: qué ocurre si la portadora no se modula"
+ },
+ {
+  "kid": "K-T1-50-1",
+  "cid": "T1-50",
+  "enunciado": "Indica la asociación correcta entre el tipo de modulación analógica y el parámetro de la portadora que varía con la señal moduladora:",
+  "opciones": [
+   "AM, la frecuencia; FM, la amplitud; PM, la fase",
+   "AM, la amplitud; FM, la fase; PM, la frecuencia",
+   "AM, la amplitud; FM, la frecuencia; PM, la fase",
+   "AM, la fase; FM, la frecuencia; PM, la amplitud"
+  ],
+  "clave": "c",
+  "sol": "Cada nombre dice el parámetro que se modula: en AM la amplitud, en FM la frecuencia instantánea y en PM la fase, estas dos últimas con amplitud constante. FM y PM están emparentadas (la fase es la integral de la frecuencia), pero en cada una es un parámetro distinto el que sigue a la moduladora.",
+  "fuente": "chapters/t01.typ:927",
+  "angulo": "las tres modulaciones a la vez, en forma de asociación"
+ },
+ {
+  "kid": "K-T1-52-1",
+  "cid": "T1-52",
+  "enunciado": "En el espectro de una emisión de AM modulada por un tono se ven la portadora en 7,100 MHz y una banda lateral en 7,1025 MHz. La frecuencia del tono y la de la otra banda lateral son:",
+  "opciones": [
+   "2,5 kHz y 7,105 MHz",
+   "5 kHz y 7,0975 MHz",
+   "25 kHz y 7,075 MHz",
+   "2,5 kHz y 7,0975 MHz"
+  ],
+  "clave": "d",
+  "sol": "Las bandas laterales están en $f_c plus.minus f_m$: la distancia entre la portadora y una banda es la frecuencia moduladora, $7,1025 - 7,100 = 0,0025$ MHz = 2,5 kHz, y la otra banda está simétrica, en $7,100 - 0,0025 = 7,0975$ MHz. Los 5 kHz son la anchura total de la emisión ($2 f_m$), no el tono; 7,105 MHz duplica la distancia hacia el mismo lado, y 25 kHz es un error de coma.",
+  "fuente": "chapters/t01.typ:698",
+  "angulo": "cálculo inverso: del espectro a la moduladora y a la otra banda"
+ },
+ {
+  "kid": "K-T1-53-1",
+  "cid": "T1-53",
+  "enunciado": "Ordenadas de menor a mayor anchura de banda típica, las emisiones de radioaficionado quedan así:",
+  "opciones": [
+   "CW, SSB, AM, FM de banda estrecha",
+   "SSB, CW, AM, FM de banda estrecha",
+   "CW, AM, SSB, FM de banda estrecha",
+   "CW, SSB, FM de banda estrecha, AM"
+  ],
+  "clave": "a",
+  "sol": "La CW ocupa del orden de 100 Hz; la SSB, unos 2,7 kHz; la AM, unos 6 kHz, el doble que la SSB por llevar dos bandas laterales; y la FM de banda estrecha, de 11 a 16 kHz. La SSB es la emisión de voz más estrecha, pero la CW lo es aún más.",
+  "fuente": "chapters/t01.typ:915",
+  "angulo": "ordenar los cuatro modos, en lugar de elegir el mayor o dar el valor de uno"
+ },
+ {
+  "kid": "K-T1-53-2",
+  "cid": "T1-53",
+  "enunciado": "Para transmitir la misma voz (300–3000 Hz), una emisión de AM (A3E) ocupa, respecto a una de SSB (J3E):",
+  "opciones": [
+   "la misma anchura, porque transporta la misma información",
+   "aproximadamente el doble, porque lleva las dos bandas laterales",
+   "la mitad, porque no necesita suprimir la portadora",
+   "unas cuatro veces más, por la potencia de la portadora"
+  ],
+  "clave": "b",
+  "sol": "La AM lleva la portadora y dos bandas laterales iguales y ocupa unos 6 kHz; la SSB suprime la portadora y una de las bandas y se queda en unos 2,7 kHz. La portadora es una sola raya y no añade anchura: lo que duplica el ancho es la segunda banda lateral.",
+  "fuente": "chapters/t01.typ:775",
+  "angulo": "relación entre dos anchuras y su causa"
+ },
+ {
+  "kid": "K-T1-56-1",
+  "cid": "T1-56",
+  "enunciado": "Una portadora de AM de 200 W se modula con un índice $m = 0,5$. La potencia de cada banda lateral es de:",
+  "opciones": [
+   "25 W",
+   "50 W",
+   "12,5 W",
+   "225 W"
+  ],
+  "clave": "c",
+  "sol": "Cada banda lateral lleva $(m^2 slash 4) P_c = (0,25 slash 4) times 200 = 12,5$ W, y el total es $P_c (1 + m^2 slash 2) = 225$ W. Los 25 W son la suma de las dos bandas; los 50 W salen de olvidar elevar $m$ al cuadrado, y los 225 W son la potencia total de la emisión.",
+  "fuente": "chapters/t01.typ:761",
+  "angulo": "otro índice de modulación y otra magnitud (potencia de una banda lateral)"
+ },
+ {
+  "kid": "K-T1-58-1",
+  "cid": "T1-58",
+  "enunciado": "Un operador transmite en SSB (J3E) y deja de hablar sin soltar el pulsador del micrófono. Mientras calla, el transmisor emite:",
+  "opciones": [
+   "la portadora sola, a plena potencia",
+   "la portadora a la mitad de su potencia",
+   "las dos bandas laterales sin modular",
+   "prácticamente nada, porque no hay portadora"
+  ],
+  "clave": "d",
+  "sol": "En SSB se suprimen la portadora y una de las bandas laterales: solo se emite la banda que lleva la voz. Sin voz no hay banda lateral y, como tampoco hay portadora, no sale nada. Quedarse con la portadora sería propio de la AM.",
+  "fuente": "chapters/t01.typ:1103",
+  "angulo": "consecuencia práctica de suprimir la portadora"
+ },
+ {
+  "kid": "K-T1-60-1",
+  "cid": "T1-60",
+  "enunciado": "Una ventaja de la FM que se deriva de que su amplitud sea constante es que:",
+  "opciones": [
+   "es poco sensible al ruido de amplitud y admite amplificadores no lineales de alto rendimiento",
+   "ocupa menos anchura de banda que la AM",
+   "no necesita portadora",
+   "se puede demodular con un simple detector de envolvente"
+  ],
+  "clave": "a",
+  "sol": "Como en FM la información va en la frecuencia y la amplitud no cambia, el receptor puede ignorar las variaciones de amplitud que añade el ruido, y el transmisor puede usar etapas no lineales sin distorsionar el mensaje. La FM ocupa más anchura que la AM, y el detector de envolvente es el de la AM, cuya envolvente sí lleva el mensaje.",
+  "fuente": "chapters/t01.typ:819",
+  "angulo": "consecuencia de la amplitud constante"
+ },
+ {
+  "kid": "K-T1-61-1",
+  "cid": "T1-61",
+  "enunciado": "Según la regla de Carson, una emisión de FM modulada con un tono de 2 kHz ocupa 12 kHz. Su desviación máxima es de:",
+  "opciones": [
+   "5 kHz",
+   "4 kHz",
+   "6 kHz",
+   "10 kHz"
+  ],
+  "clave": "b",
+  "sol": "De $B approx 2 (Delta f + f_m)$: $12 = 2 (Delta f + 2)$, luego $Delta f + 2 = 6$ y $Delta f = 4$ kHz. Los 6 kHz olvidan restar la moduladora; los 10 kHz la restan pero olvidan el factor 2, y los 5 kHz restan la moduladora antes de dividir entre 2.",
+  "fuente": "chapters/t01.typ:819",
+  "angulo": "cálculo inverso de la regla de Carson: hallar la desviación"
+ },
+ {
+  "kid": "K-T1-65-1",
+  "cid": "T1-65",
+  "enunciado": "De estas modulaciones digitales, ¿en cuál la amplitud de la portadora no es constante?",
+  "opciones": [
+   "FSK",
+   "2PSK",
+   "QAM",
+   "4PSK"
+  ],
+  "clave": "c",
+  "sol": "FSK salta entre frecuencias y PSK (2PSK, 4PSK) entre fases, ambas con amplitud constante. La QAM combina cambios de amplitud y de fase, así que su amplitud varía de un símbolo a otro.",
+  "fuente": "chapters/t01.typ:866",
+  "angulo": "las tres familias a la vez, preguntadas por la amplitud"
+ },
+ {
+  "kid": "K-T1-66-1",
+  "cid": "T1-66",
+  "enunciado": "Un enlace con modulación 16-QAM transmite 4800 bit/s. Su velocidad de símbolo es de:",
+  "opciones": [
+   "300 baudios",
+   "4800 baudios",
+   "19 200 baudios",
+   "1200 baudios"
+  ],
+  "clave": "d",
+  "sol": "Cada símbolo de 16-QAM lleva $log_2 16 = 4$ bits, así que la velocidad de símbolo es $4800 slash 4 = 1200$ baudios. Los 300 baudios dividen entre el número de estados (16) en lugar de entre los bits por símbolo; 4800 confunde baudios con bit/s, y 19 200 multiplica en lugar de dividir.",
+  "fuente": "chapters/t01.typ:866",
+  "angulo": "cálculo inverso: de la velocidad binaria a la de símbolo"
+ },
+ {
+  "kid": "K-T1-68-1",
+  "cid": "T1-68",
+  "enunciado": "En un enlace digital de un solo sentido, sin canal de retorno para pedir repeticiones, la forma de recuperar los bloques que llegan con errores es:",
+  "opciones": [
+   "la corrección directa de errores (FEC), con la que el receptor los corrige por sí mismo",
+   "un CRC, que indica qué bits son erróneos para invertirlos",
+   "un CRC seguido de la petición de repetición del bloque",
+   "aumentar el número de bits por símbolo de la modulación"
+  ],
+  "clave": "a",
+  "sol": "El CRC solo detecta que el bloque llegó mal, no dónde, y para recuperarlo hay que pedir su repetición, imposible sin canal de retorno. La FEC añade redundancia suficiente para que el receptor corrija sin retransmisión; por eso es útil en enlaces de un solo sentido o con mucho retardo.",
+  "fuente": "chapters/ap-c1.typ:207",
+  "angulo": "caso práctico (enlace de un solo sentido) en el que solo sirve la FEC"
+ },
+ {
+  "kid": "K-T1-70-1",
+  "cid": "T1-70",
+  "enunciado": "Decir que una señal está «20 dB por encima» de otra significa que su potencia es:",
+  "opciones": [
+   "20 veces mayor",
+   "100 veces mayor",
+   "20 W mayor",
+   "2 veces mayor"
+  ],
+  "clave": "b",
+  "sol": "El decibelio compara dos potencias en escala logarítmica: $10 log_10 (P_2 slash P_1) = 20$ dB da $P_2 slash P_1 = 10^2 = 100$. No es una diferencia en vatios ni una relación lineal: cada 10 dB multiplican la potencia por 10, y duplicarla solo son 3 dB.",
+  "fuente": "chapters/t01.typ:974",
+  "angulo": "interpretar una diferencia en dB como relación de potencias"
+ },
+ {
+  "kid": "K-T1-71-1",
+  "cid": "T1-71",
+  "enunciado": "Una línea de transmisión con 10 dB de pérdida recibe 50 W. A la antena llegan:",
+  "opciones": [
+   "40 W",
+   "0,5 W",
+   "5 W",
+   "25 W"
+  ],
+  "clave": "c",
+  "sol": "Una pérdida de 10 dB divide la potencia entre 10: $50 slash 10 = 5$ W. Los 40 W restan los decibelios de los vatios; los 0,5 W corresponderían a 20 dB de pérdida y los 25 W, a 3 dB.",
+  "fuente": "chapters/t01.typ:976",
+  "angulo": "otra referencia (−10 dB) aplicada a vatios"
+ },
+ {
+  "kid": "K-T1-71-2",
+  "cid": "T1-71",
+  "enunciado": "Subir la potencia de un transmisor de 25 W a 100 W supone una mejora de:",
+  "opciones": [
+   "3 dB",
+   "4 dB",
+   "12 dB",
+   "6 dB"
+  ],
+  "clave": "d",
+  "sol": "Pasar de 25 W a 100 W es multiplicar por 4, y ×4 = ×2 × 2, es decir, 3 + 3 = 6 dB. Los 3 dB corresponden a duplicar; los 4 dB confunden el factor 4 con decibelios, y los 12 dB serían multiplicar por 16.",
+  "fuente": "chapters/t01.typ:976",
+  "angulo": "cálculo inverso: de la relación de vatios a dB (×4)"
+ },
+ {
+  "kid": "K-T1-72-1",
+  "cid": "T1-72",
+  "enunciado": "Un transmisor de 10 W excita un amplificador lineal de 13 dB de ganancia, y la línea hasta la antena pierde 3 dB. La potencia que llega a la antena es de unos:",
+  "opciones": [
+   "100 W",
+   "200 W",
+   "130 W",
+   "50 W"
+  ],
+  "clave": "a",
+  "sol": "Ganancia neta: $13 - 3 = 10$ dB, es decir, ×10, y $10 times 10 = 100$ W. Los 200 W olvidan la pérdida de la línea (13 dB son ×20); los 130 W multiplican los vatios por los decibelios, y los 50 W aplican la pérdida de 3 dB como si dividiera entre 4.",
+  "fuente": "chapters/t01.typ:1005",
+  "angulo": "balance de una cadena con otros datos y vuelta a vatios"
+ },
+ {
+  "kid": "K-T1-76-1",
+  "cid": "T1-76",
+  "enunciado": "¿Cuánto tiempo puede funcionar un equipo de 250 W con una energía de 1 kWh?",
+  "opciones": [
+   "15 minutos",
+   "4 horas",
+   "0,004 horas",
+   "40 horas"
+  ],
+  "clave": "b",
+  "sol": "La energía es potencia por tiempo, así que $t = E slash P = 1000 \"Wh\" slash 250 \"W\" = 4$ h. Los 15 minutos (0,25 h) dividen la potencia entre la energía; las 0,004 horas olvidan que 1 kWh son 1000 Wh, y las 40 horas son un error de un factor 10.",
+  "fuente": "chapters/ap-c1.typ:357",
+  "angulo": "cálculo inverso: dadas la energía y la potencia, hallar el tiempo"
+ },
+ {
+  "kid": "K-T1-78-1",
+  "cid": "T1-78",
+  "enunciado": "Un receptor SDR digitaliza la señal de la antena, la procesa como números y la entrega por el altavoz. Los conversores que atraviesa la señal, en orden, son:",
+  "opciones": [
+   "primero un D/A y después un A/D",
+   "solo un A/D, a la entrada",
+   "primero un A/D y después un D/A",
+   "solo un D/A, a la salida"
+  ],
+  "clave": "c",
+  "sol": "El conversor A/D convierte la señal analógica en una secuencia de números para que el procesador pueda tratarla; el D/A hace lo contrario y devuelve una señal analógica, el audio, que puede mover el altavoz. Hace falta uno a cada lado del procesado.",
+  "fuente": "chapters/t01.typ:1152",
+  "angulo": "qué convierte cada uno, aplicado al orden en una cadena real"
+ },
+ {
+  "kid": "K-T1-79-1",
+  "cid": "T1-79",
+  "enunciado": "Se quiere digitalizar una señal cuya frecuencia máxima es de 12 kHz. De las siguientes frecuencias de muestreo, la menor que cumple el criterio de Nyquist es:",
+  "opciones": [
+   "6 kHz",
+   "16 kHz",
+   "48 kHz",
+   "24 kHz"
+  ],
+  "clave": "d",
+  "sol": "Nyquist exige $f_s >= 2 f_\"máx\" = 2 times 12 = 24$ kHz. Las de 6 y 16 kHz quedan por debajo y producirían aliasing; la de 48 kHz también cumple, pero no es la menor.",
+  "fuente": "chapters/t01.typ:1149",
+  "angulo": "elegir entre varias frecuencias de muestreo, con otros datos"
+ },
+ {
+  "kid": "K-T1-79-2",
+  "cid": "T1-79",
+  "enunciado": "Según el teorema de muestreo, para fijar una sinusoide hacen falta, como mínimo:",
+  "opciones": [
+   "dos muestras por período",
+   "una muestra por período",
+   "cuatro muestras por período",
+   "diez muestras por período"
+  ],
+  "clave": "a",
+  "sol": "Muestrear a $f_s >= 2 f$ equivale a tomar al menos dos muestras en cada período de la sinusoide. Con menos, los mismos puntos encajan también en otra sinusoide de frecuencia más baja y aparece el aliasing; tomar más muestras es posible, pero no es el mínimo.",
+  "fuente": "chapters/t01.typ:1150",
+  "angulo": "el criterio expresado en muestras por período"
+ },
+ {
+  "kid": "K-T1-80-1",
+  "cid": "T1-80",
+  "enunciado": "Un sistema muestrea a 10 kHz sin filtro antisolapamiento, y a su entrada llega un tono de 7 kHz. Tras el muestreo, ese tono aparece como uno de:",
+  "opciones": [
+   "7 kHz",
+   "3 kHz",
+   "17 kHz",
+   "5 kHz"
+  ],
+  "clave": "b",
+  "sol": "El tono de 7 kHz supera $f_s slash 2 = 5$ kHz y se pliega: aparece en $10 - 7 = 3$ kHz, una frecuencia que no existía y que ya no se puede separar de la señal útil. Los 5 kHz son el límite de Nyquist, no la frecuencia del alias, y los 17 kHz no caben en la banda muestreada.",
+  "fuente": "chapters/t01.typ:1193",
+  "angulo": "cálculo de la frecuencia del alias con otros datos"
+ },
+ {
+  "kid": "K-T1-81-1",
+  "cid": "T1-81",
+  "enunciado": "Un sistema de DSP muestrea a 48 kHz. Su filtro antisolapamiento debe ser:",
+  "opciones": [
+   "un paso bajo con corte en torno a 48 kHz, situado antes del A/D",
+   "un paso alto con corte en torno a 24 kHz, situado antes del A/D",
+   "un paso bajo con corte en torno a 24 kHz, situado antes del A/D",
+   "un paso bajo con corte en torno a 24 kHz, situado después del D/A"
+  ],
+  "clave": "c",
+  "sol": "El filtro antisolapamiento debe eliminar, antes de muestrear, todo lo que supere $f_s slash 2 = 24$ kHz: es un paso bajo colocado delante del A/D. El paso bajo situado tras el D/A es otro filtro, el de reconstrucción, y un corte en 48 kHz dejaría pasar componentes que se plegarían sobre la banda útil.",
+  "fuente": "cheatsheet.typ:641",
+  "angulo": "aplicación numérica: frecuencia de corte a partir de f_s"
+ },
+ {
+  "kid": "K-T8-01-1",
+  "cid": "T8-01",
+  "enunciado": "Para conocer la potencia que consume un equipo de corriente continua dispones de un voltímetro y de un amperímetro. Debes:",
+  "opciones": [
+   "medir solo la tensión, porque el voltímetro ya indica la potencia",
+   "dividir la tensión medida entre la corriente medida",
+   "medir la resistencia del equipo con el voltímetro",
+   "medir la tensión de alimentación y la corriente que toma, y multiplicarlas"
+  ],
+  "clave": "d",
+  "sol": "El voltímetro mide tensión y el amperímetro, corriente; la potencia en continua es su producto, $P = V I$. Dividir tensión entre corriente da la resistencia, no la potencia, y ninguno de los dos instrumentos mide potencia ni resistencia por sí solo.",
+  "fuente": "chapters/t08.typ:30",
+  "angulo": "qué mide cada instrumento, aplicado a obtener otra magnitud"
+ },
+ {
+  "kid": "K-T8-02-1",
+  "cid": "T8-02",
+  "enunciado": "¿Qué ocurre si por error se conecta un amperímetro directamente entre los bornes de una batería?",
+  "opciones": [
+   "circula por él una corriente muy grande que puede dañarlo, porque es casi un cortocircuito",
+   "indica la fuerza electromotriz de la batería",
+   "indica cero, porque no hay ninguna carga en el circuito",
+   "indica la capacidad de la batería en amperios-hora"
+  ],
+  "clave": "a",
+  "sol": "El amperímetro tiene una resistencia interna casi nula y debe ir en serie con una carga; puesto en paralelo con la batería es prácticamente un cortocircuito, y la corriente solo la limita la resistencia interna de la batería. La fem se mide con un voltímetro en paralelo, que sí tiene una resistencia muy alta.",
+  "fuente": "chapters/t08.typ:58",
+  "angulo": "consecuencia de una conexión incorrecta"
+ },
+ {
+  "kid": "K-T8-03-1",
+  "cid": "T8-03",
+  "enunciado": "Se intercala en un circuito un amperímetro cuya resistencia interna no es despreciable frente a la del circuito. La corriente que indica es:",
+  "opciones": [
+   "mayor que la que circulaba antes de conectarlo",
+   "menor que la que circulaba antes de conectarlo",
+   "exactamente la que circulaba antes de conectarlo",
+   "nula, porque bloquea el paso de la corriente"
+  ],
+  "clave": "b",
+  "sol": "El amperímetro va en serie, así que su resistencia interna se suma a la del circuito y la corriente baja: indica menos de lo que había. Por eso el ideal tendría resistencia nula; el voltímetro, que va en paralelo, debería tenerla infinita.",
+  "fuente": "chapters/t08.typ:56",
+  "angulo": "consecuencia de una resistencia interna no ideal"
+ },
+ {
+  "kid": "K-T8-04-1",
+  "cid": "T8-04",
+  "enunciado": "Para medir con el menor error de carga la tensión en el punto medio de un divisor formado por dos resistencias de 100 kΩ conviene usar:",
+  "opciones": [
+   "un voltímetro analógico de 1000 Ω/V en la escala de 10 V",
+   "un voltímetro de 100 kΩ de resistencia interna",
+   "un polímetro digital de 10 MΩ de resistencia de entrada",
+   "un voltímetro analógico de 20 000 Ω/V en la escala de 10 V"
+  ],
+  "clave": "c",
+  "sol": "El voltímetro queda en paralelo con una de las resistencias y le roba corriente; el error es menor cuanto mayor es su resistencia frente a la del circuito (al menos cien veces mayor). Los analógicos de 1000 y 20 000 Ω/V tienen 10 kΩ y 200 kΩ en la escala de 10 V; con uno de 100 kΩ la lectura bajaría un 33 %, mientras que con 10 MΩ el error es de solo un 0,5 %.",
+  "fuente": "chapters/t08.typ:64",
+  "angulo": "elegir el instrumento según su resistencia interna, en lugar de calcular la lectura"
+ },
+ {
+  "kid": "K-T8-06-1",
+  "cid": "T8-06",
+  "enunciado": "Un galvanómetro de 1 mA a fondo de escala y 50 Ω de resistencia interna se quiere usar para medir hasta 100 mA. Hay que añadirle:",
+  "opciones": [
+   "una resistencia de unos 0,5 Ω en serie",
+   "una resistencia de 4950 Ω en serie",
+   "una resistencia de 50 Ω en paralelo",
+   "una resistencia de unos 0,5 Ω en paralelo"
+  ],
+  "clave": "d",
+  "sol": "Hace falta un shunt en paralelo: $R_s = I_m R_m slash (I - I_m) = 0,001 times 50 slash 0,099 approx 0,5$ Ω, que desvía 99 mA y deja pasar 1 mA por el instrumento. En serie no se desvía nada, y los 4950 Ω en serie lo convertirían en un voltímetro de 5 V. Un shunt de 50 Ω solo duplicaría la escala, hasta 2 mA.",
+  "fuente": "chapters/t08.typ:109",
+  "angulo": "cálculo del shunt con otros datos, combinando dónde va y cuánto vale"
+ },
+ {
+  "kid": "K-T8-10-1",
+  "cid": "T8-10",
+  "enunciado": "Para medir la tensión de radiofrecuencia a la salida de un transmisor de 14 MHz conviene emplear:",
+  "opciones": [
+   "una sonda con diodo detector o un voltímetro de RF",
+   "la escala de alterna de un polímetro convencional",
+   "la escala de continua de un polímetro, sin sonda",
+   "un óhmetro conectado a la salida"
+  ],
+  "clave": "a",
+  "sol": "Los circuitos de alterna de un polímetro corriente están pensados para los 50 Hz de la red: a unos kHz empiezan a fallar y en RF la lectura no sirve. Para RF se usan sondas con diodo detector, vatímetros u osciloscopios. La escala de continua sin sonda no ve la RF, y un óhmetro no mide tensiones.",
+  "fuente": "chapters/t08.typ:150",
+  "angulo": "caso práctico: qué usar en lugar del polímetro"
+ },
+ {
+  "kid": "K-T8-11-1",
+  "cid": "T8-11",
+  "enunciado": "Con el óhmetro de un polímetro se miden los terminales de un dipolo simple (no plegado) desconectado de la línea. La lectura es:",
+  "opciones": [
+   "unas decenas de ohmios, su impedancia en resonancia",
+   "prácticamente infinita, porque en continua el dipolo es un circuito abierto",
+   "cero, porque los dos brazos son conductores",
+   "la parte resistiva de su impedancia a la frecuencia de trabajo"
+  ],
+  "clave": "b",
+  "sol": "El óhmetro mide con corriente continua, y entre los dos brazos de un dipolo no hay camino para ella: marca infinito. La impedancia de la antena solo existe a la frecuencia de trabajo y se mide con un puente de impedancias o un analizador de antenas.",
+  "fuente": "chapters/t08.typ:295",
+  "angulo": "consecuencia: qué marca el polímetro en una antena"
+ },
+ {
+  "kid": "K-T8-13-1",
+  "cid": "T8-13",
+  "enunciado": "¿Cuál de las siguientes unidades expresa una tensión y no una potencia?",
+  "opciones": [
+   "el dBm",
+   "el dBW",
+   "el dBμV",
+   "el milivatio"
+  ],
+  "clave": "c",
+  "sol": "El dBm (referido a 1 mW) y el dBW (referido a 1 W) son niveles de potencia, igual que el milivatio es una unidad de potencia. El dBμV es un nivel de tensión, referido a 1 μV.",
+  "fuente": "cheatsheet.typ:636",
+  "angulo": "al revés: distinguir las unidades de potencia de una de tensión"
+ },
+ {
+  "kid": "K-T8-14-1",
+  "cid": "T8-14",
+  "enunciado": "Un transmisor entrega una potencia de 47 dBm. Expresada en vatios, es de unos:",
+  "opciones": [
+   "47 W",
+   "5 W",
+   "100 W",
+   "50 W"
+  ],
+  "clave": "d",
+  "sol": "47 dBm = 50 dBm − 3 dB: 50 dBm son 100 W y restar 3 dB es dividir entre 2, luego unos 50 W. Los 47 W leen los dBm como si fueran vatios; los 5 W corresponderían a 37 dBm, y los 100 W, a 50 dBm.",
+  "fuente": "chapters/t08.typ:167",
+  "angulo": "conversión inversa, de dBm a vatios"
+ },
+ {
+  "kid": "K-T8-17-1",
+  "cid": "T8-17",
+  "enunciado": "Un transmisor de 400 W p.c.e. trabaja sobre una carga de 50 Ω. La tensión de pico en el máximo de la envolvente es de:",
+  "opciones": [
+   "200 V",
+   "141 V",
+   "283 V",
+   "100 V"
+  ],
+  "clave": "a",
+  "sol": "Con $P = V_p^2 slash (2 R)$: $V_p = sqrt(2 P R) = sqrt(2 times 400 times 50) = 200$ V. Los 141 V son la tensión eficaz ($sqrt(P R)$); los 283 V multiplican además por $sqrt(2)$, y los 100 V dividen entre 2 donde había que multiplicar.",
+  "fuente": "chapters/t08.typ:594",
+  "angulo": "cálculo inverso: de la p.c.e. a la tensión de pico"
+ },
+ {
+  "kid": "K-T8-18-1",
+  "cid": "T8-18",
+  "enunciado": "Un transmisor de SSB da 100 W p.c.e. con voz sin procesar. Su potencia media es aproximadamente de:",
+  "opciones": [
+   "100 W, igual que la p.c.e.",
+   "entre 10 y 25 W",
+   "unos 70,7 W, la p.c.e. dividida entre $sqrt(2)$",
+   "unos 50 W, la mitad de la p.c.e."
+  ],
+  "clave": "b",
+  "sol": "En SSB no hay portadora y la potencia sube y baja con la voz: la media queda muy por debajo de la p.c.e., de 10 a 25 W para 100 W p.c.e. Solo con amplitud constante (CW con el manipulador apretado o FM) coinciden media y p.c.e., y dividir entre $sqrt(2)$ es pasar de tensión de pico a eficaz, no de p.c.e. a potencia media.",
+  "fuente": "chapters/t08.typ:202",
+  "angulo": "el caso de la SSB (media mucho menor), frente al de amplitud constante de estudio"
+ },
+ {
+  "kid": "K-T8-19-1",
+  "cid": "T8-19",
+  "enunciado": "Para comprobar sin radiar que un transmisor entrega su potencia nominal de 100 W, a su salida se conecta:",
+  "opciones": [
+   "un polímetro en la escala de alterna, en paralelo con la antena",
+   "un óhmetro entre el vivo y la malla del conector de antena",
+   "un vatímetro de RF seguido de una carga artificial de 50 Ω",
+   "un frecuencímetro seguido de la antena"
+  ],
+  "clave": "c",
+  "sol": "La potencia de RF se mide con un vatímetro intercalado en la línea, y la carga artificial ocupa el lugar de la antena, disipando la potencia en calor sin radiarla. El polímetro no sirve en RF, el óhmetro no mide potencia y el frecuencímetro mide frecuencia; además, con la antena conectada se radiaría.",
+  "fuente": "chapters/t08.typ:267",
+  "angulo": "montaje práctico de la medida"
+ },
+ {
+  "kid": "K-T8-22-1",
+  "cid": "T8-22",
+  "enunciado": "Tras cambiar de banda sin reajustar el acoplador de antena, el vatímetro direccional pasa a indicar mucha potencia reflejada. Esto indica que:",
+  "opciones": [
+   "el transmisor entrega en la nueva banda más potencia de la nominal",
+   "la antena tiene más ganancia en la nueva banda",
+   "la fuente de alimentación da poca tensión",
+   "en la nueva frecuencia hay desadaptación entre el transmisor y la antena"
+  ],
+  "clave": "d",
+  "sol": "La potencia reflejada es la que la antena no acepta y vuelve hacia el transmisor: si es apreciable, hay desadaptación entre lo que el transmisor espera ver y lo que presenta la antena. La impedancia de la antena depende de la frecuencia de trabajo, y por eso al cambiar de banda hay que reajustar el acoplador. Ni la ganancia de la antena ni un exceso de potencia producen reflejada.",
+  "fuente": "chapters/t08.typ:431",
+  "angulo": "caso práctico (cambio de banda) del mismo hecho"
+ },
+ {
+  "kid": "K-T8-23-1",
+  "cid": "T8-23",
+  "enunciado": "Un vatímetro direccional indica 90 W de potencia directa y 10 W de reflejada. La ROE y la potencia que llega a la antena son, respectivamente:",
+  "opciones": [
+   "2 y 80 W",
+   "2 y 100 W",
+   "9 y 80 W",
+   "1,25 y 80 W"
+  ],
+  "clave": "a",
+  "sol": "$rho = sqrt(P_r slash P_d) = sqrt(10 slash 90) = 1 slash 3$ y $\"ROE\" = (1 + 1 slash 3) slash (1 - 1 slash 3) = 2$. La antena recibe la directa menos la reflejada, $90 - 10 = 80$ W; sumarlas (100 W) es el error típico. El 1,25 sale de olvidar la raíz cuadrada y el 9 es el cociente de potencias.",
+  "fuente": "chapters/t08.typ:436",
+  "angulo": "cálculo con otros datos"
+ },
+ {
+  "kid": "K-T8-24-1",
+  "cid": "T8-24",
+  "enunciado": "Un medidor de ROE intercalado entre el transmisor y la antena indica 1:1. Ello significa que:",
+  "opciones": [
+   "la onda reflejada es igual a la directa",
+   "no hay onda reflejada: la impedancia de la antena está adaptada a la de la línea",
+   "la antena tiene una ganancia de 0 dB",
+   "el transmisor entrega exactamente su potencia nominal"
+  ],
+  "clave": "b",
+  "sol": "El medidor de ROE compara la onda incidente con la reflejada: una ROE de 1 indica que no hay reflejada, es decir, adaptación perfecta. Si la reflejada igualase a la directa, la ROE sería infinita. El medidor no informa de la ganancia de la antena ni de si el transmisor da su potencia nominal.",
+  "fuente": "chapters/t08.typ:445",
+  "angulo": "interpretación de una lectura concreta (ROE 1)"
+ },
+ {
+  "kid": "K-T8-25-1",
+  "cid": "T8-25",
+  "enunciado": "El medidor de ROE se considera el instrumento más imprescindible de una estación de aficionado porque:",
+  "opciones": [
+   "mide con precisión la frecuencia emitida",
+   "muestra los armónicos y las emisiones espurias del transmisor",
+   "avisa de la desadaptación entre el equipo y la antena, origen de la mayoría de los problemas y de averías del paso final",
+   "mide la intensidad de campo radiado por la antena"
+  ],
+  "clave": "c",
+  "sol": "Su función es avisar de que algo va mal entre el equipo y la antena, que es de donde vienen la mayoría de los problemas, y una desadaptación puede averiar el paso final. La frecuencia se mide con el frecuencímetro, los armónicos con el analizador de espectros y el campo radiado con el medidor de campo.",
+  "fuente": "chapters/t08.typ:710",
+  "angulo": "el porqué del hecho, con distractores de otros instrumentos"
+ },
+ {
+  "kid": "K-T8-26-1",
+  "cid": "T8-26",
+  "enunciado": "La exactitud de la medida de un frecuencímetro digital depende sobre todo de:",
+  "opciones": [
+   "el número de dígitos de su pantalla",
+   "el nivel de la señal que se le aplica",
+   "la resistencia de su entrada",
+   "la estabilidad del oscilador de cristal de su base de tiempos"
+  ],
+  "clave": "d",
+  "sol": "El frecuencímetro cuenta ciclos durante un tiempo que fija su base de tiempos de cristal: si el cristal se desvía, toda la medida se desvía con él, por muchos dígitos que muestre la pantalla. El tiempo de puerta fija la resolución, pero la exactitud la pone el cristal de referencia.",
+  "fuente": "chapters/t08.typ:336",
+  "angulo": "de qué depende la precisión (consecuencia del principio de medida)"
+ },
+ {
+  "kid": "K-T8-29-1",
+  "cid": "T8-29",
+  "enunciado": "En la pantalla de un osciloscopio, el eje horizontal y el vertical representan, respectivamente:",
+  "opciones": [
+   "el tiempo y la tensión",
+   "la frecuencia y la potencia",
+   "la tensión y el tiempo",
+   "la frecuencia y la tensión"
+  ],
+  "clave": "a",
+  "sol": "El osciloscopio trabaja en el dominio del tiempo: dibuja la tensión (eje vertical, en voltios por división) en función del tiempo (eje horizontal, la base de tiempos). Frecuencia en horizontal y potencia en vertical es la pantalla del analizador de espectros.",
+  "fuente": "chapters/t08.typ:301",
+  "angulo": "qué representa cada eje (dominio del tiempo)"
+ },
+ {
+  "kid": "K-T8-32-1",
+  "cid": "T8-32",
+  "enunciado": "Un analizador de espectros conectado, a través de un atenuador, a un transmisor de 7 MHz muestra rayas en 7, 14 y 21 MHz. Las de 14 y 21 MHz son:",
+  "opciones": [
+   "las bandas laterales de la modulación de voz",
+   "armónicos de la emisión, que el filtro de salida debe atenuar",
+   "la potencia reflejada por la antena",
+   "el ruido térmico del atenuador"
+  ],
+  "clave": "b",
+  "sol": "El analizador muestra cada componente de la señal en su frecuencia. 14 y 21 MHz son múltiplos enteros de 7 MHz: armónicos que genera la etapa final y que deben quedar muy atenuados. Las bandas laterales de la voz estarían a pocos kilohercios de la portadora, y la reflejada se mide con un vatímetro direccional.",
+  "fuente": "chapters/t08.typ:376",
+  "angulo": "interpretar una pantalla concreta del analizador"
+ },
+ {
+  "kid": "K-T8-34-1",
+  "cid": "T8-34",
+  "enunciado": "En espacio libre y lejos de la antena, si un medidor de campo se aleja al doble de distancia, la intensidad de campo que indica:",
+  "opciones": [
+   "se reduce a la cuarta parte",
+   "no varía",
+   "se reduce a la mitad",
+   "se duplica"
+  ],
+  "clave": "c",
+  "sol": "Lejos de la antena el campo vale aproximadamente $E approx sqrt(30 P G) slash d$: es inversamente proporcional a la distancia, así que al doble de distancia el medidor indica la mitad de V/m. La cuarta parte supondría una dependencia con el cuadrado de la distancia, que no es la del campo.",
+  "fuente": "chapters/t08.typ:453",
+  "angulo": "consecuencia de la fórmula del campo (dependencia con la distancia)"
+ },
+ {
+  "kid": "K-T8-35-1",
+  "cid": "T8-35",
+  "enunciado": "La indicación del S-meter de un receptor se obtiene normalmente a partir de:",
+  "opciones": [
+   "la potencia reflejada en la línea de antena",
+   "la frecuencia del oscilador local",
+   "la tensión de la fuente de alimentación del equipo",
+   "la tensión del control automático de ganancia (CAG)"
+  ],
+  "clave": "d",
+  "sol": "El S-meter indica la intensidad de la señal recibida: cuanto más fuerte llega, más reduce el receptor su ganancia, y esa tensión del CAG se traduce en puntos S. Es un instrumento de recepción: no mide la reflejada ni nada de la emisión.",
+  "fuente": "chapters/t08.typ:503",
+  "angulo": "de dónde saca su indicación (por qué es de recepción)"
+ },
+ {
+  "kid": "K-T8-36-1",
+  "cid": "T8-36",
+  "enunciado": "Un corresponsal te recibe con S5. Para que te reciba con S6, tendrías que multiplicar tu potencia por:",
+  "opciones": [
+   "4",
+   "2",
+   "6",
+   "1,2"
+  ],
+  "clave": "a",
+  "sol": "Cada punto S son 6 dB, y 6 dB equivalen a multiplicar la potencia por 4 (o la tensión por 2). Duplicar la potencia solo da 3 dB, medio punto S; el 6 son los decibelios, no el factor, y 1,2 sale de dividir 6 entre 5 como si la escala fuera lineal.",
+  "fuente": "chapters/t08.typ:503",
+  "angulo": "consecuencia en potencia de un punto S"
+ },
+ {
+  "kid": "K-T8-37-1",
+  "cid": "T8-37",
+  "enunciado": "En HF, una señal de 25 μV sobre los 50 Ω de la entrada de antena, en un receptor que sigue el convenio de la IARU, marca aproximadamente:",
+  "opciones": [
+   "S9",
+   "S8",
+   "S7",
+   "S6"
+  ],
+  "clave": "b",
+  "sol": "El convenio fija S9 = 50 μV sobre 50 Ω en HF, y cada punto S son 6 dB, es decir, la mitad de tensión. 25 μV es la mitad de 50 μV, luego un punto menos: S8. S7 corresponde a unos 12,5 μV y S6, a unos 6,3 μV.",
+  "fuente": "chapters/t08.typ:503",
+  "angulo": "cálculo inverso: de la tensión al punto S, partiendo de S9 = 50 μV"
+ },
+ {
+  "kid": "K-T8-38-1",
+  "cid": "T8-38",
+  "enunciado": "Has construido una trampa LC para una antena y quieres saber a qué frecuencia resuena sin alimentarla ni conectarle nada. Usarás:",
+  "opciones": [
+   "un frecuencímetro conectado a los terminales de la trampa",
+   "un óhmetro conectado a los terminales de la trampa",
+   "un dipmeter, acercando su bobina sonda a la bobina de la trampa",
+   "un medidor de ROE intercalado en la línea de la antena"
+  ],
+  "clave": "c",
+  "sol": "El dipmeter es un oscilador con una bobina exterior: acercada al circuito y barriendo la frecuencia, en la resonancia el circuito le absorbe energía y la lectura cae bruscamente. No necesita alimentar el circuito ni conectarse a él. El frecuencímetro solo mide una señal que ya existe, y la trampa, sin alimentar, no genera ninguna.",
+  "fuente": "chapters/t08.typ:497",
+  "angulo": "caso práctico de su uso"
+ },
+ {
+  "kid": "K-T8-40-1",
+  "cid": "T8-40",
+  "enunciado": "Una carga artificial para ajustar un transmisor de HF de 100 W debe ser:",
+  "opciones": [
+   "una resistencia bobinada de 50 Ω y 100 W",
+   "una resistencia no inductiva de 50 Ω y 1 W",
+   "un condensador de 50 pF capaz de soportar 100 W",
+   "una resistencia no inductiva de 50 Ω capaz de disipar al menos 100 W"
+  ],
+  "clave": "d",
+  "sol": "La carga artificial sustituye a la antena: debe presentar 50 Ω, como una antena adaptada, y convertir en calor toda la potencia del transmisor. Una resistencia bobinada tiene inductancia, que en HF añade reactancia y le impide presentar 50 Ω, y una de 1 W se quemaría. Un condensador no es una resistencia y no convierte la potencia en calor.",
+  "fuente": "chapters/t08.typ:591",
+  "angulo": "características que debe tener, en lugar de para qué sirve"
+ }
+]
