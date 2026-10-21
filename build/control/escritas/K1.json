@@ -580,7 +580,7 @@
    "225 W"
   ],
   "clave": "c",
-  "sol": "Cada banda lateral lleva $(m^2 slash 4) P_c = (0,25 slash 4) times 200 = 12,5$ W, y el total es $P_c (1 + m^2 slash 2) = 225$ W. Los 25 W son la suma de las dos bandas; los 50 W salen de olvidar elevar $m$ al cuadrado, y los 225 W son la potencia total de la emisión.",
+  "sol": "Cada banda lateral lleva $(m^2 slash 4) P_c = (0,25 slash 4) times 200 = 12,5$ W, y el total es $P_c (1 + m^2 slash 2) = 225$ W. Los 25 W son la suma de las dos bandas; los 50 W toman la fracción de amplitud de cada banda, $m slash 2$, como si fuera de potencia, olvidando que la potencia va con el cuadrado de la amplitud, y los 225 W son la potencia total de la emisión.",
   "fuente": "chapters/t01.typ:761",
   "angulo": "otro índice de modulación y otra magnitud (potencia de una banda lateral)"
  },

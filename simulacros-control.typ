@@ -1040,7 +1040,7 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
 #pq(4, 1, 3, "a", "estúdialo en: simulacros de estudio 4·1·4 · libro: F-T1.14", "Potencia de AM: P_t = P_c (1 + m²/2), reparto entre portadora y bandas",
   [Una portadora de AM de 200 W se modula con un índice $m = 0","5$. La potencia de cada banda lateral es de:],
   ([12,5 W], [225 W], [50 W], [25 W],),
-  sol: [Cada banda lateral lleva $(m^2 slash 4) P_c = (0","25 slash 4) times 200 = 12","5$ W, y el total es $P_c (1 + m^2 slash 2) = 225$ W. Los 25 W son la suma de las dos bandas; los 50 W salen de olvidar elevar $m$ al cuadrado, y los 225 W son la potencia total de la emisión.], tema: "T1")
+  sol: [Cada banda lateral lleva $(m^2 slash 4) P_c = (0","25 slash 4) times 200 = 12","5$ W, y el total es $P_c (1 + m^2 slash 2) = 225$ W. Los 25 W son la suma de las dos bandas; los 50 W toman la fracción de amplitud de cada banda, $m slash 2$, como si fuera de potencia, olvidando que la potencia va con el cuadrado de la amplitud, y los 225 W son la potencia total de la emisión.], tema: "T1")
 #pq(4, 1, 4, "d", "estúdialo en: simulacros de estudio 1·1·4, 6·1·5 · libro: T1.30, F-T1.37", "Referencias de decibelios: ×2 = +3 dB, ×4 = +6 dB, ×10 = +10 dB, ÷2 = −3 dB",
   [Una línea de transmisión con 10 dB de pérdida recibe 50 W. A la antena llegan:],
   ([25 W], [0,5 W], [40 W], [5 W],),
