@@ -1,0 +1,1733 @@
+{
+ "lote": "L5",
+ "conceptos": [
+  {
+   "cid": "T6-01",
+   "tema": "T6",
+   "concepto": "Longitud del dipolo de media onda (≈ λ/2: 20 m para la banda de 40 m) y tamaño de la antena en función de la longitud de onda",
+   "peso": 3,
+   "preguntas": [
+    "T6.1"
+   ],
+   "cubre": [
+    "T6.1",
+    "T6.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-02",
+   "tema": "T6",
+   "concepto": "Resonancia: impedancia de alimentación resistiva pura (antena sintonizada a la frecuencia de la señal; equivale a una resistencia pura)",
+   "peso": 3,
+   "preguntas": [
+    "T6.2"
+   ],
+   "cubre": [
+    "T6.2",
+    "T6.21",
+    "C-T6.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-03",
+   "tema": "T6",
+   "concepto": "Para bajar la frecuencia de resonancia hay que alargar la antena (29,9 → 28,5 MHz)",
+   "peso": 3,
+   "preguntas": [
+    "T6.3"
+   ],
+   "cubre": [
+    "T6.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-04",
+   "tema": "T6",
+   "concepto": "Antena más corta que la resonante: reactancia capacitiva (se compensa con bobina); más larga: inductiva",
+   "peso": 2,
+   "preguntas": [
+    "N-T6-01"
+   ],
+   "cubre": [],
+   "nota": "Hueco: la hoja de repaso lo da como regla y el banco solo lo trata dentro de las soluciones."
+  },
+  {
+   "cid": "T6-05",
+   "tema": "T6",
+   "concepto": "Elementos reactivos en serie: la bobina alarga eléctricamente la antena (baja f), el condensador la acorta (sube f)",
+   "peso": 3,
+   "preguntas": [
+    "C-T6.11",
+    "T6.39"
+   ],
+   "cubre": [
+    "C-T6.9",
+    "C-T6.11",
+    "T6.39",
+    "T6.45"
+   ],
+   "nota": "Dos preguntas: el condensador (acorta, banco público) y la bobina de carga (alarga). El examen pregunta los dos sentidos y la trampa es confundirlos."
+  },
+  {
+   "cid": "T6-06",
+   "tema": "T6",
+   "concepto": "Elementos de sintonía en la base de la antena: bobina y condensador variables (no resistencias)",
+   "peso": 1,
+   "preguntas": [
+    "C-T6.6"
+   ],
+   "cubre": [
+    "C-T6.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-07",
+   "tema": "T6",
+   "concepto": "Ajuste a resonancia: se busca la corriente de antena máxima",
+   "peso": 1,
+   "preguntas": [
+    "C-T6.10"
+   ],
+   "cubre": [
+    "C-T6.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-08",
+   "tema": "T6",
+   "concepto": "Impedancia del dipolo de media onda alimentado en el centro: ≈ 73 Ω",
+   "peso": 3,
+   "preguntas": [
+    "T6.36"
+   ],
+   "cubre": [
+    "T6.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-09",
+   "tema": "T6",
+   "concepto": "Media onda alimentada en un extremo: impedancia muy alta (miles de ohmios)",
+   "peso": 2,
+   "preguntas": [
+    "F-T6.16"
+   ],
+   "cubre": [
+    "F-T6.15",
+    "F-T6.16"
+   ],
+   "nota": "F-T6.15 y F-T6.16 son casi la misma pregunta; F-T6.16 tiene mejores distractores (36 Ω, 300 Ω)."
+  },
+  {
+   "cid": "T6-10",
+   "tema": "T6",
+   "concepto": "Dipolo en V invertida: ≈ 50 Ω, casi omnidireccional y un solo mástil",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.1",
+    "T6.28"
+   ],
+   "cubre": [
+    "C-T6.1",
+    "C-T6.20",
+    "T6.28"
+   ],
+   "nota": "C-T6.1 (banco público) pregunta impedancia y diagrama; T6.28, la ventaja mecánica (un solo soporte), que es otro ángulo. C-T6.20 es un duplicado de C-T6.1."
+  },
+  {
+   "cid": "T6-11",
+   "tema": "T6",
+   "concepto": "Rendimiento de una antena: η = Rr / (Rr + Rp)",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.3"
+   ],
+   "cubre": [
+    "F-T6.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-12",
+   "tema": "T6",
+   "concepto": "Dipolo plegado: impedancia unas cuatro veces mayor (≈ 300 Ω)",
+   "peso": 3,
+   "preguntas": [
+    "T6.6"
+   ],
+   "cubre": [
+    "T6.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-13",
+   "tema": "T6",
+   "concepto": "Dipolo plegado: mayor ancho de banda que el simple y la misma ganancia",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.24"
+   ],
+   "cubre": [
+    "F-T6.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-14",
+   "tema": "T6",
+   "concepto": "Dipolo con trampas: circuitos LC paralelo en los brazos que permiten trabajar en varias bandas",
+   "peso": 3,
+   "preguntas": [
+    "T6.7",
+    "C-T6.7"
+   ],
+   "cubre": [
+    "T6.7",
+    "C-T6.7"
+   ],
+   "nota": "T6.7 da la idea (multibanda) con clave segura. C-T6.7 añade paralelo frente a serie y es del banco público, pero las recopilaciones de exámenes dan como clave la «serie» (a); la solución lo explica y conviene conocer las dos cosas."
+  },
+  {
+   "cid": "T6-15",
+   "tema": "T6",
+   "concepto": "La vertical de cuarto de onda necesita plano de tierra o radiales",
+   "peso": 2,
+   "preguntas": [
+    "T6.35"
+   ],
+   "cubre": [
+    "T6.35"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-16",
+   "tema": "T6",
+   "concepto": "Impedancia de la vertical de cuarto de onda (≈ 36 Ω) y radiales inclinados (sube hacia 50 Ω)",
+   "peso": 2,
+   "preguntas": [
+    "N-T6-02",
+    "T6.27"
+   ],
+   "cubre": [
+    "T6.27"
+   ],
+   "nota": "La pregunta nueva fija el valor de 36 Ω, que el banco no pregunta; T6.27 pregunta el efecto de inclinar los radiales."
+  },
+  {
+   "cid": "T6-17",
+   "tema": "T6",
+   "concepto": "Diagrama de la vertical: máximo en el plano horizontal y nulo hacia el cénit",
+   "peso": 2,
+   "preguntas": [
+    "T6.14"
+   ],
+   "cubre": [
+    "T6.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-18",
+   "tema": "T6",
+   "concepto": "La Yagi es una antena directiva (un lóbulo principal dominante)",
+   "peso": 3,
+   "preguntas": [
+    "T6.4"
+   ],
+   "cubre": [
+    "T6.4",
+    "T6.22",
+    "C-T6.19"
+   ],
+   "nota": "T6.22 y C-T6.19 piden reconocer el diagrama en una figura; se elige la versión sin figura."
+  },
+  {
+   "cid": "T6-19",
+   "tema": "T6",
+   "concepto": "Yagi: los elementos parásitos no están alimentados y dan la directividad",
+   "peso": 3,
+   "preguntas": [
+    "T6.37"
+   ],
+   "cubre": [
+    "T6.5",
+    "T6.37"
+   ],
+   "nota": "T6.37 tiene distractores mejores (conectados a la línea, sustituyen al radiante) que T6.5."
+  },
+  {
+   "cid": "T6-20",
+   "tema": "T6",
+   "concepto": "Yagi: el reflector es más largo y va detrás; los directores, más cortos y delante",
+   "peso": 2,
+   "preguntas": [
+    "N-T6-03"
+   ],
+   "cubre": [],
+   "nota": "Hueco: está en la tabla de la hoja de repaso y no hay pregunta en el banco."
+  },
+  {
+   "cid": "T6-21",
+   "tema": "T6",
+   "concepto": "Antena helicoidal: polarización circular, usada en enlaces por satélite",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.4"
+   ],
+   "cubre": [
+    "C-T6.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-22",
+   "tema": "T6",
+   "concepto": "Antena helicoidal: la ganancia depende del número de espiras",
+   "peso": 1,
+   "preguntas": [
+    "T6.41"
+   ],
+   "cubre": [
+    "T6.41"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-23",
+   "tema": "T6",
+   "concepto": "Antenas de apertura: bocina y reflector parabólico (no las de hilo)",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.18"
+   ],
+   "cubre": [
+    "C-T6.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-24",
+   "tema": "T6",
+   "concepto": "Ganancia de una parabólica: crece con (D/λ)² (duplicar D o f: +6 dB)",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.25"
+   ],
+   "cubre": [
+    "F-T6.25",
+    "F-T6.26"
+   ],
+   "nota": "F-T6.26 es la misma fórmula con números."
+  },
+  {
+   "cid": "T6-25",
+   "tema": "T6",
+   "concepto": "Parabólica: el alimentador va en el foco, frente al plato",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.27"
+   ],
+   "cubre": [
+    "F-T6.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-26",
+   "tema": "T6",
+   "concepto": "El diagrama de radiación representa la distribución de la energía radiada en el espacio",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.13"
+   ],
+   "cubre": [
+    "C-T6.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-27",
+   "tema": "T6",
+   "concepto": "Antena omnidireccional: radia igual en todo el plano horizontal (el dipolo, en el plano perpendicular al hilo)",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.2"
+   ],
+   "cubre": [
+    "C-T6.2",
+    "T6.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-28",
+   "tema": "T6",
+   "concepto": "Ancho de haz: entre los puntos de media potencia (−3 dB)",
+   "peso": 2,
+   "preguntas": [
+    "T6.9"
+   ],
+   "cubre": [
+    "T6.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-29",
+   "tema": "T6",
+   "concepto": "Relación adelante-atrás: dB entre el lóbulo principal y el trasero",
+   "peso": 2,
+   "preguntas": [
+    "T6.16"
+   ],
+   "cubre": [
+    "T6.16",
+    "T6.46"
+   ],
+   "nota": "T6.46 es la misma pregunta sobre una figura."
+  },
+  {
+   "cid": "T6-30",
+   "tema": "T6",
+   "concepto": "Polarización: orientación del campo eléctrico radiado",
+   "peso": 3,
+   "preguntas": [
+    "T6.8"
+   ],
+   "cubre": [
+    "T6.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-31",
+   "tema": "T6",
+   "concepto": "Polarización cruzada entre emisora y receptora: gran pérdida de señal en visión directa",
+   "peso": 1,
+   "preguntas": [
+    "N-T6-04"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el capítulo trata la coincidencia de polarización en los dos extremos y el banco no la pregunta."
+  },
+  {
+   "cid": "T6-32",
+   "tema": "T6",
+   "concepto": "La ganancia se expresa en dB respecto de una antena de referencia (dBi o dBd)",
+   "peso": 2,
+   "preguntas": [
+    "T6.34"
+   ],
+   "cubre": [
+    "T6.34"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-33",
+   "tema": "T6",
+   "concepto": "Conversión dBi = dBd + 2,15 (la p.i.r.e. es 2,15 dB mayor que la p.r.e.)",
+   "peso": 2,
+   "preguntas": [
+    "F-T6.1"
+   ],
+   "cubre": [
+    "F-T6.1",
+    "F-T6.2",
+    "F-T6.8"
+   ],
+   "nota": "Se elige el sentido dBi → dBd (hay que restar), que es donde se equivoca la gente; F-T6.2 y F-T6.8 son la misma regla."
+  },
+  {
+   "cid": "T6-34",
+   "tema": "T6",
+   "concepto": "Potencia efectiva radiada: p.r.e. = P · G, descontando las pérdidas del cable (en dB)",
+   "peso": 3,
+   "preguntas": [
+    "F-T6.6"
+   ],
+   "cubre": [
+    "F-T6.6",
+    "F-T6.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-35",
+   "tema": "T6",
+   "concepto": "Para aumentar el alcance, lo primero es aumentar la directividad de la antena",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.8"
+   ],
+   "cubre": [
+    "C-T6.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-36",
+   "tema": "T6",
+   "concepto": "Área de captura: Ae = λ²G / 4π (proporcional a la ganancia, mayor a menor frecuencia)",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.4"
+   ],
+   "cubre": [
+    "F-T6.4",
+    "F-T6.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-37",
+   "tema": "T6",
+   "concepto": "Antena pasiva: no incorpora amplificador",
+   "peso": 1,
+   "preguntas": [
+    "T6.30"
+   ],
+   "cubre": [
+    "T6.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-38",
+   "tema": "T6",
+   "concepto": "Reciprocidad: el mismo diagrama en transmisión y en recepción",
+   "peso": 2,
+   "preguntas": [
+    "T6.38"
+   ],
+   "cubre": [
+    "T6.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-39",
+   "tema": "T6",
+   "concepto": "El cable entre el emisor y la antena debe ser apantallado (coaxial)",
+   "peso": 1,
+   "preguntas": [
+    "C-T6.12"
+   ],
+   "cubre": [
+    "C-T6.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-40",
+   "tema": "T6",
+   "concepto": "Línea paralela frente a coaxial: simétrica, 300–600 Ω, menos pérdidas, lejos de metales",
+   "peso": 1,
+   "preguntas": [
+    "N-T6-05"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el alcance cita la línea paralela y el banco no la pregunta."
+  },
+  {
+   "cid": "T6-41",
+   "tema": "T6",
+   "concepto": "La impedancia característica depende de la geometría y del dieléctrico, no de la longitud",
+   "peso": 2,
+   "preguntas": [
+    "N-T6-06"
+   ],
+   "cubre": [],
+   "nota": "Hueco: «impedancia característica» está en el alcance y no hay pregunta sobre su definición."
+  },
+  {
+   "cid": "T6-42",
+   "tema": "T6",
+   "concepto": "Factor de velocidad: la onda va más despacio en la línea; FV = 1/√εr < 1",
+   "peso": 2,
+   "preguntas": [
+    "T6.42"
+   ],
+   "cubre": [
+    "T6.31",
+    "T6.42"
+   ],
+   "nota": "Quien sabe la fórmula responde también T6.31 (más lenta)."
+  },
+  {
+   "cid": "T6-43",
+   "tema": "T6",
+   "concepto": "Longitud física = longitud eléctrica × FV (la física es menor); cálculo de un tramo",
+   "peso": 3,
+   "preguntas": [
+    "T6.33",
+    "F-T6.9"
+   ],
+   "cubre": [
+    "T6.33",
+    "C-T6.17",
+    "F-T6.9"
+   ],
+   "nota": "T6.33 es el hecho, con clave segura; F-T6.9 es el cálculo, que también se pregunta. C-T6.17 es del banco público, pero las recopilaciones dan la clave contraria (d); la solución lo avisa."
+  },
+  {
+   "cid": "T6-44",
+   "tema": "T6",
+   "concepto": "Guía de ondas: no propaga por debajo de su frecuencia de corte",
+   "peso": 2,
+   "preguntas": [
+    "T6.18"
+   ],
+   "cubre": [
+    "T6.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-45",
+   "tema": "T6",
+   "concepto": "La ROE indica el grado de adaptación de impedancias",
+   "peso": 3,
+   "preguntas": [
+    "T6.10"
+   ],
+   "cubre": [
+    "T6.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-46",
+   "tema": "T6",
+   "concepto": "Definición de la ROE: Vmáx / Vmín (o Imáx / Imín) de la onda estacionaria",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.15"
+   ],
+   "cubre": [
+    "C-T6.15",
+    "T6.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-47",
+   "tema": "T6",
+   "concepto": "Adaptación perfecta: ROE = 1, coeficiente de reflexión 0, potencia reflejada nula",
+   "peso": 3,
+   "preguntas": [
+    "T6.11",
+    "T6.32"
+   ],
+   "cubre": [
+    "T6.11",
+    "T6.13",
+    "T6.32",
+    "T6.44"
+   ],
+   "nota": "Dos preguntas porque la trampa es confundir los números: la ROE vale 1 (no 0) y el coeficiente de reflexión vale 0 (no 1)."
+  },
+  {
+   "cid": "T6-48",
+   "tema": "T6",
+   "concepto": "Máxima transferencia: transmisor, línea y antena de la misma impedancia; si difieren, hace falta adaptador",
+   "peso": 3,
+   "preguntas": [
+    "T6.43"
+   ],
+   "cubre": [
+    "T6.43",
+    "T6.19",
+    "C-T6.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-49",
+   "tema": "T6",
+   "concepto": "Margen de la ROE: siempre ≥ 1; funcionamiento adecuado entre 1 y 2,5",
+   "peso": 2,
+   "preguntas": [
+    "C-T6.3"
+   ],
+   "cubre": [
+    "C-T6.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-50",
+   "tema": "T6",
+   "concepto": "La ROE no depende de la potencia aplicada",
+   "peso": 1,
+   "preguntas": [
+    "C-T6.16"
+   ],
+   "cubre": [
+    "C-T6.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-51",
+   "tema": "T6",
+   "concepto": "Coeficiente de reflexión y ROE a partir de las impedancias (150 Ω en 50 Ω → ROE 3)",
+   "peso": 3,
+   "preguntas": [
+    "F-T6.10"
+   ],
+   "cubre": [
+    "F-T6.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-52",
+   "tema": "T6",
+   "concepto": "ROE a partir de la potencia directa y la reflejada: ρ = √(Pr/Pd)",
+   "peso": 2,
+   "preguntas": [
+    "F-T6.11"
+   ],
+   "cubre": [
+    "F-T6.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-53",
+   "tema": "T6",
+   "concepto": "Las pérdidas del coaxial (dB) crecen con la frecuencia y con la longitud",
+   "peso": 2,
+   "preguntas": [
+    "F-T6.13"
+   ],
+   "cubre": [
+    "F-T6.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-54",
+   "tema": "T6",
+   "concepto": "Un cable de 3 dB de pérdidas entrega la mitad de la potencia",
+   "peso": 2,
+   "preguntas": [
+    "F-T6.12"
+   ],
+   "cubre": [
+    "F-T6.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-55",
+   "tema": "T6",
+   "concepto": "Una ROE alta aumenta las pérdidas totales de la línea",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.14"
+   ],
+   "cubre": [
+    "F-T6.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-56",
+   "tema": "T6",
+   "concepto": "Balun: une el coaxial (asimétrico) con el dipolo (simétrico); sin él la malla radia",
+   "peso": 3,
+   "preguntas": [
+    "T6.12",
+    "F-T6.17"
+   ],
+   "cubre": [
+    "T6.12",
+    "F-T6.17"
+   ],
+   "nota": "T6.12 pregunta qué dispositivo es; F-T6.17, qué pasa si falta (corrientes por la malla). Son dos ángulos distintos."
+  },
+  {
+   "cid": "T6-57",
+   "tema": "T6",
+   "concepto": "Balun 4:1 para alimentar un dipolo plegado de 300 Ω con coaxial de 75 Ω (espiras 2:1)",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.23"
+   ],
+   "cubre": [
+    "F-T6.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-58",
+   "tema": "T6",
+   "concepto": "Transformador de cuarto de onda: Z = √(Zlínea · Zcarga); Zent = Z0²/ZL",
+   "peso": 2,
+   "preguntas": [
+    "F-T6.18"
+   ],
+   "cubre": [
+    "F-T6.18",
+    "F-T6.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-59",
+   "tema": "T6",
+   "concepto": "El cuarto de onda invierte la impedancia: en cortocircuito se ve como resonante paralelo; abierto, como serie",
+   "peso": 2,
+   "preguntas": [
+    "F-T6.20"
+   ],
+   "cubre": [
+    "F-T6.20",
+    "F-T6.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-60",
+   "tema": "T6",
+   "concepto": "Tramo de línea en cortocircuito de menos de λ/4: reactancia inductiva",
+   "peso": 1,
+   "preguntas": [
+    "F-T6.22"
+   ],
+   "cubre": [
+    "F-T6.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-61",
+   "tema": "T6",
+   "concepto": "Acoplador de antena: adapta la impedancia del final a la línea y la antena (no mejora la antena)",
+   "peso": 3,
+   "preguntas": [
+    "T6.15"
+   ],
+   "cubre": [
+    "T6.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-62",
+   "tema": "T6",
+   "concepto": "Red en pi (C–L–C) del acoplador de antena",
+   "peso": 1,
+   "preguntas": [
+    "T6.23"
+   ],
+   "cubre": [
+    "T6.23"
+   ],
+   "nota": "Depende de un esquema, pero el examen también pone esquemas."
+  },
+  {
+   "cid": "T6-63",
+   "tema": "T6",
+   "concepto": "Orden de conexión: transceptor → (lineal) → medidor de ROE → acoplador → antena",
+   "peso": 3,
+   "preguntas": [
+    "T6.17",
+    "C-T6.21"
+   ],
+   "cubre": [
+    "T6.17",
+    "C-T6.21",
+    "C-T6.22"
+   ],
+   "nota": "T6.17 es el orden básico. C-T6.21 añade dónde va el amplificador lineal, que el banco público pregunta."
+  },
+  {
+   "cid": "T6-64",
+   "tema": "T6",
+   "concepto": "Conmutador de antena: conecta la antena al transmisor o al receptor",
+   "peso": 1,
+   "preguntas": [
+    "T6.24"
+   ],
+   "cubre": [
+    "T6.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-65",
+   "tema": "T6",
+   "concepto": "Relé T-R: al transmitir desconecta y protege la entrada del receptor",
+   "peso": 2,
+   "preguntas": [
+    "T6.25"
+   ],
+   "cubre": [
+    "T6.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T6-66",
+   "tema": "T6",
+   "concepto": "Selector de antenas: elegir qué antena se usa desde un mismo equipo",
+   "peso": 1,
+   "preguntas": [
+    "T6.26"
+   ],
+   "cubre": [
+    "T6.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-01",
+   "tema": "T7",
+   "concepto": "Nomenclatura de las bandas: sigla y nombre por longitud de onda (HF decamétricas, MF hectométricas, VHF métricas, UHF decimétricas, SHF centimétricas)",
+   "peso": 3,
+   "preguntas": [
+    "C-T7.6"
+   ],
+   "cubre": [
+    "C-T7.6",
+    "T7.15",
+    "T7.17",
+    "T7.19",
+    "T7.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-02",
+   "tema": "T7",
+   "concepto": "Nomenclatura de las bandas: margen de frecuencias de cada banda (cada una abarca una década)",
+   "peso": 3,
+   "preguntas": [
+    "C-T7.3"
+   ],
+   "cubre": [
+    "C-T7.3",
+    "C-T7.5",
+    "C-T7.8",
+    "T7.16",
+    "T7.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-03",
+   "tema": "T7",
+   "concepto": "Asignar una frecuencia concreta a su banda con λ = 300/f",
+   "peso": 3,
+   "preguntas": [
+    "C-T7.9",
+    "T7.20"
+   ],
+   "cubre": [
+    "C-T7.7",
+    "C-T7.9",
+    "T7.20"
+   ],
+   "nota": "T7.20 añade la trampa de la frontera: 3,5 MHz está muy cerca de 3 MHz, pero sigue siendo HF (decamétricas)."
+  },
+  {
+   "cid": "T7-04",
+   "tema": "T7",
+   "concepto": "La onda de superficie predomina en MF y por debajo (sus pérdidas crecen con la frecuencia)",
+   "peso": 2,
+   "preguntas": [
+    "T7.3"
+   ],
+   "cubre": [
+    "T7.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-05",
+   "tema": "T7",
+   "concepto": "La onda de superficie sigue la curvatura terrestre",
+   "peso": 2,
+   "preguntas": [
+    "T7.4"
+   ],
+   "cubre": [
+    "T7.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-06",
+   "tema": "T7",
+   "concepto": "HF: propagación por reflexión ionosférica, la del DX (España–Nueva Zelanda)",
+   "peso": 3,
+   "preguntas": [
+    "T7.10",
+    "C-T7.1"
+   ],
+   "cubre": [
+    "T7.2",
+    "T7.10",
+    "C-T7.1"
+   ],
+   "nota": "T7.10 tiene clave segura. C-T7.1 es la versión del banco público y mete la frecuencia crítica; la clave del examen es «por debajo de la frecuencia crítica», y la solución explica por qué."
+  },
+  {
+   "cid": "T7-07",
+   "tema": "T7",
+   "concepto": "VHF y UHF: onda directa, distancias cortas",
+   "peso": 3,
+   "preguntas": [
+    "T7.5"
+   ],
+   "cubre": [
+    "T7.5",
+    "T7.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-08",
+   "tema": "T7",
+   "concepto": "Los satélites de aficionado usan VHF y UHF (hay que atravesar la ionosfera)",
+   "peso": 2,
+   "preguntas": [
+    "T7.24"
+   ],
+   "cubre": [
+    "T7.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-09",
+   "tema": "T7",
+   "concepto": "A mayor frecuencia, menor alcance (144 MHz llega más fuerte que 430 MHz)",
+   "peso": 2,
+   "preguntas": [
+    "C-T7.4"
+   ],
+   "cubre": [
+    "C-T7.4",
+    "T7.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-10",
+   "tema": "T7",
+   "concepto": "Factores que influyen en un enlace: polarización, potencia, frecuencia y ubicación de las antenas",
+   "peso": 1,
+   "preguntas": [
+    "T7.13"
+   ],
+   "cubre": [
+    "T7.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-11",
+   "tema": "T7",
+   "concepto": "Horizonte radioeléctrico: d ≈ 4,12 (√h1 + √h2) km",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.14"
+   ],
+   "cubre": [
+    "F-T7.14",
+    "F-T7.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-12",
+   "tema": "T7",
+   "concepto": "El horizonte radioeléctrico es algo mayor que el óptico (la troposfera curva el rayo)",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.16"
+   ],
+   "cubre": [
+    "F-T7.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-13",
+   "tema": "T7",
+   "concepto": "Atenuación: toda onda se atenúa al propagarse y al atravesar objetos",
+   "peso": 2,
+   "preguntas": [
+    "C-T7.11"
+   ],
+   "cubre": [
+    "C-T7.11",
+    "T7.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-14",
+   "tema": "T7",
+   "concepto": "Pérdida en espacio libre y relación señal/ruido: 20 log d y 20 log f (×10 la distancia: −20 dB)",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.1"
+   ],
+   "cubre": [
+    "F-T7.1",
+    "F-T7.12"
+   ],
+   "nota": "F-T7.12 es la misma fórmula aplicada a la frecuencia (144 → 432 MHz: +9,5 dB)."
+  },
+  {
+   "cid": "T7-15",
+   "tema": "T7",
+   "concepto": "Difracción: la onda bordea un obstáculo",
+   "peso": 2,
+   "preguntas": [
+    "T7.21"
+   ],
+   "cubre": [
+    "T7.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-16",
+   "tema": "T7",
+   "concepto": "Capas de la ionosfera: D, E, F1 y F2",
+   "peso": 3,
+   "preguntas": [
+    "T7.1"
+   ],
+   "cubre": [
+    "T7.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-17",
+   "tema": "T7",
+   "concepto": "Orden de las capas de la atmósfera: troposfera, estratosfera e ionosfera",
+   "peso": 2,
+   "preguntas": [
+    "T7.22"
+   ],
+   "cubre": [
+    "T7.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-18",
+   "tema": "T7",
+   "concepto": "De noche desaparece la capa D y F1 y F2 se funden en una sola capa F",
+   "peso": 2,
+   "preguntas": [
+    "N-T7-01"
+   ],
+   "cubre": [],
+   "nota": "Hueco: está en la hoja de repaso; en el banco solo aparece dentro de la solución de T7.1."
+  },
+  {
+   "cid": "T7-19",
+   "tema": "T7",
+   "concepto": "La capa D absorbe de día las bandas bajas (3,5 MHz: de día menos alcance que de noche)",
+   "peso": 3,
+   "preguntas": [
+    "T7.8"
+   ],
+   "cubre": [
+    "T7.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-20",
+   "tema": "T7",
+   "concepto": "La ionosfera depende de la actividad solar y de ella dependen las condiciones en HF",
+   "peso": 2,
+   "preguntas": [
+    "T7.23"
+   ],
+   "cubre": [
+    "T7.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-21",
+   "tema": "T7",
+   "concepto": "Ciclo solar: más manchas → más ionización, MUF más alta y bandas altas abiertas",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.10"
+   ],
+   "cubre": [
+    "F-T7.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-22",
+   "tema": "T7",
+   "concepto": "Fulguración solar: ionización brusca de la capa D y apagón de HF (efecto Dellinger)",
+   "peso": 1,
+   "preguntas": [
+    "N-T7-02"
+   ],
+   "cubre": [],
+   "nota": "Hueco: «influencia del sol» en el alcance; el capítulo trata las fulguraciones y el banco no."
+  },
+  {
+   "cid": "T7-23",
+   "tema": "T7",
+   "concepto": "Frecuencia crítica: la máxima que se refleja en incidencia vertical",
+   "peso": 3,
+   "preguntas": [
+    "T7.6"
+   ],
+   "cubre": [
+    "T7.6",
+    "C-T7.13"
+   ],
+   "nota": "C-T7.13 es la misma idea sobre una figura."
+  },
+  {
+   "cid": "T7-24",
+   "tema": "T7",
+   "concepto": "MUF ≈ fc / cos θ: mayor que la frecuencia crítica en incidencia oblicua",
+   "peso": 2,
+   "preguntas": [
+    "N-T7-03"
+   ],
+   "cubre": [],
+   "nota": "Hueco: la MUF está en el alcance y en la hoja de repaso (con este mismo ejemplo); el banco no tiene pregunta propia."
+  },
+  {
+   "cid": "T7-25",
+   "tema": "T7",
+   "concepto": "Frecuencia óptima de trabajo ≈ 85 % de la MUF",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.13"
+   ],
+   "cubre": [
+    "F-T7.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-26",
+   "tema": "T7",
+   "concepto": "Onda espacial (de espacio): la que rebasa el horizonte, sube a la ionosfera y vuelve",
+   "peso": 2,
+   "preguntas": [
+    "C-T7.10"
+   ],
+   "cubre": [
+    "C-T7.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-27",
+   "tema": "T7",
+   "concepto": "Zona de silencio: entre el final de la onda de superficie y la primera onda reflejada",
+   "peso": 2,
+   "preguntas": [
+    "N-T7-04"
+   ],
+   "cubre": [],
+   "nota": "Hueco: la distancia de salto y la zona de silencio están en el alcance; el banco solo las usa en C-T7.12."
+  },
+  {
+   "cid": "T7-28",
+   "tema": "T7",
+   "concepto": "Ángulo de radiación bajo → distancia de salto más larga",
+   "peso": 2,
+   "preguntas": [
+    "N-T7-05"
+   ],
+   "cubre": [],
+   "nota": "Hueco: está en el capítulo y en la hoja de repaso y no hay pregunta."
+  },
+  {
+   "cid": "T7-29",
+   "tema": "T7",
+   "concepto": "Los cambios de propagación alteran la distancia de salto: aparecen en tu frecuencia estaciones que antes no oías",
+   "peso": 1,
+   "preguntas": [
+    "C-T7.12"
+   ],
+   "cubre": [
+    "C-T7.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-30",
+   "tema": "T7",
+   "concepto": "Desvanecimiento (fading): variación momentánea de la intensidad recibida",
+   "peso": 2,
+   "preguntas": [
+    "T7.7"
+   ],
+   "cubre": [
+    "T7.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-31",
+   "tema": "T7",
+   "concepto": "El conducto troposférico se forma con una inversión térmica (aire cálido sobre aire frío)",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.18"
+   ],
+   "cubre": [
+    "F-T7.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-32",
+   "tema": "T7",
+   "concepto": "El conducto troposférico se da en VHF y UHF, con alcances de cientos de kilómetros",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.17"
+   ],
+   "cubre": [
+    "F-T7.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-33",
+   "tema": "T7",
+   "concepto": "Los conductos son más probables con tiempo anticiclónico estable",
+   "peso": 1,
+   "preguntas": [
+    "F-T7.19"
+   ],
+   "cubre": [
+    "F-T7.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-34",
+   "tema": "T7",
+   "concepto": "Dispersión troposférica (troposcatter): alcance más allá del horizonte visual con grandes pérdidas",
+   "peso": 1,
+   "preguntas": [
+    "T7.11"
+   ],
+   "cubre": [
+    "T7.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-35",
+   "tema": "T7",
+   "concepto": "Esporádica-E: nubes de ionización intensa en la capa E que reflejan VHF",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.2"
+   ],
+   "cubre": [
+    "F-T7.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-36",
+   "tema": "T7",
+   "concepto": "Esporádica-E: más frecuente en verano",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.4"
+   ],
+   "cubre": [
+    "F-T7.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-37",
+   "tema": "T7",
+   "concepto": "Esporádica-E: un salto cubre de 1000 a 2000 km",
+   "peso": 1,
+   "preguntas": [
+    "F-T7.3"
+   ],
+   "cubre": [
+    "F-T7.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-38",
+   "tema": "T7",
+   "concepto": "Reflexión auroral: en las cortinas ionizadas de las auroras",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.5"
+   ],
+   "cubre": [
+    "F-T7.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-39",
+   "tema": "T7",
+   "concepto": "Señales aurorales: ásperas y distorsionadas; la telegrafía es lo más eficaz",
+   "peso": 1,
+   "preguntas": [
+    "F-T7.6"
+   ],
+   "cubre": [
+    "F-T7.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-40",
+   "tema": "T7",
+   "concepto": "Meteor-scatter: reflexión en las estelas ionizadas de los meteoros",
+   "peso": 2,
+   "preguntas": [
+    "F-T7.7"
+   ],
+   "cubre": [
+    "F-T7.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-41",
+   "tema": "T7",
+   "concepto": "Meteor-scatter: la señal llega en ráfagas breves",
+   "peso": 1,
+   "preguntas": [
+    "F-T7.8"
+   ],
+   "cubre": [
+    "F-T7.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-42",
+   "tema": "T7",
+   "concepto": "Rebote lunar (EME): VHF y superiores, sobre todo 144 MHz (ondas métricas)",
+   "peso": 2,
+   "preguntas": [
+    "C-T7.2"
+   ],
+   "cubre": [
+    "C-T7.2",
+    "T7.9"
+   ],
+   "nota": "C-T7.2 (banco público) pide precisar «métricas»; quien la sabe responde también T7.9."
+  },
+  {
+   "cid": "T7-43",
+   "tema": "T7",
+   "concepto": "Ruido atmosférico (tormentas): domina en las bandas bajas de HF",
+   "peso": 2,
+   "preguntas": [
+    "N-T7-06"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el ruido (atmosférico, galáctico, térmico) está en el alcance y no tiene ninguna pregunta en el banco."
+  },
+  {
+   "cid": "T7-44",
+   "tema": "T7",
+   "concepto": "Ruido térmico: agitación de los electrones; crece con la temperatura y el ancho de banda (kTB)",
+   "peso": 1,
+   "preguntas": [
+    "N-T7-07"
+   ],
+   "cubre": [],
+   "nota": "Hueco: igual que el anterior."
+  },
+  {
+   "cid": "T7-45",
+   "tema": "T7",
+   "concepto": "Flujo solar de 10,7 cm: índice de actividad solar para estimar la ionización y la MUF",
+   "peso": 1,
+   "preguntas": [
+    "F-T7.9"
+   ],
+   "cubre": [
+    "F-T7.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-46",
+   "tema": "T7",
+   "concepto": "Predicción de propagación (VOACAP): MUF y bandas abiertas a partir de los índices solares",
+   "peso": 1,
+   "preguntas": [
+    "F-T7.11"
+   ],
+   "cubre": [
+    "F-T7.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T7-47",
+   "tema": "T7",
+   "concepto": "En un espectro la frecuencia crece hacia la derecha: la menor está a la izquierda",
+   "peso": 1,
+   "preguntas": [
+    "T7.27"
+   ],
+   "cubre": [
+    "T7.27"
+   ],
+   "nota": "Depende de una figura sencilla; la hoja de repaso lo recoge."
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-T6-01",
+   "cid": "T6-04",
+   "tema": "T6",
+   "enunciado": "Una antena algo más corta de lo que pide su frecuencia de trabajo presenta en su punto de alimentación, además de la parte resistiva, una reactancia:",
+   "opciones": [
+    "inductiva, que se compensa con una bobina en serie",
+    "capacitiva, que se compensa con un condensador en serie",
+    "capacitiva, que se compensa con una bobina en serie",
+    "nula, porque la reactancia solo aparece en las antenas más largas"
+   ],
+   "clave": "c",
+   "sol": "Cerca de su resonancia la antena se comporta como un circuito RLC en serie: si es demasiado corta manda la reactancia del condensador y es capacitiva; si es demasiado larga, inductiva. La reactancia capacitiva se anula con una bobina en serie (bobina de carga), que alarga eléctricamente la antena. Un condensador en serie la acortaría todavía más.",
+   "fuente": "chapters/t06.typ:124"
+  },
+  {
+   "nid": "N-T6-02",
+   "cid": "T6-16",
+   "tema": "T6",
+   "enunciado": "Una antena vertical de cuarto de onda con un plano de tierra de radiales horizontales presenta en su base una impedancia de aproximadamente:",
+   "opciones": [
+    "73 Ω",
+    "36 Ω",
+    "300 Ω",
+    "varios miles de ohmios"
+   ],
+   "clave": "b",
+   "sol": "La vertical de cuarto de onda es medio dipolo: el plano de tierra aporta la otra mitad por imagen, pero solo radia hacia el hemisferio superior, así que su resistencia de radiación es la mitad de la del dipolo, unos 73/2 ≈ 36 Ω. Los 73 Ω son los del dipolo completo, los 300 Ω los del dipolo plegado y los miles de ohmios, los de una media onda alimentada en un extremo. Si se inclinan los radiales hacia abajo, la impedancia sube hacia 50 Ω.",
+   "fuente": "chapters/t06.typ:166"
+  },
+  {
+   "nid": "N-T6-03",
+   "cid": "T6-20",
+   "tema": "T6",
+   "enunciado": "En una antena Yagi, comparado con el elemento alimentado (radiante), el reflector es:",
+   "opciones": [
+    "algo más corto y está situado delante",
+    "de la misma longitud y está conectado a la línea de transmisión",
+    "algo más largo y está situado delante",
+    "algo más largo y está situado detrás"
+   ],
+   "clave": "d",
+   "sol": "El reflector es algo más largo que el resonante (inductivo) y se coloca detrás del radiante; los directores son algo más cortos (capacitivos) y van delante, hacia donde sale el haz. Ninguno está conectado a la línea: son elementos parásitos. La opción a describe un director.",
+   "fuente": "chapters/t06.typ:283"
+  },
+  {
+   "nid": "N-T6-04",
+   "cid": "T6-31",
+   "tema": "T6",
+   "enunciado": "En un enlace de VHF con visión directa, una estación emite con una antena vertical y la otra recibe con un dipolo horizontal. Lo más probable es que:",
+   "opciones": [
+    "la señal llegue igual, porque la polarización solo importa en HF",
+    "la señal llegue muy atenuada, porque las polarizaciones están cruzadas",
+    "la señal llegue más fuerte, porque se suman las dos polarizaciones",
+    "la recepción sea imposible a cualquier distancia"
+   ],
+   "clave": "b",
+   "sol": "La polarización es la orientación del campo eléctrico y sigue la del hilo que radia: vertical para la antena vertical y horizontal para el dipolo horizontal. En visión directa, con las antenas cruzadas se pueden perder 20 dB o más; por eso conviene que la polarización coincida en los dos extremos. Es en HF donde importa menos, porque la ionosfera gira la polarización por el camino. Y una pérdida grande no hace imposible la recepción.",
+   "fuente": "chapters/t06.typ:423"
+  },
+  {
+   "nid": "N-T6-05",
+   "cid": "T6-40",
+   "tema": "T6",
+   "enunciado": "Comparada con el cable coaxial, la línea paralela (bifilar o de escalerilla):",
+   "opciones": [
+    "es asimétrica y tiene una impedancia característica de 50 Ω",
+    "es simétrica, tiene una impedancia de unos 300 a 600 Ω y pierde menos, pero hay que alejarla de los objetos metálicos",
+    "encierra el campo dentro de una malla y puede enterrarse sin problemas",
+    "pierde más que el coaxial y solo sirve para recibir"
+   ],
+   "clave": "b",
+   "sol": "La línea paralela tiene dos conductores iguales (es simétrica), una impedancia de 300 a 600 Ω y muchas menos pérdidas que el coaxial. Como su campo rodea los hilos, hay que mantenerla lejos de canalones y otros objetos metálicos. Las opciones a y c describen el coaxial: asimétrico, de 50 Ω y con el campo encerrado en la malla.",
+   "fuente": "chapters/t06.typ:578"
+  },
+  {
+   "nid": "N-T6-06",
+   "cid": "T6-41",
+   "tema": "T6",
+   "enunciado": "La impedancia característica $Z_0$ de una línea de transmisión depende de:",
+   "opciones": [
+    "su longitud",
+    "la potencia que transporta",
+    "la impedancia de la antena conectada en su extremo",
+    "la geometría de los conductores (diámetros y separación) y del dieléctrico"
+   ],
+   "clave": "d",
+   "sol": "$Z_0 = sqrt(L' slash C')$ depende de la inductancia y la capacidad por metro, y estas las fijan el diámetro y la separación de los conductores y el aislante. No depende de la longitud: un coaxial de 50 Ω tiene 50 Ω con 1 m y con 100 m. La impedancia de la antena decide si hay onda reflejada (la ROE), pero no cambia la $Z_0$ de la línea.",
+   "fuente": "chapters/t06.typ:530"
+  },
+  {
+   "nid": "N-T7-01",
+   "cid": "T7-18",
+   "tema": "T7",
+   "enunciado": "Al caer la noche, en la ionosfera:",
+   "opciones": [
+    "desaparece la capa F y solo queda la capa D",
+    "la capa F se divide en F1 y F2, que de día forman una sola",
+    "desaparece la capa D y las capas F1 y F2 se funden en una sola capa F",
+    "la capa D se refuerza y absorbe más las bandas bajas"
+   ],
+   "clave": "c",
+   "sol": "Sin sol, los electrones se recombinan con los iones. En la capa D, donde el aire es relativamente denso, eso ocurre en minutos y la capa desaparece; en la F, muy tenue, tarda horas, así que sobrevive toda la noche con F1 y F2 fundidas en una sola capa. Por eso de noche las bandas bajas (80 y 160 m) dejan de sufrir la absorción de la D y llegan lejos.",
+   "fuente": "chapters/t07.typ:85"
+  },
+  {
+   "nid": "N-T7-02",
+   "cid": "T7-22",
+   "tema": "T7",
+   "enunciado": "Una fulguración solar intensa provoca, en el hemisferio iluminado:",
+   "opciones": [
+    "la apertura inmediata de la banda de 10 m a todo el mundo",
+    "la desaparición de la capa D y mejores condiciones en las bandas bajas",
+    "una inversión térmica que favorece los conductos en VHF",
+    "un aumento brusco de la ionización de la capa D, que absorbe la HF y la deja muda durante minutos u horas"
+   ],
+   "clave": "d",
+   "sol": "La fulguración lanza un golpe de rayos X que en minutos multiplica la ionización de la capa D. Como la D absorbe en vez de reflejar, la HF enmudece durante minutos u horas: es el desvanecimiento súbito o efecto Dellinger. No abre las bandas altas ni hace desaparecer la D, y la inversión térmica es un fenómeno meteorológico de la troposfera.",
+   "fuente": "chapters/t07.typ:151"
+  },
+  {
+   "nid": "N-T7-03",
+   "cid": "T7-24",
+   "tema": "T7",
+   "enunciado": "La frecuencia crítica de la capa F2 es de 7 MHz. Para una onda que llega a la capa formando 60° con la vertical, la máxima frecuencia utilizable (MUF) es aproximadamente de:",
+   "opciones": [
+    "3,5 MHz",
+    "8,1 MHz",
+    "14 MHz",
+    "6 MHz"
+   ],
+   "clave": "c",
+   "sol": "$\"MUF\" approx f_c slash cos theta$, con $theta$ el ángulo respecto de la vertical: $7 slash cos 60° = 7 slash 0,5 = 14$ MHz. En incidencia oblicua la MUF es siempre mayor que la frecuencia crítica. Los 3,5 MHz salen de multiplicar por el coseno en vez de dividir; los 8,1 MHz, de usar el seno; y unos 6 MHz serían el 85 % de la frecuencia crítica.",
+   "fuente": "cheatsheet.typ:888"
+  },
+  {
+   "nid": "N-T7-04",
+   "cid": "T7-27",
+   "tema": "T7",
+   "enunciado": "En HF, la zona de silencio es la región:",
+   "opciones": [
+    "donde la capa D absorbe por completo la señal durante el día",
+    "situada entre el punto donde se agota la onda de superficie y el punto donde cae la primera onda reflejada en la ionosfera",
+    "situada más allá de la distancia máxima de un salto",
+    "donde la onda directa y la reflejada llegan en oposición y se anulan"
+   ],
+   "clave": "b",
+   "sol": "En HF la onda de superficie se agota en pocas decenas de kilómetros, y la onda reflejada no cae a tierra hasta la distancia de salto: entre las dos no llega señal. Por eso una estación a 100 km puede no oírte mientras otra a 2000 km te oye bien. Si la frecuencia baja por debajo de la frecuencia crítica, hasta el rayo vertical vuelve y la zona de silencio desaparece.",
+   "fuente": "chapters/t07.typ:201"
+  },
+  {
+   "nid": "N-T7-05",
+   "cid": "T7-28",
+   "tema": "T7",
+   "enunciado": "En la propagación ionosférica en HF, cuanto más bajo (más rasante) es el ángulo de radiación de la antena sobre el horizonte:",
+   "opciones": [
+    "más corta es la distancia de salto",
+    "más larga es la distancia de salto",
+    "más baja es la MUF del trayecto",
+    "la distancia de salto no cambia, porque solo depende de la frecuencia"
+   ],
+   "clave": "b",
+   "sol": "Un rayo rasante llega a la ionosfera muy inclinado y, tras reflejarse, cae a tierra mucho más lejos: la distancia de salto crece al bajar el ángulo de radiación. Además, cuanto más oblicua es la incidencia, más alta es la MUF ($f_c slash cos theta$), así que la c es falsa. Por eso el DX en HF premia las antenas de ángulo de radiación bajo.",
+   "fuente": "chapters/t07.typ:163"
+  },
+  {
+   "nid": "N-T7-06",
+   "cid": "T7-43",
+   "tema": "T7",
+   "enunciado": "El ruido atmosférico, producido por las descargas de las tormentas de todo el planeta:",
+   "opciones": [
+    "solo afecta a UHF y a las frecuencias superiores",
+    "es el que produce la agitación térmica de los electrones en la entrada del receptor",
+    "domina en las bandas bajas de HF, sobre todo en verano",
+    "procede sobre todo del centro de la Vía Láctea"
+   ],
+   "clave": "c",
+   "sol": "Los rayos de las tormentas producen impulsos de RF que la ionosfera propaga igual que las señales, de modo que se oyen a miles de kilómetros: es el ruido que domina en las bandas bajas de HF y en verano. La agitación de los electrones produce el ruido térmico, y el que llega del centro de la galaxia es el ruido galáctico, que se nota entre unos 20 y 200 MHz.",
+   "fuente": "chapters/t07.typ:441"
+  },
+  {
+   "nid": "N-T7-07",
+   "cid": "T7-44",
+   "tema": "T7",
+   "enunciado": "El ruido térmico generado en la entrada de un receptor:",
+   "opciones": [
+    "solo aparece cuando hay tormentas en las cercanías",
+    "no depende del ancho de banda, sino solo de la frecuencia",
+    "desaparece al conectar la antena",
+    "aumenta con la temperatura y con el ancho de banda del receptor"
+   ],
+   "clave": "d",
+   "sol": "El ruido térmico nace de la agitación de los electrones en cualquier resistencia, incluida la entrada del receptor. Su potencia es $k T B$, proporcional a la temperatura y al ancho de banda (unos −174 dBm por cada hercio a temperatura ambiente); por eso un filtro más estrecho deja pasar menos ruido. Las tormentas causan el ruido atmosférico, que es otra cosa.",
+   "fuente": "chapters/t07.typ:441"
+  }
+ ],
+ "descartadas": [],
+ "problemas": [
+  {
+   "id": "C-T6.20",
+   "detalle": "Duplicado exacto de C-T6.1 (mismo enunciado, opciones y clave). Se cubren las dos en el mismo concepto; en el simulacro basta una."
+  },
+  {
+   "id": "C-T6.7",
+   "detalle": "No es un error del banco: la clave b (LC paralelo) es la técnicamente correcta, pero las recopilaciones de exámenes reales dan la a (LC serie). La propia solución lo advierte. Si va al simulacro, conviene mantener ese aviso."
+  },
+  {
+   "id": "C-T6.17",
+   "detalle": "No es un error del banco: la clave c (física = eléctrica × FV) es la correcta, pero las recopilaciones dan la d («la física es mayor»). La solución lo advierte. Por eso se elige T6.33 como pregunta principal."
+  },
+  {
+   "id": "C-T7.1",
+   "detalle": "Clave c («HF por debajo de la frecuencia crítica») discutible: un enlace de varios saltos usa frecuencias por debajo de la MUF y a menudo por encima de fc. La solución reconoce que es la respuesta que da el examen. Se elige T7.10 como pregunta principal, con clave segura."
+  },
+  {
+   "id": "F-T6.15",
+   "detalle": "Casi duplicada de F-T6.16 (media onda alimentada en un extremo: impedancia muy alta). Sobra una."
+  }
+ ]
+}

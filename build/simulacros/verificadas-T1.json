@@ -1,0 +1,478 @@
+[
+ {
+  "nid": "N-T1-01",
+  "veredicto": "corregida",
+  "motivo": "La sol llamaba «rigidez dieléctrica» a la tensión de perforación; la rigidez es el campo máximo (kV/mm), no una tensión. Se precisa la frase.",
+  "enunciado": "La conductividad de un material es:",
+  "opciones": [
+   "la inversa de su resistividad",
+   "el producto de su resistividad por la longitud del conductor",
+   "la resistencia de un conductor de 1 m de ese material",
+   "la tensión máxima que soporta sin perforarse"
+  ],
+  "clave": "a",
+  "sol": "La conductividad, $sigma = 1 / rho$, es la misma propiedad que la resistividad vista al revés: mide cuánto deja pasar la corriente el material, en lugar de cuánto se opone. La tensión que un aislante soporta sin perforarse depende de su rigidez dieléctrica (el campo máximo que aguanta, en kV/mm), que es otra magnitud."
+ },
+ {
+  "nid": "N-T1-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Si se duplica la distancia entre dos cargas eléctricas, la fuerza entre ellas:",
+  "opciones": [
+   "se reduce a la mitad",
+   "se reduce a la cuarta parte",
+   "se duplica",
+   "no varía"
+  ],
+  "clave": "b",
+  "sol": "Por la ley de Coulomb, $F = k (q_1 q_2) / d^2$: la distancia está al cuadrado en el denominador. Con doble distancia, $d^2$ se cuadruplica y la fuerza queda en la cuarta parte. «A la mitad» es el error de olvidar el cuadrado."
+ },
+ {
+  "nid": "N-T1-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una batería de 12 V y 7 Ah almacena una energía aproximada de:",
+  "opciones": [
+   "7 Wh",
+   "19 Wh",
+   "84 Wh",
+   "1,7 Wh"
+  ],
+  "clave": "c",
+  "sol": "Los amperios-hora miden carga, no energía. La energía es la carga por la tensión: $E = 12 \"V\" dot 7 \"Ah\" = 84 \"Wh\"$, unos 302 kJ. Los 7 Wh confunden Ah con Wh; los 19 Wh suman 12 + 7 y los 1,7 Wh dividen 12 entre 7."
+ },
+ {
+  "nid": "N-T1-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Entre dos placas paralelas separadas 2 cm hay una diferencia de potencial de 100 V. El campo eléctrico entre ellas vale:",
+  "opciones": [
+   "50 V/m",
+   "2 V/m",
+   "200 V/m",
+   "5000 V/m"
+  ],
+  "clave": "d",
+  "sol": "Entre dos placas, $E = V / d$ con la distancia en metros: $E = 100 / 0,02 = 5000$ V/m. Los 50 V/m salen de dividir entre 2 sin pasar los centímetros a metros; los 2 V/m y los 200 V/m, de multiplicar en lugar de dividir."
+ },
+ {
+  "nid": "N-T1-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En una onda electromagnética, el campo eléctrico y el campo magnético son:",
+  "opciones": [
+   "paralelos entre sí y perpendiculares a la dirección de propagación",
+   "perpendiculares entre sí y paralelos a la dirección de propagación",
+   "perpendiculares entre sí y perpendiculares a la dirección de propagación",
+   "paralelos entre sí y a la dirección de propagación"
+  ],
+  "clave": "c",
+  "sol": "Los dos campos oscilan en fase, son perpendiculares entre sí y los dos son perpendiculares a la dirección en que avanza la onda. Ninguno apunta en la dirección de propagación. La polarización la da la dirección del campo eléctrico."
+ },
+ {
+  "nid": "N-T1-06",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Dos emisoras de FM transmiten en la misma frecuencia y llegan al receptor con intensidades muy distintas. Lo normal es que:",
+  "opciones": [
+   "se oigan las dos mezcladas, igual que en AM",
+   "el receptor se quede con la más fuerte y suprima casi por completo la más débil",
+   "se anulen entre sí y no se oiga ninguna",
+   "se oiga solo la más débil, porque la fuerte satura el receptor"
+  ],
+  "clave": "b",
+  "sol": "Es el efecto captura de la FM: de dos señales en el mismo canal, el receptor engancha casi por completo la más fuerte y suprime la débil. En AM, en cambio, las dos se oirían mezcladas, que es justo el distractor tentador."
+ },
+ {
+  "nid": "N-T1-07",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Si un conversor A/D pasa de 8 a 10 bits, su relación señal/ruido de cuantificación mejora aproximadamente:",
+  "opciones": [
+   "2 dB",
+   "6 dB",
+   "12 dB",
+   "20 dB"
+  ],
+  "clave": "c",
+  "sol": "Cada bit añadido duplica el número de niveles ($2^n$), reduce el escalón a la mitad y mejora unos 6 dB la relación señal/ruido de cuantificación. Dos bits más son unos $2 dot 6 = 12$ dB; 6 dB sería un solo bit."
+ },
+ {
+  "nid": "N-T2-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un condensador descargado se conecta a una fuente de continua a través de una resistencia. Al cabo de un tiempo igual a la constante de tiempo $tau = R C$, la tensión del condensador ha alcanzado aproximadamente:",
+  "opciones": [
+   "el 37 % de la tensión de la fuente",
+   "el 63 % de la tensión de la fuente",
+   "el 100 % de la tensión de la fuente",
+   "el 50 % de la tensión de la fuente"
+  ],
+  "clave": "b",
+  "sol": "La carga sigue la exponencial $v(t) = V (1 - e^(-t slash tau))$: en un $tau$ llega al 63 % y se da por completa hacia $5 tau$. El 37 % es lo que todavía le falta, y el 100 % no se alcanza en un solo $tau$."
+ },
+ {
+  "nid": "N-T2-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un condensador cerámico lleva impreso el código «104». Su capacidad es:",
+  "opciones": [
+   "104 pF",
+   "10 nF",
+   "100 nF",
+   "104 μF"
+  ],
+  "clave": "c",
+  "sol": "El código de tres cifras da el valor en picofaradios: dos cifras y el número de ceros. «104» es $10 dot 10^4$ pF = 100 000 pF = 100 nF. Leerlo tal cual (104 pF) olvida que la tercera cifra es el número de ceros."
+ },
+ {
+  "nid": "N-T2-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Si se duplica el número de espiras de una bobina sin cambiar su diámetro ni su longitud, su autoinducción:",
+  "opciones": [
+   "se duplica",
+   "se cuadruplica",
+   "se reduce a la mitad",
+   "no varía"
+  ],
+  "clave": "b",
+  "sol": "La autoinducción crece con el cuadrado del número de espiras ($L = mu N^2 A slash ell$): con el doble de espiras, $L$ se multiplica por $2^2 = 4$. Pensar que se duplica es la trampa: olvida que $N$ va al cuadrado."
+ },
+ {
+  "nid": "N-T2-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En la alimentación del transistor final de un transmisor se coloca en serie con el colector un choque de RF (una bobina). Su función es:",
+  "opciones": [
+   "dejar pasar la continua de la fuente y frenar la RF para que no se escape hacia la fuente",
+   "bloquear la continua y dejar pasar la RF hacia la fuente",
+   "rectificar la señal de RF",
+   "elevar la tensión de alimentación del colector"
+  ],
+  "clave": "a",
+  "sol": "Para la continua la bobina es un cable ($X_L = 0$), así que el colector recibe la tensión de la fuente; para la RF presenta una reactancia de miles de ohmios y la señal no se escapa por la alimentación. Bloquear la continua y dejar pasar la RF es lo que hace un condensador, no una bobina."
+ },
+ {
+  "nid": "N-T2-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "El núcleo de hierro de un transformador de red de 50 Hz se construye con chapas delgadas aisladas entre sí para:",
+  "opciones": [
+   "reducir las pérdidas por corrientes de Foucault",
+   "aumentar la relación de transformación",
+   "permitir que funcione con corriente continua",
+   "aislar eléctricamente el primario del secundario"
+  ],
+  "clave": "a",
+  "sol": "Las chapas aisladas cortan el camino de las corrientes de Foucault que el flujo variable induce en el hierro y que lo calentarían. La relación de transformación depende solo de las espiras, y ningún núcleo hace que un transformador funcione con continua."
+ },
+ {
+  "nid": "N-T2-06",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un diodo de silicio polarizado en directa empieza a conducir de forma apreciable cuando la tensión entre sus terminales alcanza aproximadamente:",
+  "opciones": [
+   "0,06 V",
+   "0,6–0,7 V",
+   "1,8–3 V",
+   "6 V"
+  ],
+  "clave": "b",
+  "sol": "En el silicio hace falta vencer la barrera de la unión PN, unos 0,6–0,7 V; por debajo apenas pasa corriente y por encima crece de forma exponencial. Entre 1,8 V y 3 V es la caída de un LED, no la de un diodo de silicio."
+ },
+ {
+  "nid": "N-T2-07",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Al aumentar la tensión inversa aplicada a un diodo varicap, su capacidad:",
+  "opciones": [
+   "aumenta",
+   "disminuye",
+   "no varía",
+   "aumenta solo si la tensión es alterna"
+  ],
+  "clave": "b",
+  "sol": "Con más tensión inversa la zona de deplexión, que hace de dieléctrico, se ensancha: es como separar las placas, y por $C = epsilon S slash d$ la capacidad baja (aproximadamente como $1 slash sqrt(V)$). Así, al subir la tensión de sintonía sube la frecuencia de un VCO."
+ },
+ {
+  "nid": "N-T2-08",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un transistor bipolar, la corriente de emisor es:",
+  "opciones": [
+   "la suma de las corrientes de base y de colector",
+   "la diferencia entre la corriente de colector y la de base",
+   "igual a la corriente de base",
+   "la corriente de colector dividida por $beta$"
+  ],
+  "clave": "a",
+  "sol": "Todo lo que entra por la base y por el colector sale por el emisor (o al revés en el PNP): $I_E = I_B + I_C$. La corriente de colector dividida por $beta$ es la de base, no la de emisor."
+ },
+ {
+  "nid": "N-T2-09",
+  "veredicto": "corregida",
+  "motivo": "Imprecisión en la sol: el seguidor de emisor no da «la misma» amplitud, sino casi la misma (ganancia algo menor que 1).",
+  "enunciado": "En un amplificador con transistor bipolar en configuración de emisor común, la señal de salida respecto de la de entrada:",
+  "opciones": [
+   "está en fase",
+   "está invertida (desfasada 180°)",
+   "está desfasada 90°",
+   "tiene siempre la misma amplitud"
+  ],
+  "clave": "b",
+  "sol": "Cuando la señal aumenta la corriente de base, crece la corriente de colector, cae más tensión en la resistencia de colector y la tensión del colector baja: la salida va invertida, 180°. Las configuraciones de base común y colector común no invierten la fase; una amplitud casi igual a la de entrada (ganancia algo menor que 1) es lo propio del seguidor de emisor."
+ },
+ {
+  "nid": "N-T2-10",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La configuración de colector común (seguidor de emisor) se caracteriza por:",
+  "opciones": [
+   "una ganancia de tensión alta y una impedancia de entrada baja",
+   "una ganancia de tensión próxima a 1, impedancia de entrada alta y de salida baja",
+   "invertir la fase de la señal 180°",
+   "una impedancia de entrada baja, por lo que se prefiere en RF por su estabilidad"
+  ],
+  "clave": "b",
+  "sol": "El emisor sigue a la base unos 0,6 V por debajo: la tensión de salida es casi igual a la de entrada, pero entrega mucha más corriente de la que toma, así que adapta una fuente de alta impedancia a una carga de baja. Invertir la fase es propio del emisor común, y la impedancia de entrada baja, de la base común."
+ },
+ {
+  "nid": "N-T2-11",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En una válvula pentodo, la rejilla supresora tiene la función de:",
+  "opciones": [
+   "reducir la capacidad entre la rejilla de control y la placa",
+   "devolver a la placa los electrones secundarios que esta emite",
+   "emitir electrones al calentarse",
+   "controlar la corriente de placa con la tensión de la señal"
+  ],
+  "clave": "b",
+  "sol": "Los electrones llegan a la placa con tanta energía que arrancan electrones secundarios; la supresora, al potencial del cátodo, los devuelve a la placa. Reducir la capacidad rejilla-placa es la tarea de la rejilla de pantalla, emitir es la del cátodo y controlar la corriente, la de la rejilla de control."
+ },
+ {
+  "nid": "N-T2-12",
+  "veredicto": "corregida",
+  "motivo": "Dos distractores absurdos («no necesitan alimentación», «amplifican sin consumir energía»); se sustituyen por errores conceptuales plausibles.",
+  "enunciado": "Una ventaja característica de los circuitos digitales frente a los analógicos es:",
+  "opciones": [
+   "su gran inmunidad al ruido, porque solo tienen que distinguir dos niveles lógicos",
+   "que no introducen error de cuantificación al digitalizar la señal",
+   "que el ruido que se suma a la señal ya no puede separarse de ella",
+   "que trabajan con infinitos niveles de tensión, lo que les da más precisión"
+  ],
+  "clave": "a",
+  "sol": "Con solo dos niveles bien separados, una perturbación pequeña no convierte un 0 en un 1: basta comparar con un umbral para recuperar la información limpia. Que el ruido sumado se quede en la señal es justo lo que ocurre en un circuito analógico. Digitalizar sí introduce error de cuantificación (menor cuantos más bits), y lo de los infinitos niveles describe la señal analógica, no la digital."
+ },
+ {
+  "nid": "N-T3-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En los circuitos de VHF se prefieren resistencias de película, cortas y sin bobinar, porque:",
+  "opciones": [
+   "las resistencias bobinadas y de patas largas tienen inductancia y capacidad parásitas que, a esas frecuencias, alteran su comportamiento",
+   "las resistencias de película aumentan su valor con la frecuencia y así atenúan mejor la RF",
+   "las resistencias bobinadas no dejan pasar la corriente alterna",
+   "las resistencias de película no disipan potencia"
+  ],
+  "clave": "a",
+  "sol": "Las patas y el hilo de una resistencia bobinada forman una pequeña inductancia en serie, y entre sus extremos hay una capacidad parásita. A pocos MHz no se notan, pero en VHF sus reactancias se acercan al valor de la resistencia y esta deja de ser «solo R». Por eso en RF se usan resistencias de película, cortas y sin bobinar. Ninguna resistencia deja de disipar potencia."
+ },
+ {
+  "nid": "N-T3-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En su frecuencia de resonancia, un circuito LC paralelo («tanque») presenta:",
+  "opciones": [
+   "una impedancia mínima, igual a la resistencia de pérdidas",
+   "una impedancia máxima, y la corriente que toma de la línea es mínima",
+   "una reactancia puramente inductiva",
+   "una impedancia nula, como un cortocircuito"
+  ],
+  "clave": "b",
+  "sol": "En el tanque, las corrientes de la bobina y del condensador son iguales y opuestas en $f_0$: circulan dentro del circuito y se cancelan a la entrada, de modo que de fuera entra muy poca corriente y la impedancia es máxima (y puramente resistiva). La impedancia mínima, igual a la resistencia de pérdidas, es la del circuito resonante serie: es la confusión típica."
+ },
+ {
+  "nid": "N-T3-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un circuito resonante serie con un factor de calidad $Q = 50$ se excita, a su frecuencia de resonancia, con un generador de 2 V. La tensión sobre el condensador es aproximadamente de:",
+  "opciones": [
+   "2 V",
+   "0,04 V",
+   "25 V",
+   "100 V"
+  ],
+  "clave": "d",
+  "sol": "En resonancia serie la corriente es $I = V slash R$ y la tensión sobre el condensador (igual a la de la bobina) vale $V_C = I X_C = Q V = 50 dot 2 = 100$ V: el circuito multiplica la tensión por $Q$. Por eso los condensadores de un circuito resonante han de soportar tensiones muy superiores a la aplicada. 0,04 V sale de dividir entre $Q$ en lugar de multiplicar."
+ },
+ {
+  "nid": "N-T3-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Muy por encima de su frecuencia de corte, un filtro paso bajo formado por tres células RC atenúa aproximadamente:",
+  "opciones": [
+   "6 dB por octava",
+   "18 dB por octava",
+   "3 dB por octava",
+   "9 dB por octava"
+  ],
+  "clave": "b",
+  "sol": "Cada célula (cada polo) aporta 6 dB por octava: al doblar la frecuencia, la salida de una célula se reduce a la mitad en tensión, que son 6 dB. Con tres células, 3 × 6 = 18 dB por octava. Los 6 dB serían una sola célula, y los 3 dB son la caída en la frecuencia de corte, no la pendiente."
+ },
+ {
+  "nid": "N-T3-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La red en pi de paso bajo situada a la salida de la etapa final de un transmisor sirve para:",
+  "opciones": [
+   "rectificar la señal de RF antes de entregarla a la antena",
+   "doblar la frecuencia de la señal para llevarla a la banda de trabajo",
+   "eliminar la frecuencia imagen",
+   "adaptar la impedancia de la etapa final a la de la línea (50 Ω) y atenuar los armónicos"
+  ],
+  "clave": "d",
+  "sol": "Una red de bobina y condensadores no disipa potencia, pero cambia la relación entre tensión y corriente: la etapa final «ve» la carga que necesita aunque a la salida haya 50 Ω. Además, como es un paso bajo (C–L–C), atenúa con fuerza el segundo y el tercer armónico. La frecuencia imagen es un problema del receptor, que se resuelve antes del mezclador."
+ },
+ {
+  "nid": "N-T3-06",
+  "veredicto": "corregida",
+  "motivo": "Distractor d absurdo («solo funcionan con corriente continua»); se cambia por uno plausible que invierte coste y estabilidad.",
+  "enunciado": "Comparados con los filtros de cristal de cuarzo, los filtros cerámicos que se usan en las FI de 455 kHz o 10,7 MHz:",
+  "opciones": [
+   "tienen un factor de calidad mucho mayor",
+   "no se basan en el efecto piezoeléctrico, sino en bobinas y condensadores",
+   "son más baratos y tienen un factor de calidad menor",
+   "son más caros, pero mucho más estables con la temperatura"
+  ],
+  "clave": "c",
+  "sol": "Los filtros cerámicos aprovechan el mismo efecto piezoeléctrico que el cuarzo, pero con resonadores de cerámica: son más baratos y su $Q$ es menor, suficiente para las FI habituales de 455 kHz y 10,7 MHz. Cuando hace falta la máxima selectividad o estabilidad (SSB, CW) se recurre al cuarzo, que es el más caro y el más estable."
+ },
+ {
+  "nid": "N-T3-07",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una fuente con rectificador de onda completa, conectada a la red de 50 Hz, entrega 2 A a la carga con un condensador de filtro de 10 000 μF. El rizado pico a pico es aproximadamente de:",
+  "opciones": [
+   "4 V",
+   "2 V",
+   "0,2 V",
+   "20 V"
+  ],
+  "clave": "b",
+  "sol": "El rizado vale $Delta V approx I slash (f_r C)$, con $f_r = 100$ Hz en onda completa: $Delta V approx 2 slash (100 dot 0,01) = 2$ V. Los 4 V corresponderían a media onda ($f_r = 50$ Hz). El rizado crece con la corriente y baja con la capacidad y con la frecuencia del rizado."
+ },
+ {
+  "nid": "N-T3-08",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "De los tres montajes del transistor bipolar, el que invierte la fase de la señal 180° es el de:",
+  "opciones": [
+   "base común",
+   "colector común",
+   "emisor común",
+   "ninguno: los tres conservan la fase"
+  ],
+  "clave": "c",
+  "sol": "En emisor común, cuando la base sube el transistor conduce más, cae más tensión en la resistencia de colector y el colector baja: la salida está invertida 180°. La base común y el colector común (seguidor de emisor) entregan la señal en fase."
+ },
+ {
+  "nid": "N-T3-09",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "El rendimiento máximo teórico de un amplificador en clase B es aproximadamente del:",
+  "opciones": [
+   "25 %",
+   "50 %",
+   "78,5 %",
+   "100 %"
+  ],
+  "clave": "c",
+  "sol": "En clase B cada dispositivo conduce medio ciclo y el límite teórico es $pi slash 4 approx 78,5$ %. El 25 % (50 % con acoplo por transformador) es el de la clase A, que conduce siempre y disipa incluso sin señal. Ningún amplificador real llega al 100 %; la clase C supera a la B, pero recortando aún más el ciclo."
+ },
+ {
+  "nid": "N-T3-10",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un amplificador en contrafase de clase B, la distorsión de cruce se corrige:",
+  "opciones": [
+   "dando a los dos transistores una pequeña corriente de reposo, con lo que pasa a trabajar en clase AB",
+   "polarizando los transistores por debajo del corte, en clase C",
+   "suprimiendo uno de los dos transistores",
+   "añadiendo un filtro paso alto a la salida"
+  ],
+  "clave": "a",
+  "sol": "Ningún transistor conduce hasta que la entrada supera unos 0,6 V en su sentido, así que alrededor del cero la salida se queda plana: es la distorsión de cruce. Se elimina polarizando las bases con una pequeña corriente de reposo (por ejemplo, con dos diodos): eso ya es clase AB. Pasar a clase C empeoraría el recorte, y con un solo transistor se perdería medio ciclo."
+ },
+ {
+  "nid": "N-T3-11",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un amplificador de clase C, el circuito tanque LC sintonizado del colector:",
+  "opciones": [
+   "polariza el transistor para que conduzca los 360° del ciclo",
+   "reconstruye una sinusoide completa a partir de los pulsos de corriente del transistor (efecto volante)",
+   "rectifica la señal para obtener una tensión continua",
+   "convierte la modulación de frecuencia en modulación de amplitud"
+  ],
+  "clave": "b",
+  "sol": "En clase C el transistor solo conduce en pulsos de menos de medio ciclo. El tanque LC actúa como un volante de inercia: cada pulso le repone la energía y entre pulsos la energía sigue yendo y viniendo entre L y C, de modo que la tensión en el tanque es una sinusoide completa. Si se sintoniza a 2f o 3f, el mismo circuito es un multiplicador de frecuencia."
+ },
+ {
+  "nid": "N-T3-12",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Para demodular una señal de banda lateral única (SSB) o de telegrafía (CW) se emplea:",
+  "opciones": [
+   "un detector de envolvente con diodo",
+   "un discriminador precedido de un limitador",
+   "un detector de producto alimentado por un oscilador de batido (BFO)",
+   "un rectificador en puente"
+  ],
+  "clave": "c",
+  "sol": "En SSB no se transmite la portadora, y sin ella el detector de envolvente no puede reconstruir el audio. El detector de producto es un mezclador que multiplica la señal por la del BFO, que repone la portadora; la diferencia es el audio (en CW, el pitido). El discriminador con limitador es el detector de FM."
+ },
+ {
+  "nid": "N-T3-13",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Para que un amplificador realimentado se convierta en oscilador, la realimentación debe ser:",
+  "opciones": [
+   "negativa, para estabilizar la ganancia",
+   "positiva, con una ganancia de lazo que compense las pérdidas y una fase total de 360°",
+   "nula, porque el oscilador no necesita realimentación",
+   "positiva, pero con una ganancia de lazo muy inferior a la unidad"
+  ],
+  "clave": "b",
+  "sol": "Un oscilador es un amplificador que se realimenta a sí mismo: lo devuelto debe llegar en fase (360° en la vuelta completa) y con amplitud suficiente para compensar las pérdidas (condición de Barkhausen). Con ganancia de lazo menor que 1 las oscilaciones se extinguen, y la realimentación negativa estabiliza el amplificador en lugar de hacerlo oscilar."
+ },
+ {
+  "nid": "N-T3-14",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un oscilador Colpitts, la fracción de señal que se devuelve a la entrada se toma de:",
+  "opciones": [
+   "una bobina con una toma intermedia",
+   "un divisor formado por dos condensadores",
+   "un cristal de cuarzo en lugar de la bobina",
+   "un transformador con un secundario independiente"
+  ],
+  "clave": "b",
+  "sol": "El Colpitts usa un divisor capacitivo: la bobina resuena con dos condensadores en serie, cuyo punto medio va a masa, y su reparto fija cuánta señal vuelve a la base. La bobina con toma intermedia es la del Hartley, y el cristal en lugar de la bobina convierte el Colpitts en un Pierce."
+ },
+ {
+  "nid": "N-T3-15",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Para obtener con un oscilador a cristal frecuencias por encima de unos 20–30 MHz, lo habitual es:",
+  "opciones": [
+   "tallar láminas cada vez más finas para que vibren en su modo fundamental",
+   "sustituir el cristal por un filtro cerámico",
+   "calentar el cristal para subir su frecuencia",
+   "hacer vibrar el cristal en un sobretono (tercer o quinto armónico mecánico)"
+  ],
+  "clave": "d",
+  "sol": "Por encima de unos 20–30 MHz el modo fundamental exigiría una lámina demasiado fina y frágil, así que se hace vibrar el cristal en un sobretono, normalmente el tercero o el quinto. Calentarlo solo lo haría derivar, que es justo lo que se quiere evitar con un cristal."
+ }
+]

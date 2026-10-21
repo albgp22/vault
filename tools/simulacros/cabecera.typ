@@ -53,7 +53,10 @@
 /// Encabezado de una prueba (la prueba 2 empieza en página nueva).
 #let prueba(n, p) = {
   if p == 2 { pagebreak(weak: true) }
-  heading(level: 2)[#_titulo-prueba.at(str(p)) #h(1fr) #text(size: 9pt, weight: "regular", fill: col.gris)[30 preguntas · 45 min]]
+  heading(level: 2, _titulo-prueba.at(str(p)))
+  v(-0.6em)
+  align(right, text(font: fuente-sans, size: 8.5pt, fill: col.gris)[Simulacro #n · 30 preguntas · 45 minutos])
+  v(0.2em)
 }
 
 #let fin-prueba() = {
@@ -102,3 +105,63 @@
     }
   }
 }
+
+// ---------------------------------------------------------------------
+//  Apéndice A: repaso de conceptos marginales (pregunta → respuesta)
+// ---------------------------------------------------------------------
+#let repaso-inicio() = {
+  _salto-capitulo()
+  place(hide(heading(level: 1)[Apéndice A · Repaso de conceptos marginales]))
+  v(1.2cm)
+  align(center, text(font: fuente-sans, size: 9pt, weight: "semibold", tracking: 0.14em, fill: col.acento, upper[Apéndice A]))
+  v(0.2cm)
+  align(center, text(font: fuente-sans, size: 20pt, weight: "bold")[Repaso de conceptos marginales])
+  v(0.5cm)
+  block(width: 100%, {
+    set par(justify: false)
+    set text(size: 9.5pt)
+    [Estos conceptos de la prueba técnica son de peso menor: caen poco, pero caen. No ocupan sitio en los simulacros para no alargarlos; aquí están en formato rápido, pregunta y respuesta correcta, con el número de la pregunta del libro donde está el razonamiento. Léelos cuando domines los simulacros: cada uno se aprende en segundos.]
+  })
+  v(0.4cm)
+}
+#let repaso-tema(id, titulo) = {
+  block(above: 1.1em, below: 0.6em, sticky: true, text(font: fuente-sans, size: 11pt, weight: "bold", fill: col.acento)[#id · #titulo])
+}
+#let rq(i, origen, enunciado, respuesta) = block(width: 100%, breakable: true, above: 0.55em, below: 0.55em, {
+  set text(size: 9pt)
+  set par(justify: false)
+  grid(columns: (2.2em, 1fr), column-gutter: 0.3em,
+    text(font: fuente-sans, weight: "bold", fill: col.gris, size: 8pt)[R#i],
+    [#enunciado #h(0.3em) #text(fill: col.verde, weight: "bold")[→] #text(fill: col.verde)[#respuesta] #if origen != "" { h(0.4em); text(font: fuente-sans, size: 7.5pt, fill: col.gris)[(libro: #origen)] }],
+  )
+})
+
+// ---------------------------------------------------------------------
+//  Apéndice B: mapa de conceptos
+// ---------------------------------------------------------------------
+#let mapa-inicio() = {
+  _salto-capitulo()
+  place(hide(heading(level: 1)[Apéndice B · Mapa de conceptos]))
+  v(1.2cm)
+  align(center, text(font: fuente-sans, size: 9pt, weight: "semibold", tracking: 0.14em, fill: col.acento, upper[Apéndice B]))
+  v(0.2cm)
+  align(center, text(font: fuente-sans, size: 20pt, weight: "bold")[Mapa de conceptos])
+  v(0.5cm)
+  block(width: 100%, {
+    set par(justify: false)
+    set text(size: 9.5pt)
+    [Todos los conceptos del temario que cubren estos simulacros, tema a tema, y dónde está cada uno. #text(font: fuente-sans, weight: "bold")[3·1·7] es el simulacro 3, prueba 1, pregunta 7; #text(font: fuente-sans, weight: "bold")[R57] es el número 57 del repaso del apéndice A. Úsalo para repasar un tema entero o para comprobar que no te queda nada por ver.]
+  })
+  v(0.3cm)
+  set text(size: 8.3pt)
+  set par(justify: false, leading: 0.5em)
+}
+#let mapa-tema(id, titulo) = {
+  block(above: 1em, below: 0.45em, sticky: true, width: 100%, stroke: (bottom: 0.5pt + col.acento.lighten(50%)), inset: (bottom: 2pt),
+    text(font: fuente-sans, size: 10pt, weight: "bold", fill: col.acento)[#id · #titulo])
+}
+#let mapa-item(concepto, donde) = block(above: 0.28em, below: 0.28em, breakable: false,
+  grid(columns: (1fr, auto), column-gutter: 0.8em,
+    text(size: 8.3pt, concepto),
+    text(font: fuente-sans, size: 7.8pt, weight: "semibold", fill: col.acento, donde)))
+#let mapa-cuerpo(c) = { set par(justify: false); columns(2, gutter: 0.7cm, c) }

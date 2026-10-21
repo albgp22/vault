@@ -1,0 +1,562 @@
+[
+ {
+  "nid": "N-T4-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Por costumbre, la fonía en banda lateral única se emite en la banda de 40 metros en:",
+  "opciones": [
+   "banda lateral superior (USB)",
+   "banda lateral inferior (LSB)",
+   "doble banda lateral con portadora completa",
+   "cualquiera de las dos bandas laterales, porque el receptor no las distingue"
+  ],
+  "clave": "b",
+  "sol": "Por convenio se usa LSB en 160, 80 y 40 m y USB de 20 m hacia arriba (y en VHF y UHF). Las dos bandas no son intercambiables: si el corresponsal emite en LSB y escuchas en USB, la voz resulta ininteligible."
+ },
+ {
+  "nid": "N-T4-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La selectividad de canal adyacente de un receptor depende principalmente de:",
+  "opciones": [
+   "la forma y los faldones del filtro de frecuencia intermedia",
+   "la linealidad del primer mezclador",
+   "la figura de ruido de la etapa de RF",
+   "la estabilidad del oscilador de batido"
+  ],
+  "clave": "a",
+  "sol": "Es lo que el receptor rechaza una emisión en el canal contiguo, y lo deciden los faldones del filtro de FI: cuanto más abruptos, más se atenúa al vecino. Es un problema lineal; la linealidad del primer mezclador decide la intermodulación y la modulación cruzada, no la selectividad."
+ },
+ {
+  "nid": "N-T4-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Se produce modulación cruzada en un receptor cuando:",
+  "opciones": [
+   "la modulación de una señal fuerte no deseada se traslada a la señal que se está escuchando, por falta de linealidad de las primeras etapas",
+   "la señal deseada y su frecuencia imagen se convierten a la misma frecuencia intermedia",
+   "el oscilador local deriva con la temperatura",
+   "el control automático de ganancia reacciona demasiado despacio"
+  ],
+  "clave": "a",
+  "sol": "La no linealidad de las primeras etapas «pega» la modulación de una emisora fuerte (por ejemplo, de AM) a la portadora sintonizada: se oye esa emisora de fondo aunque la sintonía esté lejos de ella. La opción b describe la frecuencia imagen, que se resuelve con el preselector, no con mejor linealidad."
+ },
+ {
+  "nid": "N-T5-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un transmisor sin conversión de frecuencia, como los de CW o FM más sencillos, la frecuencia de salida es:",
+  "opciones": [
+   "la suma de la de un oscilador fijo y la de un VFO",
+   "la del propio oscilador, o un múltiplo suyo obtenido con multiplicadores",
+   "la frecuencia intermedia del receptor del equipo",
+   "la diferencia entre la portadora y la frecuencia de audio"
+  ],
+  "clave": "b",
+  "sol": "Sin conversión, la señal de salida es el propio oscilador o un múltiplo suyo. En los transmisores con conversión, como el de SSB, la señal se fabrica a una frecuencia fija y un mezclador con el VFO la lleva a la de trabajo: eso es lo que describe la opción a."
+ },
+ {
+  "nid": "N-T5-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En la generación de banda lateral única por el método de fase, la banda lateral no deseada se elimina:",
+  "opciones": [
+   "con un filtro de cristal de flancos muy abruptos",
+   "con un limitador seguido de un discriminador",
+   "haciendo que el índice de modulación supere la unidad",
+   "por cancelación, al sumar las salidas de dos moduladores balanceados que reciben la voz y la portadora desfasadas 90°"
+  ],
+  "clave": "d",
+  "sol": "El método de fase no usa filtro de banda lateral: dos moduladores balanceados, uno de ellos con voz y portadora desfasadas 90°, entregan las bandas laterales con signos tales que al sumarlas una se refuerza y la otra se anula. El filtro de cristal es el otro método, el del filtro."
+ },
+ {
+  "nid": "N-T5-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "¿Cuál de estas emisiones no puede amplificarse con un amplificador final en clase C?",
+  "opciones": [
+   "Telegrafía (A1A)",
+   "Modulación de frecuencia (F3E)",
+   "Banda lateral única (J3E)",
+   "Ninguna: todas admiten un final en clase C"
+  ],
+  "clave": "c",
+  "sol": "La clase C deforma la envolvente, y en SSB la envolvente es la propia información: hace falta un final lineal (clase AB o A). La CW y la FM tienen envolvente constante y admiten la clase C, de mayor rendimiento."
+ },
+ {
+  "nid": "N-T5-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un transmisor de HF entrega 100 W de potencia media. Cada emisión no esencial puede tener, como máximo, una potencia de:",
+  "opciones": [
+   "50 mW",
+   "10 mW",
+   "1 mW",
+   "100 mW"
+  ],
+  "clave": "b",
+  "sol": "Por debajo de 30 MHz hay que quedar 40 dB por debajo de la potencia media sin superar 50 mW, y vale el más restrictivo. 40 dB por debajo de 100 W son $100 dot 10^(-4) = 0,01$ W, es decir, 10 mW, menos que el tope de 50 mW: mandan los 10 mW. El tope de 50 mW solo manda por encima de 500 W."
+ },
+ {
+  "nid": "N-T5-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Entre 235 y 960 MHz, en un transmisor de potencia superior a 25 W, las emisiones no esenciales deben estar 60 dB por debajo de la potencia media, sin exceder de:",
+  "opciones": [
+   "1 mW",
+   "25 μW",
+   "20 mW",
+   "100 mW"
+  ],
+  "clave": "c",
+  "sol": "Anexo I de la Orden IET/1311/2013: entre 235 y 960 MHz, con más de 25 W, 60 dB sin exceder de 20 mW. El tope de 1 mW es el de 30 a 235 MHz con más de 25 W; el de 25 μW, el de 25 W o menos entre 30 y 960 MHz; y el de 100 mW, el de más de 10 W entre 960 MHz y 17,7 GHz."
+ },
+ {
+  "nid": "N-T5-06",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un transmisor con conversión de frecuencia, a la salida del mezclador aparecen, además de la señal deseada:",
+  "opciones": [
+   "solo los armónicos pares de la señal deseada",
+   "chasquidos de manipulación",
+   "el otro producto de la mezcla (suma o diferencia) y restos de las dos entradas, que se eliminan con un filtro paso banda tras el mezclador",
+   "la frecuencia imagen del receptor, que se elimina con el ALC"
+  ],
+  "clave": "c",
+  "sol": "El mezclador entrega la suma y la diferencia, más restos de sus entradas: con una SSB en 9 MHz y un VFO de 5,2 MHz salen 14,2 MHz (la deseada), 3,8 MHz, 5,2 MHz y 9 MHz. Si no se filtran, el lineal los amplifica igual que a la señal buena; por eso se pone un filtro paso banda tras el mezclador."
+ },
+ {
+  "nid": "N-T5-07",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Las oscilaciones parásitas de un amplificador de potencia:",
+  "opciones": [
+   "aparecen siempre en los múltiplos enteros de la frecuencia de trabajo",
+   "se eliminan con el filtro de banda lateral",
+   "se deben a una manipulación demasiado brusca",
+   "son oscilaciones a frecuencias sin relación con la de trabajo, a menudo en VHF, que se combaten con supresores y ferritas"
+  ],
+  "clave": "d",
+  "sol": "Las inductancias de los hilos y las capacidades del transistor forman circuitos resonantes no previstos, y el final oscila por su cuenta, por ejemplo a 100 o 200 MHz. Se combaten con supresores (bobina de pocas espiras con una resistencia en paralelo), perlas de ferrita y buen desacoplo. Los múltiplos enteros son los armónicos, y la manipulación brusca produce chasquidos."
+ },
+ {
+  "nid": "N-T5-08",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En la banda de 2 metros, la frecuencia de entrada de un repetidor (en la que transmiten los usuarios) está, respecto a su frecuencia de salida:",
+  "opciones": [
+   "600 kHz por debajo",
+   "600 kHz por encima",
+   "6 MHz por debajo",
+   "en la misma frecuencia, porque el repetidor recibe y transmite a la vez"
+  ],
+  "clave": "a",
+  "sol": "En 2 m el repetidor recibe 600 kHz por debajo de la frecuencia en la que retransmite: por ejemplo, entrada en 145,000 MHz y salida en 145,600 MHz. No puede usar la misma frecuencia, porque su propio transmisor taparía lo que recibe: trabaja en dúplex."
+ },
+ {
+  "nid": "N-T5-09",
+  "veredicto": "corregida",
+  "motivo": "La sol decía que el equipo añade el subtono «automáticamente»; en realidad lo añade solo si tiene programado el tono de ese repetidor.",
+  "enunciado": "Muchos repetidores de VHF/UHF solo se activan si la señal que reciben lleva:",
+  "opciones": [
+   "un subtono de baja frecuencia (CTCSS) que actúa de llave de acceso",
+   "modulación de banda lateral única",
+   "una potencia superior a 50 W",
+   "el distintivo de llamada en Morse"
+  ],
+  "clave": "a",
+  "sol": "El subtono CTCSS es un tono de baja frecuencia, inaudible en la conversación, que el repetidor exige para abrirse; así no lo activa cualquier señal espuria. El equipo del usuario lo añade al trabajar en modo repetidor, siempre que tenga programado el tono de ese repetidor."
+ },
+ {
+  "nid": "N-T6-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una antena algo más corta de lo que pide su frecuencia de trabajo presenta en su punto de alimentación, además de la parte resistiva, una reactancia:",
+  "opciones": [
+   "inductiva, que se compensa con una bobina en serie",
+   "capacitiva, que se compensa con un condensador en serie",
+   "capacitiva, que se compensa con una bobina en serie",
+   "nula, porque la reactancia solo aparece en las antenas más largas"
+  ],
+  "clave": "c",
+  "sol": "Cerca de su resonancia la antena se comporta como un circuito RLC en serie: si es demasiado corta manda la reactancia del condensador y es capacitiva; si es demasiado larga, inductiva. La reactancia capacitiva se anula con una bobina en serie (bobina de carga), que alarga eléctricamente la antena. Un condensador en serie la acortaría todavía más."
+ },
+ {
+  "nid": "N-T6-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una antena vertical de cuarto de onda con un plano de tierra de radiales horizontales presenta en su base una impedancia de aproximadamente:",
+  "opciones": [
+   "73 Ω",
+   "36 Ω",
+   "300 Ω",
+   "varios miles de ohmios"
+  ],
+  "clave": "b",
+  "sol": "La vertical de cuarto de onda es medio dipolo: el plano de tierra aporta la otra mitad por imagen, pero solo radia hacia el hemisferio superior, así que su resistencia de radiación es la mitad de la del dipolo, unos 73/2 ≈ 36 Ω. Los 73 Ω son los del dipolo completo, los 300 Ω los del dipolo plegado y los miles de ohmios, los de una media onda alimentada en un extremo. Si se inclinan los radiales hacia abajo, la impedancia sube hacia 50 Ω."
+ },
+ {
+  "nid": "N-T6-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En una antena Yagi, comparado con el elemento alimentado (radiante), el reflector es:",
+  "opciones": [
+   "algo más corto y está situado delante",
+   "de la misma longitud y está conectado a la línea de transmisión",
+   "algo más largo y está situado delante",
+   "algo más largo y está situado detrás"
+  ],
+  "clave": "d",
+  "sol": "El reflector es algo más largo que el resonante (inductivo) y se coloca detrás del radiante; los directores son algo más cortos (capacitivos) y van delante, hacia donde sale el haz. Ninguno está conectado a la línea: son elementos parásitos. La opción a describe un director."
+ },
+ {
+  "nid": "N-T6-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un enlace de VHF con visión directa, una estación emite con una antena vertical y la otra recibe con un dipolo horizontal. Lo más probable es que:",
+  "opciones": [
+   "la señal llegue igual, porque la polarización solo importa en HF",
+   "la señal llegue muy atenuada, porque las polarizaciones están cruzadas",
+   "la señal llegue más fuerte, porque se suman las dos polarizaciones",
+   "la recepción sea imposible a cualquier distancia"
+  ],
+  "clave": "b",
+  "sol": "La polarización es la orientación del campo eléctrico y sigue la del hilo que radia: vertical para la antena vertical y horizontal para el dipolo horizontal. En visión directa, con las antenas cruzadas se pueden perder 20 dB o más; por eso conviene que la polarización coincida en los dos extremos. Es en HF donde importa menos, porque la ionosfera gira la polarización por el camino. Y una pérdida grande no hace imposible la recepción."
+ },
+ {
+  "nid": "N-T6-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Comparada con el cable coaxial, la línea paralela (bifilar o de escalerilla):",
+  "opciones": [
+   "es asimétrica y tiene una impedancia característica de 50 Ω",
+   "es simétrica, tiene una impedancia de unos 300 a 600 Ω y pierde menos, pero hay que alejarla de los objetos metálicos",
+   "encierra el campo dentro de una malla y puede enterrarse sin problemas",
+   "pierde más que el coaxial y solo sirve para recibir"
+  ],
+  "clave": "b",
+  "sol": "La línea paralela tiene dos conductores iguales (es simétrica), una impedancia de 300 a 600 Ω y muchas menos pérdidas que el coaxial. Como su campo rodea los hilos, hay que mantenerla lejos de canalones y otros objetos metálicos. Las opciones a y c describen el coaxial: asimétrico, de 50 Ω y con el campo encerrado en la malla."
+ },
+ {
+  "nid": "N-T6-06",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La impedancia característica $Z_0$ de una línea de transmisión depende de:",
+  "opciones": [
+   "su longitud",
+   "la potencia que transporta",
+   "la impedancia de la antena conectada en su extremo",
+   "la geometría de los conductores (diámetros y separación) y del dieléctrico"
+  ],
+  "clave": "d",
+  "sol": "$Z_0 = sqrt(L' slash C')$ depende de la inductancia y la capacidad por metro, y estas las fijan el diámetro y la separación de los conductores y el aislante. No depende de la longitud: un coaxial de 50 Ω tiene 50 Ω con 1 m y con 100 m. La impedancia de la antena decide si hay onda reflejada (la ROE), pero no cambia la $Z_0$ de la línea."
+ },
+ {
+  "nid": "N-T7-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Al caer la noche, en la ionosfera:",
+  "opciones": [
+   "desaparece la capa F y solo queda la capa D",
+   "la capa F se divide en F1 y F2, que de día forman una sola",
+   "desaparece la capa D y las capas F1 y F2 se funden en una sola capa F",
+   "la capa D se refuerza y absorbe más las bandas bajas"
+  ],
+  "clave": "c",
+  "sol": "Sin sol, los electrones se recombinan con los iones. En la capa D, donde el aire es relativamente denso, eso ocurre en minutos y la capa desaparece; en la F, muy tenue, tarda horas, así que sobrevive toda la noche con F1 y F2 fundidas en una sola capa. Por eso de noche las bandas bajas (80 y 160 m) dejan de sufrir la absorción de la D y llegan lejos."
+ },
+ {
+  "nid": "N-T7-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una fulguración solar intensa provoca, en el hemisferio iluminado:",
+  "opciones": [
+   "la apertura inmediata de la banda de 10 m a todo el mundo",
+   "la desaparición de la capa D y mejores condiciones en las bandas bajas",
+   "una inversión térmica que favorece los conductos en VHF",
+   "un aumento brusco de la ionización de la capa D, que absorbe la HF y la deja muda durante minutos u horas"
+  ],
+  "clave": "d",
+  "sol": "La fulguración lanza un golpe de rayos X que en minutos multiplica la ionización de la capa D. Como la D absorbe en vez de reflejar, la HF enmudece durante minutos u horas: es el desvanecimiento súbito o efecto Dellinger. No abre las bandas altas ni hace desaparecer la D, y la inversión térmica es un fenómeno meteorológico de la troposfera."
+ },
+ {
+  "nid": "N-T7-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La frecuencia crítica de la capa F2 es de 7 MHz. Para una onda que llega a la capa formando 60° con la vertical, la máxima frecuencia utilizable (MUF) es aproximadamente de:",
+  "opciones": [
+   "3,5 MHz",
+   "8,1 MHz",
+   "14 MHz",
+   "6 MHz"
+  ],
+  "clave": "c",
+  "sol": "$\"MUF\" approx f_c slash cos theta$, con $theta$ el ángulo respecto de la vertical: $7 slash cos 60° = 7 slash 0,5 = 14$ MHz. En incidencia oblicua la MUF es siempre mayor que la frecuencia crítica. Los 3,5 MHz salen de multiplicar por el coseno en vez de dividir; los 8,1 MHz, de usar el seno; y unos 6 MHz serían el 85 % de la frecuencia crítica."
+ },
+ {
+  "nid": "N-T7-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En HF, la zona de silencio es la región:",
+  "opciones": [
+   "donde la capa D absorbe por completo la señal durante el día",
+   "situada entre el punto donde se agota la onda de superficie y el punto donde cae la primera onda reflejada en la ionosfera",
+   "situada más allá de la distancia máxima de un salto",
+   "donde la onda directa y la reflejada llegan en oposición y se anulan"
+  ],
+  "clave": "b",
+  "sol": "En HF la onda de superficie se agota en pocas decenas de kilómetros, y la onda reflejada no cae a tierra hasta la distancia de salto: entre las dos no llega señal. Por eso una estación a 100 km puede no oírte mientras otra a 2000 km te oye bien. Si la frecuencia baja por debajo de la frecuencia crítica, hasta el rayo vertical vuelve y la zona de silencio desaparece."
+ },
+ {
+  "nid": "N-T7-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En la propagación ionosférica en HF, cuanto más bajo (más rasante) es el ángulo de radiación de la antena sobre el horizonte:",
+  "opciones": [
+   "más corta es la distancia de salto",
+   "más larga es la distancia de salto",
+   "más baja es la MUF del trayecto",
+   "la distancia de salto no cambia, porque solo depende de la frecuencia"
+  ],
+  "clave": "b",
+  "sol": "Un rayo rasante llega a la ionosfera muy inclinado y, tras reflejarse, cae a tierra mucho más lejos: la distancia de salto crece al bajar el ángulo de radiación. Además, cuanto más oblicua es la incidencia, más alta es la MUF ($f_c slash cos theta$), así que la c es falsa. Por eso el DX en HF premia las antenas de ángulo de radiación bajo."
+ },
+ {
+  "nid": "N-T7-06",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "El ruido atmosférico, producido por las descargas de las tormentas de todo el planeta:",
+  "opciones": [
+   "solo afecta a UHF y a las frecuencias superiores",
+   "es el que produce la agitación térmica de los electrones en la entrada del receptor",
+   "domina en las bandas bajas de HF, sobre todo en verano",
+   "procede sobre todo del centro de la Vía Láctea"
+  ],
+  "clave": "c",
+  "sol": "Los rayos de las tormentas producen impulsos de RF que la ionosfera propaga igual que las señales, de modo que se oyen a miles de kilómetros: es el ruido que domina en las bandas bajas de HF y en verano. La agitación de los electrones produce el ruido térmico, y el que llega del centro de la galaxia es el ruido galáctico, que se nota entre unos 20 y 200 MHz."
+ },
+ {
+  "nid": "N-T7-07",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "El ruido térmico generado en la entrada de un receptor:",
+  "opciones": [
+   "solo aparece cuando hay tormentas en las cercanías",
+   "no depende del ancho de banda, sino solo de la frecuencia",
+   "desaparece al conectar la antena",
+   "aumenta con la temperatura y con el ancho de banda del receptor"
+  ],
+  "clave": "d",
+  "sol": "El ruido térmico nace de la agitación de los electrones en cualquier resistencia, incluida la entrada del receptor. Su potencia es $k T B$, proporcional a la temperatura y al ancho de banda (unos −174 dBm por cada hercio a temperatura ambiente); por eso un filtro más estrecho deja pasar menos ruido. Las tormentas causan el ruido atmosférico, que es otra cosa."
+ },
+ {
+  "nid": "N-T8-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Para que un galvanómetro sirva como voltímetro de mayor alcance se le conecta:",
+  "opciones": [
+   "una resistencia multiplicadora en serie",
+   "una resistencia shunt en paralelo",
+   "un condensador en paralelo",
+   "un diodo en serie con la pila interna"
+  ],
+  "clave": "a",
+  "sol": "La resistencia multiplicadora, en serie con el galvanómetro, limita la corriente para que con la tensión máxima de la escala pase justo la de fondo de escala: $R_V = V / I_m - R_m$. El shunt en paralelo es el truco contrario: amplía la escala de corriente de un amperímetro."
+ },
+ {
+  "nid": "N-T8-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un voltímetro analógico de clase 1,5 se usa en la escala de 100 V. El error máximo que cabe esperar del propio instrumento es de:",
+  "opciones": [
+   "1,5 V en cualquier punto de la escala",
+   "el 1,5 % de la lectura, sea cual sea",
+   "0,15 V",
+   "15 V"
+  ],
+  "clave": "a",
+  "sol": "La clase indica el error en porcentaje del fondo de escala: el 1,5 % de 100 V son 1,5 V, también cuando la aguja marca poco. Por eso se elige la escala en la que la aguja queda en el último tercio. Tomarlo como porcentaje de la lectura es el error tentador."
+ },
+ {
+  "nid": "N-T8-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En una emisión de CW con el manipulador apretado (portadora sin modular), la potencia media y la potencia en la cresta de la envolvente (p.c.e.):",
+  "opciones": [
+   "coinciden, porque la amplitud es constante",
+   "la p.c.e. es el doble que la media",
+   "la p.c.e. es cuatro veces la media",
+   "la media es mayor que la p.c.e."
+  ],
+  "clave": "a",
+  "sol": "Con amplitud constante (CW con el manipulador apretado, o FM) no hay picos de envolvente y las dos potencias coinciden. En SSB con voz, en cambio, una p.c.e. de 100 W corresponde a una media de solo 10 a 25 W. El factor 4 aparece en AM modulada al 100 %, entre el pico de la envolvente y la portadora."
+ },
+ {
+  "nid": "N-T8-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un vatímetro direccional marca 100 W de potencia directa y 25 W de reflejada. La ROE y la potencia que llega a la antena son, respectivamente:",
+  "opciones": [
+   "3 y 75 W",
+   "4 y 125 W",
+   "1,5 y 75 W",
+   "3 y 125 W"
+  ],
+  "clave": "a",
+  "sol": "$rho = sqrt(P_r / P_d) = sqrt(25 / 100) = 0,5$ y $\"ROE\" = (1 + 0,5) / (1 - 0,5) = 3$. La antena recibe la directa menos la reflejada, 100 − 25 = 75 W; sumar las dos (125 W) es el error típico."
+ },
+ {
+  "nid": "N-T8-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un frecuencímetro cuya base de tiempos de cristal se desvía 10 partes por millón mide una señal de 145 MHz. El error de la lectura puede llegar a:",
+  "opciones": [
+   "1450 Hz, por muchos dígitos que muestre la pantalla",
+   "10 Hz",
+   "145 Hz",
+   "1 Hz si el tiempo de puerta es de 1 s"
+  ],
+  "clave": "a",
+  "sol": "La exactitud la fija el cristal de referencia: $145 dot 10^6 dot 10 dot 10^(-6) = 1450$ Hz. El tiempo de puerta solo fija la resolución (1 s, 1 Hz), es decir, cuántos dígitos se ven, no si son correctos."
+ },
+ {
+  "nid": "N-T9-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Los caminos por los que la señal de una estación puede acoplarse a un equipo electrónico cercano son:",
+  "opciones": [
+   "la antena del equipo afectado, las líneas que le llegan (red eléctrica, altavoces, cable) y la radiación directa sobre sus circuitos",
+   "solo la antena del equipo afectado",
+   "solo la red eléctrica",
+   "ninguno, si la estación cumple los límites de emisiones no esenciales"
+  ],
+  "clave": "a",
+  "sol": "Todo problema de compatibilidad se descompone en fuente, camino y víctima, y los caminos son tres: la antena de la víctima, las líneas que le llegan y la radiación directa sobre sus circuitos y cables. Una estación limpia puede aún bloquear un equipo cercano con su señal fundamental: el problema es entonces de inmunidad del equipo afectado."
+ },
+ {
+  "nid": "N-T9-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Varios colegas te indican que tu emisión de SSB se oye en los canales vecinos al tuyo, pero no en otras bandas. La causa probable y su remedio son:",
+  "opciones": [
+   "armónicos; colocar un filtro paso bajo a la salida",
+   "emisión fuera de banda por sobremodulación; bajar la ganancia del micrófono y la excitación",
+   "bloqueo de sus receptores; poner un filtro en su entrada",
+   "una toma de tierra deficiente; desconectarla"
+  ],
+  "clave": "b",
+  "sol": "Una modulación excesiva ensancha la emisión más allá de la anchura de banda necesaria y salpica los canales adyacentes: son emisiones fuera de banda, y se corrigen bajando la ganancia del micrófono y la excitación. Los armónicos caerían en múltiplos de tu frecuencia, en otras bandas, y ese sí es trabajo del filtro paso bajo."
+ },
+ {
+  "nid": "N-T9-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Si las dos señales que producen intermodulación de tercer orden aumentan su nivel en 3 dB, los productos de tercer orden aumentan aproximadamente:",
+  "opciones": [
+   "3 dB",
+   "6 dB",
+   "9 dB",
+   "no varían"
+  ],
+  "clave": "c",
+  "sol": "Los productos de tercer orden nacen del término cúbico de la no linealidad y crecen con el cubo de la amplitud: 3 dB más en las señales dan 9 dB más en los productos. Por eso la intermodulación solo aparece con señales intensas, y atenuar un poco la entrada la reduce mucho."
+ },
+ {
+  "nid": "N-T9-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Mientras transmites en AM, tu voz se oye por los altavoces del equipo de música de un vecino, que no tiene sintonizador de radio. El mecanismo responsable es:",
+  "opciones": [
+   "la intermodulación entre tu señal y la red eléctrica",
+   "la detección: una unión semiconductora del amplificador rectifica la RF captada por los cables y recupera la envolvente",
+   "el bloqueo del amplificador por exceso de ganancia",
+   "la recepción por la frecuencia imagen"
+  ],
+  "clave": "b",
+  "sol": "Los cables del equipo hacen de antena y llevan la RF hasta los transistores. La unión base-emisor se comporta como un diodo, rectifica la RF y deja su envolvente, que en AM es tu voz: el amplificador la trata como audio. Es un problema de inmunidad del equipo afectado y se combate con ferritas y condensadores de desacoplo en sus cables."
+ },
+ {
+  "nid": "N-T9-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Ante una queja de interferencias, conectas tu transmisor a una carga artificial y transmites. La interferencia continúa. Lo más probable es que la perturbación llegue al equipo afectado:",
+  "opciones": [
+   "por radiación de tu antena",
+   "por conducción a través de la red eléctrica o de los cables",
+   "por propagación ionosférica",
+   "a través de la frecuencia imagen de su receptor"
+  ],
+  "clave": "b",
+  "sol": "Con la carga artificial la estación casi no radia. Si la interferencia desaparece, el camino era la radiación de la antena; si sigue, la RF viaja por conducción, a través de la red eléctrica o de los cables, y el remedio es el filtro de red y las ferritas en la alimentación."
+ },
+ {
+  "nid": "N-T10-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Según la Recomendación 1999/519/CE, recogida en España por el Real Decreto 1066/2001, el nivel de referencia de campo eléctrico para el público entre 10 y 400 MHz es de:",
+  "opciones": [
+   "28 V/m",
+   "2,8 V/m",
+   "280 V/m",
+   "50 μV/m"
+  ],
+  "clave": "a",
+  "sol": "Entre 10 y 400 MHz el nivel de referencia es de 28 V/m (2 W/m²), promediado durante 6 minutos. Con la fórmula de campo lejano $E approx sqrt(30 P G) / d$ se estima a qué distancia de la antena se cumple; por eso la antena va en el tejado, lejos de las personas. Los 50 μV son la tensión de S9 en un receptor, no un límite de exposición."
+ },
+ {
+  "nid": "N-T10-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En una fuente de alta tensión, la resistencia de descarga (bleeder) conectada en paralelo con el condensador de filtro sirve para:",
+  "opciones": [
+   "descargar el condensador cuando se desconecta el equipo",
+   "limitar la corriente de arranque del transformador",
+   "aumentar la tensión de salida",
+   "proteger la fuente frente a cortocircuitos"
+  ],
+  "clave": "a",
+  "sol": "El condensador de filtro conserva su carga mucho después de desenchufar, y la resistencia de descarga lo vacía con constante de tiempo $tau = R C$. Aun así no hay que fiarse: la tensión tarda en bajar y la resistencia puede abrirse con los años, así que antes de meter la mano se descargan los condensadores con una punta unida a masa y se comprueba con el voltímetro."
+ },
+ {
+  "nid": "N-T10-03",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En el cable de alimentación de 13,8 V de un transceptor conectado a una batería, el fusible debe colocarse:",
+  "opciones": [
+   "en el negativo, junto al transceptor",
+   "en el positivo, lo más cerca posible de la batería",
+   "en el positivo, junto al transceptor",
+   "en ningún sitio: en baja tensión no hace falta fusible"
+  ],
+  "clave": "b",
+  "sol": "En el positivo y junto a la batería, el fusible protege también el cable: un cortocircuito del cable contra el chasis quedaría sin protección si el fusible estuviera junto al equipo. Que 12 V no den calambre no hace inofensiva a una batería: en cortocircuito puede entregar cientos de amperios."
+ },
+ {
+  "nid": "N-T10-04",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una fuente de alimentación sin avería funde en cada encendido el fusible rápido (F) que le han puesto. Lo correcto es sustituirlo por:",
+  "opciones": [
+   "un fusible temporizado (T) del mismo calibre",
+   "un fusible rápido de calibre mucho mayor",
+   "un puente de hilo de cobre",
+   "un fusible rápido de menor calibre"
+  ],
+  "clave": "a",
+  "sol": "Los fusibles temporizados o lentos (T) soportan sin fundirse las puntas breves de corriente del arranque (carga de los condensadores, magnetización del transformador) y solo se funden si la sobrecarga dura. Subir el calibre o puentear quita la protección."
+ },
+ {
+  "nid": "N-T10-05",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Para proteger la instalación de antena contra las descargas atmosféricas, es correcto:",
+  "opciones": [
+   "unir el mástil y la malla del coaxial a tierra por el exterior, con conductores cortos y directos, y poner un descargador en la entrada del cable",
+   "aislar el mástil de tierra para que el rayo no lo busque",
+   "usar para el mástil una toma de tierra independiente, separada de la de los equipos",
+   "llevar el conductor de tierra del mástil por el interior de la vivienda"
+  ],
+  "clave": "a",
+  "sol": "El rayo busca el camino más corto al suelo, y un conductor grueso por el exterior hasta la pica se lo da sin pasar por la casa. El descargador deriva a tierra las sobretensiones inducidas en el coaxial. Mástil, descargador y chasis van a una sola tierra: con tierras separadas aparecerían miles de voltios entre ellas durante la descarga."
+ }
+]

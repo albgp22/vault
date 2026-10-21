@@ -1,0 +1,142 @@
+[
+ {
+  "nid": "N-R3-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La abreviatura operacional `CUL` significa:",
+  "opciones": [
+   "llamada general a todas las estaciones",
+   "cierro la estación",
+   "hasta luego",
+   "recibido conforme"
+  ],
+  "clave": "c",
+  "sol": "`CUL` viene del inglés _see you later_: «hasta luego», una despedida informal al final de un contacto. La llamada general es `CQ`, el cierre de la estación es `CL` y «recibido» es `R`."
+ },
+ {
+  "nid": "N-R3-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La abreviatura `GN` se emplea para desear al corresponsal:",
+  "opciones": [
+   "buenos días",
+   "buenas noches",
+   "buenas tardes",
+   "buena suerte"
+  ],
+  "clave": "b",
+  "sol": "`GN` es _good night_: «buenas noches». Los saludos se forman con la G de _good_ y la inicial de lo que se desea: `GM` (_morning_) buenos días, `GE` (_evening_) buenas tardes y `GL` (_luck_) buena suerte."
+ },
+ {
+  "nid": "N-R4-01",
+  "veredicto": "corregida",
+  "motivo": "Ambigüedad: la opción a) (2400–2450 MHz) está dentro de la banda, así que «comprende las frecuencias» también la hace defendible. Se pide el margen completo.",
+  "enunciado": "La banda de aficionados de 13 cm abarca en España, de extremo a extremo, las frecuencias:",
+  "opciones": [
+   "1240 a 1300 MHz",
+   "2400 a 2450 MHz",
+   "5650 a 5850 MHz",
+   "2300 a 2450 MHz"
+  ],
+  "clave": "d",
+  "sol": "Según el Anexo I de la Orden, la banda de 13 cm va de 2300 a 2450 MHz (y necesita autorización especial, salvo la subbanda de 2316 a 2332 MHz). 1240–1300 MHz es la de 23 cm y 5650–5850 MHz la de 6 cm; 2400–2450 MHz es solo el tramo superior, que coincide con una banda ICM."
+ },
+ {
+  "nid": "N-R5-01",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Los prefijos de uso temporal AM y AN se autorizan para:",
+  "opciones": [
+   "eventos relevantes de ámbito internacional",
+   "concursos, experimentos y demostraciones de ámbito local manteniendo el resto del distintivo",
+   "eventos relevantes de ámbito nacional",
+   "las estaciones automáticas desatendidas"
+  ],
+  "clave": "c",
+  "sol": "La Orden IET/1311/2013 escalona los prefijos temporales según el rango del evento: AM y AN, eventos relevantes de ámbito nacional, con sufijo propio. AO es el de los eventos relevantes de ámbito internacional, que es la confusión típica. ED, EE y EF son los de eventos ordinarios y mantienen el resto del distintivo; ED es además el prefijo permanente de las desatendidas."
+ },
+ {
+  "nid": "N-R5-02",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En una emisión de larga duración, además de al comienzo y al final, la estación de aficionado debe transmitir su distintivo de llamada, según la Orden IET/1311/2013, al menos cada:",
+  "opciones": [
+   "5 minutos",
+   "10 minutos",
+   "15 minutos",
+   "30 minutos"
+  ],
+  "clave": "b",
+  "sol": "El art. 29 de la Orden exige el distintivo al comienzo y al final de cada emisión y, en las de larga duración, al menos cada diez minutos. Así quien sintoniza a mitad de la comunicación sabe quién transmite. No confundas con los 30 días al año de los distintivos temporales."
+ },
+ {
+  "nid": "N-R5-03",
+  "veredicto": "corregida",
+  "motivo": "La sol afirmaba que diez y veinticinco años «no figuran en la norma», dato no respaldado (la Res. de 2026 sí habla de los últimos veinte años y de hasta diez preferentes). Se reformula.",
+  "enunciado": "Para que se le asigne un distintivo con sufijo de una sola letra, un radioaficionado con al menos cinco años de autorización española y sin expediente sancionador en los últimos cinco años debe acreditar una práctica en la radioafición internacional de:",
+  "opciones": [
+   "cinco años",
+   "diez años",
+   "quince años",
+   "veinticinco años"
+  ],
+  "clave": "c",
+  "sol": "El art. 27 de la Orden pide quince años de práctica internacional para el sufijo de una letra. Los cinco años son los que se exigen para el de dos letras, y por eso son la trampa típica. Ni diez ni veinticinco años son requisito para ningún sufijo."
+ },
+ {
+  "nid": "N-R6-01",
+  "veredicto": "corregida",
+  "motivo": "La opción a) atribuía a la UIT la condición de organismo de las Naciones Unidas, dato que el libro no recoge; se describe sin ese dato.",
+  "enunciado": "La IARU (Unión Internacional de Radioaficionados) es:",
+  "opciones": [
+   "el organismo internacional que atribuye las bandas de frecuencias a los distintos servicios",
+   "la federación que agrupa a las asociaciones nacionales de radioaficionados, como la URE en España",
+   "el órgano de la CEPT que expide la licencia CEPT",
+   "la autoridad que inspecciona las estaciones de aficionado en España"
+  ],
+  "clave": "b",
+  "sol": "La IARU agrupa a las asociaciones nacionales de radioaficionados (en España, la URE) y, como la UIT, se organiza en tres Regiones, cada una con su plan de bandas. Quien atribuye las bandas a los servicios es la UIT, no la IARU; por eso sus planes son acuerdos voluntarios y no normas legales. La inspección corresponde al Estado."
+ },
+ {
+  "nid": "N-R6-02",
+  "veredicto": "corregida",
+  "motivo": "La sol daba datos no respaldados por r0*.typ ni cheatsheet.typ (144,300 MHz como centro de SSB, satélites en 145,806–146,000 MHz, llamada de FM en 145,500 MHz; solo aparecen en un apéndice). Se eliminan.",
+  "enunciado": "En la banda de 2 m, el plan de bandas de la IARU para la Región 1 dedica el segmento 144,400–144,491 MHz a:",
+  "opciones": [
+   "la entrada de los repetidores de FM",
+   "las comunicaciones por satélite",
+   "las balizas",
+   "la frecuencia de llamada de FM"
+  ],
+  "clave": "c",
+  "sol": "Según el plan de bandas de la IARU para la Región 1, el tramo 144,400–144,491 MHz de la banda de 2 m es el de las balizas. La entrada de los repetidores de FM está en otro tramo, 145,000–145,1875 MHz (con la salida 600 kHz más arriba). Ni las comunicaciones por satélite ni la frecuencia de llamada de FM están en el segmento de balizas."
+ },
+ {
+  "nid": "N-R7-01",
+  "veredicto": "corregida",
+  "motivo": "Precisión en la sol: el cambio de frecuencia se hace al establecer el contacto, no «tras el contacto».",
+  "enunciado": "Sobre el uso de las frecuencias por los radioaficionados, es correcto afirmar que:",
+  "opciones": [
+   "quien la usa a diario adquiere un derecho preferente sobre ella",
+   "las asociaciones pueden reservar frecuencias de uso exclusivo para sus socios",
+   "nadie es dueño de una frecuencia, y antes de usarla hay que escuchar si está ocupada",
+   "las frecuencias de llamada pertenecen a la primera estación que llama en ellas"
+  ],
+  "clave": "c",
+  "sol": "Ninguna estación es dueña de una frecuencia: se comparte, y por eso se escucha antes de transmitir (QRL?). Ni el uso habitual ni la pertenencia a una asociación dan derechos exclusivos. Las frecuencias de llamada son solo un punto de encuentro: una vez establecido el contacto, se pasa (QSY) a otra frecuencia libre."
+ },
+ {
+  "nid": "N-R7-02",
+  "veredicto": "corregida",
+  "motivo": "Sol: «QSL» es «acuse de recibo» (no «acuso recibo») y el uso para diplomas no está respaldado por el libro; se retira.",
+  "enunciado": "La tarjeta QSL que intercambian los radioaficionados sirve para:",
+  "opciones": [
+   "acreditar la autorización ante la inspección de telecomunicaciones",
+   "confirmar el contacto realizado entre dos estaciones",
+   "solicitar a la Administración un distintivo temporal",
+   "pedir a la otra estación que reduzca la potencia"
+  ],
+  "clave": "b",
+  "sol": "La QSL es la confirmación escrita de un contacto (el grupo `QSL` significa «acuse de recibo»). Según la Resolución de 2026, las tarjetas QSL sirven además para acreditar la práctica internacional al pedir el sufijo de una letra. No es un documento administrativo, y pedir que se reduzca la potencia es `QRP`."
+ }
+]

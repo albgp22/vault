@@ -9,3 +9,4 @@ build/*.pdf
 __pycache__/
 build/simulacros/prueba-todo.*
 build/simulacros/plan-prueba.json
+!build/simulacros.pdf

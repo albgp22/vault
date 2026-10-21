@@ -1,0 +1,1319 @@
+T1-01 | T1 | peso 3 | Unidades de intensidad, tensión, resistencia y potencia (A, V, Ω, W)
+    C-T1.6: La unidad de potencia eléctrica es: → el vatio
+T1-02 | T1 | peso 2 | Equivalencias de la ley de Ohm: 1 Ω = 1 V/1 A y 1 V = 1 Ω · 1 A
+    C-T1.1: En la teoría de electricidad, un ohmio equivale a: → 1 voltio / 1 amperio
+T1-03 | T1 | peso 2 | Carga y corriente: 1 C = 1 A · 1 s y 1 A = 1 C/s
+    T1.4: Un culombio es igual a: → el producto de un amperio por un segundo
+T1-04 | T1 | peso 1 | Definición de corriente eléctrica (movimiento de cargas) y de resistencia (oposición a su paso)
+    C-T1.22: Al flujo de electrones que circula por un conductor se le llama: → Corriente eléctrica
+T1-05 | T1 | peso 1 | Símbolo de la impedancia: Z
+    C-T1.30: En electricidad, la letra $Z$ corresponde a: → Impedancia.
+T1-06 | T1 | peso 2 | Prefijos del SI y conversión entre múltiplos y submúltiplos
+    C-T1.24: Un miliohmio equivale a: → 0,001 Ω
+    F-T1.15: Un condensador de 0,01 μF tiene una capacidad de: → 10 nF
+T1-07 | T1 | peso 1 | Materiales conductores y aislantes
+    C-T1.12: Entre los siguientes materiales, es buen conductor: → mercurio
+T1-08 | T1 | peso 1 | Conductividad como inversa de la resistividad
+    N-T1-01: La conductividad de un material es: → la inversa de su resistividad
+T1-09 | T1 | peso 3 | Ley de Ohm: hallar V, I o R
+    T1.6: Por una resistencia de 1 kΩ circula una corriente continua de 10 mA. La diferencia de potencial entre sus extremos es de: → 10 V
+    C-T1.5: En un circuito eléctrico de corriente continua: → la intensidad está en razón directa a la tensión
+T1-10 | T1 | peso 2 | Resistencia de un conductor: R = ρ l / S
+    T1.36: La resistencia eléctrica de un conductor es directamente proporcional a: → su resistividad y su longitud
+T1-11 | T1 | peso 3 | Potencia eléctrica: P = V I = I² R = V² / R
+    T1.9: Según las leyes básicas de la electricidad, señale la fórmula incorrecta: → $P = E^2 dot R$
+    T1.8: La potencia disipada en una resistencia de 30 ohmios por la que circula una corriente de 2 amperios es de: → 120 vatios
+T1-12 | T1 | peso 2 | Ley de Kirchhoff de las corrientes (nudos)
+    F-T1.50: La ley de Kirchhoff de las corrientes (ley de los nudos) establece que, en un nudo de un circuito: → la suma de las corrientes que entran es igual a la suma de las que salen
+T1-13 | T1 | peso 2 | Ley de Kirchhoff de las tensiones (mallas)
+    F-T1.52: Una batería de 12 V alimenta tres resistencias en serie (resistencia interna despreciable). Si en dos de ellas caen 3 V y 5 V, en la tercera cae: → 4 V
+T1-14 | T1 | peso 2 | Ley de Coulomb: proporcional al producto de las cargas e inversa al cuadrado de la distancia
+    T1.10: La ley de Coulomb establece que la fuerza entre dos cargas eléctricas es: → directamente proporcional al producto de las cargas
+    N-T1-02: Si se duplica la distancia entre dos cargas eléctricas, la fuerza entre ellas: → se reduce a la cuarta parte
+T1-15 | T1 | peso 2 | La batería convierte energía química en eléctrica
+    T1.11: Una batería eléctrica es un dispositivo que convierte: → energía química en energía eléctrica
+T1-16 | T1 | peso 1 | Diferencia entre pila (no recargable) y acumulador (recargable)
+    C-T1.18: La diferencia entre un acumulador y una pila es: → Que el acumulador se carga
+T1-17 | T1 | peso 2 | Fuerza electromotriz: caracteriza al generador y se mide en voltios
+    C-T1.11: La fuerza electromotriz de un generador se mide en: → voltios
+T1-18 | T1 | peso 2 | Fuente real: V = ε − I r y corriente de cortocircuito ε / r
+    F-T1.56: Una batería de 12 V de fuerza electromotriz y 0,5 Ω de resistencia interna entrega 4 A a una carga. La tensión en sus terminales es de: → 10 V
+T1-19 | T1 | peso 3 | Asociación de pilas: en serie se suman las tensiones; en paralelo, las corrientes (y baja la resistencia interna)
+    T1.42: Si se conectan en serie cuatro pilas iguales: → la tensión se cuadruplica y la intensidad es la de una sola pila
+    C-T1.29: En un circuito con varias baterías conectadas en paralelo: → La resistencia interna equivalente del conjunto disminuye.
+T1-20 | T1 | peso 2 | Capacidad de una batería en amperios-hora: t = C / I
+    T1.12: Una batería con una capacidad de 7 amperios-hora puede suministrar una corriente de 0,5 A durante aproximadamente: → 14 horas
+T1-21 | T1 | peso 1 | Energía almacenada en una batería: tensión × amperios-hora (Wh)
+    N-T1-03: Una batería de 12 V y 7 Ah almacena una energía aproximada de: → 84 Wh
+T1-22 | T1 | peso 1 | Dinamo: el colector y las escobillas
+    C-T1.19: Cuando se habla del colector nos referimos a: → Una dinamo
+T1-23 | T1 | peso 1 | Un electroimán almacena energía en su campo magnético con corriente continua
+    C-T1.20: Para que un electroimán almacene energía: → Basta con pasar una corriente continua
+T1-24 | T1 | peso 1 | Bobinados acoplados en el mismo sentido: las inducciones se suman
+    C-T1.27: Cuando dos bobinados tienen sus espiras en la misma dirección: → Sus inducciones se suman.
+T1-25 | T1 | peso 1 | Reactancias inductiva y capacitiva: propiedades opuestas
+    C-T1.10: Las reactancias inductiva y capacitiva tienen propiedades: → opuestas
+T1-26 | T1 | peso 2 | Unidad de intensidad de campo eléctrico: V/m (dBV/m, dBμV/m)
+    C-T1.7: Para medir la intensidad del campo eléctrico se utilizan unidades de: → dBV/m
+T1-27 | T1 | peso 1 | Campo eléctrico entre placas: E = V / d
+    N-T1-04: Entre dos placas paralelas separadas 2 cm hay una diferencia de potencial de 100 V. El campo eléctrico entre ellas vale: → 5000 V/m
+T1-28 | T1 | peso 1 | Campo magnético de un conductor rectilíneo: circunferencias concéntricas, más intenso con más corriente y menos distancia
+    F-T1.1: El campo magnético creado por un conductor rectilíneo largo recorrido por corriente es más intenso cuanto: → mayor es la corriente y menor es la distancia al conductor
+    F-T1.2: Las líneas del campo magnético alrededor de un conductor rectilíneo con corriente son: → circunferencias concéntricas con el conductor, en planos perpendiculares a él
+T1-29 | T1 | peso 1 | Apantallamiento: el campo magnético de baja frecuencia exige material ferromagnético
+    F-T1.3: Para apantallar un campo magnético de baja frecuencia (por ejemplo, el de 50 Hz de un transformador de red) conviene emplear: → una envolvente de material ferromagnético de alta permeabilidad, como el mu-metal o el hierro dulce
+T1-30 | T1 | peso 2 | Las ondas de radio son electromagnéticas
+    T1.14: Las ondas de radio son de naturaleza: → electromagnética
+T1-31 | T1 | peso 2 | Onda electromagnética: campos E y B perpendiculares entre sí y a la propagación
+    N-T1-05: En una onda electromagnética, el campo eléctrico y el campo magnético son: → perpendiculares entre sí y perpendiculares a la dirección de propagación
+T1-32 | T1 | peso 2 | Polarización: la dirección del campo eléctrico
+    T1.40: En una onda electromagnética, la polarización queda determinada por: → la dirección del campo eléctrico
+T1-33 | T1 | peso 3 | Velocidad de propagación: c = 300.000 km/s, constante y sin depender de la frecuencia
+    C-T1.4: La velocidad de propagación de las ondas electromagnéticas: → es constante en un determinado medio
+    T1.15: La velocidad de propagación de las ondas electromagnéticas en el vacío es de: → 300.000 km/s
+T1-34 | T1 | peso 3 | Longitud de onda: λ = c / f, λ (m) ≈ 300 / f (MHz)
+    T1.17: La longitud de onda correspondiente a una frecuencia de 145 MHz es aproximadamente: → 2 m
+T1-35 | T1 | peso 2 | Denominación de las bandas (MF, HF, VHF, UHF, SHF)
+    T1.29: La radiodifusión sonora con modulación de frecuencia (FM comercial) utiliza la banda de: → VHF
+T1-36 | T1 | peso 2 | Frecuencia: ciclos por segundo (Hz), la característica de la corriente alterna
+    C-T1.15: El número de veces por segundo que una corriente alterna completa un ciclo recibe el nombre de: → frecuencia
+T1-37 | T1 | peso 2 | Período: T = 1 / f, tiempo entre dos máximos consecutivos
+    T1.19: El período de una señal sinusoidal de 25 Hz de frecuencia es: → 40 ms
+T1-38 | T1 | peso 1 | Amplitud (máximo menos valor medio) y parámetros que caracterizan una señal
+    T1.21: Se entiende por «amplitud» de una señal sinusoidal: → la diferencia entre el valor máximo y el valor medio de la señal
+T1-39 | T1 | peso 3 | Valor eficaz: definición por el efecto calorífico; la tensión de red se da en eficaz
+    T1.39: Se llama valor eficaz de una corriente alterna: → el de la corriente continua que produciría el mismo efecto calorífico
+    C-T1.23: La tensión de alimentación suministrada comúnmente es de 220 V, que es el valor: → Eficaz de la tensión
+T1-40 | T1 | peso 3 | Conversión entre valores de pico, pico a pico y eficaz de una sinusoide (V_ef = V_p / √2)
+    T1.20: El valor eficaz de una tensión sinusoidal cuyo valor máximo es 100 V es aproximadamente: → 70,7 V
+    F-T1.5: Una señal sinusoidal de 20 V de pico a pico tiene un valor eficaz aproximado de: → 7,07 V
+T1-41 | T1 | peso 2 | Potencia de una sinusoide en una resistencia: pasar antes a valor eficaz (P = V_p² / 2R)
+    F-T1.33: Un osciloscopio mide 200 V de pico a pico en una señal sinusoidal aplicada a una carga artificial de 50 Ω. La potencia disipada es de: → 100 W
+T1-42 | T1 | peso 1 | Diferencia de fase expresada como retardo: Δφ = 360° · Δt / T
+    F-T1.6: Una señal sinusoidal de 1 kHz y otra idéntica retrasada 250 μs respecto a ella tienen entre sí un desfase de: → 90°
+T1-43 | T1 | peso 2 | En un circuito resistivo, tensión e intensidad están en fase
+    T1.44: En un circuito puramente resistivo recorrido por corriente alterna, la tensión y la intensidad: → están en fase
+T1-44 | T1 | peso 2 | Factor de potencia: coseno del desfase entre tensión y corriente
+    T1.35: En una instalación de corriente alterna, el llamado «factor de potencia» o $cos phi$ es: → el coseno del ángulo de desfase entre la tensión y la corriente
+T1-45 | T1 | peso 2 | Señales no sinusoidales: fundamental y armónicos (onda cuadrada: solo impares)
+    F-T1.7: Un oscilador genera una onda cuadrada simétrica (ciclo de trabajo del 50 %, sin componente continua) de 7,05 MHz. Además de la fundamental, su espectro contiene componentes en: → 21,15 MHz, 35,25 MHz, 49,35 MHz…(solo los múltiplos impares)
+T1-46 | T1 | peso 2 | Ruido térmico y ruido blanco: P = k T B, independiente de la frecuencia
+    T1.23: En un sistema de radiocomunicación, el llamado «ruido blanco»: → es independiente de la frecuencia
+    F-T1.9: Si se reduce a la mitad el ancho de banda del filtro de un receptor, la potencia de ruido térmico que admite: → disminuye 3 dB
+T1-47 | T1 | peso 1 | Suelo de ruido térmico: −174 dBm/Hz más 10 log B
+    F-T1.10: La potencia de ruido térmico en un ancho de banda de 1 kHz, a la temperatura de referencia de 290 K, es de aproximadamente: → −144 dBm
+T1-48 | T1 | peso 1 | Señal analógica: infinitos valores; digital: valores discretos
+    T1.24: En los sistemas de transmisión analógicos, las señales: → pueden tomar infinitos valores
+T1-49 | T1 | peso 2 | Objeto de la modulación: que la portadora transporte la información
+    T1.46: En una emisión radioeléctrica, la modulación tiene por objeto: → que la portadora transporte la información
+T1-50 | T1 | peso 2 | Parámetro que varía en cada modulación analógica (AM amplitud, FM frecuencia, PM fase)
+    T1.25: En la modulación de amplitud (AM), la señal moduladora hace variar: → la amplitud de la portadora
+T1-51 | T1 | peso 1 | Telegrafía A1A: trenes de portadora de amplitud constante (todo o nada)
+    F-T1.19: Una emisión de telegrafía manual A1A, vista en un osciloscopio, consiste en: → trenes de portadora de amplitud constante que aparecen y desaparecen al ritmo de la manipulación
+T1-52 | T1 | peso 2 | Espectro de AM: portadora y dos bandas laterales en f_c ± f_m
+    F-T1.21: Una portadora de 3,700 MHz modulada en AM por un tono de 1 kHz produce un espectro con rayas en: → 3,699, 3,700 y 3,701 MHz
+T1-53 | T1 | peso 3 | Anchuras de banda típicas: CW < SSB (2,7 kHz) < AM (6 kHz) < FM
+    C-T1.31: ¿Qué tipo de comunicación ocupa un mayor ancho de banda? → Frecuencia modulada
+    T1.28: La anchura de banda de una emisión de telefonía en banda lateral única con portadora suprimida (J3E) es aproximadamente: → 2,7 kHz
+T1-54 | T1 | peso 1 | Índice de modulación de AM a partir de la envolvente: m = (A_máx − A_mín) / (A_máx + A_mín)
+    F-T1.13: La envolvente de una emisión de AM oscila entre un máximo de 15 V y un mínimo de 5 V. El índice de modulación es de: → 50 %
+T1-55 | T1 | peso 3 | Sobremodulación: índice superior al 100 %; envolvente recortada
+    T1.26: Decimos que una emisión de AM está sobremodulada cuando: → el índice de modulación es superior al 100 %
+    F-T1.20: En el osciloscopio, la envolvente de una portadora de AM con un índice de modulación inferior al 100 % se reconoce porque: → copia la moduladora sin llegar nunca a anularse
+T1-56 | T1 | peso 2 | Potencia de AM: P_t = P_c (1 + m²/2), reparto entre portadora y bandas
+    F-T1.14: Un transmisor de AM tiene una potencia de portadora de 100 W. Modulado al 100 %, la potencia total de la emisión es de: → 150 W
+T1-57 | T1 | peso 1 | Potencia en la cresta de la envolvente en AM al 100 %: cuatro veces la de portadora
+    F-T1.41: Un transmisor de AM con 25 W de potencia de portadora se modula al 100 %. Su potencia en la cresta de la envolvente (p.c.e.) es de: → 100 W
+T1-58 | T1 | peso 3 | SSB (J3E): una sola banda lateral, sin portadora
+    T1.27: En una emisión de banda lateral única (SSB): → se transmite una sola banda lateral sin portadora
+T1-59 | T1 | peso 1 | USB: todo el espectro por encima de la portadora suprimida
+    F-T1.22: El espectro de una emisión J3E en banda lateral superior (USB), con la portadora suprimida, contiene: → solo componentes por encima de la frecuencia de la portadora suprimida
+T1-60 | T1 | peso 2 | FM: amplitud constante; varía la frecuencia instantánea
+    F-T1.18: La forma de onda de una portadora modulada en frecuencia se caracteriza porque: → su amplitud es constante y lo que varía es el espaciado de los ciclos (la frecuencia instantánea)
+T1-61 | T1 | peso 2 | Regla de Carson: B ≈ 2 (Δf + f_m)
+    F-T1.17: Un transmisor de FM con una desviación máxima de 5 kHz se modula con un tono de 3 kHz. Según la regla de Carson, la anchura de banda que ocupa es aproximadamente de: → 16 kHz
+T1-62 | T1 | peso 1 | Espectro de FM: muchas bandas laterales separadas f_m
+    F-T1.23: El espectro de una emisión de FM con un índice de modulación elevado presenta: → numerosas bandas laterales separadas entre sí una distancia igual a la frecuencia moduladora
+T1-63 | T1 | peso 1 | Efecto captura en FM
+    N-T1-06: Dos emisoras de FM transmiten en la misma frecuencia y llegan al receptor con intensidades muy distintas. Lo normal es que: → el receptor se quede con la más fuerte y suprima casi por completo la más débil
+T1-64 | T1 | peso 1 | Modulación digital: moduladora digital aplicada a un modulador digital
+    C-T1.25: Di cuál es la sentencia correcta: → Una modulación digital se obtiene al aplicar una señal digital sobre un modulador digital.
+T1-65 | T1 | peso 2 | FSK, PSK y QAM: qué parámetro de la portadora varía cada una
+    F-T1.24: En la modulación FSK, la información digital se transmite variando: → la frecuencia de la portadora entre valores discretos
+    F-T1.26: La modulación QAM se caracteriza porque la información digital se transmite variando: → la amplitud y la fase de la portadora a la vez
+T1-66 | T1 | peso 2 | Bits por símbolo (log₂ M) y velocidad binaria = baudios × bits por símbolo
+    F-T1.27: Una modulación 4PSK transporta 2 bits por símbolo. Si la velocidad de símbolo es de 1200 baudios, la velocidad binaria es de: → 2400 bit/s
+T1-67 | T1 | peso 1 | La anchura de banda digital la fija la velocidad de símbolo, no la de bit
+    F-T1.29: Al pasar de 2PSK a 4PSK manteniendo la misma velocidad de símbolo: → se duplica la velocidad binaria sin aumentar la anchura de banda
+T1-68 | T1 | peso 2 | CRC detecta errores; FEC los corrige sin retransmisión a costa de velocidad útil
+    F-T1.30: En una transmisión digital, la diferencia esencial entre el CRC y el FEC es que: → el CRC solo detecta errores; el FEC añade redundancia para corregirlos sin retransmisión
+    F-T1.32: Al añadir FEC a una transmisión digital sin cambiar la velocidad de bits por el canal, la velocidad de información útil: → disminuye, porque parte de los bits transmitidos son de redundancia
+T1-69 | T1 | peso 1 | Velocidad binaria comercial: «megas» son Mbit/s (bits, no bytes)
+    C-T1.28: Si un usuario tiene contratado un acceso a Internet «ADSL de 2 megas», esto significa que: → Dispone de un ancho de banda de 2 millones de bits por segundo.
+T1-70 | T1 | peso 2 | El decibelio compara niveles de potencia (escala logarítmica)
+    C-T1.8: El decibelio es una unidad de medida utilizada para: → la comparación de niveles de potencia eléctrica
+T1-71 | T1 | peso 3 | Referencias de decibelios: ×2 = +3 dB, ×4 = +6 dB, ×10 = +10 dB, ÷2 = −3 dB
+    T1.30: Si la potencia de salida de un transmisor se duplica, el aumento expresado en decibelios es de: → 3 dB
+    F-T1.37: Un transmisor entrega 10 W a un cable coaxial que atenúa 3 dB. La potencia que llega a la antena es aproximadamente de: → 5 W
+T1-72 | T1 | peso 2 | En una cadena, las ganancias y pérdidas en dB se suman y restan
+    F-T1.38: A un amplificador de 10 dB de ganancia se aplican 2 W y su salida pasa por un atenuador de 6 dB. La potencia final es aproximadamente de: → 5 W
+T1-73 | T1 | peso 2 | dBm: decibelio referido a 1 mW, P(dBm) = 10 log (P / 1 mW)
+    C-T1.26: Di qué expresión convierte la potencia expresada en vatios a potencia expresada en dBm. → $P ("dBm") = 10 · log lr([ (P ("W")) / 10^(−3) ])$
+T1-74 | T1 | peso 2 | Máxima transferencia de potencia: impedancias adaptadas
+    T1.31: La transferencia máxima de potencia entre dos circuitos se produce cuando: → existe adaptación entre sus impedancias
+T1-75 | T1 | peso 2 | Rendimiento: η = P_sal / P_alim; el resto se disipa en calor
+    F-T1.39: Un amplificador consume 200 W de la fuente de alimentación y entrega 120 W de RF. Su rendimiento es del: → 60 %
+    F-T1.40: Un amplificador entrega 50 W de RF con un rendimiento del 40 %. La potencia que se disipa en forma de calor es de: → 75 W
+T1-76 | T1 | peso 2 | Energía = potencia × tiempo (julio = W·s, kWh)
+    F-T1.53: La energía eléctrica consumida por una estufa de 2 kW que funciona durante 3 horas es de: → 6 kWh
+    F-T1.54: El julio, unidad de energía, equivale a: → un vatio multiplicado por un segundo
+T1-77 | T1 | peso 1 | Procesador digital de señal (DSP): hardware y software para procesar señales digitalizadas
+    T1.33: Se entiende por «procesador digital de señal» (DSP): → un sistema con hardware y software optimizados para procesar digitalmente la señal a muy alta velocidad
+T1-78 | T1 | peso 2 | Conversores A/D y D/A: qué convierte cada uno
+    F-T1.48: Un conversor analógico-digital (A/D) convierte: → una señal analógica en una secuencia de números binarios
+T1-79 | T1 | peso 3 | Teorema de Nyquist: f_s ≥ 2 f_máx
+    T1.32: Para digitalizar sin pérdida de información una señal de audio cuya frecuencia máxima es de 3 kHz, la frecuencia de muestreo mínima debe ser de: → 6 kHz
+    F-T1.42: Un conversor A/D muestrea una señal a 8 kHz. La frecuencia máxima de la señal que se puede digitalizar sin aliasing es de: → 4 kHz
+T1-80 | T1 | peso 2 | Aliasing: las frecuencias por encima de f_s/2 se confunden con otras más bajas
+    F-T1.43: Si una señal se muestrea a una frecuencia inferior al doble de su frecuencia máxima, se produce: → aliasing: las componentes de frecuencia alta se confunden con otras más bajas y ya no pueden distinguirse de ellas
+T1-81 | T1 | peso 2 | Filtros antisolapamiento (paso bajo antes del A/D) y de reconstrucción (paso bajo tras el D/A)
+    F-T1.45: El filtro antisolapamiento (anti-aliasing) de un sistema de procesado digital de señales se coloca: → antes del conversor A/D, y es un filtro paso bajo
+    F-T1.47: El filtro de reconstrucción de un sistema digital se sitúa a la salida del conversor D/A y sirve para: → suavizar la señal escalonada, eliminando las componentes de alta frecuencia que introduce el muestreo
+T1-82 | T1 | peso 1 | Cuantificación: 2^n niveles; cada bit añade unos 6 dB de relación señal/ruido
+    F-T1.44: Un conversor analógico-digital de 10 bits cuantifica cada muestra en uno de: → 1024 niveles
+    N-T1-07: Si un conversor A/D pasa de 8 a 10 bits, su relación señal/ruido de cuantificación mejora aproximadamente: → 12 dB
+T2-01 | T2 | peso 3 | Código de colores: cifra que representa cada color (negro 0 … blanco 9)
+    C-T2.6: En las dos primeras franjas que indican el valor de una resistencia, la cifra cinco está representada por el color: → Verde
+T2-02 | T2 | peso 3 | Código de colores: leer el valor de una resistencia de cuatro bandas (cifras + multiplicador)
+    C-T2.17: El valor y la tolerancia de las resistencias más habituales se indican mediante un código de colores. Indique el valor de la resistencia cuyos colores son, por este orden: verde, rojo, rojo, plata: → 5,2 kΩ y 10 % de tolerancia.
+T2-03 | T2 | peso 2 | Código de colores: la cuarta banda es la tolerancia (oro ±5 %, plata ±10 %, marrón ±1 %)
+    T2.46: En el código de colores de un componente, una tolerancia del 5 % se representa con una franja de color: → oro
+T2-04 | T2 | peso 2 | Una resistencia fija se especifica por valor, potencia de disipación y tolerancia
+    T2.56: Una resistencia fija queda determinada por: → su valor óhmico, la potencia que puede disipar y su tolerancia
+T2-05 | T2 | peso 2 | Disipación máxima de una resistencia: tensión o corriente máximas a partir de P y R
+    F-T2.26: La tensión máxima que puede aplicarse a una resistencia de 100 Ω y 1 W, sin superar su potencia nominal, es de: → 10 V
+T2-06 | T2 | peso 1 | Resistencias de hilo bobinado: mucha potencia y estabilidad, pero inductivas (no valen en RF)
+    F-T2.2: Las resistencias de hilo bobinado se emplean, frente a las de carbón, cuando se necesita: → disipar potencias elevadas con buena estabilidad
+T2-07 | T2 | peso 1 | Potenciómetro: resistencia variable de tres terminales con cursor
+    F-T2.1: Una resistencia variable de tres terminales, con un cursor móvil entre dos extremos y empleada, por ejemplo, como control de volumen, se denomina: → potenciómetro
+T2-08 | T2 | peso 2 | En un conductor metálico la resistencia aumenta con la temperatura
+    T2.3: Si aumenta la temperatura en un conductor: → aumenta también su resistencia eléctrica
+T2-09 | T2 | peso 3 | Termistores: PTC sube y NTC baja su resistencia al aumentar la temperatura
+    T2.5: Un termistor de tipo NTC es una resistencia cuyo valor: → se reduce a medida que la temperatura aumenta
+T2-10 | T2 | peso 2 | Varistor (VDR): su resistencia depende de la tensión aplicada; protege contra sobretensiones
+    T2.38: Una resistencia cuyo valor óhmico depende de la tensión aplicada entre sus extremos se denomina: → varistor
+T2-11 | T2 | peso 1 | Fotorresistencia (LDR): su resistencia depende de la luz
+    F-T2.3: Una resistencia cuyo valor óhmico depende de la luz que recibe se denomina: → fotorresistencia (LDR)
+T2-12 | T2 | peso 1 | Componentes lineales (óhmicos, recta I-V por el origen) y no lineales (diodo)
+    F-T2.25: Un componente cuya característica corriente-tensión no es una recta, como el diodo, se dice que es: → no lineal
+T2-13 | T2 | peso 1 | Múltiplos: 1 MΩ = un millón de ohmios
+    T2.57: Un megaohmio equivale a: → un millón de ohmios
+T2-14 | T2 | peso 2 | Unidad de capacidad: el faradio (no mide la carga)
+    T2.26: De las siguientes parejas unidad de medida/magnitud, señale la _incorrecta_: → faradio: cantidad de carga
+T2-15 | T2 | peso 2 | Capacidad: C = Q/V; el condensador almacena carga eléctrica
+    C-T2.14: La capacidad está dada por: → $C = Q slash E$
+T2-16 | T2 | peso 1 | El dieléctrico es un aislante
+    T2.9: Un dieléctrico es: → un aislante
+T2-17 | T2 | peso 2 | C = εS/d: la capacidad depende de la superficie, la separación y el dieléctrico
+    T2.50: Reducir el espesor del dieléctrico de un condensador, manteniendo el resto de sus dimensiones, produce: → un aumento de su capacidad
+    F-T2.28: En un condensador variable de aire de sintonía, formado por placas fijas y placas móviles, al girar el eje cambia: → la superficie de las placas que queda enfrentada
+T2-18 | T2 | peso 3 | La reactancia capacitiva disminuye al aumentar la frecuencia
+    T2.10: Al aumentar la frecuencia, la reactancia de un condensador: → disminuye
+T2-19 | T2 | peso 2 | Cálculo de la reactancia capacitiva X_C = 1/(2πfC)
+    F-T2.27: La reactancia de un condensador de 100 pF a 14 MHz es aproximadamente de: → 114 Ω
+T2-20 | T2 | peso 2 | Energía almacenada en un condensador: ½CV² (no confundir con ½LI²)
+    T2.13: La energía almacenada en un condensador de capacidad $C$ cargado a una tensión $V$ es: → $1/2 C V^2$
+T2-21 | T2 | peso 2 | El condensador se opone a las variaciones de tensión; la bobina, a las de corriente
+    T2.41: Un condensador intercalado en un circuito de corriente alterna tiende a: → oponerse a las variaciones de tensión entre sus armaduras
+T2-22 | T2 | peso 2 | En continua los condensadores se cargan al principio y luego bloquean la corriente
+    C-T2.12: En un circuito donde se aplica corriente continua se cargarían los condensadores si los hubiese: → Si, todos, al principio
+T2-23 | T2 | peso 2 | Constante de tiempo τ = RC: 63 % de la carga en un τ, carga completa en unos 5τ
+    N-T2-01: Un condensador descargado se conecta a una fuente de continua a través de una resistencia. Al cabo de un tiempo igual a la constante de tiempo $tau = R C$, la tensión del condensador ha alcanzado aproximadamente: → el 63 % de la tensión de la fuente
+T2-24 | T2 | peso 2 | Condensadores en serie: capacidad total menor que la menor (en paralelo se suman)
+    T2.47: La capacidad resultante de dos condensadores conectados en serie es: → menor que la de cualquiera de ellos
+T2-25 | T2 | peso 2 | Electrolítico: el dieléctrico es una capa de óxido (con el electrolito como pasta)
+    C-T2.3: El dieléctrico en los condensadores electrolíticos consiste en: → Una capa de óxido en contacto con una pasta química (electrolito)
+T2-26 | T2 | peso 2 | Electrolítico: polarizado, hay que respetar la polaridad
+    T2.11: Los condensadores electrolíticos: → deben conectarse respetando siempre la polaridad indicada
+T2-27 | T2 | peso 2 | Electrolítico: uso principal en el filtrado de fuentes de alimentación (no en RF)
+    T2.54: Los condensadores electrolíticos se emplean principalmente: → en el filtrado de las fuentes de alimentación
+T2-28 | T2 | peso 1 | Condensadores de mica: muy estables y de bajas pérdidas
+    F-T2.29: Los condensadores de mica se caracterizan por: → su gran estabilidad y sus bajas pérdidas
+T2-29 | T2 | peso 1 | Desacoplo de RF con condensadores cerámicos (poca inductancia propia)
+    F-T2.30: Para el desacoplo de radiofrecuencia, es decir, para llevar a masa la RF no deseada en un punto del circuito, se emplean habitualmente condensadores: → cerámicos
+T2-30 | T2 | peso 1 | Corriente de fuga de un condensador
+    F-T2.31: La corriente de fuga de un condensador es: → la pequeña corriente continua que atraviesa su dieléctrico por no ser un aislante perfecto
+T2-31 | T2 | peso 1 | Coeficiente de temperatura de un condensador
+    F-T2.32: El coeficiente de temperatura de un condensador indica: → cómo varía su capacidad cuando cambia la temperatura
+T2-32 | T2 | peso 1 | Marcado de condensadores con bandas de color (capacidad, tolerancia, tensión)
+    T2.12: Las bandas de colores de un condensador indican: → su capacidad, su tolerancia y su tensión máxima de trabajo
+T2-33 | T2 | peso 1 | Marcado de condensadores con código de tres cifras en pF (104 = 100 nF)
+    N-T2-02: Un condensador cerámico lleva impreso el código «104». Su capacidad es: → 100 nF
+T2-34 | T2 | peso 2 | Descarga segura de un condensador a través de un elemento exterior
+    T2.59: Para descargar con seguridad un condensador se debe: → conectar sus dos armaduras a través de un elemento exterior
+T2-35 | T2 | peso 2 | Unidad de autoinducción: el henrio
+    T2.14: La unidad de medida de la autoinducción de una bobina es: → el henrio
+T2-36 | T2 | peso 2 | La bobina almacena energía en el campo magnético (½LI²)
+    T2.15: El componente que almacena energía en forma de campo magnético es: → la bobina
+T2-37 | T2 | peso 2 | La autoinducción depende de la construcción de la bobina (núcleo, dimensiones, temperatura), no de la señal
+    T2.40: Al introducir un núcleo de material ferromagnético en el interior de una bobina, su autoinducción: → aumenta
+    C-T2.15: La inductancia que presenta una bobina aumenta: → Si aumenta su temperatura
+T2-38 | T2 | peso 1 | La autoinducción crece con el cuadrado del número de espiras
+    N-T2-03: Si se duplica el número de espiras de una bobina sin cambiar su diámetro ni su longitud, su autoinducción: → se cuadruplica
+T2-39 | T2 | peso 3 | La reactancia inductiva X_L = 2πfL crece con la frecuencia y es nula en continua
+    F-T2.6: Si se duplica la frecuencia de la corriente que recorre una bobina ideal, manteniendo su inductancia, su reactancia inductiva: → se duplica
+    T2.16: La reactancia inductiva de una bobina, cuando la frecuencia de la corriente es cero (corriente continua): → vale cero
+T2-40 | T2 | peso 2 | Cálculo de la reactancia inductiva X_L = 2πfL
+    F-T2.4: La reactancia inductiva de una bobina de 2 μH a 3,5 MHz es aproximadamente de: → 44 Ω
+T2-41 | T2 | peso 2 | Desfase en reactancias puras: en la bobina la tensión adelanta 90° (en el condensador, la corriente)
+    F-T2.5: En una bobina ideal recorrida por una corriente alterna sinusoidal, la tensión entre sus terminales: → adelanta 90° a la corriente
+T2-42 | T2 | peso 2 | Factor de calidad de una bobina: Q = X_L/R
+    C-T2.19: El Q de una bobina es: → Inversamente proporcional a la resistencia
+    F-T2.7: Una bobina presenta, a su frecuencia de trabajo, una reactancia de 500 Ω y una resistencia de pérdidas, en serie, de 5 Ω. Su factor de calidad $Q$ es de: → 100
+T2-43 | T2 | peso 2 | Efecto pelicular: en RF la corriente va por la superficie y la resistencia efectiva aumenta
+    F-T2.8: El efecto pelicular hace que, en radiofrecuencia, la corriente alterna circule: → principalmente por la superficie del conductor
+    F-T2.9: Como consecuencia del efecto pelicular, la resistencia de un conductor a frecuencias elevadas: → aumenta respecto a la que presenta en corriente continua
+T2-44 | T2 | peso 1 | Choque de RF: deja pasar la continua y frena la RF
+    N-T2-04: En la alimentación del transistor final de un transmisor se coloca en serie con el colector un choque de RF (una bobina). Su función es: → dejar pasar la continua de la fuente y frenar la RF para que no se escape hacia la fuente
+T2-45 | T2 | peso 1 | Electroimán: atrae solo mientras circula corriente
+    T2.52: Un electroimán atrae a los objetos de hierro: → solo mientras circula corriente por su bobina
+T2-46 | T2 | peso 1 | Relé: electroimán que abre y cierra un circuito
+    C-T2.4: Un relevador o relé es un electroimán que se emplea para: → Abrir y cerrar un circuito eléctrico
+T2-47 | T2 | peso 2 | El transformador son dos bobinas acopladas que transforman una alterna en otra alterna
+    C-T2.5: Un transformador sirve para: → Transformar una corriente alterna en otra también alterna
+T2-48 | T2 | peso 2 | Con continua en el primario no hay corriente en el secundario
+    C-T2.7: Alimentando el primario de un transformador con corriente continua, en el circuito del secundario, cargado con una resistencia: → No hay paso de corriente
+T2-49 | T2 | peso 2 | Relación de transformación: cociente de tensiones o de espiras
+    C-T2.2: Una relación de transformación de un transformador es el cociente que resulta de dividir: → La tensión en el secundario por la tensión en el primario.
+    T2.18: En un transformador, se conoce como «relación de transformación»: → la relación entre el número de espiras del primario y el del secundario
+T2-50 | T2 | peso 3 | Elevador o reductor según el número de espiras de primario y secundario
+    C-T2.10: Si en un transformador el primario tiene menos espiras que el secundario, este transformador es: → Elevador
+T2-51 | T2 | peso 3 | Cálculo de la tensión del secundario: V_s = V_p · N_s/N_p
+    T2.19: Un transformador ideal tiene una relación de espiras primario/secundario de 20:1. Si se aplican 230 V al primario, la tensión en el secundario es: → 11,5 V
+T2-52 | T2 | peso 2 | Corrientes en el transformador ideal: van en proporción inversa a las tensiones (potencia constante)
+    F-T2.10: Un transformador ideal con 1000 espiras en el primario y 100 en el secundario se conecta a la red de 230 V. Si el secundario alimenta una carga que consume 5 A, la corriente que toma el primario es de: → 0,5 A
+T2-53 | T2 | peso 2 | El transformador también sirve para adaptar impedancias
+    T2.60: Además de elevar o reducir tensiones, los transformadores se emplean para: → la adaptación de impedancias entre dos circuitos
+T2-54 | T2 | peso 2 | Cálculo de la adaptación de impedancias: Z_p = (N_p/N_s)² Z_s (balun 4:1 = espiras 2:1)
+    F-T2.12: Un transformador ideal con una relación de espiras primario/secundario de 3:1 tiene en su secundario una carga de 8 Ω. La impedancia que presenta al generador conectado al primario es de: → 72 Ω
+    F-T2.13: Un balun de relación de impedancias 4:1 se construye como un transformador cuyos devanados guardan una relación de espiras de: → 2:1
+T2-55 | T2 | peso 1 | Autotransformador: primario y secundario comparten parte del devanado
+    T2.39: Un autotransformador es un transformador en el que: → los devanados primario y secundario tienen una parte común
+T2-56 | T2 | peso 1 | Núcleo de aire frente a núcleo ferromagnético
+    T2.55: Un transformador con núcleo de aire, comparado con uno de núcleo ferromagnético, presenta: → un factor de calidad más bajo a baja frecuencia
+T2-57 | T2 | peso 1 | Núcleo de chapas aisladas para reducir las corrientes de Foucault
+    N-T2-05: El núcleo de hierro de un transformador de red de 50 Hz se construye con chapas delgadas aisladas entre sí para: → reducir las pérdidas por corrientes de Foucault
+T2-58 | T2 | peso 1 | Materiales semiconductores: silicio y germanio
+    T2.37: De los siguientes materiales, es un semiconductor: → el germanio
+T2-59 | T2 | peso 1 | El transistor es un dispositivo semiconductor (de tres terminales)
+    C-T2.8: El transistor es: → Un semiconductor
+T2-60 | T2 | peso 1 | Semiconductor tipo P (mayoría de huecos) y el hueco como portador de carga positiva
+    T2.35: Un semiconductor de tipo P es aquel en el que: → la cantidad de huecos es mayor que la de electrones libres
+    T2.36: En un semiconductor se denomina «hueco» a: → un portador de carga positiva
+T2-61 | T2 | peso 3 | El diodo deja pasar la corriente en un solo sentido
+    T2.21: Se conoce con el nombre genérico de «diodo» a un dispositivo que: → permite el paso de la corriente eléctrica en un único sentido
+T2-62 | T2 | peso 2 | Aplicación del diodo: detección (y rectificación)
+    C-T2.13: Un diodo semiconductor: → Se utiliza en la detección
+T2-63 | T2 | peso 2 | Tensión de conducción en directa de un diodo de silicio: 0,6–0,7 V
+    N-T2-06: Un diodo de silicio polarizado en directa empieza a conducir de forma apreciable cuando la tensión entre sus terminales alcanza aproximadamente: → 0,6–0,7 V
+T2-64 | T2 | peso 1 | Corriente de fuga inversa del diodo: muy pequeña y crece con la temperatura
+    F-T2.17: La corriente de fuga de un diodo polarizado en inversa, por debajo de su tensión inversa máxima, es: → muy pequeña y aumenta con la temperatura
+T2-65 | T2 | peso 1 | Superar la tensión inversa máxima lleva a la ruptura y puede destruir el diodo
+    F-T2.18: Si se aplica a un diodo rectificador ordinario una tensión inversa superior a su tensión inversa máxima: → entra en ruptura, conduce en sentido inverso y puede destruirse
+T2-66 | T2 | peso 3 | Diodo zéner: estabiliza tensión trabajando en inversa, en la zona de ruptura
+    T2.22: El diodo zéner se utiliza principalmente para: → estabilizar una tensión
+    F-T2.14: Un diodo zéner estabiliza una tensión, la suya nominal, cuando se conecta en serie con una resistencia y polarizado: → en inversa, con tensión suficiente para trabajar en la zona de ruptura
+T2-67 | T2 | peso 1 | Cálculo de la resistencia serie de un zéner (corriente por la resistencia)
+    F-T2.15: Un diodo zéner de 12 V, polarizado en inversa y trabajando en ruptura, se alimenta desde una fuente de 20 V a través de una resistencia en serie de 160 Ω. La corriente que circula por la resistencia es de: → 50 mA
+T2-68 | T2 | peso 2 | LED: emite luz polarizado en directa
+    T2.33: Un diodo LED emite luz cuando: → se polariza directamente
+T2-69 | T2 | peso 1 | Cálculo de la resistencia limitadora de un LED
+    F-T2.16: Un LED cae 2 V cuando por él circulan 20 mA. Para alimentarlo con esa corriente desde una fuente de 9 V, la resistencia en serie debe ser de: → 350 Ω
+T2-70 | T2 | peso 2 | Varicap: capacidad controlada por la tensión inversa (más tensión, menos capacidad)
+    T2.25: Un diodo varicap es un diodo que: → varía su capacidad con la tensión inversa aplicada
+    N-T2-07: Al aumentar la tensión inversa aplicada a un diodo varicap, su capacidad: → disminuye
+T2-71 | T2 | peso 3 | Transistor bipolar: terminales emisor, base y colector; tipos NPN y PNP
+    T2.23: Los tres terminales de un transistor bipolar son: → emisor, base y colector
+    T2.24: Un transistor bipolar puede ser de tipo: → NPN
+T2-72 | T2 | peso 3 | Ganancia de corriente β = I_C/I_B
+    T2.32: La ganancia de corriente $beta$ de un transistor bipolar es la relación entre: → la corriente de colector y la corriente de base
+    F-T2.19: Un transistor bipolar con $beta = 150$ recibe una corriente de base de 40 μA. La corriente de colector es aproximadamente de: → 6 mA
+T2-73 | T2 | peso 1 | Corriente de emisor: I_E = I_B + I_C
+    N-T2-08: En un transistor bipolar, la corriente de emisor es: → la suma de las corrientes de base y de colector
+T2-74 | T2 | peso 2 | Polarización: en el NPN el colector es positivo; en el PNP, negativo
+    T2.48: En un transistor NPN empleado como amplificador, la polarización del colector respecto del emisor es: → positiva
+    T2.49: En un transistor PNP empleado como amplificador, la tensión del colector respecto de la base es: → negativa
+T2-75 | T2 | peso 1 | Polarización de la base con un divisor de tensión
+    F-T2.20: La base de un transistor se polariza con un divisor formado por $R_1 = 33$ kΩ (a +12 V) y $R_2 = 12$ kΩ (a masa). Si la base casi no toma corriente, su tensión respecto a masa es de: → 3,2 V
+T2-76 | T2 | peso 2 | Usos del transistor: amplificar, oscilar, mezclar (no rectificar ni hacer de balun)
+    C-T2.16: El transistor se utiliza, entre otras cosas, como: → Amplificador
+    C-T2.1: En un circuito electrónico, un transistor no se puede emplear como: → Balun.
+T2-77 | T2 | peso 2 | Configuración de emisor común: ganancia de tensión y corriente, salida invertida 180°
+    N-T2-09: En un amplificador con transistor bipolar en configuración de emisor común, la señal de salida respecto de la de entrada: → está invertida (desfasada 180°)
+T2-78 | T2 | peso 2 | Configuración de colector común (seguidor de emisor): ganancia de tensión ≈ 1, Z de entrada alta y de salida baja
+    N-T2-10: La configuración de colector común (seguidor de emisor) se caracteriza por: → una ganancia de tensión próxima a 1, impedancia de entrada alta y de salida baja
+T2-79 | T2 | peso 2 | FET y MOSFET: terminales puerta, drenador y surtidor; control por tensión de puerta
+    T2.34: Los tres terminales de un transistor de efecto de campo (FET) se denominan: → puerta, drenador y surtidor
+    C-T2.20: ¿Qué podemos afirmar de los transistores MOSFET? → Tienen una puerta de control.
+T2-80 | T2 | peso 3 | Ventaja del FET: impedancia de entrada muy alta
+    C-T2.11: ¿Qué ventaja tienen los transistores FET sobre los transistores clásicos? → Tiene mayor impedancia de entrada
+T2-81 | T2 | peso 1 | Inconveniente del transistor frente a la válvula: sensibilidad al calor
+    T2.42: Un inconveniente característico de los transistores frente a las válvulas es: → su sensibilidad al calor
+T2-82 | T2 | peso 1 | Oscilación indeseada de un amplificador por acoplamiento entre salida y entrada
+    T2.51: Un amplificador puede llegar a oscilar de forma indeseada si: → existe un acoplamiento excesivo entre su salida y su entrada
+T2-83 | T2 | peso 2 | Electrodos de la válvula diodo (cátodo y placa) y del tríodo (+ rejilla)
+    C-T2.9: Una válvula diodo está compuesta por: → Placa y cátodo
+    T2.27: Los tres electrodos básicos de una válvula tríodo son: → cátodo, rejilla y placa
+T2-84 | T2 | peso 2 | Emisión termoiónica: el cátodo caliente emite y la válvula conduce solo con la placa positiva
+    T2.28: Una válvula conduce corriente: → si se aplica una tensión positiva a la placa y negativa al cátodo
+T2-85 | T2 | peso 2 | El nombre de la válvula cuenta electrodos: pentodo = cátodo, tres rejillas y placa
+    T2.30: Una válvula pentodo recibe ese nombre porque dispone de: → cinco electrodos: cátodo, tres rejillas y placa
+T2-86 | T2 | peso 1 | Rejilla de pantalla: reduce la capacidad rejilla-placa
+    T2.31: En una válvula, la rejilla de pantalla se añade principalmente para: → reducir la capacidad entre la rejilla de control y la placa
+T2-87 | T2 | peso 1 | Rejilla supresora: devuelve a la placa los electrones secundarios
+    N-T2-11: En una válvula pentodo, la rejilla supresora tiene la función de: → devolver a la placa los electrones secundarios que esta emite
+T2-88 | T2 | peso 1 | Equipos de válvulas: esperar el caldeo antes de transmitir
+    T2.44: Cuando la etapa final de un emisor es de válvulas, antes de poder transmitir es necesario: → esperar un tiempo de caldeo del filamento
+T2-89 | T2 | peso 1 | Escalas de integración: SSI, MSI, LSI, VLSI («CSI» no existe)
+    T2.58: De las siguientes siglas referidas a la escala de integración de los circuitos integrados, _no_ corresponde a ninguna escala normalizada: → CSI
+T2-90 | T2 | peso 1 | Ventaja de los circuitos digitales: inmunidad al ruido (dos niveles lógicos)
+    N-T2-12: Una ventaja característica de los circuitos digitales frente a los analógicos es: → su gran inmunidad al ruido, porque solo tienen que distinguir dos niveles lógicos
+T2-91 | T2 | peso 1 | Puertas lógicas Y (AND) y O (OR)
+    F-T2.21: En una puerta lógica AND (Y) de dos entradas, la salida vale 1 solo cuando: → las dos entradas valen 1
+T2-92 | T2 | peso 1 | Puerta inversora (NOT)
+    F-T2.22: Una puerta inversora (NOT) se caracteriza porque: → entrega en su salida el nivel lógico contrario al de su entrada
+T2-93 | T2 | peso 1 | Sistema binario: conversión a decimal
+    F-T2.23: El número binario 1010 equivale, en el sistema decimal, a: → 10
+T2-94 | T2 | peso 2 | Símbolos de resistencia, condensador, bobina y diodo
+    C-T2.22: ¿Cuál de los siguientes símbolos es el de la resistencia? → #box(baseline: 45%, esquema(escala: 0.75, { import zap: * import cetz.draw: * line((-1.1, 0), (-0.8, 0), (-0.6, 0.35), (-0.2, -0.35), (0.2, 0.35), (0.6, -0.35), (0.8, 0), (1.1, 0), stroke: 0.8pt) resistor("r1", (2.0, 0),
+T2-95 | T2 | peso 2 | Símbolos de transistores: bipolar frente a FET
+    C-T2.21: ¿Cuál de los siguientes símbolos es el de un transistor FET? → #box(baseline: 45%, esquema(escala: 0.75, { import cetz.draw: * group({ translate((0, 0)) line((0, -0.8), (0, 0.8), stroke: 2pt) line((0, 0.55), (0.7, 0.55), (0.7, 1.3), stroke: 0.8pt) line((0, -0.55), (0.7, -0.55), (0.7
+    T2.66: De los siguientes símbolos, el que corresponde a un transistor de efecto de campo es: → _t2-o-fet
+T3-01 | T3 | peso 3 | Resistencias en serie: la corriente es la misma en todas y la caída de tensión es proporcional a cada R
+    C-T3.10: En varias resistencias de diferente valor, conectadas en serie, la caída de tensión en cada una de ellas, cuando circula una corriente, es: → Directamente proporcional al valor de la resistencia
+    C-T3.6: En varias resistencias de diferente valor conectadas en serie, la intensidad de la corriente que circula por cada una de ellas será: → La misma
+T3-02 | T3 | peso 3 | Resistencias en paralelo: tensión común; la corriente de cada rama es inversamente proporcional a R y la total es la suma (Kirchhoff)
+    T3.44: En un circuito formado por tres resistencias de distinto valor conectadas en paralelo, la corriente que circula por cada una es: → inversamente proporcional a su resistencia
+    C-T3.17: La intensidad total a la salida de un circuito formado por varias resistencias conectadas en paralelo: → Es igual a la de entrada.
+T3-03 | T3 | peso 3 | Resistencia equivalente: serie suma, paralelo menor que la menor (producto/suma; n iguales, R/n); circuitos mixtos
+    F-T3.2: Una resistencia de 10 Ω se conecta en serie con el conjunto en paralelo formado por una de 30 Ω y otra de 60 Ω. La resistencia equivalente es de: → 30 Ω
+    T3.43: Dos resistencias iguales conectadas en paralelo presentan un valor resultante igual a: → la mitad de una de ellas
+T3-04 | T3 | peso 3 | Asociación de condensadores: en paralelo se suman; en serie, por inversas (al revés que las resistencias)
+    T3.28: Tres condensadores conectados en paralelo suman 400 pF. Si dos de ellos son de 100 pF, el tercero tiene una capacidad de: → 200 pF
+T3-05 | T3 | peso 2 | Asociación de bobinas sin acoplo: como las resistencias (serie suman; paralelo producto/suma)
+    F-T3.14: Dos bobinas de 20 μH y 30 μH, sin acoplamiento magnético entre ellas, se conectan en paralelo. La inductancia resultante es de: → 12 μH
+T3-06 | T3 | peso 2 | Impedancia de un circuito RLC serie: X = XL − XC, Z = √(R² + X²) e I = V/Z
+    F-T3.36: Una resistencia de 60 Ω, una bobina de 150 Ω de reactancia y un condensador de 70 Ω de reactancia se conectan en serie. La impedancia total del conjunto es de: → 100 Ω
+T3-07 | T3 | peso 2 | Condensador en continua, en régimen permanente: circuito abierto (queda el divisor resistivo)
+    T3.57: En el circuito de la figura, una vez alcanzado el régimen permanente, la tensión entre los bornes del condensador $C$ vale: [figura] → 9 V
+T3-08 | T3 | peso 2 | Acoplo entre circuitos y etapas: las oscilaciones de uno pasan al otro; el acoplamiento deja pasar la señal y separa las polarizaciones
+    C-T3.5: Se dice que dos circuitos están acoplados cuando: → Las oscilaciones presentes en uno de ellos se transmiten al otro
+    T3.49: El circuito de acoplamiento intercalado entre dos etapas amplificadoras: → deja pasar la señal e independiza las polarizaciones de ambas etapas
+T3-09 | T3 | peso 3 | Condensador real: por encima de su autorresonancia se comporta como una bobina
+    F-T3.40: Por encima de su frecuencia de autorresonancia, un condensador real se comporta como: → una bobina
+T3-10 | T3 | peso 2 | Bobina real: la capacidad entre espiras la hace autorresonar; por encima se comporta como un condensador
+    F-T3.41: Una bobina real tiene una pequeña capacidad parásita entre sus espiras. A frecuencias elevadas, esa capacidad hace que la bobina: → resuene consigo misma y, por encima de esa frecuencia, se comporte como un condensador
+T3-11 | T3 | peso 2 | En VHF/UHF, terminales cortos (o SMD): la inductancia de las patas presenta reactancia apreciable
+    F-T3.42: En VHF y UHF los componentes se montan con los terminales lo más cortos posible porque: → la inductancia de los terminales, que apenas importa en HF, presenta a esas frecuencias una reactancia apreciable
+T3-12 | T3 | peso 1 | Resistencia real en AF: inductancia y capacidad parásitas; en RF, resistencias de película sin bobinar
+    N-T3-01: En los circuitos de VHF se prefieren resistencias de película, cortas y sin bobinar, porque: → las resistencias bobinadas y de patas largas tienen inductancia y capacidad parásitas que, a esas frecuencias, alteran su comportamiento
+T3-13 | T3 | peso 3 | Condición de resonancia: XL = XC, las reactancias se cancelan y el circuito es puramente resistivo
+    T3.52: A la frecuencia de resonancia, un circuito $L C$ se comporta frente a la corriente como: → puramente resistivo
+T3-14 | T3 | peso 3 | Frecuencia de resonancia f0 = 1/(2π√(LC)): cálculo y dependencia con L y C
+    F-T3.43: La frecuencia de resonancia de un circuito LC formado por una bobina de 10 μH y un condensador de 50 pF es aproximadamente de: → 7,1 MHz
+    T3.30: El cuadrado de la frecuencia de resonancia de un circuito $L C$ es: → inversamente proporcional al producto de la inductancia por la capacidad
+T3-15 | T3 | peso 3 | Factor de calidad Q: mide la selectividad; Q = f0/B
+    C-T3.1: ¿Qué indica el factor de calidad $Q$ de un circuito resonante? → Facultad para seleccionar una frecuencia eliminando las demás
+    F-T3.44: Un circuito resonante sintonizado a 455 kHz tiene un ancho de banda de 5 kHz. Su factor de calidad es, aproximadamente, de: → 91
+T3-16 | T3 | peso 2 | Q = X/R en resonancia y ancho de banda B = f0/Q
+    F-T3.45: Un circuito resonante serie sintonizado a 7 MHz presenta, en resonancia, una reactancia inductiva de 300 Ω y una resistencia de pérdidas de 6 Ω. Su ancho de banda a −3 dB es aproximadamente de: → 140 kHz
+T3-17 | T3 | peso 3 | Resonancia serie (Z mínima) frente a paralelo o tanque (Z máxima); LC serie en derivación = trampa
+    N-T3-02: En su frecuencia de resonancia, un circuito LC paralelo («tanque») presenta: → una impedancia máxima, y la corriente que toma de la línea es mínima
+    T3.16: Si en el esquema de la figura el conjunto L-C en serie resuena a la frecuencia del transmisor, la potencia que medirá el vatímetro será: [figura] → mínima
+T3-18 | T3 | peso 1 | Magnificación por Q en resonancia: en el serie, la tensión sobre L o C es Q veces la aplicada
+    N-T3-03: Un circuito resonante serie con un factor de calidad $Q = 50$ se excita, a su frecuencia de resonancia, con un generador de 2 V. La tensión sobre el condensador es aproximadamente de: → 100 V
+T3-19 | T3 | peso 2 | Filtro paso banda: deja pasar su banda y atenúa por encima y por debajo; es el de la FI
+    T3.7: Con un filtro paso banda se consigue: → atenuar las frecuencias superiores e inferiores a la banda de paso
+    T3.50: Los filtros empleados en las etapas de frecuencia intermedia de un receptor son de tipo: → paso banda
+T3-20 | T3 | peso 2 | Filtro paso bajo: deja pasar las frecuencias inferiores a la de corte (a la salida del TX, contra armónicos)
+    T3.33: Un filtro de paso bajo deja pasar: → las frecuencias inferiores a la de corte
+T3-21 | T3 | peso 2 | Frecuencia de corte: separa banda de paso y de atenuación; se toma a −3 dB
+    T3.41: La frecuencia de corte de un filtro es: → la frecuencia que delimita la banda de paso de la de atenuación
+T3-22 | T3 | peso 2 | Filtro RC: fc = 1/(2πRC)
+    F-T3.46: La frecuencia de corte de un filtro RC de paso bajo formado por una resistencia de 10 kΩ y un condensador de 10 nF es aproximadamente de: → 1,6 kHz
+T3-23 | T3 | peso 1 | Pendiente de un filtro: 6 dB por octava por cada célula (polo)
+    N-T3-04: Muy por encima de su frecuencia de corte, un filtro paso bajo formado por tres células RC atenúa aproximadamente: → 18 dB por octava
+T3-24 | T3 | peso 3 | Filtros en pi y en T: pi paso bajo = C–L–C; T paso bajo = L–C–L (en paso alto se intercambian)
+    F-T3.47: Un filtro de paso bajo «en pi» está formado por: → un condensador a masa, una bobina en serie y otro condensador a masa
+    F-T3.48: Un filtro de paso bajo «en T» está formado por: → dos bobinas en serie con un condensador a masa entre ellas
+T3-25 | T3 | peso 2 | Red en pi a la salida del transmisor: adapta la impedancia de la etapa final a 50 Ω y atenúa los armónicos
+    N-T3-05: La red en pi de paso bajo situada a la salida de la etapa final de un transmisor sirve para: → adaptar la impedancia de la etapa final a la de la línea (50 Ω) y atenuar los armónicos
+T3-26 | T3 | peso 1 | Sintonizar la etapa final a plena potencia puede dañar los dispositivos: se sintoniza a potencia reducida
+    T3.53: Efectuar la sintonización de la etapa final de un emisor a plena potencia puede producir: → daños en los dispositivos del paso final
+T3-27 | T3 | peso 1 | Conmutador de bandas: sitúa el equipo en el margen de frecuencias deseado
+    T3.54: Al actuar sobre el conmutador de bandas de un transceptor se consigue: → situar el equipo en el margen de frecuencias deseado
+T3-28 | T3 | peso 2 | Armónicos: múltiplos enteros de la fundamental (el 2.º es 2f)
+    T3.47: Un armónico de segundo orden generado por un circuito no lineal tiene una frecuencia: → doble de la fundamental
+T3-29 | T3 | peso 2 | Cristal de cuarzo: resonador piezoeléctrico de Q altísimo
+    T3.8: Un resonador de cuarzo es un dispositivo que: → presenta un efecto de resonancia basado en la piezoelectricidad
+T3-30 | T3 | peso 2 | Filtro de cuarzo en la FI: su Q altísimo da selectividad elevada con banda estrecha y estable
+    F-T3.49: En la FI de un receptor de SSB se emplea un filtro de cuarzo porque: → su factor de calidad $Q$ altísimo da una selectividad muy elevada, con un ancho de banda estrecho y estable
+T3-31 | T3 | peso 2 | Ancho de los filtros de FI según el modo: SSB 2,4–2,7 kHz, CW ≈ 500 Hz, AM 6 kHz, FM estrecha 12–15 kHz
+    F-T3.50: El ancho de banda típico de un filtro de cuarzo de FI para recibir voz en SSB es de: → 2,4 a 2,7 kHz
+T3-32 | T3 | peso 1 | Filtros cerámicos: mismo efecto piezoeléctrico, más baratos y con menos Q que los de cuarzo (455 kHz, 10,7 MHz)
+    N-T3-06: Comparados con los filtros de cristal de cuarzo, los filtros cerámicos que se usan en las FI de 455 kHz o 10,7 MHz: → son más baratos y tienen un factor de calidad menor
+T3-33 | T3 | peso 2 | Anchura de banda necesaria: la estrictamente suficiente para transmitir la información con la calidad requerida
+    T3.34: Se entiende por anchura de banda necesaria de una emisión: → la anchura estrictamente suficiente para transmitir la información en las condiciones requeridas
+T3-34 | T3 | peso 2 | Filtro digital (DSP): opera con muestras numéricas; cadena A/D → cálculo en el DSP → D/A
+    F-T3.4: Un filtro digital, realizado con un procesador digital de señal (DSP), se caracteriza porque: → opera con muestras numéricas de la señal y obtiene la salida mediante cálculos matemáticos
+T3-35 | T3 | peso 1 | Ventajas e inconvenientes del filtro digital: no deriva y se cambia por programa; añade retardo, limita Nyquist, exige conversores
+    F-T3.5: Una ventaja de un filtro digital frente a uno analógico de bobinas y condensadores es que: → su respuesta no deriva con la temperatura ni con el envejecimiento de componentes y puede modificarse cambiando el programa
+T3-36 | T3 | peso 2 | Filtros FIR (sin realimentación, respuesta finita) e IIR (realimentan la salida, respuesta infinita)
+    F-T3.29: Un filtro digital FIR (de respuesta finita al impulso) se caracteriza porque: → calcula cada muestra de salida combinando un número finito de muestras de entrada, sin realimentar la salida
+T3-37 | T3 | peso 2 | Función del rectificador: convertir la alterna en continua (pulsante)
+    C-T3.9: La función de un rectificador de corriente consiste en: → Transformar la corriente alterna en continua
+T3-38 | T3 | peso 2 | Media onda frente a onda completa: la completa aprovecha los dos semiciclos, dobla el valor medio y da menos rizado
+    T3.31: Un rectificador de onda completa, comparado con uno de media onda: → aprovecha los dos semiciclos y produce menos rizado
+T3-39 | T3 | peso 3 | Número de diodos: media onda 1; onda completa con toma media 2; puente 4
+    T3.35: Un rectificador de onda completa en puente necesita como mínimo: → cuatro diodos
+    C-T3.2: Un rectificador de onda completa tiene como mínimo: → Dos diodos
+T3-40 | T3 | peso 3 | Frecuencia del rizado: 100 Hz en onda completa y 50 Hz en media onda (red de 50 Hz)
+    F-T3.7: Un rectificador de onda completa, por ejemplo un puente de diodos, se alimenta de la red de 50 Hz. La frecuencia del rizado a su salida es de: → 100 Hz
+T3-41 | T3 | peso 3 | Función del filtro de la fuente: eliminar la componente alterna (rizado) que queda tras rectificar, no la continua
+    T3.36: El filtro que sigue al rectificador en una fuente de alimentación tiene por objeto eliminar: → la componente alterna que queda tras la rectificación
+T3-42 | T3 | peso 1 | Composición del filtro de la fuente: condensadores y bobinas (en L, en pi)
+    C-T3.4: Los filtros de las fuentes de alimentación tienen generalmente: → Condensadores y bobinas
+T3-43 | T3 | peso 1 | Rizado del condensador de filtro: ΔV ≈ I/(f_r·C); crece con la corriente y baja con f_r y C
+    N-T3-07: Una fuente con rectificador de onda completa, conectada a la red de 50 Hz, entrega 2 A a la carga con un condensador de filtro de 10 000 μF. El rizado pico a pico es aproximadamente de: → 2 V
+T3-44 | T3 | peso 3 | Bloques de una fuente lineal y su orden: transformador → rectificador → filtro → regulador (reconocer el esquema)
+    T3.26: El orden correcto de las etapas de una fuente de alimentación lineal es: → transformador, rectificador, filtro y regulador
+T3-45 | T3 | peso 2 | Regulador: mantiene constante la tensión de salida aunque varíen la carga y la red
+    T3.32: La misión del regulador de una fuente de alimentación es: → mantener constante la tensión de salida aunque varíen la carga y la red
+T3-46 | T3 | peso 2 | Regulador con zéner y resistencia en serie: reparto de corrientes entre zéner y carga
+    F-T3.8: Una fuente de 20 V alimenta, a través de una resistencia en serie de 150 Ω, un zéner de 12 V en paralelo con una carga que consume 30 mA. Con el zéner regulando a 12 V, la corriente que circula por él es aproximadamente  → 23 mA
+T3-47 | T3 | peso 3 | Fuente lineal frente a conmutada: la lineal pesa (transformador de 50 Hz) y rinde poco; la conmutada trabaja a decenas–cientos de kHz, ligera y eficiente
+    C-T3.19: Una de las características de las fuentes lineales de alta intensidad es: → Su elevado peso
+    F-T3.11: El transformador de una fuente de alimentación conmutada trabaja a una frecuencia de: → decenas o centenares de kHz, muy superior a la de la red
+T3-48 | T3 | peso 2 | Fuente conmutada: genera ruido de RF (QRM en HF); exige filtrado y apantallado
+    F-T3.10: En una estación de radioaficionado, el principal riesgo de una fuente conmutada mal filtrada o mal apantallada es que: → genera ruido e interferencias de radiofrecuencia que se oyen como QRM en HF
+T3-49 | T3 | peso 2 | Condensadores de desacoplo: absorben los transitorios de la alimentación
+    T3.51: Los efectos de los transitorios en las líneas de alimentación se evitan generalmente: → con condensadores de desacoplo
+T3-50 | T3 | peso 2 | Emisor común: ganancia de tensión y de corriente, luego de potencia
+    C-T3.12: Un amplificador con transistor conectado con emisor común produce amplificación: → De potencia
+T3-51 | T3 | peso 1 | Emisor común: único montaje que invierte la fase 180°
+    N-T3-08: De los tres montajes del transistor bipolar, el que invierte la fase de la señal 180° es el de: → emisor común
+T3-52 | T3 | peso 2 | Base común: amplifica tensión, pero no corriente
+    T3.37: Un amplificador con transistor montado en base común proporciona amplificación: → de tensión, pero no de corriente
+T3-53 | T3 | peso 2 | Colector común = seguidor de emisor (ganancia de tensión ≈ 1; adaptador de impedancias)
+    C-T3.18: Un circuito con un transistor montado en colector común se denomina también: → Seguidor emisor
+T3-54 | T3 | peso 1 | Tríodo en rejilla común: la señal entra por el cátodo y sale por el ánodo
+    C-T3.15: En un amplificador lineal con triodo en reja común: → La señal radio entra por cátodo y sale por ánodo.
+T3-55 | T3 | peso 2 | Amplificar sin distorsión: trabajar en la parte lineal de la característica
+    C-T3.8: Cuando en un amplificador a transistor sea necesario reproducir la señal de entrada sin distorsión, se debe funcionar: → En la parte lineal de su característica
+T3-56 | T3 | peso 1 | Distorsión: la señal de salida no es réplica de la de entrada
+    C-T3.13: Debido a la distorsión: → La señal de salida no es igual a la de entrada
+T3-57 | T3 | peso 3 | Ángulo de conducción: A 360°, AB entre 180° y 360°, B 180°, C menos de 180°
+    T3.22: Un amplificador que trabaja en clase B conduce durante: → 180° del ciclo de la señal
+T3-58 | T3 | peso 3 | Linealidad frente a rendimiento: clase A mínima distorsión; clase C mayor rendimiento
+    T3.23: De las clases de amplificación A, AB, B y C, la de mayor rendimiento es la: → clase C
+    T3.6: La clase de amplificador que reproduce la señal de entrada con la mínima distorsión es la: → clase A
+T3-59 | T3 | peso 2 | Clase AB: combinación de A y B; la de los amplificadores lineales de SSB
+    T3.11: De las clases de amplificadores A, B, AB y C, la clase AB: → es una combinación de las clases A y B
+T3-60 | T3 | peso 3 | Clase C: solo para emisiones de amplitud constante (CW, FM), nunca SSB ni AM
+    T3.24: Un amplificador de clase C únicamente puede emplearse con emisiones: → de amplitud constante, como CW o FM
+T3-61 | T3 | peso 1 | Rendimientos máximos: clase A 25–50 %; clase B π/4 ≈ 78,5 %
+    N-T3-09: El rendimiento máximo teórico de un amplificador en clase B es aproximadamente del: → 78,5 %
+T3-62 | T3 | peso 1 | Contrafase en clase B y distorsión de cruce (se corrige con corriente de reposo: clase AB)
+    N-T3-10: En un amplificador en contrafase de clase B, la distorsión de cruce se corrige: → dando a los dos transistores una pequeña corriente de reposo, con lo que pasa a trabajar en clase AB
+T3-63 | T3 | peso 1 | Clase C: el tanque LC reconstruye la sinusoide a partir de los pulsos (efecto volante); sintonizado a 2f o 3f, multiplicador
+    N-T3-11: En un amplificador de clase C, el circuito tanque LC sintonizado del colector: → reconstruye una sinusoide completa a partir de los pulsos de corriente del transistor (efecto volante)
+T3-64 | T3 | peso 1 | Dispositivos en paralelo en la etapa final: más potencia de salida
+    T3.48: En la etapa final de un transmisor se conectan a veces dos válvulas en paralelo con objeto de: → obtener mayor potencia de salida
+T3-65 | T3 | peso 2 | Neutralización: anula la realimentación parásita para que el amplificador no oscile
+    C-T3.7: La neutralización se utiliza en: → Los amplificadores para evitar que oscilen
+T3-66 | T3 | peso 2 | Realimentación: devolver parte de la salida a la entrada; la negativa reduce la ganancia y mejora estabilidad y linealidad, la positiva hace oscilar
+    T3.20: La realimentación negativa aplicada a un amplificador: → reduce la ganancia pero mejora la estabilidad y la linealidad
+T3-67 | T3 | peso 2 | Amplificador operacional: ganancia muy alta, impedancia de entrada alta y de salida baja
+    T3.17: Un amplificador operacional se caracteriza por tener: → ganancia muy elevada, impedancia de entrada alta y de salida baja
+T3-68 | T3 | peso 1 | Entradas del operacional: inversora (−) y no inversora (+)
+    T3.19: Las dos entradas de un amplificador operacional se denominan: → inversora y no inversora
+T3-69 | T3 | peso 2 | Operacional inversor: G = −R2/R1 (no inversor: 1 + R2/R1)
+    T3.18: En un amplificador operacional en montaje inversor, con $R_1$ a la entrada y $R_2$ de realimentación, la ganancia vale: → $-R_2 slash R_1$
+T3-70 | T3 | peso 2 | Ganancia de tensión en decibelios: 20·log(V2/V1)
+    F-T3.12: Un amplificador eleva una señal de 10 mV a 1 V, con la misma impedancia en la entrada y en la salida. Su ganancia de tensión, en decibelios, es de: → 40 dB
+T3-71 | T3 | peso 2 | dBμV: unidad de tensión (dBm y dBW, de potencia)
+    T3.39: Una lectura expresada como «10 dBμV» corresponde a una magnitud de: → tensión
+T3-72 | T3 | peso 3 | Detector de envolvente (diodo + RC): detector de AM; reconocer su esquema
+    T3.38: El llamado detector de envolvente se emplea en receptores para señales con modulación de: → amplitud
+T3-73 | T3 | peso 2 | El detector de envolvente es asíncrono: no necesita sincronización con el transmisor
+    T3.12: Los detectores de envolvente (por ejemplo, un diodo seguido de un filtro) tienen la particularidad de: → no requerir en el receptor sincronización con el transmisor, por ser asíncronos
+T3-74 | T3 | peso 1 | Receptor de galena: LC sintonizado + diodo detector + auricular = receptor de AM
+    T3.15: El circuito de la figura podrá emplearse como: [figura] → receptor de AM a la frecuencia de resonancia del circuito LC
+T3-75 | T3 | peso 3 | Detector de producto con BFO para SSB y CW (reinserta la portadora)
+    N-T3-12: Para demodular una señal de banda lateral única (SSB) o de telegrafía (CW) se emplea: → un detector de producto alimentado por un oscilador de batido (BFO)
+T3-76 | T3 | peso 2 | Discriminador de FM: convierte variaciones de frecuencia en variaciones de tensión (audio)
+    F-T3.15: El discriminador de un receptor de FM convierte: → las variaciones de frecuencia de la señal en variaciones de tensión, es decir, en audio
+T3-77 | T3 | peso 1 | Detector de pendiente: la portadora en el flanco de un circuito sintonizado
+    F-T3.16: El detector de pendiente para FM se basa en: → situar la portadora en el flanco de la curva de un circuito sintonizado, donde la amplitud de salida varía con la frecuencia
+T3-78 | T3 | peso 2 | Limitador delante del discriminador: recorta las variaciones de amplitud (ruido)
+    F-T3.17: En un receptor de FM, el limitador que precede al discriminador sirve para: → recortar las variaciones de amplitud, que son ruido y no información
+T3-79 | T3 | peso 1 | SDR y demodulación por DSP: tras el A/D, filtrado y demodulación son programas; el mismo hardware sirve para todos los modos
+    F-T3.37: En un receptor definido por software (SDR), tras digitalizar la señal con un conversor A/D, el filtrado y la demodulación se realizan mediante: → un programa que procesa numéricamente las muestras
+T3-80 | T3 | peso 1 | Reducción de ruido (NR) por DSP: atenúa el ruido de fondo continuo (no es el NB ni el silenciador)
+    F-T3.38: La función de reducción de ruido («NR») de un transceptor con DSP: → analiza numéricamente la señal y atenúa el ruido de fondo continuo
+T3-81 | T3 | peso 2 | Oscilador: convierte la corriente continua en alterna
+    T3.27: Un oscilador es un dispositivo que: → convierte corriente continua en corriente alterna
+T3-82 | T3 | peso 2 | Condición de oscilación (Barkhausen): realimentación positiva, ganancia de lazo que compensa pérdidas y fase de 360°
+    N-T3-13: Para que un amplificador realimentado se convierta en oscilador, la realimentación debe ser: → positiva, con una ganancia de lazo que compense las pérdidas y una fase total de 360°
+T3-83 | T3 | peso 1 | Osciladores LC clásicos: Colpitts (divisor capacitivo), Hartley (bobina con toma), Pierce (cristal)
+    N-T3-14: En un oscilador Colpitts, la fracción de señal que se devuelve a la entrada se toma de: → un divisor formado por dos condensadores
+T3-84 | T3 | peso 2 | Estabilidad del oscilador: la temperatura hace derivar su frecuencia
+    C-T3.16: Los circuitos osciladores pueden sufrir variaciones apreciables de frecuencia al variar: → La temperatura
+T3-85 | T3 | peso 1 | Estabilidad del oscilador: debe estar débilmente cargado (etapa separadora)
+    C-T3.3: Para que un oscilador sea estable debe tener, entre otras condiciones: → Débilmente cargado
+T3-86 | T3 | peso 3 | Oscilador a cristal: frecuencia muy estable (y apenas ajustable)
+    T3.45: Los osciladores controlados por un cristal de cuarzo se caracterizan por generar una señal: → de frecuencia muy estable
+T3-87 | T3 | peso 1 | Cristal en sobretono por encima de unos 20–30 MHz
+    N-T3-15: Para obtener con un oscilador a cristal frecuencias por encima de unos 20–30 MHz, lo habitual es: → hacer vibrar el cristal en un sobretono (tercer o quinto armónico mecánico)
+T3-88 | T3 | peso 2 | VFO: oscilador de frecuencia variable para moverse por la banda
+    T3.40: Para poder variar la frecuencia de emisión, los transceptores emplean: → un oscilador de frecuencia variable
+T3-89 | T3 | peso 2 | VCO: su frecuencia varía con una tensión de control, normalmente mediante un varicap
+    F-T3.18: Un oscilador controlado por tensión (VCO) es un oscilador cuya: → frecuencia de salida cambia al variar una tensión continua de control
+    F-T3.19: La frecuencia de un VCO se hace variar con la tensión de control mediante un componente situado en su circuito resonante. Normalmente es: → un diodo varicap, cuya capacidad depende de la tensión inversa aplicada
+T3-90 | T3 | peso 1 | VCO como modulador de FM: la voz aplicada a su control desvía la frecuencia
+    F-T3.20: En un transmisor de FM con modulación directa, la señal de voz se aplica al VCO para que este: → desvíe su frecuencia al ritmo de la voz
+T3-91 | T3 | peso 2 | Ruido de fase: fluctuaciones aleatorias de fase que crean faldones de ruido a ambos lados de la portadora (en TX, molestan a canales vecinos)
+    F-T3.21: El ruido de fase de un oscilador consiste en: → pequeñas fluctuaciones aleatorias de la fase, que extienden ruido a ambos lados de la portadora
+T3-92 | T3 | peso 1 | Ruido de fase del oscilador local: mezcla recíproca, empeora la selectividad efectiva
+    F-T3.23: El ruido de fase del oscilador local de un receptor provoca que: → una señal intensa cercana aporte ruido al canal deseado y empeore así la selectividad efectiva
+T3-93 | T3 | peso 3 | Mezclador (heterodinación): a la salida aparecen la suma y la diferencia f1 ± f2
+    T3.13: Si a la entrada de un mezclador se aplican dos señales de 14 MHz y 4 MHz, a su salida encontraremos, entre otras, la frecuencia de: → 10 MHz
+    C-T3.11: Cuando una alta frecuencia se mezcla con otra alta frecuencia, el fenómeno resultante es conocido con el nombre de: → Heterodinación
+T3-94 | T3 | peso 3 | PLL: estabiliza un VCO enganchándolo a una referencia; la tensión de error corrige el VCO
+    C-T3.14: Los circuitos con «lazo enganchado de fase»: → Sirven para estabilizar la frecuencia de un oscilador controlado por tensión
+T3-95 | T3 | peso 2 | Bloques del PLL: comparador de fase, filtro de paso bajo (de lazo), VCO y divisor programable
+    F-T3.24: Los bloques básicos de un lazo de enganche de fase (PLL) son: → un comparador de fase, un filtro de paso bajo y un oscilador controlado por tensión
+T3-96 | T3 | peso 1 | PLL enganchado: misma frecuencia en el comparador y diferencia de fase constante
+    F-T3.25: Cuando un PLL está enganchado, las dos señales que llegan al comparador de fase tienen: → la misma frecuencia y una diferencia de fase constante
+T3-97 | T3 | peso 2 | Sintetizador PLL: f_out = N·f_ref; el paso de canal es f_ref
+    F-T3.27: Un sintetizador PLL con referencia de 12,5 kHz debe generar 145,500 MHz. El divisor programable ha de valer: → 11 640
+    F-T3.28: Un PLL con referencia de 25 kHz tiene su VCO enganchado en 145,500 MHz. Si se aumenta en 3 unidades el divisor programable, el VCO se engancha en: → 145,575 MHz
+T3-98 | T3 | peso 2 | DDS: se emplea como oscilador variable de gran precisión
+    T3.10: Los sintetizadores digitales directos (DDS) se emplean como: → osciladores variables de gran precisión
+T3-99 | T3 | peso 1 | Funcionamiento del DDS: acumulador de fase, tabla de seno, D/A y paso bajo; la frecuencia se cambia con el incremento de fase
+    F-T3.33: Un sintetizador digital directo (DDS) genera la señal con los siguientes bloques: → acumulador de fase, tabla de seno, conversor D/A y filtro de paso bajo
+    F-T3.32: En un DDS con el reloj de referencia fijo, la frecuencia de la señal de salida se cambia modificando: → el incremento de fase que el acumulador suma en cada ciclo de reloj
+T3-100 | T3 | peso 1 | Resolución del DDS: Δf = f_clk/2^n
+    F-T3.31: Un sintetizador digital directo (DDS) tiene un reloj de 50 MHz y un acumulador de fase de 32 bits. El paso mínimo con que puede variar su frecuencia de salida es, aproximadamente, de: → 0,012 Hz
+T4-01 | T4 | peso 3 | Superheterodino: la FI es una frecuencia fija, presente a la salida del mezclador (de ahí el nombre)
+    T4.2: Se denomina frecuencia intermedia (FI) a: → la frecuencia de valor constante empleada en los receptores superheterodinos, presente a la salida del mezclador
+T4-02 | T4 | peso 1 | Ventaja de la superheterodinación según el banco: ganancia y selectividad en FI fija, que permite aplicar el CAG
+    C-T4.13: La técnica de superheterodinación se emplea: → Porque permite poner el CAG
+T4-03 | T4 | peso 3 | Orden de etapas del superheterodino: RF → mezclador → FI → detector → BF
+    T4.1: En un receptor superheterodino, el orden correcto de las etapas desde la antena hasta el altavoz es: → amplificador de RF, mezclador, amplificador de FI, demodulador, amplificador de audio
+T4-04 | T4 | peso 2 | El mezclador necesita el oscilador local: bloque que falta en un diagrama
+    T4.36: En el diagrama de bloques de la figura, correspondiente a un receptor superheterodino, el bloque señalado con una interrogación es: [figura] → el oscilador local
+T4-05 | T4 | peso 3 | Relación entre señal, oscilador local y FI: OL por encima f_s = f_OL − f_FI; OL por debajo f_s = f_OL + f_FI
+    T4.4: Si se desea sintonizar una señal de 7 MHz en un receptor cuya frecuencia intermedia es de 9 MHz, el oscilador local deberá funcionar a: → 16 MHz
+    T4.20: En el esquema de la figura, con el oscilador local funcionando por debajo de la frecuencia de la señal, la frecuencia $F$ sintonizada por el receptor es: [figura] → 14,2 MHz
+T4-06 | T4 | peso 3 | Frecuencia imagen: defecto del receptor superheterodino, situada a 2·FI de la sintonizada
+    F-T4.4: Un receptor superheterodino con una FI de 9 MHz está sintonizado en 7,1 MHz, con el oscilador local por encima de la señal. La frecuencia imagen es: → 25,1 MHz
+    C-T4.7: La frecuencia imagen puede aparecer en: → Un receptor superheterodino
+T4-07 | T4 | peso 3 | La imagen se rechaza antes del mezclador, con un filtro (preselector)
+    T4.11: En un receptor superheterodino, para rechazar la frecuencia imagen se emplea: → un filtro
+T4-08 | T4 | peso 2 | Doble conversión: dos FI; la 1.ª alta (aleja la imagen) y la 2.ª baja (selectividad)
+    C-T4.12: En los receptores de doble conversión: → La primera frecuencia intermedia es mayor que la segunda
+T4-09 | T4 | peso 2 | Conversión directa: el OL a la frecuencia de la señal y el mezclador da directamente audio, sin FI
+    T4.3: Un receptor de conversión directa se caracteriza por: → mezclar directamente la señal recibida para obtener la señal de audio
+    C-T4.16: En el siguiente diagrama de bloques, correspondiente a un receptor elemental de conversión directa, el bloque con interrogantes representa un: [figura] → oscilador local
+T4-10 | T4 | peso 2 | Diagrama de bloques del receptor de BLU (RF, mezclador con OL variable, FI, detector de producto con BFO)
+    C-T4.15: El esquema de un receptor básico para banda lateral única se corresponde con la figura: → #_apb1-rx([etapa\ RF], [etapa\ FI], [detector de\ producto], [oscilador\ variable], [oscilador de\ batido])
+T4-11 | T4 | peso 2 | Receptor de FM: tras la FI, limitador y después discriminador (en AM, detector de envolvente)
+    F-T4.10: En el diagrama de bloques de un receptor de FM, tras el amplificador de FI se sitúan, por este orden: → el limitador y el discriminador
+    F-T4.11: Un receptor de FM (F3E) se diferencia de uno de AM (A3E) en que, tras la FI, incorpora: → un limitador y un discriminador en lugar del detector de envolvente
+T4-12 | T4 | peso 2 | La etapa detectora demodula (extrae la información)
+    C-T4.1: La etapa de detección de un receptor se emplea para: → Demodular la señal recibida.
+T4-13 | T4 | peso 3 | Detector de producto con BFO: imprescindible en SSB y CW (no en AM ni FM)
+    T4.34: En un receptor, el oscilador de frecuencia de batido (BFO) resulta imprescindible para recibir emisiones de: → telegrafía y banda lateral única
+T4-14 | T4 | peso 2 | Pasar de USB a LSB cambia la frecuencia del BFO (batido), no el ancho de banda ni la clase de emisión
+    C-T4.3: Cuando se pasa el modo de recepción de USB a LSB se cambia: → La frecuencia de batido
+T4-15 | T4 | peso 1 | Convenio de banda lateral: LSB en 160, 80 y 40 m; USB de 20 m hacia arriba
+    N-T4-01: Por costumbre, la fonía en banda lateral única se emite en la banda de 40 metros en: → banda lateral inferior (LSB)
+T4-16 | T4 | peso 1 | Señal de AM recibida en modo SSB: el BFO bate con la portadora y se oye un pitido
+    C-T4.6: Si en un transceptor colocamos el mando «MODE» en posición SSB (BLU), ¿podremos recibir una señal modulada en amplitud (AM)? → Se recibirá mezclada con un ruido de batido continuo
+T4-17 | T4 | peso 3 | La selectividad la fijan las etapas (filtros) de FI; la FI son amplificadores y filtros
+    T4.31: La selectividad de un receptor superheterodino depende principalmente de: → las etapas de frecuencia intermedia
+T4-18 | T4 | peso 3 | Selectividad: separar señales próximas en frecuencia (curva más estrecha = más selectivo)
+    T4.5: La selectividad de un receptor es su capacidad de: → separar dos señales muy próximas en frecuencia
+T4-19 | T4 | peso 2 | Selectividad de canal adyacente: la fijan los faldones del filtro de FI (problema lineal)
+    N-T4-02: La selectividad de canal adyacente de un receptor depende principalmente de: → la forma y los faldones del filtro de frecuencia intermedia
+T4-20 | T4 | peso 2 | Anchura del filtro según el modo: la más estrecha para CW; unos 2,4 kHz en SSB
+    T4.26: El filtro de selectividad variable de un receptor se ajusta a su anchura de banda más estrecha cuando se recibe: → telegrafía
+T4-21 | T4 | peso 2 | Anchura de banda de la NBFM: unos 12 kHz (FM de difusión 200 kHz, SSB 2,4 kHz)
+    T4.35: La anchura de banda típica de una emisión de FM de banda estrecha (NBFM), como la empleada en VHF, es del orden de: → 12 kHz
+T4-22 | T4 | peso 3 | Sensibilidad: captar y amplificar señales débiles
+    T4.6: La sensibilidad de un receptor se define como su capacidad de: → captar señales débiles y amplificarlas
+T4-23 | T4 | peso 3 | La sensibilidad (figura de ruido) la determina la primera etapa de RF (Friis)
+    T4.30: La sensibilidad de un receptor viene determinada fundamentalmente por: → su primera etapa de radiofrecuencia
+T4-24 | T4 | peso 1 | Relación señal/ruido: índice de calidad del receptor, en dB
+    T4.13: La relación señal/ruido de un receptor: → es una característica indicativa de su calidad y se expresa en decibelios
+T4-25 | T4 | peso 1 | Señal mínima discernible: MDS = −174 + 10 log B + F (dBm)
+    F-T4.3: Un receptor de SSB tiene un ancho de banda de 2,7 kHz y una figura de ruido de 10 dB. Sabiendo que el ruido térmico es de −174 dBm en 1 Hz de ancho de banda, su señal mínima discernible (MDS, la que iguala el ruido del p → −130 dBm
+T4-26 | T4 | peso 1 | Ruido estático (QRN) = descargas atmosféricas
+    T4.33: El llamado ruido estático que se percibe en un receptor está producido por: → las descargas eléctricas atmosféricas
+T4-27 | T4 | peso 3 | Estabilidad: mantener la frecuencia sintonizada sin derivar
+    T4.14: En un receptor, la capacidad de mantener la frecuencia sintonizada se denomina: → estabilidad
+T4-28 | T4 | peso 2 | La estabilidad del receptor depende del oscilador local
+    C-T4.5: La estabilidad de un receptor es función: → Del oscilador local
+T4-29 | T4 | peso 2 | El margen dinámico lo determina el primer mezclador
+    T4.17: El margen dinámico de un receptor queda determinado fundamentalmente en: → el primer mezclador de entrada
+T4-30 | T4 | peso 2 | Desensibilización y bloqueo: una señal fuerte satura las primeras etapas y las débiles dejan de oírse
+    F-T4.5: La desensibilización (bloqueo) de un receptor causada por una señal intensa próxima se manifiesta como: → una pérdida de ganancia aparente: las señales débiles dejan de oírse
+T4-31 | T4 | peso 2 | Remedio contra el bloqueo: bajar la ganancia de RF, atenuador o filtro en la entrada (no un preamplificador)
+    F-T4.7: Un remedio eficaz contra el bloqueo de un receptor por una señal fuerte es: → reducir la ganancia de RF o intercalar un atenuador o un filtro en la entrada
+T4-32 | T4 | peso 1 | El atenuador de entrada está formado por resistencias
+    C-T4.2: Un atenuador para proteger contra sobrecargas la entrada de un receptor estará formado por: → Resistencias (R).
+T4-33 | T4 | peso 2 | Intermodulación de tercer orden: productos en 2f1 − f2 y 2f2 − f1, dentro de banda
+    F-T4.8: Dos señales de 7,050 MHz y 7,060 MHz llegan a una etapa no lineal de un receptor. Los productos de intermodulación de tercer orden que caen junto a ellas, dentro de la banda, aparecen en: → 7,040 MHz y 7,070 MHz
+T4-34 | T4 | peso 1 | Los productos de tercer orden suben 3 dB por cada dB que suben las señales
+    F-T4.9: Si se sube 3 dB el nivel de las dos señales que producen intermodulación, los productos de tercer orden aumentan: → 9 dB
+T4-35 | T4 | peso 2 | Modulación cruzada: la modulación de una señal fuerte se traslada a la sintonizada (no linealidad)
+    N-T4-03: Se produce modulación cruzada en un receptor cuando: → la modulación de una señal fuerte no deseada se traslada a la señal que se está escuchando, por falta de linealidad de las primeras etapas
+T4-36 | T4 | peso 3 | CAG: mantiene constante la salida; lazo desde el detector hacia RF y FI
+    T4.7: El control automático de ganancia (CAG) de un receptor tiene como objetivo: → mantener constante la amplitud de la señal de salida
+T4-37 | T4 | peso 1 | El mando del CAG fija su tiempo de respuesta (FAST/SLOW)
+    C-T4.8: El circuito de control automático de ganancia tiene un mando de gobierno que afecta a: → Su tiempo de respuesta
+T4-38 | T4 | peso 3 | Silenciador (squelch): corta el audio cuando la señal no supera un umbral
+    T4.8: El silenciador (_squelch_) de un receptor sirve para: → suprimir la salida de audio cuando la señal recibida no supera un determinado nivel
+T4-39 | T4 | peso 1 | En un repetidor, el relé que activa el transmisor lo gobierna el silenciador del receptor
+    C-T4.14: ¿A cuál de estos circuitos de la parte receptora de un repetidor debe estar conectado el relé que conecta la parte emisora? → Al silenciador
+T4-40 | T4 | peso 2 | El S-meter indica la intensidad de la señal recibida
+    T4.9: El instrumento del receptor conocido como _S-meter_ indica: → la intensidad de la señal recibida
+T4-41 | T4 | peso 2 | Escala del S-meter: 6 dB por punto S
+    F-T4.2: Una señal que marca S6 en el S-meter es, respecto a otra que marca S9, más débil en: → 18 dB
+T4-42 | T4 | peso 1 | S9 = 50 μV en HF; los dB sobre S9 se cuentan en tensión (+20 dB = ×10)
+    F-T4.1: En HF, una señal que marca S9 + 20 dB corresponde, en la entrada de antena de 50 Ω, a una tensión de aproximadamente: → 500 μV
+T4-43 | T4 | peso 2 | Mando RF GAIN: ganancia de las etapas de RF del receptor (no la potencia del emisor)
+    T4.22: Actuando sobre el mando «RF GAIN» de un receptor se modifica: → la ganancia de las etapas de radiofrecuencia
+    C-T4.10: El mando de ganancia de radiofrecuencia en un transceptor: → Controla la relación entre la señal entregada por la antena y la que se aplica al mezclador
+T4-44 | T4 | peso 2 | Noise blanker (NB): suprime el ruido impulsivo
+    T4.23: El mando «NB» (_noise blanker_) de un receptor se emplea para: → suprimir los ruidos producidos por impulsos
+T4-45 | T4 | peso 2 | RIT: varía la frecuencia de recepción sin tocar la de transmisión
+    T4.21: El mando RIT de un transceptor permite: → variar la frecuencia de recepción sin alterar la de transmisión
+T4-46 | T4 | peso 1 | El conmutador de canales varía la sintonía
+    C-T4.4: Cuando en un receptor actuamos el conmutador de canales estamos: → Variando la sintonía
+T4-47 | T4 | peso 1 | El dial digital indica la frecuencia de trabajo
+    C-T4.11: El dial de presentación digital («#emph[digital display]») nos indica: → La frecuencia de trabajo
+T4-48 | T4 | peso 1 | Para oír 2 m con un receptor de HF se intercala un conversor
+    T4.24: Para poder recibir señales de la banda de 2 metros con un receptor de decamétricas es necesario intercalar: → un conversor
+T4-49 | T4 | peso 1 | El DSP permite filtros digitales optimizables
+    T4.27: El empleo de procesadores digitales de señal (DSP) en un transceptor moderno permite, entre otras cosas: → optimizar los filtros del equipo por medios digitales
+T5-01 | T5 | peso 2 | Funciones mínimas de un transmisor: generar, modular y amplificar
+    C-T5.29: Un transmisor debe realizar al menos las siguientes funciones: → Generar la señal, modular y amplificar.
+T5-02 | T5 | peso 2 | Orden de bloques del emisor: modulador → amplificación y traslación → final → red de acoplo
+    T5.21: El orden correcto de los bloques funcionales de un equipo emisor es: → modulador, cadena de amplificación y traslación de frecuencia, amplificador final y red de acoplo
+T5-03 | T5 | peso 1 | Transmisor con conversión: la señal se genera en una FI fija y un mezclador con el VFO la lleva a RF
+    C-T5.23: Un transmisor: → Convierte una señal de frecuencia intermedia en otra de radiofrecuencia.
+T5-04 | T5 | peso 1 | Transmisor sin conversión: la salida es el oscilador o un múltiplo suyo (CW, FM)
+    N-T5-01: En un transmisor sin conversión de frecuencia, como los de CW o FM más sencillos, la frecuencia de salida es: → la del propio oscilador, o un múltiplo suyo obtenido con multiplicadores
+T5-05 | T5 | peso 1 | Unidad transceptora = transmisor + receptor
+    C-T5.26: Llamamos unidad transceptora al conjunto formado por: → Transmisor y receptor.
+T5-06 | T5 | peso 2 | Diagrama de bloques del transmisor de BLU (BF, modulador balanceado, filtro, RF)
+    C-T5.31: El esquema de un transmisor básico para banda lateral única se corresponde con la figura: → #_apb1-tx([etapa\ BF], [modulador\ balanceado], [filtro], [amplificador\ RF])
+T5-07 | T5 | peso 3 | SSB por filtro: el modulador equilibrado suprime la portadora; el filtro elimina una banda lateral
+    T5.27: En un transmisor de banda lateral única, el modulador equilibrado tiene la propiedad de: → suprimir la portadora y dejar solo las dos bandas laterales
+    T5.28: El filtro de banda lateral de un transmisor de SSB se encarga de: → eliminar una de las dos bandas laterales
+T5-08 | T5 | peso 1 | SSB por el método de fase: la banda indeseada se cancela (dos moduladores con desfase de 90°)
+    N-T5-02: En la generación de banda lateral única por el método de fase, la banda lateral no deseada se elimina: → por cancelación, al sumar las salidas de dos moduladores balanceados que reciben la voz y la portadora desfasadas 90°
+T5-09 | T5 | peso 1 | La SSB es una variante de la modulación de amplitud
+    C-T5.8: La modulación de banda lateral única: → Es una variante de la modulación de amplitud
+T5-10 | T5 | peso 2 | Clase del final según el modo: SSB exige final lineal; CW y FM admiten clase C
+    N-T5-03: ¿Cuál de estas emisiones no puede amplificarse con un amplificador final en clase C? → Banda lateral única (J3E)
+T5-11 | T5 | peso 1 | En un emisor, los amplificadores aumentan la potencia
+    C-T5.13: En un emisor de radio, los amplificadores se emplean para: → Aumentar la potencia del emisor
+T5-12 | T5 | peso 2 | Excitador: lleva la señal al nivel que necesita el amplificador final
+    T5.20: En un transmisor, el excitador tiene la misión de: → suministrar la potencia necesaria a la etapa amplificadora final
+T5-13 | T5 | peso 2 | Etapa separadora: aísla el oscilador de las variaciones de carga
+    T5.25: La etapa separadora que se intercala entre el oscilador y el amplificador de un transmisor sirve para: → aislar el oscilador de las variaciones de carga de las etapas siguientes
+T5-14 | T5 | peso 2 | Multiplicador de frecuencia: eleva la frecuencia del oscilador; en cascada, los factores se multiplican
+    T5.11: El multiplicador de frecuencia de un transmisor se emplea para: → incrementar la frecuencia generada por un oscilador
+    F-T5.9: Un transmisor de VHF parte de un oscilador de cristal de 12 MHz y una cadena formada por un triplicador y un cuadruplicador en cascada. Su frecuencia de salida es: → 144 MHz
+T5-15 | T5 | peso 2 | Los multiplicadores multiplican también la desviación de FM
+    F-T5.10: En un transmisor de FM, el oscilador de 12 MHz se desvía 250 Hz. Una cadena multiplicadora ×12 lleva la portadora a 144 MHz. La desviación a la salida es de: → 3 kHz
+T5-16 | T5 | peso 2 | FM directa: el audio actúa sobre el oscilador (varicap)
+    F-T5.11: En la modulación de frecuencia directa, la señal de audio actúa sobre: → el oscilador, por ejemplo mediante un diodo varicap en su circuito resonante
+T5-17 | T5 | peso 2 | FM indirecta: modulador de fase tras un oscilador a cristal (ventaja: estabilidad)
+    F-T5.13: La ventaja de la FM indirecta (modulador de fase) es que: → la frecuencia de la portadora la fija un oscilador a cristal muy estable
+T5-18 | T5 | peso 3 | Índice de modulación de FM: m = Δf / f_m
+    T5.3: En un transmisor de FM con una desviación máxima de frecuencia de 25 kHz y una frecuencia moduladora de 10 kHz, el índice de modulación vale: → 2,5
+T5-19 | T5 | peso 2 | Excursión máxima de la NBFM: unos ±2,5 a ±5 kHz
+    C-T5.30: En los equipos de radioaficionado, el modo de modulación NBFM (banda estrecha de frecuencia modulada), ¿qué excursión de frecuencia máxima permite? → Unos ±2,5 a ±5 kHz
+T5-20 | T5 | peso 1 | Índice de modulación de AM: porcentaje de variación de amplitud de la portadora
+    C-T5.21: El índice de modulación de amplitud es: → El porcentaje de la variación de amplitud que experimenta la portadora
+T5-21 | T5 | peso 3 | Clases de emisión UIT: A1A (CW), A3E (AM), J3E (SSB), R3E, F3E (FM)
+    C-T5.19: La clase de emisión A3E (antes designada A3) indica: → Telefonía de doble banda lateral, portadora completa
+    C-T5.11: Si el conmutador «modo de emisión» está en la posición CW se trabaja en: → A1A
+T5-22 | T5 | peso 3 | Margen de audiofrecuencia para la inteligibilidad: 300 a 3000 Hz
+    T5.18: Para una emisión de fonía, la banda de audiofrecuencias que basta transmitir para conservar la inteligibilidad es aproximadamente: → de 300 a 3000 Hz
+T5-23 | T5 | peso 1 | Micrófono (sonido → señal eléctrica) y su preamplificador (eleva su bajo nivel)
+    T5.16: El preamplificador de micrófono de un transmisor tiene por objeto: → elevar el bajo nivel de la señal que entrega el micrófono
+T5-24 | T5 | peso 2 | Compresor: eleva la potencia media sin superar la de pico
+    T5.17: El compresor de audio de un transmisor de SSB sirve para: → elevar la potencia media de la emisión sin superar la potencia de pico
+    C-T5.10: Las medidas de compresión de un transceptor indican: → La amplificación de las señales de audio
+T5-25 | T5 | peso 3 | Sobremodulación: índice > 100 %; distorsión y ensanchamiento de la emisión (splatter)
+    T5.31: Se dice que un transmisor de amplitud modulada está sobremodulando cuando: → el índice de modulación supera el 100 %
+    T5.19: Hablar demasiado fuerte al micrófono, o abrir en exceso la ganancia de micrófono, produce: → sobremodulación, con ensanchamiento de la emisión e interferencias
+T5-26 | T5 | peso 2 | Contra la sobremodulación: bajar el nivel de BF aplicado al modulador
+    T5.32: Para evitar la sobremodulación de un transmisor hay que actuar sobre: → el nivel de la señal de baja frecuencia aplicada al modulador
+T5-27 | T5 | peso 2 | ALC: limita la excitación del final y evita emisiones interferentes alrededor de la frecuencia
+    T5.7: El control automático de nivel (ALC) de un transmisor permite: → evitar emisiones interferentes alrededor de la frecuencia de trabajo
+T5-28 | T5 | peso 1 | La estabilidad de frecuencia del emisor evita interferir a emisiones próximas
+    C-T5.14: La estabilidad de la frecuencia de un emisor de radio proporciona la siguiente ventaja: → Menor interferencia a otras emisiones de frecuencia próxima
+T5-29 | T5 | peso 1 | Características propias de un transmisor: frecuencia y estabilidad (no sensibilidad ni factor de ruido)
+    C-T5.25: Son características relevantes en un transmisor: → Frecuencia de emisión y su estabilidad en frecuencia.
+T5-30 | T5 | peso 1 | Estabilidad en ppm: Δf = f · ppm · 10^-6
+    F-T5.1: Un transmisor de 144 MHz con una estabilidad de frecuencia de ±1 ppm puede desviarse de su frecuencia, como máximo, en: → ±144 Hz
+T5-31 | T5 | peso 1 | CAF = control automático de frecuencia
+    T5.23: Las siglas CAF corresponden a: → control automático de frecuencia
+T5-32 | T5 | peso 2 | Impedancia de salida típica: 50 Ω
+    T5.1: La impedancia de salida típica de los transmisores de radioaficionado es de: → 50 Ω
+T5-33 | T5 | peso 2 | Rendimiento = potencia entregada al sistema radiante / potencia consumida
+    T5.5: El rendimiento de un transmisor es la relación entre: → la potencia entregada al sistema radiante y la potencia consumida
+T5-34 | T5 | peso 1 | Subsistema auxiliar típico del transmisor: refrigeración
+    C-T5.24: Un transmisor suele tener entre sus subsistemas auxiliares: → Un sistema de refrigeración.
+T5-35 | T5 | peso 2 | PEP: potencia de pico de envolvente
+    T5.30: Las siglas PEP, con que se expresa la potencia de un transmisor de SSB, significan: → potencia de pico de envolvente
+T5-36 | T5 | peso 2 | Potencia de portadora: media durante un ciclo de RF sin modulación
+    T5.33: Se denomina potencia de portadora de un transmisor a la que entrega a la línea de alimentación de la antena: → durante un ciclo de radiofrecuencia, en ausencia de modulación
+T5-37 | T5 | peso 1 | En AM la potencia de pico supera a la media (al 100 %, pico = 4 × portadora)
+    T5.8: En un transmisor con modulación de amplitud, la potencia de pico es: → siempre superior a la potencia media
+T5-38 | T5 | peso 2 | dBm y dBW: 1 W = 30 dBm = 0 dBW
+    T5.24: Una potencia de 1 vatio equivale a: → 30 dBm
+T5-39 | T5 | peso 2 | Anchura de banda necesaria: la justa para la velocidad y calidad requeridas
+    T5.13: La anchura de banda necesaria de un transmisor es: → la suficiente para permitir la transmisión a la velocidad y con la calidad requeridas
+T5-40 | T5 | peso 2 | Anchura de banda ocupada: fuera de sus límites se radia el 0,5 % por cada lado
+    C-T5.9: Las frecuencias límite para una determinada anchura de banda son aquellas a partir de las cuales se radia: → 0,5 % de la potencia media total radiada
+T5-41 | T5 | peso 2 | Emisiones no deseadas = no esenciales + fuera de banda
+    T5.14: Se denomina «emisiones no deseadas» al conjunto de: → las emisiones no esenciales y las emisiones fuera de banda
+T5-42 | T5 | peso 3 | Armónicos: múltiplos enteros de la fundamental
+    T5.6: Los armónicos generados por un transmisor son señales cuya frecuencia es: → un múltiplo entero de la frecuencia fundamental
+T5-43 | T5 | peso 3 | Filtro de salida (paso bajo) y red de acoplo entre el final y la antena: eliminan armónicos y adaptan
+    T5.4: El filtro de salida de un transmisor tiene como misión: → eliminar las frecuencias no deseadas
+    C-T5.3: La antena estará acoplada al paso final de salida: → Por adaptadores y filtros
+T5-44 | T5 | peso 3 | Espurias por debajo de 30 MHz: 40 dB bajo la potencia media, sin exceder de 50 mW
+    T5.9: Para frecuencias inferiores a 30 MHz, las emisiones no esenciales (espurias) de un transmisor de aficionado deben estar atenuadas al menos: → 40 dB por debajo de la potencia media, sin exceder de 50 mW
+T5-45 | T5 | peso 2 | Límite de espurias: vale el más restrictivo entre la atenuación y el tope absoluto
+    N-T5-04: Un transmisor de HF entrega 100 W de potencia media. Cada emisión no esencial puede tener, como máximo, una potencia de: → 10 mW
+T5-46 | T5 | peso 1 | Espurias por encima de 30 MHz: límites según banda y potencia (25 μW, 1 mW, 20 mW…)
+    F-T5.3: Entre 30 y 235 MHz, en un transmisor de 25 W o menos, las emisiones no esenciales deben estar 40 dB por debajo de la potencia media, sin exceder de: → 25 μW
+    N-T5-05: Entre 235 y 960 MHz, en un transmisor de potencia superior a 25 W, las emisiones no esenciales deben estar 60 dB por debajo de la potencia media, sin exceder de: → 20 mW
+T5-47 | T5 | peso 1 | Espurias de mezcla: el otro producto y restos del mezclador; filtro paso banda tras él
+    N-T5-06: En un transmisor con conversión de frecuencia, a la salida del mezclador aparecen, además de la señal deseada: → el otro producto de la mezcla (suma o diferencia) y restos de las dos entradas, que se eliminan con un filtro paso banda tras el mezclador
+T5-48 | T5 | peso 2 | Manipulación brusca en CW: chasquidos que ensanchan la emisión
+    T5.29: Una manipulación demasiado brusca en una emisión de telegrafía produce: → chasquidos de manipulación que ensanchan la emisión
+T5-49 | T5 | peso 1 | Oscilaciones parásitas: frecuencias ajenas a la de trabajo; supresores y ferritas
+    N-T5-07: Las oscilaciones parásitas de un amplificador de potencia: → son oscilaciones a frecuencias sin relación con la de trabajo, a menudo en VHF, que se combaten con supresores y ferritas
+T5-50 | T5 | peso 2 | Radiación por la estructura: RF que escapa por chasis y cables; se reduce apantallando y filtrando
+    F-T5.4: Se denomina radiación por la estructura de un transmisor a: → la radiofrecuencia que escapa por el chasis y los cables del equipo sin pasar por la antena
+    F-T5.5: La radiación por la estructura de un transmisor se reduce: → apantallando la caja del equipo y filtrando los cables que entran y salen de ella
+T5-51 | T5 | peso 2 | Carga artificial: la energía se disipa en calor; se ajusta sin radiar
+    T5.35: Al sintonizar un emisor empleando una antena artificial: → la mayor parte de la energía del emisor se disipa en forma de calor
+T5-52 | T5 | peso 1 | Final valvular: sintonía (mínimo de corriente de placa) y carga (acoplo a la antena)
+    T5.34: En un transmisor valvular, el mando de control de carga (_load_) sirve para: → ajustar el acoplo de la etapa final a la antena
+T5-53 | T5 | peso 1 | Amperímetro de RF en la línea de antena: lectura máxima en el ajuste óptimo
+    C-T5.7: Si se dispone de un amperímetro a la salida del emisor, hacia la antena, en el ajuste óptimo de emisión (máxima emisión) la lectura será: → Máxima
+T5-54 | T5 | peso 1 | Alta tensión de placa del final: se aplica en dos etapas (primero reducida)
+    C-T5.16: En un emisor de potencia media, la alta tensión de placa del paso final se aplica: → En dos etapas; en la primera se aplica una tensión media; y después del primer ajuste, se aplica toda la tensión
+T5-55 | T5 | peso 1 | En un equipo a válvulas, la RF llega al final al accionar el conmutador emisión/recepción
+    C-T5.20: En un transceptor a válvulas, la alta frecuencia del paso final se aplica: → Al actuar sobre el conmutador emisión/recepción
+T5-56 | T5 | peso 1 | Preparación previa del emisor: banda, frecuencia y clase de emisión (no el S-meter)
+    C-T5.15: Antes del encendido de un emisor hay que prepararlo, pero de los siguientes controles y elementos, el que no es necesario actuar para dicha preparación previa es: → El medidor de sensibilidad de la señal
+T5-57 | T5 | peso 1 | Amplificadores con cavidades resonantes: desde 144 MHz
+    C-T5.22: Los amplificadores a cavidades resonantes se emplean en los transceptores que trabajan en las bandas de: → 144 MHz y superiores
+T5-58 | T5 | peso 1 | Válvulas frente a transistores (pregunta de banco)
+    C-T5.28: ¿Válvulas o transistores? Seleccionar la sentencia correcta. → Los amplificadores a válvulas son los preferidos por los radioaficionados amantes de lo retro en radio.
+T5-59 | T5 | peso 1 | Modulador digital: niveles discretos de tensión → estados discretos de la portadora
+    C-T5.27: Un modulador digital: → Convierte niveles discretos de tensión en estados discretos, bien sean de amplitud, fase, amplitud y fase, frecuencia instantánea, etc., de una señal portadora de radiofrecuencia.
+T5-60 | T5 | peso 2 | Conmutador SEND/REC: pasa de emisión a recepción y viceversa
+    C-T5.18: El conmutador SEND/REC se utiliza para: → Cambiar de emisión a recepción o viceversa
+T5-61 | T5 | peso 1 | Conmutador POWER ON/OFF: encender y apagar el equipo
+    C-T5.5: La misión del conmutador «POWER ON/OFF» en un transceptor es: → Encender y apagar el equipo
+T5-62 | T5 | peso 2 | VOX: pasa a transmisión al hablar; en MAN se usa el PTT del micrófono
+    T5.26: El dispositivo VOX de un transceptor permite: → pasar automáticamente a transmisión al hablar ante el micrófono
+    C-T5.12: En un transceptor, el conmutador «VOX-MAN» en la posición «MAN»: → Conecta el conmutador transmisor-receptor del micrófono
+T5-63 | T5 | peso 2 | Orden de la estación: transceptor, lineal, medidor de ROE, acoplador, antena
+    T5.22: El orden en que deben conectarse los equipos de una estación es: → transceptor, amplificador lineal, medidor de ROE, acoplador y antena
+T5-64 | T5 | peso 2 | Repetidor: recibe en una frecuencia y retransmite a la vez en otra
+    F-T5.6: Un repetidor de VHF/UHF es una estación que: → recibe una señal en una frecuencia y la retransmite a la vez en otra
+T5-65 | T5 | peso 2 | Desplazamiento del repetidor en 2 m: entrada 600 kHz por debajo de la salida
+    N-T5-08: En la banda de 2 metros, la frecuencia de entrada de un repetidor (en la que transmiten los usuarios) está, respecto a su frecuencia de salida: → 600 kHz por debajo
+T5-66 | T5 | peso 1 | Acceso a repetidores con subtono CTCSS
+    N-T5-09: Muchos repetidores de VHF/UHF solo se activan si la señal que reciben lleva: → un subtono de baja frecuencia (CTCSS) que actúa de llave de acceso
+T5-67 | T5 | peso 2 | Ubicación de los repetidores: lugares elevados para aumentar el alcance (visibilidad directa)
+    F-T5.7: Los repetidores se instalan preferentemente en lugares elevados (montañas, torres) porque: → así aumenta su alcance, al ver directamente más terreno
+T5-68 | T5 | peso 1 | Duplexor: permite al repetidor recibir y transmitir a la vez con una sola antena
+    F-T5.8: Para recibir y transmitir a la vez con una sola antena, un repetidor utiliza: → un duplexor, conjunto de filtros que separa la frecuencia de entrada de la de salida
+T6-01 | T6 | peso 3 | Longitud del dipolo de media onda (≈ λ/2: 20 m para la banda de 40 m) y tamaño de la antena en función de la longitud de onda
+    T6.1: La longitud total aproximada de un dipolo de media onda para la banda de 40 metros es de: → 20 m
+T6-02 | T6 | peso 3 | Resonancia: impedancia de alimentación resistiva pura (antena sintonizada a la frecuencia de la señal; equivale a una resistencia pura)
+    T6.2: Una antena está en resonancia cuando: → la impedancia en su punto de alimentación es resistiva pura
+T6-03 | T6 | peso 3 | Para bajar la frecuencia de resonancia hay que alargar la antena (29,9 → 28,5 MHz)
+    T6.3: Para que una antena que resuena en 29 900 kHz pase a resonar en 28 500 kHz, deberemos: → alargarla
+T6-04 | T6 | peso 2 | Antena más corta que la resonante: reactancia capacitiva (se compensa con bobina); más larga: inductiva
+    N-T6-01: Una antena algo más corta de lo que pide su frecuencia de trabajo presenta en su punto de alimentación, además de la parte resistiva, una reactancia: → capacitiva, que se compensa con una bobina en serie
+T6-05 | T6 | peso 3 | Elementos reactivos en serie: la bobina alarga eléctricamente la antena (baja f), el condensador la acorta (sube f)
+    C-T6.11: Para acortar la longitud eléctrica de una antena se puede proceder a: → Insertar un condensador, en serie, en la base
+    T6.39: Las bobinas intercaladas en los brazos de un dipolo permiten: → incrementar su longitud eléctrica sin alargarla físicamente
+T6-06 | T6 | peso 1 | Elementos de sintonía en la base de la antena: bobina y condensador variables (no resistencias)
+    C-T6.6: Los elementos variables de que, generalmente, se dispone en serie en la base de una antena para ajustar a la resonancia son: → Una bobina y un condensador
+T6-07 | T6 | peso 1 | Ajuste a resonancia: se busca la corriente de antena máxima
+    C-T6.10: Se ajustan los elementos de resonancia de la antena variándolos de modo que la corriente en la misma: → Alcance un máximo
+T6-08 | T6 | peso 3 | Impedancia del dipolo de media onda alimentado en el centro: ≈ 73 Ω
+    T6.36: La impedancia que presenta en su punto de alimentación un dipolo de media onda en resonancia, situado en el espacio libre, es aproximadamente de: → 73 ohmios
+T6-09 | T6 | peso 2 | Media onda alimentada en un extremo: impedancia muy alta (miles de ohmios)
+    F-T6.16: Una antena de media onda alimentada por uno de sus extremos presenta en el punto de alimentación una impedancia: → muy alta, de varios miles de ohmios
+T6-10 | T6 | peso 2 | Dipolo en V invertida: ≈ 50 Ω, casi omnidireccional y un solo mástil
+    C-T6.1: ¿Qué ventajas presenta la antena dipolo en V invertida? → Un valor de impedancia próximo a 50 Ω y un diagrama de radiación prácticamente omnidireccional.
+    T6.28: La principal ventaja de un dipolo montado en V invertida es que: → necesita un solo soporte central en lugar de dos
+T6-11 | T6 | peso 1 | Rendimiento de una antena: η = Rr / (Rr + Rp)
+    F-T6.3: Una antena tiene una resistencia de radiación de 36 Ω y una resistencia de pérdidas de 4 Ω. Su eficiencia (rendimiento) es del: → 90 %
+T6-12 | T6 | peso 3 | Dipolo plegado: impedancia unas cuatro veces mayor (≈ 300 Ω)
+    T6.6: En resonancia, el dipolo plegado (doblado) presenta, respecto del dipolo simple, una impedancia: → unas cuatro veces mayor (∼300 Ω)
+T6-13 | T6 | peso 1 | Dipolo plegado: mayor ancho de banda que el simple y la misma ganancia
+    F-T6.24: Respecto del dipolo simple de media onda, el dipolo plegado presenta: → una impedancia unas cuatro veces mayor y mayor ancho de banda
+T6-14 | T6 | peso 3 | Dipolo con trampas: circuitos LC paralelo en los brazos que permiten trabajar en varias bandas
+    T6.7: En un dipolo con trampas, las trampas son: → circuitos resonantes que permiten trabajar en varias bandas
+    C-T6.7: Para alargar y acortar la longitud de una antena para usarla como multibanda se conectan: → Circuitos L-C paralelos a determinadas distancias del centro
+T6-15 | T6 | peso 2 | La vertical de cuarto de onda necesita plano de tierra o radiales
+    T6.35: Una antena vertical de cuarto de onda necesita, para funcionar correctamente: → un plano de tierra o un juego de radiales
+T6-16 | T6 | peso 2 | Impedancia de la vertical de cuarto de onda (≈ 36 Ω) y radiales inclinados (sube hacia 50 Ω)
+    N-T6-02: Una antena vertical de cuarto de onda con un plano de tierra de radiales horizontales presenta en su base una impedancia de aproximadamente: → 36 Ω
+    T6.27: En una antena vertical de cuarto de onda, inclinar los radiales hacia abajo produce: → un aumento de la impedancia en el punto de alimentación
+T6-17 | T6 | peso 2 | Diagrama de la vertical: máximo en el plano horizontal y nulo hacia el cénit
+    T6.14: El máximo de radiación del diagrama de una antena vertical se produce: → en el plano horizontal
+T6-18 | T6 | peso 3 | La Yagi es una antena directiva (un lóbulo principal dominante)
+    T6.4: Las antenas Yagi son antenas: → directivas
+T6-19 | T6 | peso 3 | Yagi: los elementos parásitos no están alimentados y dan la directividad
+    T6.37: En una antena Yagi, los elementos parásitos: → proporcionan directividad a la antena
+T6-20 | T6 | peso 2 | Yagi: el reflector es más largo y va detrás; los directores, más cortos y delante
+    N-T6-03: En una antena Yagi, comparado con el elemento alimentado (radiante), el reflector es: → algo más largo y está situado detrás
+T6-21 | T6 | peso 2 | Antena helicoidal: polarización circular, usada en enlaces por satélite
+    C-T6.4: Una antena helicoidal se usa: → Para enlaces por satélites
+T6-22 | T6 | peso 1 | Antena helicoidal: la ganancia depende del número de espiras
+    T6.41: En una antena helicoidal, la ganancia depende fundamentalmente de: → el número de espiras
+T6-23 | T6 | peso 2 | Antenas de apertura: bocina y reflector parabólico (no las de hilo)
+    C-T6.18: Entre las antenas de apertura están: → Las de bocina.
+T6-24 | T6 | peso 1 | Ganancia de una parabólica: crece con (D/λ)² (duplicar D o f: +6 dB)
+    F-T6.25: La ganancia de una antena parabólica es tanto mayor cuanto: → mayor es su diámetro en comparación con la longitud de onda
+T6-25 | T6 | peso 1 | Parabólica: el alimentador va en el foco, frente al plato
+    F-T6.27: En una antena parabólica de foco primario, el elemento alimentador (bocina o dipolo) se sitúa: → en el foco del reflector, frente al plato
+T6-26 | T6 | peso 2 | El diagrama de radiación representa la distribución de la energía radiada en el espacio
+    C-T6.13: El diagrama de radiación de una antena nos da: → La distribución de la energía radiada en el espacio
+T6-27 | T6 | peso 2 | Antena omnidireccional: radia igual en todo el plano horizontal (el dipolo, en el plano perpendicular al hilo)
+    C-T6.2: La antena de media onda: → Es omnidireccional (en el plano perpendicular al hilo)
+T6-28 | T6 | peso 2 | Ancho de haz: entre los puntos de media potencia (−3 dB)
+    T6.9: El ancho de haz del diagrama de radiación de una antena es la separación angular entre los dos puntos en los que la potencia radiada: → es la mitad de la máxima (−3 dB)
+T6-29 | T6 | peso 2 | Relación adelante-atrás: dB entre el lóbulo principal y el trasero
+    T6.16: En el diagrama de radiación de una antena directiva, la diferencia en decibelios entre el lóbulo principal y el lóbulo trasero se denomina: → relación adelante-atrás
+T6-30 | T6 | peso 3 | Polarización: orientación del campo eléctrico radiado
+    T6.8: La polarización de una antena viene determinada por: → la orientación del campo eléctrico radiado
+T6-31 | T6 | peso 1 | Polarización cruzada entre emisora y receptora: gran pérdida de señal en visión directa
+    N-T6-04: En un enlace de VHF con visión directa, una estación emite con una antena vertical y la otra recibe con un dipolo horizontal. Lo más probable es que: → la señal llegue muy atenuada, porque las polarizaciones están cruzadas
+T6-32 | T6 | peso 2 | La ganancia se expresa en dB respecto de una antena de referencia (dBi o dBd)
+    T6.34: La ganancia de una antena se expresa normalmente en: → decibelios respecto de una antena de referencia (dBi o dBd)
+T6-33 | T6 | peso 2 | Conversión dBi = dBd + 2,15 (la p.i.r.e. es 2,15 dB mayor que la p.r.e.)
+    F-T6.1: Una antena tiene una ganancia de 7,85 dBi. Referida al dipolo de media onda, su ganancia es de: → 5,7 dBd
+T6-34 | T6 | peso 3 | Potencia efectiva radiada: p.r.e. = P · G, descontando las pérdidas del cable (en dB)
+    F-T6.6: Un transmisor de 10 W alimenta, mediante un cable que pierde 3 dB, una antena de 6 dBd de ganancia. La potencia efectiva radiada (p.r.e.) es aproximadamente de: → 20 W
+T6-35 | T6 | peso 2 | Para aumentar el alcance, lo primero es aumentar la directividad de la antena
+    C-T6.8: De los diversos procedimientos que a continuación se indican, para aumentar el alcance de una emisora el primero al que hay que recurrir, si es factible, es el siguiente: → Aumentar la directividad de la antena
+T6-36 | T6 | peso 1 | Área de captura: Ae = λ²G / 4π (proporcional a la ganancia, mayor a menor frecuencia)
+    F-T6.4: A igual ganancia, el área de captura de una antena receptora es mayor cuanto: → mayor es la longitud de onda (menor la frecuencia)
+T6-37 | T6 | peso 1 | Antena pasiva: no incorpora amplificador
+    T6.30: Se dice que una antena es pasiva cuando: → no incorpora ningún elemento amplificador
+T6-38 | T6 | peso 2 | Reciprocidad: el mismo diagrama en transmisión y en recepción
+    T6.38: En una antena pasiva puede afirmarse que: → su diagrama de radiación en transmisión y en recepción es el mismo
+T6-39 | T6 | peso 1 | El cable entre el emisor y la antena debe ser apantallado (coaxial)
+    C-T6.12: El cable que une la antena al emisor debe: → Estar apantallado
+T6-40 | T6 | peso 1 | Línea paralela frente a coaxial: simétrica, 300–600 Ω, menos pérdidas, lejos de metales
+    N-T6-05: Comparada con el cable coaxial, la línea paralela (bifilar o de escalerilla): → es simétrica, tiene una impedancia de unos 300 a 600 Ω y pierde menos, pero hay que alejarla de los objetos metálicos
+T6-41 | T6 | peso 2 | La impedancia característica depende de la geometría y del dieléctrico, no de la longitud
+    N-T6-06: La impedancia característica $Z_0$ de una línea de transmisión depende de: → la geometría de los conductores (diámetros y separación) y del dieléctrico
+T6-42 | T6 | peso 2 | Factor de velocidad: la onda va más despacio en la línea; FV = 1/√εr < 1
+    T6.42: El factor de velocidad de un cable coaxial se relaciona con la constante dieléctrica $epsilon_r$ de su aislante mediante: → la inversa de la raíz cuadrada de $epsilon_r$
+T6-43 | T6 | peso 3 | Longitud física = longitud eléctrica × FV (la física es menor); cálculo de un tramo
+    T6.33: Comparadas entre sí, la longitud física y la longitud eléctrica de un tramo de cable coaxial cumplen que: → la longitud física es menor que la eléctrica
+    F-T6.9: Un tramo de cable coaxial con factor de velocidad 0,66 debe medir un cuarto de onda eléctrico para 7 MHz. Su longitud física es aproximadamente de: → 7 m
+T6-44 | T6 | peso 2 | Guía de ondas: no propaga por debajo de su frecuencia de corte
+    T6.18: Se conoce como «frecuencia de corte» de una guía de onda a la frecuencia: → por debajo de la cual no es posible la transmisión en la guía
+T6-45 | T6 | peso 3 | La ROE indica el grado de adaptación de impedancias
+    T6.10: El parámetro ROE de una estación transmisora es un indicador de: → el grado de adaptación de impedancias entre el transmisor y la antena
+T6-46 | T6 | peso 2 | Definición de la ROE: Vmáx / Vmín (o Imáx / Imín) de la onda estacionaria
+    C-T6.15: En una línea de transmisión, la relación de onda estacionaria es: → $(|V_"máx"|) / (|V_"mín"|)$
+T6-47 | T6 | peso 3 | Adaptación perfecta: ROE = 1, coeficiente de reflexión 0, potencia reflejada nula
+    T6.11: Con un acoplamiento óptimo entre el transmisor y la antena, el medidor de ondas estacionarias indicará: → uno
+    T6.32: En una línea de transmisión perfectamente adaptada a la antena, el coeficiente de reflexión vale: → cero
+T6-48 | T6 | peso 3 | Máxima transferencia: transmisor, línea y antena de la misma impedancia; si difieren, hace falta adaptador
+    T6.43: La máxima transferencia de energía del transmisor a la antena se produce cuando: → las impedancias del emisor, de la línea y de la antena coinciden
+T6-49 | T6 | peso 2 | Margen de la ROE: siempre ≥ 1; funcionamiento adecuado entre 1 y 2,5
+    C-T6.3: La relación de ondas estacionarias para un adecuado funcionamiento debe ser: → Entre 2,5 y 1
+T6-50 | T6 | peso 1 | La ROE no depende de la potencia aplicada
+    C-T6.16: ¿Qué respuesta es cierta para una antena que radie en condiciones ideales de espacio libre? → La potencia aplicada y la ROE medida no tendrán nada que ver.
+T6-51 | T6 | peso 3 | Coeficiente de reflexión y ROE a partir de las impedancias (150 Ω en 50 Ω → ROE 3)
+    F-T6.10: Una antena resistiva pura de 150 Ω se conecta a una línea de 50 Ω. La relación de ondas estacionarias (ROE) es de: → 3
+T6-52 | T6 | peso 2 | ROE a partir de la potencia directa y la reflejada: ρ = √(Pr/Pd)
+    F-T6.11: Un vatímetro direccional indica 100 W de potencia directa y 25 W de potencia reflejada. La ROE de la instalación es de: → 3
+T6-53 | T6 | peso 2 | Las pérdidas del coaxial (dB) crecen con la frecuencia y con la longitud
+    F-T6.13: Las pérdidas de un cable coaxial, expresadas en decibelios: → aumentan con la frecuencia y con la longitud
+T6-54 | T6 | peso 2 | Un cable de 3 dB de pérdidas entrega la mitad de la potencia
+    F-T6.12: Un cable coaxial de 3 dB de pérdidas une el transmisor con la antena. La potencia que llega a la antena es, aproximadamente: → la mitad de la del transmisor
+T6-55 | T6 | peso 1 | Una ROE alta aumenta las pérdidas totales de la línea
+    F-T6.14: En un cable coaxial real, al aumentar la ROE, las pérdidas totales de la línea: → aumentan, porque la onda reflejada recorre la línea otra vez y se disipa más potencia
+T6-56 | T6 | peso 3 | Balun: une el coaxial (asimétrico) con el dipolo (simétrico); sin él la malla radia
+    T6.12: El dispositivo que se emplea para conectar un cable coaxial (línea asimétrica) a un dipolo (antena simétrica) es: → un balun
+    F-T6.17: Si se conecta un cable coaxial directamente a un dipolo de media onda, sin balun, lo más probable es que: → circulen corrientes de RF por el exterior de la malla, que pasa a radiar y deforma el diagrama de la antena
+T6-57 | T6 | peso 1 | Balun 4:1 para alimentar un dipolo plegado de 300 Ω con coaxial de 75 Ω (espiras 2:1)
+    F-T6.23: Un dipolo plegado de unos 300 Ω se alimenta con cable coaxial de 75 Ω. Para adaptar las impedancias y, a la vez, pasar de línea asimétrica a antena simétrica se emplea: → un balun de relación de impedancias 4:1
+T6-58 | T6 | peso 2 | Transformador de cuarto de onda: Z = √(Zlínea · Zcarga); Zent = Z0²/ZL
+    F-T6.18: Se quiere adaptar una antena de 200 Ω a una línea de 50 Ω con un tramo de cuarto de onda. La impedancia característica de ese tramo debe ser: → 100 Ω
+T6-59 | T6 | peso 2 | El cuarto de onda invierte la impedancia: en cortocircuito se ve como resonante paralelo; abierto, como serie
+    F-T6.20: Una línea de cuarto de onda cortocircuitada en su extremo se comporta, vista desde el otro extremo, como: → un circuito resonante paralelo, de impedancia muy alta
+T6-60 | T6 | peso 1 | Tramo de línea en cortocircuito de menos de λ/4: reactancia inductiva
+    F-T6.22: Un tramo de línea cortocircuitada de longitud menor que un cuarto de onda se comporta en su entrada como: → una bobina (reactancia inductiva)
+T6-61 | T6 | peso 3 | Acoplador de antena: adapta la impedancia del final a la línea y la antena (no mejora la antena)
+    T6.15: El acoplador de antena se emplea para: → adaptar la impedancia de la etapa final a la línea de transmisión y la antena
+T6-62 | T6 | peso 1 | Red en pi (C–L–C) del acoplador de antena
+    T6.23: El circuito de la figura, conectado entre el transmisor y la antena, se utiliza como: #align(center, esquema({ import zap: * import cetz.draw: content node("a", (0, 2), fill: false) wire((0, 2), (5.2, 2)) node("n1", (1.4 → acoplador de antena (red en pi)
+T6-63 | T6 | peso 3 | Orden de conexión: transceptor → (lineal) → medidor de ROE → acoplador → antena
+    T6.17: El orden correcto de conexión de los equipos de una estación, desde el equipo hasta la antena, es: → transceptor, medidor de ROE, acoplador de antena, antena
+    C-T6.21: Señale la conexión correcta entre equipos: → #_apb1-cadena("amp", "roe", "acop")
+T6-64 | T6 | peso 1 | Conmutador de antena: conecta la antena al transmisor o al receptor
+    T6.24: El conmutador de antena de una estación permite: → conectar la antena alternativamente al transmisor o al receptor
+T6-65 | T6 | peso 2 | Relé T-R: al transmitir desconecta y protege la entrada del receptor
+    T6.25: Durante la transmisión, el relé de transmisión-recepción de un transceptor: → desconecta la entrada del receptor y la protege de la potencia emitida
+T6-66 | T6 | peso 1 | Selector de antenas: elegir qué antena se usa desde un mismo equipo
+    T6.26: Un conmutador de antenas de varias posiciones se emplea para: → elegir, desde un mismo equipo, cuál de las antenas de la estación se usa
+T7-01 | T7 | peso 3 | Nomenclatura de las bandas: sigla y nombre por longitud de onda (HF decamétricas, MF hectométricas, VHF métricas, UHF decimétricas, SHF centimétricas)
+    C-T7.6: La abreviatura HF indica la subdivisión métrica correspondiente a ondas: → decamétricas
+T7-02 | T7 | peso 3 | Nomenclatura de las bandas: margen de frecuencias de cada banda (cada una abarca una década)
+    C-T7.3: La gama de frecuencias comprendida entre 300 y 3000 MHz corresponde a las: → ondas decimétricas
+T7-03 | T7 | peso 3 | Asignar una frecuencia concreta a su banda con λ = 300/f
+    C-T7.9: La frecuencia de 144 MHz está incluida en las ondas: → métricas
+    T7.20: Una emisión en la frecuencia de 3,5 MHz pertenece a las ondas: → decamétricas
+T7-04 | T7 | peso 2 | La onda de superficie predomina en MF y por debajo (sus pérdidas crecen con la frecuencia)
+    T7.3: El modo de propagación por onda de superficie predomina en la banda de: → MF
+T7-05 | T7 | peso 2 | La onda de superficie sigue la curvatura terrestre
+    T7.4: La propagación por onda de superficie se caracteriza porque la onda: → se propaga siguiendo la curvatura terrestre
+T7-06 | T7 | peso 3 | HF: propagación por reflexión ionosférica, la del DX (España–Nueva Zelanda)
+    T7.10: Un enlace radioeléctrico entre España y Nueva Zelanda podría establecerse empleando: → una frecuencia de HF que se refleje en la ionosfera
+    C-T7.1: Un enlace radioeléctrico entre España y Nueva Zelanda podría emplear: → una frecuencia de la banda HF por debajo de la frecuencia crítica
+T7-07 | T7 | peso 3 | VHF y UHF: onda directa, distancias cortas
+    T7.5: La forma más común de propagación en VHF y UHF es por: → onda directa
+T7-08 | T7 | peso 2 | Los satélites de aficionado usan VHF y UHF (hay que atravesar la ionosfera)
+    T7.24: Para las comunicaciones a través de satélites de aficionado se emplean preferentemente las bandas de: → VHF y UHF
+T7-09 | T7 | peso 2 | A mayor frecuencia, menor alcance (144 MHz llega más fuerte que 430 MHz)
+    C-T7.4: En condiciones normales, para una misma potencia radiada, las ondas que llegarían con más intensidad a un punto alejado serían: → las de 144 MHz
+T7-10 | T7 | peso 1 | Factores que influyen en un enlace: polarización, potencia, frecuencia y ubicación de las antenas
+    T7.13: De los siguientes factores, influyen en una comunicación radioeléctrica: → todos los anteriores
+T7-11 | T7 | peso 2 | Horizonte radioeléctrico: d ≈ 4,12 (√h1 + √h2) km
+    F-T7.14: Dos estaciones de VHF, con las antenas a 9 m y a 16 m de altura sobre terreno llano, alcanzan por onda directa una distancia máxima aproximada de: → 29 km
+T7-12 | T7 | peso 2 | El horizonte radioeléctrico es algo mayor que el óptico (la troposfera curva el rayo)
+    F-T7.16: En condiciones normales, el horizonte radioeléctrico es: → algo mayor que el horizonte óptico, porque la troposfera curva el rayo hacia el suelo
+T7-13 | T7 | peso 2 | Atenuación: toda onda se atenúa al propagarse y al atravesar objetos
+    C-T7.11: Si una onda electromagnética atraviesa un objeto, se produce un efecto de: → atenuación
+T7-14 | T7 | peso 2 | Pérdida en espacio libre y relación señal/ruido: 20 log d y 20 log f (×10 la distancia: −20 dB)
+    F-T7.1: En un enlace en espacio libre, con la misma potencia transmitida y el mismo ruido en el receptor, al multiplicar por 10 la distancia la relación señal/ruido: → disminuye 20 dB
+T7-15 | T7 | peso 2 | Difracción: la onda bordea un obstáculo
+    T7.21: La curvatura que experimenta una onda radioeléctrica al encontrar un obstáculo en su trayectoria se denomina: → difracción
+T7-16 | T7 | peso 3 | Capas de la ionosfera: D, E, F1 y F2
+    T7.1: Las capas ionizadas de la atmósfera se denominan: → D, E, F1 y F2
+T7-17 | T7 | peso 2 | Orden de las capas de la atmósfera: troposfera, estratosfera e ionosfera
+    T7.22: Ordenadas de menor a mayor altura, las capas de la atmósfera son: → troposfera, estratosfera e ionosfera
+T7-18 | T7 | peso 2 | De noche desaparece la capa D y F1 y F2 se funden en una sola capa F
+    N-T7-01: Al caer la noche, en la ionosfera: → desaparece la capa D y las capas F1 y F2 se funden en una sola capa F
+T7-19 | T7 | peso 3 | La capa D absorbe de día las bandas bajas (3,5 MHz: de día menos alcance que de noche)
+    T7.8: En la banda de 3,5 MHz, los alcances por reflexión ionosférica durante el día, frente a los de la noche, son: → menores
+T7-20 | T7 | peso 2 | La ionosfera depende de la actividad solar y de ella dependen las condiciones en HF
+    T7.23: La región de la atmósfera cuyo estado varía con la actividad solar y de la que dependen las condiciones de propagación en HF es: → la ionosfera
+T7-21 | T7 | peso 2 | Ciclo solar: más manchas → más ionización, MUF más alta y bandas altas abiertas
+    F-T7.10: Cuando aumenta la actividad solar (más manchas solares), la MUF suele: → subir, y bandas altas como la de 28 MHz se abren al DX con más frecuencia
+T7-22 | T7 | peso 1 | Fulguración solar: ionización brusca de la capa D y apagón de HF (efecto Dellinger)
+    N-T7-02: Una fulguración solar intensa provoca, en el hemisferio iluminado: → un aumento brusco de la ionización de la capa D, que absorbe la HF y la deja muda durante minutos u horas
+T7-23 | T7 | peso 3 | Frecuencia crítica: la máxima que se refleja en incidencia vertical
+    T7.6: Se llama frecuencia crítica a la frecuencia: → por encima de la cual, en incidencia vertical, no hay reflexión en la ionosfera
+T7-24 | T7 | peso 2 | MUF ≈ fc / cos θ: mayor que la frecuencia crítica en incidencia oblicua
+    N-T7-03: La frecuencia crítica de la capa F2 es de 7 MHz. Para una onda que llega a la capa formando 60° con la vertical, la máxima frecuencia utilizable (MUF) es aproximadamente de: → 14 MHz
+T7-25 | T7 | peso 2 | Frecuencia óptima de trabajo ≈ 85 % de la MUF
+    F-T7.13: Si la MUF de un trayecto es de 20 MHz, la frecuencia óptima de trabajo (FOT) es aproximadamente de: → 17 MHz
+T7-26 | T7 | peso 2 | Onda espacial (de espacio): la que rebasa el horizonte, sube a la ionosfera y vuelve
+    C-T7.10: La onda que rebasa el horizonte y llega a la atmósfera se denomina: → onda espacial
+T7-27 | T7 | peso 2 | Zona de silencio: entre el final de la onda de superficie y la primera onda reflejada
+    N-T7-04: En HF, la zona de silencio es la región: → situada entre el punto donde se agota la onda de superficie y el punto donde cae la primera onda reflejada en la ionosfera
+T7-28 | T7 | peso 2 | Ángulo de radiación bajo → distancia de salto más larga
+    N-T7-05: En la propagación ionosférica en HF, cuanto más bajo (más rasante) es el ángulo de radiación de la antena sobre el horizonte: → más larga es la distancia de salto
+T7-29 | T7 | peso 1 | Los cambios de propagación alteran la distancia de salto: aparecen en tu frecuencia estaciones que antes no oías
+    C-T7.12: ¿Qué ha pasado probablemente si en la frecuencia en la que llevabas media hora haciendo un QSO aparecen hablando otras estaciones de otro QSO? → Ha variado la propagación y la distancia de salto.
+T7-30 | T7 | peso 2 | Desvanecimiento (fading): variación momentánea de la intensidad recibida
+    T7.7: La variación momentánea de la intensidad de campo recibida se conoce como: → desvanecimiento o fading
+T7-31 | T7 | peso 2 | El conducto troposférico se forma con una inversión térmica (aire cálido sobre aire frío)
+    F-T7.18: Un conducto troposférico se forma cuando en la troposfera existe: → una inversión de temperatura: una capa de aire cálido situada sobre aire más frío
+T7-32 | T7 | peso 2 | El conducto troposférico se da en VHF y UHF, con alcances de cientos de kilómetros
+    F-T7.17: La propagación por conducto troposférico se aprovecha sobre todo en: → VHF y UHF, con alcances de cientos de kilómetros, muy superiores al horizonte visual
+T7-33 | T7 | peso 1 | Los conductos son más probables con tiempo anticiclónico estable
+    F-T7.19: La propagación por conducto troposférico es más probable con: → tiempo anticiclónico estable, con altas presiones y poco viento
+T7-34 | T7 | peso 1 | Dispersión troposférica (troposcatter): alcance más allá del horizonte visual con grandes pérdidas
+    T7.11: Con la dispersión troposférica (troposcatter) en la propagación de ondas se consigue: → un alcance mayor que el meramente visual entre las antenas
+T7-35 | T7 | peso 2 | Esporádica-E: nubes de ionización intensa en la capa E que reflejan VHF
+    F-T7.2: La propagación por esporádica-E se debe a: → nubes de ionización muy intensa que aparecen en la capa E
+T7-36 | T7 | peso 2 | Esporádica-E: más frecuente en verano
+    F-T7.4: En el hemisferio norte, la esporádica-E en VHF es más frecuente en: → los meses de verano
+T7-37 | T7 | peso 1 | Esporádica-E: un salto cubre de 1000 a 2000 km
+    F-T7.3: En un contacto por esporádica-E con un solo salto, las señales de VHF llegan a distancias típicas de: → 1000 a 2000 km
+T7-38 | T7 | peso 2 | Reflexión auroral: en las cortinas ionizadas de las auroras
+    F-T7.5: La reflexión auroral se produce en: → las cortinas de ionización de las auroras
+T7-39 | T7 | peso 1 | Señales aurorales: ásperas y distorsionadas; la telegrafía es lo más eficaz
+    F-T7.6: Las señales que llegan por reflexión auroral se caracterizan por: → sonar ásperas y distorsionadas, con desvanecimientos rápidos; la telegrafía resulta la más eficaz
+T7-40 | T7 | peso 2 | Meteor-scatter: reflexión en las estelas ionizadas de los meteoros
+    F-T7.7: La propagación por meteor-scatter se basa en: → la reflexión en las estelas ionizadas que dejan los meteoros al entrar en la atmósfera
+T7-41 | T7 | peso 1 | Meteor-scatter: la señal llega en ráfagas breves
+    F-T7.8: Los contactos por meteor-scatter se caracterizan porque las señales llegan: → en ráfagas breves, de fracciones de segundo a pocos segundos
+T7-42 | T7 | peso 2 | Rebote lunar (EME): VHF y superiores, sobre todo 144 MHz (ondas métricas)
+    C-T7.2: Las reflexiones lunares se hacen principalmente en: → ondas métricas
+T7-43 | T7 | peso 2 | Ruido atmosférico (tormentas): domina en las bandas bajas de HF
+    N-T7-06: El ruido atmosférico, producido por las descargas de las tormentas de todo el planeta: → domina en las bandas bajas de HF, sobre todo en verano
+T7-44 | T7 | peso 1 | Ruido térmico: agitación de los electrones; crece con la temperatura y el ancho de banda (kTB)
+    N-T7-07: El ruido térmico generado en la entrada de un receptor: → aumenta con la temperatura y con el ancho de banda del receptor
+T7-45 | T7 | peso 1 | Flujo solar de 10,7 cm: índice de actividad solar para estimar la ionización y la MUF
+    F-T7.9: El flujo solar medido a 10,7 cm es: → un índice de la actividad solar que sirve para estimar la ionización y la MUF
+T7-46 | T7 | peso 1 | Predicción de propagación (VOACAP): MUF y bandas abiertas a partir de los índices solares
+    F-T7.11: Un programa de predicción de propagación, como VOACAP, calcula a partir de los índices solares, la fecha y la hora: → la MUF de cada trayecto y qué bandas tienen probabilidad de estar abiertas
+T7-47 | T7 | peso 1 | En un espectro la frecuencia crece hacia la derecha: la menor está a la izquierda
+    T7.27: En el espectro de la figura, correspondiente a tres emisiones simultáneas, la señal de menor frecuencia es: #align(center, cetz.canvas({ import cetz.draw: * ejes(0, 7.2, 0, 2.3, etq-x: $f$) content((0, 2.4), anchor: "sou → la señal 1
+T8-01 | T8 | peso 2 | Qué instrumento mide cada magnitud básica (voltímetro: tensión; amperímetro: corriente)
+    C-T8.10: Para medir la tensión (diferencia de potencial) eléctrica se emplea: → un voltímetro
+T8-02 | T8 | peso 3 | Conexión de los instrumentos: amperímetro en serie, voltímetro en paralelo, óhmetro sobre el componente
+    C-T8.1: En la realización de medidas, usando un polímetro, indique la respuesta correcta: → ninguna de las respuestas anteriores es correcta
+T8-03 | T8 | peso 2 | Resistencia interna ideal: amperímetro nula, voltímetro infinita
+    T8.19: Un amperímetro ideal y un voltímetro ideal tendrían, respectivamente, una resistencia interna: → nula e infinita
+T8-04 | T8 | peso 2 | Error de carga del voltímetro en un divisor de tensión
+    F-T8.7: Un divisor de tensión formado por dos resistencias de 10 kΩ se alimenta con 12 V. Si se mide la tensión de una de ellas con un voltímetro de 10 kΩ de resistencia interna, la lectura será de: → 4 V
+T8-05 | T8 | peso 1 | Sensibilidad en Ω/V de un polímetro analógico y resistencia de entrada según la escala
+    F-T8.11: Un polímetro analógico tiene una sensibilidad de 20 kΩ/V. En la escala de 10 V, su resistencia de entrada es de: → 200 kΩ
+T8-06 | T8 | peso 3 | Shunt: resistencia en paralelo que amplía la escala del amperímetro y lo protege
+    C-T8.5: Si queremos medir corrientes continuas con un amperímetro cuyo alcance máximo es inferior a las corrientes a medir, tendremos que: → poner una resistencia en paralelo
+    T8.11: Una resistencia en «shunt» (en paralelo) se puede utilizar para: → proteger aparatos de medida
+T8-07 | T8 | peso 1 | Resistencia multiplicadora en serie para ampliar la escala de un voltímetro
+    N-T8-01: Para que un galvanómetro sirva como voltímetro de mayor alcance se le conecta: → una resistencia multiplicadora en serie
+T8-08 | T8 | peso 2 | Óhmetro: medir resistencias sin tensión y con los condensadores descargados
+    T8.24: Antes de medir una resistencia con el polímetro dentro de un equipo, es imprescindible: → asegurarse de que el circuito está sin tensión y los condensadores descargados
+T8-09 | T8 | peso 1 | Error del instrumento: la clase es un porcentaje del fondo de escala
+    N-T8-02: Un voltímetro analógico de clase 1,5 se usa en la escala de 100 V. El error máximo que cabe esperar del propio instrumento es de: → 1,5 V en cualquier punto de la escala
+T8-10 | T8 | peso 2 | Influencia de la frecuencia: un polímetro común no sirve para medir tensiones de RF
+    F-T8.9: Un polímetro de uso general no es adecuado para medir tensiones de radiofrecuencia porque: → su respuesta en frecuencia en alterna es muy limitada (pocos llegan a decenas de kHz) y la lectura deja de ser fiable
+T8-11 | T8 | peso 2 | El polímetro no mide la impedancia de una antena (hace falta puente o analizador de antenas)
+    T8.9: Un polímetro (multímetro) NO sirve para medir: → la impedancia de la antena
+T8-12 | T8 | peso 1 | Error de forma de onda: polímetro de valor medio frente a verdadero valor eficaz (true RMS)
+    F-T8.8: Un polímetro convencional, calibrado para sinusoides y que no es de «verdadero valor eficaz» (_true RMS_), mide una tensión alterna de forma cuadrada. Su lectura: → puede ser errónea: rectifica, promedia y multiplica por el factor de forma de la sinusoide (1,11), que solo vale para esa forma de onda
+T8-13 | T8 | peso 2 | El dBm y el dBW son unidades de potencia
+    C-T8.3: La unidad dBm corresponde a la magnitud: → potencia
+T8-14 | T8 | peso 2 | Conversión entre vatios y dBm (1 mW = 0 dBm; 1 W = 30 dBm)
+    T8.3: A una potencia de 1000 mW le corresponde un nivel de: → 30 dBm
+T8-15 | T8 | peso 2 | Ganancia en decibelios como relación de potencias (+10 dB = ×10; +20 dB = ×100)
+    T8.4: Un amplificador de 20 dB de ganancia, con impedancias de entrada y salida iguales, recibe una potencia de entrada de 0,2 W. Su potencia de salida es: → 20 W
+T8-16 | T8 | peso 1 | Capacidad de una batería en mAh
+    T8.2: Una batería marcada como «DC 7,4 V – 1500 mAh» podrá suministrar: → 1,5 A durante una hora
+T8-17 | T8 | peso 2 | Potencia en la cresta de la envolvente a partir de la tensión de pico sobre la carga
+    F-T8.10: Con un osciloscopio se mide, en el máximo de la envolvente de una señal de SSB, una tensión de pico de 100 V sobre una carga artificial de 50 Ω. La potencia en la cresta de la envolvente (p.c.e.) es de: → 100 W
+T8-18 | T8 | peso 2 | Potencia media frente a p.c.e. (coinciden con amplitud constante; en SSB la media es mucho menor)
+    N-T8-03: En una emisión de CW con el manipulador apretado (portadora sin modular), la potencia media y la potencia en la cresta de la envolvente (p.c.e.): → coinciden, porque la amplitud es constante
+T8-19 | T8 | peso 2 | Medida de potencia de RF con vatímetro
+    T8.5: Para medir la potencia de una señal de radiofrecuencia se emplea: → un vatímetro
+T8-20 | T8 | peso 1 | Medida de potencia en continua con voltímetro y amperímetro (P = V·I)
+    C-T8.12: Para medir la potencia disipada en la resistencia del circuito de la figura, se deben seleccionar: [figura] → Los conmutadores en la posición 1.
+T8-21 | T8 | peso 1 | El amperímetro de antena es un instrumento de RF (térmico)
+    C-T8.7: El amperímetro de antena es del tipo: → de radiofrecuencia
+T8-22 | T8 | peso 3 | Potencia reflejada apreciable en el vatímetro direccional = desadaptación transmisor-antena
+    T8.25: Un vatímetro direccional intercalado entre transmisor y antena indica una potencia reflejada apreciable. Ello significa que: → el transmisor no está adaptado a la antena
+T8-23 | T8 | peso 2 | Cálculo de la ROE a partir de la potencia directa y la reflejada; potencia entregada = directa − reflejada
+    N-T8-04: Un vatímetro direccional marca 100 W de potencia directa y 25 W de reflejada. La ROE y la potencia que llega a la antena son, respectivamente: → 3 y 75 W
+T8-24 | T8 | peso 3 | El medidor de ROE compara la onda incidente y la reflejada: mide la desadaptación
+    T8.27: Un medidor de relación de ondas estacionarias indica: → la relación entre la señal incidente en la antena y la reflejada por ella
+T8-25 | T8 | peso 2 | El medidor de ROE es el instrumento más imprescindible de la estación
+    T8.29: De los siguientes instrumentos, el más imprescindible en una estación de aficionado es: → el medidor de relación de ondas estacionarias
+T8-26 | T8 | peso 2 | Frecuencímetro: medida precisa de la frecuencia (un voltímetro de RF no la mide)
+    T8.6: Para medir con precisión la frecuencia emitida por un transmisor se emplea: → un frecuencímetro de radiofrecuencia
+    T8.26: Para medir la frecuencia de un transmisor _no_ puede emplearse: → un voltímetro de radiofrecuencia
+T8-27 | T8 | peso 1 | Resolución del frecuencímetro = inverso del tiempo de puerta
+    F-T8.1: Un frecuencímetro digital cuenta los ciclos de la señal durante un tiempo de puerta de 0,1 s. Su resolución es de: → 10 Hz
+T8-28 | T8 | peso 1 | Exactitud del frecuencímetro: la fija el cristal de referencia (ppm)
+    N-T8-05: Un frecuencímetro cuya base de tiempos de cristal se desvía 10 partes por millón mide una señal de 145 MHz. El error de la lectura puede llegar a: → 1450 Hz, por muchos dígitos que muestre la pantalla
+T8-29 | T8 | peso 2 | Osciloscopio: representa la forma de onda en el dominio del tiempo (amplitud y período)
+    T8.7: La aplicación más importante del osciloscopio es: → representar gráficamente las formas de onda en la pantalla
+T8-30 | T8 | peso 2 | Osciloscopio: frecuencia a partir de la base de tiempos (T = divisiones × tiempo/div; f = 1/T)
+    F-T8.2: En un osciloscopio con la base de tiempos ajustada a 0,5 ms/div, un ciclo completo de la señal ocupa 4 divisiones horizontales. Su frecuencia es de: → 500 Hz
+T8-31 | T8 | peso 2 | Osciloscopio: tensión a partir de la sensibilidad vertical (pico a pico, pico y eficaz)
+    F-T8.4: Con la sensibilidad vertical de un osciloscopio en 1 V/div, una sinusoide ocupa 4 divisiones de pico a pico. Su valor eficaz es aproximadamente de: → 1,41 V
+T8-32 | T8 | peso 3 | Analizador de espectros: dominio de la frecuencia; armónicos y espurias
+    F-T8.5: Un analizador de espectros, a diferencia de un osciloscopio, muestra en pantalla: → el nivel de cada componente de la señal (portadora, bandas laterales, armónicos) en función de su frecuencia
+    F-T8.6: Para medir el nivel de los armónicos y de las emisiones espurias de un transmisor se utiliza: → un analizador de espectros
+T8-33 | T8 | peso 1 | Generador de señal de RF: caracterizar etapas y receptores
+    T8.15: Un generador de señal de radiofrecuencia se utiliza para: → caracterizar etapas de radiofrecuencia
+T8-34 | T8 | peso 2 | Medidor de campo: intensidad de campo radiado, en V/m
+    C-T8.4: Para realizar medidas de intensidad de campo radiado por una antena se emplea: → un medidor de campo
+    T8.10: La intensidad de campo eléctrico radiado por una antena se mide con un medidor de campo y se expresa en: → voltios por metro (V/m)
+T8-35 | T8 | peso 2 | S-meter: indica la intensidad de la señal recibida (es un instrumento de recepción)
+    T8.20: El instrumento comúnmente denominado «S-meter» de un receptor indica: → la intensidad de la señal recibida
+    C-T8.8: Di qué sentencia #strong[no] es cierta: → en un equipo de emisión se suele monitorizar la potencia transmitida y los decibelios con un S-meter
+T8-36 | T8 | peso 2 | S-meter: cada punto S equivale a 6 dB
+    T8.21: En la escala de un S-meter, la diferencia entre dos puntos S consecutivos equivale a: → 6 dB
+T8-37 | T8 | peso 2 | S-meter: S9 = 50 μV sobre 50 Ω en HF (escala en microvoltios)
+    C-T8.9: Una señal de radio que se recibe con indicación S9 en el S-meter corresponde a un voltaje rms sobre los 50 Ω del terminal de antena de: → 50 μV
+T8-38 | T8 | peso 2 | Dipmeter: frecuencia de resonancia de un circuito sin alimentarlo
+    T8.22: El instrumento denominado «dipmeter» o medidor de absorción sirve para: → determinar la frecuencia de resonancia de un circuito sin alimentarlo
+T8-39 | T8 | peso 1 | Sintonía del final valvular: mínimo («dip») de la corriente de placa
+    T8.28: Al sintonizar la etapa final de un transmisor valvular, la corriente de placa que marca su amperímetro alcanza en el punto de ajuste correcto un valor: → mínimo
+T8-40 | T8 | peso 2 | Carga artificial: ajustar el transmisor sin radiar
+    T8.23: La carga artificial (carga fantasma) de una estación se emplea para: → ajustar y probar el transmisor sin radiar señal al exterior
+T9-01 | T9 | peso 2 | Compatibilidad electromagnética: no perturbar el entorno y no verse afectado por él
+    T9.21: Se denomina compatibilidad electromagnética a la capacidad de un equipo para: → funcionar sin producir perturbaciones a su entorno y sin verse afectado por él
+T9-02 | T9 | peso 1 | Conformidad con la directiva EMC (marcado CE)
+    T9.8: Si un equipo declara su conformidad con la directiva «EMC», significa que: → cumple las directivas de la Unión Europea sobre compatibilidad electromagnética
+T9-03 | T9 | peso 2 | Fuente, camino y víctima: caminos de acoplo por antena, por líneas y por radiación directa
+    N-T9-01: Los caminos por los que la señal de una estación puede acoplarse a un equipo electrónico cercano son: → la antena del equipo afectado, las líneas que le llegan (red eléctrica, altavoces, cable) y la radiación directa sobre sus circuitos
+T9-04 | T9 | peso 1 | Intensidad de campo: proporcional a la raíz de la potencia e inversa a la distancia
+    F-T9.4: En espacio libre y lejos de una antena transmisora, al duplicar la distancia a ella la intensidad de campo eléctrico (V/m): → se reduce a la mitad
+    F-T9.5: Si se multiplica por 4 la potencia radiada por una antena, la intensidad de campo (V/m) a una distancia dada en espacio libre se: → duplica
+T9-05 | T9 | peso 2 | A más potencia, más riesgo de interferencia: usar la mínima potencia necesaria
+    T9.19: Para reducir al mínimo el riesgo de causar interferencias, un radioaficionado debe: → utilizar la mínima potencia necesaria para el enlace
+T9-06 | T9 | peso 3 | Armónicos: múltiplos enteros de la frecuencia fundamental
+    T9.11: Los armónicos de una emisión son señales cuya frecuencia es: → un múltiplo entero de la frecuencia fundamental
+T9-07 | T9 | peso 2 | La emisión de armónicos y espurias implica riesgo de interferencias en cualquier banda
+    C-T9.4: La emisión de señales armónicas y espurias: → Implica la posible producción de interferencias.
+T9-08 | T9 | peso 2 | Emisiones fuera de banda: inmediatamente exteriores a la anchura necesaria, por la modulación
+    T9.13: Las emisiones fuera de banda de un transmisor están constituidas por: → las emisiones inmediatamente exteriores a la anchura de banda necesaria, resultantes del proceso de modulación
+T9-09 | T9 | peso 1 | Sobremodulación: salpicaduras a canales vecinos; remedio, bajar ganancia de micrófono y excitación
+    N-T9-02: Varios colegas te indican que tu emisión de SSB se oye en los canales vecinos al tuyo, pero no en otras bandas. La causa probable y su remedio son: → emisión fuera de banda por sobremodulación; bajar la ganancia del micrófono y la excitación
+T9-10 | T9 | peso 1 | Los amplificadores lineales (sobre todo sobreexcitados) favorecen las interferencias
+    T9.2: Las interferencias son más frecuentes si en la estación se emplean: → amplificadores lineales de potencia
+T9-11 | T9 | peso 2 | Desadaptación (ROE alta) favorece las interferencias; conviene ROE baja
+    T9.3: Una desadaptación de impedancias entre el transmisor y la antena puede producir: → interferencias
+T9-12 | T9 | peso 3 | Bloqueo o desensibilización: un campo intenso satura la entrada aunque esté sintonizado lejos
+    F-T9.1: Un receptor cercano a un transmisor potente pierde sensibilidad (las señales débiles se hunden) aunque esté sintonizado en otra frecuencia, y no aparecen señales nuevas en ninguna parte del dial. Este efecto se denomina: → bloqueo o desensibilización
+T9-13 | T9 | peso 2 | Remedio del bloqueo y de la TVI: filtro en la entrada del equipo afectado (problema de inmunidad)
+    T9.17: Una interferencia a la recepción de televisión (TVI) provocada por una señal fuerte fuera de su banda se combate eficazmente: → instalando un filtro de rechazo en la entrada de antena del televisor
+T9-14 | T9 | peso 3 | Intermodulación: dos o más señales intensas mezcladas en una etapa no lineal
+    T9.14: La intermodulación se produce cuando: → dos o más señales intensas se mezclan en una etapa no lineal
+T9-15 | T9 | peso 2 | Productos de intermodulación de tercer orden: 2f1 − f2 y 2f2 − f1
+    F-T9.3: Dos señales de 14,100 MHz y 14,200 MHz entran en una etapa no lineal. Uno de los productos de intermodulación de tercer orden aparece en: → 14,000 MHz
+T9-16 | T9 | peso 1 | Los productos de tercer orden crecen 3 dB por cada dB de las señales (+3 dB → +9 dB)
+    N-T9-03: Si las dos señales que producen intermodulación de tercer orden aumentan su nivel en 3 dB, los productos de tercer orden aumentan aproximadamente: → 9 dB
+T9-17 | T9 | peso 2 | Detección en circuitos de audio: una unión semiconductora rectifica la RF y recupera la envolvente
+    N-T9-04: Mientras transmites en AM, tu voz se oye por los altavoces del equipo de música de un vecino, que no tiene sintonizador de radio. El mecanismo responsable es: → la detección: una unión semiconductora del amplificador rectifica la RF captada por los cables y recupera la envolvente
+T9-18 | T9 | peso 2 | Desacoplo: ferritas y condensadores en los cables del equipo afectado
+    T9.15: Para evitar que la radiofrecuencia de una estación se cuele en un amplificador de audio cercano, resulta eficaz: → colocar núcleos de ferrita y condensadores de desacoplo en sus cables
+    C-T9.1: Los medios más comunes para proteger de interferencias a un receptor son: → Tomas de tierra y condensadores.
+T9-19 | T9 | peso 2 | Cable blindado para los altavoces
+    C-T9.3: Para evitar interferencias en los altavoces de un equipo de baja frecuencia, se debe: → Utilizar para su conexión cable blindado.
+T9-20 | T9 | peso 3 | Apantallamiento: caja metálica, eléctricamente estanca y a tierra (jaula de Faraday en los dos sentidos)
+    T9.6: Para que un campo electromagnético externo no interfiera a un circuito electrónico, este se puede apantallar en una caja: → metálica, eléctricamente estanca y conectada a tierra
+T9-21 | T9 | peso 1 | La fibra óptica es el medio más inmune a las interferencias radiadas
+    T9.9: El medio de transmisión más inmune a las interferencias radiadas es: → la fibra óptica
+T9-22 | T9 | peso 3 | Filtro paso bajo a la salida del transmisor contra los armónicos
+    T9.12: En la salida de un transmisor, justo antes de la toma de antena, debería encontrarse siempre: → un filtro de paso bajo
+T9-23 | T9 | peso 2 | Filtro de red (de línea de desacoplo) en la alimentación
+    T9.7: Para evitar que un transceptor introduzca señales de radiofrecuencia en la red de suministro eléctrico se emplea: → un filtro de línea de desacoplo
+    C-T9.2: ¿Cómo se puede eliminar una interferencia generada por la fuente de alimentación de un transmisor? → Colocando un filtro apropiado.
+T9-24 | T9 | peso 2 | Filtro de rechazo de banda (notch) para eliminar una frecuencia concreta
+    T9.16: Un filtro de rechazo de banda (filtro «notch») se emplea para: → eliminar una frecuencia o una banda estrecha concreta que interfiere
+T9-25 | T9 | peso 2 | Una buena tierra reduce la RF en los chasis y las interferencias
+    T9.18: Una buena instalación de tierra en la estación contribuye a: → reducir la radiofrecuencia presente en los chasis y las interferencias asociadas
+T9-26 | T9 | peso 2 | Ante una queja: comprobar la propia estación y colaborar
+    T9.20: Ante una queja fundada de interferencias procedente de un vecino, lo primero que debe hacer el radioaficionado es: → comprobar que su estación no produce emisiones no deseadas y colaborar en localizar la causa
+T9-27 | T9 | peso 1 | Prueba de la carga artificial: si la interferencia sigue, el camino es la conducción por la red o los cables
+    N-T9-05: Ante una queja de interferencias, conectas tu transmisor a una carga artificial y transmites. La interferencia continúa. Lo más probable es que la perturbación llegue al equipo afectado: → por conducción a través de la red eléctrica o de los cables
+T10-01 | T10 | peso 2 | Interruptor general de la estación
+    T10.1: Como medida de protección y seguridad, toda estación radioeléctrica debe disponer de: → un interruptor general de suministro eléctrico
+T10-02 | T10 | peso 2 | Lo que daña es la corriente: intensidad, recorrido y duración
+    T10.20: La peligrosidad de una descarga eléctrica sobre el cuerpo humano depende principalmente de: → la intensidad que lo atraviesa, su recorrido y su duración
+T10-03 | T10 | peso 2 | Umbrales de corriente (1 mA se nota, 10–20 mA no se suelta, ~30 mA fibrilación): cuál es más peligrosa
+    T10.21: De las siguientes intensidades atravesando el cuerpo humano, la más peligrosa es: → 50 mA
+T10-04 | T10 | peso 1 | Efectos de la descarga: tetanización, fibrilación, quemaduras (no somnolencia)
+    T10.35: De los siguientes efectos, el que _no_ produce una descarga eléctrica sobre el cuerpo humano es: → la somnolencia
+T10-05 | T10 | peso 2 | Cuerpo mojado: baja la resistencia y aumenta el riesgo
+    T10.37: Si el cuerpo de una persona está mojado, frente a una descarga eléctrica: → el riesgo aumenta, porque disminuye la resistencia del cuerpo
+T10-06 | T10 | peso 1 | Precauciones en los trabajos de instalación (locales húmedos, manos mojadas, cruce de conductores)
+    C-T10.7: En relación con las medidas a adoptar en trabajos de instalaciones de equipos y antenas, una de las siguientes medidas NO es correcta. Señálela: → El cruzamiento de los conductores de línea de la red eléctrica no debe preocuparnos en absoluto.
+T10-07 | T10 | peso 2 | Una antena que transmite no se toca (quemaduras de RF)
+    T10.2: Una antena que está transmitiendo: → no se debe tocar con las manos
+T10-08 | T10 | peso 1 | Exposición a campos de RF: nivel de referencia de 28 V/m entre 10 y 400 MHz
+    N-T10-01: Según la Recomendación 1999/519/CE, recogida en España por el Real Decreto 1066/2001, el nivel de referencia de campo eléctrico para el público entre 10 y 400 MHz es de: → 28 V/m
+T10-09 | T10 | peso 2 | Antes de manipular un equipo: desconectarlo de la red y descargar los condensadores
+    T10.16: Antes de manipular el interior de un equipo es imprescindible: → desconectarlo de la red y descargar los condensadores
+T10-10 | T10 | peso 1 | Resistencia de descarga (bleeder) en paralelo con el condensador de filtro
+    N-T10-02: En una fuente de alta tensión, la resistencia de descarga (bleeder) conectada en paralelo con el condensador de filtro sirve para: → descargar el condensador cuando se desconecta el equipo
+T10-11 | T10 | peso 3 | Accidente eléctrico: lo primero es cortar la corriente
+    T10.17: Al producirse un accidente por electricidad, la primera medida que debe tomarse es: → cortar la corriente eléctrica
+T10-12 | T10 | peso 2 | Si no se puede cortar: separar a la víctima con un elemento aislante, nunca tocarla directamente
+    T10.18: Si la víctima de una descarga no puede desprenderse de la instalación y no es posible cortar la corriente de inmediato, la persona más próxima debe: → separarla empleando un elemento aislante, sin tocarla directamente
+T10-13 | T10 | peso 1 | Primeros auxilios: no dar de beber (sí cubrir, comprobar respiración, avisar)
+    T10.33: En la atención a una persona accidentada por electricidad, no se le debe: → dar de beber
+T10-14 | T10 | peso 1 | Si no respira: respiración artificial sin esperar
+    T10.34: Si tras liberar de la corriente a un accidentado se comprueba que no respira, procede: → practicarle la respiración artificial, boca a boca si es posible
+T10-15 | T10 | peso 1 | Quemadura eléctrica: agua abundante y asistencia médica
+    T10.32: Ante una quemadura producida por un accidente eléctrico se debe: → lavar la zona con agua abundante y avisar al servicio médico
+T10-16 | T10 | peso 2 | Incendio en equipo eléctrico: cortar la corriente y extintor de CO2 o polvo, nunca agua ni espuma
+    T10.39: Ante un conato de incendio en un equipo eléctrico conectado a la red, lo correcto es: → cortar la corriente y emplear un extintor adecuado para equipos eléctricos
+T10-17 | T10 | peso 1 | Operador y familiares deben conocer los primeros auxilios
+    T10.38: En relación con la seguridad de la estación, es recomendable que: → tanto el operador como sus familiares conozcan las prácticas básicas de primeros auxilios
+T10-18 | T10 | peso 1 | El titular responde del cumplimiento de la normativa de seguridad
+    T10.40: A efectos de evitar accidentes derivados del uso de su estación, el titular de una autorización de radioaficionado: → está obligado a cumplir la normativa vigente en materia de seguridad
+T10-19 | T10 | peso 2 | Interferencia a servicios de seguridad de la vida humana, al móvil aeronáutico o a la ICT del edificio: dejar de emitir
+    T10.5: Cuando una interferencia perjudicial afecta a la seguridad de la vida humana, el radioaficionado debe: → dejar de emitir hasta que el problema esté resuelto
+    T10.7: Cuando una instalación de radioaficionado interfiere a una infraestructura común de telecomunicaciones (ICT) del edificio: → se tiene que dejar de emitir, al menos temporalmente
+T10-20 | T10 | peso 2 | Fusible: en serie, corta las sobreintensidades
+    T10.8: Un fusible protege un circuito frente a: → las sobreintensidades, fundiéndose antes de que se dañe el equipo
+T10-21 | T10 | peso 3 | Fusible fundido: sustituirlo por otro del mismo calibre (nunca mayor ni un puente)
+    T10.9: Cuando se funde el fusible de un equipo, debe sustituirse por: → otro del mismo calibre que el original
+T10-22 | T10 | peso 2 | Calibre del fusible: ligeramente superior al consumo máximo del equipo
+    T10.25: El valor nominal del fusible que protege un equipo debe ser: → ligeramente superior al consumo máximo previsto del equipo
+T10-23 | T10 | peso 1 | Fusible de la alimentación en el positivo, junto a la batería o la fuente
+    N-T10-03: En el cable de alimentación de 13,8 V de un transceptor conectado a una batería, el fusible debe colocarse: → en el positivo, lo más cerca posible de la batería
+T10-24 | T10 | peso 1 | Fusibles rápidos (F) y temporizados (T)
+    N-T10-04: Una fuente de alimentación sin avería funde en cada encendido el fusible rápido (F) que le han puesto. Lo correcto es sustituirlo por: → un fusible temporizado (T) del mismo calibre
+T10-25 | T10 | peso 2 | Magnetotérmico: sobrecargas y cortocircuitos
+    T10.12: Un interruptor magnetotérmico protege la instalación frente a: → las sobrecargas y los cortocircuitos
+T10-26 | T10 | peso 3 | Diferencial: actúa cuando la corriente de ida y la de vuelta difieren (derivación a tierra)
+    C-T10.5: Un interruptor diferencial actúa cuando en el circuito que protege: → Se produce una derivación a tierra.
+T10-27 | T10 | peso 3 | El diferencial protege a las personas frente a contactos indirectos y defectos de aislamiento
+    T10.11: El dispositivo que proporciona protección frente a los defectos de aislamiento y los contactos indirectos se denomina: → interruptor diferencial
+T10-28 | T10 | peso 1 | Elementos de protección personal: guantes de goma (aislantes)
+    C-T10.2: De los siguientes elementos, indicar cuáles de ellos se consideran como de protección personal: → Guantes de goma.
+T10-29 | T10 | peso 3 | La toma de tierra protege al operador: deriva la fuga y hace actuar al diferencial
+    T10.3: El transceptor debe estar conectado a tierra para: → proteger al operador de descargas eléctricas
+T10-30 | T10 | peso 3 | La tierra debe llegar a cada uno de los chasis metálicos, unidos entre sí
+    T10.4: La toma de tierra de la estación debe conectarse: → a cada uno de los chasis metálicos de los distintos equipos
+T10-31 | T10 | peso 2 | La toma de tierra debe tener la menor resistencia posible
+    T10.22: La toma de tierra de la instalación de una estación de radioaficionado debe: → presentar la menor resistencia posible y conectar todos los chasis metálicos
+T10-32 | T10 | peso 2 | El conductor de tierra no lleva fusible ni interruptor
+    T10.26: El conductor que une la estación con la toma de tierra: → no debe llevar fusible ni interruptor alguno
+T10-33 | T10 | peso 2 | Qué vale como tierra: la del edificio si está en buen estado; nunca el neutro ni tuberías de gas o agua
+    T10.27: Como toma de tierra de la estación: → puede emplearse la de la instalación eléctrica del edificio, si existe y está en buenas condiciones
+T10-34 | T10 | peso 2 | La pica de tierra se entierra en terreno húmedo, no seco y soleado
+    C-T10.6: En relación a las tomas de tierra, una de las siguientes expresiones NO es correcta. ¿Cuál? → Deben hacerse en sitios donde dé el sol, para así evitar los efectos perniciosos de la humedad.
+T10-35 | T10 | peso 3 | Antena lejos de las líneas eléctricas aéreas: distancia mayor que la altura total del conjunto
+    T10.31: La distancia entre una antena y una línea eléctrica aérea debe ser: → mayor que la altura total del conjunto de mástil y antena
+T10-36 | T10 | peso 2 | Vientos del mástil: repartidos alrededor y tensados por igual
+    T10.15: Respecto de los vientos que sujetan un mástil de antena, es correcto afirmar que: → deben repartirse alrededor del mástil y tensarse por igual
+T10-37 | T10 | peso 1 | Vientos metálicos con aisladores intercalados para que no resuenen
+    T10.29: En los vientos metálicos que sujetan un mástil de antena conviene: → intercalar aisladores a tramos, para que no resuenen en las bandas de trabajo
+T10-38 | T10 | peso 2 | Antena en mástil propio, no en el de la antena colectiva
+    T10.30: La antena de la estación de aficionado debe fijarse: → a un mástil propio, independiente del de la antena colectiva del edificio
+T10-39 | T10 | peso 1 | Rotores: dimensionados para peso y par (en torretas), cableado protegido y separado
+    C-T10.4: En cuanto a los rotores de las antenas directivas: → Por su tamaño y esfuerzo, se montan preferentemente en torretas.
+    T10.24: Respecto de los rotores de las antenas directivas, es correcto afirmar que: → deben dimensionarse para soportar el peso y el par de la antena, y su cableado ha de protegerse
+T10-40 | T10 | peso 1 | Trabajo en altura: arnés, comprobar la estructura, nunca trabajar solo
+    T10.23: En los trabajos de instalación de antenas en altura, es incorrecto: → trabajar en solitario y sin avisar a nadie
+T10-41 | T10 | peso 3 | Ante una tormenta: desconectar la antena (y el equipo de la red), nunca la toma de tierra
+    C-T10.1: Es recomendable ante la previsión de una tormenta: → Desconectar los cables de bajada de antena.
+T10-42 | T10 | peso 2 | Protección contra el rayo: mástil y malla a tierra por el exterior, descargador y una sola tierra
+    N-T10-05: Para proteger la instalación de antena contra las descargas atmosféricas, es correcto: → unir el mástil y la malla del coaxial a tierra por el exterior, con conductores cortos y directos, y poner un descargador en la entrada del cable

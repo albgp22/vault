@@ -838,7 +838,7 @@ Entre el oscilador y la antena median varias etapas con papeles precisos: el *ex
   )
 ] <t5-fig-repetidor>
 
-En VHF y UHF las ondas viajan prácticamente en línea recta: dos estaciones portátiles separadas por una colina no se oyen. Un repetidor colocado en un punto alto —un monte, una torre— ve a las dos y hace de puente. Como recibe y transmite *a la vez*, no puede usar la misma frecuencia: su propio transmisor taparía lo que recibe. Por eso trabaja en *dúplex*, con 600 kHz de separación en 2 m, y usa un *duplexor*: un juego de cavidades resonantes de $Q$ muy alto que deja pasar el transmisor hacia la antena y lo bloquea hacia el receptor, a solo 600 kHz de distancia. Tu equipo hace el resto: al elegir el modo repetidor, transmite automáticamente 600 kHz por debajo de la frecuencia que escuchas y añade el subtono.
+En VHF y UHF las ondas viajan prácticamente en línea recta: dos estaciones portátiles separadas por una colina no se oyen. Un repetidor colocado en un punto alto —un monte, una torre— ve a las dos y hace de puente. Como recibe y transmite *a la vez*, no puede usar la misma frecuencia: su propio transmisor taparía lo que recibe. Por eso trabaja en *dúplex*, con 600 kHz de separación en 2 m, y usa un *duplexor*: un juego de cavidades resonantes de $Q$ muy alto que deja pasar el transmisor hacia la antena y lo bloquea hacia el receptor, a solo 600 kHz de distancia. Tu equipo hace el resto: al elegir el modo repetidor, transmite automáticamente 600 kHz por debajo de la frecuencia que escuchas y, si tiene programado el tono de ese repetidor, añade el subtono.
 
 #q("T5.11", "c",
   [El multiplicador de frecuencia de un transmisor se emplea para:],

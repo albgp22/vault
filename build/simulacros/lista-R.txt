@@ -1,0 +1,874 @@
+R1-01 | R1 | peso 1 | Para qué sirve el alfabeto fonético: deletrear letras y cifras sin confusiones (no cifra ni abrevia)
+    R1.23: El alfabeto fonético internacional se emplea para: → deletrear letras y cifras evitando confusiones en condiciones difíciles
+R1-02 | R1 | peso 2 | Las cifras se deletrean con su nombre inglés (Zero…Nine); el 0 es Zero, no Oscar ni «Cero»
+    R1.17: En el deletreo internacional, la cifra «0» se identifica con la palabra: → Zero
+R1-03 | R1 | peso 3 | Deletreo de distintivo EA5SWJ: E Echo, A Alfa, S Sierra, W Whiskey, J Juliett (no «Japón»), cifra en inglés
+    C-R1.2: El deletreo del indicativo EA5SWJ de acuerdo con el alfabeto fonético internacional sería: → Echo Alfa Five Sierra Whiskey Juliett.
+R1-04 | R1 | peso 3 | Deletreo de distintivo AN6BL: N November (no «Noviembre»), B Bravo, L Lima, 6 Six
+    C-R1.1: El deletreo del distintivo AN6BL según el alfabeto fonético internacional: → Alfa, November, Six, Bravo, Lima.
+R1-05 | R1 | peso 3 | Deletreo de distintivo EA3RCQ: R Romeo, C Charlie, Q Quebec (no «Queen»), 3 Three
+    C-R1.3: El deletreo del distintivo EA3RCQ según el alfabeto fonético internacional: → Echo, Alfa, Three, Romeo, Charlie, Quebec.
+R1-06 | R1 | peso 2 | X X-ray, Y Yankee, Z Zulu (no «Zeta»); grafías Echo y Alfa (no Eco, Alpha)
+    R1.21: El distintivo de llamada `EA4XYZ` se deletrea: → Echo Alfa Four X-ray Yankee Zulu
+R1-07 | R1 | peso 2 | U Uniform y Z Zulu frente a palabras de alfabetos antiguos (Uncle, Zebra, Coca, Dog, Able)
+    R1.40: El distintivo `EC9ZUL` se deletrea: → Echo Charlie Nine Zulu Uniform Lima
+R1-08 | R1 | peso 2 | Sufijo CID: C Charlie, I India (no «Italia»), D Delta (no «Dog»)
+    R1.10: El sufijo `CID` se deletrea: → Charlie India Delta
+R1-09 | R1 | peso 2 | Sufijos TOP y BOJ: T Tango, O Oscar, P Papa (no Pedro, Peter)
+    R1.11: El sufijo `TOP` se deletrea: → Tango Oscar Papa
+R1-10 | R1 | peso 2 | F Foxtrot y G Golf
+    R1.24: La palabra de deletreo «Foxtrot» corresponde a la letra: → F
+    R1.14: En el alfabeto fonético internacional, la letra «G» se deletrea: → Golf
+R1-11 | R1 | peso 2 | H Hotel y K Kilo
+    R1.22: En el alfabeto fonético internacional, la letra «H» se deletrea: → Hotel
+    R1.16: La palabra de deletreo «Kilo» corresponde a la letra: → K
+R1-12 | R1 | peso 2 | M Mike y V Victor
+    R1.7: En el alfabeto fonético internacional, la letra «M» se identifica con la palabra: → Mike
+    R1.8: En el alfabeto fonético internacional, la letra «V» se corresponde con la palabra: → Victor
+R2-01 | R2 | peso 3 | QRM (interferencia de otras estaciones) frente a QRN (parásitos atmosféricos)
+    R2.2: El grupo `QRM` indica: → interferencia producida por otras estaciones
+    R2.29: Para indicar que se están sufriendo parásitos atmosféricos se emplea el grupo: → `QRN`
+R2-02 | R2 | peso 3 | QRO aumente / QRP disminuya la potencia
+    R2.7: El grupo `QRP` significa: → disminuya la potencia
+R2-03 | R2 | peso 3 | QRS transmita más despacio / QRQ más deprisa
+    C-R2.3: ¿Qué abreviatura indica que se transmita más lentamente? → QRS
+    R2.15: El grupo del código Q con el que se pide a la estación corresponsal que transmita más de prisa es: → `QRQ`
+R2-04 | R2 | peso 3 | QRT cese la transmisión frente a QRX espere, volveré a llamar
+    R2.32: Para pedir a la estación corresponsal que cese la transmisión se emplea el grupo: → `QRT`
+    R2.9: El grupo del código Q que indica que el operador volverá a llamar más tarde es: → `QRX`
+R2-05 | R2 | peso 2 | QRV estoy dispuesto frente a QRU no tengo nada para usted
+    R2.33: Para indicar que se está dispuesto y preparado para recibir se emplea el grupo: → `QRV`
+    F-R2.6: El grupo #_apc2-m[QRU] significa: → no tengo nada para usted
+R2-06 | R2 | peso 2 | QRG frecuencia exacta frente a QRH su frecuencia varía
+    C-R2.5: La abreviatura del código Q «QRG» tiene el significado de: → Su frecuencia exacta es… kHz
+    R2.12: El grupo del código Q que indica «su frecuencia varía» es: → `QRH`
+R2-07 | R2 | peso 3 | QRK inteligibilidad, QSA intensidad, QRI tono (las tres valoraciones de la señal)
+    C-R2.1: ¿Qué abreviatura del código Q se refiere a la inteligibilidad de las señales? → QRK
+    R2.24: El grupo `QRI` se refiere a: → el tono de la transmisión
+R2-08 | R2 | peso 1 | Escalas de respuesta: QRK y QSA de 1 a 5; QRI de 1 a 3
+    F-R2.5: Las respuestas a #_apc2-m[QRK] (inteligibilidad), #_apc2-m[QSA] (fuerza de la señal) y #_apc2-m[QRI] (tono) son cifras. ¿Con qué escala se expresa cada una? → #_apc2-m[QRK] y #_apc2-m[QSA] de 1 a 5; #_apc2-m[QRI] de 1 a 3
+R2-09 | R2 | peso 3 | QRL: estoy ocupado / ¿está ocupada la frecuencia?
+    C-R2.2: ¿Qué abreviatura indica que el operador está ocupado? → QRL
+R2-10 | R2 | peso 2 | QRZ ¿quién me llama? (la llamada general es CQ, que no es código Q)
+    R2.5: El grupo `QRZ` significa: → ¿quién me llama?
+R2-11 | R2 | peso 3 | QSY cambie de frecuencia
+    R2.4: Para indicar a la estación corresponsal que cambie de frecuencia se emplea el grupo: → `QSY`
+R2-12 | R2 | peso 2 | QSB desvanecimiento (fading)
+    R2.13: El grupo `QSB` indica que la señal tiene: → desvanecimiento (_fading_)
+R2-13 | R2 | peso 3 | QSL acuse de recibo frente a QSO comunicado entre dos estaciones
+    R2.30: El grupo que se emplea para acusar recibo de una comunicación es: → `QSL`
+    R2.31: El contacto establecido entre dos estaciones de aficionado se designa con el grupo: → `QSO`
+R2-14 | R2 | peso 3 | QTH posición o localidad (frente a QTR, QRA, QTC)
+    R2.27: El grupo del código Q con el que una estación comunica su posición o localidad es: → `QTH`
+R2-15 | R2 | peso 2 | QTR hora exacta
+    F-R2.1: El grupo #_apc2-m[QTR] se utiliza para dar o pedir: → la hora exacta
+R2-16 | R2 | peso 2 | QRA nombre de la estación (no la posición)
+    C-R2.4: La abreviatura QRA indica: → ¿Cómo se llama su estación?
+R2-17 | R2 | peso 1 | QRB distancia entre estaciones
+    R2.18: El grupo `QRB` se refiere a: → la distancia que separa a las dos estaciones
+R2-18 | R2 | peso 1 | QTC tengo mensajes para transmitir
+    R2.17: El grupo `QTC` se emplea para indicar: → que se tienen mensajes para transmitir
+R2-19 | R2 | peso 1 | QSP retransmitir gratuitamente a…
+    R2.16: El grupo `QSP` significa: → retransmitir gratuitamente a la estación indicada
+R2-20 | R2 | peso 1 | QSK puedo oírle entre mis señales (break-in)
+    R2.19: El grupo `QSK` indica que: → se puede oír al corresponsal entre las propias señales
+R2-21 | R2 | peso 1 | QSM repita el último mensaje
+    R2.20: El grupo `QSM` se emplea para pedir que: → se repita el último mensaje transmitido
+R2-22 | R2 | peso 1 | QSN ¿me ha oído / ha oído a… en… kHz?
+    R2.21: El grupo `QSN` se utiliza para preguntar: → si se ha escuchado a una estación en una frecuencia determinada
+R2-23 | R2 | peso 1 | QSX ¿quiere escuchar a… en… kHz? (frente a QSN, que mira al pasado)
+    F-R2.3: El grupo #_apc2-m[QSX], como pregunta, equivale a: → ¿quiere escuchar a… en… kHz?
+R2-24 | R2 | peso 1 | QSD manipulación defectuosa
+    R2.22: El grupo `QSD` indica que: → la manipulación es defectuosa
+R2-25 | R2 | peso 1 | QSV transmita una serie de V
+    R2.23: El grupo `QSV` se emplea para pedir que se transmita: → una serie de letras V para ajustar la recepción
+R2-26 | R2 | peso 1 | QRW avise a… de que le llamo en… kHz
+    R2.25: El grupo `QRW` se emplea para: → avisar a una tercera estación de que se la llama en una frecuencia
+R2-27 | R2 | peso 1 | QTA anule el mensaje
+    R2.26: El grupo `QTA` se utiliza para indicar que: → se anule el mensaje indicado
+R2-28 | R2 | peso 1 | QRY ¿cuál es mi turno?
+    F-R2.2: El grupo #_apc2-m[QRY], como pregunta, equivale a: → ¿cuál es mi turno en el orden de comunicación?
+R2-29 | R2 | peso 1 | QSZ transmita cada palabra o grupo dos veces
+    F-R2.4: El grupo #_apc2-m[QSZ] se emplea para pedir que: → cada palabra o grupo se transmita dos veces (o las que se indiquen)
+R3-01 | R3 | peso 3 | CQ llamada general a todas las estaciones
+    R3.1: La abreviatura `CQ` significa: → llamada general a todas las estaciones
+R3-02 | R3 | peso 2 | K invitación a transmitir («cambio»)
+    R3.13: En telegrafía, la abreviatura de procedimiento `K` significa: → invitación a transmitir a la estación corresponsal
+R3-03 | R3 | peso 2 | AR fin de la transmisión (no del contacto)
+    R3.7: En telegrafía, la abreviatura de procedimiento empleada para finalizar una transmisión es: → `AR`
+R3-04 | R3 | peso 2 | SK fin del contacto
+    R3.14: La abreviatura de procedimiento `SK` indica: → el final del contacto entre las dos estaciones
+R3-05 | R3 | peso 2 | CL cierre de la estación
+    R3.2: Entre las abreviaturas más usuales se encuentra `CL`, que significa: → cierre de la estación
+R3-06 | R3 | peso 1 | BK interrupción breve (break)
+    R3.15: La abreviatura `BK` se emplea para: → interrumpir brevemente la transmisión del corresponsal
+R3-07 | R3 | peso 2 | DE delante del distintivo de quien transmite
+    R3.12: En una comunicación, la abreviatura `DE` colocada antes de un distintivo indica: → que a continuación viene el distintivo de quien transmite
+R3-08 | R3 | peso 2 | R recibido (conforme)
+    R3.22: En telegrafía, la abreviatura `R` transmitida como respuesta significa: → recibido conforme
+R3-09 | R3 | peso 2 | RPT repita y AGN de nuevo
+    R3.3: La abreviatura `RPT` significa: → repita
+    R3.32: La abreviatura `AGN` significa: → de nuevo, otra vez
+R3-10 | R3 | peso 2 | DX contacto de larga distancia
+    R3.4: La abreviatura `DX` designa: → un contacto de larga distancia
+R3-11 | R3 | peso 2 | CW telegrafía Morse (onda continua)
+    R3.6: La abreviatura `CW` se refiere a: → la telegrafía en código Morse (onda continua)
+R3-12 | R3 | peso 2 | USB banda lateral superior / LSB inferior
+    R3.5: La abreviatura `USB` corresponde a: → la banda lateral superior
+R3-13 | R3 | peso 2 | SSB banda lateral única
+    R3.23: La abreviatura `SSB` corresponde a: → la banda lateral única
+R3-14 | R3 | peso 3 | Informe RST: R legibilidad 1–5, S intensidad 1–9, T tono 1–9
+    F-R3.3: En el informe #_apc2-m[RST], la segunda cifra (la S) expresa: → la intensidad de la señal, en una escala de 1 a 9
+R3-15 | R3 | peso 2 | La T (tono) solo se da en telegrafía: 59 en fonía, 599 en CW
+    F-R3.4: En fonía el informe de señal se da con dos cifras (por ejemplo, «59»); en telegrafía se añade una tercera («599»), que valora: → el tono de la señal
+R3-16 | R3 | peso 1 | Escala de legibilidad: R5 = perfectamente legible (R1 ilegible…)
+    F-R3.5: En la escala de legibilidad (R) del informe #_apc2-m[RST], el valor 5 significa que la señal es: → perfectamente legible
+R3-17 | R3 | peso 2 | OM operador corresponsal (old man)
+    R3.9: La abreviatura `OM` se emplea para referirse a: → el operador de la estación corresponsal
+R3-18 | R3 | peso 2 | YL operadora y XYL esposa
+    R3.10: La abreviatura `YL` designa a: → una operadora
+    R3.11: La abreviatura `XYL` se refiere a: → la esposa del radioaficionado
+R3-19 | R3 | peso 2 | 73 saludos cordiales y 88 besos
+    R3.16: La abreviatura `73` significa: → saludos cordiales
+    R3.17: La abreviatura `88` se emplea para expresar: → besos, en despedidas de cortesía
+R3-20 | R3 | peso 1 | PSE por favor
+    R3.18: La abreviatura `PSE` corresponde a: → por favor
+R3-21 | R3 | peso 1 | TNX / TKS y TU: gracias
+    R3.19: La abreviatura `TNX` (o `TKS`) significa: → gracias
+    R3.35: La abreviatura `TU` se emplea para expresar: → gracias
+R3-22 | R3 | peso 1 | WX tiempo meteorológico
+    R3.20: En una comunicación, la abreviatura `WX` se refiere a: → las condiciones meteorológicas
+R3-23 | R3 | peso 1 | UR su (your)
+    R3.21: La abreviatura `UR` corresponde a: → el posesivo «su», referido al corresponsal
+R3-24 | R3 | peso 1 | RIG equipo, ANT antena, PWR potencia
+    R3.25: La abreviatura `RIG` se refiere a: → el equipo de radio de la estación
+    R3.37: La abreviatura `PWR` se refiere a: → la potencia
+R3-25 | R3 | peso 1 | OP operador
+    R3.27: La abreviatura `OP` se refiere a: → el operador de la estación
+R3-26 | R3 | peso 1 | HR aquí y ES y
+    R3.28: La abreviatura `HR` significa: → aquí
+    R3.29: La abreviatura `ES` se emplea con el significado de: → y
+R3-27 | R3 | peso 1 | NIL nada, sin novedad
+    R3.30: La abreviatura `NIL` significa: → nada, sin novedad
+R3-28 | R3 | peso 1 | CFM confirmo
+    R3.31: La abreviatura `CFM` significa: → confirmo
+R3-29 | R3 | peso 1 | ABT aproximadamente y VY muy
+    R3.33: La abreviatura `ABT` significa: → aproximadamente
+    R3.34: La abreviatura `VY` se emplea con el significado de: → muy
+R3-30 | R3 | peso 1 | HI risa en telegrafía
+    R3.36: La abreviatura `HI` se emplea en telegrafía para expresar: → una risa
+R3-31 | R3 | peso 1 | SRI lo siento
+    R3.38: La abreviatura `SRI` se emplea para expresar: → lo siento
+R3-32 | R3 | peso 2 | FB buen trabajo, formidable (fine business)
+    C-R3.1: La abreviatura FB significa: → Buen trabajo, formidable.
+R3-33 | R3 | peso 1 | CUL hasta luego (see you later)
+    N-R3-01: La abreviatura operacional `CUL` significa: → hasta luego
+R3-34 | R3 | peso 2 | BUG manipulador semiautomático
+    C-R3.2: Es una abreviatura operacional y significa manipulador semiautomático: → BUG
+R3-35 | R3 | peso 2 | GM buenos días (GA es «adelante»)
+    C-R3.3: Significa «buenos días» utilizando una abreviatura operacional: → GM
+R3-36 | R3 | peso 2 | GE buenas tardes
+    C-R3.6: La abreviatura operacional utilizada en telegrafía para decir «buenas tardes» es: → GE
+R3-37 | R3 | peso 1 | GN buenas noches
+    N-R3-02: La abreviatura `GN` se emplea para desear al corresponsal: → buenas noches
+R3-38 | R3 | peso 1 | GL buena suerte
+    F-R3.2: La abreviatura #_apc2-m[GL] se emplea para desear al corresponsal: → buena suerte
+R3-39 | R3 | peso 1 | MSG mensaje
+    C-R3.5: En telegrafía, la abreviatura operacional «MSG» significa: → Mensaje
+R3-40 | R3 | peso 1 | NR número
+    C-R3.4: Si se utiliza una abreviatura operacional, NR significa: → Número.
+R3-41 | R3 | peso 2 | Trabajar en split: emitir en una frecuencia y recibir en otra
+    C-R3.7: ¿Qué significa que una estación DX trabaja en «Split»? → Que emite en una frecuencia, pero recibe en otra diferente.
+R3-42 | R3 | peso 2 | Locator (QTH locator, Maidenhead): forma breve de dar la ubicación
+    C-R3.8: ¿Qué es «locator»? → Una forma muy rápida de indicar la ubicación de una estación.
+R3-43 | R3 | peso 1 | SWL radioescucha (short wave listener)
+    F-R3.1: En el argot de los radioaficionados, un #_apc2-m[SWL] es: → un radioescucha: una persona aficionada a escuchar emisiones de onda corta
+R4-01 | R4 | peso 3 | Socorro en radiotelefonía: MAYDAY
+    R4.1: La señal de socorro en radiotelefonía es: → Mayday
+R4-02 | R4 | peso 3 | Urgencia en radiotelefonía: PAN PAN (tres veces)
+    R4.2: La señal de urgencia en radiotelefonía consiste en la transmisión, repetida tres veces, de: → Pan Pan
+R4-03 | R4 | peso 3 | Seguridad en radiotelefonía: SÉCURITÉ (tres veces)
+    R4.3: La señal de seguridad en radiotelefonía se compone de: → la palabra «Sécurité» repetida tres veces
+R4-04 | R4 | peso 2 | Formato de la llamada de socorro: Mayday ×3 + «aquí»/«de» + distintivo ×3
+    C-R4.1: La llamada de socorro en radiotelefonía se compone de: → «MAYDAY» (tres veces), la palabra «AQUÍ» o «DE» y el distintivo de llamada (tres veces).
+R4-05 | R4 | peso 2 | Contenido del mensaje de socorro: identificación, posición, naturaleza del peligro (nunca «Sécurité»)
+    R4.4: Un mensaje de socorro NO incluirá: → la señal de seguridad «Sécurité»
+R4-06 | R4 | peso 3 | Socorro en radiotelegrafía: SOS (no XXX, TTT ni CQD)
+    R4.7: La señal de socorro en radiotelegrafía es: → SOS
+R4-07 | R4 | peso 2 | SOS se transmite como un solo signo (sin separar las letras)
+    C-R4.2: La señal radiotelegráfica de socorro consiste en: → La abreviatura «SOS» transmitida como un solo signo
+R4-08 | R4 | peso 3 | Urgencia en radiotelegrafía: XXX tres veces
+    R4.5: La abreviatura `XXX`, transmitida tres veces consecutivas, constituye la señal de: → urgencia
+R4-09 | R4 | peso 3 | Seguridad en radiotelegrafía: TTT tres veces
+    R4.6: La abreviatura `TTT`, transmitida tres veces consecutivas, constituye la señal de: → seguridad
+R4-10 | R4 | peso 2 | Prioridad: seguridad < urgencia < socorro
+    R4.11: Entre las tres señales, el orden de prioridad de menor a mayor es: → seguridad, urgencia y socorro
+R4-11 | R4 | peso 2 | Señal de alarma radiotelefónica: tonos alternos de 2200 y 1300 Hz
+    R4.8: La señal de alarma en radiotelefonía consiste en dos tonos aproximadamente sinusoidales transmitidos alternativamente, de frecuencias: → 2200 Hz y 1300 Hz
+R4-12 | R4 | peso 1 | Alerta de socorro GMDSS por DSC en MF: 2187,5 kHz (voz: 2182 kHz)
+    C-R4.3: En el sistema GMDSS, la alerta de socorro inicial en MF/HF se realiza mediante Llamada Selectiva Digital (DSC). ¿En qué frecuencia se transmite esta alerta en banda MF? → 2187,5 kHz
+R4-13 | R4 | peso 1 | Canal 16 de VHF marítima: 156,8 MHz (socorro, seguridad y llamada en voz)
+    F-R4.5: La frecuencia internacional de socorro, seguridad y llamada en radiotelefonía de la VHF marítima (canal 16) es: → 156,8 MHz
+R4-14 | R4 | peso 2 | Al oír un socorro: silencio, escucha y auxilio si es posible
+    R4.12: Una estación de aficionado que escucha una llamada de socorro debe: → guardar silencio, permanecer a la escucha y prestar auxilio si puede
+R4-15 | R4 | peso 1 | Tras emitir un socorro: escuchar en la misma frecuencia
+    R4.14: Después de transmitir un mensaje de socorro, la estación debe: → permanecer a la escucha en esa misma frecuencia
+R4-16 | R4 | peso 2 | Peligro grave e inminente: se puede usar cualquier medio y frecuencia
+    R4.13: En caso de peligro grave e inminente, una estación de aficionado: → puede emplear cualquier medio y frecuencia a su alcance para pedir auxilio
+R4-17 | R4 | peso 2 | Usar SOS o MAYDAY sin peligro real es infracción sancionable
+    R4.16: Emplear las señales de socorro «SOS» o «MAYDAY» sin que exista una situación de peligro constituye: → una infracción sancionable
+R4-18 | R4 | peso 3 | Resolución 640 del RR: bandas de aficionado en socorro por catástrofes naturales
+    R4.10: La Resolución 640 del Reglamento de Radiocomunicaciones se refiere al empleo de las bandas de aficionado: → en comunicaciones de socorro en caso de catástrofes naturales
+R4-19 | R4 | peso 2 | Colaboración obligatoria en catástrofes a requerimiento de la DG de Protección Civil y Emergencias (art. 30.4)
+    F-R4.2: Según la Orden IET/1311/2013, todo titular de una autorización de radioaficionado está obligado a colaborar con sus medios radioeléctricos en caso de catástrofe cuando se lo requiera: → la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior
+    R4.15: La colaboración de los radioaficionados con los servicios de emergencia en caso de catástrofe: → es obligatoria cuando la requiere la autoridad competente
+R4-20 | R4 | peso 1 | Socorro captado: hacer lo posible para que llegue a la DG de Protección Civil y Emergencias (art. 30.5)
+    F-R4.1: Según la Orden IET/1311/2013, si un radioaficionado capta una comunicación de socorro debe hacer lo posible para que llegue cuanto antes a: → la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior
+R4-21 | R4 | peso 2 | Equivalencia banda en metros ↔ frecuencia (λ ≈ 300/f): 20 m = 14 MHz
+    R4.9: La banda de aficionado conocida como «banda de 20 metros» corresponde a una frecuencia próxima a: → 14 MHz
+R4-22 | R4 | peso 2 | Banda de 40 m en la Región 1: 7000–7200 kHz
+    F-R4.6: En la Región 1 de la UIT, y por tanto en España, la banda de aficionados de 40 m comprende las frecuencias: → 7000 a 7200 kHz
+R4-23 | R4 | peso 1 | Banda de 10 m: 28–29,7 MHz
+    F-R4.7: La banda de aficionados de 10 m (28 MHz) comprende, en España, las frecuencias: → 28 a 29,7 MHz
+R4-24 | R4 | peso 1 | Límites en HF: 80 m 3500–3800 kHz, 20 m 14000–14350 kHz (¿está dentro de banda?)
+    F-R4.8: De las siguientes frecuencias, la que está dentro de una banda atribuida al Servicio de Aficionados en España es: → 14250 kHz
+R4-25 | R4 | peso 2 | Banda de 2 m en la Región 1: 144–146 MHz
+    F-R4.12: La banda de 2 m atribuida al Servicio de Aficionados en España (Región 1) comprende: → 144 a 146 MHz
+R4-26 | R4 | peso 2 | Banda de 70 cm: 430–440 MHz
+    F-R4.13: La banda de 70 cm atribuida al Servicio de Aficionados en España es: → 430 a 440 MHz
+R4-27 | R4 | peso 1 | Banda de 23 cm: 1240–1300 MHz
+    F-R4.14: La banda de 23 cm atribuida al Servicio de Aficionados en España comprende: → 1240 a 1300 MHz
+R4-28 | R4 | peso 1 | Banda de 13 cm: 2300–2450 MHz
+    N-R4-01: La banda de aficionados de 13 cm abarca en España, de extremo a extremo, las frecuencias: → 2300 a 2450 MHz
+R4-29 | R4 | peso 1 | Aficionados por satélite: solo en las bandas atribuidas al efecto en el CNAF
+    F-R4.11: Según la Orden IET/1311/2013, las emisiones del Servicio de Aficionados por Satélite quedan restringidas a: → las bandas atribuidas al efecto en el CNAF
+R4-30 | R4 | peso 1 | Segmento de satélites en 70 cm: 435–438 MHz
+    F-R4.9: En la banda de 70 cm, el segmento que el plan de bandas de la IARU para la Región 1 dedica al servicio de satélite es: → 435 a 438 MHz
+R4-31 | R4 | peso 1 | Segmento exclusivo de satélites en 2 m: 145,806–146,000 MHz
+    F-R4.10: En la banda de 2 m, el segmento que el plan de bandas de la IARU para la Región 1 reserva en exclusiva a los satélites es: → 145,806 a 146,000 MHz
+R4-32 | R4 | peso 1 | Centros de actividad de emergencia IARU R1: 14300 kHz (mundial) y 3760 kHz (80 m)
+    F-R4.3: En el plan de bandas de la IARU para la Región 1, la frecuencia de 14300 kHz está señalada como centro de actividad de: → emergencia de ámbito mundial
+    F-R4.4: En el plan de bandas de la IARU para la Región 1, el centro de actividad de emergencia de la banda de 80 m está en: → 3760 kHz
+R5-01 | R5 | peso 2 | Qué es el distintivo: señal de identificación que identifica al titular desde cualquier punto del territorio (no al equipo ni al domicilio)
+    F-R5.7: Conforme al artículo 27 de la Orden IET/1311/2013, el distintivo de llamada asociado a una autorización de radioaficionado identifica: → a su titular en las emisiones que efectúe desde cualquier punto del territorio nacional
+R5-02 | R5 | peso 2 | El distintivo se otorga junto con la autorización y lo asigna la Administración (no se elige ni lo da la asociación)
+    R5.44: Respecto de la autorización de radioaficionado y el distintivo de llamada: → al concederse la autorización se otorga a la vez el distintivo
+R5-03 | R5 | peso 3 | Cuándo identificarse: al comienzo y al final de cada emisión, siempre, y en las largas al menos cada 10 min
+    R7.8: La transmisión del distintivo de llamada propio se efectuará: → al comienzo y al final de cada emisión y, en emisiones largas, a intervalos cortos
+    N-R5-02: En una emisión de larga duración, además de al comienzo y al final, la estación de aficionado debe transmitir su distintivo de llamada, según la Orden IET/1311/2013, al menos cada: → 10 minutos
+R5-04 | R5 | peso 3 | Identificación de móviles y portables: /M, /MM, /MA, /P en grafía; palabras («portable») en fonía; no existe /AM
+    C-R5.9: ¿Cuándo se añade la mención /P al distintivo de llamada? → Cuando se opera en grafía una estación Fija/Portable
+    R5.10: Una estación de aficionado móvil marítima identificará su emisión añadiendo a su distintivo: → /MM
+R5-05 | R5 | peso 2 | Añadir opcionalmente el distrito desde el que se emite: EA7/EA4KLM/M
+    R5.40: El distintivo `EA7/EA4KLM/M` corresponde a: → una estación móvil del distrito 4 que opera en el distrito 7
+R5-06 | R5 | peso 1 | QRP no forma parte del distintivo: se anuncia en la llamada (CQ QRP)
+    C-R5.21: ¿Cómo debe identificarse correctamente una estación de baja potencia o QRP? → Añadiendo un espacio o pausa y las letras QRP a la llamada general CQ.
+R5-07 | R5 | peso 2 | Visitante con licencia CEPT: prefijo del país visitado + distintivo propio (EA/M0BVM, EA3/OK2HM)
+    R5.39: Si escuchamos a una estación identificarse como `EA3/OK2HM`, se trata de: → un radioaficionado con autorización expedida en otro país que opera ocasionalmente en España
+R5-08 | R5 | peso 1 | Licencia CEPT en telefonía: entre el prefijo y el distintivo se dice «stroke»
+    F-R5.5: Un titular de licencia CEPT que transmite en telefonía desde el país visitado emite su distintivo nacional precedido del prefijo de ese país. Entre el prefijo y el distintivo se pronuncia la palabra: → _stroke_
+R5-09 | R5 | peso 1 | Operar una estación ajena con permiso: identificación (clave de banco antiguo: propio distintivo precedido del del titular)
+    R5.27: Si un radioaficionado utiliza, con autorización del titular, una estación que no es suya, se identificará con: → su propio indicativo precedido del distintivo del titular
+R5-10 | R5 | peso 3 | Composición del distintivo: prefijo + distrito + sufijo
+    R5.1: El distintivo de llamada de una estación de radioaficionado está constituido, secuencialmente, por: → prefijo, distrito y sufijo
+R5-11 | R5 | peso 2 | El distintivo tiene como máximo seis caracteres
+    R5.12: El distintivo de llamada estará constituido por un grupo alfanumérico de, como máximo: → seis caracteres
+R5-12 | R5 | peso 3 | Prefijos de España: series EA–EH (y AM–AO); habituales EA, EB y EC
+    R5.31: Los prefijos de los distintivos de llamada correspondientes a España son, entre otros: → EA, EB y EC
+R5-13 | R5 | peso 2 | Las series de prefijos las atribuye la UIT (Reglamento de Radiocomunicaciones) y cada país asigna dentro de ellas
+    C-R5.14: Las primeras letras de un distintivo de llamada: → Son elegidas por cada país a partir de las atribuciones internacionales
+R5-14 | R5 | peso 1 | Estructura internacional: la parte de nacionalidad tiene hasta tres caracteres, letras o cifras
+    C-R5.15: Las series de distintivos de llamada: → Empiezan por una combinación de letras o cifras con una longitud máxima de tres
+R5-15 | R5 | peso 1 | Prefijos de los países vecinos: Portugal CT, Francia F, Andorra C3
+    F-R5.8: Un radioaficionado cuyo distintivo empieza por el prefijo #_apc2-m[CT] emite con un distintivo de: → Portugal
+    F-R5.10: El prefijo #_apc2-m[C3] de un distintivo de llamada corresponde a: → Andorra
+R5-16 | R5 | peso 1 | Prefijos de otros países europeos: Alemania DL, Italia I, Reino Unido G/M
+    F-R5.13: Un distintivo de llamada cuyo prefijo es #_apc2-m[M] o #_apc2-m[G] (por ejemplo, #_apc2-m[M0BVM]) corresponde a: → Reino Unido
+    F-R5.11: El prefijo #_apc2-m[DL] de un distintivo de llamada corresponde a: → Alemania
+R5-17 | R5 | peso 2 | La cifra es la del distrito de residencia del titular al otorgar la autorización
+    R5.24: La cifra de distrito que compone el distintivo de llamada de un radioaficionado es: → la coincidente con el distrito de residencia del titular
+R5-18 | R5 | peso 2 | Mudarse de distrito: se conserva el distintivo (único e inmodificable); solo se comunica el domicilio
+    R5.22: Un radioaficionado con distintivo del distrito 5 se traslada a vivir a una provincia del distrito 4. Conforme a la Orden IET/1311/2013: → conserva su distintivo, que es único y no puede modificarse, y solo debe comunicar a la SETSI su nuevo domicilio
+R5-19 | R5 | peso 1 | Hay nueve distritos geográficos (1 a 9); el 0 es especial
+    R5.7: El número total de distritos en que se dividen los indicativos de llamada españoles es: → nueve
+R5-20 | R5 | peso 2 | Distrito 0: solo para actos inaugurados o visitados por el Rey
+    R5.36: En un distintivo de llamada, la cifra 0 podrá autorizarse exclusivamente: → con motivo de actos inaugurados o visitados por Su Majestad el Rey
+R5-21 | R5 | peso 3 | Distritos insulares y ciudades autónomas: 6 Baleares, 8 Canarias, 9 Ceuta y Melilla
+    R5.35: Las Islas Baleares y las Islas Canarias corresponden, respectivamente, a las cifras de distrito: → 6 y 8
+    R5.34: Las ciudades de Ceuta y Melilla están identificadas por la cifra de distrito: → 9
+R5-22 | R5 | peso 3 | Distritos peninsulares: asignar provincia a su cifra y leer la cifra de un distintivo
+    C-R5.5: ¿Cuál de las siguientes proposiciones contiene mayor número de provincias adscritas al distrito 4?: → Cáceres, Cádiz, Cuenca, Ciudad Real.
+    C-R5.20: ¿A cuál de las siguientes provincias pertenece el distintivo EA5EYR? → Valencia
+R5-23 | R5 | peso 2 | Excepciones de distrito: Albacete es del 5 y La Rioja del 1
+    C-R5.8: Una estación de aficionado ubicada en la provincia de Albacete se identifica por la cifra: → 5
+    R5.33: A efectos de distintivos de llamada, la provincia de La Rioja pertenece al distrito: → 1
+R5-24 | R5 | peso 2 | Sufijo: hasta tres letras, por orden alfabético y turno riguroso de expedición
+    R5.13: El sufijo del distintivo de llamada de una autorización de radioaficionado estará constituido por: → hasta tres letras, asignadas ordenadas alfabéticamente por turno riguroso de expedición
+R5-25 | R5 | peso 3 | Sufijos excluidos: DDD, PAN, SOS, TTT, XXX y la serie QAA–QZZ
+    C-R5.2: ¿Cuál de los siguientes sufijos podrá ser asignado a un distintivo de llamada de la autorización de radioaficionado? → EEE
+    C-R5.19: ¿Se puede asignar el sufijo PAN a un distintivo de llamada de una estación de aficionado? → No se puede asignar en ningún caso
+R5-26 | R5 | peso 3 | Estaciones automáticas desatendidas: prefijo ED; sufijo con Y (analógica) o Z (digital)
+    C-R5.7: El indicativo de llamada ED3ZHO: → Corresponde a una estación automática desatendida
+    R5.9: En los distintivos de las estaciones automáticas desatendidas, los sufijos de tres letras que comienzan por Y o por Z se reservan, respectivamente, para estaciones: → analógicas y digitales
+R5-27 | R5 | peso 2 | Estaciones colectivas: distintivo propio; sufijos UR (asociaciones), RC y RK (radioclubes)
+    R5.20: Los sufijos de tres letras que comienzan por `UR`, `RC` o `RK` están reservados para: → estaciones colectivas de asociaciones de radioaficionados y radio clubes
+    F-R5.6: Según el artículo 27 de la Orden IET/1311/2013, las estaciones colectivas de las asociaciones de radioaficionados: → llevan asociado un distintivo de llamada específico para cada una de ellas
+R5-28 | R5 | peso 2 | Sufijo de dos letras: 5 años de autorización, 5 de práctica internacional y 5 sin expediente sancionador; no reservado a colectivas
+    C-R5.4: Los sufijos de dos letras podrán ser asignados: → A cualquier radioaficionado que acredite cinco años de prácticas en la radioafición internacional.
+    R5.19: Sobre los distintivos de llamada con sufijo de dos letras, señale la opción _falsa_: → se reservan únicamente para estaciones colectivas
+R5-29 | R5 | peso 2 | Sufijo de una letra: reservado también para concursos internacionales de alta competitividad
+    R5.28: Los distintivos de llamada con sufijo de una sola letra se reservan para: → la participación en concursos internacionales de alta competitividad
+R5-30 | R5 | peso 1 | Sufijo de una letra como distintivo permanente: 15 años de práctica internacional
+    N-R5-03: Para que se le asigne un distintivo con sufijo de una sola letra, un radioaficionado con al menos cinco años de autorización española y sin expediente sancionador en los últimos cinco años debe acreditar una práctica en  → quince años
+R5-31 | R5 | peso 1 | Res. 29-07-2026: la práctica para el sufijo de una letra se acredita con 2 QSL por año en 15 de los últimos 20
+    F-R5.1: Según la Resolución de 29 de julio de 2026 de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, la práctica internacional exigida para obtener un distintivo con sufijo de una letra se acredita c → dos #_apc2-m[QSL] por año durante quince de los últimos veinte años
+R5-32 | R5 | peso 1 | Res. 29-07-2026: asignación por distritos y orden de presentación, hasta 10 preferencias; el nuevo distintivo sustituye al anterior
+    F-R5.3: En el procedimiento ordinario para asignar distintivos con sufijo de una letra, establecido por la Resolución de 29 de julio de 2026, la asignación se hace: → por distritos y por estricto orden de presentación de las solicitudes, y el nuevo distintivo sustituye al anterior del titular
+R5-33 | R5 | peso 1 | Sufijos de cuatro o más letras: excepcionales, para usos temporales en eventos de relevancia especial
+    F-R5.4: La Orden IET/1311/2013 admite, con carácter excepcional, sufijos de cuatro o más letras: → para usos temporales ligados a eventos o conmemoraciones de relevancia especial
+R5-34 | R5 | peso 1 | Más de una cifra en el distintivo: acontecimientos relevantes identificados por sus fechas (aniversarios)
+    F-R5.16: Según el artículo 27 de la Orden IET/1311/2013, la utilización de más de una cifra en el distintivo de llamada podrá ser autorizada para: → acontecimientos relevantes identificados por sus fechas de celebración, como los aniversarios
+R5-35 | R5 | peso 2 | Reasignación de distintivos: agotadas las combinaciones, salvo anterior titular o familiares de primer grado por fallecimiento
+    R5.21: Los distintivos de llamada se podrán reasignar: → en caso de fallecimiento del titular, a familiares en primer grado
+R5-36 | R5 | peso 3 | Prefijos temporales ED, EE y EF: eventos ordinarios; mantienen el resto del distintivo
+    C-R5.11: El prefijo EE delante de un distintivo completo de radioaficionado indica: → Un distintivo de uso temporal (concursos, experimentos, demostraciones y otros eventos locales, regionales, autonómicos o nacionales).
+    R5.15: Los prefijos de uso temporal `ED`, `EE` y `EF`, a diferencia de `EG`, `EH`, `AM`, `AN` y `AO`: → mantienen sin variación el resto del distintivo asignado con carácter permanente al radioaficionado
+R5-37 | R5 | peso 2 | Prefijos EG y EH: concursos, eventos internacionales y eventos relevantes locales, regionales o autonómicos
+    R5.14: El prefijo `EG` de un distintivo de llamada se relaciona con: → usos temporales de especial relevancia para eventos de carácter regional, autonómico o local
+R5-38 | R5 | peso 1 | Prefijos AM y AN: eventos relevantes de ámbito nacional
+    N-R5-01: Los prefijos de uso temporal AM y AN se autorizan para: → eventos relevantes de ámbito nacional
+R5-39 | R5 | peso 2 | Prefijo AO: eventos relevantes de ámbito internacional
+    R5.38: El prefijo AO se otorga para eventos temporales: → especiales de relevancia internacional
+R5-40 | R5 | peso 1 | Prefijo AO optativo para españoles en zonas no adscritas a soberanías nacionales
+    F-R5.14: Además de en eventos relevantes de ámbito internacional, el prefijo #_apc2-m[AO] puede utilizarse, con carácter optativo, en las emisiones de radioaficionados españoles: → desde zonas no adscritas a soberanías nacionales
+R5-41 | R5 | peso 1 | Para qué se pide un distintivo temporal: concursos, experimentos, ensayos o conmemoraciones
+    R5.48: Puede solicitarse un distintivo de llamada temporal cuando se desee: → participar en concursos, experimentos, ensayos o conmemoraciones
+R5-42 | R5 | peso 2 | Solicitud de distintivo temporal: una por evento, a la Administración; las asociaciones solo proponen
+    C-R5.3: La utilización de distintivos temporales requerirá la presentación de una solicitud; señale la proposición errónea: → Dirigida a la Asociación o Radio Club de aficionados correspondiente, que será la que autorice.
+R5-43 | R5 | peso 2 | Distintivo temporal: máximo 30 días al año por sufijo y peticionario (excepción: una letra en concursos, hasta 2 años)
+    F-R5.15: Para los distintivos temporales, los períodos autorizados para un mismo sufijo y peticionario no son, como norma general, superiores a: → 30 días al año
+R5-44 | R5 | peso 1 | Radiobaliza: estación desatendida que emite automáticamente su identificación
+    R5.46: En el servicio de aficionados, una radiobaliza: → basa su funcionamiento en la emisión automática de señales de identificación
+R5-45 | R5 | peso 1 | Acceso a los repetidores: libre para todos los radioaficionados
+    R5.49: El acceso a los repetidores de aficionado, analógicos y digitales: → será necesariamente libre para todos los radioaficionados
+R6-01 | R6 | peso 3 | Qué es un plan de bandas: reparto recomendado de cada banda por modo y anchura de banda; instrumento básico de ordenación
+    C-R6.4: Los planes de banda de la IARU: → Son un instrumento básico para regular el uso de las bandas de frecuencias.
+    R6.14: Dentro de cada banda, los planes de banda de la IARU reparten los segmentos atendiendo principalmente a: → el modo de emisión y la anchura de banda ocupada
+R6-02 | R6 | peso 3 | Naturaleza de los planes: acuerdos voluntarios y guía mundial, pero la Orden obliga a usar el de la Región 1 como norma general en España
+    C-R6.3: Sobre los planes de bandas de la IARU es correcto decir que: → Sirven de guía a los radioaficionados de todo el mundo.
+    R6.13: Los planes de banda de la IARU, en cuanto a su naturaleza jurídica: → son acuerdos voluntarios entre las asociaciones nacionales, no normas legales
+R6-03 | R6 | peso 2 | Los planes parten de las atribuciones del Reglamento de Radiocomunicaciones y hay uno por Región de la UIT
+    R6.4: Los planes de banda de la IARU pueden: → ser distintos en cada Región de la UIT
+R6-04 | R6 | peso 1 | La IARU es la federación de asociaciones nacionales de radioaficionados (URE en España)
+    N-R6-01: La IARU (Unión Internacional de Radioaficionados) es: → la federación que agrupa a las asociaciones nacionales de radioaficionados, como la URE en España
+R6-05 | R6 | peso 3 | España pertenece a la Región 1 de la UIT
+    R6.8: A efectos de atribución de frecuencias, España pertenece a la: → Región 1 de la UIT
+R6-06 | R6 | peso 2 | Composición de las Regiones: 1 Europa y África; 2 América; 3 resto de Asia y Oceanía
+    R6.11: La Región 3 de la UIT está formada principalmente por: → Asia meridional y oriental junto con Oceanía
+R6-07 | R6 | peso 2 | Por qué hay Regiones: atribuir bandas por zonas; por eso las bandas difieren entre España y EE. UU.
+    R6.12: Que una banda de aficionado tenga límites distintos en España y en Estados Unidos se debe a que: → pertenecen a regiones distintas de la UIT, con atribuciones diferentes
+R6-08 | R6 | peso 2 | Frecuencias de llamada: punto de encuentro de un modo, no de uso exclusivo
+    R6.6: Las frecuencias de llamada previstas en los planes de banda permiten: → contactar con otros operadores que utilizan el mismo modo
+R6-09 | R6 | peso 1 | Frecuencia de llamada de FM en 2 m: 145,500 MHz
+    F-R6.9: La frecuencia de llamada de FM en la banda de 2 m del plan de bandas de la IARU para la Región 1 es: → 145,500 MHz
+R6-10 | R6 | peso 1 | Frecuencia de llamada de FM en 70 cm: 433,500 MHz
+    F-R6.11: En la banda de 70 cm, la frecuencia de llamada de FM del plan de bandas de la IARU para la Región 1 es: → 433,500 MHz
+R6-11 | R6 | peso 1 | Canal de llamada de FM en 10 m: 29,600 MHz
+    F-R6.14: En la banda de 10 m, el canal de llamada de FM del plan de bandas HF de la IARU para la Región 1 es: → 29,600 MHz
+R6-12 | R6 | peso 3 | Repetidores de 2 m: entrada 145,000–145,1875 MHz, salida 600 kHz más arriba
+    R6.7: Para utilizar un repetidor de VHF, la emisión (entrada del repetidor) se efectúa en el segmento de banda: → 145,000 – 145,1875 MHz
+    C-R6.2: En los planes de bandas de la IARU para la Región 1: → Hay previstas frecuencias para repetidores en la banda 145,594–145,7935 MHz.
+R6-13 | R6 | peso 2 | Repetidores de 70 cm: entrada 433,000–433,375 MHz, desplazamiento 1,6 MHz
+    C-R6.1: Los planes de banda de la IARU: → Tienen previstas frecuencias para repetidores en la banda 433,000–433,375 MHz.
+    F-R6.13: Un sistema de repetidores de FM de 70 cm del plan de bandas de la IARU para la Región 1 tiene su segmento de entrada a partir de 433,000 MHz y el de salida a partir de 434,600 MHz. Su desplazamiento es de: → 1,6 MHz
+R6-14 | R6 | peso 1 | Centros de actividad de SSB: 144,300 MHz (2 m) y 432,200 MHz (70 cm)
+    F-R6.8: En la banda de 2 m, el plan de bandas de la IARU para la Región 1 señala la frecuencia de 144,300 MHz como: → centro de actividad de SSB
+R6-15 | R6 | peso 1 | Balizas en 2 m: segmento 144,400–144,491 MHz
+    N-R6-02: En la banda de 2 m, el plan de bandas de la IARU para la Región 1 dedica el segmento 144,400–144,491 MHz a: → las balizas
+R6-16 | R6 | peso 1 | Balizas en HF: 14.099–14.101 kHz exclusivo del International Beacon Project
+    F-R6.6: El segmento 14.099–14.101 kHz del plan de bandas HF de la IARU para la Región 1 está reservado exclusivamente a: → balizas del _International Beacon Project_
+R6-17 | R6 | peso 3 | Convenio de banda lateral: LSB por debajo de 10 MHz, USB por encima; excepción 60 m en USB
+    C-R6.5: En la banda de radioaficionado de 40 metros, el modo de emisión que normalmente se utiliza es: → LSB
+    F-R6.7: El plan de bandas HF de la IARU para la Región 1 recomienda LSB en fonía por debajo de 10 MHz y USB por encima. Como excepción, en la banda de 60 m (5 MHz) recomienda para la fonía: → USB
+R6-18 | R6 | peso 1 | 80 m: segmento de CW 3.500–3.570 kHz
+    F-R6.4: En la banda de 80 m, el plan de bandas HF de la IARU para la Región 1 marca como segmento de telegrafía (CW) el comprendido entre: → 3.500–3.570 kHz
+R6-19 | R6 | peso 1 | 20 m: 14.070–14.099 kHz para modos digitales de banda estrecha
+    F-R6.5: En la banda de 20 m, el segmento 14.070–14.099 kHz del plan de bandas HF de la IARU para la Región 1 está destinado a: → modos digitales de banda estrecha (digimodos)
+R6-20 | R6 | peso 1 | Anchura máxima de los segmentos: 2.700 Hz para SSB (200 Hz CW, 500 Hz digimodos)
+    F-R6.2: En el plan de bandas de la IARU para la Región 1, la anchura de banda máxima que se fija para los segmentos de fonía en banda lateral única (SSB) es de: → 2.700 Hz
+R6-21 | R6 | peso 1 | Las frecuencias del plan HF son las realmente transmitidas, no la del dial
+    F-R6.3: En el plan de bandas HF de la IARU para la Región 1, las frecuencias de los segmentos se entienden como: → frecuencias realmente transmitidas (las que ocupa la emisión), no la de la portadora suprimida
+R6-22 | R6 | peso 1 | Bandas sin concursos: 60, 30, 17 y 12 m
+    F-R6.1: Según el plan de bandas HF de la IARU para la Región 1, no debe realizarse actividad de concurso en la banda de: → 30 m (10 MHz)
+R6-23 | R6 | peso 1 | 50 MHz: restricción provincial histórica (Segovia no; Almería sí en el banco original)
+    R6.17: Históricamente, el uso de la banda de 50 MHz en España estuvo sujeto a restricciones geográficas. Una de las provincias desde las que _no_ se podía emitir era: → Segovia
+R6-24 | R6 | peso 1 | Objetivo de un repetidor: ampliar el alcance de las comunicaciones
+    R6.15: El objetivo que se persigue al instalar un repetidor de radioaficionado es: → ampliar el alcance de las comunicaciones
+R6-25 | R6 | peso 2 | Los repetidores se autorizan solo a asociaciones legalmente reconocidas
+    R6.16: La instalación de una estación repetidora de aficionado puede autorizarse a: → las asociaciones de radioaficionados legalmente reconocidas
+R7-01 | R7 | peso 3 | Definición del servicio de aficionados: instrucción individual, intercomunicación y estudios técnicos, sin lucro
+    R7.10: De acuerdo con el Reglamento de Radiocomunicaciones, el servicio de aficionados se define como un servicio de: → instrucción individual, intercomunicación y estudios técnicos
+R7-02 | R7 | peso 3 | Contenido: temas del servicio y observaciones de carácter personal
+    R7.11: Las transmisiones entre estaciones de aficionado deben limitarse a: → comunicaciones relacionadas con el servicio de aficionados y observaciones de carácter personal
+R7-03 | R7 | peso 2 | Prohibidos fines comerciales, publicitarios o lucrativos; permitidos mensajes técnicos sobre ensayos
+    R7.5: De las siguientes acciones, está permitida en el tráfico entre estaciones de aficionado: → transmitir mensajes de naturaleza técnica sobre ensayos
+R7-04 | R7 | peso 2 | Mensajes de terceros: no permitidos con carácter general (salvo emergencia)
+    R7.9: La transmisión de mensajes de cualquier naturaleza con destino a terceros ajenos al servicio de aficionados: → no está permitida con carácter general
+R7-05 | R7 | peso 3 | Lenguaje claro: sin códigos que oculten el significado (Q y abreviaturas sí)
+    R7.12: Las comunicaciones entre estaciones de aficionado deben efectuarse: → en lenguaje claro, sin códigos que oculten su contenido
+R7-06 | R7 | peso 2 | Escuchar antes de transmitir (QRL?)
+    R7.1: Comprobar si alguien está utilizando una frecuencia antes de iniciar una transmisión en ella es: → una práctica de operación adecuada
+R7-07 | R7 | peso 2 | Interferir deliberadamente: nunca está permitido
+    R9.23: Interferir deliberadamente las emisiones de otra estación de aficionado: → no está permitido en ningún caso
+R7-08 | R7 | peso 2 | Decir «cambio» es recomendable, no obligatorio
+    R7.6: Utilizar la palabra «cambio» al finalizar cada transmisión en fonía es: → recomendable
+R7-09 | R7 | peso 2 | Deletrear con el alfabeto fonético internacional; no inventar palabras
+    R7.7: Al deletrear las letras de su indicativo, el radioaficionado debe utilizar: → el alfabeto fonético internacional (OACI)
+R7-10 | R7 | peso 1 | Llamada dirigida: distintivo de la estación llamada, «de», el propio
+    F-R7.4: En una llamada dirigida a una estación concreta, en radiotelefonía, el orden correcto de los distintivos es: → el distintivo de la estación llamada, la palabra «de» y el propio distintivo
+R7-11 | R7 | peso 1 | Nadie es dueño de una frecuencia
+    N-R7-01: Sobre el uso de las frecuencias por los radioaficionados, es correcto afirmar que: → nadie es dueño de una frecuencia, y antes de usarla hay que escuchar si está ocupada
+R7-12 | R7 | peso 1 | La tarjeta QSL confirma el contacto
+    N-R7-02: La tarjeta QSL que intercambian los radioaficionados sirve para: → confirmar el contacto realizado entre dos estaciones
+R7-13 | R7 | peso 1 | Código SINPO: intensidad, interferencias, ruido, propagación y calidad global
+    F-R7.5: El código de informe #_apc2-m[SINPO], usado sobre todo por los radioescuchas, valora cada parámetro en una escala de 1 a 5. Sus cinco letras corresponden a: → intensidad de la señal, interferencias, ruido, perturbación de la propagación y calidad global
+R7-14 | R7 | peso 1 | Código del Radioaficionado: considerado, leal, progresista, amistoso, equilibrado y patriota
+    F-R7.2: Según el «Código del Radioaficionado» (_Amateur’s Code_), el radioaficionado es considerado, leal, progresista, amistoso, equilibrado y: → patriota
+R7-15 | R7 | peso 1 | Autorregulación (self-policing): autodisciplina, sin policía propia
+    F-R7.3: Se dice que la comunidad radioaficionada es, en gran medida, «autorregulada» (_self-policing_). Esto significa que: → la buena conducta en las bandas descansa en la autodisciplina de cada aficionado, sin que la comunidad tenga una policía propia
+R7-16 | R7 | peso 1 | Seguridad de la estación: el titular subsana de inmediato cualquier anomalía (art. 31)
+    F-R7.1: Según el artículo 31 de la Orden IET/1311/2013, si el titular de una autorización de radioaficionado observa en sus equipos o antenas una anomalía que afecte a su seguridad mecánica o eléctrica, debe: → subsanarla de forma inmediata, por ser el responsable del mantenimiento de equipos, antenas y elementos anejos
+R7-17 | R7 | peso 1 | Antenas: garantizar el derecho de terceros a no sufrir daños
+    R7.17: Al instalar una antena de estación de aficionado debe tenerse en cuenta que: → debe garantizarse el derecho de terceros a no sufrir daños en su propiedad
+R7-18 | R7 | peso 2 | Autorización especial que causa interferencias: suspender de inmediato
+    R7.18: Si el titular de una autorización especial de emisión comprueba que está produciendo interferencias a otros sistemas, debe: → suspender de inmediato las transmisiones
+R7-19 | R7 | peso 1 | Objeto de la prueba de capacitación: evaluar la capacidad para operar
+    R7.14: La prueba de capacitación de radioaficionado tiene por objeto: → evaluar la capacidad del aspirante para operar estaciones del servicio de aficionados
+R7-20 | R7 | peso 1 | El antiguo diploma de operador equivale hoy al certificado HAREC
+    R7.15: El antiguo diploma de operador de estaciones de aficionado se corresponde actualmente con: → el certificado de examen armonizado de radioaficionado (HAREC)
+R7-21 | R7 | peso 2 | Licencia CEPT: operar en los países que la reconocen, con su normativa
+    R7.16: La licencia CEPT permite a su titular: → operar en los países que la reconocen, con arreglo a la normativa de cada uno
+R7-22 | R7 | peso 2 | Emitir música está prohibido: el servicio de aficionados no es radiodifusión
+    R9.26: Transmitir música a través de una estación de aficionado: → está prohibido, porque el de aficionados no es un servicio de radiodifusión
+R9-01 | R9 | peso 3 | Inspección: el Ministerio competente, mediante la inspección de telecomunicaciones y las Jefaturas Provinciales
+    R9.8: La inspección de los equipos y estaciones del servicio de aficionados corresponde a: → el Ministerio competente en telecomunicaciones, a través de la inspección de telecomunicaciones y sus Jefaturas Provinciales
+R9-02 | R9 | peso 2 | Potestad sancionadora: Administración General del Estado (titular de la Secretaría de Estado de Telecomunicaciones)
+    R9.16: La potestad sancionadora en materia de radiocomunicaciones corresponde a: → la Administración General del Estado
+    F-R9.3: Según el art. 114.1 de la Ley 11/2022, la competencia para imponer las sanciones por infracciones como emitir sin autorización o producir interferencias corresponde a: → la persona titular de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales
+R9-03 | R9 | peso 1 | Los inspectores tienen la consideración de autoridad pública
+    R9.31: El personal de la inspección de telecomunicaciones, en el ejercicio de sus funciones, tiene la consideración de: → autoridad pública
+R9-04 | R9 | peso 2 | Obligación de permitir la inspección; solo el domicilio protegido exige consentimiento o autorización judicial
+    R9.14: Ante una actuación de la inspección de telecomunicaciones, el titular de una estación de aficionado está obligado a: → permitir el acceso del personal inspector y facilitar la comprobación de la estación
+    F-R9.7: Según el art. 103.2 de la Ley 11/2022, el acceso de la inspección de telecomunicaciones a una finca o inmueble donde hay equipos o estaciones requiere el consentimiento de su titular o autorización judicial: → solo cuando sea necesario entrar en un domicilio constitucionalmente protegido o efectuar registros en él
+R9-05 | R9 | peso 2 | Las infracciones se tipifican en la Ley General de Telecomunicaciones
+    R9.7: La tipificación de las infracciones en que puede incurrir un radioaficionado se establece en: → la Ley General de Telecomunicaciones vigente
+R9-06 | R9 | peso 2 | Ley 11/2022: art. 106 muy graves, 107 graves, 108 leves
+    C-R9.3: De acuerdo con la Ley General de Telecomunicaciones (Ley 11/2022, de 28 de junio), las infracciones se clasifican en: → Art. 106 muy graves, art. 107 graves, art. 108 leves.
+R9-07 | R9 | peso 3 | Muy grave: interceptar sin autorización telecomunicaciones no destinadas al público
+    R9.1: La Ley General de Telecomunicaciones tipifica como infracción MUY GRAVE: → la interceptación, sin autorización, de telecomunicaciones no destinadas al público en general
+R9-08 | R9 | peso 3 | Grave: la mera producción de interferencias
+    R9.2: La Ley General de Telecomunicaciones tipifica como infracción GRAVE: → la mera producción de interferencias a redes o servicios autorizados
+R9-09 | R9 | peso 2 | Muy grave: la producción deliberada de interferencias
+    F-R9.8: La producción deliberada de interferencias a redes o servicios autorizados constituye, según la Ley 11/2022: → una infracción muy grave
+R9-10 | R9 | peso 2 | Muy grave: no atender el requerimiento de cese de emisiones
+    R9.22: No atender el requerimiento de la autoridad competente para el cese de las emisiones constituye una infracción: → muy grave
+R9-11 | R9 | peso 1 | Muy grave: uso del espectro no adecuado al CNAF
+    F-R9.9: La utilización del dominio público radioeléctrico, de frecuencias o de canales no adecuada al Cuadro Nacional de Atribución de Frecuencias (CNAF) es, según la Ley 11/2022: → una infracción muy grave
+R9-12 | R9 | peso 3 | Grave: negativa u obstrucción a la inspección
+    R9.3: También constituye infracción GRAVE según la Ley General de Telecomunicaciones: → la negativa o la obstrucción a ser inspeccionado y la no colaboración con la inspección
+R9-13 | R9 | peso 1 | Grave: superar los límites de exposición o no señalizar/vallar
+    F-R9.10: Efectuar emisiones que incumplan los límites de exposición a las emisiones radioeléctricas, o incumplir las medidas de señalización o vallado de las instalaciones radioeléctricas, constituye, según la Ley 11/2022: → una infracción grave
+R9-14 | R9 | peso 2 | Distintivo falso o ajeno: sancionable; grave en el banco
+    C-R9.2: Emitir distintivos de llamada falsos constituye una infracción: → Grave
+R9-15 | R9 | peso 3 | Leve: comunicarse utilizando estaciones no autorizadas
+    R9.4: La Ley General de Telecomunicaciones tipifica como infracción LEVE: → el establecimiento de comunicaciones utilizando estaciones no autorizadas
+R9-16 | R9 | peso 2 | Leve: no facilitar los datos requeridos o retrasarlos
+    R9.9: No facilitar los datos requeridos por la Administración, o retrasar injustificadamente su aportación cuando resulte exigible, constituye una infracción: → leve
+R9-17 | R9 | peso 1 | Leve: instalar una estación de radioaficionado sin autorización
+    F-R9.11: La instalación de una estación de radioaficionado careciendo de autorización constituye, según la Ley 11/2022: → una infracción leve
+R9-18 | R9 | peso 1 | Leve: emisión no autorizada, salvo que sea grave o muy grave
+    F-R9.12: La producción de cualquier tipo de emisión radioeléctrica no autorizada es, según la Ley General de Telecomunicaciones, una infracción: → leve, salvo que deba considerarse grave o muy grave
+R9-19 | R9 | peso 2 | No es infracción comunicar con otra estación de la que se es titular
+    C-R9.1: Efectuar radiocomunicaciones con otra estación de la que se es titular constituye, según la legislación vigente, una infracción: → Ninguna (no es infracción)
+R9-20 | R9 | peso 2 | No es infracción no llevar libro de registro (no existe la obligación)
+    R9.28: Carecer de un libro diario o registro de las comunicaciones efectuadas constituye: → no constituye infracción, al no existir tal obligación
+R9-21 | R9 | peso 1 | Emitir fuera de las bandas autorizadas es infracción
+    R9.27: Emplear bandas de frecuencia distintas de las autorizadas al servicio de aficionados constituye: → una infracción
+R9-22 | R9 | peso 3 | Multas máximas: 20 M€ muy graves y 2 M€ graves
+    R9.5: Las multas previstas por la Ley General de Telecomunicaciones pueden llegar, para las infracciones muy graves y graves respectivamente, hasta: → 20 millones y 2 millones de euros
+R9-23 | R9 | peso 2 | Multa máxima de las leves: 100 000 €
+    F-R9.1: La multa máxima que prevé la Ley 11/2022, General de Telecomunicaciones, por una infracción leve es de: → 100 000 euros
+R9-24 | R9 | peso 3 | Prescripción: 3 años muy graves, 2 graves, 1 leves
+    R9.10: Las infracciones muy graves en materia de telecomunicaciones prescriben a los: → tres años
+    R9.6: La sanción impuesta por una infracción grave prescribe a los: → dos años
+R9-25 | R9 | peso 2 | Sanciones accesorias: cese, ajuste, precintado o incautación de equipos, clausura
+    R9.17: Con independencia de la multa que corresponda, la Administración puede acordar, como medida sobre los equipos: → su precintado o incautación
+R9-26 | R9 | peso 2 | Reiteración: 2 o más sanciones firmes del mismo tipo en 3 años; la leve pasa a grave
+    R9.29: La reiteración en la comisión de infracciones leves: → puede dar lugar a que se califiquen como graves
+    F-R9.6: Según el art. 109.6 de la Ley 11/2022, hay incumplimiento reiterado cuando se impone sanción firme en vía administrativa por dos o más infracciones del mismo tipo en un período de: → tres años
+R9-27 | R9 | peso 1 | El expediente se tramita por la LGT y el procedimiento administrativo común
+    R9.19: El expediente sancionador en materia de telecomunicaciones se tramita con arreglo a: → la Ley General de Telecomunicaciones y la legislación de procedimiento administrativo común
+R9-28 | R9 | peso 1 | Plazo para resolver el procedimiento sancionador: un año
+    F-R9.4: Según el art. 114.2 de la Ley 11/2022, el plazo para resolver el procedimiento sancionador en materia de telecomunicaciones es de: → un año
+R9-29 | R9 | peso 1 | Plazo mínimo de alegaciones: quince días hábiles
+    F-R9.5: Según el art. 114.2 de la Ley 11/2022, en el procedimiento sancionador en materia de telecomunicaciones el plazo de alegaciones es, como mínimo, de: → quince días hábiles
+R9-30 | R9 | peso 2 | Interferencias comprobadas por la inspección: cese de las emisiones hasta corregir la causa
+    R9.20: Si la inspección comprueba que una estación de aficionado causa interferencias perjudiciales a otros servicios, puede: → ordenar el cese de las emisiones hasta que se corrija la causa
+R9-31 | R9 | peso 2 | Titular que sabe que interfiere: medidas técnicas razonables a su costa, sin esperar requerimiento
+    R9.21: Si el titular de una estación de aficionado tiene constancia de que está causando interferencias, deberá: → adoptar a su costa todas las medidas técnicas razonables para evitarlas
+R9-32 | R9 | peso 2 | Revocación: fines comerciales sí; no tener estación no es causa
+    R9.24: De las siguientes, _no_ es causa de revocación de una autorización de radioaficionado: → no disponer de una estación radioeléctrica
+R9-33 | R9 | peso 1 | Cancelación de la autorización a petición del titular
+    R9.32: La autorización de radioaficionado se cancelará: → en cualquier momento, a petición de su titular
+R9-34 | R9 | peso 1 | Portadora sin modular: solo para ensayos breves
+    R9.25: La emisión de una portadora sin modular por una estación de aficionado: → se admite a efectos de ensayo y durante un tiempo breve
+R9-35 | R9 | peso 1 | Modificaciones permanentes de la estación: deben comunicarse
+    R9.30: Las modificaciones introducidas en una instalación de estación de aficionado deben comunicarse a la Jefatura Provincial de Inspección de Telecomunicaciones: → siempre que dichas modificaciones sean permanentes
+R8-01 | R8 | peso 1 | Marco: competencia exclusiva del Estado en telecomunicaciones (art. 149.1.21.ª CE)
+    R8.55: El Reglamento de uso del dominio público radioeléctrico por aficionados se dicta al amparo del artículo 149.1.21.ª de la Constitución, que atribuye al Estado competencia exclusiva en materia de: → telecomunicaciones
+R8-02 | R8 | peso 1 | Ley General de Telecomunicaciones vigente: Ley 11/2022
+    F-R8.10: La Ley General de Telecomunicaciones vigente es: → la Ley 11/2022, de 28 de junio
+R8-03 | R8 | peso 1 | RD 123/2017: Reglamento sobre el uso del dominio público radioeléctrico
+    F-R8.11: El Real Decreto 123/2017, de 24 de febrero, aprueba el: → Reglamento sobre el uso del dominio público radioeléctrico
+R8-04 | R8 | peso 1 | Uso del espectro por radioaficionados: uso especial, con autorización individual; explotación compartida sin exclusión de terceros
+    F-R8.12: El uso del dominio público radioeléctrico por los radioaficionados está clasificado como: → uso especial, mediante autorización individual
+R8-05 | R8 | peso 2 | Orden IET/1311/2013: documento fundamental de regulación de la radioafición
+    C-R8.4: El Reglamento de uso del dominio público radioeléctrico por aficionados: → Constituye el documento fundamental de regulación de la radioafición.
+R8-06 | R8 | peso 1 | Orden IET/1311/2013: derogó la Orden ITC/1791/2006
+    F-R8.13: La Orden IET/1311/2013 derogó expresamente: → la Orden ITC/1791/2006, de 5 de junio
+R8-07 | R8 | peso 1 | Orden IET/1311/2013: entrada en vigor el día siguiente a su publicación
+    F-R8.14: La Orden IET/1311/2013 entró en vigor: → el día siguiente al de su publicación en el BOE
+R8-08 | R8 | peso 2 | Radioaficionado: interés por la radiotecnia con carácter exclusivamente personal, sin fines de lucro
+    F-R8.16: Según el Reglamento de uso del dominio público radioeléctrico por radioaficionados, estos son personas debidamente autorizadas que se interesan por la radiotecnia con carácter: → exclusivamente personal y sin fines de lucro ni contenido económico
+R8-09 | R8 | peso 2 | CNAF = Cuadro Nacional de Atribución de Frecuencias
+    R8.7: En el Reglamento de uso del dominio público radioeléctrico por aficionados, la abreviatura CNAF significa: → Cuadro Nacional de Atribución de Frecuencias
+R8-10 | R8 | peso 1 | CNAF vigente: aprobado por orden ministerial (Orden TDF/732/2026)
+    F-R8.17: El Cuadro Nacional de Atribución de Frecuencias (CNAF) vigente en octubre de 2026 fue aprobado por la: → Orden TDF/732/2026, de 10 de julio
+R8-11 | R8 | peso 3 | Ley 19/1983 («Ley de antenas»): derecho a instalar antenas de aficionado en el exterior de los inmuebles
+    R8.1: La Ley 19/1983, conocida como «Ley de Antenas», regula: → el derecho a instalar las antenas de aficionado en el exterior de los inmuebles
+R8-12 | R8 | peso 2 | RD 2623/1986: reglamento de las instalaciones de antenas de aficionado
+    R8.10: El Real Decreto 2623/1986 regula: → las instalaciones de antenas de las estaciones radioeléctricas de aficionado
+R8-13 | R8 | peso 2 | La autorización de radioaficionado la otorga la SETSI (hoy SETID)
+    C-R8.38: Para la utilización de estaciones de radioaficionado es imprescindible obtener la previa autorización de: → La Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales (la SETSI de la Orden IET/1311/2013).
+R8-14 | R8 | peso 3 | Requisito previo de la autorización: superar la prueba de capacitación (certificado HAREC)
+    C-R8.5: La obtención de la autorización de radioaficionado requerirá la obtención previa de: → El certificado de examen armonizado (HAREC), que se obtiene al superar la prueba de capacitación.
+R8-15 | R8 | peso 3 | Naturaleza de la autorización: individual, personal e intransferible, revocable
+    C-R8.28: La autorización administrativa de uso del espectro radioeléctrico por radioaficionados: → Para su obtención se requerirá haber superado la prueba de capacitación (certificado HAREC).
+R8-16 | R8 | peso 3 | Vigencia indefinida: no se renueva; suprimida la comunicación quinquenal
+    C-R8.44: Según la normativa vigente (Orden IET/1311/2013), respecto de la autorización de radioaficionado, indique la alternativa incorrecta: → Su titular debe comunicar cada cinco años, de forma fehaciente, su intención de seguir utilizando el espectro radioeléctrico.
+R8-17 | R8 | peso 2 | La autorización habilita a emitir en las bandas y con las características técnicas del servicio de aficionados
+    R8.60: La autorización de radioaficionado habilita a su titular para: → efectuar emisiones en las bandas y con las características técnicas establecidas para el servicio de aficionados
+R8-18 | R8 | peso 2 | Plazo para resolver la autorización (y la licencia de estación fija): 6 semanas, silencio desestimatorio
+    R8.11: El plazo del que dispone la Administración para resolver una solicitud de autorización de radioaficionado es de: → seis semanas
+R8-19 | R8 | peso 1 | Recursos contra las resoluciones: reposición en 1 mes o contencioso ante la Audiencia Nacional en 2 meses
+    F-R8.20: Según el artículo 4 de la Orden IET/1311/2013, el recurso potestativo de reposición contra las resoluciones de la SETSI sobre autorizaciones y licencias de radioaficionado debe interponerse en el plazo de: → un mes desde el día siguiente a su notificación
+    F-R8.21: Las resoluciones de la SETSI a que se refiere el artículo 4 de la Orden IET/1311/2013 agotan la vía administrativa y pueden impugnarse directamente ante la Sala de lo Contencioso-administrativo de: → la Audiencia Nacional, en el plazo de dos meses
+R8-20 | R8 | peso 1 | Solicitud de autorización: preferentemente por medios electrónicos, con modelo oficial
+    F-R8.29: Los interesados en obtener la autorización de radioaficionado presentan su solicitud, preferentemente: → por medios electrónicos, en la sede electrónica del Ministerio y según el modelo oficial
+R8-21 | R8 | peso 1 | Solicitud de autorización: acompañada del resguardo de la tasa de tramitación
+    F-R8.30: Según el artículo 6 del Reglamento, a la solicitud de autorización de radioaficionado debe acompañarse: → el resguardo de abono de la tasa de tramitación
+R8-22 | R8 | peso 2 | Menores: sin edad mínima; escrito fehaciente de padres o tutores
+    R8.29: Para que un menor de edad pueda examinarse y obtener la autorización de radioaficionado: → no existe límite de edad; sus padres o tutores deberán asumir por escrito las responsabilidades correspondientes
+R8-23 | R8 | peso 1 | Autorización en formato bilingüe si lo pide el interesado (lengua cooficial)
+    R8.57: En las comunidades autónomas con lengua cooficial, la autorización de radioaficionado: → deberá expedirse en formato bilingüe si lo solicita el interesado
+R8-24 | R8 | peso 2 | No es obligatorio ser socio de una asociación de radioaficionados
+    R8.61: Un radioaficionado no está obligado a: → ser socio de una asociación de radioaficionados
+R8-25 | R8 | peso 1 | No es obligatorio disponer de estación fija
+    R8.54: Disponer de una estación fija es, para un radioaficionado: → no obligatorio
+R8-26 | R8 | peso 2 | Se puede tener distintivo (autorización) sin licencia de estación; la licencia solo la necesita la estación fija
+    R8.51: La reglamentación vigente permite: → disponer de distintivo de llamada sin tener licencia de estación
+R8-27 | R8 | peso 1 | Extinción automática de la autorización: fallecimiento del titular o extinción de la asociación titular
+    F-R8.31: La autorización de radioaficionado se extingue automáticamente por: → el fallecimiento de su titular o la extinción de la asociación de radioaficionados titular de la misma
+R8-28 | R8 | peso 2 | Revocación de la autorización: no se puede emitir; se cancelan el distintivo y la licencia de estación fija asociada
+    C-R8.23: En el Servicio de Aficionados, ¿cuál de las siguientes proposiciones es correcta? → La revocación de la autorización de radioaficionado lleva aparejada la cancelación de la licencia de la estación fija asociada.
+    R8.71: La revocación de la autorización de radioaficionado lleva aparejada: → la cancelación del distintivo de llamada
+R8-29 | R8 | peso 1 | Reasignación de distintivos ya usados: solo agotadas las combinaciones (salvo anterior titular y familiares)
+    R8.72: Un distintivo de llamada que ya ha estado en uso podrá volver a asignarse: → una vez cancelada la autorización y agotadas todas las combinaciones posibles (con excepciones)
+R8-30 | R8 | peso 2 | Uso de una estación ajena: con permiso del titular, identificándose con el distintivo propio
+    R8.70: Si un radioaficionado opera una estación de la que no es titular, deberá: → identificarse con su propio distintivo, contando con la autorización del titular
+R8-31 | R8 | peso 1 | Ninguna estación tiene derecho preferente sobre una frecuencia
+    R8.73: Ninguna estación de aficionado puede reclamar el uso exclusivo de una frecuencia. Ello significa que: → ninguna estación tiene derecho preferente sobre una frecuencia concreta
+R8-32 | R8 | peso 1 | Las estaciones están sometidas siempre a la inspección
+    R8.59: Las estaciones de aficionado quedan sometidas a la inspección de telecomunicaciones: → siempre
+R8-33 | R8 | peso 2 | Equipos de construcción propia: sin autorización previa, bajo la responsabilidad del titular (régimen sancionador si interfieren)
+    R8.25: Los equipos de radioaficionado de construcción propia: → pueden utilizarse sin autorización previa de la Administración
+R8-34 | R8 | peso 1 | Equipo de construcción propia: presentación optativa en la Jefatura con memoria (diagrama de bloques, esquemas)
+    F-R8.26: La presentación de un equipo de construcción propia en la Jefatura Provincial de Inspección de Telecomunicaciones, junto con su memoria descriptiva, es: → optativa: si supera las pruebas, el equipo recibe una autorización individual acreditativa de su correcto funcionamiento
+R8-35 | R8 | peso 1 | Equipos comerciales: legislación vigente en su comercialización inicial; los ya legalizados, la de su autorización inicial
+    F-R8.23: Los equipos radioeléctricos adquiridos en el mercado que se pretenda utilizar en una estación de radioaficionado deben cumplir la legislación (marcado CE, certificado de aceptación radioeléctrica, etc.) que les fuese de  → en el momento de su comercialización inicial
+R8-36 | R8 | peso 1 | Equipo de segunda mano sin certificado de aceptación: cumplir el anexo I, certificado por laboratorio acreditado
+    F-R8.24: Un equipo de segunda mano comercializado antes de la entrada en vigor del Real Decreto 1890/2000 no dispone del certificado de aceptación radioeléctrica exigido en su día. Para utilizarlo en una estación de radioaficiona → cumplir las características técnicas del anexo I, certificado por un laboratorio acreditado
+R8-37 | R8 | peso 1 | Estación construida de acuerdo con el estado de la técnica (no se impone tecnología)
+    C-R8.36: La estación de aficionado debe estar construida: → De acuerdo con el estado de desarrollo de la técnica radioeléctrica.
+R8-38 | R8 | peso 1 | La estación debe tener elementos para comprobar que la emisión está en banda y medir la potencia
+    R8.86: La estación de aficionado debe estar provista de: → los elementos adecuados para comprobar que la emisión se ajusta a lo autorizado
+R8-39 | R8 | peso 1 | Potencia y duración de las emisiones limitadas a lo estrictamente necesario
+    F-R8.1: Según el apartado 4.2 del anexo I de la Orden IET/1311/2013, deben limitarse a lo estrictamente necesario: → la potencia emitida y la duración de las emisiones
+R8-40 | R8 | peso 3 | Estación fija: precisa licencia, asociada a la autorización de radioaficionado de su titular
+    C-R8.41: La instalación y funcionamiento de una estación fija de aficionado precisará de una licencia, la cual se considerará asociada a: → La autorización de radioaficionado de su titular.
+R8-41 | R8 | peso 2 | Definición de estación fija: ubicación fija consignada en la licencia
+    C-R8.39: Una estación fija es la: → Autorizada únicamente para su utilización en una ubicación que es fija y que se consigna en la licencia.
+R8-42 | R8 | peso 2 | Solicitud de licencia de estación fija: con memoria descriptiva de la instalación
+    C-R8.11: Para la obtención de la licencia de estación de radioaficionado es necesario presentar: → Solicitud adjuntando una memoria descriptiva del conjunto de la instalación.
+R8-43 | R8 | peso 2 | Contenido de la memoria: toma de tierra, plano, equipos (no el empadronamiento)
+    C-R8.6: En la memoria descriptiva, para la obtención de la licencia de una estación de aficionado, no es preciso incluir: → Certificado de empadronamiento.
+R8-44 | R8 | peso 2 | La licencia se expide terminado el montaje y presentada la documentación
+    C-R8.12: La licencia de estación de radioaficionado se expedirá: → Finalizado el montaje de la instalación y presentada la documentación requerida en cada caso.
+R8-45 | R8 | peso 2 | Plazos de fin de instalación: comunicarlo en 6 semanas; la Jefatura verifica y expide en ≤ 30 días
+    F-R8.53: Según el artículo 20 de la Orden IET/1311/2013, terminada la instalación de una estación fija en las condiciones autorizadas, el interesado debe comunicarlo a la Jefatura Provincial, justificando documentalmente que el s → 6 semanas
+    F-R8.54: Según el artículo 20 de la Orden IET/1311/2013, recibida la documentación de fin de instalación de una estación fija, la Jefatura Provincial de Inspección de Telecomunicaciones dispone de un plazo máximo, para verificar  → 30 días
+R8-46 | R8 | peso 2 | Montaje por instalador de telecomunicaciones inscrito, salvo instalaciones simples autorizadas por el Jefe Provincial
+    C-R8.17: La instalación, en el exterior de los edificios, del sistema radiante de una estación de radioaficionado, ¿puede ser realizada por el propio radioaficionado? → Solo aquellas que por su simplicidad así lo autorice el Jefe Provincial de Inspección de Telecomunicaciones.
+R8-47 | R8 | peso 2 | Modificaciones con licencia: permanentes se comunican; cambiar la antena de sitio = primera instalación
+    C-R8.15: El cambio de ubicación de la antena de una estación fija de radioaficionado: → Se debe solicitar a la SETSI y seguir el mismo procedimiento que si se tratase de la primera instalación.
+R8-48 | R8 | peso 1 | Modificaciones experimentales con licencia concedida: hasta 60 días sin afectar a la seguridad
+    F-R8.55: Según el artículo 20 de la Orden IET/1311/2013, una vez obtenida la licencia de una estación fija, su titular puede realizar con carácter experimental cualquier modificación en las instalaciones y equipos de la estación, → 60 días
+R8-49 | R8 | peso 2 | Seguro de responsabilidad civil obligatorio, formalizado antes de expedirse la licencia
+    C-R8.3: El contrato de seguro que cubre la responsabilidad del radioaficionado titular de una licencia de estación: → Debe estar formalizado antes de la expedición de la licencia de estación.
+R8-50 | R8 | peso 1 | Copia del contrato de seguro a la propiedad o al presidente de la comunidad
+    F-R8.8: Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), el titular debe entregar una copia del contrato del seguro de responsabilidad civil de su antena, con la cláusula que cita el artículo 2 de la Ley 19 → a la propiedad del inmueble o al presidente de la comunidad de propietarios
+R8-51 | R8 | peso 2 | Cancelación de la licencia fija (p. ej., sin seguro): desmontar todo, antenas incluidas, a costa del titular
+    R8.17: Si el titular de una estación fija no dispone de contrato válido de seguro de antenas: → la licencia de estación fija se cancela de oficio y las antenas deben permanecer desmontadas
+R8-52 | R8 | peso 1 | Licencia fija condicionada a no perturbar otros servicios y a cumplir normas de seguridad, servidumbres, medio ambiente
+    F-R8.43: Según el artículo 18.3 de la Orden IET/1311/2013, la licencia de funcionamiento de una estación fija de radioaficionado queda condicionada, en cualquier caso, a: → la ausencia de perturbaciones a otros servicios radioeléctricos autorizados y el cumplimiento de las normas sobre seguridad nacional, servidumbres, medio ambiente y ordenación del territorio
+R8-53 | R8 | peso 1 | Permisos de servidumbres, medio ambiente, etc.: por cuenta y a cargo del solicitante
+    F-R8.44: Los permisos o autorizaciones en materia de servidumbres aeronáuticas, medio ambiente u ordenación del territorio que exija la instalación de una estación fija de radioaficionado deben ser obtenidos, según el artículo 18 → los solicitantes de la licencia, por su cuenta y a su cargo
+R8-54 | R8 | peso 2 | Derecho a instalar la antena en el exterior: legitimación para usar el edificio + autorización administrativa
+    R8.15: Un radioaficionado podrá instalar la antena de su estación fija en el exterior de un inmueble: → si está legitimado para usar la totalidad o parte del edificio y ha obtenido la autorización administrativa reglamentaria
+R8-55 | R8 | peso 3 | Comunidad de propietarios: no autoriza; la solicitud indica la dirección del presidente y la Administración le informa
+    C-R8.29: Para instalar una antena en un edificio en régimen de propiedad horizontal: → Se comunicará a la Administración la dirección del Presidente de la Comunidad de Propietarios.
+R8-56 | R8 | peso 2 | La comunidad dispone de 2 meses para alegar sobre la idoneidad del emplazamiento
+    R8.79: Cuando se pretenden instalar antenas en el exterior de un inmueble en régimen de propiedad horizontal, procede: → comunicarlo previamente a la comunidad de propietarios, que dispone de dos meses para alegar
+R8-57 | R8 | peso 1 | Derechos del predio sirviente (art. 545 CC): la comunidad decide por mayoría simple
+    F-R8.19: Según la Ley 19/1983, los derechos que el artículo 545 del Código Civil reconoce al dueño del predio sirviente se ejercen, en su caso, por la comunidad de propietarios, bastando que la decisión se adopte por: → mayoría simple
+R8-58 | R8 | peso 2 | Obras en el inmueble: aviso al titular con 1 mes de antelación
+    R8.74: Salvo casos de urgencia, la propiedad del inmueble que necesite el desmontaje de una antena autorizada para ejecutar obras debe requerirlo al titular con una antelación mínima de: → un mes
+R8-59 | R8 | peso 2 | Obras: desmontaje temporal sin indemnización; después se reinstala en condiciones similares
+    R8.75: Si una antena debidamente autorizada impide la realización de obras necesarias en el inmueble, su titular: → está obligado a desmontarla temporalmente sin derecho a indemnización
+R8-60 | R8 | peso 1 | Obras de indudable urgencia: desmontaje sin trámites, comunicándolo inmediatamente al titular
+    F-R8.75: Según el Real Decreto 2623/1986, cuando las obras necesarias en el inmueble tienen carácter de indudable urgencia, la propiedad puede desmontar las antenas de la estación de aficionado y sus elementos anejos: → sin los trámites ni los plazos de las obras ordinarias, pero comunicándolo inmediatamente al titular de la licencia
+R8-61 | R8 | peso 1 | Instalación provisional durante las obras: la autoriza la Administración; gastos del titular
+    F-R8.76: Según el Real Decreto 2623/1986, mientras las antenas permanecen desmontadas por razón de obras en el inmueble y siempre que sea posible, puede autorizarse una instalación provisional compatible con las obras. ¿Quién la  → La Administración de telecomunicaciones la autoriza y los gastos corren por cuenta del titular de la licencia.
+R8-62 | R8 | peso 2 | Daños: los que causa la antena (instalación, conservación, desmontaje) son del titular; los que causa la propiedad a la antena, de la propiedad
+    R8.76: Los daños y perjuicios que ocasione la antena de una estación de aficionado corren a cargo: → del titular de la estación, incluidos los de instalación, mantenimiento y desmontaje
+    F-R8.9: Según el Real Decreto 2623/1986, que desarrolla la Ley de antenas, si la propiedad del inmueble causa daños a la antena o a sus elementos anejos, su reparación y la indemnización, en su caso, corren por cuenta de: → la propiedad del inmueble
+R8-63 | R8 | peso 2 | Condiciones de instalación: sin molestias ni peligro, señalizar anclajes y riostras, materiales resistentes, respetar otras antenas, no dañar la obra
+    C-R8.18: Señale la proposición incorrecta: → Las antenas y elementos anejos, y en particular, soportes, anclajes y riostras deberán ser de materiales endebles y de fácil instalación para facilitar su posterior desmontaje.
+R8-64 | R8 | peso 1 | Soportes: a la obra civil o con repartidores de carga; nunca a pararrayos ni a conducciones eléctricas
+    F-R8.4: Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), los soportes de las antenas: → se fijan a la obra civil, directamente en puntos aptos o mediante elementos repartidores de la carga debidamente dimensionados
+R8-65 | R8 | peso 2 | Altura libre mínima de 3 m sobre el plano de paso
+    F-R8.2: Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), las antenas, sobre todo las horizontales, deben dejar en las peores condiciones ambientales previsibles una altura libre mínima sobre el plano de pas → 3 m
+R8-66 | R8 | peso 1 | Líneas de transmisión a ≥ 10 cm de conductos y canalizaciones del edificio
+    F-R8.3: Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), la distancia mínima a la que deben situarse las líneas de transmisión y los cables de alimentación respecto de cualquier conducto o canalización de s → 10 cm
+R8-67 | R8 | peso 1 | Definiciones del RD 2623/1986: anclaje, riostra, plano de paso, elemento repartidor de carga
+    C-R8.25: En relación con la instalación en el exterior de un inmueble de una antena de estación de aficionado, el punto o elemento de fijación de las riostras en la obra civil del inmueble, repartiendo los esfuerzos mecánicos, se → Anclaje.
+R8-68 | R8 | peso 2 | Usos experimentales con características distintas de las generales: requieren autorización especial
+    R8.26: Las utilizaciones de carácter experimental con características técnicas distintas de las especificadas en el Reglamento: → requieren una autorización especial
+R8-69 | R8 | peso 2 | Autorización especial experimental: nominativa, plazo máximo inicial de 18 meses, ampliable
+    R8.27: Las autorizaciones especiales para usos experimentales (art. 17 de la Orden): → son nominativas y se otorgan con un plazo máximo inicial de dieciocho meses, ampliable
+R8-70 | R8 | peso 2 | Autorización especial experimental: pedirla con al menos 1 mes de antelación
+    C-R8.1: ¿Con qué anticipación a la fecha prevista para el comienzo de las emisiones se deberá solicitar una autorización especial de uso del espectro radioeléctrico por radioaficionados? → 1 mes.
+R8-71 | R8 | peso 1 | Memoria técnica de la autorización experimental: contenido (experimento, diagrama si es casero, coordenadas, período, banda, emisión, potencia, antena)
+    F-R8.39: ¿Cuál de los siguientes datos NO forma parte de la memoria técnica que debe acompañar a la solicitud de una autorización especial experimental (art. 17.2 de la Orden IET/1311/2013)? → la lista de socios de la asociación del solicitante
+R8-72 | R8 | peso 1 | Emisiones experimentales: se identifican con el distintivo propio
+    F-R8.42: Las emisiones realizadas al amparo de una autorización especial experimental (art. 17.3 de la Orden IET/1311/2013) se identifican con: → el distintivo propio del radioaficionado o de la asociación solicitante
+R8-73 | R8 | peso 3 | Bandas que requieren autorización especial: 2300–2450 MHz, 5650–5850 MHz y 24,050–24,250 GHz (con excepciones)
+    C-R8.30: Una de las siguientes bandas que se citan a continuación precisa autorización especial de uso. Señálela: → 24,050–24,250 GHz.
+R8-74 | R8 | peso 1 | Autorizaciones del art. 16 (bandas secundarias): limitaciones geográficas o técnicas
+    F-R8.38: En las autorizaciones especiales del artículo 16 de la Orden IET/1311/2013 (bandas atribuidas con carácter secundario, con riesgo de interferir a servicios primarios), se establecen: → limitaciones geográficas o técnicas de uso que aseguren la compatibilidad con los servicios afectados
+R8-75 | R8 | peso 2 | Estación portable: la fija usada temporalmente en otra ubicación
+    R8.69: Una estación portable de aficionado es: → una estación fija que puede utilizarse temporalmente en una ubicación distinta de la habitual
+R8-76 | R8 | peso 2 | Uso portable: notificar con 5 días; usos no continuados de hasta 15 días naturales sin notificación
+    R8.45: La utilización con carácter temporal de una estación en una ubicación distinta de la habitual (estación portable): → no precisa autorización, pero debe notificarse a la Jefatura Provincial con al menos cinco días de antelación; los usos no continuados de hasta 15 días naturales no precisan notificación
+R8-77 | R8 | peso 2 | Estación móvil: en movimiento o detenida en puntos no determinados
+    C-R8.37: Estación móvil de aficionado: → Estación que puede ser utilizada en movimiento o mientras está detenida en puntos no determinados.
+R8-78 | R8 | peso 2 | Estación portátil: antena y fuente de energía incorporadas, utilizable en movimiento
+    R8.44: Una estación portátil de aficionado se caracteriza por: → tener antena y fuente de energía incorporadas al propio equipo y poder utilizarse en movimiento
+R8-79 | R8 | peso 1 | Estación fija remota: accionada a distancia
+    R8.68: Se entiende por estación fija remota de aficionado aquella que: → puede ser accionada a distancia por su titular
+R8-80 | R8 | peso 1 | Estación digital: emite con técnicas digitales
+    R8.87: Se entiende por estación digital de aficionado aquella: → dotada de dispositivos que permiten realizar emisiones con técnicas digitales
+R8-81 | R8 | peso 1 | Estación temporal: concursos, expediciones, demostraciones y eventos
+    F-R8.79: Según el Anexo I de la Orden IET/1311/2013, una «estación temporal de radioaficionado» es la utilizada con carácter temporal para actividades relacionadas con: → concursos y diplomas, expediciones, demostraciones en colegios, ferias y otros eventos de similar naturaleza
+R8-82 | R8 | peso 1 | Estación colectiva: responsable la Junta Directiva de la asociación
+    F-R8.49: Según el artículo 18.6 de la Orden IET/1311/2013, de la utilización de una estación colectiva de radioaficionado es responsable: → la Junta Directiva de la asociación titular de la estación
+R8-83 | R8 | peso 1 | Asociación reconocida: por resolución de la SETSI, tras inscribirse en Interior y presentar estatutos
+    F-R8.48: Según el artículo 18.7 de la Orden IET/1311/2013, la condición de asociación de radioaficionados reconocida se obtiene: → por resolución de la SETSI, una vez constituida legalmente e inscrita en el Ministerio del Interior, previa solicitud acompañada de los estatutos
+R8-84 | R8 | peso 1 | Estatutos de la asociación reconocida: fines propios de la radioafición y obligación de cumplir el Reglamento
+    F-R8.50: Según el artículo 18.7 de la Orden IET/1311/2013, los estatutos de una asociación que solicita ser reconocida como asociación de radioaficionados deben contemplar: → como finalidades específicas las propias de los radioaficionados y la obligación de cumplir lo dispuesto en el Reglamento
+R8-85 | R8 | peso 1 | Colectivas: licencia + autorización individualizada con distintivo propio
+    F-R8.51: Según el artículo 18.8 de la Orden IET/1311/2013, las estaciones colectivas de radioaficionado precisan para su funcionamiento: → la licencia de estación y una autorización de radioaficionado individualizada, a la que se asocia la licencia y que lleva su propio distintivo de llamada
+R8-86 | R8 | peso 1 | Varias desatendidas en una autorización: misma modulación, titularidad y ubicación
+    F-R8.52: Según el artículo 18.8 de la Orden IET/1311/2013, varias estaciones automáticas desatendidas pueden estar amparadas por una única autorización de radioaficionado cuando tienen: → el mismo tipo de modulación, la misma titularidad y la misma ubicación
+R8-87 | R8 | peso 1 | Noveles en estaciones colectivas: supervisor con ≥ 3 años de antigüedad
+    F-R8.69: Según el artículo 30.6 de la Orden IET/1311/2013, las estaciones colectivas pueden ser utilizadas esporádicamente por personas noveles, con fines de divulgación, bajo la responsabilidad y supervisión directa y presencial → tres años
+R8-88 | R8 | peso 1 | Noveles: distintivo de la colectiva + 2 o 3 letras tras el sufijo
+    F-R8.70: Según el artículo 30.6 de la Orden IET/1311/2013, cuando personas noveles utilizan esporádicamente una estación colectiva con fines de divulgación, las emisiones se identifican mediante: → el distintivo de la estación colectiva seguido, tras el sufijo, de dos o tres letras de libre elección
+R8-89 | R8 | peso 1 | Noveles: potencia ≤ 40 % del máximo de la banda y nunca más de 100 W
+    F-R8.71: Un novel utiliza esporádicamente, con fines de divulgación y bajo supervisión, la estación colectiva de una asociación en la banda de 20 m, cuyo máximo general en la Orden IET/1311/2013 es de 1000 W p.c.e. Según el artíc → 100 W
+R8-90 | R8 | peso 2 | Estación automática desatendida: estación colectiva que no requiere intervención directa del operador
+    C-R8.22: ¿Definiría «Estación automática desatendida» como?: → Estación colectiva de aficionado, que para su funcionamiento habitual no requiere la intervención directa del operador.
+R8-91 | R8 | peso 1 | Tipos de desatendidas (art. 24): repetidores analógicos, digitales, de nodo, finales y radiobalizas
+    F-R8.59: Según el art. 24 de la Orden IET/1311/2013, se consideran estaciones automáticas desatendidas: → los repetidores analógicos, los repetidores digitales, los repetidores de portadora o nodo, los repetidores finales y las radiobalizas
+R8-92 | R8 | peso 1 | Repetidoras digitales: de portadora o nodo (enlaza con repetidoras) frente a final (distribuye a los usuarios)
+    F-R8.77: Según el Anexo I de la Orden IET/1311/2013, una «estación repetidora de portadora o nodo» es una estación repetidora digital destinada a: → enlazar únicamente con otras estaciones repetidoras digitales
+R8-93 | R8 | peso 2 | Titular de una desatendida: solo asociaciones de radioaficionados legalmente reconocidas
+    R8.67: Puede ser titular de una estación automática desatendida: → una asociación de radioaficionados legalmente reconocida
+R8-94 | R8 | peso 2 | Número de desatendidas: según las necesidades del servicio (cobertura y canales)
+    C-R8.10: ¿Cuántas estaciones automáticas desatendidas podrán autorizarse en una zona? → Se autorizarán en función de las necesidades del servicio.
+R8-95 | R8 | peso 1 | Obligaciones del gestor de la desatendida (no le corresponde autorizar su funcionamiento)
+    C-R8.7: Entre las obligaciones del gestor de una estación desatendida no se encuentra la de: → Otorgar la autorización y conformidad del inicio del funcionamiento de la estación.
+R8-96 | R8 | peso 1 | Repetidor: su objetivo es ampliar el alcance de las comunicaciones
+    R8.33: El objetivo que se pretende al instalar un repetidor de radioaficionado es: → ampliar el alcance de las comunicaciones
+R8-97 | R8 | peso 2 | Acceso a repetidores: necesariamente libre; si hay código, público y facilitado a quien lo pida
+    R8.34: El acceso a los repetidores analógicos y digitales será: → necesariamente libre y, si tuvieran código de acceso, este deberá hacerse público
+R8-98 | R8 | peso 1 | Repetidor analógico-digital accedido por red pública: código personal e intransferible + distintivo
+    F-R8.57: Según el art. 23 de la Orden IET/1311/2013, cuando el acceso a un repetidor analógico-digital se realiza a través de una red pública, el repetidor solo será accesible mediante: → un código personal e intransferible, distinto para cada usuario, y el distintivo de la estación del operador
+R8-99 | R8 | peso 2 | Potencia de las desatendidas: VHF/UHF 10 W en casco urbano y 50 W fuera; HF 50 W
+    R8.36: Como norma general, la potencia máxima de salida de los transmisores de las estaciones desatendidas en las bandas de VHF y UHF es de: → 10 W en núcleos urbanos y 50 W fuera de ellos
+    R8.37: Las estaciones automáticas desatendidas en las bandas de HF tendrán una potencia de salida máxima de: → 50 vatios
+R8-100 | R8 | peso 2 | Ganancia del sistema radiante de las desatendidas: ≤ 6 dBd
+    R8.38: Como norma general, la ganancia del sistema radiante de las estaciones desatendidas en las bandas de VHF y UHF no será superior a: → 6 dBd
+R8-101 | R8 | peso 2 | Repetidores y radiobalizas: telemando y alimentación ininterrumpida ≥ 6 h
+    F-R8.64: Según el art. 25.g de la Orden IET/1311/2013, las estaciones repetidoras y las radiobalizas deberán disponer de: → un dispositivo de encendido y apagado por telemando y un sistema de alimentación ininterrumpida de al menos seis horas
+R8-102 | R8 | peso 2 | Distintivo de los repetidores analógicos: Morse ≤ 10 palabras/min, cada ≤ 10 min
+    R8.40: Los repetidores analógicos deben emitir automáticamente su distintivo de llamada en código Morse a una velocidad no superior a: → diez palabras por minuto
+R8-103 | R8 | peso 2 | Radiobaliza: desatendida para estudios de propagación que emite señales de identificación
+    R8.41: Una estación automática desatendida de radioaficionado destinada a realizar estudios de propagación, cuyo funcionamiento se basa en la emisión automática de señales de identificación, recibe el nombre de: → radiobaliza
+R8-104 | R8 | peso 2 | Radiobaliza: distintivo a intervalos ≤ 3 min
+    F-R8.61: Según el art. 25.e de la Orden IET/1311/2013, el intervalo máximo permitido entre dos transmisiones sucesivas del distintivo de una radiobaliza del Servicio de Aficionados es de: → tres minutos
+R8-105 | R8 | peso 1 | Radiobaliza: información solo de su posición y condiciones de funcionamiento
+    F-R8.62: Según el art. 25.f de la Orden IET/1311/2013, salvo casos excepcionales debidamente justificados, la información transmitida por una radiobaliza del Servicio de Aficionados se refiere únicamente a: → su posición y sus condiciones de funcionamiento
+R8-106 | R8 | peso 1 | Radiobaliza: sistema radiante omnidireccional
+    F-R8.63: Según el art. 25.f de la Orden IET/1311/2013, el sistema radiante de una radiobaliza del Servicio de Aficionados será, como norma general: → omnidireccional
+R8-107 | R8 | peso 1 | Radiobalizas en las bandas de aficionado (p. ej., 144–146 MHz)
+    R8.42: Entre las siguientes, la banda en la que los planes de banda reservan segmentos a radiobalizas de aficionado es la de: → 144–146 MHz
+R8-108 | R8 | peso 1 | Desatendida: instalarla en 6 meses (si no, caduca la autorización de instalación)
+    F-R8.65: Autorizada la instalación de una estación automática desatendida, la asociación de radioaficionados solicitante dispone de un plazo para finalizarla; su incumplimiento supone la caducidad de la autorización de instalació → seis meses
+R8-109 | R8 | peso 1 | Desatendida terminada: se aplica el procedimiento de la licencia de estación fija (art. 20)
+    F-R8.66: Según el art. 26 de la Orden IET/1311/2013, finalizada la instalación de una estación automática desatendida será de aplicación el procedimiento establecido para: → la expedición de la licencia de estación fija (art. 20)
+R8-110 | R8 | peso 1 | Desatendida: interrupción > 3 meses puede llevar a cancelar su licencia
+    F-R8.60: Según el art. 25.b de la Orden IET/1311/2013, toda interrupción de las emisiones de una estación automática desatendida por un período superior a un cierto plazo, salvo causas de fuerza mayor, puede dar lugar a la apertu → tres meses
+R8-111 | R8 | peso 1 | Interferencia persistente: la SETSI puede restringir bandas, potencia u horario
+    F-R8.67: Si una estación automática desatendida causa interferencia perjudicial a otros servicios legalmente autorizados, el art. 26 de la Orden IET/1311/2013 remite al art. 32. Según este, si tras adoptar las medidas técnicas ex → las bandas de frecuencias, la potencia o el horario de las emisiones
+R8-112 | R8 | peso 2 | Interconexión con otras redes: permitida con condiciones (fines de radioafición)
+    C-R8.35: ¿Está permitido que una estación de aficionado se conecte con otras instalaciones de telecomunicación? → Sí, cumpliendo ciertas condiciones.
+R8-113 | R8 | peso 1 | Prohibido codificar para ocultar el significado, salvo el mando de estaciones espaciales
+    F-R8.68: Según el art. 30.2 de la Orden IET/1311/2013, las transmisiones entre estaciones y equipos de aficionado no deberán codificarse para ocultar su significado, excepto: → las señales de control intercambiadas entre estaciones de mando terrestres y estaciones espaciales del Servicio de Aficionados por Satélite
+R8-114 | R8 | peso 1 | Seguridad: la SETSI no es responsable en ningún caso del incumplimiento de las normas de seguridad
+    F-R8.72: Según el artículo 31 de la Orden IET/1311/2013, cuando una instalación de radioaficionado incumple las normas de seguridad aplicables, la SETSI: → no es responsable en ningún caso del incumplimiento de tales normas
+R8-115 | R8 | peso 1 | Anomalía de seguridad mecánica o eléctrica: subsanarla de forma inmediata
+    F-R8.73: Según el artículo 31 de la Orden IET/1311/2013, si el titular observa una anomalía que afecta a la seguridad mecánica o eléctrica de los equipos, las antenas o los elementos anejos de su estación, debe: → subsanarla de forma inmediata
+R8-116 | R8 | peso 1 | Disposición final 2.ª: la SETSI dicta instrucciones y actualiza los anexos técnicos
+    F-R8.74: Según la disposición final segunda de la Orden IET/1311/2013, la SETSI está facultada para: → dictar las instrucciones necesarias para aplicar el Reglamento y revisar el contenido técnico de sus anexos, para actualizarlos conforme al Derecho de la Unión Europea y al Derecho internacional
+R8-117 | R8 | peso 2 | Nomenclatura de bandas: números, símbolos (HF, VHF, SHF…), rangos y ondas (métricas, B.m.…)
+    C-R8.8: En la nomenclatura de las bandas de frecuencia las ondas métricas se relacionan con: → La abreviatura métrica B.m.
+    R8.48: La banda SHF corresponde a las frecuencias comprendidas entre: → 3 y 30 GHz
+R8-118 | R8 | peso 2 | Clases de emisión: los tres símbolos (modulación, señal moduladora, información): J3E, F3E, F1B…
+    F-R8.83: En la designación de la clase de emisión J3E, los tres símbolos significan, por este orden: → banda lateral única con portadora suprimida, un solo canal con información analógica, telefonía
+    F-R8.84: La clase de emisión F1B corresponde a: → telegrafía por manipulación de frecuencia para recepción automática (por ejemplo, RTTY con FSK)
+R8-119 | R8 | peso 2 | Servicio secundario: no causa interferencia al primario ni puede reclamar protección; sí frente a secundarios posteriores
+    F-R8.80: Según el Anexo I de la Orden IET/1311/2013, las estaciones de un servicio con categoría secundaria: → no deben causar interferencia perjudicial a las estaciones de un servicio primario ni pueden reclamar protección frente a las interferencias perjudiciales que estas les causen
+    F-R8.81: Según el Anexo I de la Orden IET/1311/2013, una estación de un servicio secundario tiene derecho a protección contra las interferencias perjudiciales causadas por: → las estaciones del mismo servicio o de otros servicios secundarios a las que se asignen frecuencias ulteriormente
+R8-120 | R8 | peso 1 | Interferencia perjudicial: compromete la radionavegación o seguridad, o degrada gravemente o interrumpe un servicio
+    F-R8.86: Según el anexo I de la Orden IET/1311/2013, la «interferencia perjudicial» es la interferencia que: → compromete el funcionamiento de un servicio de radionavegación o de otros servicios de seguridad, o degrada gravemente, interrumpe repetidamente o impide el funcionamiento de un servicio de radiocomunicación explotado de
+R8-121 | R8 | peso 1 | Interferencia: degradación, falseamiento o pérdida de información por energía no deseada
+    F-R8.87: Según el anexo I, la «interferencia» es el efecto de una energía no deseada sobre la recepción en un sistema de radiocomunicación, que se manifiesta como: → degradación de la calidad, falseamiento o pérdida de la información que se podría obtener en ausencia de esa energía no deseada
+R8-122 | R8 | peso 1 | Tolerancia de frecuencia: desviación entre la frecuencia asignada y el centro de la banda ocupada
+    F-R8.82: Según el Anexo I de la Orden IET/1311/2013, la tolerancia de frecuencia es la desviación máxima admisible entre la frecuencia asignada y: → la frecuencia situada en el centro de la banda ocupada por la emisión
+R8-123 | R8 | peso 2 | p.i.r.e. (referencia isótropa) frente a p.r.a. (referencia dipolo)
+    F-R8.88: La potencia isótropa radiada equivalente (p.i.r.e.) es el producto de la potencia suministrada a la antena por: → su ganancia con relación a una antena isótropa, en una dirección dada
+    F-R8.89: La potencia radiada aparente (p.r.a.) es el producto de la potencia suministrada a la antena por su ganancia, en una dirección dada, con relación a: → un dipolo de media onda
+R8-124 | R8 | peso 2 | Conversión de ganancias: dBi = dBd + 2,15
+    F-R8.91: Con la notación del anexo I, una antena tiene una ganancia Gd de 6 dB en su dirección de máxima radiación. Su ganancia isótropa o absoluta Gi en esa dirección es: → 8,15 dBi
+R8-125 | R8 | peso 1 | p.c.e.: potencia en la cresta más elevada de la envolvente de modulación
+    F-R8.90: La potencia de cresta de la envolvente (p.c.e.) es la media de la potencia suministrada a la línea de alimentación de la antena por un transmisor, en condiciones normales de funcionamiento y durante un ciclo de radiofrec → en la cresta más elevada de la envolvente de modulación
+R8-126 | R8 | peso 1 | Modulaciones permitidas: dentro de las bandas y con anchos de banda del plan IARU Región 1
+    F-R8.93: Según el apartado 3.1 del anexo I, los radioaficionados pueden emplear la modulación de amplitud (con doble banda lateral o banda lateral única), la de frecuencia, la de fase y otras modulaciones digitales, siempre que l → se ajuste a las bandas de frecuencias autorizadas y, como norma general, tenga un ancho de banda acorde con el plan de bandas de la IARU para la Región 1
+R8-127 | R8 | peso 1 | Modulaciones digitales autorizadas: con señales de audio, datos o vídeo
+    F-R8.94: Los «otros tipos de modulaciones digitales» que autoriza el apartado 3.1 del anexo I, siempre que la emisión respete las bandas y los anchos de banda aplicables, pueden transportar señales de: → audio, datos o vídeo
+R8-128 | R8 | peso 3 | Potencia máxima en HF (1,8–28 MHz): 1000 W p.c.e.
+    C-R8.46: En la banda de frecuencias de 1830–1850 kHz, la potencia de cresta de la envolvente (p.c.e.) de las emisiones no deberá ser superior a: → 1000 W
+R8-129 | R8 | peso 2 | Potencia máxima en 50, 70 y 144 MHz (600 W p.c.e.) y en 430–440 MHz (300 W p.c.e.)
+    F-R8.98: Según la tabla de potencias máximas del anexo I, en la banda de 430–440 MHz (70 cm) se puede emplear como máximo: → 300 W p.c.e.
+    F-R8.97: Según la tabla de potencias máximas del anexo I, la potencia máxima autorizada en cada una de las bandas de 50, 70 y 144–146 MHz es de: → 600 W p.c.e.
+R8-130 | R8 | peso 2 | Potencia máxima en 23 cm y superiores: 1000 W p.i.r.e.
+    F-R8.99: En el anexo I, la potencia máxima de 1000 W fijada para las bandas de 23 cm y superiores se expresa como: → potencia isótropa radiada equivalente (p.i.r.e.)
+R8-131 | R8 | peso 1 | Potencia en 137 y 475 kHz: 1 W p.i.r.e. (475 kHz: 5 W a más de 800 km de África)
+    F-R8.100: Con carácter general, la potencia máxima de emisión en las bandas de 137 kHz (2200 m) y 475 kHz (630 m) es, según el anexo I, de: → 1 W p.i.r.e.
+    F-R8.101: En la banda de 475 kHz (630 m), la potencia máxima de 1 W p.i.r.e. puede elevarse hasta 5 W p.i.r.e. en las zonas geográficas distantes más de: → 800 km de la frontera de países africanos
+R8-132 | R8 | peso 2 | Bandas con atribución secundaria: potencia ≤ 50 % de la tabla
+    F-R8.103: Si una banda de HF de la tabla del anexo I (1000 W p.c.e.) estuviera atribuida al servicio de radioaficionados con carácter secundario, su potencia máxima sería de: → 500 W p.c.e.
+R8-133 | R8 | peso 1 | Banda de 60 m: atribución secundaria y 15 W p.i.r.e.
+    F-R8.18: En España, la banda de 5351,5–5366,5 kHz (60 m) está atribuida al servicio de aficionados: → con carácter secundario y una potencia radiada máxima de 15 W p.i.r.e.
+R8-134 | R8 | peso 1 | Banda de 40 m: 7100–7200 kHz, a título primario para aficionados en la Región 1 desde 2009
+    C-R8.48: La banda de 7.100 a 7.200 kHz estuvo atribuida a título primario al servicio de radiodifusión (Regiones 1 y 3) hasta el 29 de marzo de 2009 (antigua nota 5.141C del Reglamento de Radiocomunicaciones, CMR-03). Desde esa f → Aficionados, a título primario.
+R8-135 | R8 | peso 1 | EME y dispersión meteórica: hasta 1000 W p.c.e. en subbandas IARU y fuera de cascos urbanos
+    F-R8.104: Una estación emite en 144 MHz para un enlace por rebote lunar (EME), en una subbanda recomendada por la IARU y fuera de un casco urbano. La potencia de cresta de la envolvente máxima que le permite el anexo I es de: → 1000 W
+R8-136 | R8 | peso 1 | Bandas ICM: el aficionado debe aceptar su interferencia perjudicial
+    F-R8.106: Las estaciones de radioaficionado que funcionan en las bandas destinadas a aplicaciones industriales, científicas y médicas (ICM), según el anexo I: → deben aceptar la interferencia perjudicial resultante de esas aplicaciones
+R8-137 | R8 | peso 1 | Bandas ICM: 433,05–434,79 MHz, 2400–2450 MHz, 5725–5800 MHz y 24,00–24,25 GHz
+    F-R8.108: ¿Cuál de las siguientes bandas es una de las destinadas a aplicaciones ICM en el anexo I? → 2400–2450 MHz
+R8-138 | R8 | peso 1 | Exposición a RF: < 3,5 mW/cm² donde haya o transiten personas
+    F-R8.109: Las potencias máximas del anexo I no eximen al radioaficionado de adoptar las medidas técnicas necesarias, incluida la reducción de la potencia, para que la energía de radiofrecuencia emitida sea inferior a: → 3,5 mW/cm#super[2]
+R8-139 | R8 | peso 1 | Emisiones no esenciales: límites en dB y en potencia absoluta según banda y potencia (manda el más estricto)
+    F-R8.111: Un transmisor de 100 W de potencia media trabaja en la banda de 144 MHz. Según el Anexo I de la Orden IET/1311/2013, la potencia media de cada componente de emisión no esencial que suministra a la línea de la antena no d → 60 dB por debajo de la potencia media, sin exceder de 1 mW
+    F-R8.112: Un transmisor de 10 W de potencia media trabaja en la banda de 70 cm (430 a 440 MHz). Según el Anexo I de la Orden IET/1311/2013, la potencia media de cada componente de emisión no esencial que suministra a la línea de l → 40 dB por debajo de la potencia media, sin exceder de 25 μW
+R8-140 | R8 | peso 3 | T/R 61-01 = licencia CEPT (uso temporal); T/R 61-02 = certificado HAREC
+    R8.2: La Recomendación CEPT T/R 61-01 se refiere a: → el uso temporal de estaciones de aficionado en otros países
+    R8.3: La Recomendación CEPT T/R 61-02 se refiere a: → el certificado de examen armonizado HAREC
+R8-141 | R8 | peso 2 | Licencia CEPT: habilita temporalmente en los países T/R 61-01; no se concede «a través del HAREC»
+    C-R8.32: En relación con la licencia CEPT, señale la alternativa falsa: → Se concede a través del certificado HAREC.
+R8-142 | R8 | peso 1 | Licencia CEPT: la expide un país, sea o no de la CEPT, que haya adoptado la T/R 61-01
+    F-R8.36: Según el artículo 11 de la Orden IET/1311/2013, se entiende por licencia de radioaficionado CEPT la expedida por un país: → perteneciente o no a la CEPT, que haya adoptado la Recomendación T/R 61-01
+R8-143 | R8 | peso 2 | Contenido de la licencia CEPT (no consta la asociación ni la fecha del examen)
+    C-R8.2: En la licencia de estación de radioaficionado CEPT habrá de constar necesariamente una determinada información. Indique la respuesta incorrecta: → Asociación de radioaficionados a la que pertenece.
+R8-144 | R8 | peso 3 | Licencia CEPT: todas las bandas atribuidas al servicio en el país visitado (no las del país de origen)
+    C-R8.26: La licencia CEPT de un radioaficionado español: → Le permite la utilización de todas las bandas atribuidas al Servicio de Aficionados autorizadas en el país donde se va a operar la estación.
+R8-145 | R8 | peso 2 | Licencia CEPT: presentarla a petición de las autoridades del país visitado
+    C-R8.33: Para operar estaciones en el país visitado temporalmente, el radioaficionado está obligado a: → Presentar la autorización de radioaficionado a petición de las autoridades.
+R8-146 | R8 | peso 2 | Licencia CEPT: sin protección contra interferencias perjudiciales
+    R8.31: Un radioaficionado español que utiliza temporalmente su estación en un país que aplica la Recomendación CEPT T/R 61-01: → no podrá solicitar protección contra interferencias perjudiciales
+R8-147 | R8 | peso 2 | Licencia CEPT: respetar siempre el RR y la reglamentación del país visitado
+    R8.84: El titular de una licencia CEPT que opera en otro país: → debe respetar el Reglamento de Radiocomunicaciones y la reglamentación del país visitado
+R8-148 | R8 | peso 2 | Identificación con licencia CEPT: prefijo del país visitado (y opcionalmente distrito) + distintivo propio
+    R8.85: Un radioaficionado extranjero que opera temporalmente en España al amparo de la licencia CEPT se identifica: → anteponiendo a su distintivo el prefijo español y, opcionalmente, el número del distrito
+R8-149 | R8 | peso 2 | Licencia CEPT de otro país en España: equiparada, solo para no residentes en estancias temporales
+    F-R8.32: La licencia CEPT expedida por otro país que haya adoptado la Recomendación T/R 61-01 se equipara a la autorización española de radioaficionado y surte efectos: → exclusivamente para extranjeros no residentes en España, durante sus estancias temporales
+R8-150 | R8 | peso 3 | Extranjero residente: autorización sin examen con HAREC de un país T/R 61-02 o por reciprocidad (residencia acreditada)
+    C-R8.14: La obtención de la autorización de radioaficionado por un extranjero residente en España, sin necesidad de superar la prueba de capacitación, precisará: → Ser titular de un certificado HAREC expedido por cualquier país que aplique la Recomendación CEPT T/R 61-02, o que exista Acuerdo o Convenio de reciprocidad con el país que otorgó su licencia original.
+    C-R8.20: Los extranjeros que acrediten la condición de residentes en España podrán ser titulares de autorizaciones de radioaficionado españolas en los siguientes casos, indique la alternativa incorrecta: → Siempre que el país de origen del radioaficionado aplique la Recomendación T/R 5000.
+R8-151 | R8 | peso 2 | Extranjero de país no T/R 61-01: autorización temporal ≤ 90 días
+    F-R8.33: La SETSI puede autorizar a operar temporalmente en España a un extranjero titular de una licencia en vigor de un país que no ha adoptado la Recomendación T/R 61-01. El período de validez de esa autorización temporal no s → 90 días
+R8-152 | R8 | peso 1 | Autorización temporal del art. 15: la solicitud incluye la licencia original o copia fehaciente
+    F-R8.34: La SETSI puede autorizar a un extranjero, titular de una licencia en vigor de un país que no ha adoptado la Recomendación T/R 61-01, a operar temporalmente en España (art. 15 de la Orden IET/1311/2013). En su solicitud s → el original o una fotocopia fehaciente de la licencia de su país de origen
+R8-153 | R8 | peso 1 | Autorización temporal del art. 15: equipos conformes a la normativa española
+    F-R8.35: Los equipos que utilice un extranjero con la autorización temporal del artículo 15 de la Orden IET/1311/2013 deben: → cumplir la normativa española en materia de equipos y aparatos
+R8-154 | R8 | peso 1 | Emitir desde Andorra: licencia temporal andorrana para titulares de licencia extranjera
+    C-R8.45: ¿Puedo realizar transmisiones desde Andorra si tengo la licencia de radioaficionado? → Sí, según el artículo 6, radioaficionados titulares de una licencia extranjera en vigor en el país en el que residen habitualmente, pueden obtener una licencia temporal para usar su estación en territorio andorrano.
+R8-155 | R8 | peso 3 | HAREC: certifica la capacidad para operar; no autoriza a emitir, no caduca, sustituye al diploma de operador
+    C-R8.31: El certificado de examen armonizado de radioaficionado (HAREC), que sustituye al antiguo diploma de operador: → Certifica la capacidad de su titular para operar estaciones radioeléctricas del Servicio de Aficionados.
+R8-156 | R8 | peso 2 | HAREC: permite obtener la autorización en otro país que aplique la T/R 61-02 (traslado de residencia)
+    R8.82: El certificado HAREC permite a su titular: → obtener autorización de radioaficionado en los países que aplican la Recomendación T/R 61-02
+R8-157 | R8 | peso 1 | T/R 61-02: abierta a países sean o no de la CEPT
+    R8.83: En el procedimiento previsto en la Recomendación T/R 61-02 de la CEPT sobre el certificado HAREC pueden participar: → países pertenezcan o no a la CEPT
+R8-158 | R8 | peso 1 | Programa de la prueba: acorde al anexo 6 de la T/R 61-02
+    F-R8.37: Según el artículo 10.2 de la Orden IET/1311/2013, el programa de la prueba de capacitación para operar estaciones de radioaficionado (anexo II) es acorde con: → el anexo 6 de la Recomendación T/R 61-02 de la CEPT
+R8-159 | R8 | peso 1 | Examen: no hace falta HAREC para presentarse; tasa previa; convocatoria de la Secretaría de Estado
+    R8.58: En relación con los exámenes para obtener el certificado HAREC, señale la opción _incorrecta_: → es necesario estar en posesión de un certificado HAREC para poder presentarse
+R8-160 | R8 | peso 3 | Regiones de la UIT: España en la Región 1
+    R8.5: De acuerdo con la división del mundo de la UIT, España se encuentra en la: → Región 1
+R8-161 | R8 | peso 1 | Zonas ITU: España peninsular en la zona 37 (CQ 14)
+    F-R8.7: En los diplomas y concursos de radioaficionados se usan zonas numeradas. La España peninsular está en la zona ITU número: → 37
+R8-162 | R8 | peso 1 | Radiocomunicación: telecomunicación por ondas radioeléctricas
+    R8.6: Se denomina «radiocomunicación» a: → toda telecomunicación transmitida por medio de ondas radioeléctricas
+R8-163 | R8 | peso 1 | Estación de aficionado: estación del servicio de aficionados (RR)
+    C-R8.16: Según el Reglamento de Radiocomunicaciones de la UIT: → Una estación de aficionado es una estación del Servicio de Aficionados.
+R8-164 | R8 | peso 1 | Servicio de aficionados por satélite: usa estaciones espaciales situadas en satélites
+    R8.56: Conforme al Reglamento de Radiocomunicaciones de la UIT, el servicio de aficionados por satélite utiliza: → estaciones espaciales situadas en satélites
+R8-165 | R8 | peso 2 | RR art. 25: comunicaciones entre países permitidas salvo oposición de una administración
+    R8.80: De acuerdo con el artículo 25 del Reglamento de Radiocomunicaciones de la UIT, las comunicaciones entre estaciones de aficionado de distintos países: → se permiten, salvo que la Administración de alguno de los países afectados haya manifestado su oposición
+R8-166 | R8 | peso 1 | RR art. 25: las administraciones verifican las cualificaciones operativas y técnicas
+    F-R8.5: Según el artículo 25 del Reglamento de Radiocomunicaciones, las administraciones deben verificar, de toda persona que desee utilizar una estación de aficionado: → sus cualificaciones operativas y técnicas
+R8-167 | R8 | peso 1 | RR art. 25: la potencia máxima la fijan las administraciones
+    F-R8.6: Según el artículo 25 del Reglamento de Radiocomunicaciones, la potencia máxima de las estaciones de aficionado: → la fijan las administraciones interesadas
