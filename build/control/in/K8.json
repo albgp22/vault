@@ -1,0 +1,2454 @@
+[
+ {
+  "cid": "R5-01",
+  "tema": "R5",
+  "concepto": "Qué es el distintivo: señal de identificación que identifica al titular desde cualquier punto del territorio (no al equipo ni al domicilio)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.7",
+    "enunciado": "Conforme al artículo 27 de la Orden IET/1311/2013, el distintivo de llamada asociado a una autorización de radioaficionado identifica:",
+    "opciones": [
+     "al equipo transmisor, con independencia de quién lo utilice",
+     "a la asociación de radioaficionados a la que pertenece el titular",
+     "a su titular solo cuando emite desde el domicilio consignado en la autorización",
+     "a su titular en las emisiones que efectúe desde cualquier punto del territorio nacional"
+    ],
+    "clave": "d",
+    "sol": "El primer párrafo del art. 27 dice que cada autorización lleva asociado un distintivo que identifica a su titular en las emisiones que efectúe desde cualquier punto del territorio nacional. No identifica al aparato (a): el distintivo va con la persona, no con el equipo. La asociación (b) no tiene distintivo personal; solo sus estaciones colectivas llevan uno propio. Tampoco está ligado al domicilio (c): es único y no puede modificarse (art. 28), así que no cambia al mudarse de distrito y vale en estación fija, móvil o portable. #vease[(Véase tema R5, sección «Asignación y uso del distintivo».)] #no-esta[El distintivo de llamada va asociado a la autorización y no al equipo: identifica a su titular en las emisiones que efectúe desde cualquier punto del territorio nacional (art. 27). Por eso es único, no cambia al mudarse de distrito (art. 28) y se transmite al comienzo y al final de cada emisión (art. 29.1). Solo las estaciones colectivas llevan un distintivo específico para cada una.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.43",
+    "enunciado": "El distintivo de llamada se define como:",
+    "respuesta": "el grupo de caracteres que constituye la señal de identificación de la estación"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R5-02",
+  "tema": "R5",
+  "concepto": "El distintivo se otorga junto con la autorización y lo asigna la Administración (no se elige ni lo da la asociación)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.44",
+    "enunciado": "Respecto de la autorización de radioaficionado y el distintivo de llamada:",
+    "opciones": [
+     "el distintivo se solicita aparte, un año después",
+     "el distintivo lo asigna la asociación a la que se pertenezca",
+     "el distintivo se elige libremente por el titular",
+     "al concederse la autorización se otorga a la vez el distintivo"
+    ],
+    "clave": "d",
+    "sol": "Van juntos: la autorización no serviría de nada sin un distintivo con el que identificarse, así que se otorgan en el mismo acto. Tampoco se elige libremente — lo asigna la Administración conforme a las series disponibles."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-03",
+  "tema": "R5",
+  "concepto": "Cuándo identificarse: al comienzo y al final de cada emisión, siempre, y en las largas al menos cada 10 min",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "1·2·10",
+   "8·2·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.8",
+    "enunciado": "La transmisión del distintivo de llamada propio se efectuará:",
+    "opciones": [
+     "solo al solicitar la autorización",
+     "una vez al día como máximo",
+     "solo cuando otro operador lo requiera",
+     "al comienzo y al final de cada emisión y, en emisiones largas, a intervalos cortos"
+    ],
+    "clave": "d",
+    "sol": "El distintivo se transmite al comienzo y al final de cada emisión y a intervalos cortos si es larga (art. 25 del Reglamento de Radiocomunicaciones); la Orden concreta el intervalo: al menos cada diez minutos (art. 29)."
+   },
+   {
+    "id": "N-R5-02",
+    "enunciado": "En una emisión de larga duración, además de al comienzo y al final, la estación de aficionado debe transmitir su distintivo de llamada, según la Orden IET/1311/2013, al menos cada:",
+    "opciones": [
+     "5 minutos",
+     "10 minutos",
+     "15 minutos",
+     "30 minutos"
+    ],
+    "clave": "b",
+    "sol": "El art. 29 de la Orden exige el distintivo al comienzo y al final de cada emisión y, en las de larga duración, al menos cada diez minutos. Así quien sintoniza a mitad de la comunicación sabe quién transmite. No confundas con los 30 días al año de los distintivos temporales."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.41",
+    "enunciado": "Durante sus emisiones, las estaciones de aficionado deben transmitir su distintivo de llamada:",
+    "respuesta": "al menos al comienzo y al final de cada emisión"
+   },
+   {
+    "id": "R5.42",
+    "enunciado": "En una comunicación de larga duración, además de al principio y al final, el distintivo debe transmitirse:",
+    "respuesta": "periódicamente a lo largo de la emisión"
+   },
+   {
+    "id": "R5.45",
+    "enunciado": "Una emisión de una estación de aficionado debe identificarse con su distintivo:",
+    "respuesta": "siempre"
+   }
+  ],
+  "nota": "R7.8 da los momentos (comienzo, final, intervalos); la nueva pregunta fija la cifra de 10 minutos, que el banco no pregunta."
+ },
+ {
+  "cid": "R5-04",
+  "tema": "R5",
+  "concepto": "Identificación de móviles y portables: /M, /MM, /MA, /P en grafía; palabras («portable») en fonía; no existe /AM",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "9·2·10",
+   "13·2·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.9",
+    "enunciado": "¿Cuándo se añade la mención /P al distintivo de llamada?",
+    "opciones": [
+     "Cuando se opera una estación Fija/Portable",
+     "Cuando se opera en grafía una estación Fija/Portable",
+     "Cuando se opera en fonía una estación Fija/Portable",
+     "Cuando se realizan ensayos o concursos"
+    ],
+    "clave": "b",
+    "sol": "La identificación de las estaciones móviles y portables es opcional (art. 29.2 de la Orden IET/1311/2013) y depende del modo: en telegrafía se añaden las abreviaturas /M, /MM, /MA o /P; en fonía se dicen las palabras móvil, móvil marítima, móvil aeronáutica o portable. Por eso /P se añade al operar en grafía una estación portable. La c describe la palabra «portable», no la abreviatura; la a no distingue el modo; y los ensayos y concursos no se marcan con /P, sino con prefijos de uso temporal (art. 27).\n\n    #no-esta[Art. 29.2 de la Orden IET/1311/2013: las estaciones móviles y portables pueden completar su distintivo, de forma opcional, con /M (móvil), /MM (móvil marítima), /MA (móvil aeronáutica) o /P (portable) en telegrafía, o con las palabras correspondientes en fonía. También opcionalmente puede añadirse el número del distrito desde el que se emite, si no coincide con el del distintivo. Regla: abreviatura, grafía; palabra, fonía.]"
+   },
+   {
+    "id": "R5.10",
+    "enunciado": "Una estación de aficionado móvil marítima identificará su emisión añadiendo a su distintivo:",
+    "opciones": [
+     "/MM",
+     "/P",
+     "/AM",
+     "/`QRP`"
+    ],
+    "clave": "a",
+    "sol": "/MM = móvil marítima; /P portable, /M móvil. El sufijo aeronáutico reglamentario es /MA (art. 29): el «/AM» del enunciado ni siquiera existe en la Orden."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-R5.12",
+    "enunciado": "¿Cuándo se añade la mención «portable» al indicativo de llamada?",
+    "respuesta": "Cuando se opera en fonía una estación Fija/Portable"
+   }
+  ],
+  "nota": "C-R5.9: abreviatura = grafía. R5.10: qué abreviatura es la de móvil marítima (trampa /AM). C-R5.12 (palabra = fonía) es la pregunta espejo, pero su clave es discutida (las recopilaciones dan la a); no se elige."
+ },
+ {
+  "cid": "R5-05",
+  "tema": "R5",
+  "concepto": "Añadir opcionalmente el distrito desde el que se emite: EA7/EA4KLM/M",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.40",
+    "enunciado": "El distintivo `EA7/EA4KLM/M` corresponde a:",
+    "opciones": [
+     "una estación fija de Andalucía",
+     "una estación desatendida del distrito 7",
+     "un distintivo especial de concurso",
+     "una estación móvil del distrito 4 que opera en el distrito 7"
+    ],
+    "clave": "d",
+    "sol": "Se lee de fuera hacia dentro: EA7 dice desde dónde se emite (Andalucía), `EA4KLM` es el titular, del distrito 4, y el sufijo final /M indica que opera en móvil. La misma lógica con /P para portable."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-06",
+  "tema": "R5",
+  "concepto": "QRP no forma parte del distintivo: se anuncia en la llamada (CQ QRP)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.21",
+    "enunciado": "¿Cómo debe identificarse correctamente una estación de baja potencia o QRP?",
+    "opciones": [
+     "Añadiendo un espacio o pausa y las letras QRP a la llamada general CQ.",
+     "Añadiendo el sufijo /QRP al distintivo de llamada.",
+     "Añadiendo la potencia con un número y la letra W de vatios.",
+     "Añadiendo el sufijo /P al distintivo de llamada."
+    ],
+    "clave": "a",
+    "sol": "El distintivo no cambia por trabajar con poca potencia: se transmite tal como se asignó. Lo único que la Orden IET/1311/2013 permite añadirle, y de forma opcional, son /M, /MM, /MA o /P en telegrafía (o las palabras móvil, móvil marítima, móvil aeronáutica o portable) para estaciones móviles o portables (art. 29.2). Por eso la baja potencia se anuncia en la llamada, como práctica operativa: «CQ QRP». La b inventa un sufijo inexistente; la c mezcla la potencia con el distintivo; la d es el sufijo de estación portable, que dice desde dónde se emite, no con cuánta potencia. #vease[(Véase tema R2 (significado de QRP) y tema R5, sección «Asignación y uso del distintivo».)]\n\n    #no-esta[QRP es el grupo del código Q que significa «disminuya la potencia» y, como sustantivo, emisión con baja potencia (por convención de los aficionados, no de la norma, hasta unos 5 W). La identificación reglamentaria es solo el distintivo de llamada, al comienzo y al final de la emisión y al menos cada diez minutos en las largas (art. 29.1 de la Orden IET/1311/2013); solo se admiten los añadidos opcionales /M, /MM, /MA y /P (art. 29.2). La condición QRP no forma parte del distintivo: se anuncia en la llamada, p. ej. «CQ QRP».]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-08",
+  "tema": "R5",
+  "concepto": "Licencia CEPT en telefonía: entre el prefijo y el distintivo se dice «stroke»",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.5",
+    "enunciado": "Un titular de licencia CEPT que transmite en telefonía desde el país visitado emite su distintivo nacional precedido del prefijo de ese país. Entre el prefijo y el distintivo se pronuncia la palabra:",
+    "opciones": [
+     "_stroke_",
+     "«portable»",
+     "«móvil»",
+     "«cambio»"
+    ],
+    "clave": "a",
+    "sol": "La Recomendación T/R 61-01 (apéndice I, punto 2.3) dice que el distintivo nacional va precedido del prefijo del país visitado y que ambos se separan con el carácter «/» en telegrafía o con la palabra _stroke_ en telefonía. Así, #_apc2-m[EA/M0BVM] se dice EA _stroke_ M0BVM, deletreando cada carácter. «Portable» y «móvil» no separan nada: en telefonía se añaden al final del distintivo de las estaciones portables y móviles (art. 29.2 de la Orden). «Cambio» se dice al ceder la palabra, no separa el distintivo. #vease[(Véase tema R5, introducción del capítulo (prefijo, distrito y sufijo).)] #no-esta[Con la licencia CEPT (T/R 61-01), el visitante emite su distintivo nacional precedido del prefijo del país visitado; en España, #_apc2-m[EA] y, opcionalmente, la cifra del distrito (art. 14.e de la Orden). En telegrafía se separan con «/» (#_apc2-m[EA/M0BVM]); en telefonía, el «/» se pronuncia _stroke_. No lo confundas con «portable» o «móvil», que se añaden al final del distintivo.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-10",
+  "tema": "R5",
+  "concepto": "Composición del distintivo: prefijo + distrito + sufijo",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·9"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.1",
+    "enunciado": "El distintivo de llamada de una estación de radioaficionado está constituido, secuencialmente, por:",
+    "opciones": [
+     "sufijo, distrito y prefijo",
+     "prefijo, distrito y sufijo",
+     "distrito, prefijo y sufijo",
+     "prefijo, sufijo y distrito"
+    ],
+    "clave": "b",
+    "sol": "Prefijo + distrito + sufijo: `EA5RCA` = EA + 5 + RCA."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-11",
+  "tema": "R5",
+  "concepto": "El distintivo tiene como máximo seis caracteres",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.12",
+    "enunciado": "El distintivo de llamada estará constituido por un grupo alfanumérico de, como máximo:",
+    "opciones": [
+     "cuatro caracteres",
+     "seis caracteres",
+     "ocho caracteres",
+     "diez caracteres"
+    ],
+    "clave": "b",
+    "sol": "Grupo alfanumérico de seis caracteres como máximo."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-12",
+  "tema": "R5",
+  "concepto": "Prefijos de España: series EA–EH (y AM–AO); habituales EA, EB y EC",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.31",
+    "enunciado": "Los prefijos de los distintivos de llamada correspondientes a España son, entre otros:",
+    "opciones": [
+     "EA, EB y EC",
+     "AE, BE y CE",
+     "EI, EJ y EK",
+     "AA, BB y CC"
+    ],
+    "clave": "a",
+    "sol": "EA es el prefijo clásico, y EB y EC se han ido incorporando al agotarse las series. EI y EJ son de Irlanda y EK, de Armenia. Del resto de la serie española: ED, EE y EF sirven para usos temporales ordinarios (ED es además el prefijo permanente de las desatendidas) y EG y EH se reservan a eventos especialmente relevantes (art. 27)."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.2",
+    "enunciado": "Las series de prefijos internacionales atribuidas a España según el Reglamento de Radiocomunicaciones incluyen:",
+    "respuesta": "EA, EB y EC"
+   }
+  ],
+  "nota": "R5.31 trae la trampa EI/EJ (Irlanda)."
+ },
+ {
+  "cid": "R5-13",
+  "tema": "R5",
+  "concepto": "Las series de prefijos las atribuye la UIT (Reglamento de Radiocomunicaciones) y cada país asigna dentro de ellas",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.14",
+    "enunciado": "Las primeras letras de un distintivo de llamada:",
+    "opciones": [
+     "Las elige cada país según la inicial francesa de su nombre",
+     "Indican el tipo de autorización",
+     "Son elegidas por cada país a partir de las atribuciones internacionales",
+     "Se atribuyen, en la Conferencia Europea de Administraciones postales y de Telecomunicación, a cada país"
+    ],
+    "clave": "c",
+    "sol": "Las series de letras con las que empiezan los distintivos las atribuye a cada país la UIT, en el Reglamento de Radiocomunicaciones; después, cada Administración elige sus prefijos dentro de las series que le han tocado (España: EA–EH y AM–AO, art. 27 de la Orden IET/1311/2013). El banco da por buena la d, pero la CEPT es un organismo europeo de coordinación y no atribuye series de prefijos. La a no es ninguna regla, y la b es falsa: el prefijo identifica al país, no el tipo de autorización. #vease[(Véase tema R5, introducción.)]\n\n    #no-esta[Reparto de prefijos: la UIT, en el artículo 19 del Reglamento de Radiocomunicaciones, atribuye a cada país series de caracteres con los que deben empezar los distintivos de sus estaciones. Cada Administración asigna luego los distintivos dentro de sus series. A España le corresponden EAA–EHZ y AMA–AOZ. La CEPT, en cambio, armoniza la licencia CEPT (T/R 61-01), no reparte prefijos.]\n\n    #_apb2-clave[«Se atribuyen, en la Conferencia Europea de Administraciones postales y de Telecomunicación, a cada país». Es la clave que dan las recopilaciones de exámenes reales (2007–2011): conviene conocerla por si aparece idéntica en el examen, aunque la respuesta razonada arriba sea la técnicamente correcta.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Clave razonada c; las recopilaciones de exámenes reales dan la d (CEPT). Conviene conocer ambas. Ver problemas."
+ },
+ {
+  "cid": "R5-14",
+  "tema": "R5",
+  "concepto": "Estructura internacional: la parte de nacionalidad tiene hasta tres caracteres, letras o cifras",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.15",
+    "enunciado": "Las series de distintivos de llamada:",
+    "opciones": [
+     "Empiezan siempre por la inicial en lengua francesa del nombre del país",
+     "Empiezan siempre con una combinación de 2 o 3 letras elegidas de una serie secuencial atribuida a un país",
+     "Empiezan por una combinación de letras o cifras con una longitud máxima de tres",
+     "Empiezan por combinaciones de 2 letras o cifras"
+    ],
+    "clave": "c",
+    "sol": "En las series internacionales del Reglamento de Radiocomunicaciones, la parte inicial que identifica la nacionalidad del distintivo puede ser de uno, dos o tres caracteres, y pueden ser letras o cifras (por ejemplo, G, EA o 3DA). Por eso la c es correcta. La a no es ninguna regla. La b falla porque no siempre son letras ni siempre son dos o tres caracteres; la d, porque no siempre son exactamente dos.\n\n    #no-esta[Estructura de los distintivos internacionales (artículo 19 del Reglamento de Radiocomunicaciones de la UIT): la UIT atribuye a cada país bloques de tres caracteres (España: EAA–EHZ y AMA–AOZ). La parte que identifica la nacionalidad tiene uno, dos o, si hace falta, tres caracteres, letras o cifras. En España el prefijo son las dos primeras letras (art. 27 de la Orden IET/1311/2013).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-15",
+  "tema": "R5",
+  "concepto": "Prefijos de los países vecinos: Portugal CT, Francia F, Andorra C3",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.8",
+    "enunciado": "Un radioaficionado cuyo distintivo empieza por el prefijo #_apc2-m[CT] emite con un distintivo de:",
+    "opciones": [
+     "Chile",
+     "Portugal",
+     "Canadá",
+     "Croacia"
+    ],
+    "clave": "b",
+    "sol": "El prefijo #_apc2-m[CT] es el de Portugal (T/R 61-01, apéndice II; las Azores usan #_apc2-m[CU]). Las demás opciones son trampas por la inicial: Chile usa #_apc2-m[CE], Canadá #_apc2-m[VE] y Croacia #_apc2-m[9A]. El Reglamento de Radiocomunicaciones de la UIT reparte a cada país series de prefijos y cada Administración compone con ellas los distintivos: por eso el país se reconoce por las primeras letras, como #_apc2-m[EA] en España. #vease[(Véase tema R5, introducción del capítulo (prefijo, distrito y sufijo).)] #no-esta[Un distintivo empieza por un prefijo que identifica el país: la UIT atribuye a cada Estado series de prefijos (Reglamento de Radiocomunicaciones, apéndice 42). Los vecinos de España: Portugal #_apc2-m[CT] (Azores, #_apc2-m[CU]), Francia #_apc2-m[F] y Andorra #_apc2-m[C3]. Un mismo país puede usar varios prefijos: España emplea #_apc2-m[EA], #_apc2-m[EB] y #_apc2-m[EC] en las autorizaciones individuales.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R5.9",
+    "enunciado": "Un distintivo de llamada cuyo prefijo es la letra #_apc2-m[F] corresponde a:",
+    "respuesta": "Francia"
+   },
+   {
+    "id": "F-R5.10",
+    "enunciado": "El prefijo #_apc2-m[C3] de un distintivo de llamada corresponde a:",
+    "respuesta": "Andorra"
+   }
+  ],
+  "nota": "Dos preguntas porque cada prefijo es un dato distinto; F-R5.10 enseña además que un prefijo puede llevar cifras."
+ },
+ {
+  "cid": "R5-16",
+  "tema": "R5",
+  "concepto": "Prefijos de otros países europeos: Alemania DL, Italia I, Reino Unido G/M",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.13",
+    "enunciado": "Un distintivo de llamada cuyo prefijo es #_apc2-m[M] o #_apc2-m[G] (por ejemplo, #_apc2-m[M0BVM]) corresponde a:",
+    "opciones": [
+     "Irlanda",
+     "Malta",
+     "Mónaco",
+     "Reino Unido"
+    ],
+    "clave": "d",
+    "sol": "Las series #_apc2-m[G] y #_apc2-m[M] son del Reino Unido (tabla de series de la UIT). La T/R 61-01, apéndice II, da #_apc2-m[M] para el Reino Unido y prefijos derivados para sus regiones, como #_apc2-m[MM] (Escocia) y #_apc2-m[MW] (Gales). Irlanda usa #_apc2-m[EI], Malta #_apc2-m[9H] y Mónaco #_apc2-m[3A]: la M de Malta y de Mónaco es solo una trampa por la inicial. #vease[(Véase tema R5, introducción del capítulo (prefijo, distrito y sufijo).)] #no-esta[El Reino Unido tiene las series #_apc2-m[G] y #_apc2-m[M] en la tabla de la UIT. Según la T/R 61-01, el visitante de esos países usa #_apc2-m[M], con prefijos propios para sus regiones: #_apc2-m[MM] Escocia, #_apc2-m[MW] Gales, #_apc2-m[MI] Irlanda del Norte. No lo confundas con Irlanda (#_apc2-m[EI]), Malta (#_apc2-m[9H]) ni Mónaco (#_apc2-m[3A]).]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R5.11",
+    "enunciado": "El prefijo #_apc2-m[DL] de un distintivo de llamada corresponde a:",
+    "respuesta": "Alemania"
+   },
+   {
+    "id": "F-R5.12",
+    "enunciado": "Un distintivo de llamada cuyo prefijo es la letra #_apc2-m[I] corresponde a:",
+    "respuesta": "Italia"
+   }
+  ],
+  "nota": "F-R5.13 enlaza con M0BVM (ejemplo CEPT del banco); F-R5.11 enseña la trampa de la inicial (D no es Dinamarca)."
+ },
+ {
+  "cid": "R5-17",
+  "tema": "R5",
+  "concepto": "La cifra es la del distrito de residencia del titular al otorgar la autorización",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.24",
+    "enunciado": "La cifra de distrito que compone el distintivo de llamada de un radioaficionado es:",
+    "opciones": [
+     "un número elegido libremente por el titular",
+     "la cifra que estuviera disponible al expedir la autorización",
+     "la coincidente con el distrito de residencia del titular",
+     "la del lugar donde se realizó el examen"
+    ],
+    "clave": "c",
+    "sol": "La cifra de distrito es la del distrito de residencia del titular _en el momento del otorgamiento_ de la autorización (art. 27.2), según la división geográfica reglamentaria."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-18",
+  "tema": "R5",
+  "concepto": "Mudarse de distrito: se conserva el distintivo (único e inmodificable); solo se comunica el domicilio",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.22",
+    "enunciado": "Un radioaficionado con distintivo del distrito 5 se traslada a vivir a una provincia del distrito 4. Conforme a la Orden IET/1311/2013:",
+    "opciones": [
+     "debe sustituir la cifra de su distintivo por la 4",
+     "pierde su distintivo y tiene que solicitar otro nuevo",
+     "conserva su distintivo, que es único y no puede modificarse, y solo debe comunicar a la SETSI su nuevo domicilio",
+     "debe renunciar a su autorización y pedir otra en el nuevo distrito"
+    ],
+    "clave": "c",
+    "sol": "Desde la Orden IET/1311/2013 el distintivo asociado a la autorización «será único y no podrá ser modificado» (art. 28); su cifra es la del distrito de residencia «en el momento del otorgamiento» (art. 27.2), y mudarse solo obliga a comunicar el nuevo domicilio a la SETSI (art. 7.3). Si se emite en móvil o portable desde otro distrito, puede añadirse opcionalmente el número de ese distrito (art. 29.2). Los bancos de preguntas antiguos dan como correcta la regla de la Orden ITC/1791/2006 y de sus Instrucciones de 2006 (derogadas): «no podrá mantener su distintivo si su nueva provincia de residencia pertenece a un distrito distinto». Si en el examen aparece con esa formulación, esa es la opción que dan por buena."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.47",
+    "enunciado": "Si un radioaficionado cambia de domicilio y ello implica cambio de distrito:",
+    "respuesta": "conserva íntegro su distintivo anterior"
+   }
+  ],
+  "nota": "Banco antiguo (Orden ITC/1791/2006): «no puede mantener su distintivo» / «podrá solicitar mantener su sufijo». Conviene conocer ambas versiones."
+ },
+ {
+  "cid": "R5-19",
+  "tema": "R5",
+  "concepto": "Hay nueve distritos geográficos (1 a 9); el 0 es especial",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.7",
+    "enunciado": "El número total de distritos en que se dividen los indicativos de llamada españoles es:",
+    "opciones": [
+     "siete",
+     "ocho",
+     "nueve",
+     "diez"
+    ],
+    "clave": "c",
+    "sol": "Nueve distritos (1 a 9); el 0 es un caso especial reservado."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-20",
+  "tema": "R5",
+  "concepto": "Distrito 0: solo para actos inaugurados o visitados por el Rey",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.36",
+    "enunciado": "En un distintivo de llamada, la cifra 0 podrá autorizarse exclusivamente:",
+    "opciones": [
+     "a las estaciones de las asociaciones",
+     "a las estaciones desatendidas",
+     "con motivo de actos inaugurados o visitados por Su Majestad el Rey",
+     "a los titulares con más de veinticinco años de antigüedad"
+    ],
+    "clave": "c",
+    "sol": "Es la única excepción a la numeración geográfica: la cifra 0 no identifica zona alguna, sino la relevancia del acto. De ahí que sea un distintivo excepcional y siempre temporal."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.6",
+    "enunciado": "El distrito 0 de un distintivo de llamada se autoriza exclusivamente:",
+    "respuesta": "con motivo de actos inaugurados o visitados por S. M. el Rey"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R5-21",
+  "tema": "R5",
+  "concepto": "Distritos insulares y ciudades autónomas: 6 Baleares, 8 Canarias, 9 Ceuta y Melilla",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "3·2·10",
+   "12·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.34",
+    "enunciado": "Las ciudades de Ceuta y Melilla están identificadas por la cifra de distrito:",
+    "opciones": [
+     "6",
+     "8",
+     "0",
+     "9"
+    ],
+    "clave": "d",
+    "sol": "Ambas comparten el distrito 9. Junto con el 6 (Baleares) y el 8 (Canarias), son los que más se preguntan, precisamente por no seguir la lógica peninsular."
+   },
+   {
+    "id": "R5.35",
+    "enunciado": "Las Islas Baleares y las Islas Canarias corresponden, respectivamente, a las cifras de distrito:",
+    "opciones": [
+     "8 y 6",
+     "6 y 8",
+     "5 y 9",
+     "9 y 6"
+    ],
+    "clave": "b",
+    "sol": "Baleares es el 6 y Canarias el 8. La confusión habitual es invertirlos; conviene fijar el 6 con «Baleares, más cerca» y el 8 con «Canarias, más lejos»."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.3",
+    "enunciado": "El distrito de llamada «EA6» corresponde a:",
+    "respuesta": "las Islas Baleares"
+   },
+   {
+    "id": "R5.4",
+    "enunciado": "El distrito de llamada «EA9» corresponde a:",
+    "respuesta": "Ceuta y Melilla"
+   }
+  ],
+  "nota": "R5.35 enseña la trampa de invertir 6 y 8; R5.34 fija el 9."
+ },
+ {
+  "cid": "R5-22",
+  "tema": "R5",
+  "concepto": "Distritos peninsulares: asignar provincia a su cifra y leer la cifra de un distintivo",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "4·2·13",
+   "13·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.20",
+    "enunciado": "¿A cuál de las siguientes provincias pertenece el distintivo EA5EYR?",
+    "opciones": [
+     "Zaragoza",
+     "Valencia",
+     "Zamora",
+     "Almería"
+    ],
+    "clave": "b",
+    "sol": "La cifra del distintivo es el distrito de residencia del titular cuando se le otorgó la autorización. El distrito 5 agrupa Valencia, Alicante, Castellón, Murcia y Albacete (art. 27 de la Orden IET/1311/2013); de las provincias propuestas, solo Valencia está en él. Zaragoza es del distrito 2, Zamora del 1 y Almería del 7. Las letras EYR son el sufijo y no indican provincia. #vease[(Véase tema R5, tabla «Distritos de los distintivos de llamada españoles».)]"
+   },
+   {
+    "id": "C-R5.5",
+    "enunciado": "¿Cuál de las siguientes proposiciones contiene mayor número de provincias adscritas al distrito 4?:",
+    "opciones": [
+     "Málaga, Murcia, Madrid, Vizcaya.",
+     "Cáceres, Cádiz, Cuenca, Ciudad Real.",
+     "Córdoba, Castellón, Cantabria, Burgos.",
+     "Toledo, Teruel, Tarragona, Santa Cruz de Tenerife."
+    ],
+    "clave": "b",
+    "sol": "Se cuentan las provincias del distrito 4 (Madrid, Toledo, Ciudad Real, Cuenca, Guadalajara, Badajoz y Cáceres) en cada opción. a: solo Madrid (Málaga es del 7, Murcia del 5, Vizcaya del 2). b: Cáceres, Cuenca y Ciudad Real, tres (Cádiz es del 7). c: ninguna (Córdoba 7, Castellón 5, Cantabria y Burgos 1). d: solo Toledo (Teruel es del 2, Tarragona del 3 y Santa Cruz de Tenerife del 8). Gana la b con tres. #vease[(Véase tema R5, tabla «Distritos de los distintivos de llamada españoles».)]\n\n    #no-esta[Distrito 4 (art. 27 de la Orden IET/1311/2013): Madrid, Toledo, Ciudad Real, Cuenca, Guadalajara, Badajoz y Cáceres. El cuaderno lo resume como «Madrid, Castilla-La Mancha (parte) y Extremadura»: de Castilla-La Mancha solo queda fuera Albacete, que es del distrito 5. Cádiz, Málaga y Córdoba son del 7 (Andalucía); Murcia y Castellón, del 5.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-R5.6",
+    "enunciado": "En relación con los distintivos de llamada, la provincia de Murcia se identifica por la cifra:",
+    "respuesta": "5"
+   },
+   {
+    "id": "C-R5.10",
+    "enunciado": "La cifra del distintivo de llamada que identifica el distrito, según la distribución geográfica, es, para Valladolid:",
+    "respuesta": "1"
+   },
+   {
+    "id": "C-R5.13",
+    "enunciado": "Una estación de radioaficionado instalada en la provincia de Zamora lleva en el distintivo de llamada la cifra:",
+    "respuesta": "1"
+   },
+   {
+    "id": "C-R5.16",
+    "enunciado": "Una estación de aficionados ubicada en Alicante es identificada por la cifra:",
+    "respuesta": "5"
+   },
+   {
+    "id": "C-R5.17",
+    "enunciado": "Una estación de radioaficionado situada en la provincia de Cuenca se identifica por el número:",
+    "respuesta": "4"
+   },
+   {
+    "id": "C-R5.18",
+    "enunciado": "Una estación de aficionado ubicada en la provincia de Zaragoza se identifica por la cifra:",
+    "respuesta": "2"
+   },
+   {
+    "id": "R5.5",
+    "enunciado": "Si escuchamos una llamada con el distintivo `EA7RCA`, la estación emite desde:",
+    "respuesta": "Andalucía"
+   },
+   {
+    "id": "R5.25",
+    "enunciado": "En relación con los distintivos de llamada, la localidad valenciana de Utiel se identifica con la cifra de distrito:",
+    "respuesta": "5"
+   },
+   {
+    "id": "R5.26",
+    "enunciado": "De las siguientes, pertenecen al distrito 1:",
+    "respuesta": "Asturias, Ávila y León"
+   }
+  ],
+  "nota": "C-R5.5 obliga a dominar el distrito 4 entero (varias provincias a la vez); C-R5.20 es el sentido inverso: leer el distrito en un distintivo."
+ },
+ {
+  "cid": "R5-23",
+  "tema": "R5",
+  "concepto": "Excepciones de distrito: Albacete es del 5 y La Rioja del 1",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.8",
+    "enunciado": "Una estación de aficionado ubicada en la provincia de Albacete se identifica por la cifra:",
+    "opciones": [
+     "7",
+     "6",
+     "2",
+     "5"
+    ],
+    "clave": "d",
+    "sol": "Albacete pertenece al distrito 5, con Valencia, Alicante, Castellón y Murcia (art. 27 de la Orden IET/1311/2013). Es la excepción de Castilla-La Mancha: el resto de sus provincias son del 4. El 7 es Andalucía, el 6 las Illes Balears y el 2 el País Vasco, Navarra y Aragón. Si la pregunta se formula al revés (¿cuál de Almería, Albacete, Álava y Ávila es del distrito 5?), la respuesta es la misma: Albacete; Almería es del 7, Álava del 2 y Ávila del 1. #vease[(Véase tema R5, tabla «Distritos de los distintivos de llamada españoles».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.33",
+    "enunciado": "A efectos de distintivos de llamada, la provincia de La Rioja pertenece al distrito:",
+    "respuesta": "1"
+   }
+  ],
+  "nota": "Son las dos excepciones a la intuición por comunidad autónoma; cada una es un dato distinto."
+ },
+ {
+  "cid": "R5-24",
+  "tema": "R5",
+  "concepto": "Sufijo: hasta tres letras, por orden alfabético y turno riguroso de expedición",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.13",
+    "enunciado": "El sufijo del distintivo de llamada de una autorización de radioaficionado estará constituido por:",
+    "opciones": [
+     "una combinación libre elegida por el titular",
+     "hasta tres letras, asignadas ordenadas alfabéticamente por turno riguroso de expedición",
+     "cifras y letras alternadas",
+     "las iniciales del titular"
+    ],
+    "clave": "b",
+    "sol": "El sufijo son hasta tres letras, asignadas por orden alfabético según turno riguroso de expedición."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-25",
+  "tema": "R5",
+  "concepto": "Sufijos excluidos: DDD, PAN, SOS, TTT, XXX y la serie QAA–QZZ",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "1·2·13",
+   "8·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.19",
+    "enunciado": "¿Se puede asignar el sufijo PAN a un distintivo de llamada de una estación de aficionado?",
+    "opciones": [
+     "No, solamente a los distintivos de estaciones colectivas",
+     "No, solamente a los distintivos de estaciones automáticas desatendidas",
+     "Se puede asignar a cualquier estación",
+     "No se puede asignar en ningún caso"
+    ],
+    "clave": "d",
+    "sol": "El artículo 27 de la Orden IET/1311/2013 excluye de la asignación de sufijos los grupos que expresan señales de socorro, urgencia y seguridad: DDD, PAN, SOS, TTT y XXX. PAN es la señal de urgencia en fonía, así que no se asigna a ningún distintivo, sea de la estación que sea. Nota: el enunciado original hablaba de la «clase A» y ofrecía las clases B y C, propias del régimen anterior; hoy esas clases no existen y la respuesta no cambia.\n\n    #no-esta[Art. 27 de la Orden IET/1311/2013: los sufijos se asignan por orden alfabético, saltándose los grupos que expresan señales de socorro, urgencia y seguridad —DDD, PAN, SOS, TTT y XXX— y toda la serie QAA–QZZ. PAN es la señal de urgencia en fonía («PAN PAN»). Esos grupos no se adjudican a nadie.]"
+   },
+   {
+    "id": "C-R5.2",
+    "enunciado": "¿Cuál de los siguientes sufijos podrá ser asignado a un distintivo de llamada de la autorización de radioaficionado?",
+    "opciones": [
+     "EEE",
+     "TTT",
+     "PAN",
+     "QRS"
+    ],
+    "clave": "a",
+    "sol": "EEE es una combinación ordinaria de tres letras y se asigna cuando le toca por orden alfabético. Las otras tres están excluidas por el artículo 27 de la Orden IET/1311/2013: TTT y PAN expresan señales de seguridad y de urgencia, y QRS cae en la serie QAA–QZZ, vedada para que ningún distintivo se confunda con un código Q. #vease[(Véase tema R5, sección «Asignación y uso del distintivo».)]\n\n    #no-esta[El artículo 27 veta, además de SOS, XXX y TTT, otros dos grupos: DDD y PAN (este último, la señal de urgencia en fonía). Tampoco se adjudica ningún sufijo entre QAA y QZZ. Regla de examen: si una opción es un grupo de socorro, urgencia o seguridad, o un código Q, no es asignable; EEE no tiene ninguna reserva.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-R5.1",
+    "enunciado": "¿Qué sufijo puede asignarse a una autorización de radioaficionado?",
+    "respuesta": "FFF"
+   },
+   {
+    "id": "R5.23",
+    "enunciado": "El distintivo de llamada `AM8SOS`:",
+    "respuesta": "no se puede asignar"
+   },
+   {
+    "id": "R5.37",
+    "enunciado": "El sufijo `XXX` en un distintivo de llamada español:",
+    "respuesta": "no puede asignarse"
+   }
+  ],
+  "nota": "C-R5.2 incluye la serie Q (QRS); C-R5.19 enseña que no se asignan a nadie (ni colectivas ni desatendidas)."
+ },
+ {
+  "cid": "R5-26",
+  "tema": "R5",
+  "concepto": "Estaciones automáticas desatendidas: prefijo ED; sufijo con Y (analógica) o Z (digital)",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "6·2·10",
+   "12·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.7",
+    "enunciado": "El indicativo de llamada ED3ZHO:",
+    "opciones": [
+     "Pertenece a una estación fija de la provincia de Zaragoza",
+     "Tiene carácter temporal",
+     "Corresponde a una estación automática desatendida",
+     "No se puede adjudicar a estación colectiva alguna"
+    ],
+    "clave": "c",
+    "sol": "El distintivo se lee por partes: el prefijo ED es el de las estaciones automáticas desatendidas, el 3 es el distrito (Cataluña) y el sufijo ZHO empieza por Z, letra reservada a las desatendidas digitales (la Y, a las analógicas). La a falla: la Z no es Zaragoza, que es del distrito 2. La b también: ED sirve igualmente en usos temporales, pero entonces conserva el sufijo personal del titular, y un sufijo con Z nunca es personal. La d habla de estaciones colectivas, que llevan sufijos UR, RC o RK. #vease[(Véase tema R5, introducción y sección «Sufijos y usos temporales».)]"
+   },
+   {
+    "id": "R5.9",
+    "enunciado": "En los distintivos de las estaciones automáticas desatendidas, los sufijos de tres letras que comienzan por Y o por Z se reservan, respectivamente, para estaciones:",
+    "opciones": [
+     "marítimas y aeronáuticas",
+     "colectivas y personales",
+     "experimentales y de concurso",
+     "analógicas y digitales"
+    ],
+    "clave": "d",
+    "sol": "Inicial Y = analógica, Z = digital: `ED1YBD` repetidor analógico, `ED5ZAA` digital."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.8",
+    "enunciado": "Las estaciones automáticas desatendidas (por ejemplo, los repetidores) utilizan el prefijo:",
+    "respuesta": "ED"
+   },
+   {
+    "id": "R5.30",
+    "enunciado": "Un sufijo de tres letras que comience por «Y» o por «Z» se reserva para:",
+    "respuesta": "las estaciones automáticas desatendidas, analógicas y digitales respectivamente"
+   }
+  ],
+  "nota": "C-R5.7 lee un distintivo completo (ED3ZHO, trampa de Zaragoza); R5.9 fija el orden Y analógica / Z digital."
+ },
+ {
+  "cid": "R5-27",
+  "tema": "R5",
+  "concepto": "Estaciones colectivas: distintivo propio; sufijos UR (asociaciones), RC y RK (radioclubes)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.20",
+    "enunciado": "Los sufijos de tres letras que comienzan por `UR`, `RC` o `RK` están reservados para:",
+    "opciones": [
+     "estaciones colectivas de asociaciones de radioaficionados y radio clubes",
+     "estaciones automáticas desatendidas",
+     "estaciones móviles marítimas",
+     "concursos internacionales"
+    ],
+    "clave": "a",
+    "sol": "UR, RC y RK inician los sufijos de las estaciones colectivas: UR, los de asociaciones de radioaficionados, y RC y RK, los de radio clubes, «respectivamente» (art. 27.3). No confundir con las desatendidas, que usan Y/Z."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R5.6",
+    "enunciado": "Según el artículo 27 de la Orden IET/1311/2013, las estaciones colectivas de las asociaciones de radioaficionados:",
+    "respuesta": "llevan asociado un distintivo de llamada específico para cada una de ellas"
+   }
+  ],
+  "nota": "R5.20: los sufijos reservados; F-R5.6: que cada colectiva lleva su distintivo (no el del presidente ni el del operador)."
+ },
+ {
+  "cid": "R5-28",
+  "tema": "R5",
+  "concepto": "Sufijo de dos letras: 5 años de autorización, 5 de práctica internacional y 5 sin expediente sancionador; no reservado a colectivas",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.4",
+    "enunciado": "Los sufijos de dos letras podrán ser asignados:",
+    "opciones": [
+     "Nunca.",
+     "Siempre y cuando comiencen por la letra Q.",
+     "Únicamente a una agrupación de radioaficionados.",
+     "A cualquier radioaficionado que acredite cinco años de prácticas en la radioafición internacional."
+    ],
+    "clave": "d",
+    "sol": "El artículo 27 de la Orden IET/1311/2013 permite adjudicar sufijos de dos letras a radioaficionados con al menos cinco años de autorización española, que acrediten cinco años de práctica en la radioafición internacional y no hayan sido sancionados en los últimos cinco años. La redacción de la opción d simplifica: como la demanda supera las disponibilidades, la Administración fija además un procedimiento con plazos y méritos. La a es falsa; la c también (las agrupaciones usan sufijos de tres letras que empiezan por UR, RC o RK); y la b inventa una condición: lo que la norma excluye es la serie QAA–QZZ. #vease[(Véase tema R5, sección «Sufijos y usos temporales».)]\n\n    #no-esta[Requisitos del artículo 27 para un sufijo de dos letras: autorización española con antigüedad mínima de cinco años, cinco años de práctica en la radioafición internacional y ningún expediente sancionador en los últimos cinco años. Para el de una letra, quince años de práctica. Como la demanda supera a los sufijos disponibles, la Administración establece un procedimiento con plazos de solicitud y méritos específicos, de forma transparente y no discriminatoria.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.19",
+    "enunciado": "Sobre los distintivos de llamada con sufijo de dos letras, señale la opción _falsa_:",
+    "respuesta": "se reservan únicamente para estaciones colectivas"
+   },
+   {
+    "id": "R5.29",
+    "enunciado": "Los distintivos de llamada con sufijo de dos letras:",
+    "respuesta": "podrán asignarse a cualquier radioaficionado que cumpla las condiciones establecidas"
+   }
+  ],
+  "nota": "R5.19 es el enunciado en negativo (señale la falsa) con la trampa de las colectivas."
+ },
+ {
+  "cid": "R5-29",
+  "tema": "R5",
+  "concepto": "Sufijo de una letra: reservado también para concursos internacionales de alta competitividad",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.28",
+    "enunciado": "Los distintivos de llamada con sufijo de una sola letra se reservan para:",
+    "opciones": [
+     "las estaciones de menor potencia",
+     "los radioaficionados noveles",
+     "la participación en concursos internacionales de alta competitividad",
+     "las estaciones instaladas en Ceuta y Melilla"
+    ],
+    "clave": "c",
+    "sol": "Un sufijo de una sola letra es lo más corto —y por tanto lo más rápido de transmitir— que puede haber, y ahí está su valor: en concursos, cada carácter ahorrado cuenta. Por eso el art. 27.3 los reserva, asimismo, para la participación en concursos internacionales de alta competitividad. No quedan cerrados a ese uso: el mismo artículo permite asignarlos como distintivo permanente a titulares con cinco años de autorización española, quince de práctica internacional y sin expediente sancionador en los últimos cinco años, y desde el 19-09-2026 hay un procedimiento ordinario para pedirlos (Resolución de 29-07-2026 de la SETID, hoy la SETSI de la Orden; BOE-A-2026-17504, que deroga la de 2019). Ni la potencia, ni la condición de novel, ni la ubicación intervienen."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.18",
+    "enunciado": "Los distintivos de uso temporal con sufijo de una sola letra están reservados para:",
+    "respuesta": "la participación en concursos internacionales de alta competitividad"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R5-30",
+  "tema": "R5",
+  "concepto": "Sufijo de una letra como distintivo permanente: 15 años de práctica internacional",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-R5-03",
+    "enunciado": "Para que se le asigne un distintivo con sufijo de una sola letra, un radioaficionado con al menos cinco años de autorización española y sin expediente sancionador en los últimos cinco años debe acreditar una práctica en la radioafición internacional de:",
+    "opciones": [
+     "cinco años",
+     "diez años",
+     "quince años",
+     "veinticinco años"
+    ],
+    "clave": "c",
+    "sol": "El art. 27 de la Orden pide quince años de práctica internacional para el sufijo de una letra. Los cinco años son los que se exigen para el de dos letras, y por eso son la trampa típica. Ni diez ni veinticinco años son requisito para ningún sufijo."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-31",
+  "tema": "R5",
+  "concepto": "Res. 29-07-2026: la práctica para el sufijo de una letra se acredita con 2 QSL por año en 15 de los últimos 20",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.1",
+    "enunciado": "Según la Resolución de 29 de julio de 2026 de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, la práctica internacional exigida para obtener un distintivo con sufijo de una letra se acredita con:",
+    "opciones": [
+     "una #_apc2-m[QSL] por año durante quince años seguidos",
+     "dos #_apc2-m[QSL] por año durante quince de los últimos veinte años",
+     "dos #_apc2-m[QSL] por año durante diez de los últimos quince años",
+     "tres #_apc2-m[QSL] por año durante los últimos cinco años"
+    ],
+    "clave": "b",
+    "sol": "El apartado segundo de la Resolución (BOE-A-2026-17504, en vigor desde el 19-09-2026) desarrolla el art. 27 de la Orden, que pide quince años de práctica internacional: se acreditan con dos tarjetas #_apc2-m[QSL] por cada año, durante quince de los últimos veinte, incluido el año de la solicitud. «Una por año» y «diez de quince» rebajan la exigencia. «Cinco años» recuerda la antigüedad mínima de la autorización, que es otro requisito distinto de la práctica internacional. #vease[(Véase tema R5, sección «Sufijos y usos temporales».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-32",
+  "tema": "R5",
+  "concepto": "Res. 29-07-2026: asignación por distritos y orden de presentación, hasta 10 preferencias; el nuevo distintivo sustituye al anterior",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.3",
+    "enunciado": "En el procedimiento ordinario para asignar distintivos con sufijo de una letra, establecido por la Resolución de 29 de julio de 2026, la asignación se hace:",
+    "opciones": [
+     "por sorteo público anual entre los solicitantes, y el nuevo distintivo se suma al anterior del titular",
+     "por distritos y por estricto orden de presentación de las solicitudes, y el nuevo distintivo sustituye al anterior del titular",
+     "en una lista única nacional, por antigüedad de la autorización, y el nuevo distintivo sustituye al anterior del titular",
+     "por distritos y por orden de presentación, pero el titular conserva también su distintivo anterior"
+    ],
+    "clave": "b",
+    "sol": "La Resolución de 29 de julio de 2026 (BOE-A-2026-17504) desarrolla el art. 27 de la Orden, que encarga a la SETSI fijar el procedimiento para los sufijos de una letra. Asigna los distintivos por distritos y por estricto orden de presentación; el solicitante puede indicar hasta diez preferencias, y el nuevo distintivo sustituye al que tuviera asignado (coherente con el art. 28: el distintivo es único). La a habla de sorteo: la asignación es por orden de presentación. La c inventa una lista nacional por antigüedad. La d conserva el distintivo anterior, justo lo contrario de sustituirlo. Deroga la Resolución de 12 de julio de 2019. #vease[(Véase tema R5, sección «Sufijos y usos temporales».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R5.2",
+    "enunciado": "En la solicitud de un distintivo con sufijo de una letra (Resolución de 29 de julio de 2026), el interesado puede incluir una relación de distintivos por orden de preferencia, hasta un máximo de:",
+    "respuesta": "diez distintivos"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R5-33",
+  "tema": "R5",
+  "concepto": "Sufijos de cuatro o más letras: excepcionales, para usos temporales en eventos de relevancia especial",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.4",
+    "enunciado": "La Orden IET/1311/2013 admite, con carácter excepcional, sufijos de cuatro o más letras:",
+    "opciones": [
+     "para las estaciones automáticas desatendidas de aficionado, analógicas o digitales",
+     "para los radioaficionados con más de veinticinco años de antigüedad en la autorización",
+     "con carácter permanente, para participar en concursos internacionales de alta competitividad",
+     "para usos temporales ligados a eventos o conmemoraciones de relevancia especial"
+    ],
+    "clave": "d",
+    "sol": "El art. 27.3, en su último párrafo, dice que podrán autorizarse, con carácter excepcional, sufijos de cuatro o más letras para usos temporales relacionados con eventos o conmemoraciones de relevancia especial. La regla general son sufijos de hasta tres letras. La a falla: las desatendidas usan sufijos de tres letras que empiezan por Y (analógicas) o Z (digitales). La b inventa un privilegio por antigüedad: los sufijos de una y dos letras son los que exigen antigüedad y práctica internacional. La c confunde con el sufijo de una letra, reservado a concursos internacionales de alta competitividad. #vease[(Véase tema R5, sección «Sufijos y usos temporales».)] #no-esta[La Orden fija como regla general sufijos de hasta tres letras (art. 27.3). Como excepción, podrán autorizarse sufijos de cuatro o más letras, siempre con carácter excepcional y para usos temporales relacionados con eventos o conmemoraciones de relevancia especial. No deben confundirse con los sufijos de una y dos letras, que son escasos y se adjudican por méritos a titulares veteranos.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-34",
+  "tema": "R5",
+  "concepto": "Más de una cifra en el distintivo: acontecimientos relevantes identificados por sus fechas (aniversarios)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.16",
+    "enunciado": "Según el artículo 27 de la Orden IET/1311/2013, la utilización de más de una cifra en el distintivo de llamada podrá ser autorizada para:",
+    "opciones": [
+     "acontecimientos relevantes identificados por sus fechas de celebración, como los aniversarios",
+     "radioaficionados que residan habitualmente en más de un distrito",
+     "estaciones automáticas desatendidas que enlacen repetidores de distintos distritos",
+     "la participación en concursos internacionales de alta competitividad"
+    ],
+    "clave": "a",
+    "sol": "El art. 27.2 lo permite para acontecimientos relevantes identificados por sus fechas de celebración, tales como acontecimientos periódicos o aniversarios. Es una excepción: el distintivo lleva normalmente una sola cifra, la del distrito de residencia en el momento del otorgamiento (b). Las desatendidas (c) se distinguen por el prefijo #_apc2-m[ED] y por los sufijos que empiezan por Y o Z, no por las cifras. A los concursos de alta competitividad (d) les corresponde el sufijo de una letra. #vease[(Véase tema R5, introducción del capítulo y tabla de distritos.)] #no-esta[Además del distrito 0 (solo para actos inaugurados o visitados por Su Majestad el Rey, y únicamente el día del acto), la Orden permite autorizar más de una cifra en el distintivo para acontecimientos relevantes identificados por sus fechas de celebración, como acontecimientos periódicos o aniversarios (art. 27.2). Es una excepción a la regla de una sola cifra: la del distrito de residencia.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-35",
+  "tema": "R5",
+  "concepto": "Reasignación de distintivos: agotadas las combinaciones, salvo anterior titular o familiares de primer grado por fallecimiento",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.21",
+    "enunciado": "Los distintivos de llamada se podrán reasignar:",
+    "opciones": [
+     "a cualquier solicitante, transcurrido un año",
+     "en caso de fallecimiento del titular, a familiares en primer grado",
+     "mediante subasta pública",
+     "únicamente a estaciones colectivas"
+    ],
+    "clave": "b",
+    "sol": "En caso de fallecimiento del titular, el distintivo puede reasignarse a familiares en primer grado (salvo que tenga sufijo de una letra). Es una excepción: según el art. 28 (párr. 3.º), los distintivos ya utilizados solo se reasignan una vez agotadas todas las combinaciones posibles; la otra excepción es el anterior titular, si obtiene una nueva autorización tras una revocación. Reasignar a cualquier solicitante transcurrido un año (a), por subasta (c) o solo a las colectivas (d) no figura en la Orden."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-36",
+  "tema": "R5",
+  "concepto": "Prefijos temporales ED, EE y EF: eventos ordinarios; mantienen el resto del distintivo",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "6·2·12",
+   "10·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.15",
+    "enunciado": "Los prefijos de uso temporal `ED`, `EE` y `EF`, a diferencia de `EG`, `EH`, `AM`, `AN` y `AO`:",
+    "opciones": [
+     "mantienen sin variación el resto del distintivo asignado con carácter permanente al radioaficionado",
+     "obligan a cambiar también el sufijo",
+     "solo pueden usarse en telegrafía",
+     "se asignan exclusivamente a extranjeros"
+    ],
+    "clave": "a",
+    "sol": "Con `ED`, `EE` y `EF` solo cambia el prefijo: cifra y sufijo siguen siendo los del distintivo permanente (art. 27.1.a de la Orden; p. ej. `EA4XYZ` emite como `EE4XYZ`). El art. 27.1 no dice lo mismo de `EG`, `EH`, `AM`, `AN` y `AO`, que se asignan con sufijo propio de dos o tres letras. `ED` tiene doble papel: prefijo permanente de las estaciones automáticas desatendidas y también temporal, junto con EE y EF. Ojo: el enunciado del banco público agrupa «EE, EF y EG» como si los tres mantuvieran el resto del distintivo; el art. 27.1.a solo menciona ED, EE y EF, pero si en el examen aparece así, la opción a es la que dan por buena."
+   },
+   {
+    "id": "C-R5.11",
+    "enunciado": "El prefijo EE delante de un distintivo completo de radioaficionado indica:",
+    "opciones": [
+     "Una estación de servicios especiales.",
+     "Un distintivo de uso temporal (concursos, experimentos, demostraciones y otros eventos locales, regionales, autonómicos o nacionales).",
+     "Un distintivo permanente de estación automática desatendida.",
+     "No puede emplearse en estaciones españolas."
+    ],
+    "clave": "b",
+    "sol": "Según el artículo 27 de la Orden IET/1311/2013, ED, EE y EF se pueden usar, con autorización previa, como prefijos temporales en concursos, experimentos, ensayos, demostraciones y otros eventos locales, regionales, autonómicos o nacionales, y el resto del distintivo del titular no cambia. La c falla: el prefijo permanente de las desatendidas es ED. La d también: EE pertenece a la serie atribuida a España. Nota: el enunciado antiguo hablaba de estaciones «clase B», pero las clases A, B y C del régimen anterior ya no existen; la respuesta se conserva con el significado vigente. #vease[(Véase tema R5, sección «Sufijos y usos temporales».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.16",
+    "enunciado": "Si una estación tiene el indicativo `EF6RCA`, se trata de un distintivo:",
+    "respuesta": "concedido para uso temporal por un evento no especialmente significativo"
+   },
+   {
+    "id": "R5.32",
+    "enunciado": "Los prefijos de uso temporal ED, EE y EF, al sustituir al habitual:",
+    "respuesta": "mantienen sin variación el resto del distintivo asignado con carácter permanente"
+   }
+  ],
+  "nota": "C-R5.11: qué indica EE; R5.15: lo que los distingue de EG, EH, AM, AN y AO (sufijo propio)."
+ },
+ {
+  "cid": "R5-37",
+  "tema": "R5",
+  "concepto": "Prefijos EG y EH: concursos, eventos internacionales y eventos relevantes locales, regionales o autonómicos",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.14",
+    "enunciado": "El prefijo `EG` de un distintivo de llamada se relaciona con:",
+    "opciones": [
+     "las estaciones colectivas de asociaciones",
+     "las radiobalizas de HF",
+     "las estaciones móviles marítimas",
+     "usos temporales de especial relevancia para eventos de carácter regional, autonómico o local"
+    ],
+    "clave": "d",
+    "sol": "EG: usos temporales para concursos, eventos internacionales y otros eventos relevantes de ámbito local, regional o autonómico (art. 27.1.b)."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-38",
+  "tema": "R5",
+  "concepto": "Prefijos AM y AN: eventos relevantes de ámbito nacional",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-R5-01",
+    "enunciado": "Los prefijos de uso temporal AM y AN se autorizan para:",
+    "opciones": [
+     "eventos relevantes de ámbito internacional",
+     "concursos, experimentos y demostraciones de ámbito local manteniendo el resto del distintivo",
+     "eventos relevantes de ámbito nacional",
+     "las estaciones automáticas desatendidas"
+    ],
+    "clave": "c",
+    "sol": "La Orden IET/1311/2013 escalona los prefijos temporales según el rango del evento: AM y AN, eventos relevantes de ámbito nacional, con sufijo propio. AO es el de los eventos relevantes de ámbito internacional, que es la confusión típica. ED, EE y EF son los de eventos ordinarios y mantienen el resto del distintivo; ED es además el prefijo permanente de las desatendidas."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-39",
+  "tema": "R5",
+  "concepto": "Prefijo AO: eventos relevantes de ámbito internacional",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.38",
+    "enunciado": "El prefijo AO se otorga para eventos temporales:",
+    "opciones": [
+     "de ámbito estrictamente local",
+     "de carácter deportivo",
+     "organizados por las asociaciones",
+     "especiales de relevancia internacional"
+    ],
+    "clave": "d",
+    "sol": "Los prefijos especiales se escalonan según la importancia del evento (`ED`/`EE`/`EF`, `EG`/`EH`, `AM`/`AN`) y `AO` queda para los de relevancia internacional (art. 27.1.d). Es un distintivo temporal: termina cuando termina el acontecimiento que lo motivó."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R5.17",
+    "enunciado": "El prefijo `AO` se otorgará para eventos temporales:",
+    "respuesta": "especiales de relevancia internacional"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R5-40",
+  "tema": "R5",
+  "concepto": "Prefijo AO optativo para españoles en zonas no adscritas a soberanías nacionales",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.14",
+    "enunciado": "Además de en eventos relevantes de ámbito internacional, el prefijo #_apc2-m[AO] puede utilizarse, con carácter optativo, en las emisiones de radioaficionados españoles:",
+    "opciones": [
+     "desde Ceuta y Melilla",
+     "desde las islas Canarias",
+     "desde zonas no adscritas a soberanías nacionales",
+     "en eventos relevantes de ámbito nacional"
+    ],
+    "clave": "c",
+    "sol": "El art. 27.1.d asigna #_apc2-m[AO] a eventos relevantes de ámbito internacional y, con carácter optativo, a las emisiones de radioaficionados españoles desde zonas no adscritas a soberanías nacionales. Ceuta, Melilla y Canarias son territorio español y ya se identifican con las cifras de distrito 9 y 8 (#_apc2-m[EA9], #_apc2-m[EA8]); no necesitan prefijo especial. Los eventos relevantes de ámbito nacional corresponden a #_apc2-m[AM] y #_apc2-m[AN] (art. 27.1.c). #vease[(Véase tema R5, sección «Sufijos y usos temporales».)] #no-esta[El prefijo #_apc2-m[AO] tiene dos usos: eventos relevantes de ámbito internacional y, con carácter optativo, las emisiones de radioaficionados españoles desde zonas no adscritas a soberanías nacionales (art. 27.1.d). Para eventos relevantes de ámbito nacional se usan #_apc2-m[AM] y #_apc2-m[AN]. Como el resto de prefijos temporales, requiere autorización previa de la Jefatura Provincial.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-41",
+  "tema": "R5",
+  "concepto": "Para qué se pide un distintivo temporal: concursos, experimentos, ensayos o conmemoraciones",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R5.48",
+    "enunciado": "Puede solicitarse un distintivo de llamada temporal cuando se desee:",
+    "opciones": [
+     "operar con mayor potencia de la autorizada",
+     "ceder la estación a un tercero",
+     "evitar ser identificado",
+     "participar en concursos, experimentos, ensayos o conmemoraciones"
+    ],
+    "clave": "d",
+    "sol": "Los distintivos temporales existen para dar visibilidad a actividades concretas y acotadas en el tiempo. Nunca para operar fuera de lo autorizado ni, mucho menos, para ocultar la identidad."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-42",
+  "tema": "R5",
+  "concepto": "Solicitud de distintivo temporal: una por evento, a la Administración; las asociaciones solo proponen",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R5.3",
+    "enunciado": "La utilización de distintivos temporales requerirá la presentación de una solicitud; señale la proposición errónea:",
+    "opciones": [
+     "Indicando el nombre y distintivo de llamada del solicitante.",
+     "Dirigida a la Asociación o Radio Club de aficionados correspondiente, que será la que autorice.",
+     "Indicando el período de utilización.",
+     "Indicando el distintivo de llamada solicitado."
+    ],
+    "clave": "b",
+    "sol": "Los distintivos temporales los autoriza la Administración, no una asociación. El artículo 28 de la Orden IET/1311/2013 exige una solicitud independiente para cada evento, con el período de utilización, el distintivo solicitado, el nombre y distintivo del solicitante, el motivo y el tipo de estación; por eso las opciones a, c y d son correctas. La b es la errónea: las asociaciones reconocidas solo pueden preparar planes anuales de utilización y proponer asignaciones, que la Administración estudia y aprueba. #vease[(Véase tema R5, sección «Sufijos y usos temporales».)]\n\n    #no-esta[Distintivos temporales (art. 28 de la Orden IET/1311/2013): cada evento necesita su propia solicitud a la Administración, con período, distintivo pedido, nombre y distintivo del solicitante (firmada por su representante si es una asociación o radio club), motivo y tipo de estación. Como norma general, el período no supera 30 días al año por sufijo y peticionario; los sufijos de una letra para concursos de alta competitividad pueden concederse hasta por dos años. Las asociaciones proponen, no autorizan.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R5-43",
+  "tema": "R5",
+  "concepto": "Distintivo temporal: máximo 30 días al año por sufijo y peticionario (excepción: una letra en concursos, hasta 2 años)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R5.15",
+    "enunciado": "Para los distintivos temporales, los períodos autorizados para un mismo sufijo y peticionario no son, como norma general, superiores a:",
+    "opciones": [
+     "10 días al año",
+     "30 días al año",
+     "90 días al año",
+     "un año natural completo"
+    ],
+    "clave": "b",
+    "sol": "El último párrafo del art. 28 fija el límite general en 30 días al año por sufijo y peticionario. Las opciones a y c son cifras plausibles, pero no figuran en la Orden. La d recuerda la excepción, que es distinta: los distintivos con sufijo de una letra usados exclusivamente para participar en concursos de alta competitividad pueden autorizarse al mismo titular por períodos de hasta dos años, a partir de la fecha de autorización. Además, cada evento exige una solicitud independiente (art. 28). #vease[(Véase tema R5, sección «Sufijos y usos temporales».)] #no-esta[Los distintivos temporales se piden con una solicitud independiente por cada evento (art. 28). Como norma general, los períodos autorizados para un mismo sufijo y peticionario no superan 30 días al año. Excepción: el sufijo de una letra usado solo en concursos de alta competitividad puede autorizarse al mismo titular hasta dos años, contados desde la fecha de autorización.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-01",
+  "tema": "R6",
+  "concepto": "Qué es un plan de bandas: reparto recomendado de cada banda por modo y anchura de banda; instrumento básico de ordenación",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "3·2·13",
+   "11·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R6.14",
+    "enunciado": "Dentro de cada banda, los planes de banda de la IARU reparten los segmentos atendiendo principalmente a:",
+    "opciones": [
+     "la antigüedad del distintivo de llamada de cada estación",
+     "el país de procedencia de cada estación",
+     "el modo de emisión y la anchura de banda ocupada",
+     "la potencia de salida de los equipos"
+    ],
+    "clave": "c",
+    "sol": "Se agrupan los modos estrechos por un lado y los anchos por otro, de manera que una emisión de fonía no caiga encima de un segmento de telegrafía o de modos digitales. Es la única forma de que quepan todos."
+   },
+   {
+    "id": "C-R6.4",
+    "enunciado": "Los planes de banda de la IARU:",
+    "opciones": [
+     "No proporcionan información sobre el modo preferido de utilización.",
+     "Son un instrumento básico para regular el uso de las bandas de frecuencias.",
+     "Son iguales a nivel mundial.",
+     "No tienen en cuenta la atribución de bandas del Reglamento de Radiocomunicaciones de la UIT."
+    ],
+    "clave": "b",
+    "sol": "Los planes ordenan el uso de cada banda repartiéndola en segmentos según el modo y la anchura de banda, y por eso son el instrumento básico para organizar su utilización. «Regular» no significa que tengan rango de ley: son acuerdos voluntarios entre asociaciones, aunque la Orden IET/1311/2013 (art. 2.2) remite a ellos como norma general. La a) es falsa: indican precisamente el modo recomendado. La c) es falsa: hay un plan por Región de la UIT. La d) es falsa: parten de las atribuciones del Reglamento de Radiocomunicaciones. #vease[(Véase tema R6, introducción del capítulo y sección «Las tres regiones de la UIT».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R6.2",
+    "enunciado": "Los planes de banda de la IARU proporcionan información sobre:",
+    "respuesta": "el modo de utilización recomendado en cada banda de frecuencias"
+   },
+   {
+    "id": "R6.5",
+    "enunciado": "En los planes de banda de la IARU para la Región 1:",
+    "respuesta": "están previstas las frecuencias para el servicio de radioaficionados"
+   }
+  ],
+  "nota": "C-R6.4 (banco público) recoge el objetivo; R6.14 el criterio de reparto (modo y anchura), que es el «objetivo» del alcance."
+ },
+ {
+  "cid": "R6-02",
+  "tema": "R6",
+  "concepto": "Naturaleza de los planes: acuerdos voluntarios y guía mundial, pero la Orden obliga a usar el de la Región 1 como norma general en España",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "6·2·14",
+   "10·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R6.3",
+    "enunciado": "Sobre los planes de bandas de la IARU es correcto decir que:",
+    "opciones": [
+     "La IARU no tiene planes de banda para la Región 1.",
+     "Sirven de guía a los radioaficionados de todo el mundo.",
+     "Deben ser tenidos en cuenta únicamente si se opera en Canarias.",
+     "En España se deben aplicar los planes de banda de la IARU para la Región 2."
+    ],
+    "clave": "b",
+    "sol": "Los planes de banda no son normas legales sino recomendaciones de convivencia: reparten cada banda por modos y sirven de guía a los radioaficionados de todo el mundo, cada uno con el plan de su Región. La a) es falsa: la Región 1 tiene el suyo. La c) también: la Orden IET/1311/2013 (art. 2.2) manda usar, como norma general, el plan de la Región 1 en todo el territorio español, y Canarias es una parte más. La d) es falsa: España pertenece a la Región 1 (Europa y África), no a la 2, que es América. #vease[(Véase tema R6, introducción del capítulo y sección «Las tres regiones de la UIT».)]"
+   },
+   {
+    "id": "R6.13",
+    "enunciado": "Los planes de banda de la IARU, en cuanto a su naturaleza jurídica:",
+    "opciones": [
+     "tienen rango de ley en los países de la CEPT",
+     "son acuerdos voluntarios entre las asociaciones nacionales, no normas legales",
+     "son obligatorios solo para los titulares de la clase A",
+     "sustituyen al Cuadro Nacional de Atribución de Frecuencias"
+    ],
+    "clave": "b",
+    "sol": "La IARU es una federación de asociaciones, no un legislador: sus planes nacen de un acuerdo voluntario y no tienen rango de ley. Pero la Orden IET/1311/2013 (art. 2.2 y anexo I, apartado 3.1) remite a ellos y obliga a usarlos «como norma general», de modo que todo radioaficionado que opere en España debe tenerlos en cuenta (como dice R6.1). Por encima siguen estando el CNAF y la normativa nacional."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R6.1",
+    "enunciado": "Los planes de banda de la IARU para la Región 1 deben ser tenidos en cuenta:",
+    "respuesta": "por todo radioaficionado que opere en España"
+   }
+  ],
+  "nota": "C-R6.3: guía mundial y Región 1 para toda España; R6.13: no tienen rango de ley (trampa de la CEPT y del CNAF)."
+ },
+ {
+  "cid": "R6-03",
+  "tema": "R6",
+  "concepto": "Los planes parten de las atribuciones del Reglamento de Radiocomunicaciones y hay uno por Región de la UIT",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R6.4",
+    "enunciado": "Los planes de banda de la IARU pueden:",
+    "opciones": [
+     "modificarse por cada radio club local",
+     "aplicarse solo los fines de semana",
+     "ignorarse en los concursos internacionales",
+     "ser distintos en cada Región de la UIT"
+    ],
+    "clave": "d",
+    "sol": "Cada Región de la UIT tiene su propio plan IARU, porque las atribuciones difieren entre Regiones."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R6.3",
+    "enunciado": "Sobre los planes de banda de la IARU es correcto afirmar que:",
+    "respuesta": "tienen en cuenta la atribución de bandas del Reglamento de Radiocomunicaciones de la UIT"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R6-04",
+  "tema": "R6",
+  "concepto": "La IARU es la federación de asociaciones nacionales de radioaficionados (URE en España)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-R6-01",
+    "enunciado": "La IARU (Unión Internacional de Radioaficionados) es:",
+    "opciones": [
+     "el organismo internacional que atribuye las bandas de frecuencias a los distintos servicios",
+     "la federación que agrupa a las asociaciones nacionales de radioaficionados, como la URE en España",
+     "el órgano de la CEPT que expide la licencia CEPT",
+     "la autoridad que inspecciona las estaciones de aficionado en España"
+    ],
+    "clave": "b",
+    "sol": "La IARU agrupa a las asociaciones nacionales de radioaficionados (en España, la URE) y, como la UIT, se organiza en tres Regiones, cada una con su plan de bandas. Quien atribuye las bandas a los servicios es la UIT, no la IARU; por eso sus planes son acuerdos voluntarios y no normas legales. La inspección corresponde al Estado."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-05",
+  "tema": "R6",
+  "concepto": "España pertenece a la Región 1 de la UIT",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R6.8",
+    "enunciado": "A efectos de atribución de frecuencias, España pertenece a la:",
+    "opciones": [
+     "Región 3 de la UIT",
+     "Región 2 de la UIT",
+     "Zona CEPT independiente de las regiones",
+     "Región 1 de la UIT"
+    ],
+    "clave": "d",
+    "sol": "La Región 1 abarca Europa, África, Oriente Medio y el norte de Asia. Es la que determina qué bandas tenemos aquí y cuál de los tres planes de banda de la IARU hay que conocer."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-06",
+  "tema": "R6",
+  "concepto": "Composición de las Regiones: 1 Europa y África; 2 América; 3 resto de Asia y Oceanía",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R6.11",
+    "enunciado": "La Región 3 de la UIT está formada principalmente por:",
+    "opciones": [
+     "África y Oriente Medio",
+     "América del Sur",
+     "Asia meridional y oriental junto con Oceanía",
+     "Europa oriental"
+    ],
+    "clave": "c",
+    "sol": "Incluye Japón, China, la India, el sureste asiático, Australia y Nueva Zelanda. África y Oriente Medio quedan en la Región 1."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R6.10",
+    "enunciado": "La Región 2 de la UIT comprende:",
+    "respuesta": "el continente americano"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R6-07",
+  "tema": "R6",
+  "concepto": "Por qué hay Regiones: atribuir bandas por zonas; por eso las bandas difieren entre España y EE. UU.",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R6.12",
+    "enunciado": "Que una banda de aficionado tenga límites distintos en España y en Estados Unidos se debe a que:",
+    "opciones": [
+     "cada país fija libremente sus bandas sin coordinación",
+     "las bandas dependen de la potencia autorizada en cada país",
+     "los planes de banda de la IARU son obligatorios en unos países y no en otros",
+     "pertenecen a regiones distintas de la UIT, con atribuciones diferentes"
+    ],
+    "clave": "d",
+    "sol": "España está en la Región 1 y Estados Unidos en la 2, y el Cuadro de atribuciones de la UIT asigna las bandas región por región. El caso más citado es el de 40 metros, con extensión distinta a uno y otro lado del Atlántico."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R6.9",
+    "enunciado": "La UIT divide el mundo en tres regiones con el fin de:",
+    "respuesta": "atribuir las bandas de frecuencia a los servicios según zonas geográficas"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R6-08",
+  "tema": "R6",
+  "concepto": "Frecuencias de llamada: punto de encuentro de un modo, no de uso exclusivo",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R6.6",
+    "enunciado": "Las frecuencias de llamada previstas en los planes de banda permiten:",
+    "opciones": [
+     "contactar con otros operadores que utilizan el mismo modo",
+     "emitir con más potencia de la autorizada",
+     "reservar una frecuencia de uso exclusivo",
+     "transmitir sin identificarse"
+    ],
+    "clave": "a",
+    "sol": "Las frecuencias de llamada son puntos de encuentro por modo, antes de desplazarse (#_r6-cod[QSY]) a otra frecuencia."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-09",
+  "tema": "R6",
+  "concepto": "Frecuencia de llamada de FM en 2 m: 145,500 MHz",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.9",
+    "enunciado": "La frecuencia de llamada de FM en la banda de 2 m del plan de bandas de la IARU para la Región 1 es:",
+    "opciones": [
+     "144,300 MHz",
+     "145,500 MHz",
+     "145,800 MHz",
+     "146,000 MHz"
+    ],
+    "clave": "b",
+    "sol": "El plan de 2 m marca 145,500 MHz como «FM calling», en el segmento de FM y voz digital que va de 145,206 a 145,5625 MHz. Se llama allí y, al contestar, se pasa a otra frecuencia libre para el QSO. Los 144,300 MHz son el centro de actividad de SSB. Los 145,800 MHz caen en el segmento de comunicación espacial (145,794– 145,806 MHz), junto al de satélites. Los 146,000 MHz son el límite superior de la banda, no una frecuencia de llamada. #vease[(Véase tema R6, introducción del capítulo (frecuencias de llamada).)] #no-esta[Una frecuencia de llamada es un punto de encuentro: se llama allí (#_apc2-m[CQ]) y, al contestar, se pasa a otra frecuencia libre para el QSO. En 2 m, el plan de la IARU para la Región 1 fija 145,500 MHz como frecuencia de llamada de FM, en el segmento de FM y voz digital 145,206–145,5625 MHz; el centro de actividad de SSB es 144,300 MHz.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-10",
+  "tema": "R6",
+  "concepto": "Frecuencia de llamada de FM en 70 cm: 433,500 MHz",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.11",
+    "enunciado": "En la banda de 70 cm, la frecuencia de llamada de FM del plan de bandas de la IARU para la Región 1 es:",
+    "opciones": [
+     "433,500 MHz",
+     "432,200 MHz",
+     "430,000 MHz",
+     "434,500 MHz"
+    ],
+    "clave": "a",
+    "sol": "El plan de 70 cm sitúa la llamada de FM en 433,500 MHz, en el segmento de FM y voz digital 433,400–433,575 MHz, de canales simplex. Los 432,200 MHz son el centro de actividad de SSB. Los 430,000 MHz son el extremo inferior de la banda, no una frecuencia de llamada. Los 434,500 MHz caen en los canales de comunicaciones digitales 434,450–434,575 MHz. #no-esta[En 70 cm (430–440 MHz) el plan de la IARU para la Región 1 fija 433,500 MHz como frecuencia de llamada de FM y 432,200 MHz como centro de actividad de SSB (segmento 432,100–432,400 MHz). Las balizas están en exclusiva en 432,400–432,490 MHz, la entrada de un sistema de repetidores de FM en 433,000–433,375 MHz y los satélites en 435–438 MHz.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-11",
+  "tema": "R6",
+  "concepto": "Canal de llamada de FM en 10 m: 29,600 MHz",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.14",
+    "enunciado": "En la banda de 10 m, el canal de llamada de FM del plan de bandas HF de la IARU para la Región 1 es:",
+    "opciones": [
+     "28,500 MHz",
+     "29,600 MHz",
+     "29,000 MHz",
+     "29,300 MHz"
+    ],
+    "clave": "b",
+    "sol": "El plan de 10 m dedica el extremo alto a la FM: entradas de repetidores en 29,520–29,590 MHz (canales RH1 a RH8), salidas en 29,620–29,700 MHz (100 kHz más arriba) y, entre ambos grupos, 29,600 MHz como canal de llamada de FM. Los 29,300 MHz son el comienzo del segmento de enlaces de satélite (29,300– 29,510 MHz), y los 29,000 y 28,500 MHz caen en segmentos de todos los modos (SSB y digitales), sin función de llamada de FM. #no-esta[El plan HF de la IARU para la Región 1 dedica el extremo alto de los 10 m a la FM: 29,100– 29,200 MHz, FM simplex en canales de 10 kHz; 29,520–29,590 MHz, entradas de repetidores (canales RH1 a RH8); 29,600 MHz, canal de llamada de FM; 29,620–29,700 MHz, salidas de repetidores. Entre 29,300 y 29,510 MHz hay enlaces de satélite.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-12",
+  "tema": "R6",
+  "concepto": "Repetidores de 2 m: entrada 145,000–145,1875 MHz, salida 600 kHz más arriba",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "5·2·15",
+   "9·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R6.7",
+    "enunciado": "Para utilizar un repetidor de VHF, la emisión (entrada del repetidor) se efectúa en el segmento de banda:",
+    "opciones": [
+     "144,000 – 144,100 MHz",
+     "145,000 – 145,1875 MHz",
+     "145,800 – 146,000 MHz",
+     "146,000 – 146,500 MHz"
+    ],
+    "clave": "b",
+    "sol": "La entrada de los repetidores de 2 m está en 145,000–145,1875 MHz; la salida, 600 kHz más arriba (145,600–145,7875 MHz). Son los valores clásicos de los bancos; el plan IARU vigente (diciembre de 2020) usa 144,975–145,194 y 145,575–145,7935 MHz."
+   },
+   {
+    "id": "C-R6.2",
+    "enunciado": "En los planes de bandas de la IARU para la Región 1:",
+    "opciones": [
+     "Hay previstas frecuencias para repetidores en la banda 145,594–145,7935 MHz.",
+     "No hay previstas frecuencias para repetidores en UHF.",
+     "Hay previstas frecuencias para repetidores analógicos en la banda 88,5–99,0 MHz.",
+     "No hay planes de banda de la IARU para la Región 1."
+    ],
+    "clave": "a",
+    "sol": "En 2 m el plan reserva 145,000–145,1875 MHz a las entradas de los repetidores y, 600 kHz más arriba, sus salidas: $145,000 + 0,600 = 145,600$ MHz hasta $145,1875 + 0,600 = 145,7875$ MHz, dentro de 145,594–145,7935 MHz. La b) es falsa: en 70 cm hay segmentos de repetidores (433,000–433,375 MHz de entrada y 434,600–434,975 MHz de salida). La c) cita 88,5–99,0 MHz, que es radiodifusión FM y no una banda de aficionados. La d) es falsa: la Región 1 tiene plan propio, el que rige en España. #vease[(Véase tema R6, introducción del capítulo (entrada 145,000–145,1875 MHz y salida 600 kHz más arriba) y pregunta sobre la entrada de los repetidores de VHF.)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R6.10",
+    "enunciado": "El desplazamiento (_shift_) entre la entrada y la salida de los repetidores de FM en 2 m, según el plan de bandas de la IARU para la Región 1, es de:",
+    "respuesta": "600 kHz"
+   }
+  ],
+  "nota": "R6.7 pregunta la entrada; C-R6.2 (banco público) la salida, y obliga a sumar los 600 kHz."
+ },
+ {
+  "cid": "R6-13",
+  "tema": "R6",
+  "concepto": "Repetidores de 70 cm: entrada 433,000–433,375 MHz, desplazamiento 1,6 MHz",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R6.1",
+    "enunciado": "Los planes de banda de la IARU:",
+    "opciones": [
+     "Tienen previstas frecuencias para repetidores digitales en la banda 91,5–95,0 MHz.",
+     "Tienen previstas frecuencias para repetidores en la banda 433,000–433,375 MHz.",
+     "No tienen previstas frecuencias para comunicaciones por satélite.",
+     "No se aplican en países del Hemisferio Sur."
+    ],
+    "clave": "b",
+    "sol": "En 70 cm, el plan de la IARU para la Región 1 reserva 433,000–433,375 MHz a repetidores de FM y de voz digital. La a) falla porque 91,5–95,0 MHz pertenece a la radiodifusión FM, no a una banda de aficionados. La c) es falsa: el plan prevé segmentos para satélites (145,806–146,000 MHz en 2 m, 435–438 MHz en 70 cm). La d) confunde región con hemisferio: los planes se organizan por Regiones de la UIT, y la Región 1 incluye Europa y toda África, también sus países australes, como Sudáfrica. #vease[(Véase tema R6, introducción del capítulo (qué es un plan de bandas y cómo reparte los segmentos).)]\n\n    #no-esta[El cuaderno cita el segmento de repetidores de 2 m, pero no el de 70 cm (430–440 MHz). En esa banda, el plan de la IARU para la Región 1 dedica 433,000–433,375 MHz a repetidores de FM y de voz digital. Ese segmento es el de #emph[entrada] del repetidor, con canales de 25 kHz y un desplazamiento estándar de 1,6 MHz: la salida queda en 434,600–434,975 MHz. Para el examen basta recordar que los 433 MHz son de repetidores y que los 91,5–95,0 MHz, al ser de radiodifusión, no pueden serlo.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R6.13",
+    "enunciado": "Un sistema de repetidores de FM de 70 cm del plan de bandas de la IARU para la Región 1 tiene su segmento de entrada a partir de 433,000 MHz y el de salida a partir de 434,600 MHz. Su desplazamiento es de:",
+    "respuesta": "1,6 MHz"
+   }
+  ],
+  "nota": "C-R6.1 (banco público) el segmento; F-R6.13 el desplazamiento de 1,6 MHz frente a los 600 kHz de 2 m."
+ },
+ {
+  "cid": "R6-14",
+  "tema": "R6",
+  "concepto": "Centros de actividad de SSB: 144,300 MHz (2 m) y 432,200 MHz (70 cm)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.12",
+    "enunciado": "El centro de actividad de SSB de la banda de 70 cm, según el plan de bandas de la IARU para la Región 1, está en:",
+    "opciones": [
+     "433,500 MHz",
+     "435,000 MHz",
+     "438,000 MHz",
+     "432,200 MHz"
+    ],
+    "clave": "d",
+    "sol": "El plan dedica el tramo 432,000–432,400 MHz a la telegrafía, los modos digitales estrechos y la SSB. En él marca 432,050 MHz como centro de actividad de telegrafía y 432,200 MHz como centro de actividad de SSB. Los 433,500 MHz son la frecuencia de llamada de FM. Los 435 MHz marcan el comienzo del segmento de satélites (435–438 MHz) y los 438 MHz su final. #no-esta[El plan de 70 cm de la IARU para la Región 1 reserva el tramo 432,000–432,400 MHz a telegrafía, modos digitales de banda estrecha y SSB. En él, 432,050 MHz es el centro de actividad de telegrafía y 432,200 MHz el de SSB. La frecuencia de llamada de FM es otra, 433,500 MHz, y el tramo 435–438 MHz se dedica a satélites.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R6.8",
+    "enunciado": "En la banda de 2 m, el plan de bandas de la IARU para la Región 1 señala la frecuencia de 144,300 MHz como:",
+    "respuesta": "centro de actividad de SSB"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R6-15",
+  "tema": "R6",
+  "concepto": "Balizas en 2 m: segmento 144,400–144,491 MHz",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-R6-02",
+    "enunciado": "En la banda de 2 m, el plan de bandas de la IARU para la Región 1 dedica el segmento 144,400–144,491 MHz a:",
+    "opciones": [
+     "la entrada de los repetidores de FM",
+     "las comunicaciones por satélite",
+     "las balizas",
+     "la frecuencia de llamada de FM"
+    ],
+    "clave": "c",
+    "sol": "Según el plan de bandas de la IARU para la Región 1, el tramo 144,400–144,491 MHz de la banda de 2 m es el de las balizas. La entrada de los repetidores de FM está en otro tramo, 145,000–145,1875 MHz (con la salida 600 kHz más arriba). Ni las comunicaciones por satélite ni la frecuencia de llamada de FM están en el segmento de balizas."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-16",
+  "tema": "R6",
+  "concepto": "Balizas en HF: 14.099–14.101 kHz exclusivo del International Beacon Project",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.6",
+    "enunciado": "El segmento 14.099–14.101 kHz del plan de bandas HF de la IARU para la Región 1 está reservado exclusivamente a:",
+    "opciones": [
+     "comunicaciones de emergencia",
+     "voz digital",
+     "balizas del _International Beacon Project_",
+     "telegrafía de baja potencia (QRP)"
+    ],
+    "clave": "c",
+    "sol": "El plan marca 14.099–14.101 kHz, con centro en 14.100 kHz, como «International Beacon Project: beacons exclusively». Solo balizas, y ni siquiera se acepta ahí un QSO en CW. Los otros usos tienen su centro de actividad en otra parte: emergencia mundial en 14.300 kHz, voz digital en 14.130 kHz y telegrafía QRP en 14.060 kHz. Esa exclusividad permite escuchar las balizas, que sirven para estudiar la propagación, sin interferencias. #vease[(Véase tema R8, sección «Estaciones desatendidas, repetidores y radiobalizas».)] #no-esta[Una radiobaliza es una estación automática desatendida que emite su identificación para estudiar la propagación. En HF, el plan de la IARU para la Región 1 les reserva en exclusiva segmentos de 2 kHz: 14.099–14.101, 18.109– 18.111, 21.149–21.151 y 24.929–24.931 kHz, además de varios tramos en 28 MHz. En esos segmentos no debe hacerse ningún otro tipo de comunicación, ni siquiera en CW.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-17",
+  "tema": "R6",
+  "concepto": "Convenio de banda lateral: LSB por debajo de 10 MHz, USB por encima; excepción 60 m en USB",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "4·2·15",
+   "12·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.7",
+    "enunciado": "El plan de bandas HF de la IARU para la Región 1 recomienda LSB en fonía por debajo de 10 MHz y USB por encima. Como excepción, en la banda de 60 m (5 MHz) recomienda para la fonía:",
+    "opciones": [
+     "LSB",
+     "USB",
+     "AM",
+     "FM"
+    ],
+    "clave": "b",
+    "sol": "La regla general del plan es LSB por debajo de 10 MHz (160, 80 y 40 m) y USB por encima (20, 17, 15, 12 y 10 m). La banda de 5 MHz es la excepción expresa: se recomienda USB para la voz, en el segmento 5.354– 5.366 kHz. La a) es lo que daría la regla general y por eso es el error típico. La AM y la FM ocupan más anchura que los 2.700 Hz máximos de ese segmento y no son los modos que recomienda el plan. #vease[(Véase tema T1, sección «Señales moduladas» (banda lateral única); tema R3, abreviaturas LSB y USB.)] #no-esta[Por convenio, en SSB se usa la banda lateral inferior (LSB) por debajo de 10 MHz (160, 80 y 40 m) y la superior (USB) por encima (20, 17, 15, 12 y 10 m). El plan de bandas HF de la IARU para la Región 1 lo recoge como recomendación y señala una excepción: la banda de 60 m (5 MHz, 5.351,5–5.366,5 kHz), donde se recomienda USB para la fonía.]"
+   },
+   {
+    "id": "C-R6.5",
+    "enunciado": "En la banda de radioaficionado de 40 metros, el modo de emisión que normalmente se utiliza es:",
+    "opciones": [
+     "USB",
+     "AM",
+     "LSB y AM",
+     "LSB"
+    ],
+    "clave": "d",
+    "sol": "Por convenio, en banda lateral única se usa la banda lateral inferior (LSB) por debajo de 10 MHz y la superior (USB) por encima. Los 40 m (7 MHz) están por debajo, así que la fonía habitual es LSB. La a) es el modo de 20 m y de las bandas más altas. La AM, en las opciones b) y c), se oye poco en HF: ocupa el doble de ancho de banda y gasta la mayor parte de la potencia en la portadora, por lo que no es el modo normal de la banda. #vease[(Véase tema T1, sección «Señales moduladas» (banda lateral única); tema R3, abreviaturas LSB y USB.)]\n\n    #no-esta[El cuaderno explica qué son LSB y USB, pero no cuál se usa en cada banda. Es un convenio, no una norma: por debajo de 10 MHz (160, 80 y 40 m) se emplea LSB, y por encima (20, 17, 15, 12 y 10 m) USB. Regla para recordarlo: en las bandas bajas, banda lateral inferior; en las altas, superior. Así, la fonía en SSB a 7 MHz se hace en LSB y a 14 MHz en USB. El plan de bandas de la IARU indica el segmento de cada modo, pero no impone la banda lateral.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "C-R6.5 (banco público) la regla; F-R6.7 la excepción de 5 MHz, que es justo la trampa de aplicar la regla."
+ },
+ {
+  "cid": "R6-18",
+  "tema": "R6",
+  "concepto": "80 m: segmento de CW 3.500–3.570 kHz",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.4",
+    "enunciado": "En la banda de 80 m, el plan de bandas HF de la IARU para la Región 1 marca como segmento de telegrafía (CW) el comprendido entre:",
+    "opciones": [
+     "3.600–3.800 kHz",
+     "3.500–3.570 kHz",
+     "3.570–3.600 kHz",
+     "3.700–3.800 kHz"
+    ],
+    "clave": "b",
+    "sol": "El plan divide los 80 m en tres bloques por modo: 3.500–3.570 kHz, telegrafía (200 Hz de anchura máxima); 3.570–3.600 kHz, modos de banda estrecha y digimodos; 3.600–3.800 kHz, «todos los modos», es decir, la fonía en SSB (LSB). Las opciones a) y d) caen en el bloque de fonía. La c) es el de los modos digitales estrechos: aunque el plan admite QSO en CW en toda la banda (salvo en segmentos de balizas), el tramo marcado como CW es el de 3.500–3.570 kHz. #no-esta[El plan de bandas HF de la IARU para la Región 1 reparte cada banda por modos. En 80 m: 3.500–3.570 kHz, telegrafía (CW); 3.570–3.600 kHz, modos de banda estrecha y digimodos; 3.600–3.800 kHz, todos los modos, con la fonía SSB en LSB. La telegrafía puede usarse en toda la banda, salvo en los segmentos de balizas, pero el plan marca el primer tramo como el propio de CW.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-19",
+  "tema": "R6",
+  "concepto": "20 m: 14.070–14.099 kHz para modos digitales de banda estrecha",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.5",
+    "enunciado": "En la banda de 20 m, el segmento 14.070–14.099 kHz del plan de bandas HF de la IARU para la Región 1 está destinado a:",
+    "opciones": [
+     "telegrafía (CW)",
+     "fonía SSB",
+     "balizas",
+     "modos digitales de banda estrecha (digimodos)"
+    ],
+    "clave": "d",
+    "sol": "En 20 m el plan reparte así: 14.000–14.070 kHz, CW; 14.070–14.099 kHz, modos de banda estrecha y digimodos (hasta 500 Hz de anchura; RTTY, PSK, etc.); 14.099–14.101 kHz, balizas en exclusiva; 14.101–14.350 kHz, todos los modos, con la fonía SSB en USB. Por tanto, la telegrafía corresponde al tramo inferior, la fonía al superior y las balizas al estrecho segmento de 2 kHz que sigue al de digimodos. #no-esta[En 20 m el plan HF de la IARU para la Región 1 distribuye la banda así: 14.000–14.070 kHz, telegrafía (CW); 14.070–14.099 kHz, modos de banda estrecha y digimodos (p. ej., RTTY o PSK, hasta 500 Hz de ancho); 14.099–14.101 kHz, balizas exclusivamente; 14.101–14.350 kHz, todos los modos, incluida la fonía en USB.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-21",
+  "tema": "R6",
+  "concepto": "Las frecuencias del plan HF son las realmente transmitidas, no la del dial",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.3",
+    "enunciado": "En el plan de bandas HF de la IARU para la Región 1, las frecuencias de los segmentos se entienden como:",
+    "opciones": [
+     "frecuencias del dial, es decir, de la portadora suprimida",
+     "frecuencias de recepción, sin aplicación a la emisión",
+     "frecuencias centrales del canal de 3 kHz de cada emisión",
+     "frecuencias realmente transmitidas (las que ocupa la emisión), no la de la portadora suprimida"
+    ],
+    "clave": "d",
+    "sol": "La nota del plan HF es explícita: las frecuencias del plan son «frecuencias transmitidas», no las de la portadora suprimida. Lo que debe quedar dentro del segmento es toda la emisión, no solo el dial. Por eso en LSB, donde la banda lateral cuelga por debajo del dial, el plan fija el ajuste de dial mínimo para fonía: 1.843, 3.603 y 7.053 kHz, tres kilohercios por encima del borde inferior del segmento. En USB ocurre al revés: de 20 a 10 m el dial máximo queda 3 kHz por debajo del borde superior de la banda. La opción a) es justo lo que la nota descarta. #vease[(Véase tema T1, sección «Señales moduladas» (SSB con portadora suprimida).)] #no-esta[En SSB la portadora se suprime: la frecuencia del dial es la de esa portadora y la señal ocupa unos 2,7 kHz a un lado, por debajo en LSB y por encima en USB. El plan HF de la IARU para la Región 1 se refiere a las frecuencias realmente transmitidas, no a la del dial. Por eso indica ajustes de dial límite: en LSB, como mínimo 1.843, 3.603 y 7.053 kHz (3 kHz sobre el borde del segmento); en USB, de 20 a 10 m, como máximo 3 kHz por debajo del borde superior de la banda.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R6-22",
+  "tema": "R6",
+  "concepto": "Bandas sin concursos: 60, 30, 17 y 12 m",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R6.1",
+    "enunciado": "Según el plan de bandas HF de la IARU para la Región 1, no debe realizarse actividad de concurso en la banda de:",
+    "opciones": [
+     "30 m (10 MHz)",
+     "20 m (14 MHz)",
+     "40 m (7 MHz)",
+     "15 m (21 MHz)"
+    ],
+    "clave": "a",
+    "sol": "El plan HF de la Región 1 lo dice sin rodeos: la actividad de concurso no debe tener lugar en las bandas de 5, 10, 18 y 24 MHz, es decir, 60, 30, 17 y 12 m. De las cuatro opciones, solo los 30 m (10 MHz) figuran en esa lista. Las otras tres admiten concursos: en 80, 40 y 20 m el plan incluso marca tramos preferentes para concurso, en CW o en SSB. Además, recomienda a quien no concursa que use las bandas libres de concurso (30, 17 y 12 m) durante los grandes concursos internacionales. #no-esta[El plan de bandas HF de la IARU para la Región 1 (en vigor desde el 16 de octubre de 2020) establece que la actividad de concurso no debe tener lugar en las bandas de 5, 10, 18 y 24 MHz (60, 30, 17 y 12 m). También recomienda que quienes no concursan usen las bandas de 30, 17 y 12 m durante los grandes concursos internacionales. El resto de las bandas HF sí admite concursos; en 80, 40 y 20 m el plan marca incluso tramos preferentes para concurso en CW o en SSB.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-01",
+  "tema": "R7",
+  "concepto": "Definición del servicio de aficionados: instrucción individual, intercomunicación y estudios técnicos, sin lucro",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.10",
+    "enunciado": "De acuerdo con el Reglamento de Radiocomunicaciones, el servicio de aficionados se define como un servicio de:",
+    "opciones": [
+     "radiodifusión de programas de contenido cultural",
+     "instrucción individual, intercomunicación y estudios técnicos",
+     "comunicaciones comerciales de ámbito local",
+     "enlace entre servicios de emergencia"
+    ],
+    "clave": "b",
+    "sol": "Es la definición del Reglamento de Radiocomunicaciones de la UIT (número 1.56): un servicio de _instrucción individual, intercomunicación y estudios técnicos_ efectuado por aficionados debidamente autorizados, sin fines de lucro. Todo lo demás del temario se deduce de ahí."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-02",
+  "tema": "R7",
+  "concepto": "Contenido: temas del servicio y observaciones de carácter personal",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.11",
+    "enunciado": "Las transmisiones entre estaciones de aficionado deben limitarse a:",
+    "opciones": [
+     "cualquier asunto, siempre que no se emplee lenguaje ofensivo",
+     "mensajes de terceros de carácter comercial",
+     "comunicaciones relacionadas con el servicio de aficionados y observaciones de carácter personal",
+     "retransmisiones de emisoras de radiodifusión"
+    ],
+    "clave": "c",
+    "sol": "El servicio no es un medio de comunicación general: las transmisiones se ciñen a asuntos propios de la radioafición, con las observaciones de carácter personal que la cortesía admite. Lo que queda fuera es el tráfico comercial y el de terceros con contenido ajeno al servicio."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R7.4",
+    "enunciado": "Las emisiones de radioaficionado se limitarán a:",
+    "respuesta": "temas relacionados con el servicio de aficionados y observaciones de carácter personal"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R7-03",
+  "tema": "R7",
+  "concepto": "Prohibidos fines comerciales, publicitarios o lucrativos; permitidos mensajes técnicos sobre ensayos",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.5",
+    "enunciado": "De las siguientes acciones, está permitida en el tráfico entre estaciones de aficionado:",
+    "opciones": [
+     "transmitir mensajes de naturaleza técnica sobre ensayos",
+     "transmitir propaganda electoral",
+     "emitir anuncios de productos con fines lucrativos",
+     "emitir con el distintivo de otro radioaficionado sin su permiso"
+    ],
+    "clave": "a",
+    "sol": "Mensajes técnicos sobre ensayos: sí, es el contenido propio del servicio (art. 2.1 de la Orden: instrucción individual, intercomunicación y estudios técnicos, sin fines de lucro). La propaganda electoral es ajena a ese fin (la Orden no la menciona por su nombre); la publicidad con fines lucrativos es causa de revocación (art. 8.1.b); y usar el distintivo de otro sin su permiso incumple el régimen de identificación (art. 27)."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-04",
+  "tema": "R7",
+  "concepto": "Mensajes de terceros: no permitidos con carácter general (salvo emergencia)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.9",
+    "enunciado": "La transmisión de mensajes de cualquier naturaleza con destino a terceros ajenos al servicio de aficionados:",
+    "opciones": [
+     "está siempre permitida",
+     "está permitida previo pago de una tasa",
+     "no está permitida con carácter general",
+     "está permitida solo en fin de semana"
+    ],
+    "clave": "c",
+    "sol": "Con carácter general no se permite cursar tráfico con destino a terceros ajenos al servicio; la excepción son las emergencias y catástrofes."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-05",
+  "tema": "R7",
+  "concepto": "Lenguaje claro: sin códigos que oculten el significado (Q y abreviaturas sí)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.12",
+    "enunciado": "Las comunicaciones entre estaciones de aficionado deben efectuarse:",
+    "opciones": [
+     "en lenguaje claro, sin códigos que oculten su contenido",
+     "en cualquier clave acordada entre las estaciones",
+     "exclusivamente en castellano",
+     "mediante códigos cifrados si se trata de concursos"
+    ],
+    "clave": "a",
+    "sol": "El lenguaje claro es una exigencia reglamentaria: no se pueden emplear códigos que oculten el sentido de la comunicación. El código Q y las abreviaturas no lo contradicen, porque son públicos y su significado está normalizado — abrevian, no cifran."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R7.3",
+    "enunciado": "En relación con el contenido de las transmisiones entre estaciones de aficionado, es correcto afirmar que:",
+    "respuesta": "deben efectuarse en lenguaje claro, sin codificarse para ocultar su significado"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R7-06",
+  "tema": "R7",
+  "concepto": "Escuchar antes de transmitir (QRL?)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.1",
+    "enunciado": "Comprobar si alguien está utilizando una frecuencia antes de iniciar una transmisión en ella es:",
+    "opciones": [
+     "una pérdida de tiempo innecesaria",
+     "una práctica de operación adecuada",
+     "obligatorio solo en las bandas de VHF",
+     "necesario únicamente en los concursos"
+    ],
+    "clave": "b",
+    "sol": "Escuchar antes de transmitir («#_r7-cod[¿QRL?]») es la primera norma de operación."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-07",
+  "tema": "R7",
+  "concepto": "Interferir deliberadamente: nunca está permitido",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.23",
+    "enunciado": "Interferir deliberadamente las emisiones de otra estación de aficionado:",
+    "opciones": [
+     "no está permitido en ningún caso",
+     "se admite en los concursos",
+     "se admite si la otra estación ocupaba la frecuencia",
+     "se admite si se avisa previamente"
+    ],
+    "clave": "a",
+    "sol": "La interferencia deliberada es de las conductas peor consideradas, en lo reglamentario y en lo ético. Ni la competición ni el hecho de que otro «ocupara» la frecuencia la justifican: la respuesta correcta siempre es cambiar de frecuencia."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R7.2",
+    "enunciado": "Interferir deliberadamente las emisiones de otra estación de radioaficionado está permitido:",
+    "respuesta": "nunca"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R7-08",
+  "tema": "R7",
+  "concepto": "Decir «cambio» es recomendable, no obligatorio",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.6",
+    "enunciado": "Utilizar la palabra «cambio» al finalizar cada transmisión en fonía es:",
+    "opciones": [
+     "obligatorio por el Reglamento de Radiocomunicaciones",
+     "una falta de procedimiento",
+     "recomendable",
+     "exclusivo de las comunicaciones de emergencia"
+    ],
+    "clave": "c",
+    "sol": "Decir «cambio» al ceder la palabra es recomendable como buena práctica, no una obligación."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-09",
+  "tema": "R7",
+  "concepto": "Deletrear con el alfabeto fonético internacional; no inventar palabras",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·17"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.7",
+    "enunciado": "Al deletrear las letras de su indicativo, el radioaficionado debe utilizar:",
+    "opciones": [
+     "cualquier palabra que empiece por esa letra",
+     "el alfabeto fonético internacional (OACI)",
+     "nombres de ciudades españolas",
+     "el alfabeto Morse hablado"
+    ],
+    "clave": "b",
+    "sol": "Para deletrear se usa el alfabeto fonético internacional (OACI); inventar palabras dificulta la comprensión."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R7.13",
+    "enunciado": "Al deletrear un mensaje, el radioaficionado debe tener en cuenta que:",
+    "respuesta": "no es aconsejable inventar palabras: debe emplearse el alfabeto internacional"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R7-13",
+  "tema": "R7",
+  "concepto": "Código SINPO: intensidad, interferencias, ruido, propagación y calidad global",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R7.5",
+    "enunciado": "El código de informe #_apc2-m[SINPO], usado sobre todo por los radioescuchas, valora cada parámetro en una escala de 1 a 5. Sus cinco letras corresponden a:",
+    "opciones": [
+     "legibilidad, intensidad y tono de la señal",
+     "potencia del transmisor, distancia, frecuencia, modulación y antena utilizada",
+     "intensidad de la señal, interferencias, ruido, perturbación de la propagación y calidad global",
+     "únicamente la legibilidad de la señal, de 1 (ilegible) a 5 (perfectamente legible)"
+    ],
+    "clave": "c",
+    "sol": "#_apc2-m[SINPO] es un código de informe de recepción (Recomendación UIT-R SM.1135) cuyas letras son las iniciales, en inglés, de _Signal_ (intensidad de la señal), _Interference_ (interferencias), _Noise_ (ruido), _Propagation_ (perturbación de la propagación, como el desvanecimiento) y _Overall_ (calidad global). Cada una se puntúa de 1 a 5. La legibilidad, la intensidad y el tono forman el informe #_apc2-m[RST], el habitual entre radioaficionados; la legibilidad sola es la R de ese informe. #vease[(Véase tema R3, sección «Abreviaturas».)] #no-esta[El informe #_apc2-m[RST] no es el único código de calidad. #_apc2-m[SINPO] lo emplean sobre todo los radioescuchas en sus informes de recepción. Son cinco letras, cada una de 1 a 5, donde 5 es lo mejor: intensidad de la señal (S), interferencias (I), ruido (N), perturbación de la propagación (P), como el desvanecimiento, y calidad global (O). Entre radioaficionados es más habitual el informe #_apc2-m[RS] en fonía y el #_apc2-m[RST] en telegrafía.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-14",
+  "tema": "R7",
+  "concepto": "Código del Radioaficionado: considerado, leal, progresista, amistoso, equilibrado y patriota",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R7.2",
+    "enunciado": "Según el «Código del Radioaficionado» (_Amateur’s Code_), el radioaficionado es considerado, leal, progresista, amistoso, equilibrado y:",
+    "opciones": [
+     "patriota",
+     "disciplinado",
+     "competitivo",
+     "altruista"
+    ],
+    "clave": "a",
+    "sol": "El Código del Radioaficionado (_Amateur’s Code_) es una adaptación, recogida en el manual de la IARU _Ethics and Operating Procedures for the Radio Amateur_, del que redactó P. M. Segal en 1928. Describe al radioaficionado como considerado, leal, progresista, amistoso, equilibrado y patriota: tiene su estación y sus conocimientos siempre dispuestos para servir al país y a la comunidad. Disciplinado, competitivo y altruista no figuran entre esos seis rasgos. #vease[(Véase tema R7, sección «Responsabilidad social y procedimientos operativos».)] #no-esta[El Código del Radioaficionado (_Amateur’s Code_, P. M. Segal, 1928) resume la conducta ideal en seis rasgos. Considerado: nunca opera de modo que reste placer a otros. Leal: apoya a los demás aficionados, a los radioclubes y a su asociación nacional. Progresista: estación bien construida y al día, y operación irreprochable. Amistoso: paciente con el principiante y dispuesto a ayudar. Equilibrado: la radio es una afición que no debe quitar tiempo a la familia, al trabajo, a los estudios ni a la comunidad. Patriota: estación y conocimientos siempre al servicio del país y de la comunidad.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-15",
+  "tema": "R7",
+  "concepto": "Autorregulación (self-policing): autodisciplina, sin policía propia",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R7.3",
+    "enunciado": "Se dice que la comunidad radioaficionada es, en gran medida, «autorregulada» (_self-policing_). Esto significa que:",
+    "opciones": [
+     "las asociaciones de radioaficionados pueden multar a los operadores que incumplan las normas",
+     "la Administración renuncia a inspeccionar las estaciones, porque de eso se ocupan los propios aficionados",
+     "cada operador decide por sí mismo qué bandas, frecuencias y potencias utiliza",
+     "la buena conducta en las bandas descansa en la autodisciplina de cada aficionado, sin que la comunidad tenga una policía propia"
+    ],
+    "clave": "d",
+    "sol": "La idea procede del manual de la IARU _Ethics and Operating Procedures for the Radio Amateur_: la autodisciplina de cada uno es la base de la conducta, lo que no implica que la comunidad tenga servicios de policía propios. La inspección y las sanciones siguen siendo de la Administración (Orden IET/1311/2013, arts. 33 y 34), por lo que ni las asociaciones multan (a) ni la Administración renuncia a inspeccionar (b). Y las bandas, frecuencias y potencias las fija la reglamentación, no el operador (c). #vease[(Véase tema R7, sección «Responsabilidad social y procedimientos operativos».)] #no-esta[La radioafición se considera en gran medida autorregulada: las autoridades suelen fijarse solo en que se cumplan las normas legales, y por eso la base de la conducta en las bandas es la autodisciplina de cada aficionado. Eso no significa que la comunidad tenga policía propia: la inspección y las sanciones corresponden a la Administración (Orden IET/1311/2013, arts. 33 y 34). De ahí la importancia de conocer las normas de buena práctica y aplicarlas sin esperar a que nadie nos las exija.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-17",
+  "tema": "R7",
+  "concepto": "Antenas: garantizar el derecho de terceros a no sufrir daños",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.17",
+    "enunciado": "Al instalar una antena de estación de aficionado debe tenerse en cuenta que:",
+    "opciones": [
+     "la responsabilidad por daños a terceros corresponde al fabricante",
+     "debe garantizarse el derecho de terceros a no sufrir daños en su propiedad",
+     "basta con avisar verbalmente a los vecinos",
+     "no existe obligación alguna si la instalación está autorizada"
+    ],
+    "clave": "b",
+    "sol": "La instalación no puede crear un riesgo para los demás. De ahí la exigencia de seguro de responsabilidad civil para las antenas exteriores y el cuidado en anclajes, soportes y distancias, que es también materia del tema T10."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-18",
+  "tema": "R7",
+  "concepto": "Autorización especial que causa interferencias: suspender de inmediato",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·15"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.18",
+    "enunciado": "Si el titular de una autorización especial de emisión comprueba que está produciendo interferencias a otros sistemas, debe:",
+    "opciones": [
+     "continuar hasta agotar el plazo de la autorización",
+     "reducir la potencia a la mitad y seguir emitiendo",
+     "suspender de inmediato las transmisiones",
+     "comunicarlo al finalizar el periodo autorizado"
+    ],
+    "clave": "c",
+    "sol": "Las autorizaciones especiales no dan prioridad sobre otros servicios: si se comprueba que se interfiere, se suspende de inmediato y no se reanuda hasta corregir la causa. Es el mismo principio que rige toda la reglamentación de interferencias."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-19",
+  "tema": "R7",
+  "concepto": "Objeto de la prueba de capacitación: evaluar la capacidad para operar",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·17"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R7.14",
+    "enunciado": "La prueba de capacitación de radioaficionado tiene por objeto:",
+    "opciones": [
+     "acreditar la propiedad de los equipos de la estación",
+     "evaluar la capacidad del aspirante para operar estaciones del servicio de aficionados",
+     "comprobar la aptitud física del aspirante",
+     "validar la instalación de antenas del domicilio"
+    ],
+    "clave": "b",
+    "sol": "La prueba acredita conocimientos técnicos y reglamentarios suficientes para operar sin causar perjuicio a otros servicios. No tiene nada que ver con la propiedad de los equipos ni con la instalación concreta, que son trámites distintos."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R7-22",
+  "tema": "R7",
+  "concepto": "Emitir música está prohibido: el servicio de aficionados no es radiodifusión",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.26",
+    "enunciado": "Transmitir música a través de una estación de aficionado:",
+    "opciones": [
+     "se admite si es de dominio público",
+     "se admite fuera de las horas punta",
+     "se admite si dura menos de un minuto",
+     "está prohibido, porque el de aficionados no es un servicio de radiodifusión"
+    ],
+    "clave": "d",
+    "sol": "El servicio de aficionados es de instrucción individual, intercomunicación y estudios técnicos (art. 2.1 de la Orden), no de difusión de contenidos a una audiencia. Emitir música lo convertiría en radiodifusión, que es otro servicio con otras autorizaciones."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ }
+]

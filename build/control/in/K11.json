@@ -1,0 +1,920 @@
+[
+ {
+  "cid": "R9-01",
+  "tema": "R9",
+  "concepto": "Inspección: el Ministerio competente, mediante la inspección de telecomunicaciones y las Jefaturas Provinciales",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.8",
+    "enunciado": "La inspección de los equipos y estaciones del servicio de aficionados corresponde a:",
+    "opciones": [
+     "las asociaciones de radioaficionados legalmente reconocidas",
+     "los ayuntamientos",
+     "las comunidades de propietarios",
+     "el Ministerio competente en telecomunicaciones, a través de la inspección de telecomunicaciones y sus Jefaturas Provinciales"
+    ],
+    "clave": "d",
+    "sol": "La inspección corresponde al Ministerio competente en telecomunicaciones, con las Jefaturas Provinciales como brazo territorial."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R9.13",
+    "enunciado": "Los órganos que materialmente realizan la inspección de las estaciones de aficionado en cada provincia son:",
+    "respuesta": "las Jefaturas Provinciales de Inspección de Telecomunicaciones"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R9-02",
+  "tema": "R9",
+  "concepto": "Potestad sancionadora: Administración General del Estado (titular de la Secretaría de Estado de Telecomunicaciones)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.16",
+    "enunciado": "La potestad sancionadora en materia de radiocomunicaciones corresponde a:",
+    "opciones": [
+     "la comunidad autónoma donde radique la estación",
+     "el ayuntamiento del municipio",
+     "la asociación de radioaficionados a la que pertenezca el titular",
+     "la Administración General del Estado"
+    ],
+    "clave": "d",
+    "sol": "El dominio público radioeléctrico es competencia estatal, y con él la inspección y la sanción. Ni comunidades autónomas ni ayuntamientos tienen nada que decir sobre las emisiones."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R9.3",
+    "enunciado": "Según el art. 114.1 de la Ley 11/2022, la competencia para imponer las sanciones por infracciones como emitir sin autorización o producir interferencias corresponde a:",
+    "respuesta": "la persona titular de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales"
+   }
+  ],
+  "nota": "R9.16: Estado frente a CC. AA., ayuntamientos y asociaciones; F-R9.3: el órgano concreto (no la CNMC ni los juzgados)."
+ },
+ {
+  "cid": "R9-03",
+  "tema": "R9",
+  "concepto": "Los inspectores tienen la consideración de autoridad pública",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.31",
+    "enunciado": "El personal de la inspección de telecomunicaciones, en el ejercicio de sus funciones, tiene la consideración de:",
+    "opciones": [
+     "autoridad pública",
+     "perito designado por las partes",
+     "representante de la asociación de radioaficionados",
+     "técnico contratado por el titular"
+    ],
+    "clave": "a",
+    "sol": "La Ley 11/2022 les da la consideración de autoridad pública: es lo que da fuerza a sus actas y lo que convierte en infracción la negativa u obstrucción a su labor. No actúa como perito de parte ni en representación de nadie: ejerce una potestad pública."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-04",
+  "tema": "R9",
+  "concepto": "Obligación de permitir la inspección; solo el domicilio protegido exige consentimiento o autorización judicial",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.14",
+    "enunciado": "Ante una actuación de la inspección de telecomunicaciones, el titular de una estación de aficionado está obligado a:",
+    "opciones": [
+     "exigir una orden judicial en todos los casos",
+     "negar el acceso si la estación está en un domicilio particular",
+     "permitir el acceso del personal inspector y facilitar la comprobación de la estación",
+     "desmontar previamente los equipos objeto de inspección"
+    ],
+    "clave": "c",
+    "sol": "La negativa o la obstrucción a la inspección constituye por sí misma infracción grave. La autorización de radioaficionado lleva aparejada la sujeción a esa comprobación."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R9.7",
+    "enunciado": "Según el art. 103.2 de la Ley 11/2022, el acceso de la inspección de telecomunicaciones a una finca o inmueble donde hay equipos o estaciones requiere el consentimiento de su titular o autorización judicial:",
+    "respuesta": "solo cuando sea necesario entrar en un domicilio constitucionalmente protegido o efectuar registros en él"
+   }
+  ],
+  "nota": "R9.14 la obligación general; F-R9.7 la excepción del domicilio."
+ },
+ {
+  "cid": "R9-05",
+  "tema": "R9",
+  "concepto": "Las infracciones se tipifican en la Ley General de Telecomunicaciones",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.7",
+    "enunciado": "La tipificación de las infracciones en que puede incurrir un radioaficionado se establece en:",
+    "opciones": [
+     "el reglamento interno de la URE",
+     "la Ley General de Telecomunicaciones vigente",
+     "los planes de banda de la IARU",
+     "la Recomendación T/R 61-01"
+    ],
+    "clave": "b",
+    "sol": "Las infracciones se tipifican en la Ley General de Telecomunicaciones vigente (hoy, Ley 11/2022)."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-06",
+  "tema": "R9",
+  "concepto": "Ley 11/2022: art. 106 muy graves, 107 graves, 108 leves",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R9.3",
+    "enunciado": "De acuerdo con la Ley General de Telecomunicaciones (Ley 11/2022, de 28 de junio), las infracciones se clasifican en:",
+    "opciones": [
+     "Art. 105 muy graves, art. 106 graves, art. 107 leves.",
+     "Art. 106 muy graves, art. 107 graves, art. 108 leves.",
+     "Art. 106 graves, art. 107 muy graves, art. 108 leves.",
+     "Art. 107 muy graves, art. 108 graves, art. 109 leves."
+    ],
+    "clave": "b",
+    "sol": "Según la Ley 11/2022, de 28 de junio (BOE-A-2022-10757), el art. 105 establece la clasificación (muy graves, graves y leves) y los tres artículos siguientes tipifican cada grado por orden de gravedad: art. 106, las muy graves; art. 107, las graves; art. 108, las leves. Las demás opciones desplazan o invierten la numeración: el art. 105 es la clasificación, no una categoría, y el art. 109 trata ya de las sanciones (multas), no de las infracciones. Regla para recordarlo: a mayor gravedad, menor número de artículo (106, 107, 108). #vease[(Véase tema R9, introducción (tabla de grados y conductas típicas con los arts. 106–108).)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-07",
+  "tema": "R9",
+  "concepto": "Muy grave: interceptar sin autorización telecomunicaciones no destinadas al público",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.1",
+    "enunciado": "La Ley General de Telecomunicaciones tipifica como infracción MUY GRAVE:",
+    "opciones": [
+     "retrasar la aportación de datos requeridos por la Administración",
+     "la interceptación, sin autorización, de telecomunicaciones no destinadas al público en general",
+     "comunicarse con estaciones no autorizadas",
+     "emitir sin decir «cambio»"
+    ],
+    "clave": "b",
+    "sol": "Interceptar sin autorización telecomunicaciones no destinadas al público: infracción muy grave (protege el secreto de las comunicaciones)."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R9.18",
+    "enunciado": "La interceptación sin autorización de telecomunicaciones no destinadas al público en general, junto con la divulgación de su contenido, constituye una infracción:",
+    "respuesta": "muy grave"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R9-08",
+  "tema": "R9",
+  "concepto": "Grave: la mera producción de interferencias",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.2",
+    "enunciado": "La Ley General de Telecomunicaciones tipifica como infracción GRAVE:",
+    "opciones": [
+     "la mera producción de interferencias a redes o servicios autorizados",
+     "el uso del alfabeto fonético español antiguo",
+     "no ser socio de una asociación de radioaficionados",
+     "operar en fin de semana sin licencia de estación"
+    ],
+    "clave": "a",
+    "sol": "La mera producción de interferencias a redes o servicios autorizados es infracción grave (art. 107.6 de la Ley 11/2022); si la interferencia es deliberada, pasa a muy grave (art. 106.7). Ojo: los bancos de preguntas antiguos dan como grave la «emisión de señales de identificación falsas o engañosas» (art. 77.5 de la Ley 9/2014 y, antes, art. 54.d de la Ley 32/2003); la Ley 11/2022 no la tipifica con esas palabras. Si en el examen aparece con la opción «grave», es la que dan por buena. La identificación falsa sigue prohibida por el Reglamento de Radiocomunicaciones y por la Constitución de la UIT (art. 47)."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-09",
+  "tema": "R9",
+  "concepto": "Muy grave: la producción deliberada de interferencias",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.8",
+    "enunciado": "La producción deliberada de interferencias a redes o servicios autorizados constituye, según la Ley 11/2022:",
+    "opciones": [
+     "una infracción grave",
+     "una infracción leve",
+     "una infracción muy grave",
+     "una infracción solo cuando la Administración ya ha requerido el cese"
+    ],
+    "clave": "c",
+    "sol": "El art. 106.7 tipifica como infracción muy grave la producción deliberada de interferencias a redes o servicios autorizados. La mera producción de interferencias, sin deliberación, es grave (art. 107.6): la diferencia está en la intención. No hace falta requerimiento previo para que haya infracción; no atender después el requerimiento de cese es otra infracción muy grave distinta (art. 106.8). «Leve» infravalora ambas conductas, y «solo tras el requerimiento» contradice el texto de la ley. #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador» (tabla de grados de infracción).)]\n\n#_apc3-net[Art. 106.7 de la Ley 11/2022: es infracción muy grave la producción deliberada, en España o en los países vecinos, de interferencias a redes o servicios autorizados. La mera producción de interferencias, sin deliberación, es infracción grave (art. 107.6), y no atender el requerimiento de cese de la Secretaría de Estado es de nuevo muy grave (art. 106.8).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-10",
+  "tema": "R9",
+  "concepto": "Muy grave: no atender el requerimiento de cese de emisiones",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.22",
+    "enunciado": "No atender el requerimiento de la autoridad competente para el cese de las emisiones constituye una infracción:",
+    "opciones": [
+     "leve",
+     "grave",
+     "exenta de sanción si se subsana después",
+     "muy grave"
+    ],
+    "clave": "d",
+    "sol": "Muy grave: así la tipifica el art. 106.8 de la Ley 11/2022. Desatender un requerimiento formal de cese agrava mucho el asunto: ya no se trata solo de la interferencia, sino de desobedecer a la autoridad que vela por el dominio público radioeléctrico. En bancos antiguos (con la ley de 2003) la respuesta era «grave» (art. 54.f de la Ley 32/2003); ya era muy grave en la Ley 9/2014 (art. 76.7) y la Ley 11/2022 lo mantiene."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-11",
+  "tema": "R9",
+  "concepto": "Muy grave: uso del espectro no adecuado al CNAF",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.9",
+    "enunciado": "La utilización del dominio público radioeléctrico, de frecuencias o de canales no adecuada al Cuadro Nacional de Atribución de Frecuencias (CNAF) es, según la Ley 11/2022:",
+    "opciones": [
+     "una infracción muy grave",
+     "una infracción grave",
+     "una infracción leve",
+     "una infracción solo si llega a causar interferencias"
+    ],
+    "clave": "a",
+    "sol": "El art. 106.5 incluye entre las infracciones muy graves la utilización del dominio público radioeléctrico, frecuencias o canales no adecuada al plan de utilización del espectro o al CNAF. La ley no exige que cause interferencias: basta con que el uso no se ajuste a la atribución. Otras infracciones próximas tienen menor grado: usar el espectro sin la autorización necesaria es grave (art. 107.5) e incumplir las condiciones de la autorización es leve (art. 108.5). Por eso «grave», «leve» y «solo si interfiere» fallan. #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador» (tabla de grados de infracción).)]\n\n#_apc3-net[Art. 106.5 de la Ley 11/2022: es infracción muy grave utilizar el dominio público radioeléctrico, frecuencias o canales radioeléctricos de modo no adecuado al plan de utilización del espectro o al Cuadro Nacional de Atribución de Frecuencias (CNAF). Basta la falta de adecuación; no se exige que haya interferencias. Usar el espectro sin la autorización necesaria es, en cambio, infracción grave (art. 107.5), e incumplir las condiciones de la autorización, leve (art. 108.5).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-12",
+  "tema": "R9",
+  "concepto": "Grave: negativa u obstrucción a la inspección",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.3",
+    "enunciado": "También constituye infracción GRAVE según la Ley General de Telecomunicaciones:",
+    "opciones": [
+     "cambiar de frecuencia sin anunciarlo",
+     "usar potencia inferior a la autorizada",
+     "la negativa o la obstrucción a ser inspeccionado y la no colaboración con la inspección",
+     "transmitir observaciones de carácter personal"
+    ],
+    "clave": "c",
+    "sol": "Negarse u obstruir la inspección, o no colaborar con ella: también grave."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-13",
+  "tema": "R9",
+  "concepto": "Grave: superar los límites de exposición o no señalizar/vallar",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.10",
+    "enunciado": "Efectuar emisiones que incumplan los límites de exposición a las emisiones radioeléctricas, o incumplir las medidas de señalización o vallado de las instalaciones radioeléctricas, constituye, según la Ley 11/2022:",
+    "opciones": [
+     "una infracción muy grave",
+     "una infracción leve",
+     "una recomendación de seguridad, sin consecuencias sancionadoras",
+     "una infracción grave"
+    ],
+    "clave": "d",
+    "sol": "El art. 107.7 tipifica como infracción grave efectuar emisiones que incumplan los límites de exposición, o incumplir las demás medidas de seguridad, incluidas las obligaciones de señalización o vallado de las instalaciones. También lo es contribuir, con emisiones no autorizadas, a que esos límites se superen. Conecta con el Anexo I, 3.5, de la Orden IET/1311/2013: las potencias máximas no eximen de reducir la potencia emitida, si hace falta, para que la energía radiada quede por debajo del valor que allí se fija en los emplazamientos accesibles o de paso. Sobrepasar los límites ni es una simple recomendación ni una falta leve. #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador» (tabla de grados de infracción).)]\n\n#_apc3-net[Art. 107.7 de la Ley 11/2022: es infracción grave efectuar emisiones radioeléctricas que incumplan los límites de exposición fijados en la normativa de desarrollo (niveles de emisión radioeléctrica tolerable) o incumplir las demás medidas de seguridad, incluidas las obligaciones de señalización o vallado de las instalaciones radioeléctricas. También lo es contribuir, mediante emisiones no autorizadas, a que esos límites se incumplan.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-15",
+  "tema": "R9",
+  "concepto": "Leve: comunicarse utilizando estaciones no autorizadas",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.4",
+    "enunciado": "La Ley General de Telecomunicaciones tipifica como infracción LEVE:",
+    "opciones": [
+     "la interceptación de comunicaciones de terceros",
+     "la mera producción de interferencias a redes o servicios autorizados",
+     "la obstrucción a la labor inspectora",
+     "el establecimiento de comunicaciones utilizando estaciones no autorizadas"
+    ],
+    "clave": "d",
+    "sol": "Establecer comunicaciones utilizando estaciones no autorizadas es infracción leve (art. 108.2 de la Ley 11/2022), salvo que deba considerarse grave. La interceptación es muy grave (art. 106.15); la mera producción de interferencias (art. 107.6) y la obstrucción a la inspección (art. 107.36) son graves. Ojo: el banco antiguo decía «con estaciones no autorizadas» (redacción de la Ley 32/2003, donde era grave, art. 54.g) y la versión previa de esta pregunta ofrecía como distractor el «uso de identificaciones falsas», que entonces (Ley 9/2014, art. 77.5) era grave y que la Ley 11/2022 ya no tipifica con esas palabras. La clave del banco no cambia."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-16",
+  "tema": "R9",
+  "concepto": "Leve: no facilitar los datos requeridos o retrasarlos",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.9",
+    "enunciado": "No facilitar los datos requeridos por la Administración, o retrasar injustificadamente su aportación cuando resulte exigible, constituye una infracción:",
+    "opciones": [
+     "leve",
+     "grave",
+     "muy grave",
+     "no constituye infracción"
+    ],
+    "clave": "a",
+    "sol": "No facilitar los datos requeridos, o retrasar su aportación injustificadamente, es infracción leve (art. 108.12 de la Ley 11/2022). Pasa a grave si se exceden los plazos: una vez transcurrido un mes desde el fin del plazo del requerimiento o finalizado el del segundo requerimiento (art. 107.34)."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-17",
+  "tema": "R9",
+  "concepto": "Leve: instalar una estación de radioaficionado sin autorización",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.11",
+    "enunciado": "La instalación de una estación de radioaficionado careciendo de autorización constituye, según la Ley 11/2022:",
+    "opciones": [
+     "una infracción grave",
+     "una infracción leve",
+     "una infracción muy grave",
+     "una infracción solo si la estación llega a emitir"
+    ],
+    "clave": "b",
+    "sol": "El art. 108.4 tipifica como infracción leve la instalación de estaciones radioeléctricas de radioaficionado careciendo de autorización: es el tipo propio de nuestro servicio. El art. 107.1, más general, castiga como grave la instalación sin autorización de estaciones radioeléctricas; para las de radioaficionado la ley tiene su tipo leve. La ley castiga la propia instalación, sin exigir que la estación llegue a emitir. La multa máxima de una infracción leve es de 100 000 euros (art. 109.1.d). #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador».)]\n\n#_apc3-net[Infracciones leves que afectan al radioaficionado (art. 108 de la Ley 11/2022): comunicarse utilizando estaciones no autorizadas (108.2), instalar una estación de radioaficionado careciendo de autorización (108.4) e incumplir las condiciones de la autorización (108.5). Multa máxima: 100 000 euros (art. 109.1.d). Instalar sin la autorización necesaria otras estaciones radioeléctricas es, en general, infracción grave (art. 107.1).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-18",
+  "tema": "R9",
+  "concepto": "Leve: emisión no autorizada, salvo que sea grave o muy grave",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.12",
+    "enunciado": "La producción de cualquier tipo de emisión radioeléctrica no autorizada es, según la Ley General de Telecomunicaciones, una infracción:",
+    "opciones": [
+     "muy grave en todo caso",
+     "grave en todo caso",
+     "leve, salvo que deba considerarse grave o muy grave",
+     "que solo se sanciona si llega a causar interferencias"
+    ],
+    "clave": "c",
+    "sol": "Lo dice el art. 108.1 de la Ley 11/2022: emitir sin autorización es, como regla, infracción leve (multa de hasta 100.000 euros, art. 109.1.d). La salvedad final importa: si la emisión vulnera los planes de utilización del espectro o el Cuadro Nacional de Atribución de Frecuencias es muy grave (art. 106.6), y si produce interferencias puede pasar a grave (art. 107.6) o muy grave (art. 106.7, si son deliberadas). Por eso «grave en todo caso» y «muy grave en todo caso» son falsas. Tampoco hace falta causar interferencias: la emisión no autorizada ya es infracción por sí misma. #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador» (tabla de grados de infracción).)]\n\n#_apc3-net[Infracciones leves del art. 108 de la Ley 11/2022 que afectan al radioaficionado: producir cualquier tipo de emisión radioeléctrica no autorizada (108.1), salvo que deba considerarse grave o muy grave; comunicarse con estaciones no autorizadas (108.2); instalar una estación de radioaficionado careciendo de autorización (108.4); incumplir las condiciones autorizadas (108.5); no facilitar datos a la Administración (108.12). Multa de hasta 100.000 euros (art. 109.1.d). Instalar estaciones radioeléctricas sin la autorización necesaria es, en general, infracción grave (art. 107.1).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-19",
+  "tema": "R9",
+  "concepto": "No es infracción comunicar con otra estación de la que se es titular",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R9.1",
+    "enunciado": "Efectuar radiocomunicaciones con otra estación de la que se es titular constituye, según la legislación vigente, una infracción:",
+    "opciones": [
+     "Ninguna (no es infracción)",
+     "Muy grave",
+     "Leve",
+     "Grave"
+    ],
+    "clave": "a",
+    "sol": "Ninguna norma vigente prohíbe ni tipifica esa conducta: no figura en las infracciones muy graves, graves ni leves de los arts. 106 a 108 de la Ley 11/2022, que es la que tipifica las infracciones de los radioaficionados (Orden IET/1311/2013, art. 34). El servicio de aficionados es de «intercomunicación» (art. 2.1) y nada exige que las dos estaciones tengan titulares distintos. No la confundas con la infracción leve de comunicarse con estaciones #emph[no autorizadas] (art. 108.2): aquí ambas lo están. «Falta» es el término del reglamento antiguo; hoy se dice infracción. #vease[(Véase tema R9, tabla de conductas típicas y pregunta sobre la infracción leve de comunicarse con estaciones no autorizadas.)]\n\n    #no-esta[Rige el principio de tipicidad (art. 27 de la Ley 40/2015): solo es infracción administrativa lo que una ley tipifica expresamente. En telecomunicaciones, las infracciones son las de los arts. 106 (muy graves), 107 (graves) y 108 (leves) de la Ley 11/2022, a las que remite la Orden IET/1311/2013 (art. 34). Si una conducta no figura en esas listas, como comunicar entre dos estaciones propias, no es infracción. Lo que sí es leve (art. 108.2) es establecer comunicaciones utilizando estaciones no autorizadas.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-20",
+  "tema": "R9",
+  "concepto": "No es infracción no llevar libro de registro (no existe la obligación)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.28",
+    "enunciado": "Carecer de un libro diario o registro de las comunicaciones efectuadas constituye:",
+    "opciones": [
+     "una infracción muy grave",
+     "una infracción grave",
+     "una infracción leve",
+     "no constituye infracción, al no existir tal obligación"
+    ],
+    "clave": "d",
+    "sol": "Es una pregunta trampa clásica: la reglamentación española no impone al radioaficionado llevar libro de guardia ni registro de contactos. Anotarlos es costumbre útil —y necesaria para diplomas y concursos—, pero voluntaria."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-21",
+  "tema": "R9",
+  "concepto": "Emitir fuera de las bandas autorizadas es infracción",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.27",
+    "enunciado": "Emplear bandas de frecuencia distintas de las autorizadas al servicio de aficionados constituye:",
+    "opciones": [
+     "una infracción",
+     "una práctica admitida si la banda está libre",
+     "una conducta permitida con baja potencia",
+     "una falta solo si se causa interferencia"
+    ],
+    "clave": "a",
+    "sol": "Las bandas atribuidas al servicio son el límite de la autorización: fuera de ellas hay otros servicios, muchos de seguridad, y emitir ahí es infracción con independencia de la potencia o de que la banda «parezca» libre."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-22",
+  "tema": "R9",
+  "concepto": "Multas máximas: 20 M€ muy graves y 2 M€ graves",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.5",
+    "enunciado": "Las multas previstas por la Ley General de Telecomunicaciones pueden llegar, para las infracciones muy graves y graves respectivamente, hasta:",
+    "opciones": [
+     "20 millones y 2 millones de euros",
+     "1 millón y 100 000 euros",
+     "500 000 y 50 000 euros",
+     "100 millones y 10 millones de euros"
+    ],
+    "clave": "a",
+    "sol": "Topes de multa: hasta 20 millones de euros las muy graves y hasta 2 millones las graves."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-23",
+  "tema": "R9",
+  "concepto": "Multa máxima de las leves: 100 000 €",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.1",
+    "enunciado": "La multa máxima que prevé la Ley 11/2022, General de Telecomunicaciones, por una infracción leve es de:",
+    "opciones": [
+     "50 000 euros",
+     "500 000 euros",
+     "100 000 euros",
+     "2 millones de euros"
+    ],
+    "clave": "c",
+    "sol": "El art. 109.1.d fija para las infracciones leves una multa de hasta 100 000 euros. La escala completa es: hasta 20 millones de euros para las muy graves (letra a), hasta 2 millones para las graves (letra c) y hasta 100 000 euros para las leves. Los 50 000 euros eran el tope de las leves en la ley anterior (Ley 9/2014, art. 79.1.d), cifra que todavía figura en preguntas antiguas. Los 2 millones son el tope de las graves, y 500 000 euros no corresponde a ningún grado del art. 109.1. #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador» (tabla de grados y multas).)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-24",
+  "tema": "R9",
+  "concepto": "Prescripción: 3 años muy graves, 2 graves, 1 leves",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "3·2·29",
+   "11·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.6",
+    "enunciado": "La sanción impuesta por una infracción grave prescribe a los:",
+    "opciones": [
+     "seis meses",
+     "cinco años",
+     "dos años",
+     "diez años"
+    ],
+    "clave": "c",
+    "sol": "La sanción grave prescribe a los dos años (muy graves: tres años; leves: un año)."
+   },
+   {
+    "id": "R9.10",
+    "enunciado": "Las infracciones muy graves en materia de telecomunicaciones prescriben a los:",
+    "opciones": [
+     "seis meses",
+     "dos años",
+     "tres años",
+     "diez años"
+    ],
+    "clave": "c",
+    "sol": "Los tres plazos van escalonados con la gravedad: tres años las muy graves, dos las graves y uno las leves. Es una de las pocas cifras del tema que conviene memorizar en bloque."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R9.11",
+    "enunciado": "Las infracciones leves en materia de telecomunicaciones prescriben:",
+    "respuesta": "al año"
+   },
+   {
+    "id": "R9.12",
+    "enunciado": "Las infracciones graves en materia de telecomunicaciones prescriben a los:",
+    "respuesta": "dos años"
+   }
+  ],
+  "nota": "R9.10 pregunta la infracción; R9.6 la sanción, que prescribe con la misma escala."
+ },
+ {
+  "cid": "R9-25",
+  "tema": "R9",
+  "concepto": "Sanciones accesorias: cese, ajuste, precintado o incautación de equipos, clausura",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.17",
+    "enunciado": "Con independencia de la multa que corresponda, la Administración puede acordar, como medida sobre los equipos:",
+    "opciones": [
+     "su venta en subasta pública",
+     "su precintado o incautación",
+     "su cesión obligatoria a otro radioaficionado",
+     "su traslado a un centro de investigación"
+    ],
+    "clave": "b",
+    "sol": "Es una sanción accesoria (art. 109.2.c de la Ley 11/2022), independiente de la multa, dirigida a que cese de inmediato la conducta infractora: se sella o se retira el equipo para que no pueda seguir emitiendo."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R9.2",
+    "enunciado": "De las siguientes medidas, ¿cuál _no_ figura entre las sanciones accesorias que el art. 109.2 de la Ley 11/2022 permite añadir a las infracciones de los arts. 106 a 108?",
+    "respuesta": "la inhabilitación del titular durante cinco años para operar como radioaficionado"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R9-26",
+  "tema": "R9",
+  "concepto": "Reiteración: 2 o más sanciones firmes del mismo tipo en 3 años; la leve pasa a grave",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·29"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.29",
+    "enunciado": "La reiteración en la comisión de infracciones leves:",
+    "opciones": [
+     "carece de consecuencias",
+     "puede dar lugar a que se califiquen como graves",
+     "obliga a repetir el examen",
+     "extingue la responsabilidad anterior"
+    ],
+    "clave": "b",
+    "sol": "La reiteración es una circunstancia que agrava: repetir conductas leves deja de ser un descuido y pasa a revelar un incumplimiento sostenido. La Ley 11/2022 la trata como infracción grave (art. 107.44): hay reiteración cuando se han impuesto sanciones firmes por dos o más infracciones del mismo tipo en un período de tres años (art. 109.6)."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R9.6",
+    "enunciado": "Según el art. 109.6 de la Ley 11/2022, hay incumplimiento reiterado cuando se impone sanción firme en vía administrativa por dos o más infracciones del mismo tipo en un período de:",
+    "respuesta": "tres años"
+   }
+  ],
+  "nota": "R9.29 el efecto; F-R9.6 el período de tres años."
+ },
+ {
+  "cid": "R9-27",
+  "tema": "R9",
+  "concepto": "El expediente se tramita por la LGT y el procedimiento administrativo común",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.19",
+    "enunciado": "El expediente sancionador en materia de telecomunicaciones se tramita con arreglo a:",
+    "opciones": [
+     "la Ley General de Telecomunicaciones y la legislación de procedimiento administrativo común",
+     "las recomendaciones de la CEPT",
+     "los planes de banda de la IARU",
+     "los estatutos de la asociación de radioaficionados"
+    ],
+    "clave": "a",
+    "sol": "La Ley sectorial tipifica y gradúa; el procedimiento administrativo común aporta las garantías — audiencia, prueba, plazos— comunes a cualquier expediente. Recomendaciones de la CEPT y planes de la IARU no son normas sancionadoras."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-28",
+  "tema": "R9",
+  "concepto": "Plazo para resolver el procedimiento sancionador: un año",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.4",
+    "enunciado": "Según el art. 114.2 de la Ley 11/2022, el plazo para resolver el procedimiento sancionador en materia de telecomunicaciones es de:",
+    "opciones": [
+     "un año",
+     "seis meses",
+     "tres meses",
+     "dos años"
+    ],
+    "clave": "a",
+    "sol": "El art. 114.2 remite al procedimiento administrativo común de la Ley 39/2015, pero con dos plazos propios: el de resolución es de un año, y el de alegaciones, de al menos quince días hábiles. Ni seis meses ni tres meses ni dos años figuran en ese artículo. No hay que confundirlo con la prescripción (art. 113), que es otra cosa: las infracciones prescriben a los tres años las muy graves, a los dos las graves y al año las leves. #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador».)]\n\n#_apc3-net[El procedimiento sancionador en materia de telecomunicaciones se tramita por el procedimiento administrativo común (Ley 39/2015), con dos plazos propios que fija el art. 114.2 de la Ley 11/2022: un año para resolver y, como mínimo, quince días hábiles para presentar alegaciones.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-29",
+  "tema": "R9",
+  "concepto": "Plazo mínimo de alegaciones: quince días hábiles",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R9.5",
+    "enunciado": "Según el art. 114.2 de la Ley 11/2022, en el procedimiento sancionador en materia de telecomunicaciones el plazo de alegaciones es, como mínimo, de:",
+    "opciones": [
+     "diez días hábiles",
+     "quince días naturales",
+     "quince días hábiles",
+     "diez días naturales"
+    ],
+    "clave": "c",
+    "sol": "El art. 114.2 dice que el plazo de alegaciones será como mínimo de quince días hábiles, y que el procedimiento debe resolverse en un año. «Como mínimo» significa que la Administración puede conceder más tiempo, pero no menos. Las dos opciones de diez días quedan por debajo del mínimo legal, y quince días naturales dan menos tiempo que quince hábiles, de modo que tampoco lo cumplen. #_apc3-ver[(Véase capítulo R9, «Inspección y régimen sancionador».)]\n\n#_apc3-net[En el procedimiento sancionador de telecomunicaciones se aplica el procedimiento administrativo común (Ley 39/2015), con dos plazos propios que fija el art. 114.2 de la Ley 11/2022: las alegaciones disponen como mínimo de quince días hábiles, y el procedimiento debe resolverse en un año.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-30",
+  "tema": "R9",
+  "concepto": "Interferencias comprobadas por la inspección: cese de las emisiones hasta corregir la causa",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.20",
+    "enunciado": "Si la inspección comprueba que una estación de aficionado causa interferencias perjudiciales a otros servicios, puede:",
+    "opciones": [
+     "obligar al titular a cambiar de domicilio",
+     "retirar el distintivo de llamada con carácter definitivo y automático",
+     "imponer únicamente una advertencia verbal sin más consecuencias",
+     "ordenar el cese de las emisiones hasta que se corrija la causa"
+    ],
+    "clave": "d",
+    "sol": "La prioridad es que la interferencia se acabe, y para eso basta con detener las emisiones mientras se corrige el problema. La retirada definitiva del distintivo sería una consecuencia del expediente sancionador, no una medida automática."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-31",
+  "tema": "R9",
+  "concepto": "Titular que sabe que interfiere: medidas técnicas razonables a su costa, sin esperar requerimiento",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.21",
+    "enunciado": "Si el titular de una estación de aficionado tiene constancia de que está causando interferencias, deberá:",
+    "opciones": [
+     "esperar a que la Administración le requiera formalmente",
+     "adoptar a su costa todas las medidas técnicas razonables para evitarlas",
+     "trasladar el problema a su asociación",
+     "continuar emitiendo mientras no haya denuncia"
+    ],
+    "clave": "b",
+    "sol": "La obligación nace en cuanto se tiene constancia, sin esperar requerimiento, y el coste corre por cuenta del titular: es él quien explota la estación. El art. 32 de la Orden fija el protocolo: si la SETSI comprueba la interferencia perjudicial, el titular debe cesar las emisiones y adoptar a su costa medidas técnicas razonables, siguiendo sus instrucciones; después lo comunica y puede reiniciar las emisiones sin más trámite, y si la interferencia persiste la SETSI puede imponer restricciones de bandas, potencia u horario."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-32",
+  "tema": "R9",
+  "concepto": "Revocación: fines comerciales sí; no tener estación no es causa",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.24",
+    "enunciado": "De las siguientes, _no_ es causa de revocación de una autorización de radioaficionado:",
+    "opciones": [
+     "realizar emisiones con fines comerciales, publicitarios o lucrativos",
+     "causar interferencias y no corregirlas",
+     "no disponer de una estación radioeléctrica",
+     "obstruir reiteradamente la labor inspectora"
+    ],
+    "clave": "c",
+    "sol": "Ser titular de la autorización no obliga a tener equipos: puede haberse aprobado el examen y no haber montado aún la estación, u operar en estaciones ajenas con permiso de sus titulares. Las otras tres sí comprometen la autorización. Las emisiones con fines comerciales, publicitarios o lucrativos son causa expresa de revocación (art. 8.1.b de la Orden IET/1311/2013), que remite además a las causas del reglamento de dominio público radioeléctrico: hoy el incumplimiento de las condiciones y requisitos técnicos o administrativos de uso y el empleo de las frecuencias para fines distintos de los autorizados (RD 123/2017, art. 95.1; Ley 11/2022, art. 95.3)."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-33",
+  "tema": "R9",
+  "concepto": "Cancelación de la autorización a petición del titular",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.32",
+    "enunciado": "La autorización de radioaficionado se cancelará:",
+    "opciones": [
+     "transcurridos diez años desde su concesión, sin excepción",
+     "solo mediante resolución sancionadora",
+     "en cualquier momento, a petición de su titular",
+     "únicamente por fallecimiento del titular"
+    ],
+    "clave": "c",
+    "sol": "La autorización se mantiene mientras su titular quiera y cumpla; y como es un derecho y no una carga, puede renunciar a ella cuando lo desee. La revocación por incumplimiento es un supuesto distinto."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R9-34",
+  "tema": "R9",
+  "concepto": "Portadora sin modular: solo para ensayos breves",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·30"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R9.25",
+    "enunciado": "La emisión de una portadora sin modular por una estación de aficionado:",
+    "opciones": [
+     "está prohibida en cualquier circunstancia",
+     "se admite a efectos de ensayo y durante un tiempo breve",
+     "puede mantenerse indefinidamente si se identifica",
+     "solo se admite en las bandas de VHF"
+    ],
+    "clave": "b",
+    "sol": "Una portadora sin modular no transmite información y ocupa frecuencia, así que solo se admite lo justo para ajustar la antena o el acoplador — y siempre identificándose. Hoy no hay una prohibición expresa (era de la Orden de 1986, derogada): se deduce del anexo I, 4.2 y 4.3, de la Orden, que limita la potencia y la duración de las emisiones a lo estrictamente necesario y exige carga artificial en los ensayos sin radiación. Mantenerla es, de hecho, interferir."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ }
+]

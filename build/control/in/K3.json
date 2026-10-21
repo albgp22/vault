@@ -1,0 +1,1942 @@
+[
+ {
+  "cid": "T3-01",
+  "tema": "T3",
+  "concepto": "Resistencias en serie: la corriente es la misma en todas y la caída de tensión es proporcional a cada R",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·9"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.10",
+    "enunciado": "En varias resistencias de diferente valor, conectadas en serie, la caída de tensión en cada una de\nellas, cuando circula una corriente, es:",
+    "opciones": [
+     "Inversamente proporcional al valor de la resistencia",
+     "Directamente proporcional al valor de la resistencia",
+     "Igual en todas",
+     "No hay caída de tensión"
+    ],
+    "clave": "b",
+    "sol": "\n    Por todas circula la misma corriente $I$, así que, por la ley de Ohm, la caída en cada una es\n    $V = I R$: directamente proporcional a su resistencia. Con $I = 2$ mA, una resistencia de 1 kΩ\n    cae 2 V y una de 4,7 kΩ cae 9,4 V. La caída solo sería igual en todas si las resistencias fueran\n    iguales, y nunca es nula mientras circula corriente. Este reparto es el principio del divisor de\n    tensión. #vease[(Véase tema T1, sección «Unidades y leyes fundamentales».)]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-T3.6",
+    "enunciado": "En varias resistencias de diferente valor conectadas en serie, la intensidad de la corriente que\ncircula por cada una de ellas será:",
+    "respuesta": "La misma"
+   }
+  ],
+  "nota": "Las dos son del banco público y preguntan los dos ángulos: la tensión (proporcional a R) y la corriente (igual en todas, trampa «proporcional»)."
+ },
+ {
+  "cid": "T3-02",
+  "tema": "T3",
+  "concepto": "Resistencias en paralelo: tensión común; la corriente de cada rama es inversamente proporcional a R y la total es la suma (Kirchhoff)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.44",
+    "enunciado": "En un circuito formado por tres resistencias de distinto valor conectadas en paralelo, la corriente que circula por cada una es:",
+    "opciones": [
+     "la misma en todas ellas",
+     "directamente proporcional a su resistencia",
+     "inversamente proporcional a su resistencia",
+     "independiente de su resistencia"
+    ],
+    "clave": "c",
+    "sol": "En paralelo todas soportan la misma tensión, así que por la ley de Ohm cada una toma $I = V slash R$: cuanto menor es la resistencia, más corriente pasa por ella. Por la de menor valor circula la mayor parte del total."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.29",
+    "enunciado": "En un circuito con dos resistencias en paralelo, la intensidad total es:",
+    "respuesta": "la suma de las intensidades de cada una de las ramas"
+   },
+   {
+    "id": "C-T3.17",
+    "enunciado": "La intensidad total a la salida de un circuito formado por varias resistencias conectadas en\nparalelo:",
+    "respuesta": "Es igual a la de entrada."
+   }
+  ],
+  "nota": "C-T3.17 es del banco público y tiene una redacción rara (corriente de salida = de entrada) que conviene haber visto; T3.44 prueba el reparto inverso a R."
+ },
+ {
+  "cid": "T3-03",
+  "tema": "T3",
+  "concepto": "Resistencia equivalente: serie suma, paralelo menor que la menor (producto/suma; n iguales, R/n); circuitos mixtos",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.2",
+    "enunciado": "Una resistencia de 10 Ω se conecta en serie con el conjunto en paralelo formado por una de 30 Ω y otra de 60 Ω. La resistencia equivalente es de:",
+    "opciones": [
+     "100 Ω",
+     "20 Ω",
+     "30 Ω",
+     "6,7 Ω"
+    ],
+    "clave": "c",
+    "sol": "Primero el paralelo: $30 dot 60 slash (30 + 60) = 1800 slash 90 = 20$ Ω. Ese bloque queda en serie con la resistencia de 10 Ω, luego $R = 10 + 20 = 30$ Ω. Los 100 Ω salen de sumar las tres como si todas estuvieran en serie. Los 20 Ω olvidan la resistencia en serie. Y 6,7 Ω es el resultado de poner las tres en paralelo: $1 slash R = 1/10 + 1/30 + 1/60 = 9/60$. _(Véase tema T1, sección «Unidades y leyes fundamentales».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.4",
+    "enunciado": "Al conectar dos resistencias en paralelo, la resistencia resultante es:",
+    "respuesta": "menor que cualquiera de ellas"
+   },
+   {
+    "id": "T3.42",
+    "enunciado": "La resistencia total de varias resistencias conectadas en serie es:",
+    "respuesta": "la suma de sus valores individuales"
+   },
+   {
+    "id": "T3.43",
+    "enunciado": "Dos resistencias iguales conectadas en paralelo presentan un valor resultante igual a:",
+    "respuesta": "la mitad de una de ellas"
+   },
+   {
+    "id": "F-T3.1",
+    "enunciado": "Dos resistencias de 30 Ω y 60 Ω conectadas en paralelo equivalen a:",
+    "respuesta": "20 Ω"
+   },
+   {
+    "id": "F-T3.3",
+    "enunciado": "Tres resistencias de 10 Ω, 20 Ω y 20 Ω se conectan en paralelo. La resistencia equivalente es de:",
+    "respuesta": "5 Ω"
+   }
+  ],
+  "nota": "F-T3.2 obliga a hacer el paralelo y luego la serie (distractores: todo en serie, todo en paralelo). T3.43 es la regla rápida de dos iguales (R/2), que cae tal cual."
+ },
+ {
+  "cid": "T3-04",
+  "tema": "T3",
+  "concepto": "Asociación de condensadores: en paralelo se suman; en serie, por inversas (al revés que las resistencias)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·9"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.28",
+    "enunciado": "Tres condensadores conectados en paralelo suman 400 pF. Si dos de ellos son de 100 pF, el tercero tiene una capacidad de:",
+    "opciones": [
+     "100 pF",
+     "400 pF",
+     "200 pF",
+     "300 pF"
+    ],
+    "clave": "c",
+    "sol": "En paralelo las capacidades se suman: $C_3 = 400 - 100 - 100 = 200$ pF. Ojo con el reflejo de aplicar la fórmula de las resistencias en paralelo: en los condensadores es al revés."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.3",
+    "enunciado": "Al conectar varios condensadores en paralelo, la capacidad resultante del conjunto es:",
+    "respuesta": "la suma de las capacidades individuales"
+   },
+   {
+    "id": "T3.56",
+    "enunciado": "La capacidad resultante entre los terminales del circuito de la figura responde a la expresión:\n    #circuito(caption: [Esquema de la pregunta T3.56.], sim: \"cappar.txt\")[\n      #esquema({\n        import zap: *\n        wire((0, 2.0), (4.2, 2.0))\n        wire((1.2, 0), (5.4, 0))\n        capacitor(\"c1\", (1.2, 2.0), (1.2, 0), label: $C_1$)\n        capacitor(\"c2\", (2.7, 2.0), (2.7, 0), label: $C_2$)\n ",
+    "respuesta": "$C = C_1 + C_2 + C_3$"
+   }
+  ],
+  "nota": "T3.28 es el ejemplo de la hoja de repaso; T3.56 es la misma idea con figura."
+ },
+ {
+  "cid": "T3-05",
+  "tema": "T3",
+  "concepto": "Asociación de bobinas sin acoplo: como las resistencias (serie suman; paralelo producto/suma)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·9"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.14",
+    "enunciado": "Dos bobinas de 20 μH y 30 μH, sin acoplamiento magnético entre ellas, se conectan en paralelo. La inductancia resultante es de:",
+    "opciones": [
+     "50 μH",
+     "25 μH",
+     "600 μH",
+     "12 μH"
+    ],
+    "clave": "d",
+    "sol": "En paralelo las dos bobinas soportan la misma tensión y se combinan como resistencias en paralelo: $L = (L_1 L_2)/(L_1 + L_2) = (20 dot 30)/50 = 12$ μH, menor que la menor de las dos. Los 50 μH son la suma, propia de la asociación en serie. Los 25 μH son la media aritmética, y los 600 μH el producto, que olvida dividir por la suma. _(Véase tema T3, sección «Asociación de componentes y resonancia» (las impedancias en serie se suman; en paralelo, las admitancias), y tema T2, sección «Bobinas».)_\n\n#_apc1-noest[Las bobinas se asocian como las resistencias (si no comparten flujo magnético). En serie las recorre la misma corriente y las tensiones inducidas se suman: $L = L_1 + L_2 + dots.c$. En paralelo soportan la misma tensión y las corrientes se suman: $1 slash L = 1 slash L_1 + 1 slash L_2 + dots.c$, o $L = L_1 L_2 slash (L_1 + L_2)$ para dos, siempre menor que la menor. Si comparten flujo hay que añadir la inductancia mutua $M$: en serie, $L = L_1 + L_2 plus.minus 2 M$.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.13",
+    "enunciado": "Dos bobinas de 10 μH y 15 μH, sin acoplamiento magnético entre ellas, se conectan en serie. La inductancia total es de:",
+    "respuesta": "25 μH"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T3-06",
+  "tema": "T3",
+  "concepto": "Impedancia de un circuito RLC serie: X = XL − XC, Z = √(R² + X²) e I = V/Z",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.36",
+    "enunciado": "Una resistencia de 60 Ω, una bobina de 150 Ω de reactancia y un condensador de 70 Ω de reactancia se conectan en serie. La impedancia total del conjunto es de:",
+    "opciones": [
+     "280 Ω",
+     "176 Ω",
+     "140 Ω",
+     "100 Ω"
+    ],
+    "clave": "d",
+    "sol": "Las reactancias de bobina y condensador se oponen (sus tensiones están en oposición de fase), así que se restan: $X = X_L - X_C = 150 - 70 = 80$ Ω inductivos. Esa reactancia neta está a 90° de la resistencia: $Z = sqrt(R^2 + X^2) = sqrt(60^2 + 80^2) = 100$ Ω. Los 280 Ω suman todo sin más; los 176 Ω combinan las tres magnitudes en cuadratura sin restar las reactancias; y los 140 Ω restan las reactancias, pero suman aritméticamente el resultado con $R$. _(Véase tema T3, sección «Asociación de componentes y resonancia».)_\n#_apc1-noest[Con bobina y condensador en serie, las reactancias tienen signo contrario y se restan: $X = X_L - X_C$ (inductiva si es positiva, capacitiva si es negativa). Después se combina con $R$ en cuadratura: $Z = sqrt(R^2 + X^2)$. En resonancia $X = 0$ y $Z = R$, el mínimo posible en un circuito serie.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.34",
+    "enunciado": "Un circuito serie formado por una resistencia de 15 Ω y una bobina de 20 Ω de reactancia presenta una impedancia de:",
+    "respuesta": "25 Ω"
+   },
+   {
+    "id": "F-T3.35",
+    "enunciado": "Un circuito serie, formado por una resistencia de 12 Ω y un condensador de 16 Ω de reactancia, se conecta a un generador de 100 V eficaces. La corriente que circula es de:",
+    "respuesta": "5 A"
+   }
+  ],
+  "nota": "F-T3.36 incluye la resta de reactancias y la suma en cuadratura; F-T3.35 añade I = V/Z si se quiere un ángulo de corriente."
+ },
+ {
+  "cid": "T3-07",
+  "tema": "T3",
+  "concepto": "Condensador en continua, en régimen permanente: circuito abierto (queda el divisor resistivo)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.57",
+    "enunciado": "En el circuito de la figura, una vez alcanzado el régimen permanente, la tensión entre los bornes del condensador $C$ vale:\n    #circuito(caption: [Esquema de la pregunta T3.57.], sim: \"voltdivide.txt\")[\n      #esquema({\n        import zap: *\n        bateria(\"b\", (0, 2.2), (0, 0))\n        _t3-et((-0.35, 1.1), [12 V], anchor: \"east\", size: 8.5pt)\n        wire((0, 2.2), (0.8, 2.2))\n        resistor(\"r1\", (0.8, 2.2), (2.4, 2.2), label: [1 kΩ])\n        wire((2.4, 2.2), (4.8, 2.2))\n        resistor(\"r2\", (3.0, 2.2), (3.0, 0), label: [3 kΩ])\n        capacitor(\"c\", (4.8, 2.2), (4.8, 0), label: $C$)\n        wire((0, 0), (4.8, 0))\n        node(\"n1\", (3.0, 2.2))\n        node(\"n2\", (3.0, 0))\n      })\n    ] <t3-fig-q57>",
+    "opciones": [
+     "12 V",
+     "3 V",
+     "0 V",
+     "9 V"
+    ],
+    "clave": "d",
+    "sol": "En régimen permanente el condensador está cargado y no circula corriente por su rama, así que el circuito se reduce al divisor de las dos resistencias: $V_C = 12 dot 3 slash (1 + 3) = 9$ V. El condensador queda a la tensión del punto al que está conectado."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Depende de figura, pero el circuito (12 V, 1 kΩ en serie, 3 kΩ y C en paralelo) puede describirse en texto."
+ },
+ {
+  "cid": "T3-08",
+  "tema": "T3",
+  "concepto": "Acoplo entre circuitos y etapas: las oscilaciones de uno pasan al otro; el acoplamiento deja pasar la señal y separa las polarizaciones",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·9"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.5",
+    "enunciado": "Se dice que dos circuitos están acoplados cuando:",
+    "opciones": [
+     "Las dimensiones de ambos se adaptan perfectamente",
+     "Tienen la misma frecuencia",
+     "Las oscilaciones de ambos están en resonancia",
+     "Las oscilaciones presentes en uno de ellos se transmiten al otro"
+    ],
+    "clave": "d",
+    "sol": "\n    Dos circuitos están acoplados cuando existe entre ellos un camino por el que la energía de las\n    oscilaciones de uno pasa al otro: un campo magnético común (un transformador son dos bobinas\n    acopladas), un condensador, una resistencia común o la radiación. No hace falta que tengan la\n    misma frecuencia ni que estén en resonancia —aunque la transferencia es más eficaz si lo están—,\n    y tampoco que sus dimensiones «se adapten»: lo que define el acoplo es que las oscilaciones de\n    uno se transmiten al otro. #vease[(Véase tema T2, sección «Transformadores».)]\n    #no-esta[El acoplo es la forma de pasar la señal de un circuito o etapa al siguiente. Puede ser por\n    inductancia mutua (dos bobinas que comparten flujo, como en un transformador), capacitivo (un\n    condensador en serie, el «condensador de acoplo») o directo (por una resistencia o un hilo).\n    Cuanto más fuerte es el acoplo, más energía se transfiere; con acoplo flojo pasa poca y cada\n    circuito conserva casi su frecuencia propia. El acoplo no deseado entre circuitos se llama\n    acoplo parásito.]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.49",
+    "enunciado": "El circuito de acoplamiento intercalado entre dos etapas amplificadoras:",
+    "respuesta": "deja pasar la señal e independiza las polarizaciones de ambas etapas"
+   }
+  ],
+  "nota": "C-T3.5 (banco público) es la definición de circuitos acoplados; T3.49 es el ángulo práctico entre etapas (condensador de acoplo que bloquea la continua)."
+ },
+ {
+  "cid": "T3-09",
+  "tema": "T3",
+  "concepto": "Condensador real: por encima de su autorresonancia se comporta como una bobina",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.40",
+    "enunciado": "Por encima de su frecuencia de autorresonancia, un condensador real se comporta como:",
+    "opciones": [
+     "un condensador ideal de mayor capacidad",
+     "una resistencia pura",
+     "una bobina",
+     "un circuito abierto"
+    ],
+    "clave": "c",
+    "sol": "Las patas y las armaduras de un condensador real tienen inductancia en serie. A baja frecuencia domina su reactancia capacitiva $X_C = 1/(2 pi f C)$; al subir, $X_C$ disminuye y $X_L = 2 pi f L$ crece hasta igualarse: es la frecuencia de autorresonancia, donde el componente es casi una resistencia pura y muy pequeña. Por encima manda la inductancia y el condensador se comporta como una bobina, por lo que deja de desacoplar. El circuito abierto (d) es el comportamiento del condensador ideal en continua, no el de uno real por encima de su autorresonancia. _(Véase tema T3, sección «Asociación de componentes y resonancia».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-10",
+  "tema": "T3",
+  "concepto": "Bobina real: la capacidad entre espiras la hace autorresonar; por encima se comporta como un condensador",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.41",
+    "enunciado": "Una bobina real tiene una pequeña capacidad parásita entre sus espiras. A frecuencias elevadas, esa capacidad hace que la bobina:",
+    "opciones": [
+     "siga aumentando su reactancia de forma proporcional a la frecuencia, como la bobina ideal",
+     "deje de tener pérdidas y su factor de calidad se haga infinito",
+     "se comporte como una resistencia pura de valor constante",
+     "resuene consigo misma y, por encima de esa frecuencia, se comporte como un condensador"
+    ],
+    "clave": "d",
+    "sol": "La capacidad entre espiras queda en paralelo con la inductancia y forma con ella un circuito resonante: la bobina tiene su propia frecuencia de autorresonancia. Por debajo, la reactancia crece con la frecuencia como en la bobina ideal; en la autorresonancia la impedancia es máxima; por encima domina la capacidad y la bobina se comporta como un condensador. Por eso una bobina de choque de HF puede dejar de «chocar» en VHF. La reactancia no sigue creciendo indefinidamente (a), las pérdidas no desaparecen ni el $Q$ se hace infinito (b), y la bobina no se vuelve resistiva (c). _(Véase tema T3, sección «Asociación de componentes y resonancia».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-11",
+  "tema": "T3",
+  "concepto": "En VHF/UHF, terminales cortos (o SMD): la inductancia de las patas presenta reactancia apreciable",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.42",
+    "enunciado": "En VHF y UHF los componentes se montan con los terminales lo más cortos posible porque:",
+    "opciones": [
+     "la inductancia de los terminales, que apenas importa en HF, presenta a esas frecuencias una reactancia apreciable",
+     "la capacidad de los terminales crece con la frecuencia y llega a cortocircuitar el componente",
+     "la resistencia óhmica de los terminales es lo único que limita el comportamiento del componente a esas frecuencias",
+     "así disminuye la capacidad parásita entre las espiras de las bobinas"
+    ],
+    "clave": "a",
+    "sol": "Un terminal tiene una inductancia del orden de 10 nH por centímetro: inocua en HF, pero su reactancia $X_L = 2 pi f L$ crece con la frecuencia. A 145 MHz, 10 nH dan $2 pi dot 145 times 10^6 dot 10 times 10^(-9) approx 9$ Ω, suficiente para desacoplar mal un condensador o desajustar un circuito. Por eso en VHF y UHF se acortan las patas o se usan componentes de montaje superficial. La capacidad no crece con la frecuencia (b), la resistencia óhmica no es la limitación principal (c), y la capacidad entre espiras es cosa de la bobina, no de las patas (d). _(Véase tema T3, sección «Asociación de componentes y resonancia».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-13",
+  "tema": "T3",
+  "concepto": "Condición de resonancia: XL = XC, las reactancias se cancelan y el circuito es puramente resistivo",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.52",
+    "enunciado": "A la frecuencia de resonancia, un circuito $L C$ se comporta frente a la corriente como:",
+    "opciones": [
+     "puramente inductivo",
+     "puramente capacitivo",
+     "un circuito abierto a cualquier frecuencia",
+     "puramente resistivo"
+    ],
+    "clave": "d",
+    "sol": "En resonancia las reactancias inductiva y capacitiva se igualan y se cancelan, y solo queda la resistencia: tensión y corriente vuelven a estar en fase. Es la propiedad que se aprovecha para adaptar y para seleccionar."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.1",
+    "enunciado": "En un circuito resonante, la condición de resonancia se cumple cuando:",
+    "respuesta": "las reactancias inductiva y capacitiva se igualan"
+   }
+  ],
+  "nota": "T3.52 obliga a deducir la consecuencia (resistivo) de la condición XL = XC que pregunta T3.1."
+ },
+ {
+  "cid": "T3-14",
+  "tema": "T3",
+  "concepto": "Frecuencia de resonancia f0 = 1/(2π√(LC)): cálculo y dependencia con L y C",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "12·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.43",
+    "enunciado": "La frecuencia de resonancia de un circuito LC formado por una bobina de 10 μH y un condensador de 50 pF es aproximadamente de:",
+    "opciones": [
+     "14,2 MHz",
+     "7,1 MHz",
+     "44,7 MHz",
+     "225 kHz"
+    ],
+    "clave": "b",
+    "sol": "Se aplica $f_0 = 1/(2 pi sqrt(L C))$. Con $L = 10 times 10^(-6)$ H y $C = 50 times 10^(-12)$ F: $L C = 5 times 10^(-16)$, $sqrt(L C) approx 2,236 times 10^(-8)$ s y $f_0 = 1 slash (2 pi dot 2,236 times 10^(-8)) approx 7,1 times 10^6$ Hz = 7,1 MHz. Los 44,7 MHz salen de olvidar el $2 pi$; los 14,2 MHz, de poner $pi$ en lugar de $2 pi$ (un factor 2); y los 225 kHz, de confundir las unidades (μH con mH, o pF con nF). _(Véase tema T3, sección «Asociación de componentes y resonancia».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.30",
+    "enunciado": "El cuadrado de la frecuencia de resonancia de un circuito $L C$ es:",
+    "respuesta": "inversamente proporcional al producto de la inductancia por la capacidad"
+   }
+  ],
+  "nota": "F-T3.43 es el cálculo (trampas: olvidar 2π, unidades); T3.30 es la dependencia cualitativa (f0² ∝ 1/LC), que el examen pregunta sin números."
+ },
+ {
+  "cid": "T3-15",
+  "tema": "T3",
+  "concepto": "Factor de calidad Q: mide la selectividad; Q = f0/B",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "1·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.1",
+    "enunciado": "¿Qué indica el factor de calidad $Q$ de un circuito resonante?",
+    "opciones": [
+     "La calidad de los componentes eléctricos",
+     "La facultad para estabilizar un circuito",
+     "Relación entre el ancho de banda de entrada y salida",
+     "Facultad para seleccionar una frecuencia eliminando las demás"
+    ],
+    "clave": "d",
+    "sol": "\n    El factor de calidad $Q = f_0 slash B$ mide la agudeza de la resonancia: cuanto mayor es $Q$,\n    más estrecha es la curva de respuesta y mejor selecciona el circuito su frecuencia rechazando\n    las demás. No mide «la calidad de los componentes» (unas pérdidas bajas dan un $Q$ alto, pero\n    eso es una consecuencia, no la definición), ni estabiliza nada, y en un circuito resonante no\n    hay un ancho de banda de entrada y otro de salida: solo un ancho de banda $B$, el medido entre\n    los puntos de −3 dB. #vease[(Véase tema T3, sección «Asociación de componentes y resonancia».)]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.2",
+    "enunciado": "El factor de calidad $Q$ de un circuito resonante, en función de su frecuencia de resonancia $f$ y de su ancho de banda $B$, se expresa como:",
+    "respuesta": "$Q = f slash B$"
+   },
+   {
+    "id": "F-T3.44",
+    "enunciado": "Un circuito resonante sintonizado a 455 kHz tiene un ancho de banda de 5 kHz. Su factor de calidad es, aproximadamente, de:",
+    "respuesta": "91"
+   }
+  ],
+  "nota": "C-T3.1 (banco público) es el significado de Q; F-T3.44 es el cálculo con f0 y B (trampa: invertir el cociente)."
+ },
+ {
+  "cid": "T3-16",
+  "tema": "T3",
+  "concepto": "Q = X/R en resonancia y ancho de banda B = f0/Q",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.45",
+    "enunciado": "Un circuito resonante serie sintonizado a 7 MHz presenta, en resonancia, una reactancia inductiva de 300 Ω y una resistencia de pérdidas de 6 Ω. Su ancho de banda a −3 dB es aproximadamente de:",
+    "opciones": [
+     "140 kHz",
+     "23 kHz",
+     "280 kHz",
+     "350 MHz"
+    ],
+    "clave": "a",
+    "sol": "En resonancia serie, $Q = X slash R = 300 slash 6 = 50$. El ancho de banda es $B = f_0 slash Q = 7000 \"kHz\" slash 50 = 140$ kHz. Los 23 kHz resultan de tomar $Q = X = 300$ sin dividir entre $R$; los 280 kHz, de entender $f_0 slash Q$ como la desviación a cada lado de $f_0$ y doblarla; y los 350 MHz, de invertir $Q$ ($R slash X = 0,02$), lo que daría un ancho de banda mayor que la propia frecuencia: absurdo. Con menos pérdidas, $Q$ sube y la curva se estrecha. _(Véase tema T3, sección «Asociación de componentes y resonancia».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-17",
+  "tema": "T3",
+  "concepto": "Resonancia serie (Z mínima) frente a paralelo o tanque (Z máxima); LC serie en derivación = trampa",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·9"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T3-02",
+    "enunciado": "En su frecuencia de resonancia, un circuito LC paralelo («tanque») presenta:",
+    "opciones": [
+     "una impedancia mínima, igual a la resistencia de pérdidas",
+     "una impedancia máxima, y la corriente que toma de la línea es mínima",
+     "una reactancia puramente inductiva",
+     "una impedancia nula, como un cortocircuito"
+    ],
+    "clave": "b",
+    "sol": "En el tanque, las corrientes de la bobina y del condensador son iguales y opuestas en $f_0$: circulan dentro del circuito y se cancelan a la entrada, de modo que de fuera entra muy poca corriente y la impedancia es máxima (y puramente resistiva). La impedancia mínima, igual a la resistencia de pérdidas, es la del circuito resonante serie: es la confusión típica."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.16",
+    "enunciado": "Si en el esquema de la figura el conjunto L-C en serie resuena a la frecuencia del transmisor, la potencia que medirá el vatímetro será:\n    #circuito(caption: [Esquema de la pregunta T3.16.], sim: \"notch.txt\")[\n      #esquema({\n        import zap: *\n        import cetz.draw: rect, content\n        rect((0, 2.0), (1.6, 2.8), radius: 0.1, stroke: 0.7pt + col.acento, fill: col.acento-claro)\n        c",
+    "respuesta": "mínima"
+   }
+  ],
+  "nota": "La nueva pregunta fija el dato sin figura; T3.16 (con figura) es el ángulo de la trampa en derivación: el vatímetro marca mínimo."
+ },
+ {
+  "cid": "T3-19",
+  "tema": "T3",
+  "concepto": "Filtro paso banda: deja pasar su banda y atenúa por encima y por debajo; es el de la FI",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.7",
+    "enunciado": "Con un filtro paso banda se consigue:",
+    "opciones": [
+     "atenuar las frecuencias comprendidas dentro de la banda de paso",
+     "dejar pasar únicamente las frecuencias inferiores a la de corte",
+     "dejar pasar todas las frecuencias por igual",
+     "atenuar las frecuencias superiores e inferiores a la banda de paso"
+    ],
+    "clave": "d",
+    "sol": "El paso banda deja pasar su banda y atenúa por encima y por debajo: es el filtro típico de la FI."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.50",
+    "enunciado": "Los filtros empleados en las etapas de frecuencia intermedia de un receptor son de tipo:",
+    "respuesta": "paso banda"
+   }
+  ],
+  "nota": "T3.7 es la definición y T3.50 la aplicación (filtros de FI), que el examen pregunta por separado."
+ },
+ {
+  "cid": "T3-20",
+  "tema": "T3",
+  "concepto": "Filtro paso bajo: deja pasar las frecuencias inferiores a la de corte (a la salida del TX, contra armónicos)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·9"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.33",
+    "enunciado": "Un filtro de paso bajo deja pasar:",
+    "opciones": [
+     "únicamente la frecuencia de corte",
+     "las frecuencias superiores a la de corte",
+     "las frecuencias inferiores a la de corte",
+     "una banda estrecha centrada en la frecuencia de corte"
+    ],
+    "clave": "c",
+    "sol": "El nombre lo dice: pasa lo bajo. Es el filtro que se coloca a la salida de un transmisor para atenuar los armónicos, que están por encima de la frecuencia de trabajo."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-21",
+  "tema": "T3",
+  "concepto": "Frecuencia de corte: separa banda de paso y de atenuación; se toma a −3 dB",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.41",
+    "enunciado": "La frecuencia de corte de un filtro es:",
+    "opciones": [
+     "la frecuencia a la que el filtro deja de funcionar",
+     "la frecuencia de resonancia de su bobina",
+     "la frecuencia que delimita la banda de paso de la de atenuación",
+     "la frecuencia máxima que soporta sin dañarse"
+    ],
+    "clave": "c",
+    "sol": "Es la frontera del filtro, y por convenio se sitúa donde la respuesta ha caído 3 dB. Por encima o por debajo de ella —según el tipo— la señal empieza a atenuarse de verdad."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-22",
+  "tema": "T3",
+  "concepto": "Filtro RC: fc = 1/(2πRC)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.46",
+    "enunciado": "La frecuencia de corte de un filtro RC de paso bajo formado por una resistencia de 10 kΩ y un condensador de 10 nF es aproximadamente de:",
+    "opciones": [
+     "160 Hz",
+     "1,6 kHz",
+     "10 kHz",
+     "16 kHz"
+    ],
+    "clave": "b",
+    "sol": "Se aplica $f_c = 1/(2 pi R C)$ con $R = 10^4$ Ω y $C = 10^(-8)$ F: $f_c = 1/(2 pi times 10^4 times 10^(-8)) = 1/(6,28 times 10^(-4)) approx 1590$ Hz, es decir, 1,6 kHz. Los 10 kHz salen de olvidar el $2 pi$ ($1 slash R C$). Los 160 Hz y los 16 kHz son errores de una potencia de diez al pasar los nanofaradios a faradios. En $f_c$ la salida cae a −3 dB (el 70,7 % de la tensión) y, por encima, el filtro atenúa 6 dB por octava. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-24",
+  "tema": "T3",
+  "concepto": "Filtros en pi y en T: pi paso bajo = C–L–C; T paso bajo = L–C–L (en paso alto se intercambian)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.47",
+    "enunciado": "Un filtro de paso bajo «en pi» está formado por:",
+    "opciones": [
+     "una bobina a masa, un condensador en serie y otra bobina a masa",
+     "dos bobinas en serie con un condensador a masa entre ellas",
+     "un condensador a masa, una bobina en serie y otro condensador a masa",
+     "dos condensadores en serie con una bobina a masa entre ellos"
+    ],
+    "clave": "c",
+    "sol": "El nombre viene de la forma del esquema: una rama en serie y dos ramas a masa dibujan la letra griega $pi$. En el paso bajo la bobina, que se opone a las frecuencias altas, va en serie, y los condensadores, que las desvían a masa, van en paralelo: C–L–C. La opción con bobinas a masa y condensador en serie es el pi de paso alto, pues los papeles se intercambian. Las opciones con dos elementos iguales en serie y uno a masa son filtros en T, no en pi. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.48",
+    "enunciado": "Un filtro de paso bajo «en T» está formado por:",
+    "respuesta": "dos bobinas en serie con un condensador a masa entre ellas"
+   }
+  ],
+  "nota": "El alcance cita los dos; los distractores de cada una son la otra red, así que conviene ver las dos."
+ },
+ {
+  "cid": "T3-29",
+  "tema": "T3",
+  "concepto": "Cristal de cuarzo: resonador piezoeléctrico de Q altísimo",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.8",
+    "enunciado": "Un resonador de cuarzo es un dispositivo que:",
+    "opciones": [
+     "almacena carga eléctrica en un dieléctrico de cuarzo",
+     "presenta un efecto de resonancia basado en la piezoelectricidad",
+     "amplifica señales de radiofrecuencia",
+     "rectifica la corriente alterna"
+    ],
+    "clave": "b",
+    "sol": "El cuarzo es piezoeléctrico y presenta una resonancia mecánica de altísimo $Q$: osciladores y filtros de gran estabilidad."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.46",
+    "enunciado": "El efecto piezoeléctrico, en el que se basan los resonadores empleados en los osciladores, se produce en:",
+    "respuesta": "los cristales de cuarzo"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T3-30",
+  "tema": "T3",
+  "concepto": "Filtro de cuarzo en la FI: su Q altísimo da selectividad elevada con banda estrecha y estable",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.49",
+    "enunciado": "En la FI de un receptor de SSB se emplea un filtro de cuarzo porque:",
+    "opciones": [
+     "amplifica la FI más que un transistor y con menos ruido",
+     "elimina la frecuencia imagen, que llega ya mezclada con la señal",
+     "su factor de calidad $Q$ altísimo da una selectividad muy elevada, con un ancho de banda estrecho y estable",
+     "sustituye al oscilador de batido para demodular la SSB"
+    ],
+    "clave": "c",
+    "sol": "El cuarzo es un resonador piezoeléctrico con un $Q$ de decenas o centenas de miles, muy superior al de cualquier bobina. Con él se construye un filtro paso banda de flancos abruptos y ancho estable, que deja pasar solo la señal de SSB deseada y recorta las vecinas; y se hace en la FI, donde la frecuencia es fija. No amplifica: es un elemento pasivo con pérdidas. No elimina la imagen, que tras el mezclador ya es indistinguible de la señal y se rechaza antes, con el preselector. Tampoco sustituye al BFO, necesario para reinsertar la portadora. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-34",
+  "tema": "T3",
+  "concepto": "Filtro digital (DSP): opera con muestras numéricas; cadena A/D → cálculo en el DSP → D/A",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.4",
+    "enunciado": "Un filtro digital, realizado con un procesador digital de señal (DSP), se caracteriza porque:",
+    "opciones": [
+     "está formado por bobinas y condensadores de alta precisión",
+     "aprovecha la resonancia piezoeléctrica de un cristal de cuarzo",
+     "solo puede trabajar con señales de corriente continua",
+     "opera con muestras numéricas de la señal y obtiene la salida mediante cálculos matemáticos"
+    ],
+    "clave": "d",
+    "sol": "En un filtro digital la señal se muestrea y cada muestra es un número. El DSP calcula la salida combinando muestras de entrada (y, en los IIR, también de salida) con unos coeficientes que fijan la respuesta del filtro. Los filtros de bobinas y condensadores o de cristal de cuarzo son analógicos. Y un filtro digital no se limita a la continua: procesa señales de audio o de FI, siempre que el muestreo sea suficiente. _(Véase tema T3, sección «Filtros, osciladores y mezcladores», y tema T1, sección «Potencia, decibelios y DSP».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.6",
+    "enunciado": "Para filtrar digitalmente una señal de audio analógica, el orden correcto del procesado es:",
+    "respuesta": "conversor A/D, cálculo del filtro en el DSP y conversor D/A"
+   }
+  ],
+  "nota": "Quien sabe que el DSP trabaja con números deduce el orden A/D–DSP–D/A de F-T3.6."
+ },
+ {
+  "cid": "T3-36",
+  "tema": "T3",
+  "concepto": "Filtros FIR (sin realimentación, respuesta finita) e IIR (realimentan la salida, respuesta infinita)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.29",
+    "enunciado": "Un filtro digital FIR (de respuesta finita al impulso) se caracteriza porque:",
+    "opciones": [
+     "realimenta su propia salida hacia la entrada, por lo que su respuesta a un impulso se prolonga indefinidamente",
+     "es un filtro analógico basado en un cristal de cuarzo, de banda muy estrecha",
+     "solo puede construirse con bobinas y condensadores, nunca mediante un procesador digital",
+     "calcula cada muestra de salida combinando un número finito de muestras de entrada, sin realimentar la salida"
+    ],
+    "clave": "d",
+    "sol": "FIR son las siglas de _finite impulse response_. Cada muestra de salida es una combinación de un número finito de muestras de entrada, sin volver a usar la salida; por eso un impulso deja de notarse pasado ese número de muestras. La opción que habla de realimentar la salida describe un filtro IIR. Los filtros FIR se calculan en un DSP: no son circuitos analógicos de cristal ni de bobinas y condensadores. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.30",
+    "enunciado": "Un filtro digital IIR (de respuesta infinita al impulso) se caracteriza porque:",
+    "respuesta": "realimenta muestras de su propia salida y su respuesta a un impulso se prolonga, en teoría, indefinidamente"
+   }
+  ],
+  "nota": "Una pregunta basta: el distractor de cada una es la definición de la otra."
+ },
+ {
+  "cid": "T3-37",
+  "tema": "T3",
+  "concepto": "Función del rectificador: convertir la alterna en continua (pulsante)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.9",
+    "enunciado": "La función de un rectificador de corriente consiste en:",
+    "opciones": [
+     "Limitar los máximos de corriente",
+     "Transformar la corriente continua en alterna",
+     "Cambiar la polaridad de la corriente",
+     "Transformar la corriente alterna en continua"
+    ],
+    "clave": "d",
+    "sol": "\n    Un rectificador aprovecha que el diodo solo conduce en un sentido para convertir la corriente\n    alterna, que cambia de sentido, en una corriente que circula siempre en el mismo: continua\n    pulsante, que después el filtro alisa. Transformar continua en alterna es lo que hace un\n    oscilador o un inversor; limitar los máximos de corriente es tarea de un limitador o de un\n    fusible. «Cambiar la polaridad» no describe su función: el rectificador no invierte nada, hace\n    que la salida tenga siempre la misma polaridad. #vease[(Véase tema T3, sección «Fuentes de\n    alimentación y amplificadores».)]\n  "
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-38",
+  "tema": "T3",
+  "concepto": "Media onda frente a onda completa: la completa aprovecha los dos semiciclos, dobla el valor medio y da menos rizado",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·10"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.31",
+    "enunciado": "Un rectificador de onda completa, comparado con uno de media onda:",
+    "opciones": [
+     "entrega una tensión continua de menor valor medio",
+     "aprovecha los dos semiciclos y produce menos rizado",
+     "necesita siempre el doble de tensión de entrada",
+     "solo puede emplearse con corriente continua"
+    ],
+    "clave": "b",
+    "sol": "Al aprovechar los dos semiciclos, el valor medio se dobla ($2 V_p slash pi$ frente a $V_p slash pi$) y la frecuencia del rizado también (100 Hz en lugar de 50 Hz en una red de 50 Hz), de modo que el mismo condensador lo filtra mucho mejor."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-39",
+  "tema": "T3",
+  "concepto": "Número de diodos: media onda 1; onda completa con toma media 2; puente 4",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.35",
+    "enunciado": "Un rectificador de onda completa en puente necesita como mínimo:",
+    "opciones": [
+     "dos diodos",
+     "cuatro diodos",
+     "un diodo",
+     "seis diodos"
+    ],
+    "clave": "b",
+    "sol": "El puente los coloca en rombo, de modo que en cada semiciclo conducen dos en diagonal y la carga recibe siempre la misma polaridad: de ahí los cuatro diodos. Nota: el enunciado dice «en puente». Sin esa precisión, el mínimo de un rectificador de onda completa es de dos diodos (con un transformador de toma media en el secundario); con uno solo se rectifica media onda."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-T3.2",
+    "enunciado": "Un rectificador de onda completa tiene como mínimo:",
+    "respuesta": "Dos diodos"
+   }
+  ],
+  "nota": "T3.35 («en puente») tiene clave segura. C-T3.2 es la versión del banco público sin «en puente»: el libro da 2 (toma media) y avisa de que las recopilaciones dan 4; conviene conocer las dos."
+ },
+ {
+  "cid": "T3-40",
+  "tema": "T3",
+  "concepto": "Frecuencia del rizado: 100 Hz en onda completa y 50 Hz en media onda (red de 50 Hz)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.7",
+    "enunciado": "Un rectificador de onda completa, por ejemplo un puente de diodos, se alimenta de la red de 50 Hz. La frecuencia del rizado a su salida es de:",
+    "opciones": [
+     "100 Hz",
+     "50 Hz",
+     "25 Hz",
+     "200 Hz"
+    ],
+    "clave": "a",
+    "sol": "Con onda completa se aprovechan los dos semiciclos de la red: hay dos crestas por ciclo, luego el rizado se repite $2 dot 50 = 100$ veces por segundo, es decir, 100 Hz. Los 50 Hz serían el rizado de un rectificador de media onda, con una sola cresta por ciclo. 25 Hz y 200 Hz no los produce ningún rectificador conectado a una red de 50 Hz. La frecuencia doble facilita el filtrado con el mismo condensador. _(Véase tema T3, sección «Fuentes de alimentación y amplificadores».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-41",
+  "tema": "T3",
+  "concepto": "Función del filtro de la fuente: eliminar la componente alterna (rizado) que queda tras rectificar, no la continua",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.36",
+    "enunciado": "El filtro que sigue al rectificador en una fuente de alimentación tiene por objeto eliminar:",
+    "opciones": [
+     "la componente continua de la señal",
+     "los armónicos de radiofrecuencia",
+     "la corriente de fuga de los diodos",
+     "la componente alterna que queda tras la rectificación"
+    ],
+    "clave": "d",
+    "sol": "A la salida del rectificador hay una tensión pulsante: continua con un fuerte rizado. El condensador sostiene la tensión entre picos y alisa esa componente alterna residual. Lo que no debe tocar es la continua, que es precisamente lo que se busca."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.5",
+    "enunciado": "Los circuitos de filtrado a la salida de una fuente de alimentación sirven para:",
+    "respuesta": "reducir el rizado y obtener una tensión más constante"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T3-44",
+  "tema": "T3",
+  "concepto": "Bloques de una fuente lineal y su orden: transformador → rectificador → filtro → regulador (reconocer el esquema)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.26",
+    "enunciado": "El orden correcto de las etapas de una fuente de alimentación lineal es:",
+    "opciones": [
+     "transformador, rectificador, filtro y regulador",
+     "rectificador, transformador, regulador y filtro",
+     "filtro, transformador, rectificador y regulador",
+     "regulador, filtro, rectificador y transformador"
+    ],
+    "clave": "a",
+    "sol": "Se sigue el camino de la energía: primero se baja la tensión de red, después se rectifica la alterna, luego el condensador alisa el rizado y por último el regulador fija la tensión de salida. Cualquier otro orden no tendría sentido físico — no se puede filtrar el rizado antes de crearlo."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.14",
+    "enunciado": "El esquema eléctrico de la figura corresponde a:\n\n    #circuito(caption: [Esquema de la pregunta T3.14.], sim: \"fullrectf.txt\")[\n      #esquema({\n        import zap: *\n        acvsource(\"red\", (0, -0.8), (0, 0.8))\n        _t3-et((-0.75, 0), [red], anchor: \"east\", size: 8pt)\n        trafo(\"t\", (2, 0))\n        wire((0, 0.8), \"t.p1\")\n        wire((0, -0.8), \"t.p2\")\n        let (cx, d) = (5.0, 1.0)\n  ",
+    "respuesta": "una fuente de alimentación"
+   }
+  ],
+  "nota": "T3.14 es reconocer el esquema de una fuente en una figura."
+ },
+ {
+  "cid": "T3-45",
+  "tema": "T3",
+  "concepto": "Regulador: mantiene constante la tensión de salida aunque varíen la carga y la red",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.32",
+    "enunciado": "La misión del regulador de una fuente de alimentación es:",
+    "opciones": [
+     "mantener constante la tensión de salida aunque varíen la carga y la red",
+     "transformar la corriente alterna en continua",
+     "elevar la tensión de la red",
+     "aumentar la frecuencia de la corriente rectificada"
+    ],
+    "clave": "a",
+    "sol": "Es la última etapa y la que da la calidad final: absorbe tanto las variaciones de la tensión de red como los tirones de consumo del equipo — muy notables en un transceptor que pasa de recepción a transmisión."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-46",
+  "tema": "T3",
+  "concepto": "Regulador con zéner y resistencia en serie: reparto de corrientes entre zéner y carga",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.8",
+    "enunciado": "Una fuente de 20 V alimenta, a través de una resistencia en serie de 150 Ω, un zéner de 12 V en paralelo con una carga que consume 30 mA. Con el zéner regulando a 12 V, la corriente que circula por él es aproximadamente de:",
+    "opciones": [
+     "53 mA",
+     "30 mA",
+     "83 mA",
+     "23 mA"
+    ],
+    "clave": "d",
+    "sol": "La resistencia en serie soporta 20 − 12 = 8 V y deja pasar $8 slash 150 approx 53$ mA. Esa corriente se reparte entre la carga (30 mA) y el zéner, que absorbe el resto: 53 − 30 ≈ 23 mA. Los 53 mA son la corriente total, no la del zéner; los 30 mA son los de la carga; y 83 mA saldría de sumar en lugar de restar. _(Véase tema T3, sección «Fuentes de alimentación y amplificadores», y capítulo «La radio por dentro», apartado «Sub-circuito 4: el zéner, la ruptura domesticada».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-47",
+  "tema": "T3",
+  "concepto": "Fuente lineal frente a conmutada: la lineal pesa (transformador de 50 Hz) y rinde poco; la conmutada trabaja a decenas–cientos de kHz, ligera y eficiente",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "3·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.19",
+    "enunciado": "Una de las características de las fuentes lineales de alta intensidad es:",
+    "opciones": [
+     "Su elevado peso",
+     "Su falta de filtrado en la salida",
+     "Su inestabilidad frente a la radiofrecuencia",
+     "Su bajo consumo"
+    ],
+    "clave": "a",
+    "sol": "\n    Una fuente lineal baja la tensión de red con un transformador que trabaja a 50 Hz: para dar\n    mucha corriente necesita un núcleo de hierro grande y pesado, además de disipadores voluminosos\n    para evacuar el calor del regulador (el rendimiento es bajo). De ahí su elevado peso. No carece\n    de filtrado (lleva condensadores de filtro y su salida es muy limpia); la interferencia de RF es\n    un problema de las fuentes conmutadas, no de las lineales; y tampoco es de bajo consumo, pues\n    desperdicia como calor parte de la energía. #vease[(Véase tema T3, sección «Fuentes de\n    alimentación y amplificadores».)]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.9",
+    "enunciado": "Comparada con una fuente lineal de la misma potencia, una fuente conmutada presenta:",
+    "respuesta": "menor peso y tamaño y mayor rendimiento"
+   },
+   {
+    "id": "F-T3.11",
+    "enunciado": "El transformador de una fuente de alimentación conmutada trabaja a una frecuencia de:",
+    "respuesta": "decenas o centenares de kHz, muy superior a la de la red"
+   }
+  ],
+  "nota": "C-T3.19 es del banco público (peso de la lineal); F-T3.11 pregunta el dato de la frecuencia de conmutación."
+ },
+ {
+  "cid": "T3-48",
+  "tema": "T3",
+  "concepto": "Fuente conmutada: genera ruido de RF (QRM en HF); exige filtrado y apantallado",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.10",
+    "enunciado": "En una estación de radioaficionado, el principal riesgo de una fuente conmutada mal filtrada o mal apantallada es que:",
+    "opciones": [
+     "no admite cargas de más de 1 A",
+     "su transformador de alta frecuencia no aísla la salida de la red",
+     "necesita un transformador de 50 Hz mayor que el de una fuente lineal",
+     "genera ruido e interferencias de radiofrecuencia que se oyen como QRM en HF"
+    ],
+    "clave": "d",
+    "sol": "La conmutación rápida, con flancos muy abruptos, genera armónicos que llegan a HF y entran al receptor por el cable de red, por los de alimentación o por el aire. Se combate con filtros en la entrada y en la salida, ferritas, apantallado y cables cortos (compatibilidad electromagnética). No hay límite de 1 A: se construyen de decenas de amperios. El transformador de alta frecuencia sí aísla la salida de la red, y es pequeño, no un transformador de 50 Hz. _(Véase tema T3, sección «Fuentes de alimentación y amplificadores» (ruido de conmutación, filtrado y apantallamiento; ver también el tema T9).)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-49",
+  "tema": "T3",
+  "concepto": "Condensadores de desacoplo: absorben los transitorios de la alimentación",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.51",
+    "enunciado": "Los efectos de los transitorios en las líneas de alimentación se evitan generalmente:",
+    "opciones": [
+     "con condensadores de desacoplo",
+     "alargando los cables",
+     "elevando la tensión de alimentación",
+     "suprimiendo la toma de tierra"
+    ],
+    "clave": "a",
+    "sol": "Un condensador se opone a las variaciones bruscas de tensión, así que absorbe los picos y valles que viajan por la alimentación. Es la misma función que cumplen los condensadores de desacoplo repartidos por las placas."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-50",
+  "tema": "T3",
+  "concepto": "Emisor común: ganancia de tensión y de corriente, luego de potencia",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.12",
+    "enunciado": "Un amplificador con transistor conectado con emisor común produce amplificación:",
+    "opciones": [
+     "Solo de tensión",
+     "Solo de corriente",
+     "De potencia",
+     "Depende de que sea del tipo PNP o NPN"
+    ],
+    "clave": "c",
+    "sol": "\n    El emisor común da ganancia de tensión y de corriente a la vez y, como la potencia es $P = V I$,\n    da también ganancia de potencia: es la configuración que más amplifica de las tres (e invierte\n    la fase de la señal). Por eso no son correctas «solo de tensión» ni «solo de corriente». Tampoco\n    depende del tipo: un PNP funciona igual que un NPN con la polaridad de la alimentación\n    invertida, sin cambiar su comportamiento. #vease[(Véase tema T2, sección «Semiconductores y\n    otros componentes».)]\n  "
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-51",
+  "tema": "T3",
+  "concepto": "Emisor común: único montaje que invierte la fase 180°",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T3-08",
+    "enunciado": "De los tres montajes del transistor bipolar, el que invierte la fase de la señal 180° es el de:",
+    "opciones": [
+     "base común",
+     "colector común",
+     "emisor común",
+     "ninguno: los tres conservan la fase"
+    ],
+    "clave": "c",
+    "sol": "En emisor común, cuando la base sube el transistor conduce más, cae más tensión en la resistencia de colector y el colector baja: la salida está invertida 180°. La base común y el colector común (seguidor de emisor) entregan la señal en fase."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-52",
+  "tema": "T3",
+  "concepto": "Base común: amplifica tensión, pero no corriente",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.37",
+    "enunciado": "Un amplificador con transistor montado en base común proporciona amplificación:",
+    "opciones": [
+     "de tensión, pero no de corriente",
+     "de corriente, pero no de tensión",
+     "de ninguna de las dos magnitudes",
+     "de corriente y de tensión por igual"
+    ],
+    "clave": "a",
+    "sol": "En base común la corriente de salida es prácticamente igual a la de entrada —la ganancia de corriente vale casi 1— pero la impedancia de salida es mucho mayor que la de entrada, y de ahí que la tensión sí se amplifique. Es un montaje habitual en radiofrecuencia por su buen comportamiento en alta frecuencia."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-53",
+  "tema": "T3",
+  "concepto": "Colector común = seguidor de emisor (ganancia de tensión ≈ 1; adaptador de impedancias)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.18",
+    "enunciado": "Un circuito con un transistor montado en colector común se denomina también:",
+    "opciones": [
+     "Seguidor emisor",
+     "Colector mixto",
+     "Colector par",
+     "Colector seguidor."
+    ],
+    "clave": "a",
+    "sol": "\n    En colector común la señal entra por la base y sale por el emisor, cuya tensión «sigue» a la de\n    la base (menos unos 0,6 V): de ahí el nombre de seguidor de emisor. Tiene ganancia de tensión\n    próxima a 1, ganancia de corriente alta, impedancia de entrada alta e impedancia de salida baja,\n    por lo que se usa como adaptador de impedancias. «Colector mixto», «colector par» y «colector\n    seguidor» no son denominaciones reales. #vease[(Véase tema T2, sección «Semiconductores y otros\n    componentes».)]\n  "
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-55",
+  "tema": "T3",
+  "concepto": "Amplificar sin distorsión: trabajar en la parte lineal de la característica",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.8",
+    "enunciado": "Cuando en un amplificador a transistor sea necesario reproducir la señal de entrada sin\ndistorsión, se debe funcionar:",
+    "opciones": [
+     "En la parte lineal de su característica",
+     "Con polarizaciones muy altas",
+     "Con amplificación clase C",
+     "Eliminando la resistencia de carga"
+    ],
+    "clave": "a",
+    "sol": "\n    La característica de transferencia de un transistor (corriente de salida frente a tensión de\n    entrada) solo es una recta en un tramo. Si se polariza en el centro de ese tramo y la señal no\n    lo abandona, la salida es una copia ampliada de la entrada: sin distorsión. Con polarizaciones\n    muy altas el transistor se satura y recorta la señal; la clase C conduce menos de medio ciclo y\n    deforma la señal (se reserva para CW y FM); y quitar la resistencia de carga no tiene sentido,\n    pues sin ella no hay salida aprovechable. #vease[(Véase tema T2, sección «Semiconductores y\n    otros componentes» (punto de trabajo); tema T3, sección «Clases de amplificación y\n    detectores».)]\n  "
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-57",
+  "tema": "T3",
+  "concepto": "Ángulo de conducción: A 360°, AB entre 180° y 360°, B 180°, C menos de 180°",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "13·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.22",
+    "enunciado": "Un amplificador que trabaja en clase B conduce durante:",
+    "opciones": [
+     "180° del ciclo de la señal",
+     "los 360° del ciclo de la señal",
+     "90° del ciclo de la señal",
+     "todo el ciclo menos los picos"
+    ],
+    "clave": "a",
+    "sol": "Medio ciclo exacto. Por eso la clase B se monta en contrafase: dos dispositivos que se reparten un semiciclo cada uno y entre los dos reconstruyen la onda completa."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.21",
+    "enunciado": "Un amplificador que trabaja en clase A conduce durante:",
+    "respuesta": "los 360° del ciclo de la señal"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T3-58",
+  "tema": "T3",
+  "concepto": "Linealidad frente a rendimiento: clase A mínima distorsión; clase C mayor rendimiento",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.23",
+    "enunciado": "De las clases de amplificación A, AB, B y C, la de mayor rendimiento es la:",
+    "opciones": [
+     "clase A",
+     "clase AB",
+     "clase B",
+     "clase C"
+    ],
+    "clave": "d",
+    "sol": "El rendimiento crece según se acorta el ángulo de conducción, y la clase C es la que menos conduce. Es también la que peor conserva la forma de la señal: las dos cosas van siempre de la mano."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.6",
+    "enunciado": "La clase de amplificador que reproduce la señal de entrada con la mínima distorsión es la:",
+    "respuesta": "clase A"
+   }
+  ],
+  "nota": "Las dos caras del mismo compromiso (el dato contrario); el examen pregunta ambas."
+ },
+ {
+  "cid": "T3-59",
+  "tema": "T3",
+  "concepto": "Clase AB: combinación de A y B; la de los amplificadores lineales de SSB",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.11",
+    "enunciado": "De las clases de amplificadores A, B, AB y C, la clase AB:",
+    "opciones": [
+     "es la de mayor rendimiento",
+     "solo se usa en corriente continua",
+     "es una combinación de las clases A y B",
+     "recorta el ciclo completo de la señal"
+    ],
+    "clave": "c",
+    "sol": "La clase AB polariza el amplificador entre la A y la B: compromiso entre la linealidad de una y el rendimiento de la otra. Es la habitual en los finales de SSB."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-60",
+  "tema": "T3",
+  "concepto": "Clase C: solo para emisiones de amplitud constante (CW, FM), nunca SSB ni AM",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.24",
+    "enunciado": "Un amplificador de clase C únicamente puede emplearse con emisiones:",
+    "opciones": [
+     "de banda lateral única",
+     "de amplitud modulada",
+     "de amplitud constante, como CW o FM",
+     "de cualquier tipo, si se ajusta la polarización"
+    ],
+    "clave": "c",
+    "sol": "En clase C la envolvente se destroza. Si la información viaja en la amplitud — AM, SSB — se pierde y aparecen productos espurios; si la amplitud es constante y la información va en la frecuencia o en la presencia o ausencia de portadora, no hay nada que estropear."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-65",
+  "tema": "T3",
+  "concepto": "Neutralización: anula la realimentación parásita para que el amplificador no oscile",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·11"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.7",
+    "enunciado": "La neutralización se utiliza en:",
+    "opciones": [
+     "Los relés para neutralizarlos",
+     "Las baterías para evitar su polarización",
+     "En los circuitos electrónicos para evitar el elemento neutro",
+     "Los amplificadores para evitar que oscilen"
+    ],
+    "clave": "d",
+    "sol": "\n    En un amplificador de radiofrecuencia una parte de la salida vuelve a la entrada a través de las\n    capacidades parásitas del propio dispositivo (rejilla-placa en un tríodo, base-colector en un\n    transistor). Si esa realimentación es positiva y suficiente, el amplificador oscila por su\n    cuenta. La neutralización aplica a la entrada una muestra de la salida en oposición de fase que\n    cancela la realimentación parásita: así se evita que el amplificador oscile. No tiene relación\n    con los relés, con la «polarización» de las baterías ni con ningún «elemento neutro».\n    #vease[(Véase tema T2, sección «Válvulas termoiónicas».)]\n    #no-esta[Neutralizar un amplificador es anular su realimentación parásita. Se toma una pequeña parte de\n    la señal de salida, se invierte su fase 180° y se aplica a la entrada a través de un pequeño\n    condensador (condensador de neutralización) de valor parecido a la capacidad parásita\n    rejilla-placa o base-colector: las dos corrientes se cancelan y el amplificador deja de oscilar.\n    Los tetrodos y pentodos, con su rejilla pantalla, apenas la necesitan.]\n  "
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-66",
+  "tema": "T3",
+  "concepto": "Realimentación: devolver parte de la salida a la entrada; la negativa reduce la ganancia y mejora estabilidad y linealidad, la positiva hace oscilar",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.20",
+    "enunciado": "La realimentación negativa aplicada a un amplificador:",
+    "opciones": [
+     "aumenta la ganancia y la distorsión",
+     "hace que el circuito oscile",
+     "no altera ninguna característica del amplificador",
+     "reduce la ganancia pero mejora la estabilidad y la linealidad"
+    ],
+    "clave": "d",
+    "sol": "Es el intercambio de siempre: se sacrifica ganancia — que sobra y es barata — a cambio de estabilidad, linealidad y ancho de banda. La que hace oscilar al circuito es la realimentación positiva, que es justo el principio del oscilador."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.25",
+    "enunciado": "Se denomina realimentación al proceso de:",
+    "respuesta": "tomar parte de la señal de salida de un circuito y devolverla a su entrada"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T3-67",
+  "tema": "T3",
+  "concepto": "Amplificador operacional: ganancia muy alta, impedancia de entrada alta y de salida baja",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.17",
+    "enunciado": "Un amplificador operacional se caracteriza por tener:",
+    "opciones": [
+     "ganancia baja e impedancia de entrada baja",
+     "ganancia elevada e impedancia de salida elevada",
+     "ganancia muy elevada, impedancia de entrada alta y de salida baja",
+     "ganancia unidad y realimentación positiva"
+    ],
+    "clave": "c",
+    "sol": "Las tres cosas a la vez: amplifica muchísimo la diferencia entre sus entradas, apenas carga a lo que mide (entrada de alta impedancia) y entrega corriente sin hundirse (salida de baja impedancia). Es lo que permite encadenarlo con otras etapas sin que se estorben."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-69",
+  "tema": "T3",
+  "concepto": "Operacional inversor: G = −R2/R1 (no inversor: 1 + R2/R1)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.18",
+    "enunciado": "En un amplificador operacional en montaje inversor, con $R_1$ a la entrada y $R_2$ de realimentación, la ganancia vale:",
+    "opciones": [
+     "$-R_2 slash R_1$",
+     "$R_1 slash R_2$",
+     "$R_1 dot R_2$",
+     "$1 + R_1 slash R_2$"
+    ],
+    "clave": "a",
+    "sol": "La realimentación negativa hace que la ganancia dependa solo de las dos resistencias, no del operacional. El signo menos recuerda que la salida se mueve en sentido contrario a la entrada. El montaje no inversor sería $1 + R_2 slash R_1$."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-70",
+  "tema": "T3",
+  "concepto": "Ganancia de tensión en decibelios: 20·log(V2/V1)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.12",
+    "enunciado": "Un amplificador eleva una señal de 10 mV a 1 V, con la misma impedancia en la entrada y en la salida. Su ganancia de tensión, en decibelios, es de:",
+    "opciones": [
+     "20 dB",
+     "40 dB",
+     "100 dB",
+     "10 dB"
+    ],
+    "clave": "b",
+    "sol": "Con las dos tensiones en mV, $V_2 slash V_1 = 1000 slash 10 = 100$. Sobre la misma impedancia, $G = 20 log(V_2 slash V_1) = 20 log 100 = 40$ dB. Los 20 dB resultan de aplicar a una relación de tensiones la fórmula de potencias, $10 log$. Los 100 dB confunden la relación de tensiones con los decibelios. Y 10 dB corresponde a una relación de tensiones de solo 3,16. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-72",
+  "tema": "T3",
+  "concepto": "Detector de envolvente (diodo + RC): detector de AM; reconocer su esquema",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "13·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.38",
+    "enunciado": "El llamado detector de envolvente se emplea en receptores para señales con modulación de:",
+    "opciones": [
+     "frecuencia",
+     "amplitud",
+     "fase",
+     "impulsos"
+    ],
+    "clave": "b",
+    "sol": "En AM la información viaja en la envolvente, y un diodo con su filtro $R C$ la sigue directamente. Para FM haría falta un discriminador, y para SSB un detector de producto: el de envolvente no sirve donde no hay portadora."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.55",
+    "enunciado": "El circuito de la figura, empleado a la salida de la frecuencia intermedia de un receptor, se denomina:\n    #circuito(caption: [Esquema de la pregunta T3.55.], sim: \"amdetect.txt\")[\n      #esquema({\n        import zap: *\n        wire((0, 2), (0.8, 2))\n        diode(\"d\", (0.8, 2), (2.4, 2))\n        wire((2.4, 2), (5.4, 2))\n        resistor(\"r\", (3.2, 2), (3.2, 0), label: $R$)\n        capacitor(\"c\",",
+    "respuesta": "detector de envolvente"
+   }
+  ],
+  "nota": "T3.55 es reconocer el esquema diodo + RC en una figura."
+ },
+ {
+  "cid": "T3-73",
+  "tema": "T3",
+  "concepto": "El detector de envolvente es asíncrono: no necesita sincronización con el transmisor",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.12",
+    "enunciado": "Los detectores de envolvente (por ejemplo, un diodo seguido de un filtro) tienen la particularidad de:",
+    "opciones": [
+     "requerir sincronización exacta con el transmisor",
+     "no requerir en el receptor sincronización con el transmisor, por ser asíncronos",
+     "funcionar únicamente con señales de FM",
+     "necesitar alimentación de alta tensión"
+    ],
+    "clave": "b",
+    "sol": "El detector de envolvente (un diodo y un filtro $R C$) sigue la envolvente de la señal sin necesitar ninguna referencia del transmisor: es asíncrono. Los detectores síncronos requieren reconstruir la portadora."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-76",
+  "tema": "T3",
+  "concepto": "Discriminador de FM: convierte variaciones de frecuencia en variaciones de tensión (audio)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.15",
+    "enunciado": "El discriminador de un receptor de FM convierte:",
+    "opciones": [
+     "las variaciones de amplitud de la señal en variaciones de frecuencia",
+     "la frecuencia intermedia en una señal de radiofrecuencia",
+     "las variaciones de frecuencia de la señal en variaciones de tensión, es decir, en audio",
+     "la señal de audio en una portadora modulada en frecuencia"
+    ],
+    "clave": "c",
+    "sol": "Es el demodulador de FM: la información va en la desviación de frecuencia de la portadora, y el discriminador entrega una tensión proporcional a esa desviación instantánea, o sea, el audio. Va precedido de un limitador que borra las variaciones de amplitud (el ruido). Convertir audio en una portadora modulada es lo que hace el modulador del transmisor; subir la FI a RF lo haría un mezclador; y convertir amplitud en frecuencia no es detectar FM. _(Véase tema T3, sección «Clases de amplificación y detectores».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-78",
+  "tema": "T3",
+  "concepto": "Limitador delante del discriminador: recorta las variaciones de amplitud (ruido)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·12"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.17",
+    "enunciado": "En un receptor de FM, el limitador que precede al discriminador sirve para:",
+    "opciones": [
+     "amplificar el audio hasta el nivel que necesita el altavoz",
+     "reinsertar la portadora suprimida por el transmisor",
+     "recortar las variaciones de amplitud, que son ruido y no información",
+     "reducir la desviación de frecuencia para estrechar la banda"
+    ],
+    "clave": "c",
+    "sol": "En FM el mensaje va en la frecuencia y la amplitud es constante. El ruido eléctrico (chispas, motores, tormentas) y muchas interferencias alteran sobre todo la amplitud. El limitador recorta todo lo que sobresale y deja una señal de amplitud uniforme, de modo que el discriminador solo ve variaciones de frecuencia, que sí son información. No amplifica el audio (lo hace el amplificador de audio tras el detector), no reinserta la portadora (tarea del BFO en SSB y CW) y no modifica la desviación de frecuencia, que es el propio mensaje. _(Véase tema T3, sección «Clases de amplificación y detectores».)_"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-81",
+  "tema": "T3",
+  "concepto": "Oscilador: convierte la corriente continua en alterna",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.27",
+    "enunciado": "Un oscilador es un dispositivo que:",
+    "opciones": [
+     "reduce el ancho de banda de un transmisor",
+     "convierte corriente continua en corriente alterna",
+     "elimina los ruidos de la señal recibida",
+     "adapta la impedancia de la antena"
+    ],
+    "clave": "b",
+    "sol": "Toma la energía continua de la alimentación y la entrega como una señal alterna de la frecuencia que fije su circuito resonante. Es el corazón de todo transmisor y el que genera la señal del oscilador local en el receptor."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-82",
+  "tema": "T3",
+  "concepto": "Condición de oscilación (Barkhausen): realimentación positiva, ganancia de lazo que compensa pérdidas y fase de 360°",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T3-13",
+    "enunciado": "Para que un amplificador realimentado se convierta en oscilador, la realimentación debe ser:",
+    "opciones": [
+     "negativa, para estabilizar la ganancia",
+     "positiva, con una ganancia de lazo que compense las pérdidas y una fase total de 360°",
+     "nula, porque el oscilador no necesita realimentación",
+     "positiva, pero con una ganancia de lazo muy inferior a la unidad"
+    ],
+    "clave": "b",
+    "sol": "Un oscilador es un amplificador que se realimenta a sí mismo: lo devuelto debe llegar en fase (360° en la vuelta completa) y con amplitud suficiente para compensar las pérdidas (condición de Barkhausen). Con ganancia de lazo menor que 1 las oscilaciones se extinguen, y la realimentación negativa estabiliza el amplificador en lugar de hacerlo oscilar."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-84",
+  "tema": "T3",
+  "concepto": "Estabilidad del oscilador: la temperatura hace derivar su frecuencia",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.16",
+    "enunciado": "Los circuitos osciladores pueden sufrir variaciones apreciables de frecuencia al variar:",
+    "opciones": [
+     "La luz ambiental",
+     "La temperatura",
+     "Las condiciones de propagación",
+     "La densidad de electrones libres"
+    ],
+    "clave": "b",
+    "sol": "\n    La frecuencia de un oscilador depende de los valores de sus componentes, y estos cambian con la\n    temperatura: la bobina se dilata, los condensadores varían su capacidad y los semiconductores\n    modifican sus capacidades internas. Es la deriva térmica, principal causa de inestabilidad de un\n    oscilador LC, y por eso se recurre al cristal de cuarzo o se estabiliza térmicamente el\n    circuito. La luz ambiental no afecta a un circuito normal; las condiciones de propagación y la\n    densidad de electrones libres (de la ionosfera) influyen sobre la onda en su recorrido, no sobre\n    el oscilador. #vease[(Véase capítulo «La radio por dentro», apartado «El cristal de cuarzo: el\n    tanque perfecto»; tema T2, sección «Condensadores».)]\n  "
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-86",
+  "tema": "T3",
+  "concepto": "Oscilador a cristal: frecuencia muy estable (y apenas ajustable)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.45",
+    "enunciado": "Los osciladores controlados por un cristal de cuarzo se caracterizan por generar una señal:",
+    "opciones": [
+     "de amplitud muy elevada",
+     "de frecuencia fácilmente ajustable",
+     "de gran contenido en armónicos",
+     "de frecuencia muy estable"
+    ],
+    "clave": "d",
+    "sol": "Un cristal de cuarzo tiene un factor de calidad altísimo y una frecuencia propia que apenas deriva con la temperatura. Esa estabilidad es lo que se busca; a cambio, la frecuencia no puede moverse apenas."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-88",
+  "tema": "T3",
+  "concepto": "VFO: oscilador de frecuencia variable para moverse por la banda",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.40",
+    "enunciado": "Para poder variar la frecuencia de emisión, los transceptores emplean:",
+    "opciones": [
+     "un oscilador de frecuencia variable",
+     "un oscilador de cuarzo de frecuencia fija",
+     "un multiplicador de frecuencia",
+     "un detector de producto"
+    ],
+    "clave": "a",
+    "sol": "El VFO es el que permite moverse por la banda de forma continua. Un cristal fija una sola frecuencia, y por eso los equipos antiguos de canales llevaban un cristal por canal."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-89",
+  "tema": "T3",
+  "concepto": "VCO: su frecuencia varía con una tensión de control, normalmente mediante un varicap",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.18",
+    "enunciado": "Un oscilador controlado por tensión (VCO) es un oscilador cuya:",
+    "opciones": [
+     "frecuencia de salida cambia al variar una tensión continua de control",
+     "amplitud de salida cambia al variar la tensión de la red eléctrica",
+     "frecuencia queda fijada por un cristal de cuarzo, sin posibilidad de ajuste",
+     "tensión de alimentación se estabiliza mediante un diodo zéner"
+    ],
+    "clave": "a",
+    "sol": "VCO son las siglas inglesas de _voltage controlled oscillator_. Una tensión continua aplicada a su entrada de control desplaza la frecuencia de oscilación, normalmente mediante un varicap en el circuito resonante. Es la pieza básica del PLL y del modulador de FM. Lo que se controla es la frecuencia, no la amplitud. Un cristal fija la frecuencia con mucha precisión y deja muy poco margen de ajuste. Y estabilizar la alimentación con un zéner es buena práctica, pero no convierte a un oscilador en controlado por tensión. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.19",
+    "enunciado": "La frecuencia de un VCO se hace variar con la tensión de control mediante un componente situado en su circuito resonante. Normalmente es:",
+    "respuesta": "un diodo varicap, cuya capacidad depende de la tensión inversa aplicada"
+   }
+  ],
+  "nota": "F-T3.18 es la definición del VCO y F-T3.19 el componente que lo hace posible (varicap frente a zéner): dos datos distintos que el examen puede pedir."
+ },
+ {
+  "cid": "T3-91",
+  "tema": "T3",
+  "concepto": "Ruido de fase: fluctuaciones aleatorias de fase que crean faldones de ruido a ambos lados de la portadora (en TX, molestan a canales vecinos)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.21",
+    "enunciado": "El ruido de fase de un oscilador consiste en:",
+    "opciones": [
+     "armónicos de la frecuencia fundamental presentes en su salida",
+     "una deriva lenta de la frecuencia a medida que varía la temperatura ambiente",
+     "un zumbido procedente de la red eléctrica que modula en amplitud la portadora",
+     "pequeñas fluctuaciones aleatorias de la fase, que extienden ruido a ambos lados de la portadora"
+    ],
+    "clave": "d",
+    "sol": "El ruido de fase son pequeñas fluctuaciones aleatorias de la fase (y por tanto de la frecuencia) del oscilador. En el espectro aparecen como «faldones» de ruido a ambos lados de la portadora, en lugar de una raya limpia. No son armónicos, que caen en múltiplos de la frecuencia. Tampoco es la deriva térmica, que es lenta y sistemática, ni el zumbido de red, que es una modulación de amplitud. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.22",
+    "enunciado": "Un transmisor cuyo oscilador tiene mucho ruido de fase:",
+    "respuesta": "ensucia el espectro con ruido en las frecuencias vecinas, que puede molestar a estaciones en canales próximos"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T3-93",
+  "tema": "T3",
+  "concepto": "Mezclador (heterodinación): a la salida aparecen la suma y la diferencia f1 ± f2",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.13",
+    "enunciado": "Si a la entrada de un mezclador se aplican dos señales de 14 MHz y 4 MHz, a su salida encontraremos, entre otras, la frecuencia de:",
+    "opciones": [
+     "3,5 MHz",
+     "56 MHz",
+     "7 MHz",
+     "10 MHz"
+    ],
+    "clave": "d",
+    "sol": "El mezclador entrega $f_1 + f_2 = 18$ MHz y $f_1 - f_2 = 10$ MHz, entre otras. De las opciones, la única presente es 10 MHz."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T3.9",
+    "enunciado": "Un mezclador combina dos frecuencias $f_1$ y $f_2$; a su salida se encuentra, entre otras, la frecuencia:",
+    "respuesta": "$f_1 + f_2$"
+   },
+   {
+    "id": "C-T3.11",
+    "enunciado": "Cuando una alta frecuencia se mezcla con otra alta frecuencia, el fenómeno resultante es conocido\ncon el nombre de:",
+    "respuesta": "Heterodinación"
+   }
+  ],
+  "nota": "T3.13 es el cálculo (14 y 4 MHz → 10 MHz); C-T3.11 (banco público) pregunta el nombre del fenómeno, heterodinación."
+ },
+ {
+  "cid": "T3-94",
+  "tema": "T3",
+  "concepto": "PLL: estabiliza un VCO enganchándolo a una referencia; la tensión de error corrige el VCO",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T3.14",
+    "enunciado": "Los circuitos con «lazo enganchado de fase»:",
+    "opciones": [
+     "Tienen un único cuarzo",
+     "Tienen un cuarzo por canal",
+     "Sirven para estabilizar la frecuencia de un oscilador a cristal",
+     "Sirven para estabilizar la frecuencia de un oscilador controlado por tensión"
+    ],
+    "clave": "d",
+    "sol": "\n    El lazo enganchado de fase (#emph[PLL]) compara la fase del oscilador controlado por tensión\n    (VCO) con la de una referencia y, con la tensión de error, corrige el VCO hasta engancharlo: el\n    VCO hereda la estabilidad de la referencia. No sirve para estabilizar un oscilador a cristal,\n    que ya es estable (es precisamente la referencia). Ni «un único cuarzo» ni «un cuarzo por canal»\n    definen al lazo: un sintetizador PLL suele usar un solo cristal de referencia y cambia de canal\n    variando el divisor, pero eso es un detalle del montaje, y el PLL también se emplea sin cristal,\n    por ejemplo para demodular FM. #vease[(Véase tema T3, sección «Filtros, osciladores y\n    mezcladores».)]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.26",
+    "enunciado": "En un PLL, la tensión de error que entrega el comparador de fase, una vez filtrada, se aplica al VCO para:",
+    "respuesta": "corregir la frecuencia del VCO en el sentido que reduce el error respecto a la referencia"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T3-95",
+  "tema": "T3",
+  "concepto": "Bloques del PLL: comparador de fase, filtro de paso bajo (de lazo), VCO y divisor programable",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·13"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.24",
+    "enunciado": "Los bloques básicos de un lazo de enganche de fase (PLL) son:",
+    "opciones": [
+     "un mezclador, un filtro de FI y un detector de envolvente",
+     "un rectificador, un filtro de alisado y un regulador de tensión",
+     "un comparador de fase, un filtro de paso bajo y un oscilador controlado por tensión",
+     "un modulador, un amplificador de potencia y una antena"
+    ],
+    "clave": "c",
+    "sol": "El comparador de fase mide la diferencia de fase entre la referencia y la señal del VCO (dividida por $N$ en un sintetizador) y entrega una tensión de error. El filtro de paso bajo la alisa y la convierte en la tensión de control continua con la que el VCO corrige su frecuencia. Cerrado el lazo, el VCO queda «enganchado» a la referencia. Las otras opciones son cadenas de otros circuitos: el receptor superheterodino, una fuente de alimentación y un transmisor. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_\n#_apc1-noest[Un PLL es un lazo cerrado de cuatro bloques: el comparador de fase, que compara la referencia con la salida del VCO (dividida por $N$ en un sintetizador) y entrega una tensión de error; el filtro de lazo, de paso bajo, que la alisa; el VCO, que cambia su frecuencia con esa tensión de control; y el divisor programable, que divide la salida del VCO antes del comparador.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T3-97",
+  "tema": "T3",
+  "concepto": "Sintetizador PLL: f_out = N·f_ref; el paso de canal es f_ref",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T3.27",
+    "enunciado": "Un sintetizador PLL con referencia de 12,5 kHz debe generar 145,500 MHz. El divisor programable ha de valer:",
+    "opciones": [
+     "5 820",
+     "11 640",
+     "11 600",
+     "116 400"
+    ],
+    "clave": "b",
+    "sol": "La salida de un sintetizador con divisor programable es un múltiplo entero de la referencia: $f_\"out\" = N dot f_\"ref\"$, luego $N = f_\"out\"/f_\"ref\" = (\"145 500 kHz\")/(\"12,5 kHz\") = \"11 640\"$. Comprobación: $\"11 640\" times 12,5$ kHz = 145 500 kHz. Es decir, basta dividir la frecuencia deseada entre la de referencia. Con $N = \"11 600\"$ saldrían 145,000 MHz. El valor 5 820 correspondería a una referencia de 25 kHz, y 116 400 es un error de coma decimal: daría 1 455 MHz. _(Véase tema T3, sección «Filtros, osciladores y mezcladores».)_"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T3.28",
+    "enunciado": "Un PLL con referencia de 25 kHz tiene su VCO enganchado en 145,500 MHz. Si se aumenta en 3 unidades el divisor programable, el VCO se engancha en:",
+    "respuesta": "145,575 MHz"
+   }
+  ],
+  "nota": "F-T3.27 calcula N a partir de la frecuencia; F-T3.28 hace el cálculo en el otro sentido (cambiar N desplaza N·f_ref)."
+ },
+ {
+  "cid": "T3-98",
+  "tema": "T3",
+  "concepto": "DDS: se emplea como oscilador variable de gran precisión",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·1·14"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T3.10",
+    "enunciado": "Los sintetizadores digitales directos (DDS) se emplean como:",
+    "opciones": [
+     "osciladores variables de gran precisión",
+     "amplificadores de potencia",
+     "filtros de rechazo de banda",
+     "rectificadores controlados"
+    ],
+    "clave": "a",
+    "sol": "El DDS genera la forma de onda numéricamente: oscilador variable con precisión y estabilidad de cristal."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ }
+]

@@ -26,7 +26,7 @@
   counter(figure.where(kind: image)).update(0)
   place(hide(heading(level: 1)[Simulacro #n]))
   v(1.6cm)
-  align(center, text(font: fuente-sans, size: 9pt, weight: "semibold", tracking: 0.14em, fill: col.acento, upper[Simulacro de examen]))
+  align(center, text(font: fuente-sans, size: 9pt, weight: "semibold", tracking: 0.14em, fill: col.acento, upper(if modo == "control" [Simulacro de control] else [Simulacro de examen])))
   v(0.2cm)
   align(center, text(font: fuente-sans, size: 30pt, weight: "bold", fill: col.tinta)[#n])
   v(0.3cm)
@@ -65,8 +65,8 @@
 }
 
 /// Pregunta de simulacro. `origen` = id de la pregunta en el libro ("" si es nueva).
-#let pq(n, p, k, clave, origen, concepto, enunciado, opciones, sol: none) = {
-  [#metadata((n: n, p: p, k: k, clave: clave, origen: origen, concepto: concepto, sol: sol)) <meta-sim>]
+#let pq(n, p, k, clave, origen, concepto, enunciado, opciones, sol: none, tema: "") = {
+  [#metadata((n: n, p: p, k: k, clave: clave, origen: origen, concepto: concepto, sol: sol, tema: tema)) <meta-sim>]
   block(width: 100%, breakable: false, above: 1.05em, below: 1.05em, {
     box(width: 1.7em, text(font: fuente-sans, weight: "bold", fill: col.acento)[#k.])
     enunciado
@@ -94,11 +94,29 @@
       let qs = todas.filter(v => v.p == p)
       block(above: 1.2em, below: 0.6em, sticky: true, text(font: fuente-sans, size: 11pt, weight: "bold", fill: col.acento, _titulo-prueba.at(str(p))))
       clave-rapida(qs.map(v => (str(v.k), v.clave)), por-fila: 15)
+      // aciertos por tema: para saber qué repasar
+      let temas = ()
+      for v in qs {
+        if temas.len() == 0 or temas.last().at(0) != v.tema { temas.push((v.tema, (v.k,))) } else { temas.last().at(1).push(v.k) }
+      }
+      block(below: 0.9em, breakable: false, {
+        set text(font: fuente-sans, size: 8pt)
+        table(
+          columns: (auto,) + (1fr,) * temas.len(),
+          align: center + horizon,
+          inset: (x: 3pt, y: 3pt),
+          stroke: 0.4pt + col.gris.lighten(50%),
+          fill: (x, y) => if x == 0 or y == 0 { col.gris-claro },
+          table.cell(align: left)[Tema], ..temas.map(t => [*#t.at(0)*]),
+          table.cell(align: left)[Preguntas], ..temas.map(t => [#t.at(1).first()–#t.at(1).last()]),
+          table.cell(align: left)[Aciertos], ..temas.map(t => [#h(1fr)/#t.at(1).len()]),
+        )
+      })
       set text(size: 9.5pt)
       for v in qs {
         block(below: 0.8em, breakable: true, [
           #text(font: fuente-sans, weight: "bold", fill: col.acento)[#v.k] #text(weight: "bold")[(#v.clave)]
-          #if v.concepto != "" { text(font: fuente-sans, size: 0.85em, fill: col.gris)[#v.concepto #if v.origen != "" [· libro: #v.origen] — ] } else if v.origen != "" { text(font: fuente-sans, size: 0.85em, fill: col.gris)[libro: #v.origen — ] }
+          #if v.concepto != "" { text(font: fuente-sans, size: 0.85em, fill: col.gris)[#v.concepto #if v.origen != "" [· #v.origen] — ] } else if v.origen != "" { text(font: fuente-sans, size: 0.85em, fill: col.gris)[#v.origen — ] }
           #v.sol
         ])
       }
@@ -141,16 +159,16 @@
 // ---------------------------------------------------------------------
 #let mapa-inicio() = {
   _salto-capitulo()
-  place(hide(heading(level: 1)[Apéndice B · Mapa de conceptos]))
+  place(hide(heading(level: 1, if modo == "control" [Apéndice · Mapa de conceptos] else [Apéndice B · Mapa de conceptos])))
   v(1.2cm)
-  align(center, text(font: fuente-sans, size: 9pt, weight: "semibold", tracking: 0.14em, fill: col.acento, upper[Apéndice B]))
+  align(center, text(font: fuente-sans, size: 9pt, weight: "semibold", tracking: 0.14em, fill: col.acento, upper(if modo == "control" [Apéndice] else [Apéndice B])))
   v(0.2cm)
   align(center, text(font: fuente-sans, size: 20pt, weight: "bold")[Mapa de conceptos])
   v(0.5cm)
   block(width: 100%, {
     set par(justify: false)
     set text(size: 9.5pt)
-    [Todos los conceptos del temario que cubren estos simulacros, tema a tema, y dónde está cada uno. #text(font: fuente-sans, weight: "bold")[3·1·7] es el simulacro 3, prueba 1, pregunta 7; #text(font: fuente-sans, weight: "bold")[R57] es el número 57 del repaso del apéndice A. Úsalo para repasar un tema entero o para comprobar que no te queda nada por ver.]
+    if modo == "control" [Todos los conceptos de estos simulacros de control, tema a tema. #text(font: fuente-sans, weight: "bold")[3·1·7 (estudio 5·1·2)] es la pregunta 7 de la prueba 1 del simulacro de control 3; el mismo concepto está en el simulacro de estudio 5, prueba 1, pregunta 2. Úsalo para encontrar todas las preguntas de un tema que has fallado.] else [Todos los conceptos del temario que cubren estos simulacros, tema a tema, y dónde está cada uno. #text(font: fuente-sans, weight: "bold")[3·1·7] es el simulacro 3, prueba 1, pregunta 7; #text(font: fuente-sans, weight: "bold")[R57] es el número 57 del repaso del apéndice A. Úsalo para repasar un tema entero o para comprobar que no te queda nada por ver.]
   })
   v(0.3cm)
   set text(size: 8.3pt)

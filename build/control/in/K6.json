@@ -1,0 +1,2332 @@
+[
+ {
+  "cid": "T7-01",
+  "tema": "T7",
+  "concepto": "Nomenclatura de las bandas: sigla y nombre por longitud de onda (HF decamétricas, MF hectométricas, VHF métricas, UHF decimétricas, SHF centimétricas)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T7.6",
+    "enunciado": "La abreviatura HF indica la subdivisión métrica correspondiente a ondas:",
+    "opciones": [
+     "decamétricas",
+     "métricas",
+     "kilométricas",
+     "hectométricas"
+    ],
+    "clave": "a",
+    "sol": "\n    La «subdivisión métrica» es el nombre por longitud de onda que la UIT asigna a cada banda. HF\n    (#emph[High Frequency]) va de 3 a 30 MHz, es decir, de 100 a 10 m: decenas de metros, ondas\n    decamétricas. Las métricas corresponden a VHF (30–300 MHz), las hectométricas a MF (300 kHz–3\n    MHz) y las kilométricas a LF (30–300 kHz). #vease[(Véase tema T7, sección «Cómo se nombran las\n    bandas».)]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T7.15",
+    "enunciado": "Según la nomenclatura de las bandas de frecuencia, el símbolo MF corresponde a las ondas:",
+    "respuesta": "hectométricas"
+   },
+   {
+    "id": "T7.17",
+    "enunciado": "La banda designada como VHF está formada por las ondas:",
+    "respuesta": "métricas"
+   },
+   {
+    "id": "T7.19",
+    "enunciado": "Las ondas decimétricas se corresponden con la banda designada como:",
+    "respuesta": "UHF"
+   },
+   {
+    "id": "T7.26",
+    "enunciado": "Las ondas centimétricas se designan con la abreviatura:",
+    "respuesta": "SHF"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T7-03",
+  "tema": "T7",
+  "concepto": "Asignar una frecuencia concreta a su banda con λ = 300/f",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "13·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T7.9",
+    "enunciado": "La frecuencia de 144 MHz está incluida en las ondas:",
+    "opciones": [
+     "milimétricas",
+     "kilométricas",
+     "métricas",
+     "hectométricas"
+    ],
+    "clave": "c",
+    "sol": "\n    A 144 MHz, $λ = 300 slash 144 ≈ 2,08$ m (la banda de 2 m). Está entre 30 y 300 MHz: VHF, ondas\n    métricas (1–10 m). Las milimétricas son EHF (30–300 GHz), las kilométricas LF (30–300 kHz) y las\n    hectométricas MF (300 kHz–3 MHz). #vease[(Véase tema T7, sección «Cómo se nombran las bandas».)]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-T7.7",
+    "enunciado": "La banda de 430 a 440 MHz pertenece a las ondas:",
+    "respuesta": "UHF"
+   },
+   {
+    "id": "T7.20",
+    "enunciado": "Una emisión en la frecuencia de 3,5 MHz pertenece a las ondas:",
+    "respuesta": "decamétricas"
+   }
+  ],
+  "nota": "T7.20 añade la trampa de la frontera: 3,5 MHz está muy cerca de 3 MHz, pero sigue siendo HF (decamétricas)."
+ },
+ {
+  "cid": "T7-04",
+  "tema": "T7",
+  "concepto": "La onda de superficie predomina en MF y por debajo (sus pérdidas crecen con la frecuencia)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.3",
+    "enunciado": "El modo de propagación por onda de superficie predomina en la banda de:",
+    "opciones": [
+     "MF",
+     "VHF",
+     "UHF",
+     "SHF"
+    ],
+    "clave": "a",
+    "sol": "La onda de superficie viaja guiada por el suelo, y el suelo es mal conductor: las pérdidas que induce crecen con la frecuencia. Por eso domina en MF y por debajo; en HF se agota en pocos kilómetros y solo sobrevive la propagación ionosférica."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-05",
+  "tema": "T7",
+  "concepto": "La onda de superficie sigue la curvatura terrestre",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.4",
+    "enunciado": "La propagación por onda de superficie se caracteriza porque la onda:",
+    "opciones": [
+     "se refleja en la capa F de la ionosfera",
+     "rebota en la superficie lunar",
+     "solo existe con visión directa entre antenas",
+     "se propaga siguiendo la curvatura terrestre"
+    ],
+    "clave": "d",
+    "sol": "La onda de superficie viaja pegada al suelo siguiendo la curvatura terrestre, superando el horizonte visual."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-06",
+  "tema": "T7",
+  "concepto": "HF: propagación por reflexión ionosférica, la del DX (España–Nueva Zelanda)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.10",
+    "enunciado": "Un enlace radioeléctrico entre España y Nueva Zelanda podría establecerse empleando:",
+    "opciones": [
+     "una frecuencia de UHF con visión directa",
+     "una frecuencia de HF que se refleje en la ionosfera",
+     "exclusivamente la onda de superficie en VHF",
+     "una frecuencia de microondas por conducto troposférico"
+    ],
+    "clave": "b",
+    "sol": "$tilde 19 000$ km solo son viables por reflexión ionosférica múltiple en HF, con una frecuencia que la ionosfera refleje en ese momento (por debajo de la MUF del trayecto)."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T7.2",
+    "enunciado": "El modo de propagación por onda ionosférica predomina en la banda de:",
+    "respuesta": "HF"
+   },
+   {
+    "id": "C-T7.1",
+    "enunciado": "Un enlace radioeléctrico entre España y Nueva Zelanda podría emplear:",
+    "respuesta": "una frecuencia de la banda HF por debajo de la frecuencia crítica"
+   }
+  ],
+  "nota": "T7.10 tiene clave segura. C-T7.1 es la versión del banco público y mete la frecuencia crítica; la clave del examen es «por debajo de la frecuencia crítica», y la solución explica por qué."
+ },
+ {
+  "cid": "T7-07",
+  "tema": "T7",
+  "concepto": "VHF y UHF: onda directa, distancias cortas",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.5",
+    "enunciado": "La forma más común de propagación en VHF y UHF es por:",
+    "opciones": [
+     "onda directa",
+     "reflexión ionosférica en la capa D",
+     "onda de superficie",
+     "conducto troposférico permanente"
+    ],
+    "clave": "a",
+    "sol": "En VHF/UHF la ionosfera ya no refleja: propagación por onda directa, con alcance algo mayor que el horizonte óptico."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T7.12",
+    "enunciado": "Los transmisores de VHF en radioafición se utilizan normalmente para:",
+    "respuesta": "distancias cortas"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T7-08",
+  "tema": "T7",
+  "concepto": "Los satélites de aficionado usan VHF y UHF (hay que atravesar la ionosfera)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.24",
+    "enunciado": "Para las comunicaciones a través de satélites de aficionado se emplean preferentemente las bandas de:",
+    "opciones": [
+     "onda media",
+     "80 y 40 metros",
+     "frecuencias inferiores a 3 MHz",
+     "VHF y UHF"
+    ],
+    "clave": "d",
+    "sol": "Para atravesar la ionosfera en lugar de reflejarse en ella hace falta subir por encima de las frecuencias que esta devuelve: los satélites de aficionado trabajan en 2 metros, 70 centímetros y bandas superiores. En HF buena parte de la señal se reflejaría en la ionosfera en vez de atravesarla."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-09",
+  "tema": "T7",
+  "concepto": "A mayor frecuencia, menor alcance (144 MHz llega más fuerte que 430 MHz)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T7.4",
+    "enunciado": "En condiciones normales, para una misma potencia radiada, las ondas que llegarían con más\nintensidad a un punto alejado serían:",
+    "opciones": [
+     "cualquiera de las superiores a 144 MHz",
+     "las de 144 MHz",
+     "las de 430 MHz",
+     "las superiores a 430 MHz"
+    ],
+    "clave": "b",
+    "sol": "\n    Con la misma potencia radiada y antenas de igual ganancia, la atenuación crece con la\n    frecuencia: $L = 32,4 + 20 log_10 f + 20 log_10 d$. Pasar de 144 a 430 MHz añade\n    $20 log_10(430 slash 144) ≈ 9,5$ dB de pérdida, y a frecuencias aún mayores, más. Además la\n    lluvia, la vegetación y los obstáculos atenúan más cuanto más alta es la frecuencia. Llega más\n    fuerte la señal de menor frecuencia, la de 144 MHz; las otras tres opciones son frecuencias más\n    altas. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T7.25",
+    "enunciado": "En las comunicaciones terrestres en la banda de UHF, y en igualdad de condiciones, puede afirmarse que:",
+    "respuesta": "a mayor frecuencia, menor alcance"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T7-11",
+  "tema": "T7",
+  "concepto": "Horizonte radioeléctrico: d ≈ 4,12 (√h1 + √h2) km",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.14",
+    "enunciado": "Dos estaciones de VHF, con las antenas a 9 m y a 16 m de altura sobre terreno llano, alcanzan por onda directa una distancia máxima aproximada de:",
+    "opciones": [
+     "21 km",
+     "29 km",
+     "49 km",
+     "103 km"
+    ],
+    "clave": "b",
+    "sol": "El horizonte radioeléctrico suma el de cada antena: $d approx 4,12 (sqrt(h_1) + sqrt(h_2)) = 4,12 (sqrt(9) + sqrt(16)) = 4,12 times (3 + 4) approx 29$ km. Los errores típicos son meter la raíz sobre la suma, $4,12 sqrt(25) approx 21$ km; sobre el producto, $4,12 sqrt(9 dot 16) approx 49$ km, o no sacar raíces, $4,12 times 25 approx 103$ km. Se suman las raíces de las alturas, no las alturas. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T7.15",
+    "enunciado": "Al cuadruplicar la altura de una antena de VHF, la distancia hasta su horizonte radioeléctrico:",
+    "respuesta": "se duplica"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T7-12",
+  "tema": "T7",
+  "concepto": "El horizonte radioeléctrico es algo mayor que el óptico (la troposfera curva el rayo)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.16",
+    "enunciado": "En condiciones normales, el horizonte radioeléctrico es:",
+    "opciones": [
+     "algo menor que el horizonte óptico, porque la troposfera absorbe parte de la señal",
+     "exactamente igual al horizonte óptico, porque la onda viaja en línea recta",
+     "algo mayor que el horizonte óptico, porque la troposfera curva el rayo hacia el suelo",
+     "muy superior al óptico, porque la ionosfera devuelve la onda a tierra"
+    ],
+    "clave": "c",
+    "sol": "La densidad del aire disminuye con la altura, así que el índice de refracción de la troposfera también decrece y el rayo se curva ligeramente hacia el suelo, siguiendo a la Tierra. Resultado: el horizonte radioeléctrico supera al óptico en torno a un 15 % (la fórmula pasa de $3,57 sqrt(h)$ a $4,12 sqrt(h)$ kilómetros, con $h$ en metros). No es menor ni igual, y en VHF la ionosfera no interviene: es transparente. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-13",
+  "tema": "T7",
+  "concepto": "Atenuación: toda onda se atenúa al propagarse y al atravesar objetos",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T7.11",
+    "enunciado": "Si una onda electromagnética atraviesa un objeto, se produce un efecto de:",
+    "opciones": [
+     "reflexión",
+     "atenuación",
+     "intermodulación",
+     "amplificación"
+    ],
+    "clave": "b",
+    "sol": "\n    Al atravesar un objeto (un muro, un árbol, una persona), la onda cede parte de su energía y sale\n    con menos intensidad: se atenúa. La reflexión ocurre en la superficie y devuelve parte de la\n    onda sin atravesarla; la intermodulación es cosa de los elementos no lineales (amplificadores,\n    mezcladores), no de un obstáculo pasivo; y un objeto pasivo no aporta energía, así que no puede\n    amplificar. #vease[(Véase tema T7, introducción (atenuación de la señal).)]\n    #no-esta[Cuando una onda encuentra un obstáculo pueden darse varios efectos: #strong[reflexión] (parte\n    rebota en la superficie), #strong[refracción] (cambia de dirección al pasar de un medio a otro),\n    #strong[difracción] (se curva al rodear bordes) y #strong[absorción o atenuación] (si lo\n    atraviesa, pierde energía en forma de calor). La pérdida es tanto mayor cuanto más grueso o más\n    conductor es el obstáculo.]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T7.14",
+    "enunciado": "En una transmisión radioeléctrica, las ondas, al propagarse:",
+    "respuesta": "se atenúan siempre"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "T7-14",
+  "tema": "T7",
+  "concepto": "Pérdida en espacio libre y relación señal/ruido: 20 log d y 20 log f (×10 la distancia: −20 dB)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.1",
+    "enunciado": "En un enlace en espacio libre, con la misma potencia transmitida y el mismo ruido en el receptor, al multiplicar por 10 la distancia la relación señal/ruido:",
+    "opciones": [
+     "disminuye 10 dB",
+     "no varía, porque la señal y el ruido se atenúan por igual",
+     "disminuye 20 dB",
+     "disminuye 40 dB"
+    ],
+    "clave": "c",
+    "sol": "En espacio libre la potencia recibida cae con $1 slash d^2$: la atenuación en decibelios crece como $20 log_10 d$. Al multiplicar la distancia por 10 son $20 log 10 = 20$ dB de señal menos (doblar la distancia son 6 dB). El ruido del receptor no depende de la distancia, así que la relación señal/ruido empeora esos mismos 20 dB. Los 10 dB saldrían de usar $10 log d$; los 40 dB corresponderían a una potencia que cayera como $1 slash d^4$; y el ruido no se atenúa con la señal, pues lo genera el propio receptor y el entorno. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-T7.12",
+    "enunciado": "A igual distancia, al pasar de 144 MHz a 432 MHz la pérdida en espacio libre aumenta aproximadamente:",
+    "respuesta": "9,5 dB"
+   }
+  ],
+  "nota": "F-T7.12 es la misma fórmula aplicada a la frecuencia (144 → 432 MHz: +9,5 dB)."
+ },
+ {
+  "cid": "T7-15",
+  "tema": "T7",
+  "concepto": "Difracción: la onda bordea un obstáculo",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.21",
+    "enunciado": "La curvatura que experimenta una onda radioeléctrica al encontrar un obstáculo en su trayectoria se denomina:",
+    "opciones": [
+     "reflexión",
+     "difracción",
+     "refracción",
+     "absorción"
+    ],
+    "clave": "b",
+    "sol": "La difracción es la capacidad de la onda para bordear un obstáculo y llegar a la zona de sombra geométrica, y es tanto mayor cuanto más larga es la longitud de onda: por eso en HF se salva un monte que en UHF deja sombra. La reflexión rebota, la refracción curva al cambiar de medio y la absorción convierte la energía en calor."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-16",
+  "tema": "T7",
+  "concepto": "Capas de la ionosfera: D, E, F1 y F2",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.1",
+    "enunciado": "Las capas ionizadas de la atmósfera se denominan:",
+    "opciones": [
+     "A, B y C",
+     "D, E, F1 y F2",
+     "alfa, beta y gamma",
+     "troposfera y estratosfera"
+    ],
+    "clave": "b",
+    "sol": "Capas D, E, F1 y F2 (@t7-fig-capas[figura]); de noche la D desaparece y F1 y F2 se funden en una sola capa F."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-17",
+  "tema": "T7",
+  "concepto": "Orden de las capas de la atmósfera: troposfera, estratosfera e ionosfera",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.22",
+    "enunciado": "Ordenadas de menor a mayor altura, las capas de la atmósfera son:",
+    "opciones": [
+     "ionosfera, troposfera y estratosfera",
+     "estratosfera, troposfera e ionosfera",
+     "troposfera, estratosfera e ionosfera",
+     "troposfera, ionosfera y estratosfera"
+    ],
+    "clave": "c",
+    "sol": "De abajo arriba: troposfera (donde está el tiempo atmosférico y ocurre la propagación troposférica), estratosfera y, por encima, la ionosfera, que es la que refleja las ondas de HF."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-18",
+  "tema": "T7",
+  "concepto": "De noche desaparece la capa D y F1 y F2 se funden en una sola capa F",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T7-01",
+    "enunciado": "Al caer la noche, en la ionosfera:",
+    "opciones": [
+     "desaparece la capa F y solo queda la capa D",
+     "la capa F se divide en F1 y F2, que de día forman una sola",
+     "desaparece la capa D y las capas F1 y F2 se funden en una sola capa F",
+     "la capa D se refuerza y absorbe más las bandas bajas"
+    ],
+    "clave": "c",
+    "sol": "Sin sol, los electrones se recombinan con los iones. En la capa D, donde el aire es relativamente denso, eso ocurre en minutos y la capa desaparece; en la F, muy tenue, tarda horas, así que sobrevive toda la noche con F1 y F2 fundidas en una sola capa. Por eso de noche las bandas bajas (80 y 160 m) dejan de sufrir la absorción de la D y llegan lejos."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Hueco: está en la hoja de repaso; en el banco solo aparece dentro de la solución de T7.1."
+ },
+ {
+  "cid": "T7-19",
+  "tema": "T7",
+  "concepto": "La capa D absorbe de día las bandas bajas (3,5 MHz: de día menos alcance que de noche)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "8·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.8",
+    "enunciado": "En la banda de 3,5 MHz, los alcances por reflexión ionosférica durante el día, frente a los de la noche, son:",
+    "opciones": [
+     "menores",
+     "mayores",
+     "iguales",
+     "nulos en cualquier caso"
+    ],
+    "clave": "a",
+    "sol": "De día la capa D absorbe las bandas bajas de HF: alcances menores. Por eso 80 m es una banda nocturna."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-20",
+  "tema": "T7",
+  "concepto": "La ionosfera depende de la actividad solar y de ella dependen las condiciones en HF",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·1·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.23",
+    "enunciado": "La región de la atmósfera cuyo estado varía con la actividad solar y de la que dependen las condiciones de propagación en HF es:",
+    "opciones": [
+     "la ionosfera",
+     "la troposfera",
+     "la estratosfera",
+     "la mesosfera"
+    ],
+    "clave": "a",
+    "sol": "Es la radiación solar la que ioniza esas capas altas, de modo que el ciclo solar de once años, las fulguraciones y el día y la noche cambian por completo las condiciones en HF. La troposfera influye en VHF y UHF, pero no en la reflexión ionosférica."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-21",
+  "tema": "T7",
+  "concepto": "Ciclo solar: más manchas → más ionización, MUF más alta y bandas altas abiertas",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.10",
+    "enunciado": "Cuando aumenta la actividad solar (más manchas solares), la MUF suele:",
+    "opciones": [
+     "bajar, porque el exceso de ionización deja de reflejar las ondas de HF",
+     "subir, y bandas altas como la de 28 MHz se abren al DX con más frecuencia",
+     "permanecer igual, pues solo depende de la hora del día",
+     "subir, pero solo beneficia a las bandas bajas de 160 y 80 m"
+    ],
+    "clave": "b",
+    "sol": "Más manchas solares significan más radiación ultravioleta y X, luego más electrones libres y una frecuencia de plasma más alta ($f_p approx 9 sqrt(N_e)$). Con ello sube la MUF y la ionosfera refleja frecuencias mayores: en los máximos del ciclo de once años se abren con frecuencia 15, 12 y 10 m. No baja (más ionización no impide reflejar), no es independiente del Sol y no favorece a las bandas bajas, que dependen sobre todo de la absorción de la capa D y de la noche. #vease[(Véase tema T7, sección «Cómo se nombran las bandas» (párrafo final sobre la predicción de propagación).)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-23",
+  "tema": "T7",
+  "concepto": "Frecuencia crítica: la máxima que se refleja en incidencia vertical",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "9·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.6",
+    "enunciado": "Se llama frecuencia crítica a la frecuencia:",
+    "opciones": [
+     "mínima que atraviesa la capa D",
+     "por encima de la cual, en incidencia vertical, no hay reflexión en la ionosfera",
+     "de resonancia de la antena receptora",
+     "máxima que puede generar el transmisor"
+    ],
+    "clave": "b",
+    "sol": "La frecuencia crítica es la máxima que, en incidencia vertical, aún se refleja; por encima, la onda atraviesa la ionosfera."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-T7.13",
+    "enunciado": "En el siguiente gráfico, si la antena emite tres señales en distintas frecuencias, ¿cuál de ellas tiene una frecuencia superior a la frecuencia crítica?\n    #circuito(caption: none)[\n      #_apb1-iono\n    ]",
+    "respuesta": "La señal 1."
+   }
+  ],
+  "nota": "C-T7.13 es la misma idea sobre una figura."
+ },
+ {
+  "cid": "T7-24",
+  "tema": "T7",
+  "concepto": "MUF ≈ fc / cos θ: mayor que la frecuencia crítica en incidencia oblicua",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T7-03",
+    "enunciado": "La frecuencia crítica de la capa F2 es de 7 MHz. Para una onda que llega a la capa formando 60° con la vertical, la máxima frecuencia utilizable (MUF) es aproximadamente de:",
+    "opciones": [
+     "3,5 MHz",
+     "8,1 MHz",
+     "14 MHz",
+     "6 MHz"
+    ],
+    "clave": "c",
+    "sol": "$\"MUF\" approx f_c slash cos theta$, con $theta$ el ángulo respecto de la vertical: $7 slash cos 60° = 7 slash 0,5 = 14$ MHz. En incidencia oblicua la MUF es siempre mayor que la frecuencia crítica. Los 3,5 MHz salen de multiplicar por el coseno en vez de dividir; los 8,1 MHz, de usar el seno; y unos 6 MHz serían el 85 % de la frecuencia crítica."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Hueco: la MUF está en el alcance y en la hoja de repaso (con este mismo ejemplo); el banco no tiene pregunta propia."
+ },
+ {
+  "cid": "T7-25",
+  "tema": "T7",
+  "concepto": "Frecuencia óptima de trabajo ≈ 85 % de la MUF",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.13",
+    "enunciado": "Si la MUF de un trayecto es de 20 MHz, la frecuencia óptima de trabajo (FOT) es aproximadamente de:",
+    "opciones": [
+     "12 MHz",
+     "17 MHz",
+     "20 MHz",
+     "24 MHz"
+    ],
+    "clave": "b",
+    "sol": "La frecuencia óptima de trabajo es aproximadamente el 85 % de la MUF: FOT ≈ 0,85 × 20 = 17 MHz. Se trabaja algo por debajo de la MUF para tolerar las fluctuaciones de la ionosfera, que en un momento dado pueden bajarla y cortar el enlace. 20 MHz sería la propia MUF, sin margen; 24 MHz sale de dividir entre 0,85 en vez de multiplicar, y 12 MHz de aplicar un 60 % que no es el de la regla. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-26",
+  "tema": "T7",
+  "concepto": "Onda espacial (de espacio): la que rebasa el horizonte, sube a la ionosfera y vuelve",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T7.10",
+    "enunciado": "La onda que rebasa el horizonte y llega a la atmósfera se denomina:",
+    "opciones": [
+     "onda de horizonte visto",
+     "onda de transmisión directa",
+     "onda especial indirecta",
+     "onda espacial"
+    ],
+    "clave": "d",
+    "sol": "\n    La onda espacial (en este cuaderno, onda de espacio) sale de la antena hacia arriba, rebasa el\n    horizonte, alcanza la ionosfera y regresa a tierra por refracción en ella; es la del DX en HF.\n    La onda directa viaja en visión directa y no pasa del horizonte radioeléctrico. «Onda de\n    horizonte visto» y «onda especial indirecta» no son tipos de propagación; ojo con «especial»,\n    que no es «espacial». #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]\n  "
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-27",
+  "tema": "T7",
+  "concepto": "Zona de silencio: entre el final de la onda de superficie y la primera onda reflejada",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T7-04",
+    "enunciado": "En HF, la zona de silencio es la región:",
+    "opciones": [
+     "donde la capa D absorbe por completo la señal durante el día",
+     "situada entre el punto donde se agota la onda de superficie y el punto donde cae la primera onda reflejada en la ionosfera",
+     "situada más allá de la distancia máxima de un salto",
+     "donde la onda directa y la reflejada llegan en oposición y se anulan"
+    ],
+    "clave": "b",
+    "sol": "En HF la onda de superficie se agota en pocas decenas de kilómetros, y la onda reflejada no cae a tierra hasta la distancia de salto: entre las dos no llega señal. Por eso una estación a 100 km puede no oírte mientras otra a 2000 km te oye bien. Si la frecuencia baja por debajo de la frecuencia crítica, hasta el rayo vertical vuelve y la zona de silencio desaparece."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Hueco: la distancia de salto y la zona de silencio están en el alcance; el banco solo las usa en C-T7.12."
+ },
+ {
+  "cid": "T7-28",
+  "tema": "T7",
+  "concepto": "Ángulo de radiación bajo → distancia de salto más larga",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T7-05",
+    "enunciado": "En la propagación ionosférica en HF, cuanto más bajo (más rasante) es el ángulo de radiación de la antena sobre el horizonte:",
+    "opciones": [
+     "más corta es la distancia de salto",
+     "más larga es la distancia de salto",
+     "más baja es la MUF del trayecto",
+     "la distancia de salto no cambia, porque solo depende de la frecuencia"
+    ],
+    "clave": "b",
+    "sol": "Un rayo rasante llega a la ionosfera muy inclinado y, tras reflejarse, cae a tierra mucho más lejos: la distancia de salto crece al bajar el ángulo de radiación. Además, cuanto más oblicua es la incidencia, más alta es la MUF ($f_c slash cos theta$), así que la c es falsa. Por eso el DX en HF premia las antenas de ángulo de radiación bajo."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Hueco: está en el capítulo y en la hoja de repaso y no hay pregunta."
+ },
+ {
+  "cid": "T7-30",
+  "tema": "T7",
+  "concepto": "Desvanecimiento (fading): variación momentánea de la intensidad recibida",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "T7.7",
+    "enunciado": "La variación momentánea de la intensidad de campo recibida se conoce como:",
+    "opciones": [
+     "intermodulación",
+     "efecto pelicular",
+     "desvanecimiento o fading",
+     "dispersión troposférica"
+    ],
+    "clave": "c",
+    "sol": "El fading es la variación momentánea de la intensidad recibida (cambios ionosféricos, multitrayecto); el CAG lo compensa en parte."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-31",
+  "tema": "T7",
+  "concepto": "El conducto troposférico se forma con una inversión térmica (aire cálido sobre aire frío)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.18",
+    "enunciado": "Un conducto troposférico se forma cuando en la troposfera existe:",
+    "opciones": [
+     "una capa de aire frío sobre otra de aire cálido, como ocurre habitualmente",
+     "una nube de ionización intensa en la capa E",
+     "una inversión de temperatura: una capa de aire cálido situada sobre aire más frío",
+     "una intensa actividad de manchas solares"
+    ],
+    "clave": "c",
+    "sol": "En condiciones normales el aire se enfría con la altura. En una inversión de temperatura, una capa de aire cálido queda sobre aire más frío, y el cambio brusco del índice de refracción curva la onda hacia el suelo una y otra vez: queda atrapada entre la capa y la superficie, como en una guía de ondas. La situación habitual (a) no forma conductos. Las nubes de ionización de la capa E (b) son la esporádica-E, un fenómeno ionosférico, y las manchas solares (d) actúan sobre la ionosfera, no sobre la troposfera. #vease[(Véase tema T7, sección «Fenómenos de propagación».)] #no-esta[Una inversión de temperatura se da cuando, en vez de enfriarse con la altura, el aire se calienta: una capa de aire cálido queda sobre aire más frío, cerca del suelo. El cambio brusco en el índice de refracción del aire curva la onda hacia la Tierra y la mantiene atrapada entre la capa y la superficie, igual que en una guía de ondas. Así nace la propagación por conducto, que lleva las señales de VHF y UHF a cientos de kilómetros.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-32",
+  "tema": "T7",
+  "concepto": "El conducto troposférico se da en VHF y UHF, con alcances de cientos de kilómetros",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.17",
+    "enunciado": "La propagación por conducto troposférico se aprovecha sobre todo en:",
+    "opciones": [
+     "HF, con contactos intercontinentales por reflexión en la capa F",
+     "VHF y UHF, con alcances de cientos de kilómetros, muy superiores al horizonte visual",
+     "MF, con un alcance limitado a la onda de superficie",
+     "VHF y UHF, pero solo para comunicaciones locales de pocos kilómetros"
+    ],
+    "clave": "b",
+    "sol": "El conducto es una capa de aire en la que la onda queda atrapada y guiada, como en una guía de ondas natural. Funciona con VHF, UHF y frecuencias superiores, y permite contactos de varios cientos de kilómetros, bastante más allá del horizonte visual, aunque de forma esporádica. La HF (a) llega lejos por reflexión en la ionosfera, no en la troposfera; en MF (c) domina la onda de superficie; y el alcance de pocos kilómetros (d) es el normal sin conducto, justo el que este supera. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-35",
+  "tema": "T7",
+  "concepto": "Esporádica-E: nubes de ionización intensa en la capa E que reflejan VHF",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.2",
+    "enunciado": "La propagación por esporádica-E se debe a:",
+    "opciones": [
+     "nubes de ionización muy intensa que aparecen en la capa E",
+     "inversiones de temperatura en la troposfera, que forman un conducto",
+     "la reflexión de las ondas en la superficie de la Luna",
+     "las estelas ionizadas que dejan los meteoros"
+    ],
+    "clave": "a",
+    "sol": "La esporádica-E (_Es_) aparece cuando se forman, de modo irregular, nubes de ionización intensa en la capa E, a unos 100 km de altura. Esas nubes reflejan señales de VHF (sobre todo 50 MHz y, a veces, 144 MHz) que normalmente atravesarían la ionosfera. La inversión de temperatura produce conductos troposféricos, la reflexión lunar es el EME y las estelas de los meteoros dan el meteor-scatter: son otros mecanismos, cada uno con su propia física. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-36",
+  "tema": "T7",
+  "concepto": "Esporádica-E: más frecuente en verano",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.4",
+    "enunciado": "En el hemisferio norte, la esporádica-E en VHF es más frecuente en:",
+    "opciones": [
+     "los meses de invierno, con las noches más largas",
+     "primavera y otoño, en los equinoccios",
+     "todas las estaciones por igual",
+     "los meses de verano"
+    ],
+    "clave": "d",
+    "sol": "La esporádica-E tiene una marcada estacionalidad. En el hemisferio norte su temporada principal es el verano (de mayo a agosto, con máximo hacia junio–julio), y existe un pico secundario y mucho más débil hacia diciembre–enero. Por eso en verano se abre con frecuencia la banda de 50 MHz y, a veces, la de 144 MHz. No es una cuestión de equinoccios (eso es más propio de la capa F2) ni es uniforme a lo largo del año. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-38",
+  "tema": "T7",
+  "concepto": "Reflexión auroral: en las cortinas ionizadas de las auroras",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.5",
+    "enunciado": "La reflexión auroral se produce en:",
+    "opciones": [
+     "la superficie de la Luna",
+     "las capas de aire cálido de la troposfera",
+     "las estelas de los meteoros",
+     "las cortinas de ionización de las auroras"
+    ],
+    "clave": "d",
+    "sol": "Las auroras boreales son zonas de la alta atmósfera, hacia los 100 km de altura y en latitudes altas, ionizadas con intensidad por partículas procedentes del Sol. Esas cortinas ionizadas reflejan las ondas de VHF como un espejo irregular y cambiante. La Luna es el reflector del EME, las capas de aire cálido forman conductos por inversión térmica y las estelas de los meteoros dan el meteor-scatter: ninguno tiene que ver con las auroras. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-40",
+  "tema": "T7",
+  "concepto": "Meteor-scatter: reflexión en las estelas ionizadas de los meteoros",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-T7.7",
+    "enunciado": "La propagación por meteor-scatter se basa en:",
+    "opciones": [
+     "la reflexión de las ondas en la superficie de la Luna",
+     "la reflexión en las estelas ionizadas que dejan los meteoros al entrar en la atmósfera",
+     "el guiado de las ondas por conductos de la troposfera",
+     "la reflexión en nubes de ionización intensa de la capa E"
+    ],
+    "clave": "b",
+    "sol": "Un meteoro que entra en la atmósfera a gran velocidad, hacia los 100 km de altura, deja una estela de gas ionizado que, durante un instante, refleja las ondas de VHF como un pequeño espejo. Eso permite enlaces de unos cientos a dos mil kilómetros en 50 y 144 MHz, sobre todo durante las lluvias de meteoros. La Luna es el reflector del EME, los conductos son cosa de la troposfera y las nubes de la capa E dan la esporádica-E. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "T7-42",
+  "tema": "T7",
+  "concepto": "Rebote lunar (EME): VHF y superiores, sobre todo 144 MHz (ondas métricas)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-T7.2",
+    "enunciado": "Las reflexiones lunares se hacen principalmente en:",
+    "opciones": [
+     "ondas decamétricas",
+     "ondas métricas",
+     "ondas decimétricas",
+     "ondas milimétricas"
+    ],
+    "clave": "b",
+    "sol": "\n    El rebote lunar (EME) necesita una frecuencia que atraviese la ionosfera, lo que deja fuera en\n    la práctica a las decamétricas (HF), y antenas de ganancia elevada pero manejables. La banda de\n    EME por excelencia es la de 144 MHz (2 m): ondas métricas. También se usan 432 MHz\n    (decimétricas) y las microondas, pero con mucha menos actividad. Las milimétricas (30–300 GHz)\n    casi no se emplean: la atmósfera las atenúa mucho y el apuntado es muy crítico. #vease[(Véase\n    tema T7, sección «Fenómenos de propagación».)]\n    #no-esta[El rebote lunar (EME, #emph[Earth-Moon-Earth]) usa la Luna como reflector pasivo: 770 000 km de\n    ida y vuelta y del orden de 250 dB de pérdidas a 144 MHz. La señal debe cruzar la ionosfera, así\n    que hacen falta VHF o frecuencias superiores. La banda clásica y más concurrida es 144 MHz (2 m,\n    ondas métricas); le siguen 432 y 1296 MHz y algunas microondas.]\n  "
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "T7.9",
+    "enunciado": "Las bandas más idóneas para la comunicación por rebote lunar (EME) son:",
+    "respuesta": "VHF y superiores"
+   }
+  ],
+  "nota": "C-T7.2 (banco público) pide precisar «métricas»; quien la sabe responde también T7.9."
+ },
+ {
+  "cid": "T7-43",
+  "tema": "T7",
+  "concepto": "Ruido atmosférico (tormentas): domina en las bandas bajas de HF",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·1·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "N-T7-06",
+    "enunciado": "El ruido atmosférico, producido por las descargas de las tormentas de todo el planeta:",
+    "opciones": [
+     "solo afecta a UHF y a las frecuencias superiores",
+     "es el que produce la agitación térmica de los electrones en la entrada del receptor",
+     "domina en las bandas bajas de HF, sobre todo en verano",
+     "procede sobre todo del centro de la Vía Láctea"
+    ],
+    "clave": "c",
+    "sol": "Los rayos de las tormentas producen impulsos de RF que la ionosfera propaga igual que las señales, de modo que se oyen a miles de kilómetros: es el ruido que domina en las bandas bajas de HF y en verano. La agitación de los electrones produce el ruido térmico, y el que llega del centro de la galaxia es el ruido galáctico, que se nota entre unos 20 y 200 MHz."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Hueco: el ruido (atmosférico, galáctico, térmico) está en el alcance y no tiene ninguna pregunta en el banco."
+ },
+ {
+  "cid": "R1-01",
+  "tema": "R1",
+  "concepto": "Para qué sirve el alfabeto fonético: deletrear letras y cifras sin confusiones (no cifra ni abrevia)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.23",
+    "enunciado": "El alfabeto fonético internacional se emplea para:",
+    "opciones": [
+     "deletrear letras y cifras evitando confusiones en condiciones difíciles",
+     "cifrar el contenido de los mensajes",
+     "abreviar los mensajes y ganar tiempo",
+     "identificar el país de procedencia de la estación"
+    ],
+    "clave": "a",
+    "sol": "Con ruido, desvanecimiento o acentos distintos, una B y una P suenan igual; _Bravo_ y _Papa_, no. No cifra nada —de hecho es público— ni abrevia: al contrario, alarga."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R1-02",
+  "tema": "R1",
+  "concepto": "Las cifras se deletrean con su nombre inglés (Zero…Nine); el 0 es Zero, no Oscar ni «Cero»",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.17",
+    "enunciado": "En el deletreo internacional, la cifra «0» se identifica con la palabra:",
+    "opciones": [
+     "Nada",
+     "Zero",
+     "Cero",
+     "Oscar"
+    ],
+    "clave": "b",
+    "sol": "Las cifras se dicen en inglés: _Zero_. Y no debe confundirse con _Oscar_, que es la letra O — la confusión entre el cero y la o es justamente lo que el deletreo evita."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.9",
+    "enunciado": "En el deletreo internacional, la cifra «9» se identifica con la palabra:",
+    "respuesta": "Nine"
+   },
+   {
+    "id": "R1.18",
+    "enunciado": "En el deletreo internacional, la cifra «5» se identifica con la palabra:",
+    "respuesta": "Five"
+   },
+   {
+    "id": "R1.37",
+    "enunciado": "En el deletreo internacional, la cifra «7» se identifica con la palabra:",
+    "respuesta": "Seven"
+   },
+   {
+    "id": "R1.38",
+    "enunciado": "En el deletreo internacional, la cifra «3» se identifica con la palabra:",
+    "respuesta": "Three"
+   },
+   {
+    "id": "R1.39",
+    "enunciado": "En el deletreo internacional, la cifra «8» se identifica con la palabra:",
+    "respuesta": "Eight"
+   }
+  ],
+  "nota": "Una sola destreza para las diez cifras. Las preguntas de distintivo elegidas en R1 repasan además 3 (Three), 4 (Four), 5 (Five), 6 (Six) y 9 (Nine)."
+ },
+ {
+  "cid": "R1-03",
+  "tema": "R1",
+  "concepto": "Deletreo de distintivo EA5SWJ: E Echo, A Alfa, S Sierra, W Whiskey, J Juliett (no «Japón»), cifra en inglés",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R1.2",
+    "enunciado": "El deletreo del indicativo EA5SWJ de acuerdo con el alfabeto fonético internacional sería:",
+    "opciones": [
+     "Echo Alfa Cinco Sierra Whiskey Juliet.",
+     "Echo Alfa Five Sierra Whiskey Juliett.",
+     "Echo Alfa Five Sierra Whiskey Japón.",
+     "Echo América Five Sierra Whiskey Juliet."
+    ],
+    "clave": "b",
+    "sol": "E = Echo, A = Alfa, 5 = Five, S = Sierra, W = Whiskey, J = Juliett: la b es la única formada solo por palabras del alfabeto internacional, con la cifra en inglés. La a da la cifra en español (Cinco); la c sustituye Juliett por «Japón», que no pertenece al alfabeto; la d dice «América» para la A, que es Alfa. Recuerda la grafía oficial: Alfa, con f, y Juliett, con doble t. #vease[(Véase tema R1, tabla del alfabeto y nota sobre las cifras.)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.4",
+    "enunciado": "El prefijo `EA` de un distintivo de llamada español se deletrea:",
+    "respuesta": "Echo Alfa"
+   },
+   {
+    "id": "R1.29",
+    "enunciado": "En el alfabeto fonético internacional, la letra «E» se deletrea:",
+    "respuesta": "Echo"
+   },
+   {
+    "id": "R1.25",
+    "enunciado": "En el alfabeto fonético internacional, la letra «A» se deletrea:",
+    "respuesta": "Alfa"
+   },
+   {
+    "id": "R1.1",
+    "enunciado": "En el alfabeto fonético internacional, la letra «S» se deletrea:",
+    "respuesta": "Sierra"
+   },
+   {
+    "id": "R1.3",
+    "enunciado": "La palabra de deletreo «Whiskey» corresponde a la letra:",
+    "respuesta": "W"
+   },
+   {
+    "id": "R1.13",
+    "enunciado": "En el alfabeto fonético internacional, la letra «J» se deletrea:",
+    "respuesta": "Juliett"
+   }
+  ],
+  "nota": "Formato real del examen (banco público). Cubre las letras E, A, S, W y J; trampas: cifra en español, «Japón», «América»."
+ },
+ {
+  "cid": "R1-04",
+  "tema": "R1",
+  "concepto": "Deletreo de distintivo AN6BL: N November (no «Noviembre»), B Bravo, L Lima, 6 Six",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R1.1",
+    "enunciado": "El deletreo del distintivo AN6BL según el alfabeto fonético internacional:",
+    "opciones": [
+     "Alfa, Noviembre, Seis, Bravo, Lima.",
+     "A, Ene, Seis, B, Ele.",
+     "Alfa, November, Six, Bravo, Lima.",
+     "El deletreo de distintivos no está permitido."
+    ],
+    "clave": "c",
+    "sol": "Cada letra se deletrea con su palabra internacional (A = Alfa, N = November, B = Bravo, L = Lima) y la cifra con su nombre inglés: 6 = Six. La a pone en español «Noviembre» y «Seis», que no pertenecen al alfabeto internacional; la b usa los nombres españoles de las letras (Ene, Ele) en lugar de palabras de deletreo. La d es falsa: deletrear el distintivo es lo normal, y el propio temario oficial incluye el alfabeto fonético para deletrear letras y cifras. Aunque al hablar se oigan cifras en español, el deletreo internacional las da en inglés. #vease[(Véase tema R1, tabla del alfabeto y nota sobre las cifras.)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.31",
+    "enunciado": "En el alfabeto fonético internacional, la letra «N» se deletrea:",
+    "respuesta": "November"
+   },
+   {
+    "id": "R1.26",
+    "enunciado": "En el alfabeto fonético internacional, la letra «B» se deletrea:",
+    "respuesta": "Bravo"
+   },
+   {
+    "id": "R1.5",
+    "enunciado": "En el alfabeto fonético internacional, la letra «L» se deletrea:",
+    "respuesta": "Lima"
+   }
+  ],
+  "nota": "Banco público. Cubre N, B y L; trampas: traducir November y Six al español, o decir los nombres de las letras (Ene, Ele)."
+ },
+ {
+  "cid": "R1-05",
+  "tema": "R1",
+  "concepto": "Deletreo de distintivo EA3RCQ: R Romeo, C Charlie, Q Quebec (no «Queen»), 3 Three",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R1.3",
+    "enunciado": "El deletreo del distintivo EA3RCQ según el alfabeto fonético internacional:",
+    "opciones": [
+     "Echo, Alfa, Three, Romeo, Charlie, Quebec.",
+     "El deletreo de distintivos no está permitido.",
+     "Echo, Alfa, Tres, Romeo, Charlie, Quebec.",
+     "E, A, Tres, R, C, Q."
+    ],
+    "clave": "a",
+    "sol": "E = Echo, A = Alfa, 3 = Three, R = Romeo, C = Charlie, Q = Quebec. Las opciones a y c solo se distinguen en la cifra: el deletreo internacional da las cifras por su nombre inglés (Three), no en español (Tres). La d se limita a nombrar las letras sin palabras de deletreo, justo lo que el alfabeto fonético pretende evitar, porque una letra suelta se confunde con facilidad. La b es falsa: deletrear el distintivo es práctica habitual y forma parte del temario. #vease[(Véase tema R1, tabla del alfabeto y nota sobre las cifras.)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.33",
+    "enunciado": "En el alfabeto fonético internacional, la letra «R» se deletrea:",
+    "respuesta": "Romeo"
+   },
+   {
+    "id": "R1.27",
+    "enunciado": "En el alfabeto fonético internacional, la letra «C» se deletrea:",
+    "respuesta": "Charlie"
+   },
+   {
+    "id": "R1.2",
+    "enunciado": "En el alfabeto fonético internacional, la letra «Q» se deletrea:",
+    "respuesta": "Quebec"
+   }
+  ],
+  "nota": "Banco público. Cubre R, C y Q; trampa: «Tres» en lugar de Three. R1.2 (Queen) y R1.27 (Coca) quedan cubiertas por el mismo dato."
+ },
+ {
+  "cid": "R1-06",
+  "tema": "R1",
+  "concepto": "X X-ray, Y Yankee, Z Zulu (no «Zeta»); grafías Echo y Alfa (no Eco, Alpha)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.21",
+    "enunciado": "El distintivo de llamada `EA4XYZ` se deletrea:",
+    "opciones": [
+     "España América Four Equis Yolanda Zaragoza",
+     "Echo Alfa Four X-ray Yankee Zulu",
+     "Echo Alfa Four X-ray Yankee Zeta",
+     "Echo Alpha Four Xilófono Yankee Zeta"
+    ],
+    "clave": "b",
+    "sol": "Las letras, con las palabras oficiales del alfabeto internacional —_Echo_, con hache, no «Eco»; _Alfa_, no «Alpha»— y la cifra con su nombre inglés, _Four_, como en todo el deletreo internacional. La opción c acierta hasta el final, pero «Zeta» no es palabra del alfabeto (la Z es _Zulu_); la d mezcla «Alpha», «Xilófono» y «Zeta», y la a usa nombres de letras y ciudades en castellano."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.19",
+    "enunciado": "En el alfabeto fonético internacional, la letra «X» se deletrea:",
+    "respuesta": "X-ray"
+   },
+   {
+    "id": "R1.15",
+    "enunciado": "En el alfabeto fonético internacional, la letra «Y» se deletrea:",
+    "respuesta": "Yankee"
+   },
+   {
+    "id": "R1.36",
+    "enunciado": "En el alfabeto fonético internacional, la letra «Z» se deletrea:",
+    "respuesta": "Zulu"
+   }
+  ],
+  "nota": "EA4XYZ cubre X, Y y Z y la cifra 4 (Four); la opción casi correcta con «Zeta» es la trampa."
+ },
+ {
+  "cid": "R1-07",
+  "tema": "R1",
+  "concepto": "U Uniform y Z Zulu frente a palabras de alfabetos antiguos (Uncle, Zebra, Coca, Dog, Able)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.40",
+    "enunciado": "El distintivo `EC9ZUL` se deletrea:",
+    "opciones": [
+     "España Carmen Nine Zaragoza Ulises Lima",
+     "Echo Charlie Nine Zulu Uniform Lima",
+     "Echo Coca Nine Zebra Uncle Lima",
+     "Eco Charlie Nine Zeta Unión Luis"
+    ],
+    "clave": "b",
+    "sol": "Letra por letra con el alfabeto internacional y la cifra con su nombre inglés: _Echo Charlie Nine Zulu_ _Uniform Lima_. Las demás mezclan palabras de alfabetos nacionales o antiguos (_Carmen_, _Coca_, _Uncle_, _Zebra_, _Luis_…) o escriben «Eco» y «Zeta»."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.35",
+    "enunciado": "En el alfabeto fonético internacional, la letra «U» se deletrea:",
+    "respuesta": "Uniform"
+   },
+   {
+    "id": "R1.12",
+    "enunciado": "El distintivo `ED5ZAA` se deletrea:",
+    "respuesta": "Echo Delta Five Zulu Alfa Alfa"
+   }
+  ],
+  "nota": "EC9ZUL cubre U (y repasa C, Z, L, 9 Nine). R1.12 (ED5ZAA) es la misma destreza con D y Z."
+ },
+ {
+  "cid": "R1-08",
+  "tema": "R1",
+  "concepto": "Sufijo CID: C Charlie, I India (no «Italia»), D Delta (no «Dog»)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.10",
+    "enunciado": "El sufijo `CID` se deletrea:",
+    "opciones": [
+     "Charlie Italia Delta",
+     "Cid India Delta",
+     "Charlie India Dog",
+     "Charlie India Delta"
+    ],
+    "clave": "d",
+    "sol": "`CID` = _Charlie India Delta_; «Italia» y «Dog» pertenecen a otros alfabetos."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.30",
+    "enunciado": "En el alfabeto fonético internacional, la letra «I» se deletrea:",
+    "respuesta": "India"
+   },
+   {
+    "id": "R1.28",
+    "enunciado": "En el alfabeto fonético internacional, la letra «D» se deletrea:",
+    "respuesta": "Delta"
+   }
+  ],
+  "nota": "Cubre I y D."
+ },
+ {
+  "cid": "R1-09",
+  "tema": "R1",
+  "concepto": "Sufijos TOP y BOJ: T Tango, O Oscar, P Papa (no Pedro, Peter)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.11",
+    "enunciado": "El sufijo `TOP` se deletrea:",
+    "opciones": [
+     "Tango Oscar Papa",
+     "Tango Omega Portugal",
+     "Tres Oscar Papa",
+     "Tango Oscar Perú"
+    ],
+    "clave": "a",
+    "sol": "`TOP` = _Tango Oscar Papa_."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.34",
+    "enunciado": "En el alfabeto fonético internacional, la letra «T» se deletrea:",
+    "respuesta": "Tango"
+   },
+   {
+    "id": "R1.32",
+    "enunciado": "En el alfabeto fonético internacional, la letra «O» se deletrea:",
+    "respuesta": "Oscar"
+   },
+   {
+    "id": "R1.20",
+    "enunciado": "En el alfabeto fonético internacional, la letra «P» se deletrea:",
+    "respuesta": "Papa"
+   },
+   {
+    "id": "R1.6",
+    "enunciado": "El sufijo `BOJ` de un distintivo de llamada se deletrea:",
+    "respuesta": "Bravo Oscar Juliett"
+   }
+  ],
+  "nota": "Cubre T, O y P; R1.6 (BOJ) repasa B, O y J con los distractores del alfabeto de 1943."
+ },
+ {
+  "cid": "R1-10",
+  "tema": "R1",
+  "concepto": "F Foxtrot y G Golf",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.24",
+    "enunciado": "La palabra de deletreo «Foxtrot» corresponde a la letra:",
+    "opciones": [
+     "T",
+     "X",
+     "F",
+     "V"
+    ],
+    "clave": "c",
+    "sol": "_Foxtrot_ es la F. Conviene fijarse en la palabra entera y no en su primera sílaba, que despista hacia la X."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.14",
+    "enunciado": "En el alfabeto fonético internacional, la letra «G» se deletrea:",
+    "respuesta": "Golf"
+   }
+  ],
+  "nota": "Dos letras que no aparecen en ninguna pregunta de distintivo: hace falta una pregunta para cada una. R1.24 va en sentido palabra → letra."
+ },
+ {
+  "cid": "R1-11",
+  "tema": "R1",
+  "concepto": "H Hotel y K Kilo",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.22",
+    "enunciado": "En el alfabeto fonético internacional, la letra «H» se deletrea:",
+    "opciones": [
+     "Habana",
+     "Hotel Alfa",
+     "Historia",
+     "Hotel"
+    ],
+    "clave": "d",
+    "sol": "_Hotel_, una sola palabra por letra. Encadenar dos —«Hotel Alfa»— sería deletrear HA, no H."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.16",
+    "enunciado": "La palabra de deletreo «Kilo» corresponde a la letra:",
+    "respuesta": "K"
+   }
+  ],
+  "nota": "Dos letras que no aparecen en ninguna pregunta de distintivo: una pregunta para cada una (R1.16 va en sentido palabra → letra)."
+ },
+ {
+  "cid": "R1-12",
+  "tema": "R1",
+  "concepto": "M Mike y V Victor",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R1.7",
+    "enunciado": "En el alfabeto fonético internacional, la letra «M» se identifica con la palabra:",
+    "opciones": [
+     "Mario",
+     "Madrid",
+     "Mike",
+     "Metro"
+    ],
+    "clave": "c",
+    "sol": "«M» es _Mike_. Mario, Madrid y Metro pertenecen a alfabetos nacionales antiguos, que no se emplean en el servicio de aficionados."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R1.8",
+    "enunciado": "En el alfabeto fonético internacional, la letra «V» se corresponde con la palabra:",
+    "respuesta": "Victor"
+   }
+  ],
+  "nota": "Dos letras que no aparecen en ninguna pregunta de distintivo: una pregunta para cada una."
+ },
+ {
+  "cid": "R2-01",
+  "tema": "R2",
+  "concepto": "QRM (interferencia de otras estaciones) frente a QRN (parásitos atmosféricos)",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "4·2·2",
+   "8·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.29",
+    "enunciado": "Para indicar que se están sufriendo parásitos atmosféricos se emplea el grupo:",
+    "opciones": [
+     "`QRN`",
+     "`QRM`",
+     "`QSB`",
+     "`QRK`"
+    ],
+    "clave": "a",
+    "sol": "`QRN` son los parásitos atmosféricos: tormentas, estática. Regla para no confundirlos: la _N_ de _natural_ frente a la _M_ de _man made_."
+   },
+   {
+    "id": "R2.2",
+    "enunciado": "El grupo `QRM` indica:",
+    "opciones": [
+     "parásitos atmosféricos",
+     "interferencia producida por otras estaciones",
+     "desvanecimiento de la señal",
+     "emisión con baja potencia"
+    ],
+    "clave": "b",
+    "sol": "`QRM`: interferencia de otras estaciones (origen humano); no confundir con `QRN`."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.3",
+    "enunciado": "El grupo `QRN` indica:",
+    "respuesta": "parásitos atmosféricos"
+   },
+   {
+    "id": "R2.28",
+    "enunciado": "Para indicar que se están sufriendo interferencias producidas por otras estaciones se emplea el grupo:",
+    "respuesta": "`QRM`"
+   }
+  ],
+  "nota": "La pareja más preguntada. R2.2 va de código a significado y R2.29 al revés (significado → código)."
+ },
+ {
+  "cid": "R2-02",
+  "tema": "R2",
+  "concepto": "QRO aumente / QRP disminuya la potencia",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.7",
+    "enunciado": "El grupo `QRP` significa:",
+    "opciones": [
+     "aumente la potencia",
+     "disminuya la potencia",
+     "estación portátil",
+     "transmita más despacio"
+    ],
+    "clave": "b",
+    "sol": "`QRP`: «disminuya la potencia»; por extensión, operar con baja potencia. Su opuesto es `QRO`."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.10",
+    "enunciado": "El grupo del código Q que indica que debe aumentar la potencia es:",
+    "respuesta": "`QRO`"
+   }
+  ],
+  "nota": "R2.7 tiene «aumente la potencia» como distractor: prueba la pareja."
+ },
+ {
+  "cid": "R2-03",
+  "tema": "R2",
+  "concepto": "QRS transmita más despacio / QRQ más deprisa",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "6·2·2",
+   "13·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.15",
+    "enunciado": "El grupo del código Q con el que se pide a la estación corresponsal que transmita más de prisa es:",
+    "opciones": [
+     "`QRQ`",
+     "`QRS`",
+     "`QRO`",
+     "`QRV`"
+    ],
+    "clave": "a",
+    "sol": "`QRQ` es «más de prisa» y `QRS`, «más despacio»: van en pareja y se confunden con facilidad. `QRO` es subir potencia y `QRV`, estar preparado."
+   },
+   {
+    "id": "C-R2.3",
+    "enunciado": "¿Qué abreviatura indica que se transmita más lentamente?",
+    "opciones": [
+     "QTR",
+     "QTH",
+     "QSJ",
+     "QRS"
+    ],
+    "clave": "d",
+    "sol": "QRS es «transmita más despacio» (o «¿debo transmitir más despacio?»); la S es de #emph[slow]. Su opuesto es QRQ, «transmita más deprisa» (la Q de #emph[quick]). Los distractores son otros grupos: QTR es la hora exacta, QTH la posición o localidad y QSJ la tasa por palabra. La pregunta también cae a la inversa («QRS significa…»), donde otros distractores típicos son QSB (las señales se desvanecen) y QRZ (está siendo llamado por…). #vease[(Véase tema R2, tablas de grupos del código Q (QRS en la primera, QRQ en la segunda).)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "C-R2.3 es del banco público pero sus distractores no incluyen QRQ; R2.15 prueba la pareja QRQ/QRS en el otro sentido."
+ },
+ {
+  "cid": "R2-04",
+  "tema": "R2",
+  "concepto": "QRT cese la transmisión frente a QRX espere, volveré a llamar",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "5·2·3",
+   "9·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.9",
+    "enunciado": "El grupo del código Q que indica que el operador volverá a llamar más tarde es:",
+    "opciones": [
+     "`QRX`",
+     "`QRT`",
+     "`QSY`",
+     "`QRK`"
+    ],
+    "clave": "a",
+    "sol": "`QRX`: «espere, volveré a llamar más tarde»; `QRK` pregunta por la inteligibilidad."
+   },
+   {
+    "id": "R2.32",
+    "enunciado": "Para pedir a la estación corresponsal que cese la transmisión se emplea el grupo:",
+    "opciones": [
+     "`QRX`",
+     "`QRV`",
+     "`QSK`",
+     "`QRT`"
+    ],
+    "clave": "d",
+    "sol": "`QRT` es cesar la transmisión. `QRX` es esperar y volver a llamar, que es distinto: uno cierra, el otro aplaza."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.11",
+    "enunciado": "El grupo `QRT` significa:",
+    "respuesta": "cese la transmisión"
+   }
+  ],
+  "nota": "Dos grupos que se confunden («uno cierra, el otro aplaza»): R2.32 pregunta QRT con QRX de distractor y R2.9 pregunta QRX con QRT de distractor."
+ },
+ {
+  "cid": "R2-05",
+  "tema": "R2",
+  "concepto": "QRV estoy dispuesto frente a QRU no tengo nada para usted",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.33",
+    "enunciado": "Para indicar que se está dispuesto y preparado para recibir se emplea el grupo:",
+    "opciones": [
+     "`QRV`",
+     "`QRU`",
+     "`QRX`",
+     "`QRQ`"
+    ],
+    "clave": "a",
+    "sol": "`QRV` es «estoy dispuesto». `QRU` es «no tengo nada para usted», que se parece en la forma pero significa casi lo contrario."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R2.6",
+    "enunciado": "El grupo #_apc2-m[QRU] significa:",
+    "respuesta": "no tengo nada para usted"
+   }
+  ],
+  "nota": "Dos grupos parecidos en la forma: R2.33 da QRV con QRU de distractor y F-R2.6 da el significado de QRU."
+ },
+ {
+  "cid": "R2-06",
+  "tema": "R2",
+  "concepto": "QRG frecuencia exacta frente a QRH su frecuencia varía",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R2.5",
+    "enunciado": "La abreviatura del código Q «QRG» tiene el significado de:",
+    "opciones": [
+     "Cese la transmisión",
+     "Su frecuencia exacta es… kHz",
+     "Aumente la potencia",
+     "Estoy ocupado. No interfiera"
+    ],
+    "clave": "b",
+    "sol": "QRG es la frecuencia exacta: «su frecuencia exacta es… kHz» y, con interrogación, «¿cuál es la frecuencia exacta de mi emisión?» (QRG?). Los distractores son otros grupos: «cese la transmisión» es QRT, «aumente la potencia» es QRO y «estoy ocupado, no interfiera» es QRL. Tampoco es QSY (cambie de frecuencia), QSB (las señales se desvanecen) ni QTR (la hora). #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.12",
+    "enunciado": "El grupo del código Q que indica «su frecuencia varía» es:",
+    "respuesta": "`QRH`"
+   }
+  ],
+  "nota": "C-R2.5 es del banco público (QRG); R2.12 pregunta QRH con QRG de distractor."
+ },
+ {
+  "cid": "R2-07",
+  "tema": "R2",
+  "concepto": "QRK inteligibilidad, QSA intensidad, QRI tono (las tres valoraciones de la señal)",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "6·2·3",
+   "12·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R2.1",
+    "enunciado": "¿Qué abreviatura del código Q se refiere a la inteligibilidad de las señales?",
+    "opciones": [
+     "QRL",
+     "QRM",
+     "QRK",
+     "QRA"
+    ],
+    "clave": "c",
+    "sol": "QRK es el grupo de la inteligibilidad (legibilidad) de las señales: «¿cuál es la inteligibilidad de mis señales?» o, como respuesta, «la inteligibilidad de sus señales es…», en una escala de 1 a 5. Es la «R» del informe RST. No lo confundas con QSA (fuerza de la señal) ni con QRI (tono). Los distractores son otros grupos: QRL (ocupado), QRM (interferencia de otras estaciones) y QRA (nombre de la estación). La pregunta también cae a la inversa: «QRK significa…» se responde «inteligibilidad de las señales». #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes».)]"
+   },
+   {
+    "id": "R2.24",
+    "enunciado": "El grupo `QRI` se refiere a:",
+    "opciones": [
+     "la intensidad de las señales",
+     "la legibilidad de las señales",
+     "la frecuencia exacta de la emisión",
+     "el tono de la transmisión"
+    ],
+    "clave": "d",
+    "sol": "Los tres grupos de la valoración de una señal en telegrafía se reparten así: `QRK` legibilidad, `QSA` intensidad y `QRI` tono — los mismos conceptos que el informe RST."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.14",
+    "enunciado": "El grupo `QSA` se refiere a:",
+    "respuesta": "la intensidad con que se reciben las señales"
+   }
+  ],
+  "nota": "C-R2.1 (banco público) pide QRK; R2.24 ofrece intensidad, legibilidad y tono como opciones y fija el reparto de los tres grupos."
+ },
+ {
+  "cid": "R2-08",
+  "tema": "R2",
+  "concepto": "Escalas de respuesta: QRK y QSA de 1 a 5; QRI de 1 a 3",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R2.5",
+    "enunciado": "Las respuestas a #_apc2-m[QRK] (inteligibilidad), #_apc2-m[QSA] (fuerza de la señal) y #_apc2-m[QRI] (tono) son cifras. ¿Con qué escala se expresa cada una?",
+    "opciones": [
+     "#_apc2-m[QRK], #_apc2-m[QSA] y #_apc2-m[QRI]: las tres de 1 a 9",
+     "#_apc2-m[QRK] y #_apc2-m[QSA] de 1 a 5; #_apc2-m[QRI] de 1 a 3",
+     "#_apc2-m[QRK] de 1 a 5; #_apc2-m[QSA] y #_apc2-m[QRI] de 1 a 9",
+     "#_apc2-m[QRK], #_apc2-m[QSA] y #_apc2-m[QRI]: las tres de 1 a 5"
+    ],
+    "clave": "b",
+    "sol": "En la lista internacional del código Q, #_apc2-m[QRK] se responde con una cifra de 1 (mala) a 5 (excelente), #_apc2-m[QSA] de 1 (apenas perceptible) a 5 (muy buena) y #_apc2-m[QRI] de 1 a 3, con la escala al revés: 1 buena, 2 variable y 3 mala. Las opciones con 9 traen las escalas del informe #_apc2-m[RST], donde la intensidad y el tono sí llegan a 9, pero ese es otro código; la de las tres de 1 a 5 olvida que #_apc2-m[QRI] solo tiene tres valores. Y ojo con el sentido: en #_apc2-m[QRI] el número más alto es el peor. #vease[(Véase tema R2, tablas de grupos del código Q (#_apc2-m[QRK], #_apc2-m[QSA] y #_apc2-m[QRI]).)] #no-esta[Los grupos de calidad de la señal se contestan con una cifra. #_apc2-m[QRK] (inteligibilidad): de 1 (mala) a 5 (excelente). #_apc2-m[QSA] (fuerza de la señal): de 1 (apenas perceptible) a 5 (muy buena). #_apc2-m[QRI] (tono): de 1 a 3, con la escala al revés: 1 buena, 2 variable, 3 mala. Son escalas distintas de las del informe #_apc2-m[RST], que llega a 9 en intensidad y en tono.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Trampa: confundirlas con las escalas del RST (S y T de 1 a 9)."
+ },
+ {
+  "cid": "R2-09",
+  "tema": "R2",
+  "concepto": "QRL: estoy ocupado / ¿está ocupada la frecuencia?",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R2.2",
+    "enunciado": "¿Qué abreviatura indica que el operador está ocupado?",
+    "opciones": [
+     "QRF",
+     "QTI",
+     "QRL",
+     "QSJ"
+    ],
+    "clave": "c",
+    "sol": "QRL significa «estoy ocupado; no interfiera» y, en forma de pregunta (QRL?), «¿está usted ocupado?» o «¿está ocupada la frecuencia?». Los demás grupos no tienen relación: QRF es «¿regresa usted a…?», QTI se refiere a la derrota (rumbo) verdadera y QSJ a la tasa por palabra en el tráfico de telegramas. #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes» (QRL como «frecuencia ocupada»).)]\n\n    #no-esta[El cuaderno da QRL como «la frecuencia está ocupada», que es su uso habitual antes de llamar: se pregunta «QRL?» y, si alguien contesta, se espera. La definición internacional es más amplia: QRL? es «¿está usted ocupado?» y QRL es «estoy ocupado; ruego no interferir». El examen lo pregunta con cualquiera de los dos matices, y la clave es siempre QRL. Mnemotecnia: QRL = «línea ocupada».]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.34",
+    "enunciado": "Para preguntar si la frecuencia está ocupada se emplea el grupo:",
+    "respuesta": "`QRL`"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R2-10",
+  "tema": "R2",
+  "concepto": "QRZ ¿quién me llama? (la llamada general es CQ, que no es código Q)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·1"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.5",
+    "enunciado": "El grupo `QRZ` significa:",
+    "opciones": [
+     "llamada general a todas las estaciones",
+     "¿quién me llama?",
+     "mi nombre es…",
+     "la frecuencia está ocupada"
+    ],
+    "clave": "b",
+    "sol": "`QRZ`: «¿quién me llama?»; la llamada general es `CQ`, que no es un grupo Q."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-11",
+  "tema": "R2",
+  "concepto": "QSY cambie de frecuencia",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.4",
+    "enunciado": "Para indicar a la estación corresponsal que cambie de frecuencia se emplea el grupo:",
+    "opciones": [
+     "`QRT`",
+     "`QRX`",
+     "`QSY`",
+     "`QSL`"
+    ],
+    "clave": "c",
+    "sol": "`QSY`: «cambie de frecuencia»; `QRT` es cesar y `QRX` esperar."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-12",
+  "tema": "R2",
+  "concepto": "QSB desvanecimiento (fading)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.13",
+    "enunciado": "El grupo `QSB` indica que la señal tiene:",
+    "opciones": [
+     "interferencias de otras estaciones",
+     "exceso de potencia",
+     "desvanecimiento (_fading_)",
+     "distorsión de audio"
+    ],
+    "clave": "c",
+    "sol": "`QSB`: desvanecimiento o _fading_ de la señal."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-13",
+  "tema": "R2",
+  "concepto": "QSL acuse de recibo frente a QSO comunicado entre dos estaciones",
+  "peso": 3,
+  "escribir": 2,
+  "en_estudio": [
+   "8·2·3",
+   "12·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.31",
+    "enunciado": "El contacto establecido entre dos estaciones de aficionado se designa con el grupo:",
+    "opciones": [
+     "`QSL`",
+     "`QSO`",
+     "`QTC`",
+     "`QRV`"
+    ],
+    "clave": "b",
+    "sol": "`QSO` designa la comunicación establecida entre dos estaciones. Se usa como sustantivo —«hacer un `QSO`»— con toda naturalidad."
+   },
+   {
+    "id": "R2.30",
+    "enunciado": "El grupo que se emplea para acusar recibo de una comunicación es:",
+    "opciones": [
+     "`QSO`",
+     "`QSY`",
+     "`QSL`",
+     "`QRZ`"
+    ],
+    "clave": "c",
+    "sol": "`QSL` es el acuse de recibo, y de ahí que la tarjeta que confirma un contacto se llame precisamente tarjeta QSL. `QSO` es el contacto en sí."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.6",
+    "enunciado": "El grupo `QSL` significa:",
+    "respuesta": "acuse de recibo"
+   },
+   {
+    "id": "R2.8",
+    "enunciado": "El grupo `QSO` designa:",
+    "respuesta": "un comunicado entre dos estaciones"
+   }
+  ],
+  "nota": "Pareja clásica: R2.30 pide QSL con QSO de distractor y R2.31 pide QSO con QSL de distractor."
+ },
+ {
+  "cid": "R2-14",
+  "tema": "R2",
+  "concepto": "QTH posición o localidad (frente a QTR, QRA, QTC)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.27",
+    "enunciado": "El grupo del código Q con el que una estación comunica su posición o localidad es:",
+    "opciones": [
+     "`QTR`",
+     "`QTH`",
+     "`QRA`",
+     "`QTC`"
+    ],
+    "clave": "b",
+    "sol": "`QTH` es el emplazamiento. `QTR` es la hora, `QRA` el nombre de la estación y `QTC` los mensajes pendientes: los cuatro se confunden con facilidad porque todos «informan» de algo."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R2.1",
+    "enunciado": "El grupo `QTH` significa:",
+    "respuesta": "mi posición es…"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R2-15",
+  "tema": "R2",
+  "concepto": "QTR hora exacta",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R2.1",
+    "enunciado": "El grupo #_apc2-m[QTR] se utiliza para dar o pedir:",
+    "opciones": [
+     "la posición de la estación",
+     "la hora exacta",
+     "el nombre de la estación",
+     "la distancia entre las estaciones"
+    ],
+    "clave": "b",
+    "sol": "#_apc2-m[QTR] es la hora exacta: con interrogación (#_apc2-m[QTR?]) se pregunta «¿cuál es la hora exacta?» y, como respuesta, se dice «la hora exacta es…». Los distractores son otros grupos de las tablas: #_apc2-m[QTH] es la posición o localidad de la estación, #_apc2-m[QRA] es el nombre de la estación y #_apc2-m[QRB] es la distancia entre estaciones. Para recordarlo: la R de #_apc2-m[QTR] es de «reloj». #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes en el Servicio de Aficionados».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-16",
+  "tema": "R2",
+  "concepto": "QRA nombre de la estación (no la posición)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R2.4",
+    "enunciado": "La abreviatura QRA indica:",
+    "opciones": [
+     "¿Qué frecuencia utiliza Vd.?",
+     "¿Está Vd. ocupado?",
+     "¿Transmito más despacio?",
+     "¿Cómo se llama su estación?"
+    ],
+    "clave": "d",
+    "sol": "QRA se refiere al nombre de la estación: «¿cómo se llama su estación?» o «el nombre de mi estación es…». No es la posición (eso es QTH). Los distractores son otros grupos en forma de pregunta: la frecuencia es QRG, «¿está ocupado?» es QRL y «¿transmito más despacio?» es QRS. #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes».)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-17",
+  "tema": "R2",
+  "concepto": "QRB distancia entre estaciones",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·2"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.18",
+    "enunciado": "El grupo `QRB` se refiere a:",
+    "opciones": [
+     "el número de mensajes pendientes",
+     "la banda de frecuencias empleada",
+     "la distancia que separa a las dos estaciones",
+     "la calidad del tono de la emisión"
+    ],
+    "clave": "c",
+    "sol": "«¿A qué distancia se encuentra de mi estación?». De ahí que en concursos y en VHF se hable del _QRB_ de un contacto para referirse a los kilómetros cubiertos."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-18",
+  "tema": "R2",
+  "concepto": "QTC tengo mensajes para transmitir",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.17",
+    "enunciado": "El grupo `QTC` se emplea para indicar:",
+    "opciones": [
+     "la potencia con que se transmite",
+     "que se tienen mensajes para transmitir",
+     "que se cesa la transmisión",
+     "el emplazamiento de la estación"
+    ],
+    "clave": "b",
+    "sol": "«¿Cuántos mensajes tiene para transmitir?» o «tengo $n$ mensajes». Cesar la transmisión es `QRT` y el emplazamiento, `QTH`."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-19",
+  "tema": "R2",
+  "concepto": "QSP retransmitir gratuitamente a…",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.16",
+    "enunciado": "El grupo `QSP` significa:",
+    "opciones": [
+     "aumente la potencia de emisión",
+     "cambie a la frecuencia indicada",
+     "su señal presenta desvanecimiento",
+     "retransmitir gratuitamente a la estación indicada"
+    ],
+    "clave": "d",
+    "sol": "Es el grupo de la retransmisión de mensajes: «¿quiere retransmitir gratuitamente a …?». La gratuidad no es un detalle menor — el servicio de aficionados no puede tener fines lucrativos."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-20",
+  "tema": "R2",
+  "concepto": "QSK puedo oírle entre mis señales (break-in)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.19",
+    "enunciado": "El grupo `QSK` indica que:",
+    "opciones": [
+     "se puede oír al corresponsal entre las propias señales",
+     "la frecuencia está ocupada",
+     "se va a cerrar la estación",
+     "las señales se reciben con interferencias"
+    ],
+    "clave": "a",
+    "sol": "Es la escucha entre impulsos de telegrafía, lo que en inglés se llama _full break-in_: permite que el corresponsal interrumpa sin esperar al final de la transmisión. La frecuencia ocupada es `QRL`."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-21",
+  "tema": "R2",
+  "concepto": "QSM repita el último mensaje",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.20",
+    "enunciado": "El grupo `QSM` se emplea para pedir que:",
+    "opciones": [
+     "se reduzca la velocidad de transmisión",
+     "se cambie de frecuencia",
+     "se confirme la recepción por tarjeta",
+     "se repita el último mensaje transmitido"
+    ],
+    "clave": "d",
+    "sol": "Reducir la velocidad es `QRS`, cambiar de frecuencia `QSY` y confirmar por tarjeta `QSL`."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-22",
+  "tema": "R2",
+  "concepto": "QSN ¿me ha oído / ha oído a… en… kHz?",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.21",
+    "enunciado": "El grupo `QSN` se utiliza para preguntar:",
+    "opciones": [
+     "cuántos mensajes quedan pendientes",
+     "si se ha escuchado a una estación en una frecuencia determinada",
+     "cuál es la hora exacta",
+     "a qué distancia se encuentra la estación"
+    ],
+    "clave": "b",
+    "sol": "«¿Me ha oído usted, o ha oído a …, en … kHz?». Sirve para comprobar si una emisión llega a un punto concreto del que no se recibe respuesta directa."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-23",
+  "tema": "R2",
+  "concepto": "QSX ¿quiere escuchar a… en… kHz? (frente a QSN, que mira al pasado)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R2.3",
+    "enunciado": "El grupo #_apc2-m[QSX], como pregunta, equivale a:",
+    "opciones": [
+     "¿debo transmitir una serie de letras V?",
+     "¿debo cambiar de frecuencia?",
+     "¿ha escuchado a… en… kHz?",
+     "¿quiere escuchar a… en… kHz?"
+    ],
+    "clave": "d",
+    "sol": "#_apc2-m[QSX?] es «¿quiere escuchar a… en… kHz?» y la respuesta, «escucho a… en… kHz». Cuidado con #_apc2-m[QSN], que mira al pasado («¿ha escuchado a…?»): #_apc2-m[QSX] mira al futuro («¿quiere escuchar…?»). Los otros distractores son #_apc2-m[QSV] (transmita una serie de V) y #_apc2-m[QSY] (cambie de frecuencia). #no-esta[Otro grupo Q que no figura en las tablas es #_apc2-m[QSX]: «¿quiere escuchar a… en… kHz?»; se responde «escucho a… en… kHz». Es un grupo de escucha: pide que se atienda a otra estación en una frecuencia. No lo confundas con #_apc2-m[QSN], de las tablas: #_apc2-m[QSN] pregunta si se ha oído (pasado) y #_apc2-m[QSX] si se quiere escuchar (futuro).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-24",
+  "tema": "R2",
+  "concepto": "QSD manipulación defectuosa",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.22",
+    "enunciado": "El grupo `QSD` indica que:",
+    "opciones": [
+     "la estación va a cerrar",
+     "se transmite con potencia reducida",
+     "la manipulación es defectuosa",
+     "existe desvanecimiento en la señal"
+    ],
+    "clave": "c",
+    "sol": "Avisa de que los puntos y rayas llegan mal formados — manipulador sucio, velocidad irregular o chasquidos. El desvanecimiento es `QSB`."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-25",
+  "tema": "R2",
+  "concepto": "QSV transmita una serie de V",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.23",
+    "enunciado": "El grupo `QSV` se emplea para pedir que se transmita:",
+    "opciones": [
+     "una serie de letras V para ajustar la recepción",
+     "el distintivo de llamada tres veces",
+     "un mensaje de prueba de cinco palabras",
+     "la señal de socorro"
+    ],
+    "clave": "a",
+    "sol": "La V en Morse (· · · −) es inconfundible y de ritmo muy marcado, ideal para ajustar la sintonía y el filtro del receptor."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-26",
+  "tema": "R2",
+  "concepto": "QRW avise a… de que le llamo en… kHz",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.25",
+    "enunciado": "El grupo `QRW` se emplea para:",
+    "opciones": [
+     "pedir que se aumente la velocidad de manipulación",
+     "avisar a una tercera estación de que se la llama en una frecuencia",
+     "preguntar por la posición de la estación",
+     "indicar que se va a permanecer a la escucha"
+    ],
+    "clave": "b",
+    "sol": "«¿Quiere avisar a … de que le llamo en … kHz?». Se usa cuando no se consigue contacto directo y hay una estación intermedia que sí oye a las dos."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-27",
+  "tema": "R2",
+  "concepto": "QTA anule el mensaje",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R2.26",
+    "enunciado": "El grupo `QTA` se utiliza para indicar que:",
+    "opciones": [
+     "se cambia de antena",
+     "se transmite en una frecuencia distinta",
+     "se anule el mensaje indicado",
+     "la estación queda a la escucha"
+    ],
+    "clave": "c",
+    "sol": "«Anule el mensaje número …». Sirve para retirar un mensaje ya transmitido que ha dejado de ser válido, algo especialmente importante en tráfico de emergencia."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-28",
+  "tema": "R2",
+  "concepto": "QRY ¿cuál es mi turno?",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·3"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R2.2",
+    "enunciado": "El grupo #_apc2-m[QRY], como pregunta, equivale a:",
+    "opciones": [
+     "¿cuál es mi frecuencia exacta?",
+     "¿está ocupada la frecuencia?",
+     "¿cuál es mi turno en el orden de comunicación?",
+     "¿a qué distancia nos encontramos?"
+    ],
+    "clave": "c",
+    "sol": "#_apc2-m[QRY?] significa «¿cuál es mi turno (en el orden de comunicación)?»; la respuesta es «su turno es el número…». No habla de frecuencias ni de distancias, sino de quién comunica antes. Los distractores son otros grupos de las tablas: #_apc2-m[QRG] (frecuencia exacta), #_apc2-m[QRL] (frecuencia ocupada) y #_apc2-m[QRB] (distancia entre estaciones). Mnemotecnia: #_apc2-m[QRY] es «¿cuándo me toca?». #no-esta[Las tablas no recogen todos los grupos Q de la lista internacional (Recomendación UIT-R M.1172). Uno de los que faltan es #_apc2-m[QRY]: «¿cuál es mi turno (en el orden de comunicación)?». Se contesta «su turno es el número…», con la cifra que corresponda. Sirve para saber en qué orden le toca a uno comunicar.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R2-29",
+  "tema": "R2",
+  "concepto": "QSZ transmita cada palabra o grupo dos veces",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·4"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R2.4",
+    "enunciado": "El grupo #_apc2-m[QSZ] se emplea para pedir que:",
+    "opciones": [
+     "cada palabra o grupo se transmita dos veces (o las que se indiquen)",
+     "se transmita más despacio",
+     "se repita el último mensaje",
+     "se anule el mensaje"
+    ],
+    "clave": "a",
+    "sol": "#_apc2-m[QSZ] pide que cada palabra o grupo se transmita dos veces (o las veces que se indiquen); con interrogación, «¿debo transmitir cada palabra o grupo más de una vez?». Los distractores son otros grupos de las tablas: #_apc2-m[QRS] (transmita más despacio), #_apc2-m[QSM] (repita el último mensaje) y #_apc2-m[QTA] (anule el mensaje). La diferencia con #_apc2-m[QSM]: este repite el mensaje ya enviado y #_apc2-m[QSZ] duplica cada palabra o grupo. #no-esta[Otro grupo Q que no figura en las tablas es #_apc2-m[QSZ]: «¿debo transmitir cada palabra o grupo más de una vez?». Como consigna significa «transmita cada palabra o grupo dos veces (o el número de veces que se indique)». No es #_apc2-m[QSM], que pide repetir el último mensaje ya enviado, ni #_apc2-m[QRS], que pide ir más despacio.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ }
+]

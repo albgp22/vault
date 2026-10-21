@@ -1,5 +1,6 @@
 """Genera simulacros.typ (un solo documento) a partir del plan de planificar.py.
-Uso: python3 -I tools/simulacros/generar.py build/simulacros/plan.json simulacros.typ
+Uso: python3 -I tools/simulacros/generar.py build/simulacros/plan.json simulacros.typ [estudio]
+     python3 -I tools/simulacros/generar.py build/control/plan.json simulacros-control.typ control
 Las preguntas salen del banco del libro (build/simulacros/banco.json) o de las nuevas
 (build/simulacros/conceptos/*.json → "nuevas", en su versión revisada de verificadas-*.json).
 Las opciones se barajan cuando es seguro (ninguna opción remite a otra, la solución no nombra
@@ -22,6 +23,24 @@ NO_BARAJAR = re.compile(r'anterior|todas las|ninguna de|ambas|las dos|los dos|a 
                         r'\ba\)|\bb\)|\bc\)|\bd\)|ninguno de|cualquiera de|todos los|todo lo|ninguno', re.I)
 LETRA_EN_SOL = re.compile(r'\(\s*[abcd]\s*\)|opci[oó]n\s+[abcd]\b|\b(?:la|las|respuesta)\s+[abcd]\b'
                           r'|#strong\[[abcd]\]|\b[abcd]\)', re.I)
+
+
+def cargar_control(banco):
+    """Preguntas nuevas de control (build/control/escritas/*.json), en su versión revisada si existe."""
+    revisadas = {}
+    for f in glob.glob(os.path.join(ROOT, 'build/control/verificadas/*.json')):
+        for v in json.load(open(f, encoding='utf-8')):
+            revisadas[v['kid']] = v
+    for f in glob.glob(os.path.join(ROOT, 'build/control/escritas/*.json')):
+        for n in json.load(open(f, encoding='utf-8')):
+            v = revisadas.get(n['kid'], n)
+            if v.get('veredicto') == 'descartar':
+                continue
+            banco[n['kid']] = {'id': n['kid'], 'clave': v['clave'], 'enunciado': v['enunciado'],
+                               'opciones': v['opciones'], 'sol': v['sol'], 'nueva': True,
+                               'raw': {'enunciado': f"[{v['enunciado']}]", 'opciones': [f'[{o}]' for o in v['opciones']],
+                                       'sol': f"[{v['sol']}]"}}
+    return banco
 
 
 def cargar_preguntas():
@@ -106,9 +125,11 @@ def orden_tema(t):
     return (t[0] != 'T', int(t[1:]))
 
 
-def generar(plan, salida):
+def generar(plan, salida, modo='estudio'):
     banco = cargar_preguntas()
-    rng = random.Random(20261021)
+    if modo == 'control':
+        banco = cargar_control(banco)
+    rng = random.Random(20261021 if modo == 'estudio' else 20261022)
     usadas, cuerpo = [], []
     donde = {}  # cid → [«3·P1·7», …]
     conceptos = {}  # cid → (tema, concepto)
@@ -122,22 +143,27 @@ def generar(plan, salida):
             orden = ordenar_prueba(qs, rng)
             for k, (it, q, (ops, clave)) in enumerate(zip(prueba['items'], qs, orden), 1):
                 usadas.append((n, p, k, q['id'], it['cid'], clave))
-                donde.setdefault(it['cid'], []).append(f'{n}·{p}·{k}')
+                if modo == 'control':
+                    donde.setdefault(it['cid'], []).append(f'{n}·{p}·{k} (estudio {it["estudio"][min(it.get("variante", 0), len(it["estudio"]) - 1)]})')
+                    origen = 'estúdialo en: simulacros de estudio ' + ', '.join(it['estudio']) + (' · libro: ' + ', '.join(it['libro']) if it.get('libro') else '')
+                else:
+                    donde.setdefault(it['cid'], []).append(f'{n}·{p}·{k}')
+                    origen = '' if q.get('nueva') else 'libro: ' + q['id']
                 conceptos[it['cid']] = (it['tema'], it['concepto'])
-                origen = '' if q.get('nueva') else q['id']
                 ops_t = ', '.join(limpiar_refs(o) for o in ops)
                 cuerpo.append(
                     f'#pq({n}, {p}, {k}, "{clave}", {typst_str(origen)}, {typst_str(it["concepto"])},\n'
                     f'  {limpiar_refs(q["raw"]["enunciado"])},\n'
                     f'  ({ops_t},),\n'
-                    f'  sol: {limpiar_refs(q["raw"]["sol"] or "[]")})\n')
+                    f'  sol: {limpiar_refs(q["raw"]["sol"] or "[]")}, tema: "{it["tema"]}")\n')
             cuerpo.append('#fin-prueba()\n')
         cuerpo.append(f'#soluciones-simulacro({n})\n')
     # ---- apéndice de repaso: pregunta → respuesta
-    cuerpo.append('\n#repaso-inicio()\n')
-    tema_actual = None
     titulos = titulos_temas()
-    for i, it in enumerate(plan['repaso'], 1):
+    if plan.get('repaso'):
+        cuerpo.append('\n#repaso-inicio()\n')
+    tema_actual = None
+    for i, it in enumerate(plan.get('repaso', []), 1):
         q = banco[it['qid']]
         if it['tema'] != tema_actual:
             tema_actual = it['tema']
@@ -164,24 +190,25 @@ def generar(plan, salida):
         print('AVISO macros no encontradas:', faltan)
     n_t = sum(1 for u in usadas if u[1] == 1)
     datos = (f'#let datos = (n: {plan["n"]}, preguntas: {len(usadas)}, conceptos: {len(conceptos)}, '
-             f'repaso: {len(plan["repaso"])}, nuevas: {sum(1 for u in usadas if u[3].startswith("N-"))}, '
+             f'repaso: {len(plan.get("repaso", []))}, nuevas: {sum(1 for u in usadas if u[3].startswith("N-"))}, '
              f'tecnicas: {n_t})\n')
     cab = open(os.path.join(AQUI, 'cabecera.typ'), encoding='utf-8').read()
-    intro = open(os.path.join(AQUI, 'intro.typ'), encoding='utf-8').read()
+    intro = open(os.path.join(AQUI, 'intro.typ' if modo == 'estudio' else 'intro-control.typ'), encoding='utf-8').read()
     with open(salida, 'w', encoding='utf-8') as f:
+        f.write(f'#let modo = "{modo}"\n')
         f.write(cab)
         f.write('\n// ---- macros locales copiadas de los capítulos del libro (generado) ----\n')
         f.write(macros + '\n')
         f.write(datos)
         f.write(intro)
         f.write(texto)
-    json.dump(usadas, open(os.path.join(ROOT, 'build/simulacros/usadas.json'), 'w'), ensure_ascii=False)
+    json.dump(usadas, open(os.path.join(ROOT, 'build/simulacros/usadas.json' if modo == 'estudio' else 'build/control/usadas.json'), 'w'), ensure_ascii=False)
     return usadas
 
 
 if __name__ == '__main__':
     plan = json.load(open(sys.argv[1], encoding='utf-8'))
-    u = generar(plan, sys.argv[2])
+    u = generar(plan, sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else 'estudio')
     print(len(u), 'preguntas; claves:', dict(Counter(x[5] for x in u)))
     peor = max((abs(c - 7.5) for s in range(1, plan['n'] + 1) for p in (1, 2)
                 for c in Counter(x[5] for x in u if x[0] == s and x[1] == p).values()), default=0)

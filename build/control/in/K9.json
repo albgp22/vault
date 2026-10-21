@@ -1,0 +1,2099 @@
+[
+ {
+  "cid": "R8-01",
+  "tema": "R8",
+  "concepto": "Marco: competencia exclusiva del Estado en telecomunicaciones (art. 149.1.21.ª CE)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·17"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.55",
+    "enunciado": "El Reglamento de uso del dominio público radioeléctrico por aficionados se dicta al amparo del artículo 149.1.21.ª de la Constitución, que atribuye al Estado competencia exclusiva en materia de:",
+    "opciones": [
+     "industria",
+     "medio ambiente",
+     "telecomunicaciones",
+     "defensa"
+    ],
+    "clave": "c",
+    "sol": "El artículo 149.1.21.ª de la Constitución da al Estado la competencia exclusiva en telecomunicaciones: por eso el Reglamento es estatal."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-02",
+  "tema": "R8",
+  "concepto": "Ley General de Telecomunicaciones vigente: Ley 11/2022",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·16"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.10",
+    "enunciado": "La Ley General de Telecomunicaciones vigente es:",
+    "opciones": [
+     "la Ley 9/2014, de 9 de mayo",
+     "la Ley 11/2022, de 28 de junio",
+     "la Ley 32/2003, de 3 de noviembre",
+     "la Ley 19/1983, de 16 de noviembre"
+    ],
+    "clave": "b",
+    "sol": "La Ley 11/2022, de 28 de junio, derogó la Ley 9/2014 (disposición derogatoria única, apartado a, salvo unas pocas disposiciones residuales), que a su vez había derogado la Ley 32/2003 (disposición derogatoria única, apartado b, de la Ley 9/2014). La Ley 19/1983 no es una ley general de telecomunicaciones: es la «Ley de antenas», que regula el derecho a instalar antenas en el exterior de los inmuebles. Ojo: la Orden IET/1311/2013 cita la Ley 32/2003, y muchos bancos antiguos la 9/2014; eran las vigentes en su época. #_apc3-ver[(Véase tema R8, introducción del tema («tres pisos» normativos).)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-03",
+  "tema": "R8",
+  "concepto": "RD 123/2017: Reglamento sobre el uso del dominio público radioeléctrico",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·17"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.11",
+    "enunciado": "El Real Decreto 123/2017, de 24 de febrero, aprueba el:",
+    "opciones": [
+     "Reglamento sobre el uso del dominio público radioeléctrico",
+     "Reglamento de instalación de antenas de aficionado en el exterior de los inmuebles",
+     "Reglamento del procedimiento de evaluación de la conformidad de los aparatos de telecomunicaciones",
+     "Reglamento de la actividad de instalación y mantenimiento de equipos y sistemas de telecomunicación"
+    ],
+    "clave": "a",
+    "sol": "El Real Decreto 123/2017 aprueba el Reglamento sobre el uso del dominio público radioeléctrico, que derogó el Real Decreto 863/2008 (disposición derogatoria única, a), todavía citado en la exposición de motivos y en el art. 1 de la Orden IET/1311/2013. Es el reglamento general de la Ley General de Telecomunicaciones en esta materia; en él se regulan el uso especial y su autorización individual para radioaficionados (arts. 22 y 25). Las demás opciones son reglamentos que la Orden también cita: el Real Decreto 2623/1986 (antenas, art. 18.2), el 1890/2000 (conformidad de aparatos, art. 5.5) y el 244/2010 (instaladores, art. 19.e). #_apc3-ver[(Véase tema R8, introducción del tema («tres pisos» normativos).)]\n\n#_apc3-net[El Reglamento sobre el uso del dominio público radioeléctrico, aprobado por el Real Decreto 123/2017, de 24 de febrero, desarrolla la Ley General de Telecomunicaciones en lo relativo al espectro y derogó el Real Decreto 863/2008, que es el que todavía cita la Orden IET/1311/2013 (exposición de motivos y art. 1). Distingue los usos común, especial y privativo: el de los radioaficionados es uso especial, con autorización individual (arts. 22 y 25). También prevé el Cuadro Nacional de Atribución de Frecuencias (art. 6).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-04",
+  "tema": "R8",
+  "concepto": "Uso del espectro por radioaficionados: uso especial, con autorización individual; explotación compartida sin exclusión de terceros",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·18"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.12",
+    "enunciado": "El uso del dominio público radioeléctrico por los radioaficionados está clasificado como:",
+    "opciones": [
+     "uso común, que no necesita título habilitante",
+     "uso privativo, mediante concesión administrativa",
+     "uso especial, mediante autorización individual",
+     "uso reservado al Estado"
+    ],
+    "clave": "c",
+    "sol": "Es un uso especial: lo dicen la exposición de motivos de la Orden IET/1311/2013 y sus arts. 1.1 y 2.1. Según el art. 88.1 de la Ley 11/2022, el uso especial es el de las bandas habilitadas para su explotación compartida, sin limitación de número de usuarios, y para los radioaficionados se otorga mediante autorización individual (art. 88.5.a). No es uso común, que no necesita título habilitante (aquí hace falta la autorización de radioaficionado, art. 5.1 de la Orden). Tampoco es privativo, que es la explotación en exclusiva o por un número limitado de usuarios. El uso reservado al Estado es otra categoría del CNAF. #_apc3-ver[(Véase tema R8, sección «Uso de la estación y otras cuestiones».)]\n\n#_apc3-net[El uso del dominio público radioeléctrico puede ser común, especial o privativo (art. 88.1 de la Ley 11/2022). El común no precisa título habilitante. El privativo es la explotación en exclusiva o por un número limitado de usuarios. El especial es el de las bandas habilitadas para su explotación compartida, sin limitación de número de usuarios. El de los radioaficionados es uso especial (art. 2.1 de la Orden IET/1311/2013) y se ejerce mediante autorización individual (art. 88.5.a de la Ley 11/2022): la autorización de radioaficionado.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.15",
+    "enunciado": "Según la Orden IET/1311/2013, el uso del espectro por los radioaficionados se caracteriza por ser una explotación:",
+    "respuesta": "compartida, sin exclusión de terceros"
+   }
+  ],
+  "nota": "F-R8.15 pregunta la misma idea desde la definición del art. 2.1 (explotación compartida)."
+ },
+ {
+  "cid": "R8-05",
+  "tema": "R8",
+  "concepto": "Orden IET/1311/2013: documento fundamental de regulación de la radioafición",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·18"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.4",
+    "enunciado": "El Reglamento de uso del dominio público radioeléctrico por aficionados:",
+    "opciones": [
+     "Su vigencia se limita a 4 años.",
+     "Es un documento técnico informativo sin carácter vinculante para los radioaficionados.",
+     "Fija las tasas por derecho a examen.",
+     "Constituye el documento fundamental de regulación de la radioafición."
+    ],
+    "clave": "d",
+    "sol": "La Orden IET/1311/2013 aprueba este Reglamento, que es una norma jurídica obligatoria y la norma específica de la actividad: regula la autorización, la prueba de capacitación, las estaciones fijas, los distintivos, las condiciones de uso y la inspección. No tiene una vigencia de 4 años: es indefinido, y la autorización tampoco se renueva. No es meramente informativo (b). Las tasas no las fija él, sino la Ley General de Telecomunicaciones, a la que remiten sus arts. 6 y 9 (c). #vease[(Véase tema R8, introducción del tema («tres pisos» normativos).)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-06",
+  "tema": "R8",
+  "concepto": "Orden IET/1311/2013: derogó la Orden ITC/1791/2006",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·18"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.13",
+    "enunciado": "La Orden IET/1311/2013 derogó expresamente:",
+    "opciones": [
+     "la Ley 19/1983, de 16 de noviembre",
+     "la Orden ITC/4096/2006, de 28 de diciembre (banda ciudadana CB-27)",
+     "el Real Decreto 2623/1986, de 21 de noviembre",
+     "la Orden ITC/1791/2006, de 5 de junio"
+    ],
+    "clave": "d",
+    "sol": "La disposición derogatoria única de la Orden IET/1311/2013 deroga expresamente la Orden ITC/1791/2006, de 5 de junio, que aprobaba el reglamento anterior de aficionados, y las normas de igual o inferior rango que se le opongan. La Ley 19/1983 (art. 2.2 del Código Civil: las leyes solo se derogan por otras posteriores) y el Real Decreto 2623/1986 tienen rango superior a una orden, y la propia Orden los cita como aplicables a las estaciones fijas (art. 18.2). La Orden ITC/4096/2006 (CB-27) no se deroga: la disposición final primera solo modifica el apartado 3 de su art. 4. #_apc3-ver[(Véase tema R8, introducción del tema («tres pisos» normativos).)]\n\n#_apc3-net[La Orden IET/1311/2013 deroga expresamente la Orden ITC/1791/2006, de 5 de junio, que aprobaba el reglamento anterior de aficionados, y las disposiciones de igual o inferior rango que se le opongan. No deroga la Ley 19/1983 ni el Real Decreto 2623/1986, sobre antenas, que cita como aplicables a las estaciones fijas (art. 18.2), ni el reglamento de la banda ciudadana CB-27 (Orden ITC/4096/2006), del que solo modifica el apartado 3 del art. 4. Por eso los bancos antiguos que siguen la Orden de 2006 apoyan sus claves en una norma derogada.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-07",
+  "tema": "R8",
+  "concepto": "Orden IET/1311/2013: entrada en vigor el día siguiente a su publicación",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·17"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.14",
+    "enunciado": "La Orden IET/1311/2013 entró en vigor:",
+    "opciones": [
+     "el mismo día de su publicación en el BOE",
+     "el día siguiente al de su publicación en el BOE",
+     "a los veinte días de su publicación en el BOE",
+     "el 1 de enero de 2014"
+    ],
+    "clave": "b",
+    "sol": "La disposición final cuarta dice que la Orden «entrará en vigor el día siguiente al de su publicación» en el BOE. Se publicó el 12 de julio de 2013 (BOE núm. 166), de modo que rige desde el 13 de julio de 2013. Los veinte días son la regla general del art. 2.1 del Código Civil para las leyes, pero solo se aplica si la norma no dispone otra cosa, y aquí sí lo dispone. Entrar en vigor el mismo día de la publicación es más rápido de lo que establece, y el 1 de enero de 2014 no figura en el texto. #_apc3-ver[(Véase tema R8, introducción del tema («tres pisos» normativos).)]\n\n#_apc3-net[La Orden IET/1311/2013, de 9 de julio, se publicó en el BOE núm. 166, de 12 de julio de 2013, y entró en vigor el día siguiente, el 13 de julio de 2013 (disposición final cuarta). Las autorizaciones de uso especial no extinguidas antes de esa fecha conservaron su vigencia y quedaron sometidas al nuevo reglamento (disposición transitoria única). Se dicta al amparo de la competencia exclusiva del Estado en telecomunicaciones, art. 149.1.21.ª de la Constitución (disposición final tercera).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-08",
+  "tema": "R8",
+  "concepto": "Radioaficionado: interés por la radiotecnia con carácter exclusivamente personal, sin fines de lucro",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·19"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.16",
+    "enunciado": "Según el Reglamento de uso del dominio público radioeléctrico por radioaficionados, estos son personas debidamente autorizadas que se interesan por la radiotecnia con carácter:",
+    "opciones": [
+     "profesional, con derecho a cobrar por los servicios que presten a terceros",
+     "asociativo, por pertenecer a una asociación de radioaficionados reconocida",
+     "institucional, por encargo de la Administración o de Protección Civil",
+     "exclusivamente personal y sin fines de lucro ni contenido económico"
+    ],
+    "clave": "d",
+    "sol": "Lo dice el art. 2.1 de la Orden IET/1311/2013: los radioaficionados son personas debidamente autorizadas que se interesan por la radiotecnia con carácter exclusivamente personal y sin fines de lucro ni contenido económico. De ahí que emitir con fines comerciales, publicitarios o lucrativos pueda llevar a la revocación de la autorización (art. 8.1.b). No es una actividad profesional ni remunerada (a), ni asociativa (b), ni se ejerce por encargo de la Administración (c), aunque el titular deba colaborar con Protección Civil si se le requiere en catástrofes (art. 30.4). #_apc3-ver[(Véase tema R7, introducción del tema (definición del servicio de aficionados, «sin fines de lucro»).)]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-09",
+  "tema": "R8",
+  "concepto": "CNAF = Cuadro Nacional de Atribución de Frecuencias",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·17"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.7",
+    "enunciado": "En el Reglamento de uso del dominio público radioeléctrico por aficionados, la abreviatura CNAF significa:",
+    "opciones": [
+     "Comisión Nacional de Aficionados y Frecuencias",
+     "Catálogo Nacional de Antenas Fijas",
+     "Cuadro Nacional de Atribución de Frecuencias",
+     "Certificado Nacional de Aptitud de Frecuencias"
+    ],
+    "clave": "c",
+    "sol": "CNAF: Cuadro Nacional de Atribución de Frecuencias, de obligado cumplimiento."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-10",
+  "tema": "R8",
+  "concepto": "CNAF vigente: aprobado por orden ministerial (Orden TDF/732/2026)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·17"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.17",
+    "enunciado": "El Cuadro Nacional de Atribución de Frecuencias (CNAF) vigente en octubre de 2026 fue aprobado por la:",
+    "opciones": [
+     "Orden IET/1311/2013, de 9 de julio",
+     "Orden ETU/1033/2017, de 25 de octubre",
+     "Orden TDF/732/2026, de 10 de julio",
+     "Orden ETD/1449/2021, de 16 de diciembre"
+    ],
+    "clave": "c",
+    "sol": "El Ministerio aprueba el CNAF mediante orden, al amparo del art. 6 del Reglamento sobre el uso del dominio público radioeléctrico. La edición vigente es la de la Orden TDF/732/2026, de 10 de julio (BOE del 17 de julio, en vigor al día siguiente), que deroga y sustituye a la de la Orden ETD/1449/2021, de 16 de diciembre; la Orden ETU/1033/2017 es una edición anterior. La Orden IET/1311/2013 no es un CNAF: es el reglamento de los radioaficionados, y remite al CNAF para saber qué bandas se atribuyen al servicio (art. 2.1). #_apc3-ver[(Véase tema R8, introducción del tema («tres pisos» normativos).)]\n\n#_apc3-net[El CNAF es el plan que atribuye las bandas, subbandas y frecuencias a cada servicio de radiocomunicación y fija sus condiciones técnicas, de acuerdo con la Unión Europea, la CEPT y el Reglamento de Radiocomunicaciones de la UIT (art. 6 del Reglamento sobre el uso del dominio público radioeléctrico). Lo aprueba el Ministerio mediante orden. La edición vigente en octubre de 2026 es la de la Orden TDF/732/2026, de 10 de julio, que sustituyó a la de la Orden ETD/1449/2021, de 16 de diciembre.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": "Dato volátil: cambia con cada edición del CNAF."
+ },
+ {
+  "cid": "R8-11",
+  "tema": "R8",
+  "concepto": "Ley 19/1983 («Ley de antenas»): derecho a instalar antenas de aficionado en el exterior de los inmuebles",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·19"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.1",
+    "enunciado": "La Ley 19/1983, conocida como «Ley de Antenas», regula:",
+    "opciones": [
+     "las tasas por uso del espectro radioeléctrico",
+     "el contenido de las emisiones de aficionado",
+     "el derecho a instalar las antenas de aficionado en el exterior de los inmuebles",
+     "la homologación de los transceptores"
+    ],
+    "clave": "c",
+    "sol": "La Ley 19/1983 («Ley de Antenas») reconoce el derecho a instalar antenas de aficionado en el exterior de los inmuebles."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-12",
+  "tema": "R8",
+  "concepto": "RD 2623/1986: reglamento de las instalaciones de antenas de aficionado",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.10",
+    "enunciado": "El Real Decreto 2623/1986 regula:",
+    "opciones": [
+     "las tasas del examen de radioaficionado",
+     "las instalaciones de antenas de las estaciones radioeléctricas de aficionado",
+     "los planes de banda nacionales",
+     "el código de deletreo oficial"
+    ],
+    "clave": "b",
+    "sol": "El RD 2623/1986 regula las instalaciones de antenas, en desarrollo de la Ley 19/1983."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-13",
+  "tema": "R8",
+  "concepto": "La autorización de radioaficionado la otorga la SETSI (hoy SETID)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·21"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.38",
+    "enunciado": "Para la utilización de estaciones de radioaficionado es imprescindible obtener la previa autorización de:",
+    "opciones": [
+     "La Marina Mercante.",
+     "El Ministerio de Defensa.",
+     "La Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales (la SETSI de la Orden IET/1311/2013).",
+     "La Dirección General de Seguridad y Orden Público."
+    ],
+    "clave": "c",
+    "sol": "El uso especial del espectro por radioaficionados requiere una autorización administrativa individualizada, la autorización de radioaficionado, que otorga la SETSI (arts. 5.1 y 7.1 de la Orden IET/1311/2013): es el órgano de la Administración competente en telecomunicaciones. La Marina Mercante, Defensa y Seguridad y Orden Público no la otorgan. En el banco original la respuesta era la «Dirección General de Telecomunicaciones», nombre del órgano en el régimen anterior; hoy ese papel corresponde a la Secretaría de Estado de Telecomunicaciones (SETSI en la Orden de 2013). #vease[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n    #no-esta[Arts. 5.1 y 7.1 de la Orden IET/1311/2013: el uso del espectro por radioaficionados exige una autorización administrativa individualizada previa, la autorización de radioaficionado, otorgada por la SETSI. La SETSI dicta resolución motivada concediéndola junto con el distintivo de llamada, o denegándola. Para obtenerla hay que superar la prueba de capacitación (art. 5.2) y presentar la solicitud con el resguardo de la tasa (art. 6). El órgano se llamaba Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información; hoy es la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-14",
+  "tema": "R8",
+  "concepto": "Requisito previo de la autorización: superar la prueba de capacitación (certificado HAREC)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.5",
+    "enunciado": "La obtención de la autorización de radioaficionado requerirá la obtención previa de:",
+    "opciones": [
+     "Un curso de formación impartido por una asociación de radioaficionados.",
+     "Un carnet de operador expedido por un radio club.",
+     "El certificado de examen armonizado (HAREC), que se obtiene al superar la prueba de capacitación.",
+     "La licencia de estación fija."
+    ],
+    "clave": "c",
+    "sol": "Según el art. 5.2 de la Orden IET/1311/2013, la autorización exige superar la prueba de capacitación; quien la supera recibe el certificado HAREC (T/R 61-02) y queda habilitado para solicitar la autorización (art. 10.3). No hay cursos obligatorios ni carnets de radio club (a, b). La licencia de estación fija (d) no es previa, sino posterior: se asocia a la autorización ya concedida (art. 18.1). El banco antiguo decía «diploma de operador»: es el antiguo nombre de este certificado. Si aparece esa redacción, es la respuesta correcta. #vease[(Véase tema R7, equivalencia entre diploma de operador y HAREC; tema R8, preguntas sobre el certificado HAREC.)]\n\n    #no-esta[Secuencia de la Orden IET/1311/2013: prueba de capacitación (art. 10: electricidad y radioelectricidad, y normativa), certificado HAREC al aprobar ambas partes (art. 10.3), y solicitud de la autorización de radioaficionado con pago de tasa (arts. 5.2, 6 y 10.3). El HAREC no autoriza a transmitir por sí mismo: es el requisito previo. Después, si se quiere instalar una estación fija, se pide además la licencia de estación (art. 18).]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-R8.43",
+    "enunciado": "La obtención de la autorización de radioaficionado requerirá de:",
+    "respuesta": "Haber superado las pruebas de aptitud."
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-15",
+  "tema": "R8",
+  "concepto": "Naturaleza de la autorización: individual, personal e intransferible, revocable",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·21"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.28",
+    "enunciado": "La autorización administrativa de uso del espectro radioeléctrico por radioaficionados:",
+    "opciones": [
+     "Puede ser objeto de transferencia.",
+     "Para su obtención se requerirá haber superado la prueba de capacitación (certificado HAREC).",
+     "Nunca podrá ser objeto de revocación.",
+     "Tiene naturaleza de autorización colectiva."
+    ],
+    "clave": "b",
+    "sol": "Según el art. 5 de la Orden IET/1311/2013, la autorización es individualizada (5.1), requiere haber superado la prueba de capacitación (5.2; quien la supera recibe el certificado HAREC, art. 10.3) y tiene carácter personal y no transferible (5.4). Por eso a y d son falsas. La c también: puede revocarse en los supuestos del art. 8 (por ejemplo, por emisiones con fines comerciales o lucrativos) y se extingue con el fallecimiento del titular. Solo los extranjeros residentes con HAREC extranjero o con convenio de reciprocidad se libran de examinarse (art. 5.2). El enunciado original hablaba del «diploma de operador», figura anterior que hoy equivale al HAREC. #vease[(Véase tema R8, introducción y sección «Uso de la estación y otras cuestiones»; tema R7.)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.8",
+    "enunciado": "La autorización de radioaficionado tiene carácter:",
+    "respuesta": "personal e intransferible"
+   }
+  ],
+  "nota": "La clave de C-R8.28 es el requisito de la prueba, pero sus distractores (transferible, irrevocable, colectiva) enseñan la naturaleza; R8.8 es la versión directa."
+ },
+ {
+  "cid": "R8-16",
+  "tema": "R8",
+  "concepto": "Vigencia indefinida: no se renueva; suprimida la comunicación quinquenal",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·21"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.44",
+    "enunciado": "Según la normativa vigente (Orden IET/1311/2013), respecto de la autorización de radioaficionado, indique la alternativa incorrecta:",
+    "opciones": [
+     "Conserva su vigencia mientras su titular no manifieste su renuncia o sea revocada.",
+     "Tendrá carácter personal y no transferible.",
+     "Habilita para el uso de cualquier banda de frecuencias del Servicio de Aficionados con determinadas características técnicas y restricciones geográficas.",
+     "Su titular debe comunicar cada cinco años, de forma fehaciente, su intención de seguir utilizando el espectro radioeléctrico."
+    ],
+    "clave": "d",
+    "sol": "La incorrecta es la d: la obligación de comunicar cada cinco años la intención de seguir usando el espectro quedó suprimida (disposición adicional primera de la Orden IET/1311/2013), así que la autorización no se renueva ni caduca por no hacerlo. Las otras tres son ciertas: conserva su vigencia mientras el titular no renuncie o no sea revocada (art. 5.4); es personal y no transferible (art. 5.4); y habilita para cualquiera de las bandas del servicio con las características técnicas del anexo I, sin perjuicio de las limitaciones de los arts. 16 y 17 (art. 5.3). El enunciado original del banco estaba truncado y sin clave, con una opción obsoleta (el «diploma de operador»); por eso se reformula como pregunta de la incorrecta. #vease[(Véase tema R8, introducción (tabla: «Renovación de la autorización: suprimida») y sección «Autorización y licencia de estación».)]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.12",
+    "enunciado": "En cuanto a la renovación de las autorizaciones de radioaficionado:",
+    "respuesta": "no es necesario renovarlas: la renovación quinquenal quedó suprimida"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-17",
+  "tema": "R8",
+  "concepto": "La autorización habilita a emitir en las bandas y con las características técnicas del servicio de aficionados",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.60",
+    "enunciado": "La autorización de radioaficionado habilita a su titular para:",
+    "opciones": [
+     "efectuar emisiones en las bandas y con las características técnicas establecidas para el servicio de aficionados",
+     "emitir en cualquier banda del espectro radioeléctrico",
+     "prestar servicios de comunicación a terceros",
+     "instalar antenas sin condición alguna"
+    ],
+    "clave": "a",
+    "sol": "La autorización no es un permiso genérico para radiar: habilita exactamente para lo que el servicio de aficionados tiene atribuido, con sus bandas, potencias y clases de emisión. Fuera de ahí no ampara nada."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-18",
+  "tema": "R8",
+  "concepto": "Plazo para resolver la autorización (y la licencia de estación fija): 6 semanas, silencio desestimatorio",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·20"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.11",
+    "enunciado": "El plazo del que dispone la Administración para resolver una solicitud de autorización de radioaficionado es de:",
+    "opciones": [
+     "quince días",
+     "seis semanas",
+     "seis meses",
+     "un año"
+    ],
+    "clave": "b",
+    "sol": "Plazo de resolución: seis semanas; el silencio es desestimatorio."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.22",
+    "enunciado": "Según el artículo 4 del Reglamento, el plazo de seis semanas para resolver y notificar, con silencio desestimatorio, se aplica a la autorización de radioaficionado y también a:",
+    "respuesta": "la expedición de la licencia de estación fija"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-19",
+  "tema": "R8",
+  "concepto": "Recursos contra las resoluciones: reposición en 1 mes o contencioso ante la Audiencia Nacional en 2 meses",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.20",
+    "enunciado": "Según el artículo 4 de la Orden IET/1311/2013, el recurso potestativo de reposición contra las resoluciones de la SETSI sobre autorizaciones y licencias de radioaficionado debe interponerse en el plazo de:",
+    "opciones": [
+     "quince días desde su notificación",
+     "seis semanas desde la entrada de la solicitud",
+     "dos meses desde el día siguiente a su notificación",
+     "un mes desde el día siguiente a su notificación"
+    ],
+    "clave": "d",
+    "sol": "El art. 4 de la Orden dice que estas resoluciones agotan la vía administrativa y que contra ellas cabe recurso potestativo de reposición ante el mismo órgano que las dictó, en el plazo de un mes desde el día siguiente a su notificación. Las seis semanas (b) son el plazo para resolver y notificar, no para recurrir; transcurrido sin resolución expresa, la solicitud se entiende desestimada. Los dos meses (c) son el plazo para acudir directamente a la Audiencia Nacional, y ambos recursos no pueden ser simultáneos. Los quince días (a) no aparecen en el artículo. #_apc3-ver[(Véase tema R8, introducción del tema (tabla de cifras: seis semanas y silencio desestimatorio).)]\n\n#_apc3-net[Según el art. 4 de la Orden IET/1311/2013, la SETSI debe resolver en seis semanas y el silencio es desestimatorio. Las resoluciones agotan la vía administrativa. Contra ellas cabe recurso potestativo de reposición ante el mismo órgano que las dictó, en el plazo de un mes desde el día siguiente a la notificación, o bien recurso directo ante la Sala de lo Contencioso-administrativo de la Audiencia Nacional, en el plazo de dos meses desde el día siguiente a la notificación. Ambos recursos no pueden ser simultáneos.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.21",
+    "enunciado": "Las resoluciones de la SETSI a que se refiere el artículo 4 de la Orden IET/1311/2013 agotan la vía administrativa y pueden impugnarse directamente ante la Sala de lo Contencioso-administrativo de:",
+    "respuesta": "la Audiencia Nacional, en el plazo de dos meses"
+   }
+  ],
+  "nota": "Dos plazos distintos que se confunden entre sí y con las 6 semanas de resolución."
+ },
+ {
+  "cid": "R8-20",
+  "tema": "R8",
+  "concepto": "Solicitud de autorización: preferentemente por medios electrónicos, con modelo oficial",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.29",
+    "enunciado": "Los interesados en obtener la autorización de radioaficionado presentan su solicitud, preferentemente:",
+    "opciones": [
+     "a través de la asociación de radioaficionados de la que sean socios",
+     "en papel y exclusivamente en la Jefatura Provincial de Inspección de Telecomunicaciones",
+     "por medios electrónicos, en la sede electrónica del Ministerio y según el modelo oficial",
+     "mediante escrito libre, sin modelo oficial, enviado por correo electrónico a la SETSI"
+    ],
+    "clave": "c",
+    "sol": "El art. 6 admite presentar la solicitud en las Jefaturas Provinciales de Inspección de Telecomunicaciones o en los demás lugares que permite la ley de procedimiento administrativo, pero indica como vía preferente los medios electrónicos de la sede electrónica del Ministerio, según el modelo oficial. No se presenta a través de la asociación (a), el papel en la Jefatura no es la única vía (b) y el escrito libre no sirve: hay modelo oficial (d). La solicitud va acompañada del resguardo de la tasa de tramitación. #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[Art. 6 de la Orden IET/1311/2013: la solicitud de autorización de radioaficionado se presenta en las Jefaturas Provinciales de Inspección de Telecomunicaciones, en los demás registros que admite la ley o, preferentemente, por medios electrónicos en la sede electrónica del Ministerio (en 2013, el de Industria, Energía y Turismo), según el modelo oficial publicado en ella. Va acompañada del resguardo de abono de la tasa de tramitación y de la demás documentación que proceda en cada caso. La resuelve la SETSI (art. 7).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-21",
+  "tema": "R8",
+  "concepto": "Solicitud de autorización: acompañada del resguardo de la tasa de tramitación",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.30",
+    "enunciado": "Según el artículo 6 del Reglamento, a la solicitud de autorización de radioaficionado debe acompañarse:",
+    "opciones": [
+     "la memoria técnica de la instalación y el contrato de seguro de antenas",
+     "el resguardo de abono de la tasa de tramitación",
+     "un certificado de pertenencia a una asociación de radioaficionados",
+     "la autorización escrita de la comunidad de propietarios del domicilio"
+    ],
+    "clave": "b",
+    "sol": "El art. 6 dice que la solicitud va «acompañada del resguardo de abono de la tasa de tramitación» establecida en la Ley General de Telecomunicaciones, además de la documentación que en cada caso proceda. La memoria técnica y el seguro de antenas (a) se exigen para la licencia de estación fija, no para la autorización. Ser socio de una asociación (c) no es obligatorio para ejercer la actividad. Y la comunidad de propietarios (d) solo interviene en la instalación de antenas, no en esta solicitud. #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[Art. 6 de la Orden IET/1311/2013: la solicitud de autorización de radioaficionado debe ir acompañada del resguardo de abono de la tasa de tramitación que establece la Ley General de Telecomunicaciones y de la demás documentación que proceda en cada caso. No se exige ser socio de ninguna asociación. La memoria técnica de la instalación y el justificante del seguro de antenas pertenecen a otro trámite posterior, el de la licencia de estación fija (arts. 19 y 20).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-22",
+  "tema": "R8",
+  "concepto": "Menores: sin edad mínima; escrito fehaciente de padres o tutores",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.29",
+    "enunciado": "Para que un menor de edad pueda examinarse y obtener la autorización de radioaficionado:",
+    "opciones": [
+     "no existe límite de edad; sus padres o tutores deberán asumir por escrito las responsabilidades correspondientes",
+     "debe haber cumplido 14 años",
+     "debe haber cumplido 16 años",
+     "no es posible hasta la mayoría de edad"
+    ],
+    "clave": "a",
+    "sol": "No hay edad mínima para examinarse; los padres o tutores asumen por escrito las responsabilidades del menor."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.63",
+    "enunciado": "Para que un menor de edad pueda ser titular de una autorización de radioaficionado es necesario:",
+    "respuesta": "aportar autorización fehaciente de sus padres o tutores"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-23",
+  "tema": "R8",
+  "concepto": "Autorización en formato bilingüe si lo pide el interesado (lengua cooficial)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·21"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.57",
+    "enunciado": "En las comunidades autónomas con lengua cooficial, la autorización de radioaficionado:",
+    "opciones": [
+     "se expide siempre solo en castellano",
+     "deberá expedirse en formato bilingüe si lo solicita el interesado",
+     "se expide solo en la lengua cooficial",
+     "se expide en inglés"
+    ],
+    "clave": "b",
+    "sol": "En comunidades con lengua cooficial, la autorización se expide en formato bilingüe si lo solicita el interesado."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-24",
+  "tema": "R8",
+  "concepto": "No es obligatorio ser socio de una asociación de radioaficionados",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·19"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.61",
+    "enunciado": "Un radioaficionado no está obligado a:",
+    "opciones": [
+     "identificarse con su distintivo de llamada",
+     "ser socio de una asociación de radioaficionados",
+     "respetar las bandas atribuidas al servicio",
+     "permitir la inspección de su estación"
+    ],
+    "clave": "b",
+    "sol": "Las asociaciones prestan servicios muy útiles —tramitación, #_r8-cod[QSL], repetidores— pero pertenecer a ellas es voluntario. Identificarse, respetar las bandas y permitir la inspección sí son obligaciones."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.53",
+    "enunciado": "Para ejercer la actividad, un radioaficionado está obligado a ser socio de una asociación de radioaficionados:",
+    "respuesta": "no"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-25",
+  "tema": "R8",
+  "concepto": "No es obligatorio disponer de estación fija",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.54",
+    "enunciado": "Disponer de una estación fija es, para un radioaficionado:",
+    "opciones": [
+     "no obligatorio",
+     "obligatorio desde el primer año",
+     "obligatorio solo en las capitales de provincia",
+     "requisito para renovar la autorización"
+    ],
+    "clave": "a",
+    "sol": "Tampoco es obligatorio disponer de estación fija."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-26",
+  "tema": "R8",
+  "concepto": "Se puede tener distintivo (autorización) sin licencia de estación; la licencia solo la necesita la estación fija",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·20"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.51",
+    "enunciado": "La reglamentación vigente permite:",
+    "opciones": [
+     "emitir sin distintivo de llamada",
+     "usar el distintivo de otro titular sin su permiso",
+     "disponer de distintivo de llamada sin tener licencia de estación",
+     "tener licencia de estación sin autorización de radioaficionado"
+    ],
+    "clave": "c",
+    "sol": "Se puede tener distintivo (autorización) sin licencia de estación: la licencia solo hace falta para la estación fija con antenas."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-27",
+  "tema": "R8",
+  "concepto": "Extinción automática de la autorización: fallecimiento del titular o extinción de la asociación titular",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.31",
+    "enunciado": "La autorización de radioaficionado se extingue automáticamente por:",
+    "opciones": [
+     "el fallecimiento de su titular o la extinción de la asociación de radioaficionados titular de la misma",
+     "el transcurso de cinco años sin comunicar a la SETSI la intención de seguir utilizando el espectro",
+     "el traslado de su titular a un distrito distinto del de su distintivo",
+     "la baja de su titular como socio de una asociación de radioaficionados"
+    ],
+    "clave": "a",
+    "sol": "El art. 8.2 fija la extinción automática: el fallecimiento del titular o la extinción de la asociación de radioaficionados titular de la autorización. La comunicación quinquenal de continuidad (b) quedó suprimida, con sus efectos de extinción, por la disposición adicional primera. Mudarse de distrito (c) solo obliga a comunicar el nuevo domicilio (art. 7.3). Y no hace falta ser socio de ninguna asociación (d). La renuncia del titular (art. 5.4) y la revocación (art. 8.1) son otras formas de perderla, pero no son extinción automática. #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[Art. 8.2 de la Orden IET/1311/2013: la autorización de radioaficionado se extingue automáticamente por el fallecimiento de su titular o por la extinción de la asociación de radioaficionados titular de la misma. No es lo mismo que la revocación, que exige expediente y tiene causas específicas (art. 8.1), ni que la renuncia del titular (art. 5.4). Ya no existe la caducidad por no comunicar cada cinco años la intención de seguir usando el espectro: la disposición adicional primera la suprimió junto con sus efectos.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-28",
+  "tema": "R8",
+  "concepto": "Revocación de la autorización: no se puede emitir; se cancelan el distintivo y la licencia de estación fija asociada",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·21"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.23",
+    "enunciado": "En el Servicio de Aficionados, ¿cuál de las siguientes proposiciones es correcta?",
+    "opciones": [
+     "La revocación de la autorización de radioaficionado lleva aparejada la cancelación de la licencia de la estación fija asociada.",
+     "Todo radioaficionado deberá, como mínimo, esperar cinco años para poder solicitar la cancelación de su autorización.",
+     "La normativa vigente en materia de radioaficionados contempla un límite de edad para poder ser titular de una autorización de radioaficionado.",
+     "El titular de una licencia de estación fija de aficionado siempre precisa autorización previa administrativa para utilizarla como portable."
+    ],
+    "clave": "a",
+    "sol": "Según el art. 21.1.b de la Orden IET/1311/2013, la licencia de estación fija se cancela por revocación o extinción de la autorización de radioaficionado a la que está asociada. Las demás son falsas: la autorización conserva su vigencia mientras el titular no renuncie (art. 5.4), sin plazo mínimo; no hay límite de edad, y el menor solo aporta el escrito fehaciente de sus padres o tutores (art. 19.f); y usar la estación como portable no exige autorización previa, solo notificarlo a la Jefatura Provincial con 5 días de antelación, y ni eso en los usos no continuados de hasta 15 días naturales (art. 17.1). El enunciado original hablaba de «licencias de los equipos»; hoy la licencia es de la estación fija. #vease[(Véase tema R8, secciones «Autorización y licencia de estación» y «Uso de la estación y otras cuestiones».)]\n\n    #no-esta[Art. 21 de la Orden IET/1311/2013: la licencia de estación fija se cancela a) en cualquier momento a petición de su titular; b) por revocación o extinción de la autorización de radioaficionado a la que está asociada; c) automáticamente si no se mantiene vigente el seguro de antenas. Al cancelarse la licencia, el titular debe desmontar la instalación, antenas incluidas, con todos los gastos a su cargo.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.71",
+    "enunciado": "La revocación de la autorización de radioaficionado lleva aparejada:",
+    "respuesta": "la cancelación del distintivo de llamada"
+   },
+   {
+    "id": "R8.50",
+    "enunciado": "Tras la revocación de la autorización de radioaficionado, el interesado:",
+    "respuesta": "no podrá ejercer la actividad hasta obtener una nueva autorización"
+   }
+  ],
+  "nota": "C-R8.23 prueba la cancelación de la licencia fija (y desmonta mitos: plazo de 5 años, edad, uso portable); R8.71, la del distintivo."
+ },
+ {
+  "cid": "R8-30",
+  "tema": "R8",
+  "concepto": "Uso de una estación ajena: con permiso del titular, identificándose con el distintivo propio",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.70",
+    "enunciado": "Si un radioaficionado opera una estación de la que no es titular, deberá:",
+    "opciones": [
+     "emplear el distintivo del titular de la estación",
+     "abstenerse de identificarse",
+     "identificarse con su propio distintivo, contando con la autorización del titular",
+     "solicitar un distintivo temporal a la Administración"
+    ],
+    "clave": "c",
+    "sol": "El distintivo identifica al _operador_, no al aparato: quien habla se identifica con el suyo (art. 27 de la Orden: el distintivo identifica a su titular). Lo que hace falta es el consentimiento del titular de la estación, que responde de ella. Ojo: la Orden ITC/1791/2006 (art. 37.5, derogada) exigía además anteponer el distintivo del titular de la estación (véase R5.27); la Orden IET/1311/2013 no lo regula expresamente. La clave es la del banco de examen."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.49",
+    "enunciado": "Con autorización de su titular, podrá hacer uso de una estación de aficionado:",
+    "respuesta": "cualquier otro titular de autorización de radioaficionado"
+   }
+  ],
+  "nota": "R8.49 se apoya en una norma derogada (lo reconoce su solución); mejor R8.70."
+ },
+ {
+  "cid": "R8-31",
+  "tema": "R8",
+  "concepto": "Ninguna estación tiene derecho preferente sobre una frecuencia",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·21"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.73",
+    "enunciado": "Ninguna estación de aficionado puede reclamar el uso exclusivo de una frecuencia. Ello significa que:",
+    "opciones": [
+     "quien llega primero conserva la frecuencia todo el día",
+     "las frecuencias se reservan por escrito ante la Administración",
+     "los concursos tienen prioridad sobre el resto del tráfico",
+     "ninguna estación tiene derecho preferente sobre una frecuencia concreta"
+    ],
+    "clave": "d",
+    "sol": "El espectro es dominio público y su uso, compartido: nadie «posee» una frecuencia, ni por llegar antes ni por estar en concurso. De ahí que la única regla practicable sea la cortesía — preguntar si está ocupada y apartarse si lo está."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-32",
+  "tema": "R8",
+  "concepto": "Las estaciones están sometidas siempre a la inspección",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.59",
+    "enunciado": "Las estaciones de aficionado quedan sometidas a la inspección de telecomunicaciones:",
+    "opciones": [
+     "solo si media denuncia de un tercero",
+     "solo durante el primer año desde su autorización",
+     "siempre",
+     "únicamente si superan los 100 vatios"
+    ],
+    "clave": "c",
+    "sol": "La sujeción a inspección es permanente y no depende de que haya denuncia, de la antigüedad ni de la potencia: forma parte de las condiciones de la autorización. Negarse u obstruirla constituye infracción grave."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-33",
+  "tema": "R8",
+  "concepto": "Equipos de construcción propia: sin autorización previa, bajo la responsabilidad del titular (régimen sancionador si interfieren)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·26"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.25",
+    "enunciado": "Los equipos de radioaficionado de construcción propia:",
+    "opciones": [
+     "están prohibidos",
+     "requieren homologación individual previa",
+     "deben ser revisados anualmente por la Jefatura Provincial",
+     "pueden utilizarse sin autorización previa de la Administración"
+    ],
+    "clave": "d",
+    "sol": "Los equipos de construcción propia pueden usarse sin autorización previa: la experimentación es la esencia del servicio (art. 5 del Reglamento)."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.28",
+    "enunciado": "Si un equipo de construcción propia produce interferencias perjudiciales a otros servicios autorizados por funcionamiento defectuoso, su titular:",
+    "respuesta": "queda sometido al régimen sancionador de la Ley General de Telecomunicaciones"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-34",
+  "tema": "R8",
+  "concepto": "Equipo de construcción propia: presentación optativa en la Jefatura con memoria (diagrama de bloques, esquemas)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.26",
+    "enunciado": "La presentación de un equipo de construcción propia en la Jefatura Provincial de Inspección de Telecomunicaciones, junto con su memoria descriptiva, es:",
+    "opciones": [
+     "obligatoria antes de su primer uso: sin ella no puede utilizarse",
+     "optativa: si supera las pruebas, el equipo recibe una autorización individual acreditativa de su correcto funcionamiento",
+     "obligatoria únicamente para los transmisores de más de 100 W",
+     "imposible: en la Jefatura solo se presentan equipos comerciales"
+    ],
+    "clave": "b",
+    "sol": "El art. 5.6 permite usar equipos de construcción propia sin autorización previa de la SETSI, bajo la responsabilidad del aficionado. Presentarlos en la Jefatura con una memoria es solo optativo: si superan las pruebas de comprobación de las características del anexo I, reciben una autorización individual acreditativa de su correcto funcionamiento. Por eso no es obligatoria antes del primer uso (a) ni según la potencia (c), y tampoco es imposible (d): la norma prevé expresamente esa presentación. #_apc3-ver[(Véase tema R8, sección «Usos especiales y casos particulares».)]\n\n#_apc3-net[Art. 5.6 de la Orden IET/1311/2013: los equipos total o parcialmente de construcción propia se usan sin autorización previa de la SETSI, bajo la responsabilidad del radioaficionado, y deben cumplir las características técnicas del anexo I. Optativamente pueden presentarse en la Jefatura Provincial de Inspección de Telecomunicaciones con una memoria descriptiva; los que superen las pruebas reciben una autorización individual acreditativa de su correcto funcionamiento. Ese trámite no es obligatorio.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.27",
+    "enunciado": "La memoria descriptiva que acompaña a un equipo de construcción propia presentado en la Jefatura Provincial de Inspección de Telecomunicaciones debe incluir:",
+    "respuesta": "el diagrama de bloques, los esquemas eléctricos y una descripción del funcionamiento básico del equipo"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-35",
+  "tema": "R8",
+  "concepto": "Equipos comerciales: legislación vigente en su comercialización inicial; los ya legalizados, la de su autorización inicial",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.23",
+    "enunciado": "Los equipos radioeléctricos adquiridos en el mercado que se pretenda utilizar en una estación de radioaficionado deben cumplir la legislación (marcado CE, certificado de aceptación radioeléctrica, etc.) que les fuese de aplicación:",
+    "opciones": [
+     "en el momento de su adquisición por el radioaficionado",
+     "en la fecha en que se presente la solicitud de licencia de estación",
+     "en el momento de su comercialización inicial",
+     "en la fecha de entrada en vigor del Reglamento de radioaficionados"
+    ],
+    "clave": "c",
+    "sol": "El art. 5.5 exige a los equipos comprados en el mercado la legislación que les fuese de aplicación «en el momento de su comercialización inicial»: marcado CE, certificado de aceptación radioeléctrica, etc. Cuenta, pues, cuándo salió el equipo al mercado, no cuándo lo compra el aficionado (a), ni la fecha de la solicitud (b), ni la entrada en vigor del Reglamento (d). Los equipos de segunda mano anteriores al RD 1890/2000 y los ya legalizados en una licencia tienen reglas propias, en el mismo artículo. #_apc3-ver[(Véase tema R8, sección «Usos especiales y casos particulares».)]\n\n#_apc3-net[Art. 5.5 de la Orden IET/1311/2013: los equipos radioeléctricos comprados en el mercado y destinados a una estación de radioaficionado deben cumplir la legislación que les fuese de aplicación en el momento de su comercialización inicial (marcado CE, certificado de aceptación radioeléctrica, etc.). Se les exige, por tanto, lo que correspondía cuando el equipo salió al mercado, no lo vigente el día de la compra. Para los equipos de segunda mano anteriores al Real Decreto 1890/2000 y para los ya legalizados en una licencia rigen reglas propias, en el mismo artículo.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.25",
+    "enunciado": "Respecto de los equipos anteriormente legalizados en una licencia de estación de radioaficionado, el Reglamento establece que les es de aplicación:",
+    "respuesta": "la normativa en vigor en el momento de su autorización inicial"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-36",
+  "tema": "R8",
+  "concepto": "Equipo de segunda mano sin certificado de aceptación: cumplir el anexo I, certificado por laboratorio acreditado",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.24",
+    "enunciado": "Un equipo de segunda mano comercializado antes de la entrada en vigor del Real Decreto 1890/2000 no dispone del certificado de aceptación radioeléctrica exigido en su día. Para utilizarlo en una estación de radioaficionado debe:",
+    "opciones": [
+     "cumplir las características técnicas del anexo I, certificado por un laboratorio acreditado",
+     "ir acompañado de una declaración de conformidad firmada por su titular",
+     "sustituirse por un equipo con marcado CE, pues no existe otra vía",
+     "presentarse en la Jefatura Provincial para su homologación individual"
+    ],
+    "clave": "a",
+    "sol": "El art. 5.5, segundo párrafo, exige a estos equipos de segunda mano el certificado de aceptación radioeléctrica de su época o, en su defecto, que cumplan las características técnicas del anexo I, certificado por un laboratorio acreditado. La vía del laboratorio existe precisamente para los que carecen de certificado, así que no hace falta cambiar el equipo (c). La mera declaración del titular (b) no basta, y la presentación en la Jefatura (d) es una posibilidad optativa de los equipos de construcción propia, no de los comerciales. #_apc3-ver[(Véase tema R8, sección «Usos especiales y casos particulares».)]\n\n#_apc3-net[Art. 5.5, segundo párrafo, de la Orden IET/1311/2013: los equipos de segunda mano comercializados antes de la entrada en vigor del Real Decreto 1890/2000 (evaluación de la conformidad de aparatos de telecomunicaciones) deben tener el certificado de aceptación radioeléctrica exigido en su día. Si carecen de él, deben cumplir las características técnicas del anexo I, certificado por un laboratorio acreditado. No basta la declaración del titular, y tampoco es preciso sustituir el equipo.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-37",
+  "tema": "R8",
+  "concepto": "Estación construida de acuerdo con el estado de la técnica (no se impone tecnología)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.36",
+    "enunciado": "La estación de aficionado debe estar construida:",
+    "opciones": [
+     "Siempre con válvulas.",
+     "Completamente transistorizada.",
+     "De acuerdo con el estado de desarrollo de la técnica radioeléctrica.",
+     "Con arreglo a un modelo común."
+    ],
+    "clave": "c",
+    "sol": "La normativa no impone una tecnología ni un modelo único de equipo: ni válvulas, ni transistores, ni un diseño común. El equipo puede ser comercial (con marcado CE) o de construcción propia (art. 5.5 y 5.6 de la Orden IET/1311/2013); lo que se exige es que cumpla las características técnicas del anexo I (emisiones no esenciales limitadas, filtro paso bajo, medios para comprobar la banda y la potencia). Es decir, debe construirse con buena práctica radioeléctrica, según el estado de la técnica. La fórmula literal de la opción c no figura en la Orden vigente, pero es la única que describe lo que se exige. #vease[(Véase tema R8, sección «Usos especiales y casos particulares» (equipos de construcción propia), y tema T5, sección «Emisiones no deseadas».)]\n\n    #no-esta[El anexo I de la Orden IET/1311/2013 (apartado 4) fija las prescripciones técnicas: las emisiones no esenciales por debajo de 30 MHz deben quedar 40 dB por debajo de la potencia media sin exceder de 50 mW; la estación debe tener elementos para comprobar que emite dentro de la banda y medir de forma indicativa la potencia, y redes adaptadoras de impedancia y filtros paso bajo supresores de armónicos. Eso es construir «según el estado de la técnica»; la norma no prescribe válvulas, transistores ni un modelo.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-38",
+  "tema": "R8",
+  "concepto": "La estación debe tener elementos para comprobar que la emisión está en banda y medir la potencia",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.86",
+    "enunciado": "La estación de aficionado debe estar provista de:",
+    "opciones": [
+     "los elementos adecuados para comprobar que la emisión se ajusta a lo autorizado",
+     "un registro escrito de todas las comunicaciones",
+     "un duplicado de los equipos principales",
+     "una línea telefónica independiente"
+    ],
+    "clave": "a",
+    "sol": "Anexo I, 4.5: la estación debe tener elementos para comprobar que la emisión se produce dentro de las bandas autorizadas y para medir de forma indicativa la potencia. No se exige medidor de ondas estacionarias ni, en cambio, llevar libro de registro."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-39",
+  "tema": "R8",
+  "concepto": "Potencia y duración de las emisiones limitadas a lo estrictamente necesario",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.1",
+    "enunciado": "Según el apartado 4.2 del anexo I de la Orden IET/1311/2013, deben limitarse a lo estrictamente necesario:",
+    "opciones": [
+     "la potencia emitida y la duración de las emisiones",
+     "únicamente la potencia emitida, sin restricción alguna para la duración",
+     "únicamente la duración de las emisiones, pues la potencia puede ser siempre la máxima de la banda",
+     "la potencia emitida y la duración de las emisiones, pero solo durante los ensayos de equipos"
+    ],
+    "clave": "a",
+    "sol": "El apartado 4.2 del anexo I impone dos límites a la vez: la potencia emitida, siempre dentro de los máximos del apartado 3, y la duración de las emisiones deben limitarse a lo estrictamente necesario. No basta con limitar solo una de las dos (b y c), ni la regla se reduce a los ensayos (d): rige siempre. Para los ensayos que no requieren radiación, el apartado 4.3 añade la carga artificial no radiante. El máximo de la banda es un techo, no el valor que hay que usar. #_apc3-ver[(Véase tema T9, sección «Medidas correctoras».)]\n\n#_apc3-net[El anexo I de la Orden IET/1311/2013 (apartado 4.2) establece que la potencia emitida, dentro de los máximos por banda del apartado 3, y la duración de las emisiones deben limitarse a lo estrictamente necesario. No se transmite con toda la potencia autorizada por sistema, ni se ocupa la frecuencia más tiempo del preciso. En los ensayos que no requieran radiar desde la antena, el apartado 4.3 exige una carga artificial no radiante.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-40",
+  "tema": "R8",
+  "concepto": "Estación fija: precisa licencia, asociada a la autorización de radioaficionado de su titular",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.41",
+    "enunciado": "La instalación y funcionamiento de una estación fija de aficionado precisará de una licencia, la cual se considerará asociada a:",
+    "opciones": [
+     "Una asociación legalizada de radioaficionados de la provincia correspondiente.",
+     "La estación automática desatendida más cercana.",
+     "La autorización de radioaficionado de su titular.",
+     "Toda la gama de frecuencias que pueda utilizar."
+    ],
+    "clave": "c",
+    "sol": "Es casi literal el art. 18.1 de la Orden IET/1311/2013: la instalación y el funcionamiento de cualquier estación fija precisan una licencia, que se considera asociada a la autorización de radioaficionado de su titular (y una misma licencia puede amparar varios equipos de la estación). De ahí que la licencia se cancele si la autorización se revoca o se extingue (art. 21). La a es falsa: no hace falta pertenecer a ninguna asociación; la b y la d no tienen sentido, porque la licencia no se liga a un repetidor ni a una gama de frecuencias. Ojo: hoy la licencia de estación solo se exige a las estaciones fijas, no a las móviles o portátiles. #vease[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n    #no-esta[Art. 18.1 de la Orden IET/1311/2013: la instalación y funcionamiento de cualquier estación fija precisa una licencia, asociada a la autorización de radioaficionado de su titular; una misma licencia puede amparar los diferentes equipos de la estación. Art. 21: la licencia se cancela a petición del titular, por revocación o extinción de la autorización a la que está asociada, o automáticamente si no se mantiene el seguro de antenas; al cancelarla hay que desmontar las instalaciones, antenas incluidas.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-R8.9",
+    "enunciado": "La instalación y funcionamiento de una estación fija de aficionado precisará de una licencia, la cual se considera asociada a:",
+    "respuesta": "La autorización de radioaficionado de su titular."
+   },
+   {
+    "id": "C-R8.19",
+    "enunciado": "Para la instalación y funcionamiento de una estación fija de radioaficionado es necesario obtener:",
+    "respuesta": "La licencia de estación fija, asociada a la autorización de radioaficionado de su titular."
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-41",
+  "tema": "R8",
+  "concepto": "Definición de estación fija: ubicación fija consignada en la licencia",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.39",
+    "enunciado": "Una estación fija es la:",
+    "opciones": [
+     "Que sólo se puede utilizar sin mover de un vehículo determinado.",
+     "Autorizada para su utilización en una ubicación fija y en un único vehículo.",
+     "Autorizada únicamente para su utilización en una ubicación que es fija y que se consigna en la licencia.",
+     "Que solamente puede instalarse dentro de los límites de una provincia."
+    ],
+    "clave": "c",
+    "sol": "El art. 18.1 de la Orden IET/1311/2013 define la estación fija como el conjunto de equipos, soportes y antenas que permiten emitir y recibir desde una ubicación fija determinada; su instalación y funcionamiento precisan la licencia de estación fija, ligada a esa ubicación (cambiar la antena de sitio obliga a pedirlo como una primera instalación, art. 20). Por eso es correcta la c. La a y la b atan la estación a un vehículo, lo propio de la móvil (la b, además, se contradice: una ubicación fija no puede ser un vehículo); la d inventa un límite provincial que no existe. #vease[(Véase tema R8, secciones «Autorización y licencia de estación» y «Tipos de estación».)]\n\n    #no-esta[Art. 18.1 de la Orden IET/1311/2013: estación fija de radioaficionado es el conjunto de equipos, soportes, antenas, cables de interconexión y demás elementos que permiten emitir y recibir señales desde una ubicación fija determinada. Precisa licencia de estación fija, asociada a la autorización de su titular, y una misma licencia puede amparar varios equipos. Se clasifican en individuales y colectivas (estas, solo de asociaciones reconocidas). Las móviles y portátiles no necesitan licencia de estación.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-42",
+  "tema": "R8",
+  "concepto": "Solicitud de licencia de estación fija: con memoria descriptiva de la instalación",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "10·2·26"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.11",
+    "enunciado": "Para la obtención de la licencia de estación de radioaficionado es necesario presentar:",
+    "opciones": [
+     "Solicitud adjuntando una memoria descriptiva del conjunto de la instalación.",
+     "Un escrito informando que se ha efectuado la instalación.",
+     "La cédula de habitabilidad del inmueble donde se va a instalar.",
+     "Documento que acredite estar inscrito en una asociación de radioaficionados."
+    ],
+    "clave": "a",
+    "sol": "El trámite de la licencia de estación fija tiene dos pasos (arts. 19 y 20 de la Orden IET/1311/2013). Primero, la solicitud con la documentación y la memoria descriptiva del conjunto de la instalación: si es conforme, se autoriza el montaje. Después, terminada la instalación, se comunica en 6 semanas con el justificante del seguro y, en su caso, el boletín del instalador, y se expide la licencia. Lo que hay que presentar para obtenerla es la solicitud con la memoria (a). La b es solo el aviso del segundo paso y por sí sola no basta. La cédula de habitabilidad (c) no figura entre los requisitos, y ser socio de una asociación (d) tampoco es necesario. #vease[(Véase tema R8, sección «Autorización y licencia de estación» (memoria descriptiva).)]\n\n    #no-esta[Procedimiento de la licencia de estación fija: 1) solicitud a la SETSI (o a través de la Jefatura Provincial) con la documentación y la memoria técnica de la instalación (art. 19); 2) resolución que autoriza el montaje, por un instalador de telecomunicaciones, como norma general; 3) fin de la instalación, comunicado en 6 semanas con justificante del seguro y boletín del instalador (art. 20); 4) la Jefatura dispone de 30 días para verificar y expedir la licencia. Las emisiones no pueden comenzar antes de ese último paso.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.13",
+    "enunciado": "Para la instalación de una estación fija de radioaficionado es necesario:",
+    "respuesta": "presentar, para su aprobación, una memoria descriptiva del conjunto de la estación en la Jefatura Provincial de Inspección de Telecomunicaciones"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-43",
+  "tema": "R8",
+  "concepto": "Contenido de la memoria: toma de tierra, plano, equipos (no el empadronamiento)",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.6",
+    "enunciado": "En la memoria descriptiva, para la obtención de la licencia de una estación de aficionado, no es preciso incluir:",
+    "opciones": [
+     "Las características y resistencia de la toma de tierra.",
+     "Un plano señalando la ubicación de la estación.",
+     "Marca, modelo y número de serie de los equipos radioeléctricos.",
+     "Certificado de empadronamiento."
+    ],
+    "clave": "d",
+    "sol": "La memoria describe la estación y su instalación para que la Administración compruebe que cumple el Reglamento y es segura (arts. 19 y 20 de la Orden IET/1311/2013). Su contenido clásico es la toma de tierra, el plano de ubicación y la relación de equipos con marca, modelo y número de serie (a, b, c). El empadronamiento no tiene relación con la estación y no se exige; lo que sí debe acreditarse es el derecho a usar el inmueble donde irá la antena (art. 2 del Real Decreto 2623/1986, al que remite el art. 19.c). Régimen anterior: la lista exacta figuraba en el art. 23.1 de la Orden ITC/1791/2006, derogada; la Orden vigente solo habla de «memoria técnica». #vease[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n    #no-esta[La solicitud de licencia de estación fija (art. 19 de la Orden IET/1311/2013) se acompaña de una memoria técnica descriptiva de la instalación: relación de equipos con marca, modelo y número de serie, antenas y soportes, toma de tierra y plano de ubicación, más lo que acredite el derecho a usar el inmueble. Son datos de la instalación, no del solicitante: por eso un certificado de empadronamiento no forma parte de ella.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-44",
+  "tema": "R8",
+  "concepto": "La licencia se expide terminado el montaje y presentada la documentación",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.12",
+    "enunciado": "La licencia de estación de radioaficionado se expedirá:",
+    "opciones": [
+     "Finalizado el montaje de la instalación y presentada la documentación requerida en cada caso.",
+     "En el momento de obtener el certificado HAREC (antes llamado diploma de operador).",
+     "La primera semana de cada mes.",
+     "En el momento de presentar la memoria descriptiva de la estación."
+    ],
+    "clave": "a",
+    "sol": "Según el art. 20 de la Orden IET/1311/2013, finalizada la instalación en las condiciones autorizadas, el interesado lo comunica a la Jefatura Provincial en 6 semanas, con la documentación requerida (justificante del seguro y, en su caso, boletín del instalador). La Jefatura dispone de 30 días para verificarla, inspeccionar si procede y expedir la licencia, que habilita a empezar las emisiones. No se expide al obtener el HAREC (b), que solo habilita para pedir la autorización, ni al presentar la memoria (d), que solo permite montar la estación. No hay calendario mensual (c). El banco antiguo decía «diploma de operador» en la b.\n\n    #no-esta[Art. 20 de la Orden IET/1311/2013: la licencia de estación fija se expide al final del proceso, no al principio. Terminada la instalación, el titular lo comunica a la Jefatura Provincial en un plazo de 6 semanas, con el justificante del seguro de antenas y el boletín del instalador. La Jefatura tiene 30 días como máximo para verificar la documentación, inspeccionar si lo estima conveniente y expedir la licencia, que es lo que habilita a comenzar las emisiones.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-45",
+  "tema": "R8",
+  "concepto": "Plazos de fin de instalación: comunicarlo en 6 semanas; la Jefatura verifica y expide en ≤ 30 días",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.53",
+    "enunciado": "Según el artículo 20 de la Orden IET/1311/2013, terminada la instalación de una estación fija en las condiciones autorizadas, el interesado debe comunicarlo a la Jefatura Provincial, justificando documentalmente que el seguro de responsabilidad civil está cubierto, en un plazo de:",
+    "opciones": [
+     "15 días",
+     "30 días",
+     "6 semanas",
+     "60 días"
+    ],
+    "clave": "c",
+    "sol": "Art. 20, primer párrafo: finalizada la instalación, el interesado lo comunica a la Jefatura Provincial en 6 semanas, con justificante fehaciente del seguro de responsabilidad civil y, en su caso, el boletín de la empresa instaladora. No mezcles las cifras del artículo: los 30 días son el plazo máximo de la Jefatura para verificar y expedir la licencia, y los 60 días, el límite de las modificaciones experimentales. Los 15 días son la duración máxima de los usos portables no continuados que no precisan notificación (art. 17.1), otro asunto. #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[Art. 20 de la Orden IET/1311/2013 (licencia de estación fija), tres cifras. 1) Terminada la instalación, el interesado lo comunica a la Jefatura Provincial en 6 semanas, con justificante del seguro de responsabilidad civil y, en su caso, el boletín de la empresa instaladora. 2) La Jefatura dispone de 30 días como máximo para verificar, inspeccionar si lo estima conveniente y expedir la licencia. 3) Con la licencia, las modificaciones experimentales pueden durar hasta 60 días.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.54",
+    "enunciado": "Según el artículo 20 de la Orden IET/1311/2013, recibida la documentación de fin de instalación de una estación fija, la Jefatura Provincial de Inspección de Telecomunicaciones dispone de un plazo máximo, para verificar su idoneidad, inspeccionar la instalación si lo estima conveniente y expedir la licencia si el resultado es positivo, de:",
+    "respuesta": "30 días"
+   }
+  ],
+  "nota": "Dos cifras del mismo artículo que se intercambian en los distractores."
+ },
+ {
+  "cid": "R8-46",
+  "tema": "R8",
+  "concepto": "Montaje por instalador de telecomunicaciones inscrito, salvo instalaciones simples autorizadas por el Jefe Provincial",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.17",
+    "enunciado": "La instalación, en el exterior de los edificios, del sistema radiante de una estación de radioaficionado, ¿puede ser realizada por el propio radioaficionado?",
+    "opciones": [
+     "Siempre.",
+     "Solo puede ser realizada por instalador autorizado.",
+     "Solo aquellas que por su simplicidad así lo autorice el Jefe Provincial de Inspección de Telecomunicaciones.",
+     "Nunca."
+    ],
+    "clave": "c",
+    "sol": "La regla general es que la instalación la haga un instalador de telecomunicaciones inscrito en el registro de empresas instaladoras. Pero el art. 19.e de la Orden IET/1311/2013 añade una excepción: los Jefes Provinciales de Inspección de Telecomunicaciones pueden autorizar que el radioaficionado la haga por sus propios medios cuando, a la vista de la memoria técnica, la instalación sea tan sencilla que no presente razonablemente riesgos para las personas o los bienes. Por eso «siempre» y «nunca» son absolutas, y «solo instalador» olvida la excepción. #vease[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n    #no-esta[Art. 19.e de la Orden IET/1311/2013: como norma general, las instalaciones de estaciones fijas las efectúa un instalador de telecomunicaciones inscrito en el registro de empresas instaladoras. Excepción: el Jefe Provincial de Inspección de Telecomunicaciones puede autorizar al radioaficionado a hacerlas por sus propios medios si, vista la memoria técnica, son tan simples que no presentan riesgos razonables para personas o bienes. La resolución que autoriza el montaje fija en cada caso si hace falta instalador o no (art. 19.g).]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.14",
+    "enunciado": "Como norma general, el montaje del sistema radiante de una estación fija será realizado por:",
+    "respuesta": "un instalador de telecomunicaciones autorizado, inscrito en el registro de empresas instaladoras"
+   }
+  ],
+  "nota": "R8.14 pregunta solo la regla general."
+ },
+ {
+  "cid": "R8-47",
+  "tema": "R8",
+  "concepto": "Modificaciones con licencia: permanentes se comunican; cambiar la antena de sitio = primera instalación",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.15",
+    "enunciado": "El cambio de ubicación de la antena de una estación fija de radioaficionado:",
+    "opciones": [
+     "No es necesario solicitarlo a la Secretaría de Estado de Telecomunicaciones (SETSI).",
+     "Se debe solicitar a la SETSI y seguir un procedimiento distinto al de la primera instalación.",
+     "Se debe solicitar a la SETSI y seguir el mismo procedimiento que si se tratase de la primera instalación.",
+     "Únicamente requiere ser notificado al Ayuntamiento de la localidad."
+    ],
+    "clave": "c",
+    "sol": "Según el último párrafo del art. 20 de la Orden IET/1311/2013, cuando una modificación incluye el cambio de ubicación de la antena, el titular debe solicitarlo a la SETSI con el mismo procedimiento que si fuera la primera instalación: solicitud, autorización de montaje, aviso de fin de obra y verificación para la licencia. La a es falsa, porque sí hay que solicitarlo. La b, porque el procedimiento no es distinto ni abreviado. La d, porque la autorización radioeléctrica no la da el Ayuntamiento. El banco antiguo hablaba de la «Dirección General de Telecomunicaciones»; hoy el órgano es la SETSI.\n\n    #no-esta[Art. 20 de la Orden IET/1311/2013, una vez obtenida la licencia: cualquier modificación de instalaciones y equipos puede hacerse con carácter experimental durante un máximo de 60 días, siempre que no afecte a la seguridad. Si se hace permanente, el titular remite a la SETSI la documentación complementaria, incluidas las modificaciones. Excepción: si la modificación incluye cambiar la ubicación de la antena, se solicita a la SETSI como si fuera la primera instalación.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "C-R8.34",
+    "enunciado": "Una vez obtenida la licencia de una estación fija de radioaficionado, se pueden introducir modificaciones en su sistema radiante:",
+    "respuesta": "Sí, con carácter general; las modificaciones permanentes se comunican a la SETSI con la documentación actualizada, y el cambio de ubicación de la antena se solicita como una primera instalación."
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-48",
+  "tema": "R8",
+  "concepto": "Modificaciones experimentales con licencia concedida: hasta 60 días sin afectar a la seguridad",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·26"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.55",
+    "enunciado": "Según el artículo 20 de la Orden IET/1311/2013, una vez obtenida la licencia de una estación fija, su titular puede realizar con carácter experimental cualquier modificación en las instalaciones y equipos de la estación, siempre que no afecte a la seguridad, por un período máximo de:",
+    "opciones": [
+     "15 días",
+     "30 días",
+     "60 días",
+     "seis meses"
+    ],
+    "clave": "c",
+    "sol": "Art. 20, tercer párrafo: con la licencia concedida, el titular puede modificar con carácter experimental las instalaciones y equipos durante un máximo de 60 días, siempre que no afecte a la seguridad. Si la modificación se hace permanente, remite a la SETSI la documentación complementaria con los cambios; si cambia la ubicación de la antena, se solicita como una primera instalación. Los 30 días son el plazo de la Jefatura para expedir la licencia, y los 15 días, el de los usos portables sin notificación. Los seis meses no figuran en este artículo. #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[Art. 20 de la Orden IET/1311/2013: una vez obtenida la licencia, el titular puede hacer con carácter experimental cualquier modificación en las instalaciones y equipos de la estación durante un máximo de 60 días, siempre que no afecte a la seguridad. Si la modificación es permanente, remite a la SETSI la documentación complementaria, con los cambios incluidos. Si cambia la ubicación de la antena, se solicita a la SETSI como una primera instalación.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-49",
+  "tema": "R8",
+  "concepto": "Seguro de responsabilidad civil obligatorio, formalizado antes de expedirse la licencia",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.3",
+    "enunciado": "El contrato de seguro que cubre la responsabilidad del radioaficionado titular de una licencia de estación:",
+    "opciones": [
+     "Se debe formalizar únicamente si la instalación ha sido autorizada y en un plazo de un mes.",
+     "Sólo debe contratarse si la instalación es técnicamente compleja.",
+     "Debe estar formalizado antes de la expedición de la licencia de estación.",
+     "Debe contratarse cuando se solicita la autorización de radioaficionado."
+    ],
+    "clave": "c",
+    "sol": "El seguro de responsabilidad civil de la antena lo regula el art. 20 del Real Decreto 2623/1986, al que remite el art. 20 de la Orden IET/1311/2013. Su apartado 2 dice que se formaliza una vez autorizado el montaje y, en todo caso, antes de expedirse la licencia de estación: por eso, al terminar la instalación, hay que justificarlo ante la Jefatura Provincial. La a mezcla algo cierto (tras autorizarse el montaje) con un plazo de un mes que la norma no fija. La b es falsa: el seguro es obligatorio siempre. La d también: la autorización de radioaficionado es personal y el seguro va ligado a la estación fija. #vease[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n    #no-esta[El art. 20 del Real Decreto 2623/1986 obliga a cubrir con un seguro la responsabilidad del titular por daños materiales y personales derivados de la antena (uso, instalación, mantenimiento y desmontaje). Cronología: solicitud; autorización del montaje (art. 19 de la Orden); contrato de seguro, formalizado como muy tarde antes de expedirse la licencia; fin de la instalación, comunicado en 6 semanas con el justificante del seguro (art. 20 de la Orden); licencia. Si deja de mantenerse el seguro, la licencia se cancela automáticamente (art. 21.1.c).]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.16",
+    "enunciado": "Para la instalación de antenas de radioaficionado es obligatorio disponer de un seguro que cubra:",
+    "respuesta": "la responsabilidad civil del titular"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-50",
+  "tema": "R8",
+  "concepto": "Copia del contrato de seguro a la propiedad o al presidente de la comunidad",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.8",
+    "enunciado": "Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), el titular debe entregar una copia del contrato del seguro de responsabilidad civil de su antena, con la cláusula que cita el artículo 2 de la Ley 19/1983:",
+    "opciones": [
+     "únicamente a la Jefatura Provincial de Inspección de Telecomunicaciones, sin dar copia a la propiedad",
+     "a la asociación de radioaficionados a la que pertenece",
+     "a la propiedad del inmueble o al presidente de la comunidad de propietarios",
+     "al ayuntamiento del término municipal donde está la antena"
+    ],
+    "clave": "c",
+    "sol": "El artículo 20.3 exige que el contrato incluya una cláusula especial que exprese que cumple el artículo 2 de la Ley 19/1983, y que se entregue copia del contrato (y de sus actualizaciones) a la propiedad del inmueble o, en propiedad horizontal, al presidente de la comunidad de propietarios. Ni la asociación del titular ni el ayuntamiento intervienen. Recuerda además que el seguro se formaliza una vez autorizado el montaje y antes de expedirse la licencia (art. 20.2). #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[Según el artículo 20 del RD 2623/1986, el seguro de responsabilidad civil cubre los daños materiales y corporales, a la propiedad y a terceros, derivados del uso, la instalación, la conservación y el desmontaje de la antena. Se formaliza una vez autorizado el montaje y antes de expedirse la licencia. Incluye una cláusula especial que expresa que cumple el artículo 2 de la Ley 19/1983, y se entrega copia del contrato y de sus actualizaciones a la propiedad del inmueble o al presidente de la comunidad.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-51",
+  "tema": "R8",
+  "concepto": "Cancelación de la licencia fija (p. ej., sin seguro): desmontar todo, antenas incluidas, a costa del titular",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.17",
+    "enunciado": "Si el titular de una estación fija no dispone de contrato válido de seguro de antenas:",
+    "opciones": [
+     "no ocurre nada mientras no haya un siniestro",
+     "se le impone una multa leve y puede seguir emitiendo",
+     "se le concede un año de prórroga",
+     "la licencia de estación fija se cancela de oficio y las antenas deben permanecer desmontadas"
+    ],
+    "clave": "d",
+    "sol": "Sin seguro válido, la licencia de estación fija se cancela automáticamente (art. 21.1.c de la Orden) y, cancelada la licencia, el titular debe desmontar las instalaciones, antenas incluidas, con todos los gastos a su cargo (art. 21.2). La Ley 19/1983 (art. 4) añade que se pierde el derecho a instalar antenas."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.24",
+    "enunciado": "Cancelada la licencia de una estación fija, cualquiera que sea la causa, su titular deberá:",
+    "respuesta": "desmontar las instalaciones, incluidas las antenas, con todos los gastos a su cargo"
+   }
+  ],
+  "nota": "R8.24 tiene clave distinta en los bancos antiguos (mantener solo recepción); lo advierte su solución."
+ },
+ {
+  "cid": "R8-52",
+  "tema": "R8",
+  "concepto": "Licencia fija condicionada a no perturbar otros servicios y a cumplir normas de seguridad, servidumbres, medio ambiente",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.43",
+    "enunciado": "Según el artículo 18.3 de la Orden IET/1311/2013, la licencia de funcionamiento de una estación fija de radioaficionado queda condicionada, en cualquier caso, a:",
+    "opciones": [
+     "la pertenencia del titular a una asociación de radioaficionados reconocida por la SETSI",
+     "la ausencia de perturbaciones a otros servicios radioeléctricos autorizados y el cumplimiento de las normas sobre seguridad nacional, servidumbres, medio ambiente y ordenación del territorio",
+     "el informe favorable de la comunidad de propietarios sobre las antenas de la estación",
+     "una inspección anual de la Jefatura Provincial que confirme que la estación sigue en regla"
+    ],
+    "clave": "b",
+    "sol": "El art. 18.3 condiciona la licencia de una estación fija, en cualquier caso, a que no perturbe a otros servicios radioeléctricos autorizados y a que se cumplan las normas vigentes de seguridad nacional, servidumbres radioeléctricas o aeronáuticas, medio ambiente y ordenación del territorio. No se exige ser socio de ninguna asociación (a). La comunidad de propietarios puede alegar sobre la idoneidad del emplazamiento (RD 2623/1986, art. 3), pero no concede ni deniega la licencia (c). Y la Jefatura inspecciona «si lo estima conveniente» al expedirla (art. 20), no cada año (d). #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[Art. 18.3 de la Orden IET/1311/2013: la licencia de funcionamiento de una estación fija queda condicionada, en cualquier caso, a la ausencia de perturbaciones a otros servicios radioeléctricos autorizados y al cumplimiento de las disposiciones vigentes en materia de seguridad nacional, servidumbres radioeléctricas o aeronáuticas, medio ambiente, ordenación del territorio y cualquier otra que resulte de aplicación.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-53",
+  "tema": "R8",
+  "concepto": "Permisos de servidumbres, medio ambiente, etc.: por cuenta y a cargo del solicitante",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.44",
+    "enunciado": "Los permisos o autorizaciones en materia de servidumbres aeronáuticas, medio ambiente u ordenación del territorio que exija la instalación de una estación fija de radioaficionado deben ser obtenidos, según el artículo 18.3 de la Orden IET/1311/2013, por:",
+    "opciones": [
+     "la SETSI, de oficio, al tramitar la licencia",
+     "la Jefatura Provincial de Inspección de Telecomunicaciones, al verificar la instalación",
+     "la empresa instaladora, a su cargo, como parte del montaje",
+     "los solicitantes de la licencia, por su cuenta y a su cargo"
+    ],
+    "clave": "d",
+    "sol": "El último inciso del art. 18.3 es claro: la obtención de los permisos o autorizaciones en materia de seguridad nacional, servidumbres, medio ambiente u ordenación del territorio es por cuenta y a cargo de los solicitantes de la licencia de la estación. No corresponde a la SETSI (a) ni a la Jefatura Provincial (b), y la empresa instaladora monta la estación, pero el coste no recae en ella (c). La razón es que la licencia depende de que se cumplan esas normas, y de ello responde quien la pide. #_apc3-ver[(Véase tema R8, sección «Autorización y licencia de estación».)]\n\n#_apc3-net[La licencia de una estación fija depende de que se respeten las normas sobre seguridad nacional, servidumbres radioeléctricas o aeronáuticas, medio ambiente y ordenación del territorio (art. 18.3 de la Orden IET/1311/2013). La obtención de los permisos o autorizaciones que esas materias exijan es por cuenta y a cargo de quien solicita la licencia de la estación: no los asume la Administración de telecomunicaciones.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-54",
+  "tema": "R8",
+  "concepto": "Derecho a instalar la antena en el exterior: legitimación para usar el edificio + autorización administrativa",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "4·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.15",
+    "enunciado": "Un radioaficionado podrá instalar la antena de su estación fija en el exterior de un inmueble:",
+    "opciones": [
+     "nunca, si vive en un piso",
+     "si está legitimado para usar la totalidad o parte del edificio y ha obtenido la autorización administrativa reglamentaria",
+     "siempre, sin ningún trámite",
+     "solo si es el propietario de todo el edificio"
+    ],
+    "clave": "b",
+    "sol": "Hacen falta las dos cosas: legitimación para usar el edificio (propiedad, alquiler con permiso…) y la autorización administrativa."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-55",
+  "tema": "R8",
+  "concepto": "Comunidad de propietarios: no autoriza; la solicitud indica la dirección del presidente y la Administración le informa",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·22"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.29",
+    "enunciado": "Para instalar una antena en un edificio en régimen de propiedad horizontal:",
+    "opciones": [
+     "Se necesita autorización expresa de la Comunidad de Propietarios.",
+     "Se comunicará a la Administración la dirección del Presidente de la Comunidad de Propietarios.",
+     "No se precisa contratar un seguro para garantizar posibles responsabilidades.",
+     "No será necesario tener en cuenta las características mecánicas de la misma."
+    ],
+    "clave": "b",
+    "sol": "En la solicitud hay que hacer constar la dirección del presidente de la comunidad de propietarios (RD 2623/1986, art. 2.4): así la Administración, una vez aceptada la memoria de instalación, puede comunicársela para que alegue en dos meses sobre la idoneidad del emplazamiento o los perjuicios (art. 3). Las demás son falsas: la comunidad no concede la autorización, solo puede pronunciarse sobre la idoneidad de la instalación; el seguro de responsabilidad civil es obligatorio (art. 20); y las características mecánicas de la antena y sus elementos anejos deben responder a las normas de la buena construcción (art. 16). #vease[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n    #no-esta[Procedimiento con comunidad de propietarios (RD 2623/1986, arts. 2.4 y 3): el solicitante hace constar en la solicitud la dirección del presidente; aceptada la memoria, la Administración se lo comunica a la comunidad, que dispone de dos meses para alegar sobre la idoneidad del emplazamiento o los perjuicios a elementos privativos y comunes; si no contesta, se entiende que acepta tácitamente. La comunidad informa, no autoriza ni prohíbe.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.18",
+    "enunciado": "Ante la instalación de antenas de radioaficionado, una comunidad de propietarios:",
+    "respuesta": "no puede autorizarla: solo pronunciarse sobre la idoneidad de la instalación"
+   },
+   {
+    "id": "R8.19",
+    "enunciado": "La Administración de telecomunicaciones debe informar al presidente de la comunidad de propietarios afectada siempre que:",
+    "respuesta": "se le haya solicitado autorización para instalar antenas de radioaficionado en el exterior del inmueble"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-56",
+  "tema": "R8",
+  "concepto": "La comunidad dispone de 2 meses para alegar sobre la idoneidad del emplazamiento",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.79",
+    "enunciado": "Cuando se pretenden instalar antenas en el exterior de un inmueble en régimen de propiedad horizontal, procede:",
+    "opciones": [
+     "comunicarlo previamente a la comunidad de propietarios, que dispone de dos meses para alegar",
+     "prescindir de todo trámite si la autorización está en vigor",
+     "solicitar permiso al ayuntamiento únicamente",
+     "instalarlas y notificarlo después de un año"
+    ],
+    "clave": "a",
+    "sol": "La fachada y la cubierta son elementos comunes: aunque la ley reconozca el derecho a instalar antenas, su ejercicio pasa por informar a la comunidad. La comunicación la hace la Administración una vez aceptada la memoria de instalación (RD 2623/1986, art. 3); la comunidad (o su presidente, cuyo dato debe constar en la solicitud, art. 2.4) dispone de dos meses para alegar sobre la idoneidad del emplazamiento o los perjuicios y, si calla, se entiende que acepta. No autoriza ni prohíbe: la autorización es administrativa."
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-57",
+  "tema": "R8",
+  "concepto": "Derechos del predio sirviente (art. 545 CC): la comunidad decide por mayoría simple",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.19",
+    "enunciado": "Según la Ley 19/1983, los derechos que el artículo 545 del Código Civil reconoce al dueño del predio sirviente se ejercen, en su caso, por la comunidad de propietarios, bastando que la decisión se adopte por:",
+    "opciones": [
+     "mayoría simple",
+     "unanimidad de los propietarios",
+     "mayoría de tres quintos",
+     "mayoría de dos tercios"
+    ],
+    "clave": "a",
+    "sol": "El art. 2 de la Ley 19/1983, en su último párrafo, dice que los derechos del art. 545, párrafo 2, del Código Civil se ejercen, en su caso, por la comunidad de propietarios, «bastando que la decisión se adopte por mayoría simple». Esos derechos son los del dueño del predio sirviente: variar, a su costa, el lugar o la forma de la servidumbre cuando le resulte muy incómoda, ofreciendo otro igualmente cómodo. La ley no exige unanimidad ni mayorías reforzadas (tres quintos, dos tercios). El Real Decreto 2623/1986 (art. 9) remite al mismo art. 545 para los cambios de emplazamiento que promueva la propiedad. #_apc3-ver[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n#_apc3-net[Según el art. 2 de la Ley 19/1983, los derechos que el art. 545, párrafo 2, del Código Civil reconoce al dueño del predio sirviente se ejercen, en su caso, por la comunidad de propietarios, bastando mayoría simple. Esos derechos son variar, a su costa, el lugar o la forma de la servidumbre cuando le resulte muy incómoda o le impida hacer obras, reparos o mejoras importantes, ofreciendo otro igualmente cómodo y sin perjuicio para el titular. El Real Decreto 2623/1986 (art. 9) remite al art. 545 para los cambios de emplazamiento que promueva la propiedad.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-58",
+  "tema": "R8",
+  "concepto": "Obras en el inmueble: aviso al titular con 1 mes de antelación",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "1·2·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.74",
+    "enunciado": "Salvo casos de urgencia, la propiedad del inmueble que necesite el desmontaje de una antena autorizada para ejecutar obras debe requerirlo al titular con una antelación mínima de:",
+    "opciones": [
+     "una semana",
+     "quince días",
+     "un mes",
+     "seis meses"
+    ],
+    "clave": "c",
+    "sol": "Un mes de preaviso, salvo urgencia. El plazo existe para que el titular pueda organizar el desmontaje sin que la obra quede paralizada ni la instalación se retire de cualquier manera."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.20",
+    "enunciado": "Si para realizar obras en el edificio fuera necesario desmontar la antena, la comunidad de propietarios deberá:",
+    "respuesta": "informar al titular de la licencia con una antelación mínima de un mes"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-59",
+  "tema": "R8",
+  "concepto": "Obras: desmontaje temporal sin indemnización; después se reinstala en condiciones similares",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·27"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.75",
+    "enunciado": "Si una antena debidamente autorizada impide la realización de obras necesarias en el inmueble, su titular:",
+    "opciones": [
+     "está obligado a desmontarla temporalmente sin derecho a indemnización",
+     "puede negarse mientras dure su autorización",
+     "tiene derecho a ser indemnizado por el desmontaje",
+     "solo debe desmontarla si lo ordena un juez"
+    ],
+    "clave": "a",
+    "sol": "El derecho a instalar antenas no bloquea el mantenimiento del edificio: si la obra lo exige, la antena se desmonta temporalmente y el coste corre por cuenta del titular. Es la contrapartida del derecho que la Ley de Antenas le reconoce."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.21",
+    "enunciado": "Terminadas las obras de la comunidad que obligaron a desmontar la instalación de antenas:",
+    "respuesta": "podrán instalarse nuevamente en condiciones similares a las anteriores"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-60",
+  "tema": "R8",
+  "concepto": "Obras de indudable urgencia: desmontaje sin trámites, comunicándolo inmediatamente al titular",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.75",
+    "enunciado": "Según el Real Decreto 2623/1986, cuando las obras necesarias en el inmueble tienen carácter de indudable urgencia, la propiedad puede desmontar las antenas de la estación de aficionado y sus elementos anejos:",
+    "opciones": [
+     "sin los trámites ni los plazos de las obras ordinarias, pero comunicándolo inmediatamente al titular de la licencia",
+     "sin comunicárselo a nadie, porque la urgencia exime de cualquier aviso",
+     "solo tras avisar al titular de la licencia con un mes de antelación, como en cualquier otra obra",
+     "previa autorización de la Jefatura Provincial de Inspección de Telecomunicaciones"
+    ],
+    "clave": "a",
+    "sol": "Art. 6 del Real Decreto 2623/1986: en las obras ordinarias la propiedad avisa de forma fehaciente al titular con un mes de antelación, para que desmonte él mismo la instalación o lo presencie. Art. 7: si las obras son de indudable urgencia, puede desmontar las antenas sin esos trámites y plazos, pero debe poner inmediatamente en conocimiento del titular la realización de las obras. La urgencia exime del plazo, no del aviso: por eso b es falsa. La c aplica la regla ordinaria y la d inventa una autorización que el Real Decreto no pide. #_apc3-ver[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n#_apc3-net[Real Decreto 2623/1986 (arts. 6 y 7): si la propiedad debe hacer obras necesarias que obliguen a desmontar y volver a montar la antena, lo comunica de forma fehaciente al titular de la licencia con un mes de antelación, para que desmonte él mismo o lo presencie. Si las obras son de indudable urgencia, puede desmontar sin esos trámites ni plazos, pero debe avisar inmediatamente al titular. Terminadas las obras, la instalación queda en condiciones similares a las anteriores y el titular no puede exigir indemnización (art. 6.2).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-61",
+  "tema": "R8",
+  "concepto": "Instalación provisional durante las obras: la autoriza la Administración; gastos del titular",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "8·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.76",
+    "enunciado": "Según el Real Decreto 2623/1986, mientras las antenas permanecen desmontadas por razón de obras en el inmueble y siempre que sea posible, puede autorizarse una instalación provisional compatible con las obras. ¿Quién la autoriza y quién corre con sus gastos?",
+    "opciones": [
+     "La comunidad de propietarios la autoriza y el titular de la licencia paga los gastos.",
+     "La Administración de telecomunicaciones la autoriza y los gastos corren por cuenta del titular de la licencia.",
+     "La Administración de telecomunicaciones la autoriza y asume ella los gastos.",
+     "La comunidad de propietarios la autoriza y corre con los gastos, por ser quien causa el desmontaje."
+    ],
+    "clave": "b",
+    "sol": "El art. 8 del Real Decreto 2623/1986 prevé que, mientras las antenas y elementos anejos estén desmontados por las obras y siempre que sea posible, la Administración (entonces, la Dirección General de Telecomunicaciones) pueda autorizar una instalación provisional compatible con ellas, y que sus gastos son de cuenta del titular de la licencia. La autoriza la Administración, no la comunidad, y la paga el radioaficionado: es coherente con la Ley 19/1983 (art. 2), que pone a su cargo los daños y perjuicios de la instalación, la conservación y el desmontaje. #_apc3-ver[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n#_apc3-net[Real Decreto 2623/1986, art. 8: mientras las antenas y elementos anejos deban permanecer desmontados por las obras del inmueble, y siempre que ello sea posible, la Administración puede autorizar una instalación provisional compatible con las obras. Los gastos de esa instalación provisional corren por cuenta del titular de la licencia de estación, que tampoco puede exigir indemnización por el desmontaje (art. 6.2).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-62",
+  "tema": "R8",
+  "concepto": "Daños: los que causa la antena (instalación, conservación, desmontaje) son del titular; los que causa la propiedad a la antena, de la propiedad",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "2·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.76",
+    "enunciado": "Los daños y perjuicios que ocasione la antena de una estación de aficionado corren a cargo:",
+    "opciones": [
+     "de la comunidad de propietarios",
+     "del fabricante de la antena",
+     "del seguro obligatorio de la vivienda",
+     "del titular de la estación, incluidos los de instalación, mantenimiento y desmontaje"
+    ],
+    "clave": "d",
+    "sol": "La responsabilidad es del titular de la estación y abarca todo el ciclo de vida de la instalación: montarla, mantenerla y desmontarla. De ahí la exigencia de un seguro que cubra la responsabilidad civil."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.22",
+    "enunciado": "Los daños y perjuicios originados por la conservación o el desmontaje de una antena de radioaficionado corren por cuenta de:",
+    "respuesta": "el radioaficionado titular de la licencia"
+   },
+   {
+    "id": "F-R8.9",
+    "enunciado": "Según el Real Decreto 2623/1986, que desarrolla la Ley de antenas, si la propiedad del inmueble causa daños a la antena o a sus elementos anejos, su reparación y la indemnización, en su caso, corren por cuenta de:",
+    "respuesta": "la propiedad del inmueble"
+   }
+  ],
+  "nota": "F-R8.9 es el dato contrario (daños causados por la propiedad)."
+ },
+ {
+  "cid": "R8-63",
+  "tema": "R8",
+  "concepto": "Condiciones de instalación: sin molestias ni peligro, señalizar anclajes y riostras, materiales resistentes, respetar otras antenas, no dañar la obra",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·26"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.18",
+    "enunciado": "Señale la proposición incorrecta:",
+    "opciones": [
+     "Las antenas y elementos anejos se instalarán de forma que no produzcan molestias, peligro o daño a personas o bienes.",
+     "En los casos en que las antenas se sitúen en azoteas o lugares transitables se señalizarán los anclajes y riostras.",
+     "La instalación de las antenas se hará de modo que se respeten las separaciones entre ellas y los elementos, instalaciones y antenas de otros servicios para que estos no resulten degradados en su funcionamiento.",
+     "Las antenas y elementos anejos, y en particular, soportes, anclajes y riostras deberán ser de materiales endebles y de fácil instalación para facilitar su posterior desmontaje."
+    ],
+    "clave": "d",
+    "sol": "La falsa es la d: el Reglamento de antenas (RD 2623/1986, art. 16) exige lo contrario. Las características mecánicas de antenas y elementos anejos deben responder a las normas de la buena construcción y soportar los esfuerzos de uso, y soportes, anclajes y riostras han de ser de materiales resistentes a la corrosión o tratados convenientemente. Nada de materiales «endebles»: una antena mal sujeta puede caer sobre personas o bienes. Las otras tres afirmaciones son ciertas (arts. 12 y 13 del mismo Reglamento): no causar molestias, peligro ni daño, señalizar anclajes y riostras en azoteas y lugares transitables, y respetar las separaciones con otros servicios. #vease[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n    #no-esta[RD 2623/1986, art. 16: las antenas y elementos anejos deben responder a las normas de la buena construcción y ser capaces de absorber los esfuerzos de uso, teniendo en cuenta las condiciones ambientales del lugar; soportes, anclajes y riostras deben ser de materiales resistentes a la corrosión o tratados convenientemente. Regla práctica en una pregunta de «proposición incorrecta» sobre antenas: si una opción sacrifica la seguridad o la resistencia mecánica por comodidad (materiales débiles, fáciles de desmontar), es la falsa.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.23",
+    "enunciado": "Cuando las antenas se sitúen en azoteas o lugares transitables:",
+    "respuesta": "se señalizarán los anclajes y riostras"
+   },
+   {
+    "id": "R8.77",
+    "enunciado": "Los soportes y anclajes de una antena de aficionado:",
+    "respuesta": "no deberán deteriorar la resistencia mecánica de los elementos constructivos a los que se fijen"
+   },
+   {
+    "id": "R8.78",
+    "enunciado": "Al instalar una antena de aficionado en el exterior de un inmueble es necesario:",
+    "respuesta": "tener en cuenta las instalaciones y antenas de otros servicios existentes"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-64",
+  "tema": "R8",
+  "concepto": "Soportes: a la obra civil o con repartidores de carga; nunca a pararrayos ni a conducciones eléctricas",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "6·2·27"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.4",
+    "enunciado": "Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), los soportes de las antenas:",
+    "opciones": [
+     "pueden fijarse a los anclajes del pararrayos del edificio, para aprovechar su toma de tierra",
+     "pueden fijarse a los soportes de las conducciones aéreas de energía eléctrica, para reducir el número de anclajes",
+     "se fijan a la obra civil, directamente en puntos aptos o mediante elementos repartidores de la carga debidamente dimensionados",
+     "deben fijarse siempre mediante elementos repartidores de la carga, nunca directamente a la obra civil"
+    ],
+    "clave": "c",
+    "sol": "El artículo 17 prohíbe fijar los soportes de las antenas a soportes o anclajes de pararrayos y de conducciones aéreas de energía eléctrica, por tentador que parezca aprovecharlos (a y b). Los soportes se fijan directamente a la obra civil en puntos aptos para tolerar los esfuerzos, o bien mediante elementos repartidores de la carga debidamente dimensionados: son dos vías igual de válidas, por lo que no hay que usar siempre repartidores (d). #_apc3-ver[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n#_apc3-net[El artículo 17 del RD 2623/1986 prohíbe fijar los soportes de las antenas a soportes o anclajes de pararrayos y a los de conducciones aéreas de energía eléctrica. Se fijan directamente a la obra civil, en puntos aptos para tolerar los esfuerzos, o mediante elementos repartidores de la carga debidamente dimensionados. En todo caso, ni soportes ni anclajes pueden deteriorar la resistencia mecánica de los elementos constructivos ni originar vibraciones perturbadoras en los locales habitables.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-65",
+  "tema": "R8",
+  "concepto": "Altura libre mínima de 3 m sobre el plano de paso",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.2",
+    "enunciado": "Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), las antenas, sobre todo las horizontales, deben dejar en las peores condiciones ambientales previsibles una altura libre mínima sobre el plano de paso (la superficie accesible a las personas bajo la antena) de:",
+    "opciones": [
+     "2 m",
+     "3 m",
+     "5 m",
+     "10 m"
+    ],
+    "clave": "b",
+    "sol": "El artículo 13.2 exige que, en las peores condiciones ambientales previsibles, las antenas dejen en cualquier caso tres metros libres sobre el plano de paso, y lo subraya para las antenas horizontales, como un hilo largo o un dipolo sobre una azotea. La norma exige 3 m como mínimo: 2 m se queda corto, y 5 m o 10 m no son el mínimo que fija. #_apc3-ver[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n#_apc3-net[El Reglamento de antenas de aficionado (RD 2623/1986) define el plano de paso como el plano o superficie situado bajo la antena y sus elementos anejos, accesible a las personas. Según su artículo 13.2, las antenas, sobre todo las horizontales, deben dejar en cualquier caso una altura libre de 3 m sobre ese plano, en las peores condiciones ambientales previsibles. Además, en azoteas y lugares transitables se señalizan anclajes y riostras (art. 12.2).]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-66",
+  "tema": "R8",
+  "concepto": "Líneas de transmisión a ≥ 10 cm de conductos y canalizaciones del edificio",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "5·2·26"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.3",
+    "enunciado": "Según el Reglamento de antenas de aficionado (Real Decreto 2623/1986), la distancia mínima a la que deben situarse las líneas de transmisión y los cables de alimentación respecto de cualquier conducto o canalización de servicios del edificio es de:",
+    "opciones": [
+     "5 cm",
+     "50 cm",
+     "1 m",
+     "10 cm"
+    ],
+    "clave": "d",
+    "sol": "El artículo 18.1 fija una distancia mínima de 10 cm entre las líneas de transmisión o los cables de alimentación y cualquier conducto o canalización de servicios del edificio, para impedir su contacto con elementos mecánicos. Además, discurren preferentemente por patinillos de instalaciones o por patios interiores, y no se admite su tendido vertical libre: se fijan a intervalos apropiados (art. 18.2). Con 5 cm no se cumple el mínimo; 50 cm y 1 m son más de lo exigido. #_apc3-ver[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n#_apc3-net[Según el artículo 18 del RD 2623/1986, las líneas de transmisión y los cables de alimentación distan al menos 10 cm de cualquier conducto o canalización de servicios del edificio, y discurren preferentemente por patinillos de instalaciones o por patios interiores. No se admite el tendido vertical libre: se fijan a intervalos apropiados. Si van empotrados, se alojan en conductos o canalizaciones de uso exclusivo.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-67",
+  "tema": "R8",
+  "concepto": "Definiciones del RD 2623/1986: anclaje, riostra, plano de paso, elemento repartidor de carga",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "11·2·24"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.25",
+    "enunciado": "En relación con la instalación en el exterior de un inmueble de una antena de estación de aficionado, el punto o elemento de fijación de las riostras en la obra civil del inmueble, repartiendo los esfuerzos mecánicos, se conoce con el nombre de:",
+    "opciones": [
+     "Mástil.",
+     "Soporte.",
+     "Plano de paso.",
+     "Anclaje."
+    ],
+    "clave": "d",
+    "sol": "Las riostras son los cables o piezas que aseguran la estabilidad mecánica de la antena; el punto o elemento donde se fijan a la obra civil del inmueble, repartiendo los esfuerzos, se llama anclaje (definición del art. 1 del RD 2623/1986). Los demás términos designan otras cosas: el mástil es el poste que sirve de antena o la sostiene, el soporte es el elemento o conjunto de elementos que sustenta la antena, y el plano de paso es la superficie accesible a las personas situada bajo la antena y sus elementos anejos. #vease[(Véase tema R8, sección «Antenas y comunidad de propietarios».)]\n\n    #no-esta[Vocabulario del Reglamento de antenas (RD 2623/1986, art. 1): #emph[mástil], poste que sirve de antena o la soporta; #emph[soporte], elemento mecánico que sustenta la antena; #emph[riostra], cable, hilo o pieza que da estabilidad mecánica; #emph[anclaje], punto o elemento de fijación de las riostras a la obra civil del inmueble, repartiendo los esfuerzos; #emph[plano de paso], superficie accesible a personas bajo la antena. Truco: la riostra tira, el anclaje la agarra al edificio.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.45",
+    "enunciado": "En el reglamento de instalación de antenas de aficionado en el exterior de los inmuebles, se denomina «plano de paso» a:",
+    "respuesta": "el plano o superficie situado bajo la antena y sus elementos anejos, accesible a las personas"
+   },
+   {
+    "id": "F-R8.46",
+    "enunciado": "En el reglamento de instalación de antenas de aficionado en el exterior de los inmuebles, se denomina «riostra» a:",
+    "respuesta": "el cable, hilo u otra pieza, rígida o flexible, que asegura la estabilidad mecánica de la antena y su soporte"
+   },
+   {
+    "id": "F-R8.47",
+    "enunciado": "En el reglamento de instalación de antenas de aficionado en el exterior de los inmuebles, un «elemento repartidor de carga» es:",
+    "respuesta": "el elemento que distribuye en la obra civil del inmueble los esfuerzos transmitidos por los soportes o anclajes, manteniéndolos por debajo de los límites de seguridad"
+   }
+  ],
+  "nota": "Los cuatro términos aparecen como distractores unos de otros."
+ },
+ {
+  "cid": "R8-68",
+  "tema": "R8",
+  "concepto": "Usos experimentales con características distintas de las generales: requieren autorización especial",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "3·2·23"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.26",
+    "enunciado": "Las utilizaciones de carácter experimental con características técnicas distintas de las especificadas en el Reglamento:",
+    "opciones": [
+     "requieren una autorización especial",
+     "están permitidas sin trámite alguno",
+     "están prohibidas en todo caso",
+     "solo se permiten a las estaciones colectivas"
+    ],
+    "clave": "a",
+    "sol": "Los usos experimentales con características distintas de las reglamentarias requieren autorización especial."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.66",
+    "enunciado": "Las utilizaciones de carácter experimental con características técnicas distintas de las autorizadas con carácter general:",
+    "respuesta": "requieren una autorización especial"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-69",
+  "tema": "R8",
+  "concepto": "Autorización especial experimental: nominativa, plazo máximo inicial de 18 meses, ampliable",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "13·2·26"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "R8.27",
+    "enunciado": "Las autorizaciones especiales para usos experimentales (art. 17 de la Orden):",
+    "opciones": [
+     "son transferibles a terceros",
+     "tienen validez indefinida",
+     "son nominativas y se otorgan con un plazo máximo inicial de dieciocho meses, ampliable",
+     "se conceden automáticamente con la autorización ordinaria"
+    ],
+    "clave": "c",
+    "sol": "Las autorizaciones especiales para usos experimentales son nominativas, solo habilitan a su titular y se otorgan por el tiempo necesario para las pruebas, con un plazo máximo inicial de dieciocho meses, ampliable, quedando su validez condicionada a la de la autorización de radioaficionado (art. 17.3.2.º). Ojo: no las confundas con las del art. 16 (bandas con limitaciones, disposición adicional 2.ª), para las que la Orden no fija plazo; un enunciado que hable de «bandas de uso restringido» mezcla ambas, y los dieciocho meses son los de las experimentales."
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.65",
+    "enunciado": "Las autorizaciones especiales de uso del espectro por aficionados:",
+    "respuesta": "son nominativas y solo habilitan a su titular"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-70",
+  "tema": "R8",
+  "concepto": "Autorización especial experimental: pedirla con al menos 1 mes de antelación",
+  "peso": 2,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·27"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.1",
+    "enunciado": "¿Con qué anticipación a la fecha prevista para el comienzo de las emisiones se deberá solicitar una autorización especial de uso del espectro radioeléctrico por radioaficionados?",
+    "opciones": [
+     "1 mes.",
+     "2 meses.",
+     "3 meses.",
+     "Ninguno."
+    ],
+    "clave": "a",
+    "sol": "La autorización especial para usos experimentales (art. 17.3 de la Orden IET/1311/2013) se pide a la SETSI, con la memoria técnica, «con al menos un mes de antelación» a la fecha prevista para empezar a emitir. La norma fija un único plazo mínimo: un mes. Por eso fallan «2 meses», «3 meses» y «ninguno». No lo confundas con los 5 días de aviso de las estaciones portables (art. 17.1) ni con los 18 meses de validez máxima inicial de la autorización. #vease[(Véase tema R8, sección «Usos especiales y casos particulares».)]\n\n    #no-esta[La autorización especial (art. 17.2 y 17.3 de la Orden IET/1311/2013) es la que se necesita para emitir con carácter experimental y con características técnicas distintas de las del Reglamento. Se solicita a la SETSI, directamente o a través de la Jefatura Provincial, con una memoria técnica (experimento, bloques del equipo, lugar con coordenadas, periodo, banda, emisión, potencia y antena) y al menos un mes antes del inicio previsto. Es nominativa y dura como máximo 18 meses iniciales.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-71",
+  "tema": "R8",
+  "concepto": "Memoria técnica de la autorización experimental: contenido (experimento, diagrama si es casero, coordenadas, período, banda, emisión, potencia, antena)",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "7·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.39",
+    "enunciado": "¿Cuál de los siguientes datos NO forma parte de la memoria técnica que debe acompañar a la solicitud de una autorización especial experimental (art. 17.2 de la Orden IET/1311/2013)?",
+    "opciones": [
+     "el período de utilización de la banda",
+     "la lista de socios de la asociación del solicitante",
+     "la potencia de salida del transmisor",
+     "el tipo y la ganancia de la antena"
+    ],
+    "clave": "b",
+    "sol": "El art. 17.2 enumera el contenido de la memoria técnica: el experimento, el diagrama de bloques (si el equipo es de construcción propia), el lugar con sus coordenadas, el período de utilización, la banda, la denominación de la emisión, la potencia de salida y el tipo y la ganancia de la antena. Por eso el período (a), la potencia (c) y la antena (d) sí figuran. La lista de socios de una asociación (b) no es un dato técnico del experimento y no se pide en la memoria. #_apc3-ver[(Véase tema R8, sección «Usos especiales y casos particulares».)]\n\n#_apc3-net[Según el art. 17.2 de la Orden IET/1311/2013, la solicitud de autorización especial experimental va acompañada de una memoria técnica que describe: el experimento o prueba; el diagrama de bloques de los equipos, si son de construcción propia; el lugar, con las coordenadas geográficas de la instalación; el período de utilización; la banda; la denominación de la emisión; la potencia de salida del transmisor; y el tipo y la ganancia de la antena.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "F-R8.40",
+    "enunciado": "En la memoria técnica de una autorización especial experimental, la descripción del diagrama de bloques de los equipos se exige:",
+    "respuesta": "en caso de equipos de construcción propia"
+   },
+   {
+    "id": "F-R8.41",
+    "enunciado": "En la memoria técnica de una autorización especial experimental, el lugar donde se efectuará la prueba se indica:",
+    "respuesta": "incluyendo las coordenadas geográficas de la ubicación de la instalación"
+   }
+  ],
+  "nota": ""
+ },
+ {
+  "cid": "R8-72",
+  "tema": "R8",
+  "concepto": "Emisiones experimentales: se identifican con el distintivo propio",
+  "peso": 1,
+  "escribir": 1,
+  "en_estudio": [
+   "9·2·28"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "F-R8.42",
+    "enunciado": "Las emisiones realizadas al amparo de una autorización especial experimental (art. 17.3 de la Orden IET/1311/2013) se identifican con:",
+    "opciones": [
+     "el número de la autorización especial, sin distintivo de llamada",
+     "el distintivo de la Jefatura Provincial que tramita la solicitud",
+     "el distintivo propio del radioaficionado o de la asociación solicitante",
+     "un distintivo especial de una sola letra, reservado a los experimentos"
+    ],
+    "clave": "c",
+    "sol": "El art. 17.3.5.º lo dice sin rodeos: las emisiones se identifican con el distintivo propio del radioaficionado o de la asociación de radioaficionados solicitante (c). La autorización es nominativa, pero no sustituye al distintivo: no se emite con un número de autorización (a) ni con el distintivo de la Jefatura que tramita la solicitud (b). Y los sufijos de una letra (d) no se reservan a los experimentos: el art. 27 los liga a méritos y a la participación en concursos. #_apc3-ver[(Véase tema R8, sección «Usos especiales y casos particulares».)]\n\n#_apc3-net[El art. 17.3 de la Orden IET/1311/2013 fija las condiciones de las autorizaciones especiales experimentales: solicitud a la SETSI con al menos un mes de antelación; autorización nominativa, con plazo máximo inicial de 18 meses, ampliable; zonas geográficas excluidas; y suspensión inmediata de las emisiones si interfieren, en especial a la televisión. Las emisiones se identifican con el distintivo propio del radioaficionado o de la asociación de radioaficionados solicitante.]"
+   }
+  ],
+  "otras_del_libro": [],
+  "nota": ""
+ },
+ {
+  "cid": "R8-73",
+  "tema": "R8",
+  "concepto": "Bandas que requieren autorización especial: 2300–2450 MHz, 5650–5850 MHz y 24,050–24,250 GHz (con excepciones)",
+  "peso": 3,
+  "escribir": 1,
+  "en_estudio": [
+   "12·2·25"
+  ],
+  "preguntas_estudio": [
+   {
+    "id": "C-R8.30",
+    "enunciado": "Una de las siguientes bandas que se citan a continuación precisa autorización especial de uso. Señálela:",
+    "opciones": [
+     "47,00–47,20 GHz.",
+     "24,050–24,250 GHz.",
+     "14.000–14.250 kHz.",
+     "50,000–51,000 MHz."
+    ],
+    "clave": "b",
+    "sol": "La disposición adicional segunda de la Orden IET/1311/2013 fija las bandas cuyo uso exige autorización especial: 2.300–2.450 MHz (salvo 2.316–2.332 MHz), 5.650–5.850 MHz (salvo 5.700–5.720 y 5.760–5.762 MHz) y 24,050–24,250 GHz. Por eso la respuesta es la b. Las demás no figuran en esa relación: 47 GHz, 14 MHz (la banda de 20 m) y 50 MHz (la de 6 m). Aviso: el banco da como clave, en su versión antigua, «10,00–10,5 GHz»; esa banda figuraba en la relación del reglamento anterior (Orden ITC/1791/2006) y ya no está en la vigente. Si te aparece así en el examen, es la que el banco da por buena. #vease[(Véase tema R8, tabla de cifras y sección «Usos especiales y casos particulares».)]\n\n    #no-esta[Art. 16 y disposición adicional segunda de la Orden IET/1311/2013: cuando en una banda atribuida con carácter secundario hay riesgo de interferir a servicios primarios, su uso requiere autorización especial de la SETSI, a solicitud del interesado. Relación inicial: 2.300–2.450 MHz (salvo 2.316–2.332), 5.650–5.850 MHz (salvo 5.700–5.720 y 5.760–5.762) y 24,050–24,250 GHz. El reglamento anterior incluía también 10,00–10,5 GHz, y es la banda que el banco antiguo da por respuesta.]\n\n    #_apb2-clave[«10,00-10,5 GHz.». Es la clave que dan las recopilaciones de exámenes reales (2007–2011): conviene conocerla por si aparece idéntica en el examen, aunque la respuesta razonada arriba sea la técnicamente correcta.]"
+   }
+  ],
+  "otras_del_libro": [
+   {
+    "id": "R8.28",
+    "enunciado": "El uso por radioaficionados de ciertas bandas de microondas requiere una autorización especial. Entre esas bandas se encuentra la de:",
+    "respuesta": "5650–5850 MHz"
+   }
+  ],
+  "nota": ""
+ }
+]
