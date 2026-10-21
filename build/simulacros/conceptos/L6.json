@@ -1,0 +1,1678 @@
+{
+ "lote": "L6",
+ "conceptos": [
+  {
+   "cid": "T8-01",
+   "tema": "T8",
+   "concepto": "Qué instrumento mide cada magnitud básica (voltímetro: tensión; amperímetro: corriente)",
+   "peso": 2,
+   "preguntas": [
+    "C-T8.10"
+   ],
+   "cubre": [
+    "C-T8.10",
+    "C-T8.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-02",
+   "tema": "T8",
+   "concepto": "Conexión de los instrumentos: amperímetro en serie, voltímetro en paralelo, óhmetro sobre el componente",
+   "peso": 3,
+   "preguntas": [
+    "C-T8.1"
+   ],
+   "cubre": [
+    "C-T8.1",
+    "T8.1",
+    "T8.17"
+   ],
+   "nota": "C-T8.1 recoge las tres conexiones a la vez, todas invertidas."
+  },
+  {
+   "cid": "T8-03",
+   "tema": "T8",
+   "concepto": "Resistencia interna ideal: amperímetro nula, voltímetro infinita",
+   "peso": 2,
+   "preguntas": [
+    "T8.19"
+   ],
+   "cubre": [
+    "T8.19"
+   ],
+   "nota": "Trampa del orden de las opciones («nula e infinita»)."
+  },
+  {
+   "cid": "T8-04",
+   "tema": "T8",
+   "concepto": "Error de carga del voltímetro en un divisor de tensión",
+   "peso": 2,
+   "preguntas": [
+    "F-T8.7"
+   ],
+   "cubre": [
+    "F-T8.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-05",
+   "tema": "T8",
+   "concepto": "Sensibilidad en Ω/V de un polímetro analógico y resistencia de entrada según la escala",
+   "peso": 1,
+   "preguntas": [
+    "F-T8.11"
+   ],
+   "cubre": [
+    "F-T8.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-06",
+   "tema": "T8",
+   "concepto": "Shunt: resistencia en paralelo que amplía la escala del amperímetro y lo protege",
+   "peso": 3,
+   "preguntas": [
+    "C-T8.5",
+    "T8.11"
+   ],
+   "cubre": [
+    "C-T8.5",
+    "C-T8.2",
+    "T8.11"
+   ],
+   "nota": "C-T8.5 pregunta dónde se pone (en paralelo); T8.11 pregunta para qué sirve (proteger aparatos de medida), otro enunciado que el examen usa."
+  },
+  {
+   "cid": "T8-07",
+   "tema": "T8",
+   "concepto": "Resistencia multiplicadora en serie para ampliar la escala de un voltímetro",
+   "peso": 1,
+   "preguntas": [
+    "N-T8-01"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el banco solo tiene el shunt."
+  },
+  {
+   "cid": "T8-08",
+   "tema": "T8",
+   "concepto": "Óhmetro: medir resistencias sin tensión y con los condensadores descargados",
+   "peso": 2,
+   "preguntas": [
+    "T8.24"
+   ],
+   "cubre": [
+    "T8.24",
+    "T8.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-09",
+   "tema": "T8",
+   "concepto": "Error del instrumento: la clase es un porcentaje del fondo de escala",
+   "peso": 1,
+   "preguntas": [
+    "N-T8-02"
+   ],
+   "cubre": [],
+   "nota": "Hueco del alcance oficial («errores»)."
+  },
+  {
+   "cid": "T8-10",
+   "tema": "T8",
+   "concepto": "Influencia de la frecuencia: un polímetro común no sirve para medir tensiones de RF",
+   "peso": 2,
+   "preguntas": [
+    "F-T8.9"
+   ],
+   "cubre": [
+    "F-T8.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-11",
+   "tema": "T8",
+   "concepto": "El polímetro no mide la impedancia de una antena (hace falta puente o analizador de antenas)",
+   "peso": 2,
+   "preguntas": [
+    "T8.9"
+   ],
+   "cubre": [
+    "T8.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-12",
+   "tema": "T8",
+   "concepto": "Error de forma de onda: polímetro de valor medio frente a verdadero valor eficaz (true RMS)",
+   "peso": 1,
+   "preguntas": [
+    "F-T8.8"
+   ],
+   "cubre": [
+    "F-T8.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-13",
+   "tema": "T8",
+   "concepto": "El dBm y el dBW son unidades de potencia",
+   "peso": 2,
+   "preguntas": [
+    "C-T8.3"
+   ],
+   "cubre": [
+    "C-T8.3",
+    "T8.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-14",
+   "tema": "T8",
+   "concepto": "Conversión entre vatios y dBm (1 mW = 0 dBm; 1 W = 30 dBm)",
+   "peso": 2,
+   "preguntas": [
+    "T8.3"
+   ],
+   "cubre": [
+    "T8.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-15",
+   "tema": "T8",
+   "concepto": "Ganancia en decibelios como relación de potencias (+10 dB = ×10; +20 dB = ×100)",
+   "peso": 2,
+   "preguntas": [
+    "T8.4"
+   ],
+   "cubre": [
+    "T8.4",
+    "T8.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-16",
+   "tema": "T8",
+   "concepto": "Capacidad de una batería en mAh",
+   "peso": 1,
+   "preguntas": [
+    "T8.2"
+   ],
+   "cubre": [
+    "T8.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-17",
+   "tema": "T8",
+   "concepto": "Potencia en la cresta de la envolvente a partir de la tensión de pico sobre la carga",
+   "peso": 2,
+   "preguntas": [
+    "F-T8.10"
+   ],
+   "cubre": [
+    "F-T8.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-18",
+   "tema": "T8",
+   "concepto": "Potencia media frente a p.c.e. (coinciden con amplitud constante; en SSB la media es mucho menor)",
+   "peso": 2,
+   "preguntas": [
+    "N-T8-03"
+   ],
+   "cubre": [],
+   "nota": "Hueco del alcance oficial («potencia media y de cresta»)."
+  },
+  {
+   "cid": "T8-19",
+   "tema": "T8",
+   "concepto": "Medida de potencia de RF con vatímetro",
+   "peso": 2,
+   "preguntas": [
+    "T8.5"
+   ],
+   "cubre": [
+    "T8.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-20",
+   "tema": "T8",
+   "concepto": "Medida de potencia en continua con voltímetro y amperímetro (P = V·I)",
+   "peso": 1,
+   "preguntas": [
+    "C-T8.12"
+   ],
+   "cubre": [
+    "C-T8.12"
+   ],
+   "nota": "Depende de una figura; no hay alternativa en el banco."
+  },
+  {
+   "cid": "T8-21",
+   "tema": "T8",
+   "concepto": "El amperímetro de antena es un instrumento de RF (térmico)",
+   "peso": 1,
+   "preguntas": [
+    "C-T8.7"
+   ],
+   "cubre": [
+    "C-T8.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-22",
+   "tema": "T8",
+   "concepto": "Potencia reflejada apreciable en el vatímetro direccional = desadaptación transmisor-antena",
+   "peso": 3,
+   "preguntas": [
+    "T8.25"
+   ],
+   "cubre": [
+    "T8.25",
+    "T8.30"
+   ],
+   "nota": "T8.30 es la misma idea con figura."
+  },
+  {
+   "cid": "T8-23",
+   "tema": "T8",
+   "concepto": "Cálculo de la ROE a partir de la potencia directa y la reflejada; potencia entregada = directa − reflejada",
+   "peso": 2,
+   "preguntas": [
+    "N-T8-04"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el banco no pide el número de ROE ni la potencia entregada (solo aparecen en la solución de T8.30)."
+  },
+  {
+   "cid": "T8-24",
+   "tema": "T8",
+   "concepto": "El medidor de ROE compara la onda incidente y la reflejada: mide la desadaptación",
+   "peso": 3,
+   "preguntas": [
+    "T8.27"
+   ],
+   "cubre": [
+    "T8.27",
+    "T8.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-25",
+   "tema": "T8",
+   "concepto": "El medidor de ROE es el instrumento más imprescindible de la estación",
+   "peso": 2,
+   "preguntas": [
+    "T8.29"
+   ],
+   "cubre": [
+    "T8.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-26",
+   "tema": "T8",
+   "concepto": "Frecuencímetro: medida precisa de la frecuencia (un voltímetro de RF no la mide)",
+   "peso": 2,
+   "preguntas": [
+    "T8.6",
+    "T8.26"
+   ],
+   "cubre": [
+    "T8.6",
+    "T8.26"
+   ],
+   "nota": "T8.26 da la vuelta a la pregunta («no puede emplearse»), trampa recogida en la hoja de repaso."
+  },
+  {
+   "cid": "T8-27",
+   "tema": "T8",
+   "concepto": "Resolución del frecuencímetro = inverso del tiempo de puerta",
+   "peso": 1,
+   "preguntas": [
+    "F-T8.1"
+   ],
+   "cubre": [
+    "F-T8.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-28",
+   "tema": "T8",
+   "concepto": "Exactitud del frecuencímetro: la fija el cristal de referencia (ppm)",
+   "peso": 1,
+   "preguntas": [
+    "N-T8-05"
+   ],
+   "cubre": [],
+   "nota": "Complementa la resolución: dígitos visibles frente a dígitos correctos."
+  },
+  {
+   "cid": "T8-29",
+   "tema": "T8",
+   "concepto": "Osciloscopio: representa la forma de onda en el dominio del tiempo (amplitud y período)",
+   "peso": 2,
+   "preguntas": [
+    "T8.7"
+   ],
+   "cubre": [
+    "T8.7",
+    "T8.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-30",
+   "tema": "T8",
+   "concepto": "Osciloscopio: frecuencia a partir de la base de tiempos (T = divisiones × tiempo/div; f = 1/T)",
+   "peso": 2,
+   "preguntas": [
+    "F-T8.2"
+   ],
+   "cubre": [
+    "F-T8.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-31",
+   "tema": "T8",
+   "concepto": "Osciloscopio: tensión a partir de la sensibilidad vertical (pico a pico, pico y eficaz)",
+   "peso": 2,
+   "preguntas": [
+    "F-T8.4"
+   ],
+   "cubre": [
+    "F-T8.4",
+    "F-T8.3"
+   ],
+   "nota": "F-T8.4 incluye el paso de F-T8.3 (pico a pico) y añade pico y eficaz."
+  },
+  {
+   "cid": "T8-32",
+   "tema": "T8",
+   "concepto": "Analizador de espectros: dominio de la frecuencia; armónicos y espurias",
+   "peso": 3,
+   "preguntas": [
+    "F-T8.5",
+    "F-T8.6"
+   ],
+   "cubre": [
+    "F-T8.5",
+    "F-T8.6",
+    "T8.8"
+   ],
+   "nota": "F-T8.5 distingue analizador y osciloscopio; F-T8.6 es la aplicación (medir armónicos y espurias), que el examen pregunta por separado."
+  },
+  {
+   "cid": "T8-33",
+   "tema": "T8",
+   "concepto": "Generador de señal de RF: caracterizar etapas y receptores",
+   "peso": 1,
+   "preguntas": [
+    "T8.15"
+   ],
+   "cubre": [
+    "T8.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-34",
+   "tema": "T8",
+   "concepto": "Medidor de campo: intensidad de campo radiado, en V/m",
+   "peso": 2,
+   "preguntas": [
+    "C-T8.4",
+    "T8.10"
+   ],
+   "cubre": [
+    "C-T8.4",
+    "T8.10"
+   ],
+   "nota": "C-T8.4 pide el instrumento; T8.10 la unidad (V/m)."
+  },
+  {
+   "cid": "T8-35",
+   "tema": "T8",
+   "concepto": "S-meter: indica la intensidad de la señal recibida (es un instrumento de recepción)",
+   "peso": 2,
+   "preguntas": [
+    "T8.20",
+    "C-T8.8"
+   ],
+   "cubre": [
+    "T8.20",
+    "C-T8.8"
+   ],
+   "nota": "C-T8.8 es el ángulo negativo del banco público: el S-meter no se usa para monitorizar la emisión."
+  },
+  {
+   "cid": "T8-36",
+   "tema": "T8",
+   "concepto": "S-meter: cada punto S equivale a 6 dB",
+   "peso": 2,
+   "preguntas": [
+    "T8.21"
+   ],
+   "cubre": [
+    "T8.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-37",
+   "tema": "T8",
+   "concepto": "S-meter: S9 = 50 μV sobre 50 Ω en HF (escala en microvoltios)",
+   "peso": 2,
+   "preguntas": [
+    "C-T8.9"
+   ],
+   "cubre": [
+    "C-T8.9",
+    "C-T8.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-38",
+   "tema": "T8",
+   "concepto": "Dipmeter: frecuencia de resonancia de un circuito sin alimentarlo",
+   "peso": 2,
+   "preguntas": [
+    "T8.22"
+   ],
+   "cubre": [
+    "T8.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-39",
+   "tema": "T8",
+   "concepto": "Sintonía del final valvular: mínimo («dip») de la corriente de placa",
+   "peso": 1,
+   "preguntas": [
+    "T8.28"
+   ],
+   "cubre": [
+    "T8.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T8-40",
+   "tema": "T8",
+   "concepto": "Carga artificial: ajustar el transmisor sin radiar",
+   "peso": 2,
+   "preguntas": [
+    "T8.23"
+   ],
+   "cubre": [
+    "T8.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-01",
+   "tema": "T9",
+   "concepto": "Compatibilidad electromagnética: no perturbar el entorno y no verse afectado por él",
+   "peso": 2,
+   "preguntas": [
+    "T9.21"
+   ],
+   "cubre": [
+    "T9.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-02",
+   "tema": "T9",
+   "concepto": "Conformidad con la directiva EMC (marcado CE)",
+   "peso": 1,
+   "preguntas": [
+    "T9.8"
+   ],
+   "cubre": [
+    "T9.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-03",
+   "tema": "T9",
+   "concepto": "Fuente, camino y víctima: caminos de acoplo por antena, por líneas y por radiación directa",
+   "peso": 2,
+   "preguntas": [
+    "N-T9-01"
+   ],
+   "cubre": [],
+   "nota": "Hueco del alcance oficial («acoplo por antena, por líneas o por radiación directa»)."
+  },
+  {
+   "cid": "T9-04",
+   "tema": "T9",
+   "concepto": "Intensidad de campo: proporcional a la raíz de la potencia e inversa a la distancia",
+   "peso": 1,
+   "preguntas": [
+    "F-T9.4",
+    "F-T9.5"
+   ],
+   "cubre": [
+    "F-T9.4",
+    "F-T9.5"
+   ],
+   "nota": "Dos sentidos de la misma fórmula: con la distancia (1/d) y con la potencia (√P); la trampa en ambos es confundir campo con densidad de potencia."
+  },
+  {
+   "cid": "T9-05",
+   "tema": "T9",
+   "concepto": "A más potencia, más riesgo de interferencia: usar la mínima potencia necesaria",
+   "peso": 2,
+   "preguntas": [
+    "T9.19"
+   ],
+   "cubre": [
+    "T9.19",
+    "T9.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-06",
+   "tema": "T9",
+   "concepto": "Armónicos: múltiplos enteros de la frecuencia fundamental",
+   "peso": 3,
+   "preguntas": [
+    "T9.11"
+   ],
+   "cubre": [
+    "T9.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-07",
+   "tema": "T9",
+   "concepto": "La emisión de armónicos y espurias implica riesgo de interferencias en cualquier banda",
+   "peso": 2,
+   "preguntas": [
+    "C-T9.4"
+   ],
+   "cubre": [
+    "C-T9.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-08",
+   "tema": "T9",
+   "concepto": "Emisiones fuera de banda: inmediatamente exteriores a la anchura necesaria, por la modulación",
+   "peso": 2,
+   "preguntas": [
+    "T9.13"
+   ],
+   "cubre": [
+    "T9.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-09",
+   "tema": "T9",
+   "concepto": "Sobremodulación: salpicaduras a canales vecinos; remedio, bajar ganancia de micrófono y excitación",
+   "peso": 1,
+   "preguntas": [
+    "N-T9-02"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el banco define la emisión fuera de banda pero no pide el diagnóstico ni el remedio."
+  },
+  {
+   "cid": "T9-10",
+   "tema": "T9",
+   "concepto": "Los amplificadores lineales (sobre todo sobreexcitados) favorecen las interferencias",
+   "peso": 1,
+   "preguntas": [
+    "T9.2"
+   ],
+   "cubre": [
+    "T9.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-11",
+   "tema": "T9",
+   "concepto": "Desadaptación (ROE alta) favorece las interferencias; conviene ROE baja",
+   "peso": 2,
+   "preguntas": [
+    "T9.3"
+   ],
+   "cubre": [
+    "T9.3",
+    "T9.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-12",
+   "tema": "T9",
+   "concepto": "Bloqueo o desensibilización: un campo intenso satura la entrada aunque esté sintonizado lejos",
+   "peso": 3,
+   "preguntas": [
+    "F-T9.1"
+   ],
+   "cubre": [
+    "F-T9.1",
+    "T9.4"
+   ],
+   "nota": "F-T9.1 lo distingue de la intermodulación (no aparecen señales nuevas)."
+  },
+  {
+   "cid": "T9-13",
+   "tema": "T9",
+   "concepto": "Remedio del bloqueo y de la TVI: filtro en la entrada del equipo afectado (problema de inmunidad)",
+   "peso": 2,
+   "preguntas": [
+    "T9.17"
+   ],
+   "cubre": [
+    "T9.17",
+    "F-T9.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-14",
+   "tema": "T9",
+   "concepto": "Intermodulación: dos o más señales intensas mezcladas en una etapa no lineal",
+   "peso": 3,
+   "preguntas": [
+    "T9.14"
+   ],
+   "cubre": [
+    "T9.14",
+    "T9.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-15",
+   "tema": "T9",
+   "concepto": "Productos de intermodulación de tercer orden: 2f1 − f2 y 2f2 − f1",
+   "peso": 2,
+   "preguntas": [
+    "F-T9.3"
+   ],
+   "cubre": [
+    "F-T9.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-16",
+   "tema": "T9",
+   "concepto": "Los productos de tercer orden crecen 3 dB por cada dB de las señales (+3 dB → +9 dB)",
+   "peso": 1,
+   "preguntas": [
+    "N-T9-03"
+   ],
+   "cubre": [],
+   "nota": "Dato de la hoja de repaso sin pregunta en el banco."
+  },
+  {
+   "cid": "T9-17",
+   "tema": "T9",
+   "concepto": "Detección en circuitos de audio: una unión semiconductora rectifica la RF y recupera la envolvente",
+   "peso": 2,
+   "preguntas": [
+    "N-T9-04"
+   ],
+   "cubre": [],
+   "nota": "Hueco del alcance oficial («detección en circuitos de audio»): el banco solo trae sus remedios."
+  },
+  {
+   "cid": "T9-18",
+   "tema": "T9",
+   "concepto": "Desacoplo: ferritas y condensadores en los cables del equipo afectado",
+   "peso": 2,
+   "preguntas": [
+    "T9.15",
+    "C-T9.1"
+   ],
+   "cubre": [
+    "T9.15",
+    "C-T9.1"
+   ],
+   "nota": "C-T9.1 es la formulación del banco público («tomas de tierra y condensadores»), con distractores distintos."
+  },
+  {
+   "cid": "T9-19",
+   "tema": "T9",
+   "concepto": "Cable blindado para los altavoces",
+   "peso": 2,
+   "preguntas": [
+    "C-T9.3"
+   ],
+   "cubre": [
+    "C-T9.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-20",
+   "tema": "T9",
+   "concepto": "Apantallamiento: caja metálica, eléctricamente estanca y a tierra (jaula de Faraday en los dos sentidos)",
+   "peso": 3,
+   "preguntas": [
+    "T9.6"
+   ],
+   "cubre": [
+    "T9.6",
+    "T9.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-21",
+   "tema": "T9",
+   "concepto": "La fibra óptica es el medio más inmune a las interferencias radiadas",
+   "peso": 1,
+   "preguntas": [
+    "T9.9"
+   ],
+   "cubre": [
+    "T9.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-22",
+   "tema": "T9",
+   "concepto": "Filtro paso bajo a la salida del transmisor contra los armónicos",
+   "peso": 3,
+   "preguntas": [
+    "T9.12"
+   ],
+   "cubre": [
+    "T9.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-23",
+   "tema": "T9",
+   "concepto": "Filtro de red (de línea de desacoplo) en la alimentación",
+   "peso": 2,
+   "preguntas": [
+    "T9.7",
+    "C-T9.2"
+   ],
+   "cubre": [
+    "T9.7",
+    "C-T9.2"
+   ],
+   "nota": "T9.7: impedir que la RF del transceptor salga a la red; C-T9.2 (banco público): ruido generado por la propia fuente de alimentación."
+  },
+  {
+   "cid": "T9-24",
+   "tema": "T9",
+   "concepto": "Filtro de rechazo de banda (notch) para eliminar una frecuencia concreta",
+   "peso": 2,
+   "preguntas": [
+    "T9.16"
+   ],
+   "cubre": [
+    "T9.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-25",
+   "tema": "T9",
+   "concepto": "Una buena tierra reduce la RF en los chasis y las interferencias",
+   "peso": 2,
+   "preguntas": [
+    "T9.18"
+   ],
+   "cubre": [
+    "T9.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-26",
+   "tema": "T9",
+   "concepto": "Ante una queja: comprobar la propia estación y colaborar",
+   "peso": 2,
+   "preguntas": [
+    "T9.20"
+   ],
+   "cubre": [
+    "T9.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T9-27",
+   "tema": "T9",
+   "concepto": "Prueba de la carga artificial: si la interferencia sigue, el camino es la conducción por la red o los cables",
+   "peso": 1,
+   "preguntas": [
+    "N-T9-05"
+   ],
+   "cubre": [],
+   "nota": "Hueco: procedimiento de diagnóstico del capítulo."
+  },
+  {
+   "cid": "T10-01",
+   "tema": "T10",
+   "concepto": "Interruptor general de la estación",
+   "peso": 2,
+   "preguntas": [
+    "T10.1"
+   ],
+   "cubre": [
+    "T10.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-02",
+   "tema": "T10",
+   "concepto": "Lo que daña es la corriente: intensidad, recorrido y duración",
+   "peso": 2,
+   "preguntas": [
+    "T10.20"
+   ],
+   "cubre": [
+    "T10.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-03",
+   "tema": "T10",
+   "concepto": "Umbrales de corriente (1 mA se nota, 10–20 mA no se suelta, ~30 mA fibrilación): cuál es más peligrosa",
+   "peso": 2,
+   "preguntas": [
+    "T10.21"
+   ],
+   "cubre": [
+    "T10.21",
+    "T10.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-04",
+   "tema": "T10",
+   "concepto": "Efectos de la descarga: tetanización, fibrilación, quemaduras (no somnolencia)",
+   "peso": 1,
+   "preguntas": [
+    "T10.35"
+   ],
+   "cubre": [
+    "T10.35"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-05",
+   "tema": "T10",
+   "concepto": "Cuerpo mojado: baja la resistencia y aumenta el riesgo",
+   "peso": 2,
+   "preguntas": [
+    "T10.37"
+   ],
+   "cubre": [
+    "T10.37"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-06",
+   "tema": "T10",
+   "concepto": "Precauciones en los trabajos de instalación (locales húmedos, manos mojadas, cruce de conductores)",
+   "peso": 1,
+   "preguntas": [
+    "C-T10.7"
+   ],
+   "cubre": [
+    "C-T10.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-07",
+   "tema": "T10",
+   "concepto": "Una antena que transmite no se toca (quemaduras de RF)",
+   "peso": 2,
+   "preguntas": [
+    "T10.2"
+   ],
+   "cubre": [
+    "T10.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-08",
+   "tema": "T10",
+   "concepto": "Exposición a campos de RF: nivel de referencia de 28 V/m entre 10 y 400 MHz",
+   "peso": 1,
+   "preguntas": [
+    "N-T10-01"
+   ],
+   "cubre": [],
+   "nota": "Dato del capítulo sin pregunta en el banco."
+  },
+  {
+   "cid": "T10-09",
+   "tema": "T10",
+   "concepto": "Antes de manipular un equipo: desconectarlo de la red y descargar los condensadores",
+   "peso": 2,
+   "preguntas": [
+    "T10.16"
+   ],
+   "cubre": [
+    "T10.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-10",
+   "tema": "T10",
+   "concepto": "Resistencia de descarga (bleeder) en paralelo con el condensador de filtro",
+   "peso": 1,
+   "preguntas": [
+    "N-T10-02"
+   ],
+   "cubre": [],
+   "nota": "Hueco: «protecciones de los equipos»."
+  },
+  {
+   "cid": "T10-11",
+   "tema": "T10",
+   "concepto": "Accidente eléctrico: lo primero es cortar la corriente",
+   "peso": 3,
+   "preguntas": [
+    "T10.17"
+   ],
+   "cubre": [
+    "T10.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-12",
+   "tema": "T10",
+   "concepto": "Si no se puede cortar: separar a la víctima con un elemento aislante, nunca tocarla directamente",
+   "peso": 2,
+   "preguntas": [
+    "T10.18"
+   ],
+   "cubre": [
+    "T10.18",
+    "T10.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-13",
+   "tema": "T10",
+   "concepto": "Primeros auxilios: no dar de beber (sí cubrir, comprobar respiración, avisar)",
+   "peso": 1,
+   "preguntas": [
+    "T10.33"
+   ],
+   "cubre": [
+    "T10.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-14",
+   "tema": "T10",
+   "concepto": "Si no respira: respiración artificial sin esperar",
+   "peso": 1,
+   "preguntas": [
+    "T10.34"
+   ],
+   "cubre": [
+    "T10.34"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-15",
+   "tema": "T10",
+   "concepto": "Quemadura eléctrica: agua abundante y asistencia médica",
+   "peso": 1,
+   "preguntas": [
+    "T10.32"
+   ],
+   "cubre": [
+    "T10.32"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-16",
+   "tema": "T10",
+   "concepto": "Incendio en equipo eléctrico: cortar la corriente y extintor de CO2 o polvo, nunca agua ni espuma",
+   "peso": 2,
+   "preguntas": [
+    "T10.39"
+   ],
+   "cubre": [
+    "T10.39",
+    "C-T10.3"
+   ],
+   "nota": "C-T10.3 (banco público) tiene clave oficial dudosa («espuma»); la entrada la corrige a la a. Se elige T10.39, de clave segura."
+  },
+  {
+   "cid": "T10-17",
+   "tema": "T10",
+   "concepto": "Operador y familiares deben conocer los primeros auxilios",
+   "peso": 1,
+   "preguntas": [
+    "T10.38"
+   ],
+   "cubre": [
+    "T10.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-18",
+   "tema": "T10",
+   "concepto": "El titular responde del cumplimiento de la normativa de seguridad",
+   "peso": 1,
+   "preguntas": [
+    "T10.40"
+   ],
+   "cubre": [
+    "T10.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-19",
+   "tema": "T10",
+   "concepto": "Interferencia a servicios de seguridad de la vida humana, al móvil aeronáutico o a la ICT del edificio: dejar de emitir",
+   "peso": 2,
+   "preguntas": [
+    "T10.5",
+    "T10.7"
+   ],
+   "cubre": [
+    "T10.5",
+    "T10.6",
+    "T10.7"
+   ],
+   "nota": "T10.7 (ICT del edificio) no es un servicio de seguridad y aun así exige dejar de emitir, al menos temporalmente."
+  },
+  {
+   "cid": "T10-20",
+   "tema": "T10",
+   "concepto": "Fusible: en serie, corta las sobreintensidades",
+   "peso": 2,
+   "preguntas": [
+    "T10.8"
+   ],
+   "cubre": [
+    "T10.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-21",
+   "tema": "T10",
+   "concepto": "Fusible fundido: sustituirlo por otro del mismo calibre (nunca mayor ni un puente)",
+   "peso": 3,
+   "preguntas": [
+    "T10.9"
+   ],
+   "cubre": [
+    "T10.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-22",
+   "tema": "T10",
+   "concepto": "Calibre del fusible: ligeramente superior al consumo máximo del equipo",
+   "peso": 2,
+   "preguntas": [
+    "T10.25"
+   ],
+   "cubre": [
+    "T10.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-23",
+   "tema": "T10",
+   "concepto": "Fusible de la alimentación en el positivo, junto a la batería o la fuente",
+   "peso": 1,
+   "preguntas": [
+    "N-T10-03"
+   ],
+   "cubre": [],
+   "nota": "Hueco: «protecciones de los equipos»."
+  },
+  {
+   "cid": "T10-24",
+   "tema": "T10",
+   "concepto": "Fusibles rápidos (F) y temporizados (T)",
+   "peso": 1,
+   "preguntas": [
+    "N-T10-04"
+   ],
+   "cubre": [],
+   "nota": "Hueco: «protecciones de los equipos»."
+  },
+  {
+   "cid": "T10-25",
+   "tema": "T10",
+   "concepto": "Magnetotérmico: sobrecargas y cortocircuitos",
+   "peso": 2,
+   "preguntas": [
+    "T10.12"
+   ],
+   "cubre": [
+    "T10.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-26",
+   "tema": "T10",
+   "concepto": "Diferencial: actúa cuando la corriente de ida y la de vuelta difieren (derivación a tierra)",
+   "peso": 3,
+   "preguntas": [
+    "C-T10.5"
+   ],
+   "cubre": [
+    "C-T10.5",
+    "T10.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-27",
+   "tema": "T10",
+   "concepto": "El diferencial protege a las personas frente a contactos indirectos y defectos de aislamiento",
+   "peso": 3,
+   "preguntas": [
+    "T10.11"
+   ],
+   "cubre": [
+    "T10.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-28",
+   "tema": "T10",
+   "concepto": "Elementos de protección personal: guantes de goma (aislantes)",
+   "peso": 1,
+   "preguntas": [
+    "C-T10.2"
+   ],
+   "cubre": [
+    "C-T10.2"
+   ],
+   "nota": "Ojo: la clave oficial de las recopilaciones es «interruptores automáticos»; la entrada la corrige a «guantes de goma». Conviene conocer las dos."
+  },
+  {
+   "cid": "T10-29",
+   "tema": "T10",
+   "concepto": "La toma de tierra protege al operador: deriva la fuga y hace actuar al diferencial",
+   "peso": 3,
+   "preguntas": [
+    "T10.3"
+   ],
+   "cubre": [
+    "T10.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-30",
+   "tema": "T10",
+   "concepto": "La tierra debe llegar a cada uno de los chasis metálicos, unidos entre sí",
+   "peso": 3,
+   "preguntas": [
+    "T10.4"
+   ],
+   "cubre": [
+    "T10.4",
+    "C-T10.8"
+   ],
+   "nota": "C-T10.8 es la versión con figuras del banco público."
+  },
+  {
+   "cid": "T10-31",
+   "tema": "T10",
+   "concepto": "La toma de tierra debe tener la menor resistencia posible",
+   "peso": 2,
+   "preguntas": [
+    "T10.22"
+   ],
+   "cubre": [
+    "T10.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-32",
+   "tema": "T10",
+   "concepto": "El conductor de tierra no lleva fusible ni interruptor",
+   "peso": 2,
+   "preguntas": [
+    "T10.26"
+   ],
+   "cubre": [
+    "T10.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-33",
+   "tema": "T10",
+   "concepto": "Qué vale como tierra: la del edificio si está en buen estado; nunca el neutro ni tuberías de gas o agua",
+   "peso": 2,
+   "preguntas": [
+    "T10.27"
+   ],
+   "cubre": [
+    "T10.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-34",
+   "tema": "T10",
+   "concepto": "La pica de tierra se entierra en terreno húmedo, no seco y soleado",
+   "peso": 2,
+   "preguntas": [
+    "C-T10.6"
+   ],
+   "cubre": [
+    "C-T10.6",
+    "T10.28"
+   ],
+   "nota": "C-T10.6 repasa además que no se usan gas, calefacción ni agua."
+  },
+  {
+   "cid": "T10-35",
+   "tema": "T10",
+   "concepto": "Antena lejos de las líneas eléctricas aéreas: distancia mayor que la altura total del conjunto",
+   "peso": 3,
+   "preguntas": [
+    "T10.31"
+   ],
+   "cubre": [
+    "T10.31",
+    "T10.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-36",
+   "tema": "T10",
+   "concepto": "Vientos del mástil: repartidos alrededor y tensados por igual",
+   "peso": 2,
+   "preguntas": [
+    "T10.15"
+   ],
+   "cubre": [
+    "T10.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-37",
+   "tema": "T10",
+   "concepto": "Vientos metálicos con aisladores intercalados para que no resuenen",
+   "peso": 1,
+   "preguntas": [
+    "T10.29"
+   ],
+   "cubre": [
+    "T10.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-38",
+   "tema": "T10",
+   "concepto": "Antena en mástil propio, no en el de la antena colectiva",
+   "peso": 2,
+   "preguntas": [
+    "T10.30"
+   ],
+   "cubre": [
+    "T10.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-39",
+   "tema": "T10",
+   "concepto": "Rotores: dimensionados para peso y par (en torretas), cableado protegido y separado",
+   "peso": 1,
+   "preguntas": [
+    "C-T10.4",
+    "T10.24"
+   ],
+   "cubre": [
+    "C-T10.4",
+    "T10.24"
+   ],
+   "nota": "C-T10.4 (banco público) trae la afirmación «se montan preferentemente en torretas»; T10.24 añade el cableado protegido y separado del coaxial."
+  },
+  {
+   "cid": "T10-40",
+   "tema": "T10",
+   "concepto": "Trabajo en altura: arnés, comprobar la estructura, nunca trabajar solo",
+   "peso": 1,
+   "preguntas": [
+    "T10.23"
+   ],
+   "cubre": [
+    "T10.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T10-41",
+   "tema": "T10",
+   "concepto": "Ante una tormenta: desconectar la antena (y el equipo de la red), nunca la toma de tierra",
+   "peso": 3,
+   "preguntas": [
+    "C-T10.1"
+   ],
+   "cubre": [
+    "C-T10.1",
+    "T10.13"
+   ],
+   "nota": "La trampa de C-T10.1 es la opción d (desconectar también la tierra)."
+  },
+  {
+   "cid": "T10-42",
+   "tema": "T10",
+   "concepto": "Protección contra el rayo: mástil y malla a tierra por el exterior, descargador y una sola tierra",
+   "peso": 2,
+   "preguntas": [
+    "N-T10-05"
+   ],
+   "cubre": [],
+   "nota": "Hueco del alcance oficial («protección contra descargas atmosféricas»)."
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-T8-01",
+   "cid": "T8-07",
+   "tema": "T8",
+   "enunciado": "Para que un galvanómetro sirva como voltímetro de mayor alcance se le conecta:",
+   "opciones": [
+    "una resistencia multiplicadora en serie",
+    "una resistencia shunt en paralelo",
+    "un condensador en paralelo",
+    "un diodo en serie con la pila interna"
+   ],
+   "clave": "a",
+   "sol": "La resistencia multiplicadora, en serie con el galvanómetro, limita la corriente para que con la tensión máxima de la escala pase justo la de fondo de escala: $R_V = V / I_m - R_m$. El shunt en paralelo es el truco contrario: amplía la escala de corriente de un amperímetro.",
+   "fuente": "chapters/t08.typ:106"
+  },
+  {
+   "nid": "N-T8-02",
+   "cid": "T8-09",
+   "tema": "T8",
+   "enunciado": "Un voltímetro analógico de clase 1,5 se usa en la escala de 100 V. El error máximo que cabe esperar del propio instrumento es de:",
+   "opciones": [
+    "1,5 V en cualquier punto de la escala",
+    "el 1,5 % de la lectura, sea cual sea",
+    "0,15 V",
+    "15 V"
+   ],
+   "clave": "a",
+   "sol": "La clase indica el error en porcentaje del fondo de escala: el 1,5 % de 100 V son 1,5 V, también cuando la aguja marca poco. Por eso se elige la escala en la que la aguja queda en el último tercio. Tomarlo como porcentaje de la lectura es el error tentador.",
+   "fuente": "chapters/t08.typ:148"
+  },
+  {
+   "nid": "N-T8-03",
+   "cid": "T8-18",
+   "tema": "T8",
+   "enunciado": "En una emisión de CW con el manipulador apretado (portadora sin modular), la potencia media y la potencia en la cresta de la envolvente (p.c.e.):",
+   "opciones": [
+    "coinciden, porque la amplitud es constante",
+    "la p.c.e. es el doble que la media",
+    "la p.c.e. es cuatro veces la media",
+    "la media es mayor que la p.c.e."
+   ],
+   "clave": "a",
+   "sol": "Con amplitud constante (CW con el manipulador apretado, o FM) no hay picos de envolvente y las dos potencias coinciden. En SSB con voz, en cambio, una p.c.e. de 100 W corresponde a una media de solo 10 a 25 W. El factor 4 aparece en AM modulada al 100 %, entre el pico de la envolvente y la portadora.",
+   "fuente": "chapters/t08.typ:200"
+  },
+  {
+   "nid": "N-T8-04",
+   "cid": "T8-23",
+   "tema": "T8",
+   "enunciado": "Un vatímetro direccional marca 100 W de potencia directa y 25 W de reflejada. La ROE y la potencia que llega a la antena son, respectivamente:",
+   "opciones": [
+    "3 y 75 W",
+    "4 y 125 W",
+    "1,5 y 75 W",
+    "3 y 125 W"
+   ],
+   "clave": "a",
+   "sol": "$rho = sqrt(P_r / P_d) = sqrt(25 / 100) = 0,5$ y $\"ROE\" = (1 + 0,5) / (1 - 0,5) = 3$. La antena recibe la directa menos la reflejada, 100 − 25 = 75 W; sumar las dos (125 W) es el error típico.",
+   "fuente": "chapters/t08.typ:436"
+  },
+  {
+   "nid": "N-T8-05",
+   "cid": "T8-28",
+   "tema": "T8",
+   "enunciado": "Un frecuencímetro cuya base de tiempos de cristal se desvía 10 partes por millón mide una señal de 145 MHz. El error de la lectura puede llegar a:",
+   "opciones": [
+    "1450 Hz, por muchos dígitos que muestre la pantalla",
+    "10 Hz",
+    "145 Hz",
+    "1 Hz si el tiempo de puerta es de 1 s"
+   ],
+   "clave": "a",
+   "sol": "La exactitud la fija el cristal de referencia: $145 dot 10^6 dot 10 dot 10^(-6) = 1450$ Hz. El tiempo de puerta solo fija la resolución (1 s, 1 Hz), es decir, cuántos dígitos se ven, no si son correctos.",
+   "fuente": "chapters/t08.typ:336"
+  },
+  {
+   "nid": "N-T9-01",
+   "cid": "T9-03",
+   "tema": "T9",
+   "enunciado": "Los caminos por los que la señal de una estación puede acoplarse a un equipo electrónico cercano son:",
+   "opciones": [
+    "la antena del equipo afectado, las líneas que le llegan (red eléctrica, altavoces, cable) y la radiación directa sobre sus circuitos",
+    "solo la antena del equipo afectado",
+    "solo la red eléctrica",
+    "ninguno, si la estación cumple los límites de emisiones no esenciales"
+   ],
+   "clave": "a",
+   "sol": "Todo problema de compatibilidad se descompone en fuente, camino y víctima, y los caminos son tres: la antena de la víctima, las líneas que le llegan y la radiación directa sobre sus circuitos y cables. Una estación limpia puede aún bloquear un equipo cercano con su señal fundamental: el problema es entonces de inmunidad del equipo afectado.",
+   "fuente": "chapters/t09.typ:36"
+  },
+  {
+   "nid": "N-T9-02",
+   "cid": "T9-09",
+   "tema": "T9",
+   "enunciado": "Varios colegas te indican que tu emisión de SSB se oye en los canales vecinos al tuyo, pero no en otras bandas. La causa probable y su remedio son:",
+   "opciones": [
+    "armónicos; colocar un filtro paso bajo a la salida",
+    "emisión fuera de banda por sobremodulación; bajar la ganancia del micrófono y la excitación",
+    "bloqueo de sus receptores; poner un filtro en su entrada",
+    "una toma de tierra deficiente; desconectarla"
+   ],
+   "clave": "b",
+   "sol": "Una modulación excesiva ensancha la emisión más allá de la anchura de banda necesaria y salpica los canales adyacentes: son emisiones fuera de banda, y se corrigen bajando la ganancia del micrófono y la excitación. Los armónicos caerían en múltiplos de tu frecuencia, en otras bandas, y ese sí es trabajo del filtro paso bajo.",
+   "fuente": "chapters/t09.typ:532"
+  },
+  {
+   "nid": "N-T9-03",
+   "cid": "T9-16",
+   "tema": "T9",
+   "enunciado": "Si las dos señales que producen intermodulación de tercer orden aumentan su nivel en 3 dB, los productos de tercer orden aumentan aproximadamente:",
+   "opciones": [
+    "3 dB",
+    "6 dB",
+    "9 dB",
+    "no varían"
+   ],
+   "clave": "c",
+   "sol": "Los productos de tercer orden nacen del término cúbico de la no linealidad y crecen con el cubo de la amplitud: 3 dB más en las señales dan 9 dB más en los productos. Por eso la intermodulación solo aparece con señales intensas, y atenuar un poco la entrada la reduce mucho.",
+   "fuente": "chapters/t09.typ:126"
+  },
+  {
+   "nid": "N-T9-04",
+   "cid": "T9-17",
+   "tema": "T9",
+   "enunciado": "Mientras transmites en AM, tu voz se oye por los altavoces del equipo de música de un vecino, que no tiene sintonizador de radio. El mecanismo responsable es:",
+   "opciones": [
+    "la intermodulación entre tu señal y la red eléctrica",
+    "la detección: una unión semiconductora del amplificador rectifica la RF captada por los cables y recupera la envolvente",
+    "el bloqueo del amplificador por exceso de ganancia",
+    "la recepción por la frecuencia imagen"
+   ],
+   "clave": "b",
+   "sol": "Los cables del equipo hacen de antena y llevan la RF hasta los transistores. La unión base-emisor se comporta como un diodo, rectifica la RF y deja su envolvente, que en AM es tu voz: el amplificador la trata como audio. Es un problema de inmunidad del equipo afectado y se combate con ferritas y condensadores de desacoplo en sus cables.",
+   "fuente": "chapters/t09.typ:206"
+  },
+  {
+   "nid": "N-T9-05",
+   "cid": "T9-27",
+   "tema": "T9",
+   "enunciado": "Ante una queja de interferencias, conectas tu transmisor a una carga artificial y transmites. La interferencia continúa. Lo más probable es que la perturbación llegue al equipo afectado:",
+   "opciones": [
+    "por radiación de tu antena",
+    "por conducción a través de la red eléctrica o de los cables",
+    "por propagación ionosférica",
+    "a través de la frecuencia imagen de su receptor"
+   ],
+   "clave": "b",
+   "sol": "Con la carga artificial la estación casi no radia. Si la interferencia desaparece, el camino era la radiación de la antena; si sigue, la RF viaja por conducción, a través de la red eléctrica o de los cables, y el remedio es el filtro de red y las ferritas en la alimentación.",
+   "fuente": "chapters/t09.typ:521"
+  },
+  {
+   "nid": "N-T10-01",
+   "cid": "T10-08",
+   "tema": "T10",
+   "enunciado": "Según la Recomendación 1999/519/CE, recogida en España por el Real Decreto 1066/2001, el nivel de referencia de campo eléctrico para el público entre 10 y 400 MHz es de:",
+   "opciones": [
+    "28 V/m",
+    "2,8 V/m",
+    "280 V/m",
+    "50 μV/m"
+   ],
+   "clave": "a",
+   "sol": "Entre 10 y 400 MHz el nivel de referencia es de 28 V/m (2 W/m²), promediado durante 6 minutos. Con la fórmula de campo lejano $E approx sqrt(30 P G) / d$ se estima a qué distancia de la antena se cumple; por eso la antena va en el tejado, lejos de las personas. Los 50 μV son la tensión de S9 en un receptor, no un límite de exposición.",
+   "fuente": "chapters/t10.typ:92"
+  },
+  {
+   "nid": "N-T10-02",
+   "cid": "T10-10",
+   "tema": "T10",
+   "enunciado": "En una fuente de alta tensión, la resistencia de descarga (bleeder) conectada en paralelo con el condensador de filtro sirve para:",
+   "opciones": [
+    "descargar el condensador cuando se desconecta el equipo",
+    "limitar la corriente de arranque del transformador",
+    "aumentar la tensión de salida",
+    "proteger la fuente frente a cortocircuitos"
+   ],
+   "clave": "a",
+   "sol": "El condensador de filtro conserva su carga mucho después de desenchufar, y la resistencia de descarga lo vacía con constante de tiempo $tau = R C$. Aun así no hay que fiarse: la tensión tarda en bajar y la resistencia puede abrirse con los años, así que antes de meter la mano se descargan los condensadores con una punta unida a masa y se comprueba con el voltímetro.",
+   "fuente": "chapters/t10.typ:202"
+  },
+  {
+   "nid": "N-T10-03",
+   "cid": "T10-23",
+   "tema": "T10",
+   "enunciado": "En el cable de alimentación de 13,8 V de un transceptor conectado a una batería, el fusible debe colocarse:",
+   "opciones": [
+    "en el negativo, junto al transceptor",
+    "en el positivo, lo más cerca posible de la batería",
+    "en el positivo, junto al transceptor",
+    "en ningún sitio: en baja tensión no hace falta fusible"
+   ],
+   "clave": "b",
+   "sol": "En el positivo y junto a la batería, el fusible protege también el cable: un cortocircuito del cable contra el chasis quedaría sin protección si el fusible estuviera junto al equipo. Que 12 V no den calambre no hace inofensiva a una batería: en cortocircuito puede entregar cientos de amperios.",
+   "fuente": "chapters/t10.typ:429"
+  },
+  {
+   "nid": "N-T10-04",
+   "cid": "T10-24",
+   "tema": "T10",
+   "enunciado": "Una fuente de alimentación sin avería funde en cada encendido el fusible rápido (F) que le han puesto. Lo correcto es sustituirlo por:",
+   "opciones": [
+    "un fusible temporizado (T) del mismo calibre",
+    "un fusible rápido de calibre mucho mayor",
+    "un puente de hilo de cobre",
+    "un fusible rápido de menor calibre"
+   ],
+   "clave": "a",
+   "sol": "Los fusibles temporizados o lentos (T) soportan sin fundirse las puntas breves de corriente del arranque (carga de los condensadores, magnetización del transformador) y solo se funden si la sobrecarga dura. Subir el calibre o puentear quita la protección.",
+   "fuente": "chapters/t10.typ:449"
+  },
+  {
+   "nid": "N-T10-05",
+   "cid": "T10-42",
+   "tema": "T10",
+   "enunciado": "Para proteger la instalación de antena contra las descargas atmosféricas, es correcto:",
+   "opciones": [
+    "unir el mástil y la malla del coaxial a tierra por el exterior, con conductores cortos y directos, y poner un descargador en la entrada del cable",
+    "aislar el mástil de tierra para que el rayo no lo busque",
+    "usar para el mástil una toma de tierra independiente, separada de la de los equipos",
+    "llevar el conductor de tierra del mástil por el interior de la vivienda"
+   ],
+   "clave": "a",
+   "sol": "El rayo busca el camino más corto al suelo, y un conductor grueso por el exterior hasta la pica se lo da sin pasar por la casa. El descargador deriva a tierra las sobretensiones inducidas en el coaxial. Mástil, descargador y chasis van a una sola tierra: con tierras separadas aparecerían miles de voltios entre ellas durante la descarga.",
+   "fuente": "chapters/t10.typ:262"
+  }
+ ],
+ "descartadas": [],
+ "problemas": [
+  {
+   "id": "C-T10.2",
+   "detalle": "La clave de la entrada (a, «guantes de goma») corrige la de las recopilaciones oficiales («interruptores automáticos»), como reconoce la propia solución. Se mantiene la a; en el simulacro conviene avisar de la clave oficial."
+  },
+  {
+   "id": "C-T10.3",
+   "detalle": "La clave de la entrada (a) corrige la oficial (b, «espuma en vez de agua»), que la solución considera errónea porque la espuma conduce. No se elige como pregunta principal; se usa T10.39."
+  }
+ ]
+}

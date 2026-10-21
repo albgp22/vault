@@ -1,0 +1,1886 @@
+{
+ "lote": "L8",
+ "conceptos": [
+  {
+   "cid": "R5-01",
+   "tema": "R5",
+   "concepto": "Qué es el distintivo: señal de identificación que identifica al titular desde cualquier punto del territorio (no al equipo ni al domicilio)",
+   "peso": 2,
+   "preguntas": [
+    "F-R5.7"
+   ],
+   "cubre": [
+    "F-R5.7",
+    "R5.43"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-02",
+   "tema": "R5",
+   "concepto": "El distintivo se otorga junto con la autorización y lo asigna la Administración (no se elige ni lo da la asociación)",
+   "peso": 2,
+   "preguntas": [
+    "R5.44"
+   ],
+   "cubre": [
+    "R5.44"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-03",
+   "tema": "R5",
+   "concepto": "Cuándo identificarse: al comienzo y al final de cada emisión, siempre, y en las largas al menos cada 10 min",
+   "peso": 3,
+   "preguntas": [
+    "R7.8",
+    "N-R5-02"
+   ],
+   "cubre": [
+    "R5.41",
+    "R5.42",
+    "R5.45",
+    "R7.8"
+   ],
+   "nota": "R7.8 da los momentos (comienzo, final, intervalos); la nueva pregunta fija la cifra de 10 minutos, que el banco no pregunta."
+  },
+  {
+   "cid": "R5-04",
+   "tema": "R5",
+   "concepto": "Identificación de móviles y portables: /M, /MM, /MA, /P en grafía; palabras («portable») en fonía; no existe /AM",
+   "peso": 3,
+   "preguntas": [
+    "C-R5.9",
+    "R5.10"
+   ],
+   "cubre": [
+    "C-R5.9",
+    "C-R5.12",
+    "R5.10"
+   ],
+   "nota": "C-R5.9: abreviatura = grafía. R5.10: qué abreviatura es la de móvil marítima (trampa /AM). C-R5.12 (palabra = fonía) es la pregunta espejo, pero su clave es discutida (las recopilaciones dan la a); no se elige."
+  },
+  {
+   "cid": "R5-05",
+   "tema": "R5",
+   "concepto": "Añadir opcionalmente el distrito desde el que se emite: EA7/EA4KLM/M",
+   "peso": 2,
+   "preguntas": [
+    "R5.40"
+   ],
+   "cubre": [
+    "R5.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-06",
+   "tema": "R5",
+   "concepto": "QRP no forma parte del distintivo: se anuncia en la llamada (CQ QRP)",
+   "peso": 1,
+   "preguntas": [
+    "C-R5.21"
+   ],
+   "cubre": [
+    "C-R5.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-07",
+   "tema": "R5",
+   "concepto": "Visitante con licencia CEPT: prefijo del país visitado + distintivo propio (EA/M0BVM, EA3/OK2HM)",
+   "peso": 2,
+   "preguntas": [
+    "R5.39"
+   ],
+   "cubre": [
+    "R5.11",
+    "R5.39"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-08",
+   "tema": "R5",
+   "concepto": "Licencia CEPT en telefonía: entre el prefijo y el distintivo se dice «stroke»",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.5"
+   ],
+   "cubre": [
+    "F-R5.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-09",
+   "tema": "R5",
+   "concepto": "Operar una estación ajena con permiso: identificación (clave de banco antiguo: propio distintivo precedido del del titular)",
+   "peso": 1,
+   "preguntas": [
+    "R5.27"
+   ],
+   "cubre": [
+    "R5.27"
+   ],
+   "nota": "Clave de banco antiguo (Orden ITC/1791/2006); la hoja indica que hoy se usa el propio distintivo. Ver problemas."
+  },
+  {
+   "cid": "R5-10",
+   "tema": "R5",
+   "concepto": "Composición del distintivo: prefijo + distrito + sufijo",
+   "peso": 3,
+   "preguntas": [
+    "R5.1"
+   ],
+   "cubre": [
+    "R5.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-11",
+   "tema": "R5",
+   "concepto": "El distintivo tiene como máximo seis caracteres",
+   "peso": 2,
+   "preguntas": [
+    "R5.12"
+   ],
+   "cubre": [
+    "R5.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-12",
+   "tema": "R5",
+   "concepto": "Prefijos de España: series EA–EH (y AM–AO); habituales EA, EB y EC",
+   "peso": 3,
+   "preguntas": [
+    "R5.31"
+   ],
+   "cubre": [
+    "R5.2",
+    "R5.31"
+   ],
+   "nota": "R5.31 trae la trampa EI/EJ (Irlanda)."
+  },
+  {
+   "cid": "R5-13",
+   "tema": "R5",
+   "concepto": "Las series de prefijos las atribuye la UIT (Reglamento de Radiocomunicaciones) y cada país asigna dentro de ellas",
+   "peso": 2,
+   "preguntas": [
+    "C-R5.14"
+   ],
+   "cubre": [
+    "C-R5.14"
+   ],
+   "nota": "Clave razonada c; las recopilaciones de exámenes reales dan la d (CEPT). Conviene conocer ambas. Ver problemas."
+  },
+  {
+   "cid": "R5-14",
+   "tema": "R5",
+   "concepto": "Estructura internacional: la parte de nacionalidad tiene hasta tres caracteres, letras o cifras",
+   "peso": 1,
+   "preguntas": [
+    "C-R5.15"
+   ],
+   "cubre": [
+    "C-R5.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-15",
+   "tema": "R5",
+   "concepto": "Prefijos de los países vecinos: Portugal CT, Francia F, Andorra C3",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.8",
+    "F-R5.10"
+   ],
+   "cubre": [
+    "F-R5.8",
+    "F-R5.9",
+    "F-R5.10"
+   ],
+   "nota": "Dos preguntas porque cada prefijo es un dato distinto; F-R5.10 enseña además que un prefijo puede llevar cifras."
+  },
+  {
+   "cid": "R5-16",
+   "tema": "R5",
+   "concepto": "Prefijos de otros países europeos: Alemania DL, Italia I, Reino Unido G/M",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.13",
+    "F-R5.11"
+   ],
+   "cubre": [
+    "F-R5.11",
+    "F-R5.12",
+    "F-R5.13"
+   ],
+   "nota": "F-R5.13 enlaza con M0BVM (ejemplo CEPT del banco); F-R5.11 enseña la trampa de la inicial (D no es Dinamarca)."
+  },
+  {
+   "cid": "R5-17",
+   "tema": "R5",
+   "concepto": "La cifra es la del distrito de residencia del titular al otorgar la autorización",
+   "peso": 2,
+   "preguntas": [
+    "R5.24"
+   ],
+   "cubre": [
+    "R5.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-18",
+   "tema": "R5",
+   "concepto": "Mudarse de distrito: se conserva el distintivo (único e inmodificable); solo se comunica el domicilio",
+   "peso": 2,
+   "preguntas": [
+    "R5.22"
+   ],
+   "cubre": [
+    "R5.22",
+    "R5.47"
+   ],
+   "nota": "Banco antiguo (Orden ITC/1791/2006): «no puede mantener su distintivo» / «podrá solicitar mantener su sufijo». Conviene conocer ambas versiones."
+  },
+  {
+   "cid": "R5-19",
+   "tema": "R5",
+   "concepto": "Hay nueve distritos geográficos (1 a 9); el 0 es especial",
+   "peso": 1,
+   "preguntas": [
+    "R5.7"
+   ],
+   "cubre": [
+    "R5.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-20",
+   "tema": "R5",
+   "concepto": "Distrito 0: solo para actos inaugurados o visitados por el Rey",
+   "peso": 2,
+   "preguntas": [
+    "R5.36"
+   ],
+   "cubre": [
+    "R5.6",
+    "R5.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-21",
+   "tema": "R5",
+   "concepto": "Distritos insulares y ciudades autónomas: 6 Baleares, 8 Canarias, 9 Ceuta y Melilla",
+   "peso": 3,
+   "preguntas": [
+    "R5.35",
+    "R5.34"
+   ],
+   "cubre": [
+    "R5.3",
+    "R5.4",
+    "R5.34",
+    "R5.35"
+   ],
+   "nota": "R5.35 enseña la trampa de invertir 6 y 8; R5.34 fija el 9."
+  },
+  {
+   "cid": "R5-22",
+   "tema": "R5",
+   "concepto": "Distritos peninsulares: asignar provincia a su cifra y leer la cifra de un distintivo",
+   "peso": 3,
+   "preguntas": [
+    "C-R5.5",
+    "C-R5.20"
+   ],
+   "cubre": [
+    "C-R5.5",
+    "C-R5.6",
+    "C-R5.10",
+    "C-R5.13",
+    "C-R5.16",
+    "C-R5.17",
+    "C-R5.18",
+    "C-R5.20",
+    "R5.5",
+    "R5.25",
+    "R5.26"
+   ],
+   "nota": "C-R5.5 obliga a dominar el distrito 4 entero (varias provincias a la vez); C-R5.20 es el sentido inverso: leer el distrito en un distintivo."
+  },
+  {
+   "cid": "R5-23",
+   "tema": "R5",
+   "concepto": "Excepciones de distrito: Albacete es del 5 y La Rioja del 1",
+   "peso": 2,
+   "preguntas": [
+    "C-R5.8",
+    "R5.33"
+   ],
+   "cubre": [
+    "C-R5.8",
+    "R5.33"
+   ],
+   "nota": "Son las dos excepciones a la intuición por comunidad autónoma; cada una es un dato distinto."
+  },
+  {
+   "cid": "R5-24",
+   "tema": "R5",
+   "concepto": "Sufijo: hasta tres letras, por orden alfabético y turno riguroso de expedición",
+   "peso": 2,
+   "preguntas": [
+    "R5.13"
+   ],
+   "cubre": [
+    "R5.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-25",
+   "tema": "R5",
+   "concepto": "Sufijos excluidos: DDD, PAN, SOS, TTT, XXX y la serie QAA–QZZ",
+   "peso": 3,
+   "preguntas": [
+    "C-R5.2",
+    "C-R5.19"
+   ],
+   "cubre": [
+    "C-R5.1",
+    "C-R5.2",
+    "C-R5.19",
+    "R5.23",
+    "R5.37"
+   ],
+   "nota": "C-R5.2 incluye la serie Q (QRS); C-R5.19 enseña que no se asignan a nadie (ni colectivas ni desatendidas)."
+  },
+  {
+   "cid": "R5-26",
+   "tema": "R5",
+   "concepto": "Estaciones automáticas desatendidas: prefijo ED; sufijo con Y (analógica) o Z (digital)",
+   "peso": 3,
+   "preguntas": [
+    "C-R5.7",
+    "R5.9"
+   ],
+   "cubre": [
+    "C-R5.7",
+    "R5.8",
+    "R5.9",
+    "R5.30"
+   ],
+   "nota": "C-R5.7 lee un distintivo completo (ED3ZHO, trampa de Zaragoza); R5.9 fija el orden Y analógica / Z digital."
+  },
+  {
+   "cid": "R5-27",
+   "tema": "R5",
+   "concepto": "Estaciones colectivas: distintivo propio; sufijos UR (asociaciones), RC y RK (radioclubes)",
+   "peso": 2,
+   "preguntas": [
+    "R5.20",
+    "F-R5.6"
+   ],
+   "cubre": [
+    "R5.20",
+    "F-R5.6"
+   ],
+   "nota": "R5.20: los sufijos reservados; F-R5.6: que cada colectiva lleva su distintivo (no el del presidente ni el del operador)."
+  },
+  {
+   "cid": "R5-28",
+   "tema": "R5",
+   "concepto": "Sufijo de dos letras: 5 años de autorización, 5 de práctica internacional y 5 sin expediente sancionador; no reservado a colectivas",
+   "peso": 2,
+   "preguntas": [
+    "C-R5.4",
+    "R5.19"
+   ],
+   "cubre": [
+    "C-R5.4",
+    "R5.19",
+    "R5.29"
+   ],
+   "nota": "R5.19 es el enunciado en negativo (señale la falsa) con la trampa de las colectivas."
+  },
+  {
+   "cid": "R5-29",
+   "tema": "R5",
+   "concepto": "Sufijo de una letra: reservado también para concursos internacionales de alta competitividad",
+   "peso": 2,
+   "preguntas": [
+    "R5.28"
+   ],
+   "cubre": [
+    "R5.18",
+    "R5.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-30",
+   "tema": "R5",
+   "concepto": "Sufijo de una letra como distintivo permanente: 15 años de práctica internacional",
+   "peso": 1,
+   "preguntas": [
+    "N-R5-03"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R5-31",
+   "tema": "R5",
+   "concepto": "Res. 29-07-2026: la práctica para el sufijo de una letra se acredita con 2 QSL por año en 15 de los últimos 20",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.1"
+   ],
+   "cubre": [
+    "F-R5.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-32",
+   "tema": "R5",
+   "concepto": "Res. 29-07-2026: asignación por distritos y orden de presentación, hasta 10 preferencias; el nuevo distintivo sustituye al anterior",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.3"
+   ],
+   "cubre": [
+    "F-R5.2",
+    "F-R5.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-33",
+   "tema": "R5",
+   "concepto": "Sufijos de cuatro o más letras: excepcionales, para usos temporales en eventos de relevancia especial",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.4"
+   ],
+   "cubre": [
+    "F-R5.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-34",
+   "tema": "R5",
+   "concepto": "Más de una cifra en el distintivo: acontecimientos relevantes identificados por sus fechas (aniversarios)",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.16"
+   ],
+   "cubre": [
+    "F-R5.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-35",
+   "tema": "R5",
+   "concepto": "Reasignación de distintivos: agotadas las combinaciones, salvo anterior titular o familiares de primer grado por fallecimiento",
+   "peso": 2,
+   "preguntas": [
+    "R5.21"
+   ],
+   "cubre": [
+    "R5.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-36",
+   "tema": "R5",
+   "concepto": "Prefijos temporales ED, EE y EF: eventos ordinarios; mantienen el resto del distintivo",
+   "peso": 3,
+   "preguntas": [
+    "C-R5.11",
+    "R5.15"
+   ],
+   "cubre": [
+    "C-R5.11",
+    "R5.15",
+    "R5.16",
+    "R5.32"
+   ],
+   "nota": "C-R5.11: qué indica EE; R5.15: lo que los distingue de EG, EH, AM, AN y AO (sufijo propio)."
+  },
+  {
+   "cid": "R5-37",
+   "tema": "R5",
+   "concepto": "Prefijos EG y EH: concursos, eventos internacionales y eventos relevantes locales, regionales o autonómicos",
+   "peso": 2,
+   "preguntas": [
+    "R5.14"
+   ],
+   "cubre": [
+    "R5.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-38",
+   "tema": "R5",
+   "concepto": "Prefijos AM y AN: eventos relevantes de ámbito nacional",
+   "peso": 1,
+   "preguntas": [
+    "N-R5-01"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R5-39",
+   "tema": "R5",
+   "concepto": "Prefijo AO: eventos relevantes de ámbito internacional",
+   "peso": 2,
+   "preguntas": [
+    "R5.38"
+   ],
+   "cubre": [
+    "R5.17",
+    "R5.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-40",
+   "tema": "R5",
+   "concepto": "Prefijo AO optativo para españoles en zonas no adscritas a soberanías nacionales",
+   "peso": 1,
+   "preguntas": [
+    "F-R5.14"
+   ],
+   "cubre": [
+    "F-R5.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-41",
+   "tema": "R5",
+   "concepto": "Para qué se pide un distintivo temporal: concursos, experimentos, ensayos o conmemoraciones",
+   "peso": 1,
+   "preguntas": [
+    "R5.48"
+   ],
+   "cubre": [
+    "R5.48"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-42",
+   "tema": "R5",
+   "concepto": "Solicitud de distintivo temporal: una por evento, a la Administración; las asociaciones solo proponen",
+   "peso": 2,
+   "preguntas": [
+    "C-R5.3"
+   ],
+   "cubre": [
+    "C-R5.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-43",
+   "tema": "R5",
+   "concepto": "Distintivo temporal: máximo 30 días al año por sufijo y peticionario (excepción: una letra en concursos, hasta 2 años)",
+   "peso": 2,
+   "preguntas": [
+    "F-R5.15"
+   ],
+   "cubre": [
+    "F-R5.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-44",
+   "tema": "R5",
+   "concepto": "Radiobaliza: estación desatendida que emite automáticamente su identificación",
+   "peso": 1,
+   "preguntas": [
+    "R5.46"
+   ],
+   "cubre": [
+    "R5.46"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R5-45",
+   "tema": "R5",
+   "concepto": "Acceso a los repetidores: libre para todos los radioaficionados",
+   "peso": 1,
+   "preguntas": [
+    "R5.49"
+   ],
+   "cubre": [
+    "R5.49"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-01",
+   "tema": "R6",
+   "concepto": "Qué es un plan de bandas: reparto recomendado de cada banda por modo y anchura de banda; instrumento básico de ordenación",
+   "peso": 3,
+   "preguntas": [
+    "C-R6.4",
+    "R6.14"
+   ],
+   "cubre": [
+    "C-R6.4",
+    "R6.2",
+    "R6.5",
+    "R6.14"
+   ],
+   "nota": "C-R6.4 (banco público) recoge el objetivo; R6.14 el criterio de reparto (modo y anchura), que es el «objetivo» del alcance."
+  },
+  {
+   "cid": "R6-02",
+   "tema": "R6",
+   "concepto": "Naturaleza de los planes: acuerdos voluntarios y guía mundial, pero la Orden obliga a usar el de la Región 1 como norma general en España",
+   "peso": 3,
+   "preguntas": [
+    "C-R6.3",
+    "R6.13"
+   ],
+   "cubre": [
+    "C-R6.3",
+    "R6.1",
+    "R6.13"
+   ],
+   "nota": "C-R6.3: guía mundial y Región 1 para toda España; R6.13: no tienen rango de ley (trampa de la CEPT y del CNAF)."
+  },
+  {
+   "cid": "R6-03",
+   "tema": "R6",
+   "concepto": "Los planes parten de las atribuciones del Reglamento de Radiocomunicaciones y hay uno por Región de la UIT",
+   "peso": 2,
+   "preguntas": [
+    "R6.4"
+   ],
+   "cubre": [
+    "R6.3",
+    "R6.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-04",
+   "tema": "R6",
+   "concepto": "La IARU es la federación de asociaciones nacionales de radioaficionados (URE en España)",
+   "peso": 1,
+   "preguntas": [
+    "N-R6-01"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R6-05",
+   "tema": "R6",
+   "concepto": "España pertenece a la Región 1 de la UIT",
+   "peso": 3,
+   "preguntas": [
+    "R6.8"
+   ],
+   "cubre": [
+    "R6.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-06",
+   "tema": "R6",
+   "concepto": "Composición de las Regiones: 1 Europa y África; 2 América; 3 resto de Asia y Oceanía",
+   "peso": 2,
+   "preguntas": [
+    "R6.11"
+   ],
+   "cubre": [
+    "R6.10",
+    "R6.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-07",
+   "tema": "R6",
+   "concepto": "Por qué hay Regiones: atribuir bandas por zonas; por eso las bandas difieren entre España y EE. UU.",
+   "peso": 2,
+   "preguntas": [
+    "R6.12"
+   ],
+   "cubre": [
+    "R6.9",
+    "R6.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-08",
+   "tema": "R6",
+   "concepto": "Frecuencias de llamada: punto de encuentro de un modo, no de uso exclusivo",
+   "peso": 2,
+   "preguntas": [
+    "R6.6"
+   ],
+   "cubre": [
+    "R6.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-09",
+   "tema": "R6",
+   "concepto": "Frecuencia de llamada de FM en 2 m: 145,500 MHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.9"
+   ],
+   "cubre": [
+    "F-R6.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-10",
+   "tema": "R6",
+   "concepto": "Frecuencia de llamada de FM en 70 cm: 433,500 MHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.11"
+   ],
+   "cubre": [
+    "F-R6.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-11",
+   "tema": "R6",
+   "concepto": "Canal de llamada de FM en 10 m: 29,600 MHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.14"
+   ],
+   "cubre": [
+    "F-R6.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-12",
+   "tema": "R6",
+   "concepto": "Repetidores de 2 m: entrada 145,000–145,1875 MHz, salida 600 kHz más arriba",
+   "peso": 3,
+   "preguntas": [
+    "R6.7",
+    "C-R6.2"
+   ],
+   "cubre": [
+    "R6.7",
+    "C-R6.2",
+    "F-R6.10"
+   ],
+   "nota": "R6.7 pregunta la entrada; C-R6.2 (banco público) la salida, y obliga a sumar los 600 kHz."
+  },
+  {
+   "cid": "R6-13",
+   "tema": "R6",
+   "concepto": "Repetidores de 70 cm: entrada 433,000–433,375 MHz, desplazamiento 1,6 MHz",
+   "peso": 2,
+   "preguntas": [
+    "C-R6.1",
+    "F-R6.13"
+   ],
+   "cubre": [
+    "C-R6.1",
+    "F-R6.13"
+   ],
+   "nota": "C-R6.1 (banco público) el segmento; F-R6.13 el desplazamiento de 1,6 MHz frente a los 600 kHz de 2 m."
+  },
+  {
+   "cid": "R6-14",
+   "tema": "R6",
+   "concepto": "Centros de actividad de SSB: 144,300 MHz (2 m) y 432,200 MHz (70 cm)",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.8"
+   ],
+   "cubre": [
+    "F-R6.8",
+    "F-R6.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-15",
+   "tema": "R6",
+   "concepto": "Balizas en 2 m: segmento 144,400–144,491 MHz",
+   "peso": 1,
+   "preguntas": [
+    "N-R6-02"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R6-16",
+   "tema": "R6",
+   "concepto": "Balizas en HF: 14.099–14.101 kHz exclusivo del International Beacon Project",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.6"
+   ],
+   "cubre": [
+    "F-R6.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-17",
+   "tema": "R6",
+   "concepto": "Convenio de banda lateral: LSB por debajo de 10 MHz, USB por encima; excepción 60 m en USB",
+   "peso": 3,
+   "preguntas": [
+    "C-R6.5",
+    "F-R6.7"
+   ],
+   "cubre": [
+    "C-R6.5",
+    "F-R6.7"
+   ],
+   "nota": "C-R6.5 (banco público) la regla; F-R6.7 la excepción de 5 MHz, que es justo la trampa de aplicar la regla."
+  },
+  {
+   "cid": "R6-18",
+   "tema": "R6",
+   "concepto": "80 m: segmento de CW 3.500–3.570 kHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.4"
+   ],
+   "cubre": [
+    "F-R6.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-19",
+   "tema": "R6",
+   "concepto": "20 m: 14.070–14.099 kHz para modos digitales de banda estrecha",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.5"
+   ],
+   "cubre": [
+    "F-R6.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-20",
+   "tema": "R6",
+   "concepto": "Anchura máxima de los segmentos: 2.700 Hz para SSB (200 Hz CW, 500 Hz digimodos)",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.2"
+   ],
+   "cubre": [
+    "F-R6.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-21",
+   "tema": "R6",
+   "concepto": "Las frecuencias del plan HF son las realmente transmitidas, no la del dial",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.3"
+   ],
+   "cubre": [
+    "F-R6.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-22",
+   "tema": "R6",
+   "concepto": "Bandas sin concursos: 60, 30, 17 y 12 m",
+   "peso": 1,
+   "preguntas": [
+    "F-R6.1"
+   ],
+   "cubre": [
+    "F-R6.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-23",
+   "tema": "R6",
+   "concepto": "50 MHz: restricción provincial histórica (Segovia no; Almería sí en el banco original)",
+   "peso": 1,
+   "preguntas": [
+    "R6.17"
+   ],
+   "cubre": [
+    "R6.17"
+   ],
+   "nota": "Pregunta histórica invertida respecto al banco original (clave original: Almería)."
+  },
+  {
+   "cid": "R6-24",
+   "tema": "R6",
+   "concepto": "Objetivo de un repetidor: ampliar el alcance de las comunicaciones",
+   "peso": 1,
+   "preguntas": [
+    "R6.15"
+   ],
+   "cubre": [
+    "R6.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R6-25",
+   "tema": "R6",
+   "concepto": "Los repetidores se autorizan solo a asociaciones legalmente reconocidas",
+   "peso": 2,
+   "preguntas": [
+    "R6.16"
+   ],
+   "cubre": [
+    "R6.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-01",
+   "tema": "R7",
+   "concepto": "Definición del servicio de aficionados: instrucción individual, intercomunicación y estudios técnicos, sin lucro",
+   "peso": 3,
+   "preguntas": [
+    "R7.10"
+   ],
+   "cubre": [
+    "R7.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-02",
+   "tema": "R7",
+   "concepto": "Contenido: temas del servicio y observaciones de carácter personal",
+   "peso": 3,
+   "preguntas": [
+    "R7.11"
+   ],
+   "cubre": [
+    "R7.4",
+    "R7.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-03",
+   "tema": "R7",
+   "concepto": "Prohibidos fines comerciales, publicitarios o lucrativos; permitidos mensajes técnicos sobre ensayos",
+   "peso": 2,
+   "preguntas": [
+    "R7.5"
+   ],
+   "cubre": [
+    "R7.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-04",
+   "tema": "R7",
+   "concepto": "Mensajes de terceros: no permitidos con carácter general (salvo emergencia)",
+   "peso": 2,
+   "preguntas": [
+    "R7.9"
+   ],
+   "cubre": [
+    "R7.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-05",
+   "tema": "R7",
+   "concepto": "Lenguaje claro: sin códigos que oculten el significado (Q y abreviaturas sí)",
+   "peso": 3,
+   "preguntas": [
+    "R7.12"
+   ],
+   "cubre": [
+    "R7.3",
+    "R7.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-06",
+   "tema": "R7",
+   "concepto": "Escuchar antes de transmitir (QRL?)",
+   "peso": 2,
+   "preguntas": [
+    "R7.1"
+   ],
+   "cubre": [
+    "R7.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-07",
+   "tema": "R7",
+   "concepto": "Interferir deliberadamente: nunca está permitido",
+   "peso": 2,
+   "preguntas": [
+    "R9.23"
+   ],
+   "cubre": [
+    "R7.2",
+    "R9.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-08",
+   "tema": "R7",
+   "concepto": "Decir «cambio» es recomendable, no obligatorio",
+   "peso": 2,
+   "preguntas": [
+    "R7.6"
+   ],
+   "cubre": [
+    "R7.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-09",
+   "tema": "R7",
+   "concepto": "Deletrear con el alfabeto fonético internacional; no inventar palabras",
+   "peso": 2,
+   "preguntas": [
+    "R7.7"
+   ],
+   "cubre": [
+    "R7.7",
+    "R7.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-10",
+   "tema": "R7",
+   "concepto": "Llamada dirigida: distintivo de la estación llamada, «de», el propio",
+   "peso": 1,
+   "preguntas": [
+    "F-R7.4"
+   ],
+   "cubre": [
+    "F-R7.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-11",
+   "tema": "R7",
+   "concepto": "Nadie es dueño de una frecuencia",
+   "peso": 1,
+   "preguntas": [
+    "N-R7-01"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R7-12",
+   "tema": "R7",
+   "concepto": "La tarjeta QSL confirma el contacto",
+   "peso": 1,
+   "preguntas": [
+    "N-R7-02"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R7-13",
+   "tema": "R7",
+   "concepto": "Código SINPO: intensidad, interferencias, ruido, propagación y calidad global",
+   "peso": 1,
+   "preguntas": [
+    "F-R7.5"
+   ],
+   "cubre": [
+    "F-R7.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-14",
+   "tema": "R7",
+   "concepto": "Código del Radioaficionado: considerado, leal, progresista, amistoso, equilibrado y patriota",
+   "peso": 1,
+   "preguntas": [
+    "F-R7.2"
+   ],
+   "cubre": [
+    "F-R7.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-15",
+   "tema": "R7",
+   "concepto": "Autorregulación (self-policing): autodisciplina, sin policía propia",
+   "peso": 1,
+   "preguntas": [
+    "F-R7.3"
+   ],
+   "cubre": [
+    "F-R7.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-16",
+   "tema": "R7",
+   "concepto": "Seguridad de la estación: el titular subsana de inmediato cualquier anomalía (art. 31)",
+   "peso": 1,
+   "preguntas": [
+    "F-R7.1"
+   ],
+   "cubre": [
+    "F-R7.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-17",
+   "tema": "R7",
+   "concepto": "Antenas: garantizar el derecho de terceros a no sufrir daños",
+   "peso": 1,
+   "preguntas": [
+    "R7.17"
+   ],
+   "cubre": [
+    "R7.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-18",
+   "tema": "R7",
+   "concepto": "Autorización especial que causa interferencias: suspender de inmediato",
+   "peso": 2,
+   "preguntas": [
+    "R7.18"
+   ],
+   "cubre": [
+    "R7.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-19",
+   "tema": "R7",
+   "concepto": "Objeto de la prueba de capacitación: evaluar la capacidad para operar",
+   "peso": 1,
+   "preguntas": [
+    "R7.14"
+   ],
+   "cubre": [
+    "R7.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-20",
+   "tema": "R7",
+   "concepto": "El antiguo diploma de operador equivale hoy al certificado HAREC",
+   "peso": 1,
+   "preguntas": [
+    "R7.15"
+   ],
+   "cubre": [
+    "R7.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-21",
+   "tema": "R7",
+   "concepto": "Licencia CEPT: operar en los países que la reconocen, con su normativa",
+   "peso": 2,
+   "preguntas": [
+    "R7.16"
+   ],
+   "cubre": [
+    "R7.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R7-22",
+   "tema": "R7",
+   "concepto": "Emitir música está prohibido: el servicio de aficionados no es radiodifusión",
+   "peso": 2,
+   "preguntas": [
+    "R9.26"
+   ],
+   "cubre": [
+    "R9.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-01",
+   "tema": "R9",
+   "concepto": "Inspección: el Ministerio competente, mediante la inspección de telecomunicaciones y las Jefaturas Provinciales",
+   "peso": 3,
+   "preguntas": [
+    "R9.8"
+   ],
+   "cubre": [
+    "R9.8",
+    "R9.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-02",
+   "tema": "R9",
+   "concepto": "Potestad sancionadora: Administración General del Estado (titular de la Secretaría de Estado de Telecomunicaciones)",
+   "peso": 2,
+   "preguntas": [
+    "R9.16",
+    "F-R9.3"
+   ],
+   "cubre": [
+    "R9.16",
+    "F-R9.3"
+   ],
+   "nota": "R9.16: Estado frente a CC. AA., ayuntamientos y asociaciones; F-R9.3: el órgano concreto (no la CNMC ni los juzgados)."
+  },
+  {
+   "cid": "R9-03",
+   "tema": "R9",
+   "concepto": "Los inspectores tienen la consideración de autoridad pública",
+   "peso": 1,
+   "preguntas": [
+    "R9.31"
+   ],
+   "cubre": [
+    "R9.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-04",
+   "tema": "R9",
+   "concepto": "Obligación de permitir la inspección; solo el domicilio protegido exige consentimiento o autorización judicial",
+   "peso": 2,
+   "preguntas": [
+    "R9.14",
+    "F-R9.7"
+   ],
+   "cubre": [
+    "R9.14",
+    "F-R9.7"
+   ],
+   "nota": "R9.14 la obligación general; F-R9.7 la excepción del domicilio."
+  },
+  {
+   "cid": "R9-05",
+   "tema": "R9",
+   "concepto": "Las infracciones se tipifican en la Ley General de Telecomunicaciones",
+   "peso": 2,
+   "preguntas": [
+    "R9.7"
+   ],
+   "cubre": [
+    "R9.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-06",
+   "tema": "R9",
+   "concepto": "Ley 11/2022: art. 106 muy graves, 107 graves, 108 leves",
+   "peso": 2,
+   "preguntas": [
+    "C-R9.3"
+   ],
+   "cubre": [
+    "C-R9.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-07",
+   "tema": "R9",
+   "concepto": "Muy grave: interceptar sin autorización telecomunicaciones no destinadas al público",
+   "peso": 3,
+   "preguntas": [
+    "R9.1"
+   ],
+   "cubre": [
+    "R9.1",
+    "R9.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-08",
+   "tema": "R9",
+   "concepto": "Grave: la mera producción de interferencias",
+   "peso": 3,
+   "preguntas": [
+    "R9.2"
+   ],
+   "cubre": [
+    "R9.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-09",
+   "tema": "R9",
+   "concepto": "Muy grave: la producción deliberada de interferencias",
+   "peso": 2,
+   "preguntas": [
+    "F-R9.8"
+   ],
+   "cubre": [
+    "F-R9.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-10",
+   "tema": "R9",
+   "concepto": "Muy grave: no atender el requerimiento de cese de emisiones",
+   "peso": 2,
+   "preguntas": [
+    "R9.22"
+   ],
+   "cubre": [
+    "R9.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-11",
+   "tema": "R9",
+   "concepto": "Muy grave: uso del espectro no adecuado al CNAF",
+   "peso": 1,
+   "preguntas": [
+    "F-R9.9"
+   ],
+   "cubre": [
+    "F-R9.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-12",
+   "tema": "R9",
+   "concepto": "Grave: negativa u obstrucción a la inspección",
+   "peso": 3,
+   "preguntas": [
+    "R9.3"
+   ],
+   "cubre": [
+    "R9.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-13",
+   "tema": "R9",
+   "concepto": "Grave: superar los límites de exposición o no señalizar/vallar",
+   "peso": 1,
+   "preguntas": [
+    "F-R9.10"
+   ],
+   "cubre": [
+    "F-R9.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-14",
+   "tema": "R9",
+   "concepto": "Distintivo falso o ajeno: sancionable; grave en el banco",
+   "peso": 2,
+   "preguntas": [
+    "C-R9.2"
+   ],
+   "cubre": [
+    "C-R9.2",
+    "R9.15"
+   ],
+   "nota": "Clave de la entrada: grave; las recopilaciones dan «muy grave» y la Ley 11/2022 ya no la tipifica con esas palabras. Ver problemas."
+  },
+  {
+   "cid": "R9-15",
+   "tema": "R9",
+   "concepto": "Leve: comunicarse utilizando estaciones no autorizadas",
+   "peso": 3,
+   "preguntas": [
+    "R9.4"
+   ],
+   "cubre": [
+    "R9.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-16",
+   "tema": "R9",
+   "concepto": "Leve: no facilitar los datos requeridos o retrasarlos",
+   "peso": 2,
+   "preguntas": [
+    "R9.9"
+   ],
+   "cubre": [
+    "R9.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-17",
+   "tema": "R9",
+   "concepto": "Leve: instalar una estación de radioaficionado sin autorización",
+   "peso": 1,
+   "preguntas": [
+    "F-R9.11"
+   ],
+   "cubre": [
+    "F-R9.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-18",
+   "tema": "R9",
+   "concepto": "Leve: emisión no autorizada, salvo que sea grave o muy grave",
+   "peso": 1,
+   "preguntas": [
+    "F-R9.12"
+   ],
+   "cubre": [
+    "F-R9.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-19",
+   "tema": "R9",
+   "concepto": "No es infracción comunicar con otra estación de la que se es titular",
+   "peso": 2,
+   "preguntas": [
+    "C-R9.1"
+   ],
+   "cubre": [
+    "C-R9.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-20",
+   "tema": "R9",
+   "concepto": "No es infracción no llevar libro de registro (no existe la obligación)",
+   "peso": 2,
+   "preguntas": [
+    "R9.28"
+   ],
+   "cubre": [
+    "R9.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-21",
+   "tema": "R9",
+   "concepto": "Emitir fuera de las bandas autorizadas es infracción",
+   "peso": 1,
+   "preguntas": [
+    "R9.27"
+   ],
+   "cubre": [
+    "R9.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-22",
+   "tema": "R9",
+   "concepto": "Multas máximas: 20 M€ muy graves y 2 M€ graves",
+   "peso": 3,
+   "preguntas": [
+    "R9.5"
+   ],
+   "cubre": [
+    "R9.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-23",
+   "tema": "R9",
+   "concepto": "Multa máxima de las leves: 100 000 €",
+   "peso": 2,
+   "preguntas": [
+    "F-R9.1"
+   ],
+   "cubre": [
+    "F-R9.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-24",
+   "tema": "R9",
+   "concepto": "Prescripción: 3 años muy graves, 2 graves, 1 leves",
+   "peso": 3,
+   "preguntas": [
+    "R9.10",
+    "R9.6"
+   ],
+   "cubre": [
+    "R9.6",
+    "R9.10",
+    "R9.11",
+    "R9.12"
+   ],
+   "nota": "R9.10 pregunta la infracción; R9.6 la sanción, que prescribe con la misma escala."
+  },
+  {
+   "cid": "R9-25",
+   "tema": "R9",
+   "concepto": "Sanciones accesorias: cese, ajuste, precintado o incautación de equipos, clausura",
+   "peso": 2,
+   "preguntas": [
+    "R9.17"
+   ],
+   "cubre": [
+    "R9.17",
+    "F-R9.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-26",
+   "tema": "R9",
+   "concepto": "Reiteración: 2 o más sanciones firmes del mismo tipo en 3 años; la leve pasa a grave",
+   "peso": 2,
+   "preguntas": [
+    "R9.29",
+    "F-R9.6"
+   ],
+   "cubre": [
+    "R9.29",
+    "F-R9.6"
+   ],
+   "nota": "R9.29 el efecto; F-R9.6 el período de tres años."
+  },
+  {
+   "cid": "R9-27",
+   "tema": "R9",
+   "concepto": "El expediente se tramita por la LGT y el procedimiento administrativo común",
+   "peso": 1,
+   "preguntas": [
+    "R9.19"
+   ],
+   "cubre": [
+    "R9.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-28",
+   "tema": "R9",
+   "concepto": "Plazo para resolver el procedimiento sancionador: un año",
+   "peso": 1,
+   "preguntas": [
+    "F-R9.4"
+   ],
+   "cubre": [
+    "F-R9.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-29",
+   "tema": "R9",
+   "concepto": "Plazo mínimo de alegaciones: quince días hábiles",
+   "peso": 1,
+   "preguntas": [
+    "F-R9.5"
+   ],
+   "cubre": [
+    "F-R9.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-30",
+   "tema": "R9",
+   "concepto": "Interferencias comprobadas por la inspección: cese de las emisiones hasta corregir la causa",
+   "peso": 2,
+   "preguntas": [
+    "R9.20"
+   ],
+   "cubre": [
+    "R9.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-31",
+   "tema": "R9",
+   "concepto": "Titular que sabe que interfiere: medidas técnicas razonables a su costa, sin esperar requerimiento",
+   "peso": 2,
+   "preguntas": [
+    "R9.21"
+   ],
+   "cubre": [
+    "R9.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-32",
+   "tema": "R9",
+   "concepto": "Revocación: fines comerciales sí; no tener estación no es causa",
+   "peso": 2,
+   "preguntas": [
+    "R9.24"
+   ],
+   "cubre": [
+    "R9.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-33",
+   "tema": "R9",
+   "concepto": "Cancelación de la autorización a petición del titular",
+   "peso": 1,
+   "preguntas": [
+    "R9.32"
+   ],
+   "cubre": [
+    "R9.32"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-34",
+   "tema": "R9",
+   "concepto": "Portadora sin modular: solo para ensayos breves",
+   "peso": 1,
+   "preguntas": [
+    "R9.25"
+   ],
+   "cubre": [
+    "R9.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R9-35",
+   "tema": "R9",
+   "concepto": "Modificaciones permanentes de la estación: deben comunicarse",
+   "peso": 1,
+   "preguntas": [
+    "R9.30"
+   ],
+   "cubre": [
+    "R9.30"
+   ],
+   "nota": ""
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-R5-01",
+   "cid": "R5-38",
+   "tema": "R5",
+   "enunciado": "Los prefijos de uso temporal AM y AN se autorizan para:",
+   "opciones": [
+    "eventos relevantes de ámbito internacional",
+    "concursos, experimentos y demostraciones de ámbito local manteniendo el resto del distintivo",
+    "eventos relevantes de ámbito nacional",
+    "las estaciones automáticas desatendidas"
+   ],
+   "clave": "c",
+   "sol": "La Orden IET/1311/2013 escalona los prefijos temporales según el rango del evento: AM y AN, eventos relevantes de ámbito nacional, con sufijo propio. AO es el de los eventos relevantes de ámbito internacional, que es la confusión típica. ED, EE y EF son los de eventos ordinarios y mantienen el resto del distintivo; ED es además el prefijo permanente de las desatendidas.",
+   "fuente": "chapters/r05.typ:124"
+  },
+  {
+   "nid": "N-R5-02",
+   "cid": "R5-03",
+   "tema": "R5",
+   "enunciado": "En una emisión de larga duración, además de al comienzo y al final, la estación de aficionado debe transmitir su distintivo de llamada, según la Orden IET/1311/2013, al menos cada:",
+   "opciones": [
+    "5 minutos",
+    "10 minutos",
+    "15 minutos",
+    "30 minutos"
+   ],
+   "clave": "b",
+   "sol": "El art. 29 de la Orden exige el distintivo al comienzo y al final de cada emisión y, en las de larga duración, al menos cada diez minutos. Así quien sintoniza a mitad de la comunicación sabe quién transmite. No confundas con los 30 días al año de los distintivos temporales.",
+   "fuente": "cheatsheet.typ:1062"
+  },
+  {
+   "nid": "N-R5-03",
+   "cid": "R5-30",
+   "tema": "R5",
+   "enunciado": "Para que se le asigne un distintivo con sufijo de una sola letra, un radioaficionado con al menos cinco años de autorización española y sin expediente sancionador en los últimos cinco años debe acreditar una práctica en la radioafición internacional de:",
+   "opciones": [
+    "cinco años",
+    "diez años",
+    "quince años",
+    "veinticinco años"
+   ],
+   "clave": "c",
+   "sol": "El art. 27 de la Orden pide quince años de práctica internacional para el sufijo de una letra. Los cinco años son los que se exigen para el de dos letras, y por eso son la trampa típica. Diez y veinticinco años no figuran en la norma.",
+   "fuente": "chapters/r05.typ:110"
+  },
+  {
+   "nid": "N-R6-01",
+   "cid": "R6-04",
+   "tema": "R6",
+   "enunciado": "La IARU (Unión Internacional de Radioaficionados) es:",
+   "opciones": [
+    "el organismo de las Naciones Unidas que atribuye las bandas de frecuencias a los distintos servicios",
+    "la federación que agrupa a las asociaciones nacionales de radioaficionados, como la URE en España",
+    "el órgano de la CEPT que expide la licencia CEPT",
+    "la autoridad que inspecciona las estaciones de aficionado en España"
+   ],
+   "clave": "b",
+   "sol": "La IARU agrupa a las asociaciones nacionales de radioaficionados (en España, la URE) y, como la UIT, se organiza en tres Regiones, cada una con su plan de bandas. Quien atribuye las bandas a los servicios es la UIT, no la IARU; por eso sus planes son acuerdos voluntarios y no normas legales. La inspección corresponde al Estado.",
+   "fuente": "chapters/r06.typ:9"
+  },
+  {
+   "nid": "N-R6-02",
+   "cid": "R6-15",
+   "tema": "R6",
+   "enunciado": "En la banda de 2 m, el plan de bandas de la IARU para la Región 1 dedica el segmento 144,400–144,491 MHz a:",
+   "opciones": [
+    "la entrada de los repetidores de FM",
+    "las comunicaciones por satélite",
+    "las balizas",
+    "la frecuencia de llamada de FM"
+   ],
+   "clave": "c",
+   "sol": "El tramo 144,400–144,491 MHz es de balizas, justo por encima del de SSB (centro de actividad en 144,300 MHz). La entrada de los repetidores está en 145,000–145,1875 MHz, los satélites en la parte alta de la banda (145,806–146,000 MHz) y la llamada de FM en 145,500 MHz.",
+   "fuente": "cheatsheet.typ:1067"
+  },
+  {
+   "nid": "N-R7-01",
+   "cid": "R7-11",
+   "tema": "R7",
+   "enunciado": "Sobre el uso de las frecuencias por los radioaficionados, es correcto afirmar que:",
+   "opciones": [
+    "quien la usa a diario adquiere un derecho preferente sobre ella",
+    "las asociaciones pueden reservar frecuencias de uso exclusivo para sus socios",
+    "nadie es dueño de una frecuencia, y antes de usarla hay que escuchar si está ocupada",
+    "las frecuencias de llamada pertenecen a la primera estación que llama en ellas"
+   ],
+   "clave": "c",
+   "sol": "Ninguna estación es dueña de una frecuencia: se comparte, y por eso se escucha antes de transmitir (QRL?). Ni el uso habitual ni la pertenencia a una asociación dan derechos exclusivos. Las frecuencias de llamada son solo un punto de encuentro: tras el contacto se pasa a otra frecuencia libre.",
+   "fuente": "cheatsheet.typ:1071"
+  },
+  {
+   "nid": "N-R7-02",
+   "cid": "R7-12",
+   "tema": "R7",
+   "enunciado": "La tarjeta QSL que intercambian los radioaficionados sirve para:",
+   "opciones": [
+    "acreditar la autorización ante la inspección de telecomunicaciones",
+    "confirmar el contacto realizado entre dos estaciones",
+    "solicitar a la Administración un distintivo temporal",
+    "pedir a la otra estación que reduzca la potencia"
+   ],
+   "clave": "b",
+   "sol": "La QSL es la confirmación escrita de un contacto (QSL significa «acuso recibo»). Por eso se usa para diplomas y, según la Resolución de 2026, para acreditar la práctica internacional. No es un documento administrativo, y pedir que se reduzca la potencia es QRP.",
+   "fuente": "chapters/r07.typ:9"
+  }
+ ],
+ "descartadas": [],
+ "problemas": [
+  {
+   "id": "C-R5.12",
+   "detalle": "La entrada da clave c (palabra «portable» = fonía), coherente con el art. 29.2; las recopilaciones de exámenes reales (2007–2011) dan la a. Clave reconocida como dudosa en la propia solución; por eso no se elige."
+  },
+  {
+   "id": "C-R5.14",
+   "detalle": "La entrada da clave c (cada país elige dentro de las atribuciones de la UIT); las recopilaciones de exámenes reales dan la d (CEPT), que es técnicamente incorrecta. Conviene avisar de ambas."
+  },
+  {
+   "id": "C-R9.2",
+   "detalle": "La entrada da clave a (grave, Ley 9/2014 y Ley 32/2003); las recopilaciones dan «muy grave», y la Ley 11/2022 vigente ya no tipifica la identificación falsa con esas palabras. Clave insegura según la ley que se aplique."
+  },
+  {
+   "id": "R9.15",
+   "detalle": "Misma conducta que C-R9.2; la solución reconoce que hoy encajaría como leve (art. 108.5) y que el banco antiguo la da como grave."
+  },
+  {
+   "id": "R5.27",
+   "detalle": "La clave d (propio indicativo precedido del distintivo del titular) procede de la Orden ITC/1791/2006, derogada; la hoja de repaso dice que hoy se usa el propio distintivo. La solución lo reconoce; clave de banco, no de la norma vigente."
+  },
+  {
+   "id": "R5.22",
+   "detalle": "Doble criterio: la clave sigue la Orden vigente (se conserva el distintivo); los bancos antiguos dan como correcta «no podrá mantener su distintivo». Igual en R5.47 («podrá solicitar mantener su sufijo»)."
+  },
+  {
+   "id": "R6.17",
+   "detalle": "Pregunta histórica (restricción de 50 MHz derogada en 2010) e invertida respecto al banco original, cuya clave era Almería."
+  },
+  {
+   "id": "R5.15",
+   "detalle": "El banco público agrupa «EE, EF y EG» como prefijos que mantienen el resto del distintivo; el art. 27.1.a solo menciona ED, EE y EF. La solución lo advierte."
+  },
+  {
+   "id": "F-R9.2",
+   "detalle": "Marcada con figura: true en la entrada, pero el enunciado y las opciones no dependen de ninguna figura."
+  },
+  {
+   "id": "F-R6.8",
+   "detalle": "Su solución da las balizas de 2 m en 144,400–144,490 MHz; la hoja de repaso (cheatsheet.typ:1067) dice 144,400–144,491 MHz. Pequeña discrepancia de cifras."
+  }
+ ]
+}
