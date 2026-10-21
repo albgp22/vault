@@ -1,0 +1,1262 @@
+{
+ "lote": "L1",
+ "conceptos": [
+  {
+   "cid": "T1-01",
+   "tema": "T1",
+   "concepto": "Unidades de intensidad, tensión, resistencia y potencia (A, V, Ω, W)",
+   "peso": 3,
+   "preguntas": [
+    "C-T1.6"
+   ],
+   "cubre": [
+    "C-T1.2",
+    "C-T1.6",
+    "C-T1.21",
+    "T1.1"
+   ],
+   "nota": "El distractor «decibelio» enseña que el dB no es unidad de potencia. C-T1.2, C-T1.21 y T1.1 son el mismo cuarteto de unidades."
+  },
+  {
+   "cid": "T1-02",
+   "tema": "T1",
+   "concepto": "Equivalencias de la ley de Ohm: 1 Ω = 1 V/1 A y 1 V = 1 Ω · 1 A",
+   "peso": 2,
+   "preguntas": [
+    "C-T1.1"
+   ],
+   "cubre": [
+    "C-T1.1",
+    "T1.2"
+   ],
+   "nota": "Sus distractores repasan V·A = vatio, A·s = culombio y A/V = siemens."
+  },
+  {
+   "cid": "T1-03",
+   "tema": "T1",
+   "concepto": "Carga y corriente: 1 C = 1 A · 1 s y 1 A = 1 C/s",
+   "peso": 2,
+   "preguntas": [
+    "T1.4"
+   ],
+   "cubre": [
+    "T1.4",
+    "T1.47"
+   ],
+   "nota": "T1.47 es la misma relación despejada al revés."
+  },
+  {
+   "cid": "T1-04",
+   "tema": "T1",
+   "concepto": "Definición de corriente eléctrica (movimiento de cargas) y de resistencia (oposición a su paso)",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.22"
+   ],
+   "cubre": [
+    "C-T1.13",
+    "C-T1.14",
+    "C-T1.22"
+   ],
+   "nota": "C-T1.22 tiene los distractores más instructivos (fem, ddp, electricidad estática)."
+  },
+  {
+   "cid": "T1-05",
+   "tema": "T1",
+   "concepto": "Símbolo de la impedancia: Z",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.30"
+   ],
+   "cubre": [
+    "C-T1.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-06",
+   "tema": "T1",
+   "concepto": "Prefijos del SI y conversión entre múltiplos y submúltiplos",
+   "peso": 2,
+   "preguntas": [
+    "C-T1.24",
+    "F-T1.15"
+   ],
+   "cubre": [
+    "C-T1.24",
+    "T1.3",
+    "F-T1.15",
+    "F-T1.16"
+   ],
+   "nota": "Dos trampas distintas: m (mili) frente a M (mega) en C-T1.24, y μ/n/p con capacidades en F-T1.15, que es donde más se falla en los cálculos."
+  },
+  {
+   "cid": "T1-07",
+   "tema": "T1",
+   "concepto": "Materiales conductores y aislantes",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.12"
+   ],
+   "cubre": [
+    "C-T1.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-08",
+   "tema": "T1",
+   "concepto": "Conductividad como inversa de la resistividad",
+   "peso": 1,
+   "preguntas": [
+    "N-T1-01"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el alcance cita «conductividad» y no hay pregunta sobre ella."
+  },
+  {
+   "cid": "T1-09",
+   "tema": "T1",
+   "concepto": "Ley de Ohm: hallar V, I o R",
+   "peso": 3,
+   "preguntas": [
+    "T1.6",
+    "C-T1.5"
+   ],
+   "cubre": [
+    "T1.5",
+    "T1.6",
+    "C-T1.5"
+   ],
+   "nota": "T1.6 es el cálculo con prefijos (mA, kΩ); C-T1.5 es la forma cualitativa del banco público («la intensidad está en razón directa a la tensión»)."
+  },
+  {
+   "cid": "T1-10",
+   "tema": "T1",
+   "concepto": "Resistencia de un conductor: R = ρ l / S",
+   "peso": 2,
+   "preguntas": [
+    "T1.36"
+   ],
+   "cubre": [
+    "T1.36",
+    "T1.37"
+   ],
+   "nota": "T1.37 (menos sección, más resistencia) se responde con la misma fórmula."
+  },
+  {
+   "cid": "T1-11",
+   "tema": "T1",
+   "concepto": "Potencia eléctrica: P = V I = I² R = V² / R",
+   "peso": 3,
+   "preguntas": [
+    "T1.9",
+    "T1.8"
+   ],
+   "cubre": [
+    "T1.7",
+    "T1.8",
+    "T1.9",
+    "T1.38",
+    "C-T1.32"
+   ],
+   "nota": "T1.9 es la fórmula falsa P = E²·R que pone el examen de cebo; T1.8 es el cálculo con I² (doble corriente, cuádruple potencia)."
+  },
+  {
+   "cid": "T1-12",
+   "tema": "T1",
+   "concepto": "Ley de Kirchhoff de las corrientes (nudos)",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.50"
+   ],
+   "cubre": [
+    "F-T1.50",
+    "F-T1.51"
+   ],
+   "nota": "F-T1.51 es el cálculo numérico de la misma ley."
+  },
+  {
+   "cid": "T1-13",
+   "tema": "T1",
+   "concepto": "Ley de Kirchhoff de las tensiones (mallas)",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.52"
+   ],
+   "cubre": [
+    "F-T1.52"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-14",
+   "tema": "T1",
+   "concepto": "Ley de Coulomb: proporcional al producto de las cargas e inversa al cuadrado de la distancia",
+   "peso": 2,
+   "preguntas": [
+    "T1.10",
+    "N-T1-02"
+   ],
+   "cubre": [
+    "T1.10"
+   ],
+   "nota": "T1.10 prueba la dependencia con las cargas; la nueva N-T1-02, la dependencia 1/d² (doble distancia, cuarta parte de fuerza), que no tiene pregunta en el banco."
+  },
+  {
+   "cid": "T1-15",
+   "tema": "T1",
+   "concepto": "La batería convierte energía química en eléctrica",
+   "peso": 2,
+   "preguntas": [
+    "T1.11"
+   ],
+   "cubre": [
+    "T1.11",
+    "T1.41"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-16",
+   "tema": "T1",
+   "concepto": "Diferencia entre pila (no recargable) y acumulador (recargable)",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.18"
+   ],
+   "cubre": [
+    "C-T1.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-17",
+   "tema": "T1",
+   "concepto": "Fuerza electromotriz: caracteriza al generador y se mide en voltios",
+   "peso": 2,
+   "preguntas": [
+    "C-T1.11"
+   ],
+   "cubre": [
+    "C-T1.11",
+    "T1.45"
+   ],
+   "nota": "Trampa: pese a llamarse «fuerza», se mide en voltios."
+  },
+  {
+   "cid": "T1-18",
+   "tema": "T1",
+   "concepto": "Fuente real: V = ε − I r y corriente de cortocircuito ε / r",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.56"
+   ],
+   "cubre": [
+    "F-T1.56",
+    "F-T1.57"
+   ],
+   "nota": "F-T1.57 (I_cc = ε/r) sale del mismo modelo."
+  },
+  {
+   "cid": "T1-19",
+   "tema": "T1",
+   "concepto": "Asociación de pilas: en serie se suman las tensiones; en paralelo, las corrientes (y baja la resistencia interna)",
+   "peso": 3,
+   "preguntas": [
+    "T1.42",
+    "C-T1.29"
+   ],
+   "cubre": [
+    "T1.13",
+    "T1.42",
+    "C-T1.17",
+    "C-T1.29"
+   ],
+   "nota": "T1.42 prueba la serie; C-T1.29 (banco público) prueba el paralelo y añade que la resistencia interna equivalente disminuye."
+  },
+  {
+   "cid": "T1-20",
+   "tema": "T1",
+   "concepto": "Capacidad de una batería en amperios-hora: t = C / I",
+   "peso": 2,
+   "preguntas": [
+    "T1.12"
+   ],
+   "cubre": [
+    "T1.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-21",
+   "tema": "T1",
+   "concepto": "Energía almacenada en una batería: tensión × amperios-hora (Wh)",
+   "peso": 1,
+   "preguntas": [
+    "N-T1-03"
+   ],
+   "cubre": [],
+   "nota": "Hueco: «carga no es energía» está en el libro y no hay pregunta."
+  },
+  {
+   "cid": "T1-22",
+   "tema": "T1",
+   "concepto": "Dinamo: el colector y las escobillas",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.19"
+   ],
+   "cubre": [
+    "C-T1.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-23",
+   "tema": "T1",
+   "concepto": "Un electroimán almacena energía en su campo magnético con corriente continua",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.20"
+   ],
+   "cubre": [
+    "C-T1.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-24",
+   "tema": "T1",
+   "concepto": "Bobinados acoplados en el mismo sentido: las inducciones se suman",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.27"
+   ],
+   "cubre": [
+    "C-T1.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-25",
+   "tema": "T1",
+   "concepto": "Reactancias inductiva y capacitiva: propiedades opuestas",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.10"
+   ],
+   "cubre": [
+    "C-T1.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-26",
+   "tema": "T1",
+   "concepto": "Unidad de intensidad de campo eléctrico: V/m (dBV/m, dBμV/m)",
+   "peso": 2,
+   "preguntas": [
+    "C-T1.7"
+   ],
+   "cubre": [
+    "C-T1.7",
+    "T1.43"
+   ],
+   "nota": "C-T1.7 (banco público) incluye las variantes en decibelios; T1.43 se responde igual."
+  },
+  {
+   "cid": "T1-27",
+   "tema": "T1",
+   "concepto": "Campo eléctrico entre placas: E = V / d",
+   "peso": 1,
+   "preguntas": [
+    "N-T1-04"
+   ],
+   "cubre": [],
+   "nota": "Hueco: fórmula del libro y de la hoja sin pregunta en el banco."
+  },
+  {
+   "cid": "T1-28",
+   "tema": "T1",
+   "concepto": "Campo magnético de un conductor rectilíneo: circunferencias concéntricas, más intenso con más corriente y menos distancia",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.1",
+    "F-T1.2"
+   ],
+   "cubre": [
+    "F-T1.1",
+    "F-T1.2"
+   ],
+   "nota": "Dos hechos distintos del mismo campo: la intensidad (F-T1.1) y la forma de las líneas (F-T1.2)."
+  },
+  {
+   "cid": "T1-29",
+   "tema": "T1",
+   "concepto": "Apantallamiento: el campo magnético de baja frecuencia exige material ferromagnético",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.3"
+   ],
+   "cubre": [
+    "F-T1.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-30",
+   "tema": "T1",
+   "concepto": "Las ondas de radio son electromagnéticas",
+   "peso": 2,
+   "preguntas": [
+    "T1.14"
+   ],
+   "cubre": [
+    "T1.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-31",
+   "tema": "T1",
+   "concepto": "Onda electromagnética: campos E y B perpendiculares entre sí y a la propagación",
+   "peso": 2,
+   "preguntas": [
+    "N-T1-05"
+   ],
+   "cubre": [],
+   "nota": "Hueco: está en el libro y en la hoja de repaso, y no hay pregunta."
+  },
+  {
+   "cid": "T1-32",
+   "tema": "T1",
+   "concepto": "Polarización: la dirección del campo eléctrico",
+   "peso": 2,
+   "preguntas": [
+    "T1.40"
+   ],
+   "cubre": [
+    "T1.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-33",
+   "tema": "T1",
+   "concepto": "Velocidad de propagación: c = 300.000 km/s, constante y sin depender de la frecuencia",
+   "peso": 3,
+   "preguntas": [
+    "C-T1.4",
+    "T1.15"
+   ],
+   "cubre": [
+    "C-T1.3",
+    "C-T1.4",
+    "T1.15"
+   ],
+   "nota": "C-T1.4 (banco público) prueba que es constante en un medio y mayor en el vacío; T1.15, el valor numérico."
+  },
+  {
+   "cid": "T1-34",
+   "tema": "T1",
+   "concepto": "Longitud de onda: λ = c / f, λ (m) ≈ 300 / f (MHz)",
+   "peso": 3,
+   "preguntas": [
+    "T1.17"
+   ],
+   "cubre": [
+    "T1.16",
+    "T1.17"
+   ],
+   "nota": "T1.16 es la fórmula en abstracto; el cálculo de T1.17 la exige."
+  },
+  {
+   "cid": "T1-35",
+   "tema": "T1",
+   "concepto": "Denominación de las bandas (MF, HF, VHF, UHF, SHF)",
+   "peso": 2,
+   "preguntas": [
+    "T1.29"
+   ],
+   "cubre": [
+    "T1.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-36",
+   "tema": "T1",
+   "concepto": "Frecuencia: ciclos por segundo (Hz), la característica de la corriente alterna",
+   "peso": 2,
+   "preguntas": [
+    "C-T1.15"
+   ],
+   "cubre": [
+    "C-T1.9",
+    "C-T1.15"
+   ],
+   "nota": "C-T1.15 tiene como distractores período, longitud de onda y elongación."
+  },
+  {
+   "cid": "T1-37",
+   "tema": "T1",
+   "concepto": "Período: T = 1 / f, tiempo entre dos máximos consecutivos",
+   "peso": 2,
+   "preguntas": [
+    "T1.19"
+   ],
+   "cubre": [
+    "T1.18",
+    "T1.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-38",
+   "tema": "T1",
+   "concepto": "Amplitud (máximo menos valor medio) y parámetros que caracterizan una señal",
+   "peso": 1,
+   "preguntas": [
+    "T1.21"
+   ],
+   "cubre": [
+    "T1.21",
+    "T1.22"
+   ],
+   "nota": "La definición de amplitud es la propia del banco; T1.22 es trivial."
+  },
+  {
+   "cid": "T1-39",
+   "tema": "T1",
+   "concepto": "Valor eficaz: definición por el efecto calorífico; la tensión de red se da en eficaz",
+   "peso": 3,
+   "preguntas": [
+    "T1.39",
+    "C-T1.23"
+   ],
+   "cubre": [
+    "T1.39",
+    "C-T1.23"
+   ],
+   "nota": "T1.39 pide la definición; C-T1.23 (banco público) qué valor son los 220 V de la red. Saber una no basta para la otra."
+  },
+  {
+   "cid": "T1-40",
+   "tema": "T1",
+   "concepto": "Conversión entre valores de pico, pico a pico y eficaz de una sinusoide (V_ef = V_p / √2)",
+   "peso": 3,
+   "preguntas": [
+    "T1.20",
+    "F-T1.5"
+   ],
+   "cubre": [
+    "T1.20",
+    "F-T1.4",
+    "F-T1.5"
+   ],
+   "nota": "T1.20 lleva el cebo 63,7 V (valor medio de la semionda); F-T1.5 la trampa del pico a pico. F-T1.4 es el cálculo inverso (eficaz → pico)."
+  },
+  {
+   "cid": "T1-41",
+   "tema": "T1",
+   "concepto": "Potencia de una sinusoide en una resistencia: pasar antes a valor eficaz (P = V_p² / 2R)",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.33"
+   ],
+   "cubre": [
+    "F-T1.33",
+    "F-T1.34",
+    "F-T1.35"
+   ],
+   "nota": "F-T1.33 (200 V pp en 50 Ω) recoge las dos trampas: pp → pico → eficaz."
+  },
+  {
+   "cid": "T1-42",
+   "tema": "T1",
+   "concepto": "Diferencia de fase expresada como retardo: Δφ = 360° · Δt / T",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.6"
+   ],
+   "cubre": [
+    "F-T1.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-43",
+   "tema": "T1",
+   "concepto": "En un circuito resistivo, tensión e intensidad están en fase",
+   "peso": 2,
+   "preguntas": [
+    "T1.44"
+   ],
+   "cubre": [
+    "T1.44"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-44",
+   "tema": "T1",
+   "concepto": "Factor de potencia: coseno del desfase entre tensión y corriente",
+   "peso": 2,
+   "preguntas": [
+    "T1.35"
+   ],
+   "cubre": [
+    "T1.35"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-45",
+   "tema": "T1",
+   "concepto": "Señales no sinusoidales: fundamental y armónicos (onda cuadrada: solo impares)",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.7"
+   ],
+   "cubre": [
+    "F-T1.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-46",
+   "tema": "T1",
+   "concepto": "Ruido térmico y ruido blanco: P = k T B, independiente de la frecuencia",
+   "peso": 2,
+   "preguntas": [
+    "T1.23",
+    "F-T1.9"
+   ],
+   "cubre": [
+    "T1.23",
+    "F-T1.8",
+    "F-T1.9"
+   ],
+   "nota": "T1.23 prueba que el ruido blanco no depende de la frecuencia; F-T1.9, que la potencia de ruido es proporcional al ancho de banda (mitad de B, −3 dB)."
+  },
+  {
+   "cid": "T1-47",
+   "tema": "T1",
+   "concepto": "Suelo de ruido térmico: −174 dBm/Hz más 10 log B",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.10"
+   ],
+   "cubre": [
+    "F-T1.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-48",
+   "tema": "T1",
+   "concepto": "Señal analógica: infinitos valores; digital: valores discretos",
+   "peso": 1,
+   "preguntas": [
+    "T1.24"
+   ],
+   "cubre": [
+    "T1.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-49",
+   "tema": "T1",
+   "concepto": "Objeto de la modulación: que la portadora transporte la información",
+   "peso": 2,
+   "preguntas": [
+    "T1.46"
+   ],
+   "cubre": [
+    "T1.46"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-50",
+   "tema": "T1",
+   "concepto": "Parámetro que varía en cada modulación analógica (AM amplitud, FM frecuencia, PM fase)",
+   "peso": 2,
+   "preguntas": [
+    "T1.25"
+   ],
+   "cubre": [
+    "T1.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-51",
+   "tema": "T1",
+   "concepto": "Telegrafía A1A: trenes de portadora de amplitud constante (todo o nada)",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.19"
+   ],
+   "cubre": [
+    "F-T1.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-52",
+   "tema": "T1",
+   "concepto": "Espectro de AM: portadora y dos bandas laterales en f_c ± f_m",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.21"
+   ],
+   "cubre": [
+    "F-T1.21",
+    "T1.34"
+   ],
+   "nota": "Se prefiere F-T1.21 a T1.34 porque no depende de una figura."
+  },
+  {
+   "cid": "T1-53",
+   "tema": "T1",
+   "concepto": "Anchuras de banda típicas: CW < SSB (2,7 kHz) < AM (6 kHz) < FM",
+   "peso": 3,
+   "preguntas": [
+    "C-T1.31",
+    "T1.28"
+   ],
+   "cubre": [
+    "C-T1.31",
+    "T1.28",
+    "F-T1.11",
+    "F-T1.12"
+   ],
+   "nota": "C-T1.31 (banco público) compara los modos; T1.28 fija el valor de la J3E con los otros anchos como distractores."
+  },
+  {
+   "cid": "T1-54",
+   "tema": "T1",
+   "concepto": "Índice de modulación de AM a partir de la envolvente: m = (A_máx − A_mín) / (A_máx + A_mín)",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.13"
+   ],
+   "cubre": [
+    "F-T1.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-55",
+   "tema": "T1",
+   "concepto": "Sobremodulación: índice superior al 100 %; envolvente recortada",
+   "peso": 3,
+   "preguntas": [
+    "T1.26",
+    "F-T1.20"
+   ],
+   "cubre": [
+    "T1.26",
+    "F-T1.20"
+   ],
+   "nota": "T1.26 pide la definición; F-T1.20, reconocer en el osciloscopio m < 1, m = 1 y m > 1."
+  },
+  {
+   "cid": "T1-56",
+   "tema": "T1",
+   "concepto": "Potencia de AM: P_t = P_c (1 + m²/2), reparto entre portadora y bandas",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.14"
+   ],
+   "cubre": [
+    "F-T1.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-57",
+   "tema": "T1",
+   "concepto": "Potencia en la cresta de la envolvente en AM al 100 %: cuatro veces la de portadora",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.41"
+   ],
+   "cubre": [
+    "F-T1.41"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-58",
+   "tema": "T1",
+   "concepto": "SSB (J3E): una sola banda lateral, sin portadora",
+   "peso": 3,
+   "preguntas": [
+    "T1.27"
+   ],
+   "cubre": [
+    "T1.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-59",
+   "tema": "T1",
+   "concepto": "USB: todo el espectro por encima de la portadora suprimida",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.22"
+   ],
+   "cubre": [
+    "F-T1.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-60",
+   "tema": "T1",
+   "concepto": "FM: amplitud constante; varía la frecuencia instantánea",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.18"
+   ],
+   "cubre": [
+    "F-T1.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-61",
+   "tema": "T1",
+   "concepto": "Regla de Carson: B ≈ 2 (Δf + f_m)",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.17"
+   ],
+   "cubre": [
+    "F-T1.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-62",
+   "tema": "T1",
+   "concepto": "Espectro de FM: muchas bandas laterales separadas f_m",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.23"
+   ],
+   "cubre": [
+    "F-T1.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-63",
+   "tema": "T1",
+   "concepto": "Efecto captura en FM",
+   "peso": 1,
+   "preguntas": [
+    "N-T1-06"
+   ],
+   "cubre": [],
+   "nota": "Hueco: está en el libro y no hay pregunta."
+  },
+  {
+   "cid": "T1-64",
+   "tema": "T1",
+   "concepto": "Modulación digital: moduladora digital aplicada a un modulador digital",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.25"
+   ],
+   "cubre": [
+    "C-T1.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-65",
+   "tema": "T1",
+   "concepto": "FSK, PSK y QAM: qué parámetro de la portadora varía cada una",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.24",
+    "F-T1.26"
+   ],
+   "cubre": [
+    "F-T1.24",
+    "F-T1.25",
+    "F-T1.26"
+   ],
+   "nota": "F-T1.24 (FSK, frecuencia) y F-T1.26 (QAM, amplitud y fase) cubren entre las dos las cuatro opciones; F-T1.25 (2PSK) queda incluida."
+  },
+  {
+   "cid": "T1-66",
+   "tema": "T1",
+   "concepto": "Bits por símbolo (log₂ M) y velocidad binaria = baudios × bits por símbolo",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.27"
+   ],
+   "cubre": [
+    "F-T1.27",
+    "F-T1.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-67",
+   "tema": "T1",
+   "concepto": "La anchura de banda digital la fija la velocidad de símbolo, no la de bit",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.29"
+   ],
+   "cubre": [
+    "F-T1.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-68",
+   "tema": "T1",
+   "concepto": "CRC detecta errores; FEC los corrige sin retransmisión a costa de velocidad útil",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.30",
+    "F-T1.32"
+   ],
+   "cubre": [
+    "F-T1.30",
+    "F-T1.31",
+    "F-T1.32"
+   ],
+   "nota": "F-T1.30 y F-T1.31 son casi idénticas. F-T1.32 añade otro ángulo: la redundancia de la FEC reduce siempre la velocidad útil."
+  },
+  {
+   "cid": "T1-69",
+   "tema": "T1",
+   "concepto": "Velocidad binaria comercial: «megas» son Mbit/s (bits, no bytes)",
+   "peso": 1,
+   "preguntas": [
+    "C-T1.28"
+   ],
+   "cubre": [
+    "C-T1.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-70",
+   "tema": "T1",
+   "concepto": "El decibelio compara niveles de potencia (escala logarítmica)",
+   "peso": 2,
+   "preguntas": [
+    "C-T1.8"
+   ],
+   "cubre": [
+    "C-T1.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-71",
+   "tema": "T1",
+   "concepto": "Referencias de decibelios: ×2 = +3 dB, ×4 = +6 dB, ×10 = +10 dB, ÷2 = −3 dB",
+   "peso": 3,
+   "preguntas": [
+    "T1.30",
+    "F-T1.37"
+   ],
+   "cubre": [
+    "T1.30",
+    "F-T1.37"
+   ],
+   "nota": "T1.30 en el sentido de la ganancia; F-T1.37 en el de la pérdida aplicada a vatios (cebo de restar 3 W)."
+  },
+  {
+   "cid": "T1-72",
+   "tema": "T1",
+   "concepto": "En una cadena, las ganancias y pérdidas en dB se suman y restan",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.38"
+   ],
+   "cubre": [
+    "F-T1.36",
+    "F-T1.38"
+   ],
+   "nota": "F-T1.38 exige además volver a vatios; F-T1.36 es la suma pura."
+  },
+  {
+   "cid": "T1-73",
+   "tema": "T1",
+   "concepto": "dBm: decibelio referido a 1 mW, P(dBm) = 10 log (P / 1 mW)",
+   "peso": 2,
+   "preguntas": [
+    "C-T1.26"
+   ],
+   "cubre": [
+    "C-T1.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-74",
+   "tema": "T1",
+   "concepto": "Máxima transferencia de potencia: impedancias adaptadas",
+   "peso": 2,
+   "preguntas": [
+    "T1.31"
+   ],
+   "cubre": [
+    "T1.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-75",
+   "tema": "T1",
+   "concepto": "Rendimiento: η = P_sal / P_alim; el resto se disipa en calor",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.39",
+    "F-T1.40"
+   ],
+   "cubre": [
+    "F-T1.39",
+    "F-T1.40"
+   ],
+   "nota": "F-T1.39 es el cálculo directo; F-T1.40 el inverso, hallar el calor disipado a partir de η."
+  },
+  {
+   "cid": "T1-76",
+   "tema": "T1",
+   "concepto": "Energía = potencia × tiempo (julio = W·s, kWh)",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.53",
+    "F-T1.54"
+   ],
+   "cubre": [
+    "F-T1.53",
+    "F-T1.54",
+    "F-T1.55"
+   ],
+   "nota": "F-T1.53 lleva la trampa kW frente a kWh; F-T1.54 es la equivalencia de unidades (J = W·s, con A·s = culombio de cebo)."
+  },
+  {
+   "cid": "T1-77",
+   "tema": "T1",
+   "concepto": "Procesador digital de señal (DSP): hardware y software para procesar señales digitalizadas",
+   "peso": 1,
+   "preguntas": [
+    "T1.33"
+   ],
+   "cubre": [
+    "T1.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-78",
+   "tema": "T1",
+   "concepto": "Conversores A/D y D/A: qué convierte cada uno",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.48"
+   ],
+   "cubre": [
+    "F-T1.48",
+    "F-T1.49"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-79",
+   "tema": "T1",
+   "concepto": "Teorema de Nyquist: f_s ≥ 2 f_máx",
+   "peso": 3,
+   "preguntas": [
+    "T1.32",
+    "F-T1.42"
+   ],
+   "cubre": [
+    "T1.32",
+    "F-T1.42"
+   ],
+   "nota": "T1.32 halla la f_s mínima; F-T1.42 el cálculo en el otro sentido (f_máx a partir de f_s)."
+  },
+  {
+   "cid": "T1-80",
+   "tema": "T1",
+   "concepto": "Aliasing: las frecuencias por encima de f_s/2 se confunden con otras más bajas",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.43"
+   ],
+   "cubre": [
+    "F-T1.43"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T1-81",
+   "tema": "T1",
+   "concepto": "Filtros antisolapamiento (paso bajo antes del A/D) y de reconstrucción (paso bajo tras el D/A)",
+   "peso": 2,
+   "preguntas": [
+    "F-T1.45",
+    "F-T1.47"
+   ],
+   "cubre": [
+    "F-T1.45",
+    "F-T1.46",
+    "F-T1.47"
+   ],
+   "nota": "F-T1.45 y F-T1.46 son casi idénticas; F-T1.47 pregunta por la función del filtro de reconstrucción."
+  },
+  {
+   "cid": "T1-82",
+   "tema": "T1",
+   "concepto": "Cuantificación: 2^n niveles; cada bit añade unos 6 dB de relación señal/ruido",
+   "peso": 1,
+   "preguntas": [
+    "F-T1.44",
+    "N-T1-07"
+   ],
+   "cubre": [
+    "F-T1.44"
+   ],
+   "nota": "F-T1.44 cuenta niveles; N-T1-07 cubre el hueco de los 6 dB por bit."
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-T1-01",
+   "cid": "T1-08",
+   "tema": "T1",
+   "enunciado": "La conductividad de un material es:",
+   "opciones": [
+    "la inversa de su resistividad",
+    "el producto de su resistividad por la longitud del conductor",
+    "la resistencia de un conductor de 1 m de ese material",
+    "la tensión máxima que soporta sin perforarse"
+   ],
+   "clave": "a",
+   "sol": "La conductividad, $sigma = 1 / rho$, es la misma propiedad que la resistividad vista al revés: mide cuánto deja pasar la corriente el material, en lugar de cuánto se opone. La tensión que un aislante soporta sin perforarse es su rigidez dieléctrica, otra magnitud.",
+   "fuente": "chapters/t01.typ:76"
+  },
+  {
+   "nid": "N-T1-02",
+   "cid": "T1-14",
+   "tema": "T1",
+   "enunciado": "Si se duplica la distancia entre dos cargas eléctricas, la fuerza entre ellas:",
+   "opciones": [
+    "se reduce a la mitad",
+    "se reduce a la cuarta parte",
+    "se duplica",
+    "no varía"
+   ],
+   "clave": "b",
+   "sol": "Por la ley de Coulomb, $F = k (q_1 q_2) / d^2$: la distancia está al cuadrado en el denominador. Con doble distancia, $d^2$ se cuadruplica y la fuerza queda en la cuarta parte. «A la mitad» es el error de olvidar el cuadrado.",
+   "fuente": "chapters/t01.typ:202"
+  },
+  {
+   "nid": "N-T1-03",
+   "cid": "T1-21",
+   "tema": "T1",
+   "enunciado": "Una batería de 12 V y 7 Ah almacena una energía aproximada de:",
+   "opciones": [
+    "7 Wh",
+    "19 Wh",
+    "84 Wh",
+    "1,7 Wh"
+   ],
+   "clave": "c",
+   "sol": "Los amperios-hora miden carga, no energía. La energía es la carga por la tensión: $E = 12 \"V\" dot 7 \"Ah\" = 84 \"Wh\"$, unos 302 kJ. Los 7 Wh confunden Ah con Wh; los 19 Wh suman 12 + 7 y los 1,7 Wh dividen 12 entre 7.",
+   "fuente": "chapters/t01.typ:389"
+  },
+  {
+   "nid": "N-T1-04",
+   "cid": "T1-27",
+   "tema": "T1",
+   "enunciado": "Entre dos placas paralelas separadas 2 cm hay una diferencia de potencial de 100 V. El campo eléctrico entre ellas vale:",
+   "opciones": [
+    "50 V/m",
+    "2 V/m",
+    "200 V/m",
+    "5000 V/m"
+   ],
+   "clave": "d",
+   "sol": "Entre dos placas, $E = V / d$ con la distancia en metros: $E = 100 / 0,02 = 5000$ V/m. Los 50 V/m salen de dividir entre 2 sin pasar los centímetros a metros; los 2 V/m y los 200 V/m, de multiplicar en lugar de dividir.",
+   "fuente": "chapters/t01.typ:430"
+  },
+  {
+   "nid": "N-T1-05",
+   "cid": "T1-31",
+   "tema": "T1",
+   "enunciado": "En una onda electromagnética, el campo eléctrico y el campo magnético son:",
+   "opciones": [
+    "paralelos entre sí y perpendiculares a la dirección de propagación",
+    "perpendiculares entre sí y paralelos a la dirección de propagación",
+    "perpendiculares entre sí y perpendiculares a la dirección de propagación",
+    "paralelos entre sí y a la dirección de propagación"
+   ],
+   "clave": "c",
+   "sol": "Los dos campos oscilan en fase, son perpendiculares entre sí y los dos son perpendiculares a la dirección en que avanza la onda. Ninguno apunta en la dirección de propagación. La polarización la da la dirección del campo eléctrico.",
+   "fuente": "chapters/t01.typ:432"
+  },
+  {
+   "nid": "N-T1-06",
+   "cid": "T1-63",
+   "tema": "T1",
+   "enunciado": "Dos emisoras de FM transmiten en la misma frecuencia y llegan al receptor con intensidades muy distintas. Lo normal es que:",
+   "opciones": [
+    "se oigan las dos mezcladas, igual que en AM",
+    "el receptor se quede con la más fuerte y suprima casi por completo la más débil",
+    "se anulen entre sí y no se oiga ninguna",
+    "se oiga solo la más débil, porque la fuerte satura el receptor"
+   ],
+   "clave": "b",
+   "sol": "Es el efecto captura de la FM: de dos señales en el mismo canal, el receptor engancha casi por completo la más fuerte y suprime la débil. En AM, en cambio, las dos se oirían mezcladas, que es justo el distractor tentador.",
+   "fuente": "chapters/t01.typ:825"
+  },
+  {
+   "nid": "N-T1-07",
+   "cid": "T1-82",
+   "tema": "T1",
+   "enunciado": "Si un conversor A/D pasa de 8 a 10 bits, su relación señal/ruido de cuantificación mejora aproximadamente:",
+   "opciones": [
+    "2 dB",
+    "6 dB",
+    "12 dB",
+    "20 dB"
+   ],
+   "clave": "c",
+   "sol": "Cada bit añadido duplica el número de niveles ($2^n$), reduce el escalón a la mitad y mejora unos 6 dB la relación señal/ruido de cuantificación. Dos bits más son unos $2 dot 6 = 12$ dB; 6 dB sería un solo bit.",
+   "fuente": "chapters/t01.typ:1196"
+  }
+ ],
+ "descartadas": [
+  {
+   "id": "C-T1.16",
+   "motivo": "Clave dudosa reconocida en la propia solución: el libro da la a (resistencia interna muy grande), pero el banco público y las recopilaciones de exámenes reales dan la b («tiene dos polos»). Concepto marginal (polarización de la pila) que no compensa el riesgo de enseñar una clave que no coincide con la oficial."
+  }
+ ],
+ "problemas": [
+  {
+   "id": "C-T1.16",
+   "detalle": "La clave de la entrada (a) es la técnicamente correcta, pero la oficial del banco público es b. Si se incluyera en un simulacro habría que advertir de la discrepancia."
+  },
+  {
+   "id": "C-T1.28",
+   "detalle": "La opción correcta (a) llama «ancho de banda» a 2 millones de bits por segundo; en rigor el ancho de banda se mide en hercios. La solución lo explica como uso comercial; no es un error de clave, pero la pregunta enseña un uso impropio del término."
+  }
+ ]
+}
