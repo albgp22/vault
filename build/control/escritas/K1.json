@@ -17,7 +17,7 @@
  {
   "kid": "K-T1-02-1",
   "cid": "T1-02",
-  "enunciado": "El producto de un ohmio por un amperio equivale a:",
+  "enunciado": "Multiplicar un ohmio por un amperio da como resultado:",
   "opciones": [
    "un vatio",
    "un voltio",
@@ -137,12 +137,12 @@
  {
   "kid": "K-T1-12-1",
   "cid": "T1-12",
-  "enunciado": "La ley de Kirchhoff de las corrientes (ley de los nudos) es una consecuencia directa de:",
+  "enunciado": "¿En qué principio físico se basa la ley de los nudos de Kirchhoff?",
   "opciones": [
-   "la conservación de la energía a lo largo de una malla cerrada",
-   "la conservación de la carga eléctrica, que no se acumula en el nudo",
-   "la ley de Coulomb entre las cargas que llegan al nudo",
-   "la ley de Ohm aplicada a cada una de las ramas"
+   "en la conservación de la energía a lo largo de una malla cerrada",
+   "en la conservación de la carga eléctrica, que no se acumula en el nudo",
+   "en la ley de Coulomb entre las cargas que llegan al nudo",
+   "en la ley de Ohm aplicada a cada una de las ramas"
   ],
   "clave": "b",
   "sol": "La carga no se crea, no se destruye y no se acumula en un nudo: toda la que llega por unas ramas tiene que salir por otras, y por eso la suma de las corrientes entrantes iguala a la de las salientes. La conservación de la energía por unidad de carga es el fundamento de la otra ley, la de las tensiones o de las mallas.",
@@ -287,7 +287,7 @@
  {
   "kid": "K-T1-31-1",
   "cid": "T1-31",
-  "enunciado": "Una onda electromagnética avanza en dirección horizontal y su campo eléctrico es vertical. Su campo magnético es:",
+  "enunciado": "Una antena vertical radia una onda que avanza horizontalmente con el campo eléctrico vertical. ¿Cómo es el campo magnético de esa onda?",
   "opciones": [
    "vertical, paralelo al campo eléctrico",
    "horizontal y orientado en la misma dirección en que avanza la onda",
@@ -362,7 +362,7 @@
  {
   "kid": "K-T1-37-1",
   "cid": "T1-37",
-  "enunciado": "Entre dos máximos consecutivos de una señal sinusoidal transcurren 2 μs. Su frecuencia es de:",
+  "enunciado": "En la pantalla de un osciloscopio, dos máximos consecutivos de una sinusoide están separados 2 μs. ¿Cuál es su frecuencia?",
   "opciones": [
    "500 kHz",
    "2 MHz",
@@ -407,7 +407,7 @@
  {
   "kid": "K-T1-40-1",
   "cid": "T1-40",
-  "enunciado": "Una tensión sinusoidal de 50 V eficaces tiene un valor de pico a pico aproximado de:",
+  "enunciado": "¿Qué tensión de pico a pico mide un osciloscopio en una señal sinusoidal de 50 V eficaces?",
   "opciones": [
    "70,7 V",
    "100 V",
@@ -767,7 +767,7 @@
  {
   "kid": "K-T1-79-1",
   "cid": "T1-79",
-  "enunciado": "Se quiere digitalizar una señal cuya frecuencia máxima es de 12 kHz. De las siguientes frecuencias de muestreo, la menor que cumple el criterio de Nyquist es:",
+  "enunciado": "Una señal llega hasta 12 kHz. ¿Cuál es la menor de estas frecuencias de muestreo con la que puede digitalizarse sin aliasing?",
   "opciones": [
    "6 kHz",
    "16 kHz",
@@ -902,7 +902,7 @@
  {
   "kid": "K-T8-10-1",
   "cid": "T8-10",
-  "enunciado": "Para medir la tensión de radiofrecuencia a la salida de un transmisor de 14 MHz conviene emplear:",
+  "enunciado": "Quieres conocer la tensión de RF en la salida de un transmisor de 14 MHz. El instrumento adecuado es:",
   "opciones": [
    "una sonda con diodo detector o un voltímetro de RF",
    "la escala de alterna de un polímetro convencional",
@@ -977,7 +977,7 @@
  {
   "kid": "K-T8-18-1",
   "cid": "T8-18",
-  "enunciado": "Un transmisor de SSB da 100 W p.c.e. con voz sin procesar. Su potencia media es aproximadamente de:",
+  "enunciado": "Con voz sin procesar, un transmisor de SSB que da 100 W p.c.e. entrega una potencia media del orden de:",
   "opciones": [
    "100 W, igual que la p.c.e.",
    "entre 10 y 25 W",
@@ -1022,22 +1022,22 @@
  {
   "kid": "K-T8-23-1",
   "cid": "T8-23",
-  "enunciado": "Un vatímetro direccional indica 90 W de potencia directa y 10 W de reflejada. La ROE y la potencia que llega a la antena son, respectivamente:",
+  "enunciado": "Una antena presenta una ROE de 2 y el vatímetro direccional indica 90 W de potencia directa. ¿Qué potencia se refleja y cuánta recibe la antena?",
   "opciones": [
-   "2 y 80 W",
-   "2 y 100 W",
-   "9 y 80 W",
-   "1,25 y 80 W"
+   "se reflejan 10 W y la antena recibe 80 W",
+   "se reflejan 30 W y la antena recibe 60 W",
+   "se reflejan 45 W y la antena recibe 45 W",
+   "se reflejan 10 W y la antena recibe 100 W"
   ],
   "clave": "a",
-  "sol": "$rho = sqrt(P_r slash P_d) = sqrt(10 slash 90) = 1 slash 3$ y $\"ROE\" = (1 + 1 slash 3) slash (1 - 1 slash 3) = 2$. La antena recibe la directa menos la reflejada, $90 - 10 = 80$ W; sumarlas (100 W) es el error típico. El 1,25 sale de olvidar la raíz cuadrada y el 9 es el cociente de potencias.",
-  "fuente": "chapters/t08.typ:436",
-  "angulo": "cálculo con otros datos"
+  "sol": "Con ROE 2, $rho = (\"ROE\" - 1) slash (\"ROE\" + 1) = 1 slash 3$, y la reflejada es $rho^2 = 1 slash 9$ de la directa (el 11 % de la tabla): $90 slash 9 = 10$ W. La antena recibe la directa menos la reflejada, $90 - 10 = 80$ W. Los 30 W olvidan elevar $rho$ al cuadrado, los 45 W toman la ROE como si fuera el cociente de potencias, y los 100 W suman la reflejada en lugar de restarla.",
+  "fuente": "chapters/t08.typ:441",
+  "angulo": "cálculo inverso: de la ROE a la potencia reflejada y a la entregada"
  },
  {
   "kid": "K-T8-24-1",
   "cid": "T8-24",
-  "enunciado": "Un medidor de ROE intercalado entre el transmisor y la antena indica 1:1. Ello significa que:",
+  "enunciado": "Al transmitir con la antena conectada, la aguja del medidor de ROE se queda en 1:1. ¿Qué se deduce?",
   "opciones": [
    "la onda reflejada es igual a la directa",
    "no hay onda reflejada: la impedancia de la antena está adaptada a la de la línea",
@@ -1052,12 +1052,12 @@
  {
   "kid": "K-T8-25-1",
   "cid": "T8-25",
-  "enunciado": "El medidor de ROE se considera el instrumento más imprescindible de una estación de aficionado porque:",
+  "enunciado": "¿Por qué el medidor de ROE no debería faltar nunca en una estación de aficionado?",
   "opciones": [
-   "mide con precisión la frecuencia emitida",
-   "muestra los armónicos y las emisiones espurias del transmisor",
-   "avisa de la desadaptación entre el equipo y la antena, origen de la mayoría de los problemas y de averías del paso final",
-   "mide la intensidad de campo radiado por la antena"
+   "porque mide con precisión la frecuencia emitida",
+   "porque muestra los armónicos y las emisiones espurias del transmisor",
+   "porque avisa de la desadaptación entre el equipo y la antena, origen de la mayoría de los problemas y de averías del paso final",
+   "porque mide la intensidad de campo radiado por la antena"
   ],
   "clave": "c",
   "sol": "Su función es avisar de que algo va mal entre el equipo y la antena, que es de donde vienen la mayoría de los problemas, y una desadaptación puede averiar el paso final. La frecuencia se mide con el frecuencímetro, los armónicos con el analizador de espectros y el campo radiado con el medidor de campo.",
@@ -1082,7 +1082,7 @@
  {
   "kid": "K-T8-29-1",
   "cid": "T8-29",
-  "enunciado": "En la pantalla de un osciloscopio, el eje horizontal y el vertical representan, respectivamente:",
+  "enunciado": "¿Qué magnitudes se representan en los ejes horizontal y vertical, respectivamente, de la pantalla de un osciloscopio?",
   "opciones": [
    "el tiempo y la tensión",
    "la frecuencia y la potencia",
@@ -1112,17 +1112,17 @@
  {
   "kid": "K-T8-34-1",
   "cid": "T8-34",
-  "enunciado": "En espacio libre y lejos de la antena, si un medidor de campo se aleja al doble de distancia, la intensidad de campo que indica:",
+  "enunciado": "Quieres saber qué intensidad de campo eléctrico produce tu antena en la terraza de un vecino. ¿Qué instrumento usarás y en qué unidades obtendrás el resultado?",
   "opciones": [
-   "se reduce a la cuarta parte",
-   "no varía",
-   "se reduce a la mitad",
-   "se duplica"
+   "un medidor de ROE, en vatios",
+   "un vatímetro direccional, en dBm",
+   "un medidor de campo, en V/m o dBμV/m",
+   "un dipmeter, en hercios"
   ],
   "clave": "c",
-  "sol": "Lejos de la antena el campo vale aproximadamente $E approx sqrt(30 P G) slash d$: es inversamente proporcional a la distancia, así que al doble de distancia el medidor indica la mitad de V/m. La cuarta parte supondría una dependencia con el cuadrado de la distancia, que no es la del campo.",
-  "fuente": "chapters/t08.typ:453",
-  "angulo": "consecuencia de la fórmula del campo (dependencia con la distancia)"
+  "sol": "La intensidad de campo radiado que llega a un lugar se mide con un medidor de campo, un receptor calibrado con su antena de medida, y se expresa en voltios por metro o en sus submúltiplos (μV/m, dBμV/m). El medidor de ROE y el vatímetro miden en la línea, junto al transmisor, y el dipmeter busca la resonancia de un circuito.",
+  "fuente": "chapters/t08.typ:451",
+  "angulo": "caso práctico que une el instrumento y la unidad"
  },
  {
   "kid": "K-T8-35-1",

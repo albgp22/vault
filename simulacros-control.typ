@@ -286,7 +286,7 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
 #simulacro(1)
 #prueba(1, 1)
 #pq(1, 1, 1, "a", "estúdialo en: simulacros de estudio 5·1·1 · libro: C-T1.1", "Equivalencias de la ley de Ohm: 1 Ω = 1 V/1 A y 1 V = 1 Ω · 1 A",
-  [El producto de un ohmio por un amperio equivale a:],
+  [Multiplicar un ohmio por un amperio da como resultado:],
   ([un voltio], [un vatio], [un culombio], [un julio],),
   sol: [De la ley de Ohm, $V = I R$: si por una resistencia de 1 Ω circula 1 A, entre sus extremos hay 1 V, luego 1 Ω × 1 A = 1 V. El vatio es voltio por amperio ($P = V I$), no ohmio por amperio; el culombio es amperio por segundo y el julio, vatio por segundo.], tema: "T1")
 #pq(1, 1, 2, "a", "estúdialo en: simulacros de estudio 13·1·2 · libro: T1.10", "Ley de Coulomb: proporcional al producto de las cargas e inversa al cuadrado de la distancia",
@@ -634,11 +634,11 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([en el máximo del ciclo solar, cuando hay más manchas], [durante una lluvia de meteoros, como las Perseidas de agosto o las Gemínidas de diciembre], [con luna llena, cuando la Luna refleja mejor las señales], [durante una tormenta geomagnética, con las antenas al norte],),
   sol: [El meteor-scatter rebota en las estelas ionizadas que dejan los meteoros, así que funciona mejor cuando más meteoros entran: en las lluvias de meteoros. Las manchas solares afectan a la ionosfera en HF, la tormenta geomagnética trae la reflexión auroral y la Luna es el reflector del EME.], tema: "T7")
 #pq(2, 1, 26, "c", "estúdialo en: simulacros de estudio 1·1·25 · libro: T8.27", "El medidor de ROE compara la onda incidente y la reflejada: mide la desadaptación",
-  [Un medidor de ROE intercalado entre el transmisor y la antena indica 1:1. Ello significa que:],
+  [Al transmitir con la antena conectada, la aguja del medidor de ROE se queda en 1:1. ¿Qué se deduce?],
   ([la antena tiene una ganancia de 0 dB], [la onda reflejada es igual a la directa], [no hay onda reflejada: la impedancia de la antena está adaptada a la de la línea], [el transmisor entrega exactamente su potencia nominal],),
   sol: [El medidor de ROE compara la onda incidente con la reflejada: una ROE de 1 indica que no hay reflejada, es decir, adaptación perfecta. Si la reflejada igualase a la directa, la ROE sería infinita. El medidor no informa de la ganancia de la antena ni de si el transmisor da su potencia nominal.], tema: "T8")
 #pq(2, 1, 27, "a", "estúdialo en: simulacros de estudio 3·1·27 · libro: T8.7", "Osciloscopio: representa la forma de onda en el dominio del tiempo (amplitud y período)",
-  [En la pantalla de un osciloscopio, el eje horizontal y el vertical representan, respectivamente:],
+  [¿Qué magnitudes se representan en los ejes horizontal y vertical, respectivamente, de la pantalla de un osciloscopio?],
   ([el tiempo y la tensión], [la tensión y el tiempo], [la frecuencia y la potencia], [la frecuencia y la tensión],),
   sol: [El osciloscopio trabaja en el dominio del tiempo: dibuja la tensión (eje vertical, en voltios por división) en función del tiempo (eje horizontal, la base de tiempos). Frecuencia en horizontal y potencia en vertical es la pantalla del analizador de espectros.], tema: "T8")
 #pq(2, 1, 28, "d", "estúdialo en: simulacros de estudio 2·1·28 · libro: T9.19", "A más potencia, más riesgo de interferencia: usar la mínima potencia necesaria",
@@ -1626,13 +1626,13 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([un enlace en 3,5 MHz entre dos estaciones a 300 km, de noche], [un enlace en 144 MHz usando la Luna como reflector], [un enlace en 432 MHz entre dos estaciones costeras separadas por unos 800 km de mar], [un enlace en 1,8 MHz por onda de superficie a 100 km],),
   sol: [El conducto troposférico guía VHF y UHF a cientos de kilómetros, muy por encima del horizonte, y sobre el mar puede pasar de mil. Un enlace nocturno en 3,5 MHz es ionosférico, el de la Luna es rebote lunar (EME) y el de 1,8 MHz por el suelo es onda de superficie en MF.], tema: "T7")
 #pq(6, 1, 26, "b", "estúdialo en: simulacros de estudio 7·1·27", "Cálculo de la ROE a partir de la potencia directa y la reflejada; potencia entregada = directa − reflejada",
-  [Un vatímetro direccional indica 90 W de potencia directa y 10 W de reflejada. La ROE y la potencia que llega a la antena son, respectivamente:],
-  ([9 y 80 W], [2 y 80 W], [1,25 y 80 W], [2 y 100 W],),
-  sol: [$rho = sqrt(P_r slash P_d) = sqrt(10 slash 90) = 1 slash 3$ y $"ROE" = (1 + 1 slash 3) slash (1 - 1 slash 3) = 2$. La antena recibe la directa menos la reflejada, $90 - 10 = 80$ W; sumarlas (100 W) es el error típico. El 1,25 sale de olvidar la raíz cuadrada y el 9 es el cociente de potencias.], tema: "T8")
+  [Una antena presenta una ROE de 2 y el vatímetro direccional indica 90 W de potencia directa. ¿Qué potencia se refleja y cuánta recibe la antena?],
+  ([se reflejan 45 W y la antena recibe 45 W], [se reflejan 10 W y la antena recibe 80 W], [se reflejan 10 W y la antena recibe 100 W], [se reflejan 30 W y la antena recibe 60 W],),
+  sol: [Con ROE 2, $rho = ("ROE" - 1) slash ("ROE" + 1) = 1 slash 3$, y la reflejada es $rho^2 = 1 slash 9$ de la directa (el 11 % de la tabla): $90 slash 9 = 10$ W. La antena recibe la directa menos la reflejada, $90 - 10 = 80$ W. Los 30 W olvidan elevar $rho$ al cuadrado, los 45 W toman la ROE como si fuera el cociente de potencias, y los 100 W suman la reflejada en lugar de restarla.], tema: "T8")
 #pq(6, 1, 27, "d", "estúdialo en: simulacros de estudio 1·1·26 · libro: C-T8.4", "Medidor de campo: intensidad de campo radiado, en V/m",
-  [En espacio libre y lejos de la antena, si un medidor de campo se aleja al doble de distancia, la intensidad de campo que indica:],
-  ([se reduce a la cuarta parte], [se duplica], [no varía], [se reduce a la mitad],),
-  sol: [Lejos de la antena el campo vale aproximadamente $E approx sqrt(30 P G) slash d$: es inversamente proporcional a la distancia, así que al doble de distancia el medidor indica la mitad de V/m. La cuarta parte supondría una dependencia con el cuadrado de la distancia, que no es la del campo.], tema: "T8")
+  [Quieres saber qué intensidad de campo eléctrico produce tu antena en la terraza de un vecino. ¿Qué instrumento usarás y en qué unidades obtendrás el resultado?],
+  ([un medidor de ROE, en vatios], [un dipmeter, en hercios], [un vatímetro direccional, en dBm], [un medidor de campo, en V/m o dBμV/m],),
+  sol: [La intensidad de campo radiado que llega a un lugar se mide con un medidor de campo, un receptor calibrado con su antena de medida, y se expresa en voltios por metro o en sus submúltiplos (μV/m, dBμV/m). El medidor de ROE y el vatímetro miden en la línea, junto al transmisor, y el dipmeter busca la resonancia de un circuito.], tema: "T8")
 #pq(6, 1, 28, "a", "estúdialo en: simulacros de estudio 3·1·28 · libro: T9.20", "Ante una queja: comprobar la propia estación y colaborar",
   [Tras una queja de un vecino, conectas tu transmisor a la carga artificial y transmites: la interferencia desaparece. ¿Qué conclusión y qué paso siguiente son correctos?],
   ([el camino era la radiación de tu antena: revisa tus armónicos, la ROE y la potencia, y luego la inmunidad del equipo afectado, en colaboración con el vecino], [tu estación queda descartada y el problema es solo del vecino, que debe resolverlo él], [el camino era la red eléctrica: basta con instalar un filtro de red en tu transceptor], [conviene aumentar la potencia para confirmar el diagnóstico],),
@@ -2270,8 +2270,8 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
 #simulacro(9)
 #prueba(9, 1)
 #pq(9, 1, 1, "b", "estúdialo en: simulacros de estudio 6·1·2 · libro: F-T1.50", "Ley de Kirchhoff de las corrientes (nudos)",
-  [La ley de Kirchhoff de las corrientes (ley de los nudos) es una consecuencia directa de:],
-  ([la ley de Coulomb entre las cargas que llegan al nudo], [la conservación de la carga eléctrica, que no se acumula en el nudo], [la conservación de la energía a lo largo de una malla cerrada], [la ley de Ohm aplicada a cada una de las ramas],),
+  [¿En qué principio físico se basa la ley de los nudos de Kirchhoff?],
+  ([en la ley de Coulomb entre las cargas que llegan al nudo], [en la conservación de la carga eléctrica, que no se acumula en el nudo], [en la conservación de la energía a lo largo de una malla cerrada], [en la ley de Ohm aplicada a cada una de las ramas],),
   sol: [La carga no se crea, no se destruye y no se acumula en un nudo: toda la que llega por unas ramas tiene que salir por otras, y por eso la suma de las corrientes entrantes iguala a la de las salientes. La conservación de la energía por unidad de carga es el fundamento de la otra ley, la de las tensiones o de las mallas.], tema: "T1")
 #pq(9, 1, 2, "a", "estúdialo en: simulacros de estudio 11·1·1 · libro: T1.17", "Longitud de onda: λ = c / f, λ (m) ≈ 300 / f (MHz)",
   [Una emisión con una longitud de onda de 15 m tiene una frecuencia de:],
@@ -2522,11 +2522,11 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([en paralelo: todos los positivos unidos y todos los negativos unidos], [en serie: el positivo de cada una con el negativo de la siguiente], [en serie, con una resistencia que absorba la tensión sobrante], [en paralelo, uniendo el positivo de cada una con el negativo de la otra],),
   sol: [En paralelo la tensión del conjunto es la de una sola batería (12 V) y la corriente total se reparte entre todas, así que el conjunto puede dar más amperios. En serie se sumarían las tensiones, y la corriente disponible seguiría siendo la de una sola batería aunque se intercalara una resistencia. Unir el positivo de una con el negativo de otra en paralelo las pondría en cortocircuito.], tema: "T1")
 #pq(10, 1, 2, "d", "estúdialo en: simulacros de estudio 9·1·3", "Onda electromagnética: campos E y B perpendiculares entre sí y a la propagación",
-  [Una onda electromagnética avanza en dirección horizontal y su campo eléctrico es vertical. Su campo magnético es:],
+  [Una antena vertical radia una onda que avanza horizontalmente con el campo eléctrico vertical. ¿Cómo es el campo magnético de esa onda?],
   ([vertical, paralelo al campo eléctrico], [nulo, porque la onda tiene polarización vertical], [horizontal y orientado en la misma dirección en que avanza la onda], [horizontal y perpendicular a la dirección de avance],),
   sol: [En una onda electromagnética los campos eléctrico y magnético son perpendiculares entre sí y los dos son perpendiculares a la dirección de propagación. Si el eléctrico es vertical, el magnético tiene que ser horizontal y, además, cruzado respecto al avance: ninguno de los dos apunta en la dirección de propagación. La polarización vertical solo indica hacia dónde apunta el campo eléctrico.], tema: "T1")
 #pq(10, 1, 3, "a", "estúdialo en: simulacros de estudio 2·1·1, 13·1·4 · libro: T1.20, F-T1.5", "Conversión entre valores de pico, pico a pico y eficaz de una sinusoide (V_ef = V_p / √2)",
-  [Una tensión sinusoidal de 50 V eficaces tiene un valor de pico a pico aproximado de:],
+  [¿Qué tensión de pico a pico mide un osciloscopio en una señal sinusoidal de 50 V eficaces?],
   ([141 V], [70,7 V], [100 V], [35,4 V],),
   sol: [El pico es $V_p = V_"ef" sqrt(2) = 50 times 1","414 approx 70","7$ V, y el pico a pico, el doble: unos 141 V. Los 70,7 V son solo el pico; los 100 V duplican el eficaz sin pasar por el pico, y los 35,4 V dividen entre $sqrt(2)$ en lugar de multiplicar.], tema: "T1")
 #pq(10, 1, 4, "c", "estúdialo en: simulacros de estudio 11·1·3 · libro: T1.35", "Factor de potencia: coseno del desfase entre tensión y corriente",
@@ -2622,8 +2622,8 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([un vatímetro de RF seguido de una carga artificial de 50 Ω], [un polímetro en la escala de alterna, en paralelo con la antena], [un óhmetro entre el vivo y la malla del conector de antena], [un frecuencímetro seguido de la antena],),
   sol: [La potencia de RF se mide con un vatímetro intercalado en la línea, y la carga artificial ocupa el lugar de la antena, disipando la potencia en calor sin radiarla. El polímetro no sirve en RF, el óhmetro no mide potencia y el frecuencímetro mide frecuencia; además, con la antena conectada se radiaría.], tema: "T8")
 #pq(10, 1, 27, "d", "estúdialo en: simulacros de estudio 11·1·27 · libro: T8.29", "El medidor de ROE es el instrumento más imprescindible de la estación",
-  [El medidor de ROE se considera el instrumento más imprescindible de una estación de aficionado porque:],
-  ([mide la intensidad de campo radiado por la antena], [muestra los armónicos y las emisiones espurias del transmisor], [mide con precisión la frecuencia emitida], [avisa de la desadaptación entre el equipo y la antena, origen de la mayoría de los problemas y de averías del paso final],),
+  [¿Por qué el medidor de ROE no debería faltar nunca en una estación de aficionado?],
+  ([porque mide la intensidad de campo radiado por la antena], [porque muestra los armónicos y las emisiones espurias del transmisor], [porque mide con precisión la frecuencia emitida], [porque avisa de la desadaptación entre el equipo y la antena, origen de la mayoría de los problemas y de averías del paso final],),
   sol: [Su función es avisar de que algo va mal entre el equipo y la antena, que es de donde vienen la mayoría de los problemas, y una desadaptación puede averiar el paso final. La frecuencia se mide con el frecuencímetro, los armónicos con el analizador de espectros y el campo radiado con el medidor de campo.], tema: "T8")
 #pq(10, 1, 28, "d", "estúdialo en: simulacros de estudio 7·1·28 · libro: C-T9.4", "La emisión de armónicos y espurias implica riesgo de interferencias en cualquier banda",
   [Un transmisor emite en 14,2 MHz. ¿En qué frecuencia cae su tercer armónico?],
@@ -2774,7 +2774,7 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([10 ms], [1 ms], [1 s], [100 ms],),
   sol: [$t = d slash c = 3000 slash 300.000 = 0","01$ s = 10 ms. 1 ms supondría una velocidad de 3.000.000 km/s y 100 ms, de 30.000 km/s: dos errores clásicos en la cifra de $c$. Un segundo correspondería a 300.000 km.], tema: "T1")
 #pq(11, 1, 3, "b", "estúdialo en: simulacros de estudio 10·1·2 · libro: T1.19", "Período: T = 1 / f, tiempo entre dos máximos consecutivos",
-  [Entre dos máximos consecutivos de una señal sinusoidal transcurren 2 μs. Su frecuencia es de:],
+  [En la pantalla de un osciloscopio, dos máximos consecutivos de una sinusoide están separados 2 μs. ¿Cuál es su frecuencia?],
   ([2 MHz], [500 kHz], [250 kHz], [50 kHz],),
   sol: [El tiempo entre dos máximos consecutivos es el período, $T = 2$ μs, y $f = 1 slash T = 1 slash (2 times 10^(-6)) = 500.000$ Hz = 500 kHz. Los 250 kHz toman ese tiempo como medio período, los 2 MHz leen los microsegundos como megahercios y los 50 kHz son un error de un factor 10.], tema: "T1")
 #pq(11, 1, 4, "a", "estúdialo en: simulacros de estudio 9·1·4 · libro: F-T1.45", "Filtros antisolapamiento (paso bajo antes del A/D) y de reconstrucción (paso bajo tras el D/A)",
@@ -2870,7 +2870,7 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([un voltímetro analógico de 20 000 Ω/V en la escala de 10 V], [un voltímetro analógico de 1000 Ω/V en la escala de 10 V], [un polímetro digital de 10 MΩ de resistencia de entrada], [un voltímetro de 100 kΩ de resistencia interna],),
   sol: [El voltímetro queda en paralelo con una de las resistencias y le roba corriente; el error es menor cuanto mayor es su resistencia frente a la del circuito (al menos cien veces mayor). Los analógicos de 1000 y 20 000 Ω/V tienen 10 kΩ y 200 kΩ en la escala de 10 V; con uno de 100 kΩ la lectura bajaría un 33 %, mientras que con 10 MΩ el error es de solo un 0,5 %.], tema: "T8")
 #pq(11, 1, 27, "b", "estúdialo en: simulacros de estudio 13·1·26", "Potencia media frente a p.c.e. (coinciden con amplitud constante; en SSB la media es mucho menor)",
-  [Un transmisor de SSB da 100 W p.c.e. con voz sin procesar. Su potencia media es aproximadamente de:],
+  [Con voz sin procesar, un transmisor de SSB que da 100 W p.c.e. entrega una potencia media del orden de:],
   ([unos 50 W, la mitad de la p.c.e.], [entre 10 y 25 W], [100 W, igual que la p.c.e.], [unos 70,7 W, la p.c.e. dividida entre $sqrt(2)$],),
   sol: [En SSB no hay portadora y la potencia sube y baja con la voz: la media queda muy por debajo de la p.c.e., de 10 a 25 W para 100 W p.c.e. Solo con amplitud constante (CW con el manipulador apretado o FM) coinciden media y p.c.e., y dividir entre $sqrt(2)$ es pasar de tensión de pico a eficaz, no de p.c.e. a potencia media.], tema: "T8")
 #pq(11, 1, 28, "a", "estúdialo en: simulacros de estudio 13·1·27", "Detección en circuitos de audio: una unión semiconductora rectifica la RF y recupera la envolvente",
@@ -3026,7 +3026,7 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([QAM], [4PSK], [FSK], [2PSK],),
   sol: [FSK salta entre frecuencias y PSK (2PSK, 4PSK) entre fases, ambas con amplitud constante. La QAM combina cambios de amplitud y de fase, así que su amplitud varía de un símbolo a otro.], tema: "T1")
 #pq(12, 1, 4, "d", "estúdialo en: simulacros de estudio 4·1·5, 10·1·4 · libro: F-T1.42, T1.32", "Teorema de Nyquist: f_s ≥ 2 f_máx",
-  [Se quiere digitalizar una señal cuya frecuencia máxima es de 12 kHz. De las siguientes frecuencias de muestreo, la menor que cumple el criterio de Nyquist es:],
+  [Una señal llega hasta 12 kHz. ¿Cuál es la menor de estas frecuencias de muestreo con la que puede digitalizarse sin aliasing?],
   ([6 kHz], [48 kHz], [16 kHz], [24 kHz],),
   sol: [Nyquist exige $f_s >= 2 f_"máx" = 2 times 12 = 24$ kHz. Las de 6 y 16 kHz quedan por debajo y producirían aliasing; la de 48 kHz también cumple, pero no es la menor.], tema: "T1")
 #pq(12, 1, 5, "c", "estúdialo en: simulacros de estudio 10·1·5 · libro: C-T2.6", "Código de colores: cifra que representa cada color (negro 0 … blanco 9)",
@@ -3118,7 +3118,7 @@ El aprobado es 15 de 30 en cada prueba por separado, pero estos simulacros son t
   ([dividir la tensión medida entre la corriente medida], [medir la resistencia del equipo con el voltímetro], [medir la tensión de alimentación y la corriente que toma, y multiplicarlas], [medir solo la tensión, porque el voltímetro ya indica la potencia],),
   sol: [El voltímetro mide tensión y el amperímetro, corriente; la potencia en continua es su producto, $P = V I$. Dividir tensión entre corriente da la resistencia, no la potencia, y ninguno de los dos instrumentos mide potencia ni resistencia por sí solo.], tema: "T8")
 #pq(12, 1, 27, "a", "estúdialo en: simulacros de estudio 4·1·26 · libro: F-T8.9", "Influencia de la frecuencia: un polímetro común no sirve para medir tensiones de RF",
-  [Para medir la tensión de radiofrecuencia a la salida de un transmisor de 14 MHz conviene emplear:],
+  [Quieres conocer la tensión de RF en la salida de un transmisor de 14 MHz. El instrumento adecuado es:],
   ([una sonda con diodo detector o un voltímetro de RF], [la escala de continua de un polímetro, sin sonda], [un óhmetro conectado a la salida], [la escala de alterna de un polímetro convencional],),
   sol: [Los circuitos de alterna de un polímetro corriente están pensados para los 50 Hz de la red: a unos kHz empiezan a fallar y en RF la lectura no sirve. Para RF se usan sondas con diodo detector, vatímetros u osciloscopios. La escala de continua sin sonda no ve la RF, y un óhmetro no mide tensiones.], tema: "T8")
 #pq(12, 1, 28, "b", "estúdialo en: simulacros de estudio 1·1·27 · libro: T9.7", "Filtro de red (de línea de desacoplo) en la alimentación",
