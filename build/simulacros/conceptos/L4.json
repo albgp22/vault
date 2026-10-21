@@ -1,0 +1,1756 @@
+{
+ "lote": "L4",
+ "conceptos": [
+  {
+   "cid": "T4-01",
+   "tema": "T4",
+   "concepto": "Superheterodino: la FI es una frecuencia fija, presente a la salida del mezclador (de ahí el nombre)",
+   "peso": 3,
+   "preguntas": [
+    "T4.2"
+   ],
+   "cubre": [
+    "T4.2",
+    "C-T4.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-02",
+   "tema": "T4",
+   "concepto": "Ventaja de la superheterodinación según el banco: ganancia y selectividad en FI fija, que permite aplicar el CAG",
+   "peso": 1,
+   "preguntas": [
+    "C-T4.13"
+   ],
+   "cubre": [
+    "C-T4.13"
+   ],
+   "nota": "Enunciado pobre del banco público que se resuelve por eliminación; conviene conocer su clave literal."
+  },
+  {
+   "cid": "T4-03",
+   "tema": "T4",
+   "concepto": "Orden de etapas del superheterodino: RF → mezclador → FI → detector → BF",
+   "peso": 3,
+   "preguntas": [
+    "T4.1"
+   ],
+   "cubre": [
+    "T4.1",
+    "T4.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-04",
+   "tema": "T4",
+   "concepto": "El mezclador necesita el oscilador local: bloque que falta en un diagrama",
+   "peso": 2,
+   "preguntas": [
+    "T4.36"
+   ],
+   "cubre": [
+    "T4.36",
+    "T4.18"
+   ],
+   "nota": "Pregunta con figura inevitable: el examen presenta diagramas de bloques con un bloque en blanco."
+  },
+  {
+   "cid": "T4-05",
+   "tema": "T4",
+   "concepto": "Relación entre señal, oscilador local y FI: OL por encima f_s = f_OL − f_FI; OL por debajo f_s = f_OL + f_FI",
+   "peso": 3,
+   "preguntas": [
+    "T4.4",
+    "T4.20"
+   ],
+   "cubre": [
+    "T4.4",
+    "T4.20",
+    "T4.38"
+   ],
+   "nota": "T4.20 es el cálculo en el otro sentido (OL por debajo, se halla la señal) con el distractor de la resta 9 − 5,2; T4.38 queda cubierta (OL por encima)."
+  },
+  {
+   "cid": "T4-06",
+   "tema": "T4",
+   "concepto": "Frecuencia imagen: defecto del receptor superheterodino, situada a 2·FI de la sintonizada",
+   "peso": 3,
+   "preguntas": [
+    "F-T4.4",
+    "C-T4.7"
+   ],
+   "cubre": [
+    "F-T4.4",
+    "T4.12",
+    "C-T4.7"
+   ],
+   "nota": "F-T4.4 es el cálculo (distractores: OL, suma, doble); C-T4.7 es la formulación del banco público (trampa «emisor superheterodino»)."
+  },
+  {
+   "cid": "T4-07",
+   "tema": "T4",
+   "concepto": "La imagen se rechaza antes del mezclador, con un filtro (preselector)",
+   "peso": 3,
+   "preguntas": [
+    "T4.11"
+   ],
+   "cubre": [
+    "T4.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-08",
+   "tema": "T4",
+   "concepto": "Doble conversión: dos FI; la 1.ª alta (aleja la imagen) y la 2.ª baja (selectividad)",
+   "peso": 2,
+   "preguntas": [
+    "C-T4.12"
+   ],
+   "cubre": [
+    "C-T4.12",
+    "T4.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-09",
+   "tema": "T4",
+   "concepto": "Conversión directa: el OL a la frecuencia de la señal y el mezclador da directamente audio, sin FI",
+   "peso": 2,
+   "preguntas": [
+    "T4.3",
+    "C-T4.16"
+   ],
+   "cubre": [
+    "T4.3",
+    "C-T4.16"
+   ],
+   "nota": "C-T4.16 es el diagrama de bloques del banco público (identificar el oscilador local en la conversión directa)."
+  },
+  {
+   "cid": "T4-10",
+   "tema": "T4",
+   "concepto": "Diagrama de bloques del receptor de BLU (RF, mezclador con OL variable, FI, detector de producto con BFO)",
+   "peso": 2,
+   "preguntas": [
+    "C-T4.15"
+   ],
+   "cubre": [
+    "C-T4.15"
+   ],
+   "nota": "Figura inevitable: es la pregunta de diagrama del banco público."
+  },
+  {
+   "cid": "T4-11",
+   "tema": "T4",
+   "concepto": "Receptor de FM: tras la FI, limitador y después discriminador (en AM, detector de envolvente)",
+   "peso": 2,
+   "preguntas": [
+    "F-T4.10",
+    "F-T4.11"
+   ],
+   "cubre": [
+    "F-T4.10",
+    "F-T4.11"
+   ],
+   "nota": "F-T4.10 prueba el orden (trampa: discriminador antes del limitador); F-T4.11 la diferencia con el receptor de AM."
+  },
+  {
+   "cid": "T4-12",
+   "tema": "T4",
+   "concepto": "La etapa detectora demodula (extrae la información)",
+   "peso": 2,
+   "preguntas": [
+    "C-T4.1"
+   ],
+   "cubre": [
+    "C-T4.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-13",
+   "tema": "T4",
+   "concepto": "Detector de producto con BFO: imprescindible en SSB y CW (no en AM ni FM)",
+   "peso": 3,
+   "preguntas": [
+    "T4.34"
+   ],
+   "cubre": [
+    "T4.34",
+    "T4.10",
+    "T4.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-14",
+   "tema": "T4",
+   "concepto": "Pasar de USB a LSB cambia la frecuencia del BFO (batido), no el ancho de banda ni la clase de emisión",
+   "peso": 2,
+   "preguntas": [
+    "C-T4.3"
+   ],
+   "cubre": [
+    "C-T4.3",
+    "T4.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-15",
+   "tema": "T4",
+   "concepto": "Convenio de banda lateral: LSB en 160, 80 y 40 m; USB de 20 m hacia arriba",
+   "peso": 1,
+   "preguntas": [
+    "N-T4-01"
+   ],
+   "cubre": [],
+   "nota": "Hueco: hecho de la hoja de repaso sin pregunta en el banco."
+  },
+  {
+   "cid": "T4-16",
+   "tema": "T4",
+   "concepto": "Señal de AM recibida en modo SSB: el BFO bate con la portadora y se oye un pitido",
+   "peso": 1,
+   "preguntas": [
+    "C-T4.6"
+   ],
+   "cubre": [
+    "C-T4.6"
+   ],
+   "nota": "La clave a corrige la del banco publicado (b), como reconoce la propia solución."
+  },
+  {
+   "cid": "T4-17",
+   "tema": "T4",
+   "concepto": "La selectividad la fijan las etapas (filtros) de FI; la FI son amplificadores y filtros",
+   "peso": 3,
+   "preguntas": [
+    "T4.31"
+   ],
+   "cubre": [
+    "T4.31",
+    "T4.39",
+    "T4.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-18",
+   "tema": "T4",
+   "concepto": "Selectividad: separar señales próximas en frecuencia (curva más estrecha = más selectivo)",
+   "peso": 3,
+   "preguntas": [
+    "T4.5"
+   ],
+   "cubre": [
+    "T4.5",
+    "T4.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-19",
+   "tema": "T4",
+   "concepto": "Selectividad de canal adyacente: la fijan los faldones del filtro de FI (problema lineal)",
+   "peso": 2,
+   "preguntas": [
+    "N-T4-02"
+   ],
+   "cubre": [],
+   "nota": "Hueco: punto explícito del alcance oficial sin pregunta en el banco."
+  },
+  {
+   "cid": "T4-20",
+   "tema": "T4",
+   "concepto": "Anchura del filtro según el modo: la más estrecha para CW; unos 2,4 kHz en SSB",
+   "peso": 2,
+   "preguntas": [
+    "T4.26"
+   ],
+   "cubre": [
+    "T4.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-21",
+   "tema": "T4",
+   "concepto": "Anchura de banda de la NBFM: unos 12 kHz (FM de difusión 200 kHz, SSB 2,4 kHz)",
+   "peso": 2,
+   "preguntas": [
+    "T4.35"
+   ],
+   "cubre": [
+    "T4.35"
+   ],
+   "nota": "No confundir con la excursión de la NBFM (±2,5 a ±5 kHz), concepto T5-19."
+  },
+  {
+   "cid": "T4-22",
+   "tema": "T4",
+   "concepto": "Sensibilidad: captar y amplificar señales débiles",
+   "peso": 3,
+   "preguntas": [
+    "T4.6"
+   ],
+   "cubre": [
+    "T4.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-23",
+   "tema": "T4",
+   "concepto": "La sensibilidad (figura de ruido) la determina la primera etapa de RF (Friis)",
+   "peso": 3,
+   "preguntas": [
+    "T4.30"
+   ],
+   "cubre": [
+    "T4.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-24",
+   "tema": "T4",
+   "concepto": "Relación señal/ruido: índice de calidad del receptor, en dB",
+   "peso": 1,
+   "preguntas": [
+    "T4.13"
+   ],
+   "cubre": [
+    "T4.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-25",
+   "tema": "T4",
+   "concepto": "Señal mínima discernible: MDS = −174 + 10 log B + F (dBm)",
+   "peso": 1,
+   "preguntas": [
+    "F-T4.3"
+   ],
+   "cubre": [
+    "F-T4.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-26",
+   "tema": "T4",
+   "concepto": "Ruido estático (QRN) = descargas atmosféricas",
+   "peso": 1,
+   "preguntas": [
+    "T4.33"
+   ],
+   "cubre": [
+    "T4.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-27",
+   "tema": "T4",
+   "concepto": "Estabilidad: mantener la frecuencia sintonizada sin derivar",
+   "peso": 3,
+   "preguntas": [
+    "T4.14"
+   ],
+   "cubre": [
+    "T4.14",
+    "T4.32"
+   ],
+   "nota": "T4.14 enseña la confusión sensibilidad/selectividad/estabilidad/fidelidad."
+  },
+  {
+   "cid": "T4-28",
+   "tema": "T4",
+   "concepto": "La estabilidad del receptor depende del oscilador local",
+   "peso": 2,
+   "preguntas": [
+    "C-T4.5"
+   ],
+   "cubre": [
+    "C-T4.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-29",
+   "tema": "T4",
+   "concepto": "El margen dinámico lo determina el primer mezclador",
+   "peso": 2,
+   "preguntas": [
+    "T4.17"
+   ],
+   "cubre": [
+    "T4.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-30",
+   "tema": "T4",
+   "concepto": "Desensibilización y bloqueo: una señal fuerte satura las primeras etapas y las débiles dejan de oírse",
+   "peso": 2,
+   "preguntas": [
+    "F-T4.5"
+   ],
+   "cubre": [
+    "F-T4.5",
+    "F-T4.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-31",
+   "tema": "T4",
+   "concepto": "Remedio contra el bloqueo: bajar la ganancia de RF, atenuador o filtro en la entrada (no un preamplificador)",
+   "peso": 2,
+   "preguntas": [
+    "F-T4.7"
+   ],
+   "cubre": [
+    "F-T4.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-32",
+   "tema": "T4",
+   "concepto": "El atenuador de entrada está formado por resistencias",
+   "peso": 1,
+   "preguntas": [
+    "C-T4.2"
+   ],
+   "cubre": [
+    "C-T4.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-33",
+   "tema": "T4",
+   "concepto": "Intermodulación de tercer orden: productos en 2f1 − f2 y 2f2 − f1, dentro de banda",
+   "peso": 2,
+   "preguntas": [
+    "F-T4.8"
+   ],
+   "cubre": [
+    "F-T4.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-34",
+   "tema": "T4",
+   "concepto": "Los productos de tercer orden suben 3 dB por cada dB que suben las señales",
+   "peso": 1,
+   "preguntas": [
+    "F-T4.9"
+   ],
+   "cubre": [
+    "F-T4.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-35",
+   "tema": "T4",
+   "concepto": "Modulación cruzada: la modulación de una señal fuerte se traslada a la sintonizada (no linealidad)",
+   "peso": 2,
+   "preguntas": [
+    "N-T4-03"
+   ],
+   "cubre": [],
+   "nota": "Hueco: punto explícito del alcance oficial sin pregunta en el banco."
+  },
+  {
+   "cid": "T4-36",
+   "tema": "T4",
+   "concepto": "CAG: mantiene constante la salida; lazo desde el detector hacia RF y FI",
+   "peso": 3,
+   "preguntas": [
+    "T4.7"
+   ],
+   "cubre": [
+    "T4.7",
+    "T4.37"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-37",
+   "tema": "T4",
+   "concepto": "El mando del CAG fija su tiempo de respuesta (FAST/SLOW)",
+   "peso": 1,
+   "preguntas": [
+    "C-T4.8"
+   ],
+   "cubre": [
+    "C-T4.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-38",
+   "tema": "T4",
+   "concepto": "Silenciador (squelch): corta el audio cuando la señal no supera un umbral",
+   "peso": 3,
+   "preguntas": [
+    "T4.8"
+   ],
+   "cubre": [
+    "T4.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-39",
+   "tema": "T4",
+   "concepto": "En un repetidor, el relé que activa el transmisor lo gobierna el silenciador del receptor",
+   "peso": 1,
+   "preguntas": [
+    "C-T4.14"
+   ],
+   "cubre": [
+    "C-T4.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-40",
+   "tema": "T4",
+   "concepto": "El S-meter indica la intensidad de la señal recibida",
+   "peso": 2,
+   "preguntas": [
+    "T4.9"
+   ],
+   "cubre": [
+    "T4.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-41",
+   "tema": "T4",
+   "concepto": "Escala del S-meter: 6 dB por punto S",
+   "peso": 2,
+   "preguntas": [
+    "F-T4.2"
+   ],
+   "cubre": [
+    "F-T4.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-42",
+   "tema": "T4",
+   "concepto": "S9 = 50 μV en HF; los dB sobre S9 se cuentan en tensión (+20 dB = ×10)",
+   "peso": 1,
+   "preguntas": [
+    "F-T4.1"
+   ],
+   "cubre": [
+    "F-T4.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-43",
+   "tema": "T4",
+   "concepto": "Mando RF GAIN: ganancia de las etapas de RF del receptor (no la potencia del emisor)",
+   "peso": 2,
+   "preguntas": [
+    "T4.22",
+    "C-T4.10"
+   ],
+   "cubre": [
+    "T4.22",
+    "C-T4.10"
+   ],
+   "nota": "C-T4.10 es la redacción del banco público, con distractores sobre el emisor; su clave c corrige la publicada (d), como reconoce la solución."
+  },
+  {
+   "cid": "T4-44",
+   "tema": "T4",
+   "concepto": "Noise blanker (NB): suprime el ruido impulsivo",
+   "peso": 2,
+   "preguntas": [
+    "T4.23"
+   ],
+   "cubre": [
+    "T4.23",
+    "T4.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-45",
+   "tema": "T4",
+   "concepto": "RIT: varía la frecuencia de recepción sin tocar la de transmisión",
+   "peso": 2,
+   "preguntas": [
+    "T4.21"
+   ],
+   "cubre": [
+    "T4.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-46",
+   "tema": "T4",
+   "concepto": "El conmutador de canales varía la sintonía",
+   "peso": 1,
+   "preguntas": [
+    "C-T4.4"
+   ],
+   "cubre": [
+    "C-T4.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-47",
+   "tema": "T4",
+   "concepto": "El dial digital indica la frecuencia de trabajo",
+   "peso": 1,
+   "preguntas": [
+    "C-T4.11"
+   ],
+   "cubre": [
+    "C-T4.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-48",
+   "tema": "T4",
+   "concepto": "Para oír 2 m con un receptor de HF se intercala un conversor",
+   "peso": 1,
+   "preguntas": [
+    "T4.24"
+   ],
+   "cubre": [
+    "T4.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T4-49",
+   "tema": "T4",
+   "concepto": "El DSP permite filtros digitales optimizables",
+   "peso": 1,
+   "preguntas": [
+    "T4.27"
+   ],
+   "cubre": [
+    "T4.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-01",
+   "tema": "T5",
+   "concepto": "Funciones mínimas de un transmisor: generar, modular y amplificar",
+   "peso": 2,
+   "preguntas": [
+    "C-T5.29"
+   ],
+   "cubre": [
+    "C-T5.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-02",
+   "tema": "T5",
+   "concepto": "Orden de bloques del emisor: modulador → amplificación y traslación → final → red de acoplo",
+   "peso": 2,
+   "preguntas": [
+    "T5.21"
+   ],
+   "cubre": [
+    "T5.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-03",
+   "tema": "T5",
+   "concepto": "Transmisor con conversión: la señal se genera en una FI fija y un mezclador con el VFO la lleva a RF",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.23"
+   ],
+   "cubre": [
+    "C-T5.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-04",
+   "tema": "T5",
+   "concepto": "Transmisor sin conversión: la salida es el oscilador o un múltiplo suyo (CW, FM)",
+   "peso": 1,
+   "preguntas": [
+    "N-T5-01"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el alcance distingue transmisores con y sin conversión; el banco solo pregunta por el primero."
+  },
+  {
+   "cid": "T5-05",
+   "tema": "T5",
+   "concepto": "Unidad transceptora = transmisor + receptor",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.26"
+   ],
+   "cubre": [
+    "C-T5.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-06",
+   "tema": "T5",
+   "concepto": "Diagrama de bloques del transmisor de BLU (BF, modulador balanceado, filtro, RF)",
+   "peso": 2,
+   "preguntas": [
+    "C-T5.31"
+   ],
+   "cubre": [
+    "C-T5.31"
+   ],
+   "nota": "Figura inevitable: pregunta de diagrama del banco público."
+  },
+  {
+   "cid": "T5-07",
+   "tema": "T5",
+   "concepto": "SSB por filtro: el modulador equilibrado suprime la portadora; el filtro elimina una banda lateral",
+   "peso": 3,
+   "preguntas": [
+    "T5.27",
+    "T5.28"
+   ],
+   "cubre": [
+    "T5.27",
+    "T5.28"
+   ],
+   "nota": "Dos preguntas porque el examen pregunta las dos etapas y cada una usa la función de la otra como distractor."
+  },
+  {
+   "cid": "T5-08",
+   "tema": "T5",
+   "concepto": "SSB por el método de fase: la banda indeseada se cancela (dos moduladores con desfase de 90°)",
+   "peso": 1,
+   "preguntas": [
+    "N-T5-02"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el alcance cita los moduladores de SSB; el banco no pregunta por el método de fase."
+  },
+  {
+   "cid": "T5-09",
+   "tema": "T5",
+   "concepto": "La SSB es una variante de la modulación de amplitud",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.8"
+   ],
+   "cubre": [
+    "C-T5.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-10",
+   "tema": "T5",
+   "concepto": "Clase del final según el modo: SSB exige final lineal; CW y FM admiten clase C",
+   "peso": 2,
+   "preguntas": [
+    "N-T5-03"
+   ],
+   "cubre": [],
+   "nota": "Hueco: idea central del capítulo sin pregunta directa en el banco."
+  },
+  {
+   "cid": "T5-11",
+   "tema": "T5",
+   "concepto": "En un emisor, los amplificadores aumentan la potencia",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.13"
+   ],
+   "cubre": [
+    "C-T5.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-12",
+   "tema": "T5",
+   "concepto": "Excitador: lleva la señal al nivel que necesita el amplificador final",
+   "peso": 2,
+   "preguntas": [
+    "T5.20"
+   ],
+   "cubre": [
+    "T5.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-13",
+   "tema": "T5",
+   "concepto": "Etapa separadora: aísla el oscilador de las variaciones de carga",
+   "peso": 2,
+   "preguntas": [
+    "T5.25"
+   ],
+   "cubre": [
+    "T5.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-14",
+   "tema": "T5",
+   "concepto": "Multiplicador de frecuencia: eleva la frecuencia del oscilador; en cascada, los factores se multiplican",
+   "peso": 2,
+   "preguntas": [
+    "T5.11",
+    "F-T5.9"
+   ],
+   "cubre": [
+    "T5.11",
+    "F-T5.9"
+   ],
+   "nota": "F-T5.9 añade el cálculo en cascada (trampa: sumar los factores)."
+  },
+  {
+   "cid": "T5-15",
+   "tema": "T5",
+   "concepto": "Los multiplicadores multiplican también la desviación de FM",
+   "peso": 2,
+   "preguntas": [
+    "F-T5.10"
+   ],
+   "cubre": [
+    "F-T5.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-16",
+   "tema": "T5",
+   "concepto": "FM directa: el audio actúa sobre el oscilador (varicap)",
+   "peso": 2,
+   "preguntas": [
+    "F-T5.11"
+   ],
+   "cubre": [
+    "F-T5.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-17",
+   "tema": "T5",
+   "concepto": "FM indirecta: modulador de fase tras un oscilador a cristal (ventaja: estabilidad)",
+   "peso": 2,
+   "preguntas": [
+    "F-T5.13"
+   ],
+   "cubre": [
+    "F-T5.13",
+    "F-T5.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-18",
+   "tema": "T5",
+   "concepto": "Índice de modulación de FM: m = Δf / f_m",
+   "peso": 3,
+   "preguntas": [
+    "T5.3"
+   ],
+   "cubre": [
+    "T5.3",
+    "T5.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-19",
+   "tema": "T5",
+   "concepto": "Excursión máxima de la NBFM: unos ±2,5 a ±5 kHz",
+   "peso": 2,
+   "preguntas": [
+    "C-T5.30"
+   ],
+   "cubre": [
+    "C-T5.30"
+   ],
+   "nota": "La clave c corrige la del banco publicado (12 kHz, que es la anchura de banda: concepto T4-21), como reconoce la solución."
+  },
+  {
+   "cid": "T5-20",
+   "tema": "T5",
+   "concepto": "Índice de modulación de AM: porcentaje de variación de amplitud de la portadora",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.21"
+   ],
+   "cubre": [
+    "C-T5.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-21",
+   "tema": "T5",
+   "concepto": "Clases de emisión UIT: A1A (CW), A3E (AM), J3E (SSB), R3E, F3E (FM)",
+   "peso": 3,
+   "preguntas": [
+    "C-T5.19",
+    "C-T5.11"
+   ],
+   "cubre": [
+    "C-T5.19",
+    "C-T5.1",
+    "C-T5.11",
+    "T5.2"
+   ],
+   "nota": "C-T5.19 lee una designación (A3E) con J3E, A1A y B como distractores; C-T5.11 va en el sentido contrario (de modo CW a clase)."
+  },
+  {
+   "cid": "T5-22",
+   "tema": "T5",
+   "concepto": "Margen de audiofrecuencia para la inteligibilidad: 300 a 3000 Hz",
+   "peso": 3,
+   "preguntas": [
+    "T5.18"
+   ],
+   "cubre": [
+    "T5.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-23",
+   "tema": "T5",
+   "concepto": "Micrófono (sonido → señal eléctrica) y su preamplificador (eleva su bajo nivel)",
+   "peso": 1,
+   "preguntas": [
+    "T5.16"
+   ],
+   "cubre": [
+    "T5.16",
+    "T5.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-24",
+   "tema": "T5",
+   "concepto": "Compresor: eleva la potencia media sin superar la de pico",
+   "peso": 2,
+   "preguntas": [
+    "T5.17",
+    "C-T5.10"
+   ],
+   "cubre": [
+    "T5.17",
+    "C-T5.10"
+   ],
+   "nota": "C-T5.10 es la redacción del banco público («las medidas de compresión indican la amplificación del audio»), poco evidente aunque se sepa qué hace el compresor."
+  },
+  {
+   "cid": "T5-25",
+   "tema": "T5",
+   "concepto": "Sobremodulación: índice > 100 %; distorsión y ensanchamiento de la emisión (splatter)",
+   "peso": 3,
+   "preguntas": [
+    "T5.31",
+    "T5.19"
+   ],
+   "cubre": [
+    "T5.31",
+    "T5.19",
+    "C-T5.4"
+   ],
+   "nota": "T5.31 da la definición; T5.19 la causa práctica (gritar o exceso de ganancia de micrófono) y el efecto."
+  },
+  {
+   "cid": "T5-26",
+   "tema": "T5",
+   "concepto": "Contra la sobremodulación: bajar el nivel de BF aplicado al modulador",
+   "peso": 2,
+   "preguntas": [
+    "T5.32"
+   ],
+   "cubre": [
+    "T5.32"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-27",
+   "tema": "T5",
+   "concepto": "ALC: limita la excitación del final y evita emisiones interferentes alrededor de la frecuencia",
+   "peso": 2,
+   "preguntas": [
+    "T5.7"
+   ],
+   "cubre": [
+    "T5.7",
+    "T5.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-28",
+   "tema": "T5",
+   "concepto": "La estabilidad de frecuencia del emisor evita interferir a emisiones próximas",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.14"
+   ],
+   "cubre": [
+    "C-T5.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-29",
+   "tema": "T5",
+   "concepto": "Características propias de un transmisor: frecuencia y estabilidad (no sensibilidad ni factor de ruido)",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.25"
+   ],
+   "cubre": [
+    "C-T5.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-30",
+   "tema": "T5",
+   "concepto": "Estabilidad en ppm: Δf = f · ppm · 10^-6",
+   "peso": 1,
+   "preguntas": [
+    "F-T5.1"
+   ],
+   "cubre": [
+    "F-T5.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-31",
+   "tema": "T5",
+   "concepto": "CAF = control automático de frecuencia",
+   "peso": 1,
+   "preguntas": [
+    "T5.23"
+   ],
+   "cubre": [
+    "T5.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-32",
+   "tema": "T5",
+   "concepto": "Impedancia de salida típica: 50 Ω",
+   "peso": 2,
+   "preguntas": [
+    "T5.1"
+   ],
+   "cubre": [
+    "T5.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-33",
+   "tema": "T5",
+   "concepto": "Rendimiento = potencia entregada al sistema radiante / potencia consumida",
+   "peso": 2,
+   "preguntas": [
+    "T5.5"
+   ],
+   "cubre": [
+    "T5.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-34",
+   "tema": "T5",
+   "concepto": "Subsistema auxiliar típico del transmisor: refrigeración",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.24"
+   ],
+   "cubre": [
+    "C-T5.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-35",
+   "tema": "T5",
+   "concepto": "PEP: potencia de pico de envolvente",
+   "peso": 2,
+   "preguntas": [
+    "T5.30"
+   ],
+   "cubre": [
+    "T5.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-36",
+   "tema": "T5",
+   "concepto": "Potencia de portadora: media durante un ciclo de RF sin modulación",
+   "peso": 2,
+   "preguntas": [
+    "T5.33"
+   ],
+   "cubre": [
+    "T5.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-37",
+   "tema": "T5",
+   "concepto": "En AM la potencia de pico supera a la media (al 100 %, pico = 4 × portadora)",
+   "peso": 1,
+   "preguntas": [
+    "T5.8"
+   ],
+   "cubre": [
+    "T5.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-38",
+   "tema": "T5",
+   "concepto": "dBm y dBW: 1 W = 30 dBm = 0 dBW",
+   "peso": 2,
+   "preguntas": [
+    "T5.24"
+   ],
+   "cubre": [
+    "T5.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-39",
+   "tema": "T5",
+   "concepto": "Anchura de banda necesaria: la justa para la velocidad y calidad requeridas",
+   "peso": 2,
+   "preguntas": [
+    "T5.13"
+   ],
+   "cubre": [
+    "T5.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-40",
+   "tema": "T5",
+   "concepto": "Anchura de banda ocupada: fuera de sus límites se radia el 0,5 % por cada lado",
+   "peso": 2,
+   "preguntas": [
+    "C-T5.9"
+   ],
+   "cubre": [
+    "C-T5.9",
+    "T5.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-41",
+   "tema": "T5",
+   "concepto": "Emisiones no deseadas = no esenciales + fuera de banda",
+   "peso": 2,
+   "preguntas": [
+    "T5.14"
+   ],
+   "cubre": [
+    "T5.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-42",
+   "tema": "T5",
+   "concepto": "Armónicos: múltiplos enteros de la fundamental",
+   "peso": 3,
+   "preguntas": [
+    "T5.6"
+   ],
+   "cubre": [
+    "T5.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-43",
+   "tema": "T5",
+   "concepto": "Filtro de salida (paso bajo) y red de acoplo entre el final y la antena: eliminan armónicos y adaptan",
+   "peso": 3,
+   "preguntas": [
+    "T5.4",
+    "C-T5.3"
+   ],
+   "cubre": [
+    "T5.4",
+    "C-T5.3",
+    "C-T5.2"
+   ],
+   "nota": "C-T5.3 es la formulación del banco público (la antena se acopla «por adaptadores y filtros»); C-T5.2 (la falsa: «nunca va seguida de filtros») queda cubierta."
+  },
+  {
+   "cid": "T5-44",
+   "tema": "T5",
+   "concepto": "Espurias por debajo de 30 MHz: 40 dB bajo la potencia media, sin exceder de 50 mW",
+   "peso": 3,
+   "preguntas": [
+    "T5.9"
+   ],
+   "cubre": [
+    "T5.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-45",
+   "tema": "T5",
+   "concepto": "Límite de espurias: vale el más restrictivo entre la atenuación y el tope absoluto",
+   "peso": 2,
+   "preguntas": [
+    "N-T5-04"
+   ],
+   "cubre": [],
+   "nota": "Hueco: el cálculo con el criterio del más restrictivo está en el libro y la hoja, sin pregunta en el banco."
+  },
+  {
+   "cid": "T5-46",
+   "tema": "T5",
+   "concepto": "Espurias por encima de 30 MHz: límites según banda y potencia (25 μW, 1 mW, 20 mW…)",
+   "peso": 1,
+   "preguntas": [
+    "F-T5.3",
+    "N-T5-05"
+   ],
+   "cubre": [
+    "F-T5.3",
+    "F-T5.2"
+   ],
+   "nota": "F-T5.3 (≤ 25 W: 25 μW, con 1 mW de distractor) cubre también F-T5.2. N-T5-05 añade la fila de 235–960 MHz, sin pregunta en el banco."
+  },
+  {
+   "cid": "T5-47",
+   "tema": "T5",
+   "concepto": "Espurias de mezcla: el otro producto y restos del mezclador; filtro paso banda tras él",
+   "peso": 1,
+   "preguntas": [
+    "N-T5-06"
+   ],
+   "cubre": [],
+   "nota": "Hueco: emisiones propias del transmisor con conversión de frecuencia."
+  },
+  {
+   "cid": "T5-48",
+   "tema": "T5",
+   "concepto": "Manipulación brusca en CW: chasquidos que ensanchan la emisión",
+   "peso": 2,
+   "preguntas": [
+    "T5.29"
+   ],
+   "cubre": [
+    "T5.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-49",
+   "tema": "T5",
+   "concepto": "Oscilaciones parásitas: frecuencias ajenas a la de trabajo; supresores y ferritas",
+   "peso": 1,
+   "preguntas": [
+    "N-T5-07"
+   ],
+   "cubre": [],
+   "nota": "Hueco: emisión no deseada descrita en el capítulo, sin pregunta en el banco."
+  },
+  {
+   "cid": "T5-50",
+   "tema": "T5",
+   "concepto": "Radiación por la estructura: RF que escapa por chasis y cables; se reduce apantallando y filtrando",
+   "peso": 2,
+   "preguntas": [
+    "F-T5.4",
+    "F-T5.5"
+   ],
+   "cubre": [
+    "F-T5.4",
+    "F-T5.5"
+   ],
+   "nota": "F-T5.4 pregunta qué es; F-T5.5 el remedio (trampa: el filtro paso bajo de salida no la corrige)."
+  },
+  {
+   "cid": "T5-51",
+   "tema": "T5",
+   "concepto": "Carga artificial: la energía se disipa en calor; se ajusta sin radiar",
+   "peso": 2,
+   "preguntas": [
+    "T5.35"
+   ],
+   "cubre": [
+    "T5.35"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-52",
+   "tema": "T5",
+   "concepto": "Final valvular: sintonía (mínimo de corriente de placa) y carga (acoplo a la antena)",
+   "peso": 1,
+   "preguntas": [
+    "T5.34"
+   ],
+   "cubre": [
+    "T5.34"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-53",
+   "tema": "T5",
+   "concepto": "Amperímetro de RF en la línea de antena: lectura máxima en el ajuste óptimo",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.7"
+   ],
+   "cubre": [
+    "C-T5.7"
+   ],
+   "nota": "Ojo: la solución advierte que las recopilaciones de exámenes reales dan «mínima» como clave; conviene conocer ambas."
+  },
+  {
+   "cid": "T5-54",
+   "tema": "T5",
+   "concepto": "Alta tensión de placa del final: se aplica en dos etapas (primero reducida)",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.16"
+   ],
+   "cubre": [
+    "C-T5.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-55",
+   "tema": "T5",
+   "concepto": "En un equipo a válvulas, la RF llega al final al accionar el conmutador emisión/recepción",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.20"
+   ],
+   "cubre": [
+    "C-T5.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-56",
+   "tema": "T5",
+   "concepto": "Preparación previa del emisor: banda, frecuencia y clase de emisión (no el S-meter)",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.15"
+   ],
+   "cubre": [
+    "C-T5.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-57",
+   "tema": "T5",
+   "concepto": "Amplificadores con cavidades resonantes: desde 144 MHz",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.22"
+   ],
+   "cubre": [
+    "C-T5.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-58",
+   "tema": "T5",
+   "concepto": "Válvulas frente a transistores (pregunta de banco)",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.28"
+   ],
+   "cubre": [
+    "C-T5.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-59",
+   "tema": "T5",
+   "concepto": "Modulador digital: niveles discretos de tensión → estados discretos de la portadora",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.27"
+   ],
+   "cubre": [
+    "C-T5.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-60",
+   "tema": "T5",
+   "concepto": "Conmutador SEND/REC: pasa de emisión a recepción y viceversa",
+   "peso": 2,
+   "preguntas": [
+    "C-T5.18"
+   ],
+   "cubre": [
+    "C-T5.18",
+    "C-T5.6",
+    "C-T5.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-61",
+   "tema": "T5",
+   "concepto": "Conmutador POWER ON/OFF: encender y apagar el equipo",
+   "peso": 1,
+   "preguntas": [
+    "C-T5.5"
+   ],
+   "cubre": [
+    "C-T5.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-62",
+   "tema": "T5",
+   "concepto": "VOX: pasa a transmisión al hablar; en MAN se usa el PTT del micrófono",
+   "peso": 2,
+   "preguntas": [
+    "T5.26",
+    "C-T5.12"
+   ],
+   "cubre": [
+    "T5.26",
+    "C-T5.12"
+   ],
+   "nota": "C-T5.12 pregunta por la posición contraria (MAN) del selector VOX-MAN."
+  },
+  {
+   "cid": "T5-63",
+   "tema": "T5",
+   "concepto": "Orden de la estación: transceptor, lineal, medidor de ROE, acoplador, antena",
+   "peso": 2,
+   "preguntas": [
+    "T5.22"
+   ],
+   "cubre": [
+    "T5.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-64",
+   "tema": "T5",
+   "concepto": "Repetidor: recibe en una frecuencia y retransmite a la vez en otra",
+   "peso": 2,
+   "preguntas": [
+    "F-T5.6"
+   ],
+   "cubre": [
+    "F-T5.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-65",
+   "tema": "T5",
+   "concepto": "Desplazamiento del repetidor en 2 m: entrada 600 kHz por debajo de la salida",
+   "peso": 2,
+   "preguntas": [
+    "N-T5-08"
+   ],
+   "cubre": [],
+   "nota": "Hueco: dato de la hoja de repaso sin pregunta en el banco."
+  },
+  {
+   "cid": "T5-66",
+   "tema": "T5",
+   "concepto": "Acceso a repetidores con subtono CTCSS",
+   "peso": 1,
+   "preguntas": [
+    "N-T5-09"
+   ],
+   "cubre": [],
+   "nota": "Hueco: dato de la hoja de repaso sin pregunta en el banco."
+  },
+  {
+   "cid": "T5-67",
+   "tema": "T5",
+   "concepto": "Ubicación de los repetidores: lugares elevados para aumentar el alcance (visibilidad directa)",
+   "peso": 2,
+   "preguntas": [
+    "F-T5.7"
+   ],
+   "cubre": [
+    "F-T5.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T5-68",
+   "tema": "T5",
+   "concepto": "Duplexor: permite al repetidor recibir y transmitir a la vez con una sola antena",
+   "peso": 1,
+   "preguntas": [
+    "F-T5.8"
+   ],
+   "cubre": [
+    "F-T5.8"
+   ],
+   "nota": ""
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-T4-01",
+   "cid": "T4-15",
+   "tema": "T4",
+   "enunciado": "Por costumbre, la fonía en banda lateral única se emite en la banda de 40 metros en:",
+   "opciones": [
+    "banda lateral superior (USB)",
+    "banda lateral inferior (LSB)",
+    "doble banda lateral con portadora completa",
+    "cualquiera de las dos bandas laterales, porque el receptor no las distingue"
+   ],
+   "clave": "b",
+   "sol": "Por convenio se usa LSB en 160, 80 y 40 m y USB de 20 m hacia arriba (y en VHF y UHF). Las dos bandas no son intercambiables: si el corresponsal emite en LSB y escuchas en USB, la voz resulta ininteligible.",
+   "fuente": "cheatsheet.typ:812"
+  },
+  {
+   "nid": "N-T4-02",
+   "cid": "T4-19",
+   "tema": "T4",
+   "enunciado": "La selectividad de canal adyacente de un receptor depende principalmente de:",
+   "opciones": [
+    "la forma y los faldones del filtro de frecuencia intermedia",
+    "la linealidad del primer mezclador",
+    "la figura de ruido de la etapa de RF",
+    "la estabilidad del oscilador de batido"
+   ],
+   "clave": "a",
+   "sol": "Es lo que el receptor rechaza una emisión en el canal contiguo, y lo deciden los faldones del filtro de FI: cuanto más abruptos, más se atenúa al vecino. Es un problema lineal; la linealidad del primer mezclador decide la intermodulación y la modulación cruzada, no la selectividad.",
+   "fuente": "chapters/t04.typ:308"
+  },
+  {
+   "nid": "N-T4-03",
+   "cid": "T4-35",
+   "tema": "T4",
+   "enunciado": "Se produce modulación cruzada en un receptor cuando:",
+   "opciones": [
+    "la modulación de una señal fuerte no deseada se traslada a la señal que se está escuchando, por falta de linealidad de las primeras etapas",
+    "la señal deseada y su frecuencia imagen se convierten a la misma frecuencia intermedia",
+    "el oscilador local deriva con la temperatura",
+    "el control automático de ganancia reacciona demasiado despacio"
+   ],
+   "clave": "a",
+   "sol": "La no linealidad de las primeras etapas «pega» la modulación de una emisora fuerte (por ejemplo, de AM) a la portadora sintonizada: se oye esa emisora de fondo aunque la sintonía esté lejos de ella. La opción b describe la frecuencia imagen, que se resuelve con el preselector, no con mejor linealidad.",
+   "fuente": "chapters/t04.typ:723"
+  },
+  {
+   "nid": "N-T5-01",
+   "cid": "T5-04",
+   "tema": "T5",
+   "enunciado": "En un transmisor sin conversión de frecuencia, como los de CW o FM más sencillos, la frecuencia de salida es:",
+   "opciones": [
+    "la suma de la de un oscilador fijo y la de un VFO",
+    "la del propio oscilador, o un múltiplo suyo obtenido con multiplicadores",
+    "la frecuencia intermedia del receptor del equipo",
+    "la diferencia entre la portadora y la frecuencia de audio"
+   ],
+   "clave": "b",
+   "sol": "Sin conversión, la señal de salida es el propio oscilador o un múltiplo suyo. En los transmisores con conversión, como el de SSB, la señal se fabrica a una frecuencia fija y un mezclador con el VFO la lleva a la de trabajo: eso es lo que describe la opción a.",
+   "fuente": "chapters/t05.typ:338"
+  },
+  {
+   "nid": "N-T5-02",
+   "cid": "T5-08",
+   "tema": "T5",
+   "enunciado": "En la generación de banda lateral única por el método de fase, la banda lateral no deseada se elimina:",
+   "opciones": [
+    "con un filtro de cristal de flancos muy abruptos",
+    "por cancelación, al sumar las salidas de dos moduladores balanceados que reciben la voz y la portadora desfasadas 90°",
+    "con un limitador seguido de un discriminador",
+    "haciendo que el índice de modulación supere la unidad"
+   ],
+   "clave": "b",
+   "sol": "El método de fase no usa filtro de banda lateral: dos moduladores balanceados, uno de ellos con voz y portadora desfasadas 90°, entregan las bandas laterales con signos tales que al sumarlas una se refuerza y la otra se anula. El filtro de cristal es el otro método, el del filtro.",
+   "fuente": "chapters/t05.typ:163"
+  },
+  {
+   "nid": "N-T5-03",
+   "cid": "T5-10",
+   "tema": "T5",
+   "enunciado": "¿Cuál de estas emisiones no puede amplificarse con un amplificador final en clase C?",
+   "opciones": [
+    "Telegrafía (A1A)",
+    "Modulación de frecuencia (F3E)",
+    "Banda lateral única (J3E)",
+    "Ninguna: todas admiten un final en clase C"
+   ],
+   "clave": "c",
+   "sol": "La clase C deforma la envolvente, y en SSB la envolvente es la propia información: hace falta un final lineal (clase AB o A). La CW y la FM tienen envolvente constante y admiten la clase C, de mayor rendimiento.",
+   "fuente": "chapters/t05.typ:825"
+  },
+  {
+   "nid": "N-T5-04",
+   "cid": "T5-45",
+   "tema": "T5",
+   "enunciado": "Un transmisor de HF entrega 100 W de potencia media. Cada emisión no esencial puede tener, como máximo, una potencia de:",
+   "opciones": [
+    "50 mW",
+    "10 mW",
+    "1 mW",
+    "100 mW"
+   ],
+   "clave": "b",
+   "sol": "Por debajo de 30 MHz hay que quedar 40 dB por debajo de la potencia media sin superar 50 mW, y vale el más restrictivo. 40 dB por debajo de 100 W son $100 dot 10^(-4) = 0,01$ W, es decir, 10 mW, menos que el tope de 50 mW: mandan los 10 mW. El tope de 50 mW solo manda por encima de 500 W.",
+   "fuente": "chapters/t05.typ:402"
+  },
+  {
+   "nid": "N-T5-05",
+   "cid": "T5-46",
+   "tema": "T5",
+   "enunciado": "Entre 235 y 960 MHz, en un transmisor de potencia superior a 25 W, las emisiones no esenciales deben estar 60 dB por debajo de la potencia media, sin exceder de:",
+   "opciones": [
+    "1 mW",
+    "25 μW",
+    "20 mW",
+    "100 mW"
+   ],
+   "clave": "c",
+   "sol": "Anexo I de la Orden IET/1311/2013: entre 235 y 960 MHz, con más de 25 W, 60 dB sin exceder de 20 mW. El tope de 1 mW es el de 30 a 235 MHz con más de 25 W; el de 25 μW, el de 25 W o menos entre 30 y 960 MHz; y el de 100 mW, el de más de 10 W entre 960 MHz y 17,7 GHz.",
+   "fuente": "chapters/t05.typ:394"
+  },
+  {
+   "nid": "N-T5-06",
+   "cid": "T5-47",
+   "tema": "T5",
+   "enunciado": "En un transmisor con conversión de frecuencia, a la salida del mezclador aparecen, además de la señal deseada:",
+   "opciones": [
+    "solo los armónicos pares de la señal deseada",
+    "el otro producto de la mezcla (suma o diferencia) y restos de las dos entradas, que se eliminan con un filtro paso banda tras el mezclador",
+    "chasquidos de manipulación",
+    "la frecuencia imagen del receptor, que se elimina con el ALC"
+   ],
+   "clave": "b",
+   "sol": "El mezclador entrega la suma y la diferencia, más restos de sus entradas: con una SSB en 9 MHz y un VFO de 5,2 MHz salen 14,2 MHz (la deseada), 3,8 MHz, 5,2 MHz y 9 MHz. Si no se filtran, el lineal los amplifica igual que a la señal buena; por eso se pone un filtro paso banda tras el mezclador.",
+   "fuente": "chapters/t05.typ:510"
+  },
+  {
+   "nid": "N-T5-07",
+   "cid": "T5-49",
+   "tema": "T5",
+   "enunciado": "Las oscilaciones parásitas de un amplificador de potencia:",
+   "opciones": [
+    "aparecen siempre en los múltiplos enteros de la frecuencia de trabajo",
+    "son oscilaciones a frecuencias sin relación con la de trabajo, a menudo en VHF, que se combaten con supresores y ferritas",
+    "se eliminan con el filtro de banda lateral",
+    "se deben a una manipulación demasiado brusca"
+   ],
+   "clave": "b",
+   "sol": "Las inductancias de los hilos y las capacidades del transistor forman circuitos resonantes no previstos, y el final oscila por su cuenta, por ejemplo a 100 o 200 MHz. Se combaten con supresores (bobina de pocas espiras con una resistencia en paralelo), perlas de ferrita y buen desacoplo. Los múltiplos enteros son los armónicos, y la manipulación brusca produce chasquidos.",
+   "fuente": "chapters/t05.typ:605"
+  },
+  {
+   "nid": "N-T5-08",
+   "cid": "T5-65",
+   "tema": "T5",
+   "enunciado": "En la banda de 2 metros, la frecuencia de entrada de un repetidor (en la que transmiten los usuarios) está, respecto a su frecuencia de salida:",
+   "opciones": [
+    "600 kHz por encima",
+    "600 kHz por debajo",
+    "6 MHz por debajo",
+    "en la misma frecuencia, porque el repetidor recibe y transmite a la vez"
+   ],
+   "clave": "b",
+   "sol": "En 2 m el repetidor recibe 600 kHz por debajo de la frecuencia en la que retransmite: por ejemplo, entrada en 145,000 MHz y salida en 145,600 MHz. No puede usar la misma frecuencia, porque su propio transmisor taparía lo que recibe: trabaja en dúplex.",
+   "fuente": "chapters/t05.typ:841"
+  },
+  {
+   "nid": "N-T5-09",
+   "cid": "T5-66",
+   "tema": "T5",
+   "enunciado": "Muchos repetidores de VHF/UHF solo se activan si la señal que reciben lleva:",
+   "opciones": [
+    "un subtono de baja frecuencia (CTCSS) que actúa de llave de acceso",
+    "modulación de banda lateral única",
+    "una potencia superior a 50 W",
+    "el distintivo de llamada en Morse"
+   ],
+   "clave": "a",
+   "sol": "El subtono CTCSS es un tono de baja frecuencia, inaudible en la conversación, que el repetidor exige para abrirse; así no lo activa cualquier señal espuria. El equipo del usuario lo añade automáticamente al trabajar en modo repetidor.",
+   "fuente": "chapters/t05.typ:703"
+  }
+ ],
+ "descartadas": [],
+ "problemas": [
+  {
+   "id": "F-T4.3",
+   "detalle": "Lleva \"figura\": true, pero el enunciado no tiene ninguna figura (probable falso positivo por la expresión «figura de ruido»). La clave d (−130 dBm) es correcta."
+  },
+  {
+   "id": "T5.8",
+   "detalle": "La clave a dice que la potencia de pico es «siempre» superior a la media; sin modulación (m = 0) ambas coinciden. Es la mejor opción, pero el «siempre» es impreciso: convendría «con modulación, superior a la media»."
+  },
+  {
+   "id": "C-T5.7",
+   "detalle": "No se cree errónea la clave b (máxima), pero la propia solución advierte que las recopilaciones de exámenes reales dan «mínima». Conviene mantener el aviso visible en el simulacro."
+  }
+ ]
+}

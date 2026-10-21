@@ -1,0 +1,1562 @@
+{
+ "lote": "L3",
+ "conceptos": [
+  {
+   "cid": "T3-01",
+   "tema": "T3",
+   "concepto": "Resistencias en serie: la corriente es la misma en todas y la caída de tensión es proporcional a cada R",
+   "peso": 3,
+   "preguntas": [
+    "C-T3.10",
+    "C-T3.6"
+   ],
+   "cubre": [
+    "C-T3.6",
+    "C-T3.10"
+   ],
+   "nota": "Las dos son del banco público y preguntan los dos ángulos: la tensión (proporcional a R) y la corriente (igual en todas, trampa «proporcional»)."
+  },
+  {
+   "cid": "T3-02",
+   "tema": "T3",
+   "concepto": "Resistencias en paralelo: tensión común; la corriente de cada rama es inversamente proporcional a R y la total es la suma (Kirchhoff)",
+   "peso": 3,
+   "preguntas": [
+    "T3.44",
+    "C-T3.17"
+   ],
+   "cubre": [
+    "T3.29",
+    "T3.44",
+    "C-T3.17"
+   ],
+   "nota": "C-T3.17 es del banco público y tiene una redacción rara (corriente de salida = de entrada) que conviene haber visto; T3.44 prueba el reparto inverso a R."
+  },
+  {
+   "cid": "T3-03",
+   "tema": "T3",
+   "concepto": "Resistencia equivalente: serie suma, paralelo menor que la menor (producto/suma; n iguales, R/n); circuitos mixtos",
+   "peso": 3,
+   "preguntas": [
+    "F-T3.2",
+    "T3.43"
+   ],
+   "cubre": [
+    "T3.4",
+    "T3.42",
+    "T3.43",
+    "F-T3.1",
+    "F-T3.2",
+    "F-T3.3"
+   ],
+   "nota": "F-T3.2 obliga a hacer el paralelo y luego la serie (distractores: todo en serie, todo en paralelo). T3.43 es la regla rápida de dos iguales (R/2), que cae tal cual."
+  },
+  {
+   "cid": "T3-04",
+   "tema": "T3",
+   "concepto": "Asociación de condensadores: en paralelo se suman; en serie, por inversas (al revés que las resistencias)",
+   "peso": 3,
+   "preguntas": [
+    "T3.28"
+   ],
+   "cubre": [
+    "T3.3",
+    "T3.28",
+    "T3.56"
+   ],
+   "nota": "T3.28 es el ejemplo de la hoja de repaso; T3.56 es la misma idea con figura."
+  },
+  {
+   "cid": "T3-05",
+   "tema": "T3",
+   "concepto": "Asociación de bobinas sin acoplo: como las resistencias (serie suman; paralelo producto/suma)",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.14"
+   ],
+   "cubre": [
+    "F-T3.13",
+    "F-T3.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-06",
+   "tema": "T3",
+   "concepto": "Impedancia de un circuito RLC serie: X = XL − XC, Z = √(R² + X²) e I = V/Z",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.36"
+   ],
+   "cubre": [
+    "F-T3.34",
+    "F-T3.35",
+    "F-T3.36"
+   ],
+   "nota": "F-T3.36 incluye la resta de reactancias y la suma en cuadratura; F-T3.35 añade I = V/Z si se quiere un ángulo de corriente."
+  },
+  {
+   "cid": "T3-07",
+   "tema": "T3",
+   "concepto": "Condensador en continua, en régimen permanente: circuito abierto (queda el divisor resistivo)",
+   "peso": 2,
+   "preguntas": [
+    "T3.57"
+   ],
+   "cubre": [
+    "T3.57"
+   ],
+   "nota": "Depende de figura, pero el circuito (12 V, 1 kΩ en serie, 3 kΩ y C en paralelo) puede describirse en texto."
+  },
+  {
+   "cid": "T3-08",
+   "tema": "T3",
+   "concepto": "Acoplo entre circuitos y etapas: las oscilaciones de uno pasan al otro; el acoplamiento deja pasar la señal y separa las polarizaciones",
+   "peso": 2,
+   "preguntas": [
+    "C-T3.5",
+    "T3.49"
+   ],
+   "cubre": [
+    "C-T3.5",
+    "T3.49"
+   ],
+   "nota": "C-T3.5 (banco público) es la definición de circuitos acoplados; T3.49 es el ángulo práctico entre etapas (condensador de acoplo que bloquea la continua)."
+  },
+  {
+   "cid": "T3-09",
+   "tema": "T3",
+   "concepto": "Condensador real: por encima de su autorresonancia se comporta como una bobina",
+   "peso": 3,
+   "preguntas": [
+    "F-T3.40"
+   ],
+   "cubre": [
+    "F-T3.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-10",
+   "tema": "T3",
+   "concepto": "Bobina real: la capacidad entre espiras la hace autorresonar; por encima se comporta como un condensador",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.41"
+   ],
+   "cubre": [
+    "F-T3.41"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-11",
+   "tema": "T3",
+   "concepto": "En VHF/UHF, terminales cortos (o SMD): la inductancia de las patas presenta reactancia apreciable",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.42"
+   ],
+   "cubre": [
+    "F-T3.42"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-12",
+   "tema": "T3",
+   "concepto": "Resistencia real en AF: inductancia y capacidad parásitas; en RF, resistencias de película sin bobinar",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-01"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-13",
+   "tema": "T3",
+   "concepto": "Condición de resonancia: XL = XC, las reactancias se cancelan y el circuito es puramente resistivo",
+   "peso": 3,
+   "preguntas": [
+    "T3.52"
+   ],
+   "cubre": [
+    "T3.1",
+    "T3.52"
+   ],
+   "nota": "T3.52 obliga a deducir la consecuencia (resistivo) de la condición XL = XC que pregunta T3.1."
+  },
+  {
+   "cid": "T3-14",
+   "tema": "T3",
+   "concepto": "Frecuencia de resonancia f0 = 1/(2π√(LC)): cálculo y dependencia con L y C",
+   "peso": 3,
+   "preguntas": [
+    "F-T3.43",
+    "T3.30"
+   ],
+   "cubre": [
+    "F-T3.43",
+    "T3.30"
+   ],
+   "nota": "F-T3.43 es el cálculo (trampas: olvidar 2π, unidades); T3.30 es la dependencia cualitativa (f0² ∝ 1/LC), que el examen pregunta sin números."
+  },
+  {
+   "cid": "T3-15",
+   "tema": "T3",
+   "concepto": "Factor de calidad Q: mide la selectividad; Q = f0/B",
+   "peso": 3,
+   "preguntas": [
+    "C-T3.1",
+    "F-T3.44"
+   ],
+   "cubre": [
+    "C-T3.1",
+    "T3.2",
+    "F-T3.44"
+   ],
+   "nota": "C-T3.1 (banco público) es el significado de Q; F-T3.44 es el cálculo con f0 y B (trampa: invertir el cociente)."
+  },
+  {
+   "cid": "T3-16",
+   "tema": "T3",
+   "concepto": "Q = X/R en resonancia y ancho de banda B = f0/Q",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.45"
+   ],
+   "cubre": [
+    "F-T3.45"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-17",
+   "tema": "T3",
+   "concepto": "Resonancia serie (Z mínima) frente a paralelo o tanque (Z máxima); LC serie en derivación = trampa",
+   "peso": 3,
+   "preguntas": [
+    "N-T3-02",
+    "T3.16"
+   ],
+   "cubre": [
+    "T3.16"
+   ],
+   "nota": "La nueva pregunta fija el dato sin figura; T3.16 (con figura) es el ángulo de la trampa en derivación: el vatímetro marca mínimo."
+  },
+  {
+   "cid": "T3-18",
+   "tema": "T3",
+   "concepto": "Magnificación por Q en resonancia: en el serie, la tensión sobre L o C es Q veces la aplicada",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-03"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-19",
+   "tema": "T3",
+   "concepto": "Filtro paso banda: deja pasar su banda y atenúa por encima y por debajo; es el de la FI",
+   "peso": 2,
+   "preguntas": [
+    "T3.7",
+    "T3.50"
+   ],
+   "cubre": [
+    "T3.7",
+    "T3.50"
+   ],
+   "nota": "T3.7 es la definición y T3.50 la aplicación (filtros de FI), que el examen pregunta por separado."
+  },
+  {
+   "cid": "T3-20",
+   "tema": "T3",
+   "concepto": "Filtro paso bajo: deja pasar las frecuencias inferiores a la de corte (a la salida del TX, contra armónicos)",
+   "peso": 2,
+   "preguntas": [
+    "T3.33"
+   ],
+   "cubre": [
+    "T3.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-21",
+   "tema": "T3",
+   "concepto": "Frecuencia de corte: separa banda de paso y de atenuación; se toma a −3 dB",
+   "peso": 2,
+   "preguntas": [
+    "T3.41"
+   ],
+   "cubre": [
+    "T3.41"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-22",
+   "tema": "T3",
+   "concepto": "Filtro RC: fc = 1/(2πRC)",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.46"
+   ],
+   "cubre": [
+    "F-T3.46"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-23",
+   "tema": "T3",
+   "concepto": "Pendiente de un filtro: 6 dB por octava por cada célula (polo)",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-04"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-24",
+   "tema": "T3",
+   "concepto": "Filtros en pi y en T: pi paso bajo = C–L–C; T paso bajo = L–C–L (en paso alto se intercambian)",
+   "peso": 3,
+   "preguntas": [
+    "F-T3.47",
+    "F-T3.48"
+   ],
+   "cubre": [
+    "F-T3.47",
+    "F-T3.48"
+   ],
+   "nota": "El alcance cita los dos; los distractores de cada una son la otra red, así que conviene ver las dos."
+  },
+  {
+   "cid": "T3-25",
+   "tema": "T3",
+   "concepto": "Red en pi a la salida del transmisor: adapta la impedancia de la etapa final a 50 Ω y atenúa los armónicos",
+   "peso": 2,
+   "preguntas": [
+    "N-T3-05"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-26",
+   "tema": "T3",
+   "concepto": "Sintonizar la etapa final a plena potencia puede dañar los dispositivos: se sintoniza a potencia reducida",
+   "peso": 1,
+   "preguntas": [
+    "T3.53"
+   ],
+   "cubre": [
+    "T3.53"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-27",
+   "tema": "T3",
+   "concepto": "Conmutador de bandas: sitúa el equipo en el margen de frecuencias deseado",
+   "peso": 1,
+   "preguntas": [
+    "T3.54"
+   ],
+   "cubre": [
+    "T3.54"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-28",
+   "tema": "T3",
+   "concepto": "Armónicos: múltiplos enteros de la fundamental (el 2.º es 2f)",
+   "peso": 2,
+   "preguntas": [
+    "T3.47"
+   ],
+   "cubre": [
+    "T3.47"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-29",
+   "tema": "T3",
+   "concepto": "Cristal de cuarzo: resonador piezoeléctrico de Q altísimo",
+   "peso": 2,
+   "preguntas": [
+    "T3.8"
+   ],
+   "cubre": [
+    "T3.8",
+    "T3.46"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-30",
+   "tema": "T3",
+   "concepto": "Filtro de cuarzo en la FI: su Q altísimo da selectividad elevada con banda estrecha y estable",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.49"
+   ],
+   "cubre": [
+    "F-T3.49"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-31",
+   "tema": "T3",
+   "concepto": "Ancho de los filtros de FI según el modo: SSB 2,4–2,7 kHz, CW ≈ 500 Hz, AM 6 kHz, FM estrecha 12–15 kHz",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.50"
+   ],
+   "cubre": [
+    "F-T3.50"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-32",
+   "tema": "T3",
+   "concepto": "Filtros cerámicos: mismo efecto piezoeléctrico, más baratos y con menos Q que los de cuarzo (455 kHz, 10,7 MHz)",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-06"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-33",
+   "tema": "T3",
+   "concepto": "Anchura de banda necesaria: la estrictamente suficiente para transmitir la información con la calidad requerida",
+   "peso": 2,
+   "preguntas": [
+    "T3.34"
+   ],
+   "cubre": [
+    "T3.34"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-34",
+   "tema": "T3",
+   "concepto": "Filtro digital (DSP): opera con muestras numéricas; cadena A/D → cálculo en el DSP → D/A",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.4"
+   ],
+   "cubre": [
+    "F-T3.4",
+    "F-T3.6"
+   ],
+   "nota": "Quien sabe que el DSP trabaja con números deduce el orden A/D–DSP–D/A de F-T3.6."
+  },
+  {
+   "cid": "T3-35",
+   "tema": "T3",
+   "concepto": "Ventajas e inconvenientes del filtro digital: no deriva y se cambia por programa; añade retardo, limita Nyquist, exige conversores",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.5"
+   ],
+   "cubre": [
+    "F-T3.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-36",
+   "tema": "T3",
+   "concepto": "Filtros FIR (sin realimentación, respuesta finita) e IIR (realimentan la salida, respuesta infinita)",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.29"
+   ],
+   "cubre": [
+    "F-T3.29",
+    "F-T3.30"
+   ],
+   "nota": "Una pregunta basta: el distractor de cada una es la definición de la otra."
+  },
+  {
+   "cid": "T3-37",
+   "tema": "T3",
+   "concepto": "Función del rectificador: convertir la alterna en continua (pulsante)",
+   "peso": 2,
+   "preguntas": [
+    "C-T3.9"
+   ],
+   "cubre": [
+    "C-T3.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-38",
+   "tema": "T3",
+   "concepto": "Media onda frente a onda completa: la completa aprovecha los dos semiciclos, dobla el valor medio y da menos rizado",
+   "peso": 2,
+   "preguntas": [
+    "T3.31"
+   ],
+   "cubre": [
+    "T3.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-39",
+   "tema": "T3",
+   "concepto": "Número de diodos: media onda 1; onda completa con toma media 2; puente 4",
+   "peso": 3,
+   "preguntas": [
+    "T3.35",
+    "C-T3.2"
+   ],
+   "cubre": [
+    "T3.35",
+    "C-T3.2"
+   ],
+   "nota": "T3.35 («en puente») tiene clave segura. C-T3.2 es la versión del banco público sin «en puente»: el libro da 2 (toma media) y avisa de que las recopilaciones dan 4; conviene conocer las dos."
+  },
+  {
+   "cid": "T3-40",
+   "tema": "T3",
+   "concepto": "Frecuencia del rizado: 100 Hz en onda completa y 50 Hz en media onda (red de 50 Hz)",
+   "peso": 3,
+   "preguntas": [
+    "F-T3.7"
+   ],
+   "cubre": [
+    "F-T3.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-41",
+   "tema": "T3",
+   "concepto": "Función del filtro de la fuente: eliminar la componente alterna (rizado) que queda tras rectificar, no la continua",
+   "peso": 3,
+   "preguntas": [
+    "T3.36"
+   ],
+   "cubre": [
+    "T3.5",
+    "T3.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-42",
+   "tema": "T3",
+   "concepto": "Composición del filtro de la fuente: condensadores y bobinas (en L, en pi)",
+   "peso": 1,
+   "preguntas": [
+    "C-T3.4"
+   ],
+   "cubre": [
+    "C-T3.4"
+   ],
+   "nota": "Clave del libro: «condensadores y bobinas»; las recopilaciones de exámenes dan «solamente condensadores» (la sol lo explica)."
+  },
+  {
+   "cid": "T3-43",
+   "tema": "T3",
+   "concepto": "Rizado del condensador de filtro: ΔV ≈ I/(f_r·C); crece con la corriente y baja con f_r y C",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-07"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-44",
+   "tema": "T3",
+   "concepto": "Bloques de una fuente lineal y su orden: transformador → rectificador → filtro → regulador (reconocer el esquema)",
+   "peso": 3,
+   "preguntas": [
+    "T3.26"
+   ],
+   "cubre": [
+    "T3.26",
+    "T3.14"
+   ],
+   "nota": "T3.14 es reconocer el esquema de una fuente en una figura."
+  },
+  {
+   "cid": "T3-45",
+   "tema": "T3",
+   "concepto": "Regulador: mantiene constante la tensión de salida aunque varíen la carga y la red",
+   "peso": 2,
+   "preguntas": [
+    "T3.32"
+   ],
+   "cubre": [
+    "T3.32"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-46",
+   "tema": "T3",
+   "concepto": "Regulador con zéner y resistencia en serie: reparto de corrientes entre zéner y carga",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.8"
+   ],
+   "cubre": [
+    "F-T3.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-47",
+   "tema": "T3",
+   "concepto": "Fuente lineal frente a conmutada: la lineal pesa (transformador de 50 Hz) y rinde poco; la conmutada trabaja a decenas–cientos de kHz, ligera y eficiente",
+   "peso": 3,
+   "preguntas": [
+    "C-T3.19",
+    "F-T3.11"
+   ],
+   "cubre": [
+    "C-T3.19",
+    "F-T3.9",
+    "F-T3.11"
+   ],
+   "nota": "C-T3.19 es del banco público (peso de la lineal); F-T3.11 pregunta el dato de la frecuencia de conmutación."
+  },
+  {
+   "cid": "T3-48",
+   "tema": "T3",
+   "concepto": "Fuente conmutada: genera ruido de RF (QRM en HF); exige filtrado y apantallado",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.10"
+   ],
+   "cubre": [
+    "F-T3.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-49",
+   "tema": "T3",
+   "concepto": "Condensadores de desacoplo: absorben los transitorios de la alimentación",
+   "peso": 2,
+   "preguntas": [
+    "T3.51"
+   ],
+   "cubre": [
+    "T3.51"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-50",
+   "tema": "T3",
+   "concepto": "Emisor común: ganancia de tensión y de corriente, luego de potencia",
+   "peso": 2,
+   "preguntas": [
+    "C-T3.12"
+   ],
+   "cubre": [
+    "C-T3.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-51",
+   "tema": "T3",
+   "concepto": "Emisor común: único montaje que invierte la fase 180°",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-08"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-52",
+   "tema": "T3",
+   "concepto": "Base común: amplifica tensión, pero no corriente",
+   "peso": 2,
+   "preguntas": [
+    "T3.37"
+   ],
+   "cubre": [
+    "T3.37"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-53",
+   "tema": "T3",
+   "concepto": "Colector común = seguidor de emisor (ganancia de tensión ≈ 1; adaptador de impedancias)",
+   "peso": 2,
+   "preguntas": [
+    "C-T3.18"
+   ],
+   "cubre": [
+    "C-T3.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-54",
+   "tema": "T3",
+   "concepto": "Tríodo en rejilla común: la señal entra por el cátodo y sale por el ánodo",
+   "peso": 1,
+   "preguntas": [
+    "C-T3.15"
+   ],
+   "cubre": [
+    "C-T3.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-55",
+   "tema": "T3",
+   "concepto": "Amplificar sin distorsión: trabajar en la parte lineal de la característica",
+   "peso": 2,
+   "preguntas": [
+    "C-T3.8"
+   ],
+   "cubre": [
+    "C-T3.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-56",
+   "tema": "T3",
+   "concepto": "Distorsión: la señal de salida no es réplica de la de entrada",
+   "peso": 1,
+   "preguntas": [
+    "C-T3.13"
+   ],
+   "cubre": [
+    "C-T3.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-57",
+   "tema": "T3",
+   "concepto": "Ángulo de conducción: A 360°, AB entre 180° y 360°, B 180°, C menos de 180°",
+   "peso": 3,
+   "preguntas": [
+    "T3.22"
+   ],
+   "cubre": [
+    "T3.21",
+    "T3.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-58",
+   "tema": "T3",
+   "concepto": "Linealidad frente a rendimiento: clase A mínima distorsión; clase C mayor rendimiento",
+   "peso": 3,
+   "preguntas": [
+    "T3.23",
+    "T3.6"
+   ],
+   "cubre": [
+    "T3.6",
+    "T3.23"
+   ],
+   "nota": "Las dos caras del mismo compromiso (el dato contrario); el examen pregunta ambas."
+  },
+  {
+   "cid": "T3-59",
+   "tema": "T3",
+   "concepto": "Clase AB: combinación de A y B; la de los amplificadores lineales de SSB",
+   "peso": 2,
+   "preguntas": [
+    "T3.11"
+   ],
+   "cubre": [
+    "T3.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-60",
+   "tema": "T3",
+   "concepto": "Clase C: solo para emisiones de amplitud constante (CW, FM), nunca SSB ni AM",
+   "peso": 3,
+   "preguntas": [
+    "T3.24"
+   ],
+   "cubre": [
+    "T3.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-61",
+   "tema": "T3",
+   "concepto": "Rendimientos máximos: clase A 25–50 %; clase B π/4 ≈ 78,5 %",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-09"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-62",
+   "tema": "T3",
+   "concepto": "Contrafase en clase B y distorsión de cruce (se corrige con corriente de reposo: clase AB)",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-10"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-63",
+   "tema": "T3",
+   "concepto": "Clase C: el tanque LC reconstruye la sinusoide a partir de los pulsos (efecto volante); sintonizado a 2f o 3f, multiplicador",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-11"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-64",
+   "tema": "T3",
+   "concepto": "Dispositivos en paralelo en la etapa final: más potencia de salida",
+   "peso": 1,
+   "preguntas": [
+    "T3.48"
+   ],
+   "cubre": [
+    "T3.48"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-65",
+   "tema": "T3",
+   "concepto": "Neutralización: anula la realimentación parásita para que el amplificador no oscile",
+   "peso": 2,
+   "preguntas": [
+    "C-T3.7"
+   ],
+   "cubre": [
+    "C-T3.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-66",
+   "tema": "T3",
+   "concepto": "Realimentación: devolver parte de la salida a la entrada; la negativa reduce la ganancia y mejora estabilidad y linealidad, la positiva hace oscilar",
+   "peso": 2,
+   "preguntas": [
+    "T3.20"
+   ],
+   "cubre": [
+    "T3.20",
+    "T3.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-67",
+   "tema": "T3",
+   "concepto": "Amplificador operacional: ganancia muy alta, impedancia de entrada alta y de salida baja",
+   "peso": 2,
+   "preguntas": [
+    "T3.17"
+   ],
+   "cubre": [
+    "T3.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-68",
+   "tema": "T3",
+   "concepto": "Entradas del operacional: inversora (−) y no inversora (+)",
+   "peso": 1,
+   "preguntas": [
+    "T3.19"
+   ],
+   "cubre": [
+    "T3.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-69",
+   "tema": "T3",
+   "concepto": "Operacional inversor: G = −R2/R1 (no inversor: 1 + R2/R1)",
+   "peso": 2,
+   "preguntas": [
+    "T3.18"
+   ],
+   "cubre": [
+    "T3.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-70",
+   "tema": "T3",
+   "concepto": "Ganancia de tensión en decibelios: 20·log(V2/V1)",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.12"
+   ],
+   "cubre": [
+    "F-T3.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-71",
+   "tema": "T3",
+   "concepto": "dBμV: unidad de tensión (dBm y dBW, de potencia)",
+   "peso": 2,
+   "preguntas": [
+    "T3.39"
+   ],
+   "cubre": [
+    "T3.39"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-72",
+   "tema": "T3",
+   "concepto": "Detector de envolvente (diodo + RC): detector de AM; reconocer su esquema",
+   "peso": 3,
+   "preguntas": [
+    "T3.38"
+   ],
+   "cubre": [
+    "T3.38",
+    "T3.55"
+   ],
+   "nota": "T3.55 es reconocer el esquema diodo + RC en una figura."
+  },
+  {
+   "cid": "T3-73",
+   "tema": "T3",
+   "concepto": "El detector de envolvente es asíncrono: no necesita sincronización con el transmisor",
+   "peso": 2,
+   "preguntas": [
+    "T3.12"
+   ],
+   "cubre": [
+    "T3.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-74",
+   "tema": "T3",
+   "concepto": "Receptor de galena: LC sintonizado + diodo detector + auricular = receptor de AM",
+   "peso": 1,
+   "preguntas": [
+    "T3.15"
+   ],
+   "cubre": [
+    "T3.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-75",
+   "tema": "T3",
+   "concepto": "Detector de producto con BFO para SSB y CW (reinserta la portadora)",
+   "peso": 3,
+   "preguntas": [
+    "N-T3-12"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-76",
+   "tema": "T3",
+   "concepto": "Discriminador de FM: convierte variaciones de frecuencia en variaciones de tensión (audio)",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.15"
+   ],
+   "cubre": [
+    "F-T3.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-77",
+   "tema": "T3",
+   "concepto": "Detector de pendiente: la portadora en el flanco de un circuito sintonizado",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.16"
+   ],
+   "cubre": [
+    "F-T3.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-78",
+   "tema": "T3",
+   "concepto": "Limitador delante del discriminador: recorta las variaciones de amplitud (ruido)",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.17"
+   ],
+   "cubre": [
+    "F-T3.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-79",
+   "tema": "T3",
+   "concepto": "SDR y demodulación por DSP: tras el A/D, filtrado y demodulación son programas; el mismo hardware sirve para todos los modos",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.37"
+   ],
+   "cubre": [
+    "F-T3.37",
+    "F-T3.39"
+   ],
+   "nota": "F-T3.39 (cambiar de modo cambiando el programa) se deduce de F-T3.37."
+  },
+  {
+   "cid": "T3-80",
+   "tema": "T3",
+   "concepto": "Reducción de ruido (NR) por DSP: atenúa el ruido de fondo continuo (no es el NB ni el silenciador)",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.38"
+   ],
+   "cubre": [
+    "F-T3.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-81",
+   "tema": "T3",
+   "concepto": "Oscilador: convierte la corriente continua en alterna",
+   "peso": 2,
+   "preguntas": [
+    "T3.27"
+   ],
+   "cubre": [
+    "T3.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-82",
+   "tema": "T3",
+   "concepto": "Condición de oscilación (Barkhausen): realimentación positiva, ganancia de lazo que compensa pérdidas y fase de 360°",
+   "peso": 2,
+   "preguntas": [
+    "N-T3-13"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-83",
+   "tema": "T3",
+   "concepto": "Osciladores LC clásicos: Colpitts (divisor capacitivo), Hartley (bobina con toma), Pierce (cristal)",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-14"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-84",
+   "tema": "T3",
+   "concepto": "Estabilidad del oscilador: la temperatura hace derivar su frecuencia",
+   "peso": 2,
+   "preguntas": [
+    "C-T3.16"
+   ],
+   "cubre": [
+    "C-T3.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-85",
+   "tema": "T3",
+   "concepto": "Estabilidad del oscilador: debe estar débilmente cargado (etapa separadora)",
+   "peso": 1,
+   "preguntas": [
+    "C-T3.3"
+   ],
+   "cubre": [
+    "C-T3.3"
+   ],
+   "nota": "Clave del libro: «débilmente cargado»; las recopilaciones de exámenes dan «fuertemente cargado» (la sol lo explica)."
+  },
+  {
+   "cid": "T3-86",
+   "tema": "T3",
+   "concepto": "Oscilador a cristal: frecuencia muy estable (y apenas ajustable)",
+   "peso": 3,
+   "preguntas": [
+    "T3.45"
+   ],
+   "cubre": [
+    "T3.45"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-87",
+   "tema": "T3",
+   "concepto": "Cristal en sobretono por encima de unos 20–30 MHz",
+   "peso": 1,
+   "preguntas": [
+    "N-T3-15"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T3-88",
+   "tema": "T3",
+   "concepto": "VFO: oscilador de frecuencia variable para moverse por la banda",
+   "peso": 2,
+   "preguntas": [
+    "T3.40"
+   ],
+   "cubre": [
+    "T3.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-89",
+   "tema": "T3",
+   "concepto": "VCO: su frecuencia varía con una tensión de control, normalmente mediante un varicap",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.18",
+    "F-T3.19"
+   ],
+   "cubre": [
+    "F-T3.18",
+    "F-T3.19"
+   ],
+   "nota": "F-T3.18 es la definición del VCO y F-T3.19 el componente que lo hace posible (varicap frente a zéner): dos datos distintos que el examen puede pedir."
+  },
+  {
+   "cid": "T3-90",
+   "tema": "T3",
+   "concepto": "VCO como modulador de FM: la voz aplicada a su control desvía la frecuencia",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.20"
+   ],
+   "cubre": [
+    "F-T3.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-91",
+   "tema": "T3",
+   "concepto": "Ruido de fase: fluctuaciones aleatorias de fase que crean faldones de ruido a ambos lados de la portadora (en TX, molestan a canales vecinos)",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.21"
+   ],
+   "cubre": [
+    "F-T3.21",
+    "F-T3.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-92",
+   "tema": "T3",
+   "concepto": "Ruido de fase del oscilador local: mezcla recíproca, empeora la selectividad efectiva",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.23"
+   ],
+   "cubre": [
+    "F-T3.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-93",
+   "tema": "T3",
+   "concepto": "Mezclador (heterodinación): a la salida aparecen la suma y la diferencia f1 ± f2",
+   "peso": 3,
+   "preguntas": [
+    "T3.13",
+    "C-T3.11"
+   ],
+   "cubre": [
+    "T3.9",
+    "T3.13",
+    "C-T3.11"
+   ],
+   "nota": "T3.13 es el cálculo (14 y 4 MHz → 10 MHz); C-T3.11 (banco público) pregunta el nombre del fenómeno, heterodinación."
+  },
+  {
+   "cid": "T3-94",
+   "tema": "T3",
+   "concepto": "PLL: estabiliza un VCO enganchándolo a una referencia; la tensión de error corrige el VCO",
+   "peso": 3,
+   "preguntas": [
+    "C-T3.14"
+   ],
+   "cubre": [
+    "C-T3.14",
+    "F-T3.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-95",
+   "tema": "T3",
+   "concepto": "Bloques del PLL: comparador de fase, filtro de paso bajo (de lazo), VCO y divisor programable",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.24"
+   ],
+   "cubre": [
+    "F-T3.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-96",
+   "tema": "T3",
+   "concepto": "PLL enganchado: misma frecuencia en el comparador y diferencia de fase constante",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.25"
+   ],
+   "cubre": [
+    "F-T3.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-97",
+   "tema": "T3",
+   "concepto": "Sintetizador PLL: f_out = N·f_ref; el paso de canal es f_ref",
+   "peso": 2,
+   "preguntas": [
+    "F-T3.27",
+    "F-T3.28"
+   ],
+   "cubre": [
+    "F-T3.27",
+    "F-T3.28"
+   ],
+   "nota": "F-T3.27 calcula N a partir de la frecuencia; F-T3.28 hace el cálculo en el otro sentido (cambiar N desplaza N·f_ref)."
+  },
+  {
+   "cid": "T3-98",
+   "tema": "T3",
+   "concepto": "DDS: se emplea como oscilador variable de gran precisión",
+   "peso": 2,
+   "preguntas": [
+    "T3.10"
+   ],
+   "cubre": [
+    "T3.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T3-99",
+   "tema": "T3",
+   "concepto": "Funcionamiento del DDS: acumulador de fase, tabla de seno, D/A y paso bajo; la frecuencia se cambia con el incremento de fase",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.33",
+    "F-T3.32"
+   ],
+   "cubre": [
+    "F-T3.32",
+    "F-T3.33"
+   ],
+   "nota": "F-T3.33 son los bloques (distractor: los del PLL); F-T3.32 es cómo se cambia la frecuencia, otro dato."
+  },
+  {
+   "cid": "T3-100",
+   "tema": "T3",
+   "concepto": "Resolución del DDS: Δf = f_clk/2^n",
+   "peso": 1,
+   "preguntas": [
+    "F-T3.31"
+   ],
+   "cubre": [
+    "F-T3.31"
+   ],
+   "nota": ""
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-T3-01",
+   "cid": "T3-12",
+   "tema": "T3",
+   "enunciado": "En los circuitos de VHF se prefieren resistencias de película, cortas y sin bobinar, porque:",
+   "opciones": [
+    "las resistencias bobinadas y de patas largas tienen inductancia y capacidad parásitas que, a esas frecuencias, alteran su comportamiento",
+    "las resistencias de película aumentan su valor con la frecuencia y así atenúan mejor la RF",
+    "las resistencias bobinadas no dejan pasar la corriente alterna",
+    "las resistencias de película no disipan potencia"
+   ],
+   "clave": "a",
+   "sol": "Las patas y el hilo de una resistencia bobinada forman una pequeña inductancia en serie, y entre sus extremos hay una capacidad parásita. A pocos MHz no se notan, pero en VHF sus reactancias se acercan al valor de la resistencia y esta deja de ser «solo R». Por eso en RF se usan resistencias de película, cortas y sin bobinar. Ninguna resistencia deja de disipar potencia.",
+   "fuente": "chapters/t03.typ:278"
+  },
+  {
+   "nid": "N-T3-02",
+   "cid": "T3-17",
+   "tema": "T3",
+   "enunciado": "En su frecuencia de resonancia, un circuito LC paralelo («tanque») presenta:",
+   "opciones": [
+    "una impedancia mínima, igual a la resistencia de pérdidas",
+    "una impedancia máxima, y la corriente que toma de la línea es mínima",
+    "una reactancia puramente inductiva",
+    "una impedancia nula, como un cortocircuito"
+   ],
+   "clave": "b",
+   "sol": "En el tanque, las corrientes de la bobina y del condensador son iguales y opuestas en $f_0$: circulan dentro del circuito y se cancelan a la entrada, de modo que de fuera entra muy poca corriente y la impedancia es máxima (y puramente resistiva). La impedancia mínima, igual a la resistencia de pérdidas, es la del circuito resonante serie: es la confusión típica.",
+   "fuente": "cheatsheet.typ:706"
+  },
+  {
+   "nid": "N-T3-03",
+   "cid": "T3-18",
+   "tema": "T3",
+   "enunciado": "Un circuito resonante serie con un factor de calidad $Q = 50$ se excita, a su frecuencia de resonancia, con un generador de 2 V. La tensión sobre el condensador es aproximadamente de:",
+   "opciones": [
+    "2 V",
+    "0,04 V",
+    "25 V",
+    "100 V"
+   ],
+   "clave": "d",
+   "sol": "En resonancia serie la corriente es $I = V slash R$ y la tensión sobre el condensador (igual a la de la bobina) vale $V_C = I X_C = Q V = 50 dot 2 = 100$ V: el circuito multiplica la tensión por $Q$. Por eso los condensadores de un circuito resonante han de soportar tensiones muy superiores a la aplicada. 0,04 V sale de dividir entre $Q$ en lugar de multiplicar.",
+   "fuente": "chapters/t03.typ:182"
+  },
+  {
+   "nid": "N-T3-04",
+   "cid": "T3-23",
+   "tema": "T3",
+   "enunciado": "Muy por encima de su frecuencia de corte, un filtro paso bajo formado por tres células RC atenúa aproximadamente:",
+   "opciones": [
+    "6 dB por octava",
+    "18 dB por octava",
+    "3 dB por octava",
+    "9 dB por octava"
+   ],
+   "clave": "b",
+   "sol": "Cada célula (cada polo) aporta 6 dB por octava: al doblar la frecuencia, la salida de una célula se reduce a la mitad en tensión, que son 6 dB. Con tres células, 3 × 6 = 18 dB por octava. Los 6 dB serían una sola célula, y los 3 dB son la caída en la frecuencia de corte, no la pendiente.",
+   "fuente": "chapters/t03.typ:713"
+  },
+  {
+   "nid": "N-T3-05",
+   "cid": "T3-25",
+   "tema": "T3",
+   "enunciado": "La red en pi de paso bajo situada a la salida de la etapa final de un transmisor sirve para:",
+   "opciones": [
+    "rectificar la señal de RF antes de entregarla a la antena",
+    "doblar la frecuencia de la señal para llevarla a la banda de trabajo",
+    "eliminar la frecuencia imagen",
+    "adaptar la impedancia de la etapa final a la de la línea (50 Ω) y atenuar los armónicos"
+   ],
+   "clave": "d",
+   "sol": "Una red de bobina y condensadores no disipa potencia, pero cambia la relación entre tensión y corriente: la etapa final «ve» la carga que necesita aunque a la salida haya 50 Ω. Además, como es un paso bajo (C–L–C), atenúa con fuerza el segundo y el tercer armónico. La frecuencia imagen es un problema del receptor, que se resuelve antes del mezclador.",
+   "fuente": "cheatsheet.typ:760"
+  },
+  {
+   "nid": "N-T3-06",
+   "cid": "T3-32",
+   "tema": "T3",
+   "enunciado": "Comparados con los filtros de cristal de cuarzo, los filtros cerámicos que se usan en las FI de 455 kHz o 10,7 MHz:",
+   "opciones": [
+    "tienen un factor de calidad mucho mayor",
+    "no se basan en el efecto piezoeléctrico, sino en bobinas y condensadores",
+    "son más baratos y tienen un factor de calidad menor",
+    "solo funcionan con corriente continua"
+   ],
+   "clave": "c",
+   "sol": "Los filtros cerámicos aprovechan el mismo efecto piezoeléctrico que el cuarzo, pero con resonadores de cerámica: son más baratos y su $Q$ es menor, suficiente para las FI habituales de 455 kHz y 10,7 MHz. Cuando hace falta la máxima selectividad (SSB, CW) se recurre al cuarzo.",
+   "fuente": "chapters/t03.typ:989"
+  },
+  {
+   "nid": "N-T3-07",
+   "cid": "T3-43",
+   "tema": "T3",
+   "enunciado": "Una fuente con rectificador de onda completa, conectada a la red de 50 Hz, entrega 2 A a la carga con un condensador de filtro de 10 000 μF. El rizado pico a pico es aproximadamente de:",
+   "opciones": [
+    "4 V",
+    "2 V",
+    "0,2 V",
+    "20 V"
+   ],
+   "clave": "b",
+   "sol": "El rizado vale $Delta V approx I slash (f_r C)$, con $f_r = 100$ Hz en onda completa: $Delta V approx 2 slash (100 dot 0,01) = 2$ V. Los 4 V corresponderían a media onda ($f_r = 50$ Hz). El rizado crece con la corriente y baja con la capacidad y con la frecuencia del rizado.",
+   "fuente": "chapters/t03.typ:467"
+  },
+  {
+   "nid": "N-T3-08",
+   "cid": "T3-51",
+   "tema": "T3",
+   "enunciado": "De los tres montajes del transistor bipolar, el que invierte la fase de la señal 180° es el de:",
+   "opciones": [
+    "base común",
+    "colector común",
+    "emisor común",
+    "ninguno: los tres conservan la fase"
+   ],
+   "clave": "c",
+   "sol": "En emisor común, cuando la base sube el transistor conduce más, cae más tensión en la resistencia de colector y el colector baja: la salida está invertida 180°. La base común y el colector común (seguidor de emisor) entregan la señal en fase.",
+   "fuente": "chapters/t03.typ:620"
+  },
+  {
+   "nid": "N-T3-09",
+   "cid": "T3-61",
+   "tema": "T3",
+   "enunciado": "El rendimiento máximo teórico de un amplificador en clase B es aproximadamente del:",
+   "opciones": [
+    "25 %",
+    "50 %",
+    "78,5 %",
+    "100 %"
+   ],
+   "clave": "c",
+   "sol": "En clase B cada dispositivo conduce medio ciclo y el límite teórico es $pi slash 4 approx 78,5$ %. El 25 % (50 % con acoplo por transformador) es el de la clase A, que conduce siempre y disipa incluso sin señal. Ningún amplificador real llega al 100 %; la clase C supera a la B, pero recortando aún más el ciclo.",
+   "fuente": "chapters/t03.typ:634"
+  },
+  {
+   "nid": "N-T3-10",
+   "cid": "T3-62",
+   "tema": "T3",
+   "enunciado": "En un amplificador en contrafase de clase B, la distorsión de cruce se corrige:",
+   "opciones": [
+    "dando a los dos transistores una pequeña corriente de reposo, con lo que pasa a trabajar en clase AB",
+    "polarizando los transistores por debajo del corte, en clase C",
+    "suprimiendo uno de los dos transistores",
+    "añadiendo un filtro paso alto a la salida"
+   ],
+   "clave": "a",
+   "sol": "Ningún transistor conduce hasta que la entrada supera unos 0,6 V en su sentido, así que alrededor del cero la salida se queda plana: es la distorsión de cruce. Se elimina polarizando las bases con una pequeña corriente de reposo (por ejemplo, con dos diodos): eso ya es clase AB. Pasar a clase C empeoraría el recorte, y con un solo transistor se perdería medio ciclo.",
+   "fuente": "chapters/t03.typ:1297"
+  },
+  {
+   "nid": "N-T3-11",
+   "cid": "T3-63",
+   "tema": "T3",
+   "enunciado": "En un amplificador de clase C, el circuito tanque LC sintonizado del colector:",
+   "opciones": [
+    "polariza el transistor para que conduzca los 360° del ciclo",
+    "reconstruye una sinusoide completa a partir de los pulsos de corriente del transistor (efecto volante)",
+    "rectifica la señal para obtener una tensión continua",
+    "convierte la modulación de frecuencia en modulación de amplitud"
+   ],
+   "clave": "b",
+   "sol": "En clase C el transistor solo conduce en pulsos de menos de medio ciclo. El tanque LC actúa como un volante de inercia: cada pulso le repone la energía y entre pulsos la energía sigue yendo y viniendo entre L y C, de modo que la tensión en el tanque es una sinusoide completa. Si se sintoniza a 2f o 3f, el mismo circuito es un multiplicador de frecuencia.",
+   "fuente": "chapters/t03.typ:1344"
+  },
+  {
+   "nid": "N-T3-12",
+   "cid": "T3-75",
+   "tema": "T3",
+   "enunciado": "Para demodular una señal de banda lateral única (SSB) o de telegrafía (CW) se emplea:",
+   "opciones": [
+    "un detector de envolvente con diodo",
+    "un discriminador precedido de un limitador",
+    "un detector de producto alimentado por un oscilador de batido (BFO)",
+    "un rectificador en puente"
+   ],
+   "clave": "c",
+   "sol": "En SSB no se transmite la portadora, y sin ella el detector de envolvente no puede reconstruir el audio. El detector de producto es un mezclador que multiplica la señal por la del BFO, que repone la portadora; la diferencia es el audio (en CW, el pitido). El discriminador con limitador es el detector de FM.",
+   "fuente": "cheatsheet.typ:769"
+  },
+  {
+   "nid": "N-T3-13",
+   "cid": "T3-82",
+   "tema": "T3",
+   "enunciado": "Para que un amplificador realimentado se convierta en oscilador, la realimentación debe ser:",
+   "opciones": [
+    "negativa, para estabilizar la ganancia",
+    "positiva, con una ganancia de lazo que compense las pérdidas y una fase total de 360°",
+    "nula, porque el oscilador no necesita realimentación",
+    "positiva, pero con una ganancia de lazo muy inferior a la unidad"
+   ],
+   "clave": "b",
+   "sol": "Un oscilador es un amplificador que se realimenta a sí mismo: lo devuelto debe llegar en fase (360° en la vuelta completa) y con amplitud suficiente para compensar las pérdidas (condición de Barkhausen). Con ganancia de lazo menor que 1 las oscilaciones se extinguen, y la realimentación negativa estabiliza el amplificador en lugar de hacerlo oscilar.",
+   "fuente": "chapters/t03.typ:1019"
+  },
+  {
+   "nid": "N-T3-14",
+   "cid": "T3-83",
+   "tema": "T3",
+   "enunciado": "En un oscilador Colpitts, la fracción de señal que se devuelve a la entrada se toma de:",
+   "opciones": [
+    "una bobina con una toma intermedia",
+    "un divisor formado por dos condensadores",
+    "un cristal de cuarzo en lugar de la bobina",
+    "un transformador con un secundario independiente"
+   ],
+   "clave": "b",
+   "sol": "El Colpitts usa un divisor capacitivo: la bobina resuena con dos condensadores en serie, cuyo punto medio va a masa, y su reparto fija cuánta señal vuelve a la base. La bobina con toma intermedia es la del Hartley, y el cristal en lugar de la bobina convierte el Colpitts en un Pierce.",
+   "fuente": "chapters/t03.typ:1081"
+  },
+  {
+   "nid": "N-T3-15",
+   "cid": "T3-87",
+   "tema": "T3",
+   "enunciado": "Para obtener con un oscilador a cristal frecuencias por encima de unos 20–30 MHz, lo habitual es:",
+   "opciones": [
+    "tallar láminas cada vez más finas para que vibren en su modo fundamental",
+    "sustituir el cristal por un filtro cerámico",
+    "calentar el cristal para subir su frecuencia",
+    "hacer vibrar el cristal en un sobretono (tercer o quinto armónico mecánico)"
+   ],
+   "clave": "d",
+   "sol": "Por encima de unos 20–30 MHz el modo fundamental exigiría una lámina demasiado fina y frágil, así que se hace vibrar el cristal en un sobretono, normalmente el tercero o el quinto. Calentarlo solo lo haría derivar, que es justo lo que se quiere evitar con un cristal.",
+   "fuente": "chapters/t03.typ:1125"
+  }
+ ],
+ "descartadas": [],
+ "problemas": []
+}
