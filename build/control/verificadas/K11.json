@@ -1,0 +1,478 @@
+[
+ {
+  "kid": "K-R9-01-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un inspector de la Jefatura Provincial de Inspección de Telecomunicaciones se presenta a comprobar tu estación de aficionado. Esa Jefatura actúa como órgano territorial de:",
+  "opciones": [
+   "la consejería de industria de la comunidad autónoma",
+   "la diputación provincial",
+   "el Ministerio competente en telecomunicaciones, es decir, la Administración del Estado",
+   "la Unión Internacional de Telecomunicaciones (UIT)"
+  ],
+  "clave": "c",
+  "sol": "La inspección de las estaciones de aficionado es estatal: la ejerce el Ministerio competente en telecomunicaciones a través de su inspección, y las Jefaturas Provinciales son su brazo en cada provincia. La comunidad autónoma es el distractor más tentador, pero el dominio público radioeléctrico es competencia exclusiva del Estado. La UIT fija el Reglamento de Radiocomunicaciones, pero no inspecciona estaciones."
+ },
+ {
+  "kid": "K-R9-02-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La Jefatura Provincial comprueba que tu estación produce interferencias y levanta acta. Si se abre expediente, la multa la impone, según el art. 114.1 de la Ley 11/2022:",
+  "opciones": [
+   "la persona titular de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+   "la propia Jefatura Provincial, en el acta de inspección",
+   "la Agencia Española de Protección de Datos",
+   "el juzgado de lo contencioso-administrativo de la provincia"
+  ],
+  "clave": "a",
+  "sol": "La Ley 11/2022 separa inspección y sanción: inspeccionan la inspección de telecomunicaciones y sus Jefaturas, pero sanciona la persona titular de la Secretaría de Estado en todos los casos que el art. 114.1 no reserva a otros órganos, y emitir sin autorización o interferir no están reservados. El acta de la Jefatura no es la sanción. La Agencia de Protección de Datos solo sanciona sus casos propios, y el juzgado interviene para autorizar la entrada en un domicilio, no para multar."
+ },
+ {
+  "kid": "K-R9-03-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Durante una visita a tu estación coinciden varias personas. ¿Cuál de ellas actúa como autoridad pública?",
+  "opciones": [
+   "el instalador de telecomunicaciones inscrito que montó la antena",
+   "el presidente de la comunidad de propietarios donde está la antena",
+   "el responsable de la sección provincial de una asociación de radioaficionados",
+   "el funcionario de la inspección de telecomunicaciones que comprueba una estación"
+  ],
+  "clave": "d",
+  "sol": "La Ley 11/2022 da al personal de la inspección de telecomunicaciones la consideración de autoridad pública: por eso sus actas tienen fuerza y negarse u obstruir su labor es infracción. El instalador inscrito es un profesional privado, aunque su intervención sea obligatoria para montar la estación fija. Ni la comunidad de propietarios ni las asociaciones ejercen potestad pública alguna."
+ },
+ {
+  "kid": "K-R9-04-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La estación de Ana está en su vivienda habitual. Si la inspección de telecomunicaciones necesita entrar en ella y Ana no lo consiente, la inspección:",
+  "opciones": [
+   "puede entrar igualmente, porque la autorización de radioaficionado implica renunciar a la inviolabilidad del domicilio",
+   "necesita autorización judicial para entrar",
+   "debe archivar la actuación sin más trámite",
+   "puede entrar si la acompaña un agente de la policía local"
+  ],
+  "clave": "b",
+  "sol": "El art. 103.2 de la Ley 11/2022 obliga a permitir el acceso de la inspección, pero cuando hay que entrar en un domicilio constitucionalmente protegido hace falta el consentimiento del titular o autorización judicial. Sin consentimiento, queda la vía judicial; no se archiva sin más. La autorización de radioaficionado no supone renunciar a la protección del domicilio, y la compañía de un agente no sustituye a la autorización judicial."
+ },
+ {
+  "kid": "K-R9-05-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Las infracciones en que puede incurrir hoy un radioaficionado están tipificadas en la Ley General de Telecomunicaciones vigente, que es la:",
+  "opciones": [
+   "Ley 9/2014",
+   "Ley 32/2003",
+   "Ley 11/2022",
+   "Orden IET/1311/2013"
+  ],
+  "clave": "c",
+  "sol": "La Ley General de Telecomunicaciones vigente es la Ley 11/2022, que tipifica las infracciones en sus arts. 106 a 108. Las Leyes 9/2014 y 32/2003 son las anteriores, de ahí que algunas preguntas antiguas den otros grados. La Orden IET/1311/2013 regula el servicio de aficionados, pero no tipifica las infracciones: remite a la Ley."
+ },
+ {
+  "kid": "K-R9-06-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Si una resolución sancionadora cita como precepto infringido el art. 108 de la Ley 11/2022, la infracción es:",
+  "opciones": [
+   "muy grave",
+   "grave",
+   "ninguna: el art. 108 fija las multas, no las infracciones",
+   "leve"
+  ],
+  "clave": "d",
+  "sol": "En la Ley 11/2022, el art. 105 clasifica las infracciones y los tres siguientes las tipifican de más a menos grave: 106, muy graves; 107, graves; 108, leves. A mayor gravedad, menor número. Las multas no están en el 108 sino en el 109."
+ },
+ {
+  "kid": "K-R9-07-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un aficionado capta con su receptor las comunicaciones de una red privada, no destinadas al público en general, y publica su contenido en internet. Según la Ley 11/2022, comete:",
+  "opciones": [
+   "una infracción muy grave",
+   "una infracción grave",
+   "una infracción leve, porque no ha emitido nada",
+   "ninguna infracción, porque recibir no requiere autorización"
+  ],
+  "clave": "a",
+  "sol": "Interceptar sin autorización telecomunicaciones no destinadas al público y divulgar su contenido es infracción muy grave (art. 106.15), porque ataca el secreto de las comunicaciones. Da igual no haber emitido: la conducta castigada es la interceptación, no la emisión."
+ },
+ {
+  "kid": "K-R9-08-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Tu amplificador lineal, mal ajustado, produce sin que lo pretendas interferencias a un servicio autorizado. Según la Ley 11/2022, esa conducta es:",
+  "opciones": [
+   "una infracción muy grave",
+   "una infracción grave",
+   "una infracción leve",
+   "ninguna infracción, al no haber intención"
+  ],
+  "clave": "b",
+  "sol": "La mera producción de interferencias a redes o servicios autorizados es infracción grave (art. 107.6): no hace falta intención. Si fueran deliberadas pasarían a muy graves (art. 106.7), que es el error más habitual. Tampoco es leve: la ley la sitúa en el escalón intermedio."
+ },
+ {
+  "kid": "K-R9-09-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Según la Ley 11/2022, ¿qué hace que la producción de interferencias a servicios autorizados pase de infracción grave a muy grave?",
+  "opciones": [
+   "que la estación emita con más de 100 W",
+   "que la interferencia se prolongue durante más de un día",
+   "que el perjudicado sea otro radioaficionado",
+   "que la interferencia sea deliberada"
+  ],
+  "clave": "d",
+  "sol": "La diferencia está en la intención: la mera producción de interferencias es grave (art. 107.6) y la producción deliberada, muy grave (art. 106.7). La ley no gradúa por potencia ni por duración, y no importa a quién se interfiera mientras sea una red o servicio autorizado."
+ },
+ {
+  "kid": "K-R9-10-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "La Administración requiere a Luis que cese sus emisiones porque interfieren a otro servicio, pero él sigue emitiendo. Desatender ese requerimiento es, según la Ley 11/2022:",
+  "opciones": [
+   "una infracción grave, la misma que la interferencia que lo motivó",
+   "una infracción leve, si después corrige la interferencia",
+   "una infracción muy grave, distinta de la propia interferencia",
+   "ninguna infracción añadida: solo cuenta la interferencia original"
+  ],
+  "clave": "c",
+  "sol": "No atender el requerimiento de cese de emisiones es infracción muy grave por sí misma (art. 106.8), aparte de la interferencia que lo provocó, que si no es deliberada es grave (art. 107.6). Ya no se trata solo de interferir, sino de desobedecer a la autoridad. Corregir después la causa no rebaja el grado de lo ya cometido."
+ },
+ {
+  "kid": "K-R9-11-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "De estas conductas relacionadas con el uso del espectro, ¿cuál es infracción muy grave según la Ley 11/2022?",
+  "opciones": [
+   "utilizar el espectro sin la autorización necesaria",
+   "utilizar frecuencias o canales de modo no adecuado al Cuadro Nacional de Atribución de Frecuencias",
+   "incumplir las condiciones de la autorización",
+   "establecer comunicaciones utilizando estaciones no autorizadas"
+  ],
+  "clave": "b",
+  "sol": "El uso no adecuado al CNAF o al plan de utilización del espectro es muy grave (art. 106.5), aunque no cause interferencias. Las otras tres conductas tienen menos grado: usar el espectro sin la autorización necesaria es grave (art. 107.5), y tanto incumplir las condiciones autorizadas (art. 108.5) como comunicarse utilizando estaciones no autorizadas (art. 108.2) son leves."
+ },
+ {
+  "kid": "K-R9-12-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Durante una inspección, el titular de una estación se niega a mostrar los equipos al inspector y entorpece a propósito la comprobación. Según la Ley 11/2022, comete:",
+  "opciones": [
+   "una infracción grave",
+   "una infracción leve",
+   "una infracción muy grave",
+   "ninguna infracción, salvo que el inspector vaya acompañado de un agente de la autoridad"
+  ],
+  "clave": "a",
+  "sol": "La negativa o la obstrucción a ser inspeccionado, y la falta de colaboración con la inspección, es infracción grave (art. 107.36). El inspector ya es autoridad pública en el ejercicio de sus funciones, así que no necesita ir acompañado para que la obstrucción sea infracción. No es leve ni muy grave: la ley la sitúa entre las graves."
+ },
+ {
+  "kid": "K-R9-13-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado emite dentro de la potencia máxima de su autorización, pero en una zona de paso accesible al público se superan los límites de exposición y la instalación carece de la señalización exigida. Según la Ley 11/2022:",
+  "opciones": [
+   "no comete infracción, porque no supera la potencia máxima autorizada",
+   "comete una infracción leve, por tratarse de una simple medida de seguridad",
+   "comete una infracción grave, aunque respete la potencia máxima autorizada",
+   "comete una infracción muy grave en todo caso"
+  ],
+  "clave": "c",
+  "sol": "Efectuar emisiones que incumplan los límites de exposición, o no cumplir la señalización o el vallado, es infracción grave (art. 107.7). Respetar la potencia máxima no basta: el Anexo I, 3.5, de la Orden exige reducir la potencia, si hace falta, para que la energía radiada quede por debajo del límite en los lugares accesibles o de paso. Ese es el error que comete quien cree estar cubierto por la potencia autorizada."
+ },
+ {
+  "kid": "K-R9-15-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado mantiene comunicados habituales con una estación que emite sin ninguna autorización. Según la Ley 11/2022, su conducta es:",
+  "opciones": [
+   "una infracción muy grave, porque equivale a interceptar comunicaciones",
+   "una infracción grave en todo caso",
+   "ninguna infracción: solo responde quien emite sin autorización",
+   "una infracción leve, salvo que deba considerarse grave"
+  ],
+  "clave": "d",
+  "sol": "Establecer comunicaciones utilizando estaciones no autorizadas es infracción leve (art. 108.2), salvo que deba considerarse grave. Responde también quien se comunica con ella, no solo quien emite sin autorización. No es interceptación, porque las comunicaciones van dirigidas a él. El «grave en todo caso» viene de la Ley 32/2003, ya derogada."
+ },
+ {
+  "kid": "K-R9-16-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "No facilitar los datos que requiere la Administración es infracción leve. Según la Ley 11/2022, pasa a ser grave cuando:",
+  "opciones": [
+   "el titular se retrasa un solo día sobre el plazo fijado",
+   "ha transcurrido un mes desde el fin del plazo del requerimiento o ha finalizado el plazo del segundo requerimiento",
+   "los datos se refieren a la potencia de la estación",
+   "el titular tiene más de una estación autorizada"
+  ],
+  "clave": "b",
+  "sol": "Como regla, no facilitar los datos o retrasar injustificadamente su aportación es leve (art. 108.12). Pasa a grave al exceder los plazos: un mes después del fin del plazo del requerimiento, o al terminar el plazo del segundo requerimiento (art. 107.34). Un simple retraso de un día es justo el caso leve, no el grave."
+ },
+ {
+  "kid": "K-R9-17-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una persona sin autorización de radioaficionado monta en casa una estación completa de aficionado, aunque todavía no ha emitido. Según la Ley 11/2022:",
+  "opciones": [
+   "comete una infracción leve, con multa de hasta 100 000 euros",
+   "no comete infracción mientras no emita",
+   "comete una infracción grave, con multa de hasta 2 millones de euros",
+   "comete una infracción muy grave, con multa de hasta 20 millones de euros"
+  ],
+  "clave": "a",
+  "sol": "El art. 108.4 tipifica como leve la instalación de estaciones de radioaficionado careciendo de autorización, y la multa de las leves llega a 100 000 euros (art. 109.1.d). La ley castiga la propia instalación, sin exigir que la estación emita. El grave del art. 107.1 se refiere en general a otras estaciones radioeléctricas; para las de aficionado existe el tipo leve propio."
+ },
+ {
+  "kid": "K-R9-18-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Producir una emisión radioeléctrica no autorizada es, como regla, infracción leve. ¿En cuál de estos casos pasa a ser muy grave según la Ley 11/2022?",
+  "opciones": [
+   "si produce interferencias sin pretenderlo",
+   "si se efectúa con un equipo de construcción propia",
+   "si la realiza un menor de edad",
+   "si vulnera el Cuadro Nacional de Atribución de Frecuencias"
+  ],
+  "clave": "d",
+  "sol": "El art. 108.1 hace leve la emisión no autorizada «salvo que deba considerarse grave o muy grave». Es muy grave si vulnera el CNAF o el plan de utilización del espectro (art. 106.6). Si produce interferencias sin intención, pasa a grave (art. 107.6), no a muy grave; solo las deliberadas son muy graves. El equipo de construcción propia y la edad no cambian el grado."
+ },
+ {
+  "kid": "K-R9-19-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado, titular de dos estaciones autorizadas, establece un comunicado entre ambas para comprobar la cobertura. Según la normativa vigente:",
+  "opciones": [
+   "comete la infracción leve de comunicarse utilizando estaciones no autorizadas",
+   "comete una infracción grave por ocupar una frecuencia sin necesidad",
+   "no comete ninguna infracción",
+   "necesita una autorización experimental previa"
+  ],
+  "clave": "c",
+  "sol": "Ninguna norma vigente tipifica esa conducta, y solo es infracción lo que una ley tipifica expresamente. El servicio de aficionados es de intercomunicación y nada exige que las dos estaciones tengan titulares distintos. La leve del art. 108.2 se refiere a estaciones no autorizadas, y aquí ambas lo están."
+ },
+ {
+  "kid": "K-R9-20-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Durante una inspección, el inspector pregunta a un radioaficionado por su libro de registro de comunicados y este responde que no lleva ninguno. Según la reglamentación española:",
+  "opciones": [
+   "comete la infracción leve de no facilitar los datos requeridos",
+   "no comete infracción, porque no existe la obligación de llevarlo",
+   "comete una infracción grave por no colaborar con la inspección",
+   "comete infracción solo si ha participado en algún concurso"
+  ],
+  "clave": "b",
+  "sol": "La reglamentación española no obliga al radioaficionado a llevar libro de guardia ni registro de contactos, así que no se puede infringir lo que no existe. No hay negativa a facilitar datos ni falta de colaboración: simplemente no tiene ese documento. Anotar los contactos es útil para diplomas y concursos, pero voluntario."
+ },
+ {
+  "kid": "K-R9-21-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado transmite unos minutos, con muy poca potencia y en CW, en una frecuencia situada justo fuera de la banda del servicio, tras comprobar que estaba libre. Su conducta:",
+  "opciones": [
+   "es una infracción, sea cual sea la potencia y aunque la frecuencia esté libre",
+   "no es infracción si no llega a causar interferencias",
+   "no es infracción si se identifica correctamente con su distintivo",
+   "solo es infracción si supera la potencia máxima de su autorización"
+  ],
+  "clave": "a",
+  "sol": "La autorización habilita para emitir solo en las bandas del servicio de aficionados; salir de ellas es infracción por sí mismo. Fuera hay otros servicios, muchos de seguridad, y no importa que la frecuencia parezca libre, que la potencia sea baja o que se identifique bien. Que no cause interferencias no la legaliza."
+ },
+ {
+  "kid": "K-R9-22-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Según la Ley 11/2022, una multa de hasta 2 millones de euros corresponde a una infracción:",
+  "opciones": [
+   "muy grave",
+   "leve",
+   "grave",
+   "de cualquier grado: es la cuantía única que fija la ley"
+  ],
+  "clave": "c",
+  "sol": "La escala de multas máximas es: 20 millones de euros las muy graves, 2 millones las graves y 100 000 euros las leves. Los 2 millones son, pues, el tope de las graves. Quien confunde los dos primeros escalones elige «muy grave»."
+ },
+ {
+  "kid": "K-R9-23-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado es sancionado por comunicarse utilizando estaciones no autorizadas. Según la Ley 11/2022, la multa máxima que se le puede imponer es de:",
+  "opciones": [
+   "50 000 euros",
+   "100 000 euros",
+   "2 millones de euros",
+   "20 millones de euros"
+  ],
+  "clave": "b",
+  "sol": "Comunicarse utilizando estaciones no autorizadas es infracción leve (art. 108.2), y la multa de las leves llega a 100 000 euros (art. 109.1.d). Los 50 000 euros eran el tope de las leves en la ley anterior (Ley 9/2014) y aún aparecen en preguntas antiguas. Los 2 y 20 millones son los topes de las graves y las muy graves."
+ },
+ {
+  "kid": "K-R9-24-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Hace 18 meses un radioaficionado cometió una infracción leve que la Administración no ha perseguido. ¿Puede sancionarse todavía?",
+  "opciones": [
+   "Sí, porque las infracciones leves prescriben a los dos años",
+   "Sí, porque las infracciones administrativas no prescriben",
+   "Sí, mientras no pasen tres años, el plazo común a todas",
+   "No, porque las infracciones leves prescriben al año"
+  ],
+  "clave": "d",
+  "sol": "Las infracciones prescriben a los tres años las muy graves, a los dos las graves y al año las leves (art. 113 de la Ley 11/2022). Con 18 meses, la leve ya ha prescrito. Dos años es el plazo de las graves y tres el de las muy graves; no hay un plazo único, y ninguna infracción administrativa es imprescriptible."
+ },
+ {
+  "kid": "K-R9-24-2",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una interferencia deliberada a un servicio autorizado se cometió hace 30 meses y la Administración no ha actuado aún. Esa infracción:",
+  "opciones": [
+   "no ha prescrito, porque las muy graves prescriben a los tres años",
+   "ha prescrito, porque las muy graves prescriben a los dos años",
+   "ha prescrito, porque todas las infracciones prescriben al año",
+   "no prescribe nunca, por ser muy grave"
+  ],
+  "clave": "a",
+  "sol": "La interferencia deliberada es muy grave (art. 106.7), y las muy graves prescriben a los tres años (art. 113). Con 30 meses aún no se ha cumplido el plazo. Dos años es el de las graves y uno el de las leves; tampoco las muy graves son imprescriptibles."
+ },
+ {
+  "kid": "K-R9-25-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado es sancionado por emitir con parámetros distintos de los autorizados. Junto con la multa, la Ley 11/2022 permite imponerle como sanción accesoria:",
+  "opciones": [
+   "la repetición del examen de aptitud",
+   "la retirada definitiva de su certificado HAREC",
+   "el ajuste de sus emisiones a los parámetros autorizados",
+   "la obligación de inscribirse en una asociación de radioaficionados"
+  ],
+  "clave": "c",
+  "sol": "El art. 109.2 enumera como sanciones accesorias el cese inmediato de las emisiones no autorizadas, el ajuste de las emisiones a los parámetros autorizados, el precintado o la incautación de los equipos y la clausura de las instalaciones. Repetir el examen, perder el HAREC o hacerse socio de una asociación no figuran en esa lista."
+ },
+ {
+  "kid": "K-R9-26-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado tiene dos sanciones firmes por infracciones leves del mismo tipo, impuestas en los últimos dos años. Según la Ley 11/2022, ese incumplimiento reiterado:",
+  "opciones": [
+   "sigue siendo leve: cada infracción se valora por separado",
+   "se considera infracción grave",
+   "pasa directamente a muy grave",
+   "solo tiene consecuencias si las sanciones se impusieron en el mismo año"
+  ],
+  "clave": "b",
+  "sol": "Hay incumplimiento reiterado cuando se han impuesto sanciones firmes por dos o más infracciones del mismo tipo en un período de tres años (art. 109.6), y la reiteración de leves es infracción grave (art. 107.44). Dos años están dentro de esos tres. Sube un escalón, a grave; no salta a muy grave."
+ },
+ {
+  "kid": "K-R9-27-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un expediente sancionador por interferencias, las garantías de audiencia, prueba y plazos que tiene el radioaficionado proceden:",
+  "opciones": [
+   "del Reglamento de Radiocomunicaciones de la UIT",
+   "de un procedimiento sancionador propio regulado por la Orden IET/1311/2013",
+   "de las instrucciones internas de cada Jefatura Provincial",
+   "de la legislación de procedimiento administrativo común, aplicada junto con la Ley General de Telecomunicaciones"
+  ],
+  "clave": "d",
+  "sol": "El expediente se tramita con arreglo a la Ley General de Telecomunicaciones y a la legislación de procedimiento administrativo común (Ley 39/2015). La ley sectorial tipifica y gradúa, y el procedimiento común aporta las garantías. La Orden no tiene un procedimiento sancionador propio: remite a la Ley. El Reglamento de la UIT no es una norma sancionadora española."
+ },
+ {
+  "kid": "K-R9-28-1",
+  "veredicto": "reemplazada",
+  "motivo": "Paráfrasis de F-R9.4: mismo enunciado (plazo para resolver el procedimiento sancionador) con un envoltorio de caso que no añade nada y la misma respuesta. Sustituida por una aplicación con datos (expediente abierto hace ocho meses).",
+  "enunciado": "Hace ocho meses se inició un expediente sancionador contra un radioaficionado por interferencias, y todavía no se ha resuelto. Según la Ley 11/2022, ¿sigue la Administración dentro del plazo para resolverlo?",
+  "opciones": [
+   "Sí, porque el plazo para resolver es de un año",
+   "No, porque el plazo para resolver es de seis meses",
+   "No, porque el plazo para resolver es de tres meses",
+   "Sí, y no tiene más límite que la prescripción de la infracción"
+  ],
+  "clave": "a",
+  "sol": "El art. 114.2 de la Ley 11/2022 fija en un año el plazo para resolver el procedimiento sancionador, así que a los ocho meses la Administración sigue en plazo. Seis o tres meses no son plazos de ese artículo. La prescripción (art. 113) mide otra cosa, el tiempo para perseguir la infracción, y no sustituye al plazo para resolver un expediente ya abierto."
+ },
+ {
+  "kid": "K-R9-29-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "En un procedimiento sancionador de telecomunicaciones, ¿cuál de estos plazos de alegaciones cumple lo que exige el art. 114.2 de la Ley 11/2022?",
+  "opciones": [
+   "diez días hábiles",
+   "quince días naturales",
+   "veinte días hábiles",
+   "doce días hábiles"
+  ],
+  "clave": "c",
+  "sol": "El art. 114.2 exige un plazo de alegaciones de, como mínimo, quince días hábiles: la Administración puede dar más, pero no menos. Veinte días hábiles lo cumple. Diez o doce días hábiles se quedan cortos, y quince días naturales dan menos tiempo que quince hábiles."
+ },
+ {
+  "kid": "K-R9-30-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Te han ordenado detener las emisiones de tu estación porque interferían a otro servicio. ¿Hasta cuándo dura esa orden?",
+  "opciones": [
+   "un año, el plazo de prescripción de las infracciones leves",
+   "hasta que se corrija la causa; después, comunicándolo, puedes reanudar las emisiones",
+   "para siempre: el cese equivale a revocar la autorización",
+   "hasta que se resuelva el expediente sancionador, aunque la causa ya esté corregida"
+  ],
+  "clave": "b",
+  "sol": "El fin del cese es que la interferencia acabe, así que dura lo que tarde en corregirse la causa: se adoptan las medidas técnicas, se comunica y se reanudan las emisiones. Si la interferencia persiste, la Administración puede restringir bandas, potencia u horario. No es una revocación ni depende del expediente sancionador, que es otra vía."
+ },
+ {
+  "kid": "K-R9-31-1",
+  "veredicto": "reemplazada",
+  "motivo": "El caso del equipo de música del vecino que capta las emisiones es, según el tema T9 del libro, un problema de inmunidad del equipo afectado (detección en audio, remedio en el lado de la víctima); presentarlo como interferencia que el titular debe corregir a su costa enseña algo dudoso. Además, opciones y clave casi calcadas de R9.21. Sustituida por un caso de armónico de la propia estación.",
+  "enunciado": "Al revisar tu estación descubres que tu transmisor de HF emite un armónico que cae en la banda de un servicio autorizado y le causa interferencias. Nadie se ha quejado todavía. Debes:",
+  "opciones": [
+   "seguir emitiendo igual mientras nadie se queje ni la Administración te lo requiera",
+   "adoptar ya, a tu costa, las medidas técnicas razonables para eliminarlo, como un filtro paso bajo",
+   "corregirlo, pero a costa del servicio interferido, que es quien se beneficia de la corrección",
+   "dejar de emitir definitivamente y renunciar a la autorización"
+  ],
+  "clave": "b",
+  "sol": "La obligación nace en cuanto tienes constancia de que interfieres, sin esperar quejas ni requerimientos, y el coste corre por tu cuenta, porque eres quien explota la estación. Un armónico es una emisión no esencial de tu transmisor, así que el remedio está en tu lado, por ejemplo con un filtro paso bajo a la salida. No hace falta renunciar a la autorización: corregida la causa, puedes seguir emitiendo."
+ },
+ {
+  "kid": "K-R9-32-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Un radioaficionado puede perder su autorización por revocación si:",
+  "opciones": [
+   "emite con fines publicitarios o lucrativos",
+   "no tiene instalada ninguna estación",
+   "deja de ser socio de su asociación de radioaficionados",
+   "no lleva libro de registro de comunicados"
+  ],
+  "clave": "a",
+  "sol": "Las emisiones con fines comerciales, publicitarios o lucrativos son causa expresa de revocación (art. 8.1.b de la Orden IET/1311/2013). Las otras tres no lo son, porque la autorización no obliga a tener estación, ni a ser socio, ni a llevar libro de registro."
+ },
+ {
+  "kid": "K-R9-33-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Una radioaficionada decide abandonar la actividad y quiere dar de baja su autorización. ¿Qué puede hacer?",
+  "opciones": [
+   "esperar a que caduque, porque la autorización no puede cancelarse antes",
+   "cederla a otro radioaficionado que la necesite",
+   "pedir la cancelación en cualquier momento",
+   "solicitar que se abra un expediente de revocación contra ella"
+  ],
+  "clave": "c",
+  "sol": "La autorización dura hasta que su titular renuncia o se revoca, y se cancela en cualquier momento a petición del titular. No caduca ni se renueva, y como es personal e intransferible no puede cederse. La revocación es la respuesta a un incumplimiento, no una forma de darse de baja voluntariamente."
+ },
+ {
+  "kid": "K-R9-34-1",
+  "veredicto": "ok",
+  "motivo": "",
+  "enunciado": "Para ajustar el acoplador de antena necesitas emitir una portadora sin modular. ¿Cómo debes hacerlo?",
+  "opciones": [
+   "el tiempo que quieras, si la banda está poco ocupada",
+   "durante el tiempo estrictamente necesario e identificándote",
+   "solo después de notificarlo a la Jefatura Provincial con cinco días de antelación",
+   "solo con una autorización experimental previa"
+  ],
+  "clave": "b",
+  "sol": "La portadora sin modular solo se admite para ensayos y durante un tiempo breve, siempre identificándose: el Anexo I de la Orden limita la potencia y la duración de las emisiones a lo estrictamente necesario. Mantenerla indefinidamente es, de hecho, interferir. No hace falta notificación previa ni autorización experimental: el aviso de cinco días es el de las estaciones portables."
+ }
+]
