@@ -122,12 +122,12 @@
  {
   "kid": "K-R8-82-1",
   "cid": "R8-82",
-  "enunciado": "Según el artículo 18.6 de la Orden IET/1311/2013, ¿a quién puede autorizarse una estación colectiva y quién responde de su utilización?",
+  "enunciado": "Unos amigos radioaficionados, sin formar asociación, quieren montar una estación colectiva y repartirse su uso. ¿Qué establece el artículo 18.6 sobre la titularidad y el uso de estas estaciones?",
   "opciones": [
-   "Solo a las asociaciones de radioaficionados reconocidas; responde la Junta Directiva de la asociación",
-   "A cualquier grupo de radioaficionados; responde el socio con más antigüedad",
-   "Solo a las asociaciones reconocidas; responde la Jefatura Provincial que expidió la licencia",
-   "A cualquier radioaficionado con autorización en vigor; responde su titular"
+   "Solo pueden autorizarse a asociaciones de radioaficionados reconocidas, y de su utilización responde la Junta Directiva de la asociación",
+   "Pueden autorizarse a cualquier grupo de radioaficionados, y de su utilización responde el miembro con más antigüedad",
+   "Solo pueden autorizarse a asociaciones reconocidas, y de su utilización responde la Jefatura Provincial que expidió la licencia",
+   "Pueden autorizarse a cualquier radioaficionado con autorización en vigor, que responde de su utilización"
   ],
   "clave": "a",
   "sol": "El art. 18.6 reserva las estaciones colectivas a las asociaciones de radioaficionados reconocidas y hace responsable de su utilización a la Junta Directiva de la asociación. La Jefatura Provincial expide la licencia e inspecciona, pero no responde del uso de la estación. Un grupo informal o un radioaficionado particular no pueden ser titulares de una colectiva.",
@@ -422,17 +422,17 @@
  {
   "kid": "K-R8-102-1",
   "cid": "R8-102",
-  "enunciado": "Mientras duren sus emisiones, un repetidor analógico debe transmitir automáticamente su distintivo a intervalos no superiores a:",
+  "enunciado": "Un repetidor analógico está programado para identificarse automáticamente cada doce minutos. Según el artículo 25.d:",
   "opciones": [
-   "diez minutos",
-   "tres minutos",
-   "quince minutos",
-   "treinta minutos"
+   "no cumple, porque debe identificarse a intervalos no superiores a diez minutos",
+   "cumple, porque el intervalo máximo es de quince minutos",
+   "no cumple, porque debe identificarse a intervalos no superiores a tres minutos",
+   "cumple, porque si se identifica en Morse la norma solo limita la velocidad, no el intervalo"
   ],
   "clave": "a",
-  "sol": "El art. 25.d dispone que los repetidores analógicos emitan su distintivo de forma automática, en radiotelefonía o en Morse (a no más de diez palabras por minuto), a intervalos no superiores a diez minutos. Los tres minutos son el intervalo máximo de las radiobalizas (art. 25.e), el distractor más tentador. Quince y treinta minutos no figuran en la Orden.",
+  "sol": "El art. 25.d dispone que los repetidores analógicos emitan su distintivo de forma automática, en radiotelefonía o en Morse (a no más de diez palabras por minuto), a intervalos no superiores a diez minutos. Doce minutos superan ese límite, también si la identificación es en Morse. Los tres minutos son el intervalo de las radiobalizas (art. 25.e), y los quince minutos no figuran en la Orden.",
   "fuente": "chapters/r08.typ:39",
-  "angulo": "la otra cifra del art. 25.d (intervalo), con la de las radiobalizas como distractor"
+  "angulo": "caso práctico con la otra cifra del art. 25.d (intervalo), con la de las radiobalizas como distractor"
  },
  {
   "kid": "K-R8-103-1",
@@ -647,7 +647,7 @@
  {
   "kid": "K-R8-117-1",
   "cid": "R8-117",
-  "enunciado": "En la nomenclatura de bandas del anexo I, la banda número 7 corresponde a:",
+  "enunciado": "¿Qué símbolo, tipo de onda y rango de frecuencias tiene la banda número 7 de la nomenclatura del anexo I?",
   "opciones": [
    "VHF, ondas métricas, de 30 a 300 MHz",
    "MF, ondas hectométricas, de 300 a 3000 kHz",
@@ -707,7 +707,7 @@
  {
   "kid": "K-R8-121-1",
   "cid": "R8-121",
-  "enunciado": "Según el anexo I, una energía no deseada que solo produce una ligera degradación de la calidad de la recepción en un sistema de radiocomunicación:",
+  "enunciado": "Una emisión ajena empeora ligeramente la calidad con la que recibes una señal, sin llegar a interrumpir la comunicación. Según las definiciones del anexo I, ese efecto:",
   "opciones": [
    "no es una interferencia, porque no interrumpe el servicio",
    "es siempre una interferencia perjudicial",
@@ -827,7 +827,7 @@
  {
   "kid": "K-R8-131-1",
   "cid": "R8-131",
-  "enunciado": "¿En qué dos bandas la tabla del anexo I fija, con carácter general, una potencia máxima de 1 W p.i.r.e.?",
+  "enunciado": "Las bandas de la tabla del anexo I cuyo límite general es de solo 1 W p.i.r.e. son:",
   "opciones": [
    "1,8 MHz (160 m) y 3,5 MHz (80 m)",
    "5 MHz (60 m) y 10 MHz (30 m)",
@@ -842,7 +842,7 @@
  {
   "kid": "K-R8-132-1",
   "cid": "R8-132",
-  "enunciado": "Suponiendo que la banda de 430–440 MHz estuviera atribuida al servicio de aficionados con carácter secundario, ¿cuál sería su potencia máxima según el anexo I?",
+  "enunciado": "La tabla del anexo I da 300 W p.c.e. para 70 cm. Si un tramo de esa banda fuera de atribución secundaria, ¿qué potencia máxima tendría ese tramo?",
   "opciones": [
    "150 W p.c.e.",
    "300 W p.c.e.",
@@ -917,7 +917,7 @@
  {
   "kid": "K-R8-141-1",
   "cid": "R8-141",
-  "enunciado": "¿Quién expide la licencia CEPT de un radioaficionado español?",
+  "enunciado": "Antes de viajar a un país que aplica la T/R 61-01, quieres saber dónde conseguir tu licencia CEPT. ¿Quién la expide?",
   "opciones": [
    "la Administración del país visitado, a su llegada",
    "la Administración española: la propia autorización española de radioaficionado tiene la consideración de licencia CEPT",
