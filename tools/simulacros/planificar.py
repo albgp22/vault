@@ -33,17 +33,27 @@ def cargar():
     # fusión de conceptos duplicados entre temas (duplicados-*.json)
     por_cid = {c['cid']: c for c in conceptos}
     quitar = set()
+    grupos = []
     for f in sorted(glob.glob(os.path.join(ROOT, 'build/simulacros/duplicados-*.json'))):
-        for g in json.load(open(f, encoding='utf-8')):
-            k = por_cid.get(g['conservar'])
-            if k is None:
-                print('AVISO duplicado: no existe', g['conservar'])
-                continue
-            k['peso'] = max([k['peso'], g.get('peso') or 0] + [por_cid[q]['peso'] for q in g['quitar'] if q in por_cid])
-            seg = g.get('segunda')
-            if seg and seg not in EXCLUIR and seg not in k['preguntas']:
-                k['preguntas'] = k['preguntas'][:1] + [seg]
-            quitar.update(g['quitar'])
+        grupos += json.load(open(f, encoding='utf-8'))
+    # cadenas: si un concepto conservado en un grupo se quita en otro, manda el que lo quita
+    quien = {q: g['conservar'] for g in grupos for q in g['quitar']}
+
+    def raiz(cid, vistos=()):
+        return raiz(quien[cid], vistos + (cid,)) if cid in quien and quien[cid] not in vistos else cid
+    for g in grupos:
+        g['conservar'] = raiz(g['conservar'])
+        g['quitar'] = [q for q in g['quitar'] if q != g['conservar']]
+    for g in grupos:
+        k = por_cid.get(g['conservar'])
+        if k is None:
+            print('AVISO duplicado: no existe', g['conservar'])
+            continue
+        k['peso'] = max([k['peso'], g.get('peso') or 0] + [por_cid[q]['peso'] for q in g['quitar'] if q in por_cid])
+        seg = g.get('segunda')
+        if seg and seg not in EXCLUIR and seg not in k['preguntas']:
+            k['preguntas'] = k['preguntas'][:1] + [seg]
+        quitar.update(g['quitar'])
     return [c for c in conceptos if c['cid'] not in quitar]
 
 
