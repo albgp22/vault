@@ -1624,11 +1624,11 @@
    "enunciado": "En la generación de banda lateral única por el método de fase, la banda lateral no deseada se elimina:",
    "opciones": [
     "con un filtro de cristal de flancos muy abruptos",
-    "por cancelación, al sumar las salidas de dos moduladores balanceados que reciben la voz y la portadora desfasadas 90°",
     "con un limitador seguido de un discriminador",
-    "haciendo que el índice de modulación supere la unidad"
+    "haciendo que el índice de modulación supere la unidad",
+    "por cancelación, al sumar las salidas de dos moduladores balanceados que reciben la voz y la portadora desfasadas 90°"
    ],
-   "clave": "b",
+   "clave": "d",
    "sol": "El método de fase no usa filtro de banda lateral: dos moduladores balanceados, uno de ellos con voz y portadora desfasadas 90°, entregan las bandas laterales con signos tales que al sumarlas una se refuerza y la otra se anula. El filtro de cristal es el otro método, el del filtro.",
    "fuente": "chapters/t05.typ:163"
   },
@@ -1684,11 +1684,11 @@
    "enunciado": "En un transmisor con conversión de frecuencia, a la salida del mezclador aparecen, además de la señal deseada:",
    "opciones": [
     "solo los armónicos pares de la señal deseada",
-    "el otro producto de la mezcla (suma o diferencia) y restos de las dos entradas, que se eliminan con un filtro paso banda tras el mezclador",
     "chasquidos de manipulación",
+    "el otro producto de la mezcla (suma o diferencia) y restos de las dos entradas, que se eliminan con un filtro paso banda tras el mezclador",
     "la frecuencia imagen del receptor, que se elimina con el ALC"
    ],
-   "clave": "b",
+   "clave": "c",
    "sol": "El mezclador entrega la suma y la diferencia, más restos de sus entradas: con una SSB en 9 MHz y un VFO de 5,2 MHz salen 14,2 MHz (la deseada), 3,8 MHz, 5,2 MHz y 9 MHz. Si no se filtran, el lineal los amplifica igual que a la señal buena; por eso se pone un filtro paso banda tras el mezclador.",
    "fuente": "chapters/t05.typ:510"
   },
@@ -1699,11 +1699,11 @@
    "enunciado": "Las oscilaciones parásitas de un amplificador de potencia:",
    "opciones": [
     "aparecen siempre en los múltiplos enteros de la frecuencia de trabajo",
-    "son oscilaciones a frecuencias sin relación con la de trabajo, a menudo en VHF, que se combaten con supresores y ferritas",
     "se eliminan con el filtro de banda lateral",
-    "se deben a una manipulación demasiado brusca"
+    "se deben a una manipulación demasiado brusca",
+    "son oscilaciones a frecuencias sin relación con la de trabajo, a menudo en VHF, que se combaten con supresores y ferritas"
    ],
-   "clave": "b",
+   "clave": "d",
    "sol": "Las inductancias de los hilos y las capacidades del transistor forman circuitos resonantes no previstos, y el final oscila por su cuenta, por ejemplo a 100 o 200 MHz. Se combaten con supresores (bobina de pocas espiras con una resistencia en paralelo), perlas de ferrita y buen desacoplo. Los múltiplos enteros son los armónicos, y la manipulación brusca produce chasquidos.",
    "fuente": "chapters/t05.typ:605"
   },
@@ -1713,12 +1713,12 @@
    "tema": "T5",
    "enunciado": "En la banda de 2 metros, la frecuencia de entrada de un repetidor (en la que transmiten los usuarios) está, respecto a su frecuencia de salida:",
    "opciones": [
-    "600 kHz por encima",
     "600 kHz por debajo",
+    "600 kHz por encima",
     "6 MHz por debajo",
     "en la misma frecuencia, porque el repetidor recibe y transmite a la vez"
    ],
-   "clave": "b",
+   "clave": "a",
    "sol": "En 2 m el repetidor recibe 600 kHz por debajo de la frecuencia en la que retransmite: por ejemplo, entrada en 145,000 MHz y salida en 145,600 MHz. No puede usar la misma frecuencia, porque su propio transmisor taparía lo que recibe: trabaja en dúplex.",
    "fuente": "chapters/t05.typ:841"
   },
