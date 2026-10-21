@@ -1,0 +1,1082 @@
+[
+ {
+  "kid": "K-R8-01-1",
+  "cid": "R8-01",
+  "enunciado": "La normativa que regula la actividad de los radioaficionados es la misma en toda España y no la dicta cada comunidad autónoma porque:",
+  "opciones": [
+   "las comunidades autónomas han delegado esa competencia en la Secretaría de Estado mediante convenios",
+   "la Constitución (art. 149.1.21.ª) atribuye al Estado la competencia exclusiva en materia de telecomunicaciones",
+   "la Recomendación CEPT T/R 61-01 obliga a cada país a tener una única norma de aficionados",
+   "la radioafición es una actividad sin ánimo de lucro, excluida de las competencias autonómicas"
+  ],
+  "clave": "b",
+  "sol": "El art. 149.1.21.ª de la Constitución reserva al Estado, con carácter exclusivo, las telecomunicaciones: por eso el Reglamento de aficionados es estatal, y también la inspección y la sanción corresponden al Estado. No hay delegación autonómica que explique la uniformidad, y la T/R 61-01 regula el uso temporal de estaciones en otros países, no la organización interna de cada Estado.",
+  "fuente": "chapters/r08.typ:11",
+  "angulo": "del artículo a su consecuencia práctica: por qué la norma es estatal"
+ },
+ {
+  "kid": "K-R8-02-1",
+  "cid": "R8-02",
+  "enunciado": "La Ley 11/2022, de 28 de junio, es:",
+  "opciones": [
+   "la Ley General de Telecomunicaciones vigente, que derogó la Ley 9/2014",
+   "la ley de antenas que sustituyó a la Ley 19/1983",
+   "la ley de procedimiento administrativo que sustituyó a la Ley 30/1992",
+   "la norma que aprueba el Reglamento sobre el uso del dominio público radioeléctrico, en lugar del Real Decreto 863/2008"
+  ],
+  "clave": "a",
+  "sol": "La Ley 11/2022 es la Ley General de Telecomunicaciones vigente: derogó la Ley 9/2014, que a su vez había sustituido a la Ley 32/2003 que cita la Orden IET/1311/2013. La Ley 19/1983 (antenas) sigue vigente; la Ley 30/1992 la sustituyó la Ley 39/2015, y el Real Decreto 863/2008, el Real Decreto 123/2017.",
+  "fuente": "chapters/ap-c3.typ:88",
+  "angulo": "dato al revés: de la norma a su contenido, con distractores de las otras sustituciones normativas"
+ },
+ {
+  "kid": "K-R8-03-1",
+  "cid": "R8-03",
+  "enunciado": "La Orden IET/1311/2013 todavía cita el Real Decreto 863/2008 como reglamento de uso del dominio público radioeléctrico. Hoy esa función la cumple el:",
+  "opciones": [
+   "Real Decreto 2623/1986",
+   "Real Decreto 123/2017",
+   "Real Decreto 1890/2000",
+   "Real Decreto 244/2010"
+  ],
+  "clave": "b",
+  "sol": "El Real Decreto 123/2017 aprueba el Reglamento sobre el uso del dominio público radioeléctrico y derogó el Real Decreto 863/2008. Los otros reales decretos también los cita la Orden, pero para otras materias: el 2623/1986 regula las antenas de aficionado, el 1890/2000 la evaluación de la conformidad de los aparatos y el 244/2010 la actividad de los instaladores.",
+  "fuente": "chapters/ap-c3.typ:96",
+  "angulo": "dato al revés: de la norma derogada a la vigente"
+ },
+ {
+  "kid": "K-R8-04-1",
+  "cid": "R8-04",
+  "enunciado": "Un radioaficionado pide que se le reserve en exclusiva una frecuencia de la banda de 2 m para su red local. No es posible porque el uso del espectro por los radioaficionados es:",
+  "opciones": [
+   "un uso común, que no necesita ningún título habilitante y, por tanto, no admite reservas",
+   "un uso especial: bandas de explotación compartida, sin limitación del número de usuarios, ejercido mediante autorización individual",
+   "un uso privativo, que solo se concede en exclusiva a las asociaciones de radioaficionados",
+   "un uso reservado al Estado, que solo cede frecuencias concretas a Protección Civil"
+  ],
+  "clave": "b",
+  "sol": "El uso de los radioaficionados es especial: las bandas se explotan de forma compartida, sin exclusión de terceros, y cada aficionado actúa con una autorización individual. La exclusividad es lo propio del uso privativo, que no es el caso. Tampoco es uso común, porque sí hace falta título habilitante: la autorización de radioaficionado.",
+  "fuente": "chapters/ap-c3.typ:104",
+  "angulo": "caso práctico: consecuencia de la clasificación (no cabe reservar frecuencias)"
+ },
+ {
+  "kid": "K-R8-05-1",
+  "cid": "R8-05",
+  "enunciado": "La norma que se considera el documento fundamental de regulación de la radioafición en España es:",
+  "opciones": [
+   "la Ley 19/1983, sobre el derecho a instalar antenas en el exterior de los inmuebles",
+   "el Real Decreto 2623/1986, sobre las instalaciones de antenas de aficionado",
+   "la Recomendación CEPT T/R 61-02, sobre el certificado HAREC",
+   "la Orden IET/1311/2013, que aprueba el Reglamento de uso del dominio público radioeléctrico por aficionados"
+  ],
+  "clave": "d",
+  "sol": "La Orden IET/1311/2013 es la norma específica de la actividad: regula la autorización, la prueba, las estaciones, los distintivos y las condiciones de uso. La Ley 19/1983 y el Real Decreto 2623/1986 solo tratan de las antenas, y la T/R 61-02 armoniza el certificado de examen en el ámbito CEPT.",
+  "fuente": "cheatsheet.typ:1074",
+  "angulo": "dato al revés: de la calificación «documento fundamental» a la norma"
+ },
+ {
+  "kid": "K-R8-06-1",
+  "cid": "R8-06",
+  "enunciado": "Una pregunta de un banco antiguo justifica su respuesta en la Orden ITC/1791/2006. Respecto de esa orden, hoy:",
+  "opciones": [
+   "está derogada expresamente por la Orden IET/1311/2013, que aprueba el reglamento vigente",
+   "sigue vigente para las estaciones fijas, junto con el Real Decreto 2623/1986",
+   "solo se aplica a las autorizaciones concedidas antes de julio de 2013",
+   "la derogó la Ley 11/2022 al aprobar la nueva Ley General de Telecomunicaciones"
+  ],
+  "clave": "a",
+  "sol": "La disposición derogatoria única de la Orden IET/1311/2013 deroga expresamente la Orden ITC/1791/2006, que aprobaba el reglamento anterior. Las autorizaciones anteriores no siguen rigiéndose por ella: conservaron su vigencia, pero quedaron sometidas al nuevo reglamento. Lo que la Orden de 2013 mantiene para las estaciones fijas es el Real Decreto 2623/1986, no la orden derogada.",
+  "fuente": "chapters/ap-c3.typ:112",
+  "angulo": "dato al revés: de la norma derogada a quién la derogó y sus efectos"
+ },
+ {
+  "kid": "K-R8-07-1",
+  "cid": "R8-07",
+  "enunciado": "La Orden IET/1311/2013 se publicó en el BOE el 12 de julio de 2013. Entró en vigor el:",
+  "opciones": [
+   "13 de julio de 2013",
+   "12 de julio de 2013",
+   "1 de agosto de 2013",
+   "1 de enero de 2014"
+  ],
+  "clave": "a",
+  "sol": "Su disposición final cuarta fija la entrada en vigor el día siguiente al de su publicación: el 13 de julio de 2013. El 1 de agosto saldría de aplicar los veinte días de la regla general del Código Civil, que solo rige cuando la norma no dice otra cosa, y aquí sí lo dice.",
+  "fuente": "chapters/ap-c3.typ:120",
+  "angulo": "cálculo con fechas: de la regla a la fecha concreta"
+ },
+ {
+  "kid": "K-R8-08-1",
+  "cid": "R8-08",
+  "enunciado": "Un radioaficionado cobra a una empresa por difundir sus avisos comerciales a través de su estación. Según el Reglamento, esa conducta:",
+  "opciones": [
+   "es lícita si lo comunica previamente a la Jefatura Provincial de Inspección de Telecomunicaciones",
+   "puede dar lugar a la revocación de la autorización, porque la radioafición se ejerce con carácter exclusivamente personal y sin fines de lucro",
+   "es lícita siempre que emita dentro de las bandas atribuidas al servicio de aficionados",
+   "solo está prohibida si los avisos se difunden a través de un repetidor"
+  ],
+  "clave": "b",
+  "sol": "El art. 2.1 define a los radioaficionados como personas que se interesan por la radiotecnia con carácter exclusivamente personal y sin fines de lucro ni contenido económico. Por eso emitir con fines comerciales, publicitarios o lucrativos es causa de revocación (art. 8.1.b). Emitir dentro de banda no lo legaliza: el problema es la finalidad, no la frecuencia.",
+  "fuente": "chapters/ap-c3.typ:134",
+  "angulo": "caso práctico: consecuencia de la definición (fines lucrativos)"
+ },
+ {
+  "kid": "K-R8-09-1",
+  "cid": "R8-09",
+  "enunciado": "El documento que atribuye en España las bandas de frecuencias a cada servicio de radiocomunicación, y al que remite el Reglamento de aficionados, se denomina:",
+  "opciones": [
+   "Cuadro Nacional de Atribución de Frecuencias (CNAF)",
+   "Plan de bandas de la IARU para la Región 1",
+   "Registro Nacional de Frecuencias de Aficionado",
+   "Recomendación CEPT T/R 61-01"
+  ],
+  "clave": "a",
+  "sol": "El CNAF es el plan nacional que atribuye bandas, subbandas y frecuencias a cada servicio y fija sus condiciones, de obligado cumplimiento. El plan de bandas de la IARU reparte segmentos dentro de las bandas de aficionado (por ejemplo, para radiobalizas), pero no atribuye bandas a los distintos servicios, y la T/R 61-01 trata del uso temporal de estaciones en otros países.",
+  "fuente": "chapters/ap-c3.typ:142",
+  "angulo": "dato al revés: de la función del documento a su nombre"
+ },
+ {
+  "kid": "K-R8-10-1",
+  "cid": "R8-10",
+  "enunciado": "La Orden ETD/1449/2021, de 16 de diciembre, aprobó una edición del CNAF. En octubre de 2026 esa edición:",
+  "opciones": [
+   "sigue vigente, porque el CNAF solo puede modificarse mediante una ley",
+   "ha sido sustituida por la Orden IET/1311/2013",
+   "sigue vigente hasta que la UIT apruebe un nuevo Reglamento de Radiocomunicaciones",
+   "ha sido sustituida por la aprobada por la Orden TDF/732/2026, de 10 de julio"
+  ],
+  "clave": "d",
+  "sol": "El Ministerio aprueba el CNAF mediante orden, y la edición vigente es la de la Orden TDF/732/2026, de 10 de julio, que derogó y sustituyó a la de la Orden ETD/1449/2021. La Orden IET/1311/2013 no es un CNAF, sino el reglamento de los radioaficionados, y además es anterior. No hace falta una ley para cambiar el CNAF: basta una orden ministerial.",
+  "fuente": "chapters/ap-c3.typ:142",
+  "angulo": "dato al revés: de la edición anterior a la que la sustituye (dato volátil, vigente en octubre de 2026)"
+ },
+ {
+  "kid": "K-R8-11-1",
+  "cid": "R8-11",
+  "enunciado": "Un radioaficionado que vive en un bloque de pisos quiere apoyarse en la norma con rango de ley que le reconoce el derecho a instalar su antena en el exterior del inmueble. Esa norma es:",
+  "opciones": [
+   "la Ley 11/2022",
+   "la Ley 19/1983",
+   "el Real Decreto 2623/1986",
+   "la Orden IET/1311/2013"
+  ],
+  "clave": "b",
+  "sol": "La Ley 19/1983, la «Ley de antenas», es la que reconoce el derecho a instalar antenas de aficionado en el exterior de los inmuebles. El Real Decreto 2623/1986 la desarrolla como reglamento, pero no tiene rango de ley; la Ley 11/2022 es la Ley General de Telecomunicaciones, y la Orden IET/1311/2013 es el reglamento de la actividad.",
+  "fuente": "chapters/r08.typ:11",
+  "angulo": "dato al revés y caso práctico: del derecho a la ley, con el reglamento de desarrollo como distractor"
+ },
+ {
+  "kid": "K-R8-12-1",
+  "cid": "R8-12",
+  "enunciado": "¿Qué norma fija las condiciones técnicas concretas de las antenas de aficionado instaladas en el exterior de los inmuebles, como la altura libre sobre el plano de paso o la separación de los cables respecto de otras canalizaciones?",
+  "opciones": [
+   "La Ley 19/1983, directamente en su articulado",
+   "El anexo I de la Orden IET/1311/2013",
+   "El Real Decreto 123/2017",
+   "El Real Decreto 2623/1986, que desarrolla la Ley 19/1983"
+  ],
+  "clave": "d",
+  "sol": "Esas reglas (3 m libres sobre el plano de paso, 10 cm de separación de las canalizaciones, soportes, anclajes) son del Real Decreto 2623/1986, el reglamento de las instalaciones de antenas de aficionado. La Ley 19/1983 reconoce el derecho, pero deja el detalle técnico al reglamento. El anexo I de la Orden trata de las características de las emisiones, no de la instalación mecánica de la antena.",
+  "fuente": "chapters/ap-c3.typ:26",
+  "angulo": "dato al revés: de los requisitos técnicos concretos a la norma que los fija"
+ },
+ {
+  "kid": "K-R8-13-1",
+  "cid": "R8-13",
+  "enunciado": "La resolución que concede la autorización de radioaficionado, junto con su distintivo de llamada, la dicta:",
+  "opciones": [
+   "la asociación de radioaficionados de la provincia del solicitante",
+   "la consejería de la comunidad autónoma de residencia",
+   "el ayuntamiento del domicilio del solicitante",
+   "la Secretaría de Estado competente en telecomunicaciones (la SETSI de la Orden, hoy SETID)"
+  ],
+  "clave": "d",
+  "sol": "La autorización la otorga la SETSI mediante resolución motivada, que la concede junto con el distintivo de llamada o la deniega (arts. 5.1 y 7.1 de la Orden); hoy el órgano se llama SETID. Las asociaciones no conceden nada, y ni las comunidades autónomas ni los ayuntamientos tienen competencia: las telecomunicaciones son competencia exclusiva del Estado.",
+  "fuente": "chapters/ap-b2.typ:655",
+  "angulo": "del trámite al órgano: quién dicta la resolución con el distintivo"
+ },
+ {
+  "kid": "K-R8-14-1",
+  "cid": "R8-14",
+  "enunciado": "¿Cuál es el orden correcto de los pasos para llegar a emitir desde una estación fija propia?",
+  "opciones": [
+   "Obtener la licencia de estación fija, superar la prueba de capacitación y obtener la autorización",
+   "Obtener una autorización provisional, superar la prueba de capacitación y obtener la licencia de estación fija",
+   "Superar la prueba de capacitación, obtener la licencia de estación fija y obtener después la autorización",
+   "Superar la prueba de capacitación (HAREC), obtener la autorización con su distintivo y obtener la licencia de estación fija"
+  ],
+  "clave": "d",
+  "sol": "Superar la prueba es el requisito previo: da el certificado HAREC, que habilita para solicitar la autorización. La licencia de estación fija viene después, porque se asocia a una autorización ya concedida. Ponerla antes de la autorización es el error típico.",
+  "fuente": "chapters/ap-b2.typ:391",
+  "angulo": "secuencia: situar el requisito previo dentro de todo el trámite"
+ },
+ {
+  "kid": "K-R8-15-1",
+  "cid": "R8-15",
+  "enunciado": "Un radioaficionado quiere ceder su autorización a su hijo, que no se ha examinado. Esto:",
+  "opciones": [
+   "no es posible: la autorización es personal e intransferible, y el hijo necesita la suya propia tras superar la prueba",
+   "es posible si el padre lo comunica previamente a la SETSI",
+   "es posible si el hijo es menor de edad y el padre asume por escrito su responsabilidad",
+   "es posible si el hijo usa el distintivo del padre seguido de una barra"
+  ],
+  "clave": "a",
+  "sol": "La autorización es individual, personal e intransferible: no se cede ni por comunicación ni por parentesco. El escrito de los padres sirve para que un menor obtenga su propia autorización, no para heredar la de otro. Además, puede revocarse y se extingue con el fallecimiento del titular.",
+  "fuente": "chapters/ap-b2.typ:573",
+  "angulo": "caso práctico: consecuencia del carácter intransferible"
+ },
+ {
+  "kid": "K-R8-16-1",
+  "cid": "R8-16",
+  "enunciado": "Una autorización de radioaficionado concedida en 2014, cuyo titular no ha hecho desde entonces ningún trámite, en 2026:",
+  "opciones": [
+   "caducó en 2019, al no comunicar en cinco años la intención de seguir usando el espectro",
+   "caducó en 2024, al cumplir diez años sin renovarse",
+   "sigue vigente solo si el titular dispone de licencia de estación fija",
+   "sigue vigente, porque conserva su vigencia mientras el titular no renuncie o sea revocada"
+  ],
+  "clave": "d",
+  "sol": "La autorización tiene vigencia indefinida (art. 5.4): no se renueva, y la antigua comunicación quinquenal quedó suprimida con sus efectos (disposición adicional primera). Por eso no caduca por el paso del tiempo. Tampoco depende de tener estación fija, que no es obligatoria.",
+  "fuente": "chapters/r08.typ:31",
+  "angulo": "caso práctico con fechas: aplicar la vigencia indefinida"
+ },
+ {
+  "kid": "K-R8-17-1",
+  "cid": "R8-17",
+  "enunciado": "Un radioaficionado con autorización en vigor quiere emitir en una frecuencia que no está atribuida al servicio de aficionados. Su autorización:",
+  "opciones": [
+   "le ampara siempre que no cause interferencias perjudiciales",
+   "le ampara si se identifica con su distintivo de llamada",
+   "no le ampara: solo habilita para las bandas y con las características técnicas establecidas para el servicio de aficionados",
+   "le ampara si lo notifica a la Jefatura Provincial con cinco días de antelación"
+  ],
+  "clave": "c",
+  "sol": "La autorización habilita para emitir en las bandas del servicio de aficionados, con las características técnicas del anexo I (art. 5.3); fuera de ellas no ampara nada. No interferir o identificarse son obligaciones adicionales, no permisos para salir de banda. El aviso de cinco días es el del uso portable de la estación, otro asunto.",
+  "fuente": "chapters/ap-b2.typ:701",
+  "angulo": "caso práctico: límite de lo que habilita la autorización"
+ },
+ {
+  "kid": "K-R8-18-1",
+  "cid": "R8-18",
+  "enunciado": "Un aspirante presentó su solicitud de autorización de radioaficionado hace siete semanas y no ha recibido ninguna resolución. Su solicitud:",
+  "opciones": [
+   "se entiende concedida por silencio positivo, y puede empezar a emitir",
+   "sigue en plazo, porque la Administración dispone de seis meses",
+   "le permite emitir provisionalmente con un distintivo temporal hasta que se resuelva",
+   "se entiende desestimada, porque el plazo para resolver es de seis semanas y el silencio es desestimatorio"
+  ],
+  "clave": "d",
+  "sol": "La Administración tiene seis semanas para resolver y notificar, y el silencio es desestimatorio: pasado ese plazo sin resolución, la solicitud se entiende denegada. El silencio nunca le permite emitir, y los seis meses no son el plazo de este procedimiento.",
+  "fuente": "chapters/r08.typ:30",
+  "angulo": "caso práctico: efecto del silencio una vez vencido el plazo"
+ },
+ {
+  "kid": "K-R8-19-1",
+  "cid": "R8-19",
+  "enunciado": "Te notifican hoy una resolución de la SETSI que deniega tu autorización de radioaficionado. Según el artículo 4 de la Orden IET/1311/2013, puedes:",
+  "opciones": [
+   "interponer recurso de alzada ante el Ministro en el plazo de seis semanas",
+   "acudir únicamente al Tribunal Superior de Justicia de tu comunidad autónoma, en el plazo de un mes",
+   "interponer recurso potestativo de reposición en un mes o acudir directamente a la Audiencia Nacional en dos meses, pero no ambos a la vez",
+   "interponer obligatoriamente recurso de reposición en dos meses antes de acudir a los tribunales"
+  ],
+  "clave": "c",
+  "sol": "Estas resoluciones agotan la vía administrativa: cabe recurso potestativo de reposición ante el mismo órgano en un mes, o recurso contencioso directo ante la Audiencia Nacional en dos meses, contados desde el día siguiente a la notificación, y no simultáneamente. La reposición es potestativa, no obligatoria, y su plazo es de un mes. Las seis semanas son el plazo para resolver, no para recurrir.",
+  "fuente": "chapters/ap-c3.typ:166",
+  "angulo": "caso práctico que reúne las dos vías y sus plazos frente a errores de órgano y plazo"
+ },
+ {
+  "kid": "K-R8-20-1",
+  "cid": "R8-20",
+  "enunciado": "Respecto de la presentación de la solicitud de autorización de radioaficionado, es correcto que:",
+  "opciones": [
+   "solo se admite por medios electrónicos: la presentada en la Jefatura Provincial se inadmite",
+   "puede presentarse en la Jefatura Provincial, aunque la vía preferente es la sede electrónica del Ministerio, con el modelo oficial",
+   "se presenta en el ayuntamiento del domicilio, que la remite a la SETSI",
+   "se entrega al tribunal en el mismo acto del examen"
+  ],
+  "clave": "b",
+  "sol": "El art. 6 admite presentarla en las Jefaturas Provinciales o en los demás registros que permite la ley, pero señala como preferente la vía electrónica, en la sede del Ministerio y con el modelo oficial. Preferente no significa exclusiva, así que no se inadmite la presentada en papel. Ni el ayuntamiento ni el tribunal de examen intervienen en este trámite.",
+  "fuente": "chapters/ap-c3.typ:238",
+  "angulo": "otra consecuencia: preferente no es exclusiva; distractores sobre el lugar de presentación"
+ },
+ {
+  "kid": "K-R8-21-1",
+  "cid": "R8-21",
+  "enunciado": "La solicitud de autorización de radioaficionado va acompañada del resguardo de abono de una tasa de tramitación. Esa tasa la establece:",
+  "opciones": [
+   "el anexo I de la Orden IET/1311/2013",
+   "el Real Decreto 2623/1986",
+   "la Ley General de Telecomunicaciones",
+   "cada comunidad autónoma para su territorio"
+  ],
+  "clave": "c",
+  "sol": "El art. 6 de la Orden exige acompañar la solicitud del resguardo de la tasa de tramitación «establecida en la Ley General de Telecomunicaciones»: el Reglamento de aficionados no fija tasas, se remite a la ley. El anexo I trata de bandas y características técnicas, y el Real Decreto 2623/1986, de antenas.",
+  "fuente": "chapters/ap-c3.typ:244",
+  "angulo": "otra consecuencia del mismo hecho: de qué norma procede la tasa cuyo resguardo se exige"
+ },
+ {
+  "kid": "K-R8-22-1",
+  "cid": "R8-22",
+  "enunciado": "Una niña de 11 años supera la prueba de capacitación. Para que obtenga su autorización de radioaficionado:",
+  "opciones": [
+   "debe esperar a cumplir 14 años, edad mínima para ser titular",
+   "la autorización se expide a nombre de uno de sus padres hasta su mayoría de edad",
+   "basta con que sus padres o tutores aporten un escrito fehaciente asumiendo las responsabilidades",
+   "solo podrá emitir bajo el distintivo de un radioaficionado adulto"
+  ],
+  "clave": "c",
+  "sol": "No hay edad mínima ni para examinarse ni para ser titular: el menor obtiene su propia autorización si sus padres o tutores lo autorizan de forma fehaciente y asumen las responsabilidades. La autorización es suya, con su propio distintivo, no de sus padres. Los 14 o 16 años son un error típico.",
+  "fuente": "chapters/r08.typ:222",
+  "angulo": "caso práctico con una edad concreta"
+ },
+ {
+  "kid": "K-R8-23-1",
+  "cid": "R8-23",
+  "enunciado": "Un radioaficionado de Galicia quiere que su autorización figure en castellano y en gallego. ¿Qué debe hacer?",
+  "opciones": [
+   "Nada: en las comunidades con lengua cooficial se expide siempre en formato bilingüe",
+   "Nada, porque no es posible: la autorización se expide solo en castellano",
+   "Solicitarlo: la autorización se expide en formato bilingüe cuando lo pide el interesado",
+   "Pedir a la comunidad autónoma una traducción oficial, que sustituye a la autorización"
+  ],
+  "clave": "c",
+  "sol": "En las comunidades con lengua cooficial, la autorización se expide en formato bilingüe si el interesado lo solicita. No es automático, así que hay que pedirlo; y tampoco está prohibido. Una traducción autonómica no sustituye a la autorización, que la expide la Administración del Estado.",
+  "fuente": "chapters/r08.typ:398",
+  "angulo": "caso práctico: qué hacer para obtenerla (no es automática)"
+ },
+ {
+  "kid": "K-R8-24-1",
+  "cid": "R8-24",
+  "enunciado": "Un radioaficionado se da de baja en la asociación a la que pertenecía. ¿Qué efecto tiene sobre su autorización?",
+  "opciones": [
+   "La autorización se extingue automáticamente",
+   "La autorización queda suspendida hasta que ingrese en otra asociación reconocida",
+   "Ninguno: pertenecer a una asociación de radioaficionados es voluntario",
+   "Conserva la autorización, pero pierde el acceso a los repetidores, reservados a los socios"
+  ],
+  "clave": "c",
+  "sol": "No existe obligación de pertenecer a ninguna asociación, así que la baja no afecta a la autorización. La extinción automática es por fallecimiento del titular o por extinción de la asociación titular de la autorización, no por dejar de ser socio. Y el acceso a los repetidores es libre.",
+  "fuente": "chapters/ap-c3.typ:252",
+  "angulo": "caso práctico: consecuencia de darse de baja"
+ },
+ {
+  "kid": "K-R8-25-1",
+  "cid": "R8-25",
+  "enunciado": "Un radioaficionado solo opera con un equipo portátil y con una estación móvil en el coche: no tiene estación fija. ¿Cumple la normativa?",
+  "opciones": [
+   "No: debe instalar una estación fija en el año siguiente a obtener la autorización",
+   "Sí: disponer de estación fija no es obligatorio",
+   "No: no tener estación fija es causa de revocación de la autorización",
+   "Solo si sus equipos figuran en la licencia de una estación fija de otro titular"
+  ],
+  "clave": "b",
+  "sol": "No hay obligación de tener estación fija, y no tenerla no es causa de revocación (las causas son, por ejemplo, los fines comerciales o lucrativos). La licencia de estación solo la necesita la estación fija; las móviles y portátiles no la requieren.",
+  "fuente": "cheatsheet.typ:1093",
+  "angulo": "caso práctico: un aficionado sin estación fija"
+ },
+ {
+  "kid": "K-R8-26-1",
+  "cid": "R8-26",
+  "enunciado": "¿Cuál de estas situaciones NO es posible según la reglamentación vigente?",
+  "opciones": [
+   "Tener autorización y distintivo de llamada sin tener licencia de estación",
+   "Tener licencia de estación fija sin ser titular de una autorización de radioaficionado",
+   "Operar una estación móvil sin licencia de estación",
+   "Tener una única licencia de estación fija que ampare varios equipos"
+  ],
+  "clave": "b",
+  "sol": "La licencia de estación fija está asociada a la autorización de su titular, así que sin autorización no puede haber licencia. Lo contrario sí es posible: se puede tener distintivo sin licencia, porque la licencia solo la necesita la estación fija. Las móviles y portátiles no requieren licencia, y una misma licencia puede amparar varios equipos.",
+  "fuente": "chapters/ap-b2.typ:679",
+  "angulo": "inversión: buscar la situación imposible (licencia sin autorización)"
+ },
+ {
+  "kid": "K-R8-27-1",
+  "cid": "R8-27",
+  "enunciado": "Un radio club, asociación titular de una autorización de radioaficionado, se disuelve y se extingue. ¿Qué ocurre con esa autorización?",
+  "opciones": [
+   "Pasa al presidente del club como autorización personal",
+   "Se extingue automáticamente",
+   "Sigue vigente hasta que la SETSI tramite un expediente de revocación",
+   "Se mantiene mientras siga en vigor el seguro de antenas de la estación"
+  ],
+  "clave": "b",
+  "sol": "El art. 8.2 prevé dos casos de extinción automática: el fallecimiento del titular y la extinción de la asociación titular de la autorización. No hace falta expediente, que es lo propio de la revocación (art. 8.1). La autorización es intransferible, así que no pasa a ningún miembro.",
+  "fuente": "chapters/ap-c3.typ:254",
+  "angulo": "caso práctico con el supuesto menos preguntado (asociación extinguida)"
+ },
+ {
+  "kid": "K-R8-28-1",
+  "cid": "R8-28",
+  "enunciado": "Señala cuál de estas consecuencias NO se deriva de la revocación de la autorización de radioaficionado:",
+  "opciones": [
+   "La cancelación de la licencia de estación fija asociada",
+   "La baja del distintivo de llamada",
+   "La pérdida del certificado HAREC",
+   "La prohibición de emitir hasta obtener una nueva autorización"
+  ],
+  "clave": "c",
+  "sol": "Revocada la autorización, no se puede emitir, se da de baja el distintivo asociado y se cancela la licencia de estación fija (art. 21.1.b). El HAREC, en cambio, acredita haber superado un examen y no caduca: no se pierde con la revocación, que afecta a la autorización y a lo que depende de ella.",
+  "fuente": "chapters/ap-b2.typ:535",
+  "angulo": "inversión: localizar lo que no arrastra la revocación"
+ },
+ {
+  "kid": "K-R8-30-1",
+  "cid": "R8-30",
+  "enunciado": "Juan, titular de la estación EA1XXX, invita a su amiga Ana, titular del distintivo EA4YYY, a operar en su estación fija. Según el criterio del banco de examen, Ana:",
+  "opciones": [
+   "puede emitir con el permiso de Juan, identificándose con su propio distintivo, EA4YYY",
+   "puede emitir identificándose con el distintivo EA1XXX, porque la estación es de Juan",
+   "no puede emitir: una estación solo puede usarla su titular",
+   "debe pedir antes a la Jefatura Provincial un distintivo temporal"
+  ],
+  "clave": "a",
+  "sol": "El distintivo identifica a su titular, es decir, al operador, no al equipo: Ana se identifica con el suyo. Lo que necesita es el consentimiento de Juan, que responde de su estación. Usar el distintivo de otro es precisamente lo que no se permite.",
+  "fuente": "chapters/r08.typ:476",
+  "angulo": "caso práctico con dos operadores y sus distintivos"
+ },
+ {
+  "kid": "K-R8-31-1",
+  "cid": "R8-31",
+  "enunciado": "Llevas un rato en una frecuencia y llega otra estación que también quiere usarla. ¿Qué establece la normativa?",
+  "opciones": [
+   "Ninguna de las dos tiene derecho preferente sobre esa frecuencia: el uso es compartido y se resuelve con cortesía",
+   "Tiene prioridad la estación que emita con mayor potencia",
+   "Tiene prioridad la estación de una asociación sobre la de un particular",
+   "Tiene prioridad la estación cuyo distintivo tenga el sufijo más corto"
+  ],
+  "clave": "a",
+  "sol": "Ninguna estación de aficionado tiene derecho preferente sobre una frecuencia: el espectro es dominio público y su uso, compartido. Ni la potencia, ni la titularidad colectiva, ni el tipo de distintivo dan prioridad. La única regla practicable es la cortesía: preguntar si está ocupada y apartarse si lo está.",
+  "fuente": "chapters/r08.typ:494",
+  "angulo": "caso práctico con distractores nuevos (potencia, titularidad, sufijo)"
+ },
+ {
+  "kid": "K-R8-32-1",
+  "cid": "R8-32",
+  "enunciado": "Un inspector de la Jefatura Provincial se presenta para comprobar una estación de aficionado sin que exista ninguna denuncia, y el titular se niega a dejarle pasar. Esa negativa:",
+  "opciones": [
+   "es una infracción leve, porque no ha causado interferencias",
+   "es una infracción grave, porque las estaciones están sometidas siempre a la inspección",
+   "es una infracción muy grave, castigada con multa de hasta 20 millones de euros",
+   "no es infracción: la inspección solo alcanza a las estaciones fijas con licencia"
+  ],
+  "clave": "b",
+  "sol": "La sujeción a la inspección es permanente y forma parte de las condiciones de la autorización, con o sin denuncia. Negarse a la inspección u obstruirla es infracción grave (art. 107 de la Ley 11/2022). Las muy graves son, por ejemplo, interferir deliberadamente o no atender el requerimiento de cese.",
+  "fuente": "chapters/r08.typ:410",
+  "angulo": "otra consecuencia del mismo hecho: qué supone negarse a la inspección"
+ },
+ {
+  "kid": "K-R8-33-1",
+  "cid": "R8-33",
+  "enunciado": "Has construido tu propio transmisor para la banda de 40 m. Antes de usarlo en tu estación:",
+  "opciones": [
+   "no necesitas autorización previa de la Administración, pero respondes de que cumpla las características técnicas del anexo I",
+   "debes obtener su marcado CE mediante un laboratorio acreditado",
+   "debes presentarlo en la Jefatura Provincial y esperar a que lo autorice",
+   "solo podrás usarlo con una potencia máxima de 10 W"
+  ],
+  "clave": "a",
+  "sol": "Los equipos de construcción propia se usan sin autorización previa, bajo la responsabilidad del radioaficionado, y deben cumplir el anexo I; si interfieren por funcionar mal, el titular queda sometido al régimen sancionador. Presentarlos en la Jefatura es solo optativo. El laboratorio acreditado es la vía de ciertos equipos comerciales de segunda mano, no de los caseros.",
+  "fuente": "chapters/ap-c3.typ:214",
+  "angulo": "caso práctico: qué trámite exige un equipo casero"
+ },
+ {
+  "kid": "K-R8-34-1",
+  "cid": "R8-34",
+  "enunciado": "Presentas tu equipo de construcción propia en la Jefatura Provincial con su memoria descriptiva y supera las pruebas de comprobación. ¿Qué obtienes?",
+  "opciones": [
+   "Una autorización individual que acredita su correcto funcionamiento",
+   "El marcado CE, que te permite además comercializarlo",
+   "La licencia de estación fija de tu domicilio",
+   "Una autorización especial experimental de 18 meses"
+  ],
+  "clave": "a",
+  "sol": "El art. 5.6 permite presentar optativamente el equipo casero en la Jefatura con una memoria (diagrama de bloques, esquemas y descripción del funcionamiento). Si supera las pruebas, recibe una autorización individual acreditativa de su correcto funcionamiento. No equivale al marcado CE ni a la licencia de estación, y nada tiene que ver con las autorizaciones experimentales.",
+  "fuente": "chapters/ap-c3.typ:214",
+  "angulo": "otra consecuencia: qué se obtiene con la presentación optativa"
+ },
+ {
+  "kid": "K-R8-35-1",
+  "cid": "R8-35",
+  "enunciado": "Compras de segunda mano un transceptor comercializado por primera vez en 2010, que nunca estuvo legalizado en una licencia de estación. ¿Qué legislación sobre su comercialización (marcado CE, etc.) debe cumplir?",
+  "opciones": [
+   "La vigente hoy, porque al cambiar de dueño se trata como un equipo nuevo",
+   "Ninguna: los equipos de segunda mano están exentos",
+   "La que le era aplicable en 2010, cuando se comercializó inicialmente",
+   "Debe certificarse por un laboratorio acreditado el cumplimiento del anexo I"
+  ],
+  "clave": "c",
+  "sol": "El art. 5.5 exige a los equipos comprados en el mercado la legislación que les era aplicable en el momento de su comercialización inicial; cambiar de dueño no cambia esa fecha. La certificación por laboratorio acreditado es la vía de los equipos de segunda mano anteriores al Real Decreto 1890/2000 que carecen de certificado, y este es de 2010. Los ya legalizados en una licencia siguen la norma de su autorización inicial.",
+  "fuente": "chapters/ap-c3.typ:190",
+  "angulo": "caso práctico con fechas que separa la regla general de las especiales"
+ },
+ {
+  "kid": "K-R8-36-1",
+  "cid": "R8-36",
+  "enunciado": "La vía de acreditar el cumplimiento de las características técnicas del anexo I mediante un laboratorio acreditado está prevista para:",
+  "opciones": [
+   "todos los equipos de construcción propia, antes de su primer uso",
+   "los equipos comerciales nuevos con marcado CE, al incluirlos en la licencia",
+   "los equipos de segunda mano comercializados antes del Real Decreto 1890/2000 que carecen del certificado de aceptación radioeléctrica",
+   "los equipos de las estaciones automáticas desatendidas"
+  ],
+  "clave": "c",
+  "sol": "El segundo párrafo del art. 5.5 exige a esos equipos de segunda mano el certificado de aceptación de su época o, si no lo tienen, el cumplimiento del anexo I certificado por un laboratorio acreditado. Los equipos caseros se usan sin autorización previa, con presentación optativa en la Jefatura, y los nuevos con marcado CE ya cumplen la legislación de su comercialización.",
+  "fuente": "chapters/ap-c3.typ:198",
+  "angulo": "dato al revés: del remedio al supuesto al que se aplica"
+ },
+ {
+  "kid": "K-R8-37-1",
+  "cid": "R8-37",
+  "enunciado": "Sobre cómo debe construirse una estación de aficionado, la normativa vigente:",
+  "opciones": [
+   "exige que todos los equipos sean de fabricación industrial con marcado CE",
+   "no impone una tecnología ni un modelo: exige cumplir las características técnicas del anexo I, según el estado de la técnica",
+   "exige que todos los equipos se presenten en la Jefatura para su homologación individual",
+   "exige transceptores capaces de operar en modos digitales"
+  ],
+  "clave": "b",
+  "sol": "La estación debe construirse con arreglo al estado de la técnica: el equipo puede ser comercial o casero, de válvulas o de transistores, siempre que cumpla el anexo I (emisiones no esenciales limitadas, filtros, medios para comprobar banda y potencia). Exigir solo equipos industriales contradice la libertad de construcción propia, y la presentación en la Jefatura es optativa.",
+  "fuente": "chapters/ap-b2.typ:639",
+  "angulo": "otra formulación del principio con distractores nuevos (marcado CE, homologación, modos digitales)"
+ },
+ {
+  "kid": "K-R8-38-1",
+  "cid": "R8-38",
+  "enunciado": "Durante una inspección, ¿qué debes poder comprobar con los medios de tu propia estación, según el anexo I de la Orden?",
+  "opciones": [
+   "Que la relación de ondas estacionarias de la antena es inferior a 1,5",
+   "Que la ganancia de tu antena no supera los 6 dBd",
+   "Que la emisión se produce dentro de la banda autorizada y, de forma indicativa, qué potencia emites",
+   "Que todos tus equipos llevan marcado CE"
+  ],
+  "clave": "c",
+  "sol": "El apartado 4.5 del anexo I exige elementos para comprobar que la emisión está dentro de las bandas autorizadas y para medir de forma indicativa la potencia. No se exige medidor de ondas estacionarias. El límite de 6 dBd es de las estaciones desatendidas, y los equipos de construcción propia no llevan marcado CE.",
+  "fuente": "chapters/r08.typ:572",
+  "angulo": "caso práctico: qué hay que poder medir, con distractores de otras normas"
+ },
+ {
+  "kid": "K-R8-39-1",
+  "cid": "R8-39",
+  "enunciado": "Mantienes un comunicado local en 2 m con una estación que te recibe perfectamente con 5 W, y tu equipo puede dar 50 W. Según el anexo I de la Orden IET/1311/2013:",
+  "opciones": [
+   "puedes emitir siempre con la potencia máxima autorizada en la banda",
+   "solo debes reducir la potencia si alguien te comunica una interferencia",
+   "debes emitir con la potencia estrictamente necesaria y limitar también la duración de las emisiones",
+   "la limitación a lo estrictamente necesario solo rige en las bandas de HF"
+  ],
+  "clave": "c",
+  "sol": "El apartado 4.2 del anexo I obliga a limitar a lo estrictamente necesario tanto la potencia, dentro de los máximos de cada banda, como la duración de las emisiones. El máximo de la banda es un techo, no el valor de uso. La regla rige siempre y en todas las bandas, sin esperar a que haya una queja.",
+  "fuente": "chapters/ap-c3.typ:18",
+  "angulo": "caso práctico con potencias concretas"
+ },
+ {
+  "kid": "K-R8-40-1",
+  "cid": "R8-40",
+  "enunciado": "Fallece el titular de una estación fija de aficionado. Como la licencia de estación está asociada a su autorización, esa licencia:",
+  "opciones": [
+   "pasa a sus herederos junto con los equipos",
+   "se cancela, porque la autorización a la que está asociada se extingue con el fallecimiento",
+   "sigue vigente hasta que venza el seguro de antenas",
+   "pasa a la asociación de radioaficionados de la provincia"
+  ],
+  "clave": "b",
+  "sol": "La licencia de estación fija se considera asociada a la autorización de radioaficionado de su titular (art. 18.1), y se cancela por revocación o extinción de esa autorización (art. 21.1.b). El fallecimiento extingue automáticamente la autorización, y con ella cae la licencia. Ni la autorización ni la licencia se transmiten a herederos ni a asociaciones.",
+  "fuente": "chapters/ap-b2.typ:679",
+  "angulo": "consecuencia de la asociación licencia-autorización en un caso concreto"
+ },
+ {
+  "kid": "K-R8-41-1",
+  "cid": "R8-41",
+  "enunciado": "Una estación instalada en una caseta de montaña, con antenas permanentes y que emite siempre desde ese mismo lugar, es una estación:",
+  "opciones": [
+   "fija, que precisa licencia en la que conste esa ubicación",
+   "portable, porque no está en el domicilio del titular",
+   "móvil, porque no está instalada en un edificio urbano",
+   "portátil, porque está alejada de la red eléctrica"
+  ],
+  "clave": "a",
+  "sol": "La estación fija es la que emite desde una ubicación fija determinada, que se consigna en su licencia; da igual que no sea el domicilio. Portable es la fija usada temporalmente en otro lugar, móvil la que opera en movimiento o parada en un punto no determinado, y portátil la que lleva antena y fuente de alimentación incorporadas.",
+  "fuente": "chapters/ap-b2.typ:663",
+  "angulo": "caso práctico de clasificación a partir de la definición"
+ },
+ {
+  "kid": "K-R8-42-1",
+  "cid": "R8-42",
+  "enunciado": "Presentas la solicitud de licencia de estación fija con la memoria descriptiva de la instalación y la Administración la encuentra conforme. ¿Qué te permite eso?",
+  "opciones": [
+   "Empezar a emitir con carácter provisional desde la estación",
+   "Montar la instalación; la licencia se expedirá después, cuando comuniques el fin del montaje",
+   "Considerar concedida la licencia de estación fija",
+   "Instalar la antena sin que se informe a la comunidad de propietarios"
+  ],
+  "clave": "b",
+  "sol": "La memoria descriptiva se presenta con la solicitud para su aprobación: si es conforme, se autoriza el montaje. La licencia llega al final, tras comunicar el fin de la instalación con la documentación, y solo entonces se puede emitir. Además, aceptada la memoria, la Administración informa a la comunidad de propietarios.",
+  "fuente": "chapters/ap-b2.typ:439",
+  "angulo": "efecto de la memoria dentro del procedimiento"
+ },
+ {
+  "kid": "K-R8-43-1",
+  "cid": "R8-43",
+  "enunciado": "¿Cuál de estos datos forma parte de la memoria técnica que acompaña a la solicitud de licencia de estación fija?",
+  "opciones": [
+   "La relación de equipos radioeléctricos con su marca, modelo y número de serie",
+   "El certificado de empadronamiento del solicitante",
+   "El acta de la junta de propietarios que aprueba la instalación",
+   "El original del certificado HAREC del solicitante"
+  ],
+  "clave": "a",
+  "sol": "La memoria describe la instalación: relación de equipos con marca, modelo y número de serie, antenas y soportes, toma de tierra y plano de ubicación. Son datos de la estación, no del solicitante, por eso no incluye el empadronamiento ni el HAREC. La comunidad no aprueba la instalación: solo puede alegar.",
+  "fuente": "chapters/ap-b2.typ:399",
+  "angulo": "inversión: buscar lo que sí incluye, con distractores nuevos"
+ },
+ {
+  "kid": "K-R8-44-1",
+  "cid": "R8-44",
+  "enunciado": "¿En qué momento puedes empezar a emitir desde tu nueva estación fija?",
+  "opciones": [
+   "Cuando la Jefatura expide la licencia, después de que hayas comunicado el fin del montaje con la documentación requerida",
+   "En cuanto termina el montaje, aunque aún no lo hayas comunicado",
+   "En cuanto se autoriza el montaje de la instalación",
+   "En cuanto vence el plazo de dos meses de la comunidad de propietarios para alegar"
+  ],
+  "clave": "a",
+  "sol": "La licencia se expide al final: terminado el montaje, se comunica a la Jefatura con el justificante del seguro y, en su caso, el boletín del instalador, y la Jefatura verifica y expide la licencia, que es lo que habilita para emitir. Autorizar el montaje solo permite instalar, y el plazo de la comunidad es un trámite intermedio.",
+  "fuente": "chapters/ap-b2.typ:447",
+  "angulo": "caso práctico: cuándo se puede emitir"
+ },
+ {
+  "kid": "K-R8-45-1",
+  "cid": "R8-45",
+  "enunciado": "Según el artículo 20 de la Orden IET/1311/2013, ¿qué plazo tienes para comunicar a la Jefatura que has terminado la instalación de tu estación fija, y de cuánto dispone después la Jefatura para expedir la licencia?",
+  "opciones": [
+   "30 días para comunicarlo; la Jefatura, como máximo 6 semanas",
+   "6 semanas para comunicarlo; la Jefatura, como máximo 60 días",
+   "15 días para comunicarlo; la Jefatura, como máximo 30 días",
+   "6 semanas para comunicarlo; la Jefatura, como máximo 30 días"
+  ],
+  "clave": "d",
+  "sol": "El titular comunica el fin de la instalación en 6 semanas, con el justificante del seguro y, en su caso, el boletín del instalador; la Jefatura tiene después 30 días como máximo para verificar, inspeccionar si lo estima conveniente y expedir la licencia. Los 60 días son el límite de las modificaciones experimentales y los 15 días, el de los usos portables sin notificación.",
+  "fuente": "chapters/ap-c3.typ:430",
+  "angulo": "las dos cifras juntas, con su intercambio como distractor"
+ },
+ {
+  "kid": "K-R8-46-1",
+  "cid": "R8-46",
+  "enunciado": "¿Quién puede autorizar que el propio radioaficionado monte el sistema radiante de su estación fija, sin instalador?",
+  "opciones": [
+   "La junta de la comunidad de propietarios, por mayoría simple",
+   "La empresa instaladora, delegando el montaje por escrito",
+   "El propio radioaficionado decide, si tiene el certificado HAREC",
+   "El Jefe Provincial de Inspección de Telecomunicaciones, a la vista de la memoria, si la instalación es tan sencilla que no presenta riesgos"
+  ],
+  "clave": "d",
+  "sol": "La regla general es el montaje por un instalador de telecomunicaciones inscrito en el registro. La excepción la concede el Jefe Provincial cuando, vista la memoria técnica, la instalación es tan simple que no presenta razonablemente riesgos para personas o bienes (art. 19.e). Ni la comunidad ni el instalador pueden concederla, y el HAREC no habilita para montar instalaciones.",
+  "fuente": "chapters/ap-b2.typ:487",
+  "angulo": "quién concede la excepción y con qué criterio"
+ },
+ {
+  "kid": "K-R8-47-1",
+  "cid": "R8-47",
+  "enunciado": "Con la licencia de estación fija ya concedida, sustituyes de forma definitiva tu transceptor por otro modelo, sin tocar la antena. ¿Qué debes hacer?",
+  "opciones": [
+   "Solicitarlo a la SETSI como si fuera una primera instalación",
+   "Nada: los cambios de equipos no se comunican nunca",
+   "Pedir una autorización especial para usos experimentales",
+   "Remitir a la SETSI la documentación complementaria que recoja la modificación"
+  ],
+  "clave": "d",
+  "sol": "Las modificaciones permanentes de instalaciones y equipos se comunican remitiendo a la SETSI la documentación complementaria con los cambios. Solo el cambio de ubicación de la antena se tramita como una primera instalación, y aquí la antena no se mueve. La autorización especial es para emisiones con características distintas de las del Reglamento, no para cambiar de equipo.",
+  "fuente": "chapters/ap-b2.typ:471",
+  "angulo": "contraste: modificación permanente sin mover la antena"
+ },
+ {
+  "kid": "K-R8-48-1",
+  "cid": "R8-48",
+  "enunciado": "Con la licencia de estación fija concedida, quieres probar durante unas semanas otra antena en el mismo mástil, sin afectar a la seguridad, antes de decidir si la dejas. Según el artículo 20:",
+  "opciones": [
+   "necesitas una autorización especial experimental solicitada con un mes de antelación",
+   "debes tramitarlo como si fuera una primera instalación",
+   "puedes hacerlo con carácter experimental durante un máximo de 60 días; si la dejas, remites la documentación",
+   "puedes mantenerla indefinidamente sin comunicar nada mientras no interfiera"
+  ],
+  "clave": "c",
+  "sol": "Con la licencia concedida, cualquier modificación de instalaciones y equipos puede hacerse con carácter experimental hasta 60 días, siempre que no afecte a la seguridad; si se vuelve permanente, se remite la documentación complementaria. La primera instalación solo se exige si cambia la ubicación de la antena, y la autorización especial experimental es para emitir con características distintas de las generales.",
+  "fuente": "chapters/ap-c3.typ:446",
+  "angulo": "caso práctico que distingue la prueba de 60 días de la autorización experimental"
+ },
+ {
+  "kid": "K-R8-49-1",
+  "cid": "R8-49",
+  "enunciado": "Un radioaficionado piensa contratar el seguro de responsabilidad civil de su antena cuando le hayan expedido la licencia de estación fija, para no pagarlo antes de tiempo. ¿Es correcto?",
+  "opciones": [
+   "No: el seguro debe estar formalizado antes de expedirse la licencia, y se justifica al comunicar el fin de la instalación",
+   "Sí: el seguro solo se exige una vez concedida la licencia",
+   "Sí, siempre que lo contrate en el mes siguiente a la expedición de la licencia",
+   "No: debe contratarlo al solicitar la autorización de radioaficionado"
+  ],
+  "clave": "a",
+  "sol": "El seguro se formaliza una vez autorizado el montaje y, en todo caso, antes de expedirse la licencia; por eso se presenta su justificante al comunicar el fin de la instalación. No es un trámite de la autorización de radioaficionado, que es personal, sino de la estación fija. Sin seguro vigente, la licencia se cancela.",
+  "fuente": "chapters/ap-b2.typ:377",
+  "angulo": "caso práctico: el error de calendario"
+ },
+ {
+  "kid": "K-R8-50-1",
+  "cid": "R8-50",
+  "enunciado": "Según el Real Decreto 2623/1986, ¿qué documento debe entregar el titular de una antena de aficionado al presidente de la comunidad de propietarios de su edificio?",
+  "opciones": [
+   "Copia de su certificado HAREC",
+   "La memoria técnica completa con los esquemas de sus equipos",
+   "El registro de los comunicados realizados desde la estación",
+   "Copia del contrato del seguro de responsabilidad civil de la antena y de sus actualizaciones"
+  ],
+  "clave": "d",
+  "sol": "El art. 20.3 exige que el contrato de seguro incluya una cláusula que exprese que cumple el art. 2 de la Ley 19/1983 y que se entregue copia de él, y de sus actualizaciones, a la propiedad del inmueble o, en propiedad horizontal, al presidente de la comunidad. Es lo que protege a la comunidad frente a los daños de la antena. Los demás documentos no se entregan a la comunidad.",
+  "fuente": "chapters/ap-c3.typ:74",
+  "angulo": "dato al revés: del destinatario al documento"
+ },
+ {
+  "kid": "K-R8-51-1",
+  "cid": "R8-51",
+  "enunciado": "Un radioaficionado pide voluntariamente la cancelación de la licencia de su estación fija porque solo va a operar en móvil. ¿Qué debe hacer con las antenas del tejado?",
+  "opciones": [
+   "Puede dejarlas instaladas mientras mantenga el seguro de responsabilidad civil",
+   "Debe desmontarlas la comunidad de propietarios, a su costa",
+   "Desmontarlas, con todos los gastos a su cargo",
+   "Puede dejarlas si la Jefatura lo autoriza en el plazo de 30 días"
+  ],
+  "clave": "c",
+  "sol": "La licencia se cancela a petición del titular, por revocación o extinción de la autorización o por falta de seguro; cancelada por cualquier causa, el titular debe desmontar las instalaciones, antenas incluidas, con todos los gastos a su cargo (art. 21.2). Mantener el seguro no le da derecho a conservar la antena sin licencia. Los bancos antiguos daban como clave mantener el sistema solo para recepción con permiso de la propiedad: era la orden derogada.",
+  "fuente": "chapters/ap-b2.typ:535",
+  "angulo": "otra causa de cancelación (a petición) con la misma consecuencia"
+ },
+ {
+  "kid": "K-R8-52-1",
+  "cid": "R8-52",
+  "enunciado": "Un radioaficionado sostiene que, una vez expedida la licencia de su estación fija, ya no debe preocuparse por las servidumbres aeronáuticas ni por la normativa medioambiental. ¿Es correcto?",
+  "opciones": [
+   "No: la licencia queda condicionada en todo caso a esas normas y a no perturbar otros servicios autorizados",
+   "Sí: la licencia sustituye a cualquier otro permiso",
+   "Sí, salvo que la comunidad de propietarios alegue en el plazo de dos meses",
+   "No, pero solo durante el primer año de vigencia de la licencia"
+  ],
+  "clave": "a",
+  "sol": "El art. 18.3 condiciona la licencia, en cualquier caso, a la ausencia de perturbaciones a otros servicios autorizados y al cumplimiento de las normas de seguridad nacional, servidumbres radioeléctricas o aeronáuticas, medio ambiente y ordenación del territorio. La condición es permanente, no del primer año, y la licencia no sustituye a esos otros permisos. Las alegaciones de la comunidad versan sobre la idoneidad del emplazamiento, no sobre estas materias.",
+  "fuente": "chapters/ap-c3.typ:350",
+  "angulo": "caso práctico: la condición sigue vigente tras la expedición"
+ },
+ {
+  "kid": "K-R8-53-1",
+  "cid": "R8-53",
+  "enunciado": "Para tu estación fija, situada cerca de un aeródromo, hace falta un permiso en materia de servidumbres aeronáuticas. Según el artículo 18.3 de la Orden IET/1311/2013:",
+  "opciones": [
+   "lo obtiene la comunidad de propietarios, como titular de la cubierta del edificio",
+   "debes obtenerlo tú, como solicitante de la licencia, por tu cuenta y a tu cargo",
+   "no hace falta: la licencia de estación fija prevalece sobre las servidumbres",
+   "lo solicita y lo paga la asociación de radioaficionados de la provincia"
+  ],
+  "clave": "b",
+  "sol": "La obtención de los permisos en materia de seguridad nacional, servidumbres, medio ambiente u ordenación del territorio es por cuenta y a cargo de los solicitantes de la licencia. La licencia depende de que se cumplan esas normas, así que no prevalece sobre ellas, y de su cumplimiento responde quien la pide, no la comunidad ni una asociación.",
+  "fuente": "chapters/ap-c3.typ:358",
+  "angulo": "caso práctico con distractores nuevos (comunidad, prevalencia, asociación)"
+ },
+ {
+  "kid": "K-R8-54-1",
+  "cid": "R8-54",
+  "enunciado": "Un radioaficionado vive de alquiler en un piso y quiere instalar su antena en la azotea del edificio. Según la Ley 19/1983, necesita:",
+  "opciones": [
+   "solo su autorización de radioaficionado, que ya le da derecho a instalar antenas",
+   "el acuerdo unánime de la junta de propietarios",
+   "estar legitimado para usar el edificio, en todo o en parte, y obtener la autorización administrativa reglamentaria",
+   "ser propietario de su vivienda: un inquilino no puede instalar antenas"
+  ],
+  "clave": "c",
+  "sol": "El derecho a instalar antenas en el exterior exige dos cosas: legitimación para usar el inmueble (propiedad, alquiler con permiso…) y la autorización administrativa. La autorización de radioaficionado no basta por sí sola, la comunidad no autoriza ni prohíbe, y ser inquilino no excluye el derecho.",
+  "fuente": "chapters/r08.typ:134",
+  "angulo": "caso práctico con un inquilino"
+ },
+ {
+  "kid": "K-R8-55-1",
+  "cid": "R8-55",
+  "enunciado": "En la solicitud para instalar antenas en un edificio en propiedad horizontal, el radioaficionado hace constar la dirección del presidente de la comunidad. ¿Para qué?",
+  "opciones": [
+   "Para que la Administración, aceptada la memoria, informe a la comunidad y esta pueda alegar sobre la idoneidad de la instalación",
+   "Para que el presidente firme la autorización de la instalación",
+   "Para que la comunidad contrate a su nombre el seguro de antenas",
+   "Para que la junta pueda vetar la instalación por mayoría simple"
+  ],
+  "clave": "a",
+  "sol": "La comunidad no autoriza ni prohíbe: la autorización es administrativa. La dirección del presidente sirve para que la Administración, una vez aceptada la memoria, le comunique la solicitud y la comunidad pueda alegar sobre la idoneidad del emplazamiento o los perjuicios. El seguro lo contrata el titular, y la mayoría simple sirve para ejercer los derechos del predio sirviente, no para vetar.",
+  "fuente": "chapters/ap-b2.typ:581",
+  "angulo": "finalidad del trámite, con distractores nuevos"
+ },
+ {
+  "kid": "K-R8-56-1",
+  "cid": "R8-56",
+  "enunciado": "La Administración comunica a la comunidad de propietarios una solicitud para instalar antenas de aficionado en el edificio. ¿De cuánto tiempo dispone la comunidad para alegar, y qué ocurre si no contesta?",
+  "opciones": [
+   "Dos meses; si no contesta, se entiende que se opone",
+   "Seis semanas; si no contesta, la solicitud se desestima",
+   "Dos meses; si no contesta, se entiende que acepta",
+   "Un mes; si no contesta, se entiende que acepta"
+  ],
+  "clave": "c",
+  "sol": "Aceptada la memoria, la Administración informa a la comunidad, que dispone de dos meses para alegar sobre la idoneidad del emplazamiento o los perjuicios; si no lo hace, se entiende que acepta tácitamente. Las seis semanas con silencio desestimatorio son de la resolución de la autorización, y el mes es el aviso previo a las obras.",
+  "fuente": "chapters/ap-b2.typ:581",
+  "angulo": "el plazo junto con el efecto del silencio, con cifras de otros trámites como distractores"
+ },
+ {
+  "kid": "K-R8-57-1",
+  "cid": "R8-57",
+  "enunciado": "Según la Ley 19/1983, la comunidad de propietarios puede ejercer, por mayoría simple, los derechos que el artículo 545 del Código Civil reconoce al dueño del predio sirviente. Esos derechos consisten en:",
+  "opciones": [
+   "prohibir de forma definitiva la instalación de la antena",
+   "exigir al radioaficionado un alquiler anual por el uso de la azotea",
+   "variar a su costa el lugar o la forma de la servidumbre cuando le resulte muy incómoda, ofreciendo otro emplazamiento igualmente cómodo",
+   "obligar al radioaficionado a reducir la potencia de sus emisiones"
+  ],
+  "clave": "c",
+  "sol": "Los derechos del predio sirviente permiten variar, a costa de la comunidad, el lugar o la forma de la servidumbre cuando resulte muy incómoda o impida obras importantes, ofreciendo otro igualmente cómodo y sin perjuicio para el titular. Basta para ello la mayoría simple. No permiten prohibir la antena ni regular las emisiones, que son competencia de la Administración.",
+  "fuente": "chapters/ap-c3.typ:158",
+  "angulo": "otra cara del mismo artículo: qué derechos se ejercen por mayoría simple"
+ },
+ {
+  "kid": "K-R8-58-1",
+  "cid": "R8-58",
+  "enunciado": "La comunidad de propietarios va a rehabilitar la cubierta a partir del 1 de junio y necesita que se desmonte tu antena. Salvo urgencia, ¿cuál es la fecha más tardía en que debe comunicártelo de forma fehaciente?",
+  "opciones": [
+   "El 1 de mayo",
+   "El 17 de mayo",
+   "El 20 de abril",
+   "El 1 de abril"
+  ],
+  "clave": "a",
+  "sol": "La propiedad debe avisar al titular con un mes de antelación, para que desmonte él mismo la instalación o lo presencie: para obras que empiezan el 1 de junio, como tarde el 1 de mayo. El 17 de mayo serían quince días, el 20 de abril seis semanas y el 1 de abril dos meses, cifras de otros trámites.",
+  "fuente": "chapters/ap-c3.typ:606",
+  "angulo": "cálculo con fechas a partir del plazo"
+ },
+ {
+  "kid": "K-R8-59-1",
+  "cid": "R8-59",
+  "enunciado": "Unas obras necesarias en la azotea obligan a desmontar tu antena durante tres meses. Terminadas las obras:",
+  "opciones": [
+   "la comunidad debe indemnizarte por los tres meses sin antena",
+   "debes tramitar de nuevo la instalación como si fuera la primera",
+   "solo puedes reinstalarla si la junta lo aprueba por mayoría simple",
+   "puedes reinstalarla en condiciones similares a las anteriores, sin derecho a indemnización por el desmontaje"
+  ],
+  "clave": "d",
+  "sol": "Si las obras necesarias lo exigen, el titular soporta el desmontaje temporal sin poder reclamar indemnización. Acabadas las obras, la instalación se repone en condiciones similares a las anteriores, sin empezar el expediente de nuevo ni pedir permiso a la junta.",
+  "fuente": "chapters/ap-c3.typ:606",
+  "angulo": "caso práctico que reúne las dos consecuencias (sin indemnización y reinstalación)"
+ },
+ {
+  "kid": "K-R8-60-1",
+  "cid": "R8-60",
+  "enunciado": "Al llegar a casa descubres que la comunidad ha desmontado tu antena por unas obras de indudable urgencia, sin preaviso, y que te lo comunicó en ese mismo momento. Según el Real Decreto 2623/1986, la actuación de la comunidad:",
+  "opciones": [
+   "no es correcta: incluso en caso de urgencia debía avisarte con un mes de antelación",
+   "no es correcta: solo el titular o un instalador inscrito pueden desmontar la antena",
+   "solo es correcta si la junta de propietarios lo había aprobado antes por mayoría simple",
+   "es correcta: en obras de indudable urgencia puede desmontar sin trámites ni plazos, comunicándolo inmediatamente al titular"
+  ],
+  "clave": "d",
+  "sol": "En obras ordinarias la propiedad avisa con un mes de antelación; si son de indudable urgencia, puede desmontar sin esos trámites ni plazos, pero debe comunicarlo inmediatamente al titular (art. 7). La comunidad hizo justo eso. La urgencia exime del plazo, no del aviso.",
+  "fuente": "chapters/ap-c3.typ:606",
+  "angulo": "caso práctico desde el punto de vista del titular: valorar la actuación"
+ },
+ {
+  "kid": "K-R8-61-1",
+  "cid": "R8-61",
+  "enunciado": "Mientras duran unas obras largas en el edificio, quieres seguir emitiendo con una antena provisional compatible con ellas. Según el Real Decreto 2623/1986:",
+  "opciones": [
+   "no cabe: mientras la antena esté desmontada no puedes emitir desde ese inmueble",
+   "puede autorizarla la Administración, si es posible, y sus gastos corren de tu cuenta",
+   "puedes instalarla sin autorización, siempre que la retires al acabar las obras",
+   "puede autorizarla la Administración, pero solo si la comunidad paga la instalación"
+  ],
+  "clave": "b",
+  "sol": "El art. 8 prevé que, mientras las antenas estén desmontadas por las obras y siempre que sea posible, la Administración autorice una instalación provisional compatible con ellas. Los gastos son del titular de la licencia, coherente con que el desmontaje tampoco da derecho a indemnización. Hace falta esa autorización, y la comunidad no paga.",
+  "fuente": "chapters/ap-c3.typ:614",
+  "angulo": "caso práctico con distractores nuevos (prohibición, sin autorización)"
+ },
+ {
+  "kid": "K-R8-62-1",
+  "cid": "R8-62",
+  "enunciado": "Durante unas obras, un operario de la comunidad rompe por descuido el rotor de tu antena; semanas antes, una pieza de tu antena había caído y roto una claraboya del edificio. ¿Quién responde de cada daño?",
+  "opciones": [
+   "De los dos, tú como titular, porque la antena es tuya",
+   "Del rotor, la propiedad del inmueble; de la claraboya, tú como titular",
+   "De los dos, la comunidad, porque ambos ocurren en el edificio",
+   "Del rotor, tú, porque asumes el riesgo durante las obras; de la claraboya, la comunidad"
+  ],
+  "clave": "b",
+  "sol": "Depende de quién causa el daño. Los que causa la antena (instalación, conservación, desmontaje) son del titular, y para eso está su seguro de responsabilidad civil; los que causa la propiedad a la antena, su reparación e indemnización, son de la propiedad (art. 22 del Real Decreto 2623/1986).",
+  "fuente": "chapters/ap-c3.typ:82",
+  "angulo": "caso doble que contrapone las dos reglas"
+ },
+ {
+  "kid": "K-R8-63-1",
+  "cid": "R8-63",
+  "enunciado": "¿Cuál de estas prácticas de instalación de una antena de aficionado incumple el Real Decreto 2623/1986?",
+  "opciones": [
+   "Señalizar los anclajes de las riostras en una azotea transitable",
+   "Emplear riostras de material tratado contra la corrosión",
+   "Situarla tan cerca de la antena colectiva de televisión que degrade su funcionamiento",
+   "Dimensionar los soportes para los esfuerzos de viento previsibles en el lugar"
+  ],
+  "clave": "c",
+  "sol": "La instalación debe respetar las separaciones con los elementos, instalaciones y antenas de otros servicios para que no resulten degradados: perjudicar a la antena colectiva lo incumple. Las otras tres son exigencias del propio Reglamento: señalizar anclajes y riostras en lugares transitables, materiales resistentes a la corrosión o tratados, y elementos capaces de absorber los esfuerzos de uso.",
+  "fuente": "chapters/ap-b2.typ:493",
+  "angulo": "proposición incorrecta con otro elemento como clave (respeto a otras antenas)"
+ },
+ {
+  "kid": "K-R8-64-1",
+  "cid": "R8-64",
+  "enunciado": "En la azotea hay un mástil de pararrayos muy robusto, un poste de una línea eléctrica aérea y un muro de carga. ¿Dónde puedes fijar el soporte de tu antena?",
+  "opciones": [
+   "Al mástil del pararrayos, por ser el elemento más robusto",
+   "Al muro de carga, directamente en puntos aptos o mediante un elemento repartidor de carga",
+   "Al poste de la línea eléctrica, siempre que se usen aisladores",
+   "A cualquiera de los tres, si un instalador inscrito lo certifica"
+  ],
+  "clave": "b",
+  "sol": "El art. 17 prohíbe fijar los soportes de las antenas a soportes o anclajes de pararrayos y de conducciones aéreas de energía eléctrica, por robustos que sean. Se fijan a la obra civil en puntos aptos para los esfuerzos, o con repartidores de carga debidamente dimensionados. Ningún certificado de instalador levanta esa prohibición.",
+  "fuente": "chapters/ap-c3.typ:42",
+  "angulo": "caso práctico de elección del punto de fijación"
+ },
+ {
+  "kid": "K-R8-65-1",
+  "cid": "R8-65",
+  "enunciado": "Un dipolo horizontal sobre una azotea transitable queda, en las peores condiciones previsibles (con el hilo combado), a 2,6 m sobre el suelo de la azotea. Según el Real Decreto 2623/1986:",
+  "opciones": [
+   "cumple, porque el mínimo es de 2 m",
+   "cumple, porque la altura se mide en condiciones normales, no en las peores",
+   "cumple, porque el mínimo de 3 m solo se aplica a las antenas verticales",
+   "no cumple: debe dejar al menos 3 m libres sobre el plano de paso"
+  ],
+  "clave": "d",
+  "sol": "El art. 13.2 exige que, en las peores condiciones ambientales previsibles, la antena deje en todo caso 3 m libres sobre el plano de paso, y lo subraya para las horizontales. Con 2,6 m no se llega. La medida se toma en las peores condiciones, no en las normales.",
+  "fuente": "chapters/ap-c3.typ:26",
+  "angulo": "caso práctico numérico: comprobar si una instalación cumple"
+ },
+ {
+  "kid": "K-R8-66-1",
+  "cid": "R8-66",
+  "enunciado": "Bajas el cable coaxial de tu antena por un patinillo, junto a una tubería del edificio. Según el Real Decreto 2623/1986, el cable debe:",
+  "opciones": [
+   "guardar al menos 10 cm de separación y fijarse a intervalos apropiados",
+   "guardar al menos 10 cm y colgar libremente en vertical para no rozar",
+   "guardar al menos 5 cm y sujetarse a la propia tubería con bridas",
+   "guardar al menos 3 m, como la altura libre sobre el plano de paso"
+  ],
+  "clave": "a",
+  "sol": "Las líneas de transmisión y los cables de alimentación deben distar al menos 10 cm de cualquier conducto o canalización de servicios del edificio (art. 18.1). Además, no se admite su tendido vertical libre: se fijan a intervalos apropiados. Los 3 m son la altura libre sobre el plano de paso, otra regla.",
+  "fuente": "chapters/ap-c3.typ:34",
+  "angulo": "caso práctico que añade la forma de tendido"
+ },
+ {
+  "kid": "K-R8-67-1",
+  "cid": "R8-67",
+  "enunciado": "En una azotea, un mástil sostiene una antena y está sujeto por tres cables tensados que se fijan al pretil con unas argollas atornilladas a la obra. Según la terminología del Real Decreto 2623/1986, los cables y las argollas son, respectivamente:",
+  "opciones": [
+   "anclajes y riostras",
+   "soportes y anclajes",
+   "riostras y soportes",
+   "riostras y anclajes"
+  ],
+  "clave": "d",
+  "sol": "La riostra es el cable o pieza que asegura la estabilidad mecánica de la antena y su soporte; el anclaje es el punto o elemento que la fija a la obra civil del inmueble, repartiendo esfuerzos. El soporte es lo que sustenta la antena, aquí el mástil. Truco: la riostra tira y el anclaje la agarra al edificio.",
+  "fuente": "chapters/ap-b2.typ:551",
+  "angulo": "caso práctico: identificar dos términos a la vez en una instalación descrita"
+ },
+ {
+  "kid": "K-R8-68-1",
+  "cid": "R8-68",
+  "enunciado": "Un radioaficionado quiere probar durante unos meses, con fines experimentales, una potencia superior a la máxima del anexo I en una banda. Según el Reglamento:",
+  "opciones": [
+   "necesita una autorización especial para usos experimentales",
+   "puede hacerlo como modificación experimental de su estación fija durante 60 días",
+   "puede hacerlo sin trámite si avisa a la Jefatura con cinco días de antelación",
+   "puede hacerlo si el equipo es de construcción propia, que no requiere autorización previa"
+  ],
+  "clave": "a",
+  "sol": "Emitir con características técnicas distintas de las generales del Reglamento requiere una autorización especial (art. 17). Los 60 días de modificación experimental de la estación fija no permiten salirse del anexo I, y el aviso de cinco días es del uso portable. Que el equipo sea casero le exime de autorización del equipo, no de respetar las características de las emisiones.",
+  "fuente": "chapters/r08.typ:204",
+  "angulo": "caso práctico con distractores de otras figuras experimentales o sin trámite"
+ },
+ {
+  "kid": "K-R8-69-1",
+  "cid": "R8-69",
+  "enunciado": "Planeas un experimento de unos dos años que requiere autorización especial experimental. ¿Qué debes tener en cuenta?",
+  "opciones": [
+   "Puede concederse directamente por dos años, porque no tiene plazo máximo",
+   "Caduca a los 18 meses y no puede ampliarse",
+   "Con ella pueden emitir también los miembros de tu radio club",
+   "Se otorga con un plazo máximo inicial de 18 meses, ampliable, y solo te habilita a ti"
+  ],
+  "clave": "d",
+  "sol": "Las autorizaciones especiales experimentales son nominativas, solo habilitan a su titular y se otorgan por el tiempo necesario, con un plazo máximo inicial de 18 meses, ampliable; su validez depende además de la de la autorización de radioaficionado. Para dos años, se pide la ampliación. No se extienden a otras personas.",
+  "fuente": "chapters/r08.typ:210",
+  "angulo": "caso práctico con una duración mayor que el plazo inicial"
+ },
+ {
+  "kid": "K-R8-70-1",
+  "cid": "R8-70",
+  "enunciado": "Quieres empezar el 15 de septiembre unas emisiones que requieren autorización especial experimental. ¿Cuál es la fecha más tardía para presentar la solicitud?",
+  "opciones": [
+   "El 10 de septiembre",
+   "El 15 de agosto",
+   "El 4 de agosto",
+   "El 15 de julio"
+  ],
+  "clave": "b",
+  "sol": "La autorización especial experimental se solicita con al menos un mes de antelación a la fecha prevista para empezar a emitir: para el 15 de septiembre, como tarde el 15 de agosto. El 10 de septiembre aplicaría los cinco días del uso portable, el 4 de agosto seis semanas y el 15 de julio dos meses.",
+  "fuente": "chapters/ap-b2.typ:361",
+  "angulo": "cálculo con fechas a partir del plazo"
+ },
+ {
+  "kid": "K-R8-71-1",
+  "cid": "R8-71",
+  "enunciado": "Vas a solicitar una autorización especial experimental utilizando un transceptor comercial. ¿Qué dato NO tienes que incluir en la memoria técnica?",
+  "opciones": [
+   "Las coordenadas geográficas de la instalación",
+   "La denominación de la emisión",
+   "El diagrama de bloques del equipo",
+   "El tipo y la ganancia de la antena"
+  ],
+  "clave": "c",
+  "sol": "La memoria del art. 17.2 describe el experimento, el lugar con sus coordenadas, el período, la banda, la denominación de la emisión, la potencia de salida y el tipo y la ganancia de la antena. El diagrama de bloques solo se exige si el equipo es de construcción propia; con un transceptor comercial no hace falta.",
+  "fuente": "chapters/ap-c3.typ:318",
+  "angulo": "caso práctico: aplicar la condición del diagrama de bloques"
+ },
+ {
+  "kid": "K-R8-72-1",
+  "cid": "R8-72",
+  "enunciado": "Sobre la identificación de las emisiones realizadas al amparo de una autorización especial experimental, es correcto que:",
+  "opciones": [
+   "quedan exentas de identificación por su carácter experimental",
+   "se identifican con un distintivo temporal que asigna la SETSI para el experimento",
+   "se identifican con las coordenadas geográficas de la instalación en lugar del distintivo",
+   "se identifican con el distintivo propio del radioaficionado o de la asociación solicitante"
+  ],
+  "clave": "d",
+  "sol": "El art. 17.3 dispone que estas emisiones se identifican con el distintivo propio del radioaficionado o de la asociación solicitante. El carácter experimental no exime de identificarse, y la autorización especial no lleva un distintivo distinto. Las coordenadas forman parte de la memoria técnica, no de la identificación.",
+  "fuente": "chapters/ap-c3.typ:342",
+  "angulo": "distractores nuevos sobre la identificación (exención, distintivo temporal, coordenadas)"
+ },
+ {
+  "kid": "K-R8-73-1",
+  "cid": "R8-73",
+  "enunciado": "¿En cuál de estas frecuencias necesita un radioaficionado una autorización especial para emitir?",
+  "opciones": [
+   "2320 MHz",
+   "5761 MHz",
+   "1296 MHz",
+   "2400 MHz"
+  ],
+  "clave": "d",
+  "sol": "La disposición adicional segunda exige autorización especial en 2300–2450 MHz, 5650–5850 MHz y 24,050–24,250 GHz, salvo las subbandas 2316–2332, 5700–5720 y 5760–5762 MHz. 2400 MHz está en la primera banda y fuera de su excepción. 2320 y 5761 MHz caen en subbandas exceptuadas, y 1296 MHz no figura en la relación.",
+  "fuente": "chapters/r08.typ:41",
+  "angulo": "aplicar las bandas con sus excepciones a frecuencias concretas"
+ }
+]

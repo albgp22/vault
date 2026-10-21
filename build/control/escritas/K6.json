@@ -1,0 +1,1202 @@
+[
+ {
+  "kid": "K-T7-01-1",
+  "cid": "T7-01",
+  "enunciado": "¿Cuál de estas parejas de sigla y nombre por longitud de onda es correcta?",
+  "opciones": [
+   "UHF: ondas métricas",
+   "MF: ondas decamétricas",
+   "VHF: ondas decimétricas",
+   "SHF: ondas centimétricas"
+  ],
+  "clave": "d",
+  "sol": "SHF va de 3 a 30 GHz, es decir, de 10 a 1 cm: ondas centimétricas. Las otras tres desplazan el nombre un escalón: UHF son decimétricas, VHF métricas y MF hectométricas (decamétricas es HF). Basta un ancla, HF = decamétricas, y contar escalones: cada década más de frecuencia es un escalón menos de tamaño.",
+  "fuente": "chapters/t07.typ:593",
+  "angulo": "pregunta todas las equivalencias a la vez con distractores desplazados un escalón (error típico de la nomenclatura)"
+ },
+ {
+  "kid": "K-T7-03-1",
+  "cid": "T7-03",
+  "enunciado": "Una emisión en 1,9 MHz, dentro de la banda de 160 m, pertenece a las ondas:",
+  "opciones": [
+   "decamétricas (HF)",
+   "hectométricas (MF)",
+   "kilométricas (LF)",
+   "métricas (VHF)"
+  ],
+  "clave": "b",
+  "sol": "Con $lambda = 300 / f$ resulta $lambda = 300 / 1,9 approx 158$ m, entre 100 y 1000 m: ondas hectométricas, banda MF (300 kHz a 3 MHz). La trampa es pensar que toda la onda corta de aficionado es HF: la banda de 160 m queda por debajo de la frontera de 3 MHz. Las kilométricas (LF) empiezan por debajo de 300 kHz.",
+  "fuente": "chapters/t07.typ:589",
+  "angulo": "otra frecuencia, en la frontera opuesta a la de 3,5 MHz: cae por debajo de 3 MHz y no es HF"
+ },
+ {
+  "kid": "K-T7-04-1",
+  "cid": "T7-04",
+  "enunciado": "La onda de superficie de una emisora de onda media llega de día a cientos de kilómetros, pero en HF se agota en pocas decenas. ¿Por qué?",
+  "opciones": [
+   "porque la capa D absorbe de día la onda de superficie de HF",
+   "porque en HF la onda de superficie tiene que ir con polarización horizontal",
+   "porque en HF la ionosfera refleja la onda de superficie hacia el espacio",
+   "porque las pérdidas que la onda induce en el suelo crecen con la frecuencia"
+  ],
+  "clave": "d",
+  "sol": "La onda de superficie induce corrientes en el suelo, que es mal conductor, y esas pérdidas aumentan con la frecuencia: por eso domina en MF y por debajo y en HF dura poco. La capa D absorbe la onda que sube a la ionosfera, no la que viaja pegada al suelo. Y la onda de superficie debe ir con polarización vertical, porque el suelo cortocircuitaría un campo horizontal.",
+  "fuente": "chapters/t07.typ:284",
+  "angulo": "otra consecuencia del mismo hecho: la causa (pérdidas crecientes con f) en vez de la banda donde predomina"
+ },
+ {
+  "kid": "K-T7-05-1",
+  "cid": "T7-05",
+  "enunciado": "Una emisora de onda media se recibe de día a 200 km, mucho más allá del horizonte. ¿Por qué camino le llega la señal?",
+  "opciones": [
+   "por onda directa, en línea recta entre las dos antenas",
+   "por reflexión en la capa D, que de día es la más ionizada",
+   "por onda de espacio reflejada en la capa F, igual que de noche",
+   "por onda de superficie, que viaja pegada al suelo siguiendo la curvatura terrestre"
+  ],
+  "clave": "d",
+  "sol": "En MF, de día, manda la onda de superficie: sigue la curvatura de la Tierra y por eso rebasa el horizonte. La onda directa se queda en el horizonte. La capa D, de día, no devuelve la onda de MF sino que la absorbe, y por eso la reflexión en la capa F solo se aprovecha de noche, cuando la D desaparece.",
+  "fuente": "chapters/t07.typ:318",
+  "angulo": "caso práctico: dado un enlace más allá del horizonte en MF, identificar el camino"
+ },
+ {
+  "kid": "K-T7-06-1",
+  "cid": "T7-06",
+  "enunciado": "Un mediodía, con 100 W en 14 MHz, se contacta desde España con Australia. ¿Qué mecanismo hace posible ese enlace?",
+  "opciones": [
+   "la onda de superficie, que sigue la curvatura terrestre",
+   "un conducto troposférico formado por una inversión térmica",
+   "la reflexión de la onda en la ionosfera, con uno o varios saltos",
+   "la onda directa, gracias al horizonte radioeléctrico"
+  ],
+  "clave": "c",
+  "sol": "14 MHz es HF, y el DX intercontinental en HF se hace por reflexión ionosférica, sobre todo en la capa F2, encadenando saltos. La onda de superficie se agota en HF en pocas decenas de kilómetros, y los conductos troposféricos y la onda directa son mecanismos de VHF y UHF con alcances de, como mucho, cientos de kilómetros.",
+  "fuente": "chapters/t07.typ:319",
+  "angulo": "caso práctico con otra banda y otro destino: del enlace al mecanismo"
+ },
+ {
+  "kid": "K-T7-07-1",
+  "cid": "T7-07",
+  "enunciado": "Dos estaciones de 2 m en FM, en condiciones normales, se oyen bien a 30 km pero no a 300 km. ¿Cuál es la razón?",
+  "opciones": [
+   "en VHF la propagación habitual es la onda directa, limitada por el horizonte radioeléctrico",
+   "la ionosfera devuelve la señal de VHF y la estación de 300 km queda en la zona de silencio",
+   "la capa D absorbe durante el día las señales de VHF",
+   "la onda de superficie, que es la dominante en VHF, se agota antes de los 300 km"
+  ],
+  "clave": "a",
+  "sol": "En VHF y UHF la ionosfera es transparente y queda la onda directa, con un alcance poco mayor que el horizonte: decenas de kilómetros, de ahí que se use para distancias cortas. La zona de silencio y la absorción de la capa D son fenómenos de HF. La onda de superficie domina en MF y por debajo, no en VHF.",
+  "fuente": "chapters/t07.typ:248",
+  "angulo": "caso práctico: explicar el alcance corto observado en 2 m"
+ },
+ {
+  "kid": "K-T7-08-1",
+  "cid": "T7-08",
+  "enunciado": "¿Por qué los satélites de aficionado no usan las bandas de 80 y 40 m?",
+  "opciones": [
+   "porque esas frecuencias se reflejan o se absorben en la ionosfera en lugar de atravesarla",
+   "porque en HF la pérdida en espacio libre es mucho mayor que en VHF",
+   "porque en HF solo existe propagación por onda de superficie",
+   "porque las antenas de HF tienen demasiada ganancia para seguir a un satélite"
+  ],
+  "clave": "a",
+  "sol": "El satélite está por encima de la ionosfera, y la señal tiene que cruzarla: hace falta subir a VHF y UHF, que la atraviesan, mientras que la HF se refleja o se absorbe en ella. La pérdida en espacio libre crece con la frecuencia, así que en HF sería menor, no mayor. En HF hay onda de superficie y onda de espacio, no solo la primera.",
+  "fuente": "chapters/t07.typ:660",
+  "angulo": "pregunta la causa (atravesar la ionosfera) en vez de las bandas usadas"
+ },
+ {
+  "kid": "K-T7-09-1",
+  "cid": "T7-09",
+  "enunciado": "Con la misma potencia, las mismas antenas y el mismo trayecto terrestre, ¿en qué banda cabe esperar el menor alcance?",
+  "opciones": [
+   "la de 6 m (50 MHz)",
+   "la de 2 m (144 MHz)",
+   "la de 23 cm (1,3 GHz)",
+   "la de 70 cm (430 MHz)"
+  ],
+  "clave": "c",
+  "sol": "En igualdad de condiciones, a mayor frecuencia, menor alcance: crecen las pérdidas de propagación y la onda difracta peor, así que cualquier obstáculo hace sombra. De las cuatro, la de 23 cm es la de frecuencia más alta y la de menor alcance; la de 6 m sería la de mayor alcance.",
+  "fuente": "chapters/t07.typ:666",
+  "angulo": "sentido inverso (menor alcance en vez de mayor intensidad) y otras bandas"
+ },
+ {
+  "kid": "K-T7-11-1",
+  "cid": "T7-11",
+  "enunciado": "Una estación de VHF tiene la antena a 4 m de altura sobre terreno llano y quiere llegar por onda directa a un repetidor situado a 41,2 km. ¿A qué altura mínima aproximada debe estar la antena del repetidor?",
+  "opciones": [
+   "8 m",
+   "96 m",
+   "64 m",
+   "100 m"
+  ],
+  "clave": "c",
+  "sol": "Con $d approx 4,12 (sqrt(h_1) + sqrt(h_2))$: $41,2 / 4,12 = 10 = sqrt(4) + sqrt(h_2)$, luego $sqrt(h_2) = 8$ y $h_2 = 64$ m. Los 8 m salen de olvidar elevar la raíz al cuadrado; los 100 m, de no contar la antena propia, y los 96 m, de restar alturas en vez de raíces ($10^2 - 4$).",
+  "fuente": "chapters/t07.typ:311",
+  "angulo": "cálculo inverso: dada la distancia y una altura, hallar la otra altura"
+ },
+ {
+  "kid": "K-T7-12-1",
+  "cid": "T7-12",
+  "enunciado": "La fórmula del horizonte radioeléctrico usa el factor 4,12 en lugar del 3,57 del horizonte óptico. ¿A qué se debe?",
+  "opciones": [
+   "a que la ionosfera devuelve a tierra parte de la onda directa",
+   "a que la onda de superficie se suma a la directa y alarga el alcance",
+   "a que la troposfera, más densa abajo que arriba, curva ligeramente el rayo hacia el suelo",
+   "a que las antenas de VHF suelen tener ganancia"
+  ],
+  "clave": "c",
+  "sol": "El índice de refracción de la troposfera disminuye con la altura y el rayo se tuerce un poco hacia el suelo: equivale a una Tierra de radio 4/3 del real, y el factor sube de 3,57 a 4,12, unos 15 % más de alcance. En VHF la ionosfera es transparente y no interviene. La ganancia de las antenas mejora la señal, pero no mueve el horizonte geométrico.",
+  "fuente": "chapters/t07.typ:286",
+  "angulo": "pregunta la causa a partir de la fórmula (factor 4,12 frente a 3,57)"
+ },
+ {
+  "kid": "K-T7-13-1",
+  "cid": "T7-13",
+  "enunciado": "En el espacio libre, sin nada que absorba energía, ¿qué le pasa a la densidad de potencia de una onda al doblar la distancia a la antena?",
+  "opciones": [
+   "no cambia, porque nada la absorbe",
+   "se reduce a la mitad",
+   "se reduce a la octava parte",
+   "se reduce a la cuarta parte"
+  ],
+  "clave": "d",
+  "sol": "La misma potencia se reparte sobre una esfera cuya superficie crece con $d^2$: al doblar la distancia el área se cuadruplica y la densidad de potencia baja a la cuarta parte. Por eso toda onda se atenúa al propagarse aunque nada la absorba. La mitad sería el campo eléctrico, que cae con $1 / d$, no la potencia.",
+  "fuente": "chapters/t07.typ:47",
+  "angulo": "otra consecuencia del mismo hecho: atenuación sin absorción, cuantificada con 1/d²"
+ },
+ {
+  "kid": "K-T7-14-1",
+  "cid": "T7-14",
+  "enunciado": "En un enlace en espacio libre se doblan a la vez la distancia y la frecuencia. La pérdida de trayecto aumenta aproximadamente:",
+  "opciones": [
+   "6 dB",
+   "12 dB",
+   "24 dB",
+   "nada, porque los dos efectos se compensan"
+  ],
+  "clave": "b",
+  "sol": "En $L = 32,4 + 20 log f + 20 log d$, doblar la distancia suma $20 log 2 approx 6$ dB y doblar la frecuencia otros 6 dB: en total, unos 12 dB. Los 6 dB cuentan solo uno de los dos cambios, y los 24 dB salen de usar $40 log$. Los efectos no se compensan: ambos términos suman pérdida.",
+  "fuente": "chapters/t07.typ:444",
+  "angulo": "otros datos: dos magnitudes de la misma fórmula a la vez"
+ },
+ {
+  "kid": "K-T7-15-1",
+  "cid": "T7-15",
+  "enunciado": "Detrás de un monte, cerca del transmisor, se recibe todavía una señal de HF, mientras que la de UHF del mismo transmisor no llega. ¿Qué fenómeno lo explica?",
+  "opciones": [
+   "la refracción en la troposfera, que es mayor cuanto más alta es la frecuencia",
+   "la difracción, que es mayor cuanto más larga es la onda",
+   "la reflexión en la cima del monte, que solo afecta a la HF",
+   "la absorción, que en HF no existe"
+  ],
+  "clave": "b",
+  "sol": "La difracción hace que la onda bordee el obstáculo y entre, debilitada, en la zona de sombra; es tanto mayor cuanto más larga es la onda comparada con el obstáculo. Por eso la HF salva un monte que en UHF deja sombra. La refracción es el cambio de dirección al pasar de un medio a otro, y la absorción existe en todas las bandas.",
+  "fuente": "chapters/t07.typ:520",
+  "angulo": "caso práctico y otra consecuencia (dependencia con la longitud de onda) en vez de la definición"
+ },
+ {
+  "kid": "K-T7-16-1",
+  "cid": "T7-16",
+  "enunciado": "De las capas de la ionosfera, ¿cuál es la más alta y la que actúa como gran espejo de la HF?",
+  "opciones": [
+   "la D",
+   "la F2",
+   "la E",
+   "la F1"
+  ],
+  "clave": "b",
+  "sol": "De abajo arriba, las capas son D (60–90 km), E (90–140 km), F1 y F2; la F2 es la más alta y la que refleja la mayor parte de la HF. La D apenas refleja: de día absorbe las bandas bajas. La E es la sede de la esporádica-E, y la F1 solo existe de día, por debajo de la F2.",
+  "fuente": "chapters/t07.typ:79",
+  "angulo": "pregunta el orden y el papel de una capa concreta en vez de la lista de nombres"
+ },
+ {
+  "kid": "K-T7-17-1",
+  "cid": "T7-17",
+  "enunciado": "Ordenadas de mayor a menor altura, las capas de la atmósfera son:",
+  "opciones": [
+   "troposfera, estratosfera e ionosfera",
+   "estratosfera, ionosfera y troposfera",
+   "ionosfera, troposfera y estratosfera",
+   "ionosfera, estratosfera y troposfera"
+  ],
+  "clave": "d",
+  "sol": "Desde el suelo hacia arriba están la troposfera, la estratosfera y la ionosfera; de mayor a menor altura, el orden se invierte. La serie que empieza por la troposfera es el orden correcto, pero de menor a mayor altura, que no es lo que se pide.",
+  "fuente": "chapters/t07.typ:648",
+  "angulo": "dato al revés: orden de mayor a menor altura"
+ },
+ {
+  "kid": "K-T7-18-1",
+  "cid": "T7-18",
+  "enunciado": "A medianoche, una onda de 7 MHz que sube hacia la ionosfera se encuentra, de abajo arriba, con:",
+  "opciones": [
+   "las capas D, E, F1 y F2, igual que de día",
+   "una capa D reforzada y una capa F",
+   "una capa E residual y una sola capa F",
+   "las capas F1 y F2, separadas, sin capa E"
+  ],
+  "clave": "c",
+  "sol": "De noche la capa D desaparece en minutos (el aire denso favorece la recombinación), la E casi se apaga y F1 y F2 se funden en una sola capa F, que aguanta toda la noche. Las cuatro capas solo existen de día, y la D nunca se refuerza de noche: por eso las bandas bajas mejoran al anochecer.",
+  "fuente": "chapters/t07.typ:87",
+  "angulo": "caso práctico: qué capas encuentra una onda de noche"
+ },
+ {
+  "kid": "K-T7-19-1",
+  "cid": "T7-19",
+  "enunciado": "A mediodía, ¿cuál de estas bandas sufrirá más absorción en la capa D?",
+  "opciones": [
+   "160 m (1,8 MHz)",
+   "40 m (7 MHz)",
+   "20 m (14 MHz)",
+   "15 m (21 MHz)"
+  ],
+  "clave": "a",
+  "sol": "La absorción de la capa D crece al bajar la frecuencia, aproximadamente con $1 / f^2$: de las cuatro, la más baja, 160 m, es la más castigada, y de día se queda en contactos cercanos. Las bandas de 20 y 15 m atraviesan la D casi sin notarla y llegan a la capa F.",
+  "fuente": "chapters/t07.typ:121",
+  "angulo": "otra banda y comparación entre bandas en vez de día frente a noche en 3,5 MHz"
+ },
+ {
+  "kid": "K-T7-20-1",
+  "cid": "T7-20",
+  "enunciado": "Una fulguración solar lanza un golpe de rayos X hacia la Tierra. ¿Qué efecto tiene, en minutos, sobre la HF en el hemisferio iluminado?",
+  "opciones": [
+   "mejora de golpe la propagación en las bandas altas, que se abren al DX",
+   "ninguno en HF: solo afecta a VHF y UHF, que viajan por la troposfera",
+   "aumenta mucho la ionización de la capa D, la absorción se dispara y la HF enmudece",
+   "forma conductos troposféricos que alargan el alcance de la HF"
+  ],
+  "clave": "c",
+  "sol": "La ionosfera depende de la radiación solar, y un golpe de rayos X multiplica la ionización de la capa D: la absorción crece tanto que la HF queda muda durante minutos u horas (desvanecimiento súbito o efecto Dellinger). No abre las bandas altas, y la troposfera, que es lo que afecta a VHF y UHF, no depende de la actividad solar.",
+  "fuente": "chapters/t07.typ:151",
+  "angulo": "otra consecuencia del mismo hecho: efecto de un suceso solar concreto sobre la HF"
+ },
+ {
+  "kid": "K-T7-21-1",
+  "cid": "T7-21",
+  "enunciado": "En el mínimo del ciclo solar, ¿qué cabe esperar en HF?",
+  "opciones": [
+   "que las bandas de 10, 12 y 15 m se abran a todo el mundo con pocos vatios",
+   "que la MUF suba, porque con menos manchas la capa D absorbe menos",
+   "que de día la banda más útil para DX sea la de 20 m y de noche haya que bajar a 40 u 80 m",
+   "que las condiciones no cambien, porque el ciclo solar solo afecta a VHF"
+  ],
+  "clave": "c",
+  "sol": "Con pocas manchas hay menos radiación ultravioleta y X, menos ionización en la F2 y una MUF más baja: las bandas altas se cierran y de día manda 20 m. La apertura generalizada de 10, 12 y 15 m es propia del máximo del ciclo. El ciclo de once años es precisamente lo que gobierna la HF.",
+  "fuente": "chapters/t07.typ:125",
+  "angulo": "dato al revés: consecuencias del mínimo del ciclo en vez del máximo"
+ },
+ {
+  "kid": "K-T7-23-1",
+  "cid": "T7-23",
+  "enunciado": "Una onda de 5 MHz lanzada en vertical vuelve a tierra, y otra de 8 MHz, también en vertical, atraviesa la ionosfera. En ese momento, la frecuencia crítica está:",
+  "opciones": [
+   "por debajo de 5 MHz",
+   "por encima de 8 MHz",
+   "entre 5 y 8 MHz",
+   "sin poder acotarse, porque la frecuencia crítica se define con incidencia oblicua"
+  ],
+  "clave": "c",
+  "sol": "La frecuencia crítica es la máxima que se refleja con incidencia vertical: si 5 MHz vuelve, está por encima de 5 MHz, y si 8 MHz se pierde, está por debajo de 8 MHz. La que se define en un trayecto oblicuo es la MUF, no la frecuencia crítica.",
+  "fuente": "chapters/t07.typ:163",
+  "angulo": "caso práctico: acotar la frecuencia crítica a partir de lo observado"
+ },
+ {
+  "kid": "K-T7-24-1",
+  "cid": "T7-24",
+  "enunciado": "En un trayecto, la onda llega a la capa F2 formando 60° con la vertical y la MUF es de 18 MHz. La frecuencia crítica de la capa es aproximadamente:",
+  "opciones": [
+   "15,6 MHz",
+   "18 MHz",
+   "9 MHz",
+   "36 MHz"
+  ],
+  "clave": "c",
+  "sol": "De $\"MUF\" approx f_c / cos theta$ sale $f_c approx \"MUF\" dot cos theta = 18 dot cos 60° = 18 dot 0,5 = 9$ MHz. Los 36 MHz salen de dividir entre el coseno en vez de multiplicar, y los 15,6 MHz de usar el seno. La frecuencia crítica es siempre menor que la MUF de un trayecto oblicuo, así que no puede valer 18 MHz.",
+  "fuente": "chapters/t07.typ:163",
+  "angulo": "cálculo inverso: dada la MUF y el ángulo, hallar la frecuencia crítica"
+ },
+ {
+  "kid": "K-T7-25-1",
+  "cid": "T7-25",
+  "enunciado": "Quieres que 21 MHz sea la frecuencia óptima de trabajo de un trayecto. ¿Qué MUF necesita el trayecto, aproximadamente?",
+  "opciones": [
+   "unos 18 MHz",
+   "21 MHz",
+   "unos 25 MHz",
+   "unos 35 MHz"
+  ],
+  "clave": "c",
+  "sol": "La frecuencia óptima de trabajo es en torno al 85 % de la MUF, así que la MUF debe ser $21 / 0,85 approx 24,7$ MHz, unos 25 MHz. Los 18 MHz salen de multiplicar por 0,85 en vez de dividir; 21 MHz supondría trabajar en la propia MUF, sin margen, y 35 MHz corresponde a un 60 %.",
+  "fuente": "chapters/t07.typ:163",
+  "angulo": "cálculo inverso: dada la frecuencia óptima, hallar la MUF"
+ },
+ {
+  "kid": "K-T7-26-1",
+  "cid": "T7-26",
+  "enunciado": "En la propagación en HF, la llamada onda de espacio (onda espacial) es la que:",
+  "opciones": [
+   "viaja pegada al suelo siguiendo la curvatura terrestre",
+   "se dispersa en las irregularidades de la troposfera",
+   "solo existe mientras hay visión directa entre las antenas",
+   "sube hasta la ionosfera, se refleja en ella y vuelve a tierra más allá del horizonte"
+  ],
+  "clave": "d",
+  "sol": "La onda de espacio rebasa el horizonte, llega a la ionosfera y regresa a tierra a la distancia de salto: es la del DX en HF. La que sigue la curvatura del suelo es la onda de superficie, la dispersión en la troposfera es el troposcatter y la de visión directa es la onda directa de VHF y UHF.",
+  "fuente": "chapters/t07.typ:163",
+  "angulo": "dato al revés: del nombre a la descripción"
+ },
+ {
+  "kid": "K-T7-27-1",
+  "cid": "T7-27",
+  "enunciado": "Operando en 14 MHz, te oye perfectamente una estación a 2000 km y, en cambio, no te oye otra situada a 100 km. ¿Cuál es la explicación más probable?",
+  "opciones": [
+   "la capa D absorbe solo las señales destinadas a distancias cortas",
+   "la estación de 100 km está en la zona de silencio, entre el final de la onda de superficie y el punto donde cae la primera onda reflejada",
+   "a 100 km la onda directa y la reflejada llegan siempre en oposición y se anulan",
+   "la estación de 100 km está más allá del último salto de la onda"
+  ],
+  "clave": "b",
+  "sol": "En HF la onda de superficie se agota en pocas decenas de kilómetros y la onda reflejada no cae a tierra hasta la distancia de salto: entre medias no llega señal, y esa franja es la zona de silencio. La estación de 2000 km está donde aterriza la onda reflejada. La capa D absorbe según la frecuencia, no según la distancia del corresponsal.",
+  "fuente": "chapters/t07.typ:201",
+  "angulo": "caso práctico: reconocer la zona de silencio en un QSO concreto"
+ },
+ {
+  "kid": "K-T7-28-1",
+  "cid": "T7-28",
+  "enunciado": "Para hacer DX muy lejano en HF, ¿qué ángulo de radiación conviene a la antena?",
+  "opciones": [
+   "alto, casi vertical, para que la onda llegue antes a la capa F",
+   "bajo, cercano al horizonte, porque la onda aterriza más lejos tras cada salto",
+   "alto, porque así la MUF del trayecto es mayor",
+   "da igual, porque la distancia de salto solo depende de la potencia"
+  ],
+  "clave": "b",
+  "sol": "Cuanto más rasante sale la onda, más lejos aterriza tras reflejarse, y además el trayecto admite una MUF más alta. Un ángulo alto acorta el salto y baja la MUF, justo lo contrario de lo que se busca. La distancia de salto depende del ángulo y de la ionosfera, no de la potencia.",
+  "fuente": "chapters/t07.typ:163",
+  "angulo": "dato al revés y caso práctico: del objetivo (DX) al ángulo de radiación"
+ },
+ {
+  "kid": "K-T7-30-1",
+  "cid": "T7-30",
+  "enunciado": "Un corresponsal te dice que tu señal sube y baja de intensidad cada pocos segundos. ¿Cómo se llama el fenómeno y cuál es una causa típica?",
+  "opciones": [
+   "intermodulación: dos señales se mezclan en un elemento no lineal del receptor",
+   "desvanecimiento (fading): la señal llega por varios caminos que unas veces se suman en fase y otras en oposición",
+   "efecto Dellinger: una fulguración solar apaga la HF durante horas",
+   "zona de silencio: la estación queda entre la onda de superficie y el primer salto"
+  ],
+  "clave": "b",
+  "sol": "La variación momentánea de la intensidad recibida es el desvanecimiento o fading, y el multitrayecto es su causa más típica, junto con las fluctuaciones de la propia ionosfera. El efecto Dellinger silencia la HF durante minutos u horas, no la hace oscilar cada pocos segundos, y en la zona de silencio no se recibe nada.",
+  "fuente": "chapters/t07.typ:364",
+  "angulo": "caso práctico: del síntoma al nombre, con la causa"
+ },
+ {
+  "kid": "K-T7-31-1",
+  "cid": "T7-31",
+  "enunciado": "Una mañana tranquila, el aire junto al suelo está a 10 °C y una capa situada a 500 m de altura está a 18 °C. Para la propagación en VHF y UHF, esto supone:",
+  "opciones": [
+   "la situación normal de la troposfera, sin efecto especial sobre la propagación",
+   "una inversión térmica, que puede formar un conducto y llevar las señales a cientos de kilómetros",
+   "más absorción en la capa D y menos alcance en VHF",
+   "una apertura de esporádica-E por calentamiento de la capa E"
+  ],
+  "clave": "b",
+  "sol": "Lo normal es que el aire se enfríe con la altura; aquí hay aire cálido sobre aire más frío, es decir, una inversión térmica. En esa frontera el índice de refracción cambia bruscamente, la onda se curva hacia el suelo y queda atrapada en un conducto. La capa D y la esporádica-E son fenómenos ionosféricos, a decenas o cientos de kilómetros de altura, y no dependen de la temperatura del aire cerca del suelo.",
+  "fuente": "chapters/t07.typ:437",
+  "angulo": "caso práctico con datos: reconocer la inversión térmica a partir de temperaturas"
+ },
+ {
+  "kid": "K-T7-32-1",
+  "cid": "T7-32",
+  "enunciado": "¿Cuál de estos contactos es típico de una apertura por conducto troposférico?",
+  "opciones": [
+   "un enlace en 3,5 MHz entre dos estaciones a 300 km, de noche",
+   "un enlace en 144 MHz usando la Luna como reflector",
+   "un enlace en 1,8 MHz por onda de superficie a 100 km",
+   "un enlace en 432 MHz entre dos estaciones costeras separadas por unos 800 km de mar"
+  ],
+  "clave": "d",
+  "sol": "El conducto troposférico guía VHF y UHF a cientos de kilómetros, muy por encima del horizonte, y sobre el mar puede pasar de mil. Un enlace nocturno en 3,5 MHz es ionosférico, el de la Luna es rebote lunar (EME) y el de 1,8 MHz por el suelo es onda de superficie en MF.",
+  "fuente": "chapters/t07.typ:437",
+  "angulo": "caso práctico: elegir el contacto que encaja con la banda y el alcance del conducto"
+ },
+ {
+  "kid": "K-T7-35-1",
+  "cid": "T7-35",
+  "enunciado": "Una tarde de julio, en 50 MHz, aparecen de repente señales fuertes y limpias de estaciones a unos 1500 km, que se mantienen media hora y luego desaparecen. El mecanismo más probable es la reflexión en:",
+  "opciones": [
+   "las estelas ionizadas de los meteoros",
+   "las cortinas ionizadas de una aurora",
+   "la superficie de la Luna",
+   "nubes de ionización muy intensa formadas en la capa E (esporádica-E)"
+  ],
+  "clave": "d",
+  "sol": "Las nubes de esporádica-E, en la capa E a unos 100 km, reflejan 50 MHz y a veces 144 MHz, con saltos de 1000 a 2000 km, aparecen de repente y son típicas del verano. Los meteoros dan ráfagas de segundos, no media hora de señal continua; la aurora da señales ásperas y desde España solo con tormentas fuertes, y el rebote lunar exige grandes antenas y da señales muy débiles.",
+  "fuente": "chapters/t07.typ:434",
+  "angulo": "caso práctico: identificar el mecanismo por la banda, la distancia y la duración"
+ },
+ {
+  "kid": "K-T7-36-1",
+  "cid": "T7-36",
+  "enunciado": "Desde España, ¿qué combinación de época y hora es la más favorable para encontrar esporádica-E en 50 MHz?",
+  "opciones": [
+   "una madrugada de diciembre",
+   "una noche de marzo",
+   "un mediodía de octubre",
+   "una tarde de junio"
+  ],
+  "clave": "d",
+  "sol": "La esporádica-E es típica de finales de primavera y del verano, de día y al atardecer: una tarde de junio reúne la época y la hora. Diciembre es el mes de las Gemínidas, una lluvia de meteoros (otro mecanismo), y ni marzo ni octubre son su temporada.",
+  "fuente": "chapters/t07.typ:434",
+  "angulo": "caso práctico: combina la estación y la hora del día"
+ },
+ {
+  "kid": "K-T7-38-1",
+  "cid": "T7-38",
+  "enunciado": "Durante una fuerte tormenta geomagnética, dos estaciones europeas de 144 MHz contactan con las antenas apuntando ambas al norte, y la señal llega con un tono áspero y zumbón. Están usando:",
+  "opciones": [
+   "la reflexión auroral, en las cortinas ionizadas de la aurora",
+   "la reflexión en la capa F2, reforzada por la tormenta",
+   "el meteor-scatter, en las estelas de los meteoros",
+   "un conducto troposférico formado por la tormenta"
+  ],
+  "clave": "a",
+  "sol": "Las tormentas geomagnéticas producen auroras, y sus cortinas ionizadas reflejan VHF; como se mueven, ensanchan la señal y le dan ese tono áspero, y hay que apuntar hacia ellas, al norte. La tormenta desorganiza la capa F2 en vez de reforzarla, los meteoros dan ráfagas breves y los conductos dependen de la inversión térmica, no del campo magnético.",
+  "fuente": "chapters/t07.typ:435",
+  "angulo": "caso práctico: reconocer la reflexión auroral por sus síntomas"
+ },
+ {
+  "kid": "K-T7-40-1",
+  "cid": "T7-40",
+  "enunciado": "Un grupo quiere probar contactos por meteor-scatter en 144 MHz. ¿Cuándo le conviene hacerlo?",
+  "opciones": [
+   "en el máximo del ciclo solar, cuando hay más manchas",
+   "durante una lluvia de meteoros, como las Perseidas de agosto o las Gemínidas de diciembre",
+   "durante una tormenta geomagnética, con las antenas al norte",
+   "con luna llena, cuando la Luna refleja mejor las señales"
+  ],
+  "clave": "b",
+  "sol": "El meteor-scatter rebota en las estelas ionizadas que dejan los meteoros, así que funciona mejor cuando más meteoros entran: en las lluvias de meteoros. Las manchas solares afectan a la ionosfera en HF, la tormenta geomagnética trae la reflexión auroral y la Luna es el reflector del EME.",
+  "fuente": "chapters/t07.typ:436",
+  "angulo": "otra consecuencia del mismo hecho: cuándo aprovecharlo, en vez de en qué se basa"
+ },
+ {
+  "kid": "K-T7-42-1",
+  "cid": "T7-42",
+  "enunciado": "Un grupo de aficionados prepara su primer intento de rebote lunar (EME). ¿Qué banda y qué medios son los adecuados?",
+  "opciones": [
+   "144 MHz, con antenas de gran ganancia, bastante potencia y modos digitales robustos",
+   "14 MHz con un dipolo, porque la HF llega más lejos",
+   "3,5 MHz de noche, cuando no hay capa D",
+   "144 MHz con una antena vertical y 5 W, porque la Luna refleja casi toda la energía"
+  ],
+  "clave": "a",
+  "sol": "La señal tiene que atravesar la ionosfera dos veces, así que hace falta VHF o más, y la banda clásica es la de 2 m (ondas métricas). Las pérdidas son enormes, del orden de 250 dB, y la Luna refleja solo un 7 %: por eso hacen falta antenas de gran ganancia, potencia y modos capaces de decodificar por debajo del ruido. La HF, de día o de noche, se refleja o se absorbe en la ionosfera.",
+  "fuente": "chapters/t07.typ:439",
+  "angulo": "caso práctico: banda y medios para un enlace EME"
+ },
+ {
+  "kid": "K-T7-43-1",
+  "cid": "T7-43",
+  "enunciado": "Una noche de verano, en 80 m, se oye de fondo un crepitar fuerte y continuo con chasquidos. Ese ruido es, sobre todo:",
+  "opciones": [
+   "ruido galáctico, procedente del centro de la Vía Láctea",
+   "ruido térmico, generado en la etapa de entrada del receptor",
+   "ruido de intermodulación producido por el propio receptor",
+   "ruido atmosférico, producido por las tormentas y propagado por la ionosfera"
+  ],
+  "clave": "d",
+  "sol": "Los rayos de las tormentas de todo el planeta generan un ruido que la ionosfera propaga igual que las señales: domina en las bandas bajas de HF y en verano. El ruido galáctico se nota entre unos 20 y 200 MHz, y el térmico del receptor queda en HF muy por debajo del ruido que entra por la antena.",
+  "fuente": "chapters/t07.typ:441",
+  "angulo": "caso práctico: del síntoma en una banda concreta al tipo de ruido"
+ },
+ {
+  "kid": "K-R1-01-1",
+  "cid": "R1-01",
+  "enunciado": "Con mucho ruido, tu corresponsal no distingue si tu sufijo termina en B o en P. ¿Qué debes hacer?",
+  "opciones": [
+   "repetir la letra por su nombre en castellano, más despacio: «be» o «pe»",
+   "sustituir el sufijo por un grupo del código Q",
+   "decir la letra seguida del nombre de una ciudad española que empiece por ella",
+   "deletrear la letra con su palabra del alfabeto fonético internacional: Bravo o Papa"
+  ],
+  "clave": "d",
+  "sol": "El alfabeto fonético existe para deletrear letras y cifras sin confusiones: con ruido, «be» y «pe» suenan igual, pero Bravo y Papa no. El código Q abrevia frases, no deletrea, y las ciudades españolas pertenecen a alfabetos nacionales antiguos que no se usan en el servicio de aficionados.",
+  "fuente": "chapters/r01.typ:185",
+  "angulo": "caso práctico: para qué sirve el alfabeto en una situación concreta"
+ },
+ {
+  "kid": "K-R1-02-1",
+  "cid": "R1-02",
+  "enunciado": "Al deletrear el distintivo `EA1RKM`, la cifra se dice:",
+  "opciones": [
+   "One",
+   "Uno",
+   "India",
+   "Uniform"
+  ],
+  "clave": "a",
+  "sol": "En el deletreo internacional las cifras se dicen con su nombre inglés: el 1 es One. Decir «Uno» es la cifra en castellano, que no da por buena el banco de preguntas. India y Uniform son palabras de letras (I y U), no de cifras.",
+  "fuente": "chapters/r01.typ:46",
+  "angulo": "otra cifra (1) dentro de un distintivo, con distractores de letras parecidas"
+ },
+ {
+  "kid": "K-R1-03-1",
+  "cid": "R1-03",
+  "enunciado": "Un corresponsal deletrea su distintivo: «Echo Alfa Five Juliett Whiskey Sierra». ¿Qué anotas?",
+  "opciones": [
+   "`EA5JWS`",
+   "`EA5JVS`",
+   "`EA5GWS`",
+   "`EA5JWC`"
+  ],
+  "clave": "a",
+  "sol": "Echo es E, Alfa es A, Five es 5, Juliett es J, Whiskey es W y Sierra es S. Whiskey no es la V, que es Victor; Juliett no es la G, que es Golf, y Sierra no es la C, que es Charlie.",
+  "fuente": "chapters/r01.typ:7",
+  "angulo": "sentido inverso (de las palabras al distintivo) y otro orden de las letras"
+ },
+ {
+  "kid": "K-R1-04-1",
+  "cid": "R1-04",
+  "enunciado": "El distintivo `EA6LNB` se deletrea:",
+  "opciones": [
+   "Echo Alfa Seis Lima Noviembre Bravo",
+   "Echo Alfa Six Lima November Bravo",
+   "Echo Alfa Six Luis Nancy Baker",
+   "Echo Alfa Sierra Lima November Bravo"
+  ],
+  "clave": "b",
+  "sol": "L es Lima, N es November y B es Bravo, y la cifra va en inglés: Six. «Seis» y «Noviembre» son traducciones al castellano; Luis, Nancy y Baker pertenecen a alfabetos antiguos, y Sierra es la letra S, no la cifra 6.",
+  "fuente": "chapters/r01.typ:7",
+  "angulo": "otro distintivo con las mismas letras N, B, L y la cifra 6, con distractores de alfabetos antiguos"
+ },
+ {
+  "kid": "K-R1-05-1",
+  "cid": "R1-05",
+  "enunciado": "Un operador deletrea su distintivo `EA3QRC` como «Echo Alfa Three Queen Romeo Charlie». ¿Qué palabra ha usado mal?",
+  "opciones": [
+   "Three",
+   "Queen",
+   "Romeo",
+   "Charlie"
+  ],
+  "clave": "b",
+  "sol": "La Q es Quebec; Queen es el distractor clásico de un alfabeto británico antiguo. Three es correcto, porque la cifra se dice en inglés, y Romeo y Charlie son las palabras oficiales de la R y la C.",
+  "fuente": "chapters/r01.typ:48",
+  "angulo": "caso práctico: localizar el error en un deletreo, con otro orden de las letras"
+ },
+ {
+  "kid": "K-R1-06-1",
+  "cid": "R1-06",
+  "enunciado": "¿En cuál de estas series están todas las palabras escritas con la grafía oficial del alfabeto fonético internacional?",
+  "opciones": [
+   "Alpha, Echo, X-ray, Yankee, Zulu",
+   "Alfa, Echo, X-ray, Yankee, Zulu",
+   "Alfa, Eco, X-ray, Yankee, Zeta",
+   "Alfa, Echo, Equis, Yankee, Zulu"
+  ],
+  "clave": "b",
+  "sol": "La grafía oficial es Alfa (sin ph), Echo (con hache), X-ray (con guion), Yankee y Zulu. Alpha y Eco son grafías inglesa y castellana que el alfabeto no usa; Zeta y Equis son los nombres de las letras en castellano, no palabras de deletreo.",
+  "fuente": "chapters/r01.typ:43",
+  "angulo": "pregunta la grafía de las palabras fuera de un distintivo"
+ },
+ {
+  "kid": "K-R1-07-1",
+  "cid": "R1-07",
+  "enunciado": "Un operador veterano deletrea su sufijo como «Uncle Zebra Able». Con el alfabeto vigente debería decir:",
+  "opciones": [
+   "Uniform Zeta Alfa",
+   "Ulises Zaragoza Antonio",
+   "Uniform Zulu Alpha",
+   "Uniform Zulu Alfa"
+  ],
+  "clave": "d",
+  "sol": "Uncle, Zebra y Able pertenecen a alfabetos anglosajones antiguos; las palabras vigentes son Uniform, Zulu y Alfa. Zeta es el nombre castellano de la letra, Ulises, Zaragoza y Antonio son del alfabeto español antiguo, y Alpha no es la grafía oficial.",
+  "fuente": "chapters/r01.typ:257",
+  "angulo": "caso práctico: corregir un deletreo hecho con el alfabeto antiguo"
+ },
+ {
+  "kid": "K-R1-08-1",
+  "cid": "R1-08",
+  "enunciado": "El distintivo `EC7DIA` se deletrea:",
+  "opciones": [
+   "Echo Charlie Seven Dog Italia Alfa",
+   "Echo Coca Seven Delta India Able",
+   "Echo Charlie Seven Delta India Alfa",
+   "Echo Charlie Siete Delta India Alfa"
+  ],
+  "clave": "c",
+  "sol": "C es Charlie, D es Delta, I es India y A es Alfa, con la cifra en inglés: Seven. Dog, Coca y Able son de alfabetos antiguos, Italia no es palabra del alfabeto, y «Siete» es la cifra en castellano.",
+  "fuente": "chapters/r01.typ:7",
+  "angulo": "otro distintivo con las letras C, I y D en otro orden"
+ },
+ {
+  "kid": "K-R1-09-1",
+  "cid": "R1-09",
+  "enunciado": "El sufijo `OPT` se deletrea:",
+  "opciones": [
+   "Oscar Papa Tango",
+   "Oscar Peter Tare",
+   "Zero Papa Tango",
+   "Oscar Pedro Tango"
+  ],
+  "clave": "a",
+  "sol": "O es Oscar, P es Papa y T es Tango. Peter y Tare son del alfabeto de los años cuarenta, Pedro de un alfabeto nacional antiguo, y Zero es la cifra 0, no la letra O: confundirlas es justo lo que el deletreo evita.",
+  "fuente": "chapters/r01.typ:239",
+  "angulo": "otro sufijo con T, O y P, con la trampa de la letra O frente al cero"
+ },
+ {
+  "kid": "K-R1-10-1",
+  "cid": "R1-10",
+  "enunciado": "El sufijo `GF` se deletrea:",
+  "opciones": [
+   "Gustavo Foxtrot",
+   "Golf Fox",
+   "Golf Foxtrot",
+   "Gamma Foxtrot"
+  ],
+  "clave": "c",
+  "sol": "G es Golf y F es Foxtrot. Gustavo pertenece al alfabeto español antiguo, Gamma es una letra griega y Fox, a secas, no es la palabra del alfabeto vigente.",
+  "fuente": "chapters/r01.typ:7",
+  "angulo": "las dos letras juntas en un sufijo, en sentido letra a palabra para la F"
+ },
+ {
+  "kid": "K-R1-11-1",
+  "cid": "R1-11",
+  "enunciado": "Un corresponsal deletrea: «Echo Alfa Eight Hotel Kilo». ¿Qué distintivo anotas?",
+  "opciones": [
+   "`EA8HK`",
+   "`EA8HQ`",
+   "`EA8HC`",
+   "`EA8JK`"
+  ],
+  "clave": "a",
+  "sol": "Hotel es la H y Kilo es la K; la cifra Eight es el 8. Kilo no es ni la Q (Quebec) ni la C (Charlie), aunque suenen parecido en castellano, y Hotel no es la J, que es Juliett.",
+  "fuente": "chapters/r01.typ:7",
+  "angulo": "sentido inverso para la H y caso práctico en un distintivo"
+ },
+ {
+  "kid": "K-R1-12-1",
+  "cid": "R1-12",
+  "enunciado": "Un operador deletrea el sufijo `MV` como «Madrid Valencia». ¿Cómo debería decirlo?",
+  "opciones": [
+   "Mike Victor",
+   "Metro Vector",
+   "Mike Whiskey",
+   "November Victor"
+  ],
+  "clave": "a",
+  "sol": "M es Mike y V es Victor. Madrid y Valencia son de alfabetos nacionales antiguos; Whiskey es la W y November la N, letras que se confunden con la V y la M al oído.",
+  "fuente": "chapters/r01.typ:7",
+  "angulo": "caso práctico: corregir un deletreo con ciudades"
+ },
+ {
+  "kid": "K-R2-01-1",
+  "cid": "R2-01",
+  "enunciado": "En un QSO en 40 m, tu corresponsal te dice: «Te copio con dificultad: hay una estación muy cerca de nuestra frecuencia que me tapa». ¿Qué grupo resume su problema?",
+  "opciones": [
+   "`QRN`",
+   "`QRM`",
+   "`QSB`",
+   "`QRL`"
+  ],
+  "clave": "b",
+  "sol": "La interferencia de otra estación es `QRM`, de origen humano. `QRN` serían los parásitos atmosféricos de una tormenta y `QSB` el desvanecimiento de la señal; `QRL` indica que la frecuencia está ocupada, pero no describe la interferencia.",
+  "fuente": "chapters/r02.typ:48",
+  "angulo": "caso práctico: frase de un QSO que describe interferencia de otra estación"
+ },
+ {
+  "kid": "K-R2-01-2",
+  "cid": "R2-01",
+  "enunciado": "Tu corresponsal te pasa «aquí mucho `QRN`». ¿Qué está oyendo en su receptor?",
+  "opciones": [
+   "una estación cercana que transmite encima del QSO",
+   "tu señal subiendo y bajando de intensidad",
+   "el crepitar y los chasquidos de las descargas de las tormentas",
+   "tu señal, cuya frecuencia se va desplazando"
+  ],
+  "clave": "c",
+  "sol": "`QRN` son los parásitos atmosféricos, el ruido natural de las tormentas. Una estación que transmite encima es `QRM`, la señal que sube y baja es `QSB` y la frecuencia que se desplaza es `QRH`.",
+  "fuente": "chapters/r02.typ:49",
+  "angulo": "caso práctico: del grupo a lo que se oye, con distractores de otros grupos de señal"
+ },
+ {
+  "kid": "K-R2-02-1",
+  "cid": "R2-02",
+  "enunciado": "Tu señal llega débil al corresponsal y quieres preguntarle si debes aumentar la potencia. Transmites:",
+  "opciones": [
+   "`QRP?`",
+   "`QRQ?`",
+   "`QRS?`",
+   "`QRO?`"
+  ],
+  "clave": "d",
+  "sol": "`QRO` es «aumente la potencia» y, con interrogación, pregunta si se debe aumentar. `QRP` es su contrario, disminuir la potencia, y `QRQ` y `QRS` se refieren a la velocidad de transmisión, no a la potencia.",
+  "fuente": "chapters/r02.typ:50",
+  "angulo": "forma de pregunta del grupo y caso práctico"
+ },
+ {
+  "kid": "K-R2-03-1",
+  "cid": "R2-03",
+  "enunciado": "En CW, tu corresponsal manipula tan rápido que no consigues copiarle. Le transmites:",
+  "opciones": [
+   "`QRQ`",
+   "`QRS`",
+   "`QRX`",
+   "`QSD`"
+  ],
+  "clave": "b",
+  "sol": "`QRS` pide que transmita más despacio. `QRQ` pediría lo contrario, más deprisa; `QRX` es que espere, y `QSD` avisa de que la manipulación es defectuosa, que no es el problema: el problema es la velocidad.",
+  "fuente": "chapters/r02.typ:52",
+  "angulo": "caso práctico en CW, con `QSD` como distractor del mismo contexto"
+ },
+ {
+  "kid": "K-R2-03-2",
+  "cid": "R2-03",
+  "enunciado": "Al final de un QSO lento en CW, tu corresponsal te transmite «`QRQ?`». Te está preguntando:",
+  "opciones": [
+   "si debe transmitir más despacio",
+   "si debe transmitir más deprisa",
+   "si debe aumentar la potencia",
+   "si la frecuencia está ocupada"
+  ],
+  "clave": "b",
+  "sol": "`QRQ` es «transmita más deprisa», y con interrogación pregunta si debe hacerlo. Más despacio es `QRS`, la pareja con la que se confunde; aumentar la potencia es `QRO` y la frecuencia ocupada, `QRL`.",
+  "fuente": "chapters/r02.typ:75",
+  "angulo": "del grupo a su significado, en forma de pregunta y dentro de un QSO"
+ },
+ {
+  "kid": "K-R2-04-1",
+  "cid": "R2-04",
+  "enunciado": "En mitad de un QSO suena el teléfono y quieres que tu corresponsal te espere un par de minutos. Le dices:",
+  "opciones": [
+   "`QRT`",
+   "`QRU`",
+   "`QRV`",
+   "`QRX`"
+  ],
+  "clave": "d",
+  "sol": "`QRX` es «espere, volveré a llamar»: aplaza el QSO sin cerrarlo. `QRT` es cesar la transmisión, que cerraría la estación; `QRU` es «no tengo nada para usted» y `QRV`, «estoy dispuesto».",
+  "fuente": "chapters/r02.typ:56",
+  "angulo": "caso práctico con una frase de QSO"
+ },
+ {
+  "kid": "K-R2-04-2",
+  "cid": "R2-04",
+  "enunciado": "Al despedirse, un corresponsal dice: «Gracias por el QSO; hago `QRT`, 73». Eso significa que:",
+  "opciones": [
+   "te pide que esperes, porque volverá a llamarte en unos minutos",
+   "deja de transmitir y cierra la estación",
+   "se va a otra frecuencia para seguir allí",
+   "va a reducir la potencia de su emisión"
+  ],
+  "clave": "b",
+  "sol": "`QRT` es cesar la transmisión: con él se cierra la estación al final del contacto. Esperar y volver a llamar es `QRX`, cambiar de frecuencia es `QSY` y reducir la potencia es `QRP`.",
+  "fuente": "chapters/r02.typ:135",
+  "angulo": "del grupo a su significado dentro de una frase de despedida"
+ },
+ {
+  "kid": "K-R2-05-1",
+  "cid": "R2-05",
+  "enunciado": "Una estación te transmite «`QRU?`». ¿Qué te pregunta?",
+  "opciones": [
+   "¿está usted preparado?",
+   "¿debo esperar?",
+   "¿quién me llama?",
+   "¿tiene algo para mí?"
+  ],
+  "clave": "d",
+  "sol": "`QRU` es «no tengo nada para usted» y, con interrogación, «¿tiene algo para mí?». «¿Está usted preparado?» es `QRV?`, que se le parece en la forma; esperar es `QRX` y «¿quién me llama?» es `QRZ`.",
+  "fuente": "chapters/ap-c2.typ:572",
+  "angulo": "forma de pregunta de `QRU`, con `QRV` como distractor"
+ },
+ {
+  "kid": "K-R2-06-1",
+  "cid": "R2-06",
+  "enunciado": "Durante un QSO, tu corresponsal te transmite «`QRH`». ¿Qué debes revisar en tu estación?",
+  "opciones": [
+   "la manipulación, porque llega mal formada",
+   "el tono de tu emisión",
+   "la potencia, porque tu señal se desvanece",
+   "la estabilidad de tu frecuencia de emisión, que está variando"
+  ],
+  "clave": "d",
+  "sol": "`QRH` es «su frecuencia varía»: tu emisión se desplaza y hay que revisar su estabilidad. `QRG`, su pareja, se refiere a la frecuencia exacta. La manipulación defectuosa es `QSD`, el tono es `QRI` y el desvanecimiento, `QSB`.",
+  "fuente": "chapters/r02.typ:45",
+  "angulo": "caso práctico: consecuencia de recibir el grupo"
+ },
+ {
+  "kid": "K-R2-07-1",
+  "cid": "R2-07",
+  "enunciado": "En un mensaje recibes «`QRK 4 QSA 3`». ¿De qué te informa tu corresponsal?",
+  "opciones": [
+   "de la intensidad (4) y del tono (3) de tus señales",
+   "del tono (4) y de la inteligibilidad (3) de tus señales",
+   "de la distancia (4) y del número de mensajes pendientes (3)",
+   "de la inteligibilidad (4) y de la intensidad (3) de tus señales"
+  ],
+  "clave": "d",
+  "sol": "`QRK` es la inteligibilidad (legibilidad) de las señales y `QSA`, su intensidad o fuerza. El tono es `QRI`, la distancia es `QRB` y los mensajes pendientes, `QTC`.",
+  "fuente": "chapters/r02.typ:74",
+  "angulo": "caso práctico: interpretar dos grupos de valoración juntos"
+ },
+ {
+  "kid": "K-R2-07-2",
+  "cid": "R2-07",
+  "enunciado": "Quieres preguntar en CW por la calidad del tono de tu emisión. ¿Qué grupo usas?",
+  "opciones": [
+   "`QRK?`",
+   "`QSA?`",
+   "`QRI?`",
+   "`QRH?`"
+  ],
+  "clave": "c",
+  "sol": "El tono de la emisión es `QRI`. `QRK` es la inteligibilidad y `QSA` la intensidad: son las otras dos valoraciones de la señal. `QRH` se refiere a la variación de la frecuencia, no al tono.",
+  "fuente": "chapters/r02.typ:84",
+  "angulo": "sentido inverso: del significado (tono) al código, en forma de pregunta"
+ },
+ {
+  "kid": "K-R2-08-1",
+  "cid": "R2-08",
+  "enunciado": "Tu corresponsal te pasa «`QRI 3`». ¿Cómo es el tono de tu emisión?",
+  "opciones": [
+   "malo",
+   "excelente, porque 3 es el máximo de su escala",
+   "regular, el punto medio de una escala de 1 a 5",
+   "bueno, aunque algo variable"
+  ],
+  "clave": "a",
+  "sol": "`QRI` se contesta con una escala de 1 a 3 y al revés que las demás: 1 bueno, 2 variable y 3 malo. Es cierto que 3 es el número más alto, pero en `QRI` el más alto es el peor; la escala de 1 a 5 es la de `QRK` y `QSA`.",
+  "fuente": "chapters/ap-c2.typ:566",
+  "angulo": "caso práctico: interpretar un valor concreto de la escala de `QRI`"
+ },
+ {
+  "kid": "K-R2-09-1",
+  "cid": "R2-09",
+  "enunciado": "Antes de lanzar CQ en CW transmites «`QRL?`» y alguien te contesta «`QRL`». ¿Qué debes hacer?",
+  "opciones": [
+   "lanzar la llamada, porque te han confirmado que la frecuencia está libre",
+   "dar tu distintivo, porque te preguntan quién eres",
+   "no llamar en esa frecuencia y buscar otra libre",
+   "repetir tu último mensaje"
+  ],
+  "clave": "c",
+  "sol": "`QRL?` pregunta si la frecuencia está ocupada y la respuesta `QRL` dice que sí lo está: hay que buscar otra. Quien no contesta deja la frecuencia por libre; «¿quién me llama?» es `QRZ` y repetir el último mensaje es `QSM`.",
+  "fuente": "chapters/r02.typ:95",
+  "angulo": "caso práctico: respuesta a `QRL?` antes de llamar"
+ },
+ {
+  "kid": "K-R2-10-1",
+  "cid": "R2-10",
+  "enunciado": "Al terminar tu llamada general oyes a una estación muy débil que te contesta, pero no entiendes su distintivo. Le transmites:",
+  "opciones": [
+   "`CQ`",
+   "`QRL?`",
+   "`QSL?`",
+   "`QRZ?`"
+  ],
+  "clave": "d",
+  "sol": "`QRZ?` pregunta «¿quién me llama?», justo lo que necesitas. `CQ` es la llamada general (y no es un grupo Q), `QRL?` pregunta si la frecuencia está ocupada y `QSL?` pide acuse de recibo.",
+  "fuente": "chapters/r02.typ:123",
+  "angulo": "sentido inverso y caso práctico: de la situación al grupo"
+ },
+ {
+  "kid": "K-R2-11-1",
+  "cid": "R2-11",
+  "enunciado": "Tu corresponsal dice: «Aquí hay mucho QRM; ¿hacemos `QSY` a 7,120?». Te está proponiendo:",
+  "opciones": [
+   "pasar los dos a 7,120 MHz para seguir el QSO allí",
+   "esperar unos minutos en la misma frecuencia",
+   "subir la potencia para tapar la interferencia",
+   "terminar el QSO y cerrar la estación"
+  ],
+  "clave": "a",
+  "sol": "`QSY` es «cambie de frecuencia»: ante la interferencia, propone continuar en 7,120. Esperar es `QRX`, subir la potencia es `QRO` y cerrar la estación es `QRT`.",
+  "fuente": "chapters/r02.typ:125",
+  "angulo": "caso práctico: del grupo a su significado dentro de una frase de QSO"
+ },
+ {
+  "kid": "K-R2-12-1",
+  "cid": "R2-12",
+  "enunciado": "En HF, la señal de tu corresponsal sube y baja lentamente de intensidad. ¿Con qué grupo se lo indicas?",
+  "opciones": [
+   "`QRM`",
+   "`QRH`",
+   "`QSD`",
+   "`QSB`"
+  ],
+  "clave": "d",
+  "sol": "La variación de intensidad de la señal recibida es el desvanecimiento, `QSB`. `QRM` es la interferencia de otras estaciones, `QRH` que su frecuencia varía (no su intensidad) y `QSD`, que la manipulación es defectuosa.",
+  "fuente": "chapters/r02.typ:58",
+  "angulo": "sentido inverso: del fenómeno observado al código"
+ },
+ {
+  "kid": "K-R2-13-1",
+  "cid": "R2-13",
+  "enunciado": "Al final de un contacto en CW recibes «`TNX QSO QSL VIA BURO`». ¿Qué te dice tu corresponsal?",
+  "opciones": [
+   "gracias por el comunicado; la tarjeta que lo confirma irá por el buró",
+   "gracias por el acuse de recibo; el próximo comunicado será por el buró",
+   "gracias por cambiar de frecuencia; la tarjeta irá por el buró",
+   "gracias por la confirmación; el comunicado se repetirá por el buró"
+  ],
+  "clave": "a",
+  "sol": "`QSO` es el comunicado entre dos estaciones y `QSL` el acuse de recibo, de donde viene la tarjeta QSL que confirma el contacto. Las demás intercambian los dos grupos o meten un cambio de frecuencia, que sería `QSY`.",
+  "fuente": "chapters/r02.typ:115",
+  "angulo": "caso práctico: interpretar los dos grupos en una frase real de despedida"
+ },
+ {
+  "kid": "K-R2-13-2",
+  "cid": "R2-13",
+  "enunciado": "En la jerga de los radioaficionados, «hicimos un ___ de media hora» y «te mando la ___». ¿Qué grupos completan las dos frases, en este orden?",
+  "opciones": [
+   "`QSO` y `QSL`",
+   "`QSL` y `QSO`",
+   "`QSO` y `QTC`",
+   "`QSY` y `QSL`"
+  ],
+  "clave": "a",
+  "sol": "Un contacto entre dos estaciones es un `QSO`, y la tarjeta que lo confirma es la `QSL`, del grupo de acuse de recibo. Intercambiarlos es la confusión típica; `QTC` son mensajes pendientes y `QSY`, cambio de frecuencia.",
+  "fuente": "chapters/r02.typ:140",
+  "angulo": "uso como sustantivo en la jerga, con la pareja invertida como distractor"
+ },
+ {
+  "kid": "K-R2-14-1",
+  "cid": "R2-14",
+  "enunciado": "En un QSO transmites «`QTH?`». ¿Qué le estás preguntando a tu corresponsal?",
+  "opciones": [
+   "¿cuál es su posición o localidad?",
+   "¿qué hora es exactamente?",
+   "¿cómo se llama su estación?",
+   "¿cuántos mensajes tiene para mí?"
+  ],
+  "clave": "a",
+  "sol": "`QTH` es la posición: «mi posición es…» y, con interrogación, la pregunta por ella. La hora exacta es `QTR`, el nombre de la estación es `QRA` y los mensajes pendientes, `QTC`: los cuatro se confunden porque todos informan de algo.",
+  "fuente": "chapters/r02.typ:62",
+  "angulo": "forma de pregunta del grupo, con los tres grupos que se confunden como distractores"
+ },
+ {
+  "kid": "K-R2-15-1",
+  "cid": "R2-15",
+  "enunciado": "Quieres pedir a tu corresponsal la hora exacta. Transmites:",
+  "opciones": [
+   "`QTR?`",
+   "`QTH?`",
+   "`QRG?`",
+   "`QTA?`"
+  ],
+  "clave": "a",
+  "sol": "`QTR` es la hora exacta; con interrogación la pide. `QTH` es la posición, `QRG` la frecuencia exacta (la palabra «exacta» despista) y `QTA` sirve para anular un mensaje.",
+  "fuente": "chapters/r02.typ:63",
+  "angulo": "sentido inverso: del significado al código, en forma de pregunta"
+ },
+ {
+  "kid": "K-R2-16-1",
+  "cid": "R2-16",
+  "enunciado": "Quieres preguntar en CW cómo se llama la estación con la que estás comunicando. Transmites:",
+  "opciones": [
+   "`QTH?`",
+   "`QRA?`",
+   "`QRB?`",
+   "`QRK?`"
+  ],
+  "clave": "b",
+  "sol": "`QRA` es el nombre de la estación: «¿cómo se llama su estación?». No es la posición, que es `QTH`; `QRB` es la distancia entre estaciones y `QRK`, la inteligibilidad de las señales.",
+  "fuente": "chapters/r02.typ:43",
+  "angulo": "sentido inverso: del significado al código"
+ },
+ {
+  "kid": "K-R2-17-1",
+  "cid": "R2-17",
+  "enunciado": "En el registro de un concurso de VHF anotas que el `QRB` de un contacto es 450. Ese número indica:",
+  "opciones": [
+   "la frecuencia exacta del contacto, en kHz",
+   "la distancia, en kilómetros, entre las dos estaciones",
+   "el número de mensajes pendientes",
+   "la hora del contacto"
+  ],
+  "clave": "b",
+  "sol": "`QRB` se refiere a la distancia entre estaciones; en concursos y en VHF se habla del QRB de un contacto para indicar los kilómetros cubiertos. La frecuencia exacta es `QRG`, los mensajes pendientes `QTC` y la hora, `QTR`.",
+  "fuente": "chapters/r02.typ:247",
+  "angulo": "caso práctico: el grupo usado en un registro de concurso"
+ },
+ {
+  "kid": "K-R2-18-1",
+  "cid": "R2-18",
+  "enunciado": "En una red de tráfico, una estación tiene tres mensajes para otra. ¿Cómo se lo anuncia?",
+  "opciones": [
+   "`QTA 3`",
+   "`QSP 3`",
+   "`QTC 3`",
+   "`QRU 3`"
+  ],
+  "clave": "c",
+  "sol": "`QTC` indica que se tienen mensajes para transmitir, y la cifra dice cuántos. `QTA` sirve para anular un mensaje, `QSP` es retransmitir gratuitamente a otra estación y `QRU` es «no tengo nada para usted».",
+  "fuente": "chapters/r02.typ:241",
+  "angulo": "sentido inverso y caso práctico con número de mensajes"
+ },
+ {
+  "kid": "K-R2-19-1",
+  "cid": "R2-19",
+  "enunciado": "No consigues contacto directo con una estación lejana, y otra estación que os oye a las dos acepta hacerle llegar tu mensaje sin cobrar nada. ¿Qué grupo describe ese servicio?",
+  "opciones": [
+   "`QRW`",
+   "`QTC`",
+   "`QSP`",
+   "`QSM`"
+  ],
+  "clave": "c",
+  "sol": "`QSP` es retransmitir gratuitamente a la estación indicada. `QRW` solo avisa a otra estación de que se la llama en una frecuencia, sin pasarle mensaje; `QTC` anuncia mensajes pendientes y `QSM` pide repetir el último mensaje.",
+  "fuente": "chapters/r02.typ:235",
+  "angulo": "caso práctico: de la situación al código, con `QRW` como distractor cercano"
+ },
+ {
+  "kid": "K-R2-20-1",
+  "cid": "R2-20",
+  "enunciado": "En CW trabajas de modo que oyes a tu corresponsal entre tus propias señales y él puede interrumpirte en cualquier momento. ¿Qué grupo lo indica?",
+  "opciones": [
+   "`QSK`",
+   "`QRL`",
+   "`QRV`",
+   "`QSV`"
+  ],
+  "clave": "a",
+  "sol": "`QSK` es «puedo oírle entre mis señales», el trabajo en break-in. `QRL` dice que la frecuencia está ocupada, `QRV` que se está dispuesto y `QSV` pide una serie de letras V.",
+  "fuente": "chapters/r02.typ:253",
+  "angulo": "sentido inverso: de la descripción del modo de trabajo al código"
+ },
+ {
+  "kid": "K-R2-21-1",
+  "cid": "R2-21",
+  "enunciado": "Un desvanecimiento profundo te ha hecho perder entero el último mensaje. Para pedir que te lo repitan transmites:",
+  "opciones": [
+   "`QSZ`",
+   "`QRS`",
+   "`QTA`",
+   "`QSM`"
+  ],
+  "clave": "d",
+  "sol": "`QSM` pide repetir el último mensaje. `QSZ` pide transmitir cada palabra o grupo dos veces, que no recupera lo ya perdido; `QRS` pide ir más despacio y `QTA`, anular el mensaje.",
+  "fuente": "chapters/r02.typ:80",
+  "angulo": "sentido inverso y caso práctico, con `QSZ` como distractor cercano"
+ },
+ {
+  "kid": "K-R2-22-1",
+  "cid": "R2-22",
+  "enunciado": "Llevas un rato llamando a una estación sin respuesta y preguntas a otra si te ha oído en 14 200 kHz. ¿Qué grupo resume la pregunta?",
+  "opciones": [
+   "`QSN?`",
+   "`QSX?`",
+   "`QRZ?`",
+   "`QRG?`"
+  ],
+  "clave": "a",
+  "sol": "`QSN?` pregunta «¿me ha oído usted (o ha oído a…) en… kHz?»: mira al pasado. `QSX?` pregunta si se quiere escuchar a alguien a partir de ahora, `QRZ?` es «¿quién me llama?» y `QRG?` pregunta por la frecuencia exacta.",
+  "fuente": "chapters/r02.typ:265",
+  "angulo": "sentido inverso y caso práctico: de la pregunta al código"
+ },
+ {
+  "kid": "K-R2-23-1",
+  "cid": "R2-23",
+  "enunciado": "Una estación de la red te transmite «`QSX EA8YYY 7050 kHz`». Te está diciendo que:",
+  "opciones": [
+   "ha oído antes a EA8YYY en 7050 kHz",
+   "avise a EA8YYY de que le llama en 7050 kHz",
+   "está escuchando a EA8YYY en 7050 kHz",
+   "EA8YYY se ha cambiado a 7050 kHz"
+  ],
+  "clave": "c",
+  "sol": "`QSX` como pregunta es «¿quiere escuchar a… en… kHz?» y como respuesta, «escucho a… en… kHz»: habla de una escucha presente o futura. Haberle oído antes es `QSN`, que mira al pasado; avisar de que se le llama es `QRW` y el cambio de frecuencia es `QSY`.",
+  "fuente": "chapters/ap-c2.typ:554",
+  "angulo": "forma afirmativa del grupo dentro de un mensaje, frente a `QSN`, `QRW` y `QSY`"
+ },
+ {
+  "kid": "K-R2-24-1",
+  "cid": "R2-24",
+  "enunciado": "En CW, los puntos y rayas de tu corresponsal llegan mal formados y con un ritmo irregular. ¿Con qué grupo se lo indicas?",
+  "opciones": [
+   "`QSD`",
+   "`QSB`",
+   "`QRH`",
+   "`QRS`"
+  ],
+  "clave": "a",
+  "sol": "`QSD` avisa de que la manipulación es defectuosa. `QSB` es el desvanecimiento de la señal, `QRH` que su frecuencia varía y `QRS` pide ir más despacio, que no corrige unos signos mal formados.",
+  "fuente": "chapters/r02.typ:271",
+  "angulo": "sentido inverso: del síntoma al código"
+ },
+ {
+  "kid": "K-R2-25-1",
+  "cid": "R2-25",
+  "enunciado": "Para ajustar la sintonía y el filtro del receptor sobre la señal de tu corresponsal, le pides que transmita una serie de una misma letra. ¿Qué grupo usas y qué letra transmitirá?",
+  "opciones": [
+   "`QSV`, y transmitirá una serie de letras V",
+   "`QRV`, y transmitirá una serie de letras V",
+   "`QSV`, y transmitirá una serie de letras S",
+   "`QSZ`, y repetirá varias veces la misma letra"
+  ],
+  "clave": "a",
+  "sol": "`QSV` pide transmitir una serie de V, cuyo ritmo en Morse es inconfundible y sirve para ajustar la recepción. `QRV` es «estoy dispuesto», aunque termine en V, y `QSZ` pide transmitir cada palabra o grupo dos veces.",
+  "fuente": "chapters/r02.typ:277",
+  "angulo": "sentido inverso: del propósito al código y a la letra"
+ },
+ {
+  "kid": "K-R2-26-1",
+  "cid": "R2-26",
+  "enunciado": "Tu amigo EA1ABC no te oye, pero EA4XYZ os oye a los dos. Quieres que EA4XYZ avise a EA1ABC de que le estás llamando en 3650 kHz. ¿Qué grupo usas?",
+  "opciones": [
+   "`QSX`",
+   "`QRW`",
+   "`QRZ`",
+   "`QTC`"
+  ],
+  "clave": "b",
+  "sol": "`QRW` es «avise a… de que le llamo en… kHz». `QSX` pide a alguien que escuche a otra estación, no que la avise; `QRZ` pregunta quién me llama y `QTC` anuncia mensajes pendientes.",
+  "fuente": "chapters/r02.typ:289",
+  "angulo": "caso práctico con tres estaciones: de la situación al código"
+ },
+ {
+  "kid": "K-R2-27-1",
+  "cid": "R2-27",
+  "enunciado": "En una red de emergencia transmitiste el mensaje número 5, que ha dejado de ser válido. Para retirarlo transmites:",
+  "opciones": [
+   "`QTC 5`",
+   "`QSM 5`",
+   "`QTA 5`",
+   "`QSP 5`"
+  ],
+  "clave": "c",
+  "sol": "`QTA` es «anule el mensaje número…», y sirve justo para retirar un mensaje que ya no vale. `QTC` anuncia mensajes pendientes, `QSM` pide repetir el último mensaje y `QSP` es retransmitirlo gratuitamente.",
+  "fuente": "chapters/r02.typ:295",
+  "angulo": "sentido inverso y caso práctico en una red de emergencia"
+ },
+ {
+  "kid": "K-R2-28-1",
+  "cid": "R2-28",
+  "enunciado": "En una red con varias estaciones esperando para transmitir, el director te contesta «`QRY 3`». ¿Qué te está diciendo?",
+  "opciones": [
+   "que la inteligibilidad de tus señales es 3",
+   "que esperes 3 minutos y vuelvas a llamar",
+   "que tu turno es el número 3",
+   "que tiene 3 mensajes para ti"
+  ],
+  "clave": "c",
+  "sol": "`QRY?` pregunta «¿cuál es mi turno?» y se contesta «su turno es el número…». La inteligibilidad es `QRK`, esperar es `QRX` y los mensajes pendientes, `QTC`.",
+  "fuente": "chapters/ap-c2.typ:548",
+  "angulo": "forma de respuesta del grupo, dentro de una red"
+ },
+ {
+  "kid": "K-R2-29-1",
+  "cid": "R2-29",
+  "enunciado": "Con mucho QRN, para no perder ninguna palabra, pides a tu corresponsal que transmita cada palabra o grupo dos veces. Usas:",
+  "opciones": [
+   "`QSM`",
+   "`QSZ`",
+   "`QSV`",
+   "`QRS`"
+  ],
+  "clave": "b",
+  "sol": "`QSZ` pide transmitir cada palabra o grupo dos veces (o las que se indiquen). `QSM` repite el último mensaje ya enviado, `QSV` pide una serie de V y `QRS`, transmitir más despacio.",
+  "fuente": "chapters/ap-c2.typ:560",
+  "angulo": "sentido inverso: del significado al código, en una situación de QSO"
+ }
+]

@@ -1,0 +1,1097 @@
+[
+ {
+  "kid": "K-T2-01-1",
+  "cid": "T2-01",
+  "enunciado": "En la primera banda de color de una resistencia aparece el gris. ¿Qué cifra indica?",
+  "opciones": [
+   "8",
+   "7",
+   "9",
+   "0"
+  ],
+  "clave": "a",
+  "sol": "Las cifras van del negro (0) al blanco (9): negro, marrón, rojo, naranja, amarillo, verde, azul, violeta, gris y blanco. El gris es, pues, el 8, justo antes del blanco. El 7 es el violeta y el 9 el blanco; el 0 corresponde al negro, no al gris, aunque ambos sean colores «sin color».",
+  "fuente": "chapters/t02.typ:195",
+  "angulo": "dato al revés: del color a la cifra, con un color distinto del de estudio (gris)"
+ },
+ {
+  "kid": "K-T2-02-1",
+  "cid": "T2-02",
+  "enunciado": "¿Qué bandas de color, por este orden, identifican una resistencia de 4,7 kΩ con una tolerancia del 10 %?",
+  "opciones": [
+   "amarillo, violeta, naranja, plata",
+   "amarillo, violeta, rojo, plata",
+   "amarillo, violeta, rojo, oro",
+   "violeta, amarillo, rojo, plata"
+  ],
+  "clave": "b",
+  "sol": "4,7 kΩ son 4700 Ω: cifras 4 (amarillo) y 7 (violeta) y dos ceros, es decir, multiplicador rojo ($times 10^2$); la plata es el ±10 %. Con naranja como multiplicador saldrían tres ceros, 47 kΩ. El oro indicaría ±5 %, y el orden violeta-amarillo daría 7,4 kΩ.",
+  "fuente": "chapters/t02.typ:251",
+  "angulo": "cálculo inverso: dado el valor y la tolerancia, hallar los colores"
+ },
+ {
+  "kid": "K-T2-03-1",
+  "cid": "T2-03",
+  "enunciado": "Una resistencia lleva las bandas rojo, rojo, naranja y plata. Su valor real puede estar comprendido entre:",
+  "opciones": [
+   "20,9 kΩ y 23,1 kΩ",
+   "21,78 kΩ y 22,22 kΩ",
+   "19,8 kΩ y 24,2 kΩ",
+   "17,6 kΩ y 26,4 kΩ"
+  ],
+  "clave": "c",
+  "sol": "Rojo, rojo y naranja dan 22 y tres ceros: 22 kΩ. La cuarta banda, plata, es la tolerancia de ±10 %, es decir, ±2,2 kΩ: de 19,8 a 24,2 kΩ. El intervalo de 20,9 a 23,1 kΩ corresponde al oro (±5 %) y el de 21,78 a 22,22 kΩ al marrón (±1 %).",
+  "fuente": "chapters/t02.typ:240",
+  "angulo": "aplicación: usar la tolerancia de la cuarta banda para hallar el intervalo del valor real"
+ },
+ {
+  "kid": "K-T2-04-1",
+  "cid": "T2-04",
+  "enunciado": "Vas a sustituir una resistencia quemada de un equipo. Además de su valor óhmico, ¿qué dos datos debe respetar la nueva resistencia?",
+  "opciones": [
+   "la frecuencia de trabajo y la polaridad",
+   "la capacidad parásita y la tensión de ruptura inversa",
+   "el color del cuerpo y la ganancia de corriente",
+   "la potencia que puede disipar y su tolerancia"
+  ],
+  "clave": "d",
+  "sol": "Una resistencia fija queda definida por su valor, la potencia que puede disipar sin quemarse ($P = I^2 R$) y su tolerancia. Una pieza del mismo valor pero de menos potencia volvería a quemarse. La polaridad, la tensión de ruptura inversa o la ganancia son propias de diodos, electrolíticos y transistores, no de una resistencia.",
+  "fuente": "chapters/t02.typ:144",
+  "angulo": "caso práctico: sustitución de una pieza quemada, con distractores de otros componentes"
+ },
+ {
+  "kid": "K-T2-05-1",
+  "cid": "T2-05",
+  "enunciado": "Una resistencia de 400 Ω está marcada como de 1/4 W. ¿Cuál es la mayor corriente que puede soportar de forma continuada sin quemarse?",
+  "opciones": [
+   "25 mA",
+   "0,625 mA",
+   "250 mA",
+   "10 A"
+  ],
+  "clave": "a",
+  "sol": "De $P = I^2 R$ sale $I = sqrt(P / R) = sqrt(0,25 / 400) = 0,025$ A, es decir, 25 mA. Dividir P entre R sin hacer la raíz da 0,625 mA. El 10 de la última opción es $sqrt(P R)$, que es la tensión máxima (10 V), no la corriente.",
+  "fuente": "chapters/t02.typ:151",
+  "angulo": "otra magnitud de la misma fórmula: corriente máxima en lugar de tensión máxima, con otros datos"
+ },
+ {
+  "kid": "K-T2-08-1",
+  "cid": "T2-08",
+  "enunciado": "La bobina de un equipo, devanada con hilo de cobre, presenta 2 Ω medida en frío. Tras un rato de funcionamiento el hilo se ha calentado. Su resistencia será:",
+  "opciones": [
+   "algo menor de 2 Ω, porque el calor libera portadores",
+   "algo mayor de 2 Ω",
+   "exactamente 2 Ω, porque el cobre no varía con la temperatura",
+   "prácticamente nula"
+  ],
+  "clave": "b",
+  "sol": "En los metales la resistividad aumenta con la temperatura, porque las vibraciones de la red dispersan a los electrones: todo conductor metálico se comporta como un PTC suave. Que el calor libere portadores y baje la resistencia es lo que ocurre en los semiconductores (el NTC), no en el cobre.",
+  "fuente": "chapters/t02.typ:144",
+  "angulo": "caso práctico: consecuencia sobre un hilo de cobre concreto; distractor del comportamiento semiconductor"
+ },
+ {
+  "kid": "K-T2-09-1",
+  "cid": "T2-09",
+  "enunciado": "Un componente en serie con la alimentación hace de fusible rearmable: si pasa demasiada corriente se calienta, su resistencia se dispara y la corriente cae sola. Se trata de:",
+  "opciones": [
+   "un termistor NTC",
+   "un varistor (VDR)",
+   "un termistor PTC",
+   "una LDR"
+  ],
+  "clave": "c",
+  "sol": "El PTC sube su resistencia al aumentar la temperatura; al calentarse por el exceso de corriente, frena esa misma corriente. El NTC hace lo contrario (baja con el calor) y por eso sirve como limitador de arranque, no como fusible. El varistor depende de la tensión y la LDR de la luz.",
+  "fuente": "chapters/t02.typ:287",
+  "angulo": "del comportamiento en un caso práctico al nombre del componente (PTC como fusible rearmable)"
+ },
+ {
+  "kid": "K-T2-10-1",
+  "cid": "T2-10",
+  "enunciado": "Para proteger un equipo contra los picos de tensión de la red se emplea un varistor. ¿Cómo se conecta y qué hace ante un pico?",
+  "opciones": [
+   "en serie con la entrada de red; al calentarse su resistencia aumenta y corta la corriente",
+   "en serie con la entrada de red; su resistencia aumenta con la tensión y bloquea el pico",
+   "en paralelo con la entrada de red; al recibir luz pasa a conducir",
+   "en paralelo con la entrada de red; al superar su umbral su resistencia se desploma y recorta el pico"
+  ],
+  "clave": "d",
+  "sol": "El varistor (VDR) es casi un aislante a la tensión normal y casi un cortocircuito por encima de su umbral: en paralelo con la entrada, deriva el pico antes de que llegue al equipo. Su resistencia baja con la tensión, no sube. La reacción al calor es propia del termistor y la de la luz, de la LDR.",
+  "fuente": "chapters/t02.typ:289",
+  "angulo": "aplicación: cómo se monta y cómo actúa como protector, no solo su definición"
+ },
+ {
+  "kid": "K-T2-14-1",
+  "cid": "T2-14",
+  "enunciado": "En el cuerpo de un condensador se lee «47 μF». ¿Qué magnitud indica ese dato?",
+  "opciones": [
+   "su capacidad",
+   "la carga eléctrica que almacena",
+   "su autoinducción",
+   "su reactancia a 50 Hz"
+  ],
+  "clave": "a",
+  "sol": "El faradio y sus submúltiplos (μF, nF, pF) miden la capacidad: la carga que el condensador guarda por cada voltio aplicado. La carga se mide en culombios y depende además de la tensión a la que se cargue ($Q = C V$). La autoinducción se mide en henrios y la reactancia en ohmios.",
+  "fuente": "chapters/t02.typ:375",
+  "angulo": "dato al revés: de la unidad leída en el componente a la magnitud, con la trampa faradio-carga"
+ },
+ {
+  "kid": "K-T2-15-1",
+  "cid": "T2-15",
+  "enunciado": "Un condensador de 10 μF se carga a 50 V. ¿Qué carga eléctrica almacena?",
+  "opciones": [
+   "0,2 μC",
+   "500 μC",
+   "5 mC",
+   "12,5 mJ"
+  ],
+  "clave": "b",
+  "sol": "De $C = Q / V$ sale $Q = C V = 10 dot 10^(-6) dot 50 = 5 dot 10^(-4)$ C, es decir, 500 μC. Dividir C entre V da 0,2 μC. Los 12,5 mJ son la energía almacenada ($1/2 C V^2$), que es otra magnitud y se mide en julios.",
+  "fuente": "chapters/t02.typ:375",
+  "angulo": "cálculo con la fórmula C = Q/V (hallar la carga), con la energía como distractor"
+ },
+ {
+  "kid": "K-T2-17-1",
+  "cid": "T2-17",
+  "enunciado": "En un condensador plano se duplica la superficie de las placas enfrentadas y, a la vez, se duplica la separación entre ellas. Su capacidad:",
+  "opciones": [
+   "se duplica",
+   "se cuadruplica",
+   "no varía",
+   "se reduce a la mitad"
+  ],
+  "clave": "c",
+  "sol": "Según $C = epsilon S / d$, duplicar la superficie duplica la capacidad y duplicar la separación la reduce a la mitad: los dos efectos se compensan. Se cuadruplicaría si la separación se redujera a la mitad en vez de duplicarse.",
+  "fuente": "chapters/t02.typ:376",
+  "angulo": "combinar dos variables de la fórmula C = εS/d en lugar de una sola"
+ },
+ {
+  "kid": "K-T2-18-1",
+  "cid": "T2-18",
+  "enunciado": "Si la frecuencia de la señal aplicada a un condensador se reduce a la mitad, su reactancia:",
+  "opciones": [
+   "se reduce a la mitad",
+   "no varía",
+   "se reduce a la cuarta parte",
+   "se duplica"
+  ],
+  "clave": "d",
+  "sol": "La reactancia capacitiva $X_C = 1 / (2 pi f C)$ es inversamente proporcional a la frecuencia: a menos frecuencia, más reactancia. Con la mitad de frecuencia, el doble de reactancia. Reducirla a la mitad sería el comportamiento de una bobina.",
+  "fuente": "chapters/t02.typ:379",
+  "angulo": "sentido contrario (bajar la frecuencia) y cuantitativo"
+ },
+ {
+  "kid": "K-T2-19-1",
+  "cid": "T2-19",
+  "enunciado": "¿Qué capacidad debe tener un condensador para presentar una reactancia de unos 160 Ω a 10 MHz?",
+  "opciones": [
+   "unos 100 pF",
+   "unos 10 pF",
+   "unos 1 nF",
+   "unos 625 pF"
+  ],
+  "clave": "a",
+  "sol": "Despejando, $C = 1 / (2 pi f X_C) = 1 / (2 pi dot 10^7 dot 160) approx 10^(-10)$ F, unos 100 pF. Si se olvida el $2 pi$ sale el valor de 625 pF. Las otras dos opciones son errores de un factor 10.",
+  "fuente": "chapters/t02.typ:379",
+  "angulo": "cálculo inverso: dada la reactancia y la frecuencia, hallar la capacidad"
+ },
+ {
+  "kid": "K-T2-20-1",
+  "cid": "T2-20",
+  "enunciado": "Un condensador de 100 μF cargado a 400 V almacena una energía de:",
+  "opciones": [
+   "16 J",
+   "8 J",
+   "0,04 J",
+   "0,02 J"
+  ],
+  "clave": "b",
+  "sol": "$E = 1/2 C V^2 = 0,5 dot 10^(-4) dot 400^2 = 8$ J. Si se olvida el factor 1/2 salen 16 J. Los 0,04 corresponden a $C V$, que es la carga en culombios y no una energía.",
+  "fuente": "chapters/t02.typ:377",
+  "angulo": "cálculo numérico con la fórmula en lugar de elegir la expresión"
+ },
+ {
+  "kid": "K-T2-21-1",
+  "cid": "T2-21",
+  "enunciado": "Al cortar bruscamente la corriente que circula por la bobina de un relé aparece entre sus terminales una sobretensión. Se debe a que la bobina:",
+  "opciones": [
+   "se opone a las variaciones de la tensión entre sus terminales",
+   "almacena carga eléctrica entre sus espiras",
+   "se opone a las variaciones de la corriente que la recorre",
+   "rectifica la corriente al interrumpirse"
+  ],
+  "clave": "c",
+  "sol": "La bobina responde a los cambios de corriente con una fem opuesta, $e = -L (dif i) / (dif t)$: si la corriente se corta de golpe, la fem es muy grande. Oponerse a las variaciones de tensión es lo propio del condensador, su dual, y almacenar carga también es cosa del condensador.",
+  "fuente": "chapters/t02.typ:596",
+  "angulo": "caso práctico (sobretensión al abrir un relé) para el lado de la bobina del par tensión/corriente"
+ },
+ {
+  "kid": "K-T2-22-1",
+  "cid": "T2-22",
+  "enunciado": "Se conecta un condensador descargado en serie con una resistencia a una pila. ¿Cómo evoluciona la corriente en el circuito?",
+  "opciones": [
+   "es nula desde el primer instante, porque el condensador no deja pasar la continua",
+   "es constante mientras la pila esté conectada",
+   "empieza siendo nula y crece hasta un valor fijo",
+   "es máxima al cerrar el circuito y disminuye hasta anularse cuando el condensador se ha cargado"
+  ],
+  "clave": "d",
+  "sol": "Al principio el condensador está descargado y toda la tensión cae en la resistencia: la corriente arranca en V/R. A medida que se carga, su tensión se opone a la de la pila y la corriente se apaga hasta anularse. Decir que no pasa corriente desde el primer instante olvida esa carga inicial.",
+  "fuente": "chapters/t02.typ:417",
+  "angulo": "otra consecuencia del mismo hecho: la forma de la corriente de carga en lugar de si se cargan o no"
+ },
+ {
+  "kid": "K-T2-23-1",
+  "cid": "T2-23",
+  "enunciado": "Un condensador de 47 μF se carga a través de una resistencia de 100 kΩ. ¿Al cabo de cuánto tiempo, aproximadamente, estará prácticamente cargado?",
+  "opciones": [
+   "unos 23,5 s",
+   "unos 4,7 s",
+   "unos 0,47 s",
+   "unos 2,35 s"
+  ],
+  "clave": "a",
+  "sol": "La constante de tiempo es $tau = R C = 10^5 dot 47 dot 10^(-6) = 4,7$ s, y la carga es prácticamente completa en unos $5 tau$, es decir, unos 23,5 s. Los 4,7 s son un solo $tau$, cuando el condensador solo ha llegado al 63 %.",
+  "fuente": "chapters/t02.typ:415",
+  "angulo": "cálculo: tiempo de carga completa (5τ) con datos, en lugar del porcentaje en un τ"
+ },
+ {
+  "kid": "K-T2-25-1",
+  "cid": "T2-25",
+  "enunciado": "¿Por qué un condensador electrolítico consigue una capacidad muy grande en poco volumen?",
+  "opciones": [
+   "porque su dieléctrico es una lámina gruesa de mica, que aguanta mucha tensión",
+   "porque su dieléctrico es una capa de óxido finísima, de modo que la separación entre armaduras es minúscula",
+   "porque usa aire como dieléctrico, sin pérdidas",
+   "porque el electrolito almacena la carga por reacción química, como una batería"
+  ],
+  "clave": "b",
+  "sol": "En el electrolítico el dieléctrico es una capa de óxido de espesor casi nulo formada sobre el ánodo, en contacto con el electrolito. Como $C = epsilon S / d$ y $d$ es minúsculo, la capacidad resulta enorme. Un dieléctrico grueso, como una lámina de mica, haría justo lo contrario.",
+  "fuente": "chapters/t02.typ:1790",
+  "angulo": "otra consecuencia del mismo hecho: por qué la capa de óxido da tanta capacidad"
+ },
+ {
+  "kid": "K-T2-26-1",
+  "cid": "T2-26",
+  "enunciado": "¿Qué le ocurre a un condensador electrolítico si se conecta con la polaridad invertida?",
+  "opciones": [
+   "funciona igual, porque en continua la polaridad no importa",
+   "se comporta como un diodo y rectifica la tensión",
+   "se degrada y puede llegar a reventar",
+   "su capacidad aumenta ligeramente"
+  ],
+  "clave": "c",
+  "sol": "Los electrolíticos son polarizados: la capa de óxido que hace de dieléctrico solo se mantiene con la polaridad correcta, y conectados al revés se degradan y pueden reventar. Por eso siempre se respeta la marca de polaridad. Pensar que la polaridad no importa en continua es justo el error que destruye el componente.",
+  "fuente": "chapters/t02.typ:532",
+  "angulo": "consecuencia de no respetar la polaridad en lugar de la regla de montaje"
+ },
+ {
+  "kid": "K-T2-27-1",
+  "cid": "T2-27",
+  "enunciado": "¿En cuál de estos puntos de un transceptor sería un error emplear un condensador electrolítico?",
+  "opciones": [
+   "en el filtro que sigue al rectificador de la fuente de alimentación",
+   "en el acoplo entre dos etapas de audio",
+   "en el filtrado de la alimentación del amplificador de audio",
+   "en el circuito resonante del oscilador de 14 MHz"
+  ],
+  "clave": "d",
+  "sol": "El electrolítico ofrece mucha capacidad en poco volumen, pero tiene fugas, es polarizado y se comporta mal en RF: su sitio es el filtro de la fuente y los circuitos de audio. En un circuito resonante de radiofrecuencia se usan condensadores de mica, cerámica o aire.",
+  "fuente": "chapters/t02.typ:471",
+  "angulo": "pregunta en negativo: dónde no se usa, con usos correctos (fuente y audio) como distractores"
+ },
+ {
+  "kid": "K-T2-34-1",
+  "cid": "T2-34",
+  "enunciado": "Has apagado y desenchufado un amplificador lineal valvular y vas a abrirlo. Sus condensadores de filtro de alta tensión:",
+  "opciones": [
+   "pueden conservar una carga peligrosa: hay que descargarlos uniendo sus armaduras a través de una resistencia, con un útil aislado",
+   "se descargan solos al instante en cuanto se desenchufa el equipo",
+   "se descargan con seguridad cortocircuitándolos con un destornillador sujeto con la mano",
+   "se descargan invirtiendo la polaridad de la alimentación"
+  ],
+  "clave": "a",
+  "sol": "Un condensador puede guardar su carga durante horas, y en un lineal valvular son cientos o miles de voltios. Se descarga uniendo las armaduras a través de una resistencia y con un útil aislado. El destornillador a pelo produce una descarga brusca y expone a quien lo sostiene.",
+  "fuente": "chapters/t02.typ:587",
+  "angulo": "caso práctico (lineal valvular) con distractores sobre la forma insegura de descargarlo"
+ },
+ {
+  "kid": "K-T2-35-1",
+  "cid": "T2-35",
+  "enunciado": "Una bobina de choque de RF lleva la indicación «2,5 mH». ¿Qué magnitud expresa ese dato?",
+  "opciones": [
+   "su capacidad parásita",
+   "su autoinducción",
+   "el flujo magnético que crea",
+   "su reactancia a la frecuencia de trabajo"
+  ],
+  "clave": "b",
+  "sol": "El henrio (H) y sus submúltiplos miden la autoinducción L de una bobina. La capacidad se mide en faradios, el flujo magnético en webers y la reactancia en ohmios.",
+  "fuente": "chapters/t02.typ:703",
+  "angulo": "dato al revés: de la unidad escrita en el componente a la magnitud"
+ },
+ {
+  "kid": "K-T2-36-1",
+  "cid": "T2-36",
+  "enunciado": "Una bobina de 20 mH recorrida por una corriente continua de 2 A almacena:",
+  "opciones": [
+   "40 mJ, en su campo eléctrico",
+   "80 mJ, en su campo magnético",
+   "40 mJ, en su campo magnético",
+   "20 mJ, en su campo eléctrico"
+  ],
+  "clave": "c",
+  "sol": "La bobina guarda la energía en el campo magnético de su corriente: $E = 1/2 L I^2 = 0,5 dot 0,02 dot 2^2 = 0,04$ J = 40 mJ. Sin el factor 1/2 salen 80 mJ. El campo eléctrico es donde guarda la energía el condensador.",
+  "fuente": "chapters/t02.typ:596",
+  "angulo": "cálculo de la energía y, a la vez, dónde se almacena"
+ },
+ {
+  "kid": "K-T2-37-1",
+  "cid": "T2-37",
+  "enunciado": "Se quiere aumentar la autoinducción de una bobina sin cambiar sus dimensiones. ¿Qué medida lo consigue?",
+  "opciones": [
+   "hacerla trabajar a una frecuencia más alta",
+   "hacer circular por ella una corriente mayor",
+   "separar las espiras alargando el devanado",
+   "devanar el doble de espiras en el mismo espacio, con lo que L se multiplica por cuatro"
+  ],
+  "clave": "d",
+  "sol": "La autoinducción depende de cómo está construida la bobina: crece como el cuadrado del número de espiras, con el diámetro y con el núcleo, y baja al alargar el devanado. La frecuencia aumenta la reactancia $X_L$, no L, y la corriente que la recorre no cambia la autoinducción.",
+  "fuente": "chapters/t02.typ:652",
+  "angulo": "otro factor constructivo (número de espiras) frente a factores de la señal"
+ },
+ {
+  "kid": "K-T2-39-1",
+  "cid": "T2-39",
+  "enunciado": "Una bobina presenta una reactancia de 300 Ω a 7 MHz. ¿Cuál será su reactancia a 21 MHz?",
+  "opciones": [
+   "900 Ω",
+   "100 Ω",
+   "2700 Ω",
+   "300 Ω"
+  ],
+  "clave": "a",
+  "sol": "$X_L = 2 pi f L$ es directamente proporcional a la frecuencia: al triplicarla, la reactancia se triplica, de 300 a 900 Ω. Dividir entre tres (100 Ω) sería el comportamiento de un condensador, y 2700 Ω supondría una dependencia con el cuadrado de la frecuencia.",
+  "fuente": "chapters/t02.typ:597",
+  "angulo": "proporcionalidad con otro factor (×3) y datos numéricos"
+ },
+ {
+  "kid": "K-T2-39-2",
+  "cid": "T2-39",
+  "enunciado": "El choque de RF que alimenta el colector de un transistor final deja llegar los 13,8 V de la fuente y, en cambio, frena la RF. ¿Por qué?",
+  "opciones": [
+   "porque su reactancia es infinita en continua y nula en radiofrecuencia",
+   "porque su reactancia es nula en continua y muy grande en radiofrecuencia",
+   "porque su reactancia disminuye al aumentar la frecuencia",
+   "porque rectifica la radiofrecuencia y la convierte en continua"
+  ],
+  "clave": "b",
+  "sol": "Con $X_L = 2 pi f L$, en continua ($f = 0$) la bobina ideal es un cable y el colector recibe la tensión de la fuente; en RF su reactancia es de miles de ohmios y la señal no se escapa hacia la fuente. Una reactancia que baja con la frecuencia es la del condensador.",
+  "fuente": "chapters/t02.typ:689",
+  "angulo": "aplicación práctica (choque de RF) de los dos extremos: f = 0 y RF"
+ },
+ {
+  "kid": "K-T2-40-1",
+  "cid": "T2-40",
+  "enunciado": "¿Qué autoinducción debe tener una bobina para presentar una reactancia de unos 628 Ω a 10 MHz?",
+  "opciones": [
+   "1 μH",
+   "100 μH",
+   "10 μH",
+   "62,8 μH"
+  ],
+  "clave": "c",
+  "sol": "Despejando, $L = X_L / (2 pi f) = 628 / (2 pi dot 10^7) approx 10^(-5)$ H, es decir, 10 μH. Si se olvida el $2 pi$ salen 62,8 μH. Las otras dos opciones son errores de un factor 10.",
+  "fuente": "chapters/t02.typ:597",
+  "angulo": "cálculo inverso: dada la reactancia y la frecuencia, hallar la autoinducción"
+ },
+ {
+  "kid": "K-T2-41-1",
+  "cid": "T2-41",
+  "enunciado": "Se aplica una tensión alterna sinusoidal a un condensador ideal. ¿Qué relación de fase hay entre la corriente y la tensión?",
+  "opciones": [
+   "la corriente retrasa 90° respecto a la tensión",
+   "están en fase",
+   "están en oposición de fase (180°)",
+   "la corriente adelanta 90° a la tensión"
+  ],
+  "clave": "d",
+  "sol": "En el condensador, de $i = C (dif v) / (dif t)$ resulta que la corriente adelanta 90° a la tensión. Es el caso dual de la bobina, donde es la tensión la que adelanta 90° a la corriente; confundir ambos da la opción del retraso. En fase solo están en una resistencia.",
+  "fuente": "chapters/t02.typ:702",
+  "angulo": "el otro componente del par: el condensador en lugar de la bobina"
+ },
+ {
+  "kid": "K-T2-43-1",
+  "cid": "T2-43",
+  "enunciado": "En algunos circuitos de RF las bobinas se hacen con tubo de cobre hueco o con hilo plateado. ¿Por qué?",
+  "opciones": [
+   "porque en RF la corriente circula casi solo por la superficie del conductor, de modo que el interior apenas aporta y conviene que la superficie conduzca bien",
+   "porque en RF la corriente se concentra en el centro del conductor, y el tubo la obliga a repartirse por toda la sección",
+   "porque el aire del interior del tubo aumenta la autoinducción de la bobina sin añadir espiras",
+   "porque a frecuencias altas la resistencia del conductor disminuye, y el tubo y la plata la vuelven a subir"
+  ],
+  "clave": "a",
+  "sol": "Por el efecto pelicular, la corriente de RF se concentra en una corteza muy fina de la superficie: el interior de una barra maciza no trabaja y un tubo hueco conduce casi igual. Como la corriente va por fuera, platear la superficie mejora la conducción. Por esa misma razón la resistencia efectiva en RF aumenta, no disminuye.",
+  "fuente": "chapters/t02.typ:631",
+  "angulo": "consecuencia práctica del efecto pelicular (tubo hueco, hilo plateado)"
+ },
+ {
+  "kid": "K-T2-47-1",
+  "cid": "T2-47",
+  "enunciado": "¿Cómo pasa la energía del primario al secundario de un transformador?",
+  "opciones": [
+   "por la corriente continua que pasa del primario al secundario a través del núcleo",
+   "a través del flujo magnético que comparten las dos bobinas, sin conexión eléctrica entre ellas",
+   "por un condensador interno que une ambos devanados",
+   "por conducción directa a través de las espiras, que están soldadas entre sí"
+  ],
+  "clave": "b",
+  "sol": "El transformador son dos bobinas acopladas: la alterna del primario crea un flujo variable que atraviesa el secundario e induce en él otra tensión alterna. No hay unión eléctrica entre devanados, y por eso el transformador también aísla el equipo de la red. Con continua el flujo no cambia y no se transfiere nada.",
+  "fuente": "chapters/t02.typ:761",
+  "angulo": "mecanismo: cómo se acoplan las dos bobinas, en lugar de para qué sirve"
+ },
+ {
+  "kid": "K-T2-48-1",
+  "cid": "T2-48",
+  "enunciado": "Por error se conecta el primario de un transformador de 230/12 V a una batería de 12 V. Una vez establecida la corriente, ¿qué tensión aparece en el secundario?",
+  "opciones": [
+   "unos 0,6 V",
+   "12 V",
+   "ninguna",
+   "230 V"
+  ],
+  "clave": "c",
+  "sol": "Un transformador solo induce tensión en el secundario si el flujo cambia; con continua el flujo es constante y no se induce nada. Los 0,6 V salen de aplicar la relación de espiras ($12 dot 12 / 230$), que solo vale en alterna.",
+  "fuente": "chapters/t02.typ:793",
+  "angulo": "caso práctico con una trampa de cálculo (aplicar la relación de espiras a la continua)"
+ },
+ {
+  "kid": "K-T2-49-1",
+  "cid": "T2-49",
+  "enunciado": "Un transformador ideal da 46 V en el secundario cuando se aplican 230 V al primario. ¿Cuál es su relación de espiras primario/secundario?",
+  "opciones": [
+   "1:5",
+   "184:1",
+   "25:1",
+   "5:1"
+  ],
+  "clave": "d",
+  "sol": "La relación de espiras coincide con la de tensiones: $N_p / N_s = V_p / V_s = 230 / 46 = 5$. 1:5 corresponde a un elevador, 184 es la diferencia de tensiones y 25 el cuadrado de la relación, que es lo que se aplica a las impedancias.",
+  "fuente": "chapters/t02.typ:762",
+  "angulo": "cálculo inverso: de las tensiones a la relación de espiras"
+ },
+ {
+  "kid": "K-T2-50-1",
+  "cid": "T2-50",
+  "enunciado": "Con 1200 espiras en el primario y 60 en el secundario, ¿qué hace este transformador con la tensión?",
+  "opciones": [
+   "la reduce 20 veces: es un reductor",
+   "la eleva 20 veces: es un elevador",
+   "la reduce 400 veces: es un reductor",
+   "no la cambia, porque la tensión no depende de las espiras"
+  ],
+  "clave": "a",
+  "sol": "Con menos espiras en el secundario que en el primario, el transformador es reductor, y la tensión baja en la misma proporción que las espiras: 1200/60 = 20. El factor 400 es el cuadrado de la relación, que corresponde a las impedancias, no a las tensiones.",
+  "fuente": "chapters/t02.typ:765",
+  "angulo": "caso contrario al de estudio (reductor) con números concretos"
+ },
+ {
+  "kid": "K-T2-51-1",
+  "cid": "T2-51",
+  "enunciado": "Un transformador ideal con 500 espiras en el primario debe dar 12 V en el secundario a partir de 230 V. ¿Cuántas espiras necesita el secundario?",
+  "opciones": [
+   "unas 9580",
+   "unas 26",
+   "unas 19",
+   "unas 42"
+  ],
+  "clave": "b",
+  "sol": "De $V_s / V_p = N_s / N_p$ sale $N_s = 500 dot 12 / 230 approx 26$ espiras. Invertir la relación da unas 9580, que corresponderían a un elevador. Las otras dos cifras salen de dividir solo 230 o 500 entre 12.",
+  "fuente": "chapters/t02.typ:762",
+  "angulo": "cálculo inverso: dada la tensión deseada, hallar las espiras del secundario"
+ },
+ {
+  "kid": "K-T2-52-1",
+  "cid": "T2-52",
+  "enunciado": "Un transformador ideal reduce 230 V a 23 V. Si el primario toma 0,2 A, ¿qué corriente entrega el secundario?",
+  "opciones": [
+   "0,02 A",
+   "0,2 A",
+   "2 A",
+   "20 A"
+  ],
+  "clave": "c",
+  "sol": "En el transformador ideal la potencia se conserva ($V_p I_p = V_s I_s$): si la tensión baja 10 veces, la corriente sube 10 veces, de 0,2 A a 2 A. Bajar la corriente igual que la tensión (0,02 A) violaría la conservación de la potencia, y 20 A supondría aplicar el cuadrado de la relación.",
+  "fuente": "chapters/t02.typ:763",
+  "angulo": "cálculo en el otro sentido: del primario al secundario, con otros datos"
+ },
+ {
+  "kid": "K-T2-53-1",
+  "cid": "T2-53",
+  "enunciado": "Una válvula de audio necesita ver en su placa una carga de unos 5000 Ω, y el altavoz es de 8 Ω. ¿Qué se intercala entre ambos para adaptarlos sin desperdiciar la potencia en calor?",
+  "opciones": [
+   "una resistencia en serie de unos 4992 Ω",
+   "un diodo zéner",
+   "un condensador electrolítico",
+   "un transformador"
+  ],
+  "clave": "d",
+  "sol": "El transformador adapta impedancias: con la relación de espiras adecuada, el altavoz de 8 Ω «parece» desde la válvula una carga de 5000 Ω. Una resistencia en serie sumaría los ohmios que faltan, pero disiparía en calor casi toda la potencia.",
+  "fuente": "chapters/t02.typ:801",
+  "angulo": "caso práctico (transformador de salida de audio) con una alternativa disipativa como distractor"
+ },
+ {
+  "kid": "K-T2-54-1",
+  "cid": "T2-54",
+  "enunciado": "Se conecta una carga de 800 Ω al secundario de un transformador ideal cuyo secundario tiene cuatro veces más espiras que el primario. ¿Qué impedancia presenta el primario al generador?",
+  "opciones": [
+   "50 Ω",
+   "200 Ω",
+   "3200 Ω",
+   "12 800 Ω"
+  ],
+  "clave": "a",
+  "sol": "$Z_p = (N_p / N_s)^2 Z_s = (1/4)^2 dot 800 = 800 / 16 = 50$ Ω. Aplicar la relación sin elevarla al cuadrado da 200 Ω. Las otras dos opciones invierten la relación, con y sin el cuadrado.",
+  "fuente": "chapters/t02.typ:764",
+  "angulo": "mismo cálculo con relación elevadora (1:4) y otros datos"
+ },
+ {
+  "kid": "K-T2-61-1",
+  "cid": "T2-61",
+  "enunciado": "Un diodo se conecta en serie entre una pila y una bombilla, y la bombilla luce. Si se da la vuelta al diodo, la bombilla:",
+  "opciones": [
+   "luce igual, porque el diodo conduce en los dos sentidos",
+   "se apaga, porque el diodo queda polarizado en inversa y bloquea la corriente",
+   "luce con la mitad de brillo, porque solo pasa media corriente",
+   "luce con más brillo, porque en inversa el diodo no tiene caída de tensión"
+  ],
+  "clave": "b",
+  "sol": "El diodo deja pasar la corriente en un solo sentido: en directa conduce, y en inversa su zona de deplexión se ensancha y bloquea, salvo una pequeña corriente de fuga. La idea de la mitad de brillo confunde este caso con un rectificador de media onda en alterna; con una pila no hay semiciclos.",
+  "fuente": "chapters/t02.typ:917",
+  "angulo": "caso práctico: efecto de invertir el diodo en un circuito de continua"
+ },
+ {
+  "kid": "K-T2-62-1",
+  "cid": "T2-62",
+  "enunciado": "¿En cuál de estas etapas de un receptor de AM se emplea típicamente un diodo?",
+  "opciones": [
+   "en el oscilador local, que genera la señal que se mezcla con la de antena",
+   "en el amplificador de frecuencia intermedia, que da la mayor parte de la ganancia",
+   "en el detector, que recupera el audio de la señal modulada",
+   "en el amplificador de audio, que mueve el altavoz"
+  ],
+  "clave": "c",
+  "sol": "El diodo rectifica la RF modulada y deja su envolvente, que es el audio: es el detector de AM, el mismo principio del rectificador de la fuente. Oscilar y amplificar son trabajos del transistor, que es capaz de dar ganancia; el diodo no amplifica.",
+  "fuente": "chapters/t02.typ:130",
+  "angulo": "dato al revés: de la aplicación a la etapa del receptor, con etapas de transistor como distractores"
+ },
+ {
+  "kid": "K-T2-63-1",
+  "cid": "T2-63",
+  "enunciado": "En un rectificador de media onda con un diodo de silicio, el semiciclo positivo llega con una tensión de pico de 10 V. ¿Qué tensión de pico llega, aproximadamente, a la carga?",
+  "opciones": [
+   "10 V, porque el diodo no tiene caída en directa",
+   "unos 8 V, porque el diodo de silicio cae unos 2 V",
+   "unos 9,94 V, porque el diodo de silicio cae unos 0,06 V",
+   "unos 9,4 V"
+  ],
+  "clave": "d",
+  "sol": "Un diodo de silicio en directa necesita unos 0,6–0,7 V para conducir, y esa tensión se pierde en él: 10 − 0,6 ≈ 9,4 V. Una caída de unos 2 V es propia de un LED rojo, y 0,06 V es diez veces menos de lo real.",
+  "fuente": "chapters/t02.typ:1048",
+  "angulo": "aplicación numérica: consecuencia de la caída en directa sobre la tensión en la carga"
+ },
+ {
+  "kid": "K-T2-66-1",
+  "cid": "T2-66",
+  "enunciado": "En un estabilizador con diodo zéner y resistencia en serie, la tensión de entrada sube de 12 V a 14 V. ¿Qué ocurre con la tensión en la carga?",
+  "opciones": [
+   "casi no cambia: el exceso cae en la resistencia en serie y el zéner conduce más corriente",
+   "sube también 2 V, porque el zéner no puede absorber variaciones",
+   "baja, porque el zéner pasa a conducir en directa",
+   "se anula, porque el zéner deja de conducir"
+  ],
+  "clave": "a",
+  "sol": "Trabajando en inversa en su zona de ruptura, el zéner conduce tanto como haga falta para no pasar de su tensión nominal. Si la entrada sube, sube la corriente por la resistencia y ese exceso se lo traga el zéner; la salida apenas varía. Esa es precisamente la estabilización.",
+  "fuente": "chapters/t02.typ:1104",
+  "angulo": "funcionamiento ante una variación de la entrada, en lugar de para qué sirve"
+ },
+ {
+  "kid": "K-T2-66-2",
+  "cid": "T2-66",
+  "enunciado": "Por error, un zéner de 9,1 V se monta al revés (polarizado en directa) en un estabilizador alimentado con 12 V. ¿Qué tensión aproximada habrá en la carga?",
+  "opciones": [
+   "9,1 V",
+   "unos 0,6 V",
+   "12 V",
+   "unos 2,9 V"
+  ],
+  "clave": "b",
+  "sol": "El zéner solo fija su tensión nominal trabajando en inversa, en la zona de ruptura. Polarizado en directa se comporta como un diodo de silicio corriente y conduce a unos 0,6 V, que es lo que queda en la carga. Los 2,9 V salen de restar 9,1 a 12, que es la caída en la resistencia, no la tensión de salida.",
+  "fuente": "chapters/t02.typ:1079",
+  "angulo": "caso práctico de montaje erróneo: qué pasa si no trabaja en inversa"
+ },
+ {
+  "kid": "K-T2-68-1",
+  "cid": "T2-68",
+  "enunciado": "Montas un LED con su resistencia y no luce. Al darle la vuelta, luce. ¿Qué ocurría?",
+  "opciones": [
+   "estaba en directa, y el LED solo emite luz en inversa",
+   "la resistencia era demasiado pequeña",
+   "estaba polarizado en inversa, y el LED solo emite luz cuando conduce en directa",
+   "la tensión no alcanzaba la de avalancha del LED"
+  ],
+  "clave": "c",
+  "sol": "El LED es un diodo: solo conduce en directa, y es al circular esa corriente cuando emite luz. Polarizado en inversa no conduce y no luce. Trabajar en inversa, en la tensión de avalancha, es lo propio del zéner, no del LED.",
+  "fuente": "chapters/t02.typ:1114",
+  "angulo": "caso práctico: diagnóstico de un LED montado al revés"
+ },
+ {
+  "kid": "K-T2-70-1",
+  "cid": "T2-70",
+  "enunciado": "En un oscilador controlado por tensión (VCO) sintonizado con un varicap, al aumentar la tensión inversa aplicada al varicap, la frecuencia del oscilador:",
+  "opciones": [
+   "disminuye",
+   "no varía",
+   "se reduce a la mitad",
+   "aumenta"
+  ],
+  "clave": "d",
+  "sol": "Más tensión inversa ensancha la zona de deplexión, que hace de dieléctrico: la capacidad del varicap baja. Con menos capacidad, la frecuencia de resonancia $f_0 = 1 / (2 pi sqrt(L C))$ sube. Quien cree que la capacidad aumenta con la tensión llega a la respuesta contraria.",
+  "fuente": "chapters/t02.typ:1169",
+  "angulo": "otra consecuencia del mismo hecho: efecto sobre la frecuencia del VCO"
+ },
+ {
+  "kid": "K-T2-71-1",
+  "cid": "T2-71",
+  "enunciado": "En un transistor bipolar, ¿cómo se llama la capa central, muy fina, que gobierna el paso de portadores entre los otros dos terminales?",
+  "opciones": [
+   "base",
+   "emisor",
+   "colector",
+   "puerta"
+  ],
+  "clave": "a",
+  "sol": "El bipolar son dos uniones enfrentadas con una capa central muy fina, la base. El emisor lanza los portadores y el colector los recoge; una pequeña corriente de base gobierna la grande de colector. La puerta es el terminal de control del FET.",
+  "fuente": "chapters/t02.typ:1184",
+  "angulo": "del papel del terminal a su nombre"
+ },
+ {
+  "kid": "K-T2-71-2",
+  "cid": "T2-71",
+  "enunciado": "En el símbolo de un transistor bipolar, la flecha del emisor apunta hacia fuera. Se trata de un transistor:",
+  "opciones": [
+   "PNP",
+   "NPN",
+   "FET de canal N",
+   "MOSFET de canal P"
+  ],
+  "clave": "b",
+  "sol": "La flecha del emisor marca el sentido de la corriente convencional: sale en el NPN y entra en el PNP («PNP: PiNcha»). Un símbolo con flecha en el emisor es siempre de un bipolar; en el FET la flecha está en la puerta o en el canal.",
+  "fuente": "chapters/t02.typ:1210",
+  "angulo": "de la representación (sentido de la flecha) al tipo NPN/PNP"
+ },
+ {
+  "kid": "K-T2-72-1",
+  "cid": "T2-72",
+  "enunciado": "Midiendo un transistor bipolar en funcionamiento obtienes 60 μA de base y 12 mA de colector. ¿Cuánto vale su ganancia de corriente $beta$?",
+  "opciones": [
+   "0,005",
+   "20",
+   "200",
+   "2000"
+  ],
+  "clave": "c",
+  "sol": "$beta = I_C / I_B = 12 \"mA\" / 60 \"μA\" = 0,012 / 0,00006 = 200$. Dividir al revés da 0,005. Las otras dos cifras son errores al pasar los microamperios a miliamperios.",
+  "fuente": "chapters/t02.typ:1182",
+  "angulo": "cálculo inverso: dadas las corrientes, hallar β"
+ },
+ {
+  "kid": "K-T2-74-1",
+  "cid": "T2-74",
+  "enunciado": "Un amplificador de emisor común con un transistor NPN funciona con +12 V en el colector respecto del emisor. Para montar el mismo circuito con un transistor PNP, la tensión del colector respecto del emisor debe ser:",
+  "opciones": [
+   "+12 V, igual que en el NPN",
+   "+24 V",
+   "12 V alternos",
+   "−12 V"
+  ],
+  "clave": "d",
+  "sol": "En el NPN el colector es positivo respecto del emisor; en el PNP todo se invierte y el colector trabaja a potencial negativo respecto de la base y del emisor. Por eso los circuitos con PNP llevan la alimentación negativa. Mantener +12 V con un PNP es la forma de destruirlo.",
+  "fuente": "chapters/t02.typ:1254",
+  "angulo": "caso práctico: cambiar un NPN por un PNP en el mismo circuito"
+ },
+ {
+  "kid": "K-T2-76-1",
+  "cid": "T2-76",
+  "enunciado": "¿Cuál de estas funciones de un equipo se encarga normalmente a un diodo y no a un transistor?",
+  "opciones": [
+   "rectificar la alterna de la red en la fuente de alimentación",
+   "amplificar la señal de frecuencia intermedia",
+   "generar la señal del oscilador local",
+   "mezclar la señal de RF con la del oscilador local"
+  ],
+  "clave": "a",
+  "sol": "El transistor amplifica, oscila (amplificador con realimentación) y mezcla: son sus usos en las etapas de RF, FI y audio. Rectificar es el trabajo del diodo, que deja pasar la corriente en un solo sentido. Mezclar y oscilar sí son usos del transistor, aunque se olvidan con facilidad.",
+  "fuente": "chapters/t02.typ:131",
+  "angulo": "en negativo desde el otro lado: qué tarea no es del transistor, con sus usos reales como distractores"
+ },
+ {
+  "kid": "K-T2-79-1",
+  "cid": "T2-79",
+  "enunciado": "En un FET, la corriente que circula entre drenador y surtidor se controla mediante:",
+  "opciones": [
+   "la corriente que se inyecta en la base",
+   "la tensión aplicada a la puerta, que apenas toma corriente",
+   "la corriente que se inyecta en la puerta",
+   "la tensión aplicada a la rejilla de pantalla"
+  ],
+  "clave": "b",
+  "sol": "El FET se gobierna con la tensión de puerta: el campo eléctrico estrecha o ensancha el canal sin que la puerta consuma corriente apreciable. Gobernar con corriente de base es lo propio del bipolar, y la rejilla de pantalla es un electrodo de las válvulas.",
+  "fuente": "chapters/t02.typ:1265",
+  "angulo": "del nombre de los terminales al mecanismo de control por tensión"
+ },
+ {
+  "kid": "K-T2-80-1",
+  "cid": "T2-80",
+  "enunciado": "En la primera etapa de un receptor, donde la señal de la antena es muy débil, se prefiere a menudo un FET en lugar de un bipolar porque:",
+  "opciones": [
+   "su impedancia de entrada es muy baja y se adapta mejor a la antena",
+   "necesita una corriente de puerta grande, que la antena le proporciona",
+   "su puerta apenas toma corriente y no carga la etapa anterior",
+   "no necesita ninguna alimentación"
+  ],
+  "clave": "c",
+  "sol": "El FET se gobierna con tensión y su puerta casi no consume corriente: su impedancia de entrada es altísima y no carga la fuente de señal. El bipolar, en cambio, necesita corriente de base, que la etapa anterior tiene que entregar. Decir que la impedancia de entrada es baja es justo lo contrario de su ventaja.",
+  "fuente": "chapters/t02.typ:1262",
+  "angulo": "caso práctico (primera etapa del receptor) con distractores invertidos"
+ },
+ {
+  "kid": "K-T2-83-1",
+  "cid": "T2-83",
+  "enunciado": "¿Qué electrodo hay que añadir a una válvula diodo para obtener un tríodo capaz de amplificar?",
+  "opciones": [
+   "una segunda placa, enfrentada a la primera",
+   "un segundo filamento de caldeo",
+   "una puerta aislada por una capa de óxido",
+   "una rejilla, situada entre el cátodo y la placa"
+  ],
+  "clave": "d",
+  "sol": "La válvula diodo tiene cátodo y placa; el tríodo añade una rejilla entre ellos, muy cerca del cátodo, y una pequeña tensión en ella gobierna la corriente de placa: eso es amplificar. El filamento no cuenta como electrodo, y la puerta aislada es propia del MOSFET.",
+  "fuente": "chapters/t02.typ:1599",
+  "angulo": "relación entre diodo y tríodo: el electrodo que los diferencia"
+ },
+ {
+  "kid": "K-T2-84-1",
+  "cid": "T2-84",
+  "enunciado": "Una válvula diodo se emplea como rectificador. ¿Por qué no conduce en el semiciclo en que la placa es negativa respecto del cátodo?",
+  "opciones": [
+   "porque los electrones emitidos por el cátodo son repelidos por la placa, y la placa, fría, no emite",
+   "porque la rejilla bloquea los electrones en ese semiciclo",
+   "porque el cátodo deja de calentarse durante ese semiciclo",
+   "porque el vacío solo conduce en un sentido aunque no haya emisión"
+  ],
+  "clave": "a",
+  "sol": "Solo el cátodo caliente emite electrones (emisión termoiónica). Con la placa positiva, esos electrones negativos la alcanzan; con la placa negativa son repelidos, y la placa, que está fría, no emite: no hay corriente. Una válvula diodo no tiene rejilla, y el cátodo sigue caliente en los dos semiciclos.",
+  "fuente": "chapters/t02.typ:1539",
+  "angulo": "aplicación como rectificador: explicar el semiciclo en que no conduce"
+ },
+ {
+  "kid": "K-T2-85-1",
+  "cid": "T2-85",
+  "enunciado": "¿Cuántos electrodos tiene una válvula tetrodo?",
+  "opciones": [
+   "tres: cátodo, rejilla de control y placa",
+   "cuatro: cátodo, rejilla de control, rejilla de pantalla y placa",
+   "cinco: cátodo, tres rejillas y placa",
+   "cuatro: dos cátodos y dos placas"
+  ],
+  "clave": "b",
+  "sol": "El nombre de la válvula cuenta electrodos: tri-, tetra-, penta-. El tetrodo es el tríodo más una rejilla de pantalla, que reduce la capacidad entre rejilla y placa. Tres electrodos son del tríodo y cinco (con la rejilla supresora) del pentodo.",
+  "fuente": "chapters/t02.typ:1600",
+  "angulo": "la misma regla de nombres aplicada a otra válvula (tetrodo)"
+ },
+ {
+  "kid": "K-T2-94-1",
+  "cid": "T2-94",
+  "enunciado": "En un esquema, un componente se dibuja como un triángulo apoyado contra una barra transversal. ¿Qué componente es y qué indica la barra?",
+  "opciones": [
+   "un diodo; la barra marca el ánodo",
+   "un condensador; la barra es la armadura negativa",
+   "un diodo; la barra marca el cátodo",
+   "un transistor; la barra es la base"
+  ],
+  "clave": "c",
+  "sol": "El triángulo contra una barra es el diodo: el triángulo apunta en el sentido de paso de la corriente, de ánodo a cátodo, y la barra es el cátodo (la franja pintada en el cuerpo). El condensador se dibuja con dos trazos paralelos y el bipolar con una base recta y una flecha en el emisor.",
+  "fuente": "chapters/t02.typ:1925",
+  "angulo": "sin figura: de la descripción del símbolo al componente y al significado de la barra"
+ },
+ {
+  "kid": "K-T2-95-1",
+  "cid": "T2-95",
+  "enunciado": "En un esquema aparece un transistor cuya puerta se dibuja separada del canal por un pequeño hueco, sin tocarlo. Se trata de:",
+  "opciones": [
+   "un bipolar NPN",
+   "un bipolar PNP",
+   "un tríodo de vacío",
+   "un MOSFET, transistor de efecto de campo"
+  ],
+  "clave": "d",
+  "sol": "En el MOSFET la puerta está aislada del canal por una capa de óxido y se dibuja separada; es el símbolo de FET que usa el examen. En el bipolar, la base toca emisor y colector y hay una flecha en el emisor; el tríodo se dibuja dentro de una ampolla.",
+  "fuente": "chapters/t02.typ:1926",
+  "angulo": "sin figura: de la descripción del rasgo distintivo del símbolo al tipo de transistor"
+ },
+ {
+  "kid": "K-T9-01-1",
+  "cid": "T9-01",
+  "enunciado": "Un equipo no molesta a nadie, pero deja de funcionar bien cada vez que un vecino transmite cerca. ¿Qué aspecto de la compatibilidad electromagnética le falla?",
+  "opciones": [
+   "su inmunidad: no soporta el entorno electromagnético en que trabaja",
+   "sus emisiones: perturba a los equipos de su entorno",
+   "su seguridad eléctrica frente a contactos directos",
+   "su rendimiento energético"
+  ],
+  "clave": "a",
+  "sol": "La compatibilidad electromagnética tiene dos caras: no perturbar el entorno (emisiones) y no verse afectado por él (inmunidad). Este equipo cumple la primera pero no la segunda. La seguridad eléctrica y el rendimiento no forman parte de la definición.",
+  "fuente": "chapters/t09.typ:640",
+  "angulo": "caso práctico: identificar cuál de las dos caras de la CEM falla"
+ },
+ {
+  "kid": "K-T9-03-1",
+  "cid": "T9-03",
+  "enunciado": "Todo problema de compatibilidad electromagnética se descompone en tres piezas. ¿Cuáles son?",
+  "opciones": [
+   "el filtrado, el desacoplo y el apantallamiento",
+   "una fuente, un camino de acoplo y una víctima",
+   "los armónicos, las espurias y la intermodulación",
+   "el emisor, la antena y el receptor"
+  ],
+  "clave": "b",
+  "sol": "Hay una fuente (por ejemplo, la estación), una víctima (cualquier equipo cercano) y un camino de acoplo entre ambas: la antena de la víctima, las líneas que le llegan o la radiación directa. Filtrar, desacoplar y apantallar son los remedios que cortan esos caminos, no las piezas del problema.",
+  "fuente": "chapters/t09.typ:36",
+  "angulo": "el esquema completo fuente–camino–víctima, con los remedios como distractor"
+ },
+ {
+  "kid": "K-T9-05-1",
+  "cid": "T9-05",
+  "enunciado": "Reduces la potencia de tu transmisor de 100 W a 10 W. ¿Cuánto bajan, aproximadamente, todas sus emisiones no deseadas (armónicos y espurias)?",
+  "opciones": [
+   "unos 3 dB",
+   "unos 20 dB",
+   "unos 10 dB",
+   "nada, porque solo dependen del filtro de salida"
+  ],
+  "clave": "c",
+  "sol": "Cada armónico y cada espuria crecen con la potencia: dividirla entre 10 rebaja todas las emisiones no deseadas en 10 dB, y además reduce el campo en el entorno a menos de la tercera parte. Por eso se usa la mínima potencia necesaria. 3 dB correspondería a reducirla solo a la mitad.",
+  "fuente": "chapters/t09.typ:518",
+  "angulo": "cuantificar el efecto de bajar la potencia, en lugar de la regla cualitativa"
+ },
+ {
+  "kid": "K-T9-07-1",
+  "cid": "T9-07",
+  "enunciado": "Un transmisor emite en 14,2 MHz. ¿En qué frecuencia cae su tercer armónico?",
+  "opciones": [
+   "4,73 MHz",
+   "28,4 MHz",
+   "17,2 MHz",
+   "42,6 MHz"
+  ],
+  "clave": "d",
+  "sol": "Los armónicos caen en múltiplos enteros de la fundamental: el tercero está en $3 dot 14,2 = 42,6$ MHz, fuera de la banda de trabajo y donde puede molestar a otros servicios. 28,4 MHz es el segundo armónico, y nunca aparecen en submúltiplos como 4,73 MHz.",
+  "fuente": "chapters/t09.typ:77",
+  "angulo": "cálculo concreto de un armónico para ver que cae en otra banda"
+ },
+ {
+  "kid": "K-T9-08-1",
+  "cid": "T9-08",
+  "enunciado": "Un colega te avisa de que tu emisión de BLU salpica a los canales contiguos al tuyo, pero no se te oye en otras bandas. ¿Qué tipo de emisión no deseada es y cómo se corrige?",
+  "opciones": [
+   "una emisión fuera de banda por sobremodulación; se corrige bajando la ganancia del micrófono y la excitación",
+   "armónicos; se corrigen con un filtro paso bajo a la salida",
+   "bloqueo del receptor del colega; se corrige con un filtro en su entrada",
+   "intermodulación en una unión oxidada; se corrige reparando la unión"
+  ],
+  "clave": "a",
+  "sol": "Las emisiones fuera de banda son las inmediatamente exteriores a la anchura de banda necesaria, producidas por el propio proceso de modulación: una BLU con el micrófono demasiado alto se ensancha y salpica a los canales vecinos. Los armónicos caerían en múltiplos de la frecuencia, en otras bandas, y no junto al canal.",
+  "fuente": "chapters/t09.typ:532",
+  "angulo": "del síntoma (salpicaduras junto al canal) al tipo de emisión y su remedio"
+ },
+ {
+  "kid": "K-T9-11-1",
+  "cid": "T9-11",
+  "enunciado": "¿Por qué una ROE alta en la línea de la antena aumenta el riesgo de interferencias dentro de la propia casa?",
+  "opciones": [
+   "porque la desadaptación hace que la antena emita en frecuencias distintas de la de trabajo",
+   "porque parte de la energía rebota por la línea, sube la tensión en el coaxial y su malla lleva corriente que hace radiar al propio cable",
+   "porque una ROE alta aumenta la sensibilidad de los receptores cercanos a cualquier señal",
+   "porque la línea desadaptada se comporta como un filtro paso alto que deja salir los armónicos"
+  ],
+  "clave": "b",
+  "sol": "Con la antena desadaptada, parte de la energía vuelve por la línea, sube la tensión en el coaxial y la malla lleva corriente de modo común: el cable radia dentro de casa, cerca de los equipos. Con la antena bien adaptada, la potencia se va por donde debe. La ROE no crea armónicos ni cambia la sensibilidad de los receptores vecinos.",
+  "fuente": "chapters/t09.typ:517",
+  "angulo": "mecanismo: por qué la desadaptación produce interferencias"
+ },
+ {
+  "kid": "K-T9-12-1",
+  "cid": "T9-12",
+  "enunciado": "En un caso de bloqueo de un receptor cercano a tu estación, ¿qué parte de tu emisión lo provoca?",
+  "opciones": [
+   "los armónicos de tu transmisor",
+   "las emisiones fuera de banda de tu modulación",
+   "la señal fundamental, por su intensidad, aunque esté limpia",
+   "los productos de intermodulación de tu etapa final"
+  ],
+  "clave": "c",
+  "sol": "El bloqueo lo causa la fundamental, la señal que tienes derecho a emitir: su campo intenso satura la primera etapa del receptor aunque esté sintonizado lejos. Por eso un filtro en tu transmisor no lo arregla. Armónicos, emisiones fuera de banda e intermodulación son otros mecanismos, que producen señales en otras frecuencias.",
+  "fuente": "chapters/t09.typ:122",
+  "angulo": "otra consecuencia del mismo hecho: qué señal lo causa"
+ },
+ {
+  "kid": "K-T9-13-1",
+  "cid": "T9-13",
+  "enunciado": "Tu emisión en 2 m está limpia, pero el televisor del vecino se bloquea cuando transmites. ¿Qué filtro conviene y dónde?",
+  "opciones": [
+   "un filtro paso bajo a la salida de tu transmisor",
+   "un filtro paso bajo en la entrada de antena del televisor, que corte por encima de 145 MHz",
+   "un filtro de red en tu fuente de alimentación",
+   "un filtro paso alto en la entrada de antena del televisor, que deje pasar la televisión y rechace los 145 MHz"
+  ],
+  "clave": "d",
+  "sol": "Si la emisión está limpia, el problema es de inmunidad del televisor y el remedio va en su entrada: la televisión digital está muy por encima de 145 MHz, así que un paso alto la deja pasar y rechaza la señal del aficionado. El paso bajo a la salida del transmisor quita armónicos, pero no la fundamental, que es la que bloquea.",
+  "fuente": "chapters/t09.typ:333",
+  "angulo": "caso práctico con dos decisiones: tipo de filtro y lugar"
+ },
+ {
+  "kid": "K-T9-14-1",
+  "cid": "T9-14",
+  "enunciado": "Dos emisoras intensas en 145,1 y 145,3 MHz se mezclan en una etapa no lineal. ¿En qué frecuencias aparecen los productos de intermodulación de tercer orden?",
+  "opciones": [
+   "144,9 y 145,5 MHz",
+   "0,2 y 290,4 MHz",
+   "145,2 MHz",
+   "435,3 y 435,9 MHz"
+  ],
+  "clave": "a",
+  "sol": "Los productos de tercer orden son $2 f_1 - f_2$ y $2 f_2 - f_1$: 144,9 y 145,5 MHz, a la misma distancia (200 kHz) a cada lado de las dos señales y dentro de la banda. 0,2 y 290,4 MHz son la diferencia y la suma, productos de segundo orden que caen lejos. 435,3 y 435,9 MHz son los terceros armónicos de cada señal.",
+  "fuente": "chapters/t09.typ:126",
+  "angulo": "cálculo de los productos de tercer orden con otros datos"
+ },
+ {
+  "kid": "K-T9-17-1",
+  "cid": "T9-17",
+  "enunciado": "La interferencia por detección en el amplificador de audio de un vecino deja oír tu voz cuando transmites en AM, pero solo produce chasquidos cuando transmites en FM. ¿Por qué?",
+  "opciones": [
+   "porque en FM se transmite con menos potencia",
+   "porque la unión semiconductora recupera la envolvente de la RF, y en FM la amplitud no varía con la voz",
+   "porque el amplificador solo está sintonizado a las frecuencias de AM",
+   "porque los cables del amplificador no captan las señales de FM"
+  ],
+  "clave": "b",
+  "sol": "Al rectificar la RF, la unión base-emisor del primer transistor deja su envolvente, que en AM sigue a la voz y cae en la banda de audio. En FM la amplitud es constante, así que solo se oyen chasquidos al empezar y terminar cada transmisión. Un amplificador de audio no está sintonizado a ninguna frecuencia de radio.",
+  "fuente": "chapters/t09.typ:208",
+  "angulo": "otra consecuencia del mismo mecanismo: por qué depende del modo de emisión"
+ },
+ {
+  "kid": "K-T9-18-1",
+  "cid": "T9-18",
+  "enunciado": "¿Por qué una ferrita que abraza el cable de un altavoz frena la RF captada sin afectar al audio?",
+  "opciones": [
+   "porque la ferrita es un condensador que deriva a masa la RF de los dos hilos, pero no la del audio",
+   "porque la ferrita rectifica la RF y la convierte en una continua que el altavoz no reproduce",
+   "porque la RF recorre los dos hilos en el mismo sentido y la ferrita actúa sobre ella como una bobina, mientras que los campos del audio, que va y vuelve, se anulan",
+   "porque la ferrita es una pantalla metálica conectada a tierra que refleja el campo exterior"
+  ],
+  "clave": "c",
+  "sol": "La RF captada por el cable viaja en modo común: por los dos hilos a la vez y en el mismo sentido, y para ella la ferrita es una impedancia en serie. El audio va por un hilo y vuelve por el otro (modo diferencial): la corriente neta es cero y la ferrita no actúa. Los condensadores de desacoplo completan el remedio derivando la RF a masa.",
+  "fuente": "chapters/t09.typ:416",
+  "angulo": "mecanismo: por qué funciona la ferrita (modo común frente a diferencial)"
+ },
+ {
+  "kid": "K-T9-19-1",
+  "cid": "T9-19",
+  "enunciado": "Sustituyes el cable de los altavoces de un equipo de música por cable blindado para que no capte la RF de tu estación. ¿Qué debe hacerse con la malla del cable?",
+  "opciones": [
+   "dejarla sin conectar en los dos extremos",
+   "conectarla a la fase de la red eléctrica",
+   "conectarla entre los dos terminales del altavoz, en paralelo con él",
+   "conectarla a masa, para que la RF inducida en ella se derive sin alcanzar los conductores interiores"
+  ],
+  "clave": "d",
+  "sol": "Un cable blindado lleva alrededor de sus conductores una malla conectada a masa que actúa como una jaula de Faraday alargada: la RF exterior induce corriente en la malla y se descarga a masa sin llegar al conductor interior. Una malla sin conectar no ofrece ese camino a masa.",
+  "fuente": "chapters/ap-b1.typ:3966",
+  "angulo": "aplicación: cómo se instala el cable blindado para que funcione"
+ },
+ {
+  "kid": "K-T9-20-1",
+  "cid": "T9-20",
+  "enunciado": "Un circuito sensible está dentro de una caja metálica conectada a tierra, pero la caja tiene una ranura de ventilación de varios centímetros. Trabajando en 435 MHz:",
+  "opciones": [
+   "la ranura puede dejar pasar la RF, porque las aberturas deben ser pequeñas frente a la longitud de onda",
+   "la ranura no importa, porque la caja es metálica y está a tierra",
+   "la ranura solo importa en HF, donde la longitud de onda es mayor",
+   "la ranura mejora el apantallamiento, porque refrigera el circuito"
+  ],
+  "clave": "a",
+  "sol": "Para apantallar, la caja debe ser metálica, estar a tierra y ser eléctricamente estanca: sus aberturas han de ser pequeñas frente a la longitud de onda (regla práctica, menores que λ/20, unos 3,4 cm en 435 MHz). En HF casi cualquier caja cerrada vale, pero en UHF una rejilla de unos centímetros ya deja escapar la señal.",
+  "fuente": "chapters/t09.typ:499",
+  "angulo": "la condición de estanqueidad aplicada a un caso concreto de UHF"
+ },
+ {
+  "kid": "K-T9-23-1",
+  "cid": "T9-23",
+  "enunciado": "El filtro de red (de línea de desacoplo) de un transceptor actúa en los dos sentidos. ¿Qué significa?",
+  "opciones": [
+   "que deja pasar la RF hacia la red y bloquea los 50 Hz",
+   "que impide que la RF del transceptor salga a la red y que el ruido de RF de la red entre en el equipo",
+   "que eleva la tensión de red en un sentido y la reduce en el otro",
+   "que rectifica los dos semiciclos de la corriente de red"
+  ],
+  "clave": "b",
+  "sol": "El filtro de red frena la RF que viaja por los conductores de alimentación y deja pasar los 50 Hz sin pérdida. Funciona en ambos sentidos: ni la RF del transceptor sale a la instalación eléctrica, ni la que llega por la red entra en el equipo. Bloquear los 50 Hz dejaría el equipo sin alimentación.",
+  "fuente": "chapters/t09.typ:490",
+  "angulo": "la otra cara del filtro de red: protección en ambos sentidos"
+ },
+ {
+  "kid": "K-T9-24-1",
+  "cid": "T9-24",
+  "enunciado": "Una trampa formada por una bobina y un condensador en serie, conectada entre la línea y masa y sintonizada a 145 MHz, se comporta como:",
+  "opciones": [
+   "un filtro paso banda: a 145 MHz es un circuito abierto y solo deja pasar esa frecuencia",
+   "un filtro paso bajo para todas las frecuencias por encima de 145 MHz",
+   "un filtro de rechazo: a 145 MHz es casi un cortocircuito y desvía esa señal a masa",
+   "un amplificador selectivo de la señal de 145 MHz"
+  ],
+  "clave": "c",
+  "sol": "En resonancia, las reactancias de la bobina y del condensador en serie se anulan y la rama es casi un cortocircuito: la señal de 145 MHz se va a masa y las demás pasan. Es un filtro de rechazo de banda (notch), lo contrario de un paso banda. Un circuito pasivo no amplifica.",
+  "fuente": "chapters/t09.typ:355",
+  "angulo": "del circuito (trampa LC serie) al tipo de filtro y su efecto"
+ },
+ {
+  "kid": "K-T9-25-1",
+  "cid": "T9-25",
+  "enunciado": "Cuando transmites notas RF en el chasis y en el cable del micrófono, y un equipo de música cercano se interfiere. ¿Qué medida ataca la causa?",
+  "opciones": [
+   "alargar el cable del micrófono",
+   "aumentar la potencia para mejorar el enlace",
+   "subir la ganancia del micrófono",
+   "unir los chasis a la toma de tierra con un conductor corto y grueso"
+  ],
+  "clave": "d",
+  "sol": "Sin un camino corto a tierra, la RF vuelve por donde puede (los chasis, el cable del micrófono, la alimentación) y desde ahí se acopla a los equipos cercanos. Un conductor corto y grueso hasta la toma de tierra le da ese camino. Alargar cables o subir la potencia empeora el problema.",
+  "fuente": "chapters/t09.typ:516",
+  "angulo": "caso práctico: del síntoma (RF en el chasis) al remedio"
+ },
+ {
+  "kid": "K-T9-26-1",
+  "cid": "T9-26",
+  "enunciado": "Tras una queja de un vecino, conectas tu transmisor a la carga artificial y transmites: la interferencia desaparece. ¿Qué conclusión y qué paso siguiente son correctos?",
+  "opciones": [
+   "el camino era la radiación de tu antena: revisa tus armónicos, la ROE y la potencia, y luego la inmunidad del equipo afectado, en colaboración con el vecino",
+   "el camino era la red eléctrica: basta con instalar un filtro de red en tu transceptor",
+   "tu estación queda descartada y el problema es solo del vecino, que debe resolverlo él",
+   "conviene aumentar la potencia para confirmar el diagnóstico"
+  ],
+  "clave": "a",
+  "sol": "Ante una queja, lo primero es comprobar la propia estación. Si con la carga artificial la interferencia desaparece, llega por lo que radia la antena: hay que revisar armónicos, ROE y potencia y, después, la inmunidad del equipo afectado. Si siguiera aun sin radiar, el camino sería la red. Que el equipo del vecino tenga poca inmunidad no exime de colaborar.",
+  "fuente": "chapters/t09.typ:521",
+  "angulo": "procedimiento práctico: interpretar la prueba de la carga artificial"
+ }
+]

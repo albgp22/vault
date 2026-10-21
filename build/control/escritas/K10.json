@@ -1,0 +1,1127 @@
+[
+ {
+  "kid": "K-R8-74-1",
+  "cid": "R8-74",
+  "enunciado": "Un radioaficionado quiere operar en 24,100 GHz, dentro de la banda de 24,050–24,250 GHz, que la disposición adicional segunda incluye entre las que precisan autorización especial por el riesgo de interferir a servicios primarios. En esa autorización del artículo 16 se fijarán:",
+  "opciones": [
+   "las limitaciones geográficas o técnicas de uso necesarias para asegurar la compatibilidad con los servicios autorizados que puedan verse afectados",
+   "un plazo de validez no superior a 90 días",
+   "el derecho de su estación a reclamar protección frente a las interferencias de los servicios primarios de la banda",
+   "la designación de un gestor de la banda, responsable de verificar el tráfico de todos los usuarios"
+  ],
+  "clave": "a",
+  "sol": "El art. 16.2 dispone que en estas autorizaciones especiales se establezcan las limitaciones geográficas o técnicas de uso que aseguren la compatibilidad con los servicios de radiocomunicaciones que puedan verse afectados. Al ser una banda secundaria, la estación de aficionado no puede reclamar protección frente a los servicios primarios: ocurre justo lo contrario. Los 90 días son el máximo de la autorización temporal de un extranjero de un país sin la T/R 61-01 (art. 15), y el art. 16 no fija plazo.",
+  "fuente": "chapters/ap-c3.typ:305",
+  "angulo": "caso práctico con una frecuencia concreta de una banda de la DA 2.ª; distractores de otros artículos (plazo del art. 15, protección del servicio secundario)"
+ },
+ {
+  "kid": "K-R8-75-1",
+  "cid": "R8-75",
+  "enunciado": "Durante el verano trasladas tu estación fija desde tu domicilio a tu apartamento de la playa y la utilizas allí unas semanas. Según las definiciones de la Orden IET/1311/2013, en ese apartamento funciona como una estación:",
+  "opciones": [
+   "móvil",
+   "portable",
+   "portátil",
+   "temporal"
+  ],
+  "clave": "b",
+  "sol": "La estación portable es la estación fija utilizada con carácter temporal en una ubicación determinada distinta de la habitual: justo el caso del apartamento. No es móvil, porque no se usa en movimiento ni detenida en puntos no determinados; tampoco portátil, que es la móvil con antena y fuente de energía incorporadas. La temporal es la de concursos, expediciones, demostraciones o ferias, no la de unas vacaciones.",
+  "fuente": "chapters/r08.typ:467",
+  "angulo": "caso práctico: dada la situación, identificar el tipo de estación entre los cuatro que más se confunden"
+ },
+ {
+  "kid": "K-R8-76-1",
+  "cid": "R8-76",
+  "enunciado": "Vas a utilizar tu estación de forma continuada durante un mes en una casa rural, lejos de tu domicilio habitual. ¿Qué debes hacer?",
+  "opciones": [
+   "nada, porque tu estación fija ya tiene licencia",
+   "notificarlo a la Jefatura Provincial con al menos quince días de antelación",
+   "notificarlo a la Jefatura Provincial con al menos cinco días de antelación",
+   "solicitar a la Jefatura Provincial un distintivo temporal para ese mes"
+  ],
+  "clave": "c",
+  "sol": "El uso portable no necesita autorización, pero debe notificarse a la Jefatura Provincial con al menos cinco días de antelación. Solo quedan exentos los usos no continuados de hasta 15 días naturales consecutivos, y un mes seguido no lo es. Los quince días son el límite de esa exención, no el plazo de preaviso, y el uso portable no exige distintivo temporal.",
+  "fuente": "chapters/r08.typ:34",
+  "angulo": "caso práctico en el que no opera la exención de 15 días; distractor que cambia el preaviso por la cifra de la exención"
+ },
+ {
+  "kid": "K-R8-77-1",
+  "cid": "R8-77",
+  "enunciado": "Llevas un transceptor instalado en tu coche y emites desde un área de descanso de la autovía, con el vehículo parado. Según el anexo I, esa estación es:",
+  "opciones": [
+   "portable, porque no está en movimiento",
+   "fija, mientras el vehículo permanezca detenido",
+   "temporal, porque solo emite durante la parada",
+   "móvil, porque la estación móvil también lo es mientras está detenida en puntos no determinados"
+  ],
+  "clave": "d",
+  "sol": "El anexo I define la estación móvil como la destinada a ser utilizada en movimiento o mientras esté detenida en puntos no determinados: el área de descanso es uno de esos puntos. Pararse no la convierte en portable, que es una estación fija usada temporalmente en una ubicación determinada distinta de la habitual. La temporal se reserva a concursos, expediciones, demostraciones y eventos.",
+  "fuente": "chapters/ap-b2.typ:642",
+  "angulo": "caso práctico centrado en la parte de la definición que más se olvida: detenida en puntos no determinados"
+ },
+ {
+  "kid": "K-R8-78-1",
+  "cid": "R8-78",
+  "enunciado": "Según el anexo I, ¿qué distingue a la estación portátil de las demás estaciones móviles?",
+  "opciones": [
+   "llevar incorporadas al propio equipo la antena y la fuente de energía",
+   "poder utilizarse en movimiento",
+   "estar instalada de forma permanente en un vehículo",
+   "ser una estación fija que se utiliza temporalmente en otro lugar"
+  ],
+  "clave": "a",
+  "sol": "La portátil es una estación móvil con antena y fuente de energía incorporadas al propio equipo, como un equipo de mano con su batería. Poder usarse en movimiento es común a todas las móviles, así que no la distingue. La estación fija utilizada temporalmente en otro sitio es la portable, que se confunde con la portátil por el nombre.",
+  "fuente": "cheatsheet.typ:1101",
+  "angulo": "pregunta el rasgo diferencial frente a la móvil, no la definición completa; el distractor fuerte es el rasgo compartido"
+ },
+ {
+  "kid": "K-R8-79-1",
+  "cid": "R8-79",
+  "enunciado": "Tienes tu estación fija instalada en una casa de campo y la manejas desde tu domicilio en la ciudad, sin nadie presente junto al equipo. Según las definiciones de la Orden, se trata de una estación:",
+  "opciones": [
+   "automática desatendida",
+   "fija remota",
+   "portable",
+   "móvil"
+  ],
+  "clave": "b",
+  "sol": "La estación fija remota es una estación fija que puede ser accionada a distancia por su titular, y sigue siendo responsabilidad suya cuanto se emita desde ella. No es una desatendida: estas son estaciones colectivas de asociaciones que funcionan sin intervención directa del operador, mientras que aquí el titular la opera, aunque sea a distancia. Tampoco es portable ni móvil, porque la estación no cambia de sitio.",
+  "fuente": "chapters/r08.typ:461",
+  "angulo": "caso práctico; distractor principal: confundir el manejo a distancia con la estación desatendida"
+ },
+ {
+  "kid": "K-R8-80-1",
+  "cid": "R8-80",
+  "enunciado": "Conectas un ordenador a tu transceptor de HF, de mandos totalmente analógicos, para emitir en un modo digital de texto. ¿Es una estación digital según la Orden?",
+  "opciones": [
+   "No, porque una estación digital debe carecer de mandos analógicos",
+   "No, porque solo es digital la estación que emite exclusivamente en modos digitales",
+   "Sí, porque está dotada de dispositivos que permiten realizar emisiones con técnicas digitales",
+   "Solo si el transceptor es de fabricación industrial y no de construcción propia"
+  ],
+  "clave": "c",
+  "sol": "La estación digital es la dotada de dispositivos que permiten realizar emisiones con técnicas digitales: la define la técnica de emisión, no el aspecto del equipo. Un transceptor con mandos convencionales y un ordenador conectado cumple la definición. La norma no exige que emita solo en digital ni distingue entre equipos industriales y de construcción propia.",
+  "fuente": "chapters/r08.typ:575",
+  "angulo": "caso práctico que separa la técnica de emisión del aspecto del equipo"
+ },
+ {
+  "kid": "K-R8-81-1",
+  "cid": "R8-81",
+  "enunciado": "¿Cuál de estas actividades encaja en la definición de estación temporal del anexo I?",
+  "opciones": [
+   "el uso de la estación fija durante las vacaciones en una segunda residencia",
+   "la retransmisión automática de emisiones desde un monte para ampliar su alcance",
+   "las emisiones desde un vehículo en marcha",
+   "una demostración de radio para los alumnos de un colegio"
+  ],
+  "clave": "d",
+  "sol": "El anexo I define la estación temporal como la utilizada con carácter temporal para concursos y diplomas, expediciones, demostraciones en colegios, ferias y otros eventos de naturaleza similar. Usar la estación fija en una segunda residencia es lo propio de la estación portable, que es el distractor más tentador porque también es temporal. Retransmitir automáticamente es tarea del repetidor, y emitir en marcha, de la estación móvil.",
+  "fuente": "chapters/ap-c3.typ:633",
+  "angulo": "del concepto a la actividad: elegir el caso que encaja entre usos propios de otros tipos de estación"
+ },
+ {
+  "kid": "K-R8-82-1",
+  "cid": "R8-82",
+  "enunciado": "Según el artículo 18.6 de la Orden IET/1311/2013, ¿a quién puede autorizarse una estación colectiva y quién responde de su utilización?",
+  "opciones": [
+   "Solo a las asociaciones de radioaficionados reconocidas; responde la Junta Directiva de la asociación",
+   "A cualquier grupo de radioaficionados; responde el socio con más antigüedad",
+   "Solo a las asociaciones reconocidas; responde la Jefatura Provincial que expidió la licencia",
+   "A cualquier radioaficionado con autorización en vigor; responde su titular"
+  ],
+  "clave": "a",
+  "sol": "El art. 18.6 reserva las estaciones colectivas a las asociaciones de radioaficionados reconocidas y hace responsable de su utilización a la Junta Directiva de la asociación. La Jefatura Provincial expide la licencia e inspecciona, pero no responde del uso de la estación. Un grupo informal o un radioaficionado particular no pueden ser titulares de una colectiva.",
+  "fuente": "chapters/ap-c3.typ:393",
+  "angulo": "combina titularidad y responsabilidad en cada opción; distractores que aciertan una mitad"
+ },
+ {
+  "kid": "K-R8-83-1",
+  "cid": "R8-83",
+  "enunciado": "Una asociación de radioaficionados ya legalmente constituida e inscrita en el registro del Ministerio del Interior quiere ser asociación reconocida para poder instalar estaciones colectivas. Según el artículo 18.7, debe:",
+  "opciones": [
+   "nada más: la inscripción en el Ministerio del Interior ya le da esa condición",
+   "solicitarlo acompañando sus estatutos; la condición se obtiene por resolución de la SETSI",
+   "solicitarlo al Ministerio del Interior, que resuelve tras examinar sus estatutos",
+   "acreditar ante la Jefatura Provincial un número mínimo de socios con autorización"
+  ],
+  "clave": "b",
+  "sol": "La inscripción en el Ministerio del Interior es un requisito previo, no el reconocimiento. Según el art. 18.7, la asociación solicita el reconocimiento acompañando sus estatutos, y la condición de asociación reconocida se obtiene por resolución de la SETSI. Solo entonces puede ser autorizada a instalar estaciones colectivas (art. 18.6). La norma no exige un número mínimo de socios.",
+  "fuente": "chapters/ap-c3.typ:385",
+  "angulo": "caso práctico: qué paso falta tras la inscripción en Interior; distractores sobre quién resuelve"
+ },
+ {
+  "kid": "K-R8-84-1",
+  "cid": "R8-84",
+  "enunciado": "Para obtener el reconocimiento como asociación de radioaficionados, ¿cuál de estas condiciones NO exige el artículo 18.7?",
+  "opciones": [
+   "que esté legalmente constituida y registrada en el Ministerio del Interior",
+   "que sus estatutos contemplen como finalidades específicas las propias de los radioaficionados",
+   "que sus estatutos la obliguen a integrarse en la IARU",
+   "que sus estatutos recojan la obligación de cumplir lo dispuesto en el Reglamento"
+  ],
+  "clave": "c",
+  "sol": "El art. 18.7 pide que la asociación esté legalmente constituida y registrada en el Ministerio del Interior, y que sus estatutos contemplen como finalidades específicas las propias de los radioaficionados y recojan la obligación de cumplir el Reglamento. No atribuye ningún papel a la IARU ni exige pertenecer a ella. Las otras tres son, precisamente, los requisitos de la norma.",
+  "fuente": "chapters/ap-c3.typ:401",
+  "angulo": "forma negativa: los dos requisitos de los estatutos aparecen como opciones verdaderas y se pide el intruso"
+ },
+ {
+  "kid": "K-R8-85-1",
+  "cid": "R8-85",
+  "enunciado": "Según el artículo 18.8, la autorización de radioaficionado individualizada que necesita una estación colectiva:",
+  "opciones": [
+   "es la autorización personal del presidente de la asociación, a la que se añade la licencia de la estación",
+   "no es necesaria si la estación ya tiene licencia, porque la licencia lleva su propio distintivo",
+   "solo se exige a los repetidores y radiobalizas, no a las colectivas atendidas por operador",
+   "es una autorización propia de la estación, a la que se asocia su licencia y que tiene asignado su propio distintivo de llamada"
+  ],
+  "clave": "d",
+  "sol": "El art. 18.8 exige a las estaciones colectivas, además de la licencia de estación, una autorización de radioaficionado individualizada a la que se considera asociada esa licencia y a la que se asigna un distintivo específico (arts. 27 y 28). Es distinta de las autorizaciones personales de los socios, incluida la del presidente. Y la licencia sola no basta: el distintivo va unido a la autorización.",
+  "fuente": "chapters/ap-c3.typ:409",
+  "angulo": "pregunta por las características de esa autorización (propia, con licencia asociada y distintivo) en vez de por la lista de requisitos"
+ },
+ {
+  "kid": "K-R8-86-1",
+  "cid": "R8-86",
+  "enunciado": "Una asociación reconocida tiene dos repetidores analógicos de FM de su titularidad, instalados en dos montes distintos. ¿Pueden ampararse en una única autorización de radioaficionado?",
+  "opciones": [
+   "No, porque no comparten ubicación",
+   "Sí, porque tienen el mismo tipo de modulación y la misma titularidad",
+   "Sí, porque todas las desatendidas de una misma asociación caben en una sola autorización",
+   "No, porque cada estación desatendida necesita siempre su propia autorización, sin excepciones"
+  ],
+  "clave": "a",
+  "sol": "El art. 18.8 permite amparar varias estaciones automáticas desatendidas en una única autorización solo si se cumplen a la vez tres condiciones: mismo tipo de modulación, misma titularidad y misma ubicación. Aquí falta la tercera, así que rige la regla general de una autorización individualizada por estación. Decir que nunca hay excepción también es falso: con las tres condiciones, sí cabe una sola autorización.",
+  "fuente": "chapters/ap-c3.typ:417",
+  "angulo": "caso práctico en el que se cumplen dos de las tres condiciones"
+ },
+ {
+  "kid": "K-R8-87-1",
+  "cid": "R8-87",
+  "enunciado": "Una asociación organiza en un instituto una demostración en la que alumnos sin autorización hablarán por su estación colectiva. Según el artículo 30.6, la actividad debe hacerse bajo la supervisión de:",
+  "opciones": [
+   "cualquier radioaficionado autorizado, aunque acabe de obtener su autorización",
+   "un radioaficionado autorizado con al menos tres años de antigüedad, de forma directa y presencial",
+   "un radioaficionado con al menos tres años de antigüedad, aunque supervise a distancia desde su domicilio",
+   "el profesor responsable del grupo, aunque no sea radioaficionado"
+  ],
+  "clave": "b",
+  "sol": "El art. 30.6.b exige que el uso por noveles se haga bajo la responsabilidad y la supervisión directa y presencial de un radioaficionado autorizado con al menos tres años de antigüedad en el ejercicio de la radioafición. Por eso falla quien acierta la antigüedad pero supervisa a distancia: la presencia es parte de la condición. Ni un recién autorizado ni un profesor sin autorización cumplen el requisito.",
+  "fuente": "chapters/ap-c3.typ:553",
+  "angulo": "caso práctico; los distractores rompen por separado la antigüedad y el carácter presencial"
+ },
+ {
+  "kid": "K-R8-88-1",
+  "cid": "R8-88",
+  "enunciado": "Cuando personas noveles emiten desde una estación colectiva con fines de divulgación, ¿qué se añade tras el sufijo del distintivo de la colectiva?",
+  "opciones": [
+   "el distintivo completo del radioaficionado que las supervisa",
+   "una cifra que indica el distrito desde el que se emite",
+   "dos o tres letras de libre elección",
+   "la indicación /P de estación portable"
+  ],
+  "clave": "c",
+  "sol": "Según el art. 30.6.c, las emisiones se identifican con el distintivo de la estación colectiva seguido, tras el sufijo, de dos o tres letras de libre elección. No se añade el distintivo del supervisor ni una cifra de distrito, que en la identificación opcional va delante y no tras el sufijo. La indicación /P es propia de la estación portable y nada tiene que ver con los noveles.",
+  "fuente": "chapters/ap-c3.typ:561",
+  "angulo": "pregunta solo por el añadido y lo contrasta con otros añadidos reales del distintivo (/P, distrito)"
+ },
+ {
+  "kid": "K-R8-89-1",
+  "cid": "R8-89",
+  "enunciado": "Un grupo de noveles usa, con fines de divulgación y bajo supervisión, la estación colectiva de una asociación en la banda de 137 kHz (2200 m), cuyo máximo en la tabla del anexo I es de 1 W p.i.r.e. Según el artículo 30.6.d, su potencia no podrá superar:",
+  "opciones": [
+   "0,6 W p.i.r.e.",
+   "1 W p.i.r.e.",
+   "100 W p.i.r.e.",
+   "0,4 W p.i.r.e."
+  ],
+  "clave": "d",
+  "sol": "El art. 30.6.d limita a los noveles al 40 % del máximo de la banda y, en todo caso, a 100 W (p.i.r.e.): manda el menor de los dos límites. En 137 kHz, $0,40 times 1 = 0,4$ W p.i.r.e., muy por debajo del tope de 100 W, que aquí no actúa. Los 0,6 W salen de rebajar un 40 % en vez de quedarse en el 40 %, y 1 W olvida la reducción.",
+  "fuente": "chapters/ap-c3.typ:569",
+  "angulo": "otros datos: una banda en la que manda el 40 % y no el tope de 100 W"
+ },
+ {
+  "kid": "K-R8-90-1",
+  "cid": "R8-90",
+  "enunciado": "Según las definiciones del anexo I, la relación entre estación automática desatendida y estación colectiva es:",
+  "opciones": [
+   "toda estación desatendida es colectiva, pero no toda estación colectiva es desatendida",
+   "toda estación colectiva es desatendida, pero no toda desatendida es colectiva",
+   "son lo mismo: las dos expresiones designan a los repetidores",
+   "no guardan relación: la desatendida es una estación individual que su titular acciona a distancia"
+  ],
+  "clave": "a",
+  "sol": "El anexo I define la estación automática desatendida como una estación colectiva que, para su funcionamiento habitual, no requiere la intervención directa del operador. Por tanto, toda desatendida es colectiva, pero una colectiva atendida por operadores, como la de un radioclub, no es desatendida. La estación individual accionada a distancia por su titular es la fija remota.",
+  "fuente": "chapters/ap-b2.typ:522",
+  "angulo": "pregunta la relación entre las dos categorías (inclusión) en lugar de la definición literal"
+ },
+ {
+  "kid": "K-R8-91-1",
+  "cid": "R8-91",
+  "enunciado": "¿Cuál de las siguientes estaciones NO figura entre las estaciones automáticas desatendidas que enumera el artículo 24?",
+  "opciones": [
+   "el repetidor de portadora o nodo",
+   "la estación fija remota",
+   "el repetidor final",
+   "la radiobaliza"
+  ],
+  "clave": "b",
+  "sol": "El art. 24 enumera como desatendidas los repetidores analógicos, los digitales, los de portadora o nodo y los finales, y las radiobalizas. La fija remota es una estación fija accionada a distancia por su titular, que la opera: no es una estación colectiva sin intervención directa del operador. Los nombres técnicos de nodo y final pueden parecer extraños, pero sí están en la lista.",
+  "fuente": "chapters/ap-c3.typ:473",
+  "angulo": "forma negativa con distractores verdaderos poco conocidos (nodo, final) y una estación de otra clase"
+ },
+ {
+  "kid": "K-R8-92-1",
+  "cid": "R8-92",
+  "enunciado": "Una estación repetidora digital situada en un monte solo enlaza con otras repetidoras digitales; ningún radioaficionado accede a ella directamente con su equipo. Según el anexo I, es una:",
+  "opciones": [
+   "estación repetidora final",
+   "estación repetidora analógico-digital",
+   "estación repetidora de portadora o nodo",
+   "radiobaliza"
+  ],
+  "clave": "c",
+  "sol": "El anexo I define la repetidora de portadora o nodo como la repetidora digital destinada a enlazar únicamente con otras repetidoras digitales: es un eslabón entre repetidoras. La final es la que procesa o distribuye el tráfico de otras repetidoras digitales hacia las estaciones de cada radioaficionado, justo lo que esta no hace. La analógico-digital se caracteriza por sus conversores, y la radiobaliza, por emitir señales de identificación para estudiar la propagación.",
+  "fuente": "chapters/ap-c3.typ:617",
+  "angulo": "caso práctico: de la función descrita al nombre, con la repetidora final como distractor directo"
+ },
+ {
+  "kid": "K-R8-93-1",
+  "cid": "R8-93",
+  "enunciado": "Un radioaficionado con autorización en vigor quiere instalar a su nombre un repetidor en una finca de su propiedad. Según la Orden:",
+  "opciones": [
+   "puede, si presenta memoria y seguro, como para su estación fija",
+   "puede, si limita la potencia a 10 W, como en un casco urbano",
+   "puede, si la asociación local da por escrito su conformidad",
+   "no puede: las estaciones automáticas desatendidas solo se autorizan a asociaciones de radioaficionados legalmente reconocidas"
+  ],
+  "clave": "d",
+  "sol": "Repetidores, radiobalizas y demás desatendidas se autorizan solo a asociaciones de radioaficionados legalmente reconocidas, nunca a título individual: son infraestructura de uso común y necesitan un responsable estable. Cumplir los trámites de una estación fija o limitar la potencia no cambia quién puede ser titular. Tampoco basta la conformidad de una asociación: la titular tendría que ser la propia asociación.",
+  "fuente": "chapters/r08.typ:455",
+  "angulo": "caso práctico de un particular; distractores que mezclan otros requisitos reales (memoria, seguro, 10 W)"
+ },
+ {
+  "kid": "K-R8-94-1",
+  "cid": "R8-94",
+  "enunciado": "Según el artículo 25.a, ¿qué criterio sigue la Administración para decidir si autoriza un nuevo repetidor en una zona?",
+  "opciones": [
+   "la cobertura del servicio ya existente y la disponibilidad de canales",
+   "el número de socios de la asociación que lo solicita",
+   "un cupo fijo de un repetidor por banda y provincia",
+   "el orden de presentación de las solicitudes, sin otro límite"
+  ],
+  "clave": "a",
+  "sol": "El número de estaciones automáticas desatendidas se autoriza en función de la cobertura del servicio preexistente y de la disponibilidad de canales, es decir, según las necesidades del servicio. No hay cupos fijos por provincia o banda, ni cuenta el tamaño de la asociación. Tampoco se autorizan sin límite por orden de llegada: los canales disponibles son limitados.",
+  "fuente": "chapters/ap-b2.typ:426",
+  "angulo": "pregunta por los dos factores concretos del criterio, no por la fórmula genérica «necesidades del servicio»"
+ },
+ {
+  "kid": "K-R8-95-1",
+  "cid": "R8-95",
+  "enunciado": "¿A quién corresponde autorizar que un repetidor de radioaficionado empiece a funcionar?",
+  "opciones": [
+   "al gestor designado por la asociación titular",
+   "a la Administración: la Jefatura Provincial verifica la instalación y expide la licencia que habilita a emitir",
+   "a la Junta Directiva de la asociación titular",
+   "a la asociación que coordina los repetidores de la zona"
+  ],
+  "clave": "b",
+  "sol": "Autorizar el inicio del funcionamiento es un acto de la Administración: la Jefatura Provincial verifica la instalación y expide la licencia (arts. 20 y 26 de la Orden IET/1311/2013). El gestor de la antigua Orden de 2006 cuidaba la estación: verificaba el tráfico, actualizaba la información y procuraba su mantenimiento, pero nunca la autorizaba. La Junta Directiva responde del uso de la estación, que no es lo mismo que autorizarla.",
+  "fuente": "chapters/ap-b2.typ:402",
+  "angulo": "dato al revés: en lugar de qué no corresponde al gestor, quién autoriza realmente el funcionamiento"
+ },
+ {
+  "kid": "K-R8-96-1",
+  "cid": "R8-96",
+  "enunciado": "Un repetidor de radioaficionado amplía el alcance de las comunicaciones porque:",
+  "opciones": [
+   "aumenta la potencia de los equipos de los usuarios que lo utilizan",
+   "emite automáticamente señales de identificación para estudiar la propagación",
+   "recibe las señales en una frecuencia y las retransmite en otra desde un emplazamiento elevado",
+   "sustituye a las estaciones fijas de su zona de cobertura"
+  ],
+  "clave": "c",
+  "sol": "El objetivo del repetidor es ampliar el alcance, y lo logra recibiendo en una frecuencia y retransmitiendo en otra desde un lugar elevado, de modo que dos estaciones que no se oyen directamente pueden comunicarse. No toca la potencia de los equipos de los usuarios ni sustituye a sus estaciones. Emitir señales de identificación para estudios de propagación es la función de la radiobaliza.",
+  "fuente": "chapters/r08.typ:245",
+  "angulo": "pregunta el mecanismo por el que se cumple el objetivo; distractor de la radiobaliza"
+ },
+ {
+  "kid": "K-R8-97-1",
+  "cid": "R8-97",
+  "enunciado": "Una asociación quiere poner un código de acceso a su repetidor analógico para evitar abusos. Según la Orden, ¿puede hacerlo?",
+  "opciones": [
+   "No, los repetidores no pueden tener ningún código de acceso",
+   "Sí, y puede reservar el código a sus socios",
+   "Sí, siempre que lo comunique a la Jefatura Provincial y lo mantenga en reserva",
+   "Sí, siempre que el código se haga público, porque el acceso a los repetidores debe ser libre"
+  ],
+  "clave": "d",
+  "sol": "El acceso a los repetidores analógicos y digitales es necesariamente libre; si tienen código de acceso, este debe hacerse público. El código, por tanto, no está prohibido, pero no puede servir para restringir el uso a los socios ni mantenerse en secreto. Comunicarlo a la Jefatura no sustituye a la obligación de publicarlo.",
+  "fuente": "chapters/r08.typ:251",
+  "angulo": "caso práctico: si se puede poner un código y en qué condiciones"
+ },
+ {
+  "kid": "K-R8-98-1",
+  "cid": "R8-98",
+  "enunciado": "Un radioaficionado quiere prestar a un amigo, también radioaficionado, el código con el que accede a través de una red pública a un repetidor analógico-digital. Según el artículo 23:",
+  "opciones": [
+   "no puede: el código es personal e intransferible, y su amigo debe pedir el suyo al responsable del repetidor, que está obligado a facilitárselo",
+   "puede, siempre que su amigo se identifique con el distintivo del titular del código",
+   "puede, porque el acceso a los repetidores es libre",
+   "no puede, porque solo los socios de la asociación titular pueden tener código"
+  ],
+  "clave": "a",
+  "sol": "Si el acceso a un repetidor analógico-digital se hace por una red pública, solo es posible con un código personal, intransferible y distinto para cada usuario, más el distintivo de la estación del operador. Por eso el código no se presta. El responsable del repetidor debe facilitar el código a todo radioaficionado que lo pida, no solo a los socios. El acceso libre de los repetidores analógicos y digitales finales es otra regla (art. 25.c), y no autoriza a ceder un código personal.",
+  "fuente": "chapters/ap-c3.typ:457",
+  "angulo": "caso práctico: cesión del código; distractor que cruza con la regla del acceso libre"
+ },
+ {
+  "kid": "K-R8-99-1",
+  "cid": "R8-99",
+  "enunciado": "Una asociación instala un repetidor de 70 cm en un monte alejado de cualquier núcleo urbano. Como norma general, la potencia de salida de su transmisor no superará:",
+  "opciones": [
+   "10 W",
+   "50 W",
+   "300 W",
+   "100 W"
+  ],
+  "clave": "b",
+  "sol": "Para las desatendidas de VHF y UHF el límite es de 10 W dentro del casco urbano y 50 W fuera; un monte alejado está fuera, luego 50 W. Los 10 W son el límite urbano. Los 300 W p.c.e. son el máximo general de la banda de 430–440 MHz en la tabla del anexo I, que no se aplica a las desatendidas.",
+  "fuente": "chapters/r08.typ:263",
+  "angulo": "caso práctico fuera del casco urbano; distractor que aplica la tabla general de potencias"
+ },
+ {
+  "kid": "K-R8-100-1",
+  "cid": "R8-100",
+  "enunciado": "La antena de un repetidor de 2 m tiene una ganancia de 9 dBi. ¿Cumple la norma general de ganancia del sistema radiante de las desatendidas de VHF y UHF?",
+  "opciones": [
+   "Sí: el límite de 6 dBd equivale a 9 dBi",
+   "Sí: el límite de ganancia solo se aplica a las desatendidas de HF",
+   "No: 9 dBi son unos 6,85 dBd, por encima del máximo de 6 dBd",
+   "No: el máximo es de 3 dBd"
+  ],
+  "clave": "c",
+  "sol": "El límite es de 6 dBd, referido al dipolo de media onda, que equivalen a unos 8,15 dBi. Para comparar, se pasa la ganancia a dBd restando 2,15 dB: 9 − 2,15 = 6,85 dBd, que supera los 6 dBd. El error típico es tratar los 6 dB como si fueran isótropos o sumar una cifra equivocada al convertir.",
+  "fuente": "chapters/r08.typ:278",
+  "angulo": "cálculo con cambio de referencia (dBi a dBd) en vez de recordar la cifra"
+ },
+ {
+  "kid": "K-R8-101-1",
+  "cid": "R8-101",
+  "enunciado": "Una asociación instala una radiobaliza en una cumbre de difícil acceso. Según el artículo 25.g, ¿cuál de estos elementos es obligatorio?",
+  "opciones": [
+   "un grupo electrógeno con autonomía de veinticuatro horas",
+   "un operador que la atienda mientras emite",
+   "una antena directiva orientada hacia la zona más poblada",
+   "un dispositivo de encendido y apagado por telemando"
+  ],
+  "clave": "d",
+  "sol": "El art. 25.g exige a repetidores y radiobalizas un dispositivo de encendido y apagado por telemando, para conectarlas o desconectarlas sin acudir al emplazamiento, y un sistema de alimentación ininterrumpida de al menos seis horas. No pide grupo electrógeno ni veinticuatro horas de autonomía. Un operador de guardia contradice la idea de estación desatendida, y la antena de una radiobaliza es, como norma general, omnidireccional.",
+  "fuente": "chapters/ap-c3.typ:513",
+  "angulo": "la otra mitad del art. 25.g (telemando) en un caso práctico, en vez de las seis horas"
+ },
+ {
+  "kid": "K-R8-102-1",
+  "cid": "R8-102",
+  "enunciado": "Mientras duren sus emisiones, un repetidor analógico debe transmitir automáticamente su distintivo a intervalos no superiores a:",
+  "opciones": [
+   "diez minutos",
+   "tres minutos",
+   "quince minutos",
+   "treinta minutos"
+  ],
+  "clave": "a",
+  "sol": "El art. 25.d dispone que los repetidores analógicos emitan su distintivo de forma automática, en radiotelefonía o en Morse (a no más de diez palabras por minuto), a intervalos no superiores a diez minutos. Los tres minutos son el intervalo máximo de las radiobalizas (art. 25.e), el distractor más tentador. Quince y treinta minutos no figuran en la Orden.",
+  "fuente": "chapters/r08.typ:39",
+  "angulo": "la otra cifra del art. 25.d (intervalo), con la de las radiobalizas como distractor"
+ },
+ {
+  "kid": "K-R8-103-1",
+  "cid": "R8-103",
+  "enunciado": "Una asociación de radioaficionados instala una radiobaliza principalmente para:",
+  "opciones": [
+   "ampliar el alcance de las comunicaciones retransmitiendo las señales que recibe",
+   "facilitar estudios de propagación, mediante la emisión automática de señales de identificación",
+   "servir de referencia de navegación a barcos y aeronaves",
+   "enlazar entre sí repetidoras digitales"
+  ],
+  "clave": "b",
+  "sol": "El anexo I define la radiobaliza como la estación automática desatendida de radioaficionado destinada a realizar estudios de propagación, cuyo funcionamiento se basa en la emisión automática de señales de identificación. Retransmitir para ampliar el alcance es lo propio del repetidor, y enlazar repetidoras digitales, de la repetidora de portadora o nodo. Las radioayudas a la navegación pertenecen a otros servicios, no al de aficionados.",
+  "fuente": "chapters/r08.typ:293",
+  "angulo": "dato al revés: del nombre a la finalidad, con funciones de otras desatendidas como distractores"
+ },
+ {
+  "kid": "K-R8-104-1",
+  "cid": "R8-104",
+  "enunciado": "Una radiobaliza de aficionado transmite su distintivo cada cinco minutos. Según el artículo 25.e:",
+  "opciones": [
+   "cumple, porque el máximo es de diez minutos, como en los repetidores",
+   "cumple, porque basta con que se identifique al principio y al final de sus emisiones",
+   "no cumple, porque debe transmitirlo a intervalos no superiores a tres minutos",
+   "no cumple, porque debe transmitirlo al menos una vez por minuto"
+  ],
+  "clave": "c",
+  "sol": "El art. 25.e obliga a las radiobalizas a transmitir su distintivo a intervalos no superiores a tres minutos; cinco minutos lo superan. Los diez minutos son el límite de los repetidores analógicos (art. 25.d) y el de las emisiones largas de cualquier estación. La exigencia de hacerlo cada minuto no figura en la Orden.",
+  "fuente": "chapters/ap-c3.typ:489",
+  "angulo": "caso práctico con un valor intermedio entre las dos cifras que se confunden (3 y 10 minutos)"
+ },
+ {
+  "kid": "K-R8-105-1",
+  "cid": "R8-105",
+  "enunciado": "Una asociación quiere que su radiobaliza transmita, además del distintivo, el parte meteorológico local y avisos de sus actividades. Según el artículo 25.f:",
+  "opciones": [
+   "puede, siempre que lo transmita en Morse a no más de diez palabras por minuto",
+   "puede, siempre que la potencia no supere 10 W",
+   "no puede: la radiobaliza solo puede transmitir su distintivo, sin ninguna otra información",
+   "no puede: salvo casos excepcionales justificados, la información de la radiobaliza se limita a su posición y sus condiciones de funcionamiento"
+  ],
+  "clave": "d",
+  "sol": "El art. 25.f limita la información de una radiobaliza, salvo casos excepcionales debidamente justificados, a su posición y sus condiciones de funcionamiento. Ni el tiempo ni los avisos de la asociación caben, se transmitan como se transmitan. Pero tampoco es cierto que solo pueda emitir el distintivo: la posición y el estado sí se transmiten.",
+  "fuente": "chapters/ap-c3.typ:497",
+  "angulo": "caso práctico; el distractor más fino recorta en exceso lo permitido"
+ },
+ {
+  "kid": "K-R8-106-1",
+  "cid": "R8-106",
+  "enunciado": "Al diseñar una radiobaliza de 2 m, ¿qué sistema radiante se ajusta a la norma general del artículo 25.f?",
+  "opciones": [
+   "una antena omnidireccional, que radie por igual en todas las direcciones del plano horizontal",
+   "una Yagi de alta ganancia apuntada hacia la zona más poblada",
+   "una antena directiva giratoria que vaya barriendo el horizonte",
+   "una antena de polarización circular, obligatoria en las radiobalizas"
+  ],
+  "clave": "a",
+  "sol": "Como norma general, el sistema radiante de una radiobaliza es omnidireccional: así cualquier estación puede oírla, esté en la dirección que esté, y valorar la propagación. Una Yagi fija deja sin señal el resto de direcciones, y una antena giratoria solo cubre cada dirección a ratos. La norma no exige polarización circular.",
+  "fuente": "chapters/ap-c3.typ:505",
+  "angulo": "caso de diseño con antenas concretas; incluye una directiva giratoria que intenta cubrir todo el horizonte"
+ },
+ {
+  "kid": "K-R8-107-1",
+  "cid": "R8-107",
+  "enunciado": "En el plan de bandas de la IARU para la Región 1, ¿qué segmento de la banda de 2 m se reserva a las radiobalizas?",
+  "opciones": [
+   "145,000–145,1875 MHz",
+   "144,400–144,491 MHz",
+   "145,600–145,7875 MHz",
+   "146,000–146,091 MHz"
+  ],
+  "clave": "b",
+  "sol": "El plan de bandas de la IARU Región 1 reserva a las balizas el segmento de 144,400–144,491 MHz; la Orden vigente no enumera bandas para las radiobalizas. El tramo de 145,000–145,1875 MHz es la entrada de los repetidores de 2 m, y el de 145,600–145,7875 MHz, su salida, 600 kHz más arriba. 146 MHz ya queda fuera de la banda de 144–146 MHz.",
+  "fuente": "chapters/r08.typ:40",
+  "angulo": "dato al revés: de la banda al segmento, con segmentos de repetidores como distractores"
+ },
+ {
+  "kid": "K-R8-108-1",
+  "cid": "R8-108",
+  "enunciado": "Una asociación obtuvo en marzo la autorización para instalar un repetidor y en noviembre aún no lo ha terminado. Según el artículo 26:",
+  "opciones": [
+   "está en plazo, porque dispone de dieciocho meses",
+   "se abre el procedimiento por interrupción de las emisiones durante más de tres meses",
+   "ha superado el plazo de seis meses para finalizar la instalación, lo que supone la caducidad de la autorización de instalación",
+   "la Jefatura Provincial le concede de oficio una prórroga de seis semanas"
+  ],
+  "clave": "c",
+  "sol": "Autorizada la instalación, la asociación tiene seis meses para finalizarla; de marzo a noviembre han pasado ocho, y el incumplimiento supone la caducidad de la autorización de instalación. Los dieciocho meses son los de las autorizaciones experimentales (art. 17). Los tres meses de interrupción (art. 25.b) se refieren a una estación que ya emite, no a una que aún no se ha instalado.",
+  "fuente": "chapters/ap-c3.typ:521",
+  "angulo": "caso práctico con fechas: aplicar el plazo y su consecuencia"
+ },
+ {
+  "kid": "K-R8-109-1",
+  "cid": "R8-109",
+  "enunciado": "Una asociación termina de instalar un repetidor ya autorizado. ¿Qué trámite sigue?",
+  "opciones": [
+   "puede empezar a emitir de inmediato, sin más trámite",
+   "debe pedir a la SETSI una autorización especial de uso experimental",
+   "debe realizar seis meses de pruebas antes de pedir la licencia",
+   "comunicar a la Jefatura Provincial, en seis semanas, que ha terminado, justificando el seguro; la Jefatura verifica la instalación y expide la licencia"
+  ],
+  "clave": "d",
+  "sol": "El art. 26 remite al procedimiento del art. 20, el de la licencia de estación fija: el interesado comunica a la Jefatura Provincial, en seis semanas, la finalización, justificando que la responsabilidad está cubierta con el seguro. La Jefatura dispone de 30 días como máximo para verificar la idoneidad y expedir la licencia, que es la que habilita a emitir. No hace falta autorización experimental, y los seis meses son el plazo para terminar la instalación.",
+  "fuente": "chapters/ap-c3.typ:529",
+  "angulo": "describe los pasos concretos del procedimiento en vez de citar el artículo al que se remite"
+ },
+ {
+  "kid": "K-R8-110-1",
+  "cid": "R8-110",
+  "enunciado": "Un repetidor lleva cuatro meses sin emitir por desinterés de la asociación titular, sin causa de fuerza mayor. Según el artículo 25.b:",
+  "opciones": [
+   "puede abrirse un procedimiento para cancelar su licencia y otorgar la autorización a otra asociación interesada",
+   "su licencia queda cancelada automáticamente al cumplirse el tercer mes",
+   "no ocurre nada hasta que la interrupción supere los seis meses",
+   "la asociación debe abonar una tasa por cada mes de interrupción"
+  ],
+  "clave": "a",
+  "sol": "Toda interrupción de más de tres meses, salvo fuerza mayor, puede dar lugar a la apertura de actuaciones para cancelar la licencia y, en su caso, otorgar la autorización a otra asociación interesada; cuatro meses superan ese plazo. No es una cancelación automática: la norma habla de abrir actuaciones. Los seis meses son el plazo para terminar una instalación (art. 26), no el de la interrupción.",
+  "fuente": "chapters/ap-c3.typ:481",
+  "angulo": "caso práctico: aplicar el plazo y distinguir apertura de actuaciones frente a cancelación automática"
+ },
+ {
+  "kid": "K-R8-111-1",
+  "cid": "R8-111",
+  "enunciado": "Un repetidor sigue causando interferencia perjudicial a otro servicio autorizado a pesar de las medidas técnicas adoptadas. ¿Cuál de estas medidas puede imponer excepcionalmente la SETSI según el artículo 32?",
+  "opciones": [
+   "trasladar el repetidor a otro emplazamiento",
+   "limitar el horario de sus emisiones",
+   "cambiar el distintivo de llamada del repetidor",
+   "obligarle a pasar de modulación analógica a digital"
+  ],
+  "clave": "b",
+  "sol": "El art. 32, al que remite el art. 26 para las desatendidas, prevé que, si la interferencia persiste tras las medidas técnicas, la SETSI imponga con carácter excepcional restricciones de bandas de frecuencias, potencia u horario. Limitar el horario es una de ellas. El traslado, el cambio de distintivo o de modulación no figuran entre esas restricciones.",
+  "fuente": "chapters/ap-c3.typ:537",
+  "angulo": "de la lista de restricciones a una medida concreta; distractores con otras medidas verosímiles"
+ },
+ {
+  "kid": "K-R8-112-1",
+  "cid": "R8-112",
+  "enunciado": "Una asociación quiere enlazar sus repetidores con otros a través de una red pública de telecomunicaciones, para facilitar las comunicaciones entre radioaficionados. Según el artículo 23:",
+  "opciones": [
+   "no puede: las estaciones de aficionado no pueden conectarse a otras redes de telecomunicación",
+   "puede, pero solo mientras dure un concurso",
+   "puede, porque la interconexión tiene fines relacionados con la radioafición, siempre que los dispositivos de conexión no dañen ni interfieran esa red",
+   "puede, siempre que la utilice para cursar tráfico de terceros"
+  ],
+  "clave": "c",
+  "sol": "El art. 23 permite interconectar las estaciones a través de otras instalaciones de telecomunicación autorizadas cuando la finalidad está relacionada con la radioafición, y exige que los dispositivos de conexión a redes públicas no causen daños ni interferencias. La norma no limita la interconexión a los concursos. Cursar tráfico de terceros no es un fin de radioafición: solo se admite en emergencias o desastres.",
+  "fuente": "chapters/ap-b2.typ:626",
+  "angulo": "caso práctico con las dos condiciones (finalidad y no dañar la red)"
+ },
+ {
+  "kid": "K-R8-113-1",
+  "cid": "R8-113",
+  "enunciado": "¿En cuál de estos casos se permite codificar una transmisión de aficionado para ocultar su significado?",
+  "opciones": [
+   "en una red de emergencia que transmite datos personales de los afectados",
+   "en las comunicaciones internas de un radioclub sobre la gestión de su repetidor",
+   "en el intercambio de números de serie durante un concurso",
+   "en las señales de control que una estación de mando terrestre envía a una estación espacial del Servicio de Aficionados por Satélite"
+  ],
+  "clave": "d",
+  "sol": "El art. 30.2 prohíbe codificar las transmisiones de aficionado para ocultar su significado, con una única excepción: las señales de control entre estaciones de mando terrestres y estaciones espaciales del Servicio de Aficionados por Satélite. Ni la emergencia, aunque se trate de datos sensibles, ni los asuntos de un radioclub, ni los concursos autorizan a cifrar. El tráfico de terceros en emergencias es otra regla distinta (art. 30.3).",
+  "fuente": "chapters/ap-c3.typ:545",
+  "angulo": "casos prácticos concretos en vez de la lista de la norma"
+ },
+ {
+  "kid": "K-R8-114-1",
+  "cid": "R8-114",
+  "enunciado": "Se cae la antena de una estación que incumplía las normas de seguridad aplicables y causa daños. Según el artículo 31, ¿qué responsabilidad tiene la SETSI?",
+  "opciones": [
+   "ninguna: no es responsable en ningún caso del incumplimiento de esas normas, cuyo cumplimiento corresponde al titular",
+   "responde solidariamente con el titular, por haber expedido la licencia",
+   "responde si la Jefatura Provincial no había inspeccionado la instalación en el último año",
+   "responde de los daños que no cubra el seguro de responsabilidad civil del titular"
+  ],
+  "clave": "a",
+  "sol": "El art. 31 obliga al titular de la autorización a cumplir la normativa de seguridad para evitar accidentes derivados del uso de sus estaciones, y añade que la SETSI no es responsable, en ningún caso, del incumplimiento de esas normas. Conceder la licencia no traslada la responsabilidad a la Administración, ni la hace responder de lo que no cubra el seguro. La falta de inspección tampoco la convierte en responsable.",
+  "fuente": "chapters/ap-c3.typ:577",
+  "angulo": "caso práctico de un accidente; distractores con formas de responsabilidad distintas de las de estudio"
+ },
+ {
+  "kid": "K-R8-115-1",
+  "cid": "R8-115",
+  "enunciado": "Tras un temporal, ves que el cable de alimentación de tu antena tiene el aislamiento dañado. Según el artículo 31, debes:",
+  "opciones": [
+   "comunicarlo a la Jefatura Provincial y esperar su inspección antes de tocar nada",
+   "subsanar la anomalía de forma inmediata",
+   "repararlo en el plazo de un mes, el mismo que se da a la comunidad para avisar de obras",
+   "dejar de emitir hasta la siguiente revisión periódica de la instalación"
+  ],
+  "clave": "b",
+  "sol": "El art. 31 obliga a mantener adecuadamente equipos, antenas y elementos anejos y a subsanar de forma inmediata cualquier anomalía que afecte a su seguridad mecánica o eléctrica. Un aislamiento dañado afecta a la seguridad eléctrica, así que no hay plazo de gracia ni se espera a nadie. El mes es el preaviso de la comunidad para obras, otro supuesto.",
+  "fuente": "chapters/ap-c3.typ:585",
+  "angulo": "caso práctico de anomalía eléctrica; distractor con otro plazo de un mes del tema"
+ },
+ {
+  "kid": "K-R8-116-1",
+  "cid": "R8-116",
+  "enunciado": "Si un cambio del Derecho de la Unión Europea obliga a actualizar el contenido técnico de los anexos de la Orden IET/1311/2013, ¿quién está facultado para revisarlo, según la disposición final segunda?",
+  "opciones": [
+   "solo las Cortes Generales, mediante una ley",
+   "la CEPT, cuyas recomendaciones modifican directamente los anexos",
+   "la SETSI, que puede revisar el contenido técnico de los anexos para actualizarlos conforme al Derecho de la Unión Europea y al Derecho internacional",
+   "la IARU Región 1, al actualizar su plan de bandas"
+  ],
+  "clave": "c",
+  "sol": "La disposición final segunda faculta a la SETSI para dictar las instrucciones necesarias para aplicar el Reglamento y para revisar el contenido técnico de sus anexos, con el fin de actualizarlos conforme al Derecho de la Unión Europea y al Derecho internacional. También la faculta para establecer los modelos de solicitud. Ni la CEPT ni la IARU modifican la norma española.",
+  "fuente": "chapters/ap-c3.typ:593",
+  "angulo": "caso práctico: de la situación a quién está facultado"
+ },
+ {
+  "kid": "K-R8-117-1",
+  "cid": "R8-117",
+  "enunciado": "En la nomenclatura de bandas del anexo I, la banda número 7 corresponde a:",
+  "opciones": [
+   "VHF, ondas métricas, de 30 a 300 MHz",
+   "MF, ondas hectométricas, de 300 a 3000 kHz",
+   "HF, ondas hectométricas, de 3 a 30 MHz",
+   "HF, ondas decamétricas, de 3 a 30 MHz"
+  ],
+  "clave": "d",
+  "sol": "La banda 7 es la HF, de 3 a 30 MHz, con longitudes de onda de 100 a 10 m: ondas decamétricas (B.dam). Truco: la banda N va de $0,3 times 10^N$ a $3 times 10^N$ Hz, y para N = 7 da de 3 a 30 MHz. La VHF es la banda 8 y la MF, la 6; la última opción acierta símbolo y rango pero cambia el tipo de onda.",
+  "fuente": "chapters/ap-b2.typ:410",
+  "angulo": "del número de banda al símbolo, tipo de onda y rango; distractor que mezcla datos de dos bandas"
+ },
+ {
+  "kid": "K-R8-117-2",
+  "cid": "R8-117",
+  "enunciado": "La banda de aficionado de 137 kHz (2200 m) se encuentra, según la nomenclatura de bandas, en la de:",
+  "opciones": [
+   "LF, ondas kilométricas (B.km)",
+   "MF, ondas hectométricas (B.hm)",
+   "VLF, ondas miriamétricas (B.Mam)",
+   "HF, ondas decamétricas (B.dam)"
+  ],
+  "clave": "a",
+  "sol": "137 kHz está entre 30 y 300 kHz, que es la banda LF (número 5), de ondas kilométricas, con abreviatura B.km: su longitud de onda, unos 2200 m, se mide en kilómetros. La MF (ondas hectométricas) empieza en 300 kHz y la VLF (miriamétricas) acaba en 30 kHz. La HF va de 3 a 30 MHz.",
+  "fuente": "chapters/ap-b2.typ:410",
+  "angulo": "caso práctico: situar una banda de aficionado concreta en la nomenclatura"
+ },
+ {
+  "kid": "K-R8-119-1",
+  "cid": "R8-119",
+  "enunciado": "Operas en una banda en la que los aficionados son servicio secundario. Una estación de un servicio primario, a la que se asignó frecuencia después de que empezaras a usarla, te causa interferencia perjudicial. Según el anexo I:",
+  "opciones": [
+   "puedes reclamar protección, porque empezaste a usar la frecuencia antes",
+   "no puedes reclamar protección, aunque a esa estación primaria se le asignara la frecuencia después",
+   "puedes reclamar protección si la estación primaria emite con más potencia que tú",
+   "puedes exigirle que cambie de frecuencia, porque el servicio secundario está protegido frente a las asignaciones posteriores"
+  ],
+  "clave": "b",
+  "sol": "Las estaciones de un servicio secundario no pueden reclamar protección frente a las interferencias de estaciones de un servicio primario, tengan sus frecuencias asignadas antes o se les asignen en el futuro. La protección frente a asignaciones posteriores solo existe respecto a estaciones del mismo servicio o de otros servicios secundarios. Por eso falla el último distractor, que aplica esa regla a una estación primaria.",
+  "fuente": "chapters/ap-c3.typ:639",
+  "angulo": "caso práctico que cruza las dos reglas (frente a primarios y frente a secundarios posteriores)"
+ },
+ {
+  "kid": "K-R8-120-1",
+  "cid": "R8-120",
+  "enunciado": "¿Cuál de estas situaciones constituye interferencia perjudicial según el anexo I?",
+  "opciones": [
+   "una emisión que supera la potencia máxima autorizada, aunque no afecte a ningún receptor",
+   "un armónico que solo se detecta con un analizador, sin efecto sobre ninguna recepción",
+   "una emisión que compromete el funcionamiento de un servicio de radionavegación",
+   "cualquier emisión de aficionado que se reciba en un receptor ajeno"
+  ],
+  "clave": "c",
+  "sol": "Es perjudicial la interferencia que compromete el funcionamiento de un servicio de radionavegación o de otros servicios de seguridad, o que degrada gravemente, interrumpe repetidamente o impide un servicio de radiocomunicación explotado conforme al Reglamento de Radiocomunicaciones. La definición atiende al efecto: sin efecto sobre la recepción no hay interferencia, por mucha potencia que se emita. Y que una señal se reciba en otro receptor no basta.",
+  "fuente": "chapters/ap-c3.typ:683",
+  "angulo": "casos prácticos clasificados por su efecto; distractores sin efecto real sobre la recepción"
+ },
+ {
+  "kid": "K-R8-121-1",
+  "cid": "R8-121",
+  "enunciado": "Según el anexo I, una energía no deseada que solo produce una ligera degradación de la calidad de la recepción en un sistema de radiocomunicación:",
+  "opciones": [
+   "no es una interferencia, porque no interrumpe el servicio",
+   "es siempre una interferencia perjudicial",
+   "es una emisión fuera de banda",
+   "es una interferencia, aunque no llegue a ser interferencia perjudicial"
+  ],
+  "clave": "d",
+  "sol": "La interferencia es el efecto de una energía no deseada sobre la recepción que se manifiesta como degradación de la calidad, falseamiento o pérdida de información: basta una degradación ligera. Para ser perjudicial hace falta más: degradación grave, interrupciones repetidas o afectar a servicios de seguridad. La emisión fuera de banda es otra definición del anexo, referida a la emisión y no a su efecto en la recepción.",
+  "fuente": "chapters/ap-c3.typ:691",
+  "angulo": "caso límite que separa interferencia de interferencia perjudicial"
+ },
+ {
+  "kid": "K-R8-122-1",
+  "cid": "R8-122",
+  "enunciado": "Un transmisor que emite en 144 MHz tiene una tolerancia de frecuencia de 5 ppm. ¿Cuál es la desviación máxima admisible entre la frecuencia asignada y el centro de la banda ocupada por la emisión?",
+  "opciones": [
+   "720 Hz",
+   "72 Hz",
+   "7,2 kHz",
+   "72 kHz"
+  ],
+  "clave": "a",
+  "sol": "La tolerancia de frecuencia es la desviación máxima admisible entre la frecuencia asignada y la del centro de la banda ocupada, y puede expresarse en ppm. Aquí, $144 times 10^6 times 5 times 10^(-6) = 720$ Hz. Las otras cifras salen de correr la coma una o varias posiciones al operar con las potencias de diez.",
+  "fuente": "chapters/ap-c3.typ:653",
+  "angulo": "cálculo con otros datos: de ppm a hertzios en otra banda"
+ },
+ {
+  "kid": "K-R8-123-1",
+  "cid": "R8-123",
+  "enunciado": "Suministras 50 W a una antena de 10 dBd de ganancia. ¿Cuál es, aproximadamente, la p.i.r.e.?",
+  "opciones": [
+   "500 W",
+   "820 W",
+   "50 W",
+   "1640 W"
+  ],
+  "clave": "b",
+  "sol": "La p.i.r.e. usa la ganancia respecto a la antena isótropa: 10 dBd son 12,15 dBi, un factor de unos 16,4, y $50 times 16,4 approx 820$ W. Los 500 W son la p.r.a., que toma como referencia el dipolo de media onda (factor 10). Los 1640 W corresponderían a 100 W, no a 50.",
+  "fuente": "cheatsheet.typ:858",
+  "angulo": "cálculo con otros datos que obliga a distinguir la referencia isótropa de la del dipolo"
+ },
+ {
+  "kid": "K-R8-126-1",
+  "cid": "R8-126",
+  "enunciado": "Quieres probar en 2 m una modulación digital nueva que el anexo I no cita expresamente. Según su apartado 3.1:",
+  "opciones": [
+   "necesitas una autorización expresa de la SETSI para cada nuevo modo de emisión",
+   "no puedes: solo se permiten las modulaciones de amplitud, frecuencia y fase",
+   "puedes, si la emisión queda dentro de las bandas autorizadas y con un ancho de banda acorde, como norma general, con el plan de bandas de la IARU Región 1",
+   "puedes, siempre que emitas con menos de 10 W"
+  ],
+  "clave": "c",
+  "sol": "El apartado 3.1 autoriza la modulación de amplitud, la de frecuencia, la de fase y otras modulaciones digitales, con la condición de que la emisión se ajuste a las bandas autorizadas y tenga un ancho de banda acorde, como norma general, con el plan de bandas de la IARU para la Región 1. No pide autorización por modo ni limita los modos digitales a una lista cerrada. La potencia no forma parte de esa condición.",
+  "fuente": "chapters/ap-c3.typ:735",
+  "angulo": "caso práctico con un modo no citado; distractor que convierte la lista en cerrada"
+ },
+ {
+  "kid": "K-R8-127-1",
+  "cid": "R8-127",
+  "enunciado": "Un radioaficionado quiere transmitir televisión digital en una banda de aficionado, respetando la banda y el ancho de banda. Según el apartado 3.1 del anexo I, las modulaciones digitales:",
+  "opciones": [
+   "solo pueden transportar datos",
+   "pueden transportar audio y datos, pero el vídeo ha de ser analógico",
+   "pueden transportar vídeo solo con una autorización especial del artículo 16",
+   "pueden transportar vídeo, igual que audio o datos"
+  ],
+  "clave": "d",
+  "sol": "El apartado 3.1 autoriza otros tipos de modulaciones digitales con señales de audio, datos o vídeo, sin distinguir por el contenido. La condición es que la emisión quede dentro de las bandas autorizadas y con el ancho de banda adecuado. Las autorizaciones del art. 16 se refieren a bandas secundarias con riesgo de interferencia, no al tipo de señal.",
+  "fuente": "chapters/ap-c3.typ:743",
+  "angulo": "caso práctico con el tipo de señal menos evidente (vídeo)"
+ },
+ {
+  "kid": "K-R8-128-1",
+  "cid": "R8-128",
+  "enunciado": "¿En cuál de estas bandas la tabla del anexo I fija una potencia máxima de 1000 W p.c.e.?",
+  "opciones": [
+   "28 MHz (10 m)",
+   "50 MHz (6 m)",
+   "430–440 MHz (70 cm)",
+   "137 kHz (2200 m)"
+  ],
+  "clave": "a",
+  "sol": "La tabla del apartado 3.1 fija 1000 W p.c.e. para todas las bandas de HF, de 1,8 a 28 MHz, y 10 m es la última de ellas. En 50 MHz el máximo baja a 600 W p.c.e., en 70 cm a 300 W p.c.e. y en 137 kHz es de solo 1 W p.i.r.e. Es fácil dudar con 6 m por estar al lado de 10 m, pero ya es VHF.",
+  "fuente": "cheatsheet.typ:1025",
+  "angulo": "dato al revés: de la potencia a la banda, con la banda vecina de 6 m como distractor"
+ },
+ {
+  "kid": "K-R8-129-1",
+  "cid": "R8-129",
+  "enunciado": "Pasas de emitir en 2 m con la potencia máxima de la tabla del anexo I a emitir en 70 cm. ¿Cómo cambia la potencia máxima permitida?",
+  "opciones": [
+   "se mantiene en 600 W p.c.e.",
+   "baja de 600 W a 300 W p.c.e.",
+   "baja de 1000 W a 600 W p.c.e.",
+   "sube a 1000 W p.i.r.e."
+  ],
+  "clave": "b",
+  "sol": "En 144–146 MHz la tabla fija 600 W p.c.e., y en 430–440 MHz, 300 W p.c.e.: la mitad. Bajar de 1000 a 600 W es lo que ocurre al pasar de HF a VHF, no de 2 m a 70 cm. Los 1000 W p.i.r.e. empiezan en 23 cm.",
+  "fuente": "cheatsheet.typ:1026",
+  "angulo": "comparación entre las dos filas vecinas en lugar de preguntar una sola cifra"
+ },
+ {
+  "kid": "K-R8-130-1",
+  "cid": "R8-130",
+  "enunciado": "En la banda de 23 cm usas una antena de 13 dBi de ganancia (un factor de unos 20). Para no superar el máximo de la tabla del anexo I, ¿qué potencia puedes suministrar como mucho a la antena?",
+  "opciones": [
+   "1000 W",
+   "77 W",
+   "50 W",
+   "500 W"
+  ],
+  "clave": "c",
+  "sol": "Desde 23 cm el límite es de 1000 W p.i.r.e., es decir, potencia suministrada a la antena por su ganancia isótropa. Con $G_i approx 20$, la potencia máxima es $1000 / 20 = 50$ W. Los 1000 W tratan el límite como si fuera p.c.e.; 77 W sale de dividir entre los 13 dB en vez de entre el factor; 500 W aplica un 50 % que solo rige en bandas secundarias.",
+  "fuente": "chapters/ap-c3.typ:781",
+  "angulo": "cálculo inverso con otros datos: de la p.i.r.e. máxima a la potencia entregada a la antena"
+ },
+ {
+  "kid": "K-R8-131-1",
+  "cid": "R8-131",
+  "enunciado": "¿En qué dos bandas la tabla del anexo I fija, con carácter general, una potencia máxima de 1 W p.i.r.e.?",
+  "opciones": [
+   "1,8 MHz (160 m) y 3,5 MHz (80 m)",
+   "5 MHz (60 m) y 10 MHz (30 m)",
+   "50 MHz (6 m) y 70 MHz (4 m)",
+   "137 kHz (2200 m) y 475 kHz (630 m)"
+  ],
+  "clave": "d",
+  "sol": "La tabla del apartado 3.1 da 1 W p.i.r.e. para las dos bandas más bajas, 137 y 475 kHz; en 475 kHz se puede llegar a 5 W p.i.r.e. a más de 800 km de la frontera de países africanos. 160 y 80 m son de HF, con 1000 W p.c.e.; 6 y 4 m tienen 600 W p.c.e. La banda de 60 m tiene un límite propio de 15 W p.i.r.e. y no está en la tabla.",
+  "fuente": "cheatsheet.typ:1024",
+  "angulo": "dato al revés: de la potencia a las bandas"
+ },
+ {
+  "kid": "K-R8-132-1",
+  "cid": "R8-132",
+  "enunciado": "Suponiendo que la banda de 430–440 MHz estuviera atribuida al servicio de aficionados con carácter secundario, ¿cuál sería su potencia máxima según el anexo I?",
+  "opciones": [
+   "150 W p.c.e.",
+   "300 W p.c.e.",
+   "150 W p.i.r.e.",
+   "120 W p.c.e."
+  ],
+  "clave": "a",
+  "sol": "El apartado 3.2 limita las bandas secundarias al 50 % de la tabla, y el porcentaje se aplica sobre la misma magnitud. Para 70 cm la tabla da 300 W p.c.e., así que $300 times 0,5 = 150$ W p.c.e. Los 300 W olvidan la rebaja; 150 W p.i.r.e. cambia la magnitud; y 120 W aplica el 40 % que corresponde a los noveles en estaciones colectivas.",
+  "fuente": "chapters/ap-c3.typ:813",
+  "angulo": "cálculo con otra banda; distractor con el 40 % de los noveles"
+ },
+ {
+  "kid": "K-R8-133-1",
+  "cid": "R8-133",
+  "enunciado": "La banda de aficionado atribuida en España con carácter secundario y con una potencia radiada máxima de 15 W p.i.r.e. es la de:",
+  "opciones": [
+   "1810–1830 kHz (160 m)",
+   "5351,5–5366,5 kHz (60 m)",
+   "7100–7200 kHz (40 m)",
+   "475 kHz (630 m)"
+  ],
+  "clave": "b",
+  "sol": "La banda de 60 m, de 5351,5 a 5366,5 kHz, está atribuida con carácter secundario y su potencia radiada se limita a 15 W p.i.r.e. (nota 5.133B del RR, recogida en el CNAF); no figura en la tabla del anexo I. El tramo de 1810–1830 kHz también es secundario, pero se rige por la tabla de HF rebajada al 50 %. 7100–7200 kHz es primario desde 2009, y 630 m tiene 1 W p.i.r.e. (5 W en zonas alejadas de África).",
+  "fuente": "chapters/ap-c3.typ:145",
+  "angulo": "dato al revés: de las condiciones a la banda"
+ },
+ {
+  "kid": "K-R8-134-1",
+  "cid": "R8-134",
+  "enunciado": "En España (Región 1), ¿qué tramo de la banda de 40 m está hoy atribuido a los aficionados a título primario?",
+  "opciones": [
+   "7000–7100 kHz solamente",
+   "7000–7300 kHz",
+   "7000–7200 kHz",
+   "7000–7100 kHz, y 7100–7200 kHz solo a título secundario"
+  ],
+  "clave": "c",
+  "sol": "Desde el 29 de marzo de 2009, al terminar la transición fijada por la CMR-03, el tramo de 7100 a 7200 kHz pasó de la radiodifusión a los aficionados a título primario; junto con 7000–7100 kHz forma la banda de 40 m de la Región 1. Limitarla a 7100 kHz es la situación anterior a 2009, y llegar a 7300 kHz es propio de la Región 2.",
+  "fuente": "chapters/ap-b2.typ:728",
+  "angulo": "consecuencia del cambio: el tramo primario completo hoy, con la Región 2 como distractor"
+ },
+ {
+  "kid": "K-R8-140-1",
+  "cid": "R8-140",
+  "enunciado": "Un radioaficionado español viaja dos semanas a un país europeo que aplica las recomendaciones CEPT de aficionados y quiere operar allí su equipo. ¿En qué norma se ampara?",
+  "opciones": [
+   "la Recomendación CEPT T/R 61-02",
+   "el artículo 25 del Reglamento de Radiocomunicaciones de la UIT",
+   "la disposición adicional segunda de la Orden IET/1311/2013",
+   "la Recomendación CEPT T/R 61-01"
+  ],
+  "clave": "d",
+  "sol": "La T/R 61-01 regula el uso temporal de la estación en otro país, mediante la licencia CEPT; la autorización española tiene esa consideración. La T/R 61-02 es la del certificado HAREC: sirve para obtener autorización al instalarse en otro país, no para una visita. Truco: de visita, 61-01; si te instalas, 61-02.",
+  "fuente": "chapters/r08.typ:9",
+  "angulo": "caso práctico de visita temporal: de la situación a la recomendación"
+ },
+ {
+  "kid": "K-R8-140-2",
+  "cid": "R8-140",
+  "enunciado": "El certificado HAREC que obtienes al aprobar el examen se basa en:",
+  "opciones": [
+   "la Recomendación CEPT T/R 61-02",
+   "la Recomendación CEPT T/R 61-01",
+   "el artículo 25 del Reglamento de Radiocomunicaciones de la UIT",
+   "el artículo 11 de la Orden IET/1311/2013"
+  ],
+  "clave": "a",
+  "sol": "El HAREC es el certificado de examen armonizado de la Recomendación CEPT T/R 61-02. La T/R 61-01 es la de la licencia CEPT para el uso temporal en otros países, y el art. 11 de la Orden es el que da a la autorización española la consideración de licencia CEPT. El art. 25 del RR trata del servicio de aficionados, no del certificado.",
+  "fuente": "chapters/r08.typ:57",
+  "angulo": "dato al revés: del certificado a la recomendación"
+ },
+ {
+  "kid": "K-R8-141-1",
+  "cid": "R8-141",
+  "enunciado": "¿Quién expide la licencia CEPT de un radioaficionado español?",
+  "opciones": [
+   "la Administración del país visitado, a su llegada",
+   "la Administración española: la propia autorización española de radioaficionado tiene la consideración de licencia CEPT",
+   "la CEPT, directamente, a petición del interesado",
+   "nadie: se obtiene automáticamente con el certificado HAREC, sin necesidad de autorización"
+  ],
+  "clave": "b",
+  "sol": "Según el art. 11 de la Orden, la licencia CEPT es la expedida por un país que ha adoptado la T/R 61-01, y la autorización española de radioaficionado tiene esa consideración. No la expide el país visitado ni la CEPT. El HAREC, de la T/R 61-02, solo acredita el examen y permite solicitar la autorización: no es una licencia.",
+  "fuente": "chapters/ap-b2.typ:600",
+  "angulo": "pregunta quién la expide, que es lo que separa la licencia CEPT del HAREC"
+ },
+ {
+  "kid": "K-R8-143-1",
+  "cid": "R8-143",
+  "enunciado": "Según el artículo 12 de la Orden IET/1311/2013, ¿cuál de estos datos debe constar en la licencia CEPT?",
+  "opciones": [
+   "la fecha en que el titular superó el examen",
+   "la relación de equipos del titular",
+   "el nombre y la dirección del titular",
+   "el número de socio de la asociación a la que pertenece"
+  ],
+  "clave": "c",
+  "sol": "El art. 12 enumera cinco datos: la declaración que autoriza a usar la estación conforme a la T/R 61-01, nombre y dirección del titular, distintivo de llamada, período de validez y autoridad que la expide. La fecha del examen, los equipos o la asociación no figuran. Regla práctica: quién eres, cómo te llamas en el aire, hasta cuándo vale y quién lo firma.",
+  "fuente": "chapters/ap-b2.typ:364",
+  "angulo": "forma positiva (qué consta) con un dato de la lista que no se preguntaba en estudio"
+ },
+ {
+  "kid": "K-R8-144-1",
+  "cid": "R8-144",
+  "enunciado": "Operas temporalmente con licencia CEPT en un país donde una banda que en España tienes autorizada no está atribuida a los aficionados. ¿Puedes usarla allí?",
+  "opciones": [
+   "Sí, porque la licencia CEPT te permite usar las bandas de tu país",
+   "Sí, si reduces la potencia al 50 %",
+   "Sí, siempre que no causes interferencias",
+   "No: solo puedes usar las bandas del servicio de aficionados autorizadas en el país donde operas"
+  ],
+  "clave": "d",
+  "sol": "El art. 14.b permite usar con la licencia CEPT todas las bandas atribuidas al servicio de aficionados que estén autorizadas, y en sus condiciones, en el país donde se opera. Si allí una banda no lo está, no se puede usar aunque en España sí. Rebajar la potencia o no interferir no cambia nada: el 50 % es la regla de las bandas secundarias españolas.",
+  "fuente": "chapters/ap-b2.typ:554",
+  "angulo": "caso práctico: consecuencia de la regla para una banda que solo existe en España"
+ },
+ {
+  "kid": "K-R8-145-1",
+  "cid": "R8-145",
+  "enunciado": "Mientras operas temporalmente en otro país con tu licencia CEPT, un funcionario de su Administración te pide que acredites que puedes emitir. ¿Qué debes hacer?",
+  "opciones": [
+   "presentarle tu licencia CEPT, que en tu caso es tu autorización española de radioaficionado",
+   "nada, porque la licencia CEPT no obliga a mostrarla fuera de tu país",
+   "remitirle a la Jefatura Provincial española, que responde por ti",
+   "solicitar en ese momento un distintivo de ese país"
+  ],
+  "clave": "a",
+  "sol": "Una de las condiciones del art. 14 es presentar la licencia CEPT a petición de las autoridades del país visitado (14.c). Para un español, la autorización de radioaficionado tiene la consideración de licencia CEPT (art. 11). No se pide distintivo local: se usa el propio precedido de la designación del país visitado.",
+  "fuente": "chapters/ap-b2.typ:610",
+  "angulo": "caso práctico con una persona concreta que lo requiere"
+ },
+ {
+  "kid": "K-R8-146-1",
+  "cid": "R8-146",
+  "enunciado": "Operando en otro país con licencia CEPT, una estación local te causa interferencia perjudicial. Según el artículo 14.f de la Orden:",
+  "opciones": [
+   "puedes pedir protección a la Administración local, como cualquier estación de ese país",
+   "no puedes solicitar protección contra esa interferencia",
+   "puedes pedir protección a través de la SETSI",
+   "tienes prioridad por ser estación visitante"
+  ],
+  "clave": "b",
+  "sol": "El titular de una licencia CEPT que emite fuera de su territorio nacional no puede solicitar protección contra interferencias perjudiciales (art. 14.f). Es una condición de la licencia, no de la categoría de la banda, y no cambia porque se acuda a la SETSI. Tampoco hay prioridad alguna para el visitante.",
+  "fuente": "chapters/r08.typ:231",
+  "angulo": "caso práctico desde el lado del que sufre la interferencia"
+ },
+ {
+  "kid": "K-R8-147-1",
+  "cid": "R8-147",
+  "enunciado": "En el país que visitas con licencia CEPT, la potencia máxima de una banda es inferior a la española. ¿Qué potencia puedes usar?",
+  "opciones": [
+   "la máxima española, porque tu licencia es española",
+   "la máxima española reducida al 50 %",
+   "la máxima del país visitado, porque debes respetar su reglamentación y el Reglamento de Radiocomunicaciones",
+   "la mayor de las dos"
+  ],
+  "clave": "c",
+  "sol": "La licencia CEPT ahorra el trámite, no las reglas: se opera con las bandas, potencias y condiciones del país en que uno se encuentra y con sujeción al Reglamento de Radiocomunicaciones (art. 14.d). Por eso manda la potencia máxima del país visitado. El 50 % es la rebaja de las bandas secundarias en España, sin relación con esto.",
+  "fuente": "chapters/r08.typ:557",
+  "angulo": "caso práctico con un parámetro concreto (potencia)"
+ },
+ {
+  "kid": "K-R8-148-1",
+  "cid": "R8-148",
+  "enunciado": "Un radioaficionado checo con distintivo OK2HM opera temporalmente desde Cataluña con su licencia CEPT. ¿Cuál de estas identificaciones es correcta?",
+  "opciones": [
+   "OK2HM, sin ningún añadido",
+   "EA3HM, distintivo español que se le asigna al llegar",
+   "OK2HM/P",
+   "EA3/OK2HM"
+  ],
+  "clave": "d",
+  "sol": "Con licencia CEPT se antepone al distintivo propio el prefijo del país visitado, EA en España, y opcionalmente el número de distrito desde el que se opera; Cataluña es el distrito 3. Por eso vale EA3/OK2HM, y también valdría EA/OK2HM. El distintivo de origen solo no basta, no se asigna uno español, y /P indica estación portable, no la operación con licencia CEPT.",
+  "fuente": "chapters/r08.typ:563",
+  "angulo": "caso práctico: construir el distintivo con un ejemplo concreto y el distrito correcto"
+ },
+ {
+  "kid": "K-R8-149-1",
+  "cid": "R8-149",
+  "enunciado": "Un radioaficionado de un país que ha adoptado la T/R 61-01 fija su residencia en España. ¿Puede seguir operando aquí solo con la licencia CEPT de su país?",
+  "opciones": [
+   "No: la licencia CEPT extranjera solo surte efectos para no residentes, durante sus estancias temporales",
+   "Sí, sin límite de tiempo, porque está equiparada a la autorización española",
+   "Sí, durante sus primeros 90 días de residencia",
+   "Sí, si su país pertenece a la Unión Europea"
+  ],
+  "clave": "a",
+  "sol": "El art. 13 equipara la licencia CEPT de otro país a la autorización española, pero exclusivamente para extranjeros no residentes y durante sus estancias temporales. Quien fija su residencia necesita la autorización española, que puede obtener examinándose o, sin examen, con un HAREC o por convenio de reciprocidad (art. 5.2). Los 90 días son los de la autorización temporal del art. 15, para países sin la T/R 61-01.",
+  "fuente": "chapters/ap-c3.typ:257",
+  "angulo": "caso práctico: el cambio a residente hace decaer la equiparación"
+ },
+ {
+  "kid": "K-R8-150-1",
+  "cid": "R8-150",
+  "enunciado": "Una radioaficionada residente en España procede de un país que no es miembro de la CEPT pero aplica la Recomendación T/R 61-02, y tiene el HAREC de ese país. Para obtener la autorización española:",
+  "opciones": [
+   "debe examinarse de nuevo, porque su país no es miembro de la CEPT",
+   "debe acreditar documentalmente su residencia en España y solicitarla, sin repetir el examen",
+   "debe examinarse solo de la parte de reglamentación",
+   "debe residir antes diez años en España"
+  ],
+  "clave": "b",
+  "sol": "El art. 5.2 permite al extranjero residente obtener la autorización sin examen si tiene un HAREC expedido por un país que haya aplicado la T/R 61-02, sea o no miembro de la CEPT: el procedimiento de esa recomendación está abierto a países de fuera. Lo imprescindible es acreditar documentalmente la residencia. No hay examen parcial ni plazo mínimo de residencia.",
+  "fuente": "cheatsheet.typ:1111",
+  "angulo": "caso práctico con un país no CEPT que aplica la T/R 61-02"
+ },
+ {
+  "kid": "K-R8-150-2",
+  "cid": "R8-150",
+  "enunciado": "Un extranjero residente en España tiene la licencia de radioaficionado de su país, pero no tiene HAREC; España tiene un convenio de reciprocidad en la materia con ese país. Según el artículo 5.2:",
+  "opciones": [
+   "debe superar la prueba de capacitación, porque no tiene HAREC",
+   "puede operar indefinidamente con su licencia de origen como si fuera una licencia CEPT",
+   "puede obtener la autorización española sin superar la prueba de capacitación",
+   "solo puede obtener una autorización temporal de 90 días"
+  ],
+  "clave": "c",
+  "sol": "El art. 5.2 ofrece al extranjero residente dos vías sin examen: un HAREC de un país que aplique la T/R 61-02 o un acuerdo o convenio de reciprocidad con el país que le otorgó su licencia original. Basta una de las dos, así que el convenio le exime del examen aunque no tenga HAREC. La autorización temporal de 90 días es para visitantes de países sin la T/R 61-01, no para residentes.",
+  "fuente": "chapters/ap-b2.typ:458",
+  "angulo": "caso práctico por la vía de la reciprocidad, sin HAREC"
+ },
+ {
+  "kid": "K-R8-151-1",
+  "cid": "R8-151",
+  "enunciado": "Un radioaficionado de un país que no ha adoptado la T/R 61-01 pasará cuatro meses en España. Si la SETSI le concede la autorización temporal del artículo 15, esta podrá cubrir como máximo:",
+  "opciones": [
+   "los cuatro meses completos, porque se ajusta a la duración de la estancia",
+   "15 días naturales",
+   "30 días al año",
+   "90 días de su estancia"
+  ],
+  "clave": "d",
+  "sol": "El art. 15 permite a la SETSI autorizar a operar mientras esté temporalmente en España al titular de una licencia en vigor de un país que no ha adoptado la T/R 61-01, con un período de validez no superior a 90 días. Una estancia de cuatro meses lo supera, así que la autorización no la cubre entera. Los 15 días naturales son los del uso portable sin notificación, y los 30 días al año, el límite de los distintivos temporales.",
+  "fuente": "chapters/ap-c3.typ:265",
+  "angulo": "caso práctico con una estancia más larga que el máximo"
+ },
+ {
+  "kid": "K-R8-155-1",
+  "cid": "R8-155",
+  "enunciado": "Acabas de aprobar el examen y recibes el certificado HAREC. ¿Puedes empezar a emitir ya?",
+  "opciones": [
+   "No: el HAREC certifica tu capacidad para operar, pero necesitas solicitar y obtener la autorización de radioaficionado",
+   "Sí, porque el HAREC lleva implícita la autorización de uso del espectro",
+   "Sí, pero solo en las bandas de VHF y UHF hasta que recibas la autorización",
+   "No: antes debes renovar el HAREC ante la CEPT"
+  ],
+  "clave": "a",
+  "sol": "El HAREC certifica la capacidad de su titular para operar estaciones del Servicio de Aficionados, pero por sí solo no autoriza a emitir: habilita para solicitar la autorización. No hay emisión provisional en ninguna banda mientras tanto. Y el HAREC no caduca ni se renueva.",
+  "fuente": "chapters/ap-b2.typ:594",
+  "angulo": "caso práctico en el momento de recibir el certificado"
+ },
+ {
+  "kid": "K-R8-156-1",
+  "cid": "R8-156",
+  "enunciado": "En otro país que aplica la Recomendación T/R 61-02, el HAREC que obtuviste en España:",
+  "opciones": [
+   "te permite emitir allí directamente con tu distintivo español, sin más trámite",
+   "le sirve a ese país para expedirte su propia autorización sin que repitas el examen",
+   "solo se reconoce si ese país es miembro de la Unión Europea",
+   "pierde su validez a los cinco años de su expedición"
+  ],
+  "clave": "b",
+  "sol": "El HAREC acredita conocimientos, no autoriza a emitir: cualquier país que aplique la T/R 61-02 reconoce esa capacitación y puede expedir su propia autorización sin repetir el examen. La recomendación no se limita a la Unión Europea; incluso países de fuera de la CEPT pueden participar en ella. Y el HAREC no caduca.",
+  "fuente": "chapters/r08.typ:545",
+  "angulo": "pregunta qué hace el certificado en el país de destino, con distractores sobre su alcance"
+ },
+ {
+  "kid": "K-R8-165-1",
+  "cid": "R8-165",
+  "enunciado": "Contactas con un aficionado de otro país cuya Administración ha notificado que se opone a las comunicaciones de aficionado con otros países. Según el artículo 25 del Reglamento de Radiocomunicaciones:",
+  "opciones": [
+   "está permitida, porque basta con que la autorice la Administración española",
+   "está permitida si la hacéis en inglés",
+   "esa comunicación no está permitida",
+   "está permitida si los dos países están en la misma Región de la UIT"
+  ],
+  "clave": "c",
+  "sol": "El art. 25 del RR permite las comunicaciones entre aficionados de distintos países salvo que la Administración de alguno de los países afectados haya manifestado su oposición. Basta la oposición de uno, así que el permiso del otro no la levanta. La Región o el idioma no influyen.",
+  "fuente": "chapters/r08.typ:533",
+  "angulo": "caso práctico en el que se da la excepción (oposición)"
+ }
+]
