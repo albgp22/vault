@@ -120,7 +120,7 @@
   block(width: 100%, {
     set par(justify: false)
     set text(size: 9.5pt)
-    [Estos conceptos de la prueba técnica son de peso menor: caen poco, pero caen. No ocupan sitio en los simulacros para no alargarlos; aquí están en formato rápido, pregunta y respuesta correcta, con el número de la pregunta del libro donde está el razonamiento. Léelos cuando domines los simulacros: cada uno se aprende en segundos.]
+    [Estos conceptos son de peso menor (casi todos de la prueba técnica): caen poco, pero caen. No ocupan sitio en los simulacros para no alargarlos; aquí están en formato rápido, pregunta y respuesta correcta, con el número de la pregunta del libro donde está el razonamiento. Léelos cuando domines los simulacros: cada uno se aprende en segundos.]
   })
   v(0.4cm)
 }

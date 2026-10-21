@@ -101,6 +101,27 @@ build/                   output and scratch; build/*/ hold the agents' generator
 
 ## 4. Status
 
+**Update 2026-10-21 — mock exams (`simulacros.typ` → `build/simulacros.pdf`, 223 pages).**
+One document: 13 exams of 30 + 30 questions (780 questions, none repeated), key and reasoned
+solution for each, Apéndice A (201 marginal concepts as question → answer) and Apéndice B (map of
+all 949 concepts → where they are). Pipeline in `tools/simulacros/` (regenerate, never edit
+`simulacros.typ` by hand):
+1. `extract.py` → `build/simulacros/banco.json` (all 1467 `#q` of the book, raw Typst kept).
+2. Concept inventory by 9 agents (`PROMPT-CONCEPTOS.md`) → `build/simulacros/conceptos/L*.json`:
+   bank grouped into concepts with weight 1–3, best question chosen, 84 new questions for gaps.
+   New questions checked by 3 independent agents (`PROMPT-VERIFICAR.md`) →
+   `verificadas-*.json` (0 discarded, 11 corrected, no key changed). Cross-topic duplicates found
+   by 2 agents (`PROMPT-DUPLICADOS.md`) → `duplicados-*.json` (70 groups merged).
+   `excluir.json`: questions with dubious, imprecise or repealed-rule keys (C-H never used).
+3. `planificar.py [N]` → `plan.json`: N = smallest number that fits every weight 3 and 2
+   technical concept; priority weight 3 > 2 > second questions of weight 3 > weight 1; topics
+   spread evenly; a concept's second question at least 4 exams away; the rest to Apéndice A.
+4. `generar.py build/simulacros/plan.json simulacros.typ`: copies chapter-local macros
+   (`macros.py`), shuffles options when safe and balances answer letters per test (7–8 each),
+   writes intro (`intro.typ`) and page pieces (`cabecera.typ`).
+Checks done: 780 keys verified after shuffling, every concept placed, 0 errors/warnings, no ink
+outside the text block, no overlapping words.
+
 **Update 2026-10-20 (second session, «completa la tarea»): all steps of §5 are done.**
 
 - *Custom Falstad circuits:* `www.falstad.com` was blocked, so CircuitJS was compiled from its
