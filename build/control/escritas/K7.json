@@ -1,0 +1,1112 @@
+[
+ {
+  "kid": "K-R3-01-1",
+  "cid": "R3-01",
+  "enunciado": "Quieres lanzar una llamada para que te conteste cualquier estación que esté escuchando. ¿Qué abreviatura repites al principio de la llamada?",
+  "opciones": [
+   "`QRZ`",
+   "`QSO`",
+   "`CQ`",
+   "`CL`"
+  ],
+  "clave": "c",
+  "sol": "`CQ` es la llamada general a todas las estaciones: por eso se repite al empezar («`CQ CQ CQ DE`…»). `QRZ`? es otra cosa: pregunta «¿quién me llama?» cuando alguien ya te ha llamado y no lo has identificado. `QSO` es el comunicado ya establecido y `CL`, el cierre de la estación.",
+  "fuente": "chapters/r03.typ:43",
+  "angulo": "del significado a la abreviatura; distractores del código Q que se confunden con CQ (QRZ, QSO)"
+ },
+ {
+  "kid": "K-R3-02-1",
+  "cid": "R3-02",
+  "enunciado": "EA1ABC termina su turno con «… EA4XYZ DE EA1ABC K». Con esa `K` final, EA1ABC:",
+  "opciones": [
+   "te invita a transmitir: ahora es tu turno",
+   "da por terminado el contacto",
+   "anuncia que apaga su estación",
+   "te pide que repitas lo último que enviaste"
+  ],
+  "clave": "a",
+  "sol": "`K` es el «cambio» de la telegrafía: he terminado, transmita usted. Dar por terminado el contacto sería `SK` y apagar la estación, `CL`; para pedir repetición se usa `RPT` o `AGN`.",
+  "fuente": "chapters/r03.typ:54",
+  "angulo": "abreviatura dentro de una frase real de QSO"
+ },
+ {
+  "kid": "K-R3-03-1",
+  "cid": "R3-03",
+  "enunciado": "En respuesta a una llamada, EA1ABC transmite «EA4XYZ DE EA1ABC EA1ABC AR». La `AR` del final indica:",
+  "opciones": [
+   "el fin del contacto entre las dos estaciones",
+   "el fin de esta transmisión, sin cerrar el contacto",
+   "el cierre de la estación",
+   "una petición de repetición"
+  ],
+  "clave": "b",
+  "sol": "`AR` cierra un mensaje concreto, pero no el contacto: después seguirá el intercambio. El fin del contacto es `SK`, y el cierre de la estación, `CL`; son las señales de turno que más se confunden.",
+  "fuente": "chapters/r03.typ:104",
+  "angulo": "abreviatura en una frase de QSO; distractor principal SK (fin del contacto)"
+ },
+ {
+  "kid": "K-R3-04-1",
+  "cid": "R3-04",
+  "enunciado": "Habéis terminado el intercambio y quieres indicar en telegrafía que el contacto queda cerrado, aunque vas a seguir en la frecuencia llamando `CQ`. ¿Qué transmites al final?",
+  "opciones": [
+   "`CL`",
+   "`AR`",
+   "`K`",
+   "`SK`"
+  ],
+  "clave": "d",
+  "sol": "`SK` señala el fin del contacto. `CL` añadiría que apagas la estación, y no es el caso porque sigues llamando; `AR` solo cierra la transmisión en curso y `K` invita al otro a transmitir.",
+  "fuente": "chapters/r03.typ:53",
+  "angulo": "caso práctico: del significado a la abreviatura, con CL como vecina que se confunde"
+ },
+ {
+  "kid": "K-R3-05-1",
+  "cid": "R3-05",
+  "enunciado": "Es tu último contacto del día y, tras el `SK`, vas a apagar el equipo. ¿Qué abreviatura añades para anunciarlo?",
+  "opciones": [
+   "`CL`",
+   "`CQ`",
+   "`CUL`",
+   "`K`"
+  ],
+  "clave": "a",
+  "sol": "`CL` anuncia el cierre de la estación, como en «`TU 73 SK EA1ABC CL`». `CUL` es «hasta luego» (una despedida, no el cierre), `CQ` es la llamada general y `K` invita a transmitir, lo contrario de lo que quieres.",
+  "fuente": "chapters/r03.typ:120",
+  "angulo": "del significado a la abreviatura en un caso práctico; distractor CUL por parecido de forma"
+ },
+ {
+  "kid": "K-R3-06-1",
+  "cid": "R3-06",
+  "enunciado": "En pleno intercambio en telegrafía quieres pasar el turno un momento al corresponsal sin repetir todo el ritual de indicativos. ¿Qué abreviatura usas?",
+  "opciones": [
+   "`SK`",
+   "`AR`",
+   "`BK`",
+   "`CL`"
+  ],
+  "clave": "c",
+  "sol": "`BK` (_break_) es la interrupción breve: pasa el turno sin el ritual completo de indicativos. `SK` y `CL` cierran el contacto y la estación, y `AR` marca el fin de una transmisión dentro del ritual normal.",
+  "fuente": "chapters/r03.typ:122",
+  "angulo": "del uso a la abreviatura (caso práctico)"
+ },
+ {
+  "kid": "K-R3-07-1",
+  "cid": "R3-07",
+  "enunciado": "En la llamada «EA1ABC DE EA4XYZ K», ¿qué estación está transmitiendo?",
+  "opciones": [
+   "EA1ABC, que llama a EA4XYZ",
+   "EA4XYZ, que llama a EA1ABC",
+   "ninguna en concreto: es una llamada general",
+   "las dos, una tras otra"
+  ],
+  "clave": "b",
+  "sol": "`DE` va delante del distintivo de quien transmite: primero se nombra a quien se llama (EA1ABC) y, tras `DE`, quien llama (EA4XYZ). No es una llamada general, que llevaría `CQ`.",
+  "fuente": "chapters/r03.typ:104",
+  "angulo": "aplicar DE a una llamada concreta en lugar de definirla"
+ },
+ {
+  "kid": "K-R3-08-1",
+  "cid": "R3-08",
+  "enunciado": "Has copiado sin problemas todo lo que te ha transmitido el corresponsal. ¿Con qué abreviatura empiezas tu respuesta para decírselo?",
+  "opciones": [
+   "`RPT`",
+   "`RST`",
+   "`K`",
+   "`R`"
+  ],
+  "clave": "d",
+  "sol": "`R` significa «recibido»: lo que se transmitió llegó bien. `RPT` pide justo lo contrario (que repita), `RST` es el informe de señal y `K` invita a transmitir, no confirma nada.",
+  "fuente": "chapters/r03.typ:75",
+  "angulo": "del significado a la abreviatura; distractores con R inicial (RPT, RST)"
+ },
+ {
+  "kid": "K-R3-09-1",
+  "cid": "R3-09",
+  "enunciado": "¿Qué dos abreviaturas sirven para pedir al corresponsal que repita lo que ha transmitido?",
+  "opciones": [
+   "`RPT` y `AGN`",
+   "`RST` y `AGN`",
+   "`RPT` y `CFM`",
+   "`R` y `RPT`"
+  ],
+  "clave": "a",
+  "sol": "`RPT` es «repita» y `AGN`, «de nuevo»; juntas aparecen en «`PSE RPT UR NAME AGN`». `RST` es el informe de señal, `R` es «recibido» y `CFM`, «confirmo»: las tres se usan cuando no hace falta repetir nada.",
+  "fuente": "chapters/r03.typ:122",
+  "angulo": "del significado a las dos abreviaturas (RPT y AGN a la vez); distractores con letras parecidas"
+ },
+ {
+  "kid": "K-R3-10-1",
+  "cid": "R3-10",
+  "enunciado": "Un colega comenta que anoche «hizo DX» en 20 m. Eso quiere decir que:",
+  "opciones": [
+   "contactó con estaciones de su misma ciudad",
+   "transmitió en telegrafía",
+   "contactó con estaciones muy lejanas",
+   "estuvo escuchando sin transmitir"
+  ],
+  "clave": "c",
+  "sol": "`DX` es el contacto de larga distancia; «hacer DX» es buscar estaciones lejanas. La telegrafía es `CW`, y escuchar sin transmitir es lo que hace un radioescucha (`SWL`).",
+  "fuente": "chapters/r03.typ:127",
+  "angulo": "la abreviatura en el uso de la jerga diaria"
+ },
+ {
+  "kid": "K-R3-11-1",
+  "cid": "R3-11",
+  "enunciado": "En el libro de guardia, ¿con qué abreviatura anotas el modo de un contacto hecho en telegrafía Morse?",
+  "opciones": [
+   "`SSB`",
+   "`CW`",
+   "`LSB`",
+   "`DX`"
+  ],
+  "clave": "b",
+  "sol": "`CW` (onda continua) designa la telegrafía en código Morse. `SSB` y `LSB` son modos de fonía en banda lateral, y `DX` no es un modo: indica que el contacto es de larga distancia.",
+  "fuente": "chapters/r03.typ:45",
+  "angulo": "del significado a la abreviatura"
+ },
+ {
+  "kid": "K-R3-12-1",
+  "cid": "R3-12",
+  "enunciado": "Vas a hablar en SSB en la banda de 40 m (7 MHz). Según el convenio habitual en HF, ¿qué banda lateral seleccionas y cómo se abrevia?",
+  "opciones": [
+   "la superior, `USB`",
+   "la inferior, `USB`",
+   "la superior, `LSB`",
+   "la inferior, `LSB`"
+  ],
+  "clave": "d",
+  "sol": "`LSB` es la banda lateral inferior y `USB`, la superior. Por convenio se usa la inferior por debajo de 10 MHz (160, 80 y 40 m) y la superior de 20 m hacia arriba. Las opciones cruzadas emparejan la banda lateral con la abreviatura que no le corresponde.",
+  "fuente": "chapters/r03.typ:270",
+  "angulo": "caso práctico: elegir la banda lateral y su abreviatura; distractores que cruzan USB y LSB"
+ },
+ {
+  "kid": "K-R3-13-1",
+  "cid": "R3-13",
+  "enunciado": "`USB` y `LSB` son las dos variantes de una misma modalidad de fonía, que se abrevia:",
+  "opciones": [
+   "`SSB`",
+   "`SWL`",
+   "`CW`",
+   "`RST`"
+  ],
+  "clave": "a",
+  "sol": "`SSB` es la banda lateral única, que puede ser la superior (`USB`) o la inferior (`LSB`). `SWL` se parece en las letras, pero es el radioescucha; `CW` es la telegrafía y `RST`, el informe de señal.",
+  "fuente": "chapters/r03.typ:49",
+  "angulo": "del significado a la abreviatura a través de la relación con USB/LSB; distractor SWL por parecido"
+ },
+ {
+  "kid": "K-R3-14-1",
+  "cid": "R3-14",
+  "enunciado": "Un corresponsal te pasa en telegrafía «`UR RST 479`». ¿Qué te está diciendo?",
+  "opciones": [
+   "intensidad 4, legibilidad 7 y tono 9",
+   "legibilidad 4, tono 7 e intensidad 9",
+   "legibilidad 4 (casi sin dificultad), intensidad 7 y tono 9 (puro)",
+   "legibilidad 4, intensidad 7 y potencia 9"
+  ],
+  "clave": "c",
+  "sol": "Las cifras van en el orden R, S, T: legibilidad (1 a 5), intensidad (1 a 9) y tono (1 a 9). Un 4 de legibilidad es «prácticamente sin dificultad», el 7 es una señal bastante fuerte y el 9, un tono puro. Las demás opciones cambian el orden o meten la potencia, que no forma parte del informe.",
+  "fuente": "chapters/r03.typ:112",
+  "angulo": "descifrar un informe concreto en lugar de preguntar qué es cada letra"
+ },
+ {
+  "kid": "K-R3-15-1",
+  "cid": "R3-15",
+  "enunciado": "En un contacto en SSB recibes a tu corresponsal perfectamente legible y con la máxima intensidad. ¿Qué informe le das?",
+  "opciones": [
+   "599",
+   "95",
+   "5",
+   "59"
+  ],
+  "clave": "d",
+  "sol": "En fonía el informe lleva solo dos cifras, legibilidad e intensidad: «59». La tercera cifra (tono) solo tiene sentido en telegrafía, así que «599» es el informe de CW. «95» invierte el orden: la legibilidad va primero y solo llega a 5.",
+  "fuente": "cheatsheet.typ:1006",
+  "angulo": "caso práctico: dar el informe en lugar de interpretarlo"
+ },
+ {
+  "kid": "K-R3-16-1",
+  "cid": "R3-16",
+  "enunciado": "Copias a tu corresponsal, pero con considerable dificultad. ¿Qué cifra de legibilidad (R) le das?",
+  "opciones": [
+   "1",
+   "3",
+   "4",
+   "5"
+  ],
+  "clave": "b",
+  "sol": "La escala R va de 1 a 5: 1 ilegible, 2 apenas legible, 3 legible con considerable dificultad, 4 legible prácticamente sin dificultad y 5 perfectamente legible. El 4 tienta, pero corresponde a una señal que se copia casi sin esfuerzo.",
+  "fuente": "chapters/ap-c2.typ:603",
+  "angulo": "dato al revés: de la descripción a la cifra"
+ },
+ {
+  "kid": "K-R3-17-1",
+  "cid": "R3-17",
+  "enunciado": "En el saludo «`GM OM TNX CALL`», la abreviatura `OM` se refiere a:",
+  "opciones": [
+   "el operador corresponsal, como tratamiento cordial",
+   "la onda media",
+   "el operador de más edad de la estación",
+   "la operadora corresponsal"
+  ],
+  "clave": "a",
+  "sol": "`OM` (_old man_) es el tratamiento cordial habitual entre radioaficionados, sin relación con la edad, aunque la traducción literal lo sugiera. Para una operadora se usa `YL`.",
+  "fuente": "chapters/r03.typ:58",
+  "angulo": "abreviatura en una frase de QSO; distractores sacados de la traducción literal y de YL"
+ },
+ {
+  "kid": "K-R3-18-1",
+  "cid": "R3-18",
+  "enunciado": "Durante un contacto quieres referirte a una operadora que no es tu esposa. ¿Qué abreviatura usas?",
+  "opciones": [
+   "`XYL`",
+   "`OM`",
+   "`YL`",
+   "`OP`"
+  ],
+  "clave": "c",
+  "sol": "`YL` (_young lady_) es la operadora. `XYL` se reserva para la esposa del radioaficionado, sea o no operadora; `OM` es el tratamiento de los operadores y `OP` significa simplemente «operador».",
+  "fuente": "chapters/r03.typ:59",
+  "angulo": "del significado a la abreviatura, con XYL como vecina que se confunde"
+ },
+ {
+  "kid": "K-R3-19-1",
+  "cid": "R3-19",
+  "enunciado": "Para despedirte de un colega con «saludos cordiales», ¿qué transmites?",
+  "opciones": [
+   "`88`",
+   "`73`",
+   "`599`",
+   "`SK`"
+  ],
+  "clave": "b",
+  "sol": "`73` son los saludos cordiales, la despedida universal. `88` (besos) se reserva para despedidas afectuosas; `599` es un informe de señal y `SK` cierra el contacto, pero no saluda.",
+  "fuente": "chapters/r03.typ:56",
+  "angulo": "del significado a la abreviatura numérica; distractor 88"
+ },
+ {
+  "kid": "K-R3-20-1",
+  "cid": "R3-20",
+  "enunciado": "Quieres pedir con cortesía al corresponsal que repita su nombre: «… `RPT UR NAME`». ¿Qué abreviatura pones delante?",
+  "opciones": [
+   "`TNX`",
+   "`TU`",
+   "`SRI`",
+   "`PSE`"
+  ],
+  "clave": "d",
+  "sol": "`PSE` es «por favor», la fórmula para pedir algo con cortesía. `TNX` y `TU` dan las gracias (después, no antes de pedir) y `SRI` pide disculpas.",
+  "fuente": "chapters/r03.typ:117",
+  "angulo": "completar una frase de QSO; distractores entre las abreviaturas de cortesía"
+ },
+ {
+  "kid": "K-R3-21-1",
+  "cid": "R3-21",
+  "enunciado": "¿Cuál de estas abreviaturas significa «gracias»?",
+  "opciones": [
+   "`TU`",
+   "`UR`",
+   "`PSE`",
+   "`SRI`"
+  ],
+  "clave": "a",
+  "sol": "`TU` (_thank you_) es «gracias», igual que `TNX` o `TKS`. `UR` se le parece, pero es el posesivo «su»; `PSE` es «por favor» y `SRI`, «lo siento».",
+  "fuente": "chapters/r03.typ:125",
+  "angulo": "del significado a la abreviatura; distractor UR, la confusión que señala el propio libro"
+ },
+ {
+  "kid": "K-R3-22-1",
+  "cid": "R3-22",
+  "enunciado": "Tu corresponsal te cuenta que en su ciudad hace sol y frío. ¿Con qué abreviatura introduce ese dato?",
+  "opciones": [
+   "`QTH`",
+   "`HR`",
+   "`WX`",
+   "`RIG`"
+  ],
+  "clave": "c",
+  "sol": "`WX` es el tiempo meteorológico: «`WX SUNNY ES COLD`». `QTH` da la posición y `HR` significa «aquí»; pueden aparecer en la misma frase, pero no anuncian el tiempo. `RIG` es el equipo.",
+  "fuente": "chapters/r03.typ:110",
+  "angulo": "del contenido a la abreviatura, en un caso práctico"
+ },
+ {
+  "kid": "K-R3-23-1",
+  "cid": "R3-23",
+  "enunciado": "Quieres decir «su informe de señal es 599». ¿Qué abreviatura de «su» pones delante de `RST`?",
+  "opciones": [
+   "`TU`",
+   "`UR`",
+   "`HR`",
+   "`OP`"
+  ],
+  "clave": "b",
+  "sol": "`UR` (_your_) es «su, sus»: «`UR RST 599`». `TU` se le parece, pero significa «gracias»; `HR` es «aquí» y `OP`, «operador».",
+  "fuente": "chapters/r03.typ:74",
+  "angulo": "completar la frase: del significado a la abreviatura, con TU como vecina que se confunde"
+ },
+ {
+  "kid": "K-R3-24-1",
+  "cid": "R3-24",
+  "enunciado": "El corresponsal describe su estación: «`RIG IC-7300 PWR ABT 100W ANT DIPOLE`». ¿Qué datos te da?",
+  "opciones": [
+   "su indicativo, su potencia y su antena",
+   "su equipo, su posición y su antena",
+   "su equipo, su relación de ondas estacionarias y su antena",
+   "su equipo, su potencia aproximada y su antena"
+  ],
+  "clave": "d",
+  "sol": "`RIG` es el equipo de radio, `PWR` la potencia (aquí «`ABT`», aproximadamente, 100 W) y `ANT` la antena. `RIG` no es el indicativo, y `PWR` no es la posición (`QTH`) ni la relación de ondas estacionarias.",
+  "fuente": "chapters/r03.typ:110",
+  "angulo": "descifrar una frase de QSO con RIG, PWR y ANT"
+ },
+ {
+  "kid": "K-R3-25-1",
+  "cid": "R3-25",
+  "enunciado": "Operas desde la estación de un radioclub y quieres decir quién está a los mandos: «… Ana». ¿Qué abreviatura usas?",
+  "opciones": [
+   "`OP`",
+   "`OM`",
+   "`QRA`",
+   "`QTH`"
+  ],
+  "clave": "a",
+  "sol": "`OP` es el operador, la persona que está a los mandos y que no siempre coincide con el titular de la estación. `OM` es el tratamiento al corresponsal, `QRA` el nombre de la estación y `QTH` la posición.",
+  "fuente": "chapters/r03.typ:109",
+  "angulo": "del significado a la abreviatura en un caso práctico; distractores OM y QRA"
+ },
+ {
+  "kid": "K-R3-26-1",
+  "cid": "R3-26",
+  "enunciado": "En la frase «`WX HR SUNNY ES COLD`», las abreviaturas `HR` y `ES` significan:",
+  "opciones": [
+   "«hora» y «España»",
+   "«he recibido» y «eso es»",
+   "«aquí» y la conjunción «y»",
+   "«hora» y la conjunción «y»"
+  ],
+  "clave": "c",
+  "sol": "`HR` (_here_) es «aquí» y `ES` es la conjunción «y»: «el tiempo aquí es soleado y frío». Leerlas en castellano («hora», «España») es la trampa típica de estas dos abreviaturas.",
+  "fuente": "chapters/r03.typ:112",
+  "angulo": "las dos abreviaturas dentro de una frase de QSO"
+ },
+ {
+  "kid": "K-R3-27-1",
+  "cid": "R3-27",
+  "enunciado": "Tu corresponsal te pregunta si tienes algún mensaje para él y no tienes ninguno. ¿Qué abreviatura le contestas?",
+  "opciones": [
+   "`MSG`",
+   "`NIL`",
+   "`NR`",
+   "`CFM`"
+  ],
+  "clave": "b",
+  "sol": "`NIL` es «nada (para usted)»: no hay nada que transmitir. `MSG` es «mensaje», justo lo que no tienes; `NR` es «número» y `CFM`, «confirmo».",
+  "fuente": "chapters/r03.typ:80",
+  "angulo": "caso práctico: del significado a la abreviatura"
+ },
+ {
+  "kid": "K-R3-28-1",
+  "cid": "R3-28",
+  "enunciado": "Quieres dar por buena una información del corresponsal diciendo «confirmo». ¿Qué abreviatura usas?",
+  "opciones": [
+   "`RPT`",
+   "`CUL`",
+   "`QRZ`",
+   "`CFM`"
+  ],
+  "clave": "d",
+  "sol": "`CFM` (_confirm_) es «confirmo», como en «`R CFM JUAN`». `RPT` pide repetición, `CUL` es «hasta luego» y `QRZ`? pregunta quién llama.",
+  "fuente": "chapters/r03.typ:81",
+  "angulo": "del significado a la abreviatura"
+ },
+ {
+  "kid": "K-R3-29-1",
+  "cid": "R3-29",
+  "enunciado": "En la frase «`PWR ABT 100W ES WX VY COLD`», las abreviaturas `ABT` y `VY` significan:",
+  "opciones": [
+   "«aproximadamente» y «muy»",
+   "«máximo» y «muy»",
+   "«aproximadamente» y «vatios»",
+   "«al menos» y «bastante»"
+  ],
+  "clave": "a",
+  "sol": "`ABT` (_about_) es «aproximadamente»: unos 100 W. `VY` (_very_) es «muy»: hace mucho frío. `ABT` no marca un máximo ni un mínimo, sino una cifra aproximada.",
+  "fuente": "chapters/r03.typ:83",
+  "angulo": "las dos abreviaturas en una frase de QSO"
+ },
+ {
+  "kid": "K-R3-30-1",
+  "cid": "R3-30",
+  "enunciado": "En telegrafía quieres indicar que lo que acabas de decir es una broma, con una risa. ¿Qué transmites?",
+  "opciones": [
+   "`HR`",
+   "`FB`",
+   "`HI`",
+   "`88`"
+  ],
+  "clave": "c",
+  "sol": "`HI` es la risa en telegrafía. `HR` empieza por la misma letra, pero significa «aquí»; `FB` es un elogio y `88`, besos.",
+  "fuente": "chapters/r03.typ:86",
+  "angulo": "del significado a la abreviatura; distractor HR por parecido"
+ },
+ {
+  "kid": "K-R3-31-1",
+  "cid": "R3-31",
+  "enunciado": "Has interrumpido sin querer a otra estación y quieres disculparte. ¿Qué abreviatura usas?",
+  "opciones": [
+   "`PSE`",
+   "`SRI`",
+   "`TU`",
+   "`BK`"
+  ],
+  "clave": "b",
+  "sol": "`SRI` (_sorry_) es «lo siento». `PSE` es «por favor», `TU` es «gracias» y `BK` sirve para interrumpir, no para disculparse por haberlo hecho.",
+  "fuente": "chapters/r03.typ:88",
+  "angulo": "caso práctico: del significado a la abreviatura"
+ },
+ {
+  "kid": "K-R3-32-1",
+  "cid": "R3-32",
+  "enunciado": "Tras recibir tu informe, el corresponsal contesta «`TNX FB RPRT`». ¿Qué te dice?",
+  "opciones": [
+   "que tu informe le parece demasiado bajo",
+   "que necesita que repitas el informe",
+   "que tu informe le llegó con interferencias",
+   "que te agradece el buen informe"
+  ],
+  "clave": "d",
+  "sol": "`FB` (_fine business_) es un elogio: «buen trabajo», «formidable»; con `TNX` delante, «gracias por el buen informe». No expresa queja ni petición de repetición.",
+  "fuente": "chapters/r03.typ:110",
+  "angulo": "abreviatura dentro de una frase de QSO"
+ },
+ {
+  "kid": "K-R3-33-1",
+  "cid": "R3-33",
+  "enunciado": "Te despides de un colega con quien volverás a hablar pronto y quieres decirle «hasta luego». Transmites:",
+  "opciones": [
+   "`CUL`",
+   "`CL`",
+   "`GL`",
+   "`SK`"
+  ],
+  "clave": "a",
+  "sol": "`CUL` (_see you later_) es «hasta luego». `CL` se le parece, pero anuncia el cierre de la estación; `GL` es «buena suerte» y `SK` cierra el contacto sin despedirse.",
+  "fuente": "cheatsheet.typ:1005",
+  "angulo": "del significado a la abreviatura; distractor CL por parecido de forma"
+ },
+ {
+  "kid": "K-R3-34-1",
+  "cid": "R3-34",
+  "enunciado": "Un telegrafista cuenta que manipula con un «`BUG`». Se refiere a:",
+  "opciones": [
+   "un manipulador vertical, la llave simple de subir y bajar",
+   "un manipulador semiautomático, que genera solos los puntos",
+   "un fallo de su transceptor",
+   "un manipulador electrónico que genera automáticamente puntos y rayas"
+  ],
+  "clave": "b",
+  "sol": "El `BUG` es el manipulador semiautomático: un mecanismo fabrica solo los puntos y las rayas se hacen a mano. No es la llave vertical, que lo hace todo a mano, ni el manipulador electrónico, que automatiza puntos y rayas.",
+  "fuente": "chapters/ap-b2.typ:83",
+  "angulo": "de la abreviatura a qué aparato es, con los manipuladores vecinos como distractores"
+ },
+ {
+  "kid": "K-R3-35-1",
+  "cid": "R3-35",
+  "enunciado": "¿Qué significan, respectivamente, las abreviaturas `GM` y `GA`?",
+  "opciones": [
+   "«buenas noches» y «buenas tardes»",
+   "«buen mensaje» y «de nuevo»",
+   "«buenos días» y «adelante»",
+   "«buenos días» y «buenas tardes»"
+  ],
+  "clave": "c",
+  "sol": "`GM` (_good morning_) es «buenos días»; `GA` (_go ahead_) no es un saludo, sino «adelante». Las buenas tardes son `GE` y las buenas noches, `GN`.",
+  "fuente": "chapters/ap-b2.typ:89",
+  "angulo": "pregunta por la vecina que se confunde (GA) junto con GM"
+ },
+ {
+  "kid": "K-R3-36-1",
+  "cid": "R3-36",
+  "enunciado": "¿De qué expresión inglesa procede `GE` y qué significa?",
+  "opciones": [
+   "de _good evening_: «buenas tardes»",
+   "de _good evening_: «buenos días»",
+   "de _go ahead_: «adelante»",
+   "de _good night_: «buenas noches»"
+  ],
+  "clave": "a",
+  "sol": "`GE` viene de _good evening_ y significa «buenas tardes». _Go ahead_ es `GA` («adelante») y _good night_ es `GN` («buenas noches»).",
+  "fuente": "chapters/ap-b2.typ:115",
+  "angulo": "origen y significado; distractores con las otras abreviaturas en G"
+ },
+ {
+  "kid": "K-R3-37-1",
+  "cid": "R3-37",
+  "enunciado": "Acabas un contacto pasada la medianoche y quieres desear al corresponsal «buenas noches». Transmites:",
+  "opciones": [
+   "`GE`",
+   "`GL`",
+   "`GM`",
+   "`GN`"
+  ],
+  "clave": "d",
+  "sol": "`GN` (_good night_) es «buenas noches». `GE` es «buenas tardes», `GM` «buenos días» y `GL` «buena suerte»: la segunda letra dice qué se desea.",
+  "fuente": "chapters/ap-c2.typ:586",
+  "angulo": "del significado a la abreviatura"
+ },
+ {
+  "kid": "K-R3-38-1",
+  "cid": "R3-38",
+  "enunciado": "Al final de un contacto recibes «`73 ES GL`». ¿Qué te desea el corresponsal?",
+  "opciones": [
+   "saludos y buenas noches",
+   "saludos y buena suerte",
+   "saludos y hasta luego",
+   "saludos y buenos días"
+  ],
+  "clave": "b",
+  "sol": "`73` son saludos, `ES` es «y» y `GL` (_good luck_), «buena suerte». Buenas noches sería `GN`, hasta luego `CUL` y buenos días `GM`.",
+  "fuente": "chapters/r03.typ:119",
+  "angulo": "abreviatura dentro de una despedida real"
+ },
+ {
+  "kid": "K-R3-39-1",
+  "cid": "R3-39",
+  "enunciado": "En un tráfico de mensajes, ¿qué abreviatura designa el «mensaje»?",
+  "opciones": [
+   "`NR`",
+   "`SIG`",
+   "`MSG`",
+   "`NIL`"
+  ],
+  "clave": "c",
+  "sol": "`MSG` (_message_) es «mensaje». `NR` es su número de orden, `SIG` es «señal» y `NIL` se usa cuando no queda nada que transmitir.",
+  "fuente": "chapters/ap-b2.typ:107",
+  "angulo": "del significado a la abreviatura; distractores del mismo tráfico de mensajes"
+ },
+ {
+  "kid": "K-R3-40-1",
+  "cid": "R3-40",
+  "enunciado": "En un concurso intercambias «`UR RST 599 NR 025`». El dato que sigue a `NR` es:",
+  "opciones": [
+   "el número de serie del contacto",
+   "la potencia, en vatios",
+   "el modelo de receptor",
+   "la distancia, en kilómetros"
+  ],
+  "clave": "a",
+  "sol": "`NR` (_number_) es «número»: en un concurso, el número de serie que se intercambia. No es el receptor (`RX`) ni la potencia (`PWR`).",
+  "fuente": "chapters/ap-b2.typ:99",
+  "angulo": "abreviatura dentro de un intercambio de concurso"
+ },
+ {
+  "kid": "K-R3-41-1",
+  "cid": "R3-41",
+  "enunciado": "Una estación DX transmite en una frecuencia y anuncia que escucha 5 kHz más arriba. Para contactarla trabajando en _split_, tú:",
+  "opciones": [
+   "transmites y recibes en la frecuencia del DX",
+   "transmites en la frecuencia del DX y recibes 5 kHz más arriba",
+   "transmites y recibes 5 kHz más arriba",
+   "recibes en la frecuencia del DX y transmites 5 kHz más arriba"
+  ],
+  "clave": "d",
+  "sol": "En _split_ se emite en una frecuencia y se recibe en otra. Escuchas al DX donde él transmite y le llamas donde él escucha, 5 kHz más arriba. Transmitir en su frecuencia es justo lo que el _split_ intenta evitar en un _pile-up_.",
+  "fuente": "chapters/ap-b2.typ:123",
+  "angulo": "caso práctico: cómo ajustar las frecuencias de emisión y recepción"
+ },
+ {
+  "kid": "K-R3-42-1",
+  "cid": "R3-42",
+  "enunciado": "¿Cuál de estos es un _locator_ (localizador Maidenhead) bien escrito?",
+  "opciones": [
+   "`EA4XYZ`",
+   "`IN80dk`",
+   "`80INdk`",
+   "`IN8dk0`"
+  ],
+  "clave": "b",
+  "sol": "El _locator_ se escribe con dos letras, dos cifras y dos letras, como IN80dk (Madrid), y da la ubicación de forma breve. `EA4XYZ` es un distintivo de llamada, y las otras dos opciones descolocan las letras y las cifras.",
+  "fuente": "chapters/ap-b2.typ:129",
+  "angulo": "reconocer un locator real en lugar de definirlo"
+ },
+ {
+  "kid": "K-R3-43-1",
+  "cid": "R3-43",
+  "enunciado": "¿Qué designan, respectivamente, `SWL` y _SWR_?",
+  "opciones": [
+   "la relación de ondas estacionarias y el radioescucha",
+   "la banda lateral única y la relación de ondas estacionarias",
+   "el radioescucha y la relación de ondas estacionarias",
+   "el radioescucha y la banda lateral única"
+  ],
+  "clave": "c",
+  "sol": "`SWL` (_short wave listener_) es el radioescucha; _SWR_, con R, es la relación de ondas estacionarias (ROE). La banda lateral única es `SSB`. La primera opción cambia el orden de las dos.",
+  "fuente": "chapters/ap-c2.typ:580",
+  "angulo": "pregunta por la vecina que se confunde (SWR) junto con SWL"
+ },
+ {
+  "kid": "K-R4-01-1",
+  "cid": "R4-01",
+  "enunciado": "Tu velero tiene una vía de agua y se hunde, con tres personas a bordo. ¿Con qué palabra, repetida tres veces, empiezas la llamada en radiotelefonía?",
+  "opciones": [
+   "Mayday",
+   "Pan Pan",
+   "Sécurité",
+   "Alarma"
+  ],
+  "clave": "a",
+  "sol": "Hay vidas en peligro grave e inminente: es socorro, y en fonía la señal es «Mayday». «Pan Pan» es urgencia sin peligro inmediato y «Sécurité» es un aviso a otras estaciones.",
+  "fuente": "chapters/r04.typ:75",
+  "angulo": "caso práctico: de la situación a la señal"
+ },
+ {
+  "kid": "K-R4-02-1",
+  "cid": "R4-02",
+  "enunciado": "Tu embarcación tiene el motor averiado y necesitas remolque, pero nadie corre peligro inmediato. En radiotelefonía, la llamada empieza con:",
+  "opciones": [
+   "«Mayday», tres veces",
+   "«Pan Pan», tres veces",
+   "«Sécurité», tres veces",
+   "`XXX`, tres veces"
+  ],
+  "clave": "b",
+  "sol": "Un problema serio sin peligro inminente es urgencia: «Pan Pan» tres veces. «Mayday» se reserva para el peligro grave e inminente. `XXX` también es urgencia, pero es la señal telegráfica, no la de fonía.",
+  "fuente": "chapters/r04.typ:92",
+  "angulo": "caso práctico: de la situación a la señal; distractor XXX (misma categoría, otro modo)"
+ },
+ {
+  "kid": "K-R4-03-1",
+  "cid": "R4-03",
+  "enunciado": "Quieres avisar a todas las estaciones de que se acerca un temporal peligroso para la navegación. En radiotelefonía, ¿con qué señal encabezas el aviso?",
+  "opciones": [
+   "«Pan Pan», tres veces",
+   "«Mayday», tres veces",
+   "«Sécurité», tres veces",
+   "`TTT`, tres veces"
+  ],
+  "clave": "c",
+  "sol": "Un aviso meteorológico o a la navegación es un mensaje de seguridad: «Sécurité» tres veces. No se pide ayuda, así que no es urgencia ni socorro. `TTT` es la misma señal de seguridad, pero en telegrafía.",
+  "fuente": "chapters/r04.typ:65",
+  "angulo": "caso práctico: de la situación a la señal; distractor TTT (misma categoría, otro modo)"
+ },
+ {
+  "kid": "K-R4-04-1",
+  "cid": "R4-04",
+  "enunciado": "Una estación en peligro llama así: «Mayday, aquí EA4XYZ, EA4XYZ, EA4XYZ». ¿Qué falla en su llamada?",
+  "opciones": [
+   "que el distintivo debe decirse una sola vez",
+   "que debe empezar por el distintivo y terminar con «Mayday»",
+   "que debe decir «Pan Pan» antes de «Mayday»",
+   "que «Mayday» debe repetirse tres veces"
+  ],
+  "clave": "d",
+  "sol": "La llamada de socorro lleva «Mayday» tres veces, la palabra «aquí» (o «de») y el distintivo de la estación en peligro, también tres veces. Aquí el distintivo está bien repetido, pero «Mayday» se dice una sola vez. El orden es el correcto: primero debe oírse que es socorro, y «Pan Pan» es otra categoría.",
+  "fuente": "cheatsheet.typ:1015",
+  "angulo": "detectar el error en una llamada concreta en lugar de describir el formato"
+ },
+ {
+  "kid": "K-R4-05-1",
+  "cid": "R4-05",
+  "enunciado": "Un mensaje de socorro dice: «Mayday, EA5KLM. Velero Gaviota. Vía de agua, nos hundimos. Necesitamos evacuación inmediata. Tres personas a bordo. Cambio.» ¿Qué dato esencial le falta?",
+  "opciones": [
+   "la posición",
+   "la señal de seguridad «Sécurité»",
+   "el informe RST de quien lo escuche",
+   "la potencia del transmisor"
+  ],
+  "clave": "a",
+  "sol": "El mensaje de socorro lleva la identificación, la posición, la naturaleza del peligro y la ayuda que se necesita; aquí falta la posición, sin la cual nadie puede acudir. «Sécurité» es la señal de otra categoría y nunca va en un mensaje de socorro.",
+  "fuente": "chapters/r04.typ:77",
+  "angulo": "caso práctico: detectar el dato que falta en un mensaje real"
+ },
+ {
+  "kid": "K-R4-06-1",
+  "cid": "R4-06",
+  "enunciado": "La señal telegráfica `SOS` equivale, en radiotelefonía, a:",
+  "opciones": [
+   "«Pan Pan»",
+   "«Mayday»",
+   "«Sécurité»",
+   "la señal de alarma de 2200 y 1300 Hz"
+  ],
+  "clave": "b",
+  "sol": "`SOS` es la señal de socorro en telegrafía y su equivalente en fonía es «Mayday». «Pan Pan» corresponde a `XXX` (urgencia) y «Sécurité», a `TTT` (seguridad). La señal de alarma de dos tonos solo anuncia que sigue un socorro.",
+  "fuente": "chapters/r04.typ:55",
+  "angulo": "dato al revés: de la señal telegráfica a su equivalente en fonía"
+ },
+ {
+  "kid": "K-R4-07-1",
+  "cid": "R4-07",
+  "enunciado": "¿Cómo se transmite en Morse la señal de socorro?",
+  "opciones": [
+   "tres rayas, tres puntos y tres rayas, con la pausa normal entre letras",
+   "tres puntos, tres rayas y tres puntos, con la pausa normal entre letras",
+   "tres puntos, tres rayas y tres puntos seguidos, sin pausa entre letras",
+   "tres rayas, tres puntos y tres rayas seguidos, sin pausa"
+  ],
+  "clave": "c",
+  "sol": "`SOS` son tres puntos, tres rayas y tres puntos enviados como un solo signo, sin los espacios que separarían las letras. Separarlas, como en la opción con pausas, es la clave que daban algunas recopilaciones antiguas, pero el libro, siguiendo la norma internacional, la da por incorrecta. Las opciones que empiezan por rayas invierten la S y la O.",
+  "fuente": "chapters/ap-b2.typ:149",
+  "angulo": "describir la señal en puntos y rayas; el libro fija «un solo signo» frente a la clave antigua del banco"
+ },
+ {
+  "kid": "K-R4-08-1",
+  "cid": "R4-08",
+  "enunciado": "En telegrafía, la señal equivalente a «Pan Pan» se forma con:",
+  "opciones": [
+   "`SOS`",
+   "`TTT`, tres veces",
+   "`CQD`",
+   "`XXX`, tres veces"
+  ],
+  "clave": "d",
+  "sol": "«Pan Pan» es la señal de urgencia, y su equivalente telegráfico es `XXX` tres veces. `TTT` es seguridad («Sécurité»), `SOS` es socorro («Mayday») y `CQD` es la antigua señal de socorro, abandonada.",
+  "fuente": "chapters/r04.typ:94",
+  "angulo": "dato al revés: de la señal de fonía a la telegráfica"
+ },
+ {
+  "kid": "K-R4-09-1",
+  "cid": "R4-09",
+  "enunciado": "Quieres transmitir en telegrafía un aviso a la navegación, por ejemplo un contenedor a la deriva. ¿Cómo lo encabezas?",
+  "opciones": [
+   "`TTT`, tres veces",
+   "`XXX`, tres veces",
+   "`SOS`",
+   "`CQ`, tres veces"
+  ],
+  "clave": "a",
+  "sol": "Un aviso a la navegación es un mensaje de seguridad, que en telegrafía se encabeza con `TTT` tres veces. `XXX` es urgencia y `SOS`, socorro: ambos piden ayuda, y aquí solo se avisa. `CQ` es una llamada general, no una señal de seguridad.",
+  "fuente": "chapters/r04.typ:101",
+  "angulo": "caso práctico: de la situación a la señal telegráfica"
+ },
+ {
+  "kid": "K-R4-10-1",
+  "cid": "R4-10",
+  "enunciado": "Ordena de mayor a menor prioridad las señales telegráficas `TTT`, `SOS` y `XXX`:",
+  "opciones": [
+   "`TTT`, `XXX`, `SOS`",
+   "`SOS`, `XXX`, `TTT`",
+   "`XXX`, `SOS`, `TTT`",
+   "`SOS`, `TTT`, `XXX`"
+  ],
+  "clave": "b",
+  "sol": "`SOS` es socorro, `XXX` urgencia y `TTT` seguridad, así que de mayor a menor prioridad el orden es `SOS`, `XXX`, `TTT`. La primera opción es el mismo orden, pero de menor a mayor.",
+  "fuente": "chapters/r04.typ:65",
+  "angulo": "la jerarquía aplicada a las señales telegráficas y en sentido descendente"
+ },
+ {
+  "kid": "K-R4-11-1",
+  "cid": "R4-11",
+  "enunciado": "De la señal de alarma radiotelefónica conoces uno de sus tonos, el de 2200 Hz. ¿De qué frecuencia es el otro, con el que se alterna?",
+  "opciones": [
+   "1000 Hz",
+   "2182 Hz",
+   "1300 Hz",
+   "1750 Hz"
+  ],
+  "clave": "c",
+  "sol": "La señal de alarma alterna tonos de 2200 y 1300 Hz y sirve para activar los dispositivos automáticos de escucha antes de un mensaje de socorro. El valor 2182 se confunde con la frecuencia de socorro en voz de MF, que es de 2182 kHz y no un tono de audio.",
+  "fuente": "chapters/r04.typ:67",
+  "angulo": "dado un tono, hallar el otro; distractor 2182 de la frecuencia marítima"
+ },
+ {
+  "kid": "K-R4-12-1",
+  "cid": "R4-12",
+  "enunciado": "En MF, la frecuencia de 2182 kHz se usa para el socorro en voz. ¿En qué frecuencia de esa misma banda se transmite la alerta de socorro digital (DSC) del GMDSS?",
+  "opciones": [
+   "2182 kHz",
+   "2177 kHz",
+   "4207,5 kHz",
+   "2187,5 kHz"
+  ],
+  "clave": "d",
+  "sol": "La alerta DSC del GMDSS en MF va en 2187,5 kHz, 5,5 kHz por encima de la frecuencia de voz. 4207,5 kHz también es de alerta DSC, pero en HF, no en MF.",
+  "fuente": "chapters/ap-b2.typ:159",
+  "angulo": "partir de la frecuencia de voz para hallar la digital; distractor de DSC en HF"
+ },
+ {
+  "kid": "K-R4-13-1",
+  "cid": "R4-13",
+  "enunciado": "En la VHF marítima, la frecuencia de 156,8 MHz corresponde a:",
+  "opciones": [
+   "el canal 16: socorro, seguridad y llamada en radiotelefonía",
+   "el canal 70: alerta de socorro por llamada selectiva digital",
+   "la frecuencia aeronáutica de emergencia",
+   "los dispositivos de salvamento"
+  ],
+  "clave": "a",
+  "sol": "156,8 MHz es el canal 16, la frecuencia internacional de socorro, seguridad y llamada en voz. El canal 70 (156,525 MHz) es para la alerta digital (DSC); la emergencia aeronáutica va en 121,5 MHz y los dispositivos de salvamento, en 243 MHz.",
+  "fuente": "chapters/ap-c2.typ:636",
+  "angulo": "dato al revés: de la frecuencia a su uso"
+ },
+ {
+  "kid": "K-R4-14-1",
+  "cid": "R4-14",
+  "enunciado": "Estás en mitad de un QSO en 40 m y oyes un «Mayday» en tu frecuencia. ¿Qué haces primero?",
+  "opciones": [
+   "terminas tu comunicado cuanto antes y luego escuchas",
+   "dejas de transmitir de inmediato, escuchas y anotas la hora, la frecuencia, la posición y el peligro",
+   "subes la potencia y avisas a todas las estaciones de la banda",
+   "cambias de frecuencia para no interferir"
+  ],
+  "clave": "b",
+  "sol": "Lo primero es callar y escuchar, sin ocupar la frecuencia, y anotar los datos para poder ayudar o hacer llegar el aviso. Terminar el comunicado ya estorba; subir la potencia o difundirlo por la banda solo crea confusión, y cambiar de frecuencia te deja sin poder ayudar.",
+  "fuente": "chapters/r04.typ:83",
+  "angulo": "caso práctico con el orden de actuación"
+ },
+ {
+  "kid": "K-R4-15-1",
+  "cid": "R4-15",
+  "enunciado": "Tu mensaje de socorro ha salido en 3700 kHz. Mientras esperas contestación, ¿dónde te quedas escuchando?",
+  "opciones": [
+   "en otra banda con mejor propagación",
+   "en 14300 kHz, centro de actividad de emergencia",
+   "en los mismos 3700 kHz",
+   "en la frecuencia de llamada de FM de 2 m"
+  ],
+  "clave": "c",
+  "sol": "Tras emitir un socorro hay que quedarse a la escucha en la misma frecuencia, porque allí te ha oído quien vaya a contestar. Irse a otra frecuencia, aunque sea una de emergencia, hace que se pierda la respuesta.",
+  "fuente": "chapters/r04.typ:77",
+  "angulo": "caso práctico: dónde escuchar; distractor de un centro de emergencia real"
+ },
+ {
+  "kid": "K-R4-16-1",
+  "cid": "R4-16",
+  "enunciado": "Sufres un accidente grave en la montaña, sin cobertura de teléfono móvil, y solo llevas tu transceptor. ¿Puedes pedir auxilio fuera de las bandas de aficionado?",
+  "opciones": [
+   "No: solo puedes emitir en las bandas de tu autorización",
+   "Solo si antes lo notificas a la Jefatura Provincial",
+   "Solo en la banda de 2 m",
+   "Sí: ante un peligro grave e inminente puedes usar cualquier medio y frecuencia a tu alcance"
+  ],
+  "clave": "d",
+  "sol": "Ante un peligro grave e inminente, la vida humana está por encima de los límites de la autorización: se puede usar cualquier medio y frecuencia. Fuera de ese supuesto rige la regla general de emitir solo en las bandas autorizadas, que es la trampa de la primera opción.",
+  "fuente": "chapters/r04.typ:238",
+  "angulo": "caso práctico con la excepción aplicada"
+ },
+ {
+  "kid": "K-R4-17-1",
+  "cid": "R4-17",
+  "enunciado": "Un radioaficionado transmite «Mayday» para comprobar si su equipo nuevo sale bien, sin que haya ningún peligro. Esa conducta:",
+  "opciones": [
+   "es una infracción sancionable",
+   "es correcta si antes avisa de que es una prueba",
+   "solo es sancionable si se movilizan medios de rescate",
+   "está permitida en las bandas de aficionado, que no son marítimas"
+  ],
+  "clave": "a",
+  "sol": "Usar una señal de socorro sin peligro real es una infracción sancionable en cualquier banda, ni siquiera para probar el equipo. Si además se movilizan medios de socorro, puede llegar a ser delito, pero la infracción ya existe aunque no se mueva nadie.",
+  "fuente": "chapters/r04.typ:256",
+  "angulo": "caso práctico; distractor que confunde la infracción con el delito"
+ },
+ {
+  "kid": "K-R4-18-1",
+  "cid": "R4-18",
+  "enunciado": "Un terremoto deja sin servicio las redes de telefonía de una región. ¿Qué texto internacional, citado en el temario, invitaba a prever el uso de las bandas de aficionado en las comunicaciones de socorro en esa situación?",
+  "opciones": [
+   "el art. 47 de la Constitución de la UIT",
+   "la Resolución 640 del Reglamento de Radiocomunicaciones",
+   "el plan de bandas de la IARU para la Región 1",
+   "la nota 5.282 del Reglamento de Radiocomunicaciones"
+  ],
+  "clave": "b",
+  "sol": "La Resolución 640 invitaba a las administraciones a prever el empleo de las bandas de aficionado en las comunicaciones de socorro por catástrofes naturales; aunque se suprimió, el temario la sigue citando. El art. 47 de la Constitución de la UIT trata del uso falso de las señales de socorro y la nota 5.282, del servicio por satélite.",
+  "fuente": "chapters/r04.typ:207",
+  "angulo": "del supuesto a la norma; distractores con otras normas que cita el libro"
+ },
+ {
+  "kid": "K-R4-19-1",
+  "cid": "R4-19",
+  "enunciado": "Según el art. 30.4 de la Orden IET/1311/2013, cuando la Dirección General de Protección Civil y Emergencias lo requiere en una catástrofe, el titular de una autorización debe colaborar:",
+  "opciones": [
+   "con sus medios radioeléctricos, en la frecuencia que elija",
+   "solo si pertenece a una asociación de radioaficionados",
+   "con sus medios radioeléctricos y en las bandas atribuidas al servicio de radioaficionados",
+   "solo si lo desea, pues la colaboración es voluntaria"
+  ],
+  "clave": "c",
+  "sol": "El art. 30.4 obliga a todo titular a colaborar, cuando lo requiere esa Dirección General, con sus medios radioeléctricos y en las bandas atribuidas al servicio de radioaficionados. No le habilita para usar cualquier frecuencia, no depende de ser socio de nada y, una vez hecho el requerimiento, deja de ser voluntaria.",
+  "fuente": "chapters/ap-c2.typ:618",
+  "angulo": "otra parte del mismo artículo: con qué medios y en qué bandas"
+ },
+ {
+  "kid": "K-R4-20-1",
+  "cid": "R4-20",
+  "enunciado": "Captas la llamada de socorro de un barco y nadie más parece responder. Según la Orden IET/1311/2013, ¿qué debes procurar?",
+  "opciones": [
+   "anotar los datos y comunicarlos a la Jefatura Provincial en el plazo de un mes",
+   "no intervenir, porque el socorro marítimo no es cosa de los radioaficionados",
+   "retransmitirlo en todas las bandas para que lo oiga el mayor número de estaciones",
+   "hacer lo posible para que llegue cuanto antes a la Dirección General de Protección Civil y Emergencias"
+  ],
+  "clave": "d",
+  "sol": "El art. 30.5 de la Orden obliga a quien capta una comunicación de socorro a hacer lo posible para que llegue cuanto antes a la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior. Esperar un mes o desentenderse lo incumple, y repetirlo por todas las bandas solo crea confusión.",
+  "fuente": "chapters/ap-c2.typ:612",
+  "angulo": "caso práctico con distractores de conducta en lugar de organismos"
+ },
+ {
+  "kid": "K-R4-22-1",
+  "cid": "R4-22",
+  "enunciado": "Estás en España y quieres transmitir en fonía en 7250 kHz. ¿Puedes hacerlo?",
+  "opciones": [
+   "No: en la Región 1 la banda de 40 m termina en 7200 kHz y de 7200 a 7300 kHz es radiodifusión",
+   "Sí: la banda de 40 m llega hasta 7300 kHz",
+   "Sí, pero solo en telegrafía",
+   "Sí, con la mitad de potencia, porque es un tramo secundario"
+  ],
+  "clave": "a",
+  "sol": "En la Región 1, España incluida, la banda de 40 m va de 7000 a 7200 kHz, y de 7200 a 7300 kHz es radiodifusión. El límite de 7300 kHz es el de la Región 2 (América) y no vale aquí.",
+  "fuente": "chapters/ap-c2.typ:642",
+  "angulo": "caso práctico: si una frecuencia concreta está en banda"
+ },
+ {
+  "kid": "K-R4-23-1",
+  "cid": "R4-23",
+  "enunciado": "¿Cuál de estas frecuencias queda fuera de la banda de aficionados de 10 m en España?",
+  "opciones": [
+   "28,500 MHz",
+   "29,850 MHz",
+   "29,600 MHz",
+   "28,050 MHz"
+  ],
+  "clave": "b",
+  "sol": "La banda de 10 m va de 28 a 29,7 MHz. 29,850 MHz se pasa del límite superior: de 29,7 a 30,005 MHz las atribuciones son de fijo y móvil. Las demás caen dentro, incluida 29,600 MHz, cerca del extremo alto.",
+  "fuente": "chapters/ap-c2.typ:648",
+  "angulo": "dato al revés: frecuencia concreta frente a los límites de la banda"
+ },
+ {
+  "kid": "K-R4-24-1",
+  "cid": "R4-24",
+  "enunciado": "En España, los límites superiores de las bandas de 80 m y de 20 m son, respectivamente:",
+  "opciones": [
+   "3900 kHz y 14350 kHz",
+   "4000 kHz y 14350 kHz",
+   "3800 kHz y 14350 kHz",
+   "3800 kHz y 14500 kHz"
+  ],
+  "clave": "c",
+  "sol": "La banda de 80 m va de 3500 a 3800 kHz y la de 20 m, de 14000 a 14350 kHz. De 3800 a 3900 kHz hay servicios fijo y móvil, y 14500 kHz ya queda en una atribución de fijo y móvil.",
+  "fuente": "chapters/ap-c2.typ:654",
+  "angulo": "preguntar los límites en lugar de una frecuencia suelta"
+ },
+ {
+  "kid": "K-R4-25-1",
+  "cid": "R4-25",
+  "enunciado": "Un transceptor comprado en Estados Unidos permite transmitir en 147,000 MHz. En España, esa frecuencia:",
+  "opciones": [
+   "está dentro de la banda de 2 m, que llega hasta 148 MHz",
+   "es de aficionados, pero solo para satélites",
+   "queda fuera de la banda de 2 m, que en la Región 1 va de 144 a 146 MHz",
+   "requiere autorización especial"
+  ],
+  "clave": "c",
+  "sol": "En la Región 1 la banda de 2 m es de 144 a 146 MHz; los 146 a 148 MHz son de aficionados en las Regiones 2 y 3, pero aquí son de fijo y móvil. Por eso un equipo americano puede emitir en frecuencias que en España no están autorizadas.",
+  "fuente": "chapters/ap-c2.typ:678",
+  "angulo": "caso práctico con el error típico de la Región 2"
+ },
+ {
+  "kid": "K-R4-26-1",
+  "cid": "R4-26",
+  "enunciado": "Programas las memorias de un equipo de 70 cm. ¿Cuál de estas frecuencias puedes usar para transmitir en España?",
+  "opciones": [
+   "425,000 MHz",
+   "445,000 MHz",
+   "446,000 MHz",
+   "438,500 MHz"
+  ],
+  "clave": "d",
+  "sol": "La banda de 70 cm va de 430 a 440 MHz, así que solo 438,500 MHz cae dentro. 425 y 445 MHz están en los tramos 420–430 y 440–450 MHz, que solo se atribuyen a aficionados en algunos países de fuera de Europa.",
+  "fuente": "chapters/ap-c2.typ:684",
+  "angulo": "dato al revés: frecuencia concreta frente a los límites"
+ },
+ {
+  "kid": "K-R4-27-1",
+  "cid": "R4-27",
+  "enunciado": "¿Cuál de estas frecuencias pertenece a la banda de aficionados de 23 cm?",
+  "opciones": [
+   "1296 MHz",
+   "1310 MHz",
+   "1230 MHz",
+   "1350 MHz"
+  ],
+  "clave": "a",
+  "sol": "La banda de 23 cm va de 1240 a 1300 MHz, así que solo 1296 MHz cae dentro. 1230 MHz queda por debajo del límite inferior y 1310 y 1350 MHz, por encima del superior.",
+  "fuente": "chapters/r04.typ:172",
+  "angulo": "dato al revés: frecuencia concreta frente a los límites"
+ },
+ {
+  "kid": "K-R4-28-1",
+  "cid": "R4-28",
+  "enunciado": "La banda de aficionados de 13 cm empieza en 2300 MHz. ¿Dónde termina?",
+  "opciones": [
+   "2400 MHz",
+   "2450 MHz",
+   "2483,5 MHz",
+   "2350 MHz"
+  ],
+  "clave": "b",
+  "sol": "La banda de 13 cm va de 2300 a 2450 MHz. El tramo superior, de 2400 a 2450 MHz, coincide con una banda ICM, pero sigue siendo parte de la banda: por eso 2400 MHz no es su final.",
+  "fuente": "chapters/r04.typ:173",
+  "angulo": "dado un extremo, hallar el otro"
+ },
+ {
+  "kid": "K-R4-29-1",
+  "cid": "R4-29",
+  "enunciado": "Quieres operar a través de un satélite de aficionado en la banda de 80 m. Según la Orden IET/1311/2013:",
+  "opciones": [
+   "puedes hacerlo, porque toda banda de aficionado admite el servicio por satélite",
+   "puedes hacerlo, pero con autorización especial",
+   "no puedes: las emisiones por satélite se restringen a las bandas atribuidas al efecto en el CNAF, y 80 m no lo está",
+   "no puedes: el servicio por satélite solo existe en microondas"
+  ],
+  "clave": "c",
+  "sol": "El art. 5.3 de la Orden restringe las emisiones del servicio de aficionados por satélite a las bandas atribuidas al efecto en el CNAF. La banda de 80 m no lo está, aunque sí tramos de HF como 7000–7100 o 14000–14250 kHz, así que tampoco es cosa solo de microondas. La autorización especial es otro asunto.",
+  "fuente": "chapters/ap-c2.typ:672",
+  "angulo": "caso práctico con una banda concreta"
+ },
+ {
+  "kid": "K-R4-30-1",
+  "cid": "R4-30",
+  "enunciado": "Según el plan de bandas de la IARU para la Región 1, la frecuencia de 436,500 MHz está en el segmento de 70 cm dedicado a:",
+  "opciones": [
+   "repetidores",
+   "uso mixto",
+   "la banda ICM",
+   "satélites"
+  ],
+  "clave": "d",
+  "sol": "El plan reserva al servicio de satélite el tramo de 435 a 438 MHz, donde cae 436,500 MHz. Los repetidores y el uso mixto ocupan otros tramos de la banda, y la banda ICM es 433,050–434,790 MHz.",
+  "fuente": "chapters/ap-c2.typ:660",
+  "angulo": "dato al revés: de la frecuencia al segmento"
+ },
+ {
+  "kid": "K-R4-31-1",
+  "cid": "R4-31",
+  "enunciado": "Un satélite de aficionado anuncia su enlace en 145,900 MHz. Según el plan de bandas de la IARU para la Región 1, esa frecuencia está:",
+  "opciones": [
+   "en el segmento exclusivo de satélites de 2 m",
+   "en el segmento de salidas de repetidores",
+   "en el segmento de balizas",
+   "fuera de la banda de 2 m"
+  ],
+  "clave": "a",
+  "sol": "El plan reserva en exclusiva a los satélites el tramo final de 2 m, de 145,806 a 146,000 MHz, donde cae 145,900 MHz. Las salidas de repetidores terminan en 145,7935 MHz, las balizas están en 144,400–144,490 MHz, y la banda llega hasta 146 MHz.",
+  "fuente": "chapters/ap-c2.typ:666",
+  "angulo": "dato al revés: de la frecuencia al segmento"
+ },
+ {
+  "kid": "K-R4-32-1",
+  "cid": "R4-32",
+  "enunciado": "Durante una emergencia en Europa, ¿qué frecuencias señala el plan de bandas de la IARU para la Región 1 como centros de actividad de emergencia en 80 m y en 20 m?",
+  "opciones": [
+   "3690 kHz y 14285 kHz",
+   "3760 kHz y 14300 kHz",
+   "3735 kHz y 14230 kHz",
+   "3630 kHz y 14130 kHz"
+  ],
+  "clave": "b",
+  "sol": "Los centros de emergencia son 3760 kHz en 80 m y 14300 kHz en 20 m (este último de ámbito mundial). Las demás parejas son centros reales de otros modos: SSB de baja potencia (3690 y 14285 kHz), imagen (3735 y 14230 kHz) y voz digital (3630 y 14130 kHz).",
+  "fuente": "chapters/ap-c2.typ:630",
+  "angulo": "las dos frecuencias a la vez, con distractores emparejados por modo"
+ }
+]
