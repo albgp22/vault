@@ -1,0 +1,2300 @@
+{
+ "lote": "L9",
+ "conceptos": [
+  {
+   "cid": "R8-01",
+   "tema": "R8",
+   "concepto": "Marco: competencia exclusiva del Estado en telecomunicaciones (art. 149.1.21.ª CE)",
+   "peso": 1,
+   "preguntas": [
+    "R8.55"
+   ],
+   "cubre": [
+    "R8.55"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-02",
+   "tema": "R8",
+   "concepto": "Ley General de Telecomunicaciones vigente: Ley 11/2022",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.10"
+   ],
+   "cubre": [
+    "F-R8.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-03",
+   "tema": "R8",
+   "concepto": "RD 123/2017: Reglamento sobre el uso del dominio público radioeléctrico",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.11"
+   ],
+   "cubre": [
+    "F-R8.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-04",
+   "tema": "R8",
+   "concepto": "Uso del espectro por radioaficionados: uso especial, con autorización individual; explotación compartida sin exclusión de terceros",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.12"
+   ],
+   "cubre": [
+    "F-R8.12",
+    "F-R8.15"
+   ],
+   "nota": "F-R8.15 pregunta la misma idea desde la definición del art. 2.1 (explotación compartida)."
+  },
+  {
+   "cid": "R8-05",
+   "tema": "R8",
+   "concepto": "Orden IET/1311/2013: documento fundamental de regulación de la radioafición",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.4"
+   ],
+   "cubre": [
+    "C-R8.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-06",
+   "tema": "R8",
+   "concepto": "Orden IET/1311/2013: derogó la Orden ITC/1791/2006",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.13"
+   ],
+   "cubre": [
+    "F-R8.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-07",
+   "tema": "R8",
+   "concepto": "Orden IET/1311/2013: entrada en vigor el día siguiente a su publicación",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.14"
+   ],
+   "cubre": [
+    "F-R8.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-08",
+   "tema": "R8",
+   "concepto": "Radioaficionado: interés por la radiotecnia con carácter exclusivamente personal, sin fines de lucro",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.16"
+   ],
+   "cubre": [
+    "F-R8.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-09",
+   "tema": "R8",
+   "concepto": "CNAF = Cuadro Nacional de Atribución de Frecuencias",
+   "peso": 2,
+   "preguntas": [
+    "R8.7"
+   ],
+   "cubre": [
+    "R8.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-10",
+   "tema": "R8",
+   "concepto": "CNAF vigente: aprobado por orden ministerial (Orden TDF/732/2026)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.17"
+   ],
+   "cubre": [
+    "F-R8.17"
+   ],
+   "nota": "Dato volátil: cambia con cada edición del CNAF."
+  },
+  {
+   "cid": "R8-11",
+   "tema": "R8",
+   "concepto": "Ley 19/1983 («Ley de antenas»): derecho a instalar antenas de aficionado en el exterior de los inmuebles",
+   "peso": 3,
+   "preguntas": [
+    "R8.1"
+   ],
+   "cubre": [
+    "R8.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-12",
+   "tema": "R8",
+   "concepto": "RD 2623/1986: reglamento de las instalaciones de antenas de aficionado",
+   "peso": 2,
+   "preguntas": [
+    "R8.10"
+   ],
+   "cubre": [
+    "R8.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-13",
+   "tema": "R8",
+   "concepto": "La autorización de radioaficionado la otorga la SETSI (hoy SETID)",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.38"
+   ],
+   "cubre": [
+    "C-R8.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-14",
+   "tema": "R8",
+   "concepto": "Requisito previo de la autorización: superar la prueba de capacitación (certificado HAREC)",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.5"
+   ],
+   "cubre": [
+    "C-R8.5",
+    "C-R8.43"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-15",
+   "tema": "R8",
+   "concepto": "Naturaleza de la autorización: individual, personal e intransferible, revocable",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.28"
+   ],
+   "cubre": [
+    "C-R8.28",
+    "R8.8"
+   ],
+   "nota": "La clave de C-R8.28 es el requisito de la prueba, pero sus distractores (transferible, irrevocable, colectiva) enseñan la naturaleza; R8.8 es la versión directa."
+  },
+  {
+   "cid": "R8-16",
+   "tema": "R8",
+   "concepto": "Vigencia indefinida: no se renueva; suprimida la comunicación quinquenal",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.44"
+   ],
+   "cubre": [
+    "C-R8.44",
+    "R8.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-17",
+   "tema": "R8",
+   "concepto": "La autorización habilita a emitir en las bandas y con las características técnicas del servicio de aficionados",
+   "peso": 2,
+   "preguntas": [
+    "R8.60"
+   ],
+   "cubre": [
+    "R8.60"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-18",
+   "tema": "R8",
+   "concepto": "Plazo para resolver la autorización (y la licencia de estación fija): 6 semanas, silencio desestimatorio",
+   "peso": 2,
+   "preguntas": [
+    "R8.11"
+   ],
+   "cubre": [
+    "R8.11",
+    "F-R8.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-19",
+   "tema": "R8",
+   "concepto": "Recursos contra las resoluciones: reposición en 1 mes o contencioso ante la Audiencia Nacional en 2 meses",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.20",
+    "F-R8.21"
+   ],
+   "cubre": [
+    "F-R8.20",
+    "F-R8.21"
+   ],
+   "nota": "Dos plazos distintos que se confunden entre sí y con las 6 semanas de resolución."
+  },
+  {
+   "cid": "R8-20",
+   "tema": "R8",
+   "concepto": "Solicitud de autorización: preferentemente por medios electrónicos, con modelo oficial",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.29"
+   ],
+   "cubre": [
+    "F-R8.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-21",
+   "tema": "R8",
+   "concepto": "Solicitud de autorización: acompañada del resguardo de la tasa de tramitación",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.30"
+   ],
+   "cubre": [
+    "F-R8.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-22",
+   "tema": "R8",
+   "concepto": "Menores: sin edad mínima; escrito fehaciente de padres o tutores",
+   "peso": 2,
+   "preguntas": [
+    "R8.29"
+   ],
+   "cubre": [
+    "R8.29",
+    "R8.63"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-23",
+   "tema": "R8",
+   "concepto": "Autorización en formato bilingüe si lo pide el interesado (lengua cooficial)",
+   "peso": 1,
+   "preguntas": [
+    "R8.57"
+   ],
+   "cubre": [
+    "R8.57"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-24",
+   "tema": "R8",
+   "concepto": "No es obligatorio ser socio de una asociación de radioaficionados",
+   "peso": 2,
+   "preguntas": [
+    "R8.61"
+   ],
+   "cubre": [
+    "R8.61",
+    "R8.53"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-25",
+   "tema": "R8",
+   "concepto": "No es obligatorio disponer de estación fija",
+   "peso": 1,
+   "preguntas": [
+    "R8.54"
+   ],
+   "cubre": [
+    "R8.54"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-26",
+   "tema": "R8",
+   "concepto": "Se puede tener distintivo (autorización) sin licencia de estación; la licencia solo la necesita la estación fija",
+   "peso": 2,
+   "preguntas": [
+    "R8.51"
+   ],
+   "cubre": [
+    "R8.51"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-27",
+   "tema": "R8",
+   "concepto": "Extinción automática de la autorización: fallecimiento del titular o extinción de la asociación titular",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.31"
+   ],
+   "cubre": [
+    "F-R8.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-28",
+   "tema": "R8",
+   "concepto": "Revocación de la autorización: no se puede emitir; se cancelan el distintivo y la licencia de estación fija asociada",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.23",
+    "R8.71"
+   ],
+   "cubre": [
+    "C-R8.23",
+    "R8.71",
+    "R8.50"
+   ],
+   "nota": "C-R8.23 prueba la cancelación de la licencia fija (y desmonta mitos: plazo de 5 años, edad, uso portable); R8.71, la del distintivo."
+  },
+  {
+   "cid": "R8-29",
+   "tema": "R8",
+   "concepto": "Reasignación de distintivos ya usados: solo agotadas las combinaciones (salvo anterior titular y familiares)",
+   "peso": 1,
+   "preguntas": [
+    "R8.72"
+   ],
+   "cubre": [
+    "R8.72"
+   ],
+   "nota": "El banco público da como clave «cuando se cancele la autorización»; la solución lo advierte."
+  },
+  {
+   "cid": "R8-30",
+   "tema": "R8",
+   "concepto": "Uso de una estación ajena: con permiso del titular, identificándose con el distintivo propio",
+   "peso": 2,
+   "preguntas": [
+    "R8.70"
+   ],
+   "cubre": [
+    "R8.70",
+    "R8.49"
+   ],
+   "nota": "R8.49 se apoya en una norma derogada (lo reconoce su solución); mejor R8.70."
+  },
+  {
+   "cid": "R8-31",
+   "tema": "R8",
+   "concepto": "Ninguna estación tiene derecho preferente sobre una frecuencia",
+   "peso": 1,
+   "preguntas": [
+    "R8.73"
+   ],
+   "cubre": [
+    "R8.73"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-32",
+   "tema": "R8",
+   "concepto": "Las estaciones están sometidas siempre a la inspección",
+   "peso": 1,
+   "preguntas": [
+    "R8.59"
+   ],
+   "cubre": [
+    "R8.59"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-33",
+   "tema": "R8",
+   "concepto": "Equipos de construcción propia: sin autorización previa, bajo la responsabilidad del titular (régimen sancionador si interfieren)",
+   "peso": 2,
+   "preguntas": [
+    "R8.25"
+   ],
+   "cubre": [
+    "R8.25",
+    "F-R8.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-34",
+   "tema": "R8",
+   "concepto": "Equipo de construcción propia: presentación optativa en la Jefatura con memoria (diagrama de bloques, esquemas)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.26"
+   ],
+   "cubre": [
+    "F-R8.26",
+    "F-R8.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-35",
+   "tema": "R8",
+   "concepto": "Equipos comerciales: legislación vigente en su comercialización inicial; los ya legalizados, la de su autorización inicial",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.23"
+   ],
+   "cubre": [
+    "F-R8.23",
+    "F-R8.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-36",
+   "tema": "R8",
+   "concepto": "Equipo de segunda mano sin certificado de aceptación: cumplir el anexo I, certificado por laboratorio acreditado",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.24"
+   ],
+   "cubre": [
+    "F-R8.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-37",
+   "tema": "R8",
+   "concepto": "Estación construida de acuerdo con el estado de la técnica (no se impone tecnología)",
+   "peso": 1,
+   "preguntas": [
+    "C-R8.36"
+   ],
+   "cubre": [
+    "C-R8.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-38",
+   "tema": "R8",
+   "concepto": "La estación debe tener elementos para comprobar que la emisión está en banda y medir la potencia",
+   "peso": 1,
+   "preguntas": [
+    "R8.86"
+   ],
+   "cubre": [
+    "R8.86"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-39",
+   "tema": "R8",
+   "concepto": "Potencia y duración de las emisiones limitadas a lo estrictamente necesario",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.1"
+   ],
+   "cubre": [
+    "F-R8.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-40",
+   "tema": "R8",
+   "concepto": "Estación fija: precisa licencia, asociada a la autorización de radioaficionado de su titular",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.41"
+   ],
+   "cubre": [
+    "C-R8.41",
+    "C-R8.9",
+    "C-R8.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-41",
+   "tema": "R8",
+   "concepto": "Definición de estación fija: ubicación fija consignada en la licencia",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.39"
+   ],
+   "cubre": [
+    "C-R8.39"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-42",
+   "tema": "R8",
+   "concepto": "Solicitud de licencia de estación fija: con memoria descriptiva de la instalación",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.11"
+   ],
+   "cubre": [
+    "C-R8.11",
+    "R8.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-43",
+   "tema": "R8",
+   "concepto": "Contenido de la memoria: toma de tierra, plano, equipos (no el empadronamiento)",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.6"
+   ],
+   "cubre": [
+    "C-R8.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-44",
+   "tema": "R8",
+   "concepto": "La licencia se expide terminado el montaje y presentada la documentación",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.12"
+   ],
+   "cubre": [
+    "C-R8.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-45",
+   "tema": "R8",
+   "concepto": "Plazos de fin de instalación: comunicarlo en 6 semanas; la Jefatura verifica y expide en ≤ 30 días",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.53",
+    "F-R8.54"
+   ],
+   "cubre": [
+    "F-R8.53",
+    "F-R8.54"
+   ],
+   "nota": "Dos cifras del mismo artículo que se intercambian en los distractores."
+  },
+  {
+   "cid": "R8-46",
+   "tema": "R8",
+   "concepto": "Montaje por instalador de telecomunicaciones inscrito, salvo instalaciones simples autorizadas por el Jefe Provincial",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.17"
+   ],
+   "cubre": [
+    "C-R8.17",
+    "R8.14"
+   ],
+   "nota": "R8.14 pregunta solo la regla general."
+  },
+  {
+   "cid": "R8-47",
+   "tema": "R8",
+   "concepto": "Modificaciones con licencia: permanentes se comunican; cambiar la antena de sitio = primera instalación",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.15"
+   ],
+   "cubre": [
+    "C-R8.15",
+    "C-R8.34"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-48",
+   "tema": "R8",
+   "concepto": "Modificaciones experimentales con licencia concedida: hasta 60 días sin afectar a la seguridad",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.55"
+   ],
+   "cubre": [
+    "F-R8.55"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-49",
+   "tema": "R8",
+   "concepto": "Seguro de responsabilidad civil obligatorio, formalizado antes de expedirse la licencia",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.3"
+   ],
+   "cubre": [
+    "C-R8.3",
+    "R8.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-50",
+   "tema": "R8",
+   "concepto": "Copia del contrato de seguro a la propiedad o al presidente de la comunidad",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.8"
+   ],
+   "cubre": [
+    "F-R8.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-51",
+   "tema": "R8",
+   "concepto": "Cancelación de la licencia fija (p. ej., sin seguro): desmontar todo, antenas incluidas, a costa del titular",
+   "peso": 2,
+   "preguntas": [
+    "R8.17"
+   ],
+   "cubre": [
+    "R8.17",
+    "R8.24"
+   ],
+   "nota": "R8.24 tiene clave distinta en los bancos antiguos (mantener solo recepción); lo advierte su solución."
+  },
+  {
+   "cid": "R8-52",
+   "tema": "R8",
+   "concepto": "Licencia fija condicionada a no perturbar otros servicios y a cumplir normas de seguridad, servidumbres, medio ambiente",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.43"
+   ],
+   "cubre": [
+    "F-R8.43"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-53",
+   "tema": "R8",
+   "concepto": "Permisos de servidumbres, medio ambiente, etc.: por cuenta y a cargo del solicitante",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.44"
+   ],
+   "cubre": [
+    "F-R8.44"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-54",
+   "tema": "R8",
+   "concepto": "Derecho a instalar la antena en el exterior: legitimación para usar el edificio + autorización administrativa",
+   "peso": 2,
+   "preguntas": [
+    "R8.15"
+   ],
+   "cubre": [
+    "R8.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-55",
+   "tema": "R8",
+   "concepto": "Comunidad de propietarios: no autoriza; la solicitud indica la dirección del presidente y la Administración le informa",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.29"
+   ],
+   "cubre": [
+    "C-R8.29",
+    "R8.18",
+    "R8.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-56",
+   "tema": "R8",
+   "concepto": "La comunidad dispone de 2 meses para alegar sobre la idoneidad del emplazamiento",
+   "peso": 2,
+   "preguntas": [
+    "R8.79"
+   ],
+   "cubre": [
+    "R8.79"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-57",
+   "tema": "R8",
+   "concepto": "Derechos del predio sirviente (art. 545 CC): la comunidad decide por mayoría simple",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.19"
+   ],
+   "cubre": [
+    "F-R8.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-58",
+   "tema": "R8",
+   "concepto": "Obras en el inmueble: aviso al titular con 1 mes de antelación",
+   "peso": 2,
+   "preguntas": [
+    "R8.74"
+   ],
+   "cubre": [
+    "R8.74",
+    "R8.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-59",
+   "tema": "R8",
+   "concepto": "Obras: desmontaje temporal sin indemnización; después se reinstala en condiciones similares",
+   "peso": 2,
+   "preguntas": [
+    "R8.75"
+   ],
+   "cubre": [
+    "R8.75",
+    "R8.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-60",
+   "tema": "R8",
+   "concepto": "Obras de indudable urgencia: desmontaje sin trámites, comunicándolo inmediatamente al titular",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.75"
+   ],
+   "cubre": [
+    "F-R8.75"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-61",
+   "tema": "R8",
+   "concepto": "Instalación provisional durante las obras: la autoriza la Administración; gastos del titular",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.76"
+   ],
+   "cubre": [
+    "F-R8.76"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-62",
+   "tema": "R8",
+   "concepto": "Daños: los que causa la antena (instalación, conservación, desmontaje) son del titular; los que causa la propiedad a la antena, de la propiedad",
+   "peso": 2,
+   "preguntas": [
+    "R8.76",
+    "F-R8.9"
+   ],
+   "cubre": [
+    "R8.76",
+    "R8.22",
+    "F-R8.9"
+   ],
+   "nota": "F-R8.9 es el dato contrario (daños causados por la propiedad)."
+  },
+  {
+   "cid": "R8-63",
+   "tema": "R8",
+   "concepto": "Condiciones de instalación: sin molestias ni peligro, señalizar anclajes y riostras, materiales resistentes, respetar otras antenas, no dañar la obra",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.18"
+   ],
+   "cubre": [
+    "C-R8.18",
+    "R8.23",
+    "R8.77",
+    "R8.78"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-64",
+   "tema": "R8",
+   "concepto": "Soportes: a la obra civil o con repartidores de carga; nunca a pararrayos ni a conducciones eléctricas",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.4"
+   ],
+   "cubre": [
+    "F-R8.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-65",
+   "tema": "R8",
+   "concepto": "Altura libre mínima de 3 m sobre el plano de paso",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.2"
+   ],
+   "cubre": [
+    "F-R8.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-66",
+   "tema": "R8",
+   "concepto": "Líneas de transmisión a ≥ 10 cm de conductos y canalizaciones del edificio",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.3"
+   ],
+   "cubre": [
+    "F-R8.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-67",
+   "tema": "R8",
+   "concepto": "Definiciones del RD 2623/1986: anclaje, riostra, plano de paso, elemento repartidor de carga",
+   "peso": 1,
+   "preguntas": [
+    "C-R8.25"
+   ],
+   "cubre": [
+    "C-R8.25",
+    "F-R8.45",
+    "F-R8.46",
+    "F-R8.47"
+   ],
+   "nota": "Los cuatro términos aparecen como distractores unos de otros."
+  },
+  {
+   "cid": "R8-68",
+   "tema": "R8",
+   "concepto": "Usos experimentales con características distintas de las generales: requieren autorización especial",
+   "peso": 2,
+   "preguntas": [
+    "R8.26"
+   ],
+   "cubre": [
+    "R8.26",
+    "R8.66"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-69",
+   "tema": "R8",
+   "concepto": "Autorización especial experimental: nominativa, plazo máximo inicial de 18 meses, ampliable",
+   "peso": 2,
+   "preguntas": [
+    "R8.27"
+   ],
+   "cubre": [
+    "R8.27",
+    "R8.65"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-70",
+   "tema": "R8",
+   "concepto": "Autorización especial experimental: pedirla con al menos 1 mes de antelación",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.1"
+   ],
+   "cubre": [
+    "C-R8.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-71",
+   "tema": "R8",
+   "concepto": "Memoria técnica de la autorización experimental: contenido (experimento, diagrama si es casero, coordenadas, período, banda, emisión, potencia, antena)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.39"
+   ],
+   "cubre": [
+    "F-R8.39",
+    "F-R8.40",
+    "F-R8.41"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-72",
+   "tema": "R8",
+   "concepto": "Emisiones experimentales: se identifican con el distintivo propio",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.42"
+   ],
+   "cubre": [
+    "F-R8.42"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-73",
+   "tema": "R8",
+   "concepto": "Bandas que requieren autorización especial: 2300–2450 MHz, 5650–5850 MHz y 24,050–24,250 GHz (con excepciones)",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.30"
+   ],
+   "cubre": [
+    "C-R8.30",
+    "R8.28"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-74",
+   "tema": "R8",
+   "concepto": "Autorizaciones del art. 16 (bandas secundarias): limitaciones geográficas o técnicas",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.38"
+   ],
+   "cubre": [
+    "F-R8.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-75",
+   "tema": "R8",
+   "concepto": "Estación portable: la fija usada temporalmente en otra ubicación",
+   "peso": 2,
+   "preguntas": [
+    "R8.69"
+   ],
+   "cubre": [
+    "R8.69"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-76",
+   "tema": "R8",
+   "concepto": "Uso portable: notificar con 5 días; usos no continuados de hasta 15 días naturales sin notificación",
+   "peso": 2,
+   "preguntas": [
+    "R8.45"
+   ],
+   "cubre": [
+    "R8.45"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-77",
+   "tema": "R8",
+   "concepto": "Estación móvil: en movimiento o detenida en puntos no determinados",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.37"
+   ],
+   "cubre": [
+    "C-R8.37"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-78",
+   "tema": "R8",
+   "concepto": "Estación portátil: antena y fuente de energía incorporadas, utilizable en movimiento",
+   "peso": 2,
+   "preguntas": [
+    "R8.44"
+   ],
+   "cubre": [
+    "R8.44"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-79",
+   "tema": "R8",
+   "concepto": "Estación fija remota: accionada a distancia",
+   "peso": 1,
+   "preguntas": [
+    "R8.68"
+   ],
+   "cubre": [
+    "R8.68",
+    "R8.43"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-80",
+   "tema": "R8",
+   "concepto": "Estación digital: emite con técnicas digitales",
+   "peso": 1,
+   "preguntas": [
+    "R8.87"
+   ],
+   "cubre": [
+    "R8.87"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-81",
+   "tema": "R8",
+   "concepto": "Estación temporal: concursos, expediciones, demostraciones y eventos",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.79"
+   ],
+   "cubre": [
+    "F-R8.79"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-82",
+   "tema": "R8",
+   "concepto": "Estación colectiva: responsable la Junta Directiva de la asociación",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.49"
+   ],
+   "cubre": [
+    "F-R8.49"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-83",
+   "tema": "R8",
+   "concepto": "Asociación reconocida: por resolución de la SETSI, tras inscribirse en Interior y presentar estatutos",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.48"
+   ],
+   "cubre": [
+    "F-R8.48"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-84",
+   "tema": "R8",
+   "concepto": "Estatutos de la asociación reconocida: fines propios de la radioafición y obligación de cumplir el Reglamento",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.50"
+   ],
+   "cubre": [
+    "F-R8.50"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-85",
+   "tema": "R8",
+   "concepto": "Colectivas: licencia + autorización individualizada con distintivo propio",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.51"
+   ],
+   "cubre": [
+    "F-R8.51"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-86",
+   "tema": "R8",
+   "concepto": "Varias desatendidas en una autorización: misma modulación, titularidad y ubicación",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.52"
+   ],
+   "cubre": [
+    "F-R8.52"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-87",
+   "tema": "R8",
+   "concepto": "Noveles en estaciones colectivas: supervisor con ≥ 3 años de antigüedad",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.69"
+   ],
+   "cubre": [
+    "F-R8.69"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-88",
+   "tema": "R8",
+   "concepto": "Noveles: distintivo de la colectiva + 2 o 3 letras tras el sufijo",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.70"
+   ],
+   "cubre": [
+    "F-R8.70"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-89",
+   "tema": "R8",
+   "concepto": "Noveles: potencia ≤ 40 % del máximo de la banda y nunca más de 100 W",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.71"
+   ],
+   "cubre": [
+    "F-R8.71"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-90",
+   "tema": "R8",
+   "concepto": "Estación automática desatendida: estación colectiva que no requiere intervención directa del operador",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.22"
+   ],
+   "cubre": [
+    "C-R8.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-91",
+   "tema": "R8",
+   "concepto": "Tipos de desatendidas (art. 24): repetidores analógicos, digitales, de nodo, finales y radiobalizas",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.59"
+   ],
+   "cubre": [
+    "F-R8.59",
+    "R8.52"
+   ],
+   "nota": "R8.52 tiene una redacción discutible (ver problemas)."
+  },
+  {
+   "cid": "R8-92",
+   "tema": "R8",
+   "concepto": "Repetidoras digitales: de portadora o nodo (enlaza con repetidoras) frente a final (distribuye a los usuarios)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.77"
+   ],
+   "cubre": [
+    "F-R8.77",
+    "F-R8.78"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-93",
+   "tema": "R8",
+   "concepto": "Titular de una desatendida: solo asociaciones de radioaficionados legalmente reconocidas",
+   "peso": 2,
+   "preguntas": [
+    "R8.67"
+   ],
+   "cubre": [
+    "R8.67",
+    "R8.35"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-94",
+   "tema": "R8",
+   "concepto": "Número de desatendidas: según las necesidades del servicio (cobertura y canales)",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.10"
+   ],
+   "cubre": [
+    "C-R8.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-95",
+   "tema": "R8",
+   "concepto": "Obligaciones del gestor de la desatendida (no le corresponde autorizar su funcionamiento)",
+   "peso": 1,
+   "preguntas": [
+    "C-R8.7"
+   ],
+   "cubre": [
+    "C-R8.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-96",
+   "tema": "R8",
+   "concepto": "Repetidor: su objetivo es ampliar el alcance de las comunicaciones",
+   "peso": 1,
+   "preguntas": [
+    "R8.33"
+   ],
+   "cubre": [
+    "R8.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-97",
+   "tema": "R8",
+   "concepto": "Acceso a repetidores: necesariamente libre; si hay código, público y facilitado a quien lo pida",
+   "peso": 2,
+   "preguntas": [
+    "R8.34"
+   ],
+   "cubre": [
+    "R8.34",
+    "F-R8.58"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-98",
+   "tema": "R8",
+   "concepto": "Repetidor analógico-digital accedido por red pública: código personal e intransferible + distintivo",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.57"
+   ],
+   "cubre": [
+    "F-R8.57"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-99",
+   "tema": "R8",
+   "concepto": "Potencia de las desatendidas: VHF/UHF 10 W en casco urbano y 50 W fuera; HF 50 W",
+   "peso": 2,
+   "preguntas": [
+    "R8.36",
+    "R8.37"
+   ],
+   "cubre": [
+    "R8.36",
+    "R8.37"
+   ],
+   "nota": "R8.37 pregunta la cifra de HF, que no sale de la de VHF/UHF."
+  },
+  {
+   "cid": "R8-100",
+   "tema": "R8",
+   "concepto": "Ganancia del sistema radiante de las desatendidas: ≤ 6 dBd",
+   "peso": 2,
+   "preguntas": [
+    "R8.38"
+   ],
+   "cubre": [
+    "R8.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-101",
+   "tema": "R8",
+   "concepto": "Repetidores y radiobalizas: telemando y alimentación ininterrumpida ≥ 6 h",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.64"
+   ],
+   "cubre": [
+    "F-R8.64",
+    "R8.39"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-102",
+   "tema": "R8",
+   "concepto": "Distintivo de los repetidores analógicos: Morse ≤ 10 palabras/min, cada ≤ 10 min",
+   "peso": 2,
+   "preguntas": [
+    "R8.40"
+   ],
+   "cubre": [
+    "R8.40"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-103",
+   "tema": "R8",
+   "concepto": "Radiobaliza: desatendida para estudios de propagación que emite señales de identificación",
+   "peso": 2,
+   "preguntas": [
+    "R8.41"
+   ],
+   "cubre": [
+    "R8.41"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-104",
+   "tema": "R8",
+   "concepto": "Radiobaliza: distintivo a intervalos ≤ 3 min",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.61"
+   ],
+   "cubre": [
+    "F-R8.61"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-105",
+   "tema": "R8",
+   "concepto": "Radiobaliza: información solo de su posición y condiciones de funcionamiento",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.62"
+   ],
+   "cubre": [
+    "F-R8.62"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-106",
+   "tema": "R8",
+   "concepto": "Radiobaliza: sistema radiante omnidireccional",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.63"
+   ],
+   "cubre": [
+    "F-R8.63"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-107",
+   "tema": "R8",
+   "concepto": "Radiobalizas en las bandas de aficionado (p. ej., 144–146 MHz)",
+   "peso": 1,
+   "preguntas": [
+    "R8.42"
+   ],
+   "cubre": [
+    "R8.42"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-108",
+   "tema": "R8",
+   "concepto": "Desatendida: instalarla en 6 meses (si no, caduca la autorización de instalación)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.65"
+   ],
+   "cubre": [
+    "F-R8.65"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-109",
+   "tema": "R8",
+   "concepto": "Desatendida terminada: se aplica el procedimiento de la licencia de estación fija (art. 20)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.66"
+   ],
+   "cubre": [
+    "F-R8.66"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-110",
+   "tema": "R8",
+   "concepto": "Desatendida: interrupción > 3 meses puede llevar a cancelar su licencia",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.60"
+   ],
+   "cubre": [
+    "F-R8.60"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-111",
+   "tema": "R8",
+   "concepto": "Interferencia persistente: la SETSI puede restringir bandas, potencia u horario",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.67"
+   ],
+   "cubre": [
+    "F-R8.67"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-112",
+   "tema": "R8",
+   "concepto": "Interconexión con otras redes: permitida con condiciones (fines de radioafición)",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.35"
+   ],
+   "cubre": [
+    "C-R8.35",
+    "F-R8.56"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-113",
+   "tema": "R8",
+   "concepto": "Prohibido codificar para ocultar el significado, salvo el mando de estaciones espaciales",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.68"
+   ],
+   "cubre": [
+    "F-R8.68"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-114",
+   "tema": "R8",
+   "concepto": "Seguridad: la SETSI no es responsable en ningún caso del incumplimiento de las normas de seguridad",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.72"
+   ],
+   "cubre": [
+    "F-R8.72"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-115",
+   "tema": "R8",
+   "concepto": "Anomalía de seguridad mecánica o eléctrica: subsanarla de forma inmediata",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.73"
+   ],
+   "cubre": [
+    "F-R8.73"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-116",
+   "tema": "R8",
+   "concepto": "Disposición final 2.ª: la SETSI dicta instrucciones y actualiza los anexos técnicos",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.74"
+   ],
+   "cubre": [
+    "F-R8.74"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-117",
+   "tema": "R8",
+   "concepto": "Nomenclatura de bandas: números, símbolos (HF, VHF, SHF…), rangos y ondas (métricas, B.m.…)",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.8",
+    "R8.48"
+   ],
+   "cubre": [
+    "C-R8.8",
+    "R8.46",
+    "R8.47",
+    "R8.48"
+   ],
+   "nota": "C-R8.8 es la versión del banco público (abreviatura métrica); R8.48 pregunta el rango de frecuencias."
+  },
+  {
+   "cid": "R8-118",
+   "tema": "R8",
+   "concepto": "Clases de emisión: los tres símbolos (modulación, señal moduladora, información): J3E, F3E, F1B…",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.83",
+    "F-R8.84"
+   ],
+   "cubre": [
+    "F-R8.83",
+    "F-R8.84",
+    "F-R8.85",
+    "R8.81"
+   ],
+   "nota": "F-R8.84 añade los símbolos digitales (1, B) que no salen en las de fonía."
+  },
+  {
+   "cid": "R8-119",
+   "tema": "R8",
+   "concepto": "Servicio secundario: no causa interferencia al primario ni puede reclamar protección; sí frente a secundarios posteriores",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.80",
+    "F-R8.81"
+   ],
+   "cubre": [
+    "F-R8.80",
+    "F-R8.81"
+   ],
+   "nota": "F-R8.81 pregunta el lado contrario: de quién sí está protegido."
+  },
+  {
+   "cid": "R8-120",
+   "tema": "R8",
+   "concepto": "Interferencia perjudicial: compromete la radionavegación o seguridad, o degrada gravemente o interrumpe un servicio",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.86"
+   ],
+   "cubre": [
+    "F-R8.86"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-121",
+   "tema": "R8",
+   "concepto": "Interferencia: degradación, falseamiento o pérdida de información por energía no deseada",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.87"
+   ],
+   "cubre": [
+    "F-R8.87"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-122",
+   "tema": "R8",
+   "concepto": "Tolerancia de frecuencia: desviación entre la frecuencia asignada y el centro de la banda ocupada",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.82"
+   ],
+   "cubre": [
+    "F-R8.82"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-123",
+   "tema": "R8",
+   "concepto": "p.i.r.e. (referencia isótropa) frente a p.r.a. (referencia dipolo)",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.88",
+    "F-R8.89"
+   ],
+   "cubre": [
+    "F-R8.88",
+    "F-R8.89",
+    "F-R8.92"
+   ],
+   "nota": "Dos preguntas porque el examen intercambia las referencias."
+  },
+  {
+   "cid": "R8-124",
+   "tema": "R8",
+   "concepto": "Conversión de ganancias: dBi = dBd + 2,15",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.91"
+   ],
+   "cubre": [
+    "F-R8.91"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-125",
+   "tema": "R8",
+   "concepto": "p.c.e.: potencia en la cresta más elevada de la envolvente de modulación",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.90"
+   ],
+   "cubre": [
+    "F-R8.90"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-126",
+   "tema": "R8",
+   "concepto": "Modulaciones permitidas: dentro de las bandas y con anchos de banda del plan IARU Región 1",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.93"
+   ],
+   "cubre": [
+    "F-R8.93"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-127",
+   "tema": "R8",
+   "concepto": "Modulaciones digitales autorizadas: con señales de audio, datos o vídeo",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.94"
+   ],
+   "cubre": [
+    "F-R8.94"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-128",
+   "tema": "R8",
+   "concepto": "Potencia máxima en HF (1,8–28 MHz): 1000 W p.c.e.",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.46"
+   ],
+   "cubre": [
+    "C-R8.46",
+    "F-R8.95",
+    "F-R8.96"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-129",
+   "tema": "R8",
+   "concepto": "Potencia máxima en 50, 70 y 144 MHz (600 W p.c.e.) y en 430–440 MHz (300 W p.c.e.)",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.98",
+    "F-R8.97"
+   ],
+   "cubre": [
+    "F-R8.97",
+    "F-R8.98"
+   ],
+   "nota": "Dos filas vecinas de la tabla que se confunden."
+  },
+  {
+   "cid": "R8-130",
+   "tema": "R8",
+   "concepto": "Potencia máxima en 23 cm y superiores: 1000 W p.i.r.e.",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.99"
+   ],
+   "cubre": [
+    "F-R8.99"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-131",
+   "tema": "R8",
+   "concepto": "Potencia en 137 y 475 kHz: 1 W p.i.r.e. (475 kHz: 5 W a más de 800 km de África)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.100",
+    "F-R8.101"
+   ],
+   "cubre": [
+    "F-R8.100",
+    "F-R8.101"
+   ],
+   "nota": "F-R8.101 pregunta la excepción de 475 kHz."
+  },
+  {
+   "cid": "R8-132",
+   "tema": "R8",
+   "concepto": "Bandas con atribución secundaria: potencia ≤ 50 % de la tabla",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.103"
+   ],
+   "cubre": [
+    "F-R8.103",
+    "F-R8.102"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-133",
+   "tema": "R8",
+   "concepto": "Banda de 60 m: atribución secundaria y 15 W p.i.r.e.",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.18"
+   ],
+   "cubre": [
+    "F-R8.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-134",
+   "tema": "R8",
+   "concepto": "Banda de 40 m: 7100–7200 kHz, a título primario para aficionados en la Región 1 desde 2009",
+   "peso": 1,
+   "preguntas": [
+    "C-R8.48"
+   ],
+   "cubre": [
+    "C-R8.48"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-135",
+   "tema": "R8",
+   "concepto": "EME y dispersión meteórica: hasta 1000 W p.c.e. en subbandas IARU y fuera de cascos urbanos",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.104"
+   ],
+   "cubre": [
+    "F-R8.104",
+    "F-R8.105"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-136",
+   "tema": "R8",
+   "concepto": "Bandas ICM: el aficionado debe aceptar su interferencia perjudicial",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.106"
+   ],
+   "cubre": [
+    "F-R8.106"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-137",
+   "tema": "R8",
+   "concepto": "Bandas ICM: 433,05–434,79 MHz, 2400–2450 MHz, 5725–5800 MHz y 24,00–24,25 GHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.108"
+   ],
+   "cubre": [
+    "F-R8.108",
+    "F-R8.107"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-138",
+   "tema": "R8",
+   "concepto": "Exposición a RF: < 3,5 mW/cm² donde haya o transiten personas",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.109"
+   ],
+   "cubre": [
+    "F-R8.109",
+    "F-R8.110"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-139",
+   "tema": "R8",
+   "concepto": "Emisiones no esenciales: límites en dB y en potencia absoluta según banda y potencia (manda el más estricto)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.111",
+    "F-R8.112"
+   ],
+   "cubre": [
+    "F-R8.111",
+    "F-R8.112",
+    "F-R8.113"
+   ],
+   "nota": "F-R8.112 enseña el caso en que manda el tope absoluto y no los dB."
+  },
+  {
+   "cid": "R8-140",
+   "tema": "R8",
+   "concepto": "T/R 61-01 = licencia CEPT (uso temporal); T/R 61-02 = certificado HAREC",
+   "peso": 3,
+   "preguntas": [
+    "R8.2",
+    "R8.3"
+   ],
+   "cubre": [
+    "R8.2",
+    "R8.3"
+   ],
+   "nota": "El examen pregunta las dos en sentido inverso; se confunden constantemente."
+  },
+  {
+   "cid": "R8-141",
+   "tema": "R8",
+   "concepto": "Licencia CEPT: habilita temporalmente en los países T/R 61-01; no se concede «a través del HAREC»",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.32"
+   ],
+   "cubre": [
+    "C-R8.32"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-142",
+   "tema": "R8",
+   "concepto": "Licencia CEPT: la expide un país, sea o no de la CEPT, que haya adoptado la T/R 61-01",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.36"
+   ],
+   "cubre": [
+    "F-R8.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-143",
+   "tema": "R8",
+   "concepto": "Contenido de la licencia CEPT (no consta la asociación ni la fecha del examen)",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.2"
+   ],
+   "cubre": [
+    "C-R8.2",
+    "C-R8.21"
+   ],
+   "nota": "C-R8.21 cambia el distractor (fecha del examen); se resuelve con la misma lista."
+  },
+  {
+   "cid": "R8-144",
+   "tema": "R8",
+   "concepto": "Licencia CEPT: todas las bandas atribuidas al servicio en el país visitado (no las del país de origen)",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.26"
+   ],
+   "cubre": [
+    "C-R8.26",
+    "C-R8.13",
+    "C-R8.42",
+    "C-R8.24"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-145",
+   "tema": "R8",
+   "concepto": "Licencia CEPT: presentarla a petición de las autoridades del país visitado",
+   "peso": 2,
+   "preguntas": [
+    "C-R8.33"
+   ],
+   "cubre": [
+    "C-R8.33",
+    "C-R8.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-146",
+   "tema": "R8",
+   "concepto": "Licencia CEPT: sin protección contra interferencias perjudiciales",
+   "peso": 2,
+   "preguntas": [
+    "R8.31"
+   ],
+   "cubre": [
+    "R8.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-147",
+   "tema": "R8",
+   "concepto": "Licencia CEPT: respetar siempre el RR y la reglamentación del país visitado",
+   "peso": 2,
+   "preguntas": [
+    "R8.84"
+   ],
+   "cubre": [
+    "R8.84",
+    "R8.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-148",
+   "tema": "R8",
+   "concepto": "Identificación con licencia CEPT: prefijo del país visitado (y opcionalmente distrito) + distintivo propio",
+   "peso": 2,
+   "preguntas": [
+    "R8.85"
+   ],
+   "cubre": [
+    "R8.85"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-149",
+   "tema": "R8",
+   "concepto": "Licencia CEPT de otro país en España: equiparada, solo para no residentes en estancias temporales",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.32"
+   ],
+   "cubre": [
+    "F-R8.32",
+    "R8.32"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-150",
+   "tema": "R8",
+   "concepto": "Extranjero residente: autorización sin examen con HAREC de un país T/R 61-02 o por reciprocidad (residencia acreditada)",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.14",
+    "C-R8.20"
+   ],
+   "cubre": [
+    "C-R8.14",
+    "C-R8.20",
+    "C-R8.40",
+    "R8.4",
+    "R8.64",
+    "R8.30"
+   ],
+   "nota": "C-R8.20 es la forma «indique la incorrecta» con el distractor T/R 5000, que el banco repite."
+  },
+  {
+   "cid": "R8-151",
+   "tema": "R8",
+   "concepto": "Extranjero de país no T/R 61-01: autorización temporal ≤ 90 días",
+   "peso": 2,
+   "preguntas": [
+    "F-R8.33"
+   ],
+   "cubre": [
+    "F-R8.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-152",
+   "tema": "R8",
+   "concepto": "Autorización temporal del art. 15: la solicitud incluye la licencia original o copia fehaciente",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.34"
+   ],
+   "cubre": [
+    "F-R8.34"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-153",
+   "tema": "R8",
+   "concepto": "Autorización temporal del art. 15: equipos conformes a la normativa española",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.35"
+   ],
+   "cubre": [
+    "F-R8.35"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-154",
+   "tema": "R8",
+   "concepto": "Emitir desde Andorra: licencia temporal andorrana para titulares de licencia extranjera",
+   "peso": 1,
+   "preguntas": [
+    "C-R8.45"
+   ],
+   "cubre": [
+    "C-R8.45"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-155",
+   "tema": "R8",
+   "concepto": "HAREC: certifica la capacidad para operar; no autoriza a emitir, no caduca, sustituye al diploma de operador",
+   "peso": 3,
+   "preguntas": [
+    "C-R8.31"
+   ],
+   "cubre": [
+    "C-R8.31",
+    "C-R8.47",
+    "R8.62"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-156",
+   "tema": "R8",
+   "concepto": "HAREC: permite obtener la autorización en otro país que aplique la T/R 61-02 (traslado de residencia)",
+   "peso": 2,
+   "preguntas": [
+    "R8.82"
+   ],
+   "cubre": [
+    "R8.82",
+    "R8.88"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-157",
+   "tema": "R8",
+   "concepto": "T/R 61-02: abierta a países sean o no de la CEPT",
+   "peso": 1,
+   "preguntas": [
+    "R8.83"
+   ],
+   "cubre": [
+    "R8.83"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-158",
+   "tema": "R8",
+   "concepto": "Programa de la prueba: acorde al anexo 6 de la T/R 61-02",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.37"
+   ],
+   "cubre": [
+    "F-R8.37"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-159",
+   "tema": "R8",
+   "concepto": "Examen: no hace falta HAREC para presentarse; tasa previa; convocatoria de la Secretaría de Estado",
+   "peso": 1,
+   "preguntas": [
+    "R8.58"
+   ],
+   "cubre": [
+    "R8.58"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-160",
+   "tema": "R8",
+   "concepto": "Regiones de la UIT: España en la Región 1",
+   "peso": 3,
+   "preguntas": [
+    "R8.5"
+   ],
+   "cubre": [
+    "R8.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-161",
+   "tema": "R8",
+   "concepto": "Zonas ITU: España peninsular en la zona 37 (CQ 14)",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.7"
+   ],
+   "cubre": [
+    "F-R8.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-162",
+   "tema": "R8",
+   "concepto": "Radiocomunicación: telecomunicación por ondas radioeléctricas",
+   "peso": 1,
+   "preguntas": [
+    "R8.6"
+   ],
+   "cubre": [
+    "R8.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-163",
+   "tema": "R8",
+   "concepto": "Estación de aficionado: estación del servicio de aficionados (RR)",
+   "peso": 1,
+   "preguntas": [
+    "C-R8.16"
+   ],
+   "cubre": [
+    "C-R8.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-164",
+   "tema": "R8",
+   "concepto": "Servicio de aficionados por satélite: usa estaciones espaciales situadas en satélites",
+   "peso": 1,
+   "preguntas": [
+    "R8.56"
+   ],
+   "cubre": [
+    "R8.56"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-165",
+   "tema": "R8",
+   "concepto": "RR art. 25: comunicaciones entre países permitidas salvo oposición de una administración",
+   "peso": 2,
+   "preguntas": [
+    "R8.80"
+   ],
+   "cubre": [
+    "R8.80"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-166",
+   "tema": "R8",
+   "concepto": "RR art. 25: las administraciones verifican las cualificaciones operativas y técnicas",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.5"
+   ],
+   "cubre": [
+    "F-R8.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R8-167",
+   "tema": "R8",
+   "concepto": "RR art. 25: la potencia máxima la fijan las administraciones",
+   "peso": 1,
+   "preguntas": [
+    "F-R8.6"
+   ],
+   "cubre": [
+    "F-R8.6"
+   ],
+   "nota": ""
+  }
+ ],
+ "nuevas": [],
+ "descartadas": [],
+ "problemas": [
+  {
+   "id": "R8.52",
+   "detalle": "Clave discutible: el anexo I define la estación automática desatendida como una estación colectiva, así que «una estación colectiva no puede considerarse desatendida» no es cierto en general; la propia solución lo matiza. No conviene usarla en simulacros."
+  },
+  {
+   "id": "R8.49",
+   "detalle": "La regla procede del art. 37.5 de la Orden ITC/1791/2006, derogada; la Orden IET/1311/2013 no la recoge expresamente (lo reconoce la solución). Se cubre con R8.70."
+  },
+  {
+   "id": "R8.79",
+   "detalle": "La opción correcta dice «comunicarlo previamente a la comunidad», pero según la solución (RD 2623/1986, art. 3) quien comunica a la comunidad es la Administración, una vez aceptada la memoria. Redacción imprecisa; la clave es la mejor opción."
+  },
+  {
+   "id": "R8.24",
+   "detalle": "No es error: la clave sigue la Orden vigente (desmontar todo), pero los bancos antiguos dan la d (mantener solo recepción). En el examen puede aparecer con la clave antigua; la solución lo advierte."
+  },
+  {
+   "id": "R8.72",
+   "detalle": "No es error: la clave sigue el art. 28 vigente, pero el banco público da «cuando se cancele la autorización». La solución lo advierte."
+  },
+  {
+   "id": "F-R8.71",
+   "detalle": "La solución dice que el tope absoluto de los noveles es 100 W «(p.i.r.e.)» mientras que el máximo de la banda de 20 m está en p.c.e.; conviene comprobar en el art. 30.6.d la magnitud del tope. La clave (100 W) no cambia."
+  }
+ ]
+}
