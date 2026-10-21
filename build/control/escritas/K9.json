@@ -92,12 +92,12 @@
  {
   "kid": "K-R8-07-1",
   "cid": "R8-07",
-  "enunciado": "La Orden IET/1311/2013 se publicó en el BOE el 12 de julio de 2013. Entró en vigor el:",
+  "enunciado": "El BOE del 12 de julio de 2013 publicó la Orden IET/1311/2013. ¿Desde qué fecha es aplicable el Reglamento que aprueba?",
   "opciones": [
-   "13 de julio de 2013",
-   "12 de julio de 2013",
-   "1 de agosto de 2013",
-   "1 de enero de 2014"
+   "Desde el 13 de julio de 2013",
+   "Desde el 12 de julio de 2013",
+   "Desde el 1 de agosto de 2013",
+   "Desde el 1 de enero de 2014"
   ],
   "clave": "a",
   "sol": "Su disposición final cuarta fija la entrada en vigor el día siguiente al de su publicación: el 13 de julio de 2013. El 1 de agosto saldría de aplicar los veinte días de la regla general del Código Civil, que solo rige cuando la norma no dice otra cosa, y aquí sí lo dice.",
@@ -482,7 +482,7 @@
  {
   "kid": "K-R8-34-1",
   "cid": "R8-34",
-  "enunciado": "Presentas tu equipo de construcción propia en la Jefatura Provincial con su memoria descriptiva y supera las pruebas de comprobación. ¿Qué obtienes?",
+  "enunciado": "Un transmisor casero que su autor llevó voluntariamente a la Jefatura Provincial supera allí las pruebas de comprobación del anexo I. ¿Qué recibe?",
   "opciones": [
    "Una autorización individual que acredita su correcto funcionamiento",
    "El marcado CE, que te permite además comercializarlo",
@@ -1052,12 +1052,12 @@
  {
   "kid": "K-R8-72-1",
   "cid": "R8-72",
-  "enunciado": "Sobre la identificación de las emisiones realizadas al amparo de una autorización especial experimental, es correcto que:",
+  "enunciado": "Un radioaficionado realiza unas pruebas al amparo de una autorización especial experimental. Al emitir, debe:",
   "opciones": [
-   "quedan exentas de identificación por su carácter experimental",
-   "se identifican con un distintivo temporal que asigna la SETSI para el experimento",
-   "se identifican con las coordenadas geográficas de la instalación en lugar del distintivo",
-   "se identifican con el distintivo propio del radioaficionado o de la asociación solicitante"
+   "omitir la identificación, por el carácter experimental de las pruebas",
+   "usar un distintivo temporal que la SETSI asigna para el experimento",
+   "indicar las coordenadas geográficas de la instalación en lugar del distintivo",
+   "identificarse con su propio distintivo, como en cualquier otra emisión"
   ],
   "clave": "d",
   "sol": "El art. 17.3 dispone que estas emisiones se identifican con el distintivo propio del radioaficionado o de la asociación solicitante. El carácter experimental no exime de identificarse, y la autorización especial no lleva un distintivo distinto. Las coordenadas forman parte de la memoria técnica, no de la identificación.",

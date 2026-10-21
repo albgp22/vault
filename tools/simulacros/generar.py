@@ -25,6 +25,20 @@ LETRA_EN_SOL = re.compile(r'\(\s*[abcd]\s*\)|opci[oó]n\s+[abcd]\b|\b(?:la|las|r
                           r'|#strong\[[abcd]\]|\b[abcd]\)', re.I)
 
 
+def sanear(t):
+    """Texto de las preguntas nuevas: fuera de math, `_`, `*` y `@` son literales; dentro de math,
+    la coma decimal se protege para que no separe argumentos en sqrt(0,25 / 400)."""
+    partes = re.split(r'(?<!\\)\$', t)
+    for i, seg in enumerate(partes):
+        if i % 2 == 0:
+            seg = re.sub(r'(?<!\\)([_*@])', r'\\\1', seg)
+            seg = seg.replace('\\_\\_\\_', '\\_\\_\\_')
+        else:
+            seg = re.sub(r'(\d),(\d)', r'\1","\2', seg)
+        partes[i] = seg
+    return '$'.join(partes)
+
+
 def cargar_control(banco):
     """Preguntas nuevas de control (build/control/escritas/*.json), en su versión revisada si existe."""
     revisadas = {}
@@ -38,8 +52,8 @@ def cargar_control(banco):
                 continue
             banco[n['kid']] = {'id': n['kid'], 'clave': v['clave'], 'enunciado': v['enunciado'],
                                'opciones': v['opciones'], 'sol': v['sol'], 'nueva': True,
-                               'raw': {'enunciado': f"[{v['enunciado']}]", 'opciones': [f'[{o}]' for o in v['opciones']],
-                                       'sol': f"[{v['sol']}]"}}
+                               'raw': {'enunciado': f"[{sanear(v['enunciado'])}]", 'opciones': [f'[{sanear(o)}]' for o in v['opciones']],
+                                       'sol': f"[{sanear(v['sol'])}]"}}
     return banco
 
 

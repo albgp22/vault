@@ -17,7 +17,7 @@
  {
   "kid": "K-T7-03-1",
   "cid": "T7-03",
-  "enunciado": "Una emisión en 1,9 MHz, dentro de la banda de 160 m, pertenece a las ondas:",
+  "enunciado": "La banda de aficionado de 160 m, en torno a 1,9 MHz, se clasifica como:",
   "opciones": [
    "decamétricas (HF)",
    "hectométricas (MF)",
@@ -212,7 +212,7 @@
  {
   "kid": "K-T7-17-1",
   "cid": "T7-17",
-  "enunciado": "Ordenadas de mayor a menor altura, las capas de la atmósfera son:",
+  "enunciado": "Si se recorren las capas de la atmósfera desde la más alta hasta la más baja, el orden es:",
   "opciones": [
    "troposfera, estratosfera e ionosfera",
    "estratosfera, ionosfera y troposfera",
@@ -557,7 +557,7 @@
  {
   "kid": "K-R1-04-1",
   "cid": "R1-04",
-  "enunciado": "El distintivo `EA6LNB` se deletrea:",
+  "enunciado": "¿Cuál es el deletreo correcto del distintivo `EA6LNB`?",
   "opciones": [
    "Echo Alfa Seis Lima Noviembre Bravo",
    "Echo Alfa Six Lima November Bravo",
@@ -617,7 +617,7 @@
  {
   "kid": "K-R1-08-1",
   "cid": "R1-08",
-  "enunciado": "El distintivo `EC7DIA` se deletrea:",
+  "enunciado": "Tienes que deletrear en fonía el distintivo `EC7DIA`. Lo correcto es:",
   "opciones": [
    "Echo Charlie Seven Dog Italia Alfa",
    "Echo Coca Seven Delta India Able",
@@ -632,7 +632,7 @@
  {
   "kid": "K-R1-09-1",
   "cid": "R1-09",
-  "enunciado": "El sufijo `OPT` se deletrea:",
+  "enunciado": "En un concurso, para dar el sufijo `OPT`, dices:",
   "opciones": [
    "Oscar Papa Tango",
    "Oscar Peter Tare",
@@ -647,7 +647,7 @@
  {
   "kid": "K-R1-10-1",
   "cid": "R1-10",
-  "enunciado": "El sufijo `GF` se deletrea:",
+  "enunciado": "¿Cómo deletreas, con el alfabeto internacional, las dos letras del sufijo `GF`?",
   "opciones": [
    "Gustavo Foxtrot",
    "Golf Fox",

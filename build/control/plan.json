@@ -1,0 +1,7756 @@
+{
+ "n": 13,
+ "simulacros": [
+  {
+   "n": 1,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-01-1",
+       "cid": "T2-01",
+       "tema": "T2",
+       "concepto": "Código de colores: cifra que representa cada color (negro 0 … blanco 9)",
+       "peso": 3,
+       "estudio": [
+        "10·1·5"
+       ],
+       "libro": [
+        "C-T2.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-14-1",
+       "cid": "T2-14",
+       "tema": "T2",
+       "concepto": "Unidad de capacidad: el faradio (no mide la carga)",
+       "peso": 2,
+       "estudio": [
+        "8·1·5"
+       ],
+       "libro": [
+        "T2.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-27-1",
+       "cid": "T2-27",
+       "tema": "T2",
+       "concepto": "Electrolítico: uso principal en el filtrado de fuentes de alimentación (no en RF)",
+       "peso": 2,
+       "estudio": [
+        "11·1·6"
+       ],
+       "libro": [
+        "T2.54"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-40-1",
+       "cid": "T2-40",
+       "tema": "T2",
+       "concepto": "Cálculo de la reactancia inductiva X_L = 2πfL",
+       "peso": 2,
+       "estudio": [
+        "10·1·7"
+       ],
+       "libro": [
+        "F-T2.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-20-1",
+       "cid": "T3-20",
+       "tema": "T3",
+       "concepto": "Filtro paso bajo: deja pasar las frecuencias inferiores a la de corte (a la salida del TX, contra armónicos)",
+       "peso": 2,
+       "estudio": [
+        "8·1·9"
+       ],
+       "libro": [
+        "T3.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-41-1",
+       "cid": "T3-41",
+       "tema": "T3",
+       "concepto": "Función del filtro de la fuente: eliminar la componente alterna (rizado) que queda tras rectificar, no la continua",
+       "peso": 3,
+       "estudio": [
+        "11·1·11"
+       ],
+       "libro": [
+        "T3.36"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-50-1",
+       "cid": "T3-50",
+       "tema": "T3",
+       "concepto": "Emisor común: ganancia de tensión y de corriente, luego de potencia",
+       "peso": 2,
+       "estudio": [
+        "8·1·11"
+       ],
+       "libro": [
+        "C-T3.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-57-1",
+       "cid": "T3-57",
+       "tema": "T3",
+       "concepto": "Ángulo de conducción: A 360°, AB entre 180° y 360°, B 180°, C menos de 180°",
+       "peso": 3,
+       "estudio": [
+        "13·1·13"
+       ],
+       "libro": [
+        "T3.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-98-1",
+       "cid": "T3-98",
+       "tema": "T3",
+       "concepto": "DDS: se emplea como oscilador variable de gran precisión",
+       "peso": 2,
+       "estudio": [
+        "12·1·14"
+       ],
+       "libro": [
+        "T3.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-10-1",
+       "cid": "T4-10",
+       "tema": "T4",
+       "concepto": "Diagrama de bloques del receptor de BLU (RF, mezclador con OL variable, FI, detector de producto con BFO)",
+       "peso": 2,
+       "estudio": [
+        "3·1·16"
+       ],
+       "libro": [
+        "C-T4.15"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-23-1",
+       "cid": "T4-23",
+       "tema": "T4",
+       "concepto": "La sensibilidad (figura de ruido) la determina la primera etapa de RF (Friis)",
+       "peso": 3,
+       "estudio": [
+        "4·1·15"
+       ],
+       "libro": [
+        "T4.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-44-1",
+       "cid": "T5-44",
+       "tema": "T5",
+       "concepto": "Espurias por debajo de 30 MHz: 40 dB bajo la potencia media, sin exceder de 50 mW",
+       "peso": 3,
+       "estudio": [
+        "2·1·17"
+       ],
+       "libro": [
+        "T5.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-60-1",
+       "cid": "T5-60",
+       "tema": "T5",
+       "concepto": "Conmutador SEND/REC: pasa de emisión a recepción y viceversa",
+       "peso": 2,
+       "estudio": [
+        "6·1·18"
+       ],
+       "libro": [
+        "C-T5.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-62-1",
+       "cid": "T5-62",
+       "tema": "T5",
+       "concepto": "VOX: pasa a transmisión al hablar; en MAN se usa el PTT del micrófono",
+       "peso": 2,
+       "estudio": [
+        "10·1·19"
+       ],
+       "libro": [
+        "T5.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-01-1",
+       "cid": "T7-01",
+       "tema": "T7",
+       "concepto": "Nomenclatura de las bandas: sigla y nombre por longitud de onda (HF decamétricas, MF hectométricas, VHF métricas, UHF decimétricas, SHF centimétricas)",
+       "peso": 3,
+       "estudio": [
+        "5·1·23"
+       ],
+       "libro": [
+        "C-T7.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-05-1",
+       "cid": "T7-05",
+       "tema": "T7",
+       "concepto": "La onda de superficie sigue la curvatura terrestre",
+       "peso": 2,
+       "estudio": [
+        "7·1·23"
+       ],
+       "libro": [
+        "T7.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-32-1",
+       "cid": "T7-32",
+       "tema": "T7",
+       "concepto": "El conducto troposférico se da en VHF y UHF, con alcances de cientos de kilómetros",
+       "peso": 2,
+       "estudio": [
+        "4·1·25"
+       ],
+       "libro": [
+        "F-T7.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-25-1",
+       "cid": "T9-25",
+       "tema": "T9",
+       "concepto": "Una buena tierra reduce la RF en los chasis y las interferencias",
+       "peso": 2,
+       "estudio": [
+        "4·1·28"
+       ],
+       "libro": [
+        "T9.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-26-1",
+       "cid": "T9-26",
+       "tema": "T9",
+       "concepto": "Ante una queja: comprobar la propia estación y colaborar",
+       "peso": 2,
+       "estudio": [
+        "3·1·28"
+       ],
+       "libro": [
+        "T9.20"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R2-02-1",
+       "cid": "R2-02",
+       "tema": "R2",
+       "concepto": "QRO aumente / QRP disminuya la potencia",
+       "peso": 3,
+       "estudio": [
+        "5·2·2"
+       ],
+       "libro": [
+        "R2.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-10-1",
+       "cid": "R2-10",
+       "tema": "R2",
+       "concepto": "QRZ ¿quién me llama? (la llamada general es CQ, que no es código Q)",
+       "peso": 2,
+       "estudio": [
+        "3·2·1"
+       ],
+       "libro": [
+        "R2.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-17-1",
+       "cid": "R2-17",
+       "tema": "R2",
+       "concepto": "QRB distancia entre estaciones",
+       "peso": 1,
+       "estudio": [
+        "3·2·2"
+       ],
+       "libro": [
+        "R2.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-11-1",
+       "cid": "R3-11",
+       "tema": "R3",
+       "concepto": "CW telegrafía Morse (onda continua)",
+       "peso": 2,
+       "estudio": [
+        "13·2·5"
+       ],
+       "libro": [
+        "R3.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-21-1",
+       "cid": "R3-21",
+       "tema": "R3",
+       "concepto": "TNX / TKS y TU: gracias",
+       "peso": 1,
+       "estudio": [
+        "6·2·6"
+       ],
+       "libro": [
+        "R3.19"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-36-1",
+       "cid": "R3-36",
+       "tema": "R3",
+       "concepto": "GE buenas tardes",
+       "peso": 2,
+       "estudio": [
+        "12·2·7"
+       ],
+       "libro": [
+        "C-R3.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-37-1",
+       "cid": "R3-37",
+       "tema": "R3",
+       "concepto": "GN buenas noches",
+       "peso": 1,
+       "estudio": [
+        "5·2·7"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-09-1",
+       "cid": "R4-09",
+       "tema": "R4",
+       "concepto": "Seguridad en radiotelegrafía: TTT tres veces",
+       "peso": 3,
+       "estudio": [
+        "2·2·9"
+       ],
+       "libro": [
+        "R4.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-13-1",
+       "cid": "R4-13",
+       "tema": "R4",
+       "concepto": "Canal 16 de VHF marítima: 156,8 MHz (socorro, seguridad y llamada en voz)",
+       "peso": 1,
+       "estudio": [
+        "11·2·10"
+       ],
+       "libro": [
+        "F-R4.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-05-1",
+       "cid": "R8-05",
+       "tema": "R8",
+       "concepto": "Orden IET/1311/2013: documento fundamental de regulación de la radioafición",
+       "peso": 2,
+       "estudio": [
+        "11·2·18"
+       ],
+       "libro": [
+        "C-R8.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-06-1",
+       "cid": "R8-06",
+       "tema": "R8",
+       "concepto": "Orden IET/1311/2013: derogó la Orden ITC/1791/2006",
+       "peso": 1,
+       "estudio": [
+        "9·2·18"
+       ],
+       "libro": [
+        "F-R8.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-108-1",
+       "cid": "R8-108",
+       "tema": "R8",
+       "concepto": "Desatendida: instalarla en 6 meses (si no, caduca la autorización de instalación)",
+       "peso": 1,
+       "estudio": [
+        "8·2·18"
+       ],
+       "libro": [
+        "F-R8.65"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-111-1",
+       "cid": "R8-111",
+       "tema": "R8",
+       "concepto": "Interferencia persistente: la SETSI puede restringir bandas, potencia u horario",
+       "peso": 1,
+       "estudio": [
+        "6·2·20"
+       ],
+       "libro": [
+        "F-R8.67"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-119-1",
+       "cid": "R8-119",
+       "tema": "R8",
+       "concepto": "Servicio secundario: no causa interferencia al primario ni puede reclamar protección; sí frente a secundarios posteriores",
+       "peso": 2,
+       "estudio": [
+        "10·2·19"
+       ],
+       "libro": [
+        "F-R8.80"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-14-1",
+       "cid": "R8-14",
+       "tema": "R8",
+       "concepto": "Requisito previo de la autorización: superar la prueba de capacitación (certificado HAREC)",
+       "peso": 3,
+       "estudio": [
+        "8·2·22"
+       ],
+       "libro": [
+        "C-R8.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-140-2",
+       "cid": "R8-140",
+       "tema": "R8",
+       "concepto": "T/R 61-01 = licencia CEPT (uso temporal); T/R 61-02 = certificado HAREC",
+       "peso": 3,
+       "estudio": [
+        "2·2·20",
+        "10·2·21"
+       ],
+       "libro": [
+        "R8.3",
+        "R8.2"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R8-32-1",
+       "cid": "R8-32",
+       "tema": "R8",
+       "concepto": "Las estaciones están sometidas siempre a la inspección",
+       "peso": 1,
+       "estudio": [
+        "3·2·22"
+       ],
+       "libro": [
+        "R8.59"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-56-1",
+       "cid": "R8-56",
+       "tema": "R8",
+       "concepto": "La comunidad dispone de 2 meses para alegar sobre la idoneidad del emplazamiento",
+       "peso": 2,
+       "estudio": [
+        "8·2·23"
+       ],
+       "libro": [
+        "R8.79"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-71-1",
+       "cid": "R8-71",
+       "tema": "R8",
+       "concepto": "Memoria técnica de la autorización experimental: contenido (experimento, diagrama si es casero, coordenadas, período, banda, emisión, potencia, antena)",
+       "peso": 1,
+       "estudio": [
+        "7·2·28"
+       ],
+       "libro": [
+        "F-R8.39"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-76-1",
+       "cid": "R8-76",
+       "tema": "R8",
+       "concepto": "Uso portable: notificar con 5 días; usos no continuados de hasta 15 días naturales sin notificación",
+       "peso": 2,
+       "estudio": [
+        "8·2·25"
+       ],
+       "libro": [
+        "R8.45"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-93-1",
+       "cid": "R8-93",
+       "tema": "R8",
+       "concepto": "Titular de una desatendida: solo asociaciones de radioaficionados legalmente reconocidas",
+       "peso": 2,
+       "estudio": [
+        "11·2·28"
+       ],
+       "libro": [
+        "R8.67"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-11-1",
+       "cid": "R9-11",
+       "tema": "R9",
+       "concepto": "Muy grave: uso del espectro no adecuado al CNAF",
+       "peso": 1,
+       "estudio": [
+        "4·2·28"
+       ],
+       "libro": [
+        "F-R9.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-19-1",
+       "cid": "R9-19",
+       "tema": "R9",
+       "concepto": "No es infracción comunicar con otra estación de la que se es titular",
+       "peso": 2,
+       "estudio": [
+        "8·2·29"
+       ],
+       "libro": [
+        "C-R9.1"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-21-1",
+       "cid": "T2-21",
+       "tema": "T2",
+       "concepto": "El condensador se opone a las variaciones de tensión; la bobina, a las de corriente",
+       "peso": 2,
+       "estudio": [
+        "10·1·6"
+       ],
+       "libro": [
+        "T2.41"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-23-1",
+       "cid": "T2-23",
+       "tema": "T2",
+       "concepto": "Constante de tiempo τ = RC: 63 % de la carga en un τ, carga completa en unos 5τ",
+       "peso": 2,
+       "estudio": [
+        "2·1·6"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-39-1",
+       "cid": "T2-39",
+       "tema": "T2",
+       "concepto": "La reactancia inductiva X_L = 2πfL crece con la frecuencia y es nula en continua",
+       "peso": 3,
+       "estudio": [
+        "1·1·7",
+        "8·1·6"
+       ],
+       "libro": [
+        "T2.16",
+        "F-T2.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-41-1",
+       "cid": "T2-41",
+       "tema": "T2",
+       "concepto": "Desfase en reactancias puras: en la bobina la tensión adelanta 90° (en el condensador, la corriente)",
+       "peso": 2,
+       "estudio": [
+        "7·1·6"
+       ],
+       "libro": [
+        "F-T2.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-71-2",
+       "cid": "T2-71",
+       "tema": "T2",
+       "concepto": "Transistor bipolar: terminales emisor, base y colector; tipos NPN y PNP",
+       "peso": 3,
+       "estudio": [
+        "4·1·8",
+        "10·1·9"
+       ],
+       "libro": [
+        "T2.23",
+        "T2.24"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-T3-48-1",
+       "cid": "T3-48",
+       "tema": "T3",
+       "concepto": "Fuente conmutada: genera ruido de RF (QRM en HF); exige filtrado y apantallado",
+       "peso": 2,
+       "estudio": [
+        "4·1·13"
+       ],
+       "libro": [
+        "F-T3.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-51-1",
+       "cid": "T3-51",
+       "tema": "T3",
+       "concepto": "Emisor común: único montaje que invierte la fase 180°",
+       "peso": 2,
+       "estudio": [
+        "10·1·13"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-67-1",
+       "cid": "T3-67",
+       "tema": "T3",
+       "concepto": "Amplificador operacional: ganancia muy alta, impedancia de entrada alta y de salida baja",
+       "peso": 2,
+       "estudio": [
+        "5·1·12"
+       ],
+       "libro": [
+        "T3.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-72-1",
+       "cid": "T3-72",
+       "tema": "T3",
+       "concepto": "Detector de envolvente (diodo + RC): detector de AM; reconocer su esquema",
+       "peso": 3,
+       "estudio": [
+        "13·1·14"
+       ],
+       "libro": [
+        "T3.38"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-78-1",
+       "cid": "T3-78",
+       "tema": "T3",
+       "concepto": "Limitador delante del discriminador: recorta las variaciones de amplitud (ruido)",
+       "peso": 2,
+       "estudio": [
+        "7·1·12"
+       ],
+       "libro": [
+        "F-T3.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-13-1",
+       "cid": "T4-13",
+       "tema": "T4",
+       "concepto": "Detector de producto con BFO: imprescindible en SSB y CW (no en AM ni FM)",
+       "peso": 3,
+       "estudio": [
+        "7·1·14"
+       ],
+       "libro": [
+        "T4.34"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-44-1",
+       "cid": "T4-44",
+       "tema": "T4",
+       "concepto": "Noise blanker (NB): suprime el ruido impulsivo",
+       "peso": 2,
+       "estudio": [
+        "7·1·16"
+       ],
+       "libro": [
+        "T4.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-21-1",
+       "cid": "T5-21",
+       "tema": "T5",
+       "concepto": "Clases de emisión UIT: A1A (CW), A3E (AM), J3E (SSB), R3E, F3E (FM)",
+       "peso": 3,
+       "estudio": [
+        "12·1·18"
+       ],
+       "libro": [
+        "C-T5.19"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-48-1",
+       "cid": "T5-48",
+       "tema": "T5",
+       "concepto": "Manipulación brusca en CW: chasquidos que ensanchan la emisión",
+       "peso": 2,
+       "estudio": [
+        "1·1·19"
+       ],
+       "libro": [
+        "T5.29"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-65-1",
+       "cid": "T5-65",
+       "tema": "T5",
+       "concepto": "Desplazamiento del repetidor en 2 m: entrada 600 kHz por debajo de la salida",
+       "peso": 2,
+       "estudio": [
+        "4·1·19"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-18-1",
+       "cid": "T7-18",
+       "tema": "T7",
+       "concepto": "De noche desaparece la capa D y F1 y F2 se funden en una sola capa F",
+       "peso": 2,
+       "estudio": [
+        "6·1·23"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-28-1",
+       "cid": "T7-28",
+       "tema": "T7",
+       "concepto": "Ángulo de radiación bajo → distancia de salto más larga",
+       "peso": 2,
+       "estudio": [
+        "3·1·25"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-18-1",
+       "cid": "T9-18",
+       "tema": "T9",
+       "concepto": "Desacoplo: ferritas y condensadores en los cables del equipo afectado",
+       "peso": 2,
+       "estudio": [
+        "9·1·28"
+       ],
+       "libro": [
+        "T9.15"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-24-1",
+       "cid": "T9-24",
+       "tema": "T9",
+       "concepto": "Filtro de rechazo de banda (notch) para eliminar una frecuencia concreta",
+       "peso": 2,
+       "estudio": [
+        "1·1·28"
+       ],
+       "libro": [
+        "T9.16"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-05-1",
+       "cid": "R1-05",
+       "tema": "R1",
+       "concepto": "Deletreo de distintivo EA3RCQ: R Romeo, C Charlie, Q Quebec (no «Queen»), 3 Three",
+       "peso": 3,
+       "estudio": [
+        "6·2·1"
+       ],
+       "libro": [
+        "C-R1.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-03-2",
+       "cid": "R2-03",
+       "tema": "R2",
+       "concepto": "QRS transmita más despacio / QRQ más deprisa",
+       "peso": 3,
+       "estudio": [
+        "6·2·2",
+        "13·2·2"
+       ],
+       "libro": [
+        "R2.15",
+        "C-R2.3"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R2-11-1",
+       "cid": "R2-11",
+       "tema": "R2",
+       "concepto": "QSY cambie de frecuencia",
+       "peso": 3,
+       "estudio": [
+        "4·2·3"
+       ],
+       "libro": [
+        "R2.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-22-1",
+       "cid": "R2-22",
+       "tema": "R2",
+       "concepto": "QSN ¿me ha oído / ha oído a… en… kHz?",
+       "peso": 1,
+       "estudio": [
+        "7·2·3"
+       ],
+       "libro": [
+        "R2.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-02-1",
+       "cid": "R3-02",
+       "tema": "R3",
+       "concepto": "K invitación a transmitir («cambio»)",
+       "peso": 2,
+       "estudio": [
+        "6·2·5"
+       ],
+       "libro": [
+        "R3.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-16-1",
+       "cid": "R3-16",
+       "tema": "R3",
+       "concepto": "Escala de legibilidad: R5 = perfectamente legible (R1 ilegible…)",
+       "peso": 1,
+       "estudio": [
+        "3·2·4"
+       ],
+       "libro": [
+        "F-R3.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-35-1",
+       "cid": "R3-35",
+       "tema": "R3",
+       "concepto": "GM buenos días (GA es «adelante»)",
+       "peso": 2,
+       "estudio": [
+        "3·2·5"
+       ],
+       "libro": [
+        "C-R3.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-03-1",
+       "cid": "R4-03",
+       "tema": "R4",
+       "concepto": "Seguridad en radiotelefonía: SÉCURITÉ (tres veces)",
+       "peso": 3,
+       "estudio": [
+        "6·2·8"
+       ],
+       "libro": [
+        "R4.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-12-1",
+       "cid": "R4-12",
+       "tema": "R4",
+       "concepto": "Alerta de socorro GMDSS por DSC en MF: 2187,5 kHz (voz: 2182 kHz)",
+       "peso": 1,
+       "estudio": [
+        "7·2·9"
+       ],
+       "libro": [
+        "C-R4.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-106-1",
+       "cid": "R8-106",
+       "tema": "R8",
+       "concepto": "Radiobaliza: sistema radiante omnidireccional",
+       "peso": 1,
+       "estudio": [
+        "13·2·18"
+       ],
+       "libro": [
+        "F-R8.63"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-117-2",
+       "cid": "R8-117",
+       "tema": "R8",
+       "concepto": "Nomenclatura de bandas: números, símbolos (HF, VHF, SHF…), rangos y ondas (métricas, B.m.…)",
+       "peso": 3,
+       "estudio": [
+        "3·2·17",
+        "7·2·19"
+       ],
+       "libro": [
+        "C-R8.8",
+        "C-T7.3"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R8-145-1",
+       "cid": "R8-145",
+       "tema": "R8",
+       "concepto": "Licencia CEPT: presentarla a petición de las autoridades del país visitado",
+       "peso": 2,
+       "estudio": [
+        "7·2·20"
+       ],
+       "libro": [
+        "C-R8.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-21-1",
+       "cid": "R8-21",
+       "tema": "R8",
+       "concepto": "Solicitud de autorización: acompañada del resguardo de la tasa de tramitación",
+       "peso": 1,
+       "estudio": [
+        "4·2·23"
+       ],
+       "libro": [
+        "F-R8.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-34-1",
+       "cid": "R8-34",
+       "tema": "R8",
+       "concepto": "Equipo de construcción propia: presentación optativa en la Jefatura con memoria (diagrama de bloques, esquemas)",
+       "peso": 1,
+       "estudio": [
+        "1·2·22"
+       ],
+       "libro": [
+        "F-R8.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-38-1",
+       "cid": "R8-38",
+       "tema": "R8",
+       "concepto": "La estación debe tener elementos para comprobar que la emisión está en banda y medir la potencia",
+       "peso": 1,
+       "estudio": [
+        "10·2·24"
+       ],
+       "libro": [
+        "R8.86"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-43-1",
+       "cid": "R8-43",
+       "tema": "R8",
+       "concepto": "Contenido de la memoria: toma de tierra, plano, equipos (no el empadronamiento)",
+       "peso": 2,
+       "estudio": [
+        "5·2·23"
+       ],
+       "libro": [
+        "C-R8.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-47-1",
+       "cid": "R8-47",
+       "tema": "R8",
+       "concepto": "Modificaciones con licencia: permanentes se comunican; cambiar la antena de sitio = primera instalación",
+       "peso": 2,
+       "estudio": [
+        "12·2·23"
+       ],
+       "libro": [
+        "C-R8.15"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-51-1",
+       "cid": "R8-51",
+       "tema": "R8",
+       "concepto": "Cancelación de la licencia fija (p. ej., sin seguro): desmontar todo, antenas incluidas, a costa del titular",
+       "peso": 2,
+       "estudio": [
+        "12·2·24"
+       ],
+       "libro": [
+        "R8.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-55-1",
+       "cid": "R8-55",
+       "tema": "R8",
+       "concepto": "Comunidad de propietarios: no autoriza; la solicitud indica la dirección del presidente y la Administración le informa",
+       "peso": 3,
+       "estudio": [
+        "2·2·22"
+       ],
+       "libro": [
+        "C-R8.29"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-77-1",
+       "cid": "R8-77",
+       "tema": "R8",
+       "concepto": "Estación móvil: en movimiento o detenida en puntos no determinados",
+       "peso": 2,
+       "estudio": [
+        "2·2·26"
+       ],
+       "libro": [
+        "C-R8.37"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-84-1",
+       "cid": "R8-84",
+       "tema": "R8",
+       "concepto": "Estatutos de la asociación reconocida: fines propios de la radioafición y obligación de cumplir el Reglamento",
+       "peso": 1,
+       "estudio": [
+        "1·2·26"
+       ],
+       "libro": [
+        "F-R8.50"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-24-1",
+       "cid": "R9-24",
+       "tema": "R9",
+       "concepto": "Prescripción: 3 años muy graves, 2 graves, 1 leves",
+       "peso": 3,
+       "estudio": [
+        "3·2·29",
+        "11·2·30"
+       ],
+       "libro": [
+        "R9.6",
+        "R9.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-29-1",
+       "cid": "R9-29",
+       "tema": "R9",
+       "concepto": "Plazo mínimo de alegaciones: quince días hábiles",
+       "peso": 1,
+       "estudio": [
+        "10·2·30"
+       ],
+       "libro": [
+        "F-R9.5"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-22-1",
+       "cid": "T2-22",
+       "tema": "T2",
+       "concepto": "En continua los condensadores se cargan al principio y luego bloquean la corriente",
+       "peso": 2,
+       "estudio": [
+        "12·1·6"
+       ],
+       "libro": [
+        "C-T2.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-48-1",
+       "cid": "T2-48",
+       "tema": "T2",
+       "concepto": "Con continua en el primario no hay corriente en el secundario",
+       "peso": 2,
+       "estudio": [
+        "10·1·8"
+       ],
+       "libro": [
+        "C-T2.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-66-1",
+       "cid": "T2-66",
+       "tema": "T2",
+       "concepto": "Diodo zéner: estabiliza tensión trabajando en inversa, en la zona de ruptura",
+       "peso": 3,
+       "estudio": [
+        "7·1·8",
+        "13·1·8"
+       ],
+       "libro": [
+        "T2.22",
+        "F-T2.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-68-1",
+       "cid": "T2-68",
+       "tema": "T2",
+       "concepto": "LED: emite luz polarizado en directa",
+       "peso": 2,
+       "estudio": [
+        "2·1·7"
+       ],
+       "libro": [
+        "T2.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-79-1",
+       "cid": "T2-79",
+       "tema": "T2",
+       "concepto": "FET y MOSFET: terminales puerta, drenador y surtidor; control por tensión de puerta",
+       "peso": 2,
+       "estudio": [
+        "5·1·8"
+       ],
+       "libro": [
+        "T2.34"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-07-1",
+       "cid": "T3-07",
+       "tema": "T3",
+       "concepto": "Condensador en continua, en régimen permanente: circuito abierto (queda el divisor resistivo)",
+       "peso": 2,
+       "estudio": [
+        "1·1·10"
+       ],
+       "libro": [
+        "T3.57"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-16-1",
+       "cid": "T3-16",
+       "tema": "T3",
+       "concepto": "Q = X/R en resonancia y ancho de banda B = f0/Q",
+       "peso": 2,
+       "estudio": [
+        "13·1·10"
+       ],
+       "libro": [
+        "F-T3.45"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-29-1",
+       "cid": "T3-29",
+       "tema": "T3",
+       "concepto": "Cristal de cuarzo: resonador piezoeléctrico de Q altísimo",
+       "peso": 2,
+       "estudio": [
+        "5·1·10"
+       ],
+       "libro": [
+        "T3.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-44-1",
+       "cid": "T3-44",
+       "tema": "T3",
+       "concepto": "Bloques de una fuente lineal y su orden: transformador → rectificador → filtro → regulador (reconocer el esquema)",
+       "peso": 3,
+       "estudio": [
+        "11·1·12"
+       ],
+       "libro": [
+        "T3.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-69-1",
+       "cid": "T3-69",
+       "tema": "T3",
+       "concepto": "Operacional inversor: G = −R2/R1 (no inversor: 1 + R2/R1)",
+       "peso": 2,
+       "estudio": [
+        "12·1·13"
+       ],
+       "libro": [
+        "T3.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-03-1",
+       "cid": "T4-03",
+       "tema": "T4",
+       "concepto": "Orden de etapas del superheterodino: RF → mezclador → FI → detector → BF",
+       "peso": 3,
+       "estudio": [
+        "3·1·15"
+       ],
+       "libro": [
+        "T4.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-04-1",
+       "cid": "T4-04",
+       "tema": "T4",
+       "concepto": "El mezclador necesita el oscilador local: bloque que falta en un diagrama",
+       "peso": 2,
+       "estudio": [
+        "13·1·15"
+       ],
+       "libro": [
+        "T4.36"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-12-1",
+       "cid": "T5-12",
+       "tema": "T5",
+       "concepto": "Excitador: lleva la señal al nivel que necesita el amplificador final",
+       "peso": 2,
+       "estudio": [
+        "10·1·17"
+       ],
+       "libro": [
+        "T5.20"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-15-1",
+       "cid": "T5-15",
+       "tema": "T5",
+       "concepto": "Los multiplicadores multiplican también la desviación de FM",
+       "peso": 2,
+       "estudio": [
+        "12·1·17"
+       ],
+       "libro": [
+        "F-T5.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-03-1",
+       "cid": "T7-03",
+       "tema": "T7",
+       "concepto": "Asignar una frecuencia concreta a su banda con λ = 300/f",
+       "peso": 3,
+       "estudio": [
+        "13·1·23"
+       ],
+       "libro": [
+        "C-T7.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-12-1",
+       "cid": "T7-12",
+       "tema": "T7",
+       "concepto": "El horizonte radioeléctrico es algo mayor que el óptico (la troposfera curva el rayo)",
+       "peso": 2,
+       "estudio": [
+        "13·1·24"
+       ],
+       "libro": [
+        "F-T7.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-36-1",
+       "cid": "T7-36",
+       "tema": "T7",
+       "concepto": "Esporádica-E: más frecuente en verano",
+       "peso": 2,
+       "estudio": [
+        "1·1·24"
+       ],
+       "libro": [
+        "F-T7.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-01-1",
+       "cid": "T9-01",
+       "tema": "T9",
+       "concepto": "Compatibilidad electromagnética: no perturbar el entorno y no verse afectado por él",
+       "peso": 2,
+       "estudio": [
+        "5·1·27"
+       ],
+       "libro": [
+        "T9.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-20-1",
+       "cid": "T9-20",
+       "tema": "T9",
+       "concepto": "Apantallamiento: caja metálica, eléctricamente estanca y a tierra (jaula de Faraday en los dos sentidos)",
+       "peso": 3,
+       "estudio": [
+        "12·1·27"
+       ],
+       "libro": [
+        "T9.6"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-01-1",
+       "cid": "R1-01",
+       "tema": "R1",
+       "concepto": "Para qué sirve el alfabeto fonético: deletrear letras y cifras sin confusiones (no cifra ni abrevia)",
+       "peso": 1,
+       "estudio": [
+        "12·2·1"
+       ],
+       "libro": [
+        "R1.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-12-1",
+       "cid": "R2-12",
+       "tema": "R2",
+       "concepto": "QSB desvanecimiento (fading)",
+       "peso": 2,
+       "estudio": [
+        "9·2·2"
+       ],
+       "libro": [
+        "R2.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-14-1",
+       "cid": "R2-14",
+       "tema": "R2",
+       "concepto": "QTH posición o localidad (frente a QTR, QRA, QTC)",
+       "peso": 3,
+       "estudio": [
+        "2·2·2"
+       ],
+       "libro": [
+        "R2.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-08-1",
+       "cid": "R3-08",
+       "tema": "R3",
+       "concepto": "R recibido (conforme)",
+       "peso": 2,
+       "estudio": [
+        "3·2·3"
+       ],
+       "libro": [
+        "R3.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-14-1",
+       "cid": "R3-14",
+       "tema": "R3",
+       "concepto": "Informe RST: R legibilidad 1–5, S intensidad 1–9, T tono 1–9",
+       "peso": 3,
+       "estudio": [
+        "10·2·5"
+       ],
+       "libro": [
+        "F-R3.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-30-1",
+       "cid": "R3-30",
+       "tema": "R3",
+       "concepto": "HI risa en telegrafía",
+       "peso": 1,
+       "estudio": [
+        "9·2·6"
+       ],
+       "libro": [
+        "R3.36"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-17-1",
+       "cid": "R4-17",
+       "tema": "R4",
+       "concepto": "Usar SOS o MAYDAY sin peligro real es infracción sancionable",
+       "peso": 2,
+       "estudio": [
+        "3·2·6"
+       ],
+       "libro": [
+        "R4.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-18-1",
+       "cid": "R4-18",
+       "tema": "R4",
+       "concepto": "Resolución 640 del RR: bandas de aficionado en socorro por catástrofes naturales",
+       "peso": 3,
+       "estudio": [
+        "3·2·7"
+       ],
+       "libro": [
+        "R4.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-32-1",
+       "cid": "R4-32",
+       "tema": "R4",
+       "concepto": "Centros de actividad de emergencia IARU R1: 14300 kHz (mundial) y 3760 kHz (80 m)",
+       "peso": 1,
+       "estudio": [
+        "6·2·9"
+       ],
+       "libro": [
+        "F-R4.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-04-1",
+       "cid": "R8-04",
+       "tema": "R8",
+       "concepto": "Uso del espectro por radioaficionados: uso especial, con autorización individual; explotación compartida sin exclusión de terceros",
+       "peso": 1,
+       "estudio": [
+        "6·2·18"
+       ],
+       "libro": [
+        "F-R8.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-103-1",
+       "cid": "R8-103",
+       "tema": "R8",
+       "concepto": "Radiobaliza: desatendida para estudios de propagación que emite señales de identificación",
+       "peso": 2,
+       "estudio": [
+        "13·2·17"
+       ],
+       "libro": [
+        "R8.41"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-122-1",
+       "cid": "R8-122",
+       "tema": "R8",
+       "concepto": "Tolerancia de frecuencia: desviación entre la frecuencia asignada y el centro de la banda ocupada",
+       "peso": 1,
+       "estudio": [
+        "1·2·18"
+       ],
+       "libro": [
+        "F-R8.82"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-131-1",
+       "cid": "R8-131",
+       "tema": "R8",
+       "concepto": "Potencia en 137 y 475 kHz: 1 W p.i.r.e. (475 kHz: 5 W a más de 800 km de África)",
+       "peso": 1,
+       "estudio": [
+        "13·2·21"
+       ],
+       "libro": [
+        "F-R8.100"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-148-1",
+       "cid": "R8-148",
+       "tema": "R8",
+       "concepto": "Identificación con licencia CEPT: prefijo del país visitado (y opcionalmente distrito) + distintivo propio",
+       "peso": 2,
+       "estudio": [
+        "4·2·21"
+       ],
+       "libro": [
+        "R8.85"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-15-1",
+       "cid": "R8-15",
+       "tema": "R8",
+       "concepto": "Naturaleza de la autorización: individual, personal e intransferible, revocable",
+       "peso": 3,
+       "estudio": [
+        "5·2·21"
+       ],
+       "libro": [
+        "C-R8.28"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-25-1",
+       "cid": "R8-25",
+       "tema": "R8",
+       "concepto": "No es obligatorio disponer de estación fija",
+       "peso": 1,
+       "estudio": [
+        "10·2·23"
+       ],
+       "libro": [
+        "R8.54"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-41-1",
+       "cid": "R8-41",
+       "tema": "R8",
+       "concepto": "Definición de estación fija: ubicación fija consignada en la licencia",
+       "peso": 2,
+       "estudio": [
+        "7·2·23"
+       ],
+       "libro": [
+        "C-R8.39"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-42-1",
+       "cid": "R8-42",
+       "tema": "R8",
+       "concepto": "Solicitud de licencia de estación fija: con memoria descriptiva de la instalación",
+       "peso": 2,
+       "estudio": [
+        "10·2·26"
+       ],
+       "libro": [
+        "C-R8.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-57-1",
+       "cid": "R8-57",
+       "tema": "R8",
+       "concepto": "Derechos del predio sirviente (art. 545 CC): la comunidad decide por mayoría simple",
+       "peso": 1,
+       "estudio": [
+        "1·2·24"
+       ],
+       "libro": [
+        "F-R8.19"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-96-1",
+       "cid": "R8-96",
+       "tema": "R8",
+       "concepto": "Repetidor: su objetivo es ampliar el alcance de las comunicaciones",
+       "peso": 1,
+       "estudio": [
+        "13·2·27"
+       ],
+       "libro": [
+        "R8.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-99-1",
+       "cid": "R8-99",
+       "tema": "R8",
+       "concepto": "Potencia de las desatendidas: VHF/UHF 10 W en casco urbano y 50 W fuera; HF 50 W",
+       "peso": 2,
+       "estudio": [
+        "2·2·28"
+       ],
+       "libro": [
+        "R8.36"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-06-1",
+       "cid": "R9-06",
+       "tema": "R9",
+       "concepto": "Ley 11/2022: art. 106 muy graves, 107 graves, 108 leves",
+       "peso": 2,
+       "estudio": [
+        "5·2·28"
+       ],
+       "libro": [
+        "C-R9.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-25-1",
+       "cid": "R9-25",
+       "tema": "R9",
+       "concepto": "Sanciones accesorias: cese, ajuste, precintado o incautación de equipos, clausura",
+       "peso": 2,
+       "estudio": [
+        "7·2·29"
+       ],
+       "libro": [
+        "R9.17"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-17-1",
+       "cid": "T2-17",
+       "tema": "T2",
+       "concepto": "C = εS/d: la capacidad depende de la superficie, la separación y el dieléctrico",
+       "peso": 2,
+       "estudio": [
+        "6·1·6"
+       ],
+       "libro": [
+        "T2.50"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-61-1",
+       "cid": "T2-61",
+       "tema": "T2",
+       "concepto": "El diodo deja pasar la corriente en un solo sentido",
+       "peso": 3,
+       "estudio": [
+        "12·1·9"
+       ],
+       "libro": [
+        "T2.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-83-1",
+       "cid": "T2-83",
+       "tema": "T2",
+       "concepto": "Electrodos de la válvula diodo (cátodo y placa) y del tríodo (+ rejilla)",
+       "peso": 2,
+       "estudio": [
+        "2·1·8"
+       ],
+       "libro": [
+        "C-T2.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-94-1",
+       "cid": "T2-94",
+       "tema": "T2",
+       "concepto": "Símbolos de resistencia, condensador, bobina y diodo",
+       "peso": 2,
+       "estudio": [
+        "4·1·9"
+       ],
+       "libro": [
+        "C-T2.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-13-1",
+       "cid": "T3-13",
+       "tema": "T3",
+       "concepto": "Condición de resonancia: XL = XC, las reactancias se cancelan y el circuito es puramente resistivo",
+       "peso": 3,
+       "estudio": [
+        "7·1·10"
+       ],
+       "libro": [
+        "T3.52"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-17-1",
+       "cid": "T3-17",
+       "tema": "T3",
+       "concepto": "Resonancia serie (Z mínima) frente a paralelo o tanque (Z máxima); LC serie en derivación = trampa",
+       "peso": 3,
+       "estudio": [
+        "9·1·9"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-22-1",
+       "cid": "T3-22",
+       "tema": "T3",
+       "concepto": "Filtro RC: fc = 1/(2πRC)",
+       "peso": 2,
+       "estudio": [
+        "4·1·11"
+       ],
+       "libro": [
+        "F-T3.46"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-45-1",
+       "cid": "T3-45",
+       "tema": "T3",
+       "concepto": "Regulador: mantiene constante la tensión de salida aunque varíen la carga y la red",
+       "peso": 2,
+       "estudio": [
+        "2·1·11"
+       ],
+       "libro": [
+        "T3.32"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-70-1",
+       "cid": "T3-70",
+       "tema": "T3",
+       "concepto": "Ganancia de tensión en decibelios: 20·log(V2/V1)",
+       "peso": 2,
+       "estudio": [
+        "3·1·12"
+       ],
+       "libro": [
+        "F-T3.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-01-1",
+       "cid": "T4-01",
+       "tema": "T4",
+       "concepto": "Superheterodino: la FI es una frecuencia fija, presente a la salida del mezclador (de ahí el nombre)",
+       "peso": 3,
+       "estudio": [
+        "10·1·15"
+       ],
+       "libro": [
+        "T4.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-09-1",
+       "cid": "T4-09",
+       "tema": "T4",
+       "concepto": "Conversión directa: el OL a la frecuencia de la señal y el mezclador da directamente audio, sin FI",
+       "peso": 2,
+       "estudio": [
+        "1·1·16"
+       ],
+       "libro": [
+        "T4.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-35-1",
+       "cid": "T4-35",
+       "tema": "T4",
+       "concepto": "Modulación cruzada: la modulación de una señal fuerte se traslada a la sintonizada (no linealidad)",
+       "peso": 2,
+       "estudio": [
+        "6·1·16"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-02-1",
+       "cid": "T5-02",
+       "tema": "T5",
+       "concepto": "Orden de bloques del emisor: modulador → amplificación y traslación → final → red de acoplo",
+       "peso": 2,
+       "estudio": [
+        "7·1·17"
+       ],
+       "libro": [
+        "T5.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-32-1",
+       "cid": "T5-32",
+       "tema": "T5",
+       "concepto": "Impedancia de salida típica: 50 Ω",
+       "peso": 2,
+       "estudio": [
+        "8·1·18"
+       ],
+       "libro": [
+        "T5.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-36-1",
+       "cid": "T5-36",
+       "tema": "T5",
+       "concepto": "Potencia de portadora: media durante un ciclo de RF sin modulación",
+       "peso": 2,
+       "estudio": [
+        "3·1·19"
+       ],
+       "libro": [
+        "T5.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-21-1",
+       "cid": "T7-21",
+       "tema": "T7",
+       "concepto": "Ciclo solar: más manchas → más ionización, MUF más alta y bandas altas abiertas",
+       "peso": 2,
+       "estudio": [
+        "9·1·24"
+       ],
+       "libro": [
+        "F-T7.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-31-1",
+       "cid": "T7-31",
+       "tema": "T7",
+       "concepto": "El conducto troposférico se forma con una inversión térmica (aire cálido sobre aire frío)",
+       "peso": 2,
+       "estudio": [
+        "11·1·25"
+       ],
+       "libro": [
+        "F-T7.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-23-1",
+       "cid": "T9-23",
+       "tema": "T9",
+       "concepto": "Filtro de red (de línea de desacoplo) en la alimentación",
+       "peso": 2,
+       "estudio": [
+        "1·1·27"
+       ],
+       "libro": [
+        "T9.7"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-09-1",
+       "cid": "R1-09",
+       "tema": "R1",
+       "concepto": "Sufijos TOP y BOJ: T Tango, O Oscar, P Papa (no Pedro, Peter)",
+       "peso": 2,
+       "estudio": [
+        "5·2·1"
+       ],
+       "libro": [
+        "R1.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-06-1",
+       "cid": "R2-06",
+       "tema": "R2",
+       "concepto": "QRG frecuencia exacta frente a QRH su frecuencia varía",
+       "peso": 2,
+       "estudio": [
+        "1·2·2"
+       ],
+       "libro": [
+        "C-R2.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-27-1",
+       "cid": "R2-27",
+       "tema": "R2",
+       "concepto": "QTA anule el mensaje",
+       "peso": 1,
+       "estudio": [
+        "6·2·4"
+       ],
+       "libro": [
+        "R2.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-01-1",
+       "cid": "R3-01",
+       "tema": "R3",
+       "concepto": "CQ llamada general a todas las estaciones",
+       "peso": 3,
+       "estudio": [
+        "9·2·4"
+       ],
+       "libro": [
+        "R3.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-09-1",
+       "cid": "R3-09",
+       "tema": "R3",
+       "concepto": "RPT repita y AGN de nuevo",
+       "peso": 2,
+       "estudio": [
+        "7·2·4"
+       ],
+       "libro": [
+        "R3.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-24-1",
+       "cid": "R3-24",
+       "tema": "R3",
+       "concepto": "RIG equipo, ANT antena, PWR potencia",
+       "peso": 1,
+       "estudio": [
+        "1·2·6"
+       ],
+       "libro": [
+        "R3.25"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-25-1",
+       "cid": "R3-25",
+       "tema": "R3",
+       "concepto": "OP operador",
+       "peso": 1,
+       "estudio": [
+        "2·2·6"
+       ],
+       "libro": [
+        "R3.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-05-1",
+       "cid": "R4-05",
+       "tema": "R4",
+       "concepto": "Contenido del mensaje de socorro: identificación, posición, naturaleza del peligro (nunca «Sécurité»)",
+       "peso": 2,
+       "estudio": [
+        "4·2·8"
+       ],
+       "libro": [
+        "R4.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-29-1",
+       "cid": "R4-29",
+       "tema": "R4",
+       "concepto": "Aficionados por satélite: solo en las bandas atribuidas al efecto en el CNAF",
+       "peso": 1,
+       "estudio": [
+        "11·2·11"
+       ],
+       "libro": [
+        "F-R4.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-100-1",
+       "cid": "R8-100",
+       "tema": "R8",
+       "concepto": "Ganancia del sistema radiante de las desatendidas: ≤ 6 dBd",
+       "peso": 2,
+       "estudio": [
+        "10·2·18"
+       ],
+       "libro": [
+        "R8.38"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-105-1",
+       "cid": "R8-105",
+       "tema": "R8",
+       "concepto": "Radiobaliza: información solo de su posición y condiciones de funcionamiento",
+       "peso": 1,
+       "estudio": [
+        "7·2·17"
+       ],
+       "libro": [
+        "F-R8.62"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-109-1",
+       "cid": "R8-109",
+       "tema": "R8",
+       "concepto": "Desatendida terminada: se aplica el procedimiento de la licencia de estación fija (art. 20)",
+       "peso": 1,
+       "estudio": [
+        "1·2·17"
+       ],
+       "libro": [
+        "F-R8.66"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-132-1",
+       "cid": "R8-132",
+       "tema": "R8",
+       "concepto": "Bandas con atribución secundaria: potencia ≤ 50 % de la tabla",
+       "peso": 2,
+       "estudio": [
+        "4·2·19"
+       ],
+       "libro": [
+        "F-R8.103"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-141-1",
+       "cid": "R8-141",
+       "tema": "R8",
+       "concepto": "Licencia CEPT: habilita temporalmente en los países T/R 61-01; no se concede «a través del HAREC»",
+       "peso": 2,
+       "estudio": [
+        "1·2·19"
+       ],
+       "libro": [
+        "C-R8.32"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-59-1",
+       "cid": "R8-59",
+       "tema": "R8",
+       "concepto": "Obras: desmontaje temporal sin indemnización; después se reinstala en condiciones similares",
+       "peso": 2,
+       "estudio": [
+        "9·2·27"
+       ],
+       "libro": [
+        "R8.75"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-70-1",
+       "cid": "R8-70",
+       "tema": "R8",
+       "concepto": "Autorización especial experimental: pedirla con al menos 1 mes de antelación",
+       "peso": 2,
+       "estudio": [
+        "7·2·27"
+       ],
+       "libro": [
+        "C-R8.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-73-1",
+       "cid": "R8-73",
+       "tema": "R8",
+       "concepto": "Bandas que requieren autorización especial: 2300–2450 MHz, 5650–5850 MHz y 24,050–24,250 GHz (con excepciones)",
+       "peso": 3,
+       "estudio": [
+        "12·2·25"
+       ],
+       "libro": [
+        "C-R8.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-83-1",
+       "cid": "R8-83",
+       "tema": "R8",
+       "concepto": "Asociación reconocida: por resolución de la SETSI, tras inscribirse en Interior y presentar estatutos",
+       "peso": 1,
+       "estudio": [
+        "4·2·26"
+       ],
+       "libro": [
+        "F-R8.48"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-87-1",
+       "cid": "R8-87",
+       "tema": "R8",
+       "concepto": "Noveles en estaciones colectivas: supervisor con ≥ 3 años de antigüedad",
+       "peso": 1,
+       "estudio": [
+        "10·2·27"
+       ],
+       "libro": [
+        "F-R8.69"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-89-1",
+       "cid": "R8-89",
+       "tema": "R8",
+       "concepto": "Noveles: potencia ≤ 40 % del máximo de la banda y nunca más de 100 W",
+       "peso": 1,
+       "estudio": [
+        "8·2·26"
+       ],
+       "libro": [
+        "F-R8.71"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-21-1",
+       "cid": "R9-21",
+       "tema": "R9",
+       "concepto": "Emitir fuera de las bandas autorizadas es infracción",
+       "peso": 1,
+       "estudio": [
+        "13·2·29"
+       ],
+       "libro": [
+        "R9.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-22-1",
+       "cid": "R9-22",
+       "tema": "R9",
+       "concepto": "Multas máximas: 20 M€ muy graves y 2 M€ graves",
+       "peso": 3,
+       "estudio": [
+        "13·2·30"
+       ],
+       "libro": [
+        "R9.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-23-1",
+       "cid": "R9-23",
+       "tema": "R9",
+       "concepto": "Multa máxima de las leves: 100 000 €",
+       "peso": 2,
+       "estudio": [
+        "4·2·30"
+       ],
+       "libro": [
+        "F-R9.1"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-03-1",
+       "cid": "T2-03",
+       "tema": "T2",
+       "concepto": "Código de colores: la cuarta banda es la tolerancia (oro ±5 %, plata ±10 %, marrón ±1 %)",
+       "peso": 2,
+       "estudio": [
+        "1·1·5"
+       ],
+       "libro": [
+        "T2.46"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-54-1",
+       "cid": "T2-54",
+       "tema": "T2",
+       "concepto": "Cálculo de la adaptación de impedancias: Z_p = (N_p/N_s)² Z_s (balun 4:1 = espiras 2:1)",
+       "peso": 2,
+       "estudio": [
+        "8·1·8"
+       ],
+       "libro": [
+        "F-T2.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-72-1",
+       "cid": "T2-72",
+       "tema": "T2",
+       "concepto": "Ganancia de corriente β = I_C/I_B",
+       "peso": 3,
+       "estudio": [
+        "3·1·8"
+       ],
+       "libro": [
+        "T2.32"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-85-1",
+       "cid": "T2-85",
+       "tema": "T2",
+       "concepto": "El nombre de la válvula cuenta electrodos: pentodo = cátodo, tres rejillas y placa",
+       "peso": 2,
+       "estudio": [
+        "1·1·9"
+       ],
+       "libro": [
+        "T2.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-03-1",
+       "cid": "T3-03",
+       "tema": "T3",
+       "concepto": "Resistencia equivalente: serie suma, paralelo menor que la menor (producto/suma; n iguales, R/n); circuitos mixtos",
+       "peso": 3,
+       "estudio": [
+        "6·1·10"
+       ],
+       "libro": [
+        "F-T3.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-11-1",
+       "cid": "T3-11",
+       "tema": "T3",
+       "concepto": "En VHF/UHF, terminales cortos (o SMD): la inductancia de las patas presenta reactancia apreciable",
+       "peso": 2,
+       "estudio": [
+        "10·1·11"
+       ],
+       "libro": [
+        "F-T3.42"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-21-1",
+       "cid": "T3-21",
+       "tema": "T3",
+       "concepto": "Frecuencia de corte: separa banda de paso y de atenuación; se toma a −3 dB",
+       "peso": 2,
+       "estudio": [
+        "11·1·10"
+       ],
+       "libro": [
+        "T3.41"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-76-1",
+       "cid": "T3-76",
+       "tema": "T3",
+       "concepto": "Discriminador de FM: convierte variaciones de frecuencia en variaciones de tensión (audio)",
+       "peso": 2,
+       "estudio": [
+        "8·1·13"
+       ],
+       "libro": [
+        "F-T3.15"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-93-1",
+       "cid": "T3-93",
+       "tema": "T3",
+       "concepto": "Mezclador (heterodinación): a la salida aparecen la suma y la diferencia f1 ± f2",
+       "peso": 3,
+       "estudio": [
+        "5·1·14"
+       ],
+       "libro": [
+        "T3.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-29-1",
+       "cid": "T4-29",
+       "tema": "T4",
+       "concepto": "El margen dinámico lo determina el primer mezclador",
+       "peso": 2,
+       "estudio": [
+        "2·1·16"
+       ],
+       "libro": [
+        "T4.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-38-1",
+       "cid": "T4-38",
+       "tema": "T4",
+       "concepto": "Silenciador (squelch): corta el audio cuando la señal no supera un umbral",
+       "peso": 3,
+       "estudio": [
+        "5·1·16"
+       ],
+       "libro": [
+        "T4.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-14-1",
+       "cid": "T5-14",
+       "tema": "T5",
+       "concepto": "Multiplicador de frecuencia: eleva la frecuencia del oscilador; en cascada, los factores se multiplican",
+       "peso": 2,
+       "estudio": [
+        "8·1·16"
+       ],
+       "libro": [
+        "T5.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-25-1",
+       "cid": "T5-25",
+       "tema": "T5",
+       "concepto": "Sobremodulación: índice > 100 %; distorsión y ensanchamiento de la emisión (splatter)",
+       "peso": 3,
+       "estudio": [
+        "8·1·17"
+       ],
+       "libro": [
+        "T5.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-35-1",
+       "cid": "T5-35",
+       "tema": "T5",
+       "concepto": "PEP: potencia de pico de envolvente",
+       "peso": 2,
+       "estudio": [
+        "10·1·18"
+       ],
+       "libro": [
+        "T5.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-07-1",
+       "cid": "T7-07",
+       "tema": "T7",
+       "concepto": "VHF y UHF: onda directa, distancias cortas",
+       "peso": 3,
+       "estudio": [
+        "10·1·23"
+       ],
+       "libro": [
+        "T7.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-24-1",
+       "cid": "T7-24",
+       "tema": "T7",
+       "concepto": "MUF ≈ fc / cos θ: mayor que la frecuencia crítica en incidencia oblicua",
+       "peso": 2,
+       "estudio": [
+        "12·1·24"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-42-1",
+       "cid": "T7-42",
+       "tema": "T7",
+       "concepto": "Rebote lunar (EME): VHF y superiores, sobre todo 144 MHz (ondas métricas)",
+       "peso": 2,
+       "estudio": [
+        "7·1·25"
+       ],
+       "libro": [
+        "C-T7.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-13-1",
+       "cid": "T9-13",
+       "tema": "T9",
+       "concepto": "Remedio del bloqueo y de la TVI: filtro en la entrada del equipo afectado (problema de inmunidad)",
+       "peso": 2,
+       "estudio": [
+        "11·1·28"
+       ],
+       "libro": [
+        "T9.17"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-11-1",
+       "cid": "R1-11",
+       "tema": "R1",
+       "concepto": "H Hotel y K Kilo",
+       "peso": 2,
+       "estudio": [
+        "11·2·2"
+       ],
+       "libro": [
+        "R1.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-09-1",
+       "cid": "R2-09",
+       "tema": "R2",
+       "concepto": "QRL: estoy ocupado / ¿está ocupada la frecuencia?",
+       "peso": 3,
+       "estudio": [
+        "7·2·2"
+       ],
+       "libro": [
+        "C-R2.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-20-1",
+       "cid": "R2-20",
+       "tema": "R2",
+       "concepto": "QSK puedo oírle entre mis señales (break-in)",
+       "peso": 1,
+       "estudio": [
+        "13·2·4"
+       ],
+       "libro": [
+        "R2.19"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-04-1",
+       "cid": "R3-04",
+       "tema": "R3",
+       "concepto": "SK fin del contacto",
+       "peso": 2,
+       "estudio": [
+        "2·2·4"
+       ],
+       "libro": [
+        "R3.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-23-1",
+       "cid": "R3-23",
+       "tema": "R3",
+       "concepto": "UR su (your)",
+       "peso": 1,
+       "estudio": [
+        "10·2·7"
+       ],
+       "libro": [
+        "R3.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-29-1",
+       "cid": "R3-29",
+       "tema": "R3",
+       "concepto": "ABT aproximadamente y VY muy",
+       "peso": 1,
+       "estudio": [
+        "4·2·5"
+       ],
+       "libro": [
+        "R3.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-41-1",
+       "cid": "R3-41",
+       "tema": "R3",
+       "concepto": "Trabajar en split: emitir en una frecuencia y recibir en otra",
+       "peso": 2,
+       "estudio": [
+        "1·2·7"
+       ],
+       "libro": [
+        "C-R3.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-15-1",
+       "cid": "R4-15",
+       "tema": "R4",
+       "concepto": "Tras emitir un socorro: escuchar en la misma frecuencia",
+       "peso": 1,
+       "estudio": [
+        "5·2·9"
+       ],
+       "libro": [
+        "R4.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-19-1",
+       "cid": "R4-19",
+       "tema": "R4",
+       "concepto": "Colaboración obligatoria en catástrofes a requerimiento de la DG de Protección Civil y Emergencias (art. 30.4)",
+       "peso": 2,
+       "estudio": [
+        "9·2·8"
+       ],
+       "libro": [
+        "F-R4.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-23-1",
+       "cid": "R4-23",
+       "tema": "R4",
+       "concepto": "Banda de 10 m: 28–29,7 MHz",
+       "peso": 1,
+       "estudio": [
+        "2·2·10"
+       ],
+       "libro": [
+        "F-R4.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-107-1",
+       "cid": "R8-107",
+       "tema": "R8",
+       "concepto": "Radiobalizas en las bandas de aficionado (p. ej., 144–146 MHz)",
+       "peso": 1,
+       "estudio": [
+        "8·2·17"
+       ],
+       "libro": [
+        "R8.42"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-110-1",
+       "cid": "R8-110",
+       "tema": "R8",
+       "concepto": "Desatendida: interrupción > 3 meses puede llevar a cancelar su licencia",
+       "peso": 1,
+       "estudio": [
+        "8·2·19"
+       ],
+       "libro": [
+        "F-R8.60"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-126-1",
+       "cid": "R8-126",
+       "tema": "R8",
+       "concepto": "Modulaciones permitidas: dentro de las bandas y con anchos de banda del plan IARU Región 1",
+       "peso": 1,
+       "estudio": [
+        "2·2·17"
+       ],
+       "libro": [
+        "F-R8.93"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-127-1",
+       "cid": "R8-127",
+       "tema": "R8",
+       "concepto": "Modulaciones digitales autorizadas: con señales de audio, datos o vídeo",
+       "peso": 1,
+       "estudio": [
+        "2·2·18"
+       ],
+       "libro": [
+        "F-R8.94"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-13-1",
+       "cid": "R8-13",
+       "tema": "R8",
+       "concepto": "La autorización de radioaficionado la otorga la SETSI (hoy SETID)",
+       "peso": 2,
+       "estudio": [
+        "8·2·21"
+       ],
+       "libro": [
+        "C-R8.38"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-150-1",
+       "cid": "R8-150",
+       "tema": "R8",
+       "concepto": "Extranjero residente: autorización sin examen con HAREC de un país T/R 61-02 o por reciprocidad (residencia acreditada)",
+       "peso": 3,
+       "estudio": [
+        "3·2·18",
+        "11·2·19"
+       ],
+       "libro": [
+        "C-R8.20",
+        "C-R8.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-17-1",
+       "cid": "R8-17",
+       "tema": "R8",
+       "concepto": "La autorización habilita a emitir en las bandas y con las características técnicas del servicio de aficionados",
+       "peso": 2,
+       "estudio": [
+        "13·2·22"
+       ],
+       "libro": [
+        "R8.60"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-30-1",
+       "cid": "R8-30",
+       "tema": "R8",
+       "concepto": "Uso de una estación ajena: con permiso del titular, identificándose con el distintivo propio",
+       "peso": 2,
+       "estudio": [
+        "9·2·24"
+       ],
+       "libro": [
+        "R8.70"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-65-1",
+       "cid": "R8-65",
+       "tema": "R8",
+       "concepto": "Altura libre mínima de 3 m sobre el plano de paso",
+       "peso": 2,
+       "estudio": [
+        "11·2·23"
+       ],
+       "libro": [
+        "F-R8.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-79-1",
+       "cid": "R8-79",
+       "tema": "R8",
+       "concepto": "Estación fija remota: accionada a distancia",
+       "peso": 1,
+       "estudio": [
+        "3·2·24"
+       ],
+       "libro": [
+        "R8.68"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-80-1",
+       "cid": "R8-80",
+       "tema": "R8",
+       "concepto": "Estación digital: emite con técnicas digitales",
+       "peso": 1,
+       "estudio": [
+        "2·2·27"
+       ],
+       "libro": [
+        "R8.87"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-10-1",
+       "cid": "R9-10",
+       "tema": "R9",
+       "concepto": "Muy grave: no atender el requerimiento de cese de emisiones",
+       "peso": 2,
+       "estudio": [
+        "13·2·28"
+       ],
+       "libro": [
+        "R9.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-20-1",
+       "cid": "R9-20",
+       "tema": "R9",
+       "concepto": "No es infracción no llevar libro de registro (no existe la obligación)",
+       "peso": 2,
+       "estudio": [
+        "9·2·30"
+       ],
+       "libro": [
+        "R9.28"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-27-1",
+       "cid": "R9-27",
+       "tema": "R9",
+       "concepto": "El expediente se tramita por la LGT y el procedimiento administrativo común",
+       "peso": 1,
+       "estudio": [
+        "1·2·30"
+       ],
+       "libro": [
+        "R9.19"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-02-1",
+       "cid": "T2-02",
+       "tema": "T2",
+       "concepto": "Código de colores: leer el valor de una resistencia de cuatro bandas (cifras + multiplicador)",
+       "peso": 3,
+       "estudio": [
+        "5·1·5"
+       ],
+       "libro": [
+        "C-T2.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-34-1",
+       "cid": "T2-34",
+       "tema": "T2",
+       "concepto": "Descarga segura de un condensador a través de un elemento exterior",
+       "peso": 2,
+       "estudio": [
+        "4·1·6"
+       ],
+       "libro": [
+        "T2.59"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-39-2",
+       "cid": "T2-39",
+       "tema": "T2",
+       "concepto": "La reactancia inductiva X_L = 2πfL crece con la frecuencia y es nula en continua",
+       "peso": 3,
+       "estudio": [
+        "1·1·7",
+        "8·1·6"
+       ],
+       "libro": [
+        "T2.16",
+        "F-T2.6"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-T2-43-1",
+       "cid": "T2-43",
+       "tema": "T2",
+       "concepto": "Efecto pelicular: en RF la corriente va por la superficie y la resistencia efectiva aumenta",
+       "peso": 2,
+       "estudio": [
+        "9·1·5"
+       ],
+       "libro": [
+        "F-T2.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-84-1",
+       "cid": "T2-84",
+       "tema": "T2",
+       "concepto": "Emisión termoiónica: el cátodo caliente emite y la válvula conduce solo con la placa positiva",
+       "peso": 2,
+       "estudio": [
+        "9·1·8"
+       ],
+       "libro": [
+        "T2.28"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-10-1",
+       "cid": "T3-10",
+       "tema": "T3",
+       "concepto": "Bobina real: la capacidad entre espiras la hace autorresonar; por encima se comporta como un condensador",
+       "peso": 2,
+       "estudio": [
+        "6·1·11"
+       ],
+       "libro": [
+        "F-T3.41"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-14-1",
+       "cid": "T3-14",
+       "tema": "T3",
+       "concepto": "Frecuencia de resonancia f0 = 1/(2π√(LC)): cálculo y dependencia con L y C",
+       "peso": 3,
+       "estudio": [
+        "12·1·11"
+       ],
+       "libro": [
+        "F-T3.43"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-55-1",
+       "cid": "T3-55",
+       "tema": "T3",
+       "concepto": "Amplificar sin distorsión: trabajar en la parte lineal de la característica",
+       "peso": 2,
+       "estudio": [
+        "2·1·12"
+       ],
+       "libro": [
+        "C-T3.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-82-1",
+       "cid": "T3-82",
+       "tema": "T3",
+       "concepto": "Condición de oscilación (Barkhausen): realimentación positiva, ganancia de lazo que compensa pérdidas y fase de 360°",
+       "peso": 2,
+       "estudio": [
+        "9·1·13"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-91-1",
+       "cid": "T3-91",
+       "tema": "T3",
+       "concepto": "Ruido de fase: fluctuaciones aleatorias de fase que crean faldones de ruido a ambos lados de la portadora (en TX, molestan a canales vecinos)",
+       "peso": 2,
+       "estudio": [
+        "1·1·14"
+       ],
+       "libro": [
+        "F-T3.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-06-1",
+       "cid": "T4-06",
+       "tema": "T4",
+       "concepto": "Frecuencia imagen: defecto del receptor superheterodino, situada a 2·FI de la sintonizada",
+       "peso": 3,
+       "estudio": [
+        "1·1·15"
+       ],
+       "libro": [
+        "F-T4.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-14-1",
+       "cid": "T4-14",
+       "tema": "T4",
+       "concepto": "Pasar de USB a LSB cambia la frecuencia del BFO (batido), no el ancho de banda ni la clase de emisión",
+       "peso": 2,
+       "estudio": [
+        "8·1·14"
+       ],
+       "libro": [
+        "C-T4.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-01-1",
+       "cid": "T5-01",
+       "tema": "T5",
+       "concepto": "Funciones mínimas de un transmisor: generar, modular y amplificar",
+       "peso": 2,
+       "estudio": [
+        "11·1·16"
+       ],
+       "libro": [
+        "C-T5.29"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-13-1",
+       "cid": "T5-13",
+       "tema": "T5",
+       "concepto": "Etapa separadora: aísla el oscilador de las variaciones de carga",
+       "peso": 2,
+       "estudio": [
+        "7·1·18"
+       ],
+       "libro": [
+        "T5.25"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-19-1",
+       "cid": "T7-19",
+       "tema": "T7",
+       "concepto": "La capa D absorbe de día las bandas bajas (3,5 MHz: de día menos alcance que de noche)",
+       "peso": 3,
+       "estudio": [
+        "8·1·25"
+       ],
+       "libro": [
+        "T7.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-20-1",
+       "cid": "T7-20",
+       "tema": "T7",
+       "concepto": "La ionosfera depende de la actividad solar y de ella dependen las condiciones en HF",
+       "peso": 2,
+       "estudio": [
+        "1·1·23"
+       ],
+       "libro": [
+        "T7.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-26-1",
+       "cid": "T7-26",
+       "tema": "T7",
+       "concepto": "Onda espacial (de espacio): la que rebasa el horizonte, sube a la ionosfera y vuelve",
+       "peso": 2,
+       "estudio": [
+        "11·1·24"
+       ],
+       "libro": [
+        "C-T7.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-19-1",
+       "cid": "T9-19",
+       "tema": "T9",
+       "concepto": "Cable blindado para los altavoces",
+       "peso": 2,
+       "estudio": [
+        "13·1·28"
+       ],
+       "libro": [
+        "C-T9.3"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-08-1",
+       "cid": "R1-08",
+       "tema": "R1",
+       "concepto": "Sufijo CID: C Charlie, I India (no «Italia»), D Delta (no «Dog»)",
+       "peso": 2,
+       "estudio": [
+        "4·2·1"
+       ],
+       "libro": [
+        "R1.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-04-1",
+       "cid": "R2-04",
+       "tema": "R2",
+       "concepto": "QRT cese la transmisión frente a QRX espere, volveré a llamar",
+       "peso": 3,
+       "estudio": [
+        "5·2·3",
+        "9·2·1"
+       ],
+       "libro": [
+        "R2.9",
+        "R2.32"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-07-2",
+       "cid": "R2-07",
+       "tema": "R2",
+       "concepto": "QRK inteligibilidad, QSA intensidad, QRI tono (las tres valoraciones de la señal)",
+       "peso": 3,
+       "estudio": [
+        "6·2·3",
+        "12·2·2"
+       ],
+       "libro": [
+        "C-R2.1",
+        "R2.24"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R2-24-1",
+       "cid": "R2-24",
+       "tema": "R2",
+       "concepto": "QSD manipulación defectuosa",
+       "peso": 1,
+       "estudio": [
+        "10·2·3"
+       ],
+       "libro": [
+        "R2.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-19-1",
+       "cid": "R3-19",
+       "tema": "R3",
+       "concepto": "73 saludos cordiales y 88 besos",
+       "peso": 2,
+       "estudio": [
+        "12·2·5"
+       ],
+       "libro": [
+        "R3.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-33-1",
+       "cid": "R3-33",
+       "tema": "R3",
+       "concepto": "CUL hasta luego (see you later)",
+       "peso": 1,
+       "estudio": [
+        "8·2·6"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-40-1",
+       "cid": "R3-40",
+       "tema": "R3",
+       "concepto": "NR número",
+       "peso": 1,
+       "estudio": [
+        "4·2·7"
+       ],
+       "libro": [
+        "C-R3.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-14-1",
+       "cid": "R4-14",
+       "tema": "R4",
+       "concepto": "Al oír un socorro: silencio, escucha y auxilio si es posible",
+       "peso": 2,
+       "estudio": [
+        "8·2·8"
+       ],
+       "libro": [
+        "R4.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-22-1",
+       "cid": "R4-22",
+       "tema": "R4",
+       "concepto": "Banda de 40 m en la Región 1: 7000–7200 kHz",
+       "peso": 2,
+       "estudio": [
+        "8·2·9"
+       ],
+       "libro": [
+        "F-R4.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-27-1",
+       "cid": "R4-27",
+       "tema": "R4",
+       "concepto": "Banda de 23 cm: 1240–1300 MHz",
+       "peso": 1,
+       "estudio": [
+        "4·2·9"
+       ],
+       "libro": [
+        "F-R4.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-01-1",
+       "cid": "R8-01",
+       "tema": "R8",
+       "concepto": "Marco: competencia exclusiva del Estado en telecomunicaciones (art. 149.1.21.ª CE)",
+       "peso": 1,
+       "estudio": [
+        "10·2·17"
+       ],
+       "libro": [
+        "R8.55"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-02-1",
+       "cid": "R8-02",
+       "tema": "R8",
+       "concepto": "Ley General de Telecomunicaciones vigente: Ley 11/2022",
+       "peso": 1,
+       "estudio": [
+        "3·2·16"
+       ],
+       "libro": [
+        "F-R8.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-03-1",
+       "cid": "R8-03",
+       "tema": "R8",
+       "concepto": "RD 123/2017: Reglamento sobre el uso del dominio público radioeléctrico",
+       "peso": 1,
+       "estudio": [
+        "6·2·17"
+       ],
+       "libro": [
+        "F-R8.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-123-1",
+       "cid": "R8-123",
+       "tema": "R8",
+       "concepto": "p.i.r.e. (referencia isótropa) frente a p.r.a. (referencia dipolo)",
+       "peso": 2,
+       "estudio": [
+        "10·2·20"
+       ],
+       "libro": [
+        "F-R8.88"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-129-1",
+       "cid": "R8-129",
+       "tema": "R8",
+       "concepto": "Potencia máxima en 50, 70 y 144 MHz (600 W p.c.e.) y en 430–440 MHz (300 W p.c.e.)",
+       "peso": 2,
+       "estudio": [
+        "8·2·20"
+       ],
+       "libro": [
+        "F-R8.98"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-19-1",
+       "cid": "R8-19",
+       "tema": "R8",
+       "concepto": "Recursos contra las resoluciones: reposición en 1 mes o contencioso ante la Audiencia Nacional en 2 meses",
+       "peso": 1,
+       "estudio": [
+        "4·2·22"
+       ],
+       "libro": [
+        "F-R8.20"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-23-1",
+       "cid": "R8-23",
+       "tema": "R8",
+       "concepto": "Autorización en formato bilingüe si lo pide el interesado (lengua cooficial)",
+       "peso": 1,
+       "estudio": [
+        "11·2·21"
+       ],
+       "libro": [
+        "R8.57"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-40-1",
+       "cid": "R8-40",
+       "tema": "R8",
+       "concepto": "Estación fija: precisa licencia, asociada a la autorización de radioaficionado de su titular",
+       "peso": 3,
+       "estudio": [
+        "1·2·23"
+       ],
+       "libro": [
+        "C-R8.41"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-58-1",
+       "cid": "R8-58",
+       "tema": "R8",
+       "concepto": "Obras en el inmueble: aviso al titular con 1 mes de antelación",
+       "peso": 2,
+       "estudio": [
+        "1·2·25"
+       ],
+       "libro": [
+        "R8.74"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-86-1",
+       "cid": "R8-86",
+       "tema": "R8",
+       "concepto": "Varias desatendidas en una autorización: misma modulación, titularidad y ubicación",
+       "peso": 1,
+       "estudio": [
+        "11·2·26"
+       ],
+       "libro": [
+        "F-R8.52"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-94-1",
+       "cid": "R8-94",
+       "tema": "R8",
+       "concepto": "Número de desatendidas: según las necesidades del servicio (cobertura y canales)",
+       "peso": 2,
+       "estudio": [
+        "8·2·27"
+       ],
+       "libro": [
+        "C-R8.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-03-1",
+       "cid": "R9-03",
+       "tema": "R9",
+       "concepto": "Los inspectores tienen la consideración de autoridad pública",
+       "peso": 1,
+       "estudio": [
+        "6·2·28"
+       ],
+       "libro": [
+        "R9.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-09-1",
+       "cid": "R9-09",
+       "tema": "R9",
+       "concepto": "Muy grave: la producción deliberada de interferencias",
+       "peso": 2,
+       "estudio": [
+        "1·2·28"
+       ],
+       "libro": [
+        "F-R9.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-24-2",
+       "cid": "R9-24",
+       "tema": "R9",
+       "concepto": "Prescripción: 3 años muy graves, 2 graves, 1 leves",
+       "peso": 3,
+       "estudio": [
+        "3·2·29",
+        "11·2·30"
+       ],
+       "libro": [
+        "R9.6",
+        "R9.10"
+       ],
+       "variante": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-15-1",
+       "cid": "T2-15",
+       "tema": "T2",
+       "concepto": "Capacidad: C = Q/V; el condensador almacena carga eléctrica",
+       "peso": 2,
+       "estudio": [
+        "3·1·6"
+       ],
+       "libro": [
+        "C-T2.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-63-1",
+       "cid": "T2-63",
+       "tema": "T2",
+       "concepto": "Tensión de conducción en directa de un diodo de silicio: 0,6–0,7 V",
+       "peso": 2,
+       "estudio": [
+        "7·1·7"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-74-1",
+       "cid": "T2-74",
+       "tema": "T2",
+       "concepto": "Polarización: en el NPN el colector es positivo; en el PNP, negativo",
+       "peso": 2,
+       "estudio": [
+        "13·1·9"
+       ],
+       "libro": [
+        "T2.48"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-80-1",
+       "cid": "T2-80",
+       "tema": "T2",
+       "concepto": "Ventaja del FET: impedancia de entrada muy alta",
+       "peso": 3,
+       "estudio": [
+        "9·1·7"
+       ],
+       "libro": [
+        "C-T2.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-15-1",
+       "cid": "T3-15",
+       "tema": "T3",
+       "concepto": "Factor de calidad Q: mide la selectividad; Q = f0/B",
+       "peso": 3,
+       "estudio": [
+        "1·1·11"
+       ],
+       "libro": [
+        "C-T3.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-34-1",
+       "cid": "T3-34",
+       "tema": "T3",
+       "concepto": "Filtro digital (DSP): opera con muestras numéricas; cadena A/D → cálculo en el DSP → D/A",
+       "peso": 2,
+       "estudio": [
+        "9·1·10"
+       ],
+       "libro": [
+        "F-T3.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-49-1",
+       "cid": "T3-49",
+       "tema": "T3",
+       "concepto": "Condensadores de desacoplo: absorben los transitorios de la alimentación",
+       "peso": 2,
+       "estudio": [
+        "10·1·12"
+       ],
+       "libro": [
+        "T3.51"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-58-1",
+       "cid": "T3-58",
+       "tema": "T3",
+       "concepto": "Linealidad frente a rendimiento: clase A mínima distorsión; clase C mayor rendimiento",
+       "peso": 3,
+       "estudio": [
+        "8·1·12"
+       ],
+       "libro": [
+        "T3.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-81-1",
+       "cid": "T3-81",
+       "tema": "T3",
+       "concepto": "Oscilador: convierte la corriente continua en alterna",
+       "peso": 2,
+       "estudio": [
+        "3·1·13"
+       ],
+       "libro": [
+        "T3.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-11-1",
+       "cid": "T4-11",
+       "tema": "T4",
+       "concepto": "Receptor de FM: tras la FI, limitador y después discriminador (en AM, detector de envolvente)",
+       "peso": 2,
+       "estudio": [
+        "5·1·15"
+       ],
+       "libro": [
+        "F-T4.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-18-1",
+       "cid": "T4-18",
+       "tema": "T4",
+       "concepto": "Selectividad: separar señales próximas en frecuencia (curva más estrecha = más selectivo)",
+       "peso": 3,
+       "estudio": [
+        "2·1·14"
+       ],
+       "libro": [
+        "T4.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-33-1",
+       "cid": "T4-33",
+       "tema": "T4",
+       "concepto": "Intermodulación de tercer orden: productos en 2f1 − f2 y 2f2 − f1, dentro de banda",
+       "peso": 2,
+       "estudio": [
+        "9·1·15"
+       ],
+       "libro": [
+        "F-T4.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-43-1",
+       "cid": "T5-43",
+       "tema": "T5",
+       "concepto": "Filtro de salida (paso bajo) y red de acoplo entre el final y la antena: eliminan armónicos y adaptan",
+       "peso": 3,
+       "estudio": [
+        "11·1·18"
+       ],
+       "libro": [
+        "T5.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-64-1",
+       "cid": "T5-64",
+       "tema": "T5",
+       "concepto": "Repetidor: recibe en una frecuencia y retransmite a la vez en otra",
+       "peso": 2,
+       "estudio": [
+        "2·1·18"
+       ],
+       "libro": [
+        "F-T5.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-15-1",
+       "cid": "T7-15",
+       "tema": "T7",
+       "concepto": "Difracción: la onda bordea un obstáculo",
+       "peso": 2,
+       "estudio": [
+        "8·1·24"
+       ],
+       "libro": [
+        "T7.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-23-1",
+       "cid": "T7-23",
+       "tema": "T7",
+       "concepto": "Frecuencia crítica: la máxima que se refleja en incidencia vertical",
+       "peso": 3,
+       "estudio": [
+        "9·1·25"
+       ],
+       "libro": [
+        "T7.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-27-1",
+       "cid": "T7-27",
+       "tema": "T7",
+       "concepto": "Zona de silencio: entre el final de la onda de superficie y la primera onda reflejada",
+       "peso": 2,
+       "estudio": [
+        "7·1·24"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-05-1",
+       "cid": "T9-05",
+       "tema": "T9",
+       "concepto": "A más potencia, más riesgo de interferencia: usar la mínima potencia necesaria",
+       "peso": 2,
+       "estudio": [
+        "2·1·28"
+       ],
+       "libro": [
+        "T9.19"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-17-1",
+       "cid": "T9-17",
+       "tema": "T9",
+       "concepto": "Detección en circuitos de audio: una unión semiconductora rectifica la RF y recupera la envolvente",
+       "peso": 2,
+       "estudio": [
+        "13·1·27"
+       ],
+       "libro": [],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-07-1",
+       "cid": "R1-07",
+       "tema": "R1",
+       "concepto": "U Uniform y Z Zulu frente a palabras de alfabetos antiguos (Uncle, Zebra, Coca, Dog, Able)",
+       "peso": 2,
+       "estudio": [
+        "11·2·1"
+       ],
+       "libro": [
+        "R1.40"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-13-2",
+       "cid": "R2-13",
+       "tema": "R2",
+       "concepto": "QSL acuse de recibo frente a QSO comunicado entre dos estaciones",
+       "peso": 3,
+       "estudio": [
+        "8·2·3",
+        "12·2·3"
+       ],
+       "libro": [
+        "R2.31",
+        "R2.30"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R2-16-1",
+       "cid": "R2-16",
+       "tema": "R2",
+       "concepto": "QRA nombre de la estación (no la posición)",
+       "peso": 2,
+       "estudio": [
+        "2·2·3"
+       ],
+       "libro": [
+        "C-R2.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-18-1",
+       "cid": "R2-18",
+       "tema": "R2",
+       "concepto": "QTC tengo mensajes para transmitir",
+       "peso": 1,
+       "estudio": [
+        "1·2·3"
+       ],
+       "libro": [
+        "R2.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-15-1",
+       "cid": "R3-15",
+       "tema": "R3",
+       "concepto": "La T (tono) solo se da en telegrafía: 59 en fonía, 599 en CW",
+       "peso": 2,
+       "estudio": [
+        "11·2·6"
+       ],
+       "libro": [
+        "F-R3.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-28-1",
+       "cid": "R3-28",
+       "tema": "R3",
+       "concepto": "CFM confirmo",
+       "peso": 1,
+       "estudio": [
+        "7·2·7"
+       ],
+       "libro": [
+        "R3.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-43-1",
+       "cid": "R3-43",
+       "tema": "R3",
+       "concepto": "SWL radioescucha (short wave listener)",
+       "peso": 1,
+       "estudio": [
+        "13·2·7"
+       ],
+       "libro": [
+        "F-R3.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-25-1",
+       "cid": "R4-25",
+       "tema": "R4",
+       "concepto": "Banda de 2 m en la Región 1: 144–146 MHz",
+       "peso": 2,
+       "estudio": [
+        "13·2·9"
+       ],
+       "libro": [
+        "F-R4.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-30-1",
+       "cid": "R4-30",
+       "tema": "R4",
+       "concepto": "Segmento de satélites en 70 cm: 435–438 MHz",
+       "peso": 1,
+       "estudio": [
+        "9·2·9"
+       ],
+       "libro": [
+        "F-R4.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-07-1",
+       "cid": "R8-07",
+       "tema": "R8",
+       "concepto": "Orden IET/1311/2013: entrada en vigor el día siguiente a su publicación",
+       "peso": 1,
+       "estudio": [
+        "5·2·17"
+       ],
+       "libro": [
+        "F-R8.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-11-1",
+       "cid": "R8-11",
+       "tema": "R8",
+       "concepto": "Ley 19/1983 («Ley de antenas»): derecho a instalar antenas de aficionado en el exterior de los inmuebles",
+       "peso": 3,
+       "estudio": [
+        "13·2·19"
+       ],
+       "libro": [
+        "R8.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-146-1",
+       "cid": "R8-146",
+       "tema": "R8",
+       "concepto": "Licencia CEPT: sin protección contra interferencias perjudiciales",
+       "peso": 2,
+       "estudio": [
+        "6·2·23"
+       ],
+       "libro": [
+        "R8.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-149-1",
+       "cid": "R8-149",
+       "tema": "R8",
+       "concepto": "Licencia CEPT de otro país en España: equiparada, solo para no residentes en estancias temporales",
+       "peso": 2,
+       "estudio": [
+        "1·2·20"
+       ],
+       "libro": [
+        "F-R8.32"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-33-1",
+       "cid": "R8-33",
+       "tema": "R8",
+       "concepto": "Equipos de construcción propia: sin autorización previa, bajo la responsabilidad del titular (régimen sancionador si interfieren)",
+       "peso": 2,
+       "estudio": [
+        "6·2·26"
+       ],
+       "libro": [
+        "R8.25"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-53-1",
+       "cid": "R8-53",
+       "tema": "R8",
+       "concepto": "Permisos de servidumbres, medio ambiente, etc.: por cuenta y a cargo del solicitante",
+       "peso": 1,
+       "estudio": [
+        "13·2·25"
+       ],
+       "libro": [
+        "F-R8.44"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-61-1",
+       "cid": "R8-61",
+       "tema": "R8",
+       "concepto": "Instalación provisional durante las obras: la autoriza la Administración; gastos del titular",
+       "peso": 1,
+       "estudio": [
+        "8·2·24"
+       ],
+       "libro": [
+        "F-R8.76"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-67-1",
+       "cid": "R8-67",
+       "tema": "R8",
+       "concepto": "Definiciones del RD 2623/1986: anclaje, riostra, plano de paso, elemento repartidor de carga",
+       "peso": 1,
+       "estudio": [
+        "11·2·24"
+       ],
+       "libro": [
+        "C-R8.25"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-75-1",
+       "cid": "R8-75",
+       "tema": "R8",
+       "concepto": "Estación portable: la fija usada temporalmente en otra ubicación",
+       "peso": 2,
+       "estudio": [
+        "12·2·26"
+       ],
+       "libro": [
+        "R8.69"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-92-1",
+       "cid": "R8-92",
+       "tema": "R8",
+       "concepto": "Repetidoras digitales: de portadora o nodo (enlaza con repetidoras) frente a final (distribuye a los usuarios)",
+       "peso": 1,
+       "estudio": [
+        "11·2·27"
+       ],
+       "libro": [
+        "F-R8.77"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-97-1",
+       "cid": "R8-97",
+       "tema": "R8",
+       "concepto": "Acceso a repetidores: necesariamente libre; si hay código, público y facilitado a quien lo pida",
+       "peso": 2,
+       "estudio": [
+        "3·2·27"
+       ],
+       "libro": [
+        "R8.34"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-02-1",
+       "cid": "R9-02",
+       "tema": "R9",
+       "concepto": "Potestad sancionadora: Administración General del Estado (titular de la Secretaría de Estado de Telecomunicaciones)",
+       "peso": 2,
+       "estudio": [
+        "10·2·29"
+       ],
+       "libro": [
+        "R9.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-12-1",
+       "cid": "R9-12",
+       "tema": "R9",
+       "concepto": "Grave: negativa u obstrucción a la inspección",
+       "peso": 3,
+       "estudio": [
+        "1·2·29"
+       ],
+       "libro": [
+        "R9.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-17-1",
+       "cid": "R9-17",
+       "tema": "R9",
+       "concepto": "Leve: instalar una estación de radioaficionado sin autorización",
+       "peso": 1,
+       "estudio": [
+        "9·2·29"
+       ],
+       "libro": [
+        "F-R9.11"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-08-1",
+       "cid": "T2-08",
+       "tema": "T2",
+       "concepto": "En un conductor metálico la resistencia aumenta con la temperatura",
+       "peso": 2,
+       "estudio": [
+        "3·1·5"
+       ],
+       "libro": [
+        "T2.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-18-1",
+       "cid": "T2-18",
+       "tema": "T2",
+       "concepto": "La reactancia capacitiva disminuye al aumentar la frecuencia",
+       "peso": 3,
+       "estudio": [
+        "13·1·6"
+       ],
+       "libro": [
+        "T2.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-26-1",
+       "cid": "T2-26",
+       "tema": "T2",
+       "concepto": "Electrolítico: polarizado, hay que respetar la polaridad",
+       "peso": 2,
+       "estudio": [
+        "12·1·8"
+       ],
+       "libro": [
+        "T2.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-36-1",
+       "cid": "T2-36",
+       "tema": "T2",
+       "concepto": "La bobina almacena energía en el campo magnético (½LI²)",
+       "peso": 2,
+       "estudio": [
+        "6·1·8"
+       ],
+       "libro": [
+        "T2.15"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-66-2",
+       "cid": "T2-66",
+       "tema": "T2",
+       "concepto": "Diodo zéner: estabiliza tensión trabajando en inversa, en la zona de ruptura",
+       "peso": 3,
+       "estudio": [
+        "7·1·8",
+        "13·1·8"
+       ],
+       "libro": [
+        "T2.22",
+        "F-T2.14"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-T3-05-1",
+       "cid": "T3-05",
+       "tema": "T3",
+       "concepto": "Asociación de bobinas sin acoplo: como las resistencias (serie suman; paralelo producto/suma)",
+       "peso": 2,
+       "estudio": [
+        "5·1·9"
+       ],
+       "libro": [
+        "F-T3.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-08-1",
+       "cid": "T3-08",
+       "tema": "T3",
+       "concepto": "Acoplo entre circuitos y etapas: las oscilaciones de uno pasan al otro; el acoplamiento deja pasar la señal y separa las polarizaciones",
+       "peso": 2,
+       "estudio": [
+        "11·1·9"
+       ],
+       "libro": [
+        "C-T3.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-19-1",
+       "cid": "T3-19",
+       "tema": "T3",
+       "concepto": "Filtro paso banda: deja pasar su banda y atenúa por encima y por debajo; es el de la FI",
+       "peso": 2,
+       "estudio": [
+        "3·1·10"
+       ],
+       "libro": [
+        "T3.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-36-1",
+       "cid": "T3-36",
+       "tema": "T3",
+       "concepto": "Filtros FIR (sin realimentación, respuesta finita) e IIR (realimentan la salida, respuesta infinita)",
+       "peso": 2,
+       "estudio": [
+        "13·1·11"
+       ],
+       "libro": [
+        "F-T3.29"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-47-1",
+       "cid": "T3-47",
+       "tema": "T3",
+       "concepto": "Fuente lineal frente a conmutada: la lineal pesa (transformador de 50 Hz) y rinde poco; la conmutada trabaja a decenas–cientos de kHz, ligera y eficiente",
+       "peso": 3,
+       "estudio": [
+        "3·1·11"
+       ],
+       "libro": [
+        "C-T3.19"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-05-1",
+       "cid": "T4-05",
+       "tema": "T4",
+       "concepto": "Relación entre señal, oscilador local y FI: OL por encima f_s = f_OL − f_FI; OL por debajo f_s = f_OL + f_FI",
+       "peso": 3,
+       "estudio": [
+        "13·1·16"
+       ],
+       "libro": [
+        "T4.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-43-1",
+       "cid": "T4-43",
+       "tema": "T4",
+       "concepto": "Mando RF GAIN: ganancia de las etapas de RF del receptor (no la potencia del emisor)",
+       "peso": 2,
+       "estudio": [
+        "11·1·15"
+       ],
+       "libro": [
+        "T4.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-16-1",
+       "cid": "T5-16",
+       "tema": "T5",
+       "concepto": "FM directa: el audio actúa sobre el oscilador (varicap)",
+       "peso": 2,
+       "estudio": [
+        "3·1·18"
+       ],
+       "libro": [
+        "F-T5.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-26-1",
+       "cid": "T5-26",
+       "tema": "T5",
+       "concepto": "Contra la sobremodulación: bajar el nivel de BF aplicado al modulador",
+       "peso": 2,
+       "estudio": [
+        "13·1·18"
+       ],
+       "libro": [
+        "T5.32"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-67-1",
+       "cid": "T5-67",
+       "tema": "T5",
+       "concepto": "Ubicación de los repetidores: lugares elevados para aumentar el alcance (visibilidad directa)",
+       "peso": 2,
+       "estudio": [
+        "5·1·19"
+       ],
+       "libro": [
+        "F-T5.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-11-1",
+       "cid": "T7-11",
+       "tema": "T7",
+       "concepto": "Horizonte radioeléctrico: d ≈ 4,12 (√h1 + √h2) km",
+       "peso": 2,
+       "estudio": [
+        "2·1·23"
+       ],
+       "libro": [
+        "F-T7.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-40-1",
+       "cid": "T7-40",
+       "tema": "T7",
+       "concepto": "Meteor-scatter: reflexión en las estelas ionizadas de los meteoros",
+       "peso": 2,
+       "estudio": [
+        "6·1·24"
+       ],
+       "libro": [
+        "F-T7.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-11-1",
+       "cid": "T9-11",
+       "tema": "T9",
+       "concepto": "Desadaptación (ROE alta) favorece las interferencias; conviene ROE baja",
+       "peso": 2,
+       "estudio": [
+        "6·1·28"
+       ],
+       "libro": [
+        "T9.3"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-02-1",
+       "cid": "R1-02",
+       "tema": "R1",
+       "concepto": "Las cifras se deletrean con su nombre inglés (Zero…Nine); el 0 es Zero, no Oscar ni «Cero»",
+       "peso": 2,
+       "estudio": [
+        "10·2·1"
+       ],
+       "libro": [
+        "R1.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-01-1",
+       "cid": "R2-01",
+       "tema": "R2",
+       "concepto": "QRM (interferencia de otras estaciones) frente a QRN (parásitos atmosféricos)",
+       "peso": 3,
+       "estudio": [
+        "4·2·2",
+        "8·2·2"
+       ],
+       "libro": [
+        "R2.29",
+        "R2.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-29-1",
+       "cid": "R2-29",
+       "tema": "R2",
+       "concepto": "QSZ transmita cada palabra o grupo dos veces",
+       "peso": 1,
+       "estudio": [
+        "11·2·4"
+       ],
+       "libro": [
+        "F-R2.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-07-1",
+       "cid": "R3-07",
+       "tema": "R3",
+       "concepto": "DE delante del distintivo de quien transmite",
+       "peso": 2,
+       "estudio": [
+        "10·2·4"
+       ],
+       "libro": [
+        "R3.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-27-1",
+       "cid": "R3-27",
+       "tema": "R3",
+       "concepto": "NIL nada, sin novedad",
+       "peso": 1,
+       "estudio": [
+        "7·2·6"
+       ],
+       "libro": [
+        "R3.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-34-1",
+       "cid": "R3-34",
+       "tema": "R3",
+       "concepto": "BUG manipulador semiautomático",
+       "peso": 2,
+       "estudio": [
+        "4·2·6"
+       ],
+       "libro": [
+        "C-R3.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-01-1",
+       "cid": "R4-01",
+       "tema": "R4",
+       "concepto": "Socorro en radiotelefonía: MAYDAY",
+       "peso": 3,
+       "estudio": [
+        "7·2·8"
+       ],
+       "libro": [
+        "R4.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-11-1",
+       "cid": "R4-11",
+       "tema": "R4",
+       "concepto": "Señal de alarma radiotelefónica: tonos alternos de 2200 y 1300 Hz",
+       "peso": 2,
+       "estudio": [
+        "10·2·8"
+       ],
+       "libro": [
+        "R4.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-28-1",
+       "cid": "R4-28",
+       "tema": "R4",
+       "concepto": "Banda de 13 cm: 2300–2450 MHz",
+       "peso": 1,
+       "estudio": [
+        "5·2·10"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-10-1",
+       "cid": "R8-10",
+       "tema": "R8",
+       "concepto": "CNAF vigente: aprobado por orden ministerial (Orden TDF/732/2026)",
+       "peso": 1,
+       "estudio": [
+        "12·2·17"
+       ],
+       "libro": [
+        "F-R8.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-104-1",
+       "cid": "R8-104",
+       "tema": "R8",
+       "concepto": "Radiobaliza: distintivo a intervalos ≤ 3 min",
+       "peso": 2,
+       "estudio": [
+        "5·2·19"
+       ],
+       "libro": [
+        "F-R8.61"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-121-1",
+       "cid": "R8-121",
+       "tema": "R8",
+       "concepto": "Interferencia: degradación, falseamiento o pérdida de información por energía no deseada",
+       "peso": 1,
+       "estudio": [
+        "12·2·18"
+       ],
+       "libro": [
+        "F-R8.87"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-147-1",
+       "cid": "R8-147",
+       "tema": "R8",
+       "concepto": "Licencia CEPT: respetar siempre el RR y la reglamentación del país visitado",
+       "peso": 2,
+       "estudio": [
+        "12·2·20"
+       ],
+       "libro": [
+        "R8.84"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-151-1",
+       "cid": "R8-151",
+       "tema": "R8",
+       "concepto": "Extranjero de país no T/R 61-01: autorización temporal ≤ 90 días",
+       "peso": 2,
+       "estudio": [
+        "9·2·23"
+       ],
+       "libro": [
+        "F-R8.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-16-1",
+       "cid": "R8-16",
+       "tema": "R8",
+       "concepto": "Vigencia indefinida: no se renueva; suprimida la comunicación quinquenal",
+       "peso": 3,
+       "estudio": [
+        "7·2·21"
+       ],
+       "libro": [
+        "C-R8.44"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-165-1",
+       "cid": "R8-165",
+       "tema": "R8",
+       "concepto": "RR art. 25: comunicaciones entre países permitidas salvo oposición de una administración",
+       "peso": 2,
+       "estudio": [
+        "12·2·21"
+       ],
+       "libro": [
+        "R8.80"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-46-1",
+       "cid": "R8-46",
+       "tema": "R8",
+       "concepto": "Montaje por instalador de telecomunicaciones inscrito, salvo instalaciones simples autorizadas por el Jefe Provincial",
+       "peso": 2,
+       "estudio": [
+        "13·2·24"
+       ],
+       "libro": [
+        "C-R8.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-50-1",
+       "cid": "R8-50",
+       "tema": "R8",
+       "concepto": "Copia del contrato de seguro a la propiedad o al presidente de la comunidad",
+       "peso": 1,
+       "estudio": [
+        "11·2·22"
+       ],
+       "libro": [
+        "F-R8.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-72-1",
+       "cid": "R8-72",
+       "tema": "R8",
+       "concepto": "Emisiones experimentales: se identifican con el distintivo propio",
+       "peso": 1,
+       "estudio": [
+        "9·2·28"
+       ],
+       "libro": [
+        "F-R8.42"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-95-1",
+       "cid": "R8-95",
+       "tema": "R8",
+       "concepto": "Obligaciones del gestor de la desatendida (no le corresponde autorizar su funcionamiento)",
+       "peso": 1,
+       "estudio": [
+        "3·2·26"
+       ],
+       "libro": [
+        "C-R8.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-04-1",
+       "cid": "R9-04",
+       "tema": "R9",
+       "concepto": "Obligación de permitir la inspección; solo el domicilio protegido exige consentimiento o autorización judicial",
+       "peso": 2,
+       "estudio": [
+        "6·2·29"
+       ],
+       "libro": [
+        "R9.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-15-1",
+       "cid": "R9-15",
+       "tema": "R9",
+       "concepto": "Leve: comunicarse utilizando estaciones no autorizadas",
+       "peso": 3,
+       "estudio": [
+        "4·2·29"
+       ],
+       "libro": [
+        "R9.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-33-1",
+       "cid": "R9-33",
+       "tema": "R9",
+       "concepto": "Cancelación de la autorización a petición del titular",
+       "peso": 1,
+       "estudio": [
+        "2·2·30"
+       ],
+       "libro": [
+        "R9.32"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-25-1",
+       "cid": "T2-25",
+       "tema": "T2",
+       "concepto": "Electrolítico: el dieléctrico es una capa de óxido (con el electrolito como pasta)",
+       "peso": 2,
+       "estudio": [
+        "12·1·7"
+       ],
+       "libro": [
+        "C-T2.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-37-1",
+       "cid": "T2-37",
+       "tema": "T2",
+       "concepto": "La autoinducción depende de la construcción de la bobina (núcleo, dimensiones, temperatura), no de la señal",
+       "peso": 2,
+       "estudio": [
+        "11·1·7"
+       ],
+       "libro": [
+        "T2.40"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-52-1",
+       "cid": "T2-52",
+       "tema": "T2",
+       "concepto": "Corrientes en el transformador ideal: van en proporción inversa a las tensiones (potencia constante)",
+       "peso": 2,
+       "estudio": [
+        "3·1·7"
+       ],
+       "libro": [
+        "F-T2.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-71-1",
+       "cid": "T2-71",
+       "tema": "T2",
+       "concepto": "Transistor bipolar: terminales emisor, base y colector; tipos NPN y PNP",
+       "peso": 3,
+       "estudio": [
+        "4·1·8",
+        "10·1·9"
+       ],
+       "libro": [
+        "T2.23",
+        "T2.24"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-02-1",
+       "cid": "T3-02",
+       "tema": "T3",
+       "concepto": "Resistencias en paralelo: tensión común; la corriente de cada rama es inversamente proporcional a R y la total es la suma (Kirchhoff)",
+       "peso": 3,
+       "estudio": [
+        "10·1·10"
+       ],
+       "libro": [
+        "T3.44"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-30-1",
+       "cid": "T3-30",
+       "tema": "T3",
+       "concepto": "Filtro de cuarzo en la FI: su Q altísimo da selectividad elevada con banda estrecha y estable",
+       "peso": 2,
+       "estudio": [
+        "12·1·12"
+       ],
+       "libro": [
+        "F-T3.49"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-66-1",
+       "cid": "T3-66",
+       "tema": "T3",
+       "concepto": "Realimentación: devolver parte de la salida a la entrada; la negativa reduce la ganancia y mejora estabilidad y linealidad, la positiva hace oscilar",
+       "peso": 2,
+       "estudio": [
+        "1·1·13"
+       ],
+       "libro": [
+        "T3.20"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-84-1",
+       "cid": "T3-84",
+       "tema": "T3",
+       "concepto": "Estabilidad del oscilador: la temperatura hace derivar su frecuencia",
+       "peso": 2,
+       "estudio": [
+        "5·1·13"
+       ],
+       "libro": [
+        "C-T3.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-86-1",
+       "cid": "T3-86",
+       "tema": "T3",
+       "concepto": "Oscilador a cristal: frecuencia muy estable (y apenas ajustable)",
+       "peso": 3,
+       "estudio": [
+        "10·1·14"
+       ],
+       "libro": [
+        "T3.45"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-17-1",
+       "cid": "T4-17",
+       "tema": "T4",
+       "concepto": "La selectividad la fijan las etapas (filtros) de FI; la FI son amplificadores y filtros",
+       "peso": 3,
+       "estudio": [
+        "11·1·14"
+       ],
+       "libro": [
+        "T4.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-45-1",
+       "cid": "T4-45",
+       "tema": "T4",
+       "concepto": "RIT: varía la frecuencia de recepción sin tocar la de transmisión",
+       "peso": 2,
+       "estudio": [
+        "4·1·16"
+       ],
+       "libro": [
+        "T4.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-19-1",
+       "cid": "T5-19",
+       "tema": "T5",
+       "concepto": "Excursión máxima de la NBFM: unos ±2,5 a ±5 kHz",
+       "peso": 2,
+       "estudio": [
+        "13·1·17"
+       ],
+       "libro": [
+        "C-T5.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-22-1",
+       "cid": "T5-22",
+       "tema": "T5",
+       "concepto": "Margen de audiofrecuencia para la inteligibilidad: 300 a 3000 Hz",
+       "peso": 3,
+       "estudio": [
+        "5·1·17"
+       ],
+       "libro": [
+        "T5.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-40-1",
+       "cid": "T5-40",
+       "tema": "T5",
+       "concepto": "Anchura de banda ocupada: fuera de sus límites se radia el 0,5 % por cada lado",
+       "peso": 2,
+       "estudio": [
+        "12·1·19"
+       ],
+       "libro": [
+        "C-T5.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-16-1",
+       "cid": "T7-16",
+       "tema": "T7",
+       "concepto": "Capas de la ionosfera: D, E, F1 y F2",
+       "peso": 3,
+       "estudio": [
+        "11·1·23"
+       ],
+       "libro": [
+        "T7.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-25-1",
+       "cid": "T7-25",
+       "tema": "T7",
+       "concepto": "Frecuencia óptima de trabajo ≈ 85 % de la MUF",
+       "peso": 2,
+       "estudio": [
+        "4·1·24"
+       ],
+       "libro": [
+        "F-T7.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-30-1",
+       "cid": "T7-30",
+       "tema": "T7",
+       "concepto": "Desvanecimiento (fading): variación momentánea de la intensidad recibida",
+       "peso": 2,
+       "estudio": [
+        "10·1·25"
+       ],
+       "libro": [
+        "T7.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-08-1",
+       "cid": "T9-08",
+       "tema": "T9",
+       "concepto": "Emisiones fuera de banda: inmediatamente exteriores a la anchura necesaria, por la modulación",
+       "peso": 2,
+       "estudio": [
+        "8·1·27"
+       ],
+       "libro": [
+        "T9.13"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-03-1",
+       "cid": "R1-03",
+       "tema": "R1",
+       "concepto": "Deletreo de distintivo EA5SWJ: E Echo, A Alfa, S Sierra, W Whiskey, J Juliett (no «Japón»), cifra en inglés",
+       "peso": 3,
+       "estudio": [
+        "1·2·1"
+       ],
+       "libro": [
+        "C-R1.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-03-1",
+       "cid": "R2-03",
+       "tema": "R2",
+       "concepto": "QRS transmita más despacio / QRQ más deprisa",
+       "peso": 3,
+       "estudio": [
+        "6·2·2",
+        "13·2·2"
+       ],
+       "libro": [
+        "R2.15",
+        "C-R2.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-19-1",
+       "cid": "R2-19",
+       "tema": "R2",
+       "concepto": "QSP retransmitir gratuitamente a…",
+       "peso": 1,
+       "estudio": [
+        "12·2·4"
+       ],
+       "libro": [
+        "R2.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-12-1",
+       "cid": "R3-12",
+       "tema": "R3",
+       "concepto": "USB banda lateral superior / LSB inferior",
+       "peso": 2,
+       "estudio": [
+        "9·2·5"
+       ],
+       "libro": [
+        "R3.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-32-1",
+       "cid": "R3-32",
+       "tema": "R3",
+       "concepto": "FB buen trabajo, formidable (fine business)",
+       "peso": 2,
+       "estudio": [
+        "11·2·8"
+       ],
+       "libro": [
+        "C-R3.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-38-1",
+       "cid": "R3-38",
+       "tema": "R3",
+       "concepto": "GL buena suerte",
+       "peso": 1,
+       "estudio": [
+        "13·2·6"
+       ],
+       "libro": [
+        "F-R3.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-39-1",
+       "cid": "R3-39",
+       "tema": "R3",
+       "concepto": "MSG mensaje",
+       "peso": 1,
+       "estudio": [
+        "6·2·7"
+       ],
+       "libro": [
+        "C-R3.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-08-1",
+       "cid": "R4-08",
+       "tema": "R4",
+       "concepto": "Urgencia en radiotelegrafía: XXX tres veces",
+       "peso": 3,
+       "estudio": [
+        "5·2·8"
+       ],
+       "libro": [
+        "R4.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-31-1",
+       "cid": "R4-31",
+       "tema": "R4",
+       "concepto": "Segmento exclusivo de satélites en 2 m: 145,806–146,000 MHz",
+       "peso": 1,
+       "estudio": [
+        "1·2·9"
+       ],
+       "libro": [
+        "F-R4.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-102-1",
+       "cid": "R8-102",
+       "tema": "R8",
+       "concepto": "Distintivo de los repetidores analógicos: Morse ≤ 10 palabras/min, cada ≤ 10 min",
+       "peso": 2,
+       "estudio": [
+        "6·2·19"
+       ],
+       "libro": [
+        "R8.40"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-112-1",
+       "cid": "R8-112",
+       "tema": "R8",
+       "concepto": "Interconexión con otras redes: permitida con condiciones (fines de radioafición)",
+       "peso": 2,
+       "estudio": [
+        "13·2·20"
+       ],
+       "libro": [
+        "C-R8.35"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-113-1",
+       "cid": "R8-113",
+       "tema": "R8",
+       "concepto": "Prohibido codificar para ocultar el significado, salvo el mando de estaciones espaciales",
+       "peso": 1,
+       "estudio": [
+        "7·2·18"
+       ],
+       "libro": [
+        "F-R8.68"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-117-1",
+       "cid": "R8-117",
+       "tema": "R8",
+       "concepto": "Nomenclatura de bandas: números, símbolos (HF, VHF, SHF…), rangos y ondas (métricas, B.m.…)",
+       "peso": 3,
+       "estudio": [
+        "3·2·17",
+        "7·2·19"
+       ],
+       "libro": [
+        "C-R8.8",
+        "C-T7.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-22-1",
+       "cid": "R8-22",
+       "tema": "R8",
+       "concepto": "Menores: sin edad mínima; escrito fehaciente de padres o tutores",
+       "peso": 2,
+       "estudio": [
+        "10·2·22"
+       ],
+       "libro": [
+        "R8.29"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-35-1",
+       "cid": "R8-35",
+       "tema": "R8",
+       "concepto": "Equipos comerciales: legislación vigente en su comercialización inicial; los ya legalizados, la de su autorización inicial",
+       "peso": 1,
+       "estudio": [
+        "13·2·23"
+       ],
+       "libro": [
+        "F-R8.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-49-1",
+       "cid": "R8-49",
+       "tema": "R8",
+       "concepto": "Seguro de responsabilidad civil obligatorio, formalizado antes de expedirse la licencia",
+       "peso": 2,
+       "estudio": [
+        "5·2·25"
+       ],
+       "libro": [
+        "C-R8.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-60-1",
+       "cid": "R8-60",
+       "tema": "R8",
+       "concepto": "Obras de indudable urgencia: desmontaje sin trámites, comunicándolo inmediatamente al titular",
+       "peso": 1,
+       "estudio": [
+        "2·2·23"
+       ],
+       "libro": [
+        "F-R8.75"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-66-1",
+       "cid": "R8-66",
+       "tema": "R8",
+       "concepto": "Líneas de transmisión a ≥ 10 cm de conductos y canalizaciones del edificio",
+       "peso": 1,
+       "estudio": [
+        "5·2·26"
+       ],
+       "libro": [
+        "F-R8.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-85-1",
+       "cid": "R8-85",
+       "tema": "R8",
+       "concepto": "Colectivas: licencia + autorización individualizada con distintivo propio",
+       "peso": 1,
+       "estudio": [
+        "12·2·28"
+       ],
+       "libro": [
+        "F-R8.51"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-90-1",
+       "cid": "R8-90",
+       "tema": "R8",
+       "concepto": "Estación automática desatendida: estación colectiva que no requiere intervención directa del operador",
+       "peso": 2,
+       "estudio": [
+        "1·2·27"
+       ],
+       "libro": [
+        "C-R8.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-01-1",
+       "cid": "R9-01",
+       "tema": "R9",
+       "concepto": "Inspección: el Ministerio competente, mediante la inspección de telecomunicaciones y las Jefaturas Provinciales",
+       "peso": 3,
+       "estudio": [
+        "10·2·28"
+       ],
+       "libro": [
+        "R9.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-05-1",
+       "cid": "R9-05",
+       "tema": "R9",
+       "concepto": "Las infracciones se tipifican en la Ley General de Telecomunicaciones",
+       "peso": 2,
+       "estudio": [
+        "11·2·29"
+       ],
+       "libro": [
+        "R9.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-28-1",
+       "cid": "R9-28",
+       "tema": "R9",
+       "concepto": "Plazo para resolver el procedimiento sancionador: un año",
+       "peso": 1,
+       "estudio": [
+        "7·2·30"
+       ],
+       "libro": [
+        "F-R9.4"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-19-1",
+       "cid": "T2-19",
+       "tema": "T2",
+       "concepto": "Cálculo de la reactancia capacitiva X_C = 1/(2πfC)",
+       "peso": 2,
+       "estudio": [
+        "1·1·6"
+       ],
+       "libro": [
+        "F-T2.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-20-1",
+       "cid": "T2-20",
+       "tema": "T2",
+       "concepto": "Energía almacenada en un condensador: ½CV² (no confundir con ½LI²)",
+       "peso": 2,
+       "estudio": [
+        "6·1·7"
+       ],
+       "libro": [
+        "T2.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-35-1",
+       "cid": "T2-35",
+       "tema": "T2",
+       "concepto": "Unidad de autoinducción: el henrio",
+       "peso": 2,
+       "estudio": [
+        "7·1·5"
+       ],
+       "libro": [
+        "T2.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-53-1",
+       "cid": "T2-53",
+       "tema": "T2",
+       "concepto": "El transformador también sirve para adaptar impedancias",
+       "peso": 2,
+       "estudio": [
+        "4·1·7"
+       ],
+       "libro": [
+        "T2.60"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-04-1",
+       "cid": "T3-04",
+       "tema": "T3",
+       "concepto": "Asociación de condensadores: en paralelo se suman; en serie, por inversas (al revés que las resistencias)",
+       "peso": 3,
+       "estudio": [
+        "2·1·9"
+       ],
+       "libro": [
+        "T3.28"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-09-1",
+       "cid": "T3-09",
+       "tema": "T3",
+       "concepto": "Condensador real: por encima de su autorresonancia se comporta como una bobina",
+       "peso": 3,
+       "estudio": [
+        "4·1·10"
+       ],
+       "libro": [
+        "F-T3.40"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-38-1",
+       "cid": "T3-38",
+       "tema": "T3",
+       "concepto": "Media onda frente a onda completa: la completa aprovecha los dos semiciclos, dobla el valor medio y da menos rizado",
+       "peso": 2,
+       "estudio": [
+        "2·1·10"
+       ],
+       "libro": [
+        "T3.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-53-1",
+       "cid": "T3-53",
+       "tema": "T3",
+       "concepto": "Colector común = seguidor de emisor (ganancia de tensión ≈ 1; adaptador de impedancias)",
+       "peso": 2,
+       "estudio": [
+        "4·1·14"
+       ],
+       "libro": [
+        "C-T3.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-65-1",
+       "cid": "T3-65",
+       "tema": "T3",
+       "concepto": "Neutralización: anula la realimentación parásita para que el amplificador no oscile",
+       "peso": 2,
+       "estudio": [
+        "7·1·11"
+       ],
+       "libro": [
+        "C-T3.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-19-1",
+       "cid": "T4-19",
+       "tema": "T4",
+       "concepto": "Selectividad de canal adyacente: la fijan los faldones del filtro de FI (problema lineal)",
+       "peso": 2,
+       "estudio": [
+        "7·1·15"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-21-1",
+       "cid": "T4-21",
+       "tema": "T4",
+       "concepto": "Anchura de banda de la NBFM: unos 12 kHz (FM de difusión 200 kHz, SSB 2,4 kHz)",
+       "peso": 2,
+       "estudio": [
+        "2·1·15"
+       ],
+       "libro": [
+        "T4.35"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-27-1",
+       "cid": "T4-27",
+       "tema": "T4",
+       "concepto": "Estabilidad: mantener la frecuencia sintonizada sin derivar",
+       "peso": 3,
+       "estudio": [
+        "8·1·15"
+       ],
+       "libro": [
+        "T4.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-33-1",
+       "cid": "T5-33",
+       "tema": "T5",
+       "concepto": "Rendimiento = potencia entregada al sistema radiante / potencia consumida",
+       "peso": 2,
+       "estudio": [
+        "5·1·18"
+       ],
+       "libro": [
+        "T5.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-42-1",
+       "cid": "T5-42",
+       "tema": "T5",
+       "concepto": "Armónicos: múltiplos enteros de la fundamental",
+       "peso": 3,
+       "estudio": [
+        "7·1·19"
+       ],
+       "libro": [
+        "T5.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-45-1",
+       "cid": "T5-45",
+       "tema": "T5",
+       "concepto": "Límite de espurias: vale el más restrictivo entre la atenuación y el tope absoluto",
+       "peso": 2,
+       "estudio": [
+        "1·1·18"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-13-1",
+       "cid": "T7-13",
+       "tema": "T7",
+       "concepto": "Atenuación: toda onda se atenúa al propagarse y al atravesar objetos",
+       "peso": 2,
+       "estudio": [
+        "5·1·24"
+       ],
+       "libro": [
+        "C-T7.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-35-1",
+       "cid": "T7-35",
+       "tema": "T7",
+       "concepto": "Esporádica-E: nubes de ionización intensa en la capa E que reflejan VHF",
+       "peso": 2,
+       "estudio": [
+        "2·1·24"
+       ],
+       "libro": [
+        "F-T7.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-03-1",
+       "cid": "T9-03",
+       "tema": "T9",
+       "concepto": "Fuente, camino y víctima: caminos de acoplo por antena, por líneas y por radiación directa",
+       "peso": 2,
+       "estudio": [
+        "10·1·28"
+       ],
+       "libro": [],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-04-1",
+       "cid": "R1-04",
+       "tema": "R1",
+       "concepto": "Deletreo de distintivo AN6BL: N November (no «Noviembre»), B Bravo, L Lima, 6 Six",
+       "peso": 3,
+       "estudio": [
+        "2·2·1"
+       ],
+       "libro": [
+        "C-R1.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-07-1",
+       "cid": "R2-07",
+       "tema": "R2",
+       "concepto": "QRK inteligibilidad, QSA intensidad, QRI tono (las tres valoraciones de la señal)",
+       "peso": 3,
+       "estudio": [
+        "6·2·3",
+        "12·2·2"
+       ],
+       "libro": [
+        "C-R2.1",
+        "R2.24"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-21-1",
+       "cid": "R2-21",
+       "tema": "R2",
+       "concepto": "QSM repita el último mensaje",
+       "peso": 1,
+       "estudio": [
+        "5·2·4"
+       ],
+       "libro": [
+        "R2.20"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-26-1",
+       "cid": "R2-26",
+       "tema": "R2",
+       "concepto": "QRW avise a… de que le llamo en… kHz",
+       "peso": 1,
+       "estudio": [
+        "1·2·4"
+       ],
+       "libro": [
+        "R2.25"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-03-1",
+       "cid": "R3-03",
+       "tema": "R3",
+       "concepto": "AR fin de la transmisión (no del contacto)",
+       "peso": 2,
+       "estudio": [
+        "5·2·5"
+       ],
+       "libro": [
+        "R3.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-20-1",
+       "cid": "R3-20",
+       "tema": "R3",
+       "concepto": "PSE por favor",
+       "peso": 1,
+       "estudio": [
+        "11·2·7"
+       ],
+       "libro": [
+        "R3.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-42-1",
+       "cid": "R3-42",
+       "tema": "R3",
+       "concepto": "Locator (QTH locator, Maidenhead): forma breve de dar la ubicación",
+       "peso": 2,
+       "estudio": [
+        "8·2·7"
+       ],
+       "libro": [
+        "C-R3.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-06-1",
+       "cid": "R4-06",
+       "tema": "R4",
+       "concepto": "Socorro en radiotelegrafía: SOS (no XXX, TTT ni CQD)",
+       "peso": 3,
+       "estudio": [
+        "11·2·9"
+       ],
+       "libro": [
+        "R4.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-07-1",
+       "cid": "R4-07",
+       "tema": "R4",
+       "concepto": "SOS se transmite como un solo signo (sin separar las letras)",
+       "peso": 2,
+       "estudio": [
+        "2·2·8"
+       ],
+       "libro": [
+        "C-R4.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-20-1",
+       "cid": "R4-20",
+       "tema": "R4",
+       "concepto": "Socorro captado: hacer lo posible para que llegue a la DG de Protección Civil y Emergencias (art. 30.5)",
+       "peso": 1,
+       "estudio": [
+        "3·2·8"
+       ],
+       "libro": [
+        "F-R4.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-115-1",
+       "cid": "R8-115",
+       "tema": "R8",
+       "concepto": "Anomalía de seguridad mecánica o eléctrica: subsanarla de forma inmediata",
+       "peso": 1,
+       "estudio": [
+        "9·2·20"
+       ],
+       "libro": [
+        "F-R8.73"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-133-1",
+       "cid": "R8-133",
+       "tema": "R8",
+       "concepto": "Banda de 60 m: atribución secundaria y 15 W p.i.r.e.",
+       "peso": 1,
+       "estudio": [
+        "2·2·19"
+       ],
+       "libro": [
+        "F-R8.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-143-1",
+       "cid": "R8-143",
+       "tema": "R8",
+       "concepto": "Contenido de la licencia CEPT (no consta la asociación ni la fecha del examen)",
+       "peso": 2,
+       "estudio": [
+        "2·2·21"
+       ],
+       "libro": [
+        "C-R8.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-155-1",
+       "cid": "R8-155",
+       "tema": "R8",
+       "concepto": "HAREC: certifica la capacidad para operar; no autoriza a emitir, no caduca, sustituye al diploma de operador",
+       "peso": 3,
+       "estudio": [
+        "6·2·24"
+       ],
+       "libro": [
+        "C-R8.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-156-1",
+       "cid": "R8-156",
+       "tema": "R8",
+       "concepto": "HAREC: permite obtener la autorización en otro país que aplique la T/R 61-02 (traslado de residencia)",
+       "peso": 2,
+       "estudio": [
+        "6·2·25"
+       ],
+       "libro": [
+        "R8.82"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-18-1",
+       "cid": "R8-18",
+       "tema": "R8",
+       "concepto": "Plazo para resolver la autorización (y la licencia de estación fija): 6 semanas, silencio desestimatorio",
+       "peso": 2,
+       "estudio": [
+        "11·2·20"
+       ],
+       "libro": [
+        "R8.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-31-1",
+       "cid": "R8-31",
+       "tema": "R8",
+       "concepto": "Ninguna estación tiene derecho preferente sobre una frecuencia",
+       "peso": 1,
+       "estudio": [
+        "1·2·21"
+       ],
+       "libro": [
+        "R8.73"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-37-1",
+       "cid": "R8-37",
+       "tema": "R8",
+       "concepto": "Estación construida de acuerdo con el estado de la técnica (no se impone tecnología)",
+       "peso": 1,
+       "estudio": [
+        "12·2·22"
+       ],
+       "libro": [
+        "C-R8.36"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-45-1",
+       "cid": "R8-45",
+       "tema": "R8",
+       "concepto": "Plazos de fin de instalación: comunicarlo en 6 semanas; la Jefatura verifica y expide en ≤ 30 días",
+       "peso": 2,
+       "estudio": [
+        "7·2·24"
+       ],
+       "libro": [
+        "F-R8.53"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-64-1",
+       "cid": "R8-64",
+       "tema": "R8",
+       "concepto": "Soportes: a la obra civil o con repartidores de carga; nunca a pararrayos ni a conducciones eléctricas",
+       "peso": 1,
+       "estudio": [
+        "6·2·27"
+       ],
+       "libro": [
+        "F-R8.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-82-1",
+       "cid": "R8-82",
+       "tema": "R8",
+       "concepto": "Estación colectiva: responsable la Junta Directiva de la asociación",
+       "peso": 1,
+       "estudio": [
+        "12·2·27"
+       ],
+       "libro": [
+        "F-R8.49"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-26-1",
+       "cid": "R9-26",
+       "tema": "R9",
+       "concepto": "Reiteración: 2 o más sanciones firmes del mismo tipo en 3 años; la leve pasa a grave",
+       "peso": 2,
+       "estudio": [
+        "12·2·29"
+       ],
+       "libro": [
+        "R9.29"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-34-1",
+       "cid": "R9-34",
+       "tema": "R9",
+       "concepto": "Portadora sin modular: solo para ensayos breves",
+       "peso": 1,
+       "estudio": [
+        "8·2·30"
+       ],
+       "libro": [
+        "R9.25"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-05-1",
+       "cid": "T2-05",
+       "tema": "T2",
+       "concepto": "Disipación máxima de una resistencia: tensión o corriente máximas a partir de P y R",
+       "peso": 2,
+       "estudio": [
+        "13·1·5"
+       ],
+       "libro": [
+        "F-T2.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-47-1",
+       "cid": "T2-47",
+       "tema": "T2",
+       "concepto": "El transformador son dos bobinas acopladas que transforman una alterna en otra alterna",
+       "peso": 2,
+       "estudio": [
+        "8·1·7"
+       ],
+       "libro": [
+        "C-T2.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-51-1",
+       "cid": "T2-51",
+       "tema": "T2",
+       "concepto": "Cálculo de la tensión del secundario: V_s = V_p · N_s/N_p",
+       "peso": 3,
+       "estudio": [
+        "11·1·8"
+       ],
+       "libro": [
+        "T2.19"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-95-1",
+       "cid": "T2-95",
+       "tema": "T2",
+       "concepto": "Símbolos de transistores: bipolar frente a FET",
+       "peso": 2,
+       "estudio": [
+        "3·1·9"
+       ],
+       "libro": [
+        "C-T2.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-39-1",
+       "cid": "T3-39",
+       "tema": "T3",
+       "concepto": "Número de diodos: media onda 1; onda completa con toma media 2; puente 4",
+       "peso": 3,
+       "estudio": [
+        "4·1·12"
+       ],
+       "libro": [
+        "T3.35"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-46-1",
+       "cid": "T3-46",
+       "tema": "T3",
+       "concepto": "Regulador con zéner y resistencia en serie: reparto de corrientes entre zéner y carga",
+       "peso": 2,
+       "estudio": [
+        "13·1·12"
+       ],
+       "libro": [
+        "F-T3.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-73-1",
+       "cid": "T3-73",
+       "tema": "T3",
+       "concepto": "El detector de envolvente es asíncrono: no necesita sincronización con el transmisor",
+       "peso": 2,
+       "estudio": [
+        "9·1·12"
+       ],
+       "libro": [
+        "T3.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-94-1",
+       "cid": "T3-94",
+       "tema": "T3",
+       "concepto": "PLL: estabiliza un VCO enganchándolo a una referencia; la tensión de error corrige el VCO",
+       "peso": 3,
+       "estudio": [
+        "2·1·13"
+       ],
+       "libro": [
+        "C-T3.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-95-1",
+       "cid": "T3-95",
+       "tema": "T3",
+       "concepto": "Bloques del PLL: comparador de fase, filtro de paso bajo (de lazo), VCO y divisor programable",
+       "peso": 2,
+       "estudio": [
+        "11·1·13"
+       ],
+       "libro": [
+        "F-T3.24"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-07-1",
+       "cid": "T4-07",
+       "tema": "T4",
+       "concepto": "La imagen se rechaza antes del mezclador, con un filtro (preselector)",
+       "peso": 3,
+       "estudio": [
+        "12·1·15"
+       ],
+       "libro": [
+        "T4.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-12-1",
+       "cid": "T4-12",
+       "tema": "T4",
+       "concepto": "La etapa detectora demodula (extrae la información)",
+       "peso": 2,
+       "estudio": [
+        "10·1·16"
+       ],
+       "libro": [
+        "C-T4.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-07-1",
+       "cid": "T5-07",
+       "tema": "T5",
+       "concepto": "SSB por filtro: el modulador equilibrado suprime la portadora; el filtro elimina una banda lateral",
+       "peso": 3,
+       "estudio": [
+        "3·1·17"
+       ],
+       "libro": [
+        "T5.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-27-1",
+       "cid": "T5-27",
+       "tema": "T5",
+       "concepto": "ALC: limita la excitación del final y evita emisiones interferentes alrededor de la frecuencia",
+       "peso": 2,
+       "estudio": [
+        "13·1·19"
+       ],
+       "libro": [
+        "T5.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-41-1",
+       "cid": "T5-41",
+       "tema": "T5",
+       "concepto": "Emisiones no deseadas = no esenciales + fuera de banda",
+       "peso": 2,
+       "estudio": [
+        "6·1·17"
+       ],
+       "libro": [
+        "T5.14"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-09-1",
+       "cid": "T7-09",
+       "tema": "T7",
+       "concepto": "A mayor frecuencia, menor alcance (144 MHz llega más fuerte que 430 MHz)",
+       "peso": 2,
+       "estudio": [
+        "8·1·23"
+       ],
+       "libro": [
+        "C-T7.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-14-1",
+       "cid": "T7-14",
+       "tema": "T7",
+       "concepto": "Pérdida en espacio libre y relación señal/ruido: 20 log d y 20 log f (×10 la distancia: −20 dB)",
+       "peso": 2,
+       "estudio": [
+        "10·1·24"
+       ],
+       "libro": [
+        "F-T7.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-38-1",
+       "cid": "T7-38",
+       "tema": "T7",
+       "concepto": "Reflexión auroral: en las cortinas ionizadas de las auroras",
+       "peso": 2,
+       "estudio": [
+        "2·1·25"
+       ],
+       "libro": [
+        "F-T7.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-14-1",
+       "cid": "T9-14",
+       "tema": "T9",
+       "concepto": "Intermodulación: dos o más señales intensas mezcladas en una etapa no lineal",
+       "peso": 3,
+       "estudio": [
+        "8·1·28"
+       ],
+       "libro": [
+        "T9.14"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-10-1",
+       "cid": "R1-10",
+       "tema": "R1",
+       "concepto": "F Foxtrot y G Golf",
+       "peso": 2,
+       "estudio": [
+        "8·2·1"
+       ],
+       "libro": [
+        "R1.24"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-04-2",
+       "cid": "R2-04",
+       "tema": "R2",
+       "concepto": "QRT cese la transmisión frente a QRX espere, volveré a llamar",
+       "peso": 3,
+       "estudio": [
+        "5·2·3",
+        "9·2·1"
+       ],
+       "libro": [
+        "R2.9",
+        "R2.32"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R2-15-1",
+       "cid": "R2-15",
+       "tema": "R2",
+       "concepto": "QTR hora exacta",
+       "peso": 2,
+       "estudio": [
+        "10·2·2"
+       ],
+       "libro": [
+        "F-R2.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-25-1",
+       "cid": "R2-25",
+       "tema": "R2",
+       "concepto": "QSV transmita una serie de V",
+       "peso": 1,
+       "estudio": [
+        "4·2·4"
+       ],
+       "libro": [
+        "R2.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-17-1",
+       "cid": "R3-17",
+       "tema": "R3",
+       "concepto": "OM operador corresponsal (old man)",
+       "peso": 2,
+       "estudio": [
+        "8·2·5"
+       ],
+       "libro": [
+        "R3.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-18-1",
+       "cid": "R3-18",
+       "tema": "R3",
+       "concepto": "YL operadora y XYL esposa",
+       "peso": 2,
+       "estudio": [
+        "5·2·6"
+       ],
+       "libro": [
+        "R3.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-22-1",
+       "cid": "R3-22",
+       "tema": "R3",
+       "concepto": "WX tiempo meteorológico",
+       "peso": 1,
+       "estudio": [
+        "10·2·6"
+       ],
+       "libro": [
+        "R3.20"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-24-1",
+       "cid": "R4-24",
+       "tema": "R4",
+       "concepto": "Límites en HF: 80 m 3500–3800 kHz, 20 m 14000–14350 kHz (¿está dentro de banda?)",
+       "peso": 1,
+       "estudio": [
+        "10·2·9"
+       ],
+       "libro": [
+        "F-R4.8"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-26-1",
+       "cid": "R4-26",
+       "tema": "R4",
+       "concepto": "Banda de 70 cm: 430–440 MHz",
+       "peso": 2,
+       "estudio": [
+        "12·2·9"
+       ],
+       "libro": [
+        "F-R4.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-08-1",
+       "cid": "R8-08",
+       "tema": "R8",
+       "concepto": "Radioaficionado: interés por la radiotecnia con carácter exclusivamente personal, sin fines de lucro",
+       "peso": 2,
+       "estudio": [
+        "9·2·19"
+       ],
+       "libro": [
+        "F-R8.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-101-1",
+       "cid": "R8-101",
+       "tema": "R8",
+       "concepto": "Repetidores y radiobalizas: telemando y alimentación ininterrumpida ≥ 6 h",
+       "peso": 2,
+       "estudio": [
+        "5·2·18"
+       ],
+       "libro": [
+        "F-R8.64"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-128-1",
+       "cid": "R8-128",
+       "tema": "R8",
+       "concepto": "Potencia máxima en HF (1,8–28 MHz): 1000 W p.c.e.",
+       "peso": 3,
+       "estudio": [
+        "9·2·22"
+       ],
+       "libro": [
+        "C-R8.46"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-130-1",
+       "cid": "R8-130",
+       "tema": "R8",
+       "concepto": "Potencia máxima en 23 cm y superiores: 1000 W p.i.r.e.",
+       "peso": 2,
+       "estudio": [
+        "4·2·18"
+       ],
+       "libro": [
+        "F-R8.99"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-44-1",
+       "cid": "R8-44",
+       "tema": "R8",
+       "concepto": "La licencia se expide terminado el montaje y presentada la documentación",
+       "peso": 2,
+       "estudio": [
+        "5·2·24"
+       ],
+       "libro": [
+        "C-R8.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-63-1",
+       "cid": "R8-63",
+       "tema": "R8",
+       "concepto": "Condiciones de instalación: sin molestias ni peligro, señalizar anclajes y riostras, materiales resistentes, respetar otras antenas, no dañar la obra",
+       "peso": 2,
+       "estudio": [
+        "7·2·26"
+       ],
+       "libro": [
+        "C-R8.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-74-1",
+       "cid": "R8-74",
+       "tema": "R8",
+       "concepto": "Autorizaciones del art. 16 (bandas secundarias): limitaciones geográficas o técnicas",
+       "peso": 1,
+       "estudio": [
+        "2·2·25"
+       ],
+       "libro": [
+        "F-R8.38"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-81-1",
+       "cid": "R8-81",
+       "tema": "R8",
+       "concepto": "Estación temporal: concursos, expediciones, demostraciones y eventos",
+       "peso": 1,
+       "estudio": [
+        "4·2·25"
+       ],
+       "libro": [
+        "F-R8.79"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-88-1",
+       "cid": "R8-88",
+       "tema": "R8",
+       "concepto": "Noveles: distintivo de la colectiva + 2 o 3 letras tras el sufijo",
+       "peso": 1,
+       "estudio": [
+        "3·2·25"
+       ],
+       "libro": [
+        "F-R8.70"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-91-1",
+       "cid": "R8-91",
+       "tema": "R8",
+       "concepto": "Tipos de desatendidas (art. 24): repetidores analógicos, digitales, de nodo, finales y radiobalizas",
+       "peso": 1,
+       "estudio": [
+        "4·2·27"
+       ],
+       "libro": [
+        "F-R8.59"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-98-1",
+       "cid": "R8-98",
+       "tema": "R8",
+       "concepto": "Repetidor analógico-digital accedido por red pública: código personal e intransferible + distintivo",
+       "peso": 1,
+       "estudio": [
+        "5·2·27"
+       ],
+       "libro": [
+        "F-R8.57"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-07-1",
+       "cid": "R9-07",
+       "tema": "R9",
+       "concepto": "Muy grave: interceptar sin autorización telecomunicaciones no destinadas al público",
+       "peso": 3,
+       "estudio": [
+        "5·2·29"
+       ],
+       "libro": [
+        "R9.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-13-1",
+       "cid": "R9-13",
+       "tema": "R9",
+       "concepto": "Grave: superar los límites de exposición o no señalizar/vallar",
+       "peso": 1,
+       "estudio": [
+        "5·2·30"
+       ],
+       "libro": [
+        "F-R9.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-30-1",
+       "cid": "R9-30",
+       "tema": "R9",
+       "concepto": "Interferencias comprobadas por la inspección: cese de las emisiones hasta corregir la causa",
+       "peso": 2,
+       "estudio": [
+        "6·2·30"
+       ],
+       "libro": [
+        "R9.20"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-04-1",
+       "cid": "T2-04",
+       "tema": "T2",
+       "concepto": "Una resistencia fija se especifica por valor, potencia de disipación y tolerancia",
+       "peso": 2,
+       "estudio": [
+        "5·1·6"
+       ],
+       "libro": [
+        "T2.56"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-09-1",
+       "cid": "T2-09",
+       "tema": "T2",
+       "concepto": "Termistores: PTC sube y NTC baja su resistencia al aumentar la temperatura",
+       "peso": 3,
+       "estudio": [
+        "2·1·5"
+       ],
+       "libro": [
+        "T2.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-10-1",
+       "cid": "T2-10",
+       "tema": "T2",
+       "concepto": "Varistor (VDR): su resistencia depende de la tensión aplicada; protege contra sobretensiones",
+       "peso": 2,
+       "estudio": [
+        "11·1·5"
+       ],
+       "libro": [
+        "T2.38"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-49-1",
+       "cid": "T2-49",
+       "tema": "T2",
+       "concepto": "Relación de transformación: cociente de tensiones o de espiras",
+       "peso": 2,
+       "estudio": [
+        "9·1·6"
+       ],
+       "libro": [
+        "C-T2.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-24-1",
+       "cid": "T3-24",
+       "tema": "T3",
+       "concepto": "Filtros en pi y en T: pi paso bajo = C–L–C; T paso bajo = L–C–L (en paso alto se intercambian)",
+       "peso": 3,
+       "estudio": [
+        "8·1·10"
+       ],
+       "libro": [
+        "F-T3.47"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-37-1",
+       "cid": "T3-37",
+       "tema": "T3",
+       "concepto": "Función del rectificador: convertir la alterna en continua (pulsante)",
+       "peso": 2,
+       "estudio": [
+        "1·1·12"
+       ],
+       "libro": [
+        "C-T3.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-52-1",
+       "cid": "T3-52",
+       "tema": "T3",
+       "concepto": "Base común: amplifica tensión, pero no corriente",
+       "peso": 2,
+       "estudio": [
+        "6·1·12"
+       ],
+       "libro": [
+        "T3.37"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-60-1",
+       "cid": "T3-60",
+       "tema": "T3",
+       "concepto": "Clase C: solo para emisiones de amplitud constante (CW, FM), nunca SSB ni AM",
+       "peso": 3,
+       "estudio": [
+        "5·1·11"
+       ],
+       "libro": [
+        "T3.24"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-88-1",
+       "cid": "T3-88",
+       "tema": "T3",
+       "concepto": "VFO: oscilador de frecuencia variable para moverse por la banda",
+       "peso": 2,
+       "estudio": [
+        "6·1·14"
+       ],
+       "libro": [
+        "T3.40"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-89-1",
+       "cid": "T3-89",
+       "tema": "T3",
+       "concepto": "VCO: su frecuencia varía con una tensión de control, normalmente mediante un varicap",
+       "peso": 2,
+       "estudio": [
+        "7·1·13"
+       ],
+       "libro": [
+        "F-T3.18"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-08-1",
+       "cid": "T4-08",
+       "tema": "T4",
+       "concepto": "Doble conversión: dos FI; la 1.ª alta (aleja la imagen) y la 2.ª baja (selectividad)",
+       "peso": 2,
+       "estudio": [
+        "9·1·14"
+       ],
+       "libro": [
+        "C-T4.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-36-1",
+       "cid": "T4-36",
+       "tema": "T4",
+       "concepto": "CAG: mantiene constante la salida; lazo desde el detector hacia RF y FI",
+       "peso": 3,
+       "estudio": [
+        "9·1·16"
+       ],
+       "libro": [
+        "T4.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-06-1",
+       "cid": "T5-06",
+       "tema": "T5",
+       "concepto": "Diagrama de bloques del transmisor de BLU (BF, modulador balanceado, filtro, RF)",
+       "peso": 2,
+       "estudio": [
+        "11·1·17"
+       ],
+       "libro": [
+        "C-T5.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-39-1",
+       "cid": "T5-39",
+       "tema": "T5",
+       "concepto": "Anchura de banda necesaria: la justa para la velocidad y calidad requeridas",
+       "peso": 2,
+       "estudio": [
+        "4·1·18"
+       ],
+       "libro": [
+        "T5.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-50-1",
+       "cid": "T5-50",
+       "tema": "T5",
+       "concepto": "Radiación por la estructura: RF que escapa por chasis y cables; se reduce apantallando y filtrando",
+       "peso": 2,
+       "estudio": [
+        "9·1·18"
+       ],
+       "libro": [
+        "F-T5.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-17-1",
+       "cid": "T7-17",
+       "tema": "T7",
+       "concepto": "Orden de las capas de la atmósfera: troposfera, estratosfera e ionosfera",
+       "peso": 2,
+       "estudio": [
+        "9·1·23"
+       ],
+       "libro": [
+        "T7.22"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-43-1",
+       "cid": "T7-43",
+       "tema": "T7",
+       "concepto": "Ruido atmosférico (tormentas): domina en las bandas bajas de HF",
+       "peso": 2,
+       "estudio": [
+        "6·1·25"
+       ],
+       "libro": [],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-12-1",
+       "cid": "T9-12",
+       "tema": "T9",
+       "concepto": "Bloqueo o desensibilización: un campo intenso satura la entrada aunque esté sintonizado lejos",
+       "peso": 3,
+       "estudio": [
+        "5·1·28"
+       ],
+       "libro": [
+        "F-T9.1"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-12-1",
+       "cid": "R1-12",
+       "tema": "R1",
+       "concepto": "M Mike y V Victor",
+       "peso": 2,
+       "estudio": [
+        "13·2·1"
+       ],
+       "libro": [
+        "R1.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-08-1",
+       "cid": "R2-08",
+       "tema": "R2",
+       "concepto": "Escalas de respuesta: QRK y QSA de 1 a 5; QRI de 1 a 3",
+       "peso": 1,
+       "estudio": [
+        "13·2·3"
+       ],
+       "libro": [
+        "F-R2.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-13-1",
+       "cid": "R2-13",
+       "tema": "R2",
+       "concepto": "QSL acuse de recibo frente a QSO comunicado entre dos estaciones",
+       "peso": 3,
+       "estudio": [
+        "8·2·3",
+        "12·2·3"
+       ],
+       "libro": [
+        "R2.31",
+        "R2.30"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-23-1",
+       "cid": "R2-23",
+       "tema": "R2",
+       "concepto": "QSX ¿quiere escuchar a… en… kHz? (frente a QSN, que mira al pasado)",
+       "peso": 1,
+       "estudio": [
+        "8·2·4"
+       ],
+       "libro": [
+        "F-R2.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-05-1",
+       "cid": "R3-05",
+       "tema": "R3",
+       "concepto": "CL cierre de la estación",
+       "peso": 2,
+       "estudio": [
+        "2·2·5"
+       ],
+       "libro": [
+        "R3.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-06-1",
+       "cid": "R3-06",
+       "tema": "R3",
+       "concepto": "BK interrupción breve (break)",
+       "peso": 1,
+       "estudio": [
+        "11·2·5"
+       ],
+       "libro": [
+        "R3.15"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-10-1",
+       "cid": "R3-10",
+       "tema": "R3",
+       "concepto": "DX contacto de larga distancia",
+       "peso": 2,
+       "estudio": [
+        "1·2·5"
+       ],
+       "libro": [
+        "R3.4"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-04-1",
+       "cid": "R4-04",
+       "tema": "R4",
+       "concepto": "Formato de la llamada de socorro: Mayday ×3 + «aquí»/«de» + distintivo ×3",
+       "peso": 2,
+       "estudio": [
+        "12·2·8"
+       ],
+       "libro": [
+        "C-R4.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-16-1",
+       "cid": "R4-16",
+       "tema": "R4",
+       "concepto": "Peligro grave e inminente: se puede usar cualquier medio y frecuencia",
+       "peso": 2,
+       "estudio": [
+        "1·2·8"
+       ],
+       "libro": [
+        "R4.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-09-1",
+       "cid": "R8-09",
+       "tema": "R8",
+       "concepto": "CNAF = Cuadro Nacional de Atribución de Frecuencias",
+       "peso": 2,
+       "estudio": [
+        "4·2·17"
+       ],
+       "libro": [
+        "R8.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-116-1",
+       "cid": "R8-116",
+       "tema": "R8",
+       "concepto": "Disposición final 2.ª: la SETSI dicta instrucciones y actualiza los anexos técnicos",
+       "peso": 1,
+       "estudio": [
+        "9·2·21"
+       ],
+       "libro": [
+        "F-R8.74"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-120-1",
+       "cid": "R8-120",
+       "tema": "R8",
+       "concepto": "Interferencia perjudicial: compromete la radionavegación o seguridad, o degrada gravemente o interrumpe un servicio",
+       "peso": 1,
+       "estudio": [
+        "5·2·20"
+       ],
+       "libro": [
+        "F-R8.86"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-144-1",
+       "cid": "R8-144",
+       "tema": "R8",
+       "concepto": "Licencia CEPT: todas las bandas atribuidas al servicio en el país visitado (no las del país de origen)",
+       "peso": 3,
+       "estudio": [
+        "4·2·20"
+       ],
+       "libro": [
+        "C-R8.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-20-1",
+       "cid": "R8-20",
+       "tema": "R8",
+       "concepto": "Solicitud de autorización: preferentemente por medios electrónicos, con modelo oficial",
+       "peso": 1,
+       "estudio": [
+        "5·2·22"
+       ],
+       "libro": [
+        "F-R8.29"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-26-1",
+       "cid": "R8-26",
+       "tema": "R8",
+       "concepto": "Se puede tener distintivo (autorización) sin licencia de estación; la licencia solo la necesita la estación fija",
+       "peso": 2,
+       "estudio": [
+        "3·2·20"
+       ],
+       "libro": [
+        "R8.51"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-39-1",
+       "cid": "R8-39",
+       "tema": "R8",
+       "concepto": "Potencia y duración de las emisiones limitadas a lo estrictamente necesario",
+       "peso": 1,
+       "estudio": [
+        "10·2·25"
+       ],
+       "libro": [
+        "F-R8.1"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-52-1",
+       "cid": "R8-52",
+       "tema": "R8",
+       "concepto": "Licencia fija condicionada a no perturbar otros servicios y a cumplir normas de seguridad, servidumbres, medio ambiente",
+       "peso": 1,
+       "estudio": [
+        "7·2·25"
+       ],
+       "libro": [
+        "F-R8.43"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-54-1",
+       "cid": "R8-54",
+       "tema": "R8",
+       "concepto": "Derecho a instalar la antena en el exterior: legitimación para usar el edificio + autorización administrativa",
+       "peso": 2,
+       "estudio": [
+        "4·2·24"
+       ],
+       "libro": [
+        "R8.15"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-68-1",
+       "cid": "R8-68",
+       "tema": "R8",
+       "concepto": "Usos experimentales con características distintas de las generales: requieren autorización especial",
+       "peso": 2,
+       "estudio": [
+        "3·2·23"
+       ],
+       "libro": [
+        "R8.26"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-78-1",
+       "cid": "R8-78",
+       "tema": "R8",
+       "concepto": "Estación portátil: antena y fuente de energía incorporadas, utilizable en movimiento",
+       "peso": 2,
+       "estudio": [
+        "11·2·25"
+       ],
+       "libro": [
+        "R8.44"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-08-1",
+       "cid": "R9-08",
+       "tema": "R9",
+       "concepto": "Grave: la mera producción de interferencias",
+       "peso": 3,
+       "estudio": [
+        "8·2·28"
+       ],
+       "libro": [
+        "R9.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-18-1",
+       "cid": "R9-18",
+       "tema": "R9",
+       "concepto": "Leve: emisión no autorizada, salvo que sea grave o muy grave",
+       "peso": 1,
+       "estudio": [
+        "3·2·28"
+       ],
+       "libro": [
+        "F-R9.12"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-31-1",
+       "cid": "R9-31",
+       "tema": "R9",
+       "concepto": "Titular que sabe que interfiere: medidas técnicas razonables a su costa, sin esperar requerimiento",
+       "peso": 2,
+       "estudio": [
+        "3·2·30"
+       ],
+       "libro": [
+        "R9.21"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "pruebas": [
+    {
+     "p": 1,
+     "items": [
+      {
+       "qid": "K-T2-50-1",
+       "cid": "T2-50",
+       "tema": "T2",
+       "concepto": "Elevador o reductor según el número de espiras de primario y secundario",
+       "peso": 3,
+       "estudio": [
+        "1·1·8"
+       ],
+       "libro": [
+        "C-T2.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-62-1",
+       "cid": "T2-62",
+       "tema": "T2",
+       "concepto": "Aplicación del diodo: detección (y rectificación)",
+       "peso": 2,
+       "estudio": [
+        "13·1·7"
+       ],
+       "libro": [
+        "C-T2.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-70-1",
+       "cid": "T2-70",
+       "tema": "T2",
+       "concepto": "Varicap: capacidad controlada por la tensión inversa (más tensión, menos capacidad)",
+       "peso": 2,
+       "estudio": [
+        "5·1·7"
+       ],
+       "libro": [
+        "T2.25"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T2-76-1",
+       "cid": "T2-76",
+       "tema": "T2",
+       "concepto": "Usos del transistor: amplificar, oscilar, mezclar (no rectificar ni hacer de balun)",
+       "peso": 2,
+       "estudio": [
+        "6·1·9"
+       ],
+       "libro": [
+        "C-T2.16"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-01-1",
+       "cid": "T3-01",
+       "tema": "T3",
+       "concepto": "Resistencias en serie: la corriente es la misma en todas y la caída de tensión es proporcional a cada R",
+       "peso": 3,
+       "estudio": [
+        "7·1·9"
+       ],
+       "libro": [
+        "C-T3.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-06-1",
+       "cid": "T3-06",
+       "tema": "T3",
+       "concepto": "Impedancia de un circuito RLC serie: X = XL − XC, Z = √(R² + X²) e I = V/Z",
+       "peso": 2,
+       "estudio": [
+        "12·1·10"
+       ],
+       "libro": [
+        "F-T3.36"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-40-1",
+       "cid": "T3-40",
+       "tema": "T3",
+       "concepto": "Frecuencia del rizado: 100 Hz en onda completa y 50 Hz en media onda (red de 50 Hz)",
+       "peso": 3,
+       "estudio": [
+        "9·1·11"
+       ],
+       "libro": [
+        "F-T3.7"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-59-1",
+       "cid": "T3-59",
+       "tema": "T3",
+       "concepto": "Clase AB: combinación de A y B; la de los amplificadores lineales de SSB",
+       "peso": 2,
+       "estudio": [
+        "6·1·13"
+       ],
+       "libro": [
+        "T3.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T3-97-1",
+       "cid": "T3-97",
+       "tema": "T3",
+       "concepto": "Sintetizador PLL: f_out = N·f_ref; el paso de canal es f_ref",
+       "peso": 2,
+       "estudio": [
+        "3·1·14"
+       ],
+       "libro": [
+        "F-T3.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-22-1",
+       "cid": "T4-22",
+       "tema": "T4",
+       "concepto": "Sensibilidad: captar y amplificar señales débiles",
+       "peso": 3,
+       "estudio": [
+        "6·1·15"
+       ],
+       "libro": [
+        "T4.6"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T4-28-1",
+       "cid": "T4-28",
+       "tema": "T4",
+       "concepto": "La estabilidad del receptor depende del oscilador local",
+       "peso": 2,
+       "estudio": [
+        "12·1·16"
+       ],
+       "libro": [
+        "C-T4.5"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-17-1",
+       "cid": "T5-17",
+       "tema": "T5",
+       "concepto": "FM indirecta: modulador de fase tras un oscilador a cristal (ventaja: estabilidad)",
+       "peso": 2,
+       "estudio": [
+        "1·1·17"
+       ],
+       "libro": [
+        "F-T5.13"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-18-1",
+       "cid": "T5-18",
+       "tema": "T5",
+       "concepto": "Índice de modulación de FM: m = Δf / f_m",
+       "peso": 3,
+       "estudio": [
+        "9·1·17"
+       ],
+       "libro": [
+        "T5.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T5-24-1",
+       "cid": "T5-24",
+       "tema": "T5",
+       "concepto": "Compresor: eleva la potencia media sin superar la de pico",
+       "peso": 2,
+       "estudio": [
+        "4·1·17"
+       ],
+       "libro": [
+        "T5.17"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-04-1",
+       "cid": "T7-04",
+       "tema": "T7",
+       "concepto": "La onda de superficie predomina en MF y por debajo (sus pérdidas crecen con la frecuencia)",
+       "peso": 2,
+       "estudio": [
+        "12·1·23"
+       ],
+       "libro": [
+        "T7.3"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-06-1",
+       "cid": "T7-06",
+       "tema": "T7",
+       "concepto": "HF: propagación por reflexión ionosférica, la del DX (España–Nueva Zelanda)",
+       "peso": 3,
+       "estudio": [
+        "4·1·23"
+       ],
+       "libro": [
+        "T7.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T7-08-1",
+       "cid": "T7-08",
+       "tema": "T7",
+       "concepto": "Los satélites de aficionado usan VHF y UHF (hay que atravesar la ionosfera)",
+       "peso": 2,
+       "estudio": [
+        "3·1·24"
+       ],
+       "libro": [
+        "T7.24"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-T9-07-1",
+       "cid": "T9-07",
+       "tema": "T9",
+       "concepto": "La emisión de armónicos y espurias implica riesgo de interferencias en cualquier banda",
+       "peso": 2,
+       "estudio": [
+        "7·1·28"
+       ],
+       "libro": [
+        "C-T9.4"
+       ],
+       "variante": 0
+      }
+     ]
+    },
+    {
+     "p": 2,
+     "items": [
+      {
+       "qid": "K-R1-06-1",
+       "cid": "R1-06",
+       "tema": "R1",
+       "concepto": "X X-ray, Y Yankee, Z Zulu (no «Zeta»); grafías Echo y Alfa (no Eco, Alpha)",
+       "peso": 2,
+       "estudio": [
+        "7·2·1"
+       ],
+       "libro": [
+        "R1.21"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-01-2",
+       "cid": "R2-01",
+       "tema": "R2",
+       "concepto": "QRM (interferencia de otras estaciones) frente a QRN (parásitos atmosféricos)",
+       "peso": 3,
+       "estudio": [
+        "4·2·2",
+        "8·2·2"
+       ],
+       "libro": [
+        "R2.29",
+        "R2.2"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R2-05-1",
+       "cid": "R2-05",
+       "tema": "R2",
+       "concepto": "QRV estoy dispuesto frente a QRU no tengo nada para usted",
+       "peso": 2,
+       "estudio": [
+        "11·2·3"
+       ],
+       "libro": [
+        "R2.33"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R2-28-1",
+       "cid": "R2-28",
+       "tema": "R2",
+       "concepto": "QRY ¿cuál es mi turno?",
+       "peso": 1,
+       "estudio": [
+        "9·2·3"
+       ],
+       "libro": [
+        "F-R2.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-13-1",
+       "cid": "R3-13",
+       "tema": "R3",
+       "concepto": "SSB banda lateral única",
+       "peso": 2,
+       "estudio": [
+        "7·2·5"
+       ],
+       "libro": [
+        "R3.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-26-1",
+       "cid": "R3-26",
+       "tema": "R3",
+       "concepto": "HR aquí y ES y",
+       "peso": 1,
+       "estudio": [
+        "2·2·7"
+       ],
+       "libro": [
+        "R3.28"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R3-31-1",
+       "cid": "R3-31",
+       "tema": "R3",
+       "concepto": "SRI lo siento",
+       "peso": 1,
+       "estudio": [
+        "12·2·6"
+       ],
+       "libro": [
+        "R3.38"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-02-1",
+       "cid": "R4-02",
+       "tema": "R4",
+       "concepto": "Urgencia en radiotelefonía: PAN PAN (tres veces)",
+       "peso": 3,
+       "estudio": [
+        "9·2·7"
+       ],
+       "libro": [
+        "R4.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R4-10-1",
+       "cid": "R4-10",
+       "tema": "R4",
+       "concepto": "Prioridad: seguridad < urgencia < socorro",
+       "peso": 2,
+       "estudio": [
+        "13·2·8"
+       ],
+       "libro": [
+        "R4.11"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-114-1",
+       "cid": "R8-114",
+       "tema": "R8",
+       "concepto": "Seguridad: la SETSI no es responsable en ningún caso del incumplimiento de las normas de seguridad",
+       "peso": 1,
+       "estudio": [
+        "6·2·21"
+       ],
+       "libro": [
+        "F-R8.72"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-12-1",
+       "cid": "R8-12",
+       "tema": "R8",
+       "concepto": "RD 2623/1986: reglamento de las instalaciones de antenas de aficionado",
+       "peso": 2,
+       "estudio": [
+        "6·2·22"
+       ],
+       "libro": [
+        "R8.10"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-134-1",
+       "cid": "R8-134",
+       "tema": "R8",
+       "concepto": "Banda de 40 m: 7100–7200 kHz, a título primario para aficionados en la Región 1 desde 2009",
+       "peso": 1,
+       "estudio": [
+        "12·2·19"
+       ],
+       "libro": [
+        "C-R8.48"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-140-1",
+       "cid": "R8-140",
+       "tema": "R8",
+       "concepto": "T/R 61-01 = licencia CEPT (uso temporal); T/R 61-02 = certificado HAREC",
+       "peso": 3,
+       "estudio": [
+        "2·2·20",
+        "10·2·21"
+       ],
+       "libro": [
+        "R8.3",
+        "R8.2"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-150-2",
+       "cid": "R8-150",
+       "tema": "R8",
+       "concepto": "Extranjero residente: autorización sin examen con HAREC de un país T/R 61-02 o por reciprocidad (residencia acreditada)",
+       "peso": 3,
+       "estudio": [
+        "3·2·18",
+        "11·2·19"
+       ],
+       "libro": [
+        "C-R8.20",
+        "C-R8.14"
+       ],
+       "variante": 1
+      },
+      {
+       "qid": "K-R8-24-1",
+       "cid": "R8-24",
+       "tema": "R8",
+       "concepto": "No es obligatorio ser socio de una asociación de radioaficionados",
+       "peso": 2,
+       "estudio": [
+        "3·2·19"
+       ],
+       "libro": [
+        "R8.61"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-27-1",
+       "cid": "R8-27",
+       "tema": "R8",
+       "concepto": "Extinción automática de la autorización: fallecimiento del titular o extinción de la asociación titular",
+       "peso": 1,
+       "estudio": [
+        "7·2·22"
+       ],
+       "libro": [
+        "F-R8.31"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-28-1",
+       "cid": "R8-28",
+       "tema": "R8",
+       "concepto": "Revocación de la autorización: no se puede emitir; se cancelan el distintivo y la licencia de estación fija asociada",
+       "peso": 2,
+       "estudio": [
+        "3·2·21"
+       ],
+       "libro": [
+        "C-R8.23"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-36-1",
+       "cid": "R8-36",
+       "tema": "R8",
+       "concepto": "Equipo de segunda mano sin certificado de aceptación: cumplir el anexo I, certificado por laboratorio acreditado",
+       "peso": 1,
+       "estudio": [
+        "9·2·25"
+       ],
+       "libro": [
+        "F-R8.24"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-48-1",
+       "cid": "R8-48",
+       "tema": "R8",
+       "concepto": "Modificaciones experimentales con licencia concedida: hasta 60 días sin afectar a la seguridad",
+       "peso": 1,
+       "estudio": [
+        "9·2·26"
+       ],
+       "libro": [
+        "F-R8.55"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-62-1",
+       "cid": "R8-62",
+       "tema": "R8",
+       "concepto": "Daños: los que causa la antena (instalación, conservación, desmontaje) son del titular; los que causa la propiedad a la antena, de la propiedad",
+       "peso": 2,
+       "estudio": [
+        "2·2·24"
+       ],
+       "libro": [
+        "R8.76"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R8-69-1",
+       "cid": "R8-69",
+       "tema": "R8",
+       "concepto": "Autorización especial experimental: nominativa, plazo máximo inicial de 18 meses, ampliable",
+       "peso": 2,
+       "estudio": [
+        "13·2·26"
+       ],
+       "libro": [
+        "R8.27"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-16-1",
+       "cid": "R9-16",
+       "tema": "R9",
+       "concepto": "Leve: no facilitar los datos requeridos o retrasarlos",
+       "peso": 2,
+       "estudio": [
+        "2·2·29"
+       ],
+       "libro": [
+        "R9.9"
+       ],
+       "variante": 0
+      },
+      {
+       "qid": "K-R9-32-1",
+       "cid": "R9-32",
+       "tema": "R9",
+       "concepto": "Revocación: fines comerciales sí; no tener estación no es causa",
+       "peso": 2,
+       "estudio": [
+        "12·2·30"
+       ],
+       "libro": [
+        "R9.24"
+       ],
+       "variante": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
