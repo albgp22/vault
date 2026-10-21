@@ -1,0 +1,1604 @@
+{
+ "temas": {
+  "T8": {
+   "titulo": "Medidas",
+   "alcance": "Medida de tensiones y corrientes continuas y alternas, errores e influencia de la frecuencia y de la resistencia interna del instrumento · medida de resistencia, de potencia (media y de cresta) y de ondas estacionarias · medidas de frecuencia y frecuencia de resonancia · equipos: polímetro, vatímetro de RF, medidor de ROE, frecuencímetro, osciloscopio, analizador de espectros."
+  },
+  "T9": {
+   "titulo": "Interferencia e inmunidad",
+   "alcance": "Interferencia en equipos electrónicos y compatibilidad electromagnética · bloqueo, intermodulación y detección en circuitos de audio · causas: intensidad de campo, emisiones no esenciales y fuera de banda, acoplo por antena, por líneas o por radiación directa · medidas correctoras: filtrado, desacoplo y apantallamiento."
+  },
+  "T10": {
+   "titulo": "Seguridad",
+   "alcance": "Precauciones frente a accidentes eléctricos en la estación · protecciones generales y de los equipos · protección contra contactos de las personas · puesta a tierra · disposición de antenas y líneas de alimentación · protección contra descargas atmosféricas."
+  }
+ },
+ "preguntas": [
+  {
+   "id": "C-T8.1",
+   "clave": "d",
+   "enunciado": "En la realización de medidas, usando un polímetro, indique la respuesta correcta:",
+   "opciones": [
+    "para medidas de tensión, se conectan las puntas de prueba en serie con el elemento en el que\ndeseamos medir la tensión",
+    "para medidas de corriente, se conectan las puntas de prueba en paralelo con el elemento a través\ndel cual circula la corriente que deseamos medir",
+    "para medidas de resistencia, se conectan las puntas de prueba en serie con la resistencia que\ndeseamos medir",
+    "ninguna de las respuestas anteriores es correcta"
+   ],
+   "sol": "\n    Las tres afirmaciones están al revés. La tensión se mide con las puntas en #emph[paralelo] con\n    el elemento. La corriente se mide en #emph[serie]: se abre el circuito y se intercala el\n    polímetro (en paralelo sería un cortocircuito casi directo). La resistencia se mide con el\n    componente aislado y sin tensión, con las puntas aplicadas a sus terminales, es decir, en\n    paralelo con ella y no en serie. Como las tres son falsas, la correcta es «ninguna de las\n    anteriores». #vease[(Véase tema T8, sección «Técnica de medida».)]\n    #no-esta[En la función de óhmetro, el polímetro inyecta por las puntas una pequeña corriente propia y\n    mide la tensión resultante. Por eso las puntas van en los dos extremos de la resistencia (en\n    paralelo con ella), con el componente fuera de tensión y, si está en un circuito, con al menos\n    un extremo desconectado; si no, circula corriente de otros componentes y la lectura se falsea.\n    Resumen: voltímetro en paralelo, amperímetro en serie, óhmetro en paralelo y sin tensión.]\n  "
+  },
+  {
+   "id": "C-T8.2",
+   "clave": "c",
+   "enunciado": "Una resistencia en #emph[shunt] irá colocada:",
+   "opciones": [
+    "en serie",
+    "en mixto con otra en serie",
+    "en paralelo",
+    "nunca podrá conectarse una resistencia en #emph[shunt]"
+   ],
+   "sol": "\n    #emph[Shunt] significa derivación: una resistencia #emph[shunt] se conecta en paralelo con otro\n    elemento (por ejemplo, con un amperímetro) y desvía por ella parte de la corriente. Por eso, si\n    se pregunta qué indica un shunt, la respuesta es «una resistencia en paralelo con otro\n    elemento». En serie no derivaría nada, solo limitaría la corriente; la conexión mixta no define\n    un shunt; y sí puede conectarse: es el montaje habitual para ampliar el alcance de un\n    amperímetro. #vease[(Véase tema T8, sección «Técnica de medida».)]\n  "
+  },
+  {
+   "id": "C-T8.3",
+   "clave": "a",
+   "enunciado": "La unidad dBm corresponde a la magnitud:",
+   "opciones": [
+    "potencia",
+    "frecuencia",
+    "tensión",
+    "intensidad"
+   ],
+   "sol": "\n    El dBm es el decibelio referido a 1 mW: $P (\"dBm\") = 10 log_10 P / (1 \"mW\")$. Es, pues, una\n    unidad de potencia (1 mW = 0 dBm; 1 W = 30 dBm). La frecuencia se mide en hercios y la\n    intensidad en amperios; la tensión, si se expresa en decibelios, va en dBV o dBμV, no en dBm.\n    #vease[(Véase tema T8, sección «Técnica de medida».)]\n  "
+  },
+  {
+   "id": "C-T8.4",
+   "clave": "c",
+   "enunciado": "Para realizar medidas de intensidad de campo radiado por una antena se emplea:",
+   "opciones": [
+    "un medidor de ondas estacionarias",
+    "un frecuencímetro",
+    "un medidor de campo",
+    "un acoplador de antenas"
+   ],
+   "sol": "\n    La intensidad del campo radiado (en V/m o dBμV/m) se mide con un medidor de campo, un receptor\n    calibrado con su antena de medida. El medidor de ondas estacionarias compara la potencia directa\n    y la reflejada en la línea y mide la desadaptación de la antena; el frecuencímetro mide\n    frecuencia; el acoplador de antenas adapta impedancias y no mide nada. #vease[(Véase tema T8,\n    sección «Instrumentos».)]\n  "
+  },
+  {
+   "id": "C-T8.5",
+   "clave": "c",
+   "enunciado": "Si queremos medir corrientes continuas con un amperímetro cuyo alcance máximo es inferior a las\ncorrientes a medir, tendremos que:",
+   "opciones": [
+    "poner una resistencia en serie",
+    "poner un condensador en serie",
+    "poner una resistencia en paralelo",
+    "no se puede utilizar"
+   ],
+   "sol": "\n    Se pone una resistencia #emph[shunt] en paralelo con el amperímetro: desvía la mayor parte de la\n    corriente y deja pasar por el aparato solo una fracción conocida. Ejemplo: un instrumento de 1\n    mA y 100 Ω con un shunt de 100/9 ≈ 11,1 Ω mide hasta 10 mA (1 mA por el instrumento y 9 mA por\n    el shunt). Una resistencia en serie no amplía nada: toda la corriente sigue pasando por el\n    instrumento. Un condensador en serie bloquearía la corriente continua. Y sí puede utilizarse,\n    con el shunt. #vease[(Véase tema T8, sección «Técnica de medida».)]\n  "
+  },
+  {
+   "id": "C-T8.6",
+   "clave": "c",
+   "enunciado": "Un medidor «S» típico evalúa la intensidad de señal de entrada a un receptor en:",
+   "opciones": [
+    "microamperios",
+    "milivatios",
+    "microvoltios",
+    "microohmios"
+   ],
+   "sol": "\n    El S-meter mide el nivel de la señal a la entrada del receptor y su escala está referida a la\n    tensión en la antena: S9 = 50 μV sobre 50 Ω (HF), y cada punto S es la mitad (6 dB). Su unidad\n    de referencia es, pues, el microvoltio. Aunque el nivel se pueda traducir a potencia (S9 = −73\n    dBm), no se expresa en milivatios; los microamperios no son la magnitud de referencia; y los\n    microohmios son una resistencia, no un nivel de señal. #vease[(Véase tema T4, sección\n    «Características y controles».)]\n  "
+  },
+  {
+   "id": "C-T8.7",
+   "clave": "c",
+   "enunciado": "El amperímetro de antena es del tipo:",
+   "opciones": [
+    "de cuadro móvil",
+    "de hierro móvil",
+    "de radiofrecuencia",
+    "de rectificador de selenio"
+   ],
+   "sol": "\n    El amperímetro de antena mide la corriente de radiofrecuencia y debe ser, por tanto, un\n    instrumento de RF (normalmente térmico). El de cuadro móvil solo mide continua; el de hierro\n    móvil está pensado para alterna de 50 Hz y a RF la reactancia de su bobina lo inutiliza; y el\n    rectificador de selenio tiene demasiada capacidad parásita y solo sirve en baja frecuencia.\n    #no-esta[El amperímetro de antena se intercala en la base de la antena o en la línea para medir la\n    corriente de radiofrecuencia, de la que se deduce la potencia radiada ($P = I^2R$) y se\n    comprueba el ajuste del acoplo. Los instrumentos de RF son térmicos (termopar o hilo caliente):\n    la corriente calienta un elemento y se mide el calor, de modo que la lectura, en valor eficaz,\n    no depende de la frecuencia.]\n  "
+  },
+  {
+   "id": "C-T8.8",
+   "clave": "a",
+   "enunciado": "Di qué sentencia #strong[no] es cierta:",
+   "opciones": [
+    "en un equipo de emisión se suele monitorizar la potencia transmitida y los decibelios con un\nS-meter",
+    "en un equipo de emisión se suele monitorizar la potencia transmitida y el nivel de compresión\naplicado sobre la señal moduladora antes de que esta module a la portadora",
+    "en un equipo de emisión se suele monitorizar la potencia transmitida y la ROE",
+    "en un equipo de emisión se suele monitorizar la potencia transmitida y el consumo de la unidad"
+   ],
+   "sol": "\n    El S-meter es un instrumento de recepción: su escala de puntos S y de decibelios sobre S9\n    describe el nivel de las señales recibidas, no algo que se monitorice en emisión. En un\n    transmisor sí se vigilan, junto a la potencia, la ROE (adaptación de la antena), el nivel de\n    compresión del procesador de audio (antes de modular) y el consumo de corriente. Por eso la\n    falsa es la a). #vease[(Véase tema T4, sección «Características y controles».)]\n  "
+  },
+  {
+   "id": "C-T8.9",
+   "clave": "c",
+   "enunciado": "Una señal de radio que se recibe con indicación S9 en el S-meter corresponde a un voltaje rms\nsobre los 50 Ω del terminal de antena de:",
+   "opciones": [
+    "1 μV",
+    "100 dBμV",
+    "50 μV",
+    "1 mV"
+   ],
+   "sol": "\n    El convenio de la IARU para HF fija S9 = 50 μV rms sobre 50 Ω, que equivale a 34 dBμV y a −73\n    dBm: $P = (50 · 10^(−6))^2 slash 50 = 5 · 10^(−11)$ W. Cada punto S son 6 dB, es decir, el doble\n    o la mitad de tensión. 1 μV queda unos 34 dB por debajo de S9 (algo más de S3); 1 mV es S9 + 26\n    dB; y 100 dBμV son 0,1 V, unos 66 dB sobre S9. #vease[(Véase tema T4, sección «Características y\n    controles».)]\n  "
+  },
+  {
+   "id": "C-T8.10",
+   "clave": "c",
+   "enunciado": "Para medir la tensión (diferencia de potencial) eléctrica se emplea:",
+   "opciones": [
+    "un amperímetro",
+    "un óhmetro",
+    "un voltímetro",
+    "un vatímetro"
+   ],
+   "sol": "\n    La tensión o diferencia de potencial se mide en voltios con un voltímetro, conectado en paralelo\n    con el elemento. El amperímetro mide corriente (amperios), el óhmetro resistencia (ohmios) y el\n    vatímetro potencia (vatios). #vease[(Véase tema T8, sección «Técnica de medida».)]\n  "
+  },
+  {
+   "id": "C-T8.11",
+   "clave": "a",
+   "enunciado": "Para medir la corriente eléctrica se emplea:",
+   "opciones": [
+    "un amperímetro",
+    "un óhmetro",
+    "un vatímetro",
+    "un voltímetro"
+   ],
+   "sol": "\n    La corriente se mide en amperios con un amperímetro, intercalado en serie para que toda la\n    corriente lo atraviese. El óhmetro mide resistencia, el vatímetro potencia y el voltímetro\n    tensión. #vease[(Véase tema T8, sección «Técnica de medida».)]\n  "
+  },
+  {
+   "id": "C-T8.12",
+   "clave": "a",
+   "enunciado": "Para medir la potencia disipada en la resistencia del circuito de la figura, se deben seleccionar:\n    #circuito(caption: none)[\n      #_apb1-pot\n    ]",
+   "opciones": [
+    "Los conmutadores en la posición 1.",
+    "Los conmutadores en la posición 2.",
+    "Los conmutadores en la posición 1 ó 2, las dos posiciones son válidas.",
+    "Ninguna de las anteriores, ya que la potencia solo se puede medir con un vatímetro."
+   ],
+   "sol": "\n    En continua la potencia se mide de forma indirecta, $P = V · I$: hace falta el amperímetro en\n    serie con $R$ y el voltímetro en paralelo con ella. El conmutador de la izquierda en 1 pone el\n    amperímetro en serie con la fuente y la resistencia (en 2 pondría el voltímetro, que casi no\n    deja pasar corriente). El de la derecha en 1 pone el voltímetro en paralelo con $R$ (en 2\n    pondría ahí el amperímetro, que la dejaría en cortocircuito). Solo vale, pues, la posición 1 en\n    ambos; y no hace falta vatímetro, porque basta multiplicar las dos lecturas. #vease[(Véase tema\n    T8, sección «Técnica de medida» (y $P = V I$ en el tema T1, sección «Unidades y leyes\n    fundamentales»).)]\n  ",
+   "figura": true
+  },
+  {
+   "id": "C-T9.1",
+   "clave": "d",
+   "enunciado": "Los medios más comunes para proteger de interferencias a un receptor son:",
+   "opciones": [
+    "Sobremodular la señal de entrada.",
+    "Transformadores de tensión.",
+    "Altavoces de alta impedancia.",
+    "Tomas de tierra y condensadores."
+   ],
+   "sol": "\n    Los remedios habituales para que la radiofrecuencia y los ruidos de la red no perturben a un\n    receptor son la toma de tierra y los condensadores: la tierra descarga a masa las corrientes de\n    RF inducidas en chasis y cables, y los condensadores de desacoplo desvían esa RF sin afectar a\n    la señal útil. Sobremodular no protege de nada: solo deforma la señal. Los transformadores de\n    tensión no sirven para este cometido, y el tipo de altavoz es irrelevante, porque la\n    interferencia entra antes de llegar a él. #vease[(Véase tema T9, sección «Medidas\n    correctoras».)]\n  "
+  },
+  {
+   "id": "C-T9.2",
+   "clave": "b",
+   "enunciado": "¿Cómo se puede eliminar una interferencia generada por la fuente de alimentación de un transmisor?",
+   "opciones": [
+    "Elevando el nivel de Squelch.",
+    "Colocando un filtro apropiado.",
+    "Poniendo una etapa adicional de potencia.",
+    "Suprimiendo la portadora."
+   ],
+   "sol": "\n    La fuente de alimentación, sobre todo si es conmutada, puede generar ruido de radiofrecuencia y\n    armónicos que salen por los cables y se cuelan en otros equipos. Se combate cortando el camino\n    de acoplo: un filtro apropiado (filtro de línea, condensadores y ferritas en los cables de\n    alimentación) deja pasar la corriente de la red o la continua y detiene la RF. El Squelch es un\n    ajuste del receptor y no actúa sobre un transmisor; una etapa de potencia adicional amplifica\n    también la interferencia, y suprimir la portadora no elimina el ruido de la fuente.\n    #vease[(Véase tema T9, sección «Medidas correctoras».)]\n  "
+  },
+  {
+   "id": "C-T9.3",
+   "clave": "d",
+   "enunciado": "Para evitar interferencias en los altavoces de un equipo de baja frecuencia, se debe:",
+   "opciones": [
+    "Utilizar para su conexión cable de igual longitud de onda que la señal interferente.",
+    "Conectar a masa los terminales del altavoz.",
+    "Conectar un diodo detector entre los terminales del altavoz.",
+    "Utilizar para su conexión cable blindado."
+   ],
+   "sol": "\n    El cable del altavoz se comporta como una antena: capta radiofrecuencia y el amplificador la\n    detecta, de modo que la voz del transmisor sale por el altavoz. El remedio es el\n    apantallamiento: un cable blindado lleva una malla metálica alrededor de los conductores que\n    desvía a masa la RF inducida antes de que llegue a la señal de audio. Un cable de longitud igual\n    a la longitud de onda de la interferencia haría lo contrario: sería una antena eficaz para ella.\n    Poner a masa los terminales cortocircuitaría la salida de audio, y un diodo detector entre ellos\n    distorsionaría la señal. #vease[(Véase tema T9, sección «Medidas correctoras».)]\n    #no-esta[Un cable blindado (o apantallado) lleva, alrededor de sus conductores, una malla o cinta\n    metálica conectada a masa. Esa pantalla actúa como una jaula de Faraday alargada: la RF exterior\n    induce corriente en la malla y se descarga a masa sin alcanzar el conductor interior, y a la\n    inversa el cable tampoco radia. Es la misma idea de apantallar una caja, aplicada a los cables.\n    Un cable sin pantalla, como el del altavoz, es una antena que recoge la interferencia y la\n    introduce en el circuito de audio.]\n  "
+  },
+  {
+   "id": "C-T9.4",
+   "clave": "c",
+   "enunciado": "La emisión de señales armónicas y espurias:",
+   "opciones": [
+    "Disminuye la posible producción de interferencias.",
+    "Es necesaria en las bandas de HF.",
+    "Implica la posible producción de interferencias.",
+    "Solo hay que tenerla en cuenta en las bandas de VHF y superiores."
+   ],
+   "sol": "\n    Los armónicos (múltiplos enteros de la fundamental) y las emisiones espurias son energía radiada\n    fuera de la anchura de banda necesaria, que no aporta nada a la comunicación y puede caer sobre\n    otro servicio. Por ejemplo, el tercer armónico de 29,5 MHz es 88,5 MHz, en plena banda de\n    radiodifusión FM. Por eso implican riesgo de interferencia en cualquier banda, HF incluida: no\n    son necesarias ni deseables en ninguna y se atenúan siempre con un filtro paso bajo a la salida\n    del transmisor. La Orden IET/1311/2013 limita su nivel (anexo I, punto 4.1). #vease[(Véase tema\n    T9, sección «Causas de interferencia».)]\n  "
+  },
+  {
+   "id": "C-T10.1",
+   "clave": "a",
+   "enunciado": "Es recomendable ante la previsión de una tormenta:",
+   "opciones": [
+    "Desconectar los cables de bajada de antena.",
+    "Proteger los cables con un fusible apropiado.",
+    "Conectar la red eléctrica a la toma de tierra.",
+    "Desconectar las antenas y la toma de tierra."
+   ],
+   "sol": "\n    El mástil y la antena atraen el rayo y la sobretensión puede bajar por el cable hasta el equipo\n    y la vivienda. Por eso, ante una tormenta se desconectan las bajadas de antena del transceptor\n    (y conviene desenchufar también el equipo de la red). La toma de tierra del mástil y de los\n    soportes, en cambio, nunca se desconecta: es la vía por la que debe descargarse el rayo, y esa\n    es la trampa de la opción d. Un fusible no protege ante un rayo, y conectar la red eléctrica a\n    tierra provocaría un cortocircuito y haría saltar el diferencial. #vease[(Véase tema T10,\n    introducción (riesgo atmosférico).)]\n  "
+  },
+  {
+   "id": "C-T10.2",
+   "clave": "a",
+   "enunciado": "De los siguientes elementos, indicar cuáles de ellos se consideran como de protección personal:",
+   "opciones": [
+    "Guantes de goma.",
+    "Fusibles calibrados.",
+    "Fusibles sin calibrar.",
+    "Interruptores automáticos."
+   ],
+   "sol": "\n    El banco da como clave «Interruptores automáticos», pero no se sostiene. Un elemento de\n    protección personal es el que usa la propia persona para aislarse de la corriente: el ejemplo\n    claro son los guantes de goma (aislantes). Los fusibles, calibrados o no, y los interruptores\n    automáticos (magnetotérmicos) protegen la instalación y los equipos frente a sobreintensidades,\n    no a la persona. Es posible que el banco pensase en el interruptor diferencial, que sí protege a\n    las personas de los contactos indirectos, pero sin ese apellido «interruptores automáticos» son\n    los magnetotérmicos. #vease[(Véase tema T10, sección «Fusibles y protecciones».)]\n    #no-esta[Se llaman equipos de protección individual (EPI) los que lleva puestos o utiliza la persona para\n    protegerse directamente de un riesgo. En electricidad son los guantes aislantes de goma, el\n    calzado aislante, las alfombrillas o banquetas aislantes, el casco y las gafas. No hay que\n    confundirlos con las protecciones de la instalación (fusible y magnetotérmico, que vigilan la\n    intensidad del circuito) ni con el diferencial, que desconecta la red ante una fuga. Los guantes\n    se revisan antes de usarlos: un agujero o una grieta los inutiliza.]\n    #_apb1-clave[«Interruptores automáticos». Es la clave que dan las recopilaciones de exámenes reales\n    (2007–2011): conviene conocerla por si aparece idéntica en el examen, aunque la respuesta\n    razonada arriba sea la técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T10.3",
+   "clave": "a",
+   "enunciado": "En caso de incendio producido por electricidad:",
+   "opciones": [
+    "No se debe aplicar el chorro del extintor a los conductores de alta tensión.",
+    "Habrá que utilizar «espuma» en vez de agua.",
+    "Se cortarán los cables incendiados.",
+    "No se tomará ninguna medida hasta la llegada de los bomberos."
+   ],
+   "sol": "\n    El banco da por buena la b, pero es errónea: la espuma de un extintor es una disolución acuosa y\n    conduce la electricidad casi como el agua, así que dirigirla contra conductores en tensión puede\n    electrocutar a quien la aplica. Ante un incendio de origen eléctrico, lo primero es cortar la\n    corriente en el interruptor general y después emplear un extintor apto (CO#sub[2] o polvo). La\n    única afirmación cierta es la a: el chorro del extintor no debe dirigirse a conductores de alta\n    tensión, porque puede cerrar el circuito a través del usuario. Cortar los cables en llamas\n    expone a partes en tensión, y esperar sin actuar deja crecer el fuego.\n    #no-esta[Pasos ante un incendio en una instalación o equipo eléctrico: 1) cortar la corriente en el\n    interruptor general, no cortando cables; 2) emplear un extintor apto para fuego eléctrico, de\n    dióxido de carbono (CO#sub[2]) o de polvo; 3) no usar nunca agua ni espuma mientras pueda haber\n    tensión, porque ambas conducen la corriente; 4) avisar a los bomberos; 5) mantenerse lejos de\n    conductores de alta tensión caídos o en llamas, que no se combaten con un extintor.]\n    #_apb1-clave[«Habrá que utiliza ”espuma” en vez de agua». Es la clave que dan las recopilaciones de exámenes\n    reales (2007–2011): conviene conocerla por si aparece idéntica en el examen, aunque la respuesta\n    razonada arriba sea la técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T10.4",
+   "clave": "d",
+   "enunciado": "En cuanto a los rotores de las antenas directivas:",
+   "opciones": [
+    "Cuando se pone un rotor ya no es posible poner vientos a la torreta o mástil.",
+    "En caso de caída de rayo, el rotor aísla a la torreta o mástil del mismo.",
+    "Se montan en la parte inferior del mástil o torreta para poder ser reparado o reemplazado con\nfacilidad.",
+    "Por su tamaño y esfuerzo, se montan preferentemente en torretas."
+   ],
+   "sol": "\n    Un rotor debe soportar el peso de la antena directiva, el empuje del viento y el par de giro;\n    los rotores grandes y pesados encajan mejor en una torreta que en un mástil delgado, y por eso\n    se montan preferentemente en torretas. Las otras son falsas: por debajo del rotor sí se colocan\n    vientos (lo que no puede atarse es la parte superior, que gira); el rotor no aísla del rayo y\n    probablemente resulte dañado; y se instala lo más cerca posible de la antena, no en la base.\n    #no-esta[El rotor es el motor que hace girar una antena directiva. Se instala lo más cerca posible de la\n    antena y debe dimensionarse para su peso, el empuje del viento y el par que soporta: los\n    grandes, con antenas pesadas, se alojan en torretas y los pequeños en mástiles. Los vientos se\n    atan al mástil por debajo del rotor, nunca por encima, porque esa parte gira. El cable de\n    control del rotor va protegido y separado de la línea de RF. El rotor no sirve de aislante ni de\n    protección frente al rayo.]\n  "
+  },
+  {
+   "id": "C-T10.5",
+   "clave": "b",
+   "enunciado": "Un interruptor diferencial actúa cuando en el circuito que protege:",
+   "opciones": [
+    "Se produce un cortocircuito.",
+    "Se produce una derivación a tierra.",
+    "Se produce una sobremodulación.",
+    "Se aumenta la potencia."
+   ],
+   "sol": "\n    El diferencial compara la corriente que entra por la fase con la que vuelve por el neutro. Si\n    hay una derivación a tierra (por un aislamiento defectuoso o a través de una persona), parte de\n    la corriente vuelve por tierra y no por el neutro: ida y retorno dejan de ser iguales y el\n    aparato corta. En un cortocircuito entre fase y neutro, en cambio, toda la corriente vuelve por\n    el neutro, ida y retorno siguen siendo iguales y el diferencial no lo detecta: de eso se encarga\n    el magnetotérmico. La sobremodulación es un fenómeno de radiofrecuencia y un aumento de potencia\n    no desequilibra ida y retorno. #vease[(Véase tema T10, sección «Fusibles y protecciones».)]\n  "
+  },
+  {
+   "id": "C-T10.6",
+   "clave": "c",
+   "enunciado": "En relación a las tomas de tierra, una de las siguientes expresiones NO es correcta. ¿Cuál?",
+   "opciones": [
+    "Nunca se deben hacer sobre cables coaxiales.",
+    "No debemos emplear las instalaciones de gas ni de calefacción.",
+    "Deben hacerse en sitios donde dé el sol, para así evitar los efectos perniciosos de la humedad.",
+    "No debemos valernos de las conducciones de agua para hacerlas."
+   ],
+   "sol": "\n    La falsa es la c: la toma de tierra se entierra en terreno húmedo, porque la humedad reduce la\n    resistencia del terreno y mejora la derivación de corrientes; un suelo seco y soleado la\n    empeora. Las demás son ciertas: no se aprovechan las instalaciones de gas ni de calefacción ni\n    las tuberías de agua como toma de tierra (peligro de tensión en otras partes de la instalación\n    y, en el gas, de chispa y explosión), ni se hace la tierra sobre un cable coaxial, cuya malla es\n    la vía de retorno de la señal de RF y no un electrodo. #vease[(Véase tema T10, introducción\n    (puesta a tierra).)]\n    #no-esta[La toma de tierra es un electrodo (pica, placa o cable enterrado) que pone a potencial de tierra\n    los chasis de los equipos, y debe tener muy poca resistencia: por eso se entierra en terreno\n    húmedo y profundo, no en suelo seco. Los reglamentos de baja tensión prohíben usar como tierra\n    las canalizaciones de agua, gas o calefacción: una chispa puede inflamar el gas, la tensión de\n    fuga llegaría a otras personas y los tramos de plástico cortan la continuidad. Tampoco vale el\n    coaxial. Lo correcto es una pica propia o la tierra del edificio, si está en buen estado.]\n  "
+  },
+  {
+   "id": "C-T10.7",
+   "clave": "c",
+   "enunciado": "En relación con las medidas a adoptar en trabajos de instalaciones de equipos y antenas, una de\nlas siguientes medidas NO es correcta. Señálela:",
+   "opciones": [
+    "Se ha de evitar el uso de aparatos móviles de luz en locales húmedos.",
+    "Si se tienen las manos mojadas, se han de incrementar las precauciones.",
+    "El cruzamiento de los conductores de línea de la red eléctrica no debe preocuparnos en absoluto.",
+    "Si hemos de instalar conductores, se ha de emplear caucho vulcanizado con protección de algodón\ny material aislante."
+   ],
+   "sol": "\n    La falsa es la c: el cruce o contacto entre conductores de la red, o de estos con un cable de\n    antena, sí debe preocuparnos, porque puede causar cortocircuitos y tensiones peligrosas; hay que\n    evitarlo y mantener las distancias. Las otras son prudentes: las lámparas portátiles en locales\n    húmedos favorecen derivaciones eléctricas; con las manos mojadas baja la resistencia de la piel\n    y crece el riesgo de electrocución; y los conductores deben llevar buen aislamiento para evitar\n    cortocircuitos (la fórmula del caucho vulcanizado con algodón es de instalaciones antiguas).\n    #no-esta[Reglas de sentido común al instalar equipos y antenas. Humedad: el agua y la piel mojada reducen\n    mucho la resistencia del cuerpo, así que en locales húmedos se evitan las lámparas portátiles\n    alimentadas de la red y nunca se trabaja con las manos mojadas. Conductores: con aislamiento\n    adecuado y en buen estado, sin empalmes al aire. Cruces y contactos: los conductores de la red\n    no deben cruzarse ni tocarse entre sí ni con el cable de antena, y la antena se mantiene lejos\n    de las líneas eléctricas aéreas, a una distancia mayor que la altura de mástil y antena.]\n  "
+  },
+  {
+   "id": "C-T10.8",
+   "clave": "a",
+   "enunciado": "Señale la conexión correcta entre los chasis metálicos de los equipos:",
+   "opciones": [
+    "#_apb1-chasis({\n      import cetz.draw: *\n      line((7.6, -0.75), (7.6, -1.3), stroke: 0.6pt)\n      circle((7.6, -0.75), radius: 0.03, fill: black, stroke: none)\n      line((7.2, -1.3), (8.0, -1.3), stroke: 1.2pt)\n      line((7.3, -1.45), (7.9, -1.45), stroke: 1.0pt)\n      line((7.4, -1.6), (7.8, -1.6), stroke: 0.8pt)\n      content((8.7, -1.45), text(size: 6.6pt, fill: col.gris)[tierra])\n    }, grueso: false)",
+    "#_apb1-chasis({\n      import cetz.draw: *\n      content((-0.9, -1.1), align(center, text(size: 6.6pt, fill: col.gris)[230 V\\ (fase)]))\n    })",
+    "#_apb1-chasis({\n      import cetz.draw: *\n      content((-0.9, -1.1), align(center, text(size: 6.6pt, fill: col.gris)[230 V\\ (neutro)]))\n    })",
+    "#_apb1-chasis({\n      import cetz.draw: *\n      content((-0.9, -1.1), align(center, text(size: 6.6pt, fill: col.gris)[+12 V\\ CC]))\n    })"
+   ],
+   "sol": "\n    Los chasis metálicos de todos los equipos (transceptor, medidor de ROE y acoplador) se unen\n    entre sí por una barra común, y esa barra va a la toma de tierra de la estación: es el esquema\n    a). Así, si un aislamiento falla, la fuga se deriva a tierra y las carcasas no quedan con\n    tensión. Las demás figuras unen la barra de chasis a un conductor activo: a la fase de la red\n    (b), que dejaría todas las carcasas a 230 V; al neutro (c), que no es una tierra: por él circula\n    la corriente de retorno y puede quedar con tensión; o al positivo de la alimentación de 12 V de\n    continua (d), que tampoco es una tierra. #vease[(Véase tema T10, apertura del capítulo («puesta\n    a tierra») y pregunta sobre la toma de tierra de la estación.)]\n  "
+  },
+  {
+   "id": "F-T8.1",
+   "clave": "d",
+   "enunciado": "Un frecuencímetro digital cuenta los ciclos de la señal durante un tiempo de puerta de 0,1 s. Su resolución es de:",
+   "opciones": [
+    "100 Hz",
+    "1 Hz",
+    "0,1 Hz",
+    "10 Hz"
+   ],
+   "sol": "La resolución de un frecuencímetro es el inverso del tiempo de puerta, porque solo distingue ciclos enteros dentro de esa ventana: 1/0,1 s = 10 Hz. Con 1 s de puerta sería 1 Hz (b) y con 10 s, 0,1 Hz (c): más tiempo de puerta, más resolución, aunque la medida tarda más. Con 0,1 s se cuentan menos ciclos y se resuelve peor. Resultados como 100 Hz (a) salen de errar una potencia de diez al invertir. #vease[(Véase tema T8, sección «Instrumentos».)]"
+  },
+  {
+   "id": "F-T8.2",
+   "clave": "c",
+   "enunciado": "En un osciloscopio con la base de tiempos ajustada a 0,5 ms/div, un ciclo completo de la señal ocupa 4 divisiones horizontales. Su frecuencia es de:",
+   "opciones": [
+    "2 kHz",
+    "250 Hz",
+    "500 Hz",
+    "8 kHz"
+   ],
+   "sol": "El período es $T = 4 \"div\" times 0,5 \"ms/div\" = 2 \"ms\"$, y la frecuencia es su inversa: $f = 1 slash T = 1 slash 0,002 \"s\" = 500$ Hz. Usar solo la base de tiempos, 1/0,5 ms = 2 kHz (a), olvida multiplicar por las divisiones; 4/0,5 ms = 8 kHz (d) multiplica en lugar de dividir; y 250 Hz (b) correspondería a un ciclo de 8 divisiones, no de 4. #vease[(Véase tema T8, sección «Instrumentos».)] #no-esta[En la pantalla del osciloscopio el eje horizontal es el tiempo, y cada división (div) de la cuadrícula equivale a un valor que se fija con la base de tiempos, en ms/div. Para hallar el período se cuentan las divisiones que ocupa un ciclo y se multiplican por ese valor: $T = \"divisiones\" times \"base de tiempos\"$. La frecuencia es la inversa del período, $f = 1 slash T$.]"
+  },
+  {
+   "id": "F-T8.3",
+   "clave": "a",
+   "enunciado": "Con la sensibilidad vertical de un osciloscopio ajustada a 2 V/div, una sinusoide ocupa 6 divisiones de pico a pico. Su tensión de pico a pico es de:",
+   "opciones": [
+    "12 V",
+    "3 V",
+    "6 V",
+    "24 V"
+   ],
+   "sol": "La sensibilidad vertical es la tensión que corresponde a cada división, de modo que $V_\"pp\" = 6 \"div\" times 2 \"V/div\" = 12$ V. El valor de pico sería la mitad, 6 V (c). Los 3 V (b) resultan de dividir el número de divisiones entre la sensibilidad en lugar de multiplicar, y los 24 V (d) duplican otra vez el resultado al confundir el pico con el pico a pico. #vease[(Véase tema T8, sección «Instrumentos».)] #no-esta[El eje vertical del osciloscopio mide tensión, y cada división equivale a un valor que se fija con la sensibilidad vertical, en V/div. Para leer la tensión se cuentan las divisiones que ocupa la señal y se multiplican por ese valor. Medida de pico a pico da $V_\"pp\"$; la mitad es el valor de pico $V_\"p\"$, y en una sinusoide el valor eficaz es $V_\"p\" slash sqrt(2)$.]"
+  },
+  {
+   "id": "F-T8.4",
+   "clave": "d",
+   "enunciado": "Con la sensibilidad vertical de un osciloscopio en 1 V/div, una sinusoide ocupa 4 divisiones de pico a pico. Su valor eficaz es aproximadamente de:",
+   "opciones": [
+    "4 V",
+    "2 V",
+    "2,83 V",
+    "1,41 V"
+   ],
+   "sol": "Primero el pico a pico: $V_\"pp\" = 4 \"div\" times 1 \"V/div\" = 4$ V. El valor de pico es la mitad, $V_\"p\" = 2$ V, y el eficaz de una sinusoide es $V_\"p\" slash sqrt(2) = 2 slash 1,414 approx 1,41$ V. Los 4 V (a) son el pico a pico y los 2 V (b), el pico. Los 2,83 V (c) salen de dividir el pico a pico entre $sqrt(2)$, olvidando pasar antes de pico a pico a pico. #vease[(Véase tema T8, sección «Instrumentos».)] #no-esta[En el eje vertical del osciloscopio, cada división equivale a un valor fijado con la sensibilidad vertical, en V/div: la tensión leída es el número de divisiones por ese valor. Si se mide de pico a pico se obtiene $V_\"pp\"$; el valor de pico es $V_\"p\" = V_\"pp\" slash 2$, y el valor eficaz de una sinusoide es $V_\"ef\" = V_\"p\" slash sqrt(2) approx 0,707 V_\"p\"$.]"
+  },
+  {
+   "id": "F-T8.5",
+   "clave": "b",
+   "enunciado": "Un analizador de espectros, a diferencia de un osciloscopio, muestra en pantalla:",
+   "opciones": [
+    "la tensión instantánea de la señal en función del tiempo, es decir, su forma de onda",
+    "el nivel de cada componente de la señal (portadora, bandas laterales, armónicos) en función de su frecuencia",
+    "la ROE de la antena en función de la longitud de la línea",
+    "la resistencia y la capacidad de los componentes conectados a su entrada"
+   ],
+   "sol": "El analizador trabaja en el dominio de la frecuencia: descompone la señal y dibuja el nivel de cada componente (portadora, bandas laterales, armónicos, espurias) en su frecuencia. El osciloscopio trabaja en el dominio del tiempo y muestra la tensión instantánea, la forma de onda (a), que no separa con claridad los armónicos. La ROE (c) la mide un medidor de ROE o un vatímetro direccional, y la resistencia de un componente (d), un óhmetro o un puente. #vease[(Véase tema T8, sección «Instrumentos».)]"
+  },
+  {
+   "id": "F-T8.6",
+   "clave": "c",
+   "enunciado": "Para medir el nivel de los armónicos y de las emisiones espurias de un transmisor se utiliza:",
+   "opciones": [
+    "un vatímetro direccional",
+    "un frecuencímetro",
+    "un analizador de espectros",
+    "un polímetro en la escala de tensión alterna"
+   ],
+   "sol": "Un armónico es una componente cuya frecuencia es múltiplo de la fundamental. El analizador de espectros dibuja cada componente en su frecuencia, con su nivel respecto de la portadora, y permite comprobar que armónicos y espurias quedan dentro de los límites. El vatímetro direccional (a) mide la potencia directa y reflejada de toda la señal, sin separar componentes. El frecuencímetro (b) cuenta ciclos y da la frecuencia de la portadora, no el nivel de los armónicos. El polímetro (d) no responde en radiofrecuencia. #vease[(Véase tema T8, sección «Instrumentos».)]"
+  },
+  {
+   "id": "F-T8.7",
+   "clave": "b",
+   "enunciado": "Un divisor de tensión formado por dos resistencias de 10 kΩ se alimenta con 12 V. Si se mide la tensión de una de ellas con un voltímetro de 10 kΩ de resistencia interna, la lectura será de:",
+   "opciones": [
+    "6 V",
+    "4 V",
+    "3 V",
+    "8 V"
+   ],
+   "sol": "Sin voltímetro, cada resistencia tendría 6 V. El voltímetro se conecta en paralelo: 10 kΩ $parallel$ 10 kΩ = 5 kΩ, así que el total es 15 kΩ y la tensión en esa parte vale 12 × 5/15 = 4 V. Es el error de carga: el instrumento deriva corriente y falsea la medida, por eso un voltímetro debe tener resistencia interna mucho mayor que la del circuito. Los 6 V (a) serían la lectura de un voltímetro ideal; 8 V (d) es la tensión de la otra resistencia. #vease[(Véase tema T8, sección «Técnica de medida».)]"
+  },
+  {
+   "id": "F-T8.8",
+   "clave": "a",
+   "enunciado": "Un polímetro convencional, calibrado para sinusoides y que no es de «verdadero valor eficaz» (_true RMS_), mide una tensión alterna de forma cuadrada. Su lectura:",
+   "opciones": [
+    "puede ser errónea: rectifica, promedia y multiplica por el factor de forma de la sinusoide (1,11), que solo vale para esa forma de onda",
+    "coincide siempre con el valor eficaz real, sea cual sea la forma de onda",
+    "indica directamente el valor de pico a pico de la señal",
+    "es siempre nula, porque la onda cuadrada no tiene componente alterna"
+   ],
+   "sol": "Un polímetro común no calcula el valor eficaz: rectifica la señal, promedia y multiplica por 1,11, el factor de forma de una sinusoide. Con una onda cuadrada simétrica el resultado sale un 11 % alto, porque el promedio rectificado ya coincide con el valor eficaz y no hace falta ningún factor. Solo un instrumento de verdadero valor eficaz mide bien formas de onda no sinusoidales (b es falsa). Tampoco da el pico a pico (c), y la onda cuadrada sí es alterna, con lo que la lectura no es cero (d). #vease[(Véase tema T8, sección «Técnica de medida».)]"
+  },
+  {
+   "id": "F-T8.9",
+   "clave": "d",
+   "enunciado": "Un polímetro de uso general no es adecuado para medir tensiones de radiofrecuencia porque:",
+   "opciones": [
+    "solo puede medir corriente continua",
+    "su resistencia interna es tan baja que cortocircuita la señal",
+    "la radiofrecuencia no produce ninguna tensión medible",
+    "su respuesta en frecuencia en alterna es muy limitada (pocos llegan a decenas de kHz) y la lectura deja de ser fiable"
+   ],
+   "sol": "La escala de alterna de un polímetro común está pensada para la red y el audio: su respuesta en frecuencia es limitada y, al subir, la lectura pierde exactitud hasta dejar de tener sentido; pocos llegan siquiera a decenas de kHz. Para RF se usan sondas detectoras o voltímetros de RF específicos. Sí mide alterna (a), la RF produce tensiones perfectamente medibles (c) y su resistencia interna es alta, no baja (b), unos 10 MΩ en el digital. #vease[(Véase tema T8, sección «Técnica de medida».)]"
+  },
+  {
+   "id": "F-T8.10",
+   "clave": "b",
+   "enunciado": "Con un osciloscopio se mide, en el máximo de la envolvente de una señal de SSB, una tensión de pico de 100 V sobre una carga artificial de 50 Ω. La potencia en la cresta de la envolvente (p.c.e.) es de:",
+   "opciones": [
+    "200 W",
+    "100 W",
+    "141 W",
+    "50 W"
+   ],
+   "sol": "La p.c.e. es la potencia media de un ciclo de RF en el máximo de la envolvente. Con tensión de pico $V_\"p\" = 100$ V, la eficaz es $V_\"p\" slash sqrt(2) = 70,7$ V y $P = V_\"ef\"^2 slash R = 70,7^2 slash 50 = 100$ W; equivale a $V_\"p\"^2 slash (2 R) = 10 thin 000 slash 100$. Los 200 W (a) resultan de usar el pico como si fuera eficaz ($V_\"p\"^2 slash R$), los 141 W (c) de mezclar pico y eficaz ($V_\"p\" dot I_\"ef\"$) y los 50 W (d) de dividir entre 2 dos veces. #vease[(Véase tema T8, sección «Técnica de medida».)] #no-esta[Para medir la p.c.e. con un osciloscopio se conecta el transmisor a una carga artificial de resistencia $R$ y se lee la tensión de pico $V_\"p\"$ en el máximo de la envolvente. Como la tensión eficaz de ese ciclo es $V_\"p\" slash sqrt(2)$, la p.c.e. vale $V_\"p\"^2 slash (2 R)$. Con la lectura de pico a pico, $V_\"pp\"^2 slash (8 R)$. Sobre 50 Ω, 100 V de pico son 100 W.]"
+  },
+  {
+   "id": "F-T8.11",
+   "clave": "c",
+   "enunciado": "Un polímetro analógico tiene una sensibilidad de 20 kΩ/V. En la escala de 10 V, su resistencia de entrada es de:",
+   "opciones": [
+    "2 kΩ",
+    "20 kΩ",
+    "200 kΩ",
+    "10 MΩ"
+   ],
+   "sol": "La sensibilidad, en Ω/V, dice cuántos ohmios de resistencia de entrada hay por cada voltio de fondo de escala: $R_\"ent\" = 20 \"kΩ/V\" times 10 \"V\" = 200 \"kΩ\"$. Cambia con la escala (en 100 V serían 2 MΩ). Los 20 kΩ (b) son la sensibilidad, no la resistencia; los 2 kΩ (a) salen de dividir en vez de multiplicar; y los 10 MΩ (d) son la entrada fija típica de un polímetro digital, que carga mucho menos al circuito. #vease[(Véase tema T8, sección «Instrumentos».)] #no-esta[La sensibilidad de un polímetro analógico se da en ohmios por voltio (Ω/V): su resistencia de entrada en una escala de tensión es la sensibilidad multiplicada por el fondo de escala (20 kΩ/V en 10 V: 200 kΩ). Varía con la escala y, al ser relativamente baja, carga los circuitos de alta impedancia. El polímetro digital presenta una resistencia de entrada fija, típicamente 10 MΩ en todas las escalas de tensión, y por eso carga mucho menos.]"
+  },
+  {
+   "id": "F-T9.1",
+   "clave": "a",
+   "enunciado": "Un receptor cercano a un transmisor potente pierde sensibilidad (las señales débiles se hunden) aunque esté sintonizado en otra frecuencia, y no aparecen señales nuevas en ninguna parte del dial. Este efecto se denomina:",
+   "opciones": [
+    "bloqueo o desensibilización",
+    "intermodulación de tercer orden",
+    "detección en circuitos de audio",
+    "recepción por la frecuencia imagen"
+   ],
+   "sol": "Es el bloqueo o desensibilización: el campo intenso del transmisor satura las primeras etapas del receptor, que reduce su ganancia efectiva y deja hundidas a las señales débiles, sin crear señales nuevas. La intermodulación (b) sí las crea: mezcla dos señales intensas en una etapa no lineal y genera productos como $2 f_1 - f_2$. La detección en audio (c) haría oír la voz del transmisor por el altavoz. Y la frecuencia imagen (d) es una emisora que entra por una frecuencia separada del doble de la FI de la sintonizada y se oye como si fuera la deseada. #vease[(Véase tema T9, sección «Causas de interferencia».)]"
+  },
+  {
+   "id": "F-T9.2",
+   "clave": "d",
+   "enunciado": "Un receptor pierde sensibilidad (bloqueo) mientras transmite una estación próxima, aunque esté sintonizado en otra frecuencia. Una medida eficaz para reducir el problema es:",
+   "opciones": [
+    "añadir un preamplificador de antena para recuperar la señal débil",
+    "acercar la antena del receptor a la del transmisor para recibir más señal",
+    "desconectar la toma de tierra del receptor",
+    "intercalar en la entrada del receptor un filtro que atenúe la señal del transmisor próximo, o reducir la potencia de este"
+   ],
+   "sol": "El bloqueo aparece porque la señal intensa del transmisor próximo satura las primeras etapas del receptor (amplificador de RF y mezclador) y baja su ganancia para todas las demás, aunque estén lejos en frecuencia. El remedio es que esa señal llegue con menos nivel: un filtro en la entrada de antena (de rechazo o paso de banda), menos potencia en el transmisor o más separación entre antenas. El preamplificador y acercar las antenas suben el nivel de la señal fuerte y agravan la saturación. Quitar la tierra no atenúa nada de lo que entra por la antena; una buena tierra, al contrario, ayuda a reducir la RF en los chasis. #vease[(Véase tema T9, secciones «Causas de interferencia» y «Medidas correctoras».)] #no-esta[Síntoma del bloqueo: mientras transmite una estación próxima, aunque lo haga en otra frecuencia, el receptor pierde sensibilidad y las señales débiles se hunden; al cesar la emisión, todo vuelve a la normalidad. La causa es la saturación de las primeras etapas por un campo intenso. Remedios: un filtro de rechazo o de paso de banda en la entrada de antena del receptor, reducir la potencia del transmisor o aumentar la separación entre antenas. Más ganancia de RF o un preamplificador empeoran el bloqueo.]"
+  },
+  {
+   "id": "F-T9.3",
+   "clave": "b",
+   "enunciado": "Dos señales de 14,100 MHz y 14,200 MHz entran en una etapa no lineal. Uno de los productos de intermodulación de tercer orden aparece en:",
+   "opciones": [
+    "28,300 MHz",
+    "14,000 MHz",
+    "14,150 MHz",
+    "0,100 MHz"
+   ],
+   "sol": "Los productos de tercer orden son $2 f_1 - f_2$ y $2 f_2 - f_1$. Con $f_1 = 14,100$ MHz y $f_2 = 14,200$ MHz: $2 f_1 - f_2 = 28,200 - 14,200 = 14,000$ MHz y $2 f_2 - f_1 = 28,400 - 14,100 = 14,300$ MHz. Caen a solo 100 kHz de las señales originales, por eso son tan molestos y casi imposibles de filtrar. Los 14,150 MHz son la media de las dos frecuencias, que no es producto de ningún orden. 28,300 MHz ($f_1 + f_2$) y 0,100 MHz ($f_2 - f_1$) son productos de segundo orden: caen lejos de las señales y se filtran con facilidad. #vease[(Véase tema T9, sección «Causas de interferencia».)]"
+  },
+  {
+   "id": "F-T9.4",
+   "clave": "a",
+   "enunciado": "En espacio libre y lejos de una antena transmisora, al duplicar la distancia a ella la intensidad de campo eléctrico (V/m):",
+   "opciones": [
+    "se reduce a la mitad",
+    "se reduce a la cuarta parte",
+    "se reduce a $1 slash sqrt(2)$ de su valor",
+    "se duplica"
+   ],
+   "sol": "En el espacio libre la potencia se reparte sobre una superficie esférica: la densidad de potencia cae con $1 slash d^2$ y el campo, proporcional a la raíz cuadrada de esa densidad, cae con $1 slash d$. Con $d' = 2 d$ resulta $E' = E slash 2$ (6 dB menos). «La cuarta parte» es lo que le pasa a la densidad de potencia, no al campo. $1 slash sqrt(2)$ mezcla la raíz con los 3 dB de la potencia. Duplicarse sería lo contrario: el campo disminuye al alejarse. Por eso separar las antenas reduce el campo que recibe el equipo afectado. #vease[(Véase tema T7, introducción del capítulo (antes de la sección «La ionosfera y la onda de espacio»).)]"
+  },
+  {
+   "id": "F-T9.5",
+   "clave": "c",
+   "enunciado": "Si se multiplica por 4 la potencia radiada por una antena, la intensidad de campo (V/m) a una distancia dada en espacio libre se:",
+   "opciones": [
+    "cuadruplica",
+    "multiplica por 16",
+    "duplica",
+    "multiplica por $sqrt(2)$"
+   ],
+   "sol": "A distancia fija, la densidad de potencia es $S = E^2 slash 377$, luego $E = sqrt(377 S)$: el campo es proporcional a la raíz cuadrada de la potencia radiada. Con potencia por 4: $E' = sqrt(4) E = 2 E$. En decibelios coincide: $10 log 4 approx 6$ dB en potencia y $20 log 2 approx 6$ dB en campo. «Se cuadruplica» confunde campo con potencia; «por 16» eleva al cuadrado en lugar de extraer la raíz; $sqrt(2)$ es el efecto de duplicar la potencia (3 dB), no de cuadruplicarla. #vease[(Véase tema T7, introducción del capítulo (antes de la sección «La ionosfera y la onda de espacio»).)] #no-esta[La densidad de potencia y el campo se relacionan por $S = E^2 slash 377$ (con $S$ en W/m² y $E$ en V/m), así que, a una distancia dada, el campo es proporcional a la raíz cuadrada de la potencia: en espacio libre $E = sqrt(30 P G) slash d$. Duplicar la potencia multiplica el campo por $sqrt(2)$ (3 dB); cuadruplicarla lo duplica (6 dB). Un campo mayor en las inmediaciones aumenta el riesgo de bloqueo en los equipos vecinos.]"
+  },
+  {
+   "id": "T8.1",
+   "clave": "a",
+   "enunciado": "Para medir la corriente que circula por un circuito, el amperímetro debe conectarse:",
+   "opciones": [
+    "en serie con el circuito",
+    "en paralelo con el circuito",
+    "entre el chasis y tierra",
+    "indistintamente en serie o en paralelo"
+   ],
+   "sol": "El amperímetro va en serie (resistencia interna muy baja); el voltímetro, en paralelo."
+  },
+  {
+   "id": "T8.2",
+   "clave": "b",
+   "enunciado": "Una batería marcada como «DC 7,4 V – 1500 mAh» podrá suministrar:",
+   "opciones": [
+    "7,4 A durante 15 horas",
+    "1,5 A durante una hora",
+    "15 A durante una hora",
+    "1500 A durante un segundo"
+   ],
+   "sol": "1500 mAh = 1,5 Ah: 1,5 A durante una hora (o 0,15 A durante diez)."
+  },
+  {
+   "id": "T8.3",
+   "clave": "d",
+   "enunciado": "A una potencia de 1000 mW le corresponde un nivel de:",
+   "opciones": [
+    "10 dBm",
+    "20 dBm",
+    "3 dBm",
+    "30 dBm"
+   ],
+   "sol": "$10 log_10 (1000 \"mW\" slash 1 \"mW\") = 30$ dBm. Referencias: 1 mW = 0 dBm; 1 W = 30 dBm; 100 W = 50 dBm."
+  },
+  {
+   "id": "T8.4",
+   "clave": "c",
+   "enunciado": "Un amplificador de 20 dB de ganancia, con impedancias de entrada y salida iguales, recibe una potencia de entrada de 0,2 W. Su potencia de salida es:",
+   "opciones": [
+    "2 W",
+    "4 W",
+    "20 W",
+    "40 W"
+   ],
+   "sol": "+20 dB = ×100: 0,2 × 100 = 20 W."
+  },
+  {
+   "id": "T8.5",
+   "clave": "c",
+   "enunciado": "Para medir la potencia de una señal de radiofrecuencia se emplea:",
+   "opciones": [
+    "un voltímetro de continua",
+    "un óhmetro",
+    "un vatímetro",
+    "un galvanómetro"
+   ],
+   "sol": "La potencia se mide con un vatímetro; en RF, direccional (separa directa y reflejada)."
+  },
+  {
+   "id": "T8.6",
+   "clave": "b",
+   "enunciado": "Para medir con precisión la frecuencia emitida por un transmisor se emplea:",
+   "opciones": [
+    "un medidor de ROE",
+    "un frecuencímetro de radiofrecuencia",
+    "un polímetro",
+    "un vatímetro"
+   ],
+   "sol": "El frecuencímetro cuenta ciclos contra una referencia de cristal: el instrumento de precisión para la frecuencia."
+  },
+  {
+   "id": "T8.7",
+   "clave": "d",
+   "enunciado": "La aplicación más importante del osciloscopio es:",
+   "opciones": [
+    "medir resistencias con gran precisión",
+    "medir la ROE de una antena",
+    "contar los ciclos de una señal digital",
+    "representar gráficamente las formas de onda en la pantalla"
+   ],
+   "sol": "El osciloscopio muestra la forma de onda en el dominio del tiempo: amplitud, período, distorsión, envolvente."
+  },
+  {
+   "id": "T8.8",
+   "clave": "a",
+   "enunciado": "Para observar las componentes espectrales de una emisión se emplea:",
+   "opciones": [
+    "un analizador de espectros",
+    "un osciloscopio de baja frecuencia",
+    "un generador de señal",
+    "un medidor de campo"
+   ],
+   "sol": "El analizador de espectros muestra el dominio de la frecuencia: portadora, bandas laterales, armónicos, espurias."
+  },
+  {
+   "id": "T8.9",
+   "clave": "c",
+   "enunciado": "Un polímetro (multímetro) NO sirve para medir:",
+   "opciones": [
+    "tensiones continuas",
+    "corrientes alternas",
+    "la impedancia de la antena",
+    "resistencias"
+   ],
+   "sol": "El polímetro mide tensión, corriente y resistencia; la impedancia de una antena en RF exige un puente o analizador de antenas."
+  },
+  {
+   "id": "T8.10",
+   "clave": "a",
+   "enunciado": "La intensidad de campo eléctrico radiado por una antena se mide con un medidor de campo y se expresa en:",
+   "opciones": [
+    "voltios por metro (V/m)",
+    "amperios por metro cuadrado",
+    "vatios por hercio",
+    "ohmios por metro"
+   ],
+   "sol": "El campo eléctrico se mide en V/m (en la práctica, μV/m o dBμV/m) con un medidor de campo."
+  },
+  {
+   "id": "T8.11",
+   "clave": "b",
+   "enunciado": "Una resistencia en «shunt» (en paralelo) se puede utilizar para:",
+   "opciones": [
+    "aumentar la sensibilidad de un receptor",
+    "proteger aparatos de medida",
+    "elevar la tensión de una fuente",
+    "filtrar armónicos"
+   ],
+   "sol": "El shunt deriva la mayor parte de la corriente y deja pasar por el instrumento solo una fracción conocida: amplía la escala y protege el aparato de medida."
+  },
+  {
+   "id": "T8.12",
+   "clave": "c",
+   "enunciado": "Una ganancia de 40 dB equivale a una relación de potencias de:",
+   "opciones": [
+    "40",
+    "400",
+    "10.000",
+    "1.000.000"
+   ],
+   "sol": "40 dB = $10^(40 slash 10) = 10^4$ = 10.000 en potencia."
+  },
+  {
+   "id": "T8.13",
+   "clave": "a",
+   "enunciado": "Cuando una cantidad se expresa en dBW, la magnitud a la que se refiere es:",
+   "opciones": [
+    "la potencia",
+    "la tensión",
+    "la frecuencia",
+    "la impedancia"
+   ],
+   "sol": "El dBW expresa potencia referida a 1 W, igual que el dBm la refiere a 1 mW (0 dBW = 30 dBm)."
+  },
+  {
+   "id": "T8.14",
+   "clave": "d",
+   "enunciado": "Para determinar la desadaptación de impedancias entre el transmisor y la antena se usa:",
+   "opciones": [
+    "un osciloscopio de audio",
+    "un óhmetro",
+    "un frecuencímetro",
+    "un medidor de ROE"
+   ],
+   "sol": "La desadaptación se mide con el medidor de ROE intercalado entre transmisor y antena."
+  },
+  {
+   "id": "T8.15",
+   "clave": "b",
+   "enunciado": "Un generador de señal de radiofrecuencia se utiliza para:",
+   "opciones": [
+    "alimentar la estación en caso de apagón",
+    "caracterizar etapas de radiofrecuencia",
+    "medir la resistencia de la toma de tierra",
+    "amplificar señales débiles"
+   ],
+   "sol": "El generador de señal produce señales de RF calibradas en frecuencia y nivel: con él se caracterizan receptores y etapas (sensibilidad, respuesta, ganancia)."
+  },
+  {
+   "id": "T8.16",
+   "clave": "a",
+   "enunciado": "En la pantalla del osciloscopio de la @t8-fig-osc, las magnitudes acotadas como $A$ y $T$ son, respectivamente:",
+   "opciones": [
+    "la amplitud y el período de la señal",
+    "el período y la amplitud de la señal",
+    "la frecuencia y la fase de la señal",
+    "la tensión eficaz y la frecuencia de la señal"
+   ],
+   "sol": "$A$ acota la distancia del eje al pico (la amplitud) y $T$ la distancia entre dos picos consecutivos (el período). De $T$ sale la frecuencia: $f = 1 slash T$."
+  },
+  {
+   "id": "T8.17",
+   "clave": "c",
+   "enunciado": "Para medir la diferencia de potencial entre dos puntos, el voltímetro debe conectarse:",
+   "opciones": [
+    "en serie con el circuito",
+    "intercalado tras abrir el circuito",
+    "en paralelo con el elemento cuya tensión se quiere medir",
+    "entre uno de los puntos y la toma de tierra"
+   ],
+   "sol": "La tensión es una diferencia _entre_ dos puntos, así que el instrumento se pone a caballo entre ellos, sin abrir nada. El que se intercala abriendo el circuito es el amperímetro, porque la corriente tiene que atravesarlo."
+  },
+  {
+   "id": "T8.18",
+   "clave": "a",
+   "enunciado": "Para medir el valor de una resistencia se emplea:",
+   "opciones": [
+    "un óhmetro, con el componente sin tensión aplicada",
+    "un amperímetro conectado en serie",
+    "un vatímetro intercalado en la línea",
+    "un medidor de intensidad de campo"
+   ],
+   "sol": "El óhmetro mide inyectando su propia corriente y viendo qué tensión aparece. Si el circuito tiene tensión propia, la lectura no significa nada — y además puede dañarse el instrumento."
+  },
+  {
+   "id": "T8.19",
+   "clave": "d",
+   "enunciado": "Un amperímetro ideal y un voltímetro ideal tendrían, respectivamente, una resistencia interna:",
+   "opciones": [
+    "infinita y nula",
+    "nula y nula",
+    "infinita e infinita",
+    "nula e infinita"
+   ],
+   "sol": "Cada uno debe perturbar lo mínimo el circuito que mide. El amperímetro va en serie, luego su resistencia debe ser nula para no reducir la corriente; el voltímetro va en paralelo, luego la suya debe ser infinita para no desviar corriente."
+  },
+  {
+   "id": "T8.20",
+   "clave": "b",
+   "enunciado": "El instrumento comúnmente denominado «S-meter» de un receptor indica:",
+   "opciones": [
+    "la frecuencia de la señal sintonizada",
+    "la intensidad de la señal recibida",
+    "la relación de ondas estacionarias de la antena",
+    "la potencia entregada por el transmisor"
+   ],
+   "sol": "Es el medidor de fuerza de señal, y de él sale el número que se da en el informe de recepción («me llegas 5 y 9»). Trabaja a partir de la tensión del control automático de ganancia."
+  },
+  {
+   "id": "T8.21",
+   "clave": "c",
+   "enunciado": "En la escala de un S-meter, la diferencia entre dos puntos S consecutivos equivale a:",
+   "opciones": [
+    "1 dB",
+    "3 dB",
+    "6 dB",
+    "20 dB"
+   ],
+   "sol": "Por convenio, cada punto S vale 6 dB, es decir, cuadruplicar la potencia o duplicar la tensión de la señal. Por eso pasar de S7 a S9 exige multiplicar la potencia por 16, y de ahí que subir un par de puntos S cueste tanto."
+  },
+  {
+   "id": "T8.22",
+   "clave": "a",
+   "enunciado": "El instrumento denominado «dipmeter» o medidor de absorción sirve para:",
+   "opciones": [
+    "determinar la frecuencia de resonancia de un circuito sin alimentarlo",
+    "medir la potencia de salida de un transmisor",
+    "comprobar la continuidad de un cable coaxial",
+    "medir la intensidad de campo de una antena"
+   ],
+   "sol": "Es un oscilador con una bobina exterior: al acercarla a un circuito resonante y barrer la frecuencia, en la resonancia el circuito le roba energía y la lectura cae bruscamente — ese «dip» es el que da nombre al aparato y señala la frecuencia buscada."
+  },
+  {
+   "id": "T8.23",
+   "clave": "d",
+   "enunciado": "La carga artificial (carga fantasma) de una estación se emplea para:",
+   "opciones": [
+    "aumentar la potencia radiada por la antena",
+    "adaptar la impedancia de la línea de transmisión",
+    "proteger al receptor durante la transmisión",
+    "ajustar y probar el transmisor sin radiar señal al exterior"
+   ],
+   "sol": "Es una resistencia no inductiva de la impedancia nominal —50 ohmios casi siempre— capaz de disipar en calor toda la potencia del equipo. Permite hacer ajustes sin ocupar la banda ni molestar a nadie."
+  },
+  {
+   "id": "T8.24",
+   "clave": "b",
+   "enunciado": "Antes de medir una resistencia con el polímetro dentro de un equipo, es imprescindible:",
+   "opciones": [
+    "conectar el equipo a la máxima tensión de alimentación",
+    "asegurarse de que el circuito está sin tensión y los condensadores descargados",
+    "poner el instrumento en la escala de corriente alterna",
+    "conectar previamente la antena"
+   ],
+   "sol": "Por la medida y por la seguridad. La lectura solo es válida sin tensión ajena, y los condensadores de filtro de una fuente —no digamos los de un equipo valvular— conservan carga peligrosa mucho después de desenchufar."
+  },
+  {
+   "id": "T8.25",
+   "clave": "a",
+   "enunciado": "Un vatímetro direccional intercalado entre transmisor y antena indica una potencia reflejada apreciable. Ello significa que:",
+   "opciones": [
+    "el transmisor no está adaptado a la antena",
+    "el transmisor entrega más potencia de la nominal",
+    "la antena tiene una ganancia muy elevada",
+    "el instrumento está averiado"
+   ],
+   "sol": "Toda potencia que vuelve es potencia que la antena no ha aceptado: la reflejada mide la desadaptación entre lo que el transmisor ve y lo que la antena presenta. Con adaptación perfecta la lectura de reflejada sería nula."
+  },
+  {
+   "id": "T8.26",
+   "clave": "c",
+   "enunciado": "Para medir la frecuencia de un transmisor _no_ puede emplearse:",
+   "opciones": [
+    "un frecuencímetro digital",
+    "un analizador de espectro",
+    "un voltímetro de radiofrecuencia",
+    "un receptor calibrado"
+   ],
+   "sol": "Un voltímetro de radiofrecuencia mide amplitud, no frecuencia: dice cuánta señal hay, no dónde está. Frecuencímetro, analizador de espectro y receptor calibrado sí permiten determinarla."
+  },
+  {
+   "id": "T8.27",
+   "clave": "b",
+   "enunciado": "Un medidor de relación de ondas estacionarias indica:",
+   "opciones": [
+    "la potencia media entregada por el transmisor",
+    "la relación entre la señal incidente en la antena y la reflejada por ella",
+    "la ganancia de la antena en decibelios",
+    "la frecuencia de resonancia de la antena"
+   ],
+   "sol": "De ese cociente sale la ROE: con adaptación perfecta no hay reflejada y la ROE vale 1. No mide potencia absoluta ni ganancia, aunque muchos instrumentos incorporen además una escala de vatios."
+  },
+  {
+   "id": "T8.28",
+   "clave": "d",
+   "enunciado": "Al sintonizar la etapa final de un transmisor valvular, la corriente de placa que marca su amperímetro alcanza en el punto de ajuste correcto un valor:",
+   "opciones": [
+    "máximo",
+    "igual al de reposo",
+    "nulo",
+    "mínimo"
+   ],
+   "sol": "Es el clásico «dip»: en resonancia el circuito de placa presenta su máxima impedancia, la etapa absorbe menos corriente de la fuente y el amperímetro cae bruscamente. Ese mínimo marca el punto de sintonía, y sobre él se ajusta después el acoplo a la carga."
+  },
+  {
+   "id": "T8.29",
+   "clave": "a",
+   "enunciado": "De los siguientes instrumentos, el más imprescindible en una estación de aficionado es:",
+   "opciones": [
+    "el medidor de relación de ondas estacionarias",
+    "el analizador de espectro",
+    "el generador de barrido",
+    "el puente de impedancias de laboratorio"
+   ],
+   "sol": "Es el instrumento que avisa de que algo va mal entre el equipo y la antena, que es de donde vienen la mayoría de los problemas —y de las averías del final de potencia—. Los demás son de laboratorio: útiles, pero no imprescindibles."
+  },
+  {
+   "id": "T8.30",
+   "clave": "c",
+   "enunciado": "El vatímetro direccional de la figura, intercalado entre el transmisor y la antena, presenta las lecturas indicadas. De ello se deduce que:\n    #circuito[\n      #cetz.canvas({\n        import cetz.draw: *\n        rect((0, 0), (1.9, 0.8), radius: 0.08, fill: col.acento-claro, stroke: 0.7pt + col.acento)\n        content((0.95, 0.4), text(size: 8pt)[transmisor])\n        line((1.9, 0.4), (3.0, 0.4), stroke: 0.7pt)\n        rect((3.0, -0.6), (4.8, 1.4), radius: 0.08, fill: col.naranja-claro, stroke: 0.7pt + col.naranja)\n        content((3.9, 1.65), text(size: 8pt, fill: col.naranja)[vatímetro])\n        content((3.9, 0.4), align(center, text(size: 7.5pt)[directa\\ 100 W\\ reflejada\\ 25 W]))\n        line((4.8, 0.4), (6.8, 0.4), stroke: 0.7pt)\n        line((6.8, -0.5), (6.8, 1.6), stroke: 1.6pt)\n        content((6.8, -0.8), text(size: 8pt, fill: col.gris)[antena])\n      })\n    ]\n  ",
+   "opciones": [
+    "la antena radia 125 W",
+    "el conjunto está perfectamente adaptado",
+    "el transmisor no está adaptado a la antena",
+    "el vatímetro está averiado"
+   ],
+   "sol": "Hay potencia volviendo, luego la antena no acepta todo lo que le llega. Con $P_d = 100$ W y $P_r = 25$ W el coeficiente de reflexión vale $rho = sqrt(25 slash 100) = 0,5$ y la ROE resulta $(1 + 0,5) slash (1 - 0,5) = 3$. La radiada tampoco es la suma: son 75 W.",
+   "figura": true
+  },
+  {
+   "id": "T9.1",
+   "clave": "b",
+   "enunciado": "De los siguientes fenómenos, puede ser causa de generación de interferencias:",
+   "opciones": [
+    "la resonancia de la antena",
+    "la intermodulación",
+    "la selectividad del receptor",
+    "la puesta a tierra de los equipos"
+   ],
+   "sol": "La intermodulación mezcla señales en elementos no lineales y genera productos en frecuencias nuevas: interferencia pura."
+  },
+  {
+   "id": "T9.2",
+   "clave": "a",
+   "enunciado": "Las interferencias son más frecuentes si en la estación se emplean:",
+   "opciones": [
+    "amplificadores lineales de potencia",
+    "filtros paso bajo a la salida",
+    "antenas resonantes bien adaptadas",
+    "líneas coaxiales cortas"
+   ],
+   "sol": "Los amplificadores lineales de potencia elevan también armónicos y espurias; sobreexcitados, mucho más."
+  },
+  {
+   "id": "T9.3",
+   "clave": "b",
+   "enunciado": "Una desadaptación de impedancias entre el transmisor y la antena puede producir:",
+   "opciones": [
+    "una mejora del rendimiento",
+    "interferencias",
+    "un aumento de la sensibilidad del receptor",
+    "una reducción de los armónicos"
+   ],
+   "sol": "La desadaptación eleva la ROE y provoca onda reflejada y radiación por la línea, que se acopla a los equipos cercanos; de ahí la recomendación de trabajar siempre con la ROE lo más baja posible."
+  },
+  {
+   "id": "T9.4",
+   "clave": "b",
+   "enunciado": "Un nivel elevado de intensidad de campo eléctrico en las inmediaciones puede producir en los equipos electrónicos cercanos:",
+   "opciones": [
+    "un aumento de su selectividad",
+    "desensibilización o bloqueo",
+    "una mejora de la relación señal/ruido",
+    "la carga de sus baterías"
+   ],
+   "sol": "Un campo intenso satura las etapas de entrada de los equipos próximos: desensibilización o bloqueo."
+  },
+  {
+   "id": "T9.5",
+   "clave": "a",
+   "enunciado": "Los equipos radioeléctricos se montan en cajas metálicas para:",
+   "opciones": [
+    "limitar las radiaciones indeseadas",
+    "mejorar la refrigeración",
+    "aumentar la potencia de salida",
+    "reducir su peso"
+   ],
+   "sol": "La caja metálica es una jaula de Faraday en ambos sentidos: limita lo que sale y protege de lo que llega."
+  },
+  {
+   "id": "T9.6",
+   "clave": "d",
+   "enunciado": "Para que un campo electromagnético externo no interfiera a un circuito electrónico, este se puede apantallar en una caja:",
+   "opciones": [
+    "de plástico rígido",
+    "de madera tratada",
+    "de cristal templado",
+    "metálica, eléctricamente estanca y conectada a tierra"
+   ],
+   "sol": "Apantallamiento eficaz: caja metálica, eléctricamente estanca y conectada a tierra."
+  },
+  {
+   "id": "T9.7",
+   "clave": "c",
+   "enunciado": "Para evitar que un transceptor introduzca señales de radiofrecuencia en la red de suministro eléctrico se emplea:",
+   "opciones": [
+    "un transformador elevador",
+    "un diodo zéner",
+    "un filtro de línea de desacoplo",
+    "un atenuador de antena"
+   ],
+   "sol": "El filtro de línea bloquea la RF que el equipo inyectaría en la red eléctrica."
+  },
+  {
+   "id": "T9.8",
+   "clave": "c",
+   "enunciado": "Si un equipo declara su conformidad con la directiva «EMC», significa que:",
+   "opciones": [
+    "es de máxima categoría comercial",
+    "solo puede usarse en Europa continental",
+    "cumple las directivas de la Unión Europea sobre compatibilidad electromagnética",
+    "está exento de inspección técnica"
+   ],
+   "sol": "El marcado EMC acredita conformidad con las directivas europeas de compatibilidad electromagnética."
+  },
+  {
+   "id": "T9.9",
+   "clave": "c",
+   "enunciado": "El medio de transmisión más inmune a las interferencias radiadas es:",
+   "opciones": [
+    "el cable de pares paralelos",
+    "el cable coaxial",
+    "la fibra óptica",
+    "el hilo de cobre desnudo"
+   ],
+   "sol": "La fibra óptica transmite luz por un dieléctrico: los campos radiados no se acoplan a ella."
+  },
+  {
+   "id": "T9.10",
+   "clave": "c",
+   "enunciado": "Si aumentamos la potencia de transmisión, el riesgo de producir interferencias es:",
+   "opciones": [
+    "menor",
+    "el mismo",
+    "mayor",
+    "nulo si la antena es resonante"
+   ],
+   "sol": "A más potencia, más intensidad de campo en el entorno y más nivel en cada espuria y armónico: el riesgo de interferir crece."
+  },
+  {
+   "id": "T9.11",
+   "clave": "a",
+   "enunciado": "Los armónicos de una emisión son señales cuya frecuencia es:",
+   "opciones": [
+    "un múltiplo entero de la frecuencia fundamental",
+    "un submúltiplo de la frecuencia fundamental",
+    "la mitad de la frecuencia fundamental",
+    "independiente de la frecuencia fundamental"
+   ],
+   "sol": "Emitiendo en 7 MHz, el segundo armónico cae en 14 MHz, el tercero en 21 y el cuarto en 28 — y todos ellos, casualmente, en bandas de aficionado o muy cerca de servicios ajenos. Los produce cualquier no linealidad, y por eso el filtro de salida es obligado."
+  },
+  {
+   "id": "T9.12",
+   "clave": "c",
+   "enunciado": "En la salida de un transmisor, justo antes de la toma de antena, debería encontrarse siempre:",
+   "opciones": [
+    "un condensador de desacoplo a masa",
+    "un transformador elevador",
+    "un filtro de paso bajo",
+    "un atenuador resistivo"
+   ],
+   "sol": "Los armónicos están siempre _por encima_ de la frecuencia de trabajo, así que un filtro que deje pasar lo bajo y corte lo alto los elimina sin tocar la señal útil. Un atenuador rebajaría también la potencia deseada."
+  },
+  {
+   "id": "T9.13",
+   "clave": "b",
+   "enunciado": "Las emisiones fuera de banda de un transmisor están constituidas por:",
+   "opciones": [
+    "las señales que el receptor capta fuera de la banda de aficionados",
+    "las emisiones inmediatamente exteriores a la anchura de banda necesaria, resultantes del proceso de modulación",
+    "exclusivamente los armónicos de la frecuencia fundamental",
+    "las emisiones realizadas con potencia superior a la autorizada"
+   ],
+   "sol": "Son las «faldas» que quedan a los lados de la emisión por culpa del propio proceso de modulación. Junto con las emisiones no esenciales (espurias, entre ellas los armónicos) forman las emisiones no deseadas."
+  },
+  {
+   "id": "T9.14",
+   "clave": "d",
+   "enunciado": "La intermodulación se produce cuando:",
+   "opciones": [
+    "una sola señal muy débil satura el receptor",
+    "la antena está perfectamente adaptada a la línea",
+    "se emplea una potencia de transmisión muy reducida",
+    "dos o más señales intensas se mezclan en una etapa no lineal"
+   ],
+   "sol": "De esa mezcla salen sumas y diferencias que no estaban en ninguna de las dos señales originales y que pueden caer justo encima de la frecuencia que escuchamos. Ocurre tanto en la etapa final de un transmisor sobreexcitado como en la entrada de un receptor saturado."
+  },
+  {
+   "id": "T9.15",
+   "clave": "a",
+   "enunciado": "Para evitar que la radiofrecuencia de una estación se cuele en un amplificador de audio cercano, resulta eficaz:",
+   "opciones": [
+    "colocar núcleos de ferrita y condensadores de desacoplo en sus cables",
+    "aumentar el volumen del amplificador",
+    "alargar los cables de altavoz",
+    "desconectar la toma de tierra del amplificador"
+   ],
+   "sol": "Los cables de altavoz y de red hacen de antena y llevan la RF hasta donde se detecta y se oye. La ferrita añade impedancia a esa corriente parásita y el condensador la deriva a masa, sin afectar al audio. Alargar los cables o quitar la tierra empeora las cosas."
+  },
+  {
+   "id": "T9.16",
+   "clave": "c",
+   "enunciado": "Un filtro de rechazo de banda (filtro «notch») se emplea para:",
+   "opciones": [
+    "amplificar selectivamente la señal deseada",
+    "dejar pasar por igual todas las frecuencias",
+    "eliminar una frecuencia o una banda estrecha concreta que interfiere",
+    "ensanchar la banda de paso del receptor"
+   ],
+   "sol": "Hace justo lo contrario que el paso banda: en lugar de dejar pasar una banda, la suprime. Es lo que permite quitar de en medio una portadora molesta o un tono concreto sin tocar el resto de la señal."
+  },
+  {
+   "id": "T9.17",
+   "clave": "b",
+   "enunciado": "Una interferencia a la recepción de televisión (TVI) provocada por una señal fuerte fuera de su banda se combate eficazmente:",
+   "opciones": [
+    "aumentando la potencia del transmisor de aficionado",
+    "instalando un filtro de rechazo en la entrada de antena del televisor",
+    "cambiando la polarización de la antena del televisor",
+    "sustituyendo el cable de red del televisor"
+   ],
+   "sol": "Si la estación cumple con sus emisiones no deseadas, el problema es de _inmunidad_ del televisor: su entrada admite una señal que no le corresponde. El remedio está en el lado del receptor afectado, con un filtro que rechace la banda del aficionado."
+  },
+  {
+   "id": "T9.18",
+   "clave": "d",
+   "enunciado": "Una buena instalación de tierra en la estación contribuye a:",
+   "opciones": [
+    "aumentar la ganancia de la antena",
+    "elevar la potencia de salida del transmisor",
+    "mejorar la selectividad del receptor",
+    "reducir la radiofrecuencia presente en los chasis y las interferencias asociadas"
+   ],
+   "sol": "Una tierra deficiente deja que la RF vuelva por donde puede —los chasis, los cables de alimentación, el micrófono— y desde ahí se acople a todo lo que haya cerca. La tierra le da un camino corto y directo. De paso, es la misma tierra que protege al operador (tema T10)."
+  },
+  {
+   "id": "T9.19",
+   "clave": "b",
+   "enunciado": "Para reducir al mínimo el riesgo de causar interferencias, un radioaficionado debe:",
+   "opciones": [
+    "emplear siempre la potencia máxima autorizada",
+    "utilizar la mínima potencia necesaria para el enlace",
+    "transmitir preferentemente en horas nocturnas",
+    "prescindir del filtro de salida del transmisor"
+   ],
+   "sol": "Es además una obligación reglamentaria, no solo una buena práctica: se debe emplear la potencia mínima necesaria para mantener la comunicación. Menos potencia significa menos campo en el entorno y menos nivel en cada emisión no deseada."
+  },
+  {
+   "id": "T9.20",
+   "clave": "c",
+   "enunciado": "Ante una queja fundada de interferencias procedente de un vecino, lo primero que debe hacer el radioaficionado es:",
+   "opciones": [
+    "negar cualquier responsabilidad, si su estación está autorizada",
+    "aumentar la potencia para comprobar el efecto",
+    "comprobar que su estación no produce emisiones no deseadas y colaborar en localizar la causa",
+    "cambiar de banda sin más comprobaciones"
+   ],
+   "sol": "Estar autorizado no exime de comprobar la propia instalación. Y aunque el problema resulte ser de inmunidad del equipo afectado, la colaboración es lo que resuelve el conflicto — y lo que la responsabilidad social del radioaficionado (tema R7) espera de él."
+  },
+  {
+   "id": "T9.21",
+   "clave": "b",
+   "enunciado": "Se denomina compatibilidad electromagnética a la capacidad de un equipo para:",
+   "opciones": [
+    "funcionar con cualquier tensión de alimentación",
+    "funcionar sin producir perturbaciones a su entorno y sin verse afectado por él",
+    "emitir en varias bandas simultáneamente",
+    "soportar descargas atmosféricas directas"
+   ],
+   "sol": "La definición tiene dos caras y el examen suele dar solo una: _no molestar_ y _no ser molestado_. Un equipo compatible convive con su entorno electromagnético en ambos sentidos."
+  },
+  {
+   "id": "T9.22",
+   "clave": "d",
+   "enunciado": "Además de emplear la potencia mínima necesaria, para reducir el riesgo de interferencias conviene que la instalación tenga:",
+   "opciones": [
+    "una ROE lo más alta posible",
+    "la antena lo más cerca posible de la vivienda",
+    "los cables de alimentación lo más largos posible",
+    "una ROE baja, con la antena bien adaptada"
+   ],
+   "sol": "Una ROE alta significa energía rebotando por la línea, tensiones elevadas en el coaxial y radiación por el propio cable, que actúa de antena justo dentro de casa. Con la antena bien adaptada, la potencia se va por donde debe."
+  },
+  {
+   "id": "T10.1",
+   "clave": "c",
+   "enunciado": "Como medida de protección y seguridad, toda estación radioeléctrica debe disponer de:",
+   "opciones": [
+    "un extintor de espuma junto a cada equipo",
+    "un sistema de alimentación ininterrumpida",
+    "un interruptor general de suministro eléctrico",
+    "un armario ignífugo para los transceptores"
+   ],
+   "sol": "El interruptor general permite cortar de un solo gesto el suministro de toda la estación ante cualquier emergencia."
+  },
+  {
+   "id": "T10.2",
+   "clave": "a",
+   "enunciado": "Una antena que está transmitiendo:",
+   "opciones": [
+    "no se debe tocar con las manos",
+    "puede tocarse si la potencia es inferior a 100 W",
+    "puede tocarse si está polarizada verticalmente",
+    "solo puede tocarse con guantes de lana"
+   ],
+   "sol": "Una antena en transmisión lleva RF de alta tensión en los extremos: tocarla produce quemaduras por radiofrecuencia."
+  },
+  {
+   "id": "T10.3",
+   "clave": "b",
+   "enunciado": "El transceptor debe estar conectado a tierra para:",
+   "opciones": [
+    "mejorar la modulación",
+    "proteger al operador de descargas eléctricas",
+    "aumentar el alcance de las emisiones",
+    "reducir el consumo eléctrico"
+   ],
+   "sol": "Si un defecto pone el chasis en tensión, la toma de tierra ofrece un camino de baja resistencia que lo mantiene a ∼0 V y deriva la corriente de fuga; esa corriente dispara el diferencial (sensible a unos 30 mA) antes de que el operador, al tocar el chasis, se convierta en el camino de retorno. Es la protección frente a contactos indirectos."
+  },
+  {
+   "id": "T10.4",
+   "clave": "d",
+   "enunciado": "La toma de tierra de la estación debe conectarse:",
+   "opciones": [
+    "solo al equipo de mayor potencia",
+    "únicamente al mástil de la antena",
+    "solo a los equipos alimentados con corriente alterna",
+    "a cada uno de los chasis metálicos de los distintos equipos"
+   ],
+   "sol": "La toma de tierra debe llegar a todos los chasis metálicos interconectados; un equipo sin tierra rompe la protección."
+  },
+  {
+   "id": "T10.5",
+   "clave": "a",
+   "enunciado": "Cuando una interferencia perjudicial afecta a la seguridad de la vida humana, el radioaficionado debe:",
+   "opciones": [
+    "dejar de emitir hasta que el problema esté resuelto",
+    "reducir la potencia a la mitad",
+    "cambiar de modo de emisión",
+    "seguir emitiendo si su estación está autorizada"
+   ],
+   "sol": "Ante una interferencia que afecte a la seguridad de la vida humana: dejar de emitir hasta resolver el problema."
+  },
+  {
+   "id": "T10.6",
+   "clave": "c",
+   "enunciado": "Si al emitir en la banda de 2 metros se tiene conocimiento de que se están produciendo interferencias al Servicio Móvil Aeronáutico, se deberá:",
+   "opciones": [
+    "avisar por radio a las aeronaves",
+    "seguir emitiendo con la mitad de potencia",
+    "dejar de emitir",
+    "cambiar a polarización horizontal"
+   ],
+   "sol": "Igual con un servicio de seguridad como el Móvil Aeronáutico: cesar las emisiones."
+  },
+  {
+   "id": "T10.7",
+   "clave": "b",
+   "enunciado": "Cuando una instalación de radioaficionado interfiere a una infraestructura común de telecomunicaciones (ICT) del edificio:",
+   "opciones": [
+    "la comunidad debe blindar la ICT a su costa",
+    "se tiene que dejar de emitir, al menos temporalmente",
+    "basta con reducir la potencia un 10 %",
+    "puede seguirse emitiendo si la instalación está autorizada"
+   ],
+   "sol": "Si la instalación interfiere a la ICT del edificio (antenas colectivas de TV, etc.), hay que dejar de emitir, al menos temporalmente, hasta corregir el problema."
+  },
+  {
+   "id": "T10.8",
+   "clave": "b",
+   "enunciado": "Un fusible protege un circuito frente a:",
+   "opciones": [
+    "las variaciones de frecuencia de la red",
+    "las sobreintensidades, fundiéndose antes de que se dañe el equipo",
+    "los contactos indirectos de las personas",
+    "las descargas atmosféricas sobre la antena"
+   ],
+   "sol": "Es un hilo calibrado en serie con el circuito: cuando la corriente supera cierto valor, se funde y abre el paso. Se sacrifica él para que no se queme lo que hay detrás. De las personas se ocupa el diferencial."
+  },
+  {
+   "id": "T10.9",
+   "clave": "d",
+   "enunciado": "Cuando se funde el fusible de un equipo, debe sustituirse por:",
+   "opciones": [
+    "uno de mayor calibre, para que no vuelva a fundirse",
+    "un puente de hilo de cobre",
+    "cualquiera que quepa en el portafusibles",
+    "otro del mismo calibre que el original"
+   ],
+   "sol": "Un fusible fundido es un aviso, no una molestia: algo ha consumido más de la cuenta. Poner uno mayor o un puente elimina la protección justo donde ya se sabe que hay un problema, y el siguiente en fundirse será el equipo."
+  },
+  {
+   "id": "T10.10",
+   "clave": "a",
+   "enunciado": "Un interruptor diferencial actúa cuando en el circuito que protege:",
+   "opciones": [
+    "la corriente de entrada y la de retorno dejan de ser iguales",
+    "se supera la potencia contratada",
+    "la tensión de red baja de un valor mínimo",
+    "la frecuencia se aparta de los 50 Hz"
+   ],
+   "sol": "Toda la corriente que entra debe volver por el neutro. Si falta parte, se está yendo por otro camino —una persona, un aislamiento defectuoso— y el diferencial corta. Los 30 mA de sensibilidad no son casualidad: es el umbral de la fibrilación."
+  },
+  {
+   "id": "T10.11",
+   "clave": "c",
+   "enunciado": "El dispositivo que proporciona protección frente a los defectos de aislamiento y los contactos indirectos se denomina:",
+   "opciones": [
+    "fusible",
+    "magnetotérmico",
+    "interruptor diferencial",
+    "limitador de sobretensiones"
+   ],
+   "sol": "Fusible y magnetotérmico vigilan la _intensidad_ y protegen la instalación; el diferencial vigila el _desequilibrio_ y protege a las personas. Es la distinción que más se pregunta."
+  },
+  {
+   "id": "T10.12",
+   "clave": "b",
+   "enunciado": "Un interruptor magnetotérmico protege la instalación frente a:",
+   "opciones": [
+    "las fugas de corriente a tierra",
+    "las sobrecargas y los cortocircuitos",
+    "las interferencias de radiofrecuencia",
+    "las variaciones de la tensión de red"
+   ],
+   "sol": "Su nombre describe los dos mecanismos: el térmico actúa despacio ante una sobrecarga sostenida y el magnético, de forma instantánea, ante un cortocircuito. Hace lo mismo que un fusible, pero se rearma."
+  },
+  {
+   "id": "T10.13",
+   "clave": "d",
+   "enunciado": "Ante la previsión de una tormenta, lo recomendable es:",
+   "opciones": [
+    "transmitir con la mínima potencia posible",
+    "cambiar a una banda de frecuencia más alta",
+    "conectar la antena directamente al equipo",
+    "desconectar la antena y el equipo de la red eléctrica"
+   ],
+   "sol": "El mástil es un pararrayos involuntario y la bajada, el camino de entrada a la casa. Desconectar la antena y desenchufar el equipo corta las dos vías; dejar la antena derivada a tierra es aún mejor."
+  },
+  {
+   "id": "T10.14",
+   "clave": "a",
+   "enunciado": "Al elegir el emplazamiento de una antena hay que asegurarse, ante todo, de que:",
+   "opciones": [
+    "queda alejada de las líneas eléctricas aéreas",
+    "queda orientada al norte geográfico",
+    "su mástil es de material aislante",
+    "está a menos de un metro del suelo"
+   ],
+   "sol": "Es el riesgo más grave de toda la instalación: un mástil que caiga —al montarlo, o años después con un temporal— sobre una línea eléctrica es mortal. La distancia debe ser mayor que la altura total del conjunto."
+  },
+  {
+   "id": "T10.15",
+   "clave": "c",
+   "enunciado": "Respecto de los vientos que sujetan un mástil de antena, es correcto afirmar que:",
+   "opciones": [
+    "basta con uno, siempre que sea de acero",
+    "deben quedar flojos para absorber las rachas",
+    "deben repartirse alrededor del mástil y tensarse por igual",
+    "conviene anclarlos al propio mástil"
+   ],
+   "sol": "Los vientos trabajan por oposición: repartidos alrededor y tensados por igual, mantienen el mástil vertical venga el viento de donde venga. Uno solo, o varios flojos, no sujetan nada; y anclarlos al propio mástil no sujeta absolutamente nada."
+  },
+  {
+   "id": "T10.16",
+   "clave": "b",
+   "enunciado": "Antes de manipular el interior de un equipo es imprescindible:",
+   "opciones": [
+    "ponerlo en funcionamiento para localizar la avería",
+    "desconectarlo de la red y descargar los condensadores",
+    "conectar la antena a la carga artificial",
+    "aumentar la ventilación del equipo"
+   ],
+   "sol": "Desenchufar no basta: los condensadores del filtro conservan la carga, y en un equipo valvular esa carga está a cientos o miles de voltios. Hay que descargarlos antes de meter la mano."
+  },
+  {
+   "id": "T10.17",
+   "clave": "d",
+   "enunciado": "Al producirse un accidente por electricidad, la primera medida que debe tomarse es:",
+   "opciones": [
+    "practicar la respiración artificial a la víctima",
+    "dar de beber a la víctima",
+    "apartar a la víctima tirando de su ropa",
+    "cortar la corriente eléctrica"
+   ],
+   "sol": "Mientras haya tensión, quien se acerque se convierte en la segunda víctima. Primero se corta la corriente; solo después se atiende al accidentado."
+  },
+  {
+   "id": "T10.18",
+   "clave": "a",
+   "enunciado": "Si la víctima de una descarga no puede desprenderse de la instalación y no es posible cortar la corriente de inmediato, la persona más próxima debe:",
+   "opciones": [
+    "separarla empleando un elemento aislante, sin tocarla directamente",
+    "agarrarla de las manos y tirar con fuerza",
+    "echarle agua para enfriar la zona del contacto",
+    "esperar a que llegue el servicio de emergencias sin actuar"
+   ],
+   "sol": "Una pértiga de madera seca, un mango aislante, una prenda seca: cualquier cosa que impida que la corriente pase también por el que auxilia. Tocarla directamente, o mojar la escena, es multiplicar el accidente."
+  },
+  {
+   "id": "T10.19",
+   "clave": "c",
+   "enunciado": "En la atención a un accidentado por electricidad, _no_ debe hacerse lo siguiente:",
+   "opciones": [
+    "avisar a los servicios de emergencia",
+    "comprobar si respira una vez liberado de la corriente",
+    "tocarlo con las manos desnudas mientras siga en contacto con la instalación",
+    "cubrirlo para evitar que pierda calor"
+   ],
+   "sol": "Las otras tres son correctas. Tocar a la víctima mientras sigue bajo tensión convierte al auxiliador en parte del circuito: es el error clásico y el más grave."
+  },
+  {
+   "id": "T10.20",
+   "clave": "b",
+   "enunciado": "La peligrosidad de una descarga eléctrica sobre el cuerpo humano depende principalmente de:",
+   "opciones": [
+    "el color del aislante del conductor",
+    "la intensidad que lo atraviesa, su recorrido y su duración",
+    "la frecuencia de resonancia del circuito",
+    "la potencia contratada en la vivienda"
+   ],
+   "sol": "Lo que daña es la corriente, no la tensión por sí sola. Y el recorrido importa tanto como el valor: el trayecto mano-mano o mano-pie atraviesa el corazón, que es lo que convierte unas décimas de amperio en un accidente mortal."
+  },
+  {
+   "id": "T10.21",
+   "clave": "d",
+   "enunciado": "De las siguientes intensidades atravesando el cuerpo humano, la más peligrosa es:",
+   "opciones": [
+    "1 mA",
+    "5 mA",
+    "10 mA",
+    "50 mA"
+   ],
+   "sol": "Hacia 1 mA solo se percibe; en torno a 10–20 mA los músculos dejan de obedecer y no se puede soltar el conductor; desde unos 30 mA acecha la fibrilación ventricular. 50 mA está de lleno en esa zona, y por eso los diferenciales domésticos cortan a 30."
+  },
+  {
+   "id": "T10.22",
+   "clave": "a",
+   "enunciado": "La toma de tierra de la instalación de una estación de radioaficionado debe:",
+   "opciones": [
+    "presentar la menor resistencia posible y conectar todos los chasis metálicos",
+    "tener la mayor resistencia posible para limitar la corriente",
+    "conectarse únicamente al neutro de la red",
+    "instalarse solo en las estaciones de más de 100 vatios"
+   ],
+   "sol": "Cuanto menor sea la resistencia, mejor deriva la corriente de fuga y antes actúa el diferencial. Y debe llegar a _todos_ los chasis: uno solo sin conectar rompe la cadena y se convierte en el punto peligroso."
+  },
+  {
+   "id": "T10.23",
+   "clave": "c",
+   "enunciado": "En los trabajos de instalación de antenas en altura, es incorrecto:",
+   "opciones": [
+    "emplear arnés de seguridad y calzado adecuado",
+    "comprobar antes la estabilidad de la estructura",
+    "trabajar en solitario y sin avisar a nadie",
+    "suspender el trabajo si empeora la meteorología"
+   ],
+   "sol": "Trabajar solo en altura significa que, si algo va mal, nadie se entera ni puede auxiliar. Las otras tres son precisamente las medidas correctas."
+  },
+  {
+   "id": "T10.24",
+   "clave": "b",
+   "enunciado": "Respecto de los rotores de las antenas directivas, es correcto afirmar que:",
+   "opciones": [
+    "deben instalarse siempre en el extremo superior del mástil",
+    "deben dimensionarse para soportar el peso y el par de la antena, y su cableado ha de protegerse",
+    "no necesitan ninguna protección eléctrica",
+    "su cableado puede compartirse con el de la línea de alimentación de RF"
+   ],
+   "sol": "El rotor sostiene y gira una estructura pesada sometida al viento: si se queda corto, acaba partiéndose. Su cable de control es además una vía de entrada de RF y de sobretensiones, así que se protege y se separa del coaxial."
+  },
+  {
+   "id": "T10.25",
+   "clave": "a",
+   "enunciado": "El valor nominal del fusible que protege un equipo debe ser:",
+   "opciones": [
+    "ligeramente superior al consumo máximo previsto del equipo",
+    "muy inferior al consumo del equipo, para que salte enseguida",
+    "diez veces el consumo máximo del equipo",
+    "indiferente, mientras encaje en el portafusibles"
+   ],
+   "sol": "Debe dejar pasar el consumo normal sin fundirse y cortar en cuanto se supere: un poco por encima del máximo previsto. Muy por debajo saltaría constantemente sin que hubiera avería, y diez veces por encima no protegería de nada."
+  },
+  {
+   "id": "T10.26",
+   "clave": "c",
+   "enunciado": "El conductor que une la estación con la toma de tierra:",
+   "opciones": [
+    "debe llevar un fusible de protección",
+    "debe llevar un interruptor para poder aislarlo",
+    "no debe llevar fusible ni interruptor alguno",
+    "debe ser del mismo color que el conductor de fase"
+   ],
+   "sol": "El conductor de tierra tiene que estar disponible siempre y sin excepción. Un fusible o un interruptor en él lo dejaría abierto justo cuando más falta hace, dejando los chasis en tensión sin que nada corte."
+  },
+  {
+   "id": "T10.27",
+   "clave": "d",
+   "enunciado": "Como toma de tierra de la estación:",
+   "opciones": [
+    "debe emplearse siempre una pica propia, nunca la del edificio",
+    "basta con conectar los chasis al neutro de la red",
+    "basta con conectar los chasis a la tubería del gas",
+    "puede emplearse la de la instalación eléctrica del edificio, si existe y está en buenas condiciones"
+   ],
+   "sol": "No hace falta duplicar instalaciones: la tierra del edificio sirve si está en condiciones. Lo que nunca vale es el neutro de la red —que es un conductor activo— ni una tubería, y menos la del gas."
+  },
+  {
+   "id": "T10.28",
+   "clave": "b",
+   "enunciado": "Respecto del terreno en que se entierra una pica de toma de tierra:",
+   "opciones": [
+    "conviene un terreno seco y soleado",
+    "conviene un terreno húmedo, porque conduce mejor",
+    "el tipo de terreno es indiferente",
+    "conviene rodearla de material aislante"
+   ],
+   "sol": "La resistencia de la toma de tierra depende de la conductividad del terreno, y la humedad la mejora mucho. Por eso las picas se entierran en zonas frescas y a veces se riegan; un terreno seco y soleado es el peor sitio."
+  },
+  {
+   "id": "T10.29",
+   "clave": "a",
+   "enunciado": "En los vientos metálicos que sujetan un mástil de antena conviene:",
+   "opciones": [
+    "intercalar aisladores a tramos, para que no resuenen en las bandas de trabajo",
+    "tensarlos al máximo hasta que vibren",
+    "conectarlos al conductor central del coaxial",
+    "sustituirlos por cable de alimentación de red"
+   ],
+   "sol": "Un viento metálico continuo de longitud parecida a la de trabajo se comporta como un elemento resonante, capta energía y deforma el diagrama de radiación. Los aisladores lo trocean en tramos que ya no resuenan."
+  },
+  {
+   "id": "T10.30",
+   "clave": "c",
+   "enunciado": "La antena de la estación de aficionado debe fijarse:",
+   "opciones": [
+    "al mismo mástil de la antena colectiva de televisión del edificio",
+    "directamente a la barandilla de la terraza",
+    "a un mástil propio, independiente del de la antena colectiva del edificio",
+    "a la chimenea, por ser el punto más alto"
+   ],
+   "sol": "Compartir mástil con la antena colectiva del edificio es fuente segura de conflictos e interferencias, y además implica manipular una instalación que no es propia. La antena de aficionado va en su propio soporte."
+  },
+  {
+   "id": "T10.31",
+   "clave": "d",
+   "enunciado": "La distancia entre una antena y una línea eléctrica aérea debe ser:",
+   "opciones": [
+    "de al menos un metro",
+    "la que permita el espacio disponible",
+    "indiferente si la línea está aislada",
+    "mayor que la altura total del conjunto de mástil y antena"
+   ],
+   "sol": "El criterio no es una distancia fija sino geométrico: si el conjunto cae, no debe poder alcanzar la línea. Que el conductor parezca aislado no cambia nada — a esas tensiones el aislamiento exterior no es una garantía."
+  },
+  {
+   "id": "T10.32",
+   "clave": "b",
+   "enunciado": "Ante una quemadura producida por un accidente eléctrico se debe:",
+   "opciones": [
+    "aplicar pomadas o remedios caseros sobre la zona",
+    "lavar la zona con agua abundante y avisar al servicio médico",
+    "frotar la quemadura para activar la circulación",
+    "cubrirla con algodón y no avisar a nadie"
+   ],
+   "sol": "Agua abundante para enfriar y frenar el daño, y asistencia médica. Las quemaduras eléctricas engañan: la lesión externa puede ser pequeña y el daño interno, profundo, porque la corriente ha atravesado el tejido."
+  },
+  {
+   "id": "T10.33",
+   "clave": "a",
+   "enunciado": "En la atención a una persona accidentada por electricidad, no se le debe:",
+   "opciones": [
+    "dar de beber",
+    "cubrir para que no pierda calor",
+    "avisar a los servicios de emergencia",
+    "comprobar si respira"
+   ],
+   "sol": "Nunca se da de beber a un accidentado: puede estar inconsciente o tener alterados los reflejos y provocarse un atragantamiento. Cubrirlo, comprobar si respira y avisar a emergencias sí es correcto."
+  },
+  {
+   "id": "T10.34",
+   "clave": "c",
+   "enunciado": "Si tras liberar de la corriente a un accidentado se comprueba que no respira, procede:",
+   "opciones": [
+    "esperar sin tocarlo a que llegue la ambulancia",
+    "sentarlo y darle aire con un abanico",
+    "practicarle la respiración artificial, boca a boca si es posible",
+    "aplicarle de nuevo una descarga para reanimarlo"
+   ],
+   "sol": "Si no respira, cada minuto cuenta y no se puede esperar. Se inicia la respiración artificial —boca a boca si es posible— hasta que llegue la asistencia. Volver a aplicar corriente es un mito peligroso."
+  },
+  {
+   "id": "T10.35",
+   "clave": "d",
+   "enunciado": "De los siguientes efectos, el que _no_ produce una descarga eléctrica sobre el cuerpo humano es:",
+   "opciones": [
+    "la tetanización muscular",
+    "la fibrilación ventricular",
+    "las quemaduras internas y externas",
+    "la somnolencia"
+   ],
+   "sol": "La corriente tetaniza los músculos, puede llevar el corazón a fibrilación y quema por efecto Joule dentro y fuera. La somnolencia no es un efecto de la descarga eléctrica."
+  },
+  {
+   "id": "T10.36",
+   "clave": "b",
+   "enunciado": "En condiciones ambientales semejantes, de las siguientes combinaciones la más perjudicial para el organismo es:",
+   "opciones": [
+    "12 V y 10 mA",
+    "500 V y 100 mA",
+    "24 V y 5 mA",
+    "50 V y 1 mA"
+   ],
+   "sol": "Lo que daña es la corriente que atraviesa el cuerpo, y 100 mA está muy por encima del umbral de fibrilación (unos 30 mA). La tensión importa porque es la que empuja esa corriente: 500 V la fuerzan con facilidad a través del cuerpo."
+  },
+  {
+   "id": "T10.37",
+   "clave": "a",
+   "enunciado": "Si el cuerpo de una persona está mojado, frente a una descarga eléctrica:",
+   "opciones": [
+    "el riesgo aumenta, porque disminuye la resistencia del cuerpo",
+    "queda protegido, porque el agua forma una jaula de Faraday",
+    "el riesgo no varía",
+    "el riesgo disminuye si el agua es destilada"
+   ],
+   "sol": "La piel seca ofrece bastantes miles de ohmios; mojada, esa resistencia se desploma y la misma tensión produce mucha más corriente. Por eso los baños y las zonas húmedas son las de mayor riesgo eléctrico. Lo de la jaula de Faraday es un disparate."
+  },
+  {
+   "id": "T10.38",
+   "clave": "c",
+   "enunciado": "En relación con la seguridad de la estación, es recomendable que:",
+   "opciones": [
+    "solo el titular sepa dónde está el interruptor general",
+    "no se informe a nadie de la existencia de la estación",
+    "tanto el operador como sus familiares conozcan las prácticas básicas de primeros auxilios",
+    "los equipos se manipulen siempre en tensión para detectar la avería"
+   ],
+   "sol": "Un accidente eléctrico lo suele presenciar quien está cerca, no un especialista. Que la familia sepa cortar la corriente y dar los primeros auxilios es, en la práctica, parte de la seguridad de la estación."
+  },
+  {
+   "id": "T10.39",
+   "clave": "d",
+   "enunciado": "Ante un conato de incendio en un equipo eléctrico conectado a la red, lo correcto es:",
+   "opciones": [
+    "arrojar agua abundante sobre el equipo",
+    "abrir el equipo para localizar el componente afectado",
+    "desconectar únicamente la antena",
+    "cortar la corriente y emplear un extintor adecuado para equipos eléctricos"
+   ],
+   "sol": "Primero cortar la corriente, porque mientras haya tensión el fuego se realimenta y el agua conduce. Después, extintor apto para equipos eléctricos — de CO#text(size: 0.7em, baseline: 0.22em)[2] o de polvo—, nunca agua."
+  },
+  {
+   "id": "T10.40",
+   "clave": "b",
+   "enunciado": "A efectos de evitar accidentes derivados del uso de su estación, el titular de una autorización de radioaficionado:",
+   "opciones": [
+    "queda exento de responsabilidad si la instalación la hizo un tercero",
+    "está obligado a cumplir la normativa vigente en materia de seguridad",
+    "solo responde de los equipos, no de las antenas",
+    "únicamente debe atender a las recomendaciones de su asociación"
+   ],
+   "sol": "La responsabilidad es del titular de la autorización, con independencia de quién montara la instalación, y alcanza a todo el conjunto: equipos, antenas y soportes. Las recomendaciones de una asociación no sustituyen a la normativa."
+  }
+ ]
+}

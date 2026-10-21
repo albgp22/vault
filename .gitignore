@@ -7,3 +7,5 @@ build/*.pdf
 !build/examen-radioaficionado.pdf
 !build/cheatsheet.pdf
 __pycache__/
+build/simulacros/prueba-todo.*
+build/simulacros/plan-prueba.json

@@ -1,0 +1,1791 @@
+{
+ "temas": {
+  "T4": {
+   "titulo": "Receptores",
+   "alcance": "Receptores superheterodinos de simple y doble conversión y de conversión directa · diagramas de bloques (CW, AM, SSB, FM) · etapas: amplificador de RF, osciladores, mezclador, FI, limitador, detector, BFO, CAG, silenciador, amplificador de baja frecuencia · características: selectividad (también de canal adyacente), sensibilidad, estabilidad, figura de ruido, frecuencia imagen, desensibilización y bloqueo, intermodulación, modulación cruzada."
+  },
+  "T5": {
+   "titulo": "Transmisores",
+   "alcance": "Transmisores con y sin conversión de frecuencia · diagramas de bloques (CW, SSB, FM) · etapas: mezclador, oscilador, excitador, multiplicador, amplificador de potencia, filtro de salida, moduladores (de SSB, de frecuencia y de fase) · características: estabilidad, anchura de banda, margen de audiofrecuencia, desviación de frecuencia e índice de modulación, impedancia y potencia de salida, rendimiento, emisiones no deseadas, radiación por la estructura · transceptores y repetidores en VHF/UHF y su ubicación."
+  }
+ },
+ "preguntas": [
+  {
+   "id": "C-T4.1",
+   "clave": "b",
+   "enunciado": "La etapa de detección de un receptor se emplea para:",
+   "opciones": [
+    "Mezclar la señal recibida.",
+    "Demodular la señal recibida.",
+    "Limitar la señal recibida.",
+    "Amplificar la señal recibida."
+   ],
+   "sol": "\n    Detectar es demodular: el detector recupera la información (voz, datos) que llevaba la\n    portadora, es decir, extrae la información de la señal modulada. Mezclar es tarea del mezclador,\n    que traslada la señal a la FI con el oscilador local; limitar, del limitador, propio de la FM;\n    amplificar, de las etapas de RF, FI y BF. La misma idea se pregunta con otras palabras: «en la\n    etapa detectora se efectúa un proceso de demodulación» (no de amplificación, neutralización ni\n    alimentación) o «la detección sirve para extraer la información de la señal modulada». Mezclar\n    la información con la portadora es lo contrario, modular, y se hace en el transmisor; convertir\n    continua en alterna o multiplicar la frecuencia de la portadora son funciones de un inversor y\n    de un multiplicador. #vease[(Véase tema T3, sección «Clases de amplificación y detectores»; tema\n    T4, sección «Características y controles».)]\n  "
+  },
+  {
+   "id": "C-T4.2",
+   "clave": "a",
+   "enunciado": "Un atenuador para proteger contra sobrecargas la entrada de un receptor estará formado por:",
+   "opciones": [
+    "Resistencias (R).",
+    "Bobinas (L).",
+    "Condensadores (C).",
+    "Resistencias, bobinas y condensadores (R, L, C)."
+   ],
+   "sol": "\n    Atenuar es disipar en forma de calor parte de la potencia de la señal, y eso solo lo hacen las\n    resistencias. Una red de resistencias (en $π$ o en T) reduce la señal un número fijo de\n    decibelios igual en todas las frecuencias y mantiene las impedancias de entrada y salida. Las\n    bobinas y los condensadores ideales no disipan: almacenan energía y, combinados (R, L, C),\n    forman circuitos resonantes y filtros, cuya respuesta depende de la frecuencia. Por eso un\n    atenuador de entrada es resistivo.\n    #no-esta[El atenuador es una red de resistencias que se intercala entre la antena y el receptor (mando\n    «ATT», de 10 o 20 dB) para evitar sobrecargas, bloqueo e intermodulación cuando hay señales muy\n    fuertes. Reduce el nivel una cantidad fija: 20 dB son un factor 100 en potencia y 10 en tensión.\n    A diferencia de un filtro, atenúa por igual toda la banda. Las bobinas y los condensadores\n    ideales no consumen potencia, solo la almacenan y devuelven.]\n  "
+  },
+  {
+   "id": "C-T4.3",
+   "clave": "b",
+   "enunciado": "Cuando se pasa el modo de recepción de USB a LSB se cambia:",
+   "opciones": [
+    "De recibir en A3E a recibir en J3E",
+    "La frecuencia de batido",
+    "El ancho de banda de la FI",
+    "La sensibilidad del receptor"
+   ],
+   "sol": "\n    USB y LSB son la misma clase de emisión, J3E (banda lateral única con portadora suprimida; el\n    «A3j» de las denominaciones antiguas): solo cambia cuál de las dos bandas laterales se demodula.\n    El filtro de la FI sigue siendo el mismo, de unos 2,4 a 3 kHz, así que no cambian ni el ancho de\n    banda ni la sensibilidad. Lo que se modifica es la frecuencia del oscilador de batido (BFO), que\n    se sitúa al otro lado de la banda de paso del filtro para reinsertar la portadora por el lado\n    que corresponde. #vease[(Véase tema T4, sección «Características y controles» (BFO y detector de\n    producto).)]\n    #no-esta[En SSB no se transmite la portadora y el receptor la repone con el BFO en el detector de\n    producto. La frecuencia de batido se coloca a uno u otro lado de la banda de paso del filtro de\n    FI según la banda lateral que se quiera recibir. Al pasar de USB a LSB, o al revés, el equipo\n    solo desplaza el BFO unos kilohercios (algunos transceptores invierten en su lugar el oscilador\n    local), sin tocar el filtro ni la ganancia.]\n  "
+  },
+  {
+   "id": "C-T4.4",
+   "clave": "a",
+   "enunciado": "Cuando en un receptor actuamos el conmutador de canales estamos:",
+   "opciones": [
+    "Variando la sintonía",
+    "Disminuyendo el ancho de banda",
+    "Variando la potencia de emisión",
+    "Aumentando la sensibilidad en recepción"
+   ],
+   "sol": "\n    Cada posición del conmutador de canales selecciona una frecuencia distinta: cambia la sintonía\n    del receptor. Por dentro se conmuta el cristal, o la división del sintetizador, que fija el\n    oscilador local, de modo que el canal elegido caiga en la frecuencia intermedia. El ancho de\n    banda lo fija el filtro de FI y es el mismo en todos los canales; la potencia de emisión tiene\n    su propio mando y pertenece al transmisor; y la sensibilidad es una cualidad del receptor que\n    este conmutador no modifica. #vease[(Véase tema T4, sección «Arquitectura del receptor»\n    (sintonizar es mover el oscilador local).)]\n    #no-esta[Un canal es una frecuencia fija y predeterminada. En un receptor superheterodino sintonizar\n    consiste en mover el oscilador local, con $f_(\"FI\") = |f_(\"OL\") −f_s |$. En los equipos por\n    canales (VHF en FM, CB, receptores de escucha) el conmutador elige el cristal o programa el\n    divisor del sintetizador de frecuencia; en los de dial continuo se mueve un oscilador variable.\n    No confundas el conmutador de canales, que elige una frecuencia concreta, con el de bandas, que\n    elige un margen de frecuencias.]\n  "
+  },
+  {
+   "id": "C-T4.5",
+   "clave": "d",
+   "enunciado": "La estabilidad de un receptor es función:",
+   "opciones": [
+    "Del paso de radiofrecuencia",
+    "Del mezclador",
+    "De la etapa de radiofrecuencia",
+    "Del oscilador local"
+   ],
+   "sol": "\n    La estabilidad es la capacidad de mantener la frecuencia sintonizada sin derivar. En un\n    superheterodino esa frecuencia la fija el oscilador local ($f_s = f_(\"OL\") ± f_(\"FI\")$, según\n    vaya el oscilador por debajo o por encima de la señal): si el oscilador deriva por temperatura,\n    tensión o envejecimiento, el receptor se desintoniza la misma cantidad. La etapa de RF es un\n    amplificador con filtro preselector y el mezclador solo combina dos señales; ninguno de los dos\n    determina la frecuencia sintonizada. Por eso se cuida tanto el oscilador local (cristal,\n    sintetizador, compensación de temperatura). #vease[(Véase tema T4, secciones «Características y\n    controles» y «Arquitectura del receptor».)]\n    #no-esta[Una deriva $Δ f$ del oscilador local desplaza exactamente $Δ f$ la señal que recibe el receptor,\n    porque $f_s = f_(\"OL\") ± f_(\"FI\")$ y la FI es fija. Ejemplo: si el oscilador deriva 1 kHz, una\n    emisora de SSB suena 1 kHz más aguda o más grave hasta que se retoca la sintonía. Por eso el\n    oscilador local es el elemento que más condiciona la estabilidad y se estabiliza con cristal,\n    sintetizador PLL o compensación térmica (TCXO).]\n  "
+  },
+  {
+   "id": "C-T4.6",
+   "clave": "a",
+   "enunciado": "Si en un transceptor colocamos el mando «MODE» en posición SSB (BLU), ¿podremos recibir una señal\nmodulada en amplitud (AM)?",
+   "opciones": [
+    "Se recibirá mezclada con un ruido de batido continuo",
+    "Se recibirá perfectamente",
+    "No entrará señal alguna",
+    "Ese mando no influye para nada en la señal recibida"
+   ],
+   "sol": "\n    En SSB el receptor demodula con un detector de producto y un oscilador de batido (BFO), no con\n    el detector de envolvente de la AM. La portadora de la señal AM, que en SSB no existe, bate con\n    el BFO y produce un pitido continuo; además, el filtro estrecho de SSB (unos 2,4 kHz) deja fuera\n    parte de una señal AM, que ocupa el doble. Con sintonía exacta se entiende la voz de una sola\n    banda, pero cualquier desajuste produce el pitido y nunca es una recepción perfecta: la b, que\n    es la clave que publica el banco, es falsa. La señal sí entra (c es falsa) y el mando de modo sí\n    influye (d es falsa). #vease[(Véase tema T4, sección «Características y controles» (detector de\n    producto y BFO).)]\n    #no-esta[Un receptor de AM detecta la envolvente, que contiene la portadora. Uno de SSB o CW detecta por\n    producto: mezcla la FI con el BFO, que sustituye a la portadora ausente. Si entra una AM, su\n    portadora, de frecuencia constante, bate con el BFO y da un tono continuo de frecuencia igual a\n    la diferencia: ese es el «ruido de batido». A la inversa, una SSB escuchada en modo AM resulta\n    ininteligible (voz de pato), porque le falta la portadora.]\n    #_apb1-clave[«Se recibirá perfectamente». Es la clave que dan las recopilaciones de exámenes reales\n    (2007–2011): conviene conocerla por si aparece idéntica en el examen, aunque la respuesta\n    razonada arriba sea la técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T4.7",
+   "clave": "c",
+   "enunciado": "La frecuencia imagen puede aparecer en:",
+   "opciones": [
+    "Un emisor superheterodino",
+    "Una dinamo",
+    "Un receptor superheterodino",
+    "Un amplificador lineal"
+   ],
+   "sol": "\n    La frecuencia imagen es un defecto propio del receptor superheterodino: su mezclador convierte a\n    la misma FI dos frecuencias, la sintonizada $f_s$ y la imagen $f_(\"im\") = f_s + 2f_(\"FI\")$ (o\n    $f_s − 2f_(\"FI\")$ si el oscilador va por debajo), y tras el mezclador ya no se pueden separar.\n    Ejemplo: con FI de 455 kHz sintonizando 7 MHz, el oscilador va a 7,455 MHz y la imagen cae en\n    7,910 MHz. Un emisor no recibe señales externas que puedan entrar por la imagen, y una dinamo\n    (generador de corriente continua) o un amplificador lineal no tienen mezclador. #vease[(Véase\n    tema T4, sección «Arquitectura del receptor».)]\n  "
+  },
+  {
+   "id": "C-T4.8",
+   "clave": "c",
+   "enunciado": "El circuito de control automático de ganancia tiene un mando de gobierno que afecta a:",
+   "opciones": [
+    "Su capacidad de ganancia",
+    "Su capacidad de atenuación",
+    "Su tiempo de respuesta",
+    "Su conexión a la etapa RF o de FI"
+   ],
+   "sol": "\n    El mando del CAG (AGC FAST/SLOW/OFF en muchos equipos) fija su constante de tiempo, es decir, su\n    tiempo de respuesta: lo rápido que baja la ganancia cuando aparece una señal fuerte y lo\n    despacio que la recupera después. En SSB y AM suele usarse un tiempo largo, para que el nivel no\n    siga las sílabas de la voz; en CW, uno corto. El CAG no cambia su capacidad de ganancia ni de\n    atenuación, que dependen de las etapas controladas, ni se conecta o desconecta de la etapa de RF\n    o de FI: siempre actúa sobre ellas, y con AGC OFF simplemente se anula. #vease[(Véase tema T4,\n    sección «Características y controles» (CAG).)]\n    #no-esta[El CAG toma el nivel de la señal detectada, lo filtra con una red RC y lo devuelve como tensión\n    de control a las etapas de RF y FI. La constante de tiempo de esa red decide con qué rapidez\n    actúa y con qué lentitud suelta. Con un tiempo demasiado corto el CAG sigue la propia modulación\n    y distorsiona la voz; con uno demasiado largo, una señal fuerte y breve deja sordo al receptor\n    unos instantes. Por eso se ofrece un mando de tiempo (rápido, lento).]\n  "
+  },
+  {
+   "id": "C-T4.9",
+   "clave": "a",
+   "enunciado": "Un receptor de radio se llama superheterodino porque:",
+   "opciones": [
+    "Usa frecuencia intermedia",
+    "Mezcla las frecuencias sintonizadas",
+    "Heterodina los armónicos",
+    "Elimina los armónicos"
+   ],
+   "sol": "\n    «Superheterodino» describe el principio de funcionamiento: la señal recibida se mezcla (se\n    heterodina) con la del oscilador local para convertirla en una frecuencia intermedia (FI) fija,\n    por encima del audio («super» viene de supersónico), y allí se hace la amplificación y el\n    filtrado. Por eso la respuesta es que usa frecuencia intermedia. El mezclador no «mezcla las\n    frecuencias sintonizadas» sin más: traslada la señal a la FI con el oscilador local. Y el nombre\n    no tiene nada que ver con los armónicos: ni se heterodinan ni se eliminan así; de eso se\n    encargan los filtros. #vease[(Véase tema T4, sección «Arquitectura del receptor».)]\n  "
+  },
+  {
+   "id": "C-T4.10",
+   "clave": "c",
+   "enunciado": "El mando de ganancia de radiofrecuencia en un transceptor:",
+   "opciones": [
+    "Controla la potencia de salida de radiofrecuencia del emisor",
+    "Actúa en los pasos de radiofrecuencia de recepción y emisión",
+    "Controla la relación entre la señal entregada por la antena y la que se aplica al mezclador",
+    "Sirve para aumentar el nivel de la señal en recepción y disminuir el nivel del ruido"
+   ],
+   "sol": "\n    El mando «RF GAIN» regula la ganancia de las etapas de RF (y, según el equipo, de FI) del\n    receptor: dicho de otro modo, la proporción entre la señal que llega de la antena y la que se\n    aplica al mezclador. Se baja para evitar la saturación con señales muy fuertes o para reducir el\n    ruido de fondo. No actúa sobre el transmisor: la potencia de salida tiene su propio mando, luego\n    a y b son falsas. El banco publicado marca la d, pero es imprecisa: más ganancia amplifica por\n    igual señal y ruido y no mejora la relación señal/ruido, que la fija la primera etapa.\n    #vease[(Véase tema T4, sección «Preguntas sobre esquemas» (mando «RF GAIN»).)]\n    #_apb1-clave[«Sirve para aumentar el nivel de la señal en recepción y disminuir el nivel del ruido». Es la\n    clave que dan las recopilaciones de exámenes reales (2007–2011): conviene conocerla por si\n    aparece idéntica en el examen, aunque la respuesta razonada arriba sea la técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T4.11",
+   "clave": "c",
+   "enunciado": "El dial de presentación digital («#emph[digital display]») nos indica:",
+   "opciones": [
+    "La interferencia",
+    "Los decibelios",
+    "La frecuencia de trabajo",
+    "El volumen"
+   ],
+   "sol": "\n    El dial digital es la escala de sintonía de los equipos modernos: muestra la frecuencia a la que\n    está trabajando el equipo (por ejemplo, 7,120 MHz), calculada a partir del oscilador local o del\n    sintetizador. No indica la interferencia, que no se mide en el panel, ni el volumen, que tiene\n    su propio mando; el nivel de la señal recibida lo da el #emph[S-meter], no el dial.\n    #vease[(Véase tema T4, sección «Arquitectura del receptor» (sintonizar el dial).)]\n    #no-esta[El dial es el elemento con el que se sintoniza: antes era una escala analógica ligada al\n    condensador variable; hoy es un #emph[display] numérico que muestra la frecuencia con una\n    resolución de unos pocos hercios, deducida del oscilador local o del sintetizador y de la FI.\n    Los demás indicadores del panel son instrumentos distintos: el #emph[S-meter] (nivel de señal),\n    el medidor de potencia o el de ROE.]\n  "
+  },
+  {
+   "id": "C-T4.12",
+   "clave": "b",
+   "enunciado": "En los receptores de doble conversión:",
+   "opciones": [
+    "La primera frecuencia intermedia es menor que la segunda",
+    "La primera frecuencia intermedia es mayor que la segunda",
+    "La segunda frecuencia intermedia es el doble que la primera",
+    "La segunda frecuencia intermedia es la mitad de la primera"
+   ],
+   "sol": "\n    En la doble conversión la primera FI es alta (por ejemplo, 45 o 70 MHz) y la segunda, baja (por\n    ejemplo, 455 kHz). Una primera FI alta aleja la frecuencia imagen, que está a $2f_(\"FI\")$ de la\n    señal, y el filtro preselector la elimina con facilidad; una segunda FI baja permite filtros muy\n    estrechos y, por tanto, selectivos. Por eso la primera es mayor que la segunda, y la a está al\n    revés. No hay una relación fija del doble o de la mitad: c y d son falsas, pues las FI\n    habituales se diferencian en un factor de veinte o mucho más. #vease[(Véase tema T4, sección\n    «Arquitectura del receptor».)]\n  "
+  },
+  {
+   "id": "C-T4.13",
+   "clave": "b",
+   "enunciado": "La técnica de superheterodinación se emplea:",
+   "opciones": [
+    "Porque se aumenta la seguridad de las comunicaciones",
+    "Porque permite poner el CAG",
+    "Porque los receptores son más sencillos",
+    "Porque los emisores son más sencillos"
+   ],
+   "sol": "\n    Es una pregunta de enunciado pobre que se resuelve por eliminación. La ventaja del\n    superheterodino es la frecuencia intermedia fija: permite concentrar en ella la ganancia y la\n    selectividad con filtros y amplificadores optimizados, y además facilita aplicar el CAG sobre\n    esas etapas; esa es la opción válida. La superheterodinación no aumenta la seguridad de las\n    comunicaciones (a), no simplifica el receptor, que necesita mezclador y oscilador local frente a\n    uno de amplificación directa (c), y no tiene que ver con la sencillez de los emisores (d).\n    #vease[(Véase tema T4, sección «Arquitectura del receptor».)]\n    #no-esta[Al trasladar la señal a una FI fija, casi toda la ganancia queda en un amplificador de\n    frecuencia única, con filtros que se diseñan una sola vez. El CAG se apoya en ello: la tensión\n    obtenida tras el detector controla la ganancia de esas etapas de FI (y de RF) y mantiene\n    constante el nivel de salida, sea cual sea la frecuencia sintonizada. En un receptor de\n    amplificación directa, con varios circuitos sintonizados que seguir, el control de ganancia\n    sería más complicado.]\n  "
+  },
+  {
+   "id": "C-T4.14",
+   "clave": "d",
+   "enunciado": "¿A cuál de estos circuitos de la parte receptora de un repetidor debe estar conectado el relé que\nconecta la parte emisora?",
+   "opciones": [
+    "Al paso de radiofrecuencia",
+    "Al paso de baja frecuencia",
+    "Al CAG",
+    "Al silenciador"
+   ],
+   "sol": "\n    Un repetidor debe emitir solo mientras recibe una señal. Esa información la da el silenciador\n    (#emph[squelch]) del receptor: se abre cuando detecta portadora (o el subtono CTCSS exigido) y\n    se cierra en ausencia de señal. Su salida acciona el relé que pone en marcha el transmisor, como\n    un PTT automático. Los pasos de RF y de BF solo amplifican y no distinguen una señal útil del\n    ruido; el CAG solo regula la ganancia. Conectado a cualquiera de ellos, el transmisor emitiría\n    sin motivo. #vease[(Véase tema T4, sección «Características y controles» (silenciador); tema T5,\n    sección «Etapas y definiciones» (repetidor).)]\n    #no-esta[Un repetidor es un receptor y un transmisor unidos: lo que recibe en una frecuencia lo\n    retransmite en otra. Para que el transmisor se active solo cuando hay una señal, el silenciador\n    del receptor, que corta el audio cuando no hay portadora, acciona el relé de control del\n    transmisor (en la jerga, relé accionado por portadora, COR). Si el repetidor exige subtono\n    CTCSS, el silenciador solo se abre con la portadora que lleva ese tono.]\n  "
+  },
+  {
+   "id": "C-T4.15",
+   "clave": "a",
+   "enunciado": "El esquema de un receptor básico para banda lateral única se corresponde con la figura:",
+   "opciones": [
+    "#_apb1-rx([etapa\\ RF], [etapa\\ FI], [detector de\\ producto], [oscilador\\ variable], [oscilador de\\ batido])",
+    "#_apb1-rx([etapa\\ FI], [etapa\\ RF], [detector de\\ producto], [oscilador\\ variable], [oscilador de\\ batido])",
+    "#_apb1-rx([etapa\\ RF], [demodulador], [detector de\\ producto], [oscilador\\ fijo], [oscilador\\ variable])",
+    "#_apb1-rx([etapa\\ RF], [etapa\\ FI], [diodo\\ detector], [oscilador\\ variable], none)"
+   ],
+   "sol": "\n    La señal pasa de la antena a la etapa de RF y al mezclador, donde el oscilador variable la\n    convierte en la frecuencia intermedia que amplifica la etapa de FI. En BLU no hay portadora, así\n    que la detección exige un detector de producto que la reponga con un oscilador de batido (BFO);\n    luego, el amplificador de BF excita el altavoz. Eso es la figura a. En la b la FI va antes del\n    mezclador y la RF después, cuando la FI nace en el mezclador. En la c un demodulador ocupa el\n    lugar de la FI y los osciladores están cambiados. En la d el diodo detector sirve para AM con\n    portadora, no para BLU. #vease[(Véase tema T4, sección «Arquitectura del receptor».)]\n  ",
+   "figura": true
+  },
+  {
+   "id": "C-T4.16",
+   "clave": "c",
+   "enunciado": "En el siguiente diagrama de bloques, correspondiente a un receptor elemental de conversión directa, el bloque con interrogantes representa un:\n    #circuito(caption: none)[\n      #diagram(\n        node-stroke: 0.6pt, spacing: (5mm, 8mm), edge-stroke: 0.6pt, mark-scale: 70%,\n        node((0, 0), stack(dir: ttb, spacing: 1pt, _apb1-ant, _apb1-etq[antena]), stroke: none),\n        edge((0, 0), (1, 0), \"-|>\"),\n        _apb1-bq((1, 0), [mezclador]),\n        edge((1, 0), (2, 0), \"-|>\"),\n        _apb1-bq((2, 0), [filtro\\ de audio]),\n        edge((2, 0), (3, 0), \"-|>\"),\n        _apb1-bq((3, 0), [amplificador\\ de audio]),\n        edge((3, 0), (4, 0), \"-|>\"),\n        node((4, 0), stack(dir: ttb, spacing: 1pt, _apb1-alt, _apb1-etq[altavoz]), stroke: none),\n        node((1, 1), text(size: 9pt, weight: \"bold\", fill: col.naranja)[?], shape: rect, stroke: (paint: col.naranja, dash: \"dashed\", thickness: 0.7pt), fill: col.naranja-claro, inset: 6pt),\n        edge((1, 1), (1, 0), \"-|>\"),\n      )\n    ]",
+   "opciones": [
+    "amplificador de RF",
+    "filtro paso banda",
+    "oscilador local",
+    "variador de potencia"
+   ],
+   "sol": "\n    En un receptor de conversión directa no hay frecuencia intermedia: el mezclador multiplica la\n    señal de la antena por la de un oscilador local sintonizado a su misma frecuencia (en BLU, la de\n    la portadora suprimida) y a su salida aparece ya el audio, que el filtro de audio depura y el\n    amplificador lleva al altavoz. El bloque señalado entra en el mezclador por abajo, como segunda\n    señal a multiplicar: es el oscilador local. Un amplificador de RF o un filtro paso banda irían\n    en la cadena de la señal, antes del mezclador, y el «variador de potencia» no es una etapa del\n    receptor. #vease[(Véase tema T4, sección «Arquitectura del receptor».)]\n    #no-esta[Receptor de conversión directa (homodino): el mezclador recibe la señal de la antena y la del\n    oscilador local, sintonizado a la frecuencia de la emisora. La diferencia $f_s − f_(\"OL\")$ cae\n    ya en audio y un filtro de paso bajo de audio elimina el resto de productos, de modo que no hay\n    FI ni frecuencia imagen clásica y el amplificador de audio aporta casi toda la ganancia. Se\n    sintoniza moviendo el oscilador local; en CW se le desplaza unos 700 Hz de la señal y en BLU se\n    coloca en el lugar de la portadora suprimida.]\n  ",
+   "figura": true
+  },
+  {
+   "id": "C-T5.1",
+   "clave": "b",
+   "enunciado": "La clase de emisión A3E corresponde a:",
+   "opciones": [
+    "Doble banda lateral con ausencia de señal moduladora.",
+    "Doble banda lateral con un solo canal con información analógica.",
+    "Modulación de frecuencia con dos o más canales.",
+    "Banda lateral única con portadora reducida."
+   ],
+   "sol": "\n    La designación A3E se lee símbolo a símbolo: A = amplitud modulada con doble banda lateral, 3 =\n    un solo canal con información analógica y E = telefonía. Es, pues, la fonía en AM clásica. La\n    opción a describiría un «0» en el segundo símbolo (portadora sin señal moduladora); la c es\n    modulación de frecuencia (F) con varios canales (7 u 8 en el segundo símbolo); y la d es la\n    banda lateral única con portadora reducida, clase R3E. #vease[(Véase tema T5, sección\n    «Arquitecturas y características generales».)]\n    #no-esta[La clase de emisión se escribe con tres símbolos (Apéndice 1 del Reglamento de\n    Radiocomunicaciones de la UIT). Primero, el tipo de modulación: A doble banda lateral, J banda\n    lateral única con portadora suprimida, R con portadora reducida, F frecuencia. Segundo, la señal\n    moduladora: 1 un canal digital sin subportadora, 3 un canal analógico, 7 u 8 dos o más canales,\n    0 ninguna. Tercero, la información: A telegrafía para recepción auditiva, E telefonía, N\n    ninguna. Ejemplos: A1A = CW, A3E = AM, J3E = SSB, F3E = FM.]\n  "
+  },
+  {
+   "id": "C-T5.2",
+   "clave": "d",
+   "enunciado": "Indique cuál de las siguientes respuestas es falsa:",
+   "opciones": [
+    "Un amplificador es lineal cuando la señal de salida es fiel reflejo de la entrada, pero\namplificada.",
+    "Los amplificadores pueden ser clase A, B o C.",
+    "La carga de un amplificador de potencia debe ser del valor especificado por el fabricante.",
+    "La salida de un amplificador de potencia nunca va seguida de filtros destinados a eliminar los\narmónicos."
+   ],
+   "sol": "\n    La falsa es la d: tras el amplificador de potencia siempre se coloca un filtro de paso bajo que\n    atenúa los armónicos antes de llegar a la antena. Las otras tres son ciertas: un amplificador\n    lineal entrega una copia fiel, solo que más grande, de la señal de entrada; los amplificadores\n    se clasifican por su ángulo de conducción en clases A, AB, B y C; y la carga debe tener el valor\n    indicado por el fabricante (normalmente 50 Ω), porque una carga distinta baja el rendimiento,\n    distorsiona o puede averiar el paso final. #vease[(Véase tema T5, sección «Emisiones no\n    deseadas» (filtro de salida), y tema T3, sección «Fuentes de alimentación y amplificadores»\n    (clases A, B y C).)]\n  "
+  },
+  {
+   "id": "C-T5.3",
+   "clave": "c",
+   "enunciado": "La antena estará acoplada al paso final de salida:",
+   "opciones": [
+    "Directamente",
+    "Por medio de una tierra intermedia",
+    "Por adaptadores y filtros",
+    "No se acopla"
+   ],
+   "sol": "\n    Entre el amplificador final y la antena se intercalan una red de acoplo (adaptador de\n    impedancias, por ejemplo una red en pi o un acoplador de antena) y un filtro de paso bajo. El\n    adaptador hace que el final vea la carga para la que está diseñado y entregue su máxima\n    potencia; el filtro elimina los armónicos antes de la antena. Conectarla «directamente» no daría\n    ni adaptación ni filtrado; una «tierra intermedia» no lleva la señal de radiofrecuencia a la\n    antena; y si «no se acopla», no hay emisión. #vease[(Véase tema T5, sección «Emisiones no\n    deseadas» (filtro de salida), y tema T6, sección «Líneas de transmisión y adaptación» (acoplador\n    de antena).)]\n  "
+  },
+  {
+   "id": "C-T5.4",
+   "clave": "a",
+   "enunciado": "Cuando se sobremodula:",
+   "opciones": [
+    "Se distorsiona la modulación",
+    "Aumenta el nivel de ruido",
+    "Aparece un zumbido de motor en el receptor",
+    "Mejora la modulación"
+   ],
+   "sol": "\n    Sobremodular es pasar del 100 % de modulación (índice $m > 1$): la envolvente se recorta y la\n    señal queda distorsionada, con productos de intermodulación que ensanchan la emisión\n    (#emph[splatter]) e interfieren a los canales vecinos. El efecto directo es, por tanto, la\n    distorsión de la modulación. No se trata de ruido en sí (b), nada tiene que ver con un zumbido\n    de motor (c) y, desde luego, la modulación no mejora (d): empeora. #vease[(Véase tema T1,\n    sección «Señales moduladas», y tema T5, sección «La cadena de audio y la inteligibilidad».)]\n  "
+  },
+  {
+   "id": "C-T5.5",
+   "clave": "c",
+   "enunciado": "La misión del conmutador «POWER ON/OFF» en un transceptor es:",
+   "opciones": [
+    "Cambiar el ancho de banda",
+    "Reponer el fusible de entrada",
+    "Encender y apagar el equipo",
+    "Aumentar o disminuir la potencia del emisor"
+   ],
+   "sol": "\n    POWER ON/OFF es el interruptor general de alimentación: en ON conecta el equipo a la fuente y lo\n    enciende; en OFF lo apaga. No cambia el ancho de banda (eso lo hacen los filtros o el selector\n    de modo), no repone el fusible (uno fundido se sustituye a mano) ni regula la potencia del\n    emisor, que se ajusta con otro mando distinto (el de potencia de salida, #emph[RF power] o\n    similar).\n    #no-esta[En el panel de un transceptor, POWER (o PWR) es el interruptor de encendido: ON = equipo\n    alimentado, OFF = apagado. No hay que confundirlo con el mando de potencia de salida (RF POWER u\n    OUTPUT), que regula los vatios radiados. Otros mandos habituales: MODE (clase de emisión), BAND\n    (banda), SEND-REC o PTT (paso de recepción a transmisión) y VOX-MAN (conmutación automática o\n    manual).]\n  "
+  },
+  {
+   "id": "C-T5.6",
+   "clave": "c",
+   "enunciado": "El conmutador «SEND-REC» se utiliza para:",
+   "opciones": [
+    "Cambiar el modo de emisión",
+    "Cambiar la banda",
+    "Cambiar la emisión a recepción y viceversa",
+    "Modificar la sintonía"
+   ],
+   "sol": "\n    SEND-REC (enviar-recibir) es el conmutador manual de transmisión-recepción: en SEND el equipo\n    transmite (conecta la antena al transmisor y desconecta el receptor) y en REC vuelve a recibir.\n    No cambia el modo de emisión (selector MODE), ni la banda (selector BAND), ni la sintonía (mando\n    de frecuencia). #vease[(Véase tema T6, sección «La conmutación de antena».)]\n    #no-esta[El conmutador SEND-REC (llamado también TX-RX, y sustituido en la práctica por el PTT del\n    micrófono, del inglés #emph[push to talk]) gobierna el relé de transmisión-recepción: en SEND\n    conecta la antena al transmisor y protege la entrada del receptor; en REC devuelve la antena al\n    receptor. Con VOX la misma conmutación se hace sola, al hablar ante el micrófono.]\n  "
+  },
+  {
+   "id": "C-T5.7",
+   "clave": "b",
+   "enunciado": "Si se dispone de un amperímetro a la salida del emisor, hacia la antena, en el ajuste óptimo de\nemisión (máxima emisión) la lectura será:",
+   "opciones": [
+    "Mínima",
+    "Máxima",
+    "Media",
+    "No dará lectura"
+   ],
+   "sol": "\n    Un amperímetro intercalado en la línea hacia la antena mide la corriente de radiofrecuencia que\n    recibe la antena, y es esa corriente la que produce la potencia radiada ($P = I^2R$). Cuando el\n    paso final está bien sintonizado y acoplado, la potencia entregada es la máxima y la lectura\n    también. La clave «mínima» que figura en algunos bancos confunde este instrumento con el\n    amperímetro de corriente de placa (o de colector) del paso final, que sí cae a un mínimo («dip»)\n    en resonancia. «Media» y «sin lectura» no son ningún ajuste óptimo: con lectura nula no sale\n    nada hacia la antena. #vease[(Véase tema T8, sección «Más instrumentos y cálculos» (corriente de\n    placa del final valvular).)]\n    #no-esta[Al sintonizar un paso final hay dos lecturas de sentido opuesto. La corriente de placa (o de\n    colector) del amplificador baja a un mínimo, el «dip», al poner en resonancia el circuito de\n    salida. La corriente de RF en la línea de antena, medida con un amperímetro de radiofrecuencia,\n    sube a un máximo cuando el acoplo a la carga es correcto, porque la potencia radiada crece con\n    el cuadrado de la corriente. Se ajusta el mando de sintonía (#emph[tune]) hasta el dip y el de\n    carga (#emph[load]) hasta el máximo de salida.]\n    #_apb1-clave[«Mínima». Es la clave que dan las recopilaciones de exámenes reales (2007–2011): conviene\n    conocerla por si aparece idéntica en el examen, aunque la respuesta razonada arriba sea la\n    técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T5.8",
+   "clave": "a",
+   "enunciado": "La modulación de banda lateral única:",
+   "opciones": [
+    "Es una variante de la modulación de amplitud",
+    "Es una modulación de frecuencia corregida",
+    "Tiene una subportadora de fase",
+    "Es una intermodulación sui generis"
+   ],
+   "sol": "\n    La banda lateral única (SSB) deriva de la AM: una emisión de AM contiene la portadora y dos\n    bandas laterales con la misma información, y si se suprimen la portadora y una de las bandas\n    queda la SSB. Sigue siendo, pues, una variante de la modulación de amplitud (la información va\n    en la envolvente), no de frecuencia, y no lleva subportadora de fase. La intermodulación es un\n    defecto de los circuitos no lineales, no un tipo de modulación. #vease[(Véase tema T1, sección\n    «Señales moduladas».)]\n  "
+  },
+  {
+   "id": "C-T5.9",
+   "clave": "a",
+   "enunciado": "Las frecuencias límite para una determinada anchura de banda son aquellas a partir de las cuales\nse radia:",
+   "opciones": [
+    "0,5 % de la potencia media total radiada",
+    "2 % de la potencia media total radiada",
+    "4 % de la potencia media total radiada",
+    "5 % de la potencia media total radiada"
+   ],
+   "sol": "\n    Es la definición de anchura de banda ocupada de la UIT: la anchura de la banda de frecuencias\n    tal que, por debajo de su límite inferior y por encima de su límite superior, se radia en cada\n    lado el 0,5 % de la potencia media total de la emisión. Dentro de ella queda, por tanto, el 99 %\n    de la potencia. Los demás porcentajes no se corresponden con esa definición. #vease[(Véase tema\n    T5, sección «Emisiones no deseadas».)]\n    #no-esta[Anchura de banda ocupada (UIT): banda de frecuencias tal que, por debajo de su límite inferior y\n    por encima del superior, las potencias medias radiadas son, cada una, el 0,5 % de la potencia\n    media total de la emisión; así, el 99 % de la potencia queda dentro. No es lo mismo que la\n    anchura de banda necesaria, que es la mínima que permite transmitir con la calidad y la\n    velocidad requeridas.]\n  "
+  },
+  {
+   "id": "C-T5.10",
+   "clave": "c",
+   "enunciado": "Las medidas de compresión de un transceptor indican:",
+   "opciones": [
+    "La anchura de banda de las señales de audio",
+    "La ecualización selectiva de las señales de audio",
+    "La amplificación de las señales de audio",
+    "La atenuación de las señales de audio"
+   ],
+   "sol": "\n    El compresor (procesador de voz) del transceptor sube el nivel de los pasajes débiles del audio\n    sin pasar de la potencia de pico permitida, de modo que aumenta la potencia media de la emisión.\n    Lo que indica la compresión es, pues, cuánto se amplifica la señal de audio. No mide una anchura\n    de banda (la fijan los filtros) ni una ecualización (eso son los controles de tono), y tampoco\n    es una atenuación, porque el objetivo es elevar la potencia media. El enunciado es poco preciso,\n    pero solo la c expresa el efecto buscado. #vease[(Véase tema T5, sección «La cadena de audio y\n    la inteligibilidad».)]\n  "
+  },
+  {
+   "id": "C-T5.11",
+   "clave": "b",
+   "enunciado": "Si el conmutador «modo de emisión» está en la posición CW se trabaja en:",
+   "opciones": [
+    "A3E",
+    "A1A",
+    "R3E",
+    "J3E"
+   ],
+   "sol": "\n    CW (#emph[continuous wave], telegrafía en onda continua) es la clase de emisión A1A: modulación\n    de amplitud (A) por conexión y desconexión de la portadora, un solo canal digital sin\n    subportadora (1) y telegrafía para recepción auditiva (A). El banco antiguo la llamaba A1, con\n    la nomenclatura anterior al Apéndice 1 del Reglamento de Radiocomunicaciones (A3, A3A y A3J son\n    hoy A3E, R3E y J3E). Las otras opciones son telefonía: A3E es AM, R3E es banda lateral única con\n    portadora reducida y J3E, con portadora suprimida. La Orden IET/1311/2013 (Anexo II, apartados 4.2\n    y 5.2) usa la nomenclatura actual. #vease[(Véase tema T5, sección «Arquitecturas y\n    características generales».)]\n  "
+  },
+  {
+   "id": "C-T5.12",
+   "clave": "a",
+   "enunciado": "En un transceptor, el conmutador «VOX-MAN» en la posición «MAN»:",
+   "opciones": [
+    "Conecta el conmutador transmisor-receptor del micrófono",
+    "Conecta el manipulador morse",
+    "Conecta el mando de ganancia de radiofrecuencia",
+    "Conmuta automáticamente recepción-transmisión"
+   ],
+   "sol": "\n    VOX-MAN elige cómo se pasa de recepción a transmisión. En VOX la conmutación es automática: el\n    equipo transmite cuando detecta voz en el micrófono. En MAN (manual) la gobierna el operador con\n    el conmutador transmisor-receptor del micrófono (el PTT). No conecta el manipulador Morse ni el\n    mando de ganancia de RF, y la conmutación automática es precisamente la posición VOX.\n    #vease[(Véase tema T5, sección «La cadena de audio y la inteligibilidad» (VOX), y tema T6,\n    sección «La conmutación de antena» (PTT).)]\n    #no-esta[VOX-MAN es el selector del modo de conmutación transmisión-recepción. En VOX (conmutación por\n    voz) el equipo pasa a transmitir solo al detectar voz ante el micrófono. En MAN (manual) hay que\n    pulsar el PTT del micrófono o el conmutador SEND-REC del panel: el operador decide cuándo se\n    transmite. MAN es lo habitual con ruido ambiente, porque VOX podría dispararse con él.]\n  "
+  },
+  {
+   "id": "C-T5.13",
+   "clave": "b",
+   "enunciado": "En un emisor de radio, los amplificadores se emplean para:",
+   "opciones": [
+    "Multiplicar el valor de frecuencia",
+    "Aumentar la potencia del emisor",
+    "Disminuir el consumo",
+    "Disminuir el calor"
+   ],
+   "sol": "\n    Un amplificador eleva el nivel de la señal, y en un emisor así se llega desde los milivatios del\n    oscilador o del modulador hasta la potencia de salida deseada: aumenta la potencia del emisor.\n    Multiplicar la frecuencia es tarea de las etapas multiplicadoras (a). Un amplificador consume\n    energía de la alimentación y parte de ella la disipa en forma de calor, de modo que ni disminuye\n    el consumo (c) ni el calor (d). #vease[(Véase tema T5, sección «Etapas y definiciones».)]\n  "
+  },
+  {
+   "id": "C-T5.14",
+   "clave": "d",
+   "enunciado": "La estabilidad de la frecuencia de un emisor de radio proporciona la siguiente ventaja:",
+   "opciones": [
+    "Mayor alcance",
+    "Menores ruidos eléctricos en la recepción",
+    "Mayor potencia de emisión",
+    "Menor interferencia a otras emisiones de frecuencia próxima"
+   ],
+   "sol": "\n    Un emisor estable mantiene su frecuencia sin derivas por temperatura, tensión o envejecimiento,\n    así que su señal se queda en su canal y dentro de la banda, y no invade las frecuencias vecinas:\n    menos interferencia a otras emisiones próximas. La estabilidad no aumenta el alcance (que\n    depende de la potencia, la antena y la propagación) ni la potencia emitida, y no reduce los\n    ruidos eléctricos de la recepción, que tienen otro origen. #vease[(Véase tema T5, sección\n    «Arquitecturas y características generales» (oscilador estable), y tema T4, sección\n    «Características y controles» (estabilidad del receptor).)]\n    #no-esta[La estabilidad de frecuencia es la capacidad de mantener la frecuencia generada sin deriva con\n    el tiempo, la temperatura o la tensión de alimentación. En un emisor importa porque la señal no\n    se desplaza a otro canal (menos interferencias a las estaciones próximas) ni se sale de los\n    límites de la banda de aficionado. Se consigue con osciladores a cristal o sintetizadores y\n    dejando calentar el equipo antes de transmitir.]\n  "
+  },
+  {
+   "id": "C-T5.15",
+   "clave": "d",
+   "enunciado": "Antes del encendido de un emisor hay que prepararlo, pero de los siguientes controles y elementos,\nel que no es necesario actuar para dicha preparación previa es:",
+   "opciones": [
+    "El selector de la banda de emisión",
+    "El mando de ajuste aproximado de la frecuencia de emisión",
+    "El conmutador de clase de emisión",
+    "El medidor de sensibilidad de la señal"
+   ],
+   "sol": "\n    Antes de encender el emisor se dejan listos los mandos que fijan qué y dónde se va a emitir: el\n    selector de banda, el mando de ajuste aproximado de la frecuencia y el conmutador de clase de\n    emisión. El «medidor de sensibilidad de la señal» es el medidor S, un instrumento de lectura que\n    solo indica la intensidad de la señal recibida una vez encendido el equipo: no es un mando y no\n    requiere preparación alguna. #vease[(Véase tema T8, sección «Más instrumentos y cálculos»\n    (S-meter).)]\n    #no-esta[Preparar un emisor antes de encenderlo consiste en dejar los mandos en una posición correcta y\n    segura: seleccionar la banda, poner la frecuencia aproximada, elegir la clase de emisión (CW,\n    SSB, FM…) y comprobar que hay antena o carga artificial conectada. El medidor S indica la\n    intensidad de la señal recibida: es un indicador, no un control, y no hay nada que ajustar en\n    él.]\n  "
+  },
+  {
+   "id": "C-T5.16",
+   "clave": "b",
+   "enunciado": "En un emisor de potencia media, la alta tensión de placa del paso final se aplica:",
+   "opciones": [
+    "Directamente con el encendido general",
+    "En dos etapas; en la primera se aplica una tensión media; y después del primer ajuste, se aplica\ntoda la tensión",
+    "Al insertar el micrófono",
+    "Al seleccionar la banda de funcionamiento"
+   ],
+   "sol": "\n    Con el filamento ya caldeado, el paso final de válvulas se sintoniza primero con una tensión de\n    placa reducida y se retoca después con la tensión completa. Mientras los circuitos de placa\n    están desacordados, la corriente de placa es muy alta; a tensión plena la válvula disiparía más\n    de lo que soporta y podría dañarse. Por eso la alta tensión no se aplica «directamente con el\n    encendido» (a). Ni el micrófono (c) ni el selector de banda (d) tienen relación con la tensión\n    de placa. #vease[(Véase tema T3 (sintonizar el final a plena potencia puede dañarlo) y tema T8\n    (corriente de placa al sintonizar el final valvular).)]\n    #no-esta[Procedimiento habitual de sintonía de un final valvular: 1) esperar el caldeo del filamento; 2)\n    aplicar la alta tensión reducida (según el equipo, con un conmutador de tensión reducida o una\n    toma intermedia del transformador); 3) ajustar la sintonía de placa hasta el mínimo de corriente\n    de placa y el acoplo a la antena con el mando de carga (#emph[load]); 4) aplicar la tensión\n    completa y retocar ambos mandos. Así la válvula no soporta la corriente ni la disipación máximas\n    mientras el circuito está desacordado.]\n  "
+  },
+  {
+   "id": "C-T5.17",
+   "clave": "c",
+   "enunciado": "La utilización de un transceptor como transmisor o como receptor de radio requiere:",
+   "opciones": [
+    "Emplear una antena para emisión y otra para recepción",
+    "Emplear dos unidades de alimentación, independientes, para emisión y para recepción",
+    "Actuar un conmutador de paso de una a otra función",
+    "Desconectar el micrófono y conectar en su lugar un altavoz"
+   ],
+   "sol": "\n    Un transceptor reúne transmisor y receptor en un mismo equipo, con una sola antena y una sola\n    alimentación. Para pasar de una función a otra basta accionar un conmutador: el PTT o el mando\n    de emisión/recepción, que activa el relé de transmisión-recepción y los circuitos de cada modo.\n    No hacen falta dos antenas (a) ni dos fuentes (b), y el micrófono y el altavoz permanecen\n    conectados en los dos modos (d). #vease[(Véase tema T6, sección «La conmutación de antena».)]\n  "
+  },
+  {
+   "id": "C-T5.18",
+   "clave": "d",
+   "enunciado": "El conmutador SEND/REC se utiliza para:",
+   "opciones": [
+    "Cambiar de banda",
+    "Encender el transceptor",
+    "Cambiar de modo de emisión",
+    "Cambiar de emisión a recepción o viceversa"
+   ],
+   "sol": "\n    SEND/REC (del inglés #emph[send]/#emph[receive], enviar/recibir) es el conmutador que pasa el\n    equipo de emisión a recepción y viceversa: activa el relé de transmisión-recepción y los\n    circuitos de cada modo. No cambia de banda (eso lo hace el conmutador de bandas), no enciende el\n    aparato (interruptor de alimentación) ni cambia la clase de emisión (selector de modo: LSB, USB,\n    AM, FM, CW). #vease[(Véase tema T6, sección «La conmutación de antena».)]\n    #no-esta[En muchos equipos el mando que pasa de recibir a transmitir se rotula SEND/REC o TX/RX; en los\n    transceptores modernos esa misma función la cumple el pulsador PTT (#emph[push to talk]), y el\n    VOX la automatiza con la voz. Conviene no confundirlo con el conmutador de bandas (tema T3) ni\n    con el selector de modo (tema T4): cada mando hace una sola cosa.]\n  "
+  },
+  {
+   "id": "C-T5.19",
+   "clave": "a",
+   "enunciado": "La clase de emisión A3E (antes designada A3) indica:",
+   "opciones": [
+    "Telefonía de doble banda lateral, portadora completa",
+    "Telegrafía sin modulación",
+    "Telefonía de banda lateral única, portadora suprimida",
+    "Telefonía, dos bandas laterales independientes"
+   ],
+   "sol": "\n    La clase A3E se lee letra a letra: A, modulación de amplitud con doble banda lateral y portadora\n    completa; 3, un solo canal analógico; E, telefonía. Es la AM clásica. La telefonía de banda\n    lateral única con portadora suprimida es J3E (opción c), la telegrafía (CW) es A1A (b) y las\n    bandas laterales independientes son la clase B (d). El banco original escribía «A3»; la notación\n    vigente añade la tercera letra. #vease[(Véase tema T5, sección «Arquitecturas y características\n    generales»; tema T1, sección «Señales moduladas».)]\n  "
+  },
+  {
+   "id": "C-T5.20",
+   "clave": "a",
+   "enunciado": "En un transceptor a válvulas, la alta frecuencia del paso final se aplica:",
+   "opciones": [
+    "Al actuar sobre el conmutador emisión/recepción",
+    "Al encender el equipo",
+    "Después de pasar cierto tiempo desde el encendido del equipo",
+    "Al conectar el micrófono"
+   ],
+   "sol": "\n    En recepción el paso final no recibe excitación: la radiofrecuencia del excitador solo le llega\n    cuando se acciona el conmutador emisión/recepción (PTT o relé T-R). Al encender solo se\n    calientan los filamentos: el tiempo de caldeo es una condición previa para transmitir, pero no\n    aplica RF al final (b y c). Y conectar el micrófono no cambia el estado del equipo (d).\n    #vease[(Véase tema T2, sección «Válvulas termoiónicas» (caldeo previo); tema T6, sección «La\n    conmutación de antena».)]\n    #no-esta[En un equipo a válvulas hay dos condiciones independientes. El caldeo del filamento empieza al\n    encender y debe completarse antes de transmitir. La excitación es otra cosa: la señal de RF del\n    oscilador y del excitador solo se dirige a la etapa final cuando el conmutador pasa a emisión, a\n    la vez que el relé T-R conecta la antena al transmisor. En recepción el final queda sin\n    excitación y en reposo.]\n  "
+  },
+  {
+   "id": "C-T5.21",
+   "clave": "b",
+   "enunciado": "El índice de modulación de amplitud es:",
+   "opciones": [
+    "La potencia de salida de las bandas laterales dividida por la portadora",
+    "El porcentaje de la variación de amplitud que experimenta la portadora",
+    "El porcentaje de la variación de amplitud que experimenta la moduladora",
+    "La amplitud máxima de las variaciones de la portadora"
+   ],
+   "sol": "\n    El índice de modulación $m$ mide cuánto varía la amplitud de la portadora por efecto de la\n    moduladora y se expresa en porcentaje: $m = (A_\"máx\" − A_\"mín\") / (A_\"máx\" + A_\"mín\")$. Con\n    $m = 0,5$ (50 %) la amplitud oscila entre 0,5 y 1,5 veces la de la portadora sin modular; con\n    $m = 1$ (100 %) llega a anularse y duplicarse, y más allá hay sobremodulación. No es una\n    relación de potencias (a: las bandas laterales suman $m^2 slash 2$ de la potencia de la\n    portadora) ni una amplitud absoluta (d). #vease[(Véase tema T1, sección «Señales moduladas».)]\n  "
+  },
+  {
+   "id": "C-T5.22",
+   "clave": "b",
+   "enunciado": "Los amplificadores a cavidades resonantes se emplean en los transceptores que trabajan en las\nbandas de:",
+   "opciones": [
+    "28 MHz y superiores",
+    "144 MHz y superiores",
+    "432 MHz y superiores",
+    "1215 MHz y superiores"
+   ],
+   "sol": "\n    Una cavidad resonante es una caja metálica que hace de circuito resonante de $Q$ muy alto y\n    sustituye al circuito LC cuando este deja de ser práctico. Desde 144 MHz un cuarto de onda mide\n    unos 52 cm ($λ slash 4 = 300 slash 144 slash 4 ≈ 0,52$ m), un tamaño manejable, y las\n    capacidades parásitas de la válvula ya estorban a un circuito LC. A 28 MHz el cuarto de onda\n    mediría unos 2,7 m, impracticable, y bastan bobinas y condensadores. Las opciones c) y d) fijan\n    un límite demasiado alto: las cavidades ya se usan en 144 MHz.\n    #no-esta[Una cavidad resonante (una línea resonante encerrada en una caja metálica) sustituye al circuito\n    LC de placa o de rejilla en los amplificadores de potencia de VHF, UHF y microondas. Al subir la\n    frecuencia, las bobinas y condensadores necesarios se hacen tan pequeños que dominan las\n    capacidades parásitas de la válvula, mientras que las dimensiones de una línea de cuarto de onda\n    se vuelven cómodas: unos 52 cm en 144 MHz y unos 17 cm en 432 MHz. Regla que recoge el examen:\n    cavidades, de 144 MHz hacia arriba.]\n  "
+  },
+  {
+   "id": "C-T5.23",
+   "clave": "b",
+   "enunciado": "Un transmisor:",
+   "opciones": [
+    "Convierte una señal de frecuencia intermedia en otra de audiofrecuencia.",
+    "Convierte una señal de frecuencia intermedia en otra de radiofrecuencia.",
+    "Convierte una señal de radiofrecuencia en otra de baja frecuencia.",
+    "Convierte una señal de baja frecuencia en otra de frecuencia intermedia para emitirla por\nantena."
+   ],
+   "sol": "\n    En un transmisor con conversión de frecuencia (el esquema habitual en SSB) la señal se modula y\n    se filtra a una frecuencia fija y baja, la frecuencia intermedia, y un mezclador con el\n    oscilador de sintonía (VFO) la traslada a la frecuencia de trabajo, ya en radiofrecuencia, para\n    amplificarla y enviarla a la antena. Las opciones a) y c) describen el camino inverso, el del\n    receptor, que lleva la FI a audio o la RF a baja frecuencia. La d) es imposible: lo que sale por\n    la antena es radiofrecuencia, no FI. #vease[(Véase tema T5, sección «Arquitecturas y\n    características generales» (transmisor de SSB con mezclador).)]\n    #no-esta[En el transmisor, la «frecuencia intermedia» es la frecuencia fija y baja a la que se genera y\n    filtra la señal modulada (por ejemplo, la banda lateral única que sale del filtro de cristal).\n    El mezclador la combina con la señal del VFO o del sintetizador y da la señal en la frecuencia\n    de trabajo. Es el recorrido inverso al del receptor superheterodino (RF → FI → audio): el\n    transmisor sube de frecuencia y el receptor baja.]\n  "
+  },
+  {
+   "id": "C-T5.24",
+   "clave": "a",
+   "enunciado": "Un transmisor suele tener entre sus subsistemas auxiliares:",
+   "opciones": [
+    "Un sistema de refrigeración.",
+    "Un dispositivo de posicionamiento GPS para dar a conocer su ubicación.",
+    "Un compartimento con bandeja extraíble para alojar la documentación de su licencia.",
+    "Un pararrayos con toma a tierra."
+   ],
+   "sol": "\n    Los subsistemas auxiliares no generan ni modulan la señal, pero permiten que el transmisor\n    funcione: fuente de alimentación, protecciones y, sobre todo en las etapas de potencia, la\n    refrigeración (disipadores, ventiladores), porque parte de la energía consumida se convierte en\n    calor. Un GPS o un cajón para la licencia no forman parte de un transmisor, y el pararrayos con\n    su toma de tierra protege la instalación (mástil y antena), no el equipo. #vease[(Véase tema T5,\n    sección «Arquitecturas y características generales» (rendimiento del transmisor).)]\n    #no-esta[El rendimiento de un amplificador de RF nunca llega al 100 %: lo que no sale como potencia de RF\n    se disipa en la etapa final en forma de calor. Por eso los transmisores de potencia llevan\n    disipador y ventilador (y, en las válvulas de gran potencia, aire forzado o refrigeración\n    líquida). La refrigeración se cuenta como subsistema auxiliar junto con la fuente de\n    alimentación; la protección contra descargas atmosféricas es cosa de la instalación de antena\n    (tema T10).]\n  "
+  },
+  {
+   "id": "C-T5.25",
+   "clave": "b",
+   "enunciado": "Son características relevantes en un transmisor:",
+   "opciones": [
+    "Potencia de emisión y factor de ruido.",
+    "Frecuencia de emisión y su estabilidad en frecuencia.",
+    "Emisión de espurios y su conectividad a redes Wi-Fi.",
+    "Técnicas de modulación y sensibilidad a las interferencias."
+   ],
+   "sol": "\n    Las características de un transmisor describen la señal que emite: frecuencia de emisión y\n    estabilidad (que no derive), potencia, anchura de banda, emisiones no deseadas y rendimiento. El\n    factor de ruido (a) y la sensibilidad (d) son características del receptor: miden cuán débil\n    puede ser la señal que aún se recibe. La conectividad Wi-Fi (c) no tiene relación con un\n    transmisor de aficionado. Solo la opción b) contiene dos magnitudes propias del transmisor.\n    #vease[(Véase tema T5, sección «Arquitecturas y características generales».)]\n    #no-esta[Estabilidad de frecuencia: capacidad del transmisor de mantener su frecuencia de emisión aunque\n    cambien la temperatura, la tensión de alimentación o la carga; se logra con osciladores a\n    cristal o con sintetizadores (tema T3). Importa porque una emisión que deriva puede salirse de\n    la banda o pisar a otra estación. Factor de ruido y sensibilidad (tema T4) pertenecen al\n    receptor.]\n  "
+  },
+  {
+   "id": "C-T5.26",
+   "clave": "d",
+   "enunciado": "Llamamos unidad transceptora al conjunto formado por:",
+   "opciones": [
+    "Transmisor y acoplador.",
+    "Transmisor y duplexor.",
+    "Transmisor y acoplador con medidor de ROE.",
+    "Transmisor y receptor."
+   ],
+   "sol": "\n    Una unidad transceptora (un transceptor) reúne en un solo equipo un transmisor y un receptor,\n    que comparten elementos como el oscilador, la sintonía, la alimentación y la antena (con el relé\n    de transmisión-recepción). Acopladores, duplexores y medidores de ROE son accesorios de la línea\n    o de la antena: no son un receptor, y por eso ninguna de esas combinaciones forma una unidad\n    transceptora. #vease[(Véase tema T5, sección «Etapas y definiciones».)]\n  "
+  },
+  {
+   "id": "C-T5.27",
+   "clave": "c",
+   "enunciado": "Un modulador digital:",
+   "opciones": [
+    "Convierte la señal de audio en estados discretos, bien sean de amplitud, fase, amplitud y fase,\nfrecuencia instantánea, etc., de una señal portadora de radiofrecuencia.",
+    "Convierte una señal portadora de radiofrecuencia con estados discretos, bien sean de amplitud,\nfase, amplitud y fase, frecuencia instantánea, etc., en señal de audio.",
+    "Convierte niveles discretos de tensión en estados discretos, bien sean de amplitud, fase,\namplitud y fase, frecuencia instantánea, etc., de una señal portadora de radiofrecuencia.",
+    "Convierte la voz en niveles discretos de tensión."
+   ],
+   "sol": "\n    El modulador digital recibe datos ya digitales (niveles discretos de tensión, los bits) y los\n    traduce en estados discretos de la portadora: amplitud, frecuencia (FSK), fase (PSK) o amplitud\n    y fase a la vez (QAM). La opción a) se salta un paso: el audio es analógico y antes hay que\n    digitalizarlo (conversor A/D, códec de voz). La b) describe el demodulador, que recorre el\n    camino inverso, y la d) es el codificador de voz, no un modulador. #vease[(Véase tema T1,\n    sección «Señales moduladas» (modulación digital: FSK, PSK, QAM).)]\n  "
+  },
+  {
+   "id": "C-T5.28",
+   "clave": "a",
+   "enunciado": "¿Válvulas o transistores? Seleccionar la sentencia correcta.",
+   "opciones": [
+    "Los amplificadores a válvulas son los preferidos por los radioaficionados amantes de lo retro en\nradio.",
+    "Los amplificadores a válvulas presentan mayor deriva en frecuencia que los amplificadores a\ntransistores.",
+    "Las válvulas son energéticamente más eficientes que los transistores.",
+    "Por encima de 200 vatios los amplificadores finales son a válvulas."
+   ],
+   "sol": "\n    Es la única afirmación que no es falsa (recoge una preferencia, no un dato técnico). Las\n    válvulas no son más eficientes que los transistores (c): hay que alimentar el filamento y se\n    pierde mucha energía en calor. Un amplificador no fija la frecuencia —la fija el oscilador—, así\n    que no hay una «deriva» propia de las válvulas (b). Y existen finales de transistores de más de\n    un kilovatio: los 200 W no marcan ninguna frontera (d). #vease[(Véase tema T2, sección «Válvulas\n    termoiónicas».)]\n    #no-esta[Válvulas: necesitan caldeo del filamento y tensiones de placa de cientos o miles de voltios,\n    rinden menos y ocupan más, pero aguantan sobrecargas y desadaptaciones y dan mucha potencia con\n    circuitos sencillos; por eso perviven en algunos lineales y entre los aficionados a lo clásico.\n    Transistores: baja tensión, arranque inmediato, tamaño reducido y mejor rendimiento, pero\n    sensibles al calor. Hay finales de transistores de 1 kW o más. La frecuencia de emisión la fija\n    el oscilador, no el tipo de amplificador.]\n  "
+  },
+  {
+   "id": "C-T5.29",
+   "clave": "b",
+   "enunciado": "Un transmisor debe realizar al menos las siguientes funciones:",
+   "opciones": [
+    "Generar la señal, demodular y amplificar.",
+    "Generar la señal, modular y amplificar.",
+    "Generar la señal, modular y demodular.",
+    "Entregar una señal útil a partir de la recogida en la antena."
+   ],
+   "sol": "\n    Un transmisor genera la señal de radiofrecuencia (oscilador), la modula con la información (voz,\n    datos, manipulación Morse) y la amplifica hasta la potencia que entregará a la antena. Demodular\n    es extraer la información de una señal modulada, y eso lo hace el receptor: por eso a) y c) son\n    falsas. La opción d) describe justamente al receptor, que entrega una señal útil (audio) a\n    partir de la captada por la antena. #vease[(Véase tema T5, sección «Arquitecturas y\n    características generales».)]\n  "
+  },
+  {
+   "id": "C-T5.30",
+   "clave": "c",
+   "enunciado": "En los equipos de radioaficionado, el modo de modulación NBFM (banda estrecha de frecuencia\nmodulada), ¿qué excursión de frecuencia máxima permite?",
+   "opciones": [
+    "12 kHz",
+    "±75 kHz",
+    "Unos ±2,5 a ±5 kHz",
+    "±25 kHz"
+   ],
+   "sol": "\n    La NBFM de las bandas de aficionado (VHF/UHF, con canales de 12,5 o 25 kHz) limita la excursión\n    (desviación) a unos ±2,5 a ±5 kHz. Los 12 kHz que da el banco no son una excursión, sino la\n    anchura de banda típica de la emisión (pregunta T4.35 del cuaderno): por la regla de Carson,\n    $B ≈ 2(Δ f + f_m) = 2(2,5 + 3) ≈ 11$ kHz, es decir, unos 12 kHz. Los ±75 kHz son la excursión de\n    la FM de radiodifusión (banda ancha). Se corrige la clave del banco: si en un examen aparece 12\n    kHz como respuesta a esta pregunta, se está confundiendo excursión con anchura de banda.\n    #vease[(Véase tema T5, sección «Arquitecturas y características generales» (desviación e índice\n    de modulación de FM); la anchura de banda de la NBFM, en una pregunta del tema T4.)]\n    #no-esta[La excursión o desviación $Δ f$ es lo que se aparta la portadora de su frecuencia central al\n    ritmo de la voz: es la magnitud que controla la modulación en FM. En la FM de banda estrecha\n    (NBFM) se limita a ±2,5 kHz (canales de 12,5 kHz) o ±5 kHz (canales de 25 kHz), frente a los ±75\n    kHz de la FM comercial. No hay que confundirla con la anchura de banda, que estima la regla de\n    Carson, $B ≈ 2(Δ f + f_m)$, y en NBFM es del orden de 12 kHz.]\n    #_apb1-clave[«12 kHz.». Es la clave que dan las recopilaciones de exámenes reales (2007–2011): conviene\n    conocerla por si aparece idéntica en el examen, aunque la respuesta razonada arriba sea la\n    técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T5.31",
+   "clave": "b",
+   "enunciado": "El esquema de un transmisor básico para banda lateral única se corresponde con la figura:",
+   "opciones": [
+    "#_apb1-tx([etapa\\ BF], [modulador\\ de fase], [filtro], [amplificador\\ RF])",
+    "#_apb1-tx([etapa\\ BF], [modulador\\ balanceado], [filtro], [amplificador\\ RF])",
+    "#_apb1-tx([etapa\\ BF], [modulador\\ balanceado], [modulador\\ de fase], [amplificador\\ RF])",
+    "#_apb1-tx([etapa\\ RF], [modulador\\ balanceado], [filtro], [amplificador\\ BF])"
+   ],
+   "sol": "\n    Un transmisor de BLU amplifica en BF la voz del micrófono; un modulador balanceado, con el\n    oscilador de portadora, suprime la portadora y deja las dos bandas laterales; un filtro elimina\n    una de ellas; un mezclador con el oscilador variable traslada la banda restante a la frecuencia\n    de trabajo y el amplificador de RF la lleva a la antena. Eso es la figura b. La a usa un\n    modulador de fase, propio de la FM. En la c otro modulador de fase ocupa el puesto del filtro y\n    las dos bandas siguen presentes. En la d están cambiadas las etapas: RF junto al micrófono y BF\n    antes de la antena. #vease[(Véase tema T5, sección «Arquitecturas y características\n    generales».)]\n  ",
+   "figura": true
+  },
+  {
+   "id": "F-T4.1",
+   "clave": "c",
+   "enunciado": "En HF, una señal que marca S9 + 20 dB corresponde, en la entrada de antena de 50 Ω, a una tensión de aproximadamente:",
+   "opciones": [
+    "50 μV",
+    "100 μV",
+    "500 μV",
+    "5 mV"
+   ],
+   "sol": "El convenio para HF fija S9 en 50 μV sobre 50 Ω. Los 20 dB adicionales son una relación de tensiones de $10^(20 slash 20) = 10$, pues en tensión $\"dB\" = 20 log_10 (V_2 slash V_1)$; así, 50 μV × 10 = 500 μV. Los 5 mV salen de aplicar a la tensión la regla de las potencias (×100); 100 μV serían solo +6 dB, y 50 μV es el propio S9. #vease[(Véase tema T4, sección «Características y controles»; tema T8, sección «Más instrumentos y cálculos».)]"
+  },
+  {
+   "id": "F-T4.2",
+   "clave": "a",
+   "enunciado": "Una señal que marca S6 en el S-meter es, respecto a otra que marca S9, más débil en:",
+   "opciones": [
+    "18 dB",
+    "3 dB",
+    "12 dB",
+    "36 dB"
+   ],
+   "sol": "Cada punto S equivale a 6 dB. De S6 a S9 hay tres puntos: 3×6 = 18 dB. Los 3 dB resultan de confundir puntos con decibelios; 12 dB son solo dos puntos (S7 frente a S9); y 36 dB sale de multiplicar 6 dB por el número del punto. En tensión, 18 dB son unas 8 veces menos ($10^(18 slash 20) approx 7,9$); en potencia, unas 63 veces menos. #vease[(Véase tema T4, sección «Características y controles»; tema T8, sección «Más instrumentos y cálculos».)]"
+  },
+  {
+   "id": "F-T4.3",
+   "clave": "d",
+   "enunciado": "Un receptor de SSB tiene un ancho de banda de 2,7 kHz y una figura de ruido de 10 dB. Sabiendo que el ruido térmico es de −174 dBm en 1 Hz de ancho de banda, su señal mínima discernible (MDS, la que iguala el ruido del propio receptor) es de unos:",
+   "opciones": [
+    "−174 dBm",
+    "−164 dBm",
+    "−140 dBm",
+    "−130 dBm"
+   ],
+   "sol": "$\"MDS\" = -174 + 10 log_10 B + F$. Con $B = 2700$ Hz: $10 log_10 2700 approx 34$ dB y $F = 10$ dB, luego $\"MDS\" approx -174 + 34 + 10 = -130$ dBm. Los −140 dBm salen de olvidar la figura de ruido; los −164 dBm, de olvidar el ancho de banda; y los −174 dBm son solo el ruido térmico en 1 Hz. Un receptor más ancho o más ruidoso oye peor: cada vez que se duplica el ancho de banda se pierden 3 dB. #vease[(Véase tema T4, sección «Características y controles».)]",
+   "figura": true
+  },
+  {
+   "id": "F-T4.4",
+   "clave": "a",
+   "enunciado": "Un receptor superheterodino con una FI de 9 MHz está sintonizado en 7,1 MHz, con el oscilador local por encima de la señal. La frecuencia imagen es:",
+   "opciones": [
+    "25,1 MHz",
+    "23,2 MHz",
+    "16,1 MHz",
+    "14,2 MHz"
+   ],
+   "sol": "El oscilador local está en $f_\"OL\" = 7,1 + 9 = 16,1$ MHz. La imagen queda al otro lado del oscilador, a una FI de él: $f_\"im\" = f_\"OL\" + f_\"FI\" = 16,1 + 9 = 25,1$ MHz, que equivale a $f_s + 2 f_\"FI\" = 7,1 + 18$. Esa frecuencia también produce 9 MHz al mezclarse con el oscilador, por lo que hay que rechazarla antes del mezclador, con el preselector. Los 16,1 MHz son el oscilador local; los 23,2 MHz, la suma de señal y oscilador; y los 14,2 MHz, el doble de la señal. #vease[(Véase tema T4, sección «Arquitectura del receptor».)]"
+  },
+  {
+   "id": "F-T4.5",
+   "clave": "d",
+   "enunciado": "La desensibilización (bloqueo) de un receptor causada por una señal intensa próxima se manifiesta como:",
+   "opciones": [
+    "un aumento de la sensibilidad del receptor",
+    "la aparición de la frecuencia imagen",
+    "una deriva de la frecuencia sintonizada",
+    "una pérdida de ganancia aparente: las señales débiles dejan de oírse"
+   ],
+   "sol": "Una señal muy intensa, aunque no esté en el canal sintonizado, domina la entrada y hace que el receptor amplifique menos todo lo demás: la ganancia aparente cae y las señales débiles se hunden en el ruido. Es típico que la emisora que escuchabas casi desaparezca, y baje su lectura en el S-meter, cuando un vecino transmite. No mejora la sensibilidad, sino lo contrario. La frecuencia imagen es otro fenómeno, y la deriva de sintonía depende de la estabilidad del oscilador local, no del nivel de las señales vecinas. #vease[(Véase tema T4, sección «Características y controles»; tema T9, sección «Causas de interferencia».)]"
+  },
+  {
+   "id": "F-T4.6",
+   "clave": "a",
+   "enunciado": "Una señal muy intensa, aunque esté fuera del canal sintonizado, puede bloquear un receptor porque:",
+   "opciones": [
+    "satura las primeras etapas (amplificador de RF y mezclador), que dejan de trabajar linealmente",
+    "modifica la frecuencia del oscilador local y descentra la sintonía",
+    "atraviesa el filtro de FI, que no distingue unas frecuencias de otras",
+    "eleva la tensión de alimentación del receptor"
+   ],
+   "sol": "El bloqueo ocurre en la entrada, antes de los filtros estrechos de la FI: la señal fuerte lleva al amplificador de RF y al mezclador a su zona de saturación, dejan de trabajar linealmente y su ganancia para las señales débiles cae. Por eso depende del nivel de la interferente y no de su frecuencia exacta. El oscilador local es independiente de la señal de antena; el filtro de FI sí distingue frecuencias, pues es un paso banda estrecho; y la alimentación no varía con la RF recibida. #vease[(Véase tema T9, sección «Causas de interferencia».)]"
+  },
+  {
+   "id": "F-T4.7",
+   "clave": "b",
+   "enunciado": "Un remedio eficaz contra el bloqueo de un receptor por una señal fuerte es:",
+   "opciones": [
+    "conectar un preamplificador en la entrada de antena",
+    "reducir la ganancia de RF o intercalar un atenuador o un filtro en la entrada",
+    "subir el volumen de audio",
+    "ensanchar el filtro de FI"
+   ],
+   "sol": "El bloqueo es saturación de las primeras etapas, así que hay que rebajar el nivel de señal que llega a ellas: bajar el mando de ganancia de RF, intercalar un atenuador en la entrada o un filtro que rechace la señal interferente (paso banda o de rechazo). Un preamplificador da más ganancia y agrava la saturación; el volumen actúa después de la saturación y no recupera lo perdido; y ensanchar el filtro de FI deja pasar más señales sin arreglar la entrada. #vease[(Véase tema T9, sección «Medidas correctoras».)] #no-esta[Como el bloqueo es saturación del amplificador de RF y del mezclador, el remedio es reducir el nivel de la señal interferente que llega a ellos: bajar el mando de ganancia de RF (RF GAIN), intercalar un atenuador en la entrada de antena o un filtro (paso banda o de rechazo) que rechace esa señal. Añadir un preamplificador o más ganancia empeora el problema. También ayuda separar las antenas del transmisor que interfiere.]"
+  },
+  {
+   "id": "F-T4.8",
+   "clave": "d",
+   "enunciado": "Dos señales de 7,050 MHz y 7,060 MHz llegan a una etapa no lineal de un receptor. Los productos de intermodulación de tercer orden que caen junto a ellas, dentro de la banda, aparecen en:",
+   "opciones": [
+    "0,010 MHz y 14,110 MHz",
+    "7,020 MHz y 7,090 MHz",
+    "7,030 MHz y 7,080 MHz",
+    "7,040 MHz y 7,070 MHz"
+   ],
+   "sol": "Los productos de tercer orden en banda son $2 f_1 - f_2$ y $2 f_2 - f_1$: $2 times 7,050 - 7,060 = 7,040$ MHz y $2 times 7,060 - 7,050 = 7,070$ MHz. Caen a 10 kHz por fuera de cada señal, dentro de la banda, y por eso no se pueden eliminar con un filtro. La diferencia y la suma (0,010 y 14,110 MHz) son productos de segundo orden; 7,030 y 7,080 MHz ($3 f_1 - 2 f_2$ y $3 f_2 - 2 f_1$) son de quinto orden, y 7,020 y 7,090 MHz, de séptimo: estos suelen ser más débiles. #vease[(Véase tema T9, sección «Causas de interferencia».)]"
+  },
+  {
+   "id": "F-T4.9",
+   "clave": "c",
+   "enunciado": "Si se sube 3 dB el nivel de las dos señales que producen intermodulación, los productos de tercer orden aumentan:",
+   "opciones": [
+    "3 dB",
+    "6 dB",
+    "9 dB",
+    "27 dB"
+   ],
+   "sol": "Los productos de tercer orden crecen con el cubo de la amplitud de las señales que los generan; expresado en decibelios, cada decibelio que suben las señales sube tres el producto. Con +3 dB en las dos señales, los productos suben 3 × 3 = 9 dB. Los 3 dB serían un crecimiento lineal, propio de la señal útil; los 6 dB corresponderían a los productos de segundo orden (al cuadrado); y los 27 dB salen de elevar 3 al cubo como si fuesen decibelios. #vease[(Véase tema T9, sección «Causas de interferencia».)]"
+  },
+  {
+   "id": "F-T4.10",
+   "clave": "b",
+   "enunciado": "En el diagrama de bloques de un receptor de FM, tras el amplificador de FI se sitúan, por este orden:",
+   "opciones": [
+    "el detector de producto y el oscilador de batido (BFO)",
+    "el limitador y el discriminador",
+    "el discriminador y el limitador",
+    "el mezclador y el oscilador local"
+   ],
+   "sol": "Tras la FI va primero el limitador, que recorta la amplitud y borra el ruido (en FM la información está en la frecuencia, no en la amplitud), y después el discriminador, que convierte las variaciones de frecuencia en tensión de audio. El orden inverso (c) es incorrecto: sin limitar antes, el discriminador dejaría pasar el ruido de amplitud. El detector de producto y el BFO (a) son de SSB y CW; el mezclador y el oscilador local (d) están antes de la FI. #vease[(Véase tema T4, sección «Características y controles».)]"
+  },
+  {
+   "id": "F-T4.11",
+   "clave": "c",
+   "enunciado": "Un receptor de FM (F3E) se diferencia de uno de AM (A3E) en que, tras la FI, incorpora:",
+   "opciones": [
+    "un oscilador de batido y un detector de producto",
+    "un modulador balanceado y un filtro de banda lateral",
+    "un limitador y un discriminador en lugar del detector de envolvente",
+    "un amplificador de clase C y un multiplicador de frecuencia"
+   ],
+   "sol": "En AM la información va en la envolvente y la recupera el detector de envolvente. En FM la envolvente es constante y el mensaje está en la frecuencia: un limitador recorta las variaciones de amplitud (ruido) y un discriminador transforma la desviación de frecuencia en audio. El oscilador de batido y el detector de producto (a) son de SSB y CW; el modulador balanceado con su filtro (b) y el amplificador de clase C con el multiplicador (d) son etapas de transmisor, no de receptor. #vease[(Véase tema T4, sección «Características y controles».)]"
+  },
+  {
+   "id": "F-T5.1",
+   "clave": "b",
+   "enunciado": "Un transmisor de 144 MHz con una estabilidad de frecuencia de ±1 ppm puede desviarse de su frecuencia, como máximo, en:",
+   "opciones": [
+    "±1 Hz",
+    "±144 Hz",
+    "±1,44 kHz",
+    "±144 kHz"
+   ],
+   "sol": "La estabilidad se da en partes por millón: 1 ppm es $10^(-6)$ de la frecuencia. Con $f = 144 dot 10^6$ Hz resulta $Delta f = 144 dot 10^6 times 10^(-6) = 144$ Hz, es decir, ±144 Hz. Los ±1 Hz (a) confunden ppm con hercios; ±1,44 kHz (c) serían 10 ppm y ±144 kHz (d) serían 1000 ppm (una milésima). Es el error máximo admitido: la deriva real depende de la temperatura y de la alimentación del equipo. #no-esta[La estabilidad de frecuencia de un transmisor mide cuánto se aparta su frecuencia de la nominal por la temperatura, la tensión de alimentación o el envejecimiento del cristal. Se expresa en partes por millón (ppm): 1 ppm equivale a $10^(-6)$ de la frecuencia. Como la deriva es proporcional a la frecuencia, el mismo cristal da más hercios de error en una banda alta: ±1 ppm son ±7 Hz a 7 MHz, pero ±144 Hz a 144 MHz. Una buena estabilidad evita salirse del canal o de la banda e interferir a las emisiones vecinas.]"
+  },
+  {
+   "id": "F-T5.2",
+   "clave": "c",
+   "enunciado": "Entre 30 y 235 MHz, en un transmisor de potencia superior a 25 W, las emisiones no esenciales deben estar 60 dB por debajo de la potencia media, sin exceder de:",
+   "opciones": [
+    "50 mW",
+    "20 mW",
+    "1 mW",
+    "25 μW"
+   ],
+   "sol": "Anexo I, apartado 4.1.2 de la Orden IET/1311/2013: entre 30 y 235 MHz, con más de 25 W, las emisiones no esenciales deben quedar 60 dB por debajo de la potencia media sin exceder de 1 mW. Con 100 W, 60 dB por debajo son 100 μW y manda ese valor; el tope de 1 mW solo interviene a partir de 1 kW. Los 25 μW (d) son el tope para 25 W o menos; los 50 mW (a) rigen por debajo de 30 MHz y los 20 mW (b) entre 235 y 960 MHz. #vease[(Véase tema T5, sección «Emisiones no deseadas».)] #no-esta[La Orden IET/1311/2013 (Anexo I, 4.1) fija límites distintos por encima de 30 MHz. De 30 a 235 MHz: con más de 25 W, las no esenciales deben quedar 60 dB por debajo de la potencia media sin exceder de 1 mW; con 25 W o menos, 40 dB por debajo sin exceder de 25 μW. De 235 a 960 MHz es igual, pero el tope para más de 25 W es de 20 mW. De 960 MHz a 17,7 GHz: 50 dB, con topes de 100 mW (más de 10 W) o 100 μW. Vale el más restrictivo.]"
+  },
+  {
+   "id": "F-T5.3",
+   "clave": "a",
+   "enunciado": "Entre 30 y 235 MHz, en un transmisor de 25 W o menos, las emisiones no esenciales deben estar 40 dB por debajo de la potencia media, sin exceder de:",
+   "opciones": [
+    "25 μW",
+    "1 mW",
+    "25 mW",
+    "50 mW"
+   ],
+   "sol": "Anexo I, apartado 4.1.2 de la Orden IET/1311/2013: con 25 W o menos, las emisiones no esenciales deben quedar 40 dB por debajo de la potencia media sin exceder de 25 μW. Con 10 W, 40 dB por debajo son 1 mW, pero el tope de 25 μW es más estricto y es el que vale. El 1 mW (b) es el tope con más de 25 W; los 50 mW (d) rigen por debajo de 30 MHz; los 25 mW (c) no figuran en la Orden y mezclan los 25 W con los 25 μW. #vease[(Véase tema T5, sección «Emisiones no deseadas».)] #no-esta[En los equipos de VHF y UHF de hasta 25 W (30 a 960 MHz) manda casi siempre el tope absoluto de 25 μW. Ejemplo: un transmisor de 10 W a 144 MHz; 40 dB por debajo son 10 W × $10^(-4)$ = 1 mW, pero el límite de 25 μW es más estricto, así que ese es el máximo admitido (unos 56 dB por debajo de la potencia media). Solo con menos de 0,25 W mandaría el criterio de los 40 dB.]"
+  },
+  {
+   "id": "F-T5.4",
+   "clave": "d",
+   "enunciado": "Se denomina radiación por la estructura de un transmisor a:",
+   "opciones": [
+    "los armónicos y espurios que se radian por la antena",
+    "el campo magnético que produce el transformador de la fuente de alimentación",
+    "la potencia que se pierde en forma de calor en el amplificador final",
+    "la radiofrecuencia que escapa por el chasis y los cables del equipo sin pasar por la antena"
+   ],
+   "sol": "La radiación por la estructura es la radiofrecuencia que sale del equipo sin pasar por la antena: el chasis mal apantallado y los cables de alimentación, micrófono o manipulador actúan como antenas involuntarias. No es lo mismo que los armónicos y espurios radiados por la antena (a), que son emisiones no esenciales y salen por la línea de transmisión. Tampoco es el campo del transformador (b) ni el calor del amplificador final (c), que solo resta rendimiento. #vease[(Véase tema T5, sección «Emisiones no deseadas».)]"
+  },
+  {
+   "id": "F-T5.5",
+   "clave": "a",
+   "enunciado": "La radiación por la estructura de un transmisor se reduce:",
+   "opciones": [
+    "apantallando la caja del equipo y filtrando los cables que entran y salen de ella",
+    "instalando un filtro de paso bajo más potente entre el transmisor y la antena",
+    "reduciendo la anchura de banda de la emisión",
+    "sustituyendo el cable coaxial por otro más grueso"
+   ],
+   "sol": "La RF se escapa por las rendijas de la caja y por los cables (alimentación, micrófono, manipulador), que radian como antenas. Se combate con una caja metálica bien cerrada y con ferritas y condensadores de desacoplo en cada cable. Un filtro de paso bajo a la salida (b) limpia los armónicos que van a la antena, pero no la fuga por el chasis; estrechar la emisión (c) o engrosar el coaxial (d) tampoco cierran la caja. #vease[(Véase tema T5, sección «Emisiones no deseadas».)]"
+  },
+  {
+   "id": "F-T5.6",
+   "clave": "a",
+   "enunciado": "Un repetidor de VHF/UHF es una estación que:",
+   "opciones": [
+    "recibe una señal en una frecuencia y la retransmite a la vez en otra",
+    "emite de forma automática y continua solo su distintivo, para estudiar la propagación",
+    "permite que dos estaciones se comuniquen directamente, sin equipo intermedio",
+    "convierte la señal recibida a otra clase de emisión, por ejemplo de FM a SSB"
+   ],
+   "sol": "Según la Orden IET/1311/2013 (Anexo I, apartado 1), una estación repetidora retransmite automáticamente las emisiones que recibe, con el fin de ampliar el alcance de las comunicaciones. En VHF y UHF lo hace recibiendo en una frecuencia y emitiendo a la vez en otra (en 2 m, la entrada queda 600 kHz por debajo de la salida). La baliza (b) solo emite su distintivo; la comunicación directa sin intermediario (c) es lo contrario de un repetidor; y el cambio de clase de emisión (d) no es su función. #vease[(Véase tema T5, sección «Etapas y definiciones».)]"
+  },
+  {
+   "id": "F-T5.7",
+   "clave": "b",
+   "enunciado": "Los repetidores se instalan preferentemente en lugares elevados (montañas, torres) porque:",
+   "opciones": [
+    "así consumen menos energía de la red eléctrica",
+    "así aumenta su alcance, al ver directamente más terreno",
+    "así la ionosfera refleja mejor sus señales de VHF y UHF",
+    "así se evitan las interferencias de las emisoras de HF y de onda media"
+   ],
+   "sol": "En VHF y UHF la onda viaja por visibilidad directa y su alcance lo marca el horizonte radioeléctrico, que crece con la raíz de la altura de las antenas. Un repetidor en una cumbre «ve» más terreno y llega a más estaciones sin aumentar la potencia. La ionosfera es transparente a esas frecuencias (c), el consumo eléctrico no depende de la altura (a) y la altura tampoco protege de las emisoras de HF o de onda media (d). #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+  },
+  {
+   "id": "F-T5.8",
+   "clave": "b",
+   "enunciado": "Para recibir y transmitir a la vez con una sola antena, un repetidor utiliza:",
+   "opciones": [
+    "un balun 1:1, que adapta la línea coaxial a la antena",
+    "un duplexor, conjunto de filtros que separa la frecuencia de entrada de la de salida",
+    "un amplificador de clase C, que eleva la potencia en la etapa final",
+    "un acoplador de antena en pi, que adapta impedancias"
+   ],
+   "sol": "El repetidor recibe y transmite simultáneamente en dos frecuencias próximas (en 2 m, separadas 600 kHz). Con una sola antena hace falta un duplexor: un conjunto de filtros, normalmente de cavidades, que envía cada frecuencia a su equipo y evita que el transmisor, con mucha más potencia, sature el receptor. El balun (a) pasa de línea asimétrica a antena simétrica; la clase C (c) es un modo de amplificación; el acoplador en pi (d) adapta impedancias. Ninguno separa entrada y salida. #no-esta[Un repetidor recibe y transmite a la vez, en frecuencias próximas y con una sola antena. Para ello usa un duplexor: un conjunto de filtros (normalmente de cavidades resonantes) que deja pasar la frecuencia de salida hacia la antena y la de entrada hacia el receptor. Sin él, la potencia del transmisor, enorme frente a la señal recibida, saturaría o ensordecería al receptor; la alternativa es usar dos antenas muy separadas.]"
+  },
+  {
+   "id": "F-T5.9",
+   "clave": "d",
+   "enunciado": "Un transmisor de VHF parte de un oscilador de cristal de 12 MHz y una cadena formada por un triplicador y un cuadruplicador en cascada. Su frecuencia de salida es:",
+   "opciones": [
+    "36 MHz",
+    "48 MHz",
+    "84 MHz",
+    "144 MHz"
+   ],
+   "sol": "Las etapas multiplicadoras en cascada multiplican sus factores: 12 MHz × 3 × 4 = 144 MHz. El triplicador da 36 MHz y el cuadruplicador lleva esos 36 MHz hasta 144 MHz. Los 36 MHz (a) y los 48 MHz (b) saldrían con una sola de las dos etapas (solo el triplicador o solo el cuadruplicador), y los 84 MHz (c) resultan de sumar los factores (×7) en lugar de multiplicarlos. Así los equipos de VHF y UHF parten de cristales de frecuencia modesta. #vease[(Véase tema T5, sección «Etapas y definiciones».)]"
+  },
+  {
+   "id": "F-T5.10",
+   "clave": "c",
+   "enunciado": "En un transmisor de FM, el oscilador de 12 MHz se desvía 250 Hz. Una cadena multiplicadora ×12 lleva la portadora a 144 MHz. La desviación a la salida es de:",
+   "opciones": [
+    "21 Hz",
+    "250 Hz",
+    "3 kHz",
+    "36 kHz"
+   ],
+   "sol": "La multiplicación de frecuencia multiplica también la desviación (y el índice de modulación $m = Delta f slash f_m$, porque la frecuencia moduladora no cambia): $Delta f = 250$ Hz × 12 = 3000 Hz = 3 kHz. Los 250 Hz (b) suponen que la desviación se conserva; los 21 Hz (a) resultan de dividir por 12 en vez de multiplicar, y los 36 kHz (d) de multiplicar por 144. Por eso el modulador puede trabajar con desviaciones pequeñas y cómodas de generar. #vease[(Véase tema T5, sección «Arquitecturas y características generales».)]"
+  },
+  {
+   "id": "F-T5.11",
+   "clave": "d",
+   "enunciado": "En la modulación de frecuencia directa, la señal de audio actúa sobre:",
+   "opciones": [
+    "el amplificador final, variando su tensión de alimentación",
+    "un modulador balanceado que suprime la portadora",
+    "un mezclador, que suma al oscilador la frecuencia del audio",
+    "el oscilador, por ejemplo mediante un diodo varicap en su circuito resonante"
+   ],
+   "sol": "En la FM directa el audio cambia la frecuencia del propio oscilador: la tensión de audio varía la capacidad de un varicap del circuito resonante (un VCO) y con ella la frecuencia generada. Variar la tensión de alimentación del final (a) es modular en amplitud; el modulador balanceado (b) es de SSB; y el mezclador (c) traslada frecuencias, no las desvía al ritmo del audio. #vease[(Véase tema T5, sección «Arquitecturas y características generales».)]"
+  },
+  {
+   "id": "F-T5.12",
+   "clave": "a",
+   "enunciado": "La FM indirecta se obtiene aplicando la señal de audio, previamente integrada, a:",
+   "opciones": [
+    "un modulador de fase situado tras un oscilador a cristal",
+    "un modulador balanceado seguido de un filtro de banda lateral",
+    "un detector de pendiente situado a la salida del receptor",
+    "un amplificador de clase A con realimentación"
+   ],
+   "sol": "La fase es la integral de la frecuencia, así que un modulador de fase alimentado con el audio previamente integrado produce FM: es la FM indirecta, que permite modular después de un oscilador a cristal. El modulador balanceado con filtro (b) produce SSB; el detector de pendiente (c) es un demodulador de FM, no un modulador; y la clase A (d) es un modo de amplificación, no un método de modulación. #vease[(Véase tema T1, sección «Señales moduladas».)]"
+  },
+  {
+   "id": "F-T5.13",
+   "clave": "c",
+   "enunciado": "La ventaja de la FM indirecta (modulador de fase) es que:",
+   "opciones": [
+    "permite grandes desviaciones sin necesidad de multiplicadores de frecuencia",
+    "ocupa menos anchura de banda que la FM directa con la misma desviación",
+    "la frecuencia de la portadora la fija un oscilador a cristal muy estable",
+    "suprime la portadora y ahorra potencia en el transmisor"
+   ],
+   "sol": "En la FM indirecta la portadora sale de un oscilador a cristal, muy estable, y solo se modula su fase a continuación: no hay que desviar el cristal directamente. La contrapartida es que el modulador de fase da desviaciones pequeñas y obliga a usar multiplicadores (a). La anchura de banda la fijan la desviación y el audio (regla de Carson), igual en ambas (b). Suprimir la portadora (d) es propio de la SSB, no de la FM. #vease[(Véase tema T1, sección «Señales moduladas».)]"
+  },
+  {
+   "id": "T4.1",
+   "clave": "b",
+   "enunciado": "En un receptor superheterodino, el orden correcto de las etapas desde la antena hasta el altavoz es:",
+   "opciones": [
+    "mezclador, amplificador de RF, demodulador, FI, amplificador de audio",
+    "amplificador de RF, mezclador, amplificador de FI, demodulador, amplificador de audio",
+    "amplificador de FI, mezclador, amplificador de RF, demodulador, amplificador de audio",
+    "demodulador, mezclador, amplificador de FI, amplificador de audio"
+   ],
+   "sol": "Cadena del superheterodino: amplificador de RF → mezclador → amplificador de FI → demodulador → amplificador de audio. El amplificador de RF va primero porque fija la figura de ruido (fórmula de Friis): lo que añadan las etapas siguientes entra dividido por su ganancia. El mezclador traslada luego la señal a la FI fija, donde el filtrado y la amplificación son óptimos, y solo al final se demodula. Invertir el orden no tiene sentido físico."
+  },
+  {
+   "id": "T4.2",
+   "clave": "a",
+   "enunciado": "Se denomina frecuencia intermedia (FI) a:",
+   "opciones": [
+    "la frecuencia de valor constante empleada en los receptores superheterodinos, presente a la salida del mezclador",
+    "la frecuencia media de la banda de trabajo",
+    "la frecuencia del oscilador local",
+    "la mitad de la frecuencia recibida"
+   ],
+   "sol": "La FI es una frecuencia fija a la que el mezclador traslada cualquier señal sintonizada; sus filtros pueden así optimizarse (455 kHz, 9 MHz, 10,7 MHz son valores típicos)."
+  },
+  {
+   "id": "T4.3",
+   "clave": "d",
+   "enunciado": "Un receptor de conversión directa se caracteriza por:",
+   "opciones": [
+    "emplear dos frecuencias intermedias independientes",
+    "carecer de oscilador local",
+    "amplificar la señal sin demodularla",
+    "mezclar directamente la señal recibida para obtener la señal de audio"
+   ],
+   "sol": "El receptor de conversión directa mezcla la señal con un oscilador a (casi) la misma frecuencia y obtiene el audio directamente, sin FI. No tiene la imagen de RF del superheterodino, pero sí una imagen de audio: las frecuencias simétricas respecto al oscilador (la otra banda lateral) dan el mismo audio."
+  },
+  {
+   "id": "T4.4",
+   "clave": "c",
+   "enunciado": "Si se desea sintonizar una señal de 7 MHz en un receptor cuya frecuencia intermedia es de 9 MHz, el oscilador local deberá funcionar a:",
+   "opciones": [
+    "2,5 MHz",
+    "9 MHz",
+    "16 MHz",
+    "63 MHz"
+   ],
+   "sol": "$f_\"OL\" = f_\"señal\" + f_\"FI\" = 7 + 9 = 16$ MHz."
+  },
+  {
+   "id": "T4.5",
+   "clave": "c",
+   "enunciado": "La selectividad de un receptor es su capacidad de:",
+   "opciones": [
+    "amplificar señales muy débiles",
+    "mantener la frecuencia sintonizada",
+    "separar dos señales muy próximas en frecuencia",
+    "eliminar el ruido atmosférico"
+   ],
+   "sol": "Selectividad: separar señales muy próximas en frecuencia; la fija la curva de los filtros de FI."
+  },
+  {
+   "id": "T4.6",
+   "clave": "a",
+   "enunciado": "La sensibilidad de un receptor se define como su capacidad de:",
+   "opciones": [
+    "captar señales débiles y amplificarlas",
+    "rechazar la frecuencia imagen",
+    "separar canales adyacentes",
+    "funcionar con baterías descargadas"
+   ],
+   "sol": "Sensibilidad: captar y amplificar señales débiles; se especifica como la entrada mínima para una relación señal/ruido dada."
+  },
+  {
+   "id": "T4.7",
+   "clave": "d",
+   "enunciado": "El control automático de ganancia (CAG) de un receptor tiene como objetivo:",
+   "opciones": [
+    "aumentar la selectividad del receptor",
+    "suprimir los ruidos impulsivos",
+    "silenciar el altavoz en ausencia de señal",
+    "mantener constante la amplitud de la señal de salida"
+   ],
+   "sol": "El CAG ajusta la ganancia según la señal recibida para que la salida se mantenga constante aunque la señal fluctúe (fading)."
+  },
+  {
+   "id": "T4.8",
+   "clave": "b",
+   "enunciado": "El silenciador (_squelch_) de un receptor sirve para:",
+   "opciones": [
+    "atenuar las señales demasiado fuertes",
+    "suprimir la salida de audio cuando la señal recibida no supera un determinado nivel",
+    "reducir la deriva de frecuencia",
+    "proteger el altavoz de sobrecargas"
+   ],
+   "sol": "El squelch corta el audio cuando la señal no supera el umbral: elimina el soplido entre comunicados, imprescindible en FM."
+  },
+  {
+   "id": "T4.9",
+   "clave": "a",
+   "enunciado": "El instrumento del receptor conocido como _S-meter_ indica:",
+   "opciones": [
+    "la intensidad de la señal recibida",
+    "la potencia de salida del transmisor",
+    "la tensión de alimentación del equipo",
+    "la desviación de frecuencia"
+   ],
+   "sol": "El S-meter mide la intensidad de la señal recibida (puntos S y dB sobre S9)."
+  },
+  {
+   "id": "T4.10",
+   "clave": "c",
+   "enunciado": "El detector de producto se emplea como etapa detectora en los receptores de:",
+   "opciones": [
+    "FM de banda estrecha",
+    "AM de doble banda lateral",
+    "banda lateral única (SSB) y CW",
+    "radiodifusión de onda media"
+   ],
+   "sol": "El detector de producto mezcla la FI con el oscilador de batido (BFO) para reinsertar la portadora suprimida: SSB y CW."
+  },
+  {
+   "id": "T4.11",
+   "clave": "b",
+   "enunciado": "En un receptor superheterodino, para rechazar la frecuencia imagen se emplea:",
+   "opciones": [
+    "un atenuador de antena",
+    "un filtro",
+    "un amplificador de audio",
+    "un limitador"
+   ],
+   "sol": "La frecuencia imagen se convierte a la misma FI que la señal deseada, así que una vez mezclada ya no se puede separar: hay que eliminarla antes del mezclador con un filtro (preselector)."
+  },
+  {
+   "id": "T4.12",
+   "clave": "d",
+   "enunciado": "Se llama «frecuencia imagen» de un receptor superheterodino a la frecuencia situada:",
+   "opciones": [
+    "en la mitad de la frecuencia sintonizada",
+    "en el doble de la frecuencia sintonizada",
+    "una FI por debajo de la frecuencia sintonizada",
+    "dos veces la FI por encima (o por debajo) de la frecuencia sintonizada"
+   ],
+   "sol": "Con FI = $f_\"FI\"$ y oscilador por encima, la imagen está en $f_\"señal\" + 2 f_\"FI\"$: dos veces la FI por encima (o por debajo, si el oscilador va por debajo) de la sintonizada."
+  },
+  {
+   "id": "T4.13",
+   "clave": "a",
+   "enunciado": "La relación señal/ruido de un receptor:",
+   "opciones": [
+    "es una característica indicativa de su calidad y se expresa en decibelios",
+    "se mide en vatios",
+    "solo importa en transmisión",
+    "es independiente del propio receptor"
+   ],
+   "sol": "La relación señal/ruido, en dB, indica cuánto sobresale la señal del ruido del receptor: es una medida directa de la calidad del equipo."
+  },
+  {
+   "id": "T4.14",
+   "clave": "c",
+   "enunciado": "En un receptor, la capacidad de mantener la frecuencia sintonizada se denomina:",
+   "opciones": [
+    "sensibilidad",
+    "selectividad",
+    "estabilidad",
+    "fidelidad"
+   ],
+   "sol": "Estabilidad: capacidad de mantener la frecuencia sintonizada sin deriva (térmica o mecánica)."
+  },
+  {
+   "id": "T4.15",
+   "clave": "b",
+   "enunciado": "El mando NB (_noise blanker_) de un transceptor sirve para:",
+   "opciones": [
+    "aumentar el nivel de los graves",
+    "suprimir ruidos impulsivos",
+    "bloquear el transmisor",
+    "activar la doble conversión"
+   ],
+   "sol": "El noise blanker recorta los picos de ruido impulsivo (encendidos de motores, tormentas próximas) antes de la detección."
+  },
+  {
+   "id": "T4.16",
+   "clave": "a",
+   "enunciado": "Se denomina receptor superheterodino de doble conversión al receptor que:",
+   "opciones": [
+    "tiene dos frecuencias intermedias independientes",
+    "usa dos antenas",
+    "demodula dos veces la misma señal de audio",
+    "duplica la frecuencia del oscilador local"
+   ],
+   "sol": "El superheterodino de doble conversión usa dos FI independientes: la primera alta (buen rechazo de imagen) y la segunda baja (buena selectividad)."
+  },
+  {
+   "id": "T4.17",
+   "clave": "d",
+   "enunciado": "El margen dinámico de un receptor queda determinado fundamentalmente en:",
+   "opciones": [
+    "el amplificador de audio",
+    "el altavoz",
+    "el filtro de red",
+    "el primer mezclador de entrada"
+   ],
+   "sol": "El margen dinámico — la capacidad de tratar a la vez señales muy fuertes y muy débiles sin distorsión — lo limita sobre todo el primer mezclador de entrada."
+  },
+  {
+   "id": "T4.18",
+   "clave": "b",
+   "enunciado": "En el diagrama de bloques de un receptor de FM de la figura, para que el conjunto funcione falta:\n  #circuito[\n    #_t4-diagrama(\n      spacing: (6mm, 8mm),\n      node((0, 0), _t4-ant, stroke: none, fill: none),\n      node((1, 0), _t4-t[ampl. RF], shape: rect),\n      node((2, 0), _t4-t[mezclador], shape: rect),\n      node((3, 0), _t4-t[ampl. FI], shape: rect),\n      node((4, 0), _t4-t[limitador], shape: rect),\n      node((5, 0), _t4-t[discrimi-\\ nador], shape: rect),\n      node((6, 0), _t4-t[ampl. BF], shape: rect),\n      _t4-preg((2, 1)),\n      edge((0, 0), (1, 0), \"-|>\"),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((2, 0), (3, 0), \"-|>\"),\n      edge((3, 0), (4, 0), \"-|>\"),\n      edge((4, 0), (5, 0), \"-|>\"),\n      edge((5, 0), (6, 0), \"-|>\"),\n      edge((2, 1), (2, 0), \"-|>\", stroke: 0.6pt + col.naranja, dash: \"dashed\"),\n    )\n  ]",
+   "opciones": [
+    "un altavoz de graves",
+    "un oscilador",
+    "una segunda antena",
+    "un amplificador de audio adicional"
+   ],
+   "sol": "Al mezclador de la cadena le falta su pareja obligada: el oscilador local. Sin él no hay conversión a la FI y el receptor no funciona.",
+   "figura": true
+  },
+  {
+   "id": "T4.19",
+   "clave": "a",
+   "enunciado": "Dos receptores A y B tienen, a la frecuencia intermedia, las curvas de respuesta de la figura. Se puede afirmar que:\n  #circuito[\n    #cetz.canvas(length: 1cm, {\n      import cetz.draw: *\n      ejes(0, 8, 0, 3.4, etq-x: $f$, etq-y: [respuesta])\n      onda(x => 2.2 * calc.exp(-calc.pow((x - 4) / 1.3, 2)), 0.3, 7.7, stroke: (paint: col.naranja, thickness: 1pt, dash: \"dashed\"))\n      onda(x => 2.8 * calc.exp(-calc.pow((x - 4) / 0.35, 2)), 0.3, 7.7, stroke: 1.2pt + col.senal1)\n      line((4, 0), (4, 2.8), stroke: (dash: \"dotted\", thickness: 0.5pt))\n      content((4, 3.05), text(font: fuente-sans, size: 8pt, fill: col.senal1)[A])\n      content((5.8, 1.35), text(font: fuente-sans, size: 8pt, fill: col.naranja)[B])\n      content((4, -0.12), anchor: \"north\", text(font: fuente-sans, size: 7.5pt)[FI])\n    })\n  ]",
+   "opciones": [
+    "el receptor A es más selectivo que el receptor B",
+    "el receptor B es más selectivo que el receptor A",
+    "ambos tienen la misma selectividad",
+    "el receptor A no puede recibir señales"
+   ],
+   "sol": "La curva de A es más estrecha: separa mejor las señales próximas en frecuencia, que es exactamente la definición de selectividad. La curva ancha de B deja pasar también los canales adyacentes.",
+   "figura": true
+  },
+  {
+   "id": "T4.20",
+   "clave": "c",
+   "enunciado": "En el esquema de la figura, con el oscilador local funcionando por debajo de la frecuencia de la señal, la frecuencia $F$ sintonizada por el receptor es:\n  #circuito[\n    #_t4-diagrama(\n      spacing: (16mm, 8mm),\n      node((0, 0), _t4-ant, stroke: none, fill: none),\n      _t4-mez((1, 0)),\n      node((2, 0), _t4-t[ampl. FI\\ 9 MHz], shape: rect),\n      node((1, 1), _t4-t[oscilador local\\ 5,2 MHz], shape: rect),\n      edge((0, 0), (1, 0), \"-|>\", _t4-t[$F = ?$], label-side: left),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((1, 1), (1, 0), \"-|>\"),\n    )\n  ]",
+   "opciones": [
+    "3,8 MHz",
+    "9 MHz",
+    "14,2 MHz",
+    "46,8 MHz"
+   ],
+   "sol": "Con el oscilador por debajo de la señal, $F = f_\"OL\" + f_\"FI\" = 5,2 + 9 = 14,2$ MHz. El distractor de 3,8 MHz es la resta $9 - 5,2$: una señal de 3,8 MHz también caería en la FI de 9 MHz, pero por el producto suma del mezclador ($3,8 + 5,2 = 9$ MHz), con el oscilador por encima de la señal — la ambigüedad que resuelve el enunciado al fijar el oscilador por debajo.",
+   "figura": true
+  },
+  {
+   "id": "T4.21",
+   "clave": "c",
+   "enunciado": "El mando RIT de un transceptor permite:",
+   "opciones": [
+    "reducir el ruido de impulsos",
+    "ajustar la ganancia de radiofrecuencia",
+    "variar la frecuencia de recepción sin alterar la de transmisión",
+    "conmutar entre banda lateral superior e inferior"
+   ],
+   "sol": "Del inglés _receiver incremental tuning_. Permite corregir a la estación corresponsal que llega ligeramente desplazada sin moverse uno de la frecuencia en que transmite, de modo que los demás nos sigan oyendo donde esperan."
+  },
+  {
+   "id": "T4.22",
+   "clave": "a",
+   "enunciado": "Actuando sobre el mando «RF GAIN» de un receptor se modifica:",
+   "opciones": [
+    "la ganancia de las etapas de radiofrecuencia",
+    "el volumen del altavoz",
+    "la anchura del filtro de frecuencia intermedia",
+    "la frecuencia del oscilador local"
+   ],
+   "sol": "Reduce la amplificación de las primeras etapas. Con señales muy fuertes conviene bajarlo para no saturar la entrada y evitar la intermodulación; el volumen, en cambio, actúa al final de la cadena, sobre el audio."
+  },
+  {
+   "id": "T4.23",
+   "clave": "d",
+   "enunciado": "El mando «NB» (_noise blanker_) de un receptor se emplea para:",
+   "opciones": [
+    "aumentar la sensibilidad en las bandas altas",
+    "estrechar el filtro de audio",
+    "compensar la deriva del oscilador",
+    "suprimir los ruidos producidos por impulsos"
+   ],
+   "sol": "Está pensado para el ruido impulsivo —encendido de un motor, una valla eléctrica, ciertos electrodomésticos—, que llega como pulsos muy cortos y de gran amplitud. El circuito los detecta y silencia el receptor durante ese instante."
+  },
+  {
+   "id": "T4.24",
+   "clave": "b",
+   "enunciado": "Para poder recibir señales de la banda de 2 metros con un receptor de decamétricas es necesario intercalar:",
+   "opciones": [
+    "un atenuador de entrada",
+    "un conversor",
+    "un amplificador de audio",
+    "un filtro de paso bajo"
+   ],
+   "sol": "El conversor traslada en bloque la banda de 144 MHz a una frecuencia que el receptor de HF sí sintoniza, mezclándola con un oscilador propio. Es la misma idea del superheterodino, aplicada por delante de un receptor que ya existe."
+  },
+  {
+   "id": "T4.25",
+   "clave": "c",
+   "enunciado": "Al pasar el mando de modo de un transceptor de LSB a USB se cambia:",
+   "opciones": [
+    "de telegrafía a fonía",
+    "de modulación de amplitud a modulación de frecuencia",
+    "de banda lateral inferior a banda lateral superior",
+    "de recepción a transmisión"
+   ],
+   "sol": "LSB y USB son las siglas inglesas de banda lateral inferior y superior. Por costumbre se emplea LSB en las bandas de 160, 80 y 40 metros y USB de 20 metros hacia arriba, además de en VHF y UHF."
+  },
+  {
+   "id": "T4.26",
+   "clave": "a",
+   "enunciado": "El filtro de selectividad variable de un receptor se ajusta a su anchura de banda más estrecha cuando se recibe:",
+   "opciones": [
+    "telegrafía",
+    "banda lateral única",
+    "modulación de frecuencia",
+    "una emisión de televisión"
+   ],
+   "sol": "Una emisión de telegrafía ocupa muy poco espectro, así que cuanto más se estreche el filtro menos ruido y menos estaciones vecinas entran. Para SSB hace falta unos 2,4 kHz y para FM bastante más: estrechar de más cortaría la propia señal."
+  },
+  {
+   "id": "T4.27",
+   "clave": "b",
+   "enunciado": "El empleo de procesadores digitales de señal (DSP) en un transceptor moderno permite, entre otras cosas:",
+   "opciones": [
+    "aumentar la potencia de salida",
+    "optimizar los filtros del equipo por medios digitales",
+    "prescindir de la antena",
+    "eliminar la etapa de frecuencia intermedia"
+   ],
+   "sol": "El DSP trabaja con la señal ya digitalizada, de modo que los filtros dejan de ser cristales físicos y pasan a ser cálculo: se puede variar su anchura y su forma sobre la marcha, cancelar ruido o suprimir un tono interferente sin tocar un solo componente."
+  },
+  {
+   "id": "T4.28",
+   "clave": "c",
+   "enunciado": "La etapa de frecuencia intermedia de un receptor superheterodino está compuesta básicamente por:",
+   "opciones": [
+    "osciladores y mezcladores",
+    "rectificadores y reguladores",
+    "amplificadores y filtros",
+    "detectores y altavoces"
+   ],
+   "sol": "Es donde el receptor hace la mayor parte de su trabajo: a frecuencia fija resulta mucho más fácil conseguir mucha ganancia y filtros muy selectivos que a la frecuencia variable de entrada. Esa es toda la idea del superheterodino."
+  },
+  {
+   "id": "T4.29",
+   "clave": "d",
+   "enunciado": "En la cadena de un receptor superheterodino, la etapa de frecuencia intermedia recibe la señal de:",
+   "opciones": [
+    "la antena, directamente",
+    "el detector",
+    "el amplificador de audio",
+    "el mezclador"
+   ],
+   "sol": "El orden de la cadena es antena, amplificador de RF, mezclador, frecuencia intermedia, detector y audio. La FI se alimenta de lo que el mezclador entrega tras batir la señal con el oscilador local."
+  },
+  {
+   "id": "T4.30",
+   "clave": "a",
+   "enunciado": "La sensibilidad de un receptor viene determinada fundamentalmente por:",
+   "opciones": [
+    "su primera etapa de radiofrecuencia",
+    "la potencia del amplificador de audio",
+    "el tamaño del altavoz",
+    "la tensión de alimentación"
+   ],
+   "sol": "El ruido que añade la primera etapa se amplifica después junto con la señal, así que su figura de ruido condiciona toda la cadena — es lo que expresa la fórmula de Friis. Mejorar etapas posteriores apenas sirve si la primera es ruidosa."
+  },
+  {
+   "id": "T4.31",
+   "clave": "b",
+   "enunciado": "La selectividad de un receptor superheterodino depende principalmente de:",
+   "opciones": [
+    "la longitud de la línea de antena",
+    "las etapas de frecuencia intermedia",
+    "la ganancia del amplificador de audio",
+    "la impedancia de salida"
+   ],
+   "sol": "Los filtros de FI son los que deciden qué anchura de banda pasa y con qué pendiente se cortan las señales vecinas. La sintonía de entrada apenas discrimina entre canales próximos."
+  },
+  {
+   "id": "T4.32",
+   "clave": "c",
+   "enunciado": "Se entiende por estabilidad de un receptor:",
+   "opciones": [
+    "su capacidad para soportar sobrecargas",
+    "la firmeza de su montaje mecánico",
+    "que no se desintoniza con el tiempo ni con la temperatura",
+    "la constancia de su consumo"
+   ],
+   "sol": "Un receptor estable mantiene la frecuencia sintonizada aunque pasen las horas y cambie la temperatura. Es especialmente crítico en SSB y CW, donde una deriva de pocos cientos de hercios ya hace ininteligible la señal."
+  },
+  {
+   "id": "T4.33",
+   "clave": "a",
+   "enunciado": "El llamado ruido estático que se percibe en un receptor está producido por:",
+   "opciones": [
+    "las descargas eléctricas atmosféricas",
+    "el propio amplificador de audio",
+    "la resistencia de la antena",
+    "la tensión de la red eléctrica"
+   ],
+   "sol": "Es el QRN: el crepitar de fondo que producen los rayos, incluso de tormentas muy lejanas, y que domina las bandas bajas en verano. No lo genera el receptor, sino que llega por la antena."
+  },
+  {
+   "id": "T4.34",
+   "clave": "d",
+   "enunciado": "En un receptor, el oscilador de frecuencia de batido (BFO) resulta imprescindible para recibir emisiones de:",
+   "opciones": [
+    "modulación de frecuencia",
+    "amplitud modulada con portadora",
+    "televisión de aficionado",
+    "telegrafía y banda lateral única"
+   ],
+   "sol": "Ni la telegrafía ni la banda lateral única llevan portadora, así que el receptor tiene que reponerla localmente para que el detector de producto entregue audio. En AM con portadora y en FM el BFO no hace falta."
+  },
+  {
+   "id": "T4.35",
+   "clave": "c",
+   "enunciado": "La anchura de banda típica de una emisión de FM de banda estrecha (NBFM), como la empleada en VHF, es del orden de:",
+   "opciones": [
+    "2,4 kHz",
+    "200 kHz",
+    "12 kHz",
+    "6 MHz"
+   ],
+   "sol": "Frente a los 200 kHz de la FM de radiodifusión, la FM de banda estrecha del servicio de aficionados ocupa unos 12 kHz, con una desviación de unos 5 kHz. Los 2,4 kHz corresponden a un canal de SSB."
+  },
+  {
+   "id": "T4.36",
+   "clave": "a",
+   "enunciado": "En el diagrama de bloques de la figura, correspondiente a un receptor superheterodino, el bloque señalado con una interrogación es:\n  #circuito[\n    #_t4-diagrama(\n      spacing: (8mm, 8mm),\n      node((0, 0), _t4-t[antena], stroke: none, fill: none),\n      node((1, 0), _t4-t[ampl.\\ RF], shape: rect),\n      node((2, 0), _t4-t[mezclador], shape: rect),\n      node((3, 0), _t4-t[FI], shape: rect, width: 13mm),\n      node((4, 0), _t4-t[detector], shape: rect),\n      node((5, 0), _t4-t[audio], shape: rect, width: 13mm),\n      _t4-preg((2, 1)),\n      edge((0, 0), (1, 0), \"-|>\"),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((2, 0), (3, 0), \"-|>\"),\n      edge((3, 0), (4, 0), \"-|>\"),\n      edge((4, 0), (5, 0), \"-|>\"),\n      edge((2, 1), (2, 0), \"-|>\"),\n    )\n  ]",
+   "opciones": [
+    "el oscilador local",
+    "el altavoz",
+    "la fuente de alimentación",
+    "el silenciador"
+   ],
+   "sol": "Lo que alimenta al mezclador junto con la señal de antena es el oscilador local: de su batido sale la frecuencia intermedia. Sin él no hay conversión y el superheterodino no funciona.",
+   "figura": true
+  },
+  {
+   "id": "T4.37",
+   "clave": "b",
+   "enunciado": "En el diagrama de la figura, el bloque señalado con una interrogación toma muestra de la señal detectada y actúa sobre las etapas de radiofrecuencia y de frecuencia intermedia. Se trata de:\n  #circuito[\n    #_t4-diagrama(\n      spacing: (10mm, 8mm),\n      node((0, 0), _t4-t[ampl.\\ RF], shape: rect),\n      node((1, 0), _t4-t[FI], shape: rect, width: 13mm),\n      node((2, 0), _t4-t[detector], shape: rect),\n      node((3, 0), _t4-t[audio], shape: rect, width: 13mm),\n      _t4-preg((1.5, 1)),\n      edge((0, 0), (1, 0), \"-|>\"),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((2, 0), (3, 0), \"-|>\"),\n      edge((2, 0), (2, 1), (1.5, 1), \"-\"),\n      edge((1.5, 1), (0, 1), (0, 0), \"-|>\"),\n      edge((1, 1), (1, 0), \"-|>\"),\n    )\n  ]",
+   "opciones": [
+    "el oscilador de batido",
+    "el control automático de ganancia",
+    "el limitador de ruido",
+    "el filtro de paso bajo"
+   ],
+   "sol": "Ese lazo que va del detector hacia atrás es el control automático de ganancia: mide cuánta señal está llegando y reduce la amplificación de las primeras etapas cuando es fuerte, de modo que el volumen de salida se mantenga razonablemente constante.",
+   "figura": true
+  },
+  {
+   "id": "T4.38",
+   "clave": "d",
+   "enunciado": "Con los datos del esquema de la figura, y trabajando el oscilador local por encima de la señal, la frecuencia $F$ sintonizada por el receptor es:\n  #circuito[\n    #_t4-diagrama(\n      spacing: (14mm, 8mm),\n      node((0, 0), _t4-t[antena ($F$?)], stroke: none, fill: none),\n      node((1, 0), _t4-t[mezclador], shape: rect),\n      node((2, 0), _t4-t[FI\\ 455 kHz], shape: rect),\n      node((1, 1), _t4-t[oscilador local\\ 14,655 MHz], shape: rect),\n      edge((0, 0), (1, 0), \"-|>\"),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((1, 1), (1, 0), \"-|>\"),\n    )\n  ]",
+   "opciones": [
+    "15,11 MHz",
+    "14,655 MHz",
+    "455 kHz",
+    "14,2 MHz"
+   ],
+   "sol": "Con el oscilador local por encima de la señal, $F = f_\"OL\" - f_\"FI\" = 14,655 - 0,455 = 14,2$ MHz. Los 15,11 MHz son la frecuencia imagen, situada dos veces la FI por encima de la sintonizada.",
+   "figura": true
+  },
+  {
+   "id": "T4.39",
+   "clave": "b",
+   "enunciado": "En el esquema de la figura, el bloque señalado con una interrogación es el que fija la anchura de banda que el receptor deja pasar. Se trata de:\n  #circuito[\n    #_t4-diagrama(\n      spacing: (10mm, 8mm),\n      node((0, 0), [], stroke: none, fill: none),\n      node((1, 0), _t4-t[mezclador], shape: rect),\n      _t4-preg((2, 0)),\n      node((3, 0), _t4-t[ampl. FI], shape: rect),\n      node((4, 0), _t4-t[detector], shape: rect),\n      edge((0, 0), (1, 0), \"-|>\"),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((2, 0), (3, 0), \"-|>\"),\n      edge((3, 0), (4, 0), \"-|>\"),\n    )\n  ]",
+   "opciones": [
+    "un amplificador de audio",
+    "un filtro de frecuencia intermedia",
+    "un multiplicador de frecuencia",
+    "una fuente de alimentación"
+   ],
+   "sol": "Es el filtro de frecuencia intermedia, y de su anchura depende la selectividad del receptor: unos 2,4 kHz para SSB, mucho menos para telegrafía y bastante más para FM. Trabaja a frecuencia fija, que es lo que permite hacerlo tan selectivo.",
+   "figura": true
+  },
+  {
+   "id": "T4.40",
+   "clave": "d",
+   "enunciado": "El tramo final de receptor representado en la figura permite recibir emisiones de tipo:\n  #circuito[\n    #_t4-diagrama(\n      spacing: (10mm, 8mm),\n      node((0, 0), [], stroke: none, fill: none),\n      node((1, 0), _t4-t[ampl. FI], shape: rect),\n      node((2, 0), _t4-t[detector de\\ producto], shape: rect),\n      node((3, 0), _t4-t[audio], shape: rect, width: 13mm),\n      node((2, 1), _t4-t[oscilador de\\ batido (BFO)], shape: rect),\n      edge((0, 0), (1, 0), \"-|>\"),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((2, 0), (3, 0), \"-|>\"),\n      edge((2, 1), (2, 0), \"-|>\"),\n    )\n  ]",
+   "opciones": [
+    "modulación de frecuencia",
+    "televisión de aficionado",
+    "amplitud modulada con portadora",
+    "banda lateral única y telegrafía"
+   ],
+   "sol": "El detector de producto con su oscilador de batido repone la portadora que la emisión no lleva. Eso es exactamente lo que necesitan la banda lateral única y la telegrafía; para AM con portadora bastaría un detector de envolvente, y para FM haría falta un discriminador.",
+   "figura": true
+  },
+  {
+   "id": "T5.1",
+   "clave": "b",
+   "enunciado": "La impedancia de salida típica de los transmisores de radioaficionado es de:",
+   "opciones": [
+    "300 Ω",
+    "50 Ω",
+    "600 Ω",
+    "75 Ω"
+   ],
+   "sol": "El estándar es 50 Ω (52 en algunos textos): transmisor, línea y antena se diseñan para esa impedancia común."
+  },
+  {
+   "id": "T5.2",
+   "clave": "a",
+   "enunciado": "Según la nomenclatura de clases de emisión de la UIT, el símbolo F3E corresponde a:",
+   "opciones": [
+    "telefonía con modulación de frecuencia",
+    "telegrafía de onda continua",
+    "telefonía de banda lateral única",
+    "telefonía con modulación de amplitud de doble banda lateral"
+   ],
+   "sol": "Nomenclatura UIT: F = modulación de frecuencia, 3 = un canal analógico, E = telefonía. Otras: A3E (AM), J3E (SSB), A1A (CW)."
+  },
+  {
+   "id": "T5.3",
+   "clave": "c",
+   "enunciado": "En un transmisor de FM con una desviación máxima de frecuencia de 25 kHz y una frecuencia moduladora de 10 kHz, el índice de modulación vale:",
+   "opciones": [
+    "0,4",
+    "250",
+    "2,5",
+    "35"
+   ],
+   "sol": "$m = Delta f slash f_m = 25 slash 10 = 2,5$, adimensional."
+  },
+  {
+   "id": "T5.4",
+   "clave": "d",
+   "enunciado": "El filtro de salida de un transmisor tiene como misión:",
+   "opciones": [
+    "aumentar la potencia radiada",
+    "estabilizar la frecuencia del oscilador",
+    "amplificar la señal moduladora",
+    "eliminar las frecuencias no deseadas"
+   ],
+   "sol": "El filtro de salida (paso bajo en HF) atenúa armónicos y productos no deseados antes de la antena."
+  },
+  {
+   "id": "T5.5",
+   "clave": "a",
+   "enunciado": "El rendimiento de un transmisor es la relación entre:",
+   "opciones": [
+    "la potencia entregada al sistema radiante y la potencia consumida",
+    "la potencia directa y la potencia reflejada",
+    "la tensión de salida y la tensión de entrada",
+    "la frecuencia emitida y la frecuencia moduladora"
+   ],
+   "sol": "Rendimiento = $P_\"radiada\" slash P_\"consumida\"$; un final en clase C supera el 70 %, la clase A queda muy por debajo."
+  },
+  {
+   "id": "T5.6",
+   "clave": "b",
+   "enunciado": "Los armónicos generados por un transmisor son señales cuya frecuencia es:",
+   "opciones": [
+    "la mitad de la frecuencia fundamental",
+    "un múltiplo entero de la frecuencia fundamental",
+    "independiente de la frecuencia fundamental",
+    "siempre inferior a la frecuencia fundamental"
+   ],
+   "sol": "Los armónicos son múltiplos enteros de la fundamental: un transmisor de 7 MHz mal filtrado puede aparecer en 14 y 21 MHz."
+  },
+  {
+   "id": "T5.7",
+   "clave": "c",
+   "enunciado": "El control automático de nivel (ALC) de un transmisor permite:",
+   "opciones": [
+    "aumentar la profundidad de modulación",
+    "elevar la potencia de salida por encima de la nominal",
+    "evitar emisiones interferentes alrededor de la frecuencia de trabajo",
+    "reducir el consumo del amplificador final"
+   ],
+   "sol": "El ALC limita la excitación del final para que no se sobrecargue: evita distorsión y splatter alrededor de la frecuencia."
+  },
+  {
+   "id": "T5.8",
+   "clave": "a",
+   "enunciado": "En un transmisor con modulación de amplitud, la potencia de pico es:",
+   "opciones": [
+    "siempre superior a la potencia media",
+    "siempre igual a la potencia media",
+    "siempre inferior a la potencia media",
+    "nula si la modulación es del 100 %"
+   ],
+   "sol": "La potencia instantánea sigue el cuadrado de la envolvente. Al 100 % de modulación la envolvente llega a valer el doble de la portadora en la cresta, y como la potencia va con el cuadrado de la amplitud, la de pico es $2^2 = 4$ veces la de la portadora. Frente a la media $P_c (1 + m^2 slash 2) = 1,5 P_c$, son $4 slash 1,5 approx 2,7$ veces: por eso la de pico supera siempre a la media."
+  },
+  {
+   "id": "T5.9",
+   "clave": "d",
+   "enunciado": "Para frecuencias inferiores a 30 MHz, las emisiones no esenciales (espurias) de un transmisor de aficionado deben estar atenuadas al menos:",
+   "opciones": [
+    "10 dB por debajo de la potencia media, sin exceder de 1 W",
+    "20 dB por debajo de la potencia media, sin exceder de 500 mW",
+    "60 dB por debajo de la potencia media, sin exceder de 1 mW",
+    "40 dB por debajo de la potencia media, sin exceder de 50 mW"
+   ],
+   "sol": "Límite del Anexo I, 4.1.1 de la Orden IET/1311/2013 para $f < 30$ MHz: espurias al menos 40 dB por debajo de la potencia media sin exceder de 50 mW. Por encima de 30 MHz los límites son otros y dependen de la potencia (@t5-tab-espurias)."
+  },
+  {
+   "id": "T5.10",
+   "clave": "b",
+   "enunciado": "El ancho de banda ocupado por una emisión es:",
+   "opciones": [
+    "el doble de la frecuencia moduladora máxima, en todos los casos",
+    "el comprendido entre los límites superior e inferior de la señal modulada",
+    "la separación entre canales adyacentes",
+    "la frecuencia máxima transmitida"
+   ],
+   "sol": "El ancho de banda ocupado va del límite inferior al superior del espectro de la señal modulada."
+  },
+  {
+   "id": "T5.11",
+   "clave": "c",
+   "enunciado": "El multiplicador de frecuencia de un transmisor se emplea para:",
+   "opciones": [
+    "reducir el consumo del equipo",
+    "filtrar la señal moduladora",
+    "incrementar la frecuencia generada por un oscilador",
+    "estabilizar la tensión de alimentación"
+   ],
+   "sol": "El multiplicador toma la salida de un oscilador estable y la multiplica (×2, ×3…) para alcanzar la frecuencia de trabajo, típico en equipos de VHF/UHF."
+  },
+  {
+   "id": "T5.12",
+   "clave": "a",
+   "enunciado": "El «índice de modulación» es un parámetro que caracteriza a:",
+   "opciones": [
+    "la modulación de frecuencia",
+    "la telegrafía de onda continua",
+    "la potencia de alimentación",
+    "la ganancia de la antena"
+   ],
+   "sol": "El índice de modulación ($m = Delta f slash f_m$) es el parámetro característico de la FM; en AM se habla de porcentaje o profundidad de modulación."
+  },
+  {
+   "id": "T5.13",
+   "clave": "b",
+   "enunciado": "La anchura de banda necesaria de un transmisor es:",
+   "opciones": [
+    "siempre la máxima que permita el equipo",
+    "la suficiente para permitir la transmisión a la velocidad y con la calidad requeridas",
+    "la mitad de la anchura del canal",
+    "independiente del tipo de emisión"
+   ],
+   "sol": "La anchura de banda necesaria es la justa para transmitir con la velocidad y calidad requeridas: ni más (desperdicia espectro e interfiere) ni menos (degrada la señal)."
+  },
+  {
+   "id": "T5.14",
+   "clave": "d",
+   "enunciado": "Se denomina «emisiones no deseadas» al conjunto de:",
+   "opciones": [
+    "las emisiones de los repetidores",
+    "las señales recibidas fuera de la banda de aficionados",
+    "las emisiones con potencia inferior a la autorizada",
+    "las emisiones no esenciales y las emisiones fuera de banda"
+   ],
+   "sol": "Definición reglamentaria: emisiones no deseadas = emisiones no esenciales (espurias) + emisiones fuera de banda."
+  },
+  {
+   "id": "T5.15",
+   "clave": "c",
+   "enunciado": "Un micrófono es un dispositivo que convierte:",
+   "opciones": [
+    "las señales eléctricas en ondas sonoras",
+    "la corriente continua en corriente alterna",
+    "las ondas sonoras en una señal eléctrica",
+    "la radiofrecuencia en audiofrecuencia"
+   ],
+   "sol": "Es un transductor de presión: recoge las variaciones de presión del aire y las entrega como tensión. El que hace el camino contrario —de señal eléctrica a sonido— es el altavoz."
+  },
+  {
+   "id": "T5.16",
+   "clave": "a",
+   "enunciado": "El preamplificador de micrófono de un transmisor tiene por objeto:",
+   "opciones": [
+    "elevar el bajo nivel de la señal que entrega el micrófono",
+    "suprimir la portadora de la emisión",
+    "adaptar la impedancia de la antena",
+    "multiplicar la frecuencia del oscilador"
+   ],
+   "sol": "El micrófono entrega unos pocos milivoltios, insuficientes para atacar las etapas siguientes. Suprimir la portadora es cosa del modulador equilibrado, y adaptar la antena, del acoplador."
+  },
+  {
+   "id": "T5.17",
+   "clave": "d",
+   "enunciado": "El compresor de audio de un transmisor de SSB sirve para:",
+   "opciones": [
+    "ensanchar la banda de audio transmitida",
+    "aumentar la potencia de pico del equipo",
+    "suprimir el ruido de fondo del micrófono",
+    "elevar la potencia media de la emisión sin superar la potencia de pico"
+   ],
+   "sol": "La voz tiene picos altos y valles bajos, y el transmisor está limitado por el pico. El compresor sube los valles sin tocar los picos: sube la potencia media, que es la que se oye al otro lado, con el mismo equipo y sin sobremodular."
+  },
+  {
+   "id": "T5.18",
+   "clave": "b",
+   "enunciado": "Para una emisión de fonía, la banda de audiofrecuencias que basta transmitir para conservar la inteligibilidad es aproximadamente:",
+   "opciones": [
+    "de 20 a 20 000 Hz",
+    "de 300 a 3000 Hz",
+    "de 3 a 30 kHz",
+    "de 50 a 150 Hz"
+   ],
+   "sol": "Es la banda telefónica clásica: con ella la voz se entiende perfectamente. Transmitir más solo ensancharía la emisión sin mejorar la inteligibilidad — y el espectro que sobra se lo quitamos a los vecinos de frecuencia. Los 20 Hz a 20 kHz son el margen de la alta fidelidad."
+  },
+  {
+   "id": "T5.19",
+   "clave": "c",
+   "enunciado": "Hablar demasiado fuerte al micrófono, o abrir en exceso la ganancia de micrófono, produce:",
+   "opciones": [
+    "una mejora de la inteligibilidad",
+    "un aumento del alcance de la estación",
+    "sobremodulación, con ensanchamiento de la emisión e interferencias",
+    "una reducción de la potencia de pico"
+   ],
+   "sol": "La envolvente se recorta, aparecen productos de intermodulación y la emisión invade los canales contiguos: es el splatter. Se oye peor, no mejor, y molesta a los demás. Para evitarlo está el ALC."
+  },
+  {
+   "id": "T5.20",
+   "clave": "a",
+   "enunciado": "En un transmisor, el excitador tiene la misión de:",
+   "opciones": [
+    "suministrar la potencia necesaria a la etapa amplificadora final",
+    "excitar la etapa osciladora",
+    "alimentar en continua todo el transmisor",
+    "sumar las frecuencias de los dos osciladores"
+   ],
+   "sol": "El excitador es la etapa intermedia que eleva el nivel de la señal hasta lo que el amplificador final necesita a su entrada. Un lineal externo, por ejemplo, se «excita» con los pocos vatios que le entrega el transceptor."
+  },
+  {
+   "id": "T5.21",
+   "clave": "b",
+   "enunciado": "El orden correcto de los bloques funcionales de un equipo emisor es:",
+   "opciones": [
+    "amplificador final, red de acoplo, modulador y cadena de amplificación",
+    "modulador, cadena de amplificación y traslación de frecuencia, amplificador final y red de acoplo",
+    "cadena de amplificación, modulador, red de acoplo y amplificador final",
+    "red de acoplo, amplificador final, modulador y cadena de amplificación"
+   ],
+   "sol": "Se sigue el camino de la señal: primero se modula a bajo nivel, después se amplifica y se traslada a la frecuencia de trabajo, luego se sube la potencia y por último se adapta a la antena. La red de acoplo es siempre lo último antes de la línea."
+  },
+  {
+   "id": "T5.22",
+   "clave": "d",
+   "enunciado": "El orden en que deben conectarse los equipos de una estación es:",
+   "opciones": [
+    "transceptor, acoplador, amplificador lineal, medidor de ROE y antena",
+    "transceptor, medidor de ROE, acoplador, amplificador lineal y antena",
+    "transceptor, acoplador, medidor de ROE, amplificador lineal y antena",
+    "transceptor, amplificador lineal, medidor de ROE, acoplador y antena"
+   ],
+   "sol": "El acoplador va lo más cerca posible de la antena, porque su trabajo es adaptar lo que la línea presenta. Y el medidor de ROE debe leer la potencia real que sale hacia la antena, es decir, después del lineal."
+  },
+  {
+   "id": "T5.23",
+   "clave": "c",
+   "enunciado": "Las siglas CAF corresponden a:",
+   "opciones": [
+    "cuadripolo adaptador final",
+    "circuito adaptado en frecuencia",
+    "control automático de frecuencia",
+    "control automático de fidelidad"
+   ],
+   "sol": "Es el lazo que corrige la deriva del oscilador para mantener el equipo en la frecuencia deseada. No confundir con el CAG (control automático de ganancia, del receptor) ni con el ALC (control automático de nivel, del transmisor)."
+  },
+  {
+   "id": "T5.24",
+   "clave": "a",
+   "enunciado": "Una potencia de 1 vatio equivale a:",
+   "opciones": [
+    "30 dBm",
+    "30 dBW",
+    "30 dB",
+    "3 dBm"
+   ],
+   "sol": "El dBm se refiere a 1 mW, y 1 W son 1000 mW: $10 log_10 (1000) = 30$ dBm. En dBW, 1 W es exactamente 0 dBW. Y «30 dB» a secas no es una potencia, sino una relación."
+  },
+  {
+   "id": "T5.25",
+   "clave": "b",
+   "enunciado": "La etapa separadora que se intercala entre el oscilador y el amplificador de un transmisor sirve para:",
+   "opciones": [
+    "elevar la frecuencia del oscilador",
+    "aislar el oscilador de las variaciones de carga de las etapas siguientes",
+    "modular la señal en amplitud",
+    "rectificar la señal del oscilador"
+   ],
+   "sol": "Un oscilador es sensible a lo que tenga colgado: si la carga varía, su frecuencia se mueve. La separadora lo desacopla y le deja ver siempre la misma carga, con lo que la emisión no deriva al variar la potencia."
+  },
+  {
+   "id": "T5.26",
+   "clave": "d",
+   "enunciado": "El dispositivo VOX de un transceptor permite:",
+   "opciones": [
+    "comprimir la señal de audio",
+    "ajustar automáticamente la frecuencia",
+    "variar la desviación de frecuencia en FM",
+    "pasar automáticamente a transmisión al hablar ante el micrófono"
+   ],
+   "sol": "Del inglés _voice operated exchange_: detecta que hay voz en el micrófono y conmuta el equipo a transmisión sin tocar el PTT, volviendo a recepción tras una breve espera al callarse."
+  },
+  {
+   "id": "T5.27",
+   "clave": "c",
+   "enunciado": "En un transmisor de banda lateral única, el modulador equilibrado tiene la propiedad de:",
+   "opciones": [
+    "duplicar la frecuencia de la portadora",
+    "amplificar la señal de audio",
+    "suprimir la portadora y dejar solo las dos bandas laterales",
+    "eliminar los armónicos de la etapa final"
+   ],
+   "sol": "Su simetría hace que la portadora se cancele a la salida y solo sobrevivan los productos de mezcla, es decir, las dos bandas laterales. Un filtro posterior se queda con una sola: eso ya es SSB."
+  },
+  {
+   "id": "T5.28",
+   "clave": "a",
+   "enunciado": "El filtro de banda lateral de un transmisor de SSB se encarga de:",
+   "opciones": [
+    "eliminar una de las dos bandas laterales",
+    "eliminar la señal de audio residual",
+    "adaptar la impedancia de salida",
+    "suprimir la portadora"
+   ],
+   "sol": "Las dos bandas laterales llevan la misma información, así que transmitir una sola ahorra la mitad del espectro y concentra toda la potencia en ella. Suprimir la portadora ya lo hizo antes el modulador equilibrado."
+  },
+  {
+   "id": "T5.29",
+   "clave": "b",
+   "enunciado": "Una manipulación demasiado brusca en una emisión de telegrafía produce:",
+   "opciones": [
+    "una reducción de la velocidad de transmisión",
+    "chasquidos de manipulación que ensanchan la emisión",
+    "la desaparición de la portadora",
+    "un aumento del rendimiento del transmisor"
+   ],
+   "sol": "Cortar y restablecer la portadora de golpe equivale a un escalón, y un escalón contiene frecuencias muy altas: son los _key clicks_, que se oyen a ambos lados de la frecuencia. Por eso los equipos redondean los flancos de la manipulación."
+  },
+  {
+   "id": "T5.30",
+   "clave": "d",
+   "enunciado": "Las siglas PEP, con que se expresa la potencia de un transmisor de SSB, significan:",
+   "opciones": [
+    "potencia entregada permanente",
+    "potencia eficaz promediada",
+    "potencia específica de portadora",
+    "potencia de pico de envolvente"
+   ],
+   "sol": "Del inglés _peak envelope power_. En SSB la potencia varía continuamente con la voz, así que no tiene sentido dar un valor medio: se especifica la potencia en la cresta de la envolvente, que es la que limita el equipo y la que la reglamentación acota."
+  },
+  {
+   "id": "T5.31",
+   "clave": "d",
+   "enunciado": "Se dice que un transmisor de amplitud modulada está sobremodulando cuando:",
+   "opciones": [
+    "la potencia de salida supera la nominal",
+    "la frecuencia se aparta de la asignada",
+    "la portadora desaparece por completo",
+    "el índice de modulación supera el 100 %"
+   ],
+   "sol": "Con índice mayor que 1 la envolvente intenta hacerse negativa, la portadora se recorta y aparecen productos de distorsión que ensanchan la emisión. Es el mismo fenómeno que produce el splatter en SSB."
+  },
+  {
+   "id": "T5.32",
+   "clave": "b",
+   "enunciado": "Para evitar la sobremodulación de un transmisor hay que actuar sobre:",
+   "opciones": [
+    "la tensión de alimentación de la etapa final",
+    "el nivel de la señal de baja frecuencia aplicada al modulador",
+    "la longitud de la línea de transmisión",
+    "la frecuencia del oscilador"
+   ],
+   "sol": "La sobremodulación es un exceso de audio, no de radiofrecuencia: se corrige bajando la ganancia de micrófono o el nivel de entrada al modulador. Tocar la alimentación de la etapa final cambiaría la potencia, no el índice de modulación."
+  },
+  {
+   "id": "T5.33",
+   "clave": "c",
+   "enunciado": "Se denomina potencia de portadora de un transmisor a la que entrega a la línea de alimentación de la antena:",
+   "opciones": [
+    "durante la cresta de modulación",
+    "promediada a lo largo de un minuto",
+    "durante un ciclo de radiofrecuencia, en ausencia de modulación",
+    "con la antena desconectada"
+   ],
+   "sol": "Es la definición del Reglamento de Radiocomunicaciones: potencia media durante un ciclo de radiofrecuencia, sin modulación. Junto con la potencia de pico de envolvente y la potencia media, es una de las tres formas reglamentarias de expresar la potencia de un transmisor."
+  },
+  {
+   "id": "T5.34",
+   "clave": "b",
+   "enunciado": "En un transmisor valvular, el mando de control de carga (_load_) sirve para:",
+   "opciones": [
+    "variar la frecuencia de emisión",
+    "ajustar el acoplo de la etapa final a la antena",
+    "modificar la ganancia de micrófono",
+    "conmutar entre transmisión y recepción"
+   ],
+   "sol": "En los finales valvulares hay dos mandos que se manejan juntos: sintonía, que busca el mínimo de corriente de placa, y carga, que ajusta el acoplo a la antena hasta obtener la potencia deseada. Uno resuena, el otro adapta."
+  },
+  {
+   "id": "T5.35",
+   "clave": "b",
+   "enunciado": "Al sintonizar un emisor empleando una antena artificial:",
+   "opciones": [
+    "la señal se radia con la misma intensidad que con la antena real",
+    "la mayor parte de la energía del emisor se disipa en forma de calor",
+    "se obtiene mayor potencia de salida",
+    "se produce una lectura de ROE muy elevada"
+   ],
+   "sol": "La carga artificial es una resistencia no inductiva que sustituye a la antena: acepta toda la potencia y la convierte en calor en lugar de radiarla. Por eso permite ajustar sin ocupar la banda ni molestar a nadie."
+  },
+  {
+   "id": "T5.36",
+   "clave": "b",
+   "enunciado": "En el esquema de un transmisor de banda lateral única de la figura, el bloque señalado con una interrogación toma muestra de la salida y actúa sobre las etapas anteriores para evitar la sobreexcitación. Se trata de:\n  #circuito[\n    #_t5-diagrama(\n      spacing: (10mm, 8mm),\n      node((0, 0), _t5-t[micrófono], shape: rect),\n      node((1, 0), _t5-t[modulador\\ equilibrado], shape: rect),\n      node((2, 0), _t5-t[mezclador], shape: rect),\n      node((3, 0), _t5-t[ampl.\\ potencia], shape: rect),\n      node((4, 0), _t5-e[antena], stroke: none, fill: none),\n      _t5-preg((2.2, 1)),\n      edge((0, 0), (1, 0), \"-|>\"),\n      edge((1, 0), (2, 0), \"-|>\"),\n      edge((2, 0), (3, 0), \"-|>\"),\n      edge((3, 0), (4, 0), \"-|>\"),\n      edge((3, 0), (3, 1), (2.2, 1), \"-\"),\n      edge((2.2, 1), (1, 1), (1, 0), \"-|>\"),\n    )\n  ]",
+   "opciones": [
+    "el control automático de frecuencia",
+    "el control automático de nivel (ALC)",
+    "el oscilador de batido",
+    "el silenciador"
+   ],
+   "sol": "Ese lazo desde la salida hacia las etapas anteriores es el control automático de nivel: recorta la excitación cuando el final se acerca a su límite, evitando el recorte de la envolvente y el splatter que provocaría. Es la protección contra la sobremodulación en SSB.",
+   "figura": true
+  }
+ ]
+}

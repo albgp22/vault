@@ -1,0 +1,1450 @@
+{
+ "temas": {
+  "T2": {
+   "titulo": "Componentes",
+   "alcance": "Resistencias (tipos, código de colores, disipación, PTC/NTC) · condensadores (capacidad, reactancia, dieléctricos) · bobinas (autoinducción, factor $Q$, efecto pelicular) · transformadores · diodos (rectificadores, zéner, LED, varicap) · transistores bipolares y de efecto campo · válvulas y circuitos integrados."
+  }
+ },
+ "preguntas": [
+  {
+   "id": "C-T2.1",
+   "clave": "d",
+   "enunciado": "En un circuito electrónico, un transistor no se puede emplear como:",
+   "opciones": [
+    "Amplificador.",
+    "Oscilador.",
+    "Mezclador.",
+    "Balun."
+   ],
+   "sol": "\n    El balun es un transformador (o un tramo de línea) que une una línea asimétrica, como el\n    coaxial, con una antena simétrica: es un elemento pasivo, sin ganancia, y un transistor no puede\n    hacer ese trabajo. En cambio, el transistor amplifica (su empleo principal), oscila si se le\n    realimenta con un circuito resonante y mezcla dos señales; el FET también funciona como\n    mezclador. Por eso solo la opción d no es un uso del transistor. #vease[(Véase tema T6, sección\n    «Líneas de transmisión y adaptación» (balun); tema T3, sección «Filtros, osciladores y\n    mezcladores»; tema T2, sección «Semiconductores y otros componentes».)]\n  "
+  },
+  {
+   "id": "C-T2.2",
+   "clave": "b",
+   "enunciado": "Una relación de transformación de un transformador es el cociente que resulta de dividir:",
+   "opciones": [
+    "La tensión en el secundario por la intensidad de corriente en el primario.",
+    "La tensión en el secundario por la tensión en el primario.",
+    "El peso de la bobina del primario por el peso de la bobina del secundario.",
+    "La potencia eléctrica que se obtiene en el secundario por la que absorbe el primario."
+   ],
+   "sol": "\n    Aquí la relación de transformación es el cociente de tensiones $V_s slash V_p$, que en el\n    transformador ideal coincide con $N_s slash N_p$. La opción a divide una tensión entre una\n    corriente: $V slash I$ es una impedancia, no una relación entre devanados. El peso de las\n    bobinas (c) no interviene en ninguna ley del transformador. La opción d es el rendimiento\n    (potencia de salida entre potencia de entrada), que vale 1 en el caso ideal y algo menos en uno\n    real. #vease[(Véase tema T2, sección «Transformadores».)]\n    #no-esta[La «relación de transformación» se define con dos convenciones inversas y conviene conocer\n    ambas. Como cociente de tensiones (la de esta pregunta) es $V_s slash V_p = N_s slash N_p$:\n    mayor que 1 en un elevador, menor que 1 en un reductor. Otros textos la dan al revés, como\n    espiras del primario entre espiras del secundario, $N_p slash N_s$, que es la que usa la\n    pregunta T2.18 del cuaderno. En el examen fíjate en lo que ofrecen las opciones: nunca será un\n    cociente de potencias ni de pesos.]\n  "
+  },
+  {
+   "id": "C-T2.3",
+   "clave": "b",
+   "enunciado": "El dieléctrico en los condensadores electrolíticos consiste en:",
+   "opciones": [
+    "Aire",
+    "Una capa de óxido en contacto con una pasta química (electrolito)",
+    "Aceite",
+    "Agua ionizada"
+   ],
+   "sol": "\n    En el banco oficial la opción b dice solo «Una pasta química» y es la que da por buena: es la\n    única que alude a lo propio del electrolítico, mientras que el aire (condensadores variables) y\n    el aceite (condensadores de alta tensión) son dieléctricos de otros tipos y el agua ionizada no\n    se emplea. Con rigor, el dieléctrico es la finísima capa de óxido formada sobre la armadura\n    metálica; la pasta química es el electrolito, que actúa de segunda armadura. Por eso se ha\n    reescrito la opción b para que recoja ambas piezas; en el examen marca la que habla de la pasta\n    química. #vease[(Véase tema T2, sección «Condensadores».)]\n    #no-esta[Un condensador electrolítico tiene una armadura de aluminio (o de tántalo) sobre la que se forma\n    electroquímicamente una capa de óxido finísima: ese óxido es el dieléctrico, y su poco espesor\n    explica la gran capacidad. Sobre él se pone el electrolito, líquido o en pasta, que hace de\n    segunda armadura. El óxido solo se mantiene con el positivo en el aluminio; por eso el\n    componente está polarizado y se destruye si se conecta al revés.]\n  "
+  },
+  {
+   "id": "C-T2.4",
+   "clave": "d",
+   "enunciado": "Un relevador o relé es un electroimán que se emplea para:",
+   "opciones": [
+    "Mover grandes pesos",
+    "Separar las sustancias metálicas de las no metálicas",
+    "Separar las sustancias magnéticas de las no magnéticas",
+    "Abrir y cerrar un circuito eléctrico"
+   ],
+   "sol": "\n    Un relé es un electroimán cuya bobina, al recibir corriente, atrae una pieza móvil (la armadura)\n    que abre o cierra unos contactos. Con una corriente pequeña gobierna así otro circuito distinto,\n    que puede manejar más tensión o más corriente y queda aislado del primero. Mover grandes pesos\n    (a) es lo que hace el electroimán de una grúa, no un relé; y separar metales o sustancias\n    magnéticas de las que no lo son (b, c) es el trabajo de un separador magnético. #vease[(Véase\n    tema T2, sección «Bobinas» (electroimán); tema T6, sección «La conmutación de antena» (relé\n    T-R).)]\n    #no-esta[Un relé es un interruptor accionado por un electroimán: al circular corriente por la bobina, el\n    campo atrae una armadura y los contactos cambian de posición; al cortar la corriente, un muelle\n    los devuelve a su sitio. En la estación lo encuentras como relé T-R, que conmuta la antena entre\n    transmisor y receptor al pulsar el PTT. Como la bobina es una inductancia, al cortarla produce\n    una sobretensión; por eso se le pone en paralelo un diodo que la absorbe.]\n  "
+  },
+  {
+   "id": "C-T2.5",
+   "clave": "d",
+   "enunciado": "Un transformador sirve para:",
+   "opciones": [
+    "Transformar un acumulador en un motor",
+    "Transformar una corriente continua en alterna",
+    "Transformar una potencia eléctrica en calor",
+    "Transformar una corriente alterna en otra también alterna"
+   ],
+   "sol": "\n    El transformador pasa energía de un devanado a otro mediante un flujo magnético variable, así\n    que solo trabaja con corriente alterna y entrega otra corriente alterna de la misma frecuencia,\n    con la tensión y la corriente cambiadas (si sube una, baja la otra). Convertir continua en\n    alterna (b) es tarea de un oscilador o un inversor. Transformar potencia eléctrica en calor (c)\n    lo hace una resistencia. Y transformar un acumulador en un motor (a) no tiene sentido físico.\n    #vease[(Véase tema T2, sección «Transformadores», y capítulo «La radio por dentro», apartado «El\n    transformador: dos bobinas y un puente de flujo».)]\n  "
+  },
+  {
+   "id": "C-T2.6",
+   "clave": "d",
+   "enunciado": "En las dos primeras franjas que indican el valor de una resistencia, la cifra cinco está\nrepresentada por el color:",
+   "opciones": [
+    "Azul",
+    "Blanco",
+    "Amarillo",
+    "Verde"
+   ],
+   "sol": "\n    Las cifras del código de colores son: negro 0, marrón 1, rojo 2, naranja 3, amarillo 4, verde 5,\n    azul 6, violeta 7, gris 8 y blanco 9. El cinco es, pues, el verde. Los distractores son cifras\n    de la misma tabla: amarillo es el 4, azul el 6 y blanco el 9. Truco: del rojo al violeta, los\n    colores siguen el orden del arco iris y las cifras van de 2 a 7 (rojo 2, naranja 3, amarillo 4,\n    verde 5, azul 6, violeta 7). #vease[(Véase tema T2, sección «Resistencias».)]\n  "
+  },
+  {
+   "id": "C-T2.7",
+   "clave": "c",
+   "enunciado": "Alimentando el primario de un transformador con corriente continua, en el circuito del secundario,\ncargado con una resistencia:",
+   "opciones": [
+    "Pasa una corriente mayor que por el primario",
+    "Pasa la misma corriente que por el primario",
+    "No hay paso de corriente",
+    "La corriente que pasa es ligeramente inferior que la del primario"
+   ],
+   "sol": "\n    El transformador solo transfiere energía mediante un flujo magnético que varía. Con continua el\n    flujo del núcleo es constante y, por la ley de Faraday, no se induce tensión en el secundario\n    ($e = −N \"d\"φ slash \"d\"t = 0$): por la resistencia de carga no circula corriente. Las otras tres\n    opciones describirían un transformador con alterna y dependerían de la relación de espiras\n    ($I_s slash I_p = N_p slash N_s$). Solo en el instante de conectar o desconectar, mientras el\n    flujo cambia, aparece un breve pulso en el secundario. #vease[(Véase tema T2, sección\n    «Transformadores».)]\n    #no-esta[El secundario solo recibe tensión cuando el flujo cambia, y la continua no lo hace. Además, con\n    continua el primario opone únicamente la resistencia del hilo, que es pequeña (la reactancia\n    inductiva vale cero, $X_L = 2π f L = 0$): circula una corriente alta que lo calienta y puede\n    quemarlo sin transferir nada al secundario. Por eso un transformador de red nunca se alimenta\n    con continua; para subir o bajar una tensión continua hay que convertirla antes en alterna.]\n  "
+  },
+  {
+   "id": "C-T2.8",
+   "clave": "b",
+   "enunciado": "El transistor es:",
+   "opciones": [
+    "Una bobina",
+    "Un semiconductor",
+    "Un rectificador de vacío",
+    "Un dispositivo de dos terminales"
+   ],
+   "sol": "\n    El transistor es un dispositivo semiconductor: se fabrica con silicio o germanio, materiales\n    semiconductores (ni aislantes ni conductores) dopados para formar uniones PN. No es una bobina\n    (a), que es un arrollamiento de hilo, ni un rectificador de vacío (c), que es el diodo de\n    válvula. Y un dispositivo de dos terminales (d) es un diodo; el transistor tiene tres (emisor,\n    base y colector en el bipolar; puerta, fuente y drenador en el FET). Por la misma razón, si se\n    pregunta a qué categoría pertenecen los materiales de los transistores, la respuesta es\n    semiconductores. #vease[(Véase tema T2, sección «Semiconductores y otros componentes».)]\n  "
+  },
+  {
+   "id": "C-T2.9",
+   "clave": "d",
+   "enunciado": "Una válvula diodo está compuesta por:",
+   "opciones": [
+    "Placa, rejilla y cátodo",
+    "Cátodo",
+    "Rejilla y cátodo",
+    "Placa y cátodo"
+   ],
+   "sol": "\n    El diodo de vacío tiene solo dos electrodos: el cátodo, que caliente emite electrones, y la\n    placa (ánodo), que los recoge cuando está a tensión positiva. Con eso basta para rectificar,\n    porque la corriente solo circula del cátodo a la placa (el filamento de caldeo es aparte y no\n    cuenta como electrodo). Un cátodo solo (b) no forma circuito alguno. La rejilla es lo que\n    caracteriza a las válvulas amplificadoras: cátodo, rejilla y placa forman el tríodo (a), y una\n    rejilla sin placa (c) no recoge corriente. #vease[(Véase tema T2, sección «Válvulas\n    termoiónicas».)]\n  "
+  },
+  {
+   "id": "C-T2.10",
+   "clave": "a",
+   "enunciado": "Si en un transformador el primario tiene menos espiras que el secundario, este transformador es:",
+   "opciones": [
+    "Elevador",
+    "Mixto",
+    "Reductor",
+    "Igualador"
+   ],
+   "sol": "\n    La tensión sigue al número de espiras: $V_s slash V_p = N_s slash N_p$. Si el primario tiene\n    menos espiras que el secundario ($N_p < N_s$), la tensión del secundario es mayor que la de\n    entrada: el transformador es elevador. La definición vale también en sentido inverso: en un\n    transformador elevador el secundario tiene más espiras que el primario, y no es indiferente la\n    relación de espiras, porque de ella depende la tensión de salida. Reductor es el caso contrario;\n    con igual número de espiras la tensión no cambia. «Mixto» e «igualador» no son tipos de\n    transformador. Ejemplo: 12 V con 100 espiras en el primario y 500 en el secundario dan 12 ×\n    500/100 = 60 V. #vease[(Véase tema T2, sección «Transformadores».)]\n  "
+  },
+  {
+   "id": "C-T2.11",
+   "clave": "b",
+   "enunciado": "¿Qué ventaja tienen los transistores FET sobre los transistores clásicos?",
+   "opciones": [
+    "Se pueden usar para señales de frecuencias más altas",
+    "Tiene mayor impedancia de entrada",
+    "Pueden amplificar señales a mayor nivel",
+    "Producen mayor ganancia"
+   ],
+   "sol": "\n    El FET se gobierna con la tensión de puerta (campo eléctrico) y la puerta apenas toma corriente:\n    su impedancia de entrada es altísima, mientras que un bipolar necesita corriente de base y\n    presenta una entrada de baja impedancia. Esa es su ventaja característica (b): no carga la\n    fuente de señal, y por eso se usa en las primeras etapas de los receptores. Las otras no son\n    ventajas generales: el FET no suele dar más ganancia que un bipolar, no maneja señales de mayor\n    nivel, y la frecuencia máxima depende del modelo concreto, no de que sea FET o bipolar.\n    #vease[(Véase tema T2, sección «Semiconductores y otros componentes», y capítulo «La radio por\n    dentro», apartado «Las otras vidas del transistor».)]\n  "
+  },
+  {
+   "id": "C-T2.12",
+   "clave": "b",
+   "enunciado": "En un circuito donde se aplica corriente continua se cargarían los condensadores si los hubiese:",
+   "opciones": [
+    "No porque el condensador presenta una resistencia muy grande a la corriente continua",
+    "Si, todos, al principio",
+    "No, sólo si se aplicase corriente alterna",
+    "Si pero sólo el primero"
+   ],
+   "sol": "\n    Al conectar la continua, circula corriente un instante y carga cada condensador a través de las\n    resistencias del circuito, con una exponencial de constante de tiempo $τ = R C$ (cargado a\n    efectos prácticos en $5τ$). Cuando el condensador alcanza la tensión del punto al que está\n    conectado, la corriente cesa y queda como un circuito abierto. Por eso se cargan todos, al\n    principio (b). No es que no se carguen por oponer «una resistencia muy grande» (a): se cargan y\n    luego bloquean la continua. Cargarse no exige alterna (c), ni es solo el primero (d): todos\n    pasan por el transitorio. #vease[(Véase tema T2, sección «Condensadores».)]\n  "
+  },
+  {
+   "id": "C-T2.13",
+   "clave": "a",
+   "enunciado": "Un diodo semiconductor:",
+   "opciones": [
+    "Se utiliza en la detección",
+    "Sirve para simplificar",
+    "Es la base de los osciladores",
+    "Aumenta la potencia del receptor"
+   ],
+   "sol": "\n    Un diodo deja pasar la corriente en un solo sentido, y de esa asimetría vive el detector:\n    rectifica la señal modulada y, con un filtro RC, recupera la envolvente, que es la información\n    (detección de AM). Por eso la respuesta es a. «Simplificar» no es función de ningún componente\n    (y si se leyera «amplificar», tampoco: el diodo no tiene ganancia). Un oscilador necesita un\n    elemento activo con ganancia, como un transistor o una válvula, más realimentación, no un diodo\n    corriente (c). Y el diodo es pasivo: no aumenta la potencia de nada (d). #vease[(Véase tema T2,\n    sección «Semiconductores y otros componentes»; tema T3, sección «Clases de amplificación y\n    detectores».)]\n  "
+  },
+  {
+   "id": "C-T2.14",
+   "clave": "c",
+   "enunciado": "La capacidad está dada por:",
+   "opciones": [
+    "$C = I slash E$",
+    "$C = W · V$",
+    "$C = Q slash E$",
+    "$C = R · I$"
+   ],
+   "sol": "\n    La capacidad es la carga que almacena un condensador por cada voltio aplicado: $C = Q slash V$.\n    Aquí la tensión se escribe $E$, luego $C = Q slash E$ (c); en unidades, faradio = culombio /\n    voltio. Las otras opciones son otras magnitudes: $I slash E$ es una conductancia ($1 slash R$),\n    $R · I$ es una tensión (ley de Ohm) y $W ·V$ no define ninguna magnitud del condensador; la\n    energía almacenada es $W = 1/2 C V^2$. #vease[(Véase tema T2, sección «Condensadores».)]\n  "
+  },
+  {
+   "id": "C-T2.15",
+   "clave": "a",
+   "enunciado": "La inductancia que presenta una bobina aumenta:",
+   "opciones": [
+    "Si aumenta su temperatura",
+    "Si aumenta la amplitud de la corriente que por ella circula",
+    "Si aumenta la frecuencia de la corriente que por ella circula",
+    "Si aumenta el periodo de la corriente que por ella circula"
+   ],
+   "sol": "\n    La inductancia depende de cómo está construida la bobina —espiras, diámetro, longitud del\n    devanado y núcleo, $L = μ N^2 A slash ell$— y no de la señal que la recorre. Por eso fallan las\n    tres opciones que hablan de la corriente: su amplitud (b) no cambia $L$ en una bobina lineal; su\n    frecuencia (c) hace crecer la reactancia $X_L = 2π f L$, no la inductancia; y el periodo (d) es\n    la inversa de la frecuencia. La única opción que actúa sobre la propia bobina es la temperatura\n    (a). El enunciado es poco preciso y se resuelve por eliminación: elige la que modifica la\n    bobina. #vease[(Véase tema T2, sección «Bobinas».)]\n    #no-esta[Al calentarse, el arrollamiento de una bobina se dilata (más diámetro y más longitud) y su\n    inductancia aumenta ligeramente; si tiene núcleo, también varía su permeabilidad con la\n    temperatura. Esa variación se mide con el coeficiente de temperatura de la inductancia y es la\n    causa de que un oscilador de sintonía variable (VFO) derive en frecuencia mientras se calienta.\n    Por eso las bobinas de los osciladores se construyen con hilo rígido sobre soportes cerámicos.]\n  "
+  },
+  {
+   "id": "C-T2.16",
+   "clave": "d",
+   "enunciado": "El transistor se utiliza, entre otras cosas, como:",
+   "opciones": [
+    "Atenuador",
+    "Para sintonizar emisoras de radio",
+    "Rectificador",
+    "Amplificador"
+   ],
+   "sol": "\n    La aplicación principal del transistor es amplificar: una pequeña variación en la base (o en la\n    puerta del FET) gobierna una corriente o una tensión mucho mayores. Además puede conmutar,\n    oscilar y mezclar. Atenuar (a) se consigue con resistencias. Sintonizar emisoras (b) lo hace un\n    circuito resonante (bobina y condensador, o varicap); el receptor en su conjunto es quien\n    sintoniza, no el transistor. Y rectificar (c) es el trabajo del diodo. #vease[(Véase tema T2,\n    sección «Semiconductores y otros componentes».)]\n  "
+  },
+  {
+   "id": "C-T2.17",
+   "clave": "d",
+   "enunciado": "El valor y la tolerancia de las resistencias más habituales se indican mediante un código de\ncolores. Indique el valor de la resistencia cuyos colores son, por este orden: verde, rojo, rojo,\nplata:",
+   "opciones": [
+    "52 Ω y 5 % de tolerancia.",
+    "No se puede calcular.",
+    "520 Ω y 0,1 % de tolerancia.",
+    "5,2 kΩ y 10 % de tolerancia."
+   ],
+   "sol": "\n    Se lee de izquierda a derecha: verde = 5, rojo = 2, y el tercer color, rojo, es el multiplicador\n    $10^2$; la cuarta banda, plata, es la tolerancia de ±10 %. Así, $R = 52 × 10^2 = 5200$ Ω = 5,2\n    kΩ ± 10 %. La opción a y la c usan un multiplicador equivocado (×1 y × 10 en lugar de $×10^2$) y\n    una tolerancia que no corresponde a la plata (el 5 % es el oro); la b es falsa: el valor siempre\n    se calcula con la tabla. #vease[(Véase tema T2, sección «Resistencias».)]\n    #no-esta[La cuarta banda indica la tolerancia: marrón ±1 %, rojo ±2 %, oro ±5 %, plata ±10 %; sin cuarta\n    banda, ±20 %. El oro, más valioso, marca la tolerancia más estrecha (5 %) y la plata, menos, la\n    más holgada (10 %). La tercera banda es el multiplicador: la cifra del color es el exponente de\n    la potencia de diez (rojo, 2, significa $×10^2$).]\n  "
+  },
+  {
+   "id": "C-T2.18",
+   "clave": "b",
+   "enunciado": "En el código de colores para la identificación de resistencias, el número cuatro está indicado por\nel color:",
+   "opciones": [
+    "Azul.",
+    "Amarillo.",
+    "Verde.",
+    "Rojo."
+   ],
+   "sol": "\n    Las cifras del código son: negro 0, marrón 1, rojo 2, naranja 3, amarillo 4, verde 5, azul 6,\n    violeta 7, gris 8 y blanco 9. El cuatro es el amarillo (b). Los demás son cifras vecinas: rojo\n    es el 2, verde el 5 y azul el 6. Del rojo al violeta los colores siguen el orden del arco iris\n    (sin el añil): 2 rojo, 3 naranja, 4 amarillo, 5 verde, 6 azul, 7 violeta. #vease[(Véase tema T2,\n    sección «Resistencias».)]\n  "
+  },
+  {
+   "id": "C-T2.19",
+   "clave": "c",
+   "enunciado": "El Q de una bobina es:",
+   "opciones": [
+    "Directamente proporcional a la resistencia",
+    "Inversamente proporcional a la impedancia",
+    "Inversamente proporcional a la resistencia",
+    "Inversamente proporcional a la autoinducción"
+   ],
+   "sol": "\n    El factor de calidad de una bobina es el cociente entre su reactancia y su resistencia de\n    pérdidas: $Q = X_L slash R = 2π f L slash R$. Es, por tanto, inversamente proporcional a la\n    resistencia: cuanto menos pierde la bobina (hilo grueso, poco efecto pelicular), mayor es $Q$.\n    Ejemplo: con $X_L = 300$ Ω y $R = 3$ Ω, $Q = 100$; si $R$ se duplica, $Q$ baja a 50. La a dice\n    lo contrario. La d falla porque $Q$ crece con la autoinducción ($X_L$ sube con $L$). La b\n    confunde $Q$ con $1 slash Z$: cuenta la reactancia frente a la resistencia, no la impedancia\n    total. #vease[(Véase tema T2, sección «Bobinas».)]\n  "
+  },
+  {
+   "id": "C-T2.20",
+   "clave": "c",
+   "enunciado": "¿Qué podemos afirmar de los transistores MOSFET?",
+   "opciones": [
+    "Son elementos pasivos.",
+    "Siempre dan más potencia que las válvulas.",
+    "Tienen una puerta de control.",
+    "Disponen de un filamento."
+   ],
+   "sol": "\n    El MOSFET es un transistor de efecto de campo (FET): sus tres terminales son puerta, drenador y\n    surtidor (fuente), y la tensión aplicada a la puerta controla la corriente entre drenador y\n    surtidor casi sin consumir corriente; en el MOSFET la puerta está aislada del canal por una capa\n    de óxido. La a es falsa: es un componente activo (amplifica y conmuta). La b también: «siempre»\n    no se sostiene, pues las válvulas siguen usándose en etapas de gran potencia y la potencia\n    depende del dispositivo concreto. La d describe las válvulas, cuyo filamento calienta el cátodo.\n    #vease[(Véase tema T2, sección «Semiconductores y otros componentes» (el FET y su puerta).)]\n    #no-esta[MOSFET son las siglas de #emph[Metal-Oxide-Semiconductor Field-Effect Transistor]: transistor de\n    efecto de campo con la puerta aislada del canal por una capa de óxido. Como todo FET tiene\n    puerta (#emph[gate]), drenador (#emph[drain]) y surtidor o fuente (#emph[source]); la tensión de\n    puerta controla el canal y por ella casi no circula corriente, de modo que su impedancia de\n    entrada es muy alta. Es un componente activo y no lleva filamento; se emplea desde los circuitos\n    integrados hasta los amplificadores de potencia de los transceptores.]\n  "
+  },
+  {
+   "id": "C-T2.21",
+   "clave": "c",
+   "enunciado": "¿Cuál de los siguientes símbolos es el de un transistor FET?",
+   "opciones": [
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import zap: *\n      import cetz.draw: *\n\n      line((-1.2, 0), (0, 0), stroke: 0.8pt)\n      line((0, 0.9), (0, -0.9), stroke: 0.8pt)\n      line((0.8, -0.9), (0.8, 0.5), stroke: 0.8pt)\n      line((0, 0.9), (0.8, 0.45), (0, 0), stroke: 0.8pt)\n      line((0.8, 0), (0, -0.45), (0.8, -0.9), stroke: 0.8pt)\n      line((0.8, 0), (1.9, 0), stroke: 0.8pt)\n      line((0.8, 0.25), (1.4, 0.7), (1.4, 1.3), stroke: 0.8pt)\n\n    }))",
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import cetz.draw: *\n      group({\n        line((-1.1, 0), (0, 0), stroke: 0.8pt)\n        line((0, -0.5), (0, 0.5), stroke: 2pt)\n        line((0, 0.25), (0.55, 0.6), (0.55, 1.3), stroke: 0.8pt)\n        line((0, -0.25), (0.55, -0.6), stroke: 0.8pt, mark: (end: \">\", fill: black, scale: 0.6))\n        line((0.55, -0.6), (0.55, -1.3), stroke: 0.8pt)\n      })\n      group({\n        translate((3.4, 0))\n        line((-1.1, 0), (0, 0), stroke: 0.8pt)\n        line((0, -0.5), (0, 0.5), stroke: 2pt)\n        line((0, -0.25), (0.55, -0.6), (0.55, -1.3), stroke: 0.8pt)\n        line((0.55, 0.6), (0, 0.25), stroke: 0.8pt, mark: (end: \">\", fill: black, scale: 0.6))\n        line((0.55, 0.6), (0.55, 1.3), stroke: 0.8pt)\n      })\n    }))",
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import cetz.draw: *\n      group({\n        translate((0, 0))\n\n      line((0, -0.8), (0, 0.8), stroke: 2pt)\n      line((0, 0.55), (0.7, 0.55), (0.7, 1.3), stroke: 0.8pt)\n      line((0, -0.55), (0.7, -0.55), (0.7, -1.3), stroke: 0.8pt)\n      line((0, 0.55), (-0.4, 0.55), stroke: 0.8pt, mark: (end: \">\", fill: black, scale: 0.6))\n      line((-0.4, 0.55), (-1.1, 0.55), stroke: 0.8pt)\n\n      })\n      group({\n        translate((3.4, 0))\n\n      line((0, -0.8), (0, 0.8), stroke: 2pt)\n      line((0, 0.55), (0.7, 0.55), (0.7, 1.3), stroke: 0.8pt)\n      line((0, -0.55), (0.7, -0.55), (0.7, -1.3), stroke: 0.8pt)\n      line((-1.1, 0.55), (0, 0.55), stroke: 0.8pt, mark: (end: \">\", fill: black, scale: 0.6))\n\n      })\n    }))",
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import zap: *\n      import cetz.draw: *\n      diode(\"d1\", (-1.2, 0), (1.2, 0))\n    }))"
+   ],
+   "sol": "\n    El transistor de efecto de campo (FET) tiene tres terminales: puerta (G), fuente (S) y drenador\n    (D). Se dibuja con una línea vertical gruesa, el canal, con el drenador y la fuente en sus\n    extremos, y la puerta al lado con una flecha; la de la opción c) es la del FET de unión, en sus\n    dos variantes: canal P (flecha saliendo de la puerta) y canal N (flecha entrando). La a) es un\n    triac (dos diodos en antiparalelo y un terminal de puerta); la b) son dos transistores\n    bipolares, NPN y PNP, con base, colector y emisor (flecha en el emisor, sin canal); la d) es un\n    diodo, un triángulo y una barra. #vease[(Véase tema T2, sección «Semiconductores y otros\n    componentes».)]\n    #no-esta[Los símbolos que hay que saber distinguir en el examen son cuatro. El #strong[diodo]: triángulo\n    contra una barra (el cátodo). El #strong[transistor bipolar]: una barra gruesa (la base) con dos\n    terminales oblicuos, colector y emisor; la flecha está en el emisor y apunta hacia fuera en el\n    NPN y hacia la base en el PNP. El #strong[FET]: un canal vertical con drenador y fuente en los\n    extremos y la puerta al lado, con flecha hacia el canal en el de canal N y saliendo de él en el\n    de canal P. El #strong[triac]: dos triángulos enfrentados en antiparalelo (conduce en ambos\n    sentidos), con un terminal de puerta (T1, T2 y G).]\n  "
+  },
+  {
+   "id": "C-T2.22",
+   "clave": "b",
+   "enunciado": "¿Cuál de los siguientes símbolos es el de la resistencia?",
+   "opciones": [
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import zap: *\n      import cetz.draw: *\n      inductor(\"l1\", (-1.1, 0), (1.1, 0))\n      line((2.0, 0), (2.4, 0), stroke: 0.8pt)\n      rect((2.4, -0.2), (3.6, 0.2), fill: black, stroke: none)\n      line((3.6, 0), (4.0, 0), stroke: 0.8pt)\n    }))",
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import zap: *\n      import cetz.draw: *\n      line((-1.1, 0), (-0.8, 0), (-0.6, 0.35), (-0.2, -0.35), (0.2, 0.35), (0.6, -0.35), (0.8, 0), (1.1, 0), stroke: 0.8pt)\n      resistor(\"r1\", (2.0, 0), (4.0, 0))\n    }))",
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import zap: *\n      import cetz.draw: *\n      capacitor(\"c1\", (-1.1, 0), (1.1, 0))\n      pcapacitor(\"c2\", (2.0, 0), (4.2, 0))\n      content((3.45, 0.45), text(size: 7pt)[+])\n    }))",
+    "#box(baseline: 45%, esquema(escala: 0.75, {\n      import zap: *\n      import cetz.draw: *\n      diode(\"d1\", (-1.2, 0), (1.2, 0))\n    }))"
+   ],
+   "sol": "\n    La resistencia tiene dos símbolos equivalentes: el zigzag de la norma americana y el rectángulo\n    vacío de la europea (IEC); ambos aparecen en la opción b). La a) muestra dos bobinas: el muelle\n    de espiras y el rectángulo relleno (las bobinas se dibujan con espiras o con un rectángulo\n    macizo, no vacío). La c) son condensadores, dos placas paralelas (la segunda variante, con una\n    placa rellena y un signo más, es el electrolítico, con polaridad). La d) es un diodo: un\n    triángulo contra una barra. #vease[(Véase tema T2, sección «Resistencias» y «Preguntas sobre\n    símbolos».)]\n    #no-esta[Símbolos de los componentes pasivos: #strong[resistencia], zigzag (americano) o rectángulo vacío\n    (europeo); #strong[condensador], dos placas paralelas (en el electrolítico, una placa rellena y\n    un signo + que marca la polaridad); #strong[bobina], varias espiras en forma de muelle o, en la\n    norma europea, un rectángulo relleno. El truco: rectángulo vacío, resistencia; rectángulo\n    macizo, bobina.]\n  "
+  },
+  {
+   "id": "F-T2.1",
+   "clave": "c",
+   "enunciado": "Una resistencia variable de tres terminales, con un cursor móvil entre dos extremos y empleada, por ejemplo, como control de volumen, se denomina:",
+   "opciones": [
+    "varistor",
+    "termistor NTC",
+    "potenciómetro",
+    "fotorresistencia"
+   ],
+   "sol": "El potenciómetro tiene dos terminales fijos en los extremos de la pista resistiva y un tercero unido al cursor móvil, que toma una fracción de la tensión aplicada (un divisor de tensión ajustable): por eso regula el volumen. El varistor varía con la tensión, el termistor NTC con la temperatura y la fotorresistencia con la luz, y ninguno tiene cursor. _(Véase tema T2, sección «Resistencias».)_\n#_apc1-noest[El potenciómetro es una resistencia variable de tres terminales: dos en los extremos de la pista resistiva y otro unido a un cursor móvil. Según la posición del cursor toma una fracción de la tensión aplicada (divisor de tensión ajustable), y por eso se usa como control de volumen o de tono. Si solo se usan dos terminales para regular la corriente, hablamos de reóstato.]"
+  },
+  {
+   "id": "F-T2.2",
+   "clave": "d",
+   "enunciado": "Las resistencias de hilo bobinado se emplean, frente a las de carbón, cuando se necesita:",
+   "opciones": [
+    "trabajar en VHF y UHF sin efectos inductivos",
+    "abaratar el coste en circuitos de muy baja potencia",
+    "obtener valores de muchos megaohmios en poco espacio",
+    "disipar potencias elevadas con buena estabilidad"
+   ],
+   "sol": "Una resistencia de hilo bobinado es un hilo metálico arrollado sobre un soporte cerámico: soporta mucha potencia y es muy estable con el tiempo y la temperatura. Su inconveniente es que, al ser una bobina, tiene inductancia y no sirve en RF (a). Las de carbón son más baratas y dan valores altos en poco espacio (b, c), pero disipan poca potencia. _(Véase tema T2, sección «Resistencias».)_\n#_apc1-noest[Según su construcción, las resistencias fijas más comunes son: de carbón (baratas, para poca potencia), de película metálica (más estables y precisas, con poco ruido) y de hilo bobinado, un hilo metálico arrollado sobre un soporte cerámico. Estas últimas soportan mucha potencia y son muy estables, pero al ser una bobina tienen inductancia y no valen para radiofrecuencia.]"
+  },
+  {
+   "id": "F-T2.3",
+   "clave": "a",
+   "enunciado": "Una resistencia cuyo valor óhmico depende de la luz que recibe se denomina:",
+   "opciones": [
+    "fotorresistencia (LDR)",
+    "varistor (VDR)",
+    "termistor (NTC)",
+    "potenciómetro"
+   ],
+   "sol": "La fotorresistencia o LDR (_light dependent resistor_) baja su resistencia cuando aumenta la luz que recibe. El varistor (VDR) cambia con la tensión aplicada, el termistor (NTC o PTC) con la temperatura y el potenciómetro con la posición de un cursor que se mueve a mano. _(Véase tema T2, sección «Resistencias».)_\n#_apc1-noest[La fotorresistencia o LDR (_light dependent resistor_) es una resistencia cuyo valor depende de la luz que recibe: disminuye al aumentar la iluminación. Se usa en fotómetros, alarmas y automatismos de alumbrado. No hay que confundirla con el termistor (depende de la temperatura) ni con el varistor (depende de la tensión).]"
+  },
+  {
+   "id": "F-T2.4",
+   "clave": "b",
+   "enunciado": "La reactancia inductiva de una bobina de 2 μH a 3,5 MHz es aproximadamente de:",
+   "opciones": [
+    "7 Ω",
+    "44 Ω",
+    "440 Ω",
+    "0,023 Ω"
+   ],
+   "sol": "Se aplica $X_L = 2 pi f L$: $X_L = 2 pi times 3,5 dot 10^6 times 2 dot 10^(-6) = 2 pi times 7 approx 44$ Ω. Si se olvida el $2 pi$ sale 7 Ω (a); 440 Ω (c) es un error de una potencia de diez al pasar de μH a H; y 0,023 Ω (d) es la inversa, $1/(2 pi f L)$, que no es la reactancia de una bobina. Recuerda que $X_L$ crece con la frecuencia y con la inductancia. _(Véase tema T2, sección «Bobinas», y capítulo «Cómo funciona una radio: de los campos a la voz», sección 2 (tabla de reactancias de bobina y condensador).)_"
+  },
+  {
+   "id": "F-T2.5",
+   "clave": "d",
+   "enunciado": "En una bobina ideal recorrida por una corriente alterna sinusoidal, la tensión entre sus terminales:",
+   "opciones": [
+    "está en fase con la corriente",
+    "retrasa 90° respecto a la corriente",
+    "está en oposición de fase (180° ) con la corriente",
+    "adelanta 90° a la corriente"
+   ],
+   "sol": "Regla E-L-I: en la bobina (L) la tensión (E) va antes que la corriente (I), es decir, la tensión adelanta 90° a la corriente. Como $v = L (dif i)/(dif t)$, la tensión es máxima cuando la corriente cambia más deprisa, un cuarto de ciclo antes de que la corriente llegue a su máximo. La opción b describe el condensador (I-C-E: ahí es la corriente la que adelanta); la a solo se da en una resistencia pura; la c (180°) no corresponde a ninguna reactancia pura. _(Véase tema T2, sección «Bobinas», y capítulo «Cómo funciona una radio: de los campos a la voz», sección 2 (tabla de reactancias de bobina y condensador).)_"
+  },
+  {
+   "id": "F-T2.6",
+   "clave": "a",
+   "enunciado": "Si se duplica la frecuencia de la corriente que recorre una bobina ideal, manteniendo su inductancia, su reactancia inductiva:",
+   "opciones": [
+    "se duplica",
+    "se reduce a la mitad",
+    "se cuadruplica",
+    "no varía"
+   ],
+   "sol": "$X_L = 2 pi f L$ es directamente proporcional a la frecuencia: con $L$ constante, al pasar de $f$ a $2 f$ la reactancia pasa de $X_L$ a $2 X_L$. Reducirse a la mitad (b) es lo que le ocurre a un condensador, cuya $X_C = 1/(2 pi f C)$ es inversamente proporcional a $f$; cuadruplicarse (c) exigiría una dependencia con $f^2$, que no existe; y no variar (d) solo vale para una resistencia pura. Por eso la bobina deja pasar la continua y frena la radiofrecuencia. _(Véase tema T2, sección «Bobinas», y capítulo «Cómo funciona una radio: de los campos a la voz», sección 2 (tabla de reactancias de bobina y condensador).)_"
+  },
+  {
+   "id": "F-T2.7",
+   "clave": "c",
+   "enunciado": "Una bobina presenta, a su frecuencia de trabajo, una reactancia de 500 Ω y una resistencia de pérdidas, en serie, de 5 Ω. Su factor de calidad $Q$ es de:",
+   "opciones": [
+    "0,01",
+    "505",
+    "100",
+    "2500"
+   ],
+   "sol": "El factor de calidad de una bobina es el cociente entre su reactancia y su resistencia de pérdidas: $Q = X_L slash R = 500 slash 5 = 100$. El 0,01 (a) resulta de invertir el cociente; el 505 (b), de sumar las dos cantidades, lo que no tiene sentido físico; y el 2500 (d), de multiplicarlas. $Q$ no tiene unidades: cuanto menores son las pérdidas (hilo, efecto pelicular, núcleo), mayor es. _(Véase tema T2, sección «Bobinas», y capítulo «Cómo funciona una radio: de los campos a la voz», sección 2 (ejemplo $Q = 158 slash 5$); resonancia en tema T3, sección «Asociación de componentes y resonancia».)_"
+  },
+  {
+   "id": "F-T2.8",
+   "clave": "b",
+   "enunciado": "El efecto pelicular hace que, en radiofrecuencia, la corriente alterna circule:",
+   "opciones": [
+    "uniformemente por toda la sección del conductor",
+    "principalmente por la superficie del conductor",
+    "principalmente por el centro del conductor, dejando libre la superficie",
+    "alternativamente por el centro y por la superficie, según el semiciclo"
+   ],
+   "sol": "El efecto pelicular (_skin effect_) confina la corriente alterna en una corteza superficial del conductor, cuyo espesor disminuye como $1 slash sqrt(f)$: a 10 MHz es de unas decenas de micras. El interior apenas conduce, por eso un tubo hueco sirve casi igual que una barra maciza y se platea el hilo de las bobinas de RF. La a describe la corriente continua; la c es justo lo contrario del efecto; la d no corresponde a ningún fenómeno real. _(Véase tema T2, sección «Bobinas».)_"
+  },
+  {
+   "id": "F-T2.9",
+   "clave": "d",
+   "enunciado": "Como consecuencia del efecto pelicular, la resistencia de un conductor a frecuencias elevadas:",
+   "opciones": [
+    "disminuye respecto a la que presenta en corriente continua",
+    "no varía: depende solo del material, la longitud y la sección",
+    "se anula a partir de cierta frecuencia",
+    "aumenta respecto a la que presenta en corriente continua"
+   ],
+   "sol": "Al concentrarse la corriente en la corteza, la sección útil del conductor se reduce y su resistencia efectiva en RF crece respecto a la de continua; cuanto mayor es la frecuencia, más delgada es la corteza y mayores son las pérdidas. La a dice lo contrario; la b solo vale en continua, donde la corriente ocupa toda la sección; la c es falsa: no existen conductores de resistencia nula. Por eso se platea el hilo de las bobinas de RF. _(Véase tema T2, sección «Bobinas».)_"
+  },
+  {
+   "id": "F-T2.10",
+   "clave": "a",
+   "enunciado": "Un transformador ideal con 1000 espiras en el primario y 100 en el secundario se conecta a la red de 230 V. Si el secundario alimenta una carga que consume 5 A, la corriente que toma el primario es de:",
+   "opciones": [
+    "0,5 A",
+    "5 A",
+    "50 A",
+    "0,05 A"
+   ],
+   "sol": "Relación de espiras $N_p slash N_s = 1000 slash 100 = 10$, luego $V_s = 230 slash 10 = 23$ V. En el transformador ideal la potencia no cambia ($V_p I_p = V_s I_s$): $P = 23 times 5 = 115$ W y $I_p = 115 slash 230 = 0,5$ A; dicho de otro modo, las corrientes van en proporción inversa a las tensiones, $I_p = I_s N_s slash N_p = 5 slash 10$. Los 50 A (c) salen de invertir la relación; los 5 A (b) ignoran el transformador; y los 0,05 A (d) dividen dos veces, aplicando el cuadrado de la relación, que vale para impedancias y no para corrientes. _(Véase tema T2, sección «Transformadores», y capítulo «La radio por dentro: componente a componente», apartado «El transformador: dos bobinas y un puente de flujo».)_"
+  },
+  {
+   "id": "F-T2.11",
+   "clave": "c",
+   "enunciado": "Un transformador ideal debe adaptar un generador de 50 Ω, conectado al primario, a una carga de 450 Ω, conectada al secundario. La relación de espiras $N_p slash N_s$ debe ser:",
+   "opciones": [
+    "9:1",
+    "3:1",
+    "1:3",
+    "1:9"
+   ],
+   "sol": "Desde el primario, la carga del secundario se ve como $Z_p = (N_p slash N_s)^2 Z_s$. Para que valga 50 Ω con $Z_s = 450$ Ω: $(N_p slash N_s)^2 = 50 slash 450 = 1 slash 9$, luego $N_p slash N_s = 1 slash 3$ (1:3; el secundario tiene el triple de espiras). Comprobación: $(1 slash 3)^2 times 450 = 50$ Ω. La 3:1 (b) invierte la relación; la 9:1 y la 1:9 (a y d) olvidan la raíz cuadrada: la relación de impedancias es el cuadrado de la de espiras. _(Véase tema T2, sección «Transformadores», y capítulo «La radio por dentro: componente a componente», apartado «El transformador: dos bobinas y un puente de flujo».)_"
+  },
+  {
+   "id": "F-T2.12",
+   "clave": "d",
+   "enunciado": "Un transformador ideal con una relación de espiras primario/secundario de 3:1 tiene en su secundario una carga de 8 Ω. La impedancia que presenta al generador conectado al primario es de:",
+   "opciones": [
+    "24 Ω",
+    "2,7 Ω",
+    "0,89 Ω",
+    "72 Ω"
+   ],
+   "sol": "$Z_p = (N_p slash N_s)^2 Z_s = 3^2 times 8 = 72$ Ω. La impedancia se multiplica por el cuadrado de la relación de espiras: la tensión del primario es 3 veces la del secundario y su corriente, 3 veces menor, así que $V slash I$ crece $3 times 3 = 9$ veces. Los 24 Ω (a) olvidan elevar al cuadrado; los 2,7 Ω (b) dividen entre 3 en lugar de multiplicar; y los 0,89 Ω (c) dividen entre 9. _(Véase tema T2, sección «Transformadores», y capítulo «La radio por dentro: componente a componente», apartado «El transformador: dos bobinas y un puente de flujo».)_"
+  },
+  {
+   "id": "F-T2.13",
+   "clave": "b",
+   "enunciado": "Un balun de relación de impedancias 4:1 se construye como un transformador cuyos devanados guardan una relación de espiras de:",
+   "opciones": [
+    "4:1",
+    "2:1",
+    "16:1",
+    "1:1"
+   ],
+   "sol": "La relación de impedancias es el cuadrado de la de espiras: $Z_p slash Z_s = (N_p slash N_s)^2$. Con 4:1 en impedancias, $N_p slash N_s = sqrt(4) = 2$, es decir, 2:1 (o 1:2, según de qué lado se mire). Es el caso de adaptar 300 Ω a 75 Ω: $sqrt(300 slash 75) = 2$. La 4:1 (a) confunde ambas relaciones; la 16:1 (c) eleva al cuadrado en vez de extraer la raíz; y la 1:1 (d) es un balun que solo pasa de línea simétrica a asimétrica sin cambiar la impedancia. _(Véase tema T2, sección «Transformadores» (ejemplo 75/300 Ω y balun 4:1); tema T6, sección «Líneas de transmisión y adaptación».)_"
+  },
+  {
+   "id": "F-T2.14",
+   "clave": "a",
+   "enunciado": "Un diodo zéner estabiliza una tensión, la suya nominal, cuando se conecta en serie con una resistencia y polarizado:",
+   "opciones": [
+    "en inversa, con tensión suficiente para trabajar en la zona de ruptura",
+    "en inversa, con una tensión inferior a la zéner, sin llegar a la ruptura",
+    "en directa, como un diodo rectificador ordinario",
+    "en alterna, sin polaridad definida"
+   ],
+   "sol": "El zéner se fabrica para que su ruptura inversa ocurra a una tensión precisa (5,6 V, 12 V, etc.) y la soporte sin daño: polarizado en inversa y en ruptura, su tensión queda casi constante aunque varíe la corriente, y la resistencia en serie limita esa corriente. Con una tensión inversa menor que la zéner (b) el diodo no conduce y no estabiliza nada; en directa (c) se comporta como un diodo normal, con una caída de unos 0,6 V; en alterna (d) no hay una tensión continua que fijar. _(Véase tema T2, sección «Semiconductores y otros componentes», y capítulo «La radio por dentro: componente a componente», sección 5.)_"
+  },
+  {
+   "id": "F-T2.15",
+   "clave": "c",
+   "enunciado": "Un diodo zéner de 12 V, polarizado en inversa y trabajando en ruptura, se alimenta desde una fuente de 20 V a través de una resistencia en serie de 160 Ω. La corriente que circula por la resistencia es de:",
+   "opciones": [
+    "125 mA",
+    "75 mA",
+    "50 mA",
+    "200 mA"
+   ],
+   "sol": "Con el zéner en ruptura hay 12 V constantes en sus bornes; la resistencia soporta la diferencia, 20 − 12 = 8 V, y por ella circulan $I = V_R slash R = 8 slash 160 = 0,05$ A = 50 mA. Los 125 mA (a) usan toda la tensión de la fuente (20/160); los 75 mA (b), solo la del zéner (12/160); y los 200 mA (d) suman las dos tensiones (32/160). Esa corriente se reparte entre la carga y el zéner: el zéner absorbe lo que la carga no toma. _(Véase capítulo «La radio por dentro: componente a componente», sección 5, apartado «Sub-circuito 4: el zéner, la ruptura domesticada» (estabilizador con $R = 150$ Ω: $(20 - 12) slash 150 approx 53$ mA); tema T2, sección «Semiconductores y otros componentes».)_"
+  },
+  {
+   "id": "F-T2.16",
+   "clave": "d",
+   "enunciado": "Un LED cae 2 V cuando por él circulan 20 mA. Para alimentarlo con esa corriente desde una fuente de 9 V, la resistencia en serie debe ser de:",
+   "opciones": [
+    "450 Ω",
+    "550 Ω",
+    "35 Ω",
+    "350 Ω"
+   ],
+   "sol": "La resistencia debe soportar la tensión sobrante: 9 − 2 = 7 V con 20 mA, luego $R = 7 slash 0,02 = 350$ Ω. Los 450 Ω (a) olvidan la caída del LED (9/0,02); los 550 Ω (b) la suman en vez de restarla (11/0,02); y los 35 Ω (c) resultan de confundir 20 mA con 0,2 A. Sin resistencia, la corriente solo la limitaría el propio LED y se destruiría. _(Véase capítulo «La radio por dentro: componente a componente», sección 2, apartado «Sub-circuito 1: la limitadora» (LED con 12 V y 10 mA: $R = 1$ kΩ); tema T2, sección «Semiconductores y otros componentes».)_"
+  },
+  {
+   "id": "F-T2.17",
+   "clave": "b",
+   "enunciado": "La corriente de fuga de un diodo polarizado en inversa, por debajo de su tensión inversa máxima, es:",
+   "opciones": [
+    "igual a la que conduce en directa",
+    "muy pequeña y aumenta con la temperatura",
+    "muy pequeña y disminuye al aumentar la temperatura",
+    "nula en cualquier circunstancia"
+   ],
+   "sol": "En inversa la zona de deplexión se ensancha y el diodo bloquea casi por completo, pero no del todo: queda una corriente de fuga minúscula (microamperios o menos), debida a portadores generados térmicamente; por eso crece con la temperatura. La a describe la polarización directa; la d corresponde a un diodo ideal, que no existe; y la c invierte el efecto de la temperatura. _(Véase tema T2, sección «Semiconductores y otros componentes», y capítulo «La radio por dentro: componente a componente», sección 5.)_"
+  },
+  {
+   "id": "F-T2.18",
+   "clave": "a",
+   "enunciado": "Si se aplica a un diodo rectificador ordinario una tensión inversa superior a su tensión inversa máxima:",
+   "opciones": [
+    "entra en ruptura, conduce en sentido inverso y puede destruirse",
+    "sigue bloqueando con normalidad: ese valor es solo orientativo",
+    "pasa a funcionar como un zéner y estabiliza la tensión sin riesgo",
+    "aumenta su resistencia y deja de conducir en directa"
+   ],
+   "sol": "Más allá de la tensión inversa máxima (el pico inverso de repetición) la barrera de la unión cede en avalancha y el diodo conduce bruscamente hacia atrás; si no se limita la corriente, el calor lo destruye. Un rectificador ordinario no está diseñado para trabajar en ruptura, a diferencia del zéner, que se fabrica para hacerlo a una tensión precisa y con la corriente limitada por una resistencia. Por eso la tensión inversa máxima del diodo debe superar el pico inverso que va a soportar. _(Véase tema T2, sección «Semiconductores y otros componentes», y capítulo «La radio por dentro: componente a componente», sección 5.)_"
+  },
+  {
+   "id": "F-T2.19",
+   "clave": "c",
+   "enunciado": "Un transistor bipolar con $beta = 150$ recibe una corriente de base de 40 μA. La corriente de colector es aproximadamente de:",
+   "opciones": [
+    "60 mA",
+    "0,27 μA",
+    "6 mA",
+    "0,6 mA"
+   ],
+   "sol": "La ganancia de corriente $beta$ relaciona las dos corrientes: $I_C = beta I_B = 150 times 40$ μA = 6000 μA = 6 mA. Hay que cuidar el paso de microamperios a miliamperios: 6000 μA son 6 mA, no 60 ni 0,6. Dividir en lugar de multiplicar ($I_B slash beta approx 0,27$ μA) es el error típico: el transistor amplifica la corriente, no la atenúa. La base actúa así como un «mando» que gobierna un caudal 150 veces mayor que la corriente que ella misma consume. _(Véase tema T2, sección «Semiconductores y otros componentes».)_"
+  },
+  {
+   "id": "F-T2.20",
+   "clave": "a",
+   "enunciado": "La base de un transistor se polariza con un divisor formado por $R_1 = 33$ kΩ (a +12 V) y $R_2 = 12$ kΩ (a masa). Si la base casi no toma corriente, su tensión respecto a masa es de:",
+   "opciones": [
+    "3,2 V",
+    "8,8 V",
+    "4,4 V",
+    "6 V"
+   ],
+   "sol": "Las dos resistencias forman un divisor: por ellas baja la misma corriente y la tensión se reparte en proporción a cada valor. $V_B = 12 times R_2/(R_1 + R_2) = 12 times 12/(33 + 12) = 3,2$ V. Los 8,8 V son la caída en $R_1$ (se puso $R_1$ en el numerador); los 4,4 V salen de olvidar $R_2$ en el denominador ($12 dot 12 slash 33$); 6 V solo sería cierto con dos resistencias iguales. Con una resistencia de emisor, el emisor queda unos 0,6 V por debajo de la base, y eso fija la corriente de reposo del transistor. _(Véase tema T2, sección «Semiconductores y otros componentes» (el divisor, con números, en el capítulo «La radio por dentro», apartados 2 y 6).)_"
+  },
+  {
+   "id": "F-T2.21",
+   "clave": "d",
+   "enunciado": "En una puerta lógica AND (Y) de dos entradas, la salida vale 1 solo cuando:",
+   "opciones": [
+    "alguna de las dos entradas vale 1",
+    "las dos entradas valen 0",
+    "las dos entradas son distintas",
+    "las dos entradas valen 1"
+   ],
+   "sol": "La puerta AND (Y) entrega un 1 únicamente cuando todas sus entradas valen 1; en cualquier otra combinación la salida es 0 (se comporta como un producto: 1 · 1 = 1, y todo producto con un 0 da 0). «Alguna de las dos a 1» es la condición de la puerta OR (O), que solo da 0 cuando las dos entradas valen 0. «Las dos a 0» es la condición para que una NOR dé un 1, y «las dos distintas», la de una XOR (O exclusiva). Regla para recordarlo: Y = «todas», O = «alguna». _(Véase tema T2, sección «Semiconductores y otros componentes».)_\n#_apc1-noest[Las puertas lógicas combinan niveles 0 y 1. La Y (AND) da 1 solo si todas sus entradas valen 1. La O (OR) da 1 si al menos una entrada vale 1, y 0 solo con todas a 0. El inversor (NOT) tiene una entrada y entrega el nivel contrario. Sus versiones con la salida invertida son la NAND (Y negada) y la NOR (O negada). La lista de salidas para cada combinación de entradas se llama tabla de verdad.]"
+  },
+  {
+   "id": "F-T2.22",
+   "clave": "b",
+   "enunciado": "Una puerta inversora (NOT) se caracteriza porque:",
+   "opciones": [
+    "repite en su salida el nivel de su entrada",
+    "entrega en su salida el nivel lógico contrario al de su entrada",
+    "entrega un 1 cuando alguna de sus entradas vale 1",
+    "entrega un 1 solo cuando todas sus entradas valen 1"
+   ],
+   "sol": "Un inversor invierte el nivel: con un 0 en la entrada entrega un 1, y con un 1 entrega un 0 (de ahí que se le llame también «negador»). Es la puerta básica más simple, con una sola entrada. Repetir el nivel de entrada es lo que hace un separador (_buffer_), no un inversor. Dar un 1 cuando alguna entrada vale 1 es la puerta OR (O), y dar un 1 solo cuando todas valen 1 es la AND (Y). Un inversor colocado tras cada una de ellas da las puertas NOR y NAND. _(Véase tema T2, sección «Semiconductores y otros componentes».)_\n#_apc1-noest[El inversor (NOT) es la puerta más simple: una entrada y una salida, que entrega el nivel contrario al que recibe (0 → 1 y 1 → 0). Un separador o _buffer_ hace lo contrario: repite el nivel sin cambiarlo y solo refuerza la corriente. Colocado tras una puerta Y o O, el inversor da las puertas NAND y NOR, muy usadas porque con solo una de ellas puede construirse cualquier circuito lógico.]"
+  },
+  {
+   "id": "F-T2.23",
+   "clave": "a",
+   "enunciado": "El número binario 1010 equivale, en el sistema decimal, a:",
+   "opciones": [
+    "10",
+    "5",
+    "12",
+    "1010"
+   ],
+   "sol": "En binario cada cifra vale el doble que la de su derecha: los pesos, de derecha a izquierda, son 1, 2, 4 y 8. Así, 1010 = 1 × 8 + 0 × 4 + 1 × 2 + 0 × 1 = 10. El 5 sale de leer las cifras al revés (0101); el 12 de sumar mal los pesos (8 + 4); y 1010 es tratar las cifras como si fueran decimales, cuando el sistema binario solo usa 0 y 1 (cada cifra es un bit). Con cuatro bits hay 16 combinaciones, del 0 al 15. _(Véase tema T2, sección «Semiconductores y otros componentes».)_\n\n#_apc1-noest[El sistema binario solo usa dos cifras, 0 y 1, que coinciden con los dos niveles lógicos de los circuitos digitales. Cada posición vale el doble que la de su derecha (1, 2, 4, 8, 16…), de modo que $1101_2 = 8 + 4 + 0 + 1 = 13$. Una cifra binaria es un bit; ocho bits forman un byte, que admite 256 valores. Con $n$ bits se representan $2^n$ combinaciones.]"
+  },
+  {
+   "id": "F-T2.24",
+   "clave": "b",
+   "enunciado": "Al representar la corriente en función de la tensión aplicada, la característica de una resistencia óhmica ideal es:",
+   "opciones": [
+    "una curva exponencial",
+    "una recta que pasa por el origen",
+    "una parábola",
+    "una recta paralela al eje de tensiones"
+   ],
+   "sol": "En un conductor óhmico se cumple la ley de Ohm, $I = V slash R$, con $R$ constante: la corriente es proporcional a la tensión y la gráfica $I$–$V$ es una recta que pasa por el origen, con pendiente $1 slash R$ (a más pendiente, menos resistencia). La exponencial es la característica de un diodo, que no es óhmico. La parábola aparece al representar la potencia, $P = V^2 slash R$, no la corriente. Una recta paralela al eje de tensiones sería una corriente constante, independiente de la tensión, como la de una fuente de corriente ideal. _(Véase tema T1, sección «Unidades y leyes fundamentales».)_"
+  },
+  {
+   "id": "F-T2.25",
+   "clave": "d",
+   "enunciado": "Un componente cuya característica corriente-tensión no es una recta, como el diodo, se dice que es:",
+   "opciones": [
+    "óhmico",
+    "reactivo",
+    "ideal",
+    "no lineal"
+   ],
+   "sol": "Un componente es lineal (u óhmico) si su corriente es proporcional a la tensión: gráfica recta y resistencia constante. El diodo no lo cumple: por debajo de unas décimas de voltio casi no conduce y después la corriente crece de forma exponencial. Es, por tanto, no lineal, como el varistor. «Óhmico» es justo lo contrario. «Reactivo» se dice de bobinas y condensadores, que desfasan la corriente respecto de la tensión; nada tiene que ver con la forma de la curva. «Ideal» tampoco la describe. _(Véase tema T2, sección «Semiconductores y otros componentes».)_\n#_apc1-noest[Un componente es lineal cuando la corriente es proporcional a la tensión: su característica $I$–$V$ es una recta por el origen y su resistencia es constante (resistencia óhmica). Es no lineal cuando la curva no es una recta: el diodo, cuya corriente crece de forma exponencial a partir de unos 0,6 o 0,7 V, o el varistor, cuya resistencia cae al superar cierta tensión. Los circuitos con elementos no lineales generan armónicos y productos de intermodulación.]"
+  },
+  {
+   "id": "F-T2.26",
+   "clave": "c",
+   "enunciado": "La tensión máxima que puede aplicarse a una resistencia de 100 Ω y 1 W, sin superar su potencia nominal, es de:",
+   "opciones": [
+    "1 V",
+    "100 V",
+    "10 V",
+    "0,1 V"
+   ],
+   "sol": "La disipación viene dada por $P = V^2 slash R$, de donde $V = sqrt(P R) = sqrt(1 times 100) = 10$ V. Comprobación: la corriente sería $I = V slash R = 0,1$ A y $P = V I = 10 times 0,1 = 1$ W. Los 100 V salen de multiplicar $P dot R$ sin extraer la raíz; los 0,1 V son la corriente en amperios tomada por tensión; y 1 V, la potencia en vatios tomada por voltios. Por encima de 10 V la resistencia disiparía más de 1 W y se calentaría hasta quemarse. _(Véase tema T2, sección «Resistencias».)_"
+  },
+  {
+   "id": "F-T2.27",
+   "clave": "b",
+   "enunciado": "La reactancia de un condensador de 100 pF a 14 MHz es aproximadamente de:",
+   "opciones": [
+    "714 Ω",
+    "114 Ω",
+    "11,4 Ω",
+    "1,14 kΩ"
+   ],
+   "sol": "$X_C = 1/(2 pi f C) = 1/(2 pi times 14 dot 10^6 times 100 dot 10^(-12)) = 1/(8,8 dot 10^(-3)) approx 114$ Ω. Olvidar el factor $2 pi$ da 714 Ω; los errores de potencia de diez (pF, MHz) dan 11,4 Ω o 1,14 kΩ. Además, el resultado tiene sentido: al subir la frecuencia $X_C$ baja, y a 7 MHz el mismo condensador presentaría justo el doble (unos 227 Ω). Por eso un condensador pequeño deja pasar bien la radiofrecuencia y bloquea la continua. _(Véase tema T2, sección «Condensadores».)_"
+  },
+  {
+   "id": "F-T2.28",
+   "clave": "d",
+   "enunciado": "En un condensador variable de aire de sintonía, formado por placas fijas y placas móviles, al girar el eje cambia:",
+   "opciones": [
+    "la distancia entre las placas fijas y las móviles",
+    "el material del dieléctrico que hay entre ellas",
+    "la tensión máxima que soportan las placas",
+    "la superficie de las placas que queda enfrentada"
+   ],
+   "sol": "La capacidad de un condensador plano es $C = epsilon S/d$. En el variable de aire, las placas móviles (rotor) se introducen más o menos entre las fijas (estátor): al girar el eje cambia la superficie $S$ enfrentada y, con ella, la capacidad. La distancia $d$ entre placas queda fija y el dieléctrico es siempre el aire, así que esas dos opciones no cambian con el giro. La tensión máxima depende de esa separación fija, no del giro. Es el mando de sintonía de los receptores antiguos y de los acopladores de antena. _(Véase tema T2, sección «Condensadores».)_\n#_apc1-noest[El condensador variable de aire tiene dos juegos de placas: las fijas (estátor) y las móviles (rotor), unidas al eje de mando. Al girar el eje, las placas móviles se introducen más o menos entre las fijas, varía la superficie enfrentada $S$ y con ella la capacidad $C = epsilon S slash d$. El aire es un dieléctrico de pérdidas mínimas y aguanta tensiones altas si las placas están bien separadas: por eso se emplea para sintonizar en receptores y acopladores de antena.]"
+  },
+  {
+   "id": "F-T2.29",
+   "clave": "a",
+   "enunciado": "Los condensadores de mica se caracterizan por:",
+   "opciones": [
+    "su gran estabilidad y sus bajas pérdidas",
+    "su gran capacidad en poco volumen",
+    "ser siempre polarizados",
+    "su elevada corriente de fuga"
+   ],
+   "sol": "La mica es un dieléctrico muy estable con el tiempo y la temperatura, y de pérdidas mínimas; por eso se usa en circuitos de radiofrecuencia exigentes (filtros, osciladores, etapas de potencia), con capacidades modestas y a un precio mayor que el de un cerámico. Las otras tres propiedades son las del condensador electrolítico: mucha capacidad en poco volumen, polaridad que hay que respetar y una corriente de fuga apreciable. El condensador de mica no es polarizado y su fuga es despreciable. _(Véase tema T2, sección «Condensadores».)_\n#_apc1-noest[Cada dieléctrico orienta el uso del condensador. Mica: muy estable y de pérdidas mínimas, para RF exigente, con capacidades pequeñas. Cerámicos: pequeños y baratos, con poca inductancia propia; buenos para acoplo y desacoplo de RF. Plástico (poliéster y similares): estables y económicos, para audio y frecuencias bajas. Aire: variables de sintonía. Electrolíticos: mucha capacidad, polarizados y con fuga apreciable, para filtrar fuentes.]"
+  },
+  {
+   "id": "F-T2.30",
+   "clave": "c",
+   "enunciado": "Para el desacoplo de radiofrecuencia, es decir, para llevar a masa la RF no deseada en un punto del circuito, se emplean habitualmente condensadores:",
+   "opciones": [
+    "electrolíticos de aluminio",
+    "variables de aire",
+    "cerámicos",
+    "de papel o plástico arrollado, de gran valor"
+   ],
+   "sol": "En RF interesa un condensador con muy poca inductancia propia: por encima de su frecuencia de autorresonancia, cualquier condensador se comporta como una bobina y deja de desacoplar. Los cerámicos, pequeños y de patillas cortas, cumplen bien y son los habituales en el desacoplo de RF. Los electrolíticos de aluminio y los de papel o plástico arrollado tienen mucha capacidad, pero su construcción enrollada les da una inductancia parásita que los inutiliza en RF (los electrolíticos filtran la fuente, donde se alisa una tensión de baja frecuencia). El variable de aire sirve para sintonizar, no para desacoplar. _(Véase tema T2, sección «Condensadores».)_\n#_apc1-noest[Un condensador de desacoplo se conecta en paralelo, a masa, en un punto que debe quedar «tranquilo» (por ejemplo, una línea de alimentación): ofrece a la RF un camino fácil a masa y no afecta a la continua. Para ello necesita una inductancia propia muy pequeña, pues por encima de su frecuencia de autorresonancia cualquier condensador se comporta como bobina. Los cerámicos (patillas cortas, sin arrollar) son los habituales en RF; los electrolíticos, enrollados, se reservan para filtrar la fuente.]"
+  },
+  {
+   "id": "F-T2.31",
+   "clave": "b",
+   "enunciado": "La corriente de fuga de un condensador es:",
+   "opciones": [
+    "la corriente máxima que puede soportar sin dañarse",
+    "la pequeña corriente continua que atraviesa su dieléctrico por no ser un aislante perfecto",
+    "la corriente que circula por él mientras se carga al conectarlo a una fuente",
+    "la corriente alterna que lo atraviesa cuando trabaja en un circuito de RF"
+   ],
+   "sol": "Un dieléctrico real no es un aislante perfecto: con el condensador cargado y en reposo, una pequeña corriente continua lo atraviesa y lo va descargando poco a poco. Esa es la corriente de fuga. Es despreciable en mica y cerámicos, pero notable en los electrolíticos, y crece con la temperatura. La corriente de carga es un transitorio que desaparece al alcanzar la tensión de la fuente; la corriente alterna que deja pasar un condensador es su funcionamiento normal, no una imperfección; y la corriente máxima admisible es otra especificación, sin relación con la calidad del dieléctrico. _(Véase tema T2, sección «Condensadores».)_\n#_apc1-noest[Un condensador real tiene imperfecciones. La corriente de fuga es la pequeña corriente continua que atraviesa el dieléctrico, que no es un aislante perfecto, y que va descargando lentamente el condensador. Es despreciable en los de mica y en los cerámicos, y notable en los electrolíticos; además, aumenta con la temperatura. Por eso un condensador cargado y desconectado acaba perdiendo su carga, y por eso no conviene usar un electrolítico para mantener una tensión durante mucho tiempo.]"
+  },
+  {
+   "id": "F-T2.32",
+   "clave": "d",
+   "enunciado": "El coeficiente de temperatura de un condensador indica:",
+   "opciones": [
+    "la temperatura máxima que puede soportar sin dañarse",
+    "cuánto se calienta al circular corriente por él",
+    "la tensión máxima que admite según la temperatura",
+    "cómo varía su capacidad cuando cambia la temperatura"
+   ],
+   "sol": "El coeficiente de temperatura expresa cuánto cambia la capacidad al variar la temperatura (por ejemplo, en partes por millón por grado). En un circuito sintonizado o en un oscilador, esa deriva de $C$ desplaza la frecuencia de resonancia, $f_0 = 1/(2 pi sqrt(L C))$; por eso en los osciladores se emplean condensadores de coeficiente muy pequeño, como los de mica o los cerámicos NP0. Las otras opciones son especificaciones distintas: temperatura máxima de trabajo, calentamiento por pérdidas y reducción de la tensión admisible. _(Véase tema T2, sección «Condensadores».)_\n\n#_apc1-noest[El coeficiente de temperatura de un condensador mide cuánto varía su capacidad cuando cambia la temperatura; se da en partes por millón por grado y puede ser positivo, negativo o casi nulo. Importa en circuitos sintonizados y osciladores, donde una deriva de $C$ mueve la frecuencia $f_0 = 1 slash (2 pi sqrt(L C))$. Para frecuencias estables se eligen condensadores de coeficiente muy bajo, como los de mica o los cerámicos NP0 (prácticamente nulo).]"
+  },
+  {
+   "id": "T2.1",
+   "clave": "b",
+   "enunciado": "Una resistencia con las bandas de color marrón, negro, rojo y oro tiene un valor nominal de:",
+   "opciones": [
+    "100 Ω",
+    "1 kΩ",
+    "10 kΩ",
+    "1 MΩ"
+   ],
+   "sol": "Marrón = 1, negro = 0, rojo = $times 10^2$: $10 times 100 = 1000$ Ω = 1 kΩ. El oro es la tolerancia y no interviene en el valor (@t2-fig-colores)."
+  },
+  {
+   "id": "T2.2",
+   "clave": "d",
+   "enunciado": "En una resistencia de cuatro bandas, la tolerancia viene indicada por:",
+   "opciones": [
+    "la primera banda de color",
+    "la segunda banda de color",
+    "la tercera banda de color",
+    "la cuarta banda de color"
+   ],
+   "sol": "Dos primeras bandas: cifras; tercera: multiplicador; cuarta: tolerancia (oro ±5 %, plata ±10 %)."
+  },
+  {
+   "id": "T2.3",
+   "clave": "a",
+   "enunciado": "Si aumenta la temperatura en un conductor:",
+   "opciones": [
+    "aumenta también su resistencia eléctrica",
+    "disminuye su resistencia eléctrica",
+    "su resistencia no varía",
+    "el conductor se convierte en aislante"
+   ],
+   "sol": "En un conductor metálico la resistencia crece con la temperatura: las vibraciones de la red dificultan el paso de los electrones."
+  },
+  {
+   "id": "T2.4",
+   "clave": "c",
+   "enunciado": "Un termistor de tipo PTC es aquel cuyo valor de resistencia:",
+   "opciones": [
+    "no depende de la temperatura",
+    "disminuye al aumentar la temperatura",
+    "aumenta al aumentar la temperatura",
+    "se anula por encima de 0 °C"
+   ],
+   "sol": "PTC (_positive temperature coefficient_): la resistencia aumenta con la temperatura. Su pareja NTC hace lo contrario."
+  },
+  {
+   "id": "T2.5",
+   "clave": "b",
+   "enunciado": "Un termistor de tipo NTC es una resistencia cuyo valor:",
+   "opciones": [
+    "aumenta al aumentar la temperatura",
+    "se reduce a medida que la temperatura aumenta",
+    "depende de la luz que recibe",
+    "depende de la tensión aplicada"
+   ],
+   "sol": "NTC (_negative temperature coefficient_): la resistencia se reduce al aumentar la temperatura. Se usan como sensores de temperatura y limitadores de arranque."
+  },
+  {
+   "id": "T2.6",
+   "clave": "b",
+   "enunciado": "La unidad de medida de la capacidad es:",
+   "opciones": [
+    "el henrio",
+    "el faradio",
+    "el culombio",
+    "el tesla"
+   ],
+   "sol": "La capacidad se mide en faradios; en la práctica, μF, nF y pF. El henrio es de la autoinducción y el culombio de la carga."
+  },
+  {
+   "id": "T2.7",
+   "clave": "d",
+   "enunciado": "Un condensador es un dispositivo que almacena:",
+   "opciones": [
+    "corriente continua",
+    "flujo magnético",
+    "energía mecánica",
+    "carga eléctrica"
+   ],
+   "sol": "El condensador almacena carga eléctrica (y con ella, energía en el campo eléctrico entre sus armaduras)."
+  },
+  {
+   "id": "T2.8",
+   "clave": "a",
+   "enunciado": "La capacidad de un condensador depende de:",
+   "opciones": [
+    "la geometría y disposición de sus placas y la naturaleza del dieléctrico",
+    "la frecuencia de la señal aplicada",
+    "el material del encapsulado",
+    "la corriente que lo atraviesa"
+   ],
+   "sol": "$C = epsilon S slash d$: depende de la superficie de las placas, su separación y la permitividad del dieléctrico. No depende de la frecuencia ni de la corriente."
+  },
+  {
+   "id": "T2.9",
+   "clave": "c",
+   "enunciado": "Un dieléctrico es:",
+   "opciones": [
+    "un buen conductor",
+    "un semiconductor dopado",
+    "un aislante",
+    "un electrodo metálico"
+   ],
+   "sol": "Un dieléctrico es un aislante: no conduce, pero se polariza, y por eso multiplica la capacidad del condensador que lo usa entre placas."
+  },
+  {
+   "id": "T2.10",
+   "clave": "c",
+   "enunciado": "Al aumentar la frecuencia, la reactancia de un condensador:",
+   "opciones": [
+    "aumenta",
+    "no varía",
+    "disminuye",
+    "se hace infinita"
+   ],
+   "sol": "$X_C = 1 slash (2 pi f C)$: al aumentar $f$, la reactancia capacitiva disminuye. En la bobina ocurre lo contrario."
+  },
+  {
+   "id": "T2.11",
+   "clave": "b",
+   "enunciado": "Los condensadores electrolíticos:",
+   "opciones": [
+    "pueden conectarse en cualquier posición",
+    "deben conectarse respetando siempre la polaridad indicada",
+    "solo funcionan en circuitos de alterna",
+    "no admiten tensiones superiores a 1 V"
+   ],
+   "sol": "Los electrolíticos son polarizados: conectados al revés se degradan y pueden reventar. Siempre se respeta la marca de polaridad."
+  },
+  {
+   "id": "T2.12",
+   "clave": "d",
+   "enunciado": "Las bandas de colores de un condensador indican:",
+   "opciones": [
+    "solo su tensión máxima",
+    "su inductancia y su factor Q",
+    "su fecha de fabricación",
+    "su capacidad, su tolerancia y su tensión máxima de trabajo"
+   ],
+   "sol": "Cuando un condensador va marcado con bandas de color, estas codifican capacidad, tolerancia y tensión máxima de trabajo."
+  },
+  {
+   "id": "T2.13",
+   "clave": "a",
+   "enunciado": "La energía almacenada en un condensador de capacidad $C$ cargado a una tensión $V$ es:",
+   "opciones": [
+    "$1/2 C V^2$",
+    "$C V$",
+    "$1/2 L I^2$",
+    "$V^2 slash C$"
+   ],
+   "sol": "$E = 1/2 C V^2$. La opción (c) es la energía de la bobina ($1/2 L I^2$): el examen intercambia ambas fórmulas."
+  },
+  {
+   "id": "T2.14",
+   "clave": "c",
+   "enunciado": "La unidad de medida de la autoinducción de una bobina es:",
+   "opciones": [
+    "el faradio",
+    "el ohmio",
+    "el henrio",
+    "el weber"
+   ],
+   "sol": "La autoinducción se mide en henrios (H). El weber es la unidad del flujo magnético."
+  },
+  {
+   "id": "T2.15",
+   "clave": "d",
+   "enunciado": "El componente que almacena energía en forma de campo magnético es:",
+   "opciones": [
+    "el condensador",
+    "la resistencia",
+    "el diodo",
+    "la bobina"
+   ],
+   "sol": "La bobina almacena energía en su campo magnético ($E = 1/2 L I^2$); el condensador, en el eléctrico; la resistencia no almacena: disipa."
+  },
+  {
+   "id": "T2.16",
+   "clave": "b",
+   "enunciado": "La reactancia inductiva de una bobina, cuando la frecuencia de la corriente es cero (corriente continua):",
+   "opciones": [
+    "es infinita",
+    "vale cero",
+    "es igual a su resistencia óhmica multiplicada por dos",
+    "no puede calcularse"
+   ],
+   "sol": "$X_L = 2 pi f L$: con $f = 0$ (corriente continua), la reactancia es cero — la bobina ideal es un cortocircuito para la continua."
+  },
+  {
+   "id": "T2.17",
+   "clave": "a",
+   "enunciado": "Un transformador está formado, como mínimo, por:",
+   "opciones": [
+    "dos bobinas acopladas",
+    "dos condensadores en serie",
+    "una bobina y un diodo",
+    "dos resistencias apareadas"
+   ],
+   "sol": "Un transformador son, como mínimo, dos bobinas acopladas magnéticamente (primario y secundario), normalmente sobre un núcleo común."
+  },
+  {
+   "id": "T2.18",
+   "clave": "c",
+   "enunciado": "En un transformador, se conoce como «relación de transformación»:",
+   "opciones": [
+    "el cociente entre la potencia de entrada y la de salida",
+    "el rendimiento del núcleo magnético",
+    "la relación entre el número de espiras del primario y el del secundario",
+    "la relación entre su peso y su volumen"
+   ],
+   "sol": "La relación de transformación es $N_p slash N_s$, el cociente entre las espiras del primario y del secundario, que fija la relación de tensiones."
+  },
+  {
+   "id": "T2.19",
+   "clave": "c",
+   "enunciado": "Un transformador ideal tiene una relación de espiras primario/secundario de 20:1. Si se aplican 230 V al primario, la tensión en el secundario es:",
+   "opciones": [
+    "4600 V",
+    "46 V",
+    "11,5 V",
+    "23 V"
+   ],
+   "sol": "$V_s = V_p dot N_s slash N_p = 230 slash 20 = 11,5$ V. El distractor de 4600 V invierte la relación."
+  },
+  {
+   "id": "T2.20",
+   "clave": "b",
+   "enunciado": "Para que un transformador reduzca la tensión, es necesario que:",
+   "opciones": [
+    "el primario tenga menos espiras que el secundario",
+    "el secundario tenga menos espiras que el primario",
+    "ambos devanados tengan el mismo número de espiras",
+    "el núcleo sea de aire"
+   ],
+   "sol": "Reductor de tensión $arrow.double$ menos espiras en el secundario ($V_s slash V_p = N_s slash N_p < 1$)."
+  },
+  {
+   "id": "T2.21",
+   "clave": "d",
+   "enunciado": "Se conoce con el nombre genérico de «diodo» a un dispositivo que:",
+   "opciones": [
+    "amplifica la corriente eléctrica",
+    "almacena carga eléctrica",
+    "transforma tensiones alternas",
+    "permite el paso de la corriente eléctrica en un único sentido"
+   ],
+   "sol": "El diodo conduce en un único sentido (de ánodo a cátodo en polarización directa); es la base de la rectificación y la detección."
+  },
+  {
+   "id": "T2.22",
+   "clave": "b",
+   "enunciado": "El diodo zéner se utiliza principalmente para:",
+   "opciones": [
+    "amplificar señales débiles",
+    "estabilizar una tensión",
+    "emitir luz",
+    "sintonizar un circuito resonante"
+   ],
+   "sol": "En inversa, el zéner fija una tensión prácticamente constante: referencia y estabilización en fuentes de alimentación."
+  },
+  {
+   "id": "T2.23",
+   "clave": "c",
+   "enunciado": "Los tres terminales de un transistor bipolar son:",
+   "opciones": [
+    "puerta, fuente y drenador",
+    "ánodo, cátodo y rejilla",
+    "emisor, base y colector",
+    "primario, secundario y núcleo"
+   ],
+   "sol": "El BJT tiene emisor, base y colector; puerta, fuente y drenador son del FET."
+  },
+  {
+   "id": "T2.24",
+   "clave": "a",
+   "enunciado": "Un transistor bipolar puede ser de tipo:",
+   "opciones": [
+    "NPN",
+    "PPN",
+    "NNP",
+    "PNN"
+   ],
+   "sol": "Los transistores bipolares son NPN o PNP, según el orden de las capas de semiconductor."
+  },
+  {
+   "id": "T2.25",
+   "clave": "a",
+   "enunciado": "Un diodo varicap es un diodo que:",
+   "opciones": [
+    "varía su capacidad con la tensión inversa aplicada",
+    "varía su resistencia con la luz que recibe",
+    "ajusta su inductancia mediante un núcleo móvil",
+    "se comporta como un condensador electrolítico"
+   ],
+   "sol": "El varicap se comporta como un condensador cuya capacidad se controla con la tensión inversa: sintonía electrónica en VCO y receptores."
+  },
+  {
+   "id": "T2.26",
+   "clave": "c",
+   "enunciado": "De las siguientes parejas unidad de medida/magnitud, señale la _incorrecta_:",
+   "opciones": [
+    "voltio: diferencia de potencial",
+    "amperio: corriente eléctrica",
+    "faradio: cantidad de carga",
+    "hercio: frecuencia"
+   ],
+   "sol": "El faradio mide la capacidad; la cantidad de carga se mide en culombios. Las otras tres parejas son correctas."
+  },
+  {
+   "id": "T2.27",
+   "clave": "b",
+   "enunciado": "Los tres electrodos básicos de una válvula tríodo son:",
+   "opciones": [
+    "emisor, base y colector",
+    "cátodo, rejilla y placa",
+    "puerta, drenador y surtidor",
+    "ánodo, dieléctrico y cátodo"
+   ],
+   "sol": "El cátodo emite los electrones, la placa (o ánodo) los recoge y la rejilla intercalada entre ambos regula el paso. Emisor, base y colector son del transistor bipolar; puerta, drenador y surtidor, del FET."
+  },
+  {
+   "id": "T2.28",
+   "clave": "a",
+   "enunciado": "Una válvula conduce corriente:",
+   "opciones": [
+    "si se aplica una tensión positiva a la placa y negativa al cátodo",
+    "si se aplica una tensión negativa a la placa y positiva al cátodo",
+    "con cualquier polaridad, siempre que el filamento esté frío",
+    "únicamente con corriente alterna aplicada a la rejilla"
+   ],
+   "sol": "Los electrones que el cátodo caliente emite son negativos, así que solo cruzan el vacío si la placa está a potencial positivo respecto a él. Con la polaridad invertida no hay corriente, porque la placa está fría y no emite: en eso consiste el efecto rectificador de la válvula."
+  },
+  {
+   "id": "T2.29",
+   "clave": "c",
+   "enunciado": "En una válvula termoiónica, el cátodo tiene la función de:",
+   "opciones": [
+    "recoger los electrones emitidos",
+    "regular el paso de los electrones",
+    "emitir electrones al calentarse",
+    "mantener el vacío dentro de la ampolla"
+   ],
+   "sol": "Es la emisión termoiónica: al calentarse, el metal del cátodo deja escapar electrones de su superficie. Recogerlos es tarea de la placa y regularlos, de la rejilla."
+  },
+  {
+   "id": "T2.30",
+   "clave": "d",
+   "enunciado": "Una válvula pentodo recibe ese nombre porque dispone de:",
+   "opciones": [
+    "cinco placas conectadas en paralelo",
+    "cinco filamentos de caldeo independientes",
+    "cinco terminales de conexión al zócalo",
+    "cinco electrodos: cátodo, tres rejillas y placa"
+   ],
+   "sol": "El prefijo cuenta electrodos, no terminales: cátodo, rejilla de control, rejilla de pantalla, rejilla supresora y placa. Con la misma lógica, el tríodo tiene tres y el tetrodo cuatro."
+  },
+  {
+   "id": "T2.31",
+   "clave": "b",
+   "enunciado": "En una válvula, la rejilla de pantalla se añade principalmente para:",
+   "opciones": [
+    "aumentar la temperatura del cátodo",
+    "reducir la capacidad entre la rejilla de control y la placa",
+    "rectificar la corriente de placa",
+    "sustituir al filamento de caldeo"
+   ],
+   "sol": "Esa capacidad realimenta señal de la placa a la rejilla y hace oscilar al amplificador en radiofrecuencia. La pantalla, a tensión positiva fija, se interpone como blindaje electrostático y corta la realimentación."
+  },
+  {
+   "id": "T2.32",
+   "clave": "a",
+   "enunciado": "La ganancia de corriente $beta$ de un transistor bipolar es la relación entre:",
+   "opciones": [
+    "la corriente de colector y la corriente de base",
+    "la corriente de emisor y la corriente de colector",
+    "la corriente de drenador y la corriente de surtidor",
+    "la tensión de colector y la tensión de base"
+   ],
+   "sol": "$beta = I_C slash I_B$: cuántas veces mayor es la corriente que gobierna respecto a la que la gobierna. Un $beta$ de 100 significa que 1 mA de base maneja 100 mA de colector. Drenador y surtidor son terminales del FET."
+  },
+  {
+   "id": "T2.33",
+   "clave": "d",
+   "enunciado": "Un diodo LED emite luz cuando:",
+   "opciones": [
+    "se polariza inversamente",
+    "se le aplica corriente alterna de alta frecuencia",
+    "alcanza su tensión de avalancha",
+    "se polariza directamente"
+   ],
+   "sol": "El LED es un diodo y, como tal, solo conduce en directa; es al circular esa corriente cuando emite. El que trabaja polarizado en inversa, en su tensión de avalancha, es el zéner."
+  },
+  {
+   "id": "T2.34",
+   "clave": "c",
+   "enunciado": "Los tres terminales de un transistor de efecto de campo (FET) se denominan:",
+   "opciones": [
+    "emisor, base y colector",
+    "cátodo, rejilla y ánodo",
+    "puerta, drenador y surtidor",
+    "primario, secundario y masa"
+   ],
+   "sol": "En el FET la tensión de puerta controla, mediante un campo eléctrico y sin apenas consumir corriente, el paso entre surtidor y drenador. Emisor, base y colector son del bipolar; cátodo, rejilla y ánodo, de la válvula."
+  },
+  {
+   "id": "T2.35",
+   "clave": "b",
+   "enunciado": "Un semiconductor de tipo P es aquel en el que:",
+   "opciones": [
+    "la cantidad de electrones libres es mayor que la de huecos",
+    "la cantidad de huecos es mayor que la de electrones libres",
+    "no existen portadores de carga",
+    "la conducción se debe únicamente a los iones"
+   ],
+   "sol": "Se obtiene dopando el silicio con un elemento de menos electrones de valencia, lo que deja huecos libres. En el tipo N ocurre lo contrario: sobran electrones. La unión de ambos es el diodo."
+  },
+  {
+   "id": "T2.36",
+   "clave": "d",
+   "enunciado": "En un semiconductor se denomina «hueco» a:",
+   "opciones": [
+    "una impureza del cristal",
+    "una zona sin dopar",
+    "un defecto de fabricación",
+    "un portador de carga positiva"
+   ],
+   "sol": "Es la ausencia de un electrón en un enlace, que se comporta a todos los efectos como una carga positiva móvil: los electrones vecinos van saltando a él y el hueco «viaja» en sentido contrario."
+  },
+  {
+   "id": "T2.37",
+   "clave": "a",
+   "enunciado": "De los siguientes materiales, es un semiconductor:",
+   "opciones": [
+    "el germanio",
+    "el cobre",
+    "la porcelana",
+    "el aluminio"
+   ],
+   "sol": "Germanio y silicio son los semiconductores clásicos: no conducen como un metal ni aíslan como la porcelana, y su conductividad se gobierna con impurezas. Cobre y aluminio son conductores."
+  },
+  {
+   "id": "T2.38",
+   "clave": "c",
+   "enunciado": "Una resistencia cuyo valor óhmico depende de la tensión aplicada entre sus extremos se denomina:",
+   "opciones": [
+    "termistor",
+    "potenciómetro",
+    "varistor",
+    "reóstato"
+   ],
+   "sol": "El varistor (o VDR) baja bruscamente su resistencia al superarse cierta tensión, y por eso se usa como protector contra sobretensiones. El termistor depende de la temperatura, y el potenciómetro se ajusta a mano."
+  },
+  {
+   "id": "T2.39",
+   "clave": "b",
+   "enunciado": "Un autotransformador es un transformador en el que:",
+   "opciones": [
+    "el núcleo es de aire",
+    "los devanados primario y secundario tienen una parte común",
+    "la relación de transformación es siempre la unidad",
+    "el secundario está cortocircuitado"
+   ],
+   "sol": "En vez de dos devanados aislados hay uno solo con una toma intermedia, de modo que parte del bobinado pertenece al primario y al secundario a la vez. Es más ligero y barato, pero no aísla galvánicamente la entrada de la salida."
+  },
+  {
+   "id": "T2.40",
+   "clave": "d",
+   "enunciado": "Al introducir un núcleo de material ferromagnético en el interior de una bobina, su autoinducción:",
+   "opciones": [
+    "se anula",
+    "disminuye",
+    "no varía",
+    "aumenta"
+   ],
+   "sol": "El núcleo ferromagnético concentra las líneas de campo y multiplica el flujo para la misma corriente, de modo que la autoinducción crece con la permeabilidad del material. Es lo que permite hacer bobinas de gran valor sin un número enorme de espiras."
+  },
+  {
+   "id": "T2.41",
+   "clave": "a",
+   "enunciado": "Un condensador intercalado en un circuito de corriente alterna tiende a:",
+   "opciones": [
+    "oponerse a las variaciones de tensión entre sus armaduras",
+    "oponerse a las variaciones de la corriente",
+    "rectificar la corriente",
+    "elevar la frecuencia de la señal"
+   ],
+   "sol": "Su tensión no puede cambiar bruscamente, porque hacerlo exigiría una corriente infinita ($i = C dif v slash dif t$). Es el dual de la bobina, que se opone a las variaciones de corriente. De ahí que el condensador alise la tensión en las fuentes de alimentación."
+  },
+  {
+   "id": "T2.42",
+   "clave": "c",
+   "enunciado": "Un inconveniente característico de los transistores frente a las válvulas es:",
+   "opciones": [
+    "su mayor tamaño",
+    "su elevado consumo en reposo",
+    "su sensibilidad al calor",
+    "la necesidad de un filamento de caldeo"
+   ],
+   "sol": "Las características del semiconductor derivan con la temperatura y, si el calor no se evacúa, la corriente y la temperatura se realimentan hasta destruir el componente. De ahí los radiadores y ventiladores de las etapas de potencia. Las válvulas, en cambio, trabajan al rojo sin inmutarse."
+  },
+  {
+   "id": "T2.43",
+   "clave": "b",
+   "enunciado": "Una resistencia con las bandas violeta, verde, rojo y oro tiene un valor de:",
+   "opciones": [
+    "75 Ω con tolerancia del 10 %",
+    "7500 Ω con tolerancia del 5 %",
+    "570 Ω con tolerancia del 1 %",
+    "75 kΩ con tolerancia del 5 %"
+   ],
+   "sol": "Violeta = 7, verde = 5, rojo = $times 10^2$ y oro = ±5 %: $75 times 100 = 7500$ Ω, es decir, 7,5 kΩ. El oro es la tolerancia y no interviene en el valor."
+  },
+  {
+   "id": "T2.44",
+   "clave": "a",
+   "enunciado": "Cuando la etapa final de un emisor es de válvulas, antes de poder transmitir es necesario:",
+   "opciones": [
+    "esperar un tiempo de caldeo del filamento",
+    "desconectar la toma de tierra",
+    "cortocircuitar la rejilla de control",
+    "enfriar previamente el equipo"
+   ],
+   "sol": "El cátodo tiene que alcanzar su temperatura de emisión antes de que la válvula conduzca. Aplicar tensión de placa con el filamento frío daña el tubo, y por eso los equipos valvulares llevan una posición de espera."
+  },
+  {
+   "id": "T2.45",
+   "clave": "c",
+   "enunciado": "En un condensador electrolítico, el dieléctrico está constituido por:",
+   "opciones": [
+    "una lámina de mica",
+    "aire a presión",
+    "una finísima capa de óxido formada sobre la armadura metálica que hace de ánodo",
+    "una película de plata"
+   ],
+   "sol": "No hay lámina aislante: el dieléctrico es una capa de óxido de espesor casi nulo formada eléctricamente sobre el ánodo, en contacto con el electrolito. Como $C = epsilon S slash d$ y $d$ es minúsculo, la capacidad resulta enorme — a cambio de la polaridad obligada."
+  },
+  {
+   "id": "T2.46",
+   "clave": "d",
+   "enunciado": "En el código de colores de un componente, una tolerancia del 5 % se representa con una franja de color:",
+   "opciones": [
+    "plata",
+    "rojo",
+    "marrón",
+    "oro"
+   ],
+   "sol": "Oro es ±5 % y plata ±10 %. Cuando la banda es marrón, la tolerancia es del 1 %, propia de componentes de precisión."
+  },
+  {
+   "id": "T2.47",
+   "clave": "b",
+   "enunciado": "La capacidad resultante de dos condensadores conectados en serie es:",
+   "opciones": [
+    "la suma de ambas capacidades",
+    "menor que la de cualquiera de ellos",
+    "igual a la del mayor",
+    "el doble de la del menor"
+   ],
+   "sol": "En serie los condensadores se combinan como las resistencias en paralelo: $1 slash C = 1 slash C_1 + 1 slash C_2$. El resultado es siempre menor que el menor de ellos, justo al revés de lo que ocurre en paralelo."
+  },
+  {
+   "id": "T2.48",
+   "clave": "c",
+   "enunciado": "En un transistor NPN empleado como amplificador, la polarización del colector respecto del emisor es:",
+   "opciones": [
+    "negativa",
+    "nula",
+    "positiva",
+    "alterna"
+   ],
+   "sol": "En un NPN la corriente convencional entra por el colector, que ha de estar a mayor potencial que el emisor. En el PNP todo se invierte, y de ahí que los circuitos con PNP lleven la alimentación negativa."
+  },
+  {
+   "id": "T2.49",
+   "clave": "a",
+   "enunciado": "En un transistor PNP empleado como amplificador, la tensión del colector respecto de la base es:",
+   "opciones": [
+    "negativa",
+    "positiva",
+    "nula",
+    "igual a la del emisor"
+   ],
+   "sol": "En el PNP el colector trabaja a potencial negativo respecto de la base y del emisor: es la imagen especular del NPN. Confundir ambos es garantía de destruir el transistor al alimentarlo."
+  },
+  {
+   "id": "T2.50",
+   "clave": "b",
+   "enunciado": "Reducir el espesor del dieléctrico de un condensador, manteniendo el resto de sus dimensiones, produce:",
+   "opciones": [
+    "una disminución de su capacidad",
+    "un aumento de su capacidad",
+    "la anulación de su capacidad",
+    "un aumento de su tensión máxima de trabajo"
+   ],
+   "sol": "De $C = epsilon S slash d$: la capacidad es inversamente proporcional a la separación entre armaduras. El precio es la tensión de trabajo, que baja al acercarlas — el dieléctrico acaba perforándose."
+  },
+  {
+   "id": "T2.51",
+   "clave": "b",
+   "enunciado": "Un amplificador puede llegar a oscilar de forma indeseada si:",
+   "opciones": [
+    "su ganancia es demasiado baja",
+    "existe un acoplamiento excesivo entre su salida y su entrada",
+    "la señal de entrada es muy débil",
+    "se alimenta con corriente continua"
+   ],
+   "sol": "Si parte de la salida vuelve a la entrada en fase, el amplificador se autoalimenta y arranca a oscilar: es realimentación positiva involuntaria. Contra eso están el apantallamiento, el buen desacoplo y, en los finales valvulares, la neutralización."
+  },
+  {
+   "id": "T2.52",
+   "clave": "b",
+   "enunciado": "Un electroimán atrae a los objetos de hierro:",
+   "opciones": [
+    "de forma permanente",
+    "solo mientras circula corriente por su bobina",
+    "únicamente si se alimenta con corriente alterna",
+    "solo cuando está frío"
+   ],
+   "sol": "Un electroimán es magnético solo mientras se le hace circular corriente: al cortarla, el campo desaparece (salvo un pequeño magnetismo remanente). Esa es precisamente su ventaja sobre el imán permanente — se gobierna."
+  },
+  {
+   "id": "T2.53",
+   "clave": "a",
+   "enunciado": "Una propiedad característica de la inductancia de un circuito es:",
+   "opciones": [
+    "oponerse a las variaciones de la corriente",
+    "oponerse a las variaciones de la tensión",
+    "almacenar carga eléctrica",
+    "rectificar la corriente alterna"
+   ],
+   "sol": "La bobina se opone a que la corriente cambie, porque toda variación induce en ella una fuerza contraelectromotriz que la frena. Es el dual exacto del condensador, que se opone a las variaciones de tensión."
+  },
+  {
+   "id": "T2.54",
+   "clave": "c",
+   "enunciado": "Los condensadores electrolíticos se emplean principalmente:",
+   "opciones": [
+    "en los circuitos resonantes de radiofrecuencia",
+    "en las antenas",
+    "en el filtrado de las fuentes de alimentación",
+    "como elemento de acoplo entre etapas de RF"
+   ],
+   "sol": "Su gran capacidad los hace idóneos para alisar el rizado tras el rectificador, donde además la polaridad es fija y conocida. En radiofrecuencia no sirven: su comportamiento a alta frecuencia es pésimo."
+  },
+  {
+   "id": "T2.55",
+   "clave": "b",
+   "enunciado": "Un transformador con núcleo de aire, comparado con uno de núcleo ferromagnético, presenta:",
+   "opciones": [
+    "mayor inductancia",
+    "un factor de calidad más bajo a baja frecuencia",
+    "mayores pérdidas por corrientes de Foucault",
+    "una relación de transformación variable"
+   ],
+   "sol": "Sin núcleo ferromagnético la inductancia es mucho menor y, a frecuencias bajas, el factor de calidad resulta pobre. A cambio, no hay pérdidas en el núcleo ni saturación, y por eso muchas bobinas de radiofrecuencia se hacen con núcleo de aire — o de ferrita, que sí es un núcleo magnético, pero diseñado para perder poco en RF."
+  },
+  {
+   "id": "T2.56",
+   "clave": "c",
+   "enunciado": "Una resistencia fija queda determinada por:",
+   "opciones": [
+    "su valor óhmico únicamente",
+    "su valor óhmico y su color",
+    "su valor óhmico, la potencia que puede disipar y su tolerancia",
+    "su valor óhmico y la frecuencia de trabajo"
+   ],
+   "sol": "Con el valor no basta: hay que saber cuánta potencia puede disipar sin quemarse y con qué precisión se cumple el valor nominal. El valor y la tolerancia figuran en el código de colores; la potencia se reconoce por el tamaño del cuerpo."
+  },
+  {
+   "id": "T2.57",
+   "clave": "b",
+   "enunciado": "Un megaohmio equivale a:",
+   "opciones": [
+    "mil ohmios",
+    "un millón de ohmios",
+    "un millón de microohmios",
+    "una milésima de ohmio"
+   ],
+   "sol": "Mega significa un millón: 1 MΩ = $10^6$ Ω. Mil ohmios son un kiloohmio, y la milésima de ohmio, un miliohmio."
+  },
+  {
+   "id": "T2.58",
+   "clave": "d",
+   "enunciado": "De las siguientes siglas referidas a la escala de integración de los circuitos integrados, _no_ corresponde a ninguna escala normalizada:",
+   "opciones": [
+    "SSI",
+    "MSI",
+    "LSI",
+    "CSI"
+   ],
+   "sol": "Las escalas normalizadas son SSI (pequeña), MSI (media), LSI (grande) y VLSI (muy grande), según el número de puertas integradas en la pastilla. CSI no designa ninguna escala de integración."
+  },
+  {
+   "id": "T2.59",
+   "clave": "c",
+   "enunciado": "Para descargar con seguridad un condensador se debe:",
+   "opciones": [
+    "golpearlo suavemente",
+    "esperar a que se descargue solo",
+    "conectar sus dos armaduras a través de un elemento exterior",
+    "invertir su polaridad"
+   ],
+   "sol": "Se cortocircuitan las armaduras a través de una resistencia adecuada, con un útil aislado y nunca con la mano. La descarga directa con un destornillador es brusca y puede dañar el condensador — y a quien lo sostiene."
+  },
+  {
+   "id": "T2.60",
+   "clave": "a",
+   "enunciado": "Además de elevar o reducir tensiones, los transformadores se emplean para:",
+   "opciones": [
+    "la adaptación de impedancias entre dos circuitos",
+    "la rectificación de la corriente alterna",
+    "la generación de armónicos",
+    "el almacenamiento de energía en continua"
+   ],
+   "sol": "Como la relación de tensiones va con el número de espiras y la de corrientes al revés, la impedancia vista desde el primario queda multiplicada por el cuadrado de la relación de transformación. Es lo que permite acoplar una etapa de salida a una carga de impedancia distinta."
+  },
+  {
+   "id": "T2.61",
+   "clave": "b",
+   "enunciado": "De los siguientes símbolos, el que corresponde a un diodo es:",
+   "opciones": [
+    "_t2-o-res",
+    "_t2-o-dio",
+    "_t2-o-bob",
+    "_t2-o-con"
+   ],
+   "sol": "El triángulo apoyado contra una barra transversal es el diodo, y la barra marca el cátodo: el triángulo apunta el sentido de paso, de ánodo a cátodo, así que en conducción la corriente sale por la barra. Las otras tres son resistencia, bobina y condensador."
+  },
+  {
+   "id": "T2.62",
+   "clave": "c",
+   "enunciado": "De los siguientes símbolos, el que corresponde a una resistencia es:",
+   "opciones": [
+    "_t2-o-con",
+    "_t2-o-bob",
+    "_t2-o-res",
+    "_t2-o-dio"
+   ],
+   "sol": "El rectángulo alargado es la resistencia en la simbología europea (en la americana se dibuja en zigzag). Conviene reconocer ambas, porque los esquemas de origen anglosajón usan la segunda."
+  },
+  {
+   "id": "T2.63",
+   "clave": "d",
+   "enunciado": "De los siguientes símbolos, el que corresponde a un condensador es:",
+   "opciones": [
+    "_t2-o-bob",
+    "_t2-o-dio",
+    "_t2-o-res",
+    "_t2-o-con"
+   ],
+   "sol": "Dos trazos paralelos enfrentados y sin tocarse: las dos armaduras separadas por el dieléctrico. El símbolo dice literalmente lo que es el componente."
+  },
+  {
+   "id": "T2.64",
+   "clave": "c",
+   "enunciado": "De los siguientes símbolos, el que corresponde a una bobina es:",
+   "opciones": [
+    "_t2-o-dio",
+    "_t2-o-res",
+    "_t2-o-bob",
+    "_t2-o-con"
+   ],
+   "sol": "La sucesión de espiras representa el arrollamiento. En la simbología europea alternativa aparece a veces como un rectángulo, pero la forma de bobinado es la que el examen usa."
+  },
+  {
+   "id": "T2.65",
+   "clave": "a",
+   "enunciado": "De los siguientes símbolos, el que corresponde a un transistor bipolar es:",
+   "opciones": [
+    "_t2-o-bjt",
+    "_t2-o-fet",
+    "_t2-o-val",
+    "_t2-o-amp"
+   ],
+   "sol": "El transistor bipolar se reconoce por la base recta, la flecha en el emisor —que marca el sentido de la corriente y distingue NPN de PNP— y el contacto directo de ambos con la base. El FET, en cambio, tiene la puerta separada por un hueco."
+  },
+  {
+   "id": "T2.66",
+   "clave": "d",
+   "enunciado": "De los siguientes símbolos, el que corresponde a un transistor de efecto de campo es:",
+   "opciones": [
+    "_t2-o-val",
+    "_t2-o-bjt",
+    "_t2-o-amp",
+    "_t2-o-fet"
+   ],
+   "sol": "En el FET la puerta no toca el canal: se dibuja separada, porque controla por campo eléctrico y no por corriente. Esa separación es justo lo que explica su altísima impedancia de entrada."
+  }
+ ]
+}

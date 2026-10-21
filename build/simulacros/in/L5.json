@@ -1,0 +1,1869 @@
+{
+ "temas": {
+  "T6": {
+   "titulo": "Antenas y líneas de transmisión",
+   "alcance": "Tipos de antena: dipolo de media onda (alimentado en el centro o en un extremo), dipolo plegado, vertical de cuarto de onda, plano de tierra, Yagi, antenas de apertura, dipolo con trampas · características: impedancia, polarización, ganancia, directividad, potencia efectiva radiada · líneas de transmisión: paralela, coaxial, guiaondas, impedancia característica, ROE, pérdidas, balun, acopladores."
+  },
+  "T7": {
+   "titulo": "Propagación",
+   "alcance": "Propagación según la frecuencia · visión directa y espacio libre · atenuación de la señal y relación señal/ruido · capas de la ionosfera e influencia del sol · frecuencia crítica, MUF y frecuencia óptima de trabajo · onda de tierra y de espacio, distancia de salto, desvanecimiento · troposfera, inversión térmica y propagación por conducto · esporádica-E, auroral, meteor-scatter, rebote lunar (EME) · ruido atmosférico, galáctico y térmico · predicción de propagación."
+  }
+ },
+ "preguntas": [
+  {
+   "id": "C-T6.1",
+   "clave": "d",
+   "enunciado": "¿Qué ventajas presenta la antena dipolo en V invertida?",
+   "opciones": [
+    "Un valor de impedancia próximo a 75 Ω y polarización circular.",
+    "Un valor de impedancia próximo a 75 Ω y un diagrama de radiación muy directivo.",
+    "Un valor de impedancia constante y elevada ganancia.",
+    "Un valor de impedancia próximo a 50 Ω y un diagrama de radiación prácticamente omnidireccional."
+   ],
+   "sol": "\n    En la V invertida el centro (el punto de alimentación) va arriba, en el mástil, y los brazos\n    caen inclinados hacia el suelo. Al inclinarlos, la impedancia baja desde los ∼73 Ω del dipolo\n    horizontal hasta unos 50 Ω (con un ángulo entre brazos de 90 a 120 grados), que es justo la del\n    coaxial de los equipos. Además, los brazos inclinados radian también algo de campo vertical y el\n    diagrama se vuelve casi omnidireccional en el plano horizontal. No hay polarización circular\n    (a), ni un diagrama muy directivo (b: eso es una Yagi), ni ganancia elevada ni impedancia\n    «constante» (c): es un dipolo, de unos 2,15 dBi. #vease[(Véase tema T6, sección «El dipolo y\n    otras antenas».)]\n    #no-esta[Dipolo en V invertida: dipolo de media onda con el centro elevado, sujeto a un solo mástil, y\n    los extremos caídos, formando entre los brazos un ángulo de unos 90 a 120 grados. Inclinar los\n    brazos hacia el suelo reduce la impedancia del punto de alimentación, de ∼73 Ω a unos 50 Ω, y\n    redondea el diagrama: aparece una componente vertical y se atenúan los nulos que el dipolo\n    horizontal tiene en la dirección de sus extremos, de modo que se acerca a un diagrama\n    omnidireccional en el plano horizontal.]\n  "
+  },
+  {
+   "id": "C-T6.2",
+   "clave": "c",
+   "enunciado": "La antena de media onda:",
+   "opciones": [
+    "Parte las ondas por medio",
+    "Es directiva",
+    "Es omnidireccional (en el plano perpendicular al hilo)",
+    "Es una antena para las ondas decamétricas solamente"
+   ],
+   "sol": "\n    El dipolo de media onda radia por igual en todas las direcciones del plano perpendicular al hilo\n    (en vertical, hacia todo el horizonte) y no radia en la dirección del propio hilo. Se le\n    considera por eso omnidireccional, al contrario que una Yagi, que concentra la energía en una\n    sola dirección: su directividad es de solo 2,15 dBi (b falsa). La media onda no es exclusiva de\n    las decamétricas: se construye para cualquier frecuencia con $λ slash 2$ de hilo (d). Y «partir\n    las ondas por medio» (a) no significa nada: la media onda es la longitud de la antena.\n    #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]\n    #no-esta[Diagrama del dipolo: como la corriente circula a lo largo del hilo, la radiación es máxima en\n    las direcciones perpendiculares a él y nula en la dirección del hilo. En tres dimensiones es un\n    toro (una rosquilla) con el hilo pasando por el agujero. Montado en vertical, el corte\n    horizontal es un círculo: radia por igual hacia todo el horizonte (omnidireccional). Montado en\n    horizontal, ese mismo corte es un «ocho». Omnidireccional se entiende, pues, siempre respecto de\n    un plano.]\n  "
+  },
+  {
+   "id": "C-T6.3",
+   "clave": "b",
+   "enunciado": "La relación de ondas estacionarias para un adecuado funcionamiento debe ser:",
+   "opciones": [
+    "Mayor que 2,5",
+    "Entre 2,5 y 1",
+    "Entre 1 y 0,5",
+    "Menor que 0,5"
+   ],
+   "sol": "\n    La ROE es el cociente entre el máximo y el mínimo de la onda estacionaria y, como el máximo\n    nunca es menor que el mínimo, vale siempre 1 o más: los intervalos de c y d no existen. El valor\n    ideal es 1 (nada se refleja). Hasta 2 o 2,5 la desadaptación es tolerable: con ROE 2,5,\n    $ρ = 1,5 slash 3,5 ≈ 0,43$ y se refleja $ρ^2 ≈ 18$ % de la potencia. Por encima de 2,5 (a)\n    crecen las pérdidas en la línea y el riesgo para el transmisor. #vease[(Véase tema T6, sección\n    «Líneas de transmisión y adaptación».)]\n    #no-esta[Margen útil de la ROE: por definición ROE ≥ 1 (1 es la adaptación perfecta; no tiene límite\n    superior). En la práctica se considera buena por debajo de 1,5, aceptable hasta 2 y todavía\n    utilizable hasta 2,5 o 3: con 2,5 se refleja el 18 % de la potencia. Más allá conviene ajustar\n    la antena o usar un acoplador, porque suben las pérdidas en la línea y muchos equipos reducen la\n    potencia para protegerse.]\n  "
+  },
+  {
+   "id": "C-T6.4",
+   "clave": "b",
+   "enunciado": "Una antena helicoidal se usa:",
+   "opciones": [
+    "Para poder emplear la misma antena para la banda de 144 y 432 MHz",
+    "Para enlaces por satélites",
+    "Porque permiten orientarlas con más facilidad que las colineales",
+    "Porque son las más efectivas para hacer las ruedas de aficionados"
+   ],
+   "sol": "\n    La hélice, en su modo normal de trabajo (modo axial), radia con polarización circular y un\n    lóbulo directivo a lo largo de su eje. La polarización circular es la adecuada para los enlaces\n    por satélite: el satélite gira y cambia de orientación respecto de la estación y, además, la\n    ionosfera rota la polarización de la onda, de modo que una polarización lineal fija se\n    desvanecería por momentos. Las otras opciones son falsas: la hélice no está pensada para\n    trabajar en dos bandas (a), al ser directiva hay que orientarla, y es más incómoda que una\n    colineal omnidireccional (c), y para las ruedas locales bastan una vertical o una Yagi (d).\n    #no-esta[Antena helicoidal: hilo arrollado en espiral (hélice) delante de un plano reflector. Trabajando\n    en modo axial es directiva en la dirección de su eje y su polarización es circular (el campo\n    eléctrico gira); su ganancia crece con el número de espiras. Esa polarización circular es la que\n    se emplea en comunicaciones por satélite, porque no depende de cómo quede orientada la antena\n    del satélite ni de la rotación de Faraday que introduce la ionosfera.]\n  "
+  },
+  {
+   "id": "C-T6.5",
+   "clave": "c",
+   "enunciado": "Las antenas y las líneas de alimentación:",
+   "opciones": [
+    "No pueden ser de distinta impedancia",
+    "Necesitan siempre interconectarse por adaptadores",
+    "Necesitan adaptadores o no según sus impedancias",
+    "Forman un conjunto resonante"
+   ],
+   "sol": "\n    Si la impedancia de la antena coincide con la de la línea (por ejemplo, antena de 50 Ω y coaxial\n    de 50 Ω) se conectan directamente: no hay reflexión y no hace falta adaptador. Si difieren mucho\n    hay que intercalar un adaptador (transformador, tramo de cuarto de onda o acoplador de antena)\n    para evitar la onda estacionaria, y un balun si además una es simétrica y la otra no. Una\n    diferencia pequeña se tolera: un dipolo de 73 Ω con coaxial de 50 Ω da una ROE de 1,46. Por eso\n    a y b son falsas. La opción d tampoco es una regla: lo esencial es la adaptación de impedancias,\n    no que el conjunto resuene. #vease[(Véase tema T6, sección «Líneas de transmisión y\n    adaptación».)]\n  "
+  },
+  {
+   "id": "C-T6.6",
+   "clave": "c",
+   "enunciado": "Los elementos variables de que, generalmente, se dispone en serie en la base de una antena para\najustar a la resonancia son:",
+   "opciones": [
+    "Una resistencia y una bobina",
+    "Dos reóstatos",
+    "Una bobina y un condensador",
+    "Un condensador y una resistencia"
+   ],
+   "sol": "\n    Ajustar a la resonancia es anular la reactancia de la antena. Una antena más corta que la\n    resonante es capacitiva y se compensa con una bobina en serie; una más larga es inductiva y se\n    compensa con un condensador en serie. Por eso en la base se dispone una bobina variable y un\n    condensador variable, y se ajustan hasta que la corriente de antena es máxima. Las resistencias\n    y los reóstatos no sirven: no cancelan reactancia, solo disipan potencia en forma de calor.\n    Tampoco sirven interruptores, fusibles ni lámparas, que aparecen como distractores en otras\n    versiones de la pregunta. #vease[(Véase tema T6, sección «El dipolo y otras antenas» (antena\n    corta: reactancia capacitiva; larga: inductiva), y el apartado sobre adaptación del capítulo de\n    fundamentos.)]\n  "
+  },
+  {
+   "id": "C-T6.7",
+   "clave": "b",
+   "enunciado": "Para alargar y acortar la longitud de una antena para usarla como multibanda se conectan:",
+   "opciones": [
+    "Circuitos L-C serie a determinadas distancias del centro",
+    "Circuitos L-C paralelos a determinadas distancias del centro",
+    "Circuitos L-C serie en la línea de alimentación de antena",
+    "Circuitos L-C paralelos en la línea de alimentación de antena"
+   ],
+   "sol": "\n    Son las trampas: circuitos L-C en paralelo intercalados en cada brazo, a determinada distancia\n    del centro. A su frecuencia de resonancia, un circuito paralelo presenta impedancia máxima y\n    aísla el tramo exterior del brazo, de modo que la antena queda con la longitud propia de esa\n    banda. En la banda más baja la trampa se comporta como una bobina y el hilo exterior sí\n    participa, con lo que la antena se alarga. Un circuito serie tendría impedancia mínima en su\n    resonancia y no aislaría nada (a), y colocados en la línea de alimentación (c y d) no cambiarían\n    la longitud de la antena. La clave publicada suele dar la a: es un error. #vease[(Véase tema T6,\n    sección «El dipolo y otras antenas».)]\n    #no-esta[Resonancia paralelo: un circuito L-C en paralelo («tanque») presenta impedancia máxima a su\n    frecuencia de resonancia —para ella es un muro— y uno en serie, mínima. Por eso las trampas son\n    circuitos paralelos: intercaladas en los brazos de un dipolo, en la banda alta cortan el hilo\n    exterior y dejan solo el tramo interior resonante; en la banda baja, por debajo de su\n    resonancia, actúan como una bobina de carga y el tramo exterior vuelve a contar, con lo que la\n    antena se alarga.]\n    #_apb1-clave[«Circuitos L-C serie a determinadas distancias del centro». Es la clave que dan las\n    recopilaciones de exámenes reales (2007–2011): conviene conocerla por si aparece idéntica en el\n    examen, aunque la respuesta razonada arriba sea la técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T6.8",
+   "clave": "d",
+   "enunciado": "De los diversos procedimientos que a continuación se indican, para aumentar el alcance de una\nemisora el primero al que hay que recurrir, si es factible, es el siguiente:",
+   "opciones": [
+    "Aumentar la potencia de emisión",
+    "Aumentar la anchura de banda",
+    "Aumentar la tensión del paso final",
+    "Aumentar la directividad de la antena"
+   ],
+   "sol": "\n    La antena es la forma más económica y eficaz de ganar alcance. Una antena más directiva\n    concentra la energía en la dirección del corresponsal —equivale a radiar más potencia en ese\n    sentido— y, por reciprocidad, capta también mejor sus señales. Duplicar la potencia del\n    transmisor solo aporta 3 dB y exige un amplificador; una antena de 10 dBd multiplica por 10 la\n    potencia efectiva radiada sin gastar un vatio más. Aumentar la anchura de banda (b) no da\n    alcance, y subir la tensión del paso final (c) es otra manera de subir potencia, con los mismos\n    inconvenientes que a. En la variante «se aumenta el alcance de una emisora si se aumenta…», la\n    respuesta es igualmente la directividad de la antena: la reactancia, la polarización negativa de\n    rejilla y la corriente inversa de pico no influyen en el alcance. #vease[(Véase tema T6, sección\n    «El dipolo y otras antenas».)]\n  "
+  },
+  {
+   "id": "C-T6.9",
+   "clave": "a",
+   "enunciado": "La influencia de un condensador en serie en la base de la antena es:",
+   "opciones": [
+    "Aumentar su frecuencia de resonancia",
+    "Disminuir su frecuencia de resonancia",
+    "No influye en la frecuencia de resonancia",
+    "Mejora la estabilidad de la frecuencia"
+   ],
+   "sol": "\n    Un condensador en serie añade reactancia capacitiva, que se resta de la reactancia inductiva que\n    presenta el hilo por encima de su resonancia: la antena se comporta como si fuese más corta.\n    Como una antena más corta resuena a una frecuencia más alta, el condensador sube la frecuencia\n    de resonancia; es el efecto contrario al de una bobina de carga, que la baja (b falsa, c falsa).\n    La estabilidad de la frecuencia (d) depende del oscilador del transmisor, no de la antena.\n    #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]\n    #no-esta[Bobina y condensador en serie con la antena. Una bobina añade reactancia inductiva: alarga\n    eléctricamente la antena y baja su frecuencia de resonancia (bobinas de carga). Un condensador\n    añade reactancia capacitiva, que compensa la inductiva de una antena demasiado larga para la\n    banda: la acorta eléctricamente y sube su frecuencia de resonancia. Regla: bobina, alargar y\n    bajar la frecuencia; condensador, acortar y subirla.]\n  "
+  },
+  {
+   "id": "C-T6.10",
+   "clave": "a",
+   "enunciado": "Se ajustan los elementos de resonancia de la antena variándolos de modo que la corriente en la\nmisma:",
+   "opciones": [
+    "Alcance un máximo",
+    "Presente un mínimo",
+    "Se mantenga invariable",
+    "Haga saltar chispas en el condensador de antena"
+   ],
+   "sol": "\n    En resonancia se anula la reactancia del conjunto (antena más elementos de ajuste) y solo queda\n    la resistencia: la impedancia es mínima y, con la misma tensión aplicada, la corriente es\n    máxima. Por eso se ajustan la bobina o el condensador de antena mirando el amperímetro de antena\n    hasta que marque el máximo. Una corriente mínima indica justo lo contrario, una antena muy\n    desintonizada; una corriente que no cambia indica que el ajuste no actúa; y las chispas en el\n    condensador serían síntoma de sobretensión o de mal aislamiento, nunca el objetivo del ajuste.\n    #vease[(Véase tema T6, sección «El dipolo y otras antenas» (resonancia: impedancia resistiva\n    pura), y resonancia serie en el capítulo de fundamentos (impedancia mínima, corriente máxima).)]\n  "
+  },
+  {
+   "id": "C-T6.11",
+   "clave": "a",
+   "enunciado": "Para acortar la longitud eléctrica de una antena se puede proceder a:",
+   "opciones": [
+    "Insertar un condensador, en serie, en la base",
+    "Alargar la longitud del hilo de antena",
+    "Aumentar la corriente de antena",
+    "Modular menos profundamente"
+   ],
+   "sol": "\n    Un condensador en serie en la base añade reactancia capacitiva y hace que la antena se comporte\n    como si tuviera menos hilo: su longitud eléctrica disminuye y resuena más alto. Alargar el hilo\n    (b) hace justo lo contrario. La corriente de antena (c) y la profundidad de modulación (d) no\n    cambian la longitud de la antena, solo la potencia radiada o la calidad de la señal. Ojo al\n    sentido inverso: para que una antena físicamente corta resuene en una frecuencia más baja, lo\n    que se añade es una bobina de carga, que la alarga eléctricamente. #vease[(Véase tema T6,\n    sección «El dipolo y otras antenas».)]\n    #no-esta[Longitud eléctrica de una antena: la que «ve» la señal, que puede diferir de la física al\n    intercalar elementos reactivos en serie. Un condensador acorta eléctricamente la antena (sube su\n    frecuencia de resonancia) y se usa cuando el hilo es demasiado largo para la banda. Una bobina\n    la alarga (baja la frecuencia de resonancia) y se usa, como bobina de carga, cuando el hilo es\n    demasiado corto.]\n  "
+  },
+  {
+   "id": "C-T6.12",
+   "clave": "c",
+   "enunciado": "El cable que une la antena al emisor debe:",
+   "opciones": [
+    "Ser aéreo",
+    "Estar enterrado",
+    "Estar apantallado",
+    "No ser de acero ni estar enterrado"
+   ],
+   "sol": "\n    La línea de alimentación tiene que llevar la señal a la antena sin radiar ella misma y sin\n    captar interferencias. Por eso se emplea cable apantallado (coaxial): el conductor central va\n    rodeado de una malla, conectada a masa, que confina el campo dentro del cable. Que el cable sea\n    aéreo o vaya enterrado (a y b) no es una condición: lo que se exige es el apantallado. La opción\n    d tampoco recoge una exigencia de la línea de alimentación. #vease[(Véase tema T6, sección\n    «Líneas de transmisión y adaptación» (coaxial y malla), y tema T9 (apantallamiento).)]\n    #no-esta[Un cable coaxial consta de conductor central, dieléctrico y malla exterior. La malla encierra el\n    campo electromagnético: el cable no radia, sus características no dependen de los metales ni del\n    suelo que tenga cerca, y no capta ruido ni interferencias. Esa es la razón de usar cable\n    apantallado entre el emisor y la antena. La línea bifilar abierta es la excepción, pero exige\n    simetría y mantenerla alejada de objetos metálicos.]\n  "
+  },
+  {
+   "id": "C-T6.13",
+   "clave": "c",
+   "enunciado": "El diagrama de radiación de una antena nos da:",
+   "opciones": [
+    "La banda de frecuencias que puede radiar en las distintas direcciones",
+    "El alcance de la radiación en función de la dirección",
+    "La distribución de la energía radiada en el espacio",
+    "La distribución de su adaptación en el espacio"
+   ],
+   "sol": "\n    El diagrama de radiación es la representación gráfica de cómo se reparte en el espacio la\n    energía que radia la antena: muestra la intensidad relativa en cada dirección (lóbulo principal,\n    lóbulos secundarios y nulos). Es una propiedad de la dirección, no de la banda de frecuencias\n    (a) ni de la adaptación (d), que depende de la impedancia. El alcance (b) depende además de la\n    potencia, de la propagación y del receptor; el diagrama solo lo condiciona de forma indirecta.\n    #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]\n    #no-esta[Diagrama de radiación: gráfica, polar o en tres dimensiones, de la intensidad radiada en cada\n    dirección respecto de la antena. El lóbulo principal indica hacia dónde radia más; de él se leen\n    el ancho de haz, la relación adelante-atrás y los nulos.]\n  "
+  },
+  {
+   "id": "C-T6.14",
+   "clave": "d",
+   "enunciado": "Cuando se dice que una antena está sintonizada:",
+   "opciones": [
+    "Cuando se sintonice con condensador",
+    "Si está polarizada respecto a tierra",
+    "Si la señal resuena en frecuencias altas",
+    "Si la antena resuena a la frecuencia de la señal"
+   ],
+   "sol": "\n    Una antena está sintonizada cuando resuena a la frecuencia de la señal con la que se la\n    alimenta: su longitud eléctrica es la adecuada y su impedancia es resistiva pura, sin\n    reactancia. Sintonizar con un condensador (a) es solo una de las maneras de ajustar una antena,\n    no su definición. La polarización respecto a tierra (b) es la orientación del campo radiado, y\n    nada tiene que ver con la sintonía. Y quien resuena es la antena, no la señal, y no solo en\n    frecuencias altas (c). #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]\n  "
+  },
+  {
+   "id": "C-T6.15",
+   "clave": "c",
+   "enunciado": "En una línea de transmisión, la relación de onda estacionaria es:",
+   "opciones": [
+    "Potencia del transmisor − atenuación del cable entre transmisor y antena",
+    "Potencia máxima / potencia mínima",
+    "$(|V_\"máx\"|) / (|V_\"mín\"|)$",
+    "$(|V_\"máx\"| + |V_\"mín\"|) / (|V_\"máx\"| − |V_\"mín\"|)$"
+   ],
+   "sol": "\n    La onda estacionaria resulta de sumar la onda directa y la reflejada: sus máximos de tensión\n    valen $V_d + V_r$ y sus mínimos $V_d − V_r$. La ROE es el cociente entre ambos, ROE\n    $= V_\"máx\" slash V_\"mín\" = (1 + |ρ|) slash (1 − |ρ|)$, y sale lo mismo con las intensidades. La\n    opción d da $2V_d slash 2V_r = 1 slash |ρ|$, que no es la ROE. La relación de potencias\n    máxima/mínima (b) sería el cuadrado de la ROE, y la resta de a es simplemente la potencia que\n    llega a la antena, sin ninguna onda estacionaria de por medio. #vease[(Véase tema T6, sección\n    «Líneas de transmisión y adaptación».)]\n  "
+  },
+  {
+   "id": "C-T6.16",
+   "clave": "b",
+   "enunciado": "¿Qué respuesta es cierta para una antena que radie en condiciones ideales de espacio libre?",
+   "opciones": [
+    "Al aplicarle una potencia de 100 vatios la ROE estará por encima de 1,2.",
+    "La potencia aplicada y la ROE medida no tendrán nada que ver.",
+    "Al aplicarle una potencia de 1000 vatios la ROE estará entre 1,1 y 1,5.",
+    "Al aplicarle una potencia de 10 vatios la ROE será de 1."
+   ],
+   "sol": "\n    La ROE depende solo de cuánto difiere la impedancia de la antena de la de la línea:\n    $ρ = (Z_L − Z_0) slash (Z_L + Z_0)$. En el espacio libre ideal (sin objetos cercanos, sin arcos\n    ni calentamientos) la impedancia de la antena no cambia con la potencia aplicada, y la ROE es la\n    misma con 10 W que con 1000 W. Las otras tres opciones ligan un valor concreto de ROE a una\n    potencia concreta, cosa que no tiene fundamento: con 10 W la ROE valdrá 1 solo si la antena está\n    perfectamente adaptada, y eso es independiente de la potencia. #vease[(Véase tema T6, sección\n    «Líneas de transmisión y adaptación».)]\n    #no-esta[La ROE mide la adaptación de impedancias, no la potencia: una antena lineal presenta la misma\n    impedancia con 1 W que con 1000 W, y por tanto la misma ROE. Solo en casos no ideales (arcos,\n    calentamiento de una trampa o de un núcleo de ferrita, cambios del entorno) la ROE varía con la\n    potencia, y entonces es síntoma de avería o de instalación defectuosa.]\n  "
+  },
+  {
+   "id": "C-T6.17",
+   "clave": "c",
+   "enunciado": "La relación entre la longitud física de un cable y su longitud eléctrica es:",
+   "opciones": [
+    "Las dos longitudes son iguales",
+    "La diferencia de las dos",
+    "La longitud física es igual a la eléctrica, multiplicada por el factor de velocidad de\npropagación",
+    "La longitud física es mayor que la eléctrica"
+   ],
+   "sol": "\n    En un cable la onda avanza más despacio que en el aire: lo hace a la fracción FV $= v slash c$\n    de la velocidad de la luz (factor de velocidad), siempre menor que 1 (0,66 en el coaxial de\n    polietileno). Su longitud de onda dentro del cable es también FV veces menor, así que una\n    longitud eléctrica dada (la que tendría en el aire) ocupa menos cable: $L_(\"fis\") = L_(\"el\")$ ×\n    FV. Por ejemplo, un cuarto de onda a 14 MHz es 5,36 m en el aire y en coaxial de FV = 0,66 son\n    5,36 × 0,66 ≈ 3,5 m. La física es, pues, menor que la eléctrica (d es falsa), y solo coinciden\n    si FV = 1 (a). Una «relación» es un cociente, no una diferencia (b). Algunas listas publicadas\n    dan por buena la d: es un error. #vease[(Véase tema T6, sección «Líneas de transmisión y\n    adaptación».)]\n    #no-esta[Longitud eléctrica: la que tendría en el aire el tramo que produce el mismo desfase. Como la\n    onda va más lenta en el cable, el tramo físico necesario es más corto: $L_(\"fis\") = L_(\"el\")$ ×\n    FV, con FV igual al inverso de la raíz cuadrada de la constante dieléctrica del aislante (≈0,66\n    en polietileno, 1 en el vacío). Por eso un «cuarto de onda» de coaxial mide menos que el cuarto\n    de onda en el aire.]\n    #_apb1-clave[«La longitud física es mayor que la eléctrica». Es la clave que dan las recopilaciones de\n    exámenes reales (2007–2011): conviene conocerla por si aparece idéntica en el examen, aunque la\n    respuesta razonada arriba sea la técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T6.18",
+   "clave": "b",
+   "enunciado": "Entre las antenas de apertura están:",
+   "opciones": [
+    "Las yagis.",
+    "Las de bocina.",
+    "Las verticales.",
+    "Los dipolos."
+   ],
+   "sol": "\n    Las antenas de apertura radian a través de una abertura (una boca) por la que sale el campo: la\n    bocina, el reflector parabólico con su alimentador, la guía ranurada. Se emplean en microondas,\n    donde las dimensiones de la apertura son manejables. Las Yagis, las verticales y los dipolos\n    son, en cambio, antenas de hilo, formadas por elementos lineales. #vease[(Véase tema T6, sección\n    «El dipolo y otras antenas».)]\n  "
+  },
+  {
+   "id": "C-T6.19",
+   "clave": "d",
+   "enunciado": "Señale el diagrama de radiación correspondiente a una antena Yagi:",
+   "opciones": [
+    "#box(baseline: 45%, _apb1-donut(1))",
+    "#box(baseline: 45%, _apb1-rosa)",
+    "#box(baseline: 45%, _apb1-donut(2))",
+    "#box(baseline: 45%, _apb1-yagi)"
+   ],
+   "sol": "\n    La Yagi es una antena directiva: el reflector y los directores, que son elementos parásitos,\n    concentran la radiación hacia delante. Su diagrama es un lóbulo principal grande, con un lóbulo\n    trasero y lóbulos laterales muy pequeños: la figura d). Las figuras a) y c) son toros, con\n    máximo en todo el plano horizontal y nulo en el eje vertical, es decir, radiación\n    omnidireccional, propia de una vertical o de un dipolo vertical (la a, más aplastada; la c, más\n    redondeada). La b) reparte la energía en varios lóbulos de tamaño parecido y direcciones\n    distintas, sin una dirección privilegiada, como en las antenas largas de varias longitudes de\n    onda. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]\n    #no-esta[Un diagrama de radiación en tres dimensiones es la superficie que une los puntos donde la antena\n    radia con la misma intensidad relativa: cuanto más lejos del centro, más campo en esa dirección.\n    Conviene reconocer tres formas. El #strong[toro] es el de un dipolo o una vertical: nulo en la\n    dirección de su eje y máximo en todo el plano perpendicular, omnidireccional en ese plano. El\n    #strong[lóbulo único] es el de una Yagi o una parabólica: una dirección de máxima radiación, más\n    estrecha cuantos más directores lleva la antena, con un lóbulo trasero pequeño (la relación\n    adelante-atrás). Los diagramas de #strong[muchos lóbulos] corresponden a antenas largas, de\n    varias longitudes de onda. Para distinguir a la vista una antena directiva de una\n    omnidireccional basta buscar un lóbulo que destaque claramente sobre los demás.]\n  "
+  },
+  {
+   "id": "C-T6.20",
+   "clave": "d",
+   "enunciado": "¿Qué ventajas presenta la antena dipolo en V invertida?",
+   "opciones": [
+    "Un valor de impedancia próximo a 75 Ω y polarización circular.",
+    "Un valor de impedancia próximo a 75 Ω y un diagrama de radiación muy directivo.",
+    "Un valor de impedancia constante y elevada ganancia.",
+    "Un valor de impedancia próximo a 50 Ω y un diagrama de radiación prácticamente omnidireccional."
+   ],
+   "sol": "\n    La V invertida es un dipolo con el centro arriba, en el mástil, y los brazos caídos hacia el\n    suelo. Al inclinarlos, la impedancia en el punto de alimentación baja de ∼73 Ω a ∼50 Ω, justo la\n    del coaxial de los equipos, y el diagrama se redondea: en el plano horizontal resulta casi\n    omnidireccional. No hay polarización circular (a), ni diagrama muy directivo (b: eso es propio\n    de una Yagi), ni impedancia «constante» y ganancia elevada (c): sigue siendo un dipolo, de unos\n    2,15 dBi. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]\n    #no-esta[#strong[Dipolo en V invertida.] Es un dipolo de media onda alimentado en el centro que se cuelga\n    de un único mástil, con los brazos inclinados hacia el suelo y un ángulo entre ellos de unos 90\n    a 120 grados. Al inclinar los brazos, la impedancia del punto de alimentación baja de los ∼73 Ω\n    del dipolo horizontal hacia ∼50 Ω, la del coaxial habitual. El diagrama también cambia: los\n    brazos inclinados añaden una componente de polarización vertical y los nulos que el dipolo\n    horizontal tiene en la dirección de sus extremos se atenúan, de modo que en el plano horizontal\n    se acerca a un diagrama omnidireccional. Sigue siendo un dipolo, con unos 2,15 dBi de ganancia:\n    nada directivo.]\n  "
+  },
+  {
+   "id": "C-T6.21",
+   "clave": "c",
+   "enunciado": "Señale la conexión correcta entre equipos:",
+   "opciones": [
+    "#_apb1-cadena(\"acop\", \"roe\", \"amp\")",
+    "#_apb1-cadena(\"roe\", \"acop\", \"amp\")",
+    "#_apb1-cadena(\"amp\", \"roe\", \"acop\")",
+    "#_apb1-cadena(\"amp\", \"acop\", \"roe\")"
+   ],
+   "sol": "\n    El orden canónico es transceptor, amplificador lineal, medidor de ROE, acoplador de antena y\n    antena (opción c). El lineal va pegado al transceptor porque es éste quien lo excita; el medidor\n    de ROE, a su salida, vigila la adaptación que ve el amplificador; y el acoplador, justo antes de\n    la antena, se ajusta hasta que el medidor marca 1:1. En a) y b) el acoplador o el medidor quedan\n    entre el transceptor y el lineal, de modo que el amplificador sale directo a la antena sin\n    adaptar ni medir. En d) el acoplador precede al medidor: éste mide ya tras el ajuste y no\n    muestra si el transmisor ve 50 Ω. #vease[(Véase tema T6, sección «La estación y su\n    adaptación».)]\n  "
+  },
+  {
+   "id": "C-T6.22",
+   "clave": "c",
+   "enunciado": "Señale la configuración de conexión de equipos correcta:",
+   "opciones": [
+    "#_apb1-cadena(\"acop\", \"amp\")",
+    "#_apb1-cadena(\"acop\", \"roe\")",
+    "#_apb1-cadena(\"roe\", \"acop\")",
+    "#_apb1-cadena(\"campo\", \"amp\")"
+   ],
+   "sol": "\n    Sin amplificador, el orden es transceptor, medidor de ROE, acoplador de antena y antena (opción\n    c): el medidor, a la salida del transceptor, mide la adaptación que éste ve, y se retoca el\n    acoplador hasta que marque 1:1. En b) el acoplador va antes del medidor, que solo vería la línea\n    de antena y no indicaría si el transmisor está adaptado. En a) falta el medidor y el acoplador\n    queda entre transceptor y amplificador, con el lineal conectado directo a la antena. En d) no\n    hay acoplador, y el medidor de campo es un instrumento de recepción (mide la intensidad de campo\n    radiada), que no se intercala en la línea. #vease[(Véase tema T6, sección «La estación y su\n    adaptación».)]\n  "
+  },
+  {
+   "id": "C-T7.1",
+   "clave": "c",
+   "enunciado": "Un enlace radioeléctrico entre España y Nueva Zelanda podría emplear:",
+   "opciones": [
+    "una frecuencia de la banda HF por encima de la frecuencia crítica",
+    "cualquier frecuencia múltiplo de la frecuencia crítica",
+    "una frecuencia de la banda HF por debajo de la frecuencia crítica",
+    "ninguna de las respuestas anteriores es correcta"
+   ],
+   "sol": "\n    España y Nueva Zelanda son casi antípodas (cerca de 20 000 km): solo se llega por HF, con la\n    onda de espacio reflejada en la ionosfera a varios saltos. Una frecuencia #emph[por debajo] de\n    la frecuencia crítica $f_c$ se refleja siempre, con cualquier ángulo de incidencia, así que el\n    enlace es posible: es la respuesta del examen. La a) no sirve como regla, porque por encima de\n    $f_c$ la onda solo regresa con incidencia oblicua y hasta la MUF; pasada esta, atraviesa la\n    ionosfera y se pierde. La b) es falsa: un múltiplo cualquiera ($2f_c$, $10f_c$ …) puede rebasar\n    la MUF. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]\n    #no-esta[La frecuencia crítica $f_c$ es la mayor frecuencia que la ionosfera refleja cuando la onda sube\n    en vertical. Todo lo que está por debajo de $f_c$ vuelve a tierra con cualquier ángulo (aunque\n    de día la capa D absorbe las más bajas). Lo que está por encima solo vuelve si incide de forma\n    oblicua, y deja de volver al superar la MUF ($f_c slash cos θ$). Por eso, cuando una pregunta\n    habla de la frecuencia crítica sin más precisiones, el examen da por buena la frecuencia\n    #emph[por debajo] de $f_c$ y descarta la que queda por encima.]\n  "
+  },
+  {
+   "id": "C-T7.2",
+   "clave": "b",
+   "enunciado": "Las reflexiones lunares se hacen principalmente en:",
+   "opciones": [
+    "ondas decamétricas",
+    "ondas métricas",
+    "ondas decimétricas",
+    "ondas milimétricas"
+   ],
+   "sol": "\n    El rebote lunar (EME) necesita una frecuencia que atraviese la ionosfera, lo que deja fuera en\n    la práctica a las decamétricas (HF), y antenas de ganancia elevada pero manejables. La banda de\n    EME por excelencia es la de 144 MHz (2 m): ondas métricas. También se usan 432 MHz\n    (decimétricas) y las microondas, pero con mucha menos actividad. Las milimétricas (30–300 GHz)\n    casi no se emplean: la atmósfera las atenúa mucho y el apuntado es muy crítico. #vease[(Véase\n    tema T7, sección «Fenómenos de propagación».)]\n    #no-esta[El rebote lunar (EME, #emph[Earth-Moon-Earth]) usa la Luna como reflector pasivo: 770 000 km de\n    ida y vuelta y del orden de 250 dB de pérdidas a 144 MHz. La señal debe cruzar la ionosfera, así\n    que hacen falta VHF o frecuencias superiores. La banda clásica y más concurrida es 144 MHz (2 m,\n    ondas métricas); le siguen 432 y 1296 MHz y algunas microondas.]\n  "
+  },
+  {
+   "id": "C-T7.3",
+   "clave": "c",
+   "enunciado": "La gama de frecuencias comprendida entre 300 y 3000 MHz corresponde a las:",
+   "opciones": [
+    "ondas kilométricas",
+    "ondas decamétricas",
+    "ondas decimétricas",
+    "ondas milimétricas"
+   ],
+   "sol": "\n    Es la banda UHF. Con $λ = c slash f$: a 300 MHz, $λ = 1$ m, y a 3000 MHz, $λ = 0,1$ m = 10 cm.\n    Longitudes de onda de 10 a 100 cm, decenas de centímetros: ondas decimétricas. Las kilométricas\n    son 30–300 kHz (LF), las decamétricas 3–30 MHz (HF) y las milimétricas 30–300 GHz (EHF).\n    #vease[(Véase tema T7, sección «Cómo se nombran las bandas».)]\n  "
+  },
+  {
+   "id": "C-T7.4",
+   "clave": "b",
+   "enunciado": "En condiciones normales, para una misma potencia radiada, las ondas que llegarían con más\nintensidad a un punto alejado serían:",
+   "opciones": [
+    "cualquiera de las superiores a 144 MHz",
+    "las de 144 MHz",
+    "las de 430 MHz",
+    "las superiores a 430 MHz"
+   ],
+   "sol": "\n    Con la misma potencia radiada y antenas de igual ganancia, la atenuación crece con la\n    frecuencia: $L = 32,4 + 20 log_10 f + 20 log_10 d$. Pasar de 144 a 430 MHz añade\n    $20 log_10(430 slash 144) ≈ 9,5$ dB de pérdida, y a frecuencias aún mayores, más. Además la\n    lluvia, la vegetación y los obstáculos atenúan más cuanto más alta es la frecuencia. Llega más\n    fuerte la señal de menor frecuencia, la de 144 MHz; las otras tres opciones son frecuencias más\n    altas. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]\n  "
+  },
+  {
+   "id": "C-T7.5",
+   "clave": "c",
+   "enunciado": "La gama de frecuencias comprendida entre 30 y 300 MHz se conoce por el símbolo:",
+   "opciones": [
+    "VLF",
+    "HF",
+    "VHF",
+    "EHF"
+   ],
+   "sol": "\n    Cada banda UIT abarca una década: VLF 3–30 kHz, LF 30–300 kHz, MF 300 kHz–3 MHz, HF 3–30 MHz,\n    VHF 30–300 MHz, UHF 300–3000 MHz, SHF 3–30 GHz y EHF 30–300 GHz. El margen de 30 a 300 MHz es\n    VHF (#emph[Very High Frequency]), ondas métricas de 1 a 10 m; ahí está, por ejemplo, la banda de\n    2 m. VLF queda varias décadas por debajo, HF una década por debajo y EHF muy por encima.\n    #vease[(Véase tema T7, sección «Cómo se nombran las bandas».)]\n  "
+  },
+  {
+   "id": "C-T7.6",
+   "clave": "a",
+   "enunciado": "La abreviatura HF indica la subdivisión métrica correspondiente a ondas:",
+   "opciones": [
+    "decamétricas",
+    "métricas",
+    "kilométricas",
+    "hectométricas"
+   ],
+   "sol": "\n    La «subdivisión métrica» es el nombre por longitud de onda que la UIT asigna a cada banda. HF\n    (#emph[High Frequency]) va de 3 a 30 MHz, es decir, de 100 a 10 m: decenas de metros, ondas\n    decamétricas. Las métricas corresponden a VHF (30–300 MHz), las hectométricas a MF (300 kHz–3\n    MHz) y las kilométricas a LF (30–300 kHz). #vease[(Véase tema T7, sección «Cómo se nombran las\n    bandas».)]\n  "
+  },
+  {
+   "id": "C-T7.7",
+   "clave": "a",
+   "enunciado": "La banda de 430 a 440 MHz pertenece a las ondas:",
+   "opciones": [
+    "UHF",
+    "métricas",
+    "VHF",
+    "SHF"
+   ],
+   "sol": "\n    Los 430–440 MHz (la banda de 70 cm, $λ ≈ 300 slash 435 ≈ 0,7$ m) caen dentro del margen de 300 a\n    3000 MHz, que es UHF: ondas decimétricas. «Métricas» y VHF son la misma banda, que termina en\n    300 MHz; SHF (centimétricas) empieza en 3 GHz. #vease[(Véase tema T7, sección «Cómo se nombran\n    las bandas».)]\n  "
+  },
+  {
+   "id": "C-T7.8",
+   "clave": "d",
+   "enunciado": "La gama de frecuencias comprendida entre 30 y 300 kHz corresponde a las ondas:",
+   "opciones": [
+    "decimétricas",
+    "métricas",
+    "centimétricas",
+    "kilométricas"
+   ],
+   "sol": "\n    Es la banda LF. Con $λ (\"m\") = 300 thin 000 slash f$ (kHz): a 30 kHz resultan 10 000 m y a 300\n    kHz, 1000 m. Longitudes de 1 a 10 km: ondas kilométricas. Las decimétricas (UHF), las métricas\n    (VHF) y las centimétricas (SHF) están muy por encima, en MHz y GHz. #vease[(Véase tema T7,\n    sección «Cómo se nombran las bandas».)]\n  "
+  },
+  {
+   "id": "C-T7.9",
+   "clave": "c",
+   "enunciado": "La frecuencia de 144 MHz está incluida en las ondas:",
+   "opciones": [
+    "milimétricas",
+    "kilométricas",
+    "métricas",
+    "hectométricas"
+   ],
+   "sol": "\n    A 144 MHz, $λ = 300 slash 144 ≈ 2,08$ m (la banda de 2 m). Está entre 30 y 300 MHz: VHF, ondas\n    métricas (1–10 m). Las milimétricas son EHF (30–300 GHz), las kilométricas LF (30–300 kHz) y las\n    hectométricas MF (300 kHz–3 MHz). #vease[(Véase tema T7, sección «Cómo se nombran las bandas».)]\n  "
+  },
+  {
+   "id": "C-T7.10",
+   "clave": "d",
+   "enunciado": "La onda que rebasa el horizonte y llega a la atmósfera se denomina:",
+   "opciones": [
+    "onda de horizonte visto",
+    "onda de transmisión directa",
+    "onda especial indirecta",
+    "onda espacial"
+   ],
+   "sol": "\n    La onda espacial (en este cuaderno, onda de espacio) sale de la antena hacia arriba, rebasa el\n    horizonte, alcanza la ionosfera y regresa a tierra por refracción en ella; es la del DX en HF.\n    La onda directa viaja en visión directa y no pasa del horizonte radioeléctrico. «Onda de\n    horizonte visto» y «onda especial indirecta» no son tipos de propagación; ojo con «especial»,\n    que no es «espacial». #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]\n  "
+  },
+  {
+   "id": "C-T7.11",
+   "clave": "b",
+   "enunciado": "Si una onda electromagnética atraviesa un objeto, se produce un efecto de:",
+   "opciones": [
+    "reflexión",
+    "atenuación",
+    "intermodulación",
+    "amplificación"
+   ],
+   "sol": "\n    Al atravesar un objeto (un muro, un árbol, una persona), la onda cede parte de su energía y sale\n    con menos intensidad: se atenúa. La reflexión ocurre en la superficie y devuelve parte de la\n    onda sin atravesarla; la intermodulación es cosa de los elementos no lineales (amplificadores,\n    mezcladores), no de un obstáculo pasivo; y un objeto pasivo no aporta energía, así que no puede\n    amplificar. #vease[(Véase tema T7, introducción (atenuación de la señal).)]\n    #no-esta[Cuando una onda encuentra un obstáculo pueden darse varios efectos: #strong[reflexión] (parte\n    rebota en la superficie), #strong[refracción] (cambia de dirección al pasar de un medio a otro),\n    #strong[difracción] (se curva al rodear bordes) y #strong[absorción o atenuación] (si lo\n    atraviesa, pierde energía en forma de calor). La pérdida es tanto mayor cuanto más grueso o más\n    conductor es el obstáculo.]\n  "
+  },
+  {
+   "id": "C-T7.12",
+   "clave": "b",
+   "enunciado": "¿Qué ha pasado probablemente si en la frecuencia en la que llevabas media hora haciendo un QSO\naparecen hablando otras estaciones de otro QSO?",
+   "opciones": [
+    "Se han puesto a comunicar encima de tu propia frecuencia.",
+    "Ha variado la propagación y la distancia de salto.",
+    "Se han desplazado desde otra frecuencia porque su frecuencia varía.",
+    "No han preguntado si la frecuencia estaba ocupada y se han puesto a hablar sin más."
+   ],
+   "sol": "\n    En HF, dos QSO pueden compartir frecuencia sin oírse: cada pareja queda en la zona de silencio\n    de la otra, entre donde muere la onda de superficie y donde aterriza la onda reflejada. La\n    ionosfera cambia con la hora, la estación y la actividad solar: al variar la frecuencia crítica\n    y la MUF cambia la distancia de salto, y estaciones que antes no oías aparecen en tu frecuencia.\n    Es lo más probable tras media hora de QSO. La a y la d suponen que alguien te oyó y transmitió\n    encima (posible, pero mala práctica, y no explica por qué aparecen ahora); la c trata una deriva\n    de frecuencia que nada tiene que ver con la propagación. #vease[(Véase tema T7, secciones «La\n    ionosfera y la onda de espacio» (distancia de salto y zona de silencio) y «Fenómenos de\n    propagación».)]\n    #no-esta[La zona de silencio es la región entre el alcance de la onda de superficie y el punto donde cae\n    la onda reflejada en la ionosfera: ahí no se recibe la señal. La distancia de salto depende de\n    la frecuencia crítica, de la MUF y del ángulo de radiación, y estos varían con la hora del día,\n    la estación del año y el ciclo solar; por eso el mapa de quién oye a quién cambia con el tiempo\n    y puede aparecer de pronto otro QSO en tu frecuencia. Antes de llamar conviene preguntar si está\n    ocupada («QRL?»).]\n  "
+  },
+  {
+   "id": "C-T7.13",
+   "clave": "b",
+   "enunciado": "En el siguiente gráfico, si la antena emite tres señales en distintas frecuencias, ¿cuál de ellas tiene una frecuencia superior a la frecuencia crítica?\n    #circuito(caption: none)[\n      #_apb1-iono\n    ]",
+   "opciones": [
+    "Las señales 1 y 2.",
+    "La señal 1.",
+    "La señal 3.",
+    "Las señales 1 y 3."
+   ],
+   "sol": "\n    La frecuencia crítica $f_c$ es la más alta que la ionosfera refleja cuando la onda sube en\n    vertical; lo que la supera atraviesa la capa y se pierde en el espacio. La señal 1 es la única\n    que cruza la ionosfera y escapa: su frecuencia es mayor que $f_c$. La 2 se refleja y vuelve a\n    tierra, luego está por debajo de $f_c$. La 3 ni siquiera sube: viaja pegada al suelo (onda de\n    superficie), propia de las frecuencias más bajas. Las demás opciones incluyen la 2 o la 3, que\n    no superan $f_c$. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]\n  ",
+   "figura": true
+  },
+  {
+   "id": "F-T6.1",
+   "clave": "b",
+   "enunciado": "Una antena tiene una ganancia de 7,85 dBi. Referida al dipolo de media onda, su ganancia es de:",
+   "opciones": [
+    "10 dBd",
+    "5,7 dBd",
+    "7,85 dBd",
+    "3,65 dBd"
+   ],
+   "sol": "El dipolo de media onda ya gana 2,15 dB sobre la antena isótropa, así que la cifra en dBd es 2,15 dB _menor_ que en dBi: $G_\"dBd\" = G_\"dBi\" - 2,15 = 7,85 - 2,15 = 5,7$ dBd. Los 10 dBd suman en vez de restar; los 7,85 dBd ignoran la conversión y confunden las dos referencias; y los 3,65 dBd salen de dividir entre 2,15, cuando los decibelios se suman y se restan, no se dividen. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.2",
+   "clave": "d",
+   "enunciado": "Una antena tiene una ganancia de 10 dBd. Referida a la antena isótropa, su ganancia es de:",
+   "opciones": [
+    "7,85 dBi",
+    "10 dBi",
+    "4,65 dBi",
+    "12,15 dBi"
+   ],
+   "sol": "La isótropa es la referencia más «baja»: el dipolo ya gana 2,15 dB sobre ella. Por eso la misma antena da siempre un número mayor en dBi: $G_\"dBi\" = G_\"dBd\" + 2,15 = 10 + 2,15 = 12,15$ dBi. La Orden IET/1311/2013 (anexo I) distingue así la ganancia isótropa y la relativa al dipolo. Restar (7,85) es el error inverso; 10 dBi no convierte; 4,65 sale de dividir entre 2,15, y los dB no se dividen. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.3",
+   "clave": "a",
+   "enunciado": "Una antena tiene una resistencia de radiación de 36 Ω y una resistencia de pérdidas de 4 Ω. Su eficiencia (rendimiento) es del:",
+   "opciones": [
+    "90 %",
+    "80 %",
+    "10 %",
+    "100 %"
+   ],
+   "sol": "La eficiencia es la fracción de la potencia entregada que se radia: $eta = R_r / (R_r + R_p) = 36 / (36 + 4) = 36 / 40 = 0,9$, es decir, el 90 %; el otro 10 % se convierte en calor. El 10 % es justo la parte perdida, $R_p slash (R_r + R_p)$, no la radiada. El 80 % sale de restar las resistencias en el numerador (36 − 4) y el 100 % solo se daría con $R_p = 0$. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.4",
+   "clave": "c",
+   "enunciado": "A igual ganancia, el área de captura de una antena receptora es mayor cuanto:",
+   "opciones": [
+    "mayor es la frecuencia de trabajo",
+    "mayor es la potencia de la estación corresponsal",
+    "mayor es la longitud de onda (menor la frecuencia)",
+    "mayor es la impedancia de la línea de transmisión"
+   ],
+   "sol": "El área de captura es la superficie equivalente con la que la antena recoge potencia de la onda: $A_e = lambda^2 / (4 pi) G$. A igual ganancia $G$, crece con el cuadrado de la longitud de onda: doblar $lambda$ (bajar la frecuencia a la mitad) multiplica el área por cuatro. Por eso, en las bandas bajas, una antena modesta capta bastante señal. Subir la frecuencia la reduce; la potencia del corresponsal y la impedancia de la línea no aparecen en la fórmula. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.5",
+   "clave": "b",
+   "enunciado": "A una frecuencia dada, el área de captura de una antena receptora es:",
+   "opciones": [
+    "independiente de su ganancia",
+    "proporcional a su ganancia",
+    "inversamente proporcional a su ganancia",
+    "igual siempre a la superficie física de sus elementos"
+   ],
+   "sol": "De $A_e = lambda^2 / (4 pi) G$, con $lambda$ fijada por la frecuencia, el área de captura es directamente proporcional a la ganancia: duplicar la ganancia (3 dB) duplica la superficie efectiva con que la antena capta la señal. No es inversa ni independiente. Tampoco tiene por qué coincidir con el tamaño físico: una antena de hilo apenas tiene superficie y su área de captura es, sin embargo, mucho mayor que la de sus conductores. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.6",
+   "clave": "d",
+   "enunciado": "Un transmisor de 10 W alimenta, mediante un cable que pierde 3 dB, una antena de 6 dBd de ganancia. La potencia efectiva radiada (p.r.e.) es aproximadamente de:",
+   "opciones": [
+    "10 W",
+    "40 W",
+    "80 W",
+    "20 W"
+   ],
+   "sol": "Se suman los decibelios: +6 − 3 = +3 dB netos, que equivale a multiplicar la potencia por 2. La p.r.e. (p.r.a. en la Orden IET/1311/2013, anexo I) es 10 W × 2 = 20 W. Los 40 W aparecen si se olvida el cable (+6 dB ≈ ×4); los 80 W, si se suman ganancia y pérdida (+9 dB ≈ ×8); y los 10 W, si se cree que el cable anula toda la ganancia. #vease[(Véase tema T6, sección «El dipolo y otras antenas» (y tema T1, sección «Potencia, decibelios y DSP»).)]"
+  },
+  {
+   "id": "F-T6.7",
+   "clave": "a",
+   "enunciado": "Un transmisor de 100 W alimenta una antena de 10 dBd de ganancia mediante un cable que pierde 1 dB. La potencia efectiva radiada (p.r.e.) es aproximadamente de:",
+   "opciones": [
+    "800 W",
+    "900 W",
+    "1000 W",
+    "1260 W"
+   ],
+   "sol": "Balance en decibelios: +10 − 1 = +9 dB. Como 3 dB es ×2, 9 dB son tres veces ×2, es decir ×8 (con calculadora, $10^(0,9) approx 7,9$): 100 W × 7,9 ≈ 790 W, unos 800 W. Los 1000 W olvidan el cable; los 900 W tratan los dB como factores (10 − 1 = 9, ×9); los 1260 W suman la pérdida en vez de restarla (+11 dB ≈ ×12,6). #vease[(Véase tema T6, sección «El dipolo y otras antenas» (y tema T1, sección «Potencia, decibelios y DSP»).)]"
+  },
+  {
+   "id": "F-T6.8",
+   "clave": "c",
+   "enunciado": "Para una misma antena y una misma potencia suministrada, la p.i.r.e. (referida a la antena isótropa) es, respecto a la p.r.e. (referida al dipolo de media onda):",
+   "opciones": [
+    "2,15 dB menor",
+    "3 dB mayor",
+    "2,15 dB mayor",
+    "igual"
+   ],
+   "sol": "La p.i.r.e. es la potencia suministrada por la ganancia respecto a la isótropa; la p.r.e. (p.r.a. en la Orden IET/1311/2013, anexo I), por la ganancia respecto al dipolo de media onda. Como el dipolo ya gana 2,15 dB sobre la isótropa, $G_\"dBi\" = G_\"dBd\" + 2,15$: la p.i.r.e. resulta siempre 2,15 dB _mayor_ (factor ≈ 1,64). «Menor» invierte el sentido, los 3 dB confunden con un factor 2 y «igual» solo valdría si ambas referencias coincidieran. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.9",
+   "clave": "b",
+   "enunciado": "Un tramo de cable coaxial con factor de velocidad 0,66 debe medir un cuarto de onda eléctrico para 7 MHz. Su longitud física es aproximadamente de:",
+   "opciones": [
+    "10,7 m",
+    "7 m",
+    "16 m",
+    "4,6 m"
+   ],
+   "sol": "En el aire, $lambda = 300 slash 7 approx 42,9$ m y $lambda slash 4 approx 10,7$ m. Dentro del cable la onda va más despacio, y la longitud física es la eléctrica por el factor de velocidad: $L_\"fis\" = 10,7 times 0,66 approx 7,1$ m, unos 7 m. Los 10,7 m olvidan el factor de velocidad; los 16 m lo dividen en lugar de multiplicar (el tramo real es más corto, no más largo); los 4,6 m lo aplican dos veces. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.10",
+   "clave": "d",
+   "enunciado": "Una antena resistiva pura de 150 Ω se conecta a una línea de 50 Ω. La relación de ondas estacionarias (ROE) es de:",
+   "opciones": [
+    "0,5",
+    "1,5",
+    "2",
+    "3"
+   ],
+   "sol": "Coeficiente de reflexión: $rho = (Z_L - Z_0) / (Z_L + Z_0) = (150 - 50) / (150 + 50) = 0,5$. ROE: $(1 + rho) / (1 - rho) = (1,5) / (0,5) = 3$. Con carga resistiva basta dividir la impedancia mayor entre la menor: 150/50 = 3. El 0,5 es el coeficiente $rho$, no la ROE; el 1,5 es solo el numerador $1 + rho$; y el 2 sale de dividir 100 (la diferencia) entre 50. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.11",
+   "clave": "c",
+   "enunciado": "Un vatímetro direccional indica 100 W de potencia directa y 25 W de potencia reflejada. La ROE de la instalación es de:",
+   "opciones": [
+    "1,25",
+    "4",
+    "3",
+    "2"
+   ],
+   "sol": "La potencia reflejada es $rho^2$ veces la directa, así que $rho = sqrt(25 slash 100) = 0,5$ y ROE $= (1 + 0,5) / (1 - 0,5) = 3$. Coincide con la escala de memoria: ROE 3:1, 25 % reflejado. El 4 sale de dividir las potencias (100/25) sin más; el 1,25 es (100 + 25)/100; y el 2 es la inversa de $rho$. Hay que extraer antes la raíz cuadrada: $rho$ es un cociente de tensiones, no de potencias. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.12",
+   "clave": "a",
+   "enunciado": "Un cable coaxial de 3 dB de pérdidas une el transmisor con la antena. La potencia que llega a la antena es, aproximadamente:",
+   "opciones": [
+    "la mitad de la del transmisor",
+    "una cuarta parte de la del transmisor",
+    "el 70 % de la del transmisor",
+    "la del transmisor menos 3 W"
+   ],
+   "sol": "Una pérdida de 3 dB es una ganancia de −3 dB: la potencia se multiplica por $10^(-0,3) approx 0,5$, y llega la mitad (100 W se quedan en 50 W). Una cuarta parte corresponde a 6 dB. El 70 % es el factor de 3 dB en tensión o corriente, no en potencia. Y el decibelio es una relación, no una cantidad en vatios: no se restan 3 W. #vease[(Véase tema T1, sección «Potencia, decibelios y DSP».)]"
+  },
+  {
+   "id": "F-T6.13",
+   "clave": "c",
+   "enunciado": "Las pérdidas de un cable coaxial, expresadas en decibelios:",
+   "opciones": [
+    "disminuyen al aumentar la frecuencia y aumentan con la longitud",
+    "aumentan con la frecuencia, pero no dependen de la longitud",
+    "aumentan con la frecuencia y con la longitud",
+    "no dependen de la frecuencia, solo de la potencia aplicada"
+   ],
+   "sol": "La atenuación se da en dB por unidad de longitud: es proporcional a la longitud (el doble de cable, el doble de dB) y crece con la frecuencia, por las pérdidas en los conductores y en el dieléctrico. Por eso un mismo coaxial apenas importa en HF y pesa mucho en VHF y UHF. No disminuyen con la frecuencia, no son independientes de la longitud y, en dB, no dependen de la potencia aplicada. #no-esta[Todo cable real atenúa la señal, y la atenuación se da en decibelios por unidad de longitud. Es proporcional a la longitud (si 10 m pierden 1 dB, 30 m pierden 3 dB, o sea, la mitad de la potencia) y crece con la frecuencia: un coaxial que apenas importa en HF puede comerse media potencia en VHF o UHF. A igual frecuencia, el cable grueso pierde menos que el fino, y la línea paralela («de escalera») es la de menores pérdidas.]"
+  },
+  {
+   "id": "F-T6.14",
+   "clave": "b",
+   "enunciado": "En un cable coaxial real, al aumentar la ROE, las pérdidas totales de la línea:",
+   "opciones": [
+    "disminuyen, porque parte de la potencia vuelve al transmisor",
+    "aumentan, porque la onda reflejada recorre la línea otra vez y se disipa más potencia",
+    "no varían, pues solo dependen de la longitud y del tipo de cable",
+    "se anulan, ya que la potencia reflejada no se disipa"
+   ],
+   "sol": "Con desadaptación, la potencia reflejada vuelve hacia el transmisor por la misma línea y la onda estacionaria concentra corrientes y tensiones mayores en ciertos puntos: todo ello se disipa en el cable como calor. Las pérdidas totales crecen respecto a la línea adaptada, y más cuanto mayor es la atenuación propia del cable (VHF y UHF, tramos largos). Que parte de la potencia vuelva al transmisor no reduce las pérdidas ni las anula, y no son independientes de la adaptación. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.15",
+   "clave": "d",
+   "enunciado": "En una antena de media onda alimentada por un extremo, la impedancia en el punto de alimentación es:",
+   "opciones": [
+    "de unos 73 Ω",
+    "de unos 300 Ω",
+    "prácticamente cero",
+    "muy elevada, del orden de miles de ohmios"
+   ],
+   "sol": "En el extremo de un conductor la corriente es forzosamente nula y la tensión máxima. Como la impedancia es $V slash I$, en el extremo de una media onda resulta muy alta, de miles de ohmios, y hace falta un adaptador de impedancias. Los 73 Ω corresponden a alimentar el dipolo en el centro, donde la corriente es máxima; los 300 Ω, al dipolo plegado; y una impedancia casi nula sería lo propio de un punto de corriente máxima y tensión mínima, justo lo contrario. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.16",
+   "clave": "c",
+   "enunciado": "Una antena de media onda alimentada por uno de sus extremos presenta en el punto de alimentación una impedancia:",
+   "opciones": [
+    "de unos 73 Ω, igual que si se alimentara por el centro",
+    "de unos 36 Ω, la mitad que alimentada por el centro",
+    "muy alta, de varios miles de ohmios",
+    "de unos 300 Ω, cuatro veces la del centro"
+   ],
+   "sol": "En los extremos de una antena de media onda la corriente es nula y la tensión máxima. La impedancia es el cociente $Z = V slash I$: mucha tensión y muy poca corriente dan un valor enorme, de miles de ohmios (en el centro ocurre lo contrario y salen $tilde.op$73 Ω). Por eso una media onda alimentada en un extremo no puede conectarse directamente a 50 Ω: necesita un adaptador de impedancias, como un circuito sintonizado o un transformador. Los 36 Ω son los de la vertical de cuarto de onda, y los 300 Ω, los del dipolo plegado. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)]"
+  },
+  {
+   "id": "F-T6.17",
+   "clave": "a",
+   "enunciado": "Si se conecta un cable coaxial directamente a un dipolo de media onda, sin balun, lo más probable es que:",
+   "opciones": [
+    "circulen corrientes de RF por el exterior de la malla, que pasa a radiar y deforma el diagrama de la antena",
+    "el coaxial deje de conducir la señal hasta la antena",
+    "la ROE sea siempre 1:1, porque el dipolo ya es simétrico",
+    "toda la potencia se refleje hacia el transmisor"
+   ],
+   "sol": "El coaxial es una línea asimétrica (la malla va a masa) y el dipolo es simétrico. Sin balun la corriente no se reparte por igual entre los dos brazos: parte vuelve por el exterior de la malla, que se comporta como un elemento más de la antena. El resultado es un cable que radia, un diagrama deformado e interferencias en equipos cercanos. Los otros efectos son falsos: el coaxial sí conduce la señal, la ROE depende de la adaptación de impedancias y no de la simetría, y la reflexión no es total. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)] #no-esta[Un dipolo es una antena simétrica: sus dos brazos deben llevar corrientes iguales y opuestas. El coaxial es asimétrico: la corriente del conductor central vuelve por el interior de la malla. Si se conecta sin balun, el conductor central va a un brazo y la malla al otro, y la corriente puede bajar también por el exterior de la malla, que pasa a ser parte de la antena. Ese cable radia, deforma el diagrama de radiación y causa interferencias en equipos cercanos. El balun impide esas corrientes.]"
+  },
+  {
+   "id": "F-T6.18",
+   "clave": "d",
+   "enunciado": "Se quiere adaptar una antena de 200 Ω a una línea de 50 Ω con un tramo de cuarto de onda. La impedancia característica de ese tramo debe ser:",
+   "opciones": [
+    "125 Ω",
+    "150 Ω",
+    "12,5 Ω",
+    "100 Ω"
+   ],
+   "sol": "Un cuarto de onda transforma la carga $Z_L$ en $Z_\"ent\" = Z_0^2 slash Z_L$. Para que la entrada sea de 50 Ω con $Z_L = 200$ Ω: $Z_0 = sqrt(Z_\"ent\" Z_L) = sqrt(50 dot 200) = sqrt(10 thin 000) = 100$ Ω, la media geométrica. Comprobación: $100^2 slash 200 = 50$ Ω. Los 125 Ω salen de usar la media aritmética, los 150 Ω de restar las impedancias y los 12,5 Ω de invertir la fórmula ($50^2 slash 200$). #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.19",
+   "clave": "b",
+   "enunciado": "Un tramo de línea de cuarto de onda con impedancia característica de 75 Ω, terminado en una carga de 25 Ω, presenta en su entrada una impedancia de:",
+   "opciones": [
+    "25 Ω",
+    "225 Ω",
+    "75 Ω",
+    "8,3 Ω"
+   ],
+   "sol": "Con $Z_\"ent\" = Z_0^2 slash Z_L$ resulta $75^2 slash 25 = 5625 slash 25 = 225$ Ω. El cuarto de onda invierte la impedancia: una carga menor que $Z_0$ se ve como mayor que $Z_0$, y al revés; $Z_0$ es la media geométrica de ambas ($sqrt(25 dot 225) = 75$). Los 25 Ω serían el resultado sin transformación, los 75 Ω confunden la entrada con $Z_0$ y los 8,3 Ω salen de dividir al revés ($25^2 slash 75$). #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.20",
+   "clave": "c",
+   "enunciado": "Una línea de cuarto de onda cortocircuitada en su extremo se comporta, vista desde el otro extremo, como:",
+   "opciones": [
+    "un circuito resonante serie, de impedancia muy baja",
+    "una resistencia igual a la impedancia característica",
+    "un circuito resonante paralelo, de impedancia muy alta",
+    "un condensador puro"
+   ],
+   "sol": "La línea de cuarto de onda invierte la impedancia: $Z_\"ent\" = Z_0^2 slash Z_L$ y, con $Z_L -> 0$, $Z_\"ent\" -> infinity$. En el extremo cortocircuitado la tensión es nula y la corriente máxima; al desfasar 90°, en la entrada hay tensión máxima y corriente mínima. Un circuito resonante paralelo presenta justo eso en resonancia: impedancia máxima. Por eso un tramo así actúa como aislante metálico o como filtro. El comportamiento serie (impedancia mínima) es el de la línea abierta. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.21",
+   "clave": "a",
+   "enunciado": "Una línea de cuarto de onda abierta en su extremo se comporta, vista desde el otro extremo, como:",
+   "opciones": [
+    "un circuito resonante serie, de impedancia muy baja",
+    "un circuito resonante paralelo, de impedancia muy alta",
+    "un condensador puro, de reactancia capacitiva",
+    "una impedancia igual a la característica de la línea"
+   ],
+   "sol": "El circuito abierto tiene corriente nula y tensión máxima. Al desfasar 90°, la línea de cuarto de onda cambia los papeles: en la entrada aparece corriente máxima y tensión mínima, es decir, un cortocircuito aparente ($Z_\"ent\" = Z_0^2 slash Z_L -> 0$). Eso es lo que presenta un circuito resonante serie en resonancia: impedancia mínima. No es un condensador puro (eso ocurriría en un tramo abierto más corto que $lambda slash 4$), y la impedancia característica solo se vería con una carga igual a $Z_0$. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)]"
+  },
+  {
+   "id": "F-T6.22",
+   "clave": "d",
+   "enunciado": "Un tramo de línea cortocircuitada de longitud menor que un cuarto de onda se comporta en su entrada como:",
+   "opciones": [
+    "un condensador (reactancia capacitiva)",
+    "un circuito abierto",
+    "una resistencia pura",
+    "una bobina (reactancia inductiva)"
+   ],
+   "sol": "Partiendo del cortocircuito, con longitud casi nula la entrada es un simple corto. Al alargar el tramo aparece una reactancia inductiva que crece hasta hacerse infinita en $lambda slash 4$, donde la línea se ve como circuito abierto; pasado ese punto la reactancia cambia de signo y es capacitiva hasta $lambda slash 2$. Por debajo de $lambda slash 4$ el tramo se comporta, pues, como una bobina. No es un condensador (eso ocurre entre $lambda slash 4$ y $lambda slash 2$), ni un circuito abierto (solo a $lambda slash 4$), ni una resistencia pura. #vease[(Véase tema T6, sección «Líneas de transmisión y adaptación».)] #no-esta[Una línea cortocircuitada cuya longitud es menor que $lambda slash 4$ presenta en su entrada una reactancia inductiva que crece con la longitud: con longitud casi nula es un cortocircuito y a $lambda slash 4$ se vuelve un circuito abierto aparente. Entre $lambda slash 4$ y $lambda slash 2$ la reactancia es capacitiva. En VHF y UHF estos tramos cortos de línea sustituyen a bobinas y condensadores en circuitos sintonizados y filtros. Con la línea abierta ocurre lo contrario: capacitiva por debajo de $lambda slash 4$.]"
+  },
+  {
+   "id": "F-T6.23",
+   "clave": "b",
+   "enunciado": "Un dipolo plegado de unos 300 Ω se alimenta con cable coaxial de 75 Ω. Para adaptar las impedancias y, a la vez, pasar de línea asimétrica a antena simétrica se emplea:",
+   "opciones": [
+    "un balun de relación de impedancias 1:1",
+    "un balun de relación de impedancias 4:1",
+    "un transformador con relación de espiras 4:1",
+    "un filtro paso bajo entre la línea y la antena"
+   ],
+   "sol": "La relación de impedancias es 300/75 = 4, y además la antena es simétrica y el coaxial asimétrico. Un balun 4:1 resuelve las dos cosas: transforma la impedancia y simetriza. Uno 1:1 solo simetriza y dejaría una ROE de 4:1. Ojo: un 4:1 de impedancias equivale a espiras 2:1, porque las impedancias se transforman con el cuadrado de la relación de espiras ($Z_p = (N_p slash N_s)^2 Z_s$); con espiras 4:1 la relación de impedancias sería 16:1. El filtro paso bajo no adapta impedancias. #vease[(Véase tema T2, sección «Transformadores».)]"
+  },
+  {
+   "id": "F-T6.24",
+   "clave": "c",
+   "enunciado": "Respecto del dipolo simple de media onda, el dipolo plegado presenta:",
+   "opciones": [
+    "la misma impedancia, pero mucha más ganancia",
+    "una impedancia unas cuatro veces mayor y menor ancho de banda",
+    "una impedancia unas cuatro veces mayor y mayor ancho de banda",
+    "una impedancia cuatro veces menor y mayor ancho de banda"
+   ],
+   "sol": "El dipolo plegado son dos conductores paralelos unidos por los extremos. Cada uno lleva la mitad de la corriente necesaria para radiar la misma potencia, así que, por $P = I^2 R$, la impedancia se multiplica por cuatro (unos 300 Ω frente a 73). Además equivale a un circuito resonante de menor factor de calidad $Q$, y por tanto de mayor ancho de banda: la ROE se mantiene baja en una franja de frecuencias más amplia. La ganancia es la misma que la del dipolo simple, y la impedancia sube, no baja. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)] #no-esta[El dipolo plegado, además de multiplicar por cuatro la impedancia, tiene más ancho de banda que el dipolo simple: se comporta como un circuito resonante de menor factor de calidad $Q$, de modo que su ROE permanece baja en una franja de frecuencias más amplia alrededor de la resonancia. Su ganancia es la misma que la del dipolo simple (2,15 dBi): la ventaja está en el ancho de banda y en los 300 Ω, que coinciden con los de la línea bifilar.]"
+  },
+  {
+   "id": "F-T6.25",
+   "clave": "a",
+   "enunciado": "La ganancia de una antena parabólica es tanto mayor cuanto:",
+   "opciones": [
+    "mayor es su diámetro en comparación con la longitud de onda",
+    "menor es su diámetro en comparación con la longitud de onda",
+    "mayor es la potencia aplicada al alimentador",
+    "mayor es la longitud de onda, para un mismo diámetro"
+   ],
+   "sol": "La ganancia de un reflector parabólico es $G = eta (pi D slash lambda)^2$, con $eta$ la eficiencia (entre 0,5 y 0,7): crece con el cuadrado de la relación entre el diámetro $D$ y la longitud de onda $lambda$. Un mismo plato gana más al subir la frecuencia (menor $lambda$), y por eso en microondas bastan platos pequeños. La potencia del transmisor no cambia la ganancia, solo la potencia radiada. Con mayor longitud de onda y el mismo diámetro, $D slash lambda$ baja y la ganancia baja. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)] #no-esta[Una antena de apertura radia o capta a través de una superficie: la boca de una bocina o el plato de una parábola. Su ganancia es $G = 4 pi A_e slash lambda^2$, donde $A_e$ es el área efectiva. En un reflector parabólico de diámetro $D$, con $A_e$ en torno al 60 % de su área, resulta $G approx 6 (D slash lambda)^2$: a mayor diámetro o mayor frecuencia, más ganancia.]"
+  },
+  {
+   "id": "F-T6.26",
+   "clave": "b",
+   "enunciado": "Si se duplica el diámetro de un reflector parabólico, manteniendo la frecuencia y la eficiencia, su ganancia aumenta aproximadamente:",
+   "opciones": [
+    "3 dB",
+    "6 dB",
+    "12 dB",
+    "nada, porque solo depende de la frecuencia"
+   ],
+   "sol": "La ganancia es proporcional al área del plato, es decir, a $D^2$: al duplicar $D$, el área y la ganancia se multiplican por $2^2 = 4$. En decibelios, $10 log 4 approx 6$ dB. Los 3 dB corresponderían a tratar la ganancia como proporcional a $D$ (factor 2); los 12 dB saldrían de aplicar $20 log 4$ a una relación de potencias. Con la frecuencia pasa igual: duplicarla, con el mismo plato, también da +6 dB. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)] #no-esta[La ganancia de un reflector parabólico de diámetro $D$ y eficiencia $eta$ es $G = eta (pi D slash lambda)^2$: es proporcional al área del plato. Duplicar el diámetro multiplica el área, y la ganancia, por 4 (+6 dB); duplicar la frecuencia (mitad de $lambda$) produce el mismo aumento. Una parábola típica tiene $eta$ entre 0,5 y 0,7.]"
+  },
+  {
+   "id": "F-T6.27",
+   "clave": "d",
+   "enunciado": "En una antena parabólica de foco primario, el elemento alimentador (bocina o dipolo) se sitúa:",
+   "opciones": [
+    "en el vértice del reflector, pegado a su superficie",
+    "en el borde del reflector",
+    "detrás del reflector, para que no haga sombra",
+    "en el foco del reflector, frente al plato"
+   ],
+   "sol": "La parábola refleja hacia un único punto, el foco, todos los rayos que llegan paralelos a su eje. En recepción el reflector concentra allí la onda captada; en emisión, el alimentador colocado en el foco ilumina el plato y este forma un haz estrecho con todos los rayos en fase. Situado en el vértice, en el borde o detrás del reflector, la onda no converge en el alimentador y se pierde ganancia. #vease[(Véase tema T6, sección «El dipolo y otras antenas».)] #no-esta[Un reflector parabólico concentra en un punto, el foco, todos los rayos que llegan paralelos a su eje; y una fuente situada en el foco produce, tras reflejarse, un haz paralelo. Por eso el alimentador (una bocina o un dipolo, que ilumina el plato) se coloca en el foco, delante del reflector en las antenas de foco primario. Si se desplaza del foco, el haz se deforma y la ganancia disminuye.]"
+  },
+  {
+   "id": "F-T7.1",
+   "clave": "c",
+   "enunciado": "En un enlace en espacio libre, con la misma potencia transmitida y el mismo ruido en el receptor, al multiplicar por 10 la distancia la relación señal/ruido:",
+   "opciones": [
+    "disminuye 10 dB",
+    "no varía, porque la señal y el ruido se atenúan por igual",
+    "disminuye 20 dB",
+    "disminuye 40 dB"
+   ],
+   "sol": "En espacio libre la potencia recibida cae con $1 slash d^2$: la atenuación en decibelios crece como $20 log_10 d$. Al multiplicar la distancia por 10 son $20 log 10 = 20$ dB de señal menos (doblar la distancia son 6 dB). El ruido del receptor no depende de la distancia, así que la relación señal/ruido empeora esos mismos 20 dB. Los 10 dB saldrían de usar $10 log d$; los 40 dB corresponderían a una potencia que cayera como $1 slash d^4$; y el ruido no se atenúa con la señal, pues lo genera el propio receptor y el entorno. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.2",
+   "clave": "a",
+   "enunciado": "La propagación por esporádica-E se debe a:",
+   "opciones": [
+    "nubes de ionización muy intensa que aparecen en la capa E",
+    "inversiones de temperatura en la troposfera, que forman un conducto",
+    "la reflexión de las ondas en la superficie de la Luna",
+    "las estelas ionizadas que dejan los meteoros"
+   ],
+   "sol": "La esporádica-E (_Es_) aparece cuando se forman, de modo irregular, nubes de ionización intensa en la capa E, a unos 100 km de altura. Esas nubes reflejan señales de VHF (sobre todo 50 MHz y, a veces, 144 MHz) que normalmente atravesarían la ionosfera. La inversión de temperatura produce conductos troposféricos, la reflexión lunar es el EME y las estelas de los meteoros dan el meteor-scatter: son otros mecanismos, cada uno con su propia física. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.3",
+   "clave": "c",
+   "enunciado": "En un contacto por esporádica-E con un solo salto, las señales de VHF llegan a distancias típicas de:",
+   "opciones": [
+    "10 a 50 km",
+    "100 a 300 km",
+    "1000 a 2000 km",
+    "más de 10~000 km"
+   ],
+   "sol": "La nube de esporádica-E está a unos 100 km de altura. Un rayo que sale casi rasante y rebota en ella cae muy lejos: la geometría limita un único salto a poco más de 2000 km como máximo, y los contactos típicos son de 1000 a 2000 km. Distancias de decenas o pocos centenares de kilómetros corresponden a la onda directa o a los conductos troposféricos, y los 10~000 km o más quedan para HF con varios saltos por la capa F. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.4",
+   "clave": "d",
+   "enunciado": "En el hemisferio norte, la esporádica-E en VHF es más frecuente en:",
+   "opciones": [
+    "los meses de invierno, con las noches más largas",
+    "primavera y otoño, en los equinoccios",
+    "todas las estaciones por igual",
+    "los meses de verano"
+   ],
+   "sol": "La esporádica-E tiene una marcada estacionalidad. En el hemisferio norte su temporada principal es el verano (de mayo a agosto, con máximo hacia junio–julio), y existe un pico secundario y mucho más débil hacia diciembre–enero. Por eso en verano se abre con frecuencia la banda de 50 MHz y, a veces, la de 144 MHz. No es una cuestión de equinoccios (eso es más propio de la capa F2) ni es uniforme a lo largo del año. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.5",
+   "clave": "d",
+   "enunciado": "La reflexión auroral se produce en:",
+   "opciones": [
+    "la superficie de la Luna",
+    "las capas de aire cálido de la troposfera",
+    "las estelas de los meteoros",
+    "las cortinas de ionización de las auroras"
+   ],
+   "sol": "Las auroras boreales son zonas de la alta atmósfera, hacia los 100 km de altura y en latitudes altas, ionizadas con intensidad por partículas procedentes del Sol. Esas cortinas ionizadas reflejan las ondas de VHF como un espejo irregular y cambiante. La Luna es el reflector del EME, las capas de aire cálido forman conductos por inversión térmica y las estelas de los meteoros dan el meteor-scatter: ninguno tiene que ver con las auroras. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.6",
+   "clave": "a",
+   "enunciado": "Las señales que llegan por reflexión auroral se caracterizan por:",
+   "opciones": [
+    "sonar ásperas y distorsionadas, con desvanecimientos rápidos; la telegrafía resulta la más eficaz",
+    "sonar limpias y estables, pues la cortina auroral actúa como un reflector fijo",
+    "desvanecerse muy despacio, en ciclos de varios minutos, con audio nítido",
+    "ir mejor en fonía que en telegrafía, porque la aurora no afecta a la voz"
+   ],
+   "sol": "La cortina auroral es un reflector ionizado que se mueve y se agita sin parar. Cada rayo llega con desfases y desplazamientos de frecuencia distintos, así que el espectro de la señal se ensancha: la voz suena ronca y áspera y el desvanecimiento es rápido. La telegrafía tolera esa degradación mucho mejor que la fonía, por eso es el modo preferido. Un reflector fijo daría audio limpio y estable, y eso no ocurre con las auroras. #vease[(Véase tema T7, sección «Fenómenos de propagación».)] #no-esta[Las señales reflejadas en una aurora suenan roncas y distorsionadas (_raspy_): la cortina ionizada se mueve sin parar y ensancha el espectro de la señal, con desvanecimientos rápidos. La fonía pierde inteligibilidad y el modo más eficaz es la telegrafía. Se da en VHF, sobre todo en 50 y 144 MHz, cerca de las latitudes altas, y las dos estaciones apuntan sus antenas hacia el norte (hacia la aurora) y no hacia el corresponsal.]"
+  },
+  {
+   "id": "F-T7.7",
+   "clave": "b",
+   "enunciado": "La propagación por meteor-scatter se basa en:",
+   "opciones": [
+    "la reflexión de las ondas en la superficie de la Luna",
+    "la reflexión en las estelas ionizadas que dejan los meteoros al entrar en la atmósfera",
+    "el guiado de las ondas por conductos de la troposfera",
+    "la reflexión en nubes de ionización intensa de la capa E"
+   ],
+   "sol": "Un meteoro que entra en la atmósfera a gran velocidad, hacia los 100 km de altura, deja una estela de gas ionizado que, durante un instante, refleja las ondas de VHF como un pequeño espejo. Eso permite enlaces de unos cientos a dos mil kilómetros en 50 y 144 MHz, sobre todo durante las lluvias de meteoros. La Luna es el reflector del EME, los conductos son cosa de la troposfera y las nubes de la capa E dan la esporádica-E. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.8",
+   "clave": "d",
+   "enunciado": "Los contactos por meteor-scatter se caracterizan porque las señales llegan:",
+   "opciones": [
+    "de forma continua y estable durante horas",
+    "solo durante el día, cuando hay más ionización",
+    "con desvanecimientos muy lentos, de varios minutos",
+    "en ráfagas breves, de fracciones de segundo a pocos segundos"
+   ],
+   "sol": "La estela ionizada de un meteoro se forma en un instante y se disipa enseguida: la señal llega en ráfagas que duran de fracciones de segundo a unos pocos segundos, separadas por silencios. Por eso se usan modos rápidos, como la telegrafía a alta velocidad o los modos digitales de ráfaga, capaces de aprovechar cada instante. No hay señal continua ni estable, y funciona a cualquier hora, con más ráfagas de madrugada y durante las lluvias de meteoros. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.9",
+   "clave": "a",
+   "enunciado": "El flujo solar medido a 10,7 cm es:",
+   "opciones": [
+    "un índice de la actividad solar que sirve para estimar la ionización y la MUF",
+    "el número de manchas solares contadas cada día en el disco del Sol",
+    "la altura en kilómetros a la que se encuentra la capa F",
+    "la intensidad del campo magnético terrestre, que se mide con el índice K"
+   ],
+   "sol": "El flujo solar de 10,7 cm es la intensidad de la radioemisión del Sol en esa longitud de onda ($f = 300 slash 0,107 approx 2800$ MHz). Se mide desde tierra y se correlaciona con las manchas solares y con la ionización de las capas: flujo alto, más ionización y MUF más alta. No es el número de manchas (otro índice, aunque relacionado), ni una altura, ni el campo magnético, que miden los índices geomagnéticos A y K. #vease[(Véase tema T7, sección «Cómo se nombran las bandas» (párrafo final sobre la predicción de propagación).)]"
+  },
+  {
+   "id": "F-T7.10",
+   "clave": "b",
+   "enunciado": "Cuando aumenta la actividad solar (más manchas solares), la MUF suele:",
+   "opciones": [
+    "bajar, porque el exceso de ionización deja de reflejar las ondas de HF",
+    "subir, y bandas altas como la de 28 MHz se abren al DX con más frecuencia",
+    "permanecer igual, pues solo depende de la hora del día",
+    "subir, pero solo beneficia a las bandas bajas de 160 y 80 m"
+   ],
+   "sol": "Más manchas solares significan más radiación ultravioleta y X, luego más electrones libres y una frecuencia de plasma más alta ($f_p approx 9 sqrt(N_e)$). Con ello sube la MUF y la ionosfera refleja frecuencias mayores: en los máximos del ciclo de once años se abren con frecuencia 15, 12 y 10 m. No baja (más ionización no impide reflejar), no es independiente del Sol y no favorece a las bandas bajas, que dependen sobre todo de la absorción de la capa D y de la noche. #vease[(Véase tema T7, sección «Cómo se nombran las bandas» (párrafo final sobre la predicción de propagación).)]"
+  },
+  {
+   "id": "F-T7.11",
+   "clave": "a",
+   "enunciado": "Un programa de predicción de propagación, como VOACAP, calcula a partir de los índices solares, la fecha y la hora:",
+   "opciones": [
+    "la MUF de cada trayecto y qué bandas tienen probabilidad de estar abiertas",
+    "la relación de ondas estacionarias de la antena en cada banda",
+    "las pérdidas de los cables coaxiales en función de su longitud",
+    "la potencia máxima autorizada en cada banda de aficionado"
+   ],
+   "sol": "Los programas de predicción (VOACAP y similares) toman los índices de actividad solar, la fecha, la hora y las posiciones de las dos estaciones, y simulan la ionosfera para obtener la MUF y la FOT del trayecto, y qué bandas y horas serán favorables. No calculan magnitudes de la estación como la ROE o las pérdidas del cable, que dependen del equipo, ni límites legales como la potencia autorizada, que fija la normativa. #vease[(Véase tema T7, sección «Cómo se nombran las bandas» (párrafo final sobre la predicción de propagación).)]"
+  },
+  {
+   "id": "F-T7.12",
+   "clave": "c",
+   "enunciado": "A igual distancia, al pasar de 144 MHz a 432 MHz la pérdida en espacio libre aumenta aproximadamente:",
+   "opciones": [
+    "4,8 dB",
+    "6 dB",
+    "9,5 dB",
+    "19 dB"
+   ],
+   "sol": "La pérdida en espacio libre es $L = 32,4 + 20 log f + 20 log d$ (con $f$ en MHz y $d$ en km). Con la distancia fija solo cambia el término de la frecuencia: $Delta L = 20 log(432 slash 144) = 20 log 3 = 20 times 0,477 approx 9,5$ dB. Los 6 dB serían por doblar la frecuencia, no triplicarla; 4,8 dB resultan de usar 10 log en lugar de 20 log, y 19 dB de usar 40 log, es decir, de elevar al cuadrado de más. #vease[(Véase tema T7, sección «Fenómenos de propagación» (pérdida en espacio libre).)]"
+  },
+  {
+   "id": "F-T7.13",
+   "clave": "b",
+   "enunciado": "Si la MUF de un trayecto es de 20 MHz, la frecuencia óptima de trabajo (FOT) es aproximadamente de:",
+   "opciones": [
+    "12 MHz",
+    "17 MHz",
+    "20 MHz",
+    "24 MHz"
+   ],
+   "sol": "La frecuencia óptima de trabajo es aproximadamente el 85 % de la MUF: FOT ≈ 0,85 × 20 = 17 MHz. Se trabaja algo por debajo de la MUF para tolerar las fluctuaciones de la ionosfera, que en un momento dado pueden bajarla y cortar el enlace. 20 MHz sería la propia MUF, sin margen; 24 MHz sale de dividir entre 0,85 en vez de multiplicar, y 12 MHz de aplicar un 60 % que no es el de la regla. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+  },
+  {
+   "id": "F-T7.14",
+   "clave": "b",
+   "enunciado": "Dos estaciones de VHF, con las antenas a 9 m y a 16 m de altura sobre terreno llano, alcanzan por onda directa una distancia máxima aproximada de:",
+   "opciones": [
+    "21 km",
+    "29 km",
+    "49 km",
+    "103 km"
+   ],
+   "sol": "El horizonte radioeléctrico suma el de cada antena: $d approx 4,12 (sqrt(h_1) + sqrt(h_2)) = 4,12 (sqrt(9) + sqrt(16)) = 4,12 times (3 + 4) approx 29$ km. Los errores típicos son meter la raíz sobre la suma, $4,12 sqrt(25) approx 21$ km; sobre el producto, $4,12 sqrt(9 dot 16) approx 49$ km, o no sacar raíces, $4,12 times 25 approx 103$ km. Se suman las raíces de las alturas, no las alturas. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+  },
+  {
+   "id": "F-T7.15",
+   "clave": "c",
+   "enunciado": "Al cuadruplicar la altura de una antena de VHF, la distancia hasta su horizonte radioeléctrico:",
+   "opciones": [
+    "se multiplica por 16",
+    "se cuadruplica",
+    "se duplica",
+    "aumenta solo un 41 %"
+   ],
+   "sol": "El alcance al horizonte crece con la raíz cuadrada de la altura: $d approx 4,12 sqrt(h)$. Si $h$ se multiplica por 4, $d$ se multiplica por $sqrt(4) = 2$: se duplica. Por ejemplo, de 10 m a 40 m pasa de unos 13 km a unos 26 km. Cuadruplicarse o multiplicarse por 16 supondría una relación lineal o cuadrática con la altura, que no existe; el 41 % ($sqrt(2)$) correspondería a duplicar la altura, no a cuadruplicarla. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+  },
+  {
+   "id": "F-T7.16",
+   "clave": "c",
+   "enunciado": "En condiciones normales, el horizonte radioeléctrico es:",
+   "opciones": [
+    "algo menor que el horizonte óptico, porque la troposfera absorbe parte de la señal",
+    "exactamente igual al horizonte óptico, porque la onda viaja en línea recta",
+    "algo mayor que el horizonte óptico, porque la troposfera curva el rayo hacia el suelo",
+    "muy superior al óptico, porque la ionosfera devuelve la onda a tierra"
+   ],
+   "sol": "La densidad del aire disminuye con la altura, así que el índice de refracción de la troposfera también decrece y el rayo se curva ligeramente hacia el suelo, siguiendo a la Tierra. Resultado: el horizonte radioeléctrico supera al óptico en torno a un 15 % (la fórmula pasa de $3,57 sqrt(h)$ a $4,12 sqrt(h)$ kilómetros, con $h$ en metros). No es menor ni igual, y en VHF la ionosfera no interviene: es transparente. #vease[(Véase tema T7, sección «La ionosfera y la onda de espacio».)]"
+  },
+  {
+   "id": "F-T7.17",
+   "clave": "b",
+   "enunciado": "La propagación por conducto troposférico se aprovecha sobre todo en:",
+   "opciones": [
+    "HF, con contactos intercontinentales por reflexión en la capa F",
+    "VHF y UHF, con alcances de cientos de kilómetros, muy superiores al horizonte visual",
+    "MF, con un alcance limitado a la onda de superficie",
+    "VHF y UHF, pero solo para comunicaciones locales de pocos kilómetros"
+   ],
+   "sol": "El conducto es una capa de aire en la que la onda queda atrapada y guiada, como en una guía de ondas natural. Funciona con VHF, UHF y frecuencias superiores, y permite contactos de varios cientos de kilómetros, bastante más allá del horizonte visual, aunque de forma esporádica. La HF (a) llega lejos por reflexión en la ionosfera, no en la troposfera; en MF (c) domina la onda de superficie; y el alcance de pocos kilómetros (d) es el normal sin conducto, justo el que este supera. #vease[(Véase tema T7, sección «Fenómenos de propagación».)]"
+  },
+  {
+   "id": "F-T7.18",
+   "clave": "c",
+   "enunciado": "Un conducto troposférico se forma cuando en la troposfera existe:",
+   "opciones": [
+    "una capa de aire frío sobre otra de aire cálido, como ocurre habitualmente",
+    "una nube de ionización intensa en la capa E",
+    "una inversión de temperatura: una capa de aire cálido situada sobre aire más frío",
+    "una intensa actividad de manchas solares"
+   ],
+   "sol": "En condiciones normales el aire se enfría con la altura. En una inversión de temperatura, una capa de aire cálido queda sobre aire más frío, y el cambio brusco del índice de refracción curva la onda hacia el suelo una y otra vez: queda atrapada entre la capa y la superficie, como en una guía de ondas. La situación habitual (a) no forma conductos. Las nubes de ionización de la capa E (b) son la esporádica-E, un fenómeno ionosférico, y las manchas solares (d) actúan sobre la ionosfera, no sobre la troposfera. #vease[(Véase tema T7, sección «Fenómenos de propagación».)] #no-esta[Una inversión de temperatura se da cuando, en vez de enfriarse con la altura, el aire se calienta: una capa de aire cálido queda sobre aire más frío, cerca del suelo. El cambio brusco en el índice de refracción del aire curva la onda hacia la Tierra y la mantiene atrapada entre la capa y la superficie, igual que en una guía de ondas. Así nace la propagación por conducto, que lleva las señales de VHF y UHF a cientos de kilómetros.]"
+  },
+  {
+   "id": "F-T7.19",
+   "clave": "a",
+   "enunciado": "La propagación por conducto troposférico es más probable con:",
+   "opciones": [
+    "tiempo anticiclónico estable, con altas presiones y poco viento",
+    "borrascas con viento fuerte, que mezclan las capas de aire",
+    "un máximo del ciclo solar, con abundantes manchas",
+    "lluvia intensa y tormentas eléctricas"
+   ],
+   "sol": "La inversión de temperatura se forma y se mantiene cuando el aire está en calma: por eso los conductos aparecen con situaciones anticiclónicas estables (altas presiones y poco viento). Las borrascas y los temporales (b) mezclan el aire y destruyen las capas, y la lluvia intensa o las tormentas (d) no producen una inversión estable. El ciclo solar (c) influye en la ionosfera, es decir, en la propagación en HF, no en la troposfera. #vease[(Véase tema T7, sección «Fenómenos de propagación».)] #no-esta[Los conductos troposféricos aparecen con tiempo estable. En situaciones anticiclónicas (altas presiones y poco viento) el aire no se mezcla y se forman capas con inversión de temperatura, que pueden durar horas o días. Por eso el DX de VHF y UHF por conducto se da sobre todo con anticiclones persistentes, y desaparece cuando llega una borrasca con viento, que vuelve a mezclar las capas de aire.]"
+  },
+  {
+   "id": "T6.1",
+   "clave": "b",
+   "enunciado": "La longitud total aproximada de un dipolo de media onda para la banda de 40 metros es de:",
+   "opciones": [
+    "10 m",
+    "20 m",
+    "40 m",
+    "80 m"
+   ],
+   "sol": "Las bandas se nombran por su longitud de onda: «40 m» significa $lambda approx 40$ m, luego el dipolo de media onda mide $lambda\\/2 approx 20$ m (algo menos por el factor de acortamiento). El distractor de 40 m confunde la longitud de la antena con el nombre de la banda."
+  },
+  {
+   "id": "T6.2",
+   "clave": "d",
+   "enunciado": "Una antena está en resonancia cuando:",
+   "opciones": [
+    "su longitud es exactamente un múltiplo de la longitud de onda",
+    "su ganancia es máxima en todas las direcciones",
+    "radia por igual en el plano vertical y en el horizontal",
+    "la impedancia en su punto de alimentación es resistiva pura"
+   ],
+   "sol": "En resonancia la reactancia del punto de alimentación se anula: impedancia resistiva pura (@t6-fig-dipolo[figura])."
+  },
+  {
+   "id": "T6.3",
+   "clave": "a",
+   "enunciado": "Para que una antena que resuena en 29 900 kHz pase a resonar en 28 500 kHz, deberemos:",
+   "opciones": [
+    "alargarla",
+    "acortarla",
+    "girarla 90 grados",
+    "alimentarla en un extremo"
+   ],
+   "sol": "Frecuencia menor $arrow.r.double$ $lambda$ mayor $arrow.r.double$ antena más larga: para bajar de 29,9 a 28,5 MHz hay que alargar."
+  },
+  {
+   "id": "T6.4",
+   "clave": "b",
+   "enunciado": "Las antenas Yagi son antenas:",
+   "opciones": [
+    "omnidireccionales",
+    "directivas",
+    "isótropas",
+    "exclusivamente receptoras"
+   ],
+   "sol": "La Yagi concentra la radiación hacia los directores: la directiva por excelencia."
+  },
+  {
+   "id": "T6.5",
+   "clave": "c",
+   "enunciado": "En una antena Yagi, los llamados «elementos parásitos» son:",
+   "opciones": [
+    "elementos defectuosos que deben sustituirse",
+    "filtros contra interferencias",
+    "elementos no alimentados directamente (no activos)",
+    "aisladores del mástil"
+   ],
+   "sol": "Solo el radiante está alimentado; reflector y directores son parásitos: reirradian y moldean el diagrama por interferencia."
+  },
+  {
+   "id": "T6.6",
+   "clave": "d",
+   "enunciado": "En resonancia, el dipolo plegado (doblado) presenta, respecto del dipolo simple, una impedancia:",
+   "opciones": [
+    "igual",
+    "nula",
+    "la mitad",
+    "unas cuatro veces mayor (∼300 Ω)"
+   ],
+   "sol": "Los dos conductores del lazo se reparten la corriente; para radiar la misma potencia el generador entrega la mitad de corriente, y si en $P = I^2 R$ la corriente se reduce a la mitad, la resistencia debe cuadruplicarse: $tilde 4 times 73 approx 300$ Ω. De ahí su uso con línea bifilar de 300 Ω y como elemento excitado (alimentado) de muchas Yagi."
+  },
+  {
+   "id": "T6.7",
+   "clave": "b",
+   "enunciado": "En un dipolo con trampas, las trampas son:",
+   "opciones": [
+    "condensadores de paso",
+    "circuitos resonantes que permiten trabajar en varias bandas",
+    "resistencias de carga",
+    "contrapesos mecánicos"
+   ],
+   "sol": "Las trampas son circuitos resonantes LC que aíslan el tramo exterior del brazo a su frecuencia: la antena resuena en varias bandas."
+  },
+  {
+   "id": "T6.8",
+   "clave": "c",
+   "enunciado": "La polarización de una antena viene determinada por:",
+   "opciones": [
+    "la potencia del transmisor",
+    "la longitud de la línea de transmisión",
+    "la orientación del campo eléctrico radiado",
+    "la frecuencia de trabajo"
+   ],
+   "sol": "La polarización es la orientación del campo eléctrico radiado: vertical u horizontal según la antena."
+  },
+  {
+   "id": "T6.9",
+   "clave": "a",
+   "enunciado": "El ancho de haz del diagrama de radiación de una antena es la separación angular entre los dos puntos en los que la potencia radiada:",
+   "opciones": [
+    "es la mitad de la máxima (−3 dB)",
+    "se anula por completo",
+    "es el doble de la media",
+    "iguala a la potencia reflejada"
+   ],
+   "sol": "El ancho de haz se mide entre los puntos de media potencia (−3 dB) del lóbulo principal."
+  },
+  {
+   "id": "T6.10",
+   "clave": "c",
+   "enunciado": "El parámetro ROE de una estación transmisora es un indicador de:",
+   "opciones": [
+    "la potencia máxima que soporta la antena",
+    "la ganancia de la antena",
+    "el grado de adaptación de impedancias entre el transmisor y la antena",
+    "la altura efectiva de la antena"
+   ],
+   "sol": "La ROE mide el grado de adaptación de impedancias entre transmisor, línea y antena."
+  },
+  {
+   "id": "T6.11",
+   "clave": "a",
+   "enunciado": "Con un acoplamiento óptimo entre el transmisor y la antena, el medidor de ondas estacionarias indicará:",
+   "opciones": [
+    "uno",
+    "cero",
+    "infinito",
+    "cincuenta"
+   ],
+   "sol": "Adaptación perfecta $arrow.r.double$ sin onda reflejada $arrow.r.double$ ROE = 1 (1:1)."
+  },
+  {
+   "id": "T6.12",
+   "clave": "a",
+   "enunciado": "El dispositivo que se emplea para conectar un cable coaxial (línea asimétrica) a un dipolo (antena simétrica) es:",
+   "opciones": [
+    "un balun",
+    "un atenuador",
+    "un duplexor",
+    "un preamplificador"
+   ],
+   "sol": "El balun (_balanced–unbalanced_) hace de transición entre el coaxial (asimétrico) y el dipolo (simétrico), evitando corrientes en la malla."
+  },
+  {
+   "id": "T6.13",
+   "clave": "b",
+   "enunciado": "Si el transmisor, la línea de alimentación y la antena tienen la misma impedancia a la frecuencia de trabajo, un vatímetro direccional intercalado indicará que:",
+   "opciones": [
+    "la potencia directa y la reflejada son iguales",
+    "la potencia reflejada es cero",
+    "la potencia directa es cero",
+    "la ROE es infinita"
+   ],
+   "sol": "Con las tres impedancias iguales no hay onda reflejada: el vatímetro direccional marca potencia reflejada cero (y toda la directa va a la antena)."
+  },
+  {
+   "id": "T6.14",
+   "clave": "a",
+   "enunciado": "El máximo de radiación del diagrama de una antena vertical se produce:",
+   "opciones": [
+    "en el plano horizontal",
+    "hacia el cénit",
+    "a 45 grados de elevación",
+    "hacia el suelo"
+   ],
+   "sol": "Un elemento radiante emite al máximo perpendicularmente a su eje y no a lo largo de él; puesta en vertical, la antena tiene su nulo hacia el cénit y su máximo en el plano horizontal —bajo ángulo—, justo lo que interesa para DX en las bandas bajas."
+  },
+  {
+   "id": "T6.15",
+   "clave": "d",
+   "enunciado": "El acoplador de antena se emplea para:",
+   "opciones": [
+    "amplificar la señal recibida",
+    "aumentar la ganancia de la antena",
+    "filtrar el ruido atmosférico",
+    "adaptar la impedancia de la etapa final a la línea de transmisión y la antena"
+   ],
+   "sol": "El acoplador transforma la impedancia que ve el final de potencia para adaptarla a la línea y la antena; no mejora la antena, mejora la transferencia."
+  },
+  {
+   "id": "T6.16",
+   "clave": "c",
+   "enunciado": "En el diagrama de radiación de una antena directiva, la diferencia en decibelios entre el lóbulo principal y el lóbulo trasero se denomina:",
+   "opciones": [
+    "ancho de haz",
+    "ganancia isótropa",
+    "relación adelante-atrás",
+    "pérdida de retorno"
+   ],
+   "sol": "La relación adelante-atrás compara, en dB, el lóbulo principal con el trasero: cuanto mayor, mejor rechaza la antena lo que llega por la espalda."
+  },
+  {
+   "id": "T6.17",
+   "clave": "a",
+   "enunciado": "El orden correcto de conexión de los equipos de una estación, desde el equipo hasta la antena, es:",
+   "opciones": [
+    "transceptor, medidor de ROE, acoplador de antena, antena",
+    "acoplador de antena, transceptor, medidor de ROE, antena",
+    "medidor de ROE, acoplador de antena, transceptor, antena",
+    "antena, transceptor, acoplador, medidor de ROE"
+   ],
+   "sol": "Orden canónico: transceptor → medidor de ROE → acoplador → antena (si hay amplificador lineal, va entre el transceptor y el medidor)."
+  },
+  {
+   "id": "T6.18",
+   "clave": "b",
+   "enunciado": "Se conoce como «frecuencia de corte» de una guía de onda a la frecuencia:",
+   "opciones": [
+    "máxima que soporta la guía sin fundirse",
+    "por debajo de la cual no es posible la transmisión en la guía",
+    "de resonancia del último modo",
+    "a la que la atenuación es mínima"
+   ],
+   "sol": "La guía de onda solo propaga por encima de su frecuencia de corte; por debajo, el modo no puede existir y la señal se atenúa exponencialmente."
+  },
+  {
+   "id": "T6.19",
+   "clave": "c",
+   "enunciado": "Para un acoplamiento óptimo entre el transmisor y la antena, la línea de transmisión debe tener una impedancia:",
+   "opciones": [
+    "el doble que la de la antena",
+    "la mitad que la del transmisor",
+    "igual a la de la antena y a la del transmisor",
+    "lo más alta posible"
+   ],
+   "sol": "Adaptación total: la línea debe tener la misma impedancia que la antena y que el transmisor (los 50 Ω del sistema)."
+  },
+  {
+   "id": "T6.20",
+   "clave": "a",
+   "enunciado": "La ROE de una instalación se puede expresar mediante la fórmula:",
+   "opciones": [
+    "intensidad máxima / intensidad mínima (de la onda estacionaria)",
+    "potencia directa × potencia reflejada",
+    "tensión de pico / tensión eficaz",
+    "ganancia / directividad"
+   ],
+   "sol": "$\"ROE\" = V_\"máx\" \\/ V_\"mín\"$ (o $I_\"máx\" \\/ I_\"mín\"$) de la onda estacionaria sobre la línea; con ROE 1:1 no hay máximos ni mínimos: la onda es viajera pura."
+  },
+  {
+   "id": "T6.21",
+   "clave": "b",
+   "enunciado": "El circuito eléctrico equivalente de una antena en resonancia es:",
+   "opciones": [
+    "un condensador puro",
+    "una resistencia pura",
+    "una bobina pura",
+    "un circuito abierto"
+   ],
+   "sol": "En resonancia las reactancias se cancelan y solo queda la parte resistiva (radiación más pérdidas): el equivalente es una resistencia pura."
+  },
+  {
+   "id": "T6.22",
+   "clave": "c",
+   "enunciado": "Un diagrama de radiación como el de la @t6-fig-diagrama[figura], con un lóbulo principal dominante, corresponde a una antena de tipo:",
+   "opciones": [
+    "omnidireccional",
+    "isótropa",
+    "directiva",
+    "de campo cercano"
+   ],
+   "sol": "Un lóbulo principal dominante significa energía concentrada en una dirección: antena directiva. La omnidireccional radiaría un círculo y la isótropa, una esfera ideal.",
+   "figura": true
+  },
+  {
+   "id": "T6.23",
+   "clave": "a",
+   "enunciado": "El circuito de la figura, conectado entre el transmisor y la antena, se utiliza como:\n    #align(center, esquema({\n      import zap: *\n      import cetz.draw: content\n      node(\"a\", (0, 2), fill: false)\n      wire((0, 2), (5.2, 2))\n      node(\"n1\", (1.4, 2))\n      node(\"n2\", (3.8, 2))\n      inductor(\"l\", (2, 2), (3.2, 2))\n      capacitor(\"c1\", (1.4, 2), (1.4, 0.4), variable: true)\n      capacitor(\"c2\", (3.8, 2), (3.8, 0.4), variable: true)\n      earth(\"g1\", (1.4, 0.4))\n      earth(\"g2\", (3.8, 0.4))\n      node(\"b\", (5.2, 2), fill: false)\n      content((-0.15, 2), anchor: \"east\", text(size: 8pt, fill: col.gris)[del transmisor])\n      content((5.35, 2), anchor: \"west\", text(size: 8pt, fill: col.gris)[a la antena])\n    }))\n  ",
+   "opciones": [
+    "acoplador de antena (red en pi)",
+    "rectificador de onda completa",
+    "modulador balanceado",
+    "atenuador resistivo"
+   ],
+   "sol": "Condensador variable en derivación, bobina en serie y otro condensador en derivación: la red en pi clásica del acoplador de antena, que transforma impedancias y de paso filtra armónicos (es un paso bajo).",
+   "figura": true
+  },
+  {
+   "id": "T6.24",
+   "clave": "b",
+   "enunciado": "El conmutador de antena de una estación permite:",
+   "opciones": [
+    "adaptar la impedancia de la antena a la del transmisor",
+    "conectar la antena alternativamente al transmisor o al receptor",
+    "medir la relación de ondas estacionarias",
+    "eliminar los armónicos de la emisión"
+   ],
+   "sol": "La antena es una sola y los usos son incompatibles: el conmutador decide en cada momento quién la tiene. Adaptar impedancias es cosa del acoplador y filtrar armónicos, del filtro de salida."
+  },
+  {
+   "id": "T6.25",
+   "clave": "c",
+   "enunciado": "Durante la transmisión, el relé de transmisión-recepción de un transceptor:",
+   "opciones": [
+    "conecta el receptor en paralelo con la antena",
+    "aumenta la ganancia de la etapa de entrada del receptor",
+    "desconecta la entrada del receptor y la protege de la potencia emitida",
+    "conmuta la polarización de la antena"
+   ],
+   "sol": "La primera etapa del receptor está diseñada para microvoltios; los vatios del propio transmisor la destruirían. Por eso el relé la desconecta —y normalmente la pone a masa— mientras se transmite."
+  },
+  {
+   "id": "T6.26",
+   "clave": "a",
+   "enunciado": "Un conmutador de antenas de varias posiciones se emplea para:",
+   "opciones": [
+    "elegir, desde un mismo equipo, cuál de las antenas de la estación se usa",
+    "repartir la potencia entre todas las antenas a la vez",
+    "transformar una línea asimétrica en simétrica",
+    "sintonizar la antena en varias bandas"
+   ],
+   "sol": "Evita andar cambiando conectores cada vez que se cambia de banda. Conviene que las posiciones libres queden a masa, para derivar la estática que se acumula en las antenas no usadas. Transformar simétrica en asimétrica es tarea del balun."
+  },
+  {
+   "id": "T6.27",
+   "clave": "d",
+   "enunciado": "En una antena vertical de cuarto de onda, inclinar los radiales hacia abajo produce:",
+   "opciones": [
+    "una disminución de la frecuencia de resonancia",
+    "un cambio de polarización a horizontal",
+    "la desaparición del plano de tierra",
+    "un aumento de la impedancia en el punto de alimentación"
+   ],
+   "sol": "Con los radiales horizontales la impedancia ronda los 36 ohmios; al inclinarlos unos 45° sube hasta las proximidades de 50 ohmios, que es justo lo que el coaxial habitual pide. Es un truco de adaptación, no de sintonía."
+  },
+  {
+   "id": "T6.28",
+   "clave": "b",
+   "enunciado": "La principal ventaja de un dipolo montado en V invertida es que:",
+   "opciones": [
+    "radia exclusivamente en polarización horizontal",
+    "necesita un solo soporte central en lugar de dos",
+    "no requiere línea de transmisión",
+    "duplica la ganancia del dipolo horizontal"
+   ],
+   "sol": "Se cuelga del centro y los extremos caen hacia abajo, así que con un único mástil se resuelve la instalación. A cambio, la radiación pierde algo de la horizontalidad pura del dipolo plano."
+  },
+  {
+   "id": "T6.29",
+   "clave": "a",
+   "enunciado": "El tamaño físico que debe tener una antena está en función de:",
+   "opciones": [
+    "la longitud de onda de trabajo",
+    "la potencia del transmisor",
+    "la impedancia del cable coaxial",
+    "el tipo de modulación empleada"
+   ],
+   "sol": "Una antena resuena cuando su longitud guarda una relación concreta con la longitud de onda —media onda el dipolo, un cuarto la vertical—, y por eso las antenas de HF son enormes y las de UHF caben en la mano. La potencia solo condiciona el grosor de los conductores y los aislantes."
+  },
+  {
+   "id": "T6.30",
+   "clave": "c",
+   "enunciado": "Se dice que una antena es pasiva cuando:",
+   "opciones": [
+    "está construida con elementos no metálicos",
+    "solo puede emplearse en recepción",
+    "no incorpora ningún elemento amplificador",
+    "carece de elementos directores"
+   ],
+   "sol": "Una antena pasiva no añade energía: su «ganancia» consiste en concentrar en una dirección la que ya tiene. Las activas llevan un preamplificador incorporado y necesitan alimentación."
+  },
+  {
+   "id": "T6.31",
+   "clave": "d",
+   "enunciado": "La velocidad de propagación de una onda por el interior de una línea de transmisión, comparada con su velocidad en el aire, es:",
+   "opciones": [
+    "mayor",
+    "la misma",
+    "mayor o menor según la frecuencia",
+    "menor"
+   ],
+   "sol": "El dieléctrico que separa los conductores frena la onda. Esa reducción es el factor de velocidad, típicamente 0,66 en un coaxial de polietileno macizo y hasta 0,8 en los de dieléctrico celular."
+  },
+  {
+   "id": "T6.32",
+   "clave": "a",
+   "enunciado": "En una línea de transmisión perfectamente adaptada a la antena, el coeficiente de reflexión vale:",
+   "opciones": [
+    "cero",
+    "uno",
+    "infinito",
+    "el mismo valor que la ROE"
+   ],
+   "sol": "Adaptación perfecta significa que la antena absorbe toda la potencia que le llega y no devuelve nada: no hay onda reflejada, luego el coeficiente es cero y la ROE vale 1. Ojo con confundir ambos números: la ROE en ese caso es 1, no 0."
+  },
+  {
+   "id": "T6.33",
+   "clave": "b",
+   "enunciado": "Comparadas entre sí, la longitud física y la longitud eléctrica de un tramo de cable coaxial cumplen que:",
+   "opciones": [
+    "ambas son siempre iguales",
+    "la longitud física es menor que la eléctrica",
+    "la longitud física es mayor que la eléctrica",
+    "su relación depende de la potencia aplicada"
+   ],
+   "sol": "Como la onda va más despacio dentro del cable, la longitud de onda allí es más corta: $L_\"fís\" = L_\"el\" times \"FV\"$, con FV < 1 (0,66 en un coaxial de polietileno). Para conseguir media onda eléctrica basta con menos cable del que haría falta en el aire: la longitud física es menor que la eléctrica. Solo serían iguales en el vacío (FV = 1), y la potencia aplicada no interviene. Ojo: alguna lista publicada da por buena la opción contraria («la física es mayor»); es un error."
+  },
+  {
+   "id": "T6.34",
+   "clave": "c",
+   "enunciado": "La ganancia de una antena se expresa normalmente en:",
+   "opciones": [
+    "vatios radiados",
+    "ohmios de impedancia",
+    "decibelios respecto de una antena de referencia (dBi o dBd)",
+    "metros de longitud de onda"
+   ],
+   "sol": "La ganancia es siempre una comparación, nunca una cantidad absoluta: dBi si se compara con el radiador isótropo teórico y dBd si se compara con un dipolo de media onda. Entre ambas escalas hay 2,15 dB de diferencia — el dipolo ya gana eso sobre el isótropo—, así que una misma antena tiene dos cifras según cómo se exprese."
+  },
+  {
+   "id": "T6.35",
+   "clave": "d",
+   "enunciado": "Una antena vertical de cuarto de onda necesita, para funcionar correctamente:",
+   "opciones": [
+    "una línea de alimentación simétrica",
+    "alimentarse siempre por su extremo superior",
+    "una longitud igual a media longitud de onda",
+    "un plano de tierra o un juego de radiales"
+   ],
+   "sol": "La vertical es, en el fondo, media antena: el plano de tierra hace de espejo y crea la otra mitad por imagen. Sin él no hay contra qué trabajar y el rendimiento se desploma."
+  },
+  {
+   "id": "T6.36",
+   "clave": "b",
+   "enunciado": "La impedancia que presenta en su punto de alimentación un dipolo de media onda en resonancia, situado en el espacio libre, es aproximadamente de:",
+   "opciones": [
+    "300 ohmios",
+    "73 ohmios",
+    "50 ohmios",
+    "600 ohmios"
+   ],
+   "sol": "Ese valor teórico de unos 73 ohmios es lo que hace que el coaxial de 50 o de 75 ohmios sea una elección razonable para alimentarlo. Los 300 ohmios son los del dipolo plegado, y los 600, los de una línea bifilar abierta."
+  },
+  {
+   "id": "T6.37",
+   "clave": "b",
+   "enunciado": "En una antena Yagi, los elementos parásitos:",
+   "opciones": [
+    "van conectados a la línea de transmisión",
+    "proporcionan directividad a la antena",
+    "sustituyen al elemento radiante",
+    "sirven únicamente de soporte mecánico"
+   ],
+   "sol": "No están conectados a la línea: reciben energía por inducción del elemento alimentado y la reirradian con una fase distinta, de modo que las ondas se refuerzan hacia delante y se cancelan hacia atrás. De ahí la directividad."
+  },
+  {
+   "id": "T6.38",
+   "clave": "a",
+   "enunciado": "En una antena pasiva puede afirmarse que:",
+   "opciones": [
+    "su diagrama de radiación en transmisión y en recepción es el mismo",
+    "radia mejor de lo que recibe",
+    "recibe mejor de lo que radia",
+    "su diagrama cambia con la potencia aplicada"
+   ],
+   "sol": "Es el principio de reciprocidad: una antena se comporta igual emitiendo que recibiendo, con el mismo diagrama y la misma ganancia. Por eso apuntar una directiva sirve tanto para transmitir como para escuchar."
+  },
+  {
+   "id": "T6.39",
+   "clave": "c",
+   "enunciado": "Las bobinas intercaladas en los brazos de un dipolo permiten:",
+   "opciones": [
+    "aumentar la potencia admisible",
+    "mejorar la relación delante-detrás",
+    "incrementar su longitud eléctrica sin alargarla físicamente",
+    "convertirlo en una antena vertical"
+   ],
+   "sol": "La bobina añade la reactancia inductiva que le falta a una antena más corta de lo que la resonancia pediría, de modo que eléctricamente «parece» más larga. Es el recurso de las antenas de móvil, cortas por necesidad."
+  },
+  {
+   "id": "T6.40",
+   "clave": "d",
+   "enunciado": "Se dice que una antena es omnidireccional cuando:",
+   "opciones": [
+    "concentra la radiación en una única dirección",
+    "no radia en absoluto",
+    "solo funciona en recepción",
+    "radia por igual en todas las direcciones del plano horizontal"
+   ],
+   "sol": "Radia lo mismo hacia todos los rumbos, que es lo propio de una vertical. No significa que radie igual en todas las direcciones del espacio: en elevación sí tiene un diagrama con máximos y mínimos."
+  },
+  {
+   "id": "T6.41",
+   "clave": "c",
+   "enunciado": "En una antena helicoidal, la ganancia depende fundamentalmente de:",
+   "opciones": [
+    "el material del mástil",
+    "la potencia aplicada",
+    "el número de espiras",
+    "el color del recubrimiento"
+   ],
+   "sol": "Cuantas más espiras, mayor longitud de la hélice y más concentrada queda la radiación en el eje. Es una antena de polarización circular, muy usada en enlaces con satélites."
+  },
+  {
+   "id": "T6.42",
+   "clave": "b",
+   "enunciado": "El factor de velocidad de un cable coaxial se relaciona con la constante dieléctrica $epsilon_r$ de su aislante mediante:",
+   "opciones": [
+    "el producto por $epsilon_r$",
+    "la inversa de la raíz cuadrada de $epsilon_r$",
+    "la raíz cuadrada de $epsilon_r$",
+    "una relación independiente del dieléctrico"
+   ],
+   "sol": "$v_f = 1\\/sqrt(epsilon_r)$. Un polietileno macizo, con $epsilon_r approx 2,3$, da un factor de velocidad de unos 0,66: la onda viaja al 66 % de la velocidad de la luz."
+  },
+  {
+   "id": "T6.43",
+   "clave": "d",
+   "enunciado": "La máxima transferencia de energía del transmisor a la antena se produce cuando:",
+   "opciones": [
+    "la antena es lo más larga posible",
+    "la línea de transmisión es lo más corta posible",
+    "se emplea la máxima potencia disponible",
+    "las impedancias del emisor, de la línea y de la antena coinciden"
+   ],
+   "sol": "Es el teorema de la máxima transferencia de potencia aplicado a la estación: con las tres impedancias iguales no hay reflexión y toda la potencia disponible llega a la antena. Alargar la antena o subir la potencia no sustituye a la adaptación."
+  },
+  {
+   "id": "T6.44",
+   "clave": "d",
+   "enunciado": "En la instalación de la figura, donde las tres impedancias coinciden, puede afirmarse que:\n    #align(center, cetz.canvas({\n      import cetz.draw: *\n      for (x, t) in ((0, [transmisor]), (4, [línea]), (8, [antena])) {\n        rect((x - 1, -0.38), (x + 1, 0.38), fill: col.acento-claro, stroke: 0.6pt + col.acento, radius: 0.08)\n        content((x, 0.12), text(size: 7.5pt, t))\n        content((x, -0.17), text(size: 7.5pt)[50 Ω])\n      }\n      line((1, 0), (3, 0), stroke: 0.7pt)\n      line((5, 0), (7, 0), stroke: 0.7pt)\n    }))\n  ",
+   "opciones": [
+    "la ROE resultante vale cero",
+    "la potencia reflejada es la mitad de la directa",
+    "se necesita un acoplador de antena",
+    "la potencia reflejada es nula"
+   ],
+   "sol": "Con las tres impedancias iguales la línea está terminada en su impedancia característica: la antena absorbe toda la potencia y no devuelve nada. El coeficiente de reflexión es cero y la ROE vale 1 — no cero, que es el error clásico.",
+   "figura": true
+  },
+  {
+   "id": "T6.45",
+   "clave": "a",
+   "enunciado": "Las bobinas intercaladas en los brazos del dipolo de la figura hacen que la antena resuene:\n    #align(center, esquema({\n      import zap: *\n      import cetz.draw: content, line\n      line((-6, 0), (-3.4, 0), .._t6-hilo)\n      inductor(\"l1\", (-3.4, 0), (-2.2, 0))\n      wire((-2.2, 0), (-0.25, 0))\n      wire((-0.25, 0), (-0.25, -0.75))\n      wire((0.25, 0), (0.25, -0.75))\n      wire((0.25, 0), (2.2, 0))\n      inductor(\"l2\", (2.2, 0), (3.4, 0))\n      line((3.4, 0), (6, 0), .._t6-hilo)\n      content((-2.8, 0.6), text(size: 7.5pt, fill: col.gris)[bobina])\n      content((2.8, 0.6), text(size: 7.5pt, fill: col.gris)[bobina])\n      content((0, -1.05), text(size: 7.5pt, fill: col.gris)[alimentación])\n    }))\n  ",
+   "opciones": [
+    "a una frecuencia más baja que la que le correspondería por su longitud física",
+    "a una frecuencia más alta que la que le correspondería por su longitud física",
+    "exactamente a la frecuencia de su longitud física",
+    "a dos frecuencias distintas simultáneamente"
+   ],
+   "sol": "La bobina añade la reactancia inductiva que le falta a una antena corta, de modo que el conjunto resuena por debajo de lo que su longitud física haría esperar. Dicho al revés: permite una antena más corta para la misma frecuencia, que es de lo que se trata en móvil.",
+   "figura": true
+  },
+  {
+   "id": "T6.46",
+   "clave": "c",
+   "enunciado": "En el diagrama de radiación de la figura, la diferencia en decibelios entre los puntos 1 y 2 se denomina:\n    #align(center, cetz.canvas({\n      import cetz.draw: *\n      for rr in (0.9, 1.8, 2.7) { circle((0, 0), radius: rr, stroke: 0.4pt + col.gris.lighten(60%)) }\n      let lp = a => if calc.cos(a) > 0 { 1.8 * calc.pow(calc.cos(a), 3) } else { 0 }\n      let lt = a => if calc.cos(a) < 0 { 0.4 * calc.pow(calc.cos(a), 2) } else { 0 }\n      line(.._t6-pts(lp, -90deg, 90deg, n: 160), close: true, stroke: 1.1pt + col.acento, fill: col.acento-claro.transparentize(20%))\n      line(.._t6-pts(lt, 90deg, 270deg, n: 100), close: true, stroke: 0.9pt + col.naranja)\n      circle((1.8, 0), radius: 0.06, fill: black)\n      circle((-0.4, 0), radius: 0.06, fill: black)\n      content((1.9, 0), anchor: \"west\", text(size: 7.5pt, weight: \"bold\")[1])\n      content((-0.5, 0), anchor: \"east\", text(size: 7.5pt, weight: \"bold\")[2])\n    }))\n  ",
+   "opciones": [
+    "ancho de haz",
+    "ganancia isótropa",
+    "relación delante-atrás",
+    "potencia efectiva radiada"
+   ],
+   "sol": "El punto 1 está en el máximo del lóbulo principal y el 2 en el trasero: su cociente en decibelios es la relación delante-atrás, que mide cuánto rechaza la antena lo que viene por detrás. El ancho de haz, en cambio, es una apertura angular, no una diferencia de nivel.",
+   "figura": true
+  },
+  {
+   "id": "T7.1",
+   "clave": "b",
+   "enunciado": "Las capas ionizadas de la atmósfera se denominan:",
+   "opciones": [
+    "A, B y C",
+    "D, E, F1 y F2",
+    "alfa, beta y gamma",
+    "troposfera y estratosfera"
+   ],
+   "sol": "Capas D, E, F1 y F2 (@t7-fig-capas[figura]); de noche la D desaparece y F1 y F2 se funden en una sola capa F."
+  },
+  {
+   "id": "T7.2",
+   "clave": "c",
+   "enunciado": "El modo de propagación por onda ionosférica predomina en la banda de:",
+   "opciones": [
+    "UHF",
+    "SHF",
+    "HF",
+    "EHF"
+   ],
+   "sol": "La reflexión ionosférica domina en HF (3–30 MHz): es lo que permite el DX intercontinental con potencias modestas."
+  },
+  {
+   "id": "T7.3",
+   "clave": "a",
+   "enunciado": "El modo de propagación por onda de superficie predomina en la banda de:",
+   "opciones": [
+    "MF",
+    "VHF",
+    "UHF",
+    "SHF"
+   ],
+   "sol": "La onda de superficie viaja guiada por el suelo, y el suelo es mal conductor: las pérdidas que induce crecen con la frecuencia. Por eso domina en MF y por debajo; en HF se agota en pocos kilómetros y solo sobrevive la propagación ionosférica."
+  },
+  {
+   "id": "T7.4",
+   "clave": "d",
+   "enunciado": "La propagación por onda de superficie se caracteriza porque la onda:",
+   "opciones": [
+    "se refleja en la capa F de la ionosfera",
+    "rebota en la superficie lunar",
+    "solo existe con visión directa entre antenas",
+    "se propaga siguiendo la curvatura terrestre"
+   ],
+   "sol": "La onda de superficie viaja pegada al suelo siguiendo la curvatura terrestre, superando el horizonte visual."
+  },
+  {
+   "id": "T7.5",
+   "clave": "a",
+   "enunciado": "La forma más común de propagación en VHF y UHF es por:",
+   "opciones": [
+    "onda directa",
+    "reflexión ionosférica en la capa D",
+    "onda de superficie",
+    "conducto troposférico permanente"
+   ],
+   "sol": "En VHF/UHF la ionosfera ya no refleja: propagación por onda directa, con alcance algo mayor que el horizonte óptico."
+  },
+  {
+   "id": "T7.6",
+   "clave": "b",
+   "enunciado": "Se llama frecuencia crítica a la frecuencia:",
+   "opciones": [
+    "mínima que atraviesa la capa D",
+    "por encima de la cual, en incidencia vertical, no hay reflexión en la ionosfera",
+    "de resonancia de la antena receptora",
+    "máxima que puede generar el transmisor"
+   ],
+   "sol": "La frecuencia crítica es la máxima que, en incidencia vertical, aún se refleja; por encima, la onda atraviesa la ionosfera."
+  },
+  {
+   "id": "T7.7",
+   "clave": "c",
+   "enunciado": "La variación momentánea de la intensidad de campo recibida se conoce como:",
+   "opciones": [
+    "intermodulación",
+    "efecto pelicular",
+    "desvanecimiento o fading",
+    "dispersión troposférica"
+   ],
+   "sol": "El fading es la variación momentánea de la intensidad recibida (cambios ionosféricos, multitrayecto); el CAG lo compensa en parte."
+  },
+  {
+   "id": "T7.8",
+   "clave": "a",
+   "enunciado": "En la banda de 3,5 MHz, los alcances por reflexión ionosférica durante el día, frente a los de la noche, son:",
+   "opciones": [
+    "menores",
+    "mayores",
+    "iguales",
+    "nulos en cualquier caso"
+   ],
+   "sol": "De día la capa D absorbe las bandas bajas de HF: alcances menores. Por eso 80 m es una banda nocturna."
+  },
+  {
+   "id": "T7.9",
+   "clave": "d",
+   "enunciado": "Las bandas más idóneas para la comunicación por rebote lunar (EME) son:",
+   "opciones": [
+    "MF y LF",
+    "HF exclusivamente",
+    "MF y HF",
+    "VHF y superiores"
+   ],
+   "sol": "El EME exige atravesar la ionosfera y apuntar con gran directividad: VHF, UHF y microondas."
+  },
+  {
+   "id": "T7.10",
+   "clave": "b",
+   "enunciado": "Un enlace radioeléctrico entre España y Nueva Zelanda podría establecerse empleando:",
+   "opciones": [
+    "una frecuencia de UHF con visión directa",
+    "una frecuencia de HF que se refleje en la ionosfera",
+    "exclusivamente la onda de superficie en VHF",
+    "una frecuencia de microondas por conducto troposférico"
+   ],
+   "sol": "$tilde 19 000$ km solo son viables por reflexión ionosférica múltiple en HF, con una frecuencia que la ionosfera refleje en ese momento (por debajo de la MUF del trayecto)."
+  },
+  {
+   "id": "T7.11",
+   "clave": "b",
+   "enunciado": "Con la dispersión troposférica (troposcatter) en la propagación de ondas se consigue:",
+   "opciones": [
+    "comunicar únicamente por visión directa",
+    "un alcance mayor que el meramente visual entre las antenas",
+    "eliminar el desvanecimiento",
+    "reflejar señales de MF en la ionosfera"
+   ],
+   "sol": "El troposcatter dispersa una pequeña parte de la energía en las irregularidades de la troposfera: alcances muy superiores al horizonte visual (cientos de km), a costa de grandes pérdidas."
+  },
+  {
+   "id": "T7.12",
+   "clave": "a",
+   "enunciado": "Los transmisores de VHF en radioafición se utilizan normalmente para:",
+   "opciones": [
+    "distancias cortas",
+    "contactos intercontinentales diarios",
+    "comunicación submarina",
+    "enlaces exclusivamente por satélite"
+   ],
+   "sol": "Por su propagación por onda directa, los transmisores de VHF sirven normalmente para distancias cortas (locales y provinciales)."
+  },
+  {
+   "id": "T7.13",
+   "clave": "d",
+   "enunciado": "De los siguientes factores, influyen en una comunicación radioeléctrica:",
+   "opciones": [
+    "la polarización de la señal radioeléctrica",
+    "la potencia y la frecuencia de emisión",
+    "la ubicación de las antenas transmisora y receptora",
+    "todos los anteriores"
+   ],
+   "sol": "Polarización, potencia, frecuencia y ubicación de las antenas influyen todos en el resultado del enlace: la respuesta es «todos los anteriores»."
+  },
+  {
+   "id": "T7.14",
+   "clave": "c",
+   "enunciado": "En una transmisión radioeléctrica, las ondas, al propagarse:",
+   "opciones": [
+    "solo se atenúan si llueve",
+    "mantienen su intensidad indefinidamente",
+    "se atenúan siempre",
+    "se amplifican en la ionosfera"
+   ],
+   "sol": "La atenuación con la distancia es inevitable: en espacio libre la densidad de potencia cae con $1\\/d^2$, y el medio real añade absorción."
+  },
+  {
+   "id": "T7.15",
+   "clave": "c",
+   "enunciado": "Según la nomenclatura de las bandas de frecuencia, el símbolo MF corresponde a las ondas:",
+   "opciones": [
+    "miriamétricas",
+    "kilométricas",
+    "hectométricas",
+    "decamétricas"
+   ],
+   "sol": "MF abarca de 300 kHz a 3 MHz, es decir, longitudes de onda de 1000 a 100 metros: centenas de metros, hectométricas. Es la banda de la radiodifusión en onda media."
+  },
+  {
+   "id": "T7.16",
+   "clave": "a",
+   "enunciado": "Las ondas decamétricas comprenden las frecuencias de:",
+   "opciones": [
+    "3 a 30 MHz",
+    "300 kHz a 3 MHz",
+    "30 a 300 MHz",
+    "30 a 300 kHz"
+   ],
+   "sol": "Decenas de metros —de 10 a 100 m— son, por $lambda = c\\/f$, de 3 a 30 MHz: exactamente la banda HF, donde está la mayoría de las bandas de aficionado de onda corta."
+  },
+  {
+   "id": "T7.17",
+   "clave": "d",
+   "enunciado": "La banda designada como VHF está formada por las ondas:",
+   "opciones": [
+    "decimétricas",
+    "decamétricas",
+    "centimétricas",
+    "métricas"
+   ],
+   "sol": "VHF va de 30 a 300 MHz, o sea, de 10 a 1 metro de longitud de onda: métricas. La banda de 2 metros, la más usada en VHF, cae de lleno ahí."
+  },
+  {
+   "id": "T7.18",
+   "clave": "b",
+   "enunciado": "En la nomenclatura de las bandas de frecuencia, el símbolo LF corresponde a la banda de:",
+   "opciones": [
+    "3 a 30 kHz",
+    "30 a 300 kHz",
+    "300 kHz a 3 MHz",
+    "30 a 300 MHz"
+   ],
+   "sol": "Cada banda abarca una década y LF es la segunda desde abajo: de 30 a 300 kHz, con longitudes de onda de 10 a 1 kilómetro — de ahí que se llamen kilométricas. La de 3 a 30 kHz es VLF."
+  },
+  {
+   "id": "T7.19",
+   "clave": "c",
+   "enunciado": "Las ondas decimétricas se corresponden con la banda designada como:",
+   "opciones": [
+    "VHF",
+    "SHF",
+    "UHF",
+    "EHF"
+   ],
+   "sol": "Decímetros —de 10 a 100 cm— corresponden a 300 MHz a 3 GHz, que es UHF. Ahí están la banda de 70 cm de aficionado y buena parte de los servicios móviles."
+  },
+  {
+   "id": "T7.20",
+   "clave": "a",
+   "enunciado": "Una emisión en la frecuencia de 3,5 MHz pertenece a las ondas:",
+   "opciones": [
+    "decamétricas",
+    "hectométricas",
+    "métricas",
+    "kilométricas"
+   ],
+   "sol": "$lambda = 300\\/3,5 approx 86$ metros, que está entre 10 y 100: decamétricas. Coincide con lo esperable, porque 3,5 MHz cae dentro de HF —la banda de 80 metros."
+  },
+  {
+   "id": "T7.21",
+   "clave": "b",
+   "enunciado": "La curvatura que experimenta una onda radioeléctrica al encontrar un obstáculo en su trayectoria se denomina:",
+   "opciones": [
+    "reflexión",
+    "difracción",
+    "refracción",
+    "absorción"
+   ],
+   "sol": "La difracción es la capacidad de la onda para bordear un obstáculo y llegar a la zona de sombra geométrica, y es tanto mayor cuanto más larga es la longitud de onda: por eso en HF se salva un monte que en UHF deja sombra. La reflexión rebota, la refracción curva al cambiar de medio y la absorción convierte la energía en calor."
+  },
+  {
+   "id": "T7.22",
+   "clave": "c",
+   "enunciado": "Ordenadas de menor a mayor altura, las capas de la atmósfera son:",
+   "opciones": [
+    "ionosfera, troposfera y estratosfera",
+    "estratosfera, troposfera e ionosfera",
+    "troposfera, estratosfera e ionosfera",
+    "troposfera, ionosfera y estratosfera"
+   ],
+   "sol": "De abajo arriba: troposfera (donde está el tiempo atmosférico y ocurre la propagación troposférica), estratosfera y, por encima, la ionosfera, que es la que refleja las ondas de HF."
+  },
+  {
+   "id": "T7.23",
+   "clave": "a",
+   "enunciado": "La región de la atmósfera cuyo estado varía con la actividad solar y de la que dependen las condiciones de propagación en HF es:",
+   "opciones": [
+    "la ionosfera",
+    "la troposfera",
+    "la estratosfera",
+    "la mesosfera"
+   ],
+   "sol": "Es la radiación solar la que ioniza esas capas altas, de modo que el ciclo solar de once años, las fulguraciones y el día y la noche cambian por completo las condiciones en HF. La troposfera influye en VHF y UHF, pero no en la reflexión ionosférica."
+  },
+  {
+   "id": "T7.24",
+   "clave": "d",
+   "enunciado": "Para las comunicaciones a través de satélites de aficionado se emplean preferentemente las bandas de:",
+   "opciones": [
+    "onda media",
+    "80 y 40 metros",
+    "frecuencias inferiores a 3 MHz",
+    "VHF y UHF"
+   ],
+   "sol": "Para atravesar la ionosfera en lugar de reflejarse en ella hace falta subir por encima de las frecuencias que esta devuelve: los satélites de aficionado trabajan en 2 metros, 70 centímetros y bandas superiores. En HF buena parte de la señal se reflejaría en la ionosfera en vez de atravesarla."
+  },
+  {
+   "id": "T7.25",
+   "clave": "b",
+   "enunciado": "En las comunicaciones terrestres en la banda de UHF, y en igualdad de condiciones, puede afirmarse que:",
+   "opciones": [
+    "el alcance aumenta con la frecuencia",
+    "a mayor frecuencia, menor alcance",
+    "el alcance no depende de la frecuencia",
+    "el alcance depende solo de la modulación empleada"
+   ],
+   "sol": "Al subir en frecuencia las pérdidas de propagación crecen, la onda difracta peor y cualquier obstáculo produce sombra. Por eso en UHF se trabaja esencialmente con visión directa y los alcances son más cortos que en VHF a igualdad de potencia y antenas."
+  },
+  {
+   "id": "T7.26",
+   "clave": "c",
+   "enunciado": "Las ondas centimétricas se designan con la abreviatura:",
+   "opciones": [
+    "UHF",
+    "EHF",
+    "SHF",
+    "VHF"
+   ],
+   "sol": "SHF va de 3 a 30 GHz, es decir, longitudes de onda de 10 a 1 centímetro. Un escalón por debajo está UHF (decimétricas) y uno por encima EHF (milimétricas)."
+  },
+  {
+   "id": "T7.27",
+   "clave": "a",
+   "enunciado": "En el espectro de la figura, correspondiente a tres emisiones simultáneas, la señal de menor frecuencia es:\n    #align(center, cetz.canvas({\n      import cetz.draw: *\n      ejes(0, 7.2, 0, 2.3, etq-x: $f$)\n      content((0, 2.4), anchor: \"south\", text(size: 7.5pt, fill: col.gris)[amplitud])\n      for (x, h, n) in ((1.4, 1.75, \"1\"), (3.6, 1.1, \"2\"), (5.6, 1.5, \"3\")) {\n        line((x, 0), (x, h), stroke: 1.3pt + col.acento)\n        content((x, h + 0.1), anchor: \"south\", text(size: 7.5pt, weight: \"bold\", fill: col.naranja, n))\n      }\n    }))\n  ",
+   "opciones": [
+    "la señal 1",
+    "la señal 2",
+    "la señal 3",
+    "las tres tienen la misma frecuencia"
+   ],
+   "sol": "El eje horizontal es la frecuencia y crece hacia la derecha, así que la señal situada más a la izquierda es la de menor frecuencia. La altura de cada raya es su amplitud, que aquí no se pregunta — es la trampa del enunciado.",
+   "figura": true
+  }
+ ]
+}

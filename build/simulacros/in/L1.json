@@ -1,0 +1,1643 @@
+{
+ "temas": {
+  "T1": {
+   "titulo": "Teoría de la electricidad, el electromagnetismo y la radio",
+   "alcance": "Conductividad y leyes fundamentales (Ohm, Kirchhoff) · fuentes de alimentación · campos eléctrico, magnético y electromagnético · señales sinusoidales y no sinusoidales · señales moduladas (CW, AM, SSB, FM y modulación digital) · potencia, energía y decibelios · procesado digital de señales (DSP)."
+  }
+ },
+ "preguntas": [
+  {
+   "id": "C-T1.1",
+   "clave": "c",
+   "enunciado": "En la teoría de electricidad, un ohmio equivale a:",
+   "opciones": [
+    "1 amperio × 1 voltio",
+    "1 amperio × 1 segundo",
+    "1 voltio / 1 amperio",
+    "1 amperio / 1 voltio"
+   ],
+   "sol": "\n    De la ley de Ohm, $V = I · R$, se despeja $R = V slash I$: un ohmio es la resistencia que deja\n    pasar 1 A cuando se le aplica 1 V, es decir, 1 Ω = 1 V/1 A. Las otras opciones son unidades\n    distintas: amperio × voltio es un vatio ($P = V · I$), amperio × segundo es un culombio (carga\n    eléctrica) y amperio/voltio es la inversa del ohmio, la conductancia (siemens, antes «mho»).\n    #vease[(Véase tema T1, sección «Unidades y leyes fundamentales».)]\n  "
+  },
+  {
+   "id": "C-T1.2",
+   "clave": "d",
+   "enunciado": "La unidad de medida de intensidad eléctrica es el:",
+   "opciones": [
+    "voltio",
+    "vatio",
+    "ohmio",
+    "amperio"
+   ],
+   "sol": "\n    La intensidad de corriente es la carga que circula por unidad de tiempo, $I = q slash t$, y se\n    mide en amperios: 1 A = 1 C/s. Las demás opciones son unidades de otras magnitudes: el voltio\n    mide la tensión (diferencia de potencial), el vatio la potencia y el ohmio la resistencia.\n    #vease[(Véase tema T1, sección «Unidades y leyes fundamentales».)]\n  "
+  },
+  {
+   "id": "C-T1.3",
+   "clave": "d",
+   "enunciado": "La velocidad de propagación de las ondas electromagnéticas en el vacío es:",
+   "opciones": [
+    "creciente",
+    "decreciente",
+    "directamente proporcional a la frecuencia de las ondas",
+    "constante"
+   ],
+   "sol": "\n    En el vacío todas las ondas electromagnéticas, sea cual sea su frecuencia, viajan a la misma\n    velocidad: $c ≈ 300.000$ km/s, la de la luz. No aumenta ni disminuye y no depende de la\n    frecuencia. Lo que cambia con la frecuencia es la longitud de onda: como $c = λ f$, si $f$ sube,\n    $λ$ baja en la misma proporción y el producto sigue valiendo $c$. Por eso la velocidad no puede\n    ser proporcional a la frecuencia. #vease[(Véase tema T1, sección «Ondas y señales».)]\n  "
+  },
+  {
+   "id": "C-T1.4",
+   "clave": "d",
+   "enunciado": "La velocidad de propagación de las ondas electromagnéticas:",
+   "opciones": [
+    "en el vacío es menor que a través del aire",
+    "aumenta con la frecuencia",
+    "disminuye con la frecuencia",
+    "es constante en un determinado medio"
+   ],
+   "sol": "\n    En un medio dado la velocidad de propagación es fija y, en los medios habituales en radio, no\n    depende de la frecuencia: lo que varía al cambiar $f$ es la longitud de onda ($v = λ f$), no la\n    velocidad. Por eso fallan b y c. La opción a es falsa porque el vacío es el medio en que las\n    ondas van más rápido ($c ≈ 300.000$ km/s); en el aire la velocidad es prácticamente la misma,\n    algo menor, nunca mayor. #vease[(Véase tema T1, sección «Ondas y señales»; factor de velocidad\n    en tema T6, sección «Líneas de transmisión y adaptación».)]\n    #no-esta[La velocidad de una onda electromagnética depende del medio, no de la frecuencia: en el vacío\n    vale $c = 3 × 10^8$ m/s y en cualquier material es menor, $v = c slash n$, con $n ≥ 1$ el índice\n    de refracción. En el aire $n ≈ 1,0003$, de modo que se toma $c$. En una línea de transmisión el\n    cociente $v slash c$ es el factor de velocidad (0,66 en coaxial con polietileno). Con $v$ fija\n    en el medio, la longitud de onda sigue a la frecuencia: $λ = v slash f$.]\n  "
+  },
+  {
+   "id": "C-T1.5",
+   "clave": "c",
+   "enunciado": "En un circuito eléctrico de corriente continua:",
+   "opciones": [
+    "la intensidad está en razón inversa a la tensión",
+    "la resistencia es variable con la tensión",
+    "la intensidad está en razón directa a la tensión",
+    "la capacidad del circuito disminuye"
+   ],
+   "sol": "\n    Por la ley de Ohm, $I = V slash R$: con la resistencia constante, la intensidad es directamente\n    proporcional a la tensión (si $V$ se duplica, $I$ se duplica). «Razón directa» significa eso, y\n    la opción a dice justo lo contrario. La b es falsa: en un conductor óhmico la resistencia\n    depende del material y de sus dimensiones ($R = ρ l slash S$), no de la tensión aplicada. La d\n    no guarda relación con la pregunta. #vease[(Véase tema T1, sección «Unidades y leyes\n    fundamentales».)]\n  "
+  },
+  {
+   "id": "C-T1.6",
+   "clave": "d",
+   "enunciado": "La unidad de potencia eléctrica es:",
+   "opciones": [
+    "el amperio",
+    "el voltio",
+    "el decibelio",
+    "el vatio"
+   ],
+   "sol": "\n    La potencia eléctrica se mide en vatios (W): $P = V · I$, de modo que 1 W = 1 V × 1 A (equivale\n    a un julio por segundo). El amperio es la unidad de intensidad y el voltio la de tensión. El\n    decibelio no es una unidad de potencia, sino una forma logarítmica de comparar dos valores de\n    una misma magnitud (solo con una referencia, dBW o dBm, expresa una potencia). #vease[(Véase\n    tema T1, secciones «Unidades y leyes fundamentales» y «Potencia, decibelios y DSP».)]\n    #no-esta[La potencia es la energía entregada o consumida por unidad de tiempo. Su unidad es el vatio (W):\n    1 W = 1 julio por segundo = 1 voltio × 1 amperio. Múltiplos de uso corriente: el milivatio (mW,\n    $10^(−3)$ W) y el kilovatio (kW, $10^3$ W). Resumen de unidades básicas: corriente, amperio (A);\n    tensión, voltio (V); resistencia, ohmio (Ω); potencia, vatio (W); frecuencia, hercio (Hz).]\n  "
+  },
+  {
+   "id": "C-T1.7",
+   "clave": "c",
+   "enunciado": "Para medir la intensidad del campo eléctrico se utilizan unidades de:",
+   "opciones": [
+    "dBV",
+    "dBW",
+    "dBV/m",
+    "dBW/m#super[2]"
+   ],
+   "sol": "\n    La intensidad de campo eléctrico es tensión por unidad de longitud y se mide en voltios por\n    metro (V/m). En escala logarítmica, en decibelios referidos a una tensión por metro, resulta\n    dBV/m (en la práctica se usa sobre todo dBμV/m, referido a 1 μV/m). Las demás opciones miden\n    otras magnitudes: dBV es un nivel de tensión (sin «por metro»), dBW un nivel de potencia y\n    dBW/m#super[2] una densidad de potencia (potencia por unidad de superficie). #vease[(Véase tema\n    T1, sección «Potencia, decibelios y DSP»; medidor de campo en tema T8, sección «Instrumentos».)]\n    #no-esta[Un decibelio con sufijo expresa un valor absoluto respecto de una referencia: dBW (1 W) y dBm (1\n    mW) para potencia, dBV (1 V) para tensión, dBV/m (1 V/m) y dBμV/m (1 μV/m) para campo eléctrico.\n    Como el campo es proporcional a una tensión, se usa $20 log_10$. La densidad de potencia\n    (W/m#super[2]) es otra magnitud: se relaciona con el campo por $S = E^2 slash 377$, con $E$ en\n    V/m.]\n  "
+  },
+  {
+   "id": "C-T1.8",
+   "clave": "a",
+   "enunciado": "El decibelio es una unidad de medida utilizada para:",
+   "opciones": [
+    "la comparación de niveles de potencia eléctrica",
+    "medidas de reactancia",
+    "comparar las frecuencias de dos circuitos",
+    "comprobar la disipación de placa de una válvula"
+   ],
+   "sol": "\n    El decibelio expresa, en escala logarítmica, la relación entre dos valores de una misma\n    magnitud, sobre todo de potencia: $G (\"dB\") = 10 log_10 (P_2 slash P_1)$. Sirve para comparar\n    niveles de potencia: ganancias, atenuaciones y pérdidas. La reactancia se mide en ohmios, la\n    frecuencia en hercios y la disipación de placa de una válvula en vatios; ninguna se mide en\n    decibelios. #vease[(Véase tema T1, sección «Potencia, decibelios y DSP».)]\n  "
+  },
+  {
+   "id": "C-T1.9",
+   "clave": "a",
+   "enunciado": "Una característica de la corriente alterna es su:",
+   "opciones": [
+    "frecuencia",
+    "conductividad",
+    "valor uniforme",
+    "velocidad de propagación"
+   ],
+   "sol": "\n    Una corriente alterna cambia de valor y de sentido de forma periódica, y lo que la caracteriza\n    es su frecuencia: el número de ciclos que completa por segundo, en hercios (junto con su\n    amplitud). Los distractores no sirven: la conductividad es una propiedad del material, no de la\n    corriente; un valor uniforme (constante) es lo propio de la corriente continua, y la velocidad\n    de propagación es una magnitud de las ondas en un medio. En la variante «la característica más\n    importante», las otras opciones (aplicación, procedencia, finalidad) describen su uso, no la\n    señal. #vease[(Véase tema T1, sección «Ondas y señales».)]\n  "
+  },
+  {
+   "id": "C-T1.10",
+   "clave": "b",
+   "enunciado": "Las reactancias inductiva y capacitiva tienen propiedades:",
+   "opciones": [
+    "similares",
+    "opuestas",
+    "alternativas",
+    "poco fiables"
+   ],
+   "sol": "\n    Bobina y condensador se comportan de forma opuesta. $X_L = 2π f L$ crece con la frecuencia y\n    $X_C = 1 slash (2π f C)$ disminuye. La corriente retrasa 90° respecto a la tensión en la bobina\n    y la adelanta 90° en el condensador. Y puestas en serie, sus efectos se restan: cuando\n    $X_L = X_C$ se anulan, que es la resonancia. «Similares» es falso, y «alternativas» y «poco\n    fiables» no describen ninguna propiedad de una reactancia. #vease[(Véase tema T2, secciones\n    «Condensadores» y «Bobinas»; resonancia en tema T3, sección «Asociación de componentes y\n    resonancia».)]\n  "
+  },
+  {
+   "id": "C-T1.11",
+   "clave": "d",
+   "enunciado": "La fuerza electromotriz de un generador se mide en:",
+   "opciones": [
+    "ohmios",
+    "vatios",
+    "kilovatios",
+    "voltios"
+   ],
+   "sol": "\n    La fuerza electromotriz (fem) es la energía que el generador da a cada unidad de carga, es\n    decir, julios por culombio, que son voltios: se mide en voltios (V), como toda tensión. Aunque\n    el nombre lleve la palabra «fuerza», no se mide en newtons. El ohmio es la unidad de\n    resistencia; el vatio y el kilovatio (mil vatios) lo son de potencia. #vease[(Véase tema T1,\n    secciones «Unidades y leyes fundamentales» y «Fuentes y energía».)]\n  "
+  },
+  {
+   "id": "C-T1.12",
+   "clave": "d",
+   "enunciado": "Entre los siguientes materiales, es buen conductor:",
+   "opciones": [
+    "papel seco",
+    "vidrio",
+    "agua destilada",
+    "mercurio"
+   ],
+   "sol": "\n    Un buen conductor tiene abundantes electrones libres, como los metales, y el mercurio es un\n    metal (líquido a temperatura ambiente). El papel seco y el vidrio son aislantes. El agua\n    destilada, al no llevar sales disueltas, apenas tiene iones que transporten carga y conduce muy\n    mal; el agua corriente sí conduce algo por las sales que contiene. #vease[(Véase tema T1,\n    sección «Unidades y leyes fundamentales» (conductor, aislante y semiconductor).)]\n    #no-esta[Por su conductividad, los materiales se clasifican en conductores (metales como la plata, el\n    cobre, el oro, el aluminio o el mercurio, con electrones libres en abundancia), aislantes o\n    dieléctricos (vidrio, porcelana, papel seco, plásticos, aire seco), casi sin cargas móviles, y\n    semiconductores (silicio, germanio). La plata es el mejor conductor, seguida del cobre; el\n    mercurio conduce peor que ellos, pero sigue siendo un metal conductor.]\n  "
+  },
+  {
+   "id": "C-T1.13",
+   "clave": "a",
+   "enunciado": "La resistencia eléctrica de un conductor es la resistencia que ofrece:",
+   "opciones": [
+    "a dejar pasar la corriente eléctrica",
+    "a doblarse",
+    "a calentarse",
+    "a disponerlo en forma de espiral"
+   ],
+   "sol": "\n    La resistencia eléctrica mide la oposición de un conductor al paso de la corriente:\n    $R = V slash I$, en ohmios, y en un hilo $R = ρ l slash S$. Cuanto mayor es, menos corriente\n    circula con la misma tensión. Doblarse, enrollarse en espiral o calentarse no definen la\n    resistencia; el calentamiento es una consecuencia del paso de la corriente (efecto Joule), no su\n    definición. #vease[(Véase tema T1, sección «Unidades y leyes fundamentales».)]\n  "
+  },
+  {
+   "id": "C-T1.14",
+   "clave": "a",
+   "enunciado": "Se define la corriente eléctrica diciendo que es:",
+   "opciones": [
+    "la circulación de cargas eléctricas",
+    "la iluminación que da una lámpara eléctrica",
+    "la fuerza electromotriz del generador que produce la corriente",
+    "el calor que produce al pasar por una estufa"
+   ],
+   "sol": "\n    La corriente eléctrica es el movimiento ordenado de cargas eléctricas (electrones, en un metal).\n    Su intensidad es la carga que pasa por segundo, $I = q slash t$, y se mide en amperios. La luz\n    de una lámpara y el calor de una estufa son efectos de la corriente, no su definición, y la\n    fuerza electromotriz es la causa: el empuje que el generador aporta a las cargas para que\n    circulen. #vease[(Véase tema T1, sección «Unidades y leyes fundamentales».)]\n  "
+  },
+  {
+   "id": "C-T1.15",
+   "clave": "b",
+   "enunciado": "El número de veces por segundo que una corriente alterna completa un ciclo recibe el nombre de:",
+   "opciones": [
+    "elongación",
+    "frecuencia",
+    "longitud de onda",
+    "período"
+   ],
+   "sol": "\n    Es la frecuencia: $f$ ciclos por segundo, medida en hercios (1 Hz = 1 ciclo/s). El período es la\n    magnitud inversa, el tiempo que dura un ciclo ($T = 1 slash f$); la longitud de onda es la\n    distancia que avanza la onda en un ciclo ($λ = c slash f$), y la elongación es el valor\n    instantáneo de la señal en cada momento, su separación respecto del cero. #vease[(Véase tema T1,\n    sección «Ondas y señales».)]\n  "
+  },
+  {
+   "id": "C-T1.16",
+   "clave": "a",
+   "enunciado": "Se dice que una pila se ha polarizado cuando:",
+   "opciones": [
+    "su resistencia interna es muy grande",
+    "tiene dos polos",
+    "sus polos se hacen positivos y negativos",
+    "cambia de polaridad"
+   ],
+   "sol": "\n    En una pila seca, la corriente que entrega libera hidrógeno sobre el electrodo positivo; las\n    burbujas forman una película aislante que hace crecer mucho la resistencia interna y hunde la\n    tensión en bornes ($V = ϵ −I r$). A eso se llama polarizarse, luego la correcta es la a. «Tiene\n    dos polos» lo cumple toda pila, polarizada o no, y que sus polos sean positivo y negativo es su\n    estado normal; la polaridad no se invierte. El banco da por buena la b: es un error de clave,\n    corregido. #vease[(Véase tema T1, sección «Fuentes y energía» (fem y resistencia interna).)]\n    #no-esta[La polarización de una pila es un fenómeno electroquímico. En la pila seca de zinc-carbono la\n    reacción libera hidrógeno en el electrodo positivo (el carbón). Si no se elimina, el gas lo\n    recubre, reduce su superficie útil y sube la resistencia interna $r$: con la misma carga, la\n    tensión en bornes baja. Se combate con un despolarizante (dióxido de manganeso), que consume el\n    hidrógeno según se forma. No debe confundirse con la polarización de una onda ni con la\n    polaridad (positivo y negativo) de los bornes.]\n    #_apb1-clave[«Tiene dos polos». Es la clave que dan las recopilaciones de exámenes reales (2007–2011):\n    conviene conocerla por si aparece idéntica en el examen, aunque la respuesta razonada arriba sea\n    la técnicamente correcta.]\n  "
+  },
+  {
+   "id": "C-T1.17",
+   "clave": "b",
+   "enunciado": "Las pilas se asocian en paralelo para:",
+   "opciones": [
+    "Aumentar la diferencia de potencial en el circuito",
+    "Aumentar la intensidad que circula por el circuito",
+    "Disminuir su capacidad",
+    "Aumentar su resistencia"
+   ],
+   "sol": "\n    Al conectar pilas iguales en paralelo todas comparten los mismos bornes: la tensión del conjunto\n    es la de una sola pila, pero las corrientes que entrega cada una se suman y las capacidades en\n    amperios-hora también. Por eso se paralelan para disponer de más intensidad (o de la misma\n    durante más tiempo). Aumentar la diferencia de potencial es lo que se logra en serie, donde se\n    suman las tensiones. En paralelo la capacidad crece y la resistencia interna equivalente baja,\n    así que c) y d) son lo contrario de lo que ocurre. #vease[(Véase tema T1, sección «Fuentes y\n    energía».)]\n  "
+  },
+  {
+   "id": "C-T1.18",
+   "clave": "c",
+   "enunciado": "La diferencia entre un acumulador y una pila es:",
+   "opciones": [
+    "Que el acumulador acumula energía",
+    "Que la pila se descarga",
+    "Que el acumulador se carga",
+    "Que el acumulador no se descarga"
+   ],
+   "sol": "\n    Pila y acumulador guardan energía química y la transforman en eléctrica; lo que los distingue es\n    que la reacción del acumulador es reversible: si se le hace pasar corriente en sentido inverso\n    se recarga y puede volver a usarse, mientras que la pila no es recargable y se desecha al\n    agotarse. Las demás opciones no separan a unos de otros: las dos almacenan energía, las dos se\n    descargan al alimentar un circuito, y afirmar que el acumulador no se descarga es falso.\n    #no-esta[Una #strong[pila] (célula primaria) produce electricidad mediante una reacción química\n    irreversible: cuando se agota, se tira. Un #strong[acumulador] (célula secundaria, o batería\n    recargable) usa una reacción reversible: conectado a un cargador, la corriente inversa regenera\n    los reactivos y vuelve a estar disponible. Ejemplos: alcalinas y zinc-carbono (pilas);\n    plomo-ácido, NiMH e ion-litio (acumuladores). En el habla corriente «batería» se usa para ambos,\n    pero en rigor es un conjunto de celdas asociadas.]\n  "
+  },
+  {
+   "id": "C-T1.19",
+   "clave": "d",
+   "enunciado": "Cuando se habla del colector nos referimos a:",
+   "opciones": [
+    "Una pila",
+    "Una batería",
+    "Un acumulador",
+    "Una dinamo"
+   ],
+   "sol": "\n    El colector es una parte de la dinamo (generador de corriente continua): el cilindro de láminas\n    de cobre aisladas entre sí (delgas) sobre el que rozan las escobillas. En la bobina del rotor se\n    induce una tensión alterna; el colector invierte las conexiones cada media vuelta y por las\n    escobillas sale una tensión de un solo sentido. Pilas, baterías y acumuladores son fuentes\n    químicas sin partes móviles, y no tienen colector. No lo confundas con el colector del\n    transistor, que es uno de sus tres electrodos.\n    #no-esta[Una #strong[dinamo] transforma energía mecánica en eléctrica (corriente continua) por inducción\n    de Faraday: una espira que gira en un campo magnético genera una tensión alterna. El\n    #strong[colector] (o conmutador) es el cilindro de delgas de cobre unido al eje; las\n    #strong[escobillas] de carbón, fijas, lo rozan y recogen la corriente. Al cambiar cada media\n    vuelta la delga con la que contactan, la salida mantiene siempre la misma polaridad. La palabra\n    tiene otro sentido en electrónica (el colector del transistor), pero aquí se refiere a la\n    máquina.]\n  "
+  },
+  {
+   "id": "C-T1.20",
+   "clave": "c",
+   "enunciado": "Para que un electroimán almacene energía:",
+   "opciones": [
+    "Es necesario aplicarle solamente corriente alterna",
+    "Necesita una resistencia en paralelo",
+    "Basta con pasar una corriente continua",
+    "Hay que añadirle un condensador"
+   ],
+   "sol": "\n    Un electroimán es una bobina (normalmente con núcleo de hierro) y, como toda bobina, guarda\n    energía en el campo magnético que crea la corriente que la recorre: $E = 1/2 L I^2$. Basta con\n    hacer circular una corriente continua; mientras circula, el campo y la energía se mantienen. No\n    hace falta alterna ni una resistencia en paralelo, y el condensador almacena energía en un campo\n    eléctrico, no magnético, por lo que nada aporta a un electroimán. #vease[(Véase tema T2, sección\n    «Bobinas».)]\n  "
+  },
+  {
+   "id": "C-T1.21",
+   "clave": "d",
+   "enunciado": "La unidad de potencia eléctrica se denomina:",
+   "opciones": [
+    "Amperio",
+    "Ohmio",
+    "Faradio",
+    "Vatio"
+   ],
+   "sol": "\n    La potencia eléctrica se mide en vatios (W): como $P = V · I$, un vatio es la potencia de 1 V\n    por 1 A, o también un julio por segundo. Las otras unidades pertenecen a otras magnitudes: el\n    amperio mide la intensidad de corriente, el ohmio la resistencia y el faradio la capacidad.\n    #vease[(Véase tema T1, sección «Unidades y leyes fundamentales».)]\n  "
+  },
+  {
+   "id": "C-T1.22",
+   "clave": "b",
+   "enunciado": "Al flujo de electrones que circula por un conductor se le llama:",
+   "opciones": [
+    "Fuerza electromotriz",
+    "Corriente eléctrica",
+    "Diferencia de potencial",
+    "Electricidad estática"
+   ],
+   "sol": "\n    El movimiento ordenado de cargas (aquí, electrones) por un conductor es la corriente eléctrica,\n    que se mide en amperios: $I = \"d\"q slash \"d\"t$, un culombio por segundo. La fuerza electromotriz\n    y la diferencia de potencial no son flujo, sino la energía por unidad de carga que empuja a los\n    electrones (la causa, no el movimiento) y se miden en voltios. La electricidad estática es lo\n    contrario: cargas acumuladas en reposo. #vease[(Véase tema T1, sección «Unidades y leyes\n    fundamentales».)]\n  "
+  },
+  {
+   "id": "C-T1.23",
+   "clave": "c",
+   "enunciado": "La tensión de alimentación suministrada comúnmente es de 220 V, que es el valor:",
+   "opciones": [
+    "Máximo de la tensión",
+    "Medio de la tensión",
+    "Eficaz de la tensión",
+    "Trifásico de la tensión"
+   ],
+   "sol": "\n    La tensión de red se da por su valor eficaz: el de la continua que produciría en una resistencia\n    el mismo calor. Los voltímetros de alterna miden valor eficaz, y los 220 V de la red doméstica\n    lo son. El valor máximo (de pico) es mayor: $220 sqrt(2) ≈ 311$ V. El valor medio de una\n    sinusoide completa es cero, porque las dos semiondas se anulan. «Trifásico» no es un valor de la\n    tensión, sino un tipo de sistema de distribución con tres fases. #vease[(Véase tema T1, sección\n    «Ondas y señales».)]\n    #no-esta[El texto define el valor eficaz pero no dice que la red lo use. Toda tensión de red se\n    especifica en valor eficaz: la nominal oficial es 230 V (antes 220 V). Como\n    $V_(\"ef\") = V_0 slash sqrt(2)$, el pico es $V_0 = V_(\"ef\") sqrt(2)$: unos 311 V para 220 V y 325\n    V para 230 V, y la tensión de pico a pico es el doble. Se prefiere el valor eficaz porque así la\n    potencia en una resistencia se calcula con las mismas fórmulas que en continua.]\n  "
+  },
+  {
+   "id": "C-T1.24",
+   "clave": "a",
+   "enunciado": "Un miliohmio equivale a:",
+   "opciones": [
+    "0,001 Ω",
+    "1000 Ω",
+    "0,001 MΩ",
+    "0,001 kΩ"
+   ],
+   "sol": "\n    El prefijo «mili» (m) significa una milésima, $10^(−3)$: 1 mΩ = 0,001 Ω. Las demás opciones son\n    múltiplos: 1000 Ω es 1 kΩ (kilo = mil); 0,001 MΩ son $0,001 × 10^6 = 1000$ Ω (mega = millón); y\n    0,001 kΩ son 0,001 × 1000 = 1 Ω. #vease[(Véase tema T1, sección «Unidades y leyes\n    fundamentales».)]\n    #no-esta[El texto usa mA, mV o mW y trata kilo y mega, pero no enumera los prefijos. Los del SI que hay\n    que saber: mili (m) $= 10^(−3)$, micro $(μ) = 10^(−6)$, nano (n) $= 10^(−9)$, pico (p)\n    $= 10^(−12)$; kilo (k) $= 10^3$, mega (M) $= 10^6$, giga (G) $= 10^9$. Para convertir, se\n    multiplica por la potencia de diez del prefijo: 1 kΩ $= 10^3$ Ω equivale a un millón de\n    miliohmios. Ojo con las mayúsculas: m = mili, M = mega.]\n  "
+  },
+  {
+   "id": "C-T1.25",
+   "clave": "b",
+   "enunciado": "Di cuál es la sentencia correcta:",
+   "opciones": [
+    "Una señal con modulación digital se obtiene al aplicar una señal analógica a un convertidor A/D.",
+    "Una modulación digital se obtiene al aplicar una señal digital sobre un modulador digital.",
+    "Una señal radio con modulación digital se obtiene poniendo un convertidor A/D a continuación de\nun modulador analógico.",
+    "Una señal analógica se obtiene al aplicar una señal radio con modulación digital sobre un\nconvertidor D/A."
+   ],
+   "sol": "\n    En la modulación digital la moduladora es una señal digital (un tren de símbolos o bits) que\n    actúa sobre la portadora en un modulador digital (FSK, PSK, QAM…): de ahí sale la señal de\n    radio. Un convertidor A/D solo muestrea y cuantifica una señal analógica y entrega números; no\n    modula ninguna portadora, por lo que a) y c) son falsas. La d) invierte el proceso: un\n    convertidor D/A recupera una señal analógica a partir de datos digitales, no directamente de una\n    señal de radio, que antes habría que demodular. #vease[(Véase tema T1, sección «Señales\n    moduladas».)]\n  "
+  },
+  {
+   "id": "C-T1.26",
+   "clave": "c",
+   "enunciado": "Di qué expresión convierte la potencia expresada en vatios a potencia expresada en dBm.",
+   "opciones": [
+    "$P (\"dBm\") = (log P (\"W\")) / 10$",
+    "$P (\"dBm\") = 10 − 3 · log P (\"W\")$",
+    "$P (\"dBm\") = 10 · log lr([ (P (\"W\")) / 10^(−3) ])$",
+    "$P (\"dBm\") = log lr([ (P (\"W\")) / 10 ])$"
+   ],
+   "sol": "\n    El dBm es el decibelio referido a 1 mW: $P (\"dBm\") = 10 log P / (10^(−3) \"W\")$. Es la opción c)\n    (en el banco público aparece con el exponente perdido, «10 - 3»). Compruébala con $P = 1$ W:\n    $10 log 1 / 10^(−3) = 10 log 1000 = 30$ dBm, valor que ya conoces. Las demás fallan esa prueba:\n    a) da 0, b) da 10 y d) da −1; en a) y d) falta además el factor 10 propio del decibelio de\n    potencia. #vease[(Véase tema T1, sección «Potencia, decibelios y DSP».)]\n  "
+  },
+  {
+   "id": "C-T1.27",
+   "clave": "d",
+   "enunciado": "Cuando dos bobinados tienen sus espiras en la misma dirección:",
+   "opciones": [
+    "Sus capacidades se suman.",
+    "Sus inducciones se restan.",
+    "Sus capacidades se restan.",
+    "Sus inducciones se suman."
+   ],
+   "sol": "\n    Dos bobinados arrollados en el mismo sentido y acoplados magnéticamente (conectados en serie)\n    producen flujos que se refuerzan: las inducciones se suman, y la inductancia del conjunto es\n    $L = L_1 + L_2 + 2M$, con $M$ la inductancia mutua. Si los sentidos fueran opuestos, los flujos\n    se oponen y las inducciones se restarían ($L_1 + L_2 − 2M$), lo que descarta b). La capacidad es\n    propiedad de los condensadores y no depende del sentido de arrollamiento, así que a) y c) no\n    tienen sentido. #vease[(Véase tema T2, sección «Transformadores».)]\n    #no-esta[Dos bobinas cercanas comparten parte de su flujo: es la #strong[inductancia mutua] $M$ (en\n    henrios). Conectadas en serie con sus arrollamientos en el mismo sentido (flujos que se suman,\n    conexión aditiva), $L = L_1 +L_2 +2M$; con sentidos opuestos (conexión sustractiva),\n    $L = L_1 + L_2 − 2M$. Si están lejos o apantalladas ($M ≈ 0$), simplemente $L = L_1 +L_2$. Es el\n    mismo principio del transformador: dos bobinas acopladas por un flujo común.]\n  "
+  },
+  {
+   "id": "C-T1.28",
+   "clave": "a",
+   "enunciado": "Si un usuario tiene contratado un acceso a Internet «ADSL de 2 megas», esto significa que:",
+   "opciones": [
+    "Dispone de un ancho de banda de 2 millones de bits por segundo.",
+    "Tiene garantizada una velocidad mínima real de 2 Mbps en todo momento.",
+    "Puede transmitir datos a una velocidad constante de 2 MHz.",
+    "Dispone de una velocidad de descarga de 2 megabytes por segundo."
+   ],
+   "sol": "\n    «2 megas» es la denominación comercial de 2 megabits por segundo (2 Mbps), es decir, 2 millones\n    de bits por segundo; en este sentido informal, «ancho de banda» es la capacidad del enlace en\n    bit/s (en rigor se mide en hercios). La b) es falsa: ADSL anuncia una velocidad máxima\n    («hasta»), no garantizada, que depende de la distancia a la central y del estado de la línea. La\n    c) es absurda: los MHz miden frecuencia, no velocidad de datos. La d) confunde bits con bytes: 2\n    Mbps son 2/8 = 0,25 MB/s. #vease[(Véase tema T1, sección «Señales moduladas».)]\n    #no-esta[Conviene no mezclar tres magnitudes: la #strong[velocidad binaria], en bit/s (1 Mbps $= 10^6$\n    bit/s); el #strong[ancho de banda], en hercios, que es la anchura de espectro que ocupa la\n    señal; y la #strong[cantidad de datos], en bytes (1 byte = 8 bits). En la jerga comercial, «2\n    megas» son 2 Mbps y «ancho de banda» se usa como sinónimo de velocidad. Para pasar de Mbps a\n    MB/s se divide entre 8. El ADSL es asimétrico: baja más velocidad de bajada que de subida.]\n  "
+  },
+  {
+   "id": "C-T1.29",
+   "clave": "d",
+   "enunciado": "En un circuito con varias baterías conectadas en paralelo:",
+   "opciones": [
+    "La corriente disponible disminuye.",
+    "La tensión del conjunto es cero.",
+    "La tensión total se suma.",
+    "La resistencia interna equivalente del conjunto disminuye."
+   ],
+   "sol": "\n    Con baterías iguales en paralelo la tensión del conjunto es la de una sola (no se suma, lo que\n    descarta c; y desde luego no es cero, b), mientras que las corrientes de cada una se suman: la\n    corriente disponible aumenta, no disminuye, y así se descarta a). Cada batería tiene una\n    resistencia interna $r$ y las de $n$ baterías iguales quedan en paralelo, luego\n    $r_(\"eq\") = r slash n$: la resistencia interna equivalente disminuye, y la tensión cae menos al\n    pedir corriente. #vease[(Véase tema T1, sección «Fuentes y energía».)]\n    #no-esta[Cada batería real es una fuerza electromotriz $ϵ$ en serie con una resistencia interna $r$. Con\n    $n$ baterías iguales en paralelo, las fems no se suman (los bornes son comunes) y las\n    resistencias internas se asocian en paralelo: $r_(\"eq\") = r slash n$. Ejemplo: 4 baterías de 1,5\n    V y 0,5 Ω dan 1,5 V con 0,125 Ω y pueden entregar cuatro veces la corriente con la misma caída\n    de tensión interna. En serie ocurre lo contrario: se suman las fems y también las resistencias\n    internas.]\n  "
+  },
+  {
+   "id": "C-T1.30",
+   "clave": "b",
+   "enunciado": "En electricidad, la letra $Z$ corresponde a:",
+   "opciones": [
+    "Tensión.",
+    "Impedancia.",
+    "Resistencia.",
+    "Reactancia."
+   ],
+   "sol": "\n    $Z$ es el símbolo de la impedancia: lo que oponen a la corriente alterna la resistencia y las\n    reactancias del circuito, en ohmios, $Z = V slash I$. En serie, $Z = sqrt(R^2 + X^2)$. Los demás\n    símbolos son otros: la tensión es $V$ (o $E$), la resistencia $R$ y la reactancia $X$ (con $X_L$\n    y $X_C$ para la inductiva y la capacitiva). #vease[(Véase tema T3, sección «Asociación de\n    componentes y resonancia».)]\n  "
+  },
+  {
+   "id": "C-T1.31",
+   "clave": "b",
+   "enunciado": "¿Qué tipo de comunicación ocupa un mayor ancho de banda?",
+   "opciones": [
+    "Telegrafía",
+    "Frecuencia modulada",
+    "Amplitud modulada",
+    "Banda lateral única"
+   ],
+   "sol": "\n    Hay que comparar las anchuras típicas: la telegrafía (CW) ocupa, como mucho, unos cientos de\n    hercios según la velocidad de manipulación; la banda lateral única (SSB), unos 2,7 kHz; la AM de\n    voz, $2f_m ≈ 6$ kHz, el doble que la SSB porque lleva dos bandas laterales; y la FM de banda\n    estrecha (la de VHF), unos 12 kHz, según la regla de Carson, $B ≈ 2(Δ f + f_m)$. La FM es, pues,\n    la que más ancho ocupa (la FM de radiodifusión llega a unos 200 kHz). #vease[(Véase tema T1,\n    sección «Señales moduladas».)]\n  "
+  },
+  {
+   "id": "C-T1.32",
+   "clave": "c",
+   "enunciado": "Un motor eléctrico funciona a 220 V y consume 10 A. ¿Cuál es su potencia eléctrica aproximada?",
+   "opciones": [
+    "220 W",
+    "22 W",
+    "2.200 W",
+    "22.000 W"
+   ],
+   "sol": "\n    La potencia eléctrica es el producto de la tensión por la intensidad: $P = V ·I = 220$ V × 10 A =\n    2200 W. Las demás cifras son errores típicos: 220 W corresponde a 1 A, 22 W sale de dividir 220\n    entre 10 en vez de multiplicar, y 22.000 W exigiría 100 A. El resultado es aproximado porque no\n    tiene en cuenta el factor de potencia del motor, ni es la potencia mecánica del eje, menor por\n    el rendimiento. #vease[(Véase tema T1, sección «Unidades y leyes fundamentales».)]\n  "
+  },
+  {
+   "id": "F-T1.1",
+   "clave": "c",
+   "enunciado": "El campo magnético creado por un conductor rectilíneo largo recorrido por corriente es más intenso cuanto:",
+   "opciones": [
+    "mayor es la corriente y mayor es la distancia al conductor",
+    "menor es la corriente y menor es la distancia al conductor",
+    "mayor es la corriente y menor es la distancia al conductor",
+    "menor es la corriente y mayor es la distancia al conductor"
+   ],
+   "sol": "Para un hilo rectilíneo largo, $B = (mu_0 I)/(2 pi d)$: el campo es proporcional a la corriente $I$ e inversamente proporcional a la distancia $d$. Crece, pues, al aumentar la corriente y al acercarse al hilo: si se duplica $I$, se duplica $B$; si se duplica $d$, $B$ se reduce a la mitad. Cada una de las otras opciones invierte al menos uno de los dos factores, y la de menor corriente y mayor distancia da el campo más débil de todos. La resistencia del conductor no interviene. _(Véase tema T1, sección «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.2",
+   "clave": "b",
+   "enunciado": "Las líneas del campo magnético alrededor de un conductor rectilíneo con corriente son:",
+   "opciones": [
+    "rectas paralelas al conductor",
+    "circunferencias concéntricas con el conductor, en planos perpendiculares a él",
+    "rectas radiales que salen del conductor, como las del campo eléctrico de una carga puntual",
+    "espirales que se alejan del conductor"
+   ],
+   "sol": "Una corriente rodea su eje de campo magnético: las líneas son circunferencias cerradas, concéntricas con el hilo y contenidas en planos perpendiculares a él. El sentido lo da la regla de la mano derecha: con el pulgar en el sentido de la corriente, los demás dedos indican el giro del campo. Las líneas magnéticas no tienen principio ni fin. Las rectas radiales son el dibujo del campo eléctrico de una carga puntual, no del magnético de una corriente; ni las rectas paralelas ni las espirales describen el campo de un hilo recto. _(Véase tema T1, sección «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.3",
+   "clave": "d",
+   "enunciado": "Para apantallar un campo magnético de baja frecuencia (por ejemplo, el de 50 Hz de un transformador de red) conviene emplear:",
+   "opciones": [
+    "una caja de plástico o de madera",
+    "una malla de cobre conectada a tierra",
+    "una chapa de aluminio delgada conectada a tierra (jaula de Faraday)",
+    "una envolvente de material ferromagnético de alta permeabilidad, como el mu-metal o el hierro dulce"
+   ],
+   "sol": "El campo magnético de baja frecuencia atraviesa casi sin atenuación los materiales no magnéticos de poco espesor: hay que desviarlo, ofreciéndole un camino más fácil que el aire, y eso lo hace una envolvente de material ferromagnético de alta permeabilidad (mu-metal, hierro dulce). La jaula de Faraday y la malla de cobre a tierra detienen los campos eléctricos y las ondas de radio, pero a 50 Hz una chapa delgada apenas frena el campo magnético. El plástico y la madera no tienen ningún efecto. _(Véase tema T1, sección «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.4",
+   "clave": "a",
+   "enunciado": "La tensión de la red eléctrica es de 230 V eficaces. Su valor de pico es aproximadamente de:",
+   "opciones": [
+    "325 V",
+    "230 V",
+    "163 V",
+    "460 V"
+   ],
+   "sol": "$V_p = V_\"ef\" sqrt(2) = 230 times 1,414 approx 325$ V (y 650 V de pico a pico). Los 163 V resultan de aplicar la fórmula al revés, $230 slash sqrt(2)$; los 460 V, de multiplicar por 2 en lugar de por $sqrt(2)$; y los 230 V son precisamente el valor eficaz, el que disiparía en una resistencia la misma potencia que una tensión continua de 230 V. _(Véase tema T1, sección «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.5",
+   "clave": "c",
+   "enunciado": "Una señal sinusoidal de 20 V de pico a pico tiene un valor eficaz aproximado de:",
+   "opciones": [
+    "10 V",
+    "14,1 V",
+    "7,07 V",
+    "20 V"
+   ],
+   "sol": "De pico a pico hay el doble que de pico: $V_p = 20 slash 2 = 10$ V. El valor eficaz es $V_\"ef\" = V_p slash sqrt(2) = 10 slash 1,414 approx 7,07$ V. Los 10 V son el valor de pico, los 20 V el de pico a pico, y los 14,1 V resultan de dividir los 20 V entre $sqrt(2)$ sin partirlos antes por 2, es decir, de tomar el valor de pico a pico como si fuera el de pico. _(Véase tema T1, sección «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.6",
+   "clave": "b",
+   "enunciado": "Una señal sinusoidal de 1 kHz y otra idéntica retrasada 250 μs respecto a ella tienen entre sí un desfase de:",
+   "opciones": [
+    "45°",
+    "90°",
+    "180°",
+    "360°"
+   ],
+   "sol": "El período de 1 kHz es $T = 1 slash f = 1$ ms. Un ciclo completo equivale a $360°$, luego $Delta phi = 360° (Delta t)/T = 360° dot 250/1000 = 90°$: un cuarto de ciclo. Los 45° corresponderían a 125 μs; los 180° (oposición de fase), a 500 μs; y 360° equivale a 1 ms, un ciclo entero, tras el cual las dos señales vuelven a estar en fase. _(Véase tema T1, sección «Ondas y señales».)_\n\n#_apc1-noest[La diferencia de fase también se puede expresar como un retardo en el tiempo. Un ciclo completo dura $T = 1 slash f$ y equivale a $360°$, así que $Delta phi = 360° dot Delta t slash T = 360° dot f dot Delta t$. A 1 kHz, $T = 1$ ms: un retraso de 250 μs es un cuarto de ciclo ($90°$) y uno de 500 μs es medio ciclo ($180°$, oposición de fase).]"
+  },
+  {
+   "id": "F-T1.7",
+   "clave": "d",
+   "enunciado": "Un oscilador genera una onda cuadrada simétrica (ciclo de trabajo del 50 %, sin componente continua) de 7,05 MHz. Además de la fundamental, su espectro contiene componentes en:",
+   "opciones": [
+    "14,10 MHz, 28,20 MHz, 42,30 MHz…(solo los múltiplos pares)",
+    "14,10 MHz, 21,15 MHz, 28,20 MHz…(todos los múltiplos enteros)",
+    "3,525 MHz, 2,35 MHz, 1,76 MHz…(los submúltiplos)",
+    "21,15 MHz, 35,25 MHz, 49,35 MHz…(solo los múltiplos impares)"
+   ],
+   "sol": "Por Fourier, una onda cuadrada simétrica es una fundamental de 7,05 MHz más los armónicos _impares_, $3 f$, $5 f$, $7 f$…, con amplitudes 1/3, 1/5, 1/7… de la fundamental: $3 times 7,05 = 21,15$ MHz, $5 times 7,05 = 35,25$ MHz y $7 times 7,05 = 49,35$ MHz. Los armónicos pares (14,10, 28,20, 42,30 MHz) solo aparecen si la onda es asimétrica, con ciclo de trabajo distinto del 50 %. Los submúltiplos nunca son armónicos: estos son siempre múltiplos enteros de la fundamental. _(Véase tema T1, sección «Ondas y señales».)_\n\n#_apc1-noest[Toda señal periódica no sinusoidal se descompone en una componente continua (su valor medio), una fundamental y armónicos múltiplos enteros de ella. En la onda cuadrada simétrica, sin componente continua, solo hay armónicos impares ($3 f$, $5 f$, $7 f$…), con amplitud $1 slash n$ de la fundamental; los pares desaparecen. Si el ciclo de trabajo no es del 50 % aparecen también los pares, y si la onda no está centrada en cero, una componente continua.]"
+  },
+  {
+   "id": "F-T1.8",
+   "clave": "a",
+   "enunciado": "La potencia de ruido térmico disponible en una resistencia adaptada al receptor es proporcional:",
+   "opciones": [
+    "a la temperatura absoluta y al ancho de banda",
+    "solo a la frecuencia central de trabajo",
+    "a la ganancia de la antena y a la frecuencia de trabajo",
+    "al cuadrado de la frecuencia de trabajo"
+   ],
+   "sol": "La potencia de ruido térmico disponible es $P = k T B$, con $k$ la constante de Boltzmann, $T$ la temperatura absoluta (en kelvin) y $B$ el ancho de banda. Es proporcional a $T$ y a $B$, y no depende de la frecuencia central: es ruido blanco, de densidad de potencia constante. Ni la ganancia de la antena ni el cuadrado de la frecuencia intervienen; la ganancia de la antena amplifica señal y ruido externos, pero no fija el ruido térmico de la resistencia. _(Véase tema T1, sección «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.9",
+   "clave": "c",
+   "enunciado": "Si se reduce a la mitad el ancho de banda del filtro de un receptor, la potencia de ruido térmico que admite:",
+   "opciones": [
+    "disminuye 6 dB",
+    "aumenta 3 dB",
+    "disminuye 3 dB",
+    "no varía"
+   ],
+   "sol": "Como $P = k T B$, la potencia de ruido es proporcional al ancho de banda. Con la mitad de $B$, la potencia es la mitad: $10 log_10 (1/2) approx -3$ dB. Por eso un filtro estrecho «oye» menos ruido. Una caída de 6 dB exigiría dejar $B$ en la cuarta parte; +3 dB es lo que ocurre al _duplicar_ el ancho de banda; y «no varía» sería cierto solo para la densidad de ruido por hercio, no para la potencia total que entra por el filtro. _(Véase tema T1, sección «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.10",
+   "clave": "b",
+   "enunciado": "La potencia de ruido térmico en un ancho de banda de 1 kHz, a la temperatura de referencia de 290 K, es de aproximadamente:",
+   "opciones": [
+    "−174 dBm",
+    "−144 dBm",
+    "−114 dBm",
+    "−204 dBm"
+   ],
+   "sol": "El suelo térmico es $k T_0 = -174$ dBm por cada hercio. Para $B = 1$ kHz hay que sumar $10 log_10 (1000) = 30$ dB: $-174 + 30 = -144$ dBm. Los −174 dBm son el valor por hercio (se olvida el ancho de banda); −114 dBm corresponde a 1 MHz (+60 dB); y −204 dBm resta los 30 dB en lugar de sumarlos: un ancho de banda mayor siempre admite más ruido. _(Véase tema T4, sección «Características y controles».)_"
+  },
+  {
+   "id": "F-T1.11",
+   "clave": "d",
+   "enunciado": "La anchura de banda típica de una emisión de telegrafía en onda continua (A1A) es del orden de:",
+   "opciones": [
+    "2,7 kHz, como la de la SSB",
+    "6 kHz, como la de la AM",
+    "12,5 kHz, como la de la FM de banda estrecha",
+    "100 a 500 Hz, según la velocidad de manipulación"
+   ],
+   "sol": "En CW no hay moduladora de audio: la anchura la fijan la velocidad de manipulación y la brusquedad de los flancos de los pulsos Morse. A velocidades normales de aficionado ocupa del orden de 100 a 500 Hz, muy por debajo de los 2,7 kHz de la SSB, los 6 kHz de la AM o los 12,5 kHz de la FM de banda estrecha. Por eso los receptores llevan filtros de CW de 250 a 500 Hz, y por eso caben muchas estaciones de telegrafía en pocos kilohercios. _(Véase tema T1, sección «Señales moduladas».)_\n\n#_apc1-noest[La anchura de banda de una emisión de telegrafía en onda continua (A1A) no depende de ninguna frecuencia moduladora, sino de la velocidad de manipulación y de la forma de los flancos: cuanto más rápido se manipula y más bruscos son los flancos, más ancha es la emisión. A velocidades normales de aficionado es del orden de 100 a 500 Hz, mucho menos que los 2,7 kHz de la SSB o los 6 kHz de la AM. Por eso los receptores incorporan filtros de CW de 250 a 500 Hz.]"
+  },
+  {
+   "id": "F-T1.12",
+   "clave": "a",
+   "enunciado": "Una emisión de AM (A3E) se modula con audio cuya frecuencia máxima es de 3 kHz. La anchura de banda que ocupa es aproximadamente de:",
+   "opciones": [
+    "6 kHz",
+    "3 kHz",
+    "2,7 kHz",
+    "12 kHz"
+   ],
+   "sol": "En AM hay dos bandas laterales, en $f_c plus.minus f_m$, así que $B = 2 f_\"m,máx\" = 2 times 3 = 6$ kHz, sea cual sea la frecuencia de la portadora. Los 3 kHz son la anchura de una sola banda lateral, como en SSB; los 2,7 kHz son la anchura típica de una emisión J3E (SSB de voz); y 12 kHz duplicaría el resultado sin motivo. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.13",
+   "clave": "b",
+   "enunciado": "La envolvente de una emisión de AM oscila entre un máximo de 15 V y un mínimo de 5 V. El índice de modulación es de:",
+   "opciones": [
+    "33 %",
+    "50 %",
+    "67 %",
+    "100 %"
+   ],
+   "sol": "$m = (A_\"máx\" - A_\"mín\")/(A_\"máx\" + A_\"mín\") = (15 - 5)/(15 + 5) = 0,5$, es decir, 50 %. Equivale a una portadora de $A = (15 + 5)/2 = 10$ V con una variación de ±5 V: $5/10 = 0,5$. El 33 % sale de dividir el mínimo entre el máximo (5/15); el 67 %, de dividir entre el máximo en lugar de entre la suma (10/15); y el 100 % exigiría que la envolvente llegase a cero. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.14",
+   "clave": "d",
+   "enunciado": "Un transmisor de AM tiene una potencia de portadora de 100 W. Modulado al 100 %, la potencia total de la emisión es de:",
+   "opciones": [
+    "125 W",
+    "100 W",
+    "200 W",
+    "150 W"
+   ],
+   "sol": "Con $m = 1$: $P_t = P_c (1 + m^2/2) = 100 times 1,5 = 150$ W. Se reparten así: 100 W en la portadora y $m^2/4 P_c = 25$ W en cada banda lateral (100 + 25 + 25). Los 200 W suponen que modular duplica la potencia; los 125 W cuentan una sola banda lateral; y los 100 W son solo la portadora, sin las bandas laterales que aparecen al modular. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.15",
+   "clave": "c",
+   "enunciado": "Un condensador de 0,01 μF tiene una capacidad de:",
+   "opciones": [
+    "10 pF",
+    "1 nF",
+    "10 nF",
+    "100 nF"
+   ],
+   "sol": "1 μF = 1000 nF, luego 0,01 μF = 0,01 × 1000 = 10 nF (que son 10.000 pF). Los 1 nF equivalen a 0,001 μF; los 100 nF, a 0,1 μF; y los 10 pF son mil veces menos que 10 nF, error típico al confundir nano y pico. Se pasa de un prefijo al contiguo multiplicando o dividiendo por 1000. _(Véase tema T1, sección «Unidades y leyes fundamentales».)_\n#_apc1-noest[Prefijos del SI: tera (T) $10^12$, giga (G) $10^9$, mega (M) $10^6$, kilo (k) $10^3$, mili (m) $10^(-3)$, micro (μ) $10^(-6)$, nano (n) $10^(-9)$ y pico (p) $10^(-12)$. Entre prefijos contiguos la relación es 1000: 1 μF = 1000 nF = 1.000.000 pF. Así, 0,01 μF = 10 nF = 10.000 pF.]"
+  },
+  {
+   "id": "F-T1.16",
+   "clave": "c",
+   "enunciado": "Una frecuencia de 144,5 MHz expresada en kilohercios es:",
+   "opciones": [
+    "14 450 kHz",
+    "144 500 000 kHz",
+    "144 500 kHz",
+    "0,1445 kHz"
+   ],
+   "sol": "El prefijo mega vale $10^6$ y kilo vale $10^3$, luego 1 MHz = 1000 kHz. Se multiplica por 1000: 144,5 × 1000 = 144 500 kHz, es decir, la coma se corre tres lugares a la derecha. La cifra 144 500 000 es el valor en hercios, no en kHz. Dividir en lugar de multiplicar da 0,1445, que son los gigahercios (0,1445 GHz), no los kHz. La opción de 14 450 desplaza mal la coma. _(Véase tema T1, sección «Unidades y leyes fundamentales».)_\n#_apc1-noest[Prefijos del SI habituales en radio: giga (G) = $10^9$, mega (M) = $10^6$, kilo (k) = $10^3$, mili (m) = $10^(-3)$, micro (μ) = $10^(-6)$, nano (n) = $10^(-9)$ y pico (p) = $10^(-12)$. Entre prefijos vecinos hay un factor 1000: 1 GHz = 1000 MHz = $10^6$ kHz; 0,01 μF = 10 nF = 10 000 pF; 10 mA = 0,01 A. A una unidad menor le corresponde un número mayor.]"
+  },
+  {
+   "id": "F-T1.17",
+   "clave": "d",
+   "enunciado": "Un transmisor de FM con una desviación máxima de 5 kHz se modula con un tono de 3 kHz. Según la regla de Carson, la anchura de banda que ocupa es aproximadamente de:",
+   "opciones": [
+    "6 kHz",
+    "8 kHz",
+    "10 kHz",
+    "16 kHz"
+   ],
+   "sol": "Regla de Carson: $B approx 2(Delta f + f_m)$. Con $Delta f = 5$ kHz y $f_m = 3$ kHz: $B approx 2 (5 + 3) = 16$ kHz (el índice de modulación es $m = Delta f slash f_m approx 1,7$). Los 6 kHz son $2 f_m$, lo que ocuparía una AM con ese tono. Los 8 kHz olvidan el factor 2, pues la señal se extiende a ambos lados de la portadora. Los 10 kHz son $2 Delta f$ y se olvidan de la frecuencia moduladora. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.18",
+   "clave": "a",
+   "enunciado": "La forma de onda de una portadora modulada en frecuencia se caracteriza porque:",
+   "opciones": [
+    "su amplitud es constante y lo que varía es el espaciado de los ciclos (la frecuencia instantánea)",
+    "su envolvente reproduce la señal moduladora",
+    "aparecen y desaparecen trenes de portadora al ritmo del mensaje",
+    "su amplitud es la suma de la portadora y de la señal moduladora"
+   ],
+   "sol": "En FM la información va en la frecuencia instantánea: los ciclos se juntan y se separan al ritmo de la moduladora, pero la amplitud no cambia y la envolvente es una línea recta. Una envolvente que copia la moduladora es la de la AM. Los trenes de portadora que aparecen y desaparecen son telegrafía (CW). Y sumar moduladora y portadora solo superpone ambas señales, sin modulación alguna. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.19",
+   "clave": "b",
+   "enunciado": "Una emisión de telegrafía manual A1A, vista en un osciloscopio, consiste en:",
+   "opciones": [
+    "una portadora cuya amplitud sigue la voz del operador",
+    "trenes de portadora de amplitud constante que aparecen y desaparecen al ritmo de la manipulación",
+    "una portadora que alterna entre dos frecuencias distintas",
+    "una portadora de frecuencia variable y amplitud constante, sin interrupciones"
+   ],
+   "sol": "En A1A (CW) no hay moduladora analógica: se conecta y desconecta la portadora al ritmo del código Morse. En pantalla se ven trenes de portadora de amplitud constante (cortos para los puntos, largos para las rayas) separados por silencios. Una amplitud que sigue la voz es AM; dos frecuencias que se alternan son FSK; una portadora continua de frecuencia variable es FM. Los flancos se redondean para evitar chasquidos (_key clicks_). _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.20",
+   "clave": "c",
+   "enunciado": "En el osciloscopio, la envolvente de una portadora de AM con un índice de modulación inferior al 100 % se reconoce porque:",
+   "opciones": [
+    "es constante, sin variaciones",
+    "llega justo a cero en los mínimos de la moduladora",
+    "copia la moduladora sin llegar nunca a anularse",
+    "se recorta y deja tramos sin portadora en los valles"
+   ],
+   "sol": "Con $m < 1$ la amplitud oscila entre $A_\"máx\"$ y $A_\"mín\" > 0$, siendo $m = (A_\"máx\" - A_\"mín\") slash (A_\"máx\" + A_\"mín\")$: la envolvente es una réplica de la moduladora que nunca toca el eje. Una envolvente constante es una portadora sin modular. Si llega justo a cero, $m = 1$ (100 %). Si se recorta y aparecen tramos sin portadora hay sobremodulación ($m > 1$), con distorsión y _splatter_. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.21",
+   "clave": "d",
+   "enunciado": "Una portadora de 3,700 MHz modulada en AM por un tono de 1 kHz produce un espectro con rayas en:",
+   "opciones": [
+    "3,690, 3,700 y 3,710 MHz",
+    "3,699 y 3,701 MHz solamente",
+    "3,700 y 3,701 MHz",
+    "3,699, 3,700 y 3,701 MHz"
+   ],
+   "sol": "El espectro de una AM tiene tres rayas: la portadora y dos bandas laterales en $f_c plus.minus f_m$. Aquí $f_m = 1$ kHz = 0,001 MHz, luego 3,700 − 0,001 = 3,699 MHz y 3,700 + 0,001 = 3,701 MHz, además de la portadora en 3,700 MHz. Con 3,690 y 3,710 MHz se confunde 1 kHz con 10 kHz. Sin portadora sería doble banda con portadora suprimida, no AM. Portadora más una sola banda se parece a la SSB con portadora, no a la AM. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.22",
+   "clave": "a",
+   "enunciado": "El espectro de una emisión J3E en banda lateral superior (USB), con la portadora suprimida, contiene:",
+   "opciones": [
+    "solo componentes por encima de la frecuencia de la portadora suprimida",
+    "solo componentes por debajo de la frecuencia de la portadora suprimida",
+    "una raya central, la portadora, y dos bandas laterales",
+    "una única raya exactamente en la frecuencia de la portadora"
+   ],
+   "sol": "J3E es telefonía en banda lateral única con portadora suprimida. En USB se transmite la banda lateral superior, que se extiende desde $f_c$ hasta unos 3 kHz por encima (la anchura de voz ronda los 2,7 kHz): todo el espectro queda por encima de la frecuencia de la portadora suprimida. Por debajo quedaría la LSB. Una portadora con dos bandas laterales es una AM. Una sola raya en $f_c$ sería la portadora sin modular. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.23",
+   "clave": "b",
+   "enunciado": "El espectro de una emisión de FM con un índice de modulación elevado presenta:",
+   "opciones": [
+    "solo dos bandas laterales, como la AM",
+    "numerosas bandas laterales separadas entre sí una distancia igual a la frecuencia moduladora",
+    "una única banda lateral, sin portadora",
+    "únicamente la portadora, sin bandas laterales"
+   ],
+   "sol": "Una portadora modulada en frecuencia genera bandas laterales en $f_c plus.minus n f_m$ ($n = 1, 2, 3, dots$), con amplitudes que siguen las funciones de Bessel. Cuanto mayor es $m = Delta f slash f_m$, más bandas son significativas y más ancho es el espectro, aproximadamente $2(Delta f + f_m)$ (regla de Carson). Solo con un índice muy bajo la FM se parece a la AM, con dos bandas. Una sola banda sin portadora es SSB. La portadora sola no transporta información. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.24",
+   "clave": "c",
+   "enunciado": "En la modulación FSK, la información digital se transmite variando:",
+   "opciones": [
+    "la amplitud de la portadora entre dos niveles",
+    "solo la fase de la portadora",
+    "la frecuencia de la portadora entre valores discretos",
+    "la amplitud y la fase de la portadora a la vez"
+   ],
+   "sol": "FSK (_Frequency Shift Keying_) asigna a cada símbolo una frecuencia distinta: en el RTTY de aficionado, por ejemplo, una para «marca» y otra para «espacio», separadas 170 Hz. Variar la amplitud entre dos niveles es ASK. Variar solo la fase es PSK, como en PSK31. Variar amplitud y fase a la vez es QAM. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.25",
+   "clave": "d",
+   "enunciado": "En la modulación 2PSK cada bit se representa mediante:",
+   "opciones": [
+    "una de dos frecuencias distintas",
+    "una de dos amplitudes distintas",
+    "una de cuatro fases distintas",
+    "una de dos fases de la portadora, por ejemplo 0° y 180°"
+   ],
+   "sol": "2PSK (o BPSK) emplea dos fases, normalmente 0° y 180°: un bit por símbolo. Dos frecuencias sería 2FSK. Dos amplitudes, ASK. Cuatro fases es 4PSK, donde cada símbolo lleva 2 bits. En general, con $M$ fases cada símbolo transporta $log_2 M$ bits, y por eso el número que precede a PSK indica cuántas fases se usan. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.26",
+   "clave": "a",
+   "enunciado": "La modulación QAM se caracteriza porque la información digital se transmite variando:",
+   "opciones": [
+    "la amplitud y la fase de la portadora a la vez",
+    "solo la frecuencia de la portadora",
+    "solo la amplitud de la portadora",
+    "solo la fase de la portadora"
+   ],
+   "sol": "QAM (_Quadrature Amplitude Modulation_, modulación de amplitud en cuadratura) combina amplitud y fase: cada símbolo es un punto distinto de una «constelación». Con 16 puntos (16-QAM), cada símbolo lleva 4 bits. Variar solo la frecuencia es FSK, solo la amplitud es ASK y solo la fase es PSK. Por eso QAM transporta más bits por símbolo, y más velocidad binaria en el mismo ancho de banda. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.27",
+   "clave": "b",
+   "enunciado": "Una modulación 4PSK transporta 2 bits por símbolo. Si la velocidad de símbolo es de 1200 baudios, la velocidad binaria es de:",
+   "opciones": [
+    "600 bit/s",
+    "2400 bit/s",
+    "1200 bit/s",
+    "4800 bit/s"
+   ],
+   "sol": "El baudio es un símbolo por segundo. La velocidad binaria es la de símbolo por los bits de cada símbolo: 1200 × 2 = 2400 bit/s. Los 1200 bit/s confunden baudios con bit/s, que solo coinciden si cada símbolo lleva 1 bit. Los 600 bit/s salen de dividir en lugar de multiplicar. Los 4800 bit/s multiplican por el número de estados ($M = 4$) en lugar de por los bits por símbolo ($log_2 4 = 2$). _(Véase tema T1, sección «Señales moduladas».)_\n#_apc1-noest[Baudio: unidad de velocidad de símbolo, un símbolo por segundo. La velocidad binaria (bit/s) es la velocidad de símbolo (baudios) por los bits de cada símbolo, $log_2 M$. Solo coinciden si cada símbolo lleva 1 bit (2PSK, 2FSK). Ejemplos: 4PSK (2 bits por símbolo) a 1200 baudios da 2400 bit/s; 16-QAM (4 bits por símbolo) a 1200 baudios da 4800 bit/s. La anchura de banda depende de los baudios, no de los bit/s.]"
+  },
+  {
+   "id": "F-T1.28",
+   "clave": "c",
+   "enunciado": "Cada símbolo de una modulación 16-QAM transporta un número de bits igual a:",
+   "opciones": [
+    "16",
+    "8",
+    "4",
+    "2"
+   ],
+   "sol": "Con $M = 16$ estados posibles, los bits por símbolo son $log_2 16 = 4$, porque $2^4 = 16$. El 16 es el número de estados, no de bits. El 8 sale de dividir $M$ entre 2, un error de cálculo típico. El 2 son los bits de un símbolo de 4PSK ($log_2 4 = 2$). A igual velocidad de símbolo, 16-QAM da el doble de velocidad binaria que 4PSK. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.29",
+   "clave": "d",
+   "enunciado": "Al pasar de 2PSK a 4PSK manteniendo la misma velocidad de símbolo:",
+   "opciones": [
+    "se duplican la velocidad binaria y la anchura de banda",
+    "la velocidad binaria no cambia y la anchura de banda se reduce a la mitad",
+    "la velocidad binaria se reduce a la mitad",
+    "se duplica la velocidad binaria sin aumentar la anchura de banda"
+   ],
+   "sol": "La anchura de banda la fija la velocidad de símbolo, no la de bit. Con 2PSK cada símbolo lleva $log_2 2 = 1$ bit y con 4PSK lleva $log_2 4 = 2$ bits. A igual velocidad de símbolo, la velocidad binaria se duplica y el espectro ocupado es prácticamente el mismo. Por eso se usan más estados (4PSK, QAM) para ganar velocidad sin pedir más espectro; el precio es necesitar mejor relación señal/ruido. _(Véase tema T1, sección «Señales moduladas».)_"
+  },
+  {
+   "id": "F-T1.30",
+   "clave": "a",
+   "enunciado": "En una transmisión digital, la diferencia esencial entre el CRC y el FEC es que:",
+   "opciones": [
+    "el CRC solo detecta errores; el FEC añade redundancia para corregirlos sin retransmisión",
+    "el CRC corrige errores sin retransmisión; el FEC solo sirve para detectarlos",
+    "el CRC se usa en modulación analógica; el FEC, únicamente en modulación digital",
+    "ambos corrigen errores, pero el FEC no añade bits redundantes a los datos"
+   ],
+   "sol": "El CRC es un código calculado sobre los datos: el receptor lo recalcula y, si no coincide, sabe que hubo error (no dónde), de modo que hay que pedir la repetición. El FEC (_Forward Error Correction_) añade redundancia suficiente para que el receptor corrija por sí mismo, sin retransmisión, a costa de una menor velocidad útil. Ambos son técnicas digitales y ambos exigen añadir bits. _(Véase tema T1, sección «Señales moduladas».)_\n#_apc1-noest[Para combatir los errores de una transmisión digital se añaden bits redundantes. Con CRC (comprobación de redundancia cíclica) el emisor añade un código calculado sobre el bloque; el receptor lo recalcula y, si no coincide, descarta el bloque y puede pedir su repetición. Con FEC (corrección directa de errores) la redundancia es mayor y el receptor corrige sin retransmisión, útil en enlaces con mucho retardo o de un sentido; FT8 combina ambos. La redundancia reduce la velocidad útil.]"
+  },
+  {
+   "id": "F-T1.31",
+   "clave": "b",
+   "enunciado": "En una transmisión digital, la diferencia entre la detección de errores (CRC) y la corrección directa (FEC) es que:",
+   "opciones": [
+    "el CRC corrige los errores del bloque y la FEC solo avisa de que existen",
+    "el CRC permite detectar que un bloque ha llegado con errores, y la FEC corregirlos sin pedir retransmisión",
+    "la FEC exige siempre retransmitir el bloque y el CRC nunca",
+    "el CRC añade bits de redundancia al mensaje y la FEC no necesita añadir ninguno"
+   ],
+   "sol": "El CRC es un código de comprobación calculado con los bits del bloque: si el receptor obtiene otro distinto, sabe que hubo errores, pero no cuáles; lo habitual es pedir que se repita el bloque. La FEC añade redundancia suficiente para que el receptor reconstruya por sí mismo los datos dañados, sin retransmisión. La opción a está invertida y la c dice lo contrario de lo que aporta la FEC, que precisamente evita repetir. La d es falsa: tanto el CRC como la FEC añaden bits redundantes (la FEC, muchos más). _(Véase tema T1, sección «Señales moduladas».)_\n\n#_apc1-noest[Dos formas de proteger los datos digitales, ambas con bits redundantes que añade el emisor. El CRC (comprobación de redundancia cíclica) es un código calculado con los bits del bloque: si el receptor obtiene otro distinto, sabe que hubo errores, pero no puede repararlos; lo habitual es pedir que se repita el bloque. La FEC (_forward error correction_) añade redundancia suficiente para que el receptor corrija por sí mismo los errores, sin retransmisión, al precio de una menor velocidad de información útil.]"
+  },
+  {
+   "id": "F-T1.32",
+   "clave": "a",
+   "enunciado": "Al añadir FEC a una transmisión digital sin cambiar la velocidad de bits por el canal, la velocidad de información útil:",
+   "opciones": [
+    "disminuye, porque parte de los bits transmitidos son de redundancia",
+    "aumenta, porque el receptor corrige los errores",
+    "no varía: la FEC solo modifica los bits que llegan erróneos",
+    "se reduce únicamente cuando hay errores que corregir"
+   ],
+   "sol": "Con FEC el emisor añade bits de redundancia a los datos; por ejemplo, 3 bits enviados por cada 2 de información. Esos bits ocupan el canal, así que, con la misma velocidad de bits, la velocidad de información útil baja (aquí a 2/3). A cambio, el receptor corrige errores y la transmisión aguanta mejor el ruido. Corregir errores no crea capacidad: cada bit enviado lleva menos información (b y c). La redundancia se envía siempre, haya o no errores, de modo que la d también es falsa. _(Véase tema T1, sección «Señales moduladas».)_\n#_apc1-noest[La FEC tiene un precio: los bits de redundancia ocupan el canal. Se mide con la tasa de código $k slash n$: de cada $n$ bits transmitidos, solo $k$ son de información ($n > k$). Si la velocidad de bits por el canal no cambia, la velocidad de información útil se reduce en ese factor, siempre, haya o no errores. A cambio, el receptor corrige los errores por sí mismo y la transmisión resiste señales más débiles y ruidosas.]"
+  },
+  {
+   "id": "F-T1.33",
+   "clave": "c",
+   "enunciado": "Un osciloscopio mide 200 V de pico a pico en una señal sinusoidal aplicada a una carga artificial de 50 Ω. La potencia disipada es de:",
+   "opciones": [
+    "50 W",
+    "200 W",
+    "100 W",
+    "400 W"
+   ],
+   "sol": "Pico a pico es el doble del pico: $V_p = 200 slash 2 = 100$ V. El valor eficaz es $V_\"ef\" = V_p slash sqrt(2) = 70,7$ V y $P = V_\"ef\"^2 slash R = 5000 slash 50 = 100$ W (equivale a $V_p^2 slash 2R$). Los 200 W salen de usar el pico como si fuera eficaz ($V_p^2 slash R$); los 400 W, de aplicar $V^2 slash 2R$ a los 200 V pico a pico; y los 50 W, de tomar como eficaz la cuarta parte de la tensión pico a pico. _(Véase tema T1, secciones «Unidades y leyes fundamentales» y «Ondas y señales».)_\n#_apc1-noest[El valor pico a pico de una sinusoide es la distancia entre su máximo positivo y su máximo negativo: el doble del valor de pico, $V_(p p) = 2 V_p$. Para calcular la potencia que disipa una resistencia $R$ hay que pasar siempre a valor eficaz: $V_\"ef\" = V_p slash sqrt(2)$ y $P = V_\"ef\"^2 slash R = V_p^2 slash 2R$. Con 100 V de pico sobre 50 Ω, $P = 100$ W.]"
+  },
+  {
+   "id": "F-T1.34",
+   "clave": "b",
+   "enunciado": "Una señal sinusoidal disipa 200 W en una carga de 50 Ω. Su tensión eficaz es de:",
+   "opciones": [
+    "70,7 V",
+    "100 V",
+    "141 V",
+    "283 V"
+   ],
+   "sol": "De $P = V^2 slash R$ se despeja $V = sqrt(P R) = sqrt(200 dot 50) = sqrt(10000) = 100$ V eficaces. Los demás valores son errores de conversión: 141 V es el valor de pico ($100 sqrt(2)$), 283 V el pico a pico (el doble del pico) y 70,7 V resulta de dividir entre $sqrt(2)$ una tensión que ya era eficaz. _(Véase tema T1, secciones «Unidades y leyes fundamentales» y «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.35",
+   "clave": "d",
+   "enunciado": "Una señal sinusoidal de 10 V de pico se aplica a una resistencia de 100 Ω. La potencia que disipa es de:",
+   "opciones": [
+    "1 W",
+    "2 W",
+    "0,25 W",
+    "0,5 W"
+   ],
+   "sol": "La potencia depende del valor eficaz: $V_\"ef\" = 10 slash sqrt(2) = 7,07$ V y $P = V_\"ef\"^2 slash R = 50 slash 100 = 0,5$ W (equivale a $V_p^2 slash 2R$). Se obtiene 1 W si se usa el pico como si fuera eficaz ($10^2 slash 100$); 2 W, si se multiplica por $sqrt(2)$ en lugar de dividir; y 0,25 W, si se divide la tensión entre 2 en lugar de entre $sqrt(2)$. _(Véase tema T1, secciones «Unidades y leyes fundamentales» y «Ondas y señales».)_"
+  },
+  {
+   "id": "F-T1.36",
+   "clave": "a",
+   "enunciado": "Un preamplificador de 15 dB de ganancia alimenta un cable que pierde 3 dB, y este a un amplificador de 10 dB. La ganancia total del conjunto es de:",
+   "opciones": [
+    "22 dB",
+    "28 dB",
+    "25 dB",
+    "12 dB"
+   ],
+   "sol": "Las ganancias y las pérdidas en decibelios se suman y restan: 15 − 3 + 10 = 22 dB. Los 28 dB salen de sumar también la pérdida del cable, como si fuera ganancia; los 25 dB, de olvidar el cable; y los 12 dB, de olvidar el amplificador (15 − 3). Por eso con decibelios el balance de una cadena se reduce a sumas y restas, sin multiplicar relaciones de potencia. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.37",
+   "clave": "d",
+   "enunciado": "Un transmisor entrega 10 W a un cable coaxial que atenúa 3 dB. La potencia que llega a la antena es aproximadamente de:",
+   "opciones": [
+    "7 W",
+    "3,3 W",
+    "2,5 W",
+    "5 W"
+   ],
+   "sol": "Una pérdida de 3 dB divide la potencia entre 2 (al revés que una ganancia de +3 dB, que la duplica): $P = 10 slash 2 = 5$ W. Con la fórmula, $P_2 = 10 dot 10^(-3 slash 10) approx 5$ W. Los 7 W resultan de restar 3 W a 10 W, cuando los decibelios no se restan de los vatios; los 3,3 W, de dividir entre 3; y los 2,5 W corresponderían a una pérdida de 6 dB. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.38",
+   "clave": "c",
+   "enunciado": "A un amplificador de 10 dB de ganancia se aplican 2 W y su salida pasa por un atenuador de 6 dB. La potencia final es aproximadamente de:",
+   "opciones": [
+    "20 W",
+    "0,5 W",
+    "5 W",
+    "8 W"
+   ],
+   "sol": "Balance neto: +10 − 6 = +4 dB. Como +10 dB multiplican la potencia por 10 y −6 dB la dividen entre 4, $P = 2 dot 10 slash 4 = 5$ W (con la fórmula, $2 dot 10^(0,4) approx 5$ W). Los 20 W ignoran el atenuador; los 0,5 W, el amplificador (2/4); y los 8 W toman los +4 dB como si fueran ×4, cuando equivalen a multiplicar por unos 2,5. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.39",
+   "clave": "b",
+   "enunciado": "Un amplificador consume 200 W de la fuente de alimentación y entrega 120 W de RF. Su rendimiento es del:",
+   "opciones": [
+    "40 %",
+    "60 %",
+    "120 %",
+    "167 %"
+   ],
+   "sol": "El rendimiento es la relación entre la potencia de salida útil y la consumida: $eta = P_\"sal\" slash P_\"cc\" = 120 slash 200 = 0,6 = 60$ %. El 40 % es la fracción que se pierde en calor (80/200); el 167 % sale de invertir el cociente (200/120). Un rendimiento superior al 100 % es imposible, porque el amplificador entregaría más potencia de la que consume. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.40",
+   "clave": "c",
+   "enunciado": "Un amplificador entrega 50 W de RF con un rendimiento del 40 %. La potencia que se disipa en forma de calor es de:",
+   "opciones": [
+    "20 W",
+    "50 W",
+    "75 W",
+    "125 W"
+   ],
+   "sol": "De $eta = P_\"sal\" slash P_\"cc\"$ se obtiene la potencia consumida: $P_\"cc\" = 50 slash 0,4 = 125$ W. Lo que no sale como RF se convierte en calor: 125 − 50 = 75 W. Los 125 W son el consumo total, no el calor; los 50 W son la potencia útil; y los 20 W resultan de multiplicar $0,4 dot 50$ en lugar de dividir. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.41",
+   "clave": "d",
+   "enunciado": "Un transmisor de AM con 25 W de potencia de portadora se modula al 100 %. Su potencia en la cresta de la envolvente (p.c.e.) es de:",
+   "opciones": [
+    "25 W",
+    "37,5 W",
+    "50 W",
+    "100 W"
+   ],
+   "sol": "Al 100 % de modulación, en la cresta de la envolvente la tensión de pico se duplica y, como la potencia va con el cuadrado de la tensión, se multiplica por cuatro: 4 · 25 = 100 W. Los 25 W son la potencia de portadora, sin modulación; los 37,5 W, la potencia media con modulación al 100 % ($1,5 P_c$); y los 50 W resultarían de duplicar la potencia en lugar de la tensión. _(Véase tema T5, sección «Emisiones no deseadas».)_"
+  },
+  {
+   "id": "F-T1.42",
+   "clave": "a",
+   "enunciado": "Un conversor A/D muestrea una señal a 8 kHz. La frecuencia máxima de la señal que se puede digitalizar sin aliasing es de:",
+   "opciones": [
+    "4 kHz",
+    "8 kHz",
+    "16 kHz",
+    "2 kHz"
+   ],
+   "sol": "El teorema de Nyquist exige $f_s >= 2 f_\"máx\"$, luego $f_\"máx\" <= f_s slash 2 = 8 slash 2 = 4$ kHz. Lo que supere los 4 kHz se plegaría sobre la banda útil (_aliasing_). Los 8 kHz confunden la frecuencia de muestreo con la máxima de la señal; los 16 kHz aplican el factor 2 en sentido contrario (es el muestreo el que debe ser el doble, no la señal); y los 2 kHz dividen entre 2 dos veces. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.43",
+   "clave": "b",
+   "enunciado": "Si una señal se muestrea a una frecuencia inferior al doble de su frecuencia máxima, se produce:",
+   "opciones": [
+    "un ruido de cuantificación mayor, que desaparece empleando más bits por muestra",
+    "aliasing: las componentes de frecuencia alta se confunden con otras más bajas y ya no pueden distinguirse de ellas",
+    "la pérdida de las componentes más altas, que simplemente se cortan sin afectar al resto de la señal",
+    "una distorsión que elimina después el filtro de reconstrucción"
+   ],
+   "sol": "Con $f_s < 2 f_\"máx\"$ faltan muestras para fijar las componentes más altas: los mismos puntos encajan en una sinusoide de frecuencia más baja, y esas componentes aparecen «disfrazadas» de bajas (_aliasing_), mezcladas con la señal útil. Ya no hay forma de separarlas, ni con más bits de cuantificación (a) ni con el filtro de reconstrucción (d), que actúa después del D/A. Tampoco se cortan limpiamente (c): se pliegan sobre la banda. Se previene con un filtro antisolapamiento antes del A/D. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.44",
+   "clave": "c",
+   "enunciado": "Un conversor analógico-digital de 10 bits cuantifica cada muestra en uno de:",
+   "opciones": [
+    "10 niveles",
+    "20 niveles",
+    "1024 niveles",
+    "100 niveles"
+   ],
+   "sol": "Con $n$ bits se forman $2^n$ combinaciones distintas y cada una es un nivel de cuantificación: $2^10 = 1024$ niveles. Cada bit añadido duplica el número de niveles y mejora unos 6 dB la relación señal/ruido de cuantificación. Los 10, 20 y 100 niveles son los errores típicos de tomar $n$, $2n$ o $n^2$ en lugar de $2^n$. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.45",
+   "clave": "d",
+   "enunciado": "El filtro antisolapamiento (anti-aliasing) de un sistema de procesado digital de señales se coloca:",
+   "opciones": [
+    "después del conversor A/D, y es un filtro paso bajo",
+    "antes del conversor A/D, y es un filtro paso alto",
+    "después del conversor D/A, y es un filtro paso bajo",
+    "antes del conversor A/D, y es un filtro paso bajo"
+   ],
+   "sol": "Lo que supere $f_s slash 2$ se plegaría sobre la banda útil al muestrear (_aliasing_) y, ya digitalizado, no se puede separar. Hay que eliminarlo antes del muestreo: el filtro antisolapamiento va delante del A/D y es paso bajo, con corte en torno a $f_s slash 2$. Un paso alto dejaría justo lo que hay que quitar. El filtro situado tras el D/A es el de reconstrucción: también paso bajo, pero elimina las réplicas del espectro y suaviza los escalones de la señal de salida. Es otro filtro, con otra función. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_\n#_apc1-noest[En un sistema con DSP hay dos filtros paso bajo. El antisolapamiento va justo antes del conversor A/D: elimina lo que supera $f_s slash 2$, que al muestrear se confundiría con frecuencias bajas y no podría separarse después. El de reconstrucción va tras el conversor D/A: suaviza los escalones de la señal reconstruida y elimina las réplicas del espectro por encima de $f_s slash 2$. Ambos cortan en torno a $f_s slash 2$.]"
+  },
+  {
+   "id": "F-T1.46",
+   "clave": "b",
+   "enunciado": "En un sistema de procesado digital de señales, el filtro antisolapamiento (anti-aliasing) se coloca:",
+   "opciones": [
+    "antes del conversor A/D y es un filtro paso alto",
+    "antes del conversor A/D y es un filtro paso bajo, con corte en torno a $f_s slash 2$",
+    "después del conversor A/D y es un filtro paso bajo",
+    "después del conversor D/A y es un filtro paso alto"
+   ],
+   "sol": "Las componentes de la señal por encima de $f_s slash 2$ no se pueden muestrear bien: al muestrear se «doblan» hacia frecuencias más bajas (_aliasing_) y ya no se distinguen de la señal útil. Por eso hay que eliminarlas antes, con un filtro paso bajo de corte próximo a $f_s slash 2$ a la entrada del A/D. Después del A/D el daño ya está hecho (c). Un paso alto (a, d) quitaría justo las frecuencias bajas que interesan. El filtro que sigue al D/A es el de reconstrucción, y también es paso bajo. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_\n#_apc1-noest[El filtro antisolapamiento es un filtro paso bajo situado justo antes del conversor A/D: deja pasar la señal útil y elimina lo que supere $f_s slash 2$ (la frecuencia de Nyquist), porque esas componentes, una vez muestreadas, se confundirían con frecuencias más bajas y ya no se podrían separar. Por eso se filtra siempre antes de muestrear, nunca después.]"
+  },
+  {
+   "id": "F-T1.47",
+   "clave": "c",
+   "enunciado": "El filtro de reconstrucción de un sistema digital se sitúa a la salida del conversor D/A y sirve para:",
+   "opciones": [
+    "amplificar las muestras hasta el nivel que necesita la carga",
+    "aumentar la frecuencia de muestreo de la señal",
+    "suavizar la señal escalonada, eliminando las componentes de alta frecuencia que introduce el muestreo",
+    "eliminar la componente continua que deja la conversión"
+   ],
+   "sol": "El D/A entrega una señal en escalones (mantiene cada muestra hasta la siguiente), y esos escalones llevan componentes de alta frecuencia: réplicas del espectro en torno a $f_s$, $2 f_s$, etc. Un filtro paso bajo las elimina y deja la señal analógica continua, por ejemplo el audio. No amplifica (a), no cambia la frecuencia de muestreo, que es cosa del procesador (b), y no se ocupa de la componente continua (d). _(Véase tema T1, sección «Potencia, decibelios y DSP».)_\n\n#_apc1-noest[La salida de un conversor D/A es una señal en escalones: mantiene cada muestra hasta la siguiente, y esos escalones llevan componentes de alta frecuencia (réplicas de la señal en torno a $f_s$, $2 f_s$, etc.). El filtro de reconstrucción es un filtro paso bajo a la salida del D/A: elimina esas componentes y deja la señal analógica suave, por ejemplo el audio que llega al altavoz.]"
+  },
+  {
+   "id": "F-T1.48",
+   "clave": "a",
+   "enunciado": "Un conversor analógico-digital (A/D) convierte:",
+   "opciones": [
+    "una señal analógica en una secuencia de números binarios",
+    "una secuencia de números binarios en una señal analógica",
+    "una señal de RF en una señal de frecuencia intermedia",
+    "una corriente alterna en corriente continua"
+   ],
+   "sol": "El A/D muestrea la señal analógica y cuantifica cada muestra en un código binario de $n$ bits, es decir, en uno de $2^n$ niveles. La operación inversa (b) la hace el conversor D/A. Pasar de RF a FI es tarea de un mezclador (c), y de alterna a continua, de un rectificador (d): ninguno de los dos convierte la señal en números. _(Véase tema T1, sección «Potencia, decibelios y DSP».)_"
+  },
+  {
+   "id": "F-T1.49",
+   "clave": "d",
+   "enunciado": "En la cadena de recepción de un receptor con DSP, el conversor D/A sirve para:",
+   "opciones": [
+    "digitalizar la señal captada por la antena",
+    "amplificar el audio hasta la potencia que necesita el altavoz",
+    "eliminar el ruido impulsivo de la señal recibida",
+    "convertir en señal analógica las muestras ya procesadas, por ejemplo el audio"
+   ],
+   "sol": "Un receptor con DSP digitaliza la señal (A/D), la filtra y la demodula como números y, al final, tiene que volver al dominio analógico para poder oírla: eso lo hace el D/A, que convierte las muestras del audio en una tensión analógica. Digitalizar es cosa del A/D (a). Amplificar hasta la potencia del altavoz lo hace el amplificador de audio (b). Reducir el ruido impulsivo lo hacen algoritmos del DSP o el _noise blanker_ (c). _(Véase tema T1, sección «Potencia, decibelios y DSP».)_\n\n#_apc1-noest[En un equipo con DSP la señal se digitaliza en un conversor A/D, se procesa como números (filtrado, demodulación) y, para poder oírla, vuelve al dominio analógico en un conversor D/A: convierte la secuencia de muestras en una tensión analógica que, tras el filtro de reconstrucción y el amplificador de audio, mueve el altavoz. El D/A hace lo inverso del A/D.]"
+  },
+  {
+   "id": "F-T1.50",
+   "clave": "c",
+   "enunciado": "La ley de Kirchhoff de las corrientes (ley de los nudos) establece que, en un nudo de un circuito:",
+   "opciones": [
+    "la suma de las tensiones de las ramas que concurren en él es cero",
+    "la corriente total es el producto de las corrientes de cada rama",
+    "la suma de las corrientes que entran es igual a la suma de las que salen",
+    "sale siempre menos corriente de la que entra, porque parte se pierde en calor"
+   ],
+   "sol": "Es la conservación de la carga: en un nudo no se acumula carga, luego la corriente total que llega es igual a la que sale (o, con signos, la suma algebraica es cero). En el nudo no hay pérdidas (d). La suma de tensiones igual a cero es la ley de las mallas (a), no la de los nudos. Y las corrientes de las ramas se suman, no se multiplican (b). _(Véase tema T1, sección «Unidades y leyes fundamentales».)_"
+  },
+  {
+   "id": "F-T1.51",
+   "clave": "b",
+   "enunciado": "A un nudo llegan dos corrientes, de 3 A y de 2 A, y salen otras dos: una de 1,5 A y otra de valor $I$. El valor de $I$ es:",
+   "opciones": [
+    "0,5 A",
+    "3,5 A",
+    "5 A",
+    "6,5 A"
+   ],
+   "sol": "Ley de los nudos: lo que entra es igual a lo que sale. Entran 3 + 2 = 5 A y salen $1,5 + I$, luego $I = 5 - 1,5 = 3,5$ A. Los 6,5 A suman las tres corrientes conocidas (3 + 2 + 1,5). Los 5 A olvidan restar la salida de 1,5 A. Los 0,5 A salen de restar mal ($3 - 2 - 1,5 = -0,5$ y quitar el signo). _(Véase tema T1, sección «Unidades y leyes fundamentales».)_"
+  },
+  {
+   "id": "F-T1.52",
+   "clave": "a",
+   "enunciado": "Una batería de 12 V alimenta tres resistencias en serie (resistencia interna despreciable). Si en dos de ellas caen 3 V y 5 V, en la tercera cae:",
+   "opciones": [
+    "4 V",
+    "7 V",
+    "8 V",
+    "20 V"
+   ],
+   "sol": "Ley de las mallas: la suma de las caídas de tensión a lo largo de la malla es igual a la fem de la batería, $12 = 3 + 5 + V_3$. Luego $V_3 = 12 - 8 = 4$ V. Los 8 V son la suma de las dos caídas conocidas. Los 7 V resultan de restar solo una de ellas (12 − 5). Los 20 V suman las tres cantidades (12 + 3 + 5). _(Véase tema T1, sección «Unidades y leyes fundamentales».)_"
+  },
+  {
+   "id": "F-T1.53",
+   "clave": "d",
+   "enunciado": "La energía eléctrica consumida por una estufa de 2 kW que funciona durante 3 horas es de:",
+   "opciones": [
+    "1,5 kWh",
+    "5 kWh",
+    "6 kW",
+    "6 kWh"
+   ],
+   "sol": "La energía es potencia por tiempo: $E = P dot t = 2 \"kW\" times 3 \"h\" = 6 \"kWh\"$. Los «6 kW» serían una potencia, no una energía: es el error de unidades. Los 5 kWh suman (2 + 3) en lugar de multiplicar. Los 1,5 kWh dividen (3/2) en lugar de multiplicar. _(Véase tema T1, sección «Unidades y leyes fundamentales».)_\n\n#_apc1-noest[La energía eléctrica es potencia por tiempo: $E = P dot t$. En el Sistema Internacional se mide en julios (1 J = 1 W·s), pero en la práctica se usan el vatio-hora (1 Wh = 3600 J) y el kilovatio-hora (1 kWh = 1000 Wh = 3,6 MJ), que es lo que factura la compañía eléctrica. No hay que confundir el kilovatio (potencia) con el kilovatio-hora (energía).]"
+  },
+  {
+   "id": "F-T1.54",
+   "clave": "b",
+   "enunciado": "El julio, unidad de energía, equivale a:",
+   "opciones": [
+    "un vatio dividido por un segundo",
+    "un vatio multiplicado por un segundo",
+    "un voltio multiplicado por un segundo",
+    "un amperio multiplicado por un segundo"
+   ],
+   "sol": "De $P = W slash t$ se despeja la energía, $W = P dot t$: un vatio durante un segundo es un julio, 1 J = 1 W · s. Dividir por el tiempo (a) no da una energía. El voltio por segundo (c) no es una energía. El amperio por segundo (d) es un culombio, es decir, una carga. _(Véase tema T1, sección «Unidades y leyes fundamentales».)_\n\n#_apc1-noest[La tensión es energía por carga y la potencia es energía por tiempo, $P = W slash t$. Despejando, la energía es $W = P dot t$. Por eso el julio, unidad de energía del Sistema Internacional, es un vatio durante un segundo: 1 J = 1 W · s. Como 1 h son 3600 s, un vatio-hora equivale a 3600 J.]"
+  },
+  {
+   "id": "F-T1.55",
+   "clave": "a",
+   "enunciado": "Un equipo que consume 100 W permanece conectado 30 minutos. La energía que ha consumido es de:",
+   "opciones": [
+    "50 Wh",
+    "100 Wh",
+    "200 Wh",
+    "3000 Wh"
+   ],
+   "sol": "Hay que pasar los minutos a horas: 30 min son 0,5 h. Entonces $E = P dot t = 100 \"W\" times 0,5 \"h\" = 50 \"Wh\"$ (0,05 kWh). Los 100 Wh corresponderían a una hora entera. Los 200 Wh dividen entre 0,5 en lugar de multiplicar. Los 3000 Wh usan 30 como si fueran horas (100 × 30). _(Véase tema T1, sección «Unidades y leyes fundamentales».)_\n\n#_apc1-noest[Energía = potencia × tiempo, $E = P dot t$, con el tiempo en horas si se quiere el resultado en vatios-hora (Wh). Antes hay que pasar los minutos a horas (30 min = 0,5 h). En una batería, la energía almacenada es la tensión por la capacidad: 12 V × 7 Ah = 84 Wh.]"
+  },
+  {
+   "id": "F-T1.56",
+   "clave": "b",
+   "enunciado": "Una batería de 12 V de fuerza electromotriz y 0,5 Ω de resistencia interna entrega 4 A a una carga. La tensión en sus terminales es de:",
+   "opciones": [
+    "8 V",
+    "10 V",
+    "12 V",
+    "14 V"
+   ],
+   "sol": "La resistencia interna provoca una caída $I r = 4 times 0,5 = 2$ V dentro de la propia batería, y en los terminales queda $V = epsilon - I r = 12 - 2 = 10$ V. Los 12 V solo se miden en circuito abierto. Los 14 V suman la caída en lugar de restarla. Los 8 V restan $I = 4$ V olvidando multiplicar por $r$. _(Véase tema T1, sección «Fuentes y energía».)_"
+  },
+  {
+   "id": "F-T1.57",
+   "clave": "d",
+   "enunciado": "La corriente de cortocircuito de una fuente de 12 V de fuerza electromotriz y 0,1 Ω de resistencia interna es de:",
+   "opciones": [
+    "8,3 mA",
+    "1,2 A",
+    "12 A",
+    "120 A"
+   ],
+   "sol": "En cortocircuito la carga es nula y solo limita la corriente la resistencia interna: $I_\"cc\" = epsilon slash r = 12 slash 0,1 = 120$ A. Los 8,3 mA invierten la fracción ($r slash epsilon$). Los 1,2 A multiplican en lugar de dividir. Los 12 A toman el valor numérico de $epsilon$ sin dividir por $r$ (saldrían con $r = 1$ Ω). _(Véase tema T1, sección «Fuentes y energía».)_"
+  },
+  {
+   "id": "T1.1",
+   "clave": "c",
+   "enunciado": "La unidad de medida de la resistencia eléctrica es:",
+   "opciones": [
+    "el amperio",
+    "el vatio",
+    "el ohmio",
+    "el voltio"
+   ],
+   "sol": "La resistencia se mide en ohmios (Ω). El amperio mide la intensidad, el voltio la tensión y el vatio la potencia: cuarteto que cae de forma recurrente."
+  },
+  {
+   "id": "T1.2",
+   "clave": "b",
+   "enunciado": "Un voltio es:",
+   "opciones": [
+    "la unidad de intensidad de campo eléctrico",
+    "la diferencia de potencial que se origina entre los extremos de una resistencia de un ohmio al circular por ella un amperio",
+    "la frecuencia de un ciclo por segundo",
+    "la unidad de carga eléctrica"
+   ],
+   "sol": "Definición operativa del voltio a partir de la ley de Ohm: si por una resistencia de 1 Ω circula 1 A, entre sus extremos hay 1 V. El distractor (a) confunde con el V/m del campo eléctrico."
+  },
+  {
+   "id": "T1.3",
+   "clave": "a",
+   "enunciado": "Un kiloohmio equivale a:",
+   "opciones": [
+    "mil ohmios",
+    "cien ohmios",
+    "un millón de ohmios",
+    "una milésima de ohmio"
+   ],
+   "sol": "El prefijo kilo- es mil: 1 kΩ = 1000 Ω. El distractor (c) es el megaohmio."
+  },
+  {
+   "id": "T1.4",
+   "clave": "d",
+   "enunciado": "Un culombio es igual a:",
+   "opciones": [
+    "un voltio dividido por un ohmio",
+    "un vatio por segundo",
+    "un amperio dividido por un segundo",
+    "el producto de un amperio por un segundo"
+   ],
+   "sol": "El culombio es la carga transportada por una corriente de un amperio durante un segundo: $Q = I dot t$."
+  },
+  {
+   "id": "T1.5",
+   "clave": "b",
+   "enunciado": "Al aplicar una tensión de 12 V entre los extremos de una resistencia circula por ella una corriente de 2 A. El valor de la resistencia es:",
+   "opciones": [
+    "24 Ω",
+    "6 Ω",
+    "0,17 Ω",
+    "10 Ω"
+   ],
+   "sol": "Ley de Ohm: $R = V slash I = 12 slash 2 = 6 \"Ω\"$. El distractor de 24 Ω es el producto $V dot I$ (la potencia, 24 W) y el de 0,17 el cociente invertido."
+  },
+  {
+   "id": "T1.6",
+   "clave": "c",
+   "enunciado": "Por una resistencia de 1 kΩ circula una corriente continua de 10 mA. La diferencia de potencial entre sus extremos es de:",
+   "opciones": [
+    "100 V",
+    "1 V",
+    "10 V",
+    "0,1 V"
+   ],
+   "sol": "$V = I dot R = 0,01 dot 1000 = 10$ V. Cuidado con los prefijos: 10 mA son 0,01 A."
+  },
+  {
+   "id": "T1.7",
+   "clave": "a",
+   "enunciado": "El producto de 13 voltios por 1 amperio son:",
+   "opciones": [
+    "13 vatios",
+    "13 ohmios",
+    "13 julios",
+    "13 hercios"
+   ],
+   "sol": "$P = V dot I = 13 dot 1 = 13$ W."
+  },
+  {
+   "id": "T1.8",
+   "clave": "b",
+   "enunciado": "La potencia disipada en una resistencia de 30 ohmios por la que circula una corriente de 2 amperios es de:",
+   "opciones": [
+    "60 vatios",
+    "120 vatios",
+    "15 vatios",
+    "240 vatios"
+   ],
+   "sol": "$P = I^2 R = 2^2 dot 30 = 120$ W. La corriente entra al cuadrado: doblarla cuadruplica la potencia disipada."
+  },
+  {
+   "id": "T1.9",
+   "clave": "b",
+   "enunciado": "Según las leyes básicas de la electricidad, señale la fórmula incorrecta:",
+   "opciones": [
+    "$E = I dot R$",
+    "$P = E^2 dot R$",
+    "$P = I^2 dot R$",
+    "$P = E dot I$"
+   ],
+   "sol": "Las fórmulas correctas de la potencia son $P = E dot I = I^2 R = E^2 slash R$. La opción (b) multiplica en lugar de dividir: la correcta con tensión es $E^2 slash R$."
+  },
+  {
+   "id": "T1.10",
+   "clave": "d",
+   "enunciado": "La ley de Coulomb establece que la fuerza entre dos cargas eléctricas es:",
+   "opciones": [
+    "independiente de la distancia entre ellas",
+    "inversamente proporcional al producto de las cargas",
+    "proporcional a la suma de las cargas",
+    "directamente proporcional al producto de las cargas"
+   ],
+   "sol": "Ley de Coulomb: $F = k q_1 q_2 slash d^2$, directamente proporcional al producto de las cargas e inversamente proporcional al cuadrado de la distancia."
+  },
+  {
+   "id": "T1.11",
+   "clave": "c",
+   "enunciado": "Una batería eléctrica es un dispositivo que convierte:",
+   "opciones": [
+    "energía mecánica en energía eléctrica",
+    "energía eléctrica en energía luminosa",
+    "energía química en energía eléctrica",
+    "energía térmica en energía química"
+   ],
+   "sol": "La batería convierte energía química en eléctrica (y al cargarla, a la inversa). De ahí que se agote: la reacción química se consume."
+  },
+  {
+   "id": "T1.12",
+   "clave": "c",
+   "enunciado": "Una batería con una capacidad de 7 amperios-hora puede suministrar una corriente de 0,5 A durante aproximadamente:",
+   "opciones": [
+    "3,5 horas",
+    "7 horas",
+    "14 horas",
+    "28 horas"
+   ],
+   "sol": "$t = Q slash I = 7 \"Ah\" slash 0,5 \"A\" = 14$ horas: a mitad de corriente, doble de horas."
+  },
+  {
+   "id": "T1.13",
+   "clave": "a",
+   "enunciado": "Si se conectan varias pilas iguales en serie:",
+   "opciones": [
+    "la tensión del conjunto es la suma de las tensiones y la intensidad la de una sola pila",
+    "la tensión del conjunto es la de una sola pila",
+    "la intensidad del conjunto es la suma de las intensidades",
+    "tensión e intensidad se reducen a la mitad"
+   ],
+   "sol": "En serie se suman las tensiones y la corriente que atraviesa el conjunto es la de una sola pila. Para sumar corrientes habría que conectarlas en paralelo."
+  },
+  {
+   "id": "T1.14",
+   "clave": "b",
+   "enunciado": "Las ondas de radio son de naturaleza:",
+   "opciones": [
+    "acústica",
+    "electromagnética",
+    "mecánica",
+    "gravitatoria"
+   ],
+   "sol": "Las ondas de radio son ondas electromagnéticas: campos eléctrico y magnético oscilantes que se propagan sin necesidad de medio material."
+  },
+  {
+   "id": "T1.15",
+   "clave": "c",
+   "enunciado": "La velocidad de propagación de las ondas electromagnéticas en el vacío es de:",
+   "opciones": [
+    "340 m/s",
+    "30.000 km/s",
+    "300.000 km/s",
+    "3.000.000 km/s"
+   ],
+   "sol": "$c = 3 times 10^8$ m/s = 300.000 km/s, la velocidad de la luz (que es también una onda electromagnética)."
+  },
+  {
+   "id": "T1.16",
+   "clave": "a",
+   "enunciado": "La velocidad de propagación de una onda electromagnética es siempre igual a:",
+   "opciones": [
+    "la longitud de onda multiplicada por la frecuencia",
+    "la longitud de onda dividida por la frecuencia",
+    "la frecuencia dividida por la longitud de onda",
+    "la amplitud multiplicada por el período"
+   ],
+   "sol": "$v = lambda dot f$: la relación fundamental entre velocidad, longitud de onda y frecuencia. De ahí sale la regla $lambda approx 300 slash f (\"MHz\")$."
+  },
+  {
+   "id": "T1.17",
+   "clave": "b",
+   "enunciado": "La longitud de onda correspondiente a una frecuencia de 145 MHz es aproximadamente:",
+   "opciones": [
+    "0,5 m",
+    "2 m",
+    "20 m",
+    "70 cm"
+   ],
+   "sol": "$lambda = c slash f = (3 times 10^8) slash (145 times 10^6) approx 2,07$ m: la banda de 2 metros. El distractor de 70 cm corresponde a 430 MHz."
+  },
+  {
+   "id": "T1.18",
+   "clave": "d",
+   "enunciado": "El período de una señal alterna sinusoidal es:",
+   "opciones": [
+    "la amplitud máxima que alcanza la señal",
+    "el número de ciclos en un segundo",
+    "la mitad de la duración de un ciclo",
+    "el tiempo que transcurre entre dos valores máximos consecutivos"
+   ],
+   "sol": "El período es la duración de un ciclo completo: el tiempo entre dos máximos (o dos mínimos) consecutivos. Su inverso es la frecuencia."
+  },
+  {
+   "id": "T1.19",
+   "clave": "a",
+   "enunciado": "El período de una señal sinusoidal de 25 Hz de frecuencia es:",
+   "opciones": [
+    "40 ms",
+    "4 ms",
+    "25 ms",
+    "400 ms"
+   ],
+   "sol": "$T = 1 slash f = 1 slash 25 = 0,04$ s = 40 ms."
+  },
+  {
+   "id": "T1.20",
+   "clave": "c",
+   "enunciado": "El valor eficaz de una tensión sinusoidal cuyo valor máximo es 100 V es aproximadamente:",
+   "opciones": [
+    "50 V",
+    "63,7 V",
+    "70,7 V",
+    "100 V"
+   ],
+   "sol": "$V_\"ef\" = V_\"máx\" slash sqrt(2) approx 70,7$ V. El distractor de 63,7 V es el valor medio de la semionda ($2 V_\"máx\" slash pi$) — el examen juega a intercambiarlas."
+  },
+  {
+   "id": "T1.21",
+   "clave": "b",
+   "enunciado": "Se entiende por «amplitud» de una señal sinusoidal:",
+   "opciones": [
+    "el tiempo que dura un ciclo completo",
+    "la diferencia entre el valor máximo y el valor medio de la señal",
+    "el número de ciclos por segundo",
+    "la potencia disipada en cada ciclo"
+   ],
+   "sol": "Tal como la define el banco de preguntas, la amplitud es la diferencia entre el valor máximo y el valor medio de la señal (para una sinusoide centrada en cero, el valor de pico)."
+  },
+  {
+   "id": "T1.22",
+   "clave": "a",
+   "enunciado": "Una señal radioeléctrica se puede caracterizar por su:",
+   "opciones": [
+    "amplitud y frecuencia",
+    "peso y volumen",
+    "color y temperatura",
+    "resistencia y capacidad"
+   ],
+   "sol": "Una señal radioeléctrica queda caracterizada por su amplitud y su frecuencia (y, si se quiere completar, su fase)."
+  },
+  {
+   "id": "T1.23",
+   "clave": "d",
+   "enunciado": "En un sistema de radiocomunicación, el llamado «ruido blanco»:",
+   "opciones": [
+    "solo aparece en las bandas bajas",
+    "aumenta con la frecuencia",
+    "desaparece de noche",
+    "es independiente de la frecuencia"
+   ],
+   "sol": "El ruido blanco debe su nombre a la luz blanca: contiene todas las frecuencias con la misma densidad de potencia, es decir, es independiente de la frecuencia."
+  },
+  {
+   "id": "T1.24",
+   "clave": "c",
+   "enunciado": "En los sistemas de transmisión analógicos, las señales:",
+   "opciones": [
+    "solo pueden tomar dos valores",
+    "se representan siempre en binario",
+    "pueden tomar infinitos valores",
+    "no transportan información"
+   ],
+   "sol": "Una señal analógica puede tomar infinitos valores dentro de su margen; la digital solo un conjunto discreto (dos, en binario)."
+  },
+  {
+   "id": "T1.25",
+   "clave": "a",
+   "enunciado": "En la modulación de amplitud (AM), la señal moduladora hace variar:",
+   "opciones": [
+    "la amplitud de la portadora",
+    "la frecuencia de la portadora",
+    "la fase de la portadora",
+    "la impedancia de la antena"
+   ],
+   "sol": "En AM la información va en la amplitud de la portadora: la envolvente reproduce la señal moduladora (#ref(<t1-fig-am-envolvente>, supplement: [figura])). En FM lo que varía es la frecuencia."
+  },
+  {
+   "id": "T1.26",
+   "clave": "d",
+   "enunciado": "Decimos que una emisión de AM está sobremodulada cuando:",
+   "opciones": [
+    "la potencia de salida es excesiva",
+    "la anchura de banda es menor que la necesaria",
+    "la portadora está suprimida",
+    "el índice de modulación es superior al 100 %"
+   ],
+   "sol": "Hay sobremodulación cuando el índice $m$ supera el 100 % ($m > 1$): la envolvente se recorta y aparecen distorsión y _splatter_ en los canales adyacentes."
+  },
+  {
+   "id": "T1.27",
+   "clave": "b",
+   "enunciado": "En una emisión de banda lateral única (SSB):",
+   "opciones": [
+    "se transmiten las dos bandas laterales sin portadora",
+    "se transmite una sola banda lateral sin portadora",
+    "se transmite solo la portadora",
+    "se transmite la portadora con las dos bandas laterales"
+   ],
+   "sol": "En SSB se suprime la portadora y una de las dos bandas laterales: toda la potencia se concentra en la banda lateral restante, que es la que lleva la información."
+  },
+  {
+   "id": "T1.28",
+   "clave": "a",
+   "enunciado": "La anchura de banda de una emisión de telefonía en banda lateral única con portadora suprimida (J3E) es aproximadamente:",
+   "opciones": [
+    "2,7 kHz",
+    "500 Hz",
+    "6 kHz",
+    "12,5 kHz"
+   ],
+   "sol": "La anchura de banda de J3E es la de la voz útil: $tilde 2,7$ kHz (300–3000 Hz). Los 6 kHz del distractor corresponden a AM completa (A3E)."
+  },
+  {
+   "id": "T1.29",
+   "clave": "c",
+   "enunciado": "La radiodifusión sonora con modulación de frecuencia (FM comercial) utiliza la banda de:",
+   "opciones": [
+    "HF",
+    "MF",
+    "VHF",
+    "SHF"
+   ],
+   "sol": "La radiodifusión de FM comercial ocupa 87,5–108 MHz, dentro de la banda de VHF (30–300 MHz)."
+  },
+  {
+   "id": "T1.30",
+   "clave": "b",
+   "enunciado": "Si la potencia de salida de un transmisor se duplica, el aumento expresado en decibelios es de:",
+   "opciones": [
+    "2 dB",
+    "3 dB",
+    "6 dB",
+    "10 dB"
+   ],
+   "sol": "$10 log_10 (2) approx 3$ dB. Referencias de memoria: doble = +3 dB, cuádruple = +6 dB, diez veces = +10 dB."
+  },
+  {
+   "id": "T1.31",
+   "clave": "d",
+   "enunciado": "La transferencia máxima de potencia entre dos circuitos se produce cuando:",
+   "opciones": [
+    "la impedancia de salida es mucho mayor que la de entrada",
+    "la frecuencia de trabajo es máxima",
+    "ambos circuitos están desacoplados",
+    "existe adaptación entre sus impedancias"
+   ],
+   "sol": "Con la carga adaptada ($R_L = R_g$) la potencia entregada es máxima: si fuese mucho mayor apenas circularía corriente, y si fuese mucho menor apenas caería tensión en ella; el óptimo está en el punto medio. Es el fundamento de que estación, línea y antena trabajen a 50 Ω."
+  },
+  {
+   "id": "T1.32",
+   "clave": "c",
+   "enunciado": "Para digitalizar sin pérdida de información una señal de audio cuya frecuencia máxima es de 3 kHz, la frecuencia de muestreo mínima debe ser de:",
+   "opciones": [
+    "1,5 kHz",
+    "3 kHz",
+    "6 kHz",
+    "12 kHz"
+   ],
+   "sol": "Criterio de Nyquist: $f_s >= 2 f_\"máx\" = 6$ kHz — hacen falta al menos dos muestras por período para fijar una sinusoide. Muestrear por debajo produce _aliasing_ (una frecuencia alta se confunde con una baja), que evita el filtro antisolapamiento previo al conversor A/D."
+  },
+  {
+   "id": "T1.33",
+   "clave": "a",
+   "enunciado": "Se entiende por «procesador digital de señal» (DSP):",
+   "opciones": [
+    "un sistema con hardware y software optimizados para procesar digitalmente la señal a muy alta velocidad",
+    "un amplificador de audio de gran fidelidad",
+    "un filtro pasivo de cristal de cuarzo",
+    "una fuente de alimentación conmutada"
+   ],
+   "sol": "Un DSP es un procesador (hardware más software) especializado en ejecutar operaciones de tratamiento de señal (filtros, FFT, demodulación) a muy alta velocidad."
+  },
+  {
+   "id": "T1.34",
+   "clave": "b",
+   "enunciado": "Un espectro como el de la #ref(<t1-fig-am-espectro>, supplement: [figura]) — una portadora central con dos bandas laterales simétricas — a la salida de un transmisor corresponde a una señal con modulación de:",
+   "opciones": [
+    "frecuencia",
+    "amplitud",
+    "fase",
+    "banda lateral única"
+   ],
+   "sol": "Portadora central más dos bandas laterales simétricas es la firma espectral de la modulación de amplitud (así se dedujo matemáticamente en la teoría del tema). La FM mostraría muchas bandas laterales y la SSB una sola raya.",
+   "figura": true
+  },
+  {
+   "id": "T1.35",
+   "clave": "c",
+   "enunciado": "En una instalación de corriente alterna, el llamado «factor de potencia» o $cos phi$ es:",
+   "opciones": [
+    "la relación entre la tensión y la corriente (la impedancia)",
+    "el número de ciclos por segundo de la corriente",
+    "el coseno del ángulo de desfase entre la tensión y la corriente",
+    "la proporción de armónicos de la señal"
+   ],
+   "sol": "En alterna, si hay reactancias la corriente no va al compás de la tensión, y solo la parte en fase produce potencia útil. El factor de potencia es el coseno del ángulo de desfase $phi$ (no el desfase mismo): $cos phi = P slash S$, cociente entre la potencia activa (la que se consume) y la aparente ($V I$). Vale 1 en un circuito resistivo puro y baja según crece la componente reactiva. La relación tensión/corriente es la impedancia."
+  },
+  {
+   "id": "T1.36",
+   "clave": "a",
+   "enunciado": "La resistencia eléctrica de un conductor es directamente proporcional a:",
+   "opciones": [
+    "su resistividad y su longitud",
+    "su sección y su longitud",
+    "su resistividad y su sección",
+    "la tensión aplicada y la corriente"
+   ],
+   "sol": "$R = rho l slash S$: a doble longitud, doble resistencia, y un material de mayor resistividad la aumenta en la misma proporción. La sección aparece dividiendo, así que con ella la relación es inversa."
+  },
+  {
+   "id": "T1.37",
+   "clave": "d",
+   "enunciado": "Si se reduce la sección de un conductor manteniendo su longitud, su resistencia eléctrica:",
+   "opciones": [
+    "no varía",
+    "disminuye",
+    "se anula",
+    "aumenta"
+   ],
+   "sol": "La sección está en el denominador de $R = rho l slash S$: estrechar el conductor es como estrechar una tubería, cuesta más hacer pasar la corriente. Por eso los cables de alta corriente son gruesos."
+  },
+  {
+   "id": "T1.38",
+   "clave": "b",
+   "enunciado": "La potencia disipada en una resistencia $R$ recorrida por una corriente de intensidad $I$ vale:",
+   "opciones": [
+    "$P = R slash I$",
+    "$P = R I^2$",
+    "$P = I slash R^2$",
+    "$P = R I$"
+   ],
+   "sol": "De $P = V I$ y $V = R I$ sale $P = R I^2$. Es la forma más útil cuando se conoce la corriente, y la que explica que la disipación se dispare al doblar la intensidad: cuatro veces más calor."
+  },
+  {
+   "id": "T1.39",
+   "clave": "c",
+   "enunciado": "Se llama valor eficaz de una corriente alterna:",
+   "opciones": [
+    "el valor máximo que alcanza en cada ciclo",
+    "la media aritmética de todos sus valores instantáneos",
+    "el de la corriente continua que produciría el mismo efecto calorífico",
+    "el valor que marca un osciloscopio entre pico y pico"
+   ],
+   "sol": "El valor eficaz se define por su efecto: es la continua equivalente en producción de calor. Para una senoide vale $V_\"máx\" slash sqrt(2)$, y es lo que miden los instrumentos y lo que significan los 230 V de la red."
+  },
+  {
+   "id": "T1.40",
+   "clave": "a",
+   "enunciado": "En una onda electromagnética, la polarización queda determinada por:",
+   "opciones": [
+    "la dirección del campo eléctrico",
+    "la dirección del campo magnético",
+    "la dirección de propagación",
+    "la frecuencia de la onda"
+   ],
+   "sol": "Por convenio, la polarización es la del campo eléctrico. Una antena vertical radia con polarización vertical porque su campo eléctrico lo es, y conviene que emisor y receptor coincidan: cruzar polarizaciones cuesta bastantes decibelios."
+  },
+  {
+   "id": "T1.41",
+   "clave": "d",
+   "enunciado": "Una batería almacena energía eléctrica mediante un proceso:",
+   "opciones": [
+    "mecánico",
+    "magnético",
+    "térmico",
+    "químico"
+   ],
+   "sol": "En una batería la energía se guarda como energía química y se recupera mediante una reacción de oxidación-reducción. El condensador la guarda en un campo eléctrico y la bobina, en uno magnético."
+  },
+  {
+   "id": "T1.42",
+   "clave": "b",
+   "enunciado": "Si se conectan en serie cuatro pilas iguales:",
+   "opciones": [
+    "la tensión y la intensidad se multiplican por cuatro",
+    "la tensión se cuadruplica y la intensidad es la de una sola pila",
+    "la tensión es la de una sola pila y la intensidad se cuadruplica",
+    "tanto la tensión como la intensidad son las de una sola pila"
+   ],
+   "sol": "En serie las tensiones se suman porque las pilas se encadenan, pero la corriente atraviesa a todas por igual: la capacidad de entregar corriente sigue siendo la de una. Para aumentar la corriente habría que ponerlas en paralelo, y entonces la tensión sería la de una sola."
+  },
+  {
+   "id": "T1.43",
+   "clave": "c",
+   "enunciado": "La intensidad del campo eléctrico se expresa en unidades de:",
+   "opciones": [
+    "vatios por metro cuadrado",
+    "amperios por metro",
+    "voltios por metro",
+    "julios por segundo"
+   ],
+   "sol": "El campo eléctrico es una diferencia de potencial por unidad de distancia, luego voltios/metro; en radio se maneja habitualmente en microvoltios por metro o en dBμV/m. Los amperios por metro corresponden al campo magnético."
+  },
+  {
+   "id": "T1.44",
+   "clave": "a",
+   "enunciado": "En un circuito puramente resistivo recorrido por corriente alterna, la tensión y la intensidad:",
+   "opciones": [
+    "están en fase",
+    "están desfasadas 90°",
+    "están en oposición de fase",
+    "tienen frecuencias distintas"
+   ],
+   "sol": "Sin reactancias no hay desfase: la corriente sigue instantáneamente a la tensión y ambas pasan a la vez por cero y por sus máximos. El desfase de 90° aparece con bobinas o condensadores puros."
+  },
+  {
+   "id": "T1.45",
+   "clave": "b",
+   "enunciado": "La característica principal que define a un generador eléctrico es:",
+   "opciones": [
+    "su peso",
+    "la fuerza electromotriz que produce",
+    "el número de terminales de que dispone",
+    "su temperatura de trabajo"
+   ],
+   "sol": "Un generador se caracteriza por la fuerza electromotriz que es capaz de mantener entre sus bornes, es decir, por la energía que comunica a cada unidad de carga. Su resistencia interna es el otro parámetro que lo describe."
+  },
+  {
+   "id": "T1.46",
+   "clave": "c",
+   "enunciado": "En una emisión radioeléctrica, la modulación tiene por objeto:",
+   "opciones": [
+    "aumentar la potencia del transmisor",
+    "reducir la longitud de la antena",
+    "que la portadora transporte la información",
+    "mejorar el rendimiento de la etapa final"
+   ],
+   "sol": "La portadora, sola, no dice nada: hay que hacerle variar la amplitud, la frecuencia o la fase al ritmo de la señal que se quiere transmitir. Eso es modular. Ni aumenta la potencia ni acorta la antena."
+  },
+  {
+   "id": "T1.47",
+   "clave": "a",
+   "enunciado": "Un amperio corresponde al paso por un conductor de una carga de:",
+   "opciones": [
+    "un culombio por segundo",
+    "un voltio por segundo",
+    "un julio por segundo",
+    "un faradio por segundo"
+   ],
+   "sol": "El amperio se define como el paso de un culombio por segundo: 1 A = 1 C/s. El julio por segundo es el vatio, y el voltio y el faradio miden magnitudes distintas."
+  }
+ ]
+}

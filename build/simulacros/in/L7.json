@@ -1,0 +1,2086 @@
+{
+ "temas": {
+  "R1": {
+   "titulo": "Alfabeto fonético internacional",
+   "alcance": "Códigos para el deletreo de letras y cifras."
+  },
+  "R2": {
+   "titulo": "Código Q",
+   "alcance": "Grupos del código Q más utilizados en el Servicio de Aficionados y en el Servicio de Aficionados por Satélite."
+  },
+  "R3": {
+   "titulo": "Abreviaturas",
+   "alcance": "Abreviaturas más usuales en las comunicaciones de radioaficionados."
+  },
+  "R4": {
+   "titulo": "Señales de socorro, urgencia y seguridad",
+   "alcance": "Señales radiotelegráficas y radiotelefónicas de alarma, socorro, urgencia y seguridad · empleo internacional de las radiocomunicaciones de aficionado en catástrofes naturales (Resolución 640 del Reglamento de Radiocomunicaciones) · bandas de frecuencias atribuidas al Servicio de Aficionados y al Servicio de Aficionados por Satélite."
+  }
+ },
+ "preguntas": [
+  {
+   "id": "C-R1.1",
+   "clave": "c",
+   "enunciado": "El deletreo del distintivo AN6BL según el alfabeto fonético internacional:",
+   "opciones": [
+    "Alfa, Noviembre, Seis, Bravo, Lima.",
+    "A, Ene, Seis, B, Ele.",
+    "Alfa, November, Six, Bravo, Lima.",
+    "El deletreo de distintivos no está permitido."
+   ],
+   "sol": "Cada letra se deletrea con su palabra internacional (A = Alfa, N = November, B = Bravo, L = Lima) y la cifra con su nombre inglés: 6 = Six. La a pone en español «Noviembre» y «Seis», que no pertenecen al alfabeto internacional; la b usa los nombres españoles de las letras (Ene, Ele) en lugar de palabras de deletreo. La d es falsa: deletrear el distintivo es lo normal, y el propio temario oficial incluye el alfabeto fonético para deletrear letras y cifras. Aunque al hablar se oigan cifras en español, el deletreo internacional las da en inglés. #vease[(Véase tema R1, tabla del alfabeto y nota sobre las cifras.)]"
+  },
+  {
+   "id": "C-R1.2",
+   "clave": "b",
+   "enunciado": "El deletreo del indicativo EA5SWJ de acuerdo con el alfabeto fonético internacional sería:",
+   "opciones": [
+    "Echo Alfa Cinco Sierra Whiskey Juliet.",
+    "Echo Alfa Five Sierra Whiskey Juliett.",
+    "Echo Alfa Five Sierra Whiskey Japón.",
+    "Echo América Five Sierra Whiskey Juliet."
+   ],
+   "sol": "E = Echo, A = Alfa, 5 = Five, S = Sierra, W = Whiskey, J = Juliett: la b es la única formada solo por palabras del alfabeto internacional, con la cifra en inglés. La a da la cifra en español (Cinco); la c sustituye Juliett por «Japón», que no pertenece al alfabeto; la d dice «América» para la A, que es Alfa. Recuerda la grafía oficial: Alfa, con f, y Juliett, con doble t. #vease[(Véase tema R1, tabla del alfabeto y nota sobre las cifras.)]"
+  },
+  {
+   "id": "C-R1.3",
+   "clave": "a",
+   "enunciado": "El deletreo del distintivo EA3RCQ según el alfabeto fonético internacional:",
+   "opciones": [
+    "Echo, Alfa, Three, Romeo, Charlie, Quebec.",
+    "El deletreo de distintivos no está permitido.",
+    "Echo, Alfa, Tres, Romeo, Charlie, Quebec.",
+    "E, A, Tres, R, C, Q."
+   ],
+   "sol": "E = Echo, A = Alfa, 3 = Three, R = Romeo, C = Charlie, Q = Quebec. Las opciones a y c solo se distinguen en la cifra: el deletreo internacional da las cifras por su nombre inglés (Three), no en español (Tres). La d se limita a nombrar las letras sin palabras de deletreo, justo lo que el alfabeto fonético pretende evitar, porque una letra suelta se confunde con facilidad. La b es falsa: deletrear el distintivo es práctica habitual y forma parte del temario. #vease[(Véase tema R1, tabla del alfabeto y nota sobre las cifras.)]"
+  },
+  {
+   "id": "C-R2.1",
+   "clave": "c",
+   "enunciado": "¿Qué abreviatura del código Q se refiere a la inteligibilidad de las señales?",
+   "opciones": [
+    "QRL",
+    "QRM",
+    "QRK",
+    "QRA"
+   ],
+   "sol": "QRK es el grupo de la inteligibilidad (legibilidad) de las señales: «¿cuál es la inteligibilidad de mis señales?» o, como respuesta, «la inteligibilidad de sus señales es…», en una escala de 1 a 5. Es la «R» del informe RST. No lo confundas con QSA (fuerza de la señal) ni con QRI (tono). Los distractores son otros grupos: QRL (ocupado), QRM (interferencia de otras estaciones) y QRA (nombre de la estación). La pregunta también cae a la inversa: «QRK significa…» se responde «inteligibilidad de las señales». #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes».)]"
+  },
+  {
+   "id": "C-R2.2",
+   "clave": "c",
+   "enunciado": "¿Qué abreviatura indica que el operador está ocupado?",
+   "opciones": [
+    "QRF",
+    "QTI",
+    "QRL",
+    "QSJ"
+   ],
+   "sol": "QRL significa «estoy ocupado; no interfiera» y, en forma de pregunta (QRL?), «¿está usted ocupado?» o «¿está ocupada la frecuencia?». Los demás grupos no tienen relación: QRF es «¿regresa usted a…?», QTI se refiere a la derrota (rumbo) verdadera y QSJ a la tasa por palabra en el tráfico de telegramas. #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes» (QRL como «frecuencia ocupada»).)]\n\n    #no-esta[El cuaderno da QRL como «la frecuencia está ocupada», que es su uso habitual antes de llamar: se pregunta «QRL?» y, si alguien contesta, se espera. La definición internacional es más amplia: QRL? es «¿está usted ocupado?» y QRL es «estoy ocupado; ruego no interferir». El examen lo pregunta con cualquiera de los dos matices, y la clave es siempre QRL. Mnemotecnia: QRL = «línea ocupada».]"
+  },
+  {
+   "id": "C-R2.3",
+   "clave": "d",
+   "enunciado": "¿Qué abreviatura indica que se transmita más lentamente?",
+   "opciones": [
+    "QTR",
+    "QTH",
+    "QSJ",
+    "QRS"
+   ],
+   "sol": "QRS es «transmita más despacio» (o «¿debo transmitir más despacio?»); la S es de #emph[slow]. Su opuesto es QRQ, «transmita más deprisa» (la Q de #emph[quick]). Los distractores son otros grupos: QTR es la hora exacta, QTH la posición o localidad y QSJ la tasa por palabra. La pregunta también cae a la inversa («QRS significa…»), donde otros distractores típicos son QSB (las señales se desvanecen) y QRZ (está siendo llamado por…). #vease[(Véase tema R2, tablas de grupos del código Q (QRS en la primera, QRQ en la segunda).)]"
+  },
+  {
+   "id": "C-R2.4",
+   "clave": "d",
+   "enunciado": "La abreviatura QRA indica:",
+   "opciones": [
+    "¿Qué frecuencia utiliza Vd.?",
+    "¿Está Vd. ocupado?",
+    "¿Transmito más despacio?",
+    "¿Cómo se llama su estación?"
+   ],
+   "sol": "QRA se refiere al nombre de la estación: «¿cómo se llama su estación?» o «el nombre de mi estación es…». No es la posición (eso es QTH). Los distractores son otros grupos en forma de pregunta: la frecuencia es QRG, «¿está ocupado?» es QRL y «¿transmito más despacio?» es QRS. #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes».)]"
+  },
+  {
+   "id": "C-R2.5",
+   "clave": "b",
+   "enunciado": "La abreviatura del código Q «QRG» tiene el significado de:",
+   "opciones": [
+    "Cese la transmisión",
+    "Su frecuencia exacta es… kHz",
+    "Aumente la potencia",
+    "Estoy ocupado. No interfiera"
+   ],
+   "sol": "QRG es la frecuencia exacta: «su frecuencia exacta es… kHz» y, con interrogación, «¿cuál es la frecuencia exacta de mi emisión?» (QRG?). Los distractores son otros grupos: «cese la transmisión» es QRT, «aumente la potencia» es QRO y «estoy ocupado, no interfiera» es QRL. Tampoco es QSY (cambie de frecuencia), QSB (las señales se desvanecen) ni QTR (la hora). #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes».)]"
+  },
+  {
+   "id": "C-R3.1",
+   "clave": "d",
+   "enunciado": "La abreviatura FB significa:",
+   "opciones": [
+    "Hasta luego.",
+    "Frecuencia.",
+    "Oficina.",
+    "Buen trabajo, formidable."
+   ],
+   "sol": "FB viene del inglés #emph[fine business] y se emplea con el sentido de «buen trabajo», «formidable», «excelente»: se aplica a una señal, a un equipo o a un contacto. «Hasta luego» se abrevia CUL (#emph[see you later]). «Frecuencia» y «oficina» no son significados de FB.\n\n    #no-esta[FB (del inglés #emph[fine business]) es una abreviatura de elogio: «buen trabajo», «formidable», «excelente». Se oye en expresiones como «FB señal» o «FB QSO». No figura en las tablas del cuaderno. Conviene distinguirla de otras abreviaturas de cortesía: CUL (#emph[see you later]) es «hasta luego», TNX es «gracias» y 73 son «saludos cordiales».]"
+  },
+  {
+   "id": "C-R3.2",
+   "clave": "d",
+   "enunciado": "Es una abreviatura operacional y significa manipulador semiautomático:",
+   "opciones": [
+    "PLUG",
+    "TXT",
+    "CUL",
+    "BUG"
+   ],
+   "sol": "BUG designa el manipulador semiautomático: una llave telegráfica mecánica que fabrica sola los puntos y deja las rayas a mano del operador. Los distractores no encajan: CUL es «hasta luego» (#emph[see you later]), TXT es «texto» y PLUG (enchufe) no es una abreviatura operacional.\n\n    #no-esta[Un #emph[bug] (la marca clásica es Vibroplex) es un manipulador semiautomático: al empujar la paleta hacia un lado, un mecanismo de péndulo genera automáticamente una serie de puntos, mientras que las rayas se hacen a mano empujando hacia el otro lado. No es el manipulador vertical (la llave simple de subir y bajar) ni el #emph[keyer] electrónico, que genera automáticamente tanto los puntos como las rayas. La abreviatura no figura en las tablas del cuaderno.]"
+  },
+  {
+   "id": "C-R3.3",
+   "clave": "d",
+   "enunciado": "Significa «buenos días» utilizando una abreviatura operacional:",
+   "opciones": [
+    "GA",
+    "BD",
+    "GD",
+    "GM"
+   ],
+   "sol": "GM viene del inglés #emph[good morning]: buenos días. GA no es un saludo matutino: en el material del examen significa «adelante» (#emph[go ahead]). BD y GD no son abreviaturas operacionales.\n\n    #no-esta[Los saludos horarios se abrevian con las iniciales de la expresión inglesa: GM (#emph[good morning], buenos días), GE (#emph[good evening], buenas tardes) y GN (#emph[good night], buenas noches). La regla es la G de #emph[good] más la inicial de la parte del día. No figuran en las tablas del cuaderno.]"
+  },
+  {
+   "id": "C-R3.4",
+   "clave": "c",
+   "enunciado": "Si se utiliza una abreviatura operacional, NR significa:",
+   "opciones": [
+    "Receptor.",
+    "No hay respuesta.",
+    "Número.",
+    "Corte de transmisión."
+   ],
+   "sol": "NR es la abreviatura de #emph[number]: «número» (de orden, de serie o de mensaje). Los distractores corresponden a otras abreviaturas: «receptor» es RX y «corte de transmisión» es BK; «no hay respuesta» no corresponde a ninguna abreviatura operacional.\n\n    #no-esta[NR (del inglés #emph[number]) significa «número»: se usa, por ejemplo, para dar el número de orden de un mensaje o el número de serie que se intercambia en un concurso. Sigue el mismo patrón de recorte que RX (receptor) y TX (transmisor): las consonantes de la palabra inglesa. No figura en las tablas del cuaderno.]"
+  },
+  {
+   "id": "C-R3.5",
+   "clave": "b",
+   "enunciado": "En telegrafía, la abreviatura operacional «MSG» significa:",
+   "opciones": [
+    "Gracias",
+    "Mensaje",
+    "Amigo",
+    "Señal"
+   ],
+   "sol": "MSG es la abreviatura de #emph[message]: «mensaje». Las demás respuestas corresponden a otras abreviaturas: «gracias» es TNX o TKS, «amigo» (#emph[old man]) es OM y «señal» es SIG.\n\n    #no-esta[MSG (del inglés #emph[message]) significa «mensaje», el texto que se envía en el tráfico de mensajes. No lo confundas con el grupo Q QTC («tengo mensajes para usted»). Muchas abreviaturas son la palabra inglesa sin vocales: MSG (#emph[message]), SIG (#emph[signal]), PWR (#emph[power]). No figura en las tablas del cuaderno.]"
+  },
+  {
+   "id": "C-R3.6",
+   "clave": "c",
+   "enunciado": "La abreviatura operacional utilizada en telegrafía para decir «buenas tardes» es:",
+   "opciones": [
+    "BK",
+    "ES",
+    "GE",
+    "BUG"
+   ],
+   "sol": "GE procede de #emph[good evening]: buenas tardes (y noches). Los distractores son otras abreviaturas: BK es «corte de transmisión» (#emph[break]), ES es «y» (#emph[and]) y BUG es el manipulador semiautomático.\n\n    #no-esta[GE es la abreviatura de #emph[good evening]: «buenas tardes». Junto a GM (#emph[good morning], buenos días) y GN (#emph[good night], buenas noches) forma el trío de saludos horarios: la G de #emph[good] más la inicial de la parte del día. En el material del examen, GA significa «adelante» (#emph[go ahead]). No figuran en las tablas del cuaderno.]"
+  },
+  {
+   "id": "C-R3.7",
+   "clave": "d",
+   "enunciado": "¿Qué significa que una estación DX trabaja en «Split»?",
+   "opciones": [
+    "Que está operando en un país lejano y de categoría especial.",
+    "Que utiliza una modalidad digital moderna llamada «Split».",
+    "Que emite en doble banda lateral única.",
+    "Que emite en una frecuencia, pero recibe en otra diferente."
+   ],
+   "sol": "Trabajar en #emph[split] es transmitir en una frecuencia y escuchar en otra. Lo hace la estación DX cuando tiene una avalancha de llamadas (#emph[pile-up]): si escuchara en su propia frecuencia de emisión, las llamadas se pisarían y no distinguiría a nadie. Anuncia, por ejemplo, «escucho arriba 5 kHz» y cada corresponsal llama en un punto distinto de la banda. Las demás opciones mezclan conceptos ajenos: «#emph[split]» no es un país, ni una modalidad digital, ni una clase de emisión con bandas laterales.\n\n    #no-esta[#emph[Split]: modo de operación con frecuencia de transmisión distinta de la de recepción. Se usa sobre todo en DX y concursos para repartir las llamadas de un #emph[pile-up] (muchas estaciones llamando a la vez a una sola). El DX indica dónde escucha («#emph[up 5]» es 5 kHz por encima de su frecuencia de emisión) y tú ajustas el transceptor con los dos VFO: recibes en la frecuencia del DX y transmites en la de escucha. Es una técnica operativa, no una modalidad de emisión ni una categoría de estación.]"
+  },
+  {
+   "id": "C-R3.8",
+   "clave": "a",
+   "enunciado": "¿Qué es «locator»?",
+   "opciones": [
+    "Una forma muy rápida de indicar la ubicación de una estación.",
+    "Una propagación que te permite escuchar tu propio eco.",
+    "Un radiogoniómetro.",
+    "La forma de indicar la altura de tu antena."
+   ],
+   "sol": "El #emph[locator] (localizador Maidenhead o #emph[QTH locator]) es un código de seis caracteres que identifica una cuadrícula del globo y permite dar la ubicación de una estación de forma breve e inequívoca, p. ej. IN80dk (Madrid). Se usa sobre todo en VHF/UHF y en concursos, donde interesa la distancia entre estaciones. No es un tipo de propagación, ni un radiogoniómetro (el aparato que determina la dirección de una señal), ni indica la altura de la antena.\n\n    #no-esta[El sistema Maidenhead divide el globo en 18 × 18 campos (letras A–R; cada uno de 20° de longitud por 10° de latitud), cada campo en 10 × 10 cuadrados (cifras 0–9; 2° por 1°) y cada cuadrado en 24 × 24 subcuadrados (letras a–x; 5 por 2,5 minutos de arco). Se escribe: dos letras, dos cifras y dos letras (p. ej. IM99jn). Con cuatro caracteres se sitúa la estación en un cuadrado de unos 100 a 200 km de lado; con seis, en unos pocos kilómetros.]"
+  },
+  {
+   "id": "C-R4.1",
+   "clave": "a",
+   "enunciado": "La llamada de socorro en radiotelefonía se compone de:",
+   "opciones": [
+    "«MAYDAY» (tres veces), la palabra «AQUÍ» o «DE» y el distintivo de llamada (tres veces).",
+    "«AQUÍ» o «DE», el distintivo de llamada (tres veces) y la palabra «MAYDAY» (tres veces).",
+    "Únicamente «MAYDAY» (tres veces).",
+    "«MAYDAY» (una vez), la palabra «AQUÍ» o «DE» y el distintivo de llamada (tres veces)."
+   ],
+   "sol": "La llamada de socorro en radiotelefonía lleva tres partes, en este orden: la palabra «Mayday» repetida tres veces, la palabra «aquí» o «de» y el distintivo de la estación en peligro, también tres veces. Por ejemplo: «Mayday, Mayday, Mayday, aquí EA4XYZ, EA4XYZ, EA4XYZ». Falla la opción con el orden invertido (primero debe oírse que es socorro), la que solo dice «Mayday» (incompleta) y la que lo dice una vez. Tampoco vale «help»: la palabra internacional de socorro es solo «Mayday». A la llamada sigue el mensaje de socorro. #vease[(Véase tema R4, tabla «Señales internacionales de socorro, urgencia y seguridad».)]\n\n    #no-esta[El cuaderno da la palabra «Mayday» (tres veces), pero no la estructura completa de la llamada. Según el Reglamento de Radiocomunicaciones de la UIT (Apéndice 13), la llamada de socorro en radiotelefonía consta de: 1) «Mayday» tres veces; 2) «aquí» (en inglés #emph[this is]) o «de»; 3) el distintivo de la estación en peligro, tres veces. Después va el mensaje de socorro: identificación, posición, naturaleza del peligro y ayuda que se necesita. Regla: tres veces la palabra, tres veces el distintivo.]"
+  },
+  {
+   "id": "C-R4.2",
+   "clave": "b",
+   "enunciado": "La señal radiotelegráfica de socorro consiste en:",
+   "opciones": [
+    "La palabra «Mayday»",
+    "La abreviatura «SOS» transmitida como un solo signo",
+    "La palabra «HELP»",
+    "La abreviatura «S.O.S.» transmitida separando las tres letras"
+   ],
+   "sol": "La señal radiotelegráfica de socorro es el grupo SOS, que en Morse son tres puntos, tres rayas y tres puntos enviados seguidos, sin pausa entre letras: una sola señal, con las rayas algo alargadas para distinguirlas de los puntos. Por eso es correcta la b. La clave publicada en el banco marca la d, pero separar las tres letras contradice la norma internacional: en ese caso ya no sería el signo de socorro. «Mayday» es la señal radiotelefónica y «help» no es una señal reglamentaria. #vease[(Véase tema R4, tabla «Señales internacionales de socorro, urgencia y seguridad».)]\n\n    #no-esta[El cuaderno dice que la señal de socorro en telegrafía es SOS, pero falta el detalle de cómo se envía. Según el Reglamento de Radiocomunicaciones de la UIT, es un único signo Morse: tres puntos, tres rayas y tres puntos transmitidos seguidos, sin los espacios que separarían las letras S, O y S, y con las rayas ligeramente alargadas para distinguirlas de los puntos. No son las siglas de ninguna frase: es solo una secuencia fácil de reconocer.]\n\n    #_apb2-clave[«La abreviatura S.O.S. transmitida separando las tres letras». Es la clave que dan las recopilaciones de exámenes reales (2007–2011): conviene conocerla por si aparece idéntica en el examen, aunque la respuesta razonada arriba sea la técnicamente correcta.]"
+  },
+  {
+   "id": "C-R4.3",
+   "clave": "d",
+   "enunciado": "En el sistema GMDSS, la alerta de socorro inicial en MF/HF se realiza mediante Llamada Selectiva Digital (DSC). ¿En qué frecuencia se transmite esta alerta en banda MF?",
+   "opciones": [
+    "156,525 MHz",
+    "1414 kHz",
+    "2182 kHz",
+    "2187,5 kHz"
+   ],
+   "sol": "En MF, la alerta de socorro del GMDSS por DSC se transmite en 2187,5 kHz. La frecuencia de 2182 kHz es la tradicional de socorro en radiotelefonía (voz), no la de la alerta digital. 156,525 MHz es el canal 70 de VHF, que también es de DSC pero en otra banda (VHF, no MF). 1414 kHz no es frecuencia de socorro. El banco no traía clave para esta pregunta; la respuesta se ha fijado con la norma.\n\n    #no-esta[El GMDSS (Sistema Mundial de Socorro y Seguridad Marítimos) automatiza las alertas con la llamada selectiva digital (DSC): un mensaje digital breve que identifica al buque y su posición. Frecuencias de alerta DSC: MF, 2187,5 kHz; HF, 4207,5, 6312, 8414,5, 12577 y 16804,5 kHz; VHF, canal 70, 156,525 MHz. La voz va aparte: 2182 kHz en MF y canal 16 (156,8 MHz) en VHF. Truco: la de MF es la de voz (2182) más 5,5 kHz.]"
+  },
+  {
+   "id": "F-R2.1",
+   "clave": "b",
+   "enunciado": "El grupo #_apc2-m[QTR] se utiliza para dar o pedir:",
+   "opciones": [
+    "la posición de la estación",
+    "la hora exacta",
+    "el nombre de la estación",
+    "la distancia entre las estaciones"
+   ],
+   "sol": "#_apc2-m[QTR] es la hora exacta: con interrogación (#_apc2-m[QTR?]) se pregunta «¿cuál es la hora exacta?» y, como respuesta, se dice «la hora exacta es…». Los distractores son otros grupos de las tablas: #_apc2-m[QTH] es la posición o localidad de la estación, #_apc2-m[QRA] es el nombre de la estación y #_apc2-m[QRB] es la distancia entre estaciones. Para recordarlo: la R de #_apc2-m[QTR] es de «reloj». #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes en el Servicio de Aficionados».)]"
+  },
+  {
+   "id": "F-R2.2",
+   "clave": "c",
+   "enunciado": "El grupo #_apc2-m[QRY], como pregunta, equivale a:",
+   "opciones": [
+    "¿cuál es mi frecuencia exacta?",
+    "¿está ocupada la frecuencia?",
+    "¿cuál es mi turno en el orden de comunicación?",
+    "¿a qué distancia nos encontramos?"
+   ],
+   "sol": "#_apc2-m[QRY?] significa «¿cuál es mi turno (en el orden de comunicación)?»; la respuesta es «su turno es el número…». No habla de frecuencias ni de distancias, sino de quién comunica antes. Los distractores son otros grupos de las tablas: #_apc2-m[QRG] (frecuencia exacta), #_apc2-m[QRL] (frecuencia ocupada) y #_apc2-m[QRB] (distancia entre estaciones). Mnemotecnia: #_apc2-m[QRY] es «¿cuándo me toca?». #no-esta[Las tablas no recogen todos los grupos Q de la lista internacional (Recomendación UIT-R M.1172). Uno de los que faltan es #_apc2-m[QRY]: «¿cuál es mi turno (en el orden de comunicación)?». Se contesta «su turno es el número…», con la cifra que corresponda. Sirve para saber en qué orden le toca a uno comunicar.]"
+  },
+  {
+   "id": "F-R2.3",
+   "clave": "d",
+   "enunciado": "El grupo #_apc2-m[QSX], como pregunta, equivale a:",
+   "opciones": [
+    "¿debo transmitir una serie de letras V?",
+    "¿debo cambiar de frecuencia?",
+    "¿ha escuchado a… en… kHz?",
+    "¿quiere escuchar a… en… kHz?"
+   ],
+   "sol": "#_apc2-m[QSX?] es «¿quiere escuchar a… en… kHz?» y la respuesta, «escucho a… en… kHz». Cuidado con #_apc2-m[QSN], que mira al pasado («¿ha escuchado a…?»): #_apc2-m[QSX] mira al futuro («¿quiere escuchar…?»). Los otros distractores son #_apc2-m[QSV] (transmita una serie de V) y #_apc2-m[QSY] (cambie de frecuencia). #no-esta[Otro grupo Q que no figura en las tablas es #_apc2-m[QSX]: «¿quiere escuchar a… en… kHz?»; se responde «escucho a… en… kHz». Es un grupo de escucha: pide que se atienda a otra estación en una frecuencia. No lo confundas con #_apc2-m[QSN], de las tablas: #_apc2-m[QSN] pregunta si se ha oído (pasado) y #_apc2-m[QSX] si se quiere escuchar (futuro).]"
+  },
+  {
+   "id": "F-R2.4",
+   "clave": "a",
+   "enunciado": "El grupo #_apc2-m[QSZ] se emplea para pedir que:",
+   "opciones": [
+    "cada palabra o grupo se transmita dos veces (o las que se indiquen)",
+    "se transmita más despacio",
+    "se repita el último mensaje",
+    "se anule el mensaje"
+   ],
+   "sol": "#_apc2-m[QSZ] pide que cada palabra o grupo se transmita dos veces (o las veces que se indiquen); con interrogación, «¿debo transmitir cada palabra o grupo más de una vez?». Los distractores son otros grupos de las tablas: #_apc2-m[QRS] (transmita más despacio), #_apc2-m[QSM] (repita el último mensaje) y #_apc2-m[QTA] (anule el mensaje). La diferencia con #_apc2-m[QSM]: este repite el mensaje ya enviado y #_apc2-m[QSZ] duplica cada palabra o grupo. #no-esta[Otro grupo Q que no figura en las tablas es #_apc2-m[QSZ]: «¿debo transmitir cada palabra o grupo más de una vez?». Como consigna significa «transmita cada palabra o grupo dos veces (o el número de veces que se indique)». No es #_apc2-m[QSM], que pide repetir el último mensaje ya enviado, ni #_apc2-m[QRS], que pide ir más despacio.]"
+  },
+  {
+   "id": "F-R2.5",
+   "clave": "b",
+   "enunciado": "Las respuestas a #_apc2-m[QRK] (inteligibilidad), #_apc2-m[QSA] (fuerza de la señal) y #_apc2-m[QRI] (tono) son cifras. ¿Con qué escala se expresa cada una?",
+   "opciones": [
+    "#_apc2-m[QRK], #_apc2-m[QSA] y #_apc2-m[QRI]: las tres de 1 a 9",
+    "#_apc2-m[QRK] y #_apc2-m[QSA] de 1 a 5; #_apc2-m[QRI] de 1 a 3",
+    "#_apc2-m[QRK] de 1 a 5; #_apc2-m[QSA] y #_apc2-m[QRI] de 1 a 9",
+    "#_apc2-m[QRK], #_apc2-m[QSA] y #_apc2-m[QRI]: las tres de 1 a 5"
+   ],
+   "sol": "En la lista internacional del código Q, #_apc2-m[QRK] se responde con una cifra de 1 (mala) a 5 (excelente), #_apc2-m[QSA] de 1 (apenas perceptible) a 5 (muy buena) y #_apc2-m[QRI] de 1 a 3, con la escala al revés: 1 buena, 2 variable y 3 mala. Las opciones con 9 traen las escalas del informe #_apc2-m[RST], donde la intensidad y el tono sí llegan a 9, pero ese es otro código; la de las tres de 1 a 5 olvida que #_apc2-m[QRI] solo tiene tres valores. Y ojo con el sentido: en #_apc2-m[QRI] el número más alto es el peor. #vease[(Véase tema R2, tablas de grupos del código Q (#_apc2-m[QRK], #_apc2-m[QSA] y #_apc2-m[QRI]).)] #no-esta[Los grupos de calidad de la señal se contestan con una cifra. #_apc2-m[QRK] (inteligibilidad): de 1 (mala) a 5 (excelente). #_apc2-m[QSA] (fuerza de la señal): de 1 (apenas perceptible) a 5 (muy buena). #_apc2-m[QRI] (tono): de 1 a 3, con la escala al revés: 1 buena, 2 variable, 3 mala. Son escalas distintas de las del informe #_apc2-m[RST], que llega a 9 en intensidad y en tono.]"
+  },
+  {
+   "id": "F-R2.6",
+   "clave": "d",
+   "enunciado": "El grupo #_apc2-m[QRU] significa:",
+   "opciones": [
+    "espere; volveré a llamarle más tarde",
+    "estoy dispuesto (a la escucha)",
+    "cese la transmisión",
+    "no tengo nada para usted"
+   ],
+   "sol": "#_apc2-m[QRU] es «no tengo nada para usted»; con interrogación, «¿tiene algo para mí?». Se parece en la forma a #_apc2-m[QRV] (estoy dispuesto) pero significa casi lo contrario. Los distractores son otros grupos de la tabla: #_apc2-m[QRX] (espere; volveré a llamar más tarde), #_apc2-m[QRV] (dispuesto, a la escucha) y #_apc2-m[QRT] (cese la transmisión). #vease[(Véase tema R2, tabla «Grupos del código Q más frecuentes en el Servicio de Aficionados».)]"
+  },
+  {
+   "id": "F-R3.1",
+   "clave": "a",
+   "enunciado": "En el argot de los radioaficionados, un #_apc2-m[SWL] es:",
+   "opciones": [
+    "un radioescucha: una persona aficionada a escuchar emisiones de onda corta",
+    "un medidor de la relación de ondas estacionarias",
+    "una estación que emite en banda lateral única con baja potencia",
+    "la llamada general a todas las estaciones"
+   ],
+   "sol": "#_apc2-m[SWL] viene de _short wave listener_: es el radioescucha, la persona aficionada a escuchar emisiones de onda corta. Los distractores son confusiones típicas: la relación de ondas estacionarias se abrevia _SWR_ (ROE en español), no #_apc2-m[SWL]\\; la banda lateral única es #_apc2-m[SSB] y la llamada general a todas las estaciones es #_apc2-m[CQ]. #no-esta[Entre las abreviaturas de uso corriente que no figuran en las tablas está #_apc2-m[SWL], de _short wave listener_: el radioescucha, es decir, la persona aficionada a escuchar emisiones de onda corta. La última letra importa: _SWR_, con R, es la relación de ondas estacionarias, que se mide en la línea de la antena.]"
+  },
+  {
+   "id": "F-R3.2",
+   "clave": "c",
+   "enunciado": "La abreviatura #_apc2-m[GL] se emplea para desear al corresponsal:",
+   "opciones": [
+    "buenos días",
+    "buenas noches",
+    "buena suerte",
+    "buenas tardes"
+   ],
+   "sol": "#_apc2-m[GL] es _good luck_: «buena suerte». Los distractores son las otras abreviaturas en «G» de los saludos, todas del inglés: #_apc2-m[GM] (_good morning_, buenos días), #_apc2-m[GN] (_good night_, buenas noches) y #_apc2-m[GE] (_good evening_, buenas tardes). Fíjate en la segunda letra: M de _morning_, N de _night_, E de _evening_ y L de _luck_. #no-esta[Además de las abreviaturas de las tablas hay otras muy habituales. Los saludos se abrevian con la G de _good_ y la inicial de lo que se desea: #_apc2-m[GM] (_morning_, buenos días), #_apc2-m[GE] (_evening_, buenas tardes), #_apc2-m[GN] (_night_, buenas noches) y #_apc2-m[GL] (_luck_, buena suerte).]"
+  },
+  {
+   "id": "F-R3.3",
+   "clave": "c",
+   "enunciado": "En el informe #_apc2-m[RST], la segunda cifra (la S) expresa:",
+   "opciones": [
+    "la legibilidad, en una escala de 1 a 5",
+    "el tono, en una escala de 1 a 9",
+    "la intensidad de la señal, en una escala de 1 a 9",
+    "la potencia del transmisor, en una escala de 1 a 9"
+   ],
+   "sol": "El informe #_apc2-m[RST] son tres cifras, en este orden: *R* (_readability_, legibilidad, de 1 a 5), *S* (_strength_, intensidad, de 1 a 9) y *T* (_tone_, tono, de 1 a 9, que se añade en telegrafía). La segunda cifra es, pues, la intensidad. Los distractores reordenan las escalas: la legibilidad es la primera cifra y solo llega a 5; el tono es la tercera. La potencia del transmisor no forma parte del informe. #vease[(Véase tema R3, tabla «Abreviaturas de procedimiento más habituales» (#_apc2-m[RST]).)] #no-esta[El informe #_apc2-m[RST] se da con tres cifras, en este orden: *R* (_readability_, legibilidad) de 1 a 5; *S* (_strength_, intensidad) de 1 a 9; y *T* (_tone_, tono) de 1 a 9, que se añade en telegrafía. En fonía se dan las dos primeras: el «59» es el informe máximo (legibilidad perfecta e intensidad máxima).]"
+  },
+  {
+   "id": "F-R3.4",
+   "clave": "a",
+   "enunciado": "En fonía el informe de señal se da con dos cifras (por ejemplo, «59»); en telegrafía se añade una tercera («599»), que valora:",
+   "opciones": [
+    "el tono de la señal",
+    "la velocidad de manipulación",
+    "el desvanecimiento de la señal",
+    "la potencia del transmisor"
+   ],
+   "sol": "El informe #_apc2-m[RST] tiene tres cifras: legibilidad (R), intensidad (S) y tono (T). El tono solo tiene sentido en telegrafía, donde se escucha una nota que puede llevar zumbido o modulación (el 9 es el tono perfecto); por eso en fonía se dan solo R y S («59») y en telegrafía las tres («599»). La velocidad de manipulación se mide en palabras por minuto y no forma parte del informe; el desvanecimiento es #_apc2-m[QSB]\\; y la potencia no la valora el corresponsal. #vease[(Véase tema R3, tabla «Abreviaturas de procedimiento más habituales» (#_apc2-m[RST]).)] #no-esta[Informe #_apc2-m[RST]: *R*, legibilidad (1 a 5); *S*, intensidad (1 a 9); *T*, tono (1 a 9). En fonía solo se dan las dos primeras cifras («59»); en telegrafía se añade el tono («599»), porque solo allí hay una nota que valorar. El 9 de tono significa tono perfecto, sin zumbido ni modulación. «599» es el informe máximo.]"
+  },
+  {
+   "id": "F-R3.5",
+   "clave": "d",
+   "enunciado": "En la escala de legibilidad (R) del informe #_apc2-m[RST], el valor 5 significa que la señal es:",
+   "opciones": [
+    "legible prácticamente sin dificultad",
+    "ilegible",
+    "legible con considerable dificultad",
+    "perfectamente legible"
+   ],
+   "sol": "La legibilidad (R) va de 1 a 5: 1, ilegible; 2, apenas legible (se distingue alguna palabra suelta); 3, legible con considerable dificultad; 4, legible prácticamente sin dificultad; 5, perfectamente legible. El 5 es, pues, la nota máxima. Los distractores son otros escalones: ilegible es R1, con considerable dificultad es R3 y casi sin dificultad es R4. Por eso el «59» de fonía se lee «legibilidad perfecta, intensidad 9». #vease[(Véase tema R3, tabla «Abreviaturas de procedimiento más habituales» (#_apc2-m[RST]).)] #no-esta[Escala de legibilidad (R) del informe #_apc2-m[RST]: 1, ilegible; 2, apenas legible (se distingue alguna palabra suelta); 3, legible con considerable dificultad; 4, legible prácticamente sin dificultad; 5, perfectamente legible. Es la primera cifra del informe: en «59» el 5 es la legibilidad y el 9, la intensidad.]"
+  },
+  {
+   "id": "F-R4.1",
+   "clave": "b",
+   "enunciado": "Según la Orden IET/1311/2013, si un radioaficionado capta una comunicación de socorro debe hacer lo posible para que llegue cuanto antes a:",
+   "opciones": [
+    "la Jefatura Provincial de Inspección de Telecomunicaciones",
+    "la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior",
+    "la asociación de radioaficionados más próxima",
+    "la Secretaría de Estado de Telecomunicaciones"
+   ],
+   "sol": "El art. 30.5 de la Orden dice que quien capta una comunicación de socorro *deberá hacer lo posible* para que llegue cuanto antes a la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior. Las otras opciones no figuran en ese artículo: las asociaciones de radioaficionados no son destinatarias; la Jefatura Provincial de Inspección de Telecomunicaciones es la ventanilla de trámites (por ejemplo, la notificación de estaciones portables, art. 17.1); y la Secretaría de Estado de Telecomunicaciones tiene facultades de aplicación y fija los modelos de solicitud (disp. final segunda). #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)] #no-esta[Según el art. 30.5 de la Orden IET/1311/2013, el radioaficionado que capta una comunicación de socorro debe hacer lo posible para que llegue cuanto antes a la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior. Es la misma Dirección General que puede requerir la colaboración de los titulares de autorización en caso de catástrofe (art. 30.4).]"
+  },
+  {
+   "id": "F-R4.2",
+   "clave": "d",
+   "enunciado": "Según la Orden IET/1311/2013, todo titular de una autorización de radioaficionado está obligado a colaborar con sus medios radioeléctricos en caso de catástrofe cuando se lo requiera:",
+   "opciones": [
+    "la Unión de Radioaficionados Españoles",
+    "el ayuntamiento de su localidad",
+    "la Jefatura Provincial de Inspección de Telecomunicaciones",
+    "la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior"
+   ],
+   "sol": "El art. 30.4 de la Orden obliga a todo titular de una autorización a colaborar, a requerimiento de la Dirección General de Protección Civil y Emergencias, del Ministerio del Interior, con sus medios radioeléctricos y en las bandas atribuidas al servicio de radioaficionados, para atender las comunicaciones de socorro y seguridad en caso de catástrofes. Ni la Unión de Radioaficionados Españoles ni el ayuntamiento figuran en ese artículo, y la Jefatura Provincial de Inspección de Telecomunicaciones es la ventanilla de trámites (art. 17.1, por ejemplo), no quien requiere la colaboración. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)]"
+  },
+  {
+   "id": "F-R4.3",
+   "clave": "c",
+   "enunciado": "En el plan de bandas de la IARU para la Región 1, la frecuencia de 14300 kHz está señalada como centro de actividad de:",
+   "opciones": [
+    "imagen (SSTV, fax)",
+    "voz digital",
+    "emergencia de ámbito mundial",
+    "telefonía en banda lateral única de baja potencia (#_apc2-m[QRP])"
+   ],
+   "sol": "El plan de bandas de la IARU para la Región 1 señala en 20 m varios centros de actividad: voz digital en 14130 kHz, imagen en 14230 kHz, SSB de baja potencia en 14285 kHz y, en 14300 kHz, el centro de emergencia de ámbito mundial (_Global Emergency Centre of Activity_). Las otras tres opciones son centros reales de la banda, pero de otros modos y en otras frecuencias; por eso hay que asociar cada valor con su uso. Pista: en 15 m, 21360 kHz es también centro de emergencia global. #vease[(Véase tema R6, introducción del capítulo (reparto de cada banda en segmentos por modos, frecuencias de llamada).)] #no-esta[El plan de bandas de la IARU para la Región 1 marca en HF centros de actividad de emergencia: 3760 kHz (80 m), 7110 kHz (40 m), 14300 kHz (20 m), 18160 kHz (17 m) y 21360 kHz (15 m); los de 14300 y 21360 kHz se designan «globales». Son frecuencias de referencia señaladas por el plan para la actividad de emergencia. La Orden (Anexo I, 3.1) remite, como norma general, al plan de la IARU para la Región 1 en cuanto a los anchos de banda.]"
+  },
+  {
+   "id": "F-R4.4",
+   "clave": "b",
+   "enunciado": "En el plan de bandas de la IARU para la Región 1, el centro de actividad de emergencia de la banda de 80 m está en:",
+   "opciones": [
+    "3690 kHz",
+    "3760 kHz",
+    "3630 kHz",
+    "3735 kHz"
+   ],
+   "sol": "En 80 m el plan de la IARU para la Región 1 señala estos centros de actividad: voz digital en 3630 kHz, SSB de baja potencia (#_apc2-m[QRP]) en 3690 kHz, imagen en 3735 kHz y emergencia de la Región 1 (_R1 Emergency Centre of Activity_) en 3760 kHz. Los otros tres valores son centros reales de la banda, pero de otros modos: por eso son buenos distractores. Regla de memoria: 3760 kHz en 80 m y 7110 kHz en 40 m son los centros de emergencia de la Región 1. #vease[(Véase tema R6, introducción del capítulo (reparto de cada banda en segmentos por modos, frecuencias de llamada).)] #no-esta[En la banda de 80 m (3500–3800 kHz) el plan de bandas de la IARU para la Región 1 marca estos centros de actividad: 3630 kHz, voz digital; 3690 kHz, SSB de baja potencia; 3735 kHz, imagen; y 3760 kHz, emergencia de la Región 1. En 40 m, el centro de emergencia es 7110 kHz. Un centro de actividad es la frecuencia de referencia que el plan señala para un modo o uso.]"
+  },
+  {
+   "id": "F-R4.5",
+   "clave": "d",
+   "enunciado": "La frecuencia internacional de socorro, seguridad y llamada en radiotelefonía de la VHF marítima (canal 16) es:",
+   "opciones": [
+    "121,5 MHz",
+    "156,525 MHz",
+    "243 MHz",
+    "156,8 MHz"
+   ],
+   "sol": "El canal 16 de la VHF marítima, 156,8 MHz, es la frecuencia internacional de socorro, seguridad y llamada en radiotelefonía (nota 5.226 del Reglamento de Radiocomunicaciones). 156,525 MHz es el canal 70, dedicado a la llamada selectiva digital (DSC), no a la voz. 121,5 MHz es la frecuencia aeronáutica de emergencia (nota 5.200) y 243 MHz se destina a dispositivos de salvamento (nota 5.256). En MF, el equivalente de la voz es 2182 kHz. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)] #no-esta[En el servicio móvil marítimo, las frecuencias internacionales de socorro son: en MF, 2182 kHz para la voz y 2187,5 kHz para la alerta por llamada selectiva digital (DSC); en VHF, el canal 16 (156,8 MHz) para la voz y el canal 70 (156,525 MHz) para la alerta DSC. La aviación usa 121,5 MHz como frecuencia de emergencia y los dispositivos de salvamento, 243 MHz. Ninguna cae dentro de las bandas de aficionados.]"
+  },
+  {
+   "id": "F-R4.6",
+   "clave": "a",
+   "enunciado": "En la Región 1 de la UIT, y por tanto en España, la banda de aficionados de 40 m comprende las frecuencias:",
+   "opciones": [
+    "7000 a 7200 kHz",
+    "7000 a 7300 kHz",
+    "7100 a 7300 kHz",
+    "6900 a 7100 kHz"
+   ],
+   "sol": "La UIT reparte el espectro por Regiones y los límites de 40 m no son iguales en todas. En la Región 1, España incluida, la banda de aficionados va de 7000 a 7200 kHz; el CNAF atribuye 7200–7300 kHz a radiodifusión. En la Región 2 (América) llega hasta 7300 kHz: es la opción más tentadora, pero no vale en España. «7100 a 7300» y «6900 a 7100» son la banda real desplazada: empieza en 7000 kHz y acaba en 7200 kHz. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)] #no-esta[Límites exactos de las bandas de HF en España (Cuadro Nacional de Atribución de Frecuencias): 160 m, 1810–1850 kHz; 80 m, 3500–3800 kHz; 40 m, 7000–7200 kHz; 20 m, 14000–14350 kHz; 15 m, 21000–21450 kHz; 10 m, 28–29,7 MHz. Varían por Regiones de la UIT: en la Región 1 los 7200–7300 kHz son de radiodifusión, mientras que en la Región 2 la banda de 40 m llega hasta 7300 kHz.]"
+  },
+  {
+   "id": "F-R4.7",
+   "clave": "c",
+   "enunciado": "La banda de aficionados de 10 m (28 MHz) comprende, en España, las frecuencias:",
+   "opciones": [
+    "27 a 28 MHz",
+    "28 a 30 MHz",
+    "28 a 29,7 MHz",
+    "29,7 a 30 MHz"
+   ],
+   "sol": "El CNAF atribuye en España a los servicios de aficionados y de aficionados por satélite la banda de 28 a 29,7 MHz. «28 a 30 MHz» se pasa 0,3 MHz por arriba: de 29,7 a 30,005 MHz las atribuciones son de los servicios fijo y móvil. «29,7 a 30 MHz» es justo el tramo siguiente a la banda, fuera de ella. «27 a 28 MHz» queda por debajo: entre 27,5 y 28 MHz las atribuciones son ayudas a la meteorología, fijo y móvil. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)] #no-esta[La banda de 10 m (28 MHz) ocupa en España de 28 a 29,7 MHz, atribuida a aficionados y a aficionados por satélite. Por debajo, 27,5–28 MHz son de ayudas a la meteorología, fijo y móvil; por encima, 29,7–30,005 MHz son de fijo y móvil. Otras bandas de HF: 80 m, 3500–3800 kHz; 40 m, 7000–7200 kHz; 20 m, 14000–14350 kHz; 15 m, 21000– 21450 kHz.]"
+  },
+  {
+   "id": "F-R4.8",
+   "clave": "b",
+   "enunciado": "De las siguientes frecuencias, la que está dentro de una banda atribuida al Servicio de Aficionados en España es:",
+   "opciones": [
+    "3900 kHz",
+    "14250 kHz",
+    "7300 kHz",
+    "14500 kHz"
+   ],
+   "sol": "En España los límites son: 80 m, 3500–3800 kHz; 40 m, 7000–7200 kHz; 20 m, 14000–14350 kHz. Solo 14250 kHz cae dentro de una banda (20 m). 3900 kHz queda por encima de los 3800 kHz de 80 m: de 3800 a 3900 hay otros servicios (entre ellos fijo y móvil). 7300 kHz supera los 7200 kHz de 40 m (valdría en la Región 2, no en España). 14500 kHz está por encima de 14350 kHz, ya en una atribución de fijo y móvil. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)] #no-esta[Para saber si una frecuencia cae en banda de aficionado en España hay que conocer los límites: 80 m, 3500–3800 kHz; 40 m, 7000–7200 kHz; 20 m, 14000–14350 kHz. Justo fuera hay otros servicios: 3800–3900 kHz son de fijo y móvil; 7200–7300 kHz, de radiodifusión; 14350–14990 kHz, de fijo y móvil. El límite de 7300 kHz de la Región 2 no vale en España.]"
+  },
+  {
+   "id": "F-R4.9",
+   "clave": "a",
+   "enunciado": "En la banda de 70 cm, el segmento que el plan de bandas de la IARU para la Región 1 dedica al servicio de satélite es:",
+   "opciones": [
+    "435 a 438 MHz",
+    "430 a 432 MHz",
+    "433 a 435 MHz",
+    "438 a 440 MHz"
+   ],
+   "sol": "El plan de la IARU para la Región 1 reserva al servicio de satélite 435–438 MHz (435–436 y 436– 438 MHz), y la nota 5.282 del Reglamento de Radiocomunicaciones, recogida en el CNAF, admite ahí el servicio de aficionados por satélite. 430–432 MHz es de uso mixto y repetidores. 433–435 MHz incluye la banda ICM 433,050–434,790 MHz (Anexo I, 3.4, de la Orden) y segmentos de repetidores. 438–440 MHz es de «todos los modos» y salidas de repetidores. #vease[(Véase tema R6, introducción del capítulo (reparto de cada banda en segmentos por modos, frecuencias de llamada).)] #no-esta[El plan de bandas de la IARU para la Región 1 reserva al servicio de satélite: en 2 m, 145,806– 146,000 MHz (exclusivo); en 70 cm, 435–438 MHz; y en 23 cm, 1260–1270 MHz. El Reglamento de Radiocomunicaciones (nota 5.282) admite el servicio de aficionados por satélite en 435–438, 1260–1270 y 2400–2450 MHz, entre otras bandas.]"
+  },
+  {
+   "id": "F-R4.10",
+   "clave": "d",
+   "enunciado": "En la banda de 2 m, el segmento que el plan de bandas de la IARU para la Región 1 reserva en exclusiva a los satélites es:",
+   "opciones": [
+    "144,400 a 144,490 MHz",
+    "145,575 a 145,7935 MHz",
+    "144,150 a 144,400 MHz",
+    "145,806 a 146,000 MHz"
+   ],
+   "sol": "El plan de la IARU para la Región 1 marca 145,806–146,000 MHz como «satélite, exclusivo»: es el último tramo de la banda de 2 m. 144,400–144,490 MHz es exclusivo de balizas; 145,575–145,7935 MHz, de salidas de repetidores; y 144,150–144,400 MHz, de SSB, telegrafía y modos digitales de señal débil. Hay otros tramos pequeños de comunicación espacial, pero solo el último es exclusivo de satélites. #vease[(Véase tema R6, introducción del capítulo (reparto de cada banda en segmentos por modos, frecuencias de llamada).)] #no-esta[En 2 m, el plan de bandas de la IARU para la Región 1 reparte así la parte alta: salidas de repetidores, 145,575–145,7935 MHz; comunicación espacial, 145,794–145,806 MHz; y satélites en exclusiva, 145,806–146,000 MHz, hasta el final de la banda. Las balizas ocupan 144,400–144,490 MHz, y en 144,000–144,025 MHz solo se admite enlace descendente de satélite.]"
+  },
+  {
+   "id": "F-R4.11",
+   "clave": "b",
+   "enunciado": "Según la Orden IET/1311/2013, las emisiones del Servicio de Aficionados por Satélite quedan restringidas a:",
+   "opciones": [
+    "cualquier banda atribuida al Servicio de Aficionados",
+    "las bandas atribuidas al efecto en el CNAF",
+    "las bandas de VHF y UHF únicamente",
+    "las bandas que requieren autorización especial de la SETSI"
+   ],
+   "sol": "El art. 5.3 de la Orden habilita para emitir en las bandas del Servicio de Aficionados y del Servicio de Aficionados por Satélite, pero las emisiones de este último quedan restringidas a las bandas atribuidas al efecto en el CNAF. No toda banda de aficionado admite satélites: 80 m (3500–3800 kHz) no, mientras que 7000–7100 kHz, 14000–14250 kHz o 144–146 MHz sí; por eso «cualquier banda» es falso, y «VHF y UHF únicamente» también, pues el CNAF atribuye a satélite tramos de HF. La autorización especial (art. 16) es otra cosa: bandas secundarias con riesgo de interferencia. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)] #no-esta[Según el art. 5.3 de la Orden IET/1311/2013, la autorización de radioaficionado habilita para emitir en las bandas atribuidas al Servicio de Aficionados y al Servicio de Aficionados por Satélite, pero las emisiones de este último quedan restringidas a las bandas atribuidas al efecto en el CNAF. No toda banda de aficionado admite satélites: 80 m no; 7000–7100 kHz, 14000–14250 kHz y 144–146 MHz sí.]"
+  },
+  {
+   "id": "F-R4.12",
+   "clave": "a",
+   "enunciado": "La banda de 2 m atribuida al Servicio de Aficionados en España (Región 1) comprende:",
+   "opciones": [
+    "144 a 146 MHz",
+    "144 a 148 MHz",
+    "146 a 148 MHz",
+    "140 a 144 MHz"
+   ],
+   "sol": "El Anexo I de la Orden (apartado 3.1, tabla de potencias) recoge la banda de 2 m como 144 a 146 MHz, y el CNAF la atribuye en España a aficionados y aficionados por satélite. Los 146–148 MHz son de aficionados en las Regiones 2 y 3, pero en la Región 1 son de fijo y móvil: por eso «144 a 148» es el error típico. «146 a 148» no incluye ni un solo megahercio de la banda, y «140 a 144» termina justo donde ella empieza. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)]"
+  },
+  {
+   "id": "F-R4.13",
+   "clave": "c",
+   "enunciado": "La banda de 70 cm atribuida al Servicio de Aficionados en España es:",
+   "opciones": [
+    "420 a 450 MHz",
+    "440 a 450 MHz",
+    "430 a 440 MHz",
+    "433 a 435 MHz"
+   ],
+   "sol": "El Anexo I de la Orden (apartado 3.1) recoge la banda de 70 cm como 430 a 440 MHz, y el CNAF la atribuye así en España. «420 a 450» es la banda de otros países: la nota 5.270 añade 420–430 y 440–450 MHz, a título secundario, en Australia, Estados Unidos, Jamaica y Filipinas. «440 a 450» queda fuera de la banda. «433 a 435» son solo 2 MHz del interior, donde además está la banda ICM 433,050–434,790 MHz. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)]"
+  },
+  {
+   "id": "F-R4.14",
+   "clave": "d",
+   "enunciado": "La banda de 23 cm atribuida al Servicio de Aficionados en España comprende:",
+   "opciones": [
+    "1200 a 1400 MHz",
+    "1300 a 1400 MHz",
+    "1000 a 1240 MHz",
+    "1240 a 1300 MHz"
+   ],
+   "sol": "El Anexo I de la Orden (apartado 3.1) recoge la banda de 23 cm como 1240 a 1300 MHz, y el CNAF la atribuye a los aficionados a título secundario. «1200 a 1400» es un rango demasiado ancho: la banda solo mide 60 MHz. «1300 a 1400» empieza donde ella acaba, y «1000 a 1240» termina donde ella empieza: ambas quedan fuera. Como es secundaria, los aficionados no deben causar interferencia a los servicios primarios ni reclamar protección frente a ellos. #vease[(Véase tema R4, sección «Bandas atribuidas y comunicaciones de catástrofe».)]"
+  },
+  {
+   "id": "R1.1",
+   "clave": "b",
+   "enunciado": "En el alfabeto fonético internacional, la letra «S» se deletrea:",
+   "opciones": [
+    "Santiago",
+    "Sierra",
+    "Sugar",
+    "Sábado"
+   ],
+   "sol": "«S» es _Sierra_. «Santiago» es del alfabeto español antiguo y «Sugar» del militar anglosajón de los años 40."
+  },
+  {
+   "id": "R1.2",
+   "clave": "c",
+   "enunciado": "En el alfabeto fonético internacional, la letra «Q» se deletrea:",
+   "opciones": [
+    "Quintal",
+    "Queen",
+    "Quebec",
+    "Quito"
+   ],
+   "sol": "«Q» es _Quebec_; «Queen» es el distractor clásico del alfabeto británico antiguo."
+  },
+  {
+   "id": "R1.3",
+   "clave": "b",
+   "enunciado": "La palabra de deletreo «Whiskey» corresponde a la letra:",
+   "opciones": [
+    "V",
+    "W",
+    "X",
+    "K"
+   ],
+   "sol": "_Whiskey_ deletrea la W; la V es _Victor_ y la X, _X-ray_."
+  },
+  {
+   "id": "R1.4",
+   "clave": "c",
+   "enunciado": "El prefijo `EA` de un distintivo de llamada español se deletrea:",
+   "opciones": [
+    "Eco Antena",
+    "España América",
+    "Echo Alfa",
+    "Echo Able"
+   ],
+   "sol": "`EA` = _Echo Alfa_ (tabla #ref(<r1-cuadro-alfabeto>, supplement: none)); grafías oficiales sin hache final ni _ph_."
+  },
+  {
+   "id": "R1.5",
+   "clave": "d",
+   "enunciado": "En el alfabeto fonético internacional, la letra «L» se deletrea:",
+   "opciones": [
+    "Londres",
+    "Libra",
+    "Luis",
+    "Lima"
+   ],
+   "sol": "«L» es _Lima_; «Luis» es del alfabeto español antiguo."
+  },
+  {
+   "id": "R1.6",
+   "clave": "a",
+   "enunciado": "El sufijo `BOJ` de un distintivo de llamada se deletrea:",
+   "opciones": [
+    "Bravo Oscar Juliett",
+    "Baker Oboe Jig",
+    "Bravo Omega Julio",
+    "Beta Oscar Java"
+   ],
+   "sol": "`BOJ` = _Bravo Oscar Juliett_; «Baker» y «Oboe» son del alfabeto de 1943."
+  },
+  {
+   "id": "R1.7",
+   "clave": "c",
+   "enunciado": "En el alfabeto fonético internacional, la letra «M» se identifica con la palabra:",
+   "opciones": [
+    "Mario",
+    "Madrid",
+    "Mike",
+    "Metro"
+   ],
+   "sol": "«M» es _Mike_. Mario, Madrid y Metro pertenecen a alfabetos nacionales antiguos, que no se emplean en el servicio de aficionados."
+  },
+  {
+   "id": "R1.8",
+   "clave": "a",
+   "enunciado": "En el alfabeto fonético internacional, la letra «V» se corresponde con la palabra:",
+   "opciones": [
+    "Victor",
+    "Valencia",
+    "Vasco",
+    "Vector"
+   ],
+   "sol": "«V» es _Victor_, sin tilde y pronunciado a la inglesa. Es además la letra que se transmite repetida para ajustar la recepción (`QSV`), por su ritmo inconfundible en Morse."
+  },
+  {
+   "id": "R1.9",
+   "clave": "b",
+   "enunciado": "En el deletreo internacional, la cifra «9» se identifica con la palabra:",
+   "opciones": [
+    "Nono",
+    "Nine",
+    "Novem",
+    "Ene"
+   ],
+   "sol": "En el deletreo del banco oficial, el 9 es _Nine_ (en la práctica aeronáutica se pronuncia «niner» para no confundirlo con el alemán _nein_)."
+  },
+  {
+   "id": "R1.10",
+   "clave": "d",
+   "enunciado": "El sufijo `CID` se deletrea:",
+   "opciones": [
+    "Charlie Italia Delta",
+    "Cid India Delta",
+    "Charlie India Dog",
+    "Charlie India Delta"
+   ],
+   "sol": "`CID` = _Charlie India Delta_; «Italia» y «Dog» pertenecen a otros alfabetos."
+  },
+  {
+   "id": "R1.11",
+   "clave": "a",
+   "enunciado": "El sufijo `TOP` se deletrea:",
+   "opciones": [
+    "Tango Oscar Papa",
+    "Tango Omega Portugal",
+    "Tres Oscar Papa",
+    "Tango Oscar Perú"
+   ],
+   "sol": "`TOP` = _Tango Oscar Papa_."
+  },
+  {
+   "id": "R1.12",
+   "clave": "c",
+   "enunciado": "El distintivo `ED5ZAA` se deletrea:",
+   "opciones": [
+    "Eco Delta Five Zeta Alfa Alfa",
+    "España Delta Five Zulu Alfa Alfa",
+    "Echo Delta Five Zulu Alfa Alfa",
+    "Echo Dog Five Zebra Able Able"
+   ],
+   "sol": "`ED5ZAA` = _Echo Delta Five Zulu Alfa Alfa_: las letras con el alfabeto internacional y la cifra con su nombre inglés (_Five_). La a dice «Eco» y «Zeta», que no son palabras del alfabeto; la b pone «España» por la E; la d mezcla palabras del alfabeto antiguo (_Dog_, _Able_, _Zebra_)."
+  },
+  {
+   "id": "R1.13",
+   "clave": "b",
+   "enunciado": "En el alfabeto fonético internacional, la letra «J» se deletrea:",
+   "opciones": [
+    "Jupiter",
+    "Juliett",
+    "Jamaica",
+    "Jaguar"
+   ],
+   "sol": "Se escribe con doble t final, _Juliett_, precisamente para que los francófonos no la pronuncien muda. Las otras tres no pertenecen al alfabeto de la OACI."
+  },
+  {
+   "id": "R1.14",
+   "clave": "d",
+   "enunciado": "En el alfabeto fonético internacional, la letra «G» se deletrea:",
+   "opciones": [
+    "Gamma",
+    "Granada",
+    "Gustavo",
+    "Golf"
+   ],
+   "sol": "_Golf_. Gustavo pertenece al antiguo alfabeto español, que ya no se emplea en el servicio de aficionados."
+  },
+  {
+   "id": "R1.15",
+   "clave": "a",
+   "enunciado": "En el alfabeto fonético internacional, la letra «Y» se deletrea:",
+   "opciones": [
+    "Yankee",
+    "Yolanda",
+    "Yucatán",
+    "Yeso"
+   ],
+   "sol": "_Yankee_. Aparece a menudo en los sufijos españoles, así que conviene tenerla automatizada."
+  },
+  {
+   "id": "R1.16",
+   "clave": "c",
+   "enunciado": "La palabra de deletreo «Kilo» corresponde a la letra:",
+   "opciones": [
+    "C",
+    "Q",
+    "K",
+    "G"
+   ],
+   "sol": "_Kilo_ es la K. Ojo con el reflejo de asociarla al prefijo de las unidades: aquí es simplemente una palabra elegida por sonar distinta de todas las demás."
+  },
+  {
+   "id": "R1.17",
+   "clave": "b",
+   "enunciado": "En el deletreo internacional, la cifra «0» se identifica con la palabra:",
+   "opciones": [
+    "Nada",
+    "Zero",
+    "Cero",
+    "Oscar"
+   ],
+   "sol": "Las cifras se dicen en inglés: _Zero_. Y no debe confundirse con _Oscar_, que es la letra O — la confusión entre el cero y la o es justamente lo que el deletreo evita."
+  },
+  {
+   "id": "R1.18",
+   "clave": "d",
+   "enunciado": "En el deletreo internacional, la cifra «5» se identifica con la palabra:",
+   "opciones": [
+    "Cinco",
+    "Fife",
+    "Penta",
+    "Five"
+   ],
+   "sol": "_Five_. La variante _Fife_ pertenece a la fonética aeronáutica, pensada para radios muy ruidosas, pero no es la del servicio de aficionados."
+  },
+  {
+   "id": "R1.19",
+   "clave": "a",
+   "enunciado": "En el alfabeto fonético internacional, la letra «X» se deletrea:",
+   "opciones": [
+    "X-ray",
+    "Xilófono",
+    "Extra",
+    "Xenón"
+   ],
+   "sol": "_X-ray_, y se pronuncia «ecs-rey». Es de las que más se atragantan al principio porque no se parece en nada a la letra en castellano."
+  },
+  {
+   "id": "R1.20",
+   "clave": "c",
+   "enunciado": "En el alfabeto fonético internacional, la letra «P» se deletrea:",
+   "opciones": [
+    "Pedro",
+    "Peter",
+    "Papa",
+    "Portugal"
+   ],
+   "sol": "_Papa_, con acento en la última sílaba a la francesa («pa-PÁ»). Pedro y Peter pertenecen a alfabetos nacionales antiguos."
+  },
+  {
+   "id": "R1.21",
+   "clave": "b",
+   "enunciado": "El distintivo de llamada `EA4XYZ` se deletrea:",
+   "opciones": [
+    "España América Four Equis Yolanda Zaragoza",
+    "Echo Alfa Four X-ray Yankee Zulu",
+    "Echo Alfa Four X-ray Yankee Zeta",
+    "Echo Alpha Four Xilófono Yankee Zeta"
+   ],
+   "sol": "Las letras, con las palabras oficiales del alfabeto internacional —_Echo_, con hache, no «Eco»; _Alfa_, no «Alpha»— y la cifra con su nombre inglés, _Four_, como en todo el deletreo internacional. La opción c acierta hasta el final, pero «Zeta» no es palabra del alfabeto (la Z es _Zulu_); la d mezcla «Alpha», «Xilófono» y «Zeta», y la a usa nombres de letras y ciudades en castellano."
+  },
+  {
+   "id": "R1.22",
+   "clave": "d",
+   "enunciado": "En el alfabeto fonético internacional, la letra «H» se deletrea:",
+   "opciones": [
+    "Habana",
+    "Hotel Alfa",
+    "Historia",
+    "Hotel"
+   ],
+   "sol": "_Hotel_, una sola palabra por letra. Encadenar dos —«Hotel Alfa»— sería deletrear HA, no H."
+  },
+  {
+   "id": "R1.23",
+   "clave": "a",
+   "enunciado": "El alfabeto fonético internacional se emplea para:",
+   "opciones": [
+    "deletrear letras y cifras evitando confusiones en condiciones difíciles",
+    "cifrar el contenido de los mensajes",
+    "abreviar los mensajes y ganar tiempo",
+    "identificar el país de procedencia de la estación"
+   ],
+   "sol": "Con ruido, desvanecimiento o acentos distintos, una B y una P suenan igual; _Bravo_ y _Papa_, no. No cifra nada —de hecho es público— ni abrevia: al contrario, alarga."
+  },
+  {
+   "id": "R1.24",
+   "clave": "c",
+   "enunciado": "La palabra de deletreo «Foxtrot» corresponde a la letra:",
+   "opciones": [
+    "T",
+    "X",
+    "F",
+    "V"
+   ],
+   "sol": "_Foxtrot_ es la F. Conviene fijarse en la palabra entera y no en su primera sílaba, que despista hacia la X."
+  },
+  {
+   "id": "R1.25",
+   "clave": "c",
+   "enunciado": "En el alfabeto fonético internacional, la letra «A» se deletrea:",
+   "opciones": [
+    "Antonio",
+    "Able",
+    "Alfa",
+    "América"
+   ],
+   "sol": "_Alfa_, escrito así y no «Alpha»: la grafía oficial evita el grupo _ph_, que no todos los idiomas pronuncian igual. _Able_ es del alfabeto anglosajón de los años cuarenta."
+  },
+  {
+   "id": "R1.26",
+   "clave": "b",
+   "enunciado": "En el alfabeto fonético internacional, la letra «B» se deletrea:",
+   "opciones": [
+    "Barcelona",
+    "Bravo",
+    "Baker",
+    "Bilbao"
+   ],
+   "sol": "_Bravo_. _Baker_ pertenece al alfabeto de 1943 y aún se oye en películas antiguas, pero no es el vigente."
+  },
+  {
+   "id": "R1.27",
+   "clave": "d",
+   "enunciado": "En el alfabeto fonético internacional, la letra «C» se deletrea:",
+   "opciones": [
+    "Carmen",
+    "Canadá",
+    "Coca",
+    "Charlie"
+   ],
+   "sol": "_Charlie_. _Coca_ pertenece al alfabeto aeronáutico de 1951, sustituido en 1956 por el actual y hoy en desuso; el alfabeto de la OACI adoptado por el servicio de aficionados usa Charlie."
+  },
+  {
+   "id": "R1.28",
+   "clave": "a",
+   "enunciado": "En el alfabeto fonético internacional, la letra «D» se deletrea:",
+   "opciones": [
+    "Delta",
+    "Dolores",
+    "Dog",
+    "Dinamarca"
+   ],
+   "sol": "_Delta_, una de las más fáciles de recordar por coincidir con la letra griega. _Dog_ es del alfabeto anglosajón antiguo."
+  },
+  {
+   "id": "R1.29",
+   "clave": "c",
+   "enunciado": "En el alfabeto fonético internacional, la letra «E» se deletrea:",
+   "opciones": [
+    "Enrique",
+    "Easy",
+    "Echo",
+    "España"
+   ],
+   "sol": "_Echo_, con hache intercalada. Ojo con confundirla con _Eco_ a la española: la grafía oficial es la inglesa."
+  },
+  {
+   "id": "R1.30",
+   "clave": "b",
+   "enunciado": "En el alfabeto fonético internacional, la letra «I» se deletrea:",
+   "opciones": [
+    "Italia",
+    "India",
+    "Inés",
+    "Item"
+   ],
+   "sol": "_India_. Es de las pocas que coinciden con una palabra castellana reconocible, lo que la hace cómoda pero también fácil de sustituir por «Italia» sin darse cuenta."
+  },
+  {
+   "id": "R1.31",
+   "clave": "d",
+   "enunciado": "En el alfabeto fonético internacional, la letra «N» se deletrea:",
+   "opciones": [
+    "Navarra",
+    "Nancy",
+    "Nueva York",
+    "November"
+   ],
+   "sol": "_November_. Junto con _Mike_, es de las que más se atragantan porque no se parecen a nada en castellano."
+  },
+  {
+   "id": "R1.32",
+   "clave": "b",
+   "enunciado": "En el alfabeto fonético internacional, la letra «O» se deletrea:",
+   "opciones": [
+    "Oviedo",
+    "Oscar",
+    "Oboe",
+    "Ontario"
+   ],
+   "sol": "_Oscar_. Es además la letra que se confunde con el cero, y por eso el deletreo insiste: la letra es _Oscar_ y la cifra, _Zero_."
+  },
+  {
+   "id": "R1.33",
+   "clave": "c",
+   "enunciado": "En el alfabeto fonético internacional, la letra «R» se deletrea:",
+   "opciones": [
+    "Ramón",
+    "Roger",
+    "Romeo",
+    "Roma"
+   ],
+   "sol": "_Romeo_. _Roger_, que también empieza por R, significa «recibido» en fonía: son cosas distintas y conviene no mezclarlas."
+  },
+  {
+   "id": "R1.34",
+   "clave": "a",
+   "enunciado": "En el alfabeto fonético internacional, la letra «T» se deletrea:",
+   "opciones": [
+    "Tango",
+    "Tarragona",
+    "Toledo",
+    "Tare"
+   ],
+   "sol": "_Tango_. Aparece con frecuencia en los sufijos españoles, así que conviene tenerla automatizada."
+  },
+  {
+   "id": "R1.35",
+   "clave": "c",
+   "enunciado": "En el alfabeto fonético internacional, la letra «U» se deletrea:",
+   "opciones": [
+    "Ulises",
+    "Unión",
+    "Uniform",
+    "Uncle"
+   ],
+   "sol": "_Uniform_, sin la e final del castellano. _Uncle_ es del alfabeto anglosajón antiguo."
+  },
+  {
+   "id": "R1.36",
+   "clave": "d",
+   "enunciado": "En el alfabeto fonético internacional, la letra «Z» se deletrea:",
+   "opciones": [
+    "Zaragoza",
+    "Zebra",
+    "Zeta",
+    "Zulu"
+   ],
+   "sol": "_Zulú_. _Zebra_ pertenece al alfabeto de 1943; conviene recordar que la Z cierra el alfabeto y da nombre al huso horario de referencia, la hora _zulú_ o UTC."
+  },
+  {
+   "id": "R1.37",
+   "clave": "b",
+   "enunciado": "En el deletreo internacional, la cifra «7» se identifica con la palabra:",
+   "opciones": [
+    "Siete",
+    "Seven",
+    "Sierra",
+    "Severo"
+   ],
+   "sol": "_Seven_. Las cifras se dicen en inglés; _Sierra_ es la letra S y _Severo_ no pertenece a ningún alfabeto normalizado."
+  },
+  {
+   "id": "R1.38",
+   "clave": "c",
+   "enunciado": "En el deletreo internacional, la cifra «3» se identifica con la palabra:",
+   "opciones": [
+    "Tres",
+    "Tango",
+    "Three",
+    "Trío"
+   ],
+   "sol": "_Three_. El distractor _Tango_ juega con que la palabra empieza por T, pero esa es una letra, no una cifra."
+  },
+  {
+   "id": "R1.39",
+   "clave": "d",
+   "enunciado": "En el deletreo internacional, la cifra «8» se identifica con la palabra:",
+   "opciones": [
+    "Ocho",
+    "Octavo",
+    "Oscar",
+    "Eight"
+   ],
+   "sol": "_Eight_. El distractor _Oscar_ aprovecha el parecido entre «ocho» y la letra O en castellano."
+  },
+  {
+   "id": "R1.40",
+   "clave": "b",
+   "enunciado": "El distintivo `EC9ZUL` se deletrea:",
+   "opciones": [
+    "España Carmen Nine Zaragoza Ulises Lima",
+    "Echo Charlie Nine Zulu Uniform Lima",
+    "Echo Coca Nine Zebra Uncle Lima",
+    "Eco Charlie Nine Zeta Unión Luis"
+   ],
+   "sol": "Letra por letra con el alfabeto internacional y la cifra con su nombre inglés: _Echo Charlie Nine Zulu_ _Uniform Lima_. Las demás mezclan palabras de alfabetos nacionales o antiguos (_Carmen_, _Coca_, _Uncle_, _Zebra_, _Luis_…) o escriben «Eco» y «Zeta»."
+  },
+  {
+   "id": "R2.1",
+   "clave": "a",
+   "enunciado": "El grupo `QTH` significa:",
+   "opciones": [
+    "mi posición es…",
+    "¿quién me llama?",
+    "cambie de frecuencia",
+    "acuse de recibo"
+   ],
+   "sol": "`QTH`: «mi posición es…»."
+  },
+  {
+   "id": "R2.2",
+   "clave": "b",
+   "enunciado": "El grupo `QRM` indica:",
+   "opciones": [
+    "parásitos atmosféricos",
+    "interferencia producida por otras estaciones",
+    "desvanecimiento de la señal",
+    "emisión con baja potencia"
+   ],
+   "sol": "`QRM`: interferencia de otras estaciones (origen humano); no confundir con `QRN`."
+  },
+  {
+   "id": "R2.3",
+   "clave": "a",
+   "enunciado": "El grupo `QRN` indica:",
+   "opciones": [
+    "parásitos atmosféricos",
+    "interferencia producida por otras estaciones",
+    "ruido interno del receptor",
+    "aumento de potencia"
+   ],
+   "sol": "`QRN`: parásitos atmosféricos, ruido natural (tormentas). La pareja QRM/QRN es de lo más preguntado."
+  },
+  {
+   "id": "R2.4",
+   "clave": "c",
+   "enunciado": "Para indicar a la estación corresponsal que cambie de frecuencia se emplea el grupo:",
+   "opciones": [
+    "`QRT`",
+    "`QRX`",
+    "`QSY`",
+    "`QSL`"
+   ],
+   "sol": "`QSY`: «cambie de frecuencia»; `QRT` es cesar y `QRX` esperar."
+  },
+  {
+   "id": "R2.5",
+   "clave": "b",
+   "enunciado": "El grupo `QRZ` significa:",
+   "opciones": [
+    "llamada general a todas las estaciones",
+    "¿quién me llama?",
+    "mi nombre es…",
+    "la frecuencia está ocupada"
+   ],
+   "sol": "`QRZ`: «¿quién me llama?»; la llamada general es `CQ`, que no es un grupo Q."
+  },
+  {
+   "id": "R2.6",
+   "clave": "c",
+   "enunciado": "El grupo `QSL` significa:",
+   "opciones": [
+    "señal fuerte y clara",
+    "espere",
+    "acuse de recibo",
+    "fin de la transmisión"
+   ],
+   "sol": "`QSL`: acuse de recibo — de ahí las tarjetas QSL."
+  },
+  {
+   "id": "R2.7",
+   "clave": "b",
+   "enunciado": "El grupo `QRP` significa:",
+   "opciones": [
+    "aumente la potencia",
+    "disminuya la potencia",
+    "estación portátil",
+    "transmita más despacio"
+   ],
+   "sol": "`QRP`: «disminuya la potencia»; por extensión, operar con baja potencia. Su opuesto es `QRO`."
+  },
+  {
+   "id": "R2.8",
+   "clave": "d",
+   "enunciado": "El grupo `QSO` designa:",
+   "opciones": [
+    "el acuse de recibo de una tarjeta",
+    "una interferencia intermitente",
+    "un cambio de operador en la estación",
+    "un comunicado entre dos estaciones"
+   ],
+   "sol": "`QSO`: comunicado entre dos estaciones."
+  },
+  {
+   "id": "R2.9",
+   "clave": "a",
+   "enunciado": "El grupo del código Q que indica que el operador volverá a llamar más tarde es:",
+   "opciones": [
+    "`QRX`",
+    "`QRT`",
+    "`QSY`",
+    "`QRK`"
+   ],
+   "sol": "`QRX`: «espere, volveré a llamar más tarde»; `QRK` pregunta por la inteligibilidad."
+  },
+  {
+   "id": "R2.10",
+   "clave": "b",
+   "enunciado": "El grupo del código Q que indica que debe aumentar la potencia es:",
+   "opciones": [
+    "`QRP`",
+    "`QRO`",
+    "`QRM`",
+    "`QSB`"
+   ],
+   "sol": "`QRO`: «aumente la potencia» (la pareja de `QRP`)."
+  },
+  {
+   "id": "R2.11",
+   "clave": "d",
+   "enunciado": "El grupo `QRT` significa:",
+   "opciones": [
+    "transmita más rápido",
+    "espere un momento",
+    "aumente la potencia",
+    "cese la transmisión"
+   ],
+   "sol": "`QRT`: «cese la transmisión»."
+  },
+  {
+   "id": "R2.12",
+   "clave": "a",
+   "enunciado": "El grupo del código Q que indica «su frecuencia varía» es:",
+   "opciones": [
+    "`QRH`",
+    "`QRG`",
+    "`QSY`",
+    "`QTR`"
+   ],
+   "sol": "`QRH`: «su frecuencia varía» (deriva). `QRG` pregunta por la frecuencia exacta: no confundirlas."
+  },
+  {
+   "id": "R2.13",
+   "clave": "c",
+   "enunciado": "El grupo `QSB` indica que la señal tiene:",
+   "opciones": [
+    "interferencias de otras estaciones",
+    "exceso de potencia",
+    "desvanecimiento (_fading_)",
+    "distorsión de audio"
+   ],
+   "sol": "`QSB`: desvanecimiento o _fading_ de la señal."
+  },
+  {
+   "id": "R2.14",
+   "clave": "c",
+   "enunciado": "El grupo `QSA` se refiere a:",
+   "opciones": [
+    "la distancia que separa a las dos estaciones",
+    "el tono de la señal recibida",
+    "la intensidad con que se reciben las señales",
+    "la hora exacta"
+   ],
+   "sol": "`QSA` se responde con una cifra de 1 a 5, de apenas perceptible a muy buena. Es la _intensidad_; la legibilidad es `QRK` y el tono, `QRI`."
+  },
+  {
+   "id": "R2.15",
+   "clave": "a",
+   "enunciado": "El grupo del código Q con el que se pide a la estación corresponsal que transmita más de prisa es:",
+   "opciones": [
+    "`QRQ`",
+    "`QRS`",
+    "`QRO`",
+    "`QRV`"
+   ],
+   "sol": "`QRQ` es «más de prisa» y `QRS`, «más despacio»: van en pareja y se confunden con facilidad. `QRO` es subir potencia y `QRV`, estar preparado."
+  },
+  {
+   "id": "R2.16",
+   "clave": "d",
+   "enunciado": "El grupo `QSP` significa:",
+   "opciones": [
+    "aumente la potencia de emisión",
+    "cambie a la frecuencia indicada",
+    "su señal presenta desvanecimiento",
+    "retransmitir gratuitamente a la estación indicada"
+   ],
+   "sol": "Es el grupo de la retransmisión de mensajes: «¿quiere retransmitir gratuitamente a …?». La gratuidad no es un detalle menor — el servicio de aficionados no puede tener fines lucrativos."
+  },
+  {
+   "id": "R2.17",
+   "clave": "b",
+   "enunciado": "El grupo `QTC` se emplea para indicar:",
+   "opciones": [
+    "la potencia con que se transmite",
+    "que se tienen mensajes para transmitir",
+    "que se cesa la transmisión",
+    "el emplazamiento de la estación"
+   ],
+   "sol": "«¿Cuántos mensajes tiene para transmitir?» o «tengo $n$ mensajes». Cesar la transmisión es `QRT` y el emplazamiento, `QTH`."
+  },
+  {
+   "id": "R2.18",
+   "clave": "c",
+   "enunciado": "El grupo `QRB` se refiere a:",
+   "opciones": [
+    "el número de mensajes pendientes",
+    "la banda de frecuencias empleada",
+    "la distancia que separa a las dos estaciones",
+    "la calidad del tono de la emisión"
+   ],
+   "sol": "«¿A qué distancia se encuentra de mi estación?». De ahí que en concursos y en VHF se hable del _QRB_ de un contacto para referirse a los kilómetros cubiertos."
+  },
+  {
+   "id": "R2.19",
+   "clave": "a",
+   "enunciado": "El grupo `QSK` indica que:",
+   "opciones": [
+    "se puede oír al corresponsal entre las propias señales",
+    "la frecuencia está ocupada",
+    "se va a cerrar la estación",
+    "las señales se reciben con interferencias"
+   ],
+   "sol": "Es la escucha entre impulsos de telegrafía, lo que en inglés se llama _full break-in_: permite que el corresponsal interrumpa sin esperar al final de la transmisión. La frecuencia ocupada es `QRL`."
+  },
+  {
+   "id": "R2.20",
+   "clave": "d",
+   "enunciado": "El grupo `QSM` se emplea para pedir que:",
+   "opciones": [
+    "se reduzca la velocidad de transmisión",
+    "se cambie de frecuencia",
+    "se confirme la recepción por tarjeta",
+    "se repita el último mensaje transmitido"
+   ],
+   "sol": "Reducir la velocidad es `QRS`, cambiar de frecuencia `QSY` y confirmar por tarjeta `QSL`."
+  },
+  {
+   "id": "R2.21",
+   "clave": "b",
+   "enunciado": "El grupo `QSN` se utiliza para preguntar:",
+   "opciones": [
+    "cuántos mensajes quedan pendientes",
+    "si se ha escuchado a una estación en una frecuencia determinada",
+    "cuál es la hora exacta",
+    "a qué distancia se encuentra la estación"
+   ],
+   "sol": "«¿Me ha oído usted, o ha oído a …, en … kHz?». Sirve para comprobar si una emisión llega a un punto concreto del que no se recibe respuesta directa."
+  },
+  {
+   "id": "R2.22",
+   "clave": "c",
+   "enunciado": "El grupo `QSD` indica que:",
+   "opciones": [
+    "la estación va a cerrar",
+    "se transmite con potencia reducida",
+    "la manipulación es defectuosa",
+    "existe desvanecimiento en la señal"
+   ],
+   "sol": "Avisa de que los puntos y rayas llegan mal formados — manipulador sucio, velocidad irregular o chasquidos. El desvanecimiento es `QSB`."
+  },
+  {
+   "id": "R2.23",
+   "clave": "a",
+   "enunciado": "El grupo `QSV` se emplea para pedir que se transmita:",
+   "opciones": [
+    "una serie de letras V para ajustar la recepción",
+    "el distintivo de llamada tres veces",
+    "un mensaje de prueba de cinco palabras",
+    "la señal de socorro"
+   ],
+   "sol": "La V en Morse (· · · −) es inconfundible y de ritmo muy marcado, ideal para ajustar la sintonía y el filtro del receptor."
+  },
+  {
+   "id": "R2.24",
+   "clave": "d",
+   "enunciado": "El grupo `QRI` se refiere a:",
+   "opciones": [
+    "la intensidad de las señales",
+    "la legibilidad de las señales",
+    "la frecuencia exacta de la emisión",
+    "el tono de la transmisión"
+   ],
+   "sol": "Los tres grupos de la valoración de una señal en telegrafía se reparten así: `QRK` legibilidad, `QSA` intensidad y `QRI` tono — los mismos conceptos que el informe RST."
+  },
+  {
+   "id": "R2.25",
+   "clave": "b",
+   "enunciado": "El grupo `QRW` se emplea para:",
+   "opciones": [
+    "pedir que se aumente la velocidad de manipulación",
+    "avisar a una tercera estación de que se la llama en una frecuencia",
+    "preguntar por la posición de la estación",
+    "indicar que se va a permanecer a la escucha"
+   ],
+   "sol": "«¿Quiere avisar a … de que le llamo en … kHz?». Se usa cuando no se consigue contacto directo y hay una estación intermedia que sí oye a las dos."
+  },
+  {
+   "id": "R2.26",
+   "clave": "c",
+   "enunciado": "El grupo `QTA` se utiliza para indicar que:",
+   "opciones": [
+    "se cambia de antena",
+    "se transmite en una frecuencia distinta",
+    "se anule el mensaje indicado",
+    "la estación queda a la escucha"
+   ],
+   "sol": "«Anule el mensaje número …». Sirve para retirar un mensaje ya transmitido que ha dejado de ser válido, algo especialmente importante en tráfico de emergencia."
+  },
+  {
+   "id": "R2.27",
+   "clave": "b",
+   "enunciado": "El grupo del código Q con el que una estación comunica su posición o localidad es:",
+   "opciones": [
+    "`QTR`",
+    "`QTH`",
+    "`QRA`",
+    "`QTC`"
+   ],
+   "sol": "`QTH` es el emplazamiento. `QTR` es la hora, `QRA` el nombre de la estación y `QTC` los mensajes pendientes: los cuatro se confunden con facilidad porque todos «informan» de algo."
+  },
+  {
+   "id": "R2.28",
+   "clave": "d",
+   "enunciado": "Para indicar que se están sufriendo interferencias producidas por otras estaciones se emplea el grupo:",
+   "opciones": [
+    "`QRN`",
+    "`QSB`",
+    "`QRL`",
+    "`QRM`"
+   ],
+   "sol": "`QRM` es la interferencia de origen humano — otras estaciones, equipos eléctricos—. La pareja con `QRN`, que es ruido natural, es de lo más preguntado del tema."
+  },
+  {
+   "id": "R2.29",
+   "clave": "a",
+   "enunciado": "Para indicar que se están sufriendo parásitos atmosféricos se emplea el grupo:",
+   "opciones": [
+    "`QRN`",
+    "`QRM`",
+    "`QSB`",
+    "`QRK`"
+   ],
+   "sol": "`QRN` son los parásitos atmosféricos: tormentas, estática. Regla para no confundirlos: la _N_ de _natural_ frente a la _M_ de _man made_."
+  },
+  {
+   "id": "R2.30",
+   "clave": "c",
+   "enunciado": "El grupo que se emplea para acusar recibo de una comunicación es:",
+   "opciones": [
+    "`QSO`",
+    "`QSY`",
+    "`QSL`",
+    "`QRZ`"
+   ],
+   "sol": "`QSL` es el acuse de recibo, y de ahí que la tarjeta que confirma un contacto se llame precisamente tarjeta QSL. `QSO` es el contacto en sí."
+  },
+  {
+   "id": "R2.31",
+   "clave": "b",
+   "enunciado": "El contacto establecido entre dos estaciones de aficionado se designa con el grupo:",
+   "opciones": [
+    "`QSL`",
+    "`QSO`",
+    "`QTC`",
+    "`QRV`"
+   ],
+   "sol": "`QSO` designa la comunicación establecida entre dos estaciones. Se usa como sustantivo —«hacer un `QSO`»— con toda naturalidad."
+  },
+  {
+   "id": "R2.32",
+   "clave": "d",
+   "enunciado": "Para pedir a la estación corresponsal que cese la transmisión se emplea el grupo:",
+   "opciones": [
+    "`QRX`",
+    "`QRV`",
+    "`QSK`",
+    "`QRT`"
+   ],
+   "sol": "`QRT` es cesar la transmisión. `QRX` es esperar y volver a llamar, que es distinto: uno cierra, el otro aplaza."
+  },
+  {
+   "id": "R2.33",
+   "clave": "a",
+   "enunciado": "Para indicar que se está dispuesto y preparado para recibir se emplea el grupo:",
+   "opciones": [
+    "`QRV`",
+    "`QRU`",
+    "`QRX`",
+    "`QRQ`"
+   ],
+   "sol": "`QRV` es «estoy dispuesto». `QRU` es «no tengo nada para usted», que se parece en la forma pero significa casi lo contrario."
+  },
+  {
+   "id": "R2.34",
+   "clave": "c",
+   "enunciado": "Para preguntar si la frecuencia está ocupada se emplea el grupo:",
+   "opciones": [
+    "`QRG`",
+    "`QSY`",
+    "`QRL`",
+    "`QRZ`"
+   ],
+   "sol": "`QRL?` es la pregunta obligada antes de ponerse a llamar en una frecuencia: puede estar ocupada por una estación que no oímos. `QRG` pregunta por la frecuencia exacta."
+  },
+  {
+   "id": "R3.1",
+   "clave": "b",
+   "enunciado": "La abreviatura `CQ` significa:",
+   "opciones": [
+    "confirme la recepción",
+    "llamada general a todas las estaciones",
+    "cambio de frecuencia",
+    "cierre de la estación"
+   ],
+   "sol": "`CQ`: llamada general a cualquier estación que escuche."
+  },
+  {
+   "id": "R3.2",
+   "clave": "d",
+   "enunciado": "Entre las abreviaturas más usuales se encuentra `CL`, que significa:",
+   "opciones": [
+    "llamada local",
+    "canal libre",
+    "cambio de banda lateral",
+    "cierre de la estación"
+   ],
+   "sol": "`CL` (_closing_): cierre de la estación."
+  },
+  {
+   "id": "R3.3",
+   "clave": "a",
+   "enunciado": "La abreviatura `RPT` significa:",
+   "opciones": [
+    "repita",
+    "reporte recibido",
+    "repetidor activo",
+    "recepción perfecta"
+   ],
+   "sol": "`RPT` (_repeat_): repita."
+  },
+  {
+   "id": "R3.4",
+   "clave": "c",
+   "enunciado": "La abreviatura `DX` designa:",
+   "opciones": [
+    "una emisión digital experimental",
+    "un duplexor de antena",
+    "un contacto de larga distancia",
+    "una estación desatendida"
+   ],
+   "sol": "`DX`: contacto de larga distancia."
+  },
+  {
+   "id": "R3.5",
+   "clave": "b",
+   "enunciado": "La abreviatura `USB` corresponde a:",
+   "opciones": [
+    "una emisión de urgencia submarina",
+    "la banda lateral superior",
+    "la banda lateral inferior",
+    "la doble banda lateral"
+   ],
+   "sol": "`USB`: banda lateral superior; `LSB`, la inferior. Convenio en HF: LSB por debajo de 10 MHz, USB por encima."
+  },
+  {
+   "id": "R3.6",
+   "clave": "a",
+   "enunciado": "La abreviatura `CW` se refiere a:",
+   "opciones": [
+    "la telegrafía en código Morse (onda continua)",
+    "la telefonía comercial",
+    "una llamada de socorro",
+    "la banda ciudadana"
+   ],
+   "sol": "`CW` (_continuous wave_): telegrafía en Morse."
+  },
+  {
+   "id": "R3.7",
+   "clave": "d",
+   "enunciado": "En telegrafía, la abreviatura de procedimiento empleada para finalizar una transmisión es:",
+   "opciones": [
+    "`CQ`",
+    "`SK9`",
+    "`VA73`",
+    "`AR`"
+   ],
+   "sol": "`AR` marca el fin de la transmisión; `K` invita a transmitir y `SK` cierra el contacto."
+  },
+  {
+   "id": "R3.8",
+   "clave": "c",
+   "enunciado": "El código RST se utiliza para:",
+   "opciones": [
+    "solicitar un cambio de frecuencia",
+    "identificar el distrito de la estación",
+    "informar sobre la señal recibida (legibilidad, intensidad y tono)",
+    "anunciar el cierre de la estación"
+   ],
+   "sol": "RST: legibilidad (1–5), intensidad (1–9) y tono (1–9, solo telegrafía); el «59» es el informe estándar de fonía."
+  },
+  {
+   "id": "R3.9",
+   "clave": "a",
+   "enunciado": "La abreviatura `OM` se emplea para referirse a:",
+   "opciones": [
+    "el operador de la estación corresponsal",
+    "un equipo de fabricación casera",
+    "una emisión de onda media",
+    "el operador de una estación repetidora"
+   ],
+   "sol": "Del inglés _old man_. Es el tratamiento cordial habitual entre radioaficionados varones, sin relación alguna con la edad. La versión femenina es `YL`."
+  },
+  {
+   "id": "R3.10",
+   "clave": "c",
+   "enunciado": "La abreviatura `YL` designa a:",
+   "opciones": [
+    "una estación de baja potencia",
+    "un enlace de larga distancia",
+    "una operadora",
+    "una licencia provisional"
+   ],
+   "sol": "De _young lady_. La baja potencia es `QRP` y la larga distancia, `DX`."
+  },
+  {
+   "id": "R3.11",
+   "clave": "b",
+   "enunciado": "La abreviatura `XYL` se refiere a:",
+   "opciones": [
+    "una estación experimental",
+    "la esposa del radioaficionado",
+    "un distintivo caducado",
+    "una antena de doble polarización"
+   ],
+   "sol": "De _ex-young lady_, con el humor de la vieja jerga radioeléctrica. Se emplea para la esposa, sea o no radioaficionada."
+  },
+  {
+   "id": "R3.12",
+   "clave": "d",
+   "enunciado": "En una comunicación, la abreviatura `DE` colocada antes de un distintivo indica:",
+   "opciones": [
+    "que se solicita respuesta inmediata",
+    "que la estación va a cerrar",
+    "el nombre del operador",
+    "que a continuación viene el distintivo de quien transmite"
+   ],
+   "sol": "Es literalmente la preposición «de»: en «`EA4XYZ` de `EA1ABC`», quien llama es la segunda. Marca quién habla, y por eso va siempre delante del propio distintivo."
+  },
+  {
+   "id": "R3.13",
+   "clave": "a",
+   "enunciado": "En telegrafía, la abreviatura de procedimiento `K` significa:",
+   "opciones": [
+    "invitación a transmitir a la estación corresponsal",
+    "fin definitivo de la comunicación",
+    "petición de repetición del mensaje",
+    "cierre de la estación"
+   ],
+   "sol": "Es el «cambio» de la telegrafía: he terminado, hable usted. No debe confundirse con `SK`, que cierra el contacto entero, ni con `CL`, que cierra la estación."
+  },
+  {
+   "id": "R3.14",
+   "clave": "c",
+   "enunciado": "La abreviatura de procedimiento `SK` indica:",
+   "opciones": [
+    "que se transmite en banda lateral",
+    "que se solicita una tarjeta de confirmación",
+    "el final del contacto entre las dos estaciones",
+    "que la señal se recibe con interferencias"
+   ],
+   "sol": "Cierra la comunicación: ya no se espera respuesta. Si además se apaga la estación, se añade `CL`."
+  },
+  {
+   "id": "R3.15",
+   "clave": "b",
+   "enunciado": "La abreviatura `BK` se emplea para:",
+   "opciones": [
+    "indicar que se cambia de banda",
+    "interrumpir brevemente la transmisión del corresponsal",
+    "pedir que se repita la última palabra",
+    "señalar el comienzo de una llamada general"
+   ],
+   "sol": "Del inglés _break_. Permite cortar sin esperar al final, algo que en telegrafía facilita el `QSK`. El comienzo de una llamada general es `CQ`."
+  },
+  {
+   "id": "R3.16",
+   "clave": "d",
+   "enunciado": "La abreviatura `73` significa:",
+   "opciones": [
+    "el número de contactos realizados",
+    "la potencia empleada, en vatios",
+    "la banda de trabajo, en metros",
+    "saludos cordiales"
+   ],
+   "sol": "Viene de los antiguos códigos telegráficos numéricos y ha sobrevivido como la despedida universal del radioaficionado. Se dice «73», no «setenta y tres saludos»."
+  },
+  {
+   "id": "R3.17",
+   "clave": "a",
+   "enunciado": "La abreviatura `88` se emplea para expresar:",
+   "opciones": [
+    "besos, en despedidas de cortesía",
+    "una señal muy intensa",
+    "la petición de repetir el mensaje",
+    "una comunicación de emergencia"
+   ],
+   "sol": "Del mismo origen numérico que el `73`, y con el mismo tono cordial. Por costumbre se reserva para despedidas entre personas con cierta confianza."
+  },
+  {
+   "id": "R3.18",
+   "clave": "c",
+   "enunciado": "La abreviatura `PSE` corresponde a:",
+   "opciones": [
+    "potencia de salida efectiva",
+    "pausa entre transmisiones",
+    "por favor",
+    "posición estimada"
+   ],
+   "sol": "Contracción del inglés _please_. Es una de las abreviaturas de cortesía que, junto con `TNX`, aparecen constantemente en telegrafía."
+  },
+  {
+   "id": "R3.19",
+   "clave": "b",
+   "enunciado": "La abreviatura `TNX` (o `TKS`) significa:",
+   "opciones": [
+    "transmisión no cifrada",
+    "gracias",
+    "cambio de frecuencia",
+    "transmisor en pruebas"
+   ],
+   "sol": "Contracción de _thanks_. El cambio de frecuencia es `QSY`."
+  },
+  {
+   "id": "R3.20",
+   "clave": "d",
+   "enunciado": "En una comunicación, la abreviatura `WX` se refiere a:",
+   "opciones": [
+    "la potencia de la estación",
+    "la longitud de onda empleada",
+    "el tipo de antena instalada",
+    "las condiciones meteorológicas"
+   ],
+   "sol": "De _weather_. Es uno de los asuntos clásicos de conversación en un contacto, junto con el equipo (`RIG`) y el informe de señal."
+  },
+  {
+   "id": "R3.21",
+   "clave": "a",
+   "enunciado": "La abreviatura `UR` corresponde a:",
+   "opciones": [
+    "el posesivo «su», referido al corresponsal",
+    "una emisión de urgencia",
+    "una estación no identificada",
+    "la banda de UHF"
+   ],
+   "sol": "Contracción de _your_, escrita tal como suena. Aparece continuamente en expresiones como «`UR RST` 599»."
+  },
+  {
+   "id": "R3.22",
+   "clave": "c",
+   "enunciado": "En telegrafía, la abreviatura `R` transmitida como respuesta significa:",
+   "opciones": [
+    "repita el mensaje",
+    "reduzca la potencia",
+    "recibido conforme",
+    "la estación está en reparación"
+   ],
+   "sol": "Del inglés _roger_: he recibido y entendido lo transmitido. Pedir repetición es `RPT` y reducir potencia, `QRP`."
+  },
+  {
+   "id": "R3.23",
+   "clave": "c",
+   "enunciado": "La abreviatura `SSB` corresponde a:",
+   "opciones": [
+    "una emisión de doble banda lateral",
+    "una señal de socorro",
+    "la banda lateral única",
+    "un sistema de sintonía automática"
+   ],
+   "sol": "De _single side band_. Es el modo de fonía por excelencia en HF, porque suprime la portadora y una banda lateral y concentra toda la potencia en la información."
+  },
+  {
+   "id": "R3.24",
+   "clave": "a",
+   "enunciado": "La abreviatura `LSB` designa:",
+   "opciones": [
+    "la banda lateral inferior",
+    "la banda lateral superior",
+    "un limitador de señal",
+    "una emisión de baja potencia"
+   ],
+   "sol": "De _lower side band_. Se emplea por costumbre en 160, 80 y 40 metros; de 20 metros hacia arriba se usa `USB`. Es una convención, no una obligación técnica."
+  },
+  {
+   "id": "R3.25",
+   "clave": "d",
+   "enunciado": "La abreviatura `RIG` se refiere a:",
+   "opciones": [
+    "la relación de ondas estacionarias",
+    "el indicativo de la estación",
+    "la ganancia de la antena",
+    "el equipo de radio de la estación"
+   ],
+   "sol": "Es la jerga habitual para el transceptor y, por extensión, para el conjunto de la estación: «mi `RIG` es un…» es de las frases más repetidas en un contacto."
+  },
+  {
+   "id": "R3.26",
+   "clave": "b",
+   "enunciado": "La abreviatura `ANT` significa:",
+   "opciones": [
+    "anterior",
+    "antena",
+    "antes del mediodía",
+    "anotación"
+   ],
+   "sol": "Contracción de _antenna_. Junto con `RIG` y `PWR` forma el trío con que se describe la estación al corresponsal."
+  },
+  {
+   "id": "R3.27",
+   "clave": "c",
+   "enunciado": "La abreviatura `OP` se refiere a:",
+   "opciones": [
+    "la potencia de salida",
+    "la frecuencia de operación",
+    "el operador de la estación",
+    "la opción de modo"
+   ],
+   "sol": "De _operator_: la persona que está a los mandos, que no siempre coincide con el titular de la estación. Se usa para presentarse: «`OP` Alberto»."
+  },
+  {
+   "id": "R3.28",
+   "clave": "a",
+   "enunciado": "La abreviatura `HR` significa:",
+   "opciones": [
+    "aquí",
+    "hora",
+    "horizontal",
+    "he recibido"
+   ],
+   "sol": "Contracción de _here_: «aquí», referido al lugar desde donde se transmite. Aparece constantemente en expresiones como «`WX HR VY GUD`»."
+  },
+  {
+   "id": "R3.29",
+   "clave": "d",
+   "enunciado": "La abreviatura `ES` se emplea con el significado de:",
+   "opciones": [
+    "España",
+    "estación",
+    "eso es",
+    "y"
+   ],
+   "sol": "Es la conjunción «y», tomada del signo telegráfico correspondiente. Ahorra caracteres en telegrafía, que es de lo que se trata."
+  },
+  {
+   "id": "R3.30",
+   "clave": "b",
+   "enunciado": "La abreviatura `NIL` significa:",
+   "opciones": [
+    "nivel de señal",
+    "nada, sin novedad",
+    "nueva llamada",
+    "no identificado"
+   ],
+   "sol": "Del latín _nihil_ a través del inglés: nada que transmitir, sin novedad. Se emplea para cerrar un tráfico de mensajes cuando no queda ninguno."
+  },
+  {
+   "id": "R3.31",
+   "clave": "c",
+   "enunciado": "La abreviatura `CFM` significa:",
+   "opciones": [
+    "cambio de frecuencia",
+    "conforme al manual",
+    "confirmo",
+    "cierro comunicación"
+   ],
+   "sol": "Contracción de _confirm_: doy por buena la información recibida. Es lo que se transmite al aceptar un informe de señal o un dato del corresponsal."
+  },
+  {
+   "id": "R3.32",
+   "clave": "a",
+   "enunciado": "La abreviatura `AGN` significa:",
+   "opciones": [
+    "de nuevo, otra vez",
+    "agenda de contactos",
+    "antena general",
+    "a la ganancia máxima"
+   ],
+   "sol": "Contracción de _again_. Se usa para pedir repetición de forma abreviada, sola o junto a `PSE`: «`PSE AGN`»."
+  },
+  {
+   "id": "R3.33",
+   "clave": "d",
+   "enunciado": "La abreviatura `ABT` significa:",
+   "opciones": [
+    "abierto",
+    "a bordo",
+    "abandono la transmisión",
+    "aproximadamente"
+   ],
+   "sol": "Contracción de _about_. Sirve para dar un dato aproximado, como la distancia o la potencia, sin comprometerse con una cifra exacta."
+  },
+  {
+   "id": "R3.34",
+   "clave": "b",
+   "enunciado": "La abreviatura `VY` se emplea con el significado de:",
+   "opciones": [
+    "vertical",
+    "muy",
+    "voy",
+    "visibilidad"
+   ],
+   "sol": "Contracción de _very_. Casi siempre va delante de un adjetivo: «`VY GUD`», muy bien; «`VY` 73», saludos muy cordiales."
+  },
+  {
+   "id": "R3.35",
+   "clave": "c",
+   "enunciado": "La abreviatura `TU` se emplea para expresar:",
+   "opciones": [
+    "turno de palabra",
+    "transmisión urgente",
+    "gracias",
+    "tono uniforme"
+   ],
+   "sol": "De _thank you_. Es la forma más corta de dar las gracias, aún más breve que `TNX`, y se emplea mucho al cerrar un contacto rápido de concurso."
+  },
+  {
+   "id": "R3.36",
+   "clave": "a",
+   "enunciado": "La abreviatura `HI` se emplea en telegrafía para expresar:",
+   "opciones": [
+    "una risa",
+    "un saludo inicial",
+    "alta frecuencia",
+    "una petición de repetición"
+   ],
+   "sol": "Es la forma de reírse en telegrafía: se transmite tal cual y el corresponsal lo entiende como una risa. Un rasgo de la vieja cultura telegráfica que ha sobrevivido intacto."
+  },
+  {
+   "id": "R3.37",
+   "clave": "d",
+   "enunciado": "La abreviatura `PWR` se refiere a:",
+   "opciones": [
+    "la propagación",
+    "el prefijo del distintivo",
+    "el periodo de la señal",
+    "la potencia"
+   ],
+   "sol": "Contracción de _power_: la potencia con que se transmite, dato habitual al describir la estación junto con el equipo y la antena."
+  },
+  {
+   "id": "R3.38",
+   "clave": "b",
+   "enunciado": "La abreviatura `SRI` se emplea para expresar:",
+   "opciones": [
+    "señal recibida intermitente",
+    "lo siento",
+    "servicio de radio internacional",
+    "sin respuesta inmediata"
+   ],
+   "sol": "Contracción de _sorry_. Se emplea para disculparse, por ejemplo al no poder completar un contacto o al haber interrumpido a otra estación."
+  },
+  {
+   "id": "R4.1",
+   "clave": "c",
+   "enunciado": "La señal de socorro en radiotelefonía es:",
+   "opciones": [
+    "Sécurité",
+    "Pan Pan",
+    "Mayday",
+    "Alerta"
+   ],
+   "sol": "#_r4-sc(\"Mayday\") (del francés _m’aider_): socorro en fonía, prioridad absoluta."
+  },
+  {
+   "id": "R4.2",
+   "clave": "a",
+   "enunciado": "La señal de urgencia en radiotelefonía consiste en la transmisión, repetida tres veces, de:",
+   "opciones": [
+    "Pan Pan",
+    "Mayday",
+    "Sécurité",
+    "SOS"
+   ],
+   "sol": "#_r4-sc(\"Pan Pan\") tres veces: urgencia, sin peligro inmediato de vidas."
+  },
+  {
+   "id": "R4.3",
+   "clave": "b",
+   "enunciado": "La señal de seguridad en radiotelefonía se compone de:",
+   "opciones": [
+    "la palabra «Mayday» repetida tres veces",
+    "la palabra «Sécurité» repetida tres veces",
+    "tres tonos largos de 1000 Hz",
+    "la palabra «Seguridad» seguida del distintivo"
+   ],
+   "sol": "#_r4-sc(\"Sécurité\") tres veces: avisos de seguridad (meteorológicos o a la navegación)."
+  },
+  {
+   "id": "R4.4",
+   "clave": "d",
+   "enunciado": "Un mensaje de socorro NO incluirá:",
+   "opciones": [
+    "la identificación de la estación en peligro",
+    "la posición de la estación en peligro",
+    "la naturaleza del peligro",
+    "la señal de seguridad «Sécurité»"
+   ],
+   "sol": "El mensaje de socorro lleva identificación, posición y naturaleza del peligro; «Sécurité» es de otra categoría (tabla #ref(<r4-cuadro-senales>, supplement: none))."
+  },
+  {
+   "id": "R4.5",
+   "clave": "b",
+   "enunciado": "La abreviatura `XXX`, transmitida tres veces consecutivas, constituye la señal de:",
+   "opciones": [
+    "socorro",
+    "urgencia",
+    "seguridad",
+    "alarma"
+   ],
+   "sol": "`XXX` tres veces: urgencia telegráfica, equivalente a #_r4-sc(\"Pan Pan\")."
+  },
+  {
+   "id": "R4.6",
+   "clave": "d",
+   "enunciado": "La abreviatura `TTT`, transmitida tres veces consecutivas, constituye la señal de:",
+   "opciones": [
+    "socorro",
+    "urgencia",
+    "alarma",
+    "seguridad"
+   ],
+   "sol": "`TTT` tres veces: seguridad telegráfica, equivalente a #_r4-sc(\"Sécurité\")."
+  },
+  {
+   "id": "R4.7",
+   "clave": "a",
+   "enunciado": "La señal de socorro en radiotelegrafía es:",
+   "opciones": [
+    "SOS",
+    "XXX",
+    "TTT",
+    "CQD"
+   ],
+   "sol": "`SOS`: socorro en telegrafía; `CQD` es la señal antigua abandonada a principios del siglo XX."
+  },
+  {
+   "id": "R4.8",
+   "clave": "c",
+   "enunciado": "La señal de alarma en radiotelefonía consiste en dos tonos aproximadamente sinusoidales transmitidos alternativamente, de frecuencias:",
+   "opciones": [
+    "500 Hz y 1000 Hz",
+    "440 Hz y 880 Hz",
+    "2200 Hz y 1300 Hz",
+    "3000 Hz y 300 Hz"
+   ],
+   "sol": "La señal de alarma alterna tonos de 2200 y 1300 Hz para activar los receptores automáticos de guardia antes de un socorro."
+  },
+  {
+   "id": "R4.9",
+   "clave": "b",
+   "enunciado": "La banda de aficionado conocida como «banda de 20 metros» corresponde a una frecuencia próxima a:",
+   "opciones": [
+    "3,5 MHz",
+    "14 MHz",
+    "50 MHz",
+    "144 MHz"
+   ],
+   "sol": "$lambda = 20 \"m\" => f approx 300 slash 20 = 15 \"MHz\"$, y la banda se sitúa en 14 MHz (tabla #ref(<r4-cuadro-bandas>, supplement: none)). La regla $lambda approx 300 slash f$ del tema T1 resuelve estas equivalencias."
+  },
+  {
+   "id": "R4.10",
+   "clave": "b",
+   "enunciado": "La Resolución 640 del Reglamento de Radiocomunicaciones se refiere al empleo de las bandas de aficionado:",
+   "opciones": [
+    "para radiodifusión comercial",
+    "en comunicaciones de socorro en caso de catástrofes naturales",
+    "exclusivamente en telegrafía",
+    "para enlaces con satélites meteorológicos"
+   ],
+   "sol": "La Res. 640 (CAMR-79, suprimida por la CMR-97) invitaba a las administraciones a prever el uso de las bandas de aficionado en las comunicaciones de socorro cuando una catástrofe natural inutiliza las redes normales. Hoy lo recogen el número 25.9A del Reglamento de Radiocomunicaciones y, para el tráfico de terceros en emergencia o desastre, el 25.3 y el art. 30.3 de la Orden IET/1311/2013. Sigue figurando en el temario (anexo II, parte segunda, punto 4)."
+  },
+  {
+   "id": "R4.11",
+   "clave": "b",
+   "enunciado": "Entre las tres señales, el orden de prioridad de menor a mayor es:",
+   "opciones": [
+    "socorro, urgencia y seguridad",
+    "seguridad, urgencia y socorro",
+    "urgencia, seguridad y socorro",
+    "las tres tienen la misma prioridad"
+   ],
+   "sol": "De menor a mayor: seguridad (_Sécurité_, avisos de navegación o meteorológicos), urgencia (_Pan Pan_, un problema serio sin peligro inminente) y socorro (_Mayday_, peligro grave e inminente). El socorro tiene prioridad absoluta sobre cualquier otra comunicación."
+  },
+  {
+   "id": "R4.12",
+   "clave": "d",
+   "enunciado": "Una estación de aficionado que escucha una llamada de socorro debe:",
+   "opciones": [
+    "continuar su comunicación en la misma frecuencia",
+    "aumentar su potencia para cubrir la zona",
+    "repetir la llamada en todas las bandas que tenga disponibles",
+    "guardar silencio, permanecer a la escucha y prestar auxilio si puede"
+   ],
+   "sol": "Lo primero es no estorbar: la frecuencia queda para quien está en peligro y para quien pueda auxiliarle. Después, si se está en condiciones de ayudar —o de retransmitir el mensaje a quien pueda— se hace: el art. 30.5 de la Orden obliga a hacer lo posible para que la comunicación de socorro llegue cuanto antes a la Dirección General de Protección Civil y Emergencias. Repetirlo a ciegas por todas las bandas solo multiplica la confusión."
+  },
+  {
+   "id": "R4.13",
+   "clave": "a",
+   "enunciado": "En caso de peligro grave e inminente, una estación de aficionado:",
+   "opciones": [
+    "puede emplear cualquier medio y frecuencia a su alcance para pedir auxilio",
+    "solo puede emitir en las frecuencias de su autorización",
+    "debe esperar autorización expresa de la Administración",
+    "debe limitarse a la banda de 20 metros"
+   ],
+   "sol": "Es una excepción reconocida por el Reglamento de Radiocomunicaciones: ante un peligro grave e inminente, la vida humana está por encima de los límites de la autorización. Fuera de ese supuesto, las frecuencias asignadas son las que son."
+  },
+  {
+   "id": "R4.14",
+   "clave": "c",
+   "enunciado": "Después de transmitir un mensaje de socorro, la estación debe:",
+   "opciones": [
+    "apagar el equipo para no interferir",
+    "cambiar inmediatamente de banda",
+    "permanecer a la escucha en esa misma frecuencia",
+    "repetirlo sin pausa hasta obtener respuesta"
+   ],
+   "sol": "De nada sirve pedir auxilio si nadie puede contestar. Se transmite y se escucha en la misma frecuencia, dejando huecos suficientes para que quien responda pueda hacerlo."
+  },
+  {
+   "id": "R4.15",
+   "clave": "b",
+   "enunciado": "La colaboración de los radioaficionados con los servicios de emergencia en caso de catástrofe:",
+   "opciones": [
+    "es siempre voluntaria y no puede exigirse",
+    "es obligatoria cuando la requiere la autoridad competente",
+    "está prohibida salvo autorización previa por escrito",
+    "solo se admite en la banda de 2 metros"
+   ],
+   "sol": "Una cosa es el espíritu de colaboración, que es voluntario, y otra el requerimiento formal de la autoridad competente en una emergencia: entonces la colaboración es exigible (art. 30.4 de la Orden: a requerimiento de la Dirección General de Protección Civil y Emergencias). Es una de las razones de ser del servicio de aficionados y de que se le reserve espectro."
+  },
+  {
+   "id": "R4.16",
+   "clave": "b",
+   "enunciado": "Emplear las señales de socorro «SOS» o «MAYDAY» sin que exista una situación de peligro constituye:",
+   "opciones": [
+    "una práctica desaconsejada, pero sin consecuencias",
+    "una infracción sancionable",
+    "una conducta permitida a efectos de prueba",
+    "una falta únicamente si se repite"
+   ],
+   "sol": "Las señales de socorro movilizan medios y silencian frecuencias: usarlas en falso está prohibido por la Constitución de la UIT (art. 47) y por el Reglamento de Radiocomunicaciones, es sancionable (la Ley 11/2022 no tiene un tipo específico para ello) y, si moviliza medios de socorro, puede llegar a ser delito (Código Penal, art. 561), además de gravemente irresponsable. Ni siquiera cabe «para probar el equipo»."
+  }
+ ]
+}
