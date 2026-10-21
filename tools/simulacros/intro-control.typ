@@ -42,7 +42,7 @@
 
 Los _Simulacros de examen_ son para estudiar: cada concepto del temario sale una vez, con su solución razonada, y se trabajan hasta entenderlos. Pero una pregunta que ya has visto se acierta también de memoria. Estos _Simulacros de control_ miden lo otro: si dominas el concepto cuando te lo preguntan de una forma que no conoces, que es lo que pasará en el examen.
 
-Cada simulacro de control tiene los mismos conceptos que el conjunto de los simulacros de estudio, repartidos de nuevo, y cada pregunta es *nueva*: está escrita para este cuaderno y no aparece ni en el libro ni en los simulacros de estudio. Pregunta el mismo concepto desde otro ángulo: otros datos, el cálculo al revés, el dato en el otro sentido (del significado al código, de la frecuencia a la banda), un caso práctico u otra trampa. Cada pregunta se ha revisado por separado: la clave, que solo una opción sea correcta y que no sea una copia de la de estudio.
+Cada simulacro de control tiene los mismos conceptos que el conjunto de los simulacros de estudio, repartidos de nuevo, y cada pregunta es *nueva*: está escrita para este cuaderno y no aparece ni en el libro ni en los simulacros de estudio. Pregunta el mismo concepto desde otro ángulo: otros datos, el cálculo al revés, el dato en el otro sentido (del significado al código, de la frecuencia a la banda), un caso práctico u otra trampa. Al escribir cada pregunta se ha comprobado la clave, se han rehecho los cálculos y se ha verificado que solo una opción es correcta y que no copia la de estudio. Si encuentras una pregunta dudosa, la solución remite al libro, que manda.
 
 === Cómo usarlos
 

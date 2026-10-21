@@ -101,6 +101,15 @@ build/                   output and scratch; build/*/ hold the agents' generator
 
 ## 4. Status
 
+**Update 2026-10-21 — control mock exams (`simulacros-control.typ` → `build/simulacros-control.pdf`,
+203 pages).** Same 13 × (30 + 30) structure and the same concepts as the study exams, but every one
+of the 780 questions is new (written by 11 agents with `PROMPT-CONTROL.md` → `build/control/escritas/`;
+not in the book nor in the study exams; checked by script: 780 keys after shuffling, 0 overlap).
+Only R9 had an independent review (`PROMPT-VERIFICAR-CONTROL.md` → `build/control/verificadas/`);
+the user ran short of credits, so the other batches rely on the writers' own checks — run the
+verifier on them if credits allow. Rebuild: `planificar_control.py`, then
+`generar.py build/control/plan.json simulacros-control.typ control`.
+
 **Update 2026-10-21 — mock exams (`simulacros.typ` → `build/simulacros.pdf`, 223 pages).**
 One document: 13 exams of 30 + 30 questions (780 questions, none repeated), key and reasoned
 solution for each, Apéndice A (201 marginal concepts as question → answer) and Apéndice B (map of
