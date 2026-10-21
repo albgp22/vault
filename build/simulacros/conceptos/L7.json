@@ -1,0 +1,1647 @@
+{
+ "lote": "L7",
+ "conceptos": [
+  {
+   "cid": "R1-01",
+   "tema": "R1",
+   "concepto": "Para qué sirve el alfabeto fonético: deletrear letras y cifras sin confusiones (no cifra ni abrevia)",
+   "peso": 1,
+   "preguntas": [
+    "R1.23"
+   ],
+   "cubre": [
+    "R1.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R1-02",
+   "tema": "R1",
+   "concepto": "Las cifras se deletrean con su nombre inglés (Zero…Nine); el 0 es Zero, no Oscar ni «Cero»",
+   "peso": 2,
+   "preguntas": [
+    "R1.17"
+   ],
+   "cubre": [
+    "R1.9",
+    "R1.17",
+    "R1.18",
+    "R1.37",
+    "R1.38",
+    "R1.39"
+   ],
+   "nota": "Una sola destreza para las diez cifras. Las preguntas de distintivo elegidas en R1 repasan además 3 (Three), 4 (Four), 5 (Five), 6 (Six) y 9 (Nine)."
+  },
+  {
+   "cid": "R1-03",
+   "tema": "R1",
+   "concepto": "Deletreo de distintivo EA5SWJ: E Echo, A Alfa, S Sierra, W Whiskey, J Juliett (no «Japón»), cifra en inglés",
+   "peso": 3,
+   "preguntas": [
+    "C-R1.2"
+   ],
+   "cubre": [
+    "C-R1.2",
+    "R1.4",
+    "R1.29",
+    "R1.25",
+    "R1.1",
+    "R1.3",
+    "R1.13"
+   ],
+   "nota": "Formato real del examen (banco público). Cubre las letras E, A, S, W y J; trampas: cifra en español, «Japón», «América»."
+  },
+  {
+   "cid": "R1-04",
+   "tema": "R1",
+   "concepto": "Deletreo de distintivo AN6BL: N November (no «Noviembre»), B Bravo, L Lima, 6 Six",
+   "peso": 3,
+   "preguntas": [
+    "C-R1.1"
+   ],
+   "cubre": [
+    "C-R1.1",
+    "R1.31",
+    "R1.26",
+    "R1.5"
+   ],
+   "nota": "Banco público. Cubre N, B y L; trampas: traducir November y Six al español, o decir los nombres de las letras (Ene, Ele)."
+  },
+  {
+   "cid": "R1-05",
+   "tema": "R1",
+   "concepto": "Deletreo de distintivo EA3RCQ: R Romeo, C Charlie, Q Quebec (no «Queen»), 3 Three",
+   "peso": 3,
+   "preguntas": [
+    "C-R1.3"
+   ],
+   "cubre": [
+    "C-R1.3",
+    "R1.33",
+    "R1.27",
+    "R1.2"
+   ],
+   "nota": "Banco público. Cubre R, C y Q; trampa: «Tres» en lugar de Three. R1.2 (Queen) y R1.27 (Coca) quedan cubiertas por el mismo dato."
+  },
+  {
+   "cid": "R1-06",
+   "tema": "R1",
+   "concepto": "X X-ray, Y Yankee, Z Zulu (no «Zeta»); grafías Echo y Alfa (no Eco, Alpha)",
+   "peso": 2,
+   "preguntas": [
+    "R1.21"
+   ],
+   "cubre": [
+    "R1.21",
+    "R1.19",
+    "R1.15",
+    "R1.36"
+   ],
+   "nota": "EA4XYZ cubre X, Y y Z y la cifra 4 (Four); la opción casi correcta con «Zeta» es la trampa."
+  },
+  {
+   "cid": "R1-07",
+   "tema": "R1",
+   "concepto": "U Uniform y Z Zulu frente a palabras de alfabetos antiguos (Uncle, Zebra, Coca, Dog, Able)",
+   "peso": 2,
+   "preguntas": [
+    "R1.40"
+   ],
+   "cubre": [
+    "R1.40",
+    "R1.35",
+    "R1.12"
+   ],
+   "nota": "EC9ZUL cubre U (y repasa C, Z, L, 9 Nine). R1.12 (ED5ZAA) es la misma destreza con D y Z."
+  },
+  {
+   "cid": "R1-08",
+   "tema": "R1",
+   "concepto": "Sufijo CID: C Charlie, I India (no «Italia»), D Delta (no «Dog»)",
+   "peso": 2,
+   "preguntas": [
+    "R1.10"
+   ],
+   "cubre": [
+    "R1.10",
+    "R1.30",
+    "R1.28"
+   ],
+   "nota": "Cubre I y D."
+  },
+  {
+   "cid": "R1-09",
+   "tema": "R1",
+   "concepto": "Sufijos TOP y BOJ: T Tango, O Oscar, P Papa (no Pedro, Peter)",
+   "peso": 2,
+   "preguntas": [
+    "R1.11"
+   ],
+   "cubre": [
+    "R1.11",
+    "R1.34",
+    "R1.32",
+    "R1.20",
+    "R1.6"
+   ],
+   "nota": "Cubre T, O y P; R1.6 (BOJ) repasa B, O y J con los distractores del alfabeto de 1943."
+  },
+  {
+   "cid": "R1-10",
+   "tema": "R1",
+   "concepto": "F Foxtrot y G Golf",
+   "peso": 2,
+   "preguntas": [
+    "R1.24",
+    "R1.14"
+   ],
+   "cubre": [
+    "R1.24",
+    "R1.14"
+   ],
+   "nota": "Dos letras que no aparecen en ninguna pregunta de distintivo: hace falta una pregunta para cada una. R1.24 va en sentido palabra → letra."
+  },
+  {
+   "cid": "R1-11",
+   "tema": "R1",
+   "concepto": "H Hotel y K Kilo",
+   "peso": 2,
+   "preguntas": [
+    "R1.22",
+    "R1.16"
+   ],
+   "cubre": [
+    "R1.22",
+    "R1.16"
+   ],
+   "nota": "Dos letras que no aparecen en ninguna pregunta de distintivo: una pregunta para cada una (R1.16 va en sentido palabra → letra)."
+  },
+  {
+   "cid": "R1-12",
+   "tema": "R1",
+   "concepto": "M Mike y V Victor",
+   "peso": 2,
+   "preguntas": [
+    "R1.7",
+    "R1.8"
+   ],
+   "cubre": [
+    "R1.7",
+    "R1.8"
+   ],
+   "nota": "Dos letras que no aparecen en ninguna pregunta de distintivo: una pregunta para cada una."
+  },
+  {
+   "cid": "R2-01",
+   "tema": "R2",
+   "concepto": "QRM (interferencia de otras estaciones) frente a QRN (parásitos atmosféricos)",
+   "peso": 3,
+   "preguntas": [
+    "R2.2",
+    "R2.29"
+   ],
+   "cubre": [
+    "R2.2",
+    "R2.3",
+    "R2.28",
+    "R2.29"
+   ],
+   "nota": "La pareja más preguntada. R2.2 va de código a significado y R2.29 al revés (significado → código)."
+  },
+  {
+   "cid": "R2-02",
+   "tema": "R2",
+   "concepto": "QRO aumente / QRP disminuya la potencia",
+   "peso": 3,
+   "preguntas": [
+    "R2.7"
+   ],
+   "cubre": [
+    "R2.7",
+    "R2.10"
+   ],
+   "nota": "R2.7 tiene «aumente la potencia» como distractor: prueba la pareja."
+  },
+  {
+   "cid": "R2-03",
+   "tema": "R2",
+   "concepto": "QRS transmita más despacio / QRQ más deprisa",
+   "peso": 3,
+   "preguntas": [
+    "C-R2.3",
+    "R2.15"
+   ],
+   "cubre": [
+    "C-R2.3",
+    "R2.15"
+   ],
+   "nota": "C-R2.3 es del banco público pero sus distractores no incluyen QRQ; R2.15 prueba la pareja QRQ/QRS en el otro sentido."
+  },
+  {
+   "cid": "R2-04",
+   "tema": "R2",
+   "concepto": "QRT cese la transmisión frente a QRX espere, volveré a llamar",
+   "peso": 3,
+   "preguntas": [
+    "R2.32",
+    "R2.9"
+   ],
+   "cubre": [
+    "R2.11",
+    "R2.32",
+    "R2.9"
+   ],
+   "nota": "Dos grupos que se confunden («uno cierra, el otro aplaza»): R2.32 pregunta QRT con QRX de distractor y R2.9 pregunta QRX con QRT de distractor."
+  },
+  {
+   "cid": "R2-05",
+   "tema": "R2",
+   "concepto": "QRV estoy dispuesto frente a QRU no tengo nada para usted",
+   "peso": 2,
+   "preguntas": [
+    "R2.33",
+    "F-R2.6"
+   ],
+   "cubre": [
+    "R2.33",
+    "F-R2.6"
+   ],
+   "nota": "Dos grupos parecidos en la forma: R2.33 da QRV con QRU de distractor y F-R2.6 da el significado de QRU."
+  },
+  {
+   "cid": "R2-06",
+   "tema": "R2",
+   "concepto": "QRG frecuencia exacta frente a QRH su frecuencia varía",
+   "peso": 2,
+   "preguntas": [
+    "C-R2.5",
+    "R2.12"
+   ],
+   "cubre": [
+    "C-R2.5",
+    "R2.12"
+   ],
+   "nota": "C-R2.5 es del banco público (QRG); R2.12 pregunta QRH con QRG de distractor."
+  },
+  {
+   "cid": "R2-07",
+   "tema": "R2",
+   "concepto": "QRK inteligibilidad, QSA intensidad, QRI tono (las tres valoraciones de la señal)",
+   "peso": 3,
+   "preguntas": [
+    "C-R2.1",
+    "R2.24"
+   ],
+   "cubre": [
+    "C-R2.1",
+    "R2.14",
+    "R2.24"
+   ],
+   "nota": "C-R2.1 (banco público) pide QRK; R2.24 ofrece intensidad, legibilidad y tono como opciones y fija el reparto de los tres grupos."
+  },
+  {
+   "cid": "R2-08",
+   "tema": "R2",
+   "concepto": "Escalas de respuesta: QRK y QSA de 1 a 5; QRI de 1 a 3",
+   "peso": 1,
+   "preguntas": [
+    "F-R2.5"
+   ],
+   "cubre": [
+    "F-R2.5"
+   ],
+   "nota": "Trampa: confundirlas con las escalas del RST (S y T de 1 a 9)."
+  },
+  {
+   "cid": "R2-09",
+   "tema": "R2",
+   "concepto": "QRL: estoy ocupado / ¿está ocupada la frecuencia?",
+   "peso": 3,
+   "preguntas": [
+    "C-R2.2"
+   ],
+   "cubre": [
+    "C-R2.2",
+    "R2.34"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-10",
+   "tema": "R2",
+   "concepto": "QRZ ¿quién me llama? (la llamada general es CQ, que no es código Q)",
+   "peso": 2,
+   "preguntas": [
+    "R2.5"
+   ],
+   "cubre": [
+    "R2.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-11",
+   "tema": "R2",
+   "concepto": "QSY cambie de frecuencia",
+   "peso": 3,
+   "preguntas": [
+    "R2.4"
+   ],
+   "cubre": [
+    "R2.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-12",
+   "tema": "R2",
+   "concepto": "QSB desvanecimiento (fading)",
+   "peso": 2,
+   "preguntas": [
+    "R2.13"
+   ],
+   "cubre": [
+    "R2.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-13",
+   "tema": "R2",
+   "concepto": "QSL acuse de recibo frente a QSO comunicado entre dos estaciones",
+   "peso": 3,
+   "preguntas": [
+    "R2.30",
+    "R2.31"
+   ],
+   "cubre": [
+    "R2.6",
+    "R2.8",
+    "R2.30",
+    "R2.31"
+   ],
+   "nota": "Pareja clásica: R2.30 pide QSL con QSO de distractor y R2.31 pide QSO con QSL de distractor."
+  },
+  {
+   "cid": "R2-14",
+   "tema": "R2",
+   "concepto": "QTH posición o localidad (frente a QTR, QRA, QTC)",
+   "peso": 3,
+   "preguntas": [
+    "R2.27"
+   ],
+   "cubre": [
+    "R2.1",
+    "R2.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-15",
+   "tema": "R2",
+   "concepto": "QTR hora exacta",
+   "peso": 2,
+   "preguntas": [
+    "F-R2.1"
+   ],
+   "cubre": [
+    "F-R2.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-16",
+   "tema": "R2",
+   "concepto": "QRA nombre de la estación (no la posición)",
+   "peso": 2,
+   "preguntas": [
+    "C-R2.4"
+   ],
+   "cubre": [
+    "C-R2.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-17",
+   "tema": "R2",
+   "concepto": "QRB distancia entre estaciones",
+   "peso": 1,
+   "preguntas": [
+    "R2.18"
+   ],
+   "cubre": [
+    "R2.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-18",
+   "tema": "R2",
+   "concepto": "QTC tengo mensajes para transmitir",
+   "peso": 1,
+   "preguntas": [
+    "R2.17"
+   ],
+   "cubre": [
+    "R2.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-19",
+   "tema": "R2",
+   "concepto": "QSP retransmitir gratuitamente a…",
+   "peso": 1,
+   "preguntas": [
+    "R2.16"
+   ],
+   "cubre": [
+    "R2.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-20",
+   "tema": "R2",
+   "concepto": "QSK puedo oírle entre mis señales (break-in)",
+   "peso": 1,
+   "preguntas": [
+    "R2.19"
+   ],
+   "cubre": [
+    "R2.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-21",
+   "tema": "R2",
+   "concepto": "QSM repita el último mensaje",
+   "peso": 1,
+   "preguntas": [
+    "R2.20"
+   ],
+   "cubre": [
+    "R2.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-22",
+   "tema": "R2",
+   "concepto": "QSN ¿me ha oído / ha oído a… en… kHz?",
+   "peso": 1,
+   "preguntas": [
+    "R2.21"
+   ],
+   "cubre": [
+    "R2.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-23",
+   "tema": "R2",
+   "concepto": "QSX ¿quiere escuchar a… en… kHz? (frente a QSN, que mira al pasado)",
+   "peso": 1,
+   "preguntas": [
+    "F-R2.3"
+   ],
+   "cubre": [
+    "F-R2.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-24",
+   "tema": "R2",
+   "concepto": "QSD manipulación defectuosa",
+   "peso": 1,
+   "preguntas": [
+    "R2.22"
+   ],
+   "cubre": [
+    "R2.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-25",
+   "tema": "R2",
+   "concepto": "QSV transmita una serie de V",
+   "peso": 1,
+   "preguntas": [
+    "R2.23"
+   ],
+   "cubre": [
+    "R2.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-26",
+   "tema": "R2",
+   "concepto": "QRW avise a… de que le llamo en… kHz",
+   "peso": 1,
+   "preguntas": [
+    "R2.25"
+   ],
+   "cubre": [
+    "R2.25"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-27",
+   "tema": "R2",
+   "concepto": "QTA anule el mensaje",
+   "peso": 1,
+   "preguntas": [
+    "R2.26"
+   ],
+   "cubre": [
+    "R2.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-28",
+   "tema": "R2",
+   "concepto": "QRY ¿cuál es mi turno?",
+   "peso": 1,
+   "preguntas": [
+    "F-R2.2"
+   ],
+   "cubre": [
+    "F-R2.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R2-29",
+   "tema": "R2",
+   "concepto": "QSZ transmita cada palabra o grupo dos veces",
+   "peso": 1,
+   "preguntas": [
+    "F-R2.4"
+   ],
+   "cubre": [
+    "F-R2.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-01",
+   "tema": "R3",
+   "concepto": "CQ llamada general a todas las estaciones",
+   "peso": 3,
+   "preguntas": [
+    "R3.1"
+   ],
+   "cubre": [
+    "R3.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-02",
+   "tema": "R3",
+   "concepto": "K invitación a transmitir («cambio»)",
+   "peso": 2,
+   "preguntas": [
+    "R3.13"
+   ],
+   "cubre": [
+    "R3.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-03",
+   "tema": "R3",
+   "concepto": "AR fin de la transmisión (no del contacto)",
+   "peso": 2,
+   "preguntas": [
+    "R3.7"
+   ],
+   "cubre": [
+    "R3.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-04",
+   "tema": "R3",
+   "concepto": "SK fin del contacto",
+   "peso": 2,
+   "preguntas": [
+    "R3.14"
+   ],
+   "cubre": [
+    "R3.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-05",
+   "tema": "R3",
+   "concepto": "CL cierre de la estación",
+   "peso": 2,
+   "preguntas": [
+    "R3.2"
+   ],
+   "cubre": [
+    "R3.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-06",
+   "tema": "R3",
+   "concepto": "BK interrupción breve (break)",
+   "peso": 1,
+   "preguntas": [
+    "R3.15"
+   ],
+   "cubre": [
+    "R3.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-07",
+   "tema": "R3",
+   "concepto": "DE delante del distintivo de quien transmite",
+   "peso": 2,
+   "preguntas": [
+    "R3.12"
+   ],
+   "cubre": [
+    "R3.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-08",
+   "tema": "R3",
+   "concepto": "R recibido (conforme)",
+   "peso": 2,
+   "preguntas": [
+    "R3.22"
+   ],
+   "cubre": [
+    "R3.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-09",
+   "tema": "R3",
+   "concepto": "RPT repita y AGN de nuevo",
+   "peso": 2,
+   "preguntas": [
+    "R3.3",
+    "R3.32"
+   ],
+   "cubre": [
+    "R3.3",
+    "R3.32"
+   ],
+   "nota": "Dos abreviaturas distintas para pedir repetición; una pregunta para cada una."
+  },
+  {
+   "cid": "R3-10",
+   "tema": "R3",
+   "concepto": "DX contacto de larga distancia",
+   "peso": 2,
+   "preguntas": [
+    "R3.4"
+   ],
+   "cubre": [
+    "R3.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-11",
+   "tema": "R3",
+   "concepto": "CW telegrafía Morse (onda continua)",
+   "peso": 2,
+   "preguntas": [
+    "R3.6"
+   ],
+   "cubre": [
+    "R3.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-12",
+   "tema": "R3",
+   "concepto": "USB banda lateral superior / LSB inferior",
+   "peso": 2,
+   "preguntas": [
+    "R3.5"
+   ],
+   "cubre": [
+    "R3.5",
+    "R3.24"
+   ],
+   "nota": "R3.5 trae la inferior y la doble banda lateral como distractores."
+  },
+  {
+   "cid": "R3-13",
+   "tema": "R3",
+   "concepto": "SSB banda lateral única",
+   "peso": 2,
+   "preguntas": [
+    "R3.23"
+   ],
+   "cubre": [
+    "R3.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-14",
+   "tema": "R3",
+   "concepto": "Informe RST: R legibilidad 1–5, S intensidad 1–9, T tono 1–9",
+   "peso": 3,
+   "preguntas": [
+    "F-R3.3"
+   ],
+   "cubre": [
+    "R3.8",
+    "F-R3.3"
+   ],
+   "nota": "F-R3.3 exige además las escalas; R3.8 (qué es el RST) queda incluida."
+  },
+  {
+   "cid": "R3-15",
+   "tema": "R3",
+   "concepto": "La T (tono) solo se da en telegrafía: 59 en fonía, 599 en CW",
+   "peso": 2,
+   "preguntas": [
+    "F-R3.4"
+   ],
+   "cubre": [
+    "F-R3.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-16",
+   "tema": "R3",
+   "concepto": "Escala de legibilidad: R5 = perfectamente legible (R1 ilegible…)",
+   "peso": 1,
+   "preguntas": [
+    "F-R3.5"
+   ],
+   "cubre": [
+    "F-R3.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-17",
+   "tema": "R3",
+   "concepto": "OM operador corresponsal (old man)",
+   "peso": 2,
+   "preguntas": [
+    "R3.9"
+   ],
+   "cubre": [
+    "R3.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-18",
+   "tema": "R3",
+   "concepto": "YL operadora y XYL esposa",
+   "peso": 2,
+   "preguntas": [
+    "R3.10",
+    "R3.11"
+   ],
+   "cubre": [
+    "R3.10",
+    "R3.11"
+   ],
+   "nota": "Dos abreviaturas emparentadas que se confunden: una pregunta para cada una."
+  },
+  {
+   "cid": "R3-19",
+   "tema": "R3",
+   "concepto": "73 saludos cordiales y 88 besos",
+   "peso": 2,
+   "preguntas": [
+    "R3.16",
+    "R3.17"
+   ],
+   "cubre": [
+    "R3.16",
+    "R3.17"
+   ],
+   "nota": "Dos abreviaturas numéricas distintas: una pregunta para cada una."
+  },
+  {
+   "cid": "R3-20",
+   "tema": "R3",
+   "concepto": "PSE por favor",
+   "peso": 1,
+   "preguntas": [
+    "R3.18"
+   ],
+   "cubre": [
+    "R3.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-21",
+   "tema": "R3",
+   "concepto": "TNX / TKS y TU: gracias",
+   "peso": 1,
+   "preguntas": [
+    "R3.19",
+    "R3.35"
+   ],
+   "cubre": [
+    "R3.19",
+    "R3.35"
+   ],
+   "nota": "TU es un dato aparte (y se confunde con UR = «su»)."
+  },
+  {
+   "cid": "R3-22",
+   "tema": "R3",
+   "concepto": "WX tiempo meteorológico",
+   "peso": 1,
+   "preguntas": [
+    "R3.20"
+   ],
+   "cubre": [
+    "R3.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-23",
+   "tema": "R3",
+   "concepto": "UR su (your)",
+   "peso": 1,
+   "preguntas": [
+    "R3.21"
+   ],
+   "cubre": [
+    "R3.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-24",
+   "tema": "R3",
+   "concepto": "RIG equipo, ANT antena, PWR potencia",
+   "peso": 1,
+   "preguntas": [
+    "R3.25",
+    "R3.37"
+   ],
+   "cubre": [
+    "R3.25",
+    "R3.26",
+    "R3.37"
+   ],
+   "nota": "RIG y PWR no se deducen del castellano; ANT sí, por eso basta con las otras dos."
+  },
+  {
+   "cid": "R3-25",
+   "tema": "R3",
+   "concepto": "OP operador",
+   "peso": 1,
+   "preguntas": [
+    "R3.27"
+   ],
+   "cubre": [
+    "R3.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-26",
+   "tema": "R3",
+   "concepto": "HR aquí y ES y",
+   "peso": 1,
+   "preguntas": [
+    "R3.28",
+    "R3.29"
+   ],
+   "cubre": [
+    "R3.28",
+    "R3.29"
+   ],
+   "nota": "Dos abreviaturas cortas con trampa (HR ≠ hora, ES ≠ España): una pregunta para cada una."
+  },
+  {
+   "cid": "R3-27",
+   "tema": "R3",
+   "concepto": "NIL nada, sin novedad",
+   "peso": 1,
+   "preguntas": [
+    "R3.30"
+   ],
+   "cubre": [
+    "R3.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-28",
+   "tema": "R3",
+   "concepto": "CFM confirmo",
+   "peso": 1,
+   "preguntas": [
+    "R3.31"
+   ],
+   "cubre": [
+    "R3.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-29",
+   "tema": "R3",
+   "concepto": "ABT aproximadamente y VY muy",
+   "peso": 1,
+   "preguntas": [
+    "R3.33",
+    "R3.34"
+   ],
+   "cubre": [
+    "R3.33",
+    "R3.34"
+   ],
+   "nota": "Dos datos distintos: una pregunta para cada uno."
+  },
+  {
+   "cid": "R3-30",
+   "tema": "R3",
+   "concepto": "HI risa en telegrafía",
+   "peso": 1,
+   "preguntas": [
+    "R3.36"
+   ],
+   "cubre": [
+    "R3.36"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-31",
+   "tema": "R3",
+   "concepto": "SRI lo siento",
+   "peso": 1,
+   "preguntas": [
+    "R3.38"
+   ],
+   "cubre": [
+    "R3.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-32",
+   "tema": "R3",
+   "concepto": "FB buen trabajo, formidable (fine business)",
+   "peso": 2,
+   "preguntas": [
+    "C-R3.1"
+   ],
+   "cubre": [
+    "C-R3.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-33",
+   "tema": "R3",
+   "concepto": "CUL hasta luego (see you later)",
+   "peso": 1,
+   "preguntas": [
+    "N-R3-01"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R3-34",
+   "tema": "R3",
+   "concepto": "BUG manipulador semiautomático",
+   "peso": 2,
+   "preguntas": [
+    "C-R3.2"
+   ],
+   "cubre": [
+    "C-R3.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-35",
+   "tema": "R3",
+   "concepto": "GM buenos días (GA es «adelante»)",
+   "peso": 2,
+   "preguntas": [
+    "C-R3.3"
+   ],
+   "cubre": [
+    "C-R3.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-36",
+   "tema": "R3",
+   "concepto": "GE buenas tardes",
+   "peso": 2,
+   "preguntas": [
+    "C-R3.6"
+   ],
+   "cubre": [
+    "C-R3.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-37",
+   "tema": "R3",
+   "concepto": "GN buenas noches",
+   "peso": 1,
+   "preguntas": [
+    "N-R3-02"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R3-38",
+   "tema": "R3",
+   "concepto": "GL buena suerte",
+   "peso": 1,
+   "preguntas": [
+    "F-R3.2"
+   ],
+   "cubre": [
+    "F-R3.2"
+   ],
+   "nota": "Sus distractores repasan GM, GN y GE."
+  },
+  {
+   "cid": "R3-39",
+   "tema": "R3",
+   "concepto": "MSG mensaje",
+   "peso": 1,
+   "preguntas": [
+    "C-R3.5"
+   ],
+   "cubre": [
+    "C-R3.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-40",
+   "tema": "R3",
+   "concepto": "NR número",
+   "peso": 1,
+   "preguntas": [
+    "C-R3.4"
+   ],
+   "cubre": [
+    "C-R3.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-41",
+   "tema": "R3",
+   "concepto": "Trabajar en split: emitir en una frecuencia y recibir en otra",
+   "peso": 2,
+   "preguntas": [
+    "C-R3.7"
+   ],
+   "cubre": [
+    "C-R3.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-42",
+   "tema": "R3",
+   "concepto": "Locator (QTH locator, Maidenhead): forma breve de dar la ubicación",
+   "peso": 2,
+   "preguntas": [
+    "C-R3.8"
+   ],
+   "cubre": [
+    "C-R3.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R3-43",
+   "tema": "R3",
+   "concepto": "SWL radioescucha (short wave listener)",
+   "peso": 1,
+   "preguntas": [
+    "F-R3.1"
+   ],
+   "cubre": [
+    "F-R3.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-01",
+   "tema": "R4",
+   "concepto": "Socorro en radiotelefonía: MAYDAY",
+   "peso": 3,
+   "preguntas": [
+    "R4.1"
+   ],
+   "cubre": [
+    "R4.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-02",
+   "tema": "R4",
+   "concepto": "Urgencia en radiotelefonía: PAN PAN (tres veces)",
+   "peso": 3,
+   "preguntas": [
+    "R4.2"
+   ],
+   "cubre": [
+    "R4.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-03",
+   "tema": "R4",
+   "concepto": "Seguridad en radiotelefonía: SÉCURITÉ (tres veces)",
+   "peso": 3,
+   "preguntas": [
+    "R4.3"
+   ],
+   "cubre": [
+    "R4.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-04",
+   "tema": "R4",
+   "concepto": "Formato de la llamada de socorro: Mayday ×3 + «aquí»/«de» + distintivo ×3",
+   "peso": 2,
+   "preguntas": [
+    "C-R4.1"
+   ],
+   "cubre": [
+    "C-R4.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-05",
+   "tema": "R4",
+   "concepto": "Contenido del mensaje de socorro: identificación, posición, naturaleza del peligro (nunca «Sécurité»)",
+   "peso": 2,
+   "preguntas": [
+    "R4.4"
+   ],
+   "cubre": [
+    "R4.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-06",
+   "tema": "R4",
+   "concepto": "Socorro en radiotelegrafía: SOS (no XXX, TTT ni CQD)",
+   "peso": 3,
+   "preguntas": [
+    "R4.7"
+   ],
+   "cubre": [
+    "R4.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-07",
+   "tema": "R4",
+   "concepto": "SOS se transmite como un solo signo (sin separar las letras)",
+   "peso": 2,
+   "preguntas": [
+    "C-R4.2"
+   ],
+   "cubre": [
+    "C-R4.2"
+   ],
+   "nota": "Ver «problemas»: la clave publicada en el banco oficial marca la d (letras separadas); el libro fija la b."
+  },
+  {
+   "cid": "R4-08",
+   "tema": "R4",
+   "concepto": "Urgencia en radiotelegrafía: XXX tres veces",
+   "peso": 3,
+   "preguntas": [
+    "R4.5"
+   ],
+   "cubre": [
+    "R4.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-09",
+   "tema": "R4",
+   "concepto": "Seguridad en radiotelegrafía: TTT tres veces",
+   "peso": 3,
+   "preguntas": [
+    "R4.6"
+   ],
+   "cubre": [
+    "R4.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-10",
+   "tema": "R4",
+   "concepto": "Prioridad: seguridad < urgencia < socorro",
+   "peso": 2,
+   "preguntas": [
+    "R4.11"
+   ],
+   "cubre": [
+    "R4.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-11",
+   "tema": "R4",
+   "concepto": "Señal de alarma radiotelefónica: tonos alternos de 2200 y 1300 Hz",
+   "peso": 2,
+   "preguntas": [
+    "R4.8"
+   ],
+   "cubre": [
+    "R4.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-12",
+   "tema": "R4",
+   "concepto": "Alerta de socorro GMDSS por DSC en MF: 2187,5 kHz (voz: 2182 kHz)",
+   "peso": 1,
+   "preguntas": [
+    "C-R4.3"
+   ],
+   "cubre": [
+    "C-R4.3"
+   ],
+   "nota": "El banco no traía clave; la fija el libro con la norma."
+  },
+  {
+   "cid": "R4-13",
+   "tema": "R4",
+   "concepto": "Canal 16 de VHF marítima: 156,8 MHz (socorro, seguridad y llamada en voz)",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.5"
+   ],
+   "cubre": [
+    "F-R4.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-14",
+   "tema": "R4",
+   "concepto": "Al oír un socorro: silencio, escucha y auxilio si es posible",
+   "peso": 2,
+   "preguntas": [
+    "R4.12"
+   ],
+   "cubre": [
+    "R4.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-15",
+   "tema": "R4",
+   "concepto": "Tras emitir un socorro: escuchar en la misma frecuencia",
+   "peso": 1,
+   "preguntas": [
+    "R4.14"
+   ],
+   "cubre": [
+    "R4.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-16",
+   "tema": "R4",
+   "concepto": "Peligro grave e inminente: se puede usar cualquier medio y frecuencia",
+   "peso": 2,
+   "preguntas": [
+    "R4.13"
+   ],
+   "cubre": [
+    "R4.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-17",
+   "tema": "R4",
+   "concepto": "Usar SOS o MAYDAY sin peligro real es infracción sancionable",
+   "peso": 2,
+   "preguntas": [
+    "R4.16"
+   ],
+   "cubre": [
+    "R4.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-18",
+   "tema": "R4",
+   "concepto": "Resolución 640 del RR: bandas de aficionado en socorro por catástrofes naturales",
+   "peso": 3,
+   "preguntas": [
+    "R4.10"
+   ],
+   "cubre": [
+    "R4.10"
+   ],
+   "nota": "El tráfico de terceros en emergencia (art. 30.3) se pregunta en R7; no se duplica aquí."
+  },
+  {
+   "cid": "R4-19",
+   "tema": "R4",
+   "concepto": "Colaboración obligatoria en catástrofes a requerimiento de la DG de Protección Civil y Emergencias (art. 30.4)",
+   "peso": 2,
+   "preguntas": [
+    "F-R4.2",
+    "R4.15"
+   ],
+   "cubre": [
+    "F-R4.2",
+    "R4.15"
+   ],
+   "nota": "F-R4.2 pregunta quién la requiere; R4.15, si es obligatoria o voluntaria: dos ángulos distintos."
+  },
+  {
+   "cid": "R4-20",
+   "tema": "R4",
+   "concepto": "Socorro captado: hacer lo posible para que llegue a la DG de Protección Civil y Emergencias (art. 30.5)",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.1"
+   ],
+   "cubre": [
+    "F-R4.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-21",
+   "tema": "R4",
+   "concepto": "Equivalencia banda en metros ↔ frecuencia (λ ≈ 300/f): 20 m = 14 MHz",
+   "peso": 2,
+   "preguntas": [
+    "R4.9"
+   ],
+   "cubre": [
+    "R4.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-22",
+   "tema": "R4",
+   "concepto": "Banda de 40 m en la Región 1: 7000–7200 kHz",
+   "peso": 2,
+   "preguntas": [
+    "F-R4.6"
+   ],
+   "cubre": [
+    "F-R4.6"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-23",
+   "tema": "R4",
+   "concepto": "Banda de 10 m: 28–29,7 MHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.7"
+   ],
+   "cubre": [
+    "F-R4.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-24",
+   "tema": "R4",
+   "concepto": "Límites en HF: 80 m 3500–3800 kHz, 20 m 14000–14350 kHz (¿está dentro de banda?)",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.8"
+   ],
+   "cubre": [
+    "F-R4.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-25",
+   "tema": "R4",
+   "concepto": "Banda de 2 m en la Región 1: 144–146 MHz",
+   "peso": 2,
+   "preguntas": [
+    "F-R4.12"
+   ],
+   "cubre": [
+    "F-R4.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-26",
+   "tema": "R4",
+   "concepto": "Banda de 70 cm: 430–440 MHz",
+   "peso": 2,
+   "preguntas": [
+    "F-R4.13"
+   ],
+   "cubre": [
+    "F-R4.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-27",
+   "tema": "R4",
+   "concepto": "Banda de 23 cm: 1240–1300 MHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.14"
+   ],
+   "cubre": [
+    "F-R4.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-28",
+   "tema": "R4",
+   "concepto": "Banda de 13 cm: 2300–2450 MHz",
+   "peso": 1,
+   "preguntas": [
+    "N-R4-01"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "R4-29",
+   "tema": "R4",
+   "concepto": "Aficionados por satélite: solo en las bandas atribuidas al efecto en el CNAF",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.11"
+   ],
+   "cubre": [
+    "F-R4.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-30",
+   "tema": "R4",
+   "concepto": "Segmento de satélites en 70 cm: 435–438 MHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.9"
+   ],
+   "cubre": [
+    "F-R4.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-31",
+   "tema": "R4",
+   "concepto": "Segmento exclusivo de satélites en 2 m: 145,806–146,000 MHz",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.10"
+   ],
+   "cubre": [
+    "F-R4.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "R4-32",
+   "tema": "R4",
+   "concepto": "Centros de actividad de emergencia IARU R1: 14300 kHz (mundial) y 3760 kHz (80 m)",
+   "peso": 1,
+   "preguntas": [
+    "F-R4.3",
+    "F-R4.4"
+   ],
+   "cubre": [
+    "F-R4.3",
+    "F-R4.4"
+   ],
+   "nota": "Dos frecuencias distintas en bandas distintas: una pregunta para cada una."
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-R3-01",
+   "cid": "R3-33",
+   "tema": "R3",
+   "enunciado": "La abreviatura operacional `CUL` significa:",
+   "opciones": [
+    "llamada general a todas las estaciones",
+    "cierro la estación",
+    "hasta luego",
+    "recibido conforme"
+   ],
+   "clave": "c",
+   "sol": "`CUL` viene del inglés _see you later_: «hasta luego», una despedida informal al final de un contacto. La llamada general es `CQ`, el cierre de la estación es `CL` y «recibido» es `R`.",
+   "fuente": "cheatsheet.typ:1005"
+  },
+  {
+   "nid": "N-R3-02",
+   "cid": "R3-37",
+   "tema": "R3",
+   "enunciado": "La abreviatura `GN` se emplea para desear al corresponsal:",
+   "opciones": [
+    "buenos días",
+    "buenas noches",
+    "buenas tardes",
+    "buena suerte"
+   ],
+   "clave": "b",
+   "sol": "`GN` es _good night_: «buenas noches». Los saludos se forman con la G de _good_ y la inicial de lo que se desea: `GM` (_morning_) buenos días, `GE` (_evening_) buenas tardes y `GL` (_luck_) buena suerte.",
+   "fuente": "cheatsheet.typ:1005"
+  },
+  {
+   "nid": "N-R4-01",
+   "cid": "R4-28",
+   "tema": "R4",
+   "enunciado": "La banda de aficionados de 13 cm comprende, en España, las frecuencias:",
+   "opciones": [
+    "1240 a 1300 MHz",
+    "2400 a 2450 MHz",
+    "5650 a 5850 MHz",
+    "2300 a 2450 MHz"
+   ],
+   "clave": "d",
+   "sol": "Según el Anexo I de la Orden, la banda de 13 cm va de 2300 a 2450 MHz (y necesita autorización especial, salvo la subbanda de 2316 a 2332 MHz). 1240–1300 MHz es la de 23 cm y 5650–5850 MHz la de 6 cm; 2400–2450 MHz es solo el tramo superior, que coincide con una banda ICM.",
+   "fuente": "chapters/r04.typ:173"
+  }
+ ],
+ "descartadas": [],
+ "problemas": [
+  {
+   "id": "C-R4.2",
+   "detalle": "La clave publicada en el banco oficial marca la d («S.O.S.» separando las tres letras), que contradice la norma internacional (SOS es un solo signo). La entrada ya trae la b corregida, y es la correcta; ojo: en el examen real podría puntuarse la d si se reutiliza la clave oficial."
+  },
+  {
+   "id": "C-R4.3",
+   "detalle": "El banco oficial no traía clave; la d (2187,5 kHz) la fija el libro con la norma y es correcta. Pregunta del servicio marítimo (GMDSS), marginal para el temario de aficionados."
+  },
+  {
+   "id": "R1.36",
+   "detalle": "Errata menor en la solución: escribe «Zulú» con tilde, cuando la grafía oficial (y la de la opción d) es «Zulu». La clave es correcta."
+  }
+ ]
+}

@@ -1,0 +1,1468 @@
+{
+ "lote": "L2",
+ "conceptos": [
+  {
+   "cid": "T2-01",
+   "tema": "T2",
+   "concepto": "Código de colores: cifra que representa cada color (negro 0 … blanco 9)",
+   "peso": 3,
+   "preguntas": [
+    "C-T2.6"
+   ],
+   "cubre": [
+    "C-T2.6",
+    "C-T2.18"
+   ],
+   "nota": "C-T2.18 (amarillo = 4) es la misma tabla con otra cifra."
+  },
+  {
+   "cid": "T2-02",
+   "tema": "T2",
+   "concepto": "Código de colores: leer el valor de una resistencia de cuatro bandas (cifras + multiplicador)",
+   "peso": 3,
+   "preguntas": [
+    "C-T2.17"
+   ],
+   "cubre": [
+    "C-T2.17",
+    "T2.1",
+    "T2.43"
+   ],
+   "nota": "C-T2.17 es del banco público y obliga también a leer la tolerancia (plata). T2.1 y T2.43 son el mismo cálculo con otros colores."
+  },
+  {
+   "cid": "T2-03",
+   "tema": "T2",
+   "concepto": "Código de colores: la cuarta banda es la tolerancia (oro ±5 %, plata ±10 %, marrón ±1 %)",
+   "peso": 2,
+   "preguntas": [
+    "T2.46"
+   ],
+   "cubre": [
+    "T2.46",
+    "T2.2"
+   ],
+   "nota": "T2.2 (qué banda indica la tolerancia) queda respondida al saber que es la cuarta; T2.46 añade la trampa oro/plata."
+  },
+  {
+   "cid": "T2-04",
+   "tema": "T2",
+   "concepto": "Una resistencia fija se especifica por valor, potencia de disipación y tolerancia",
+   "peso": 2,
+   "preguntas": [
+    "T2.56"
+   ],
+   "cubre": [
+    "T2.56"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-05",
+   "tema": "T2",
+   "concepto": "Disipación máxima de una resistencia: tensión o corriente máximas a partir de P y R",
+   "peso": 2,
+   "preguntas": [
+    "F-T2.26"
+   ],
+   "cubre": [
+    "F-T2.26"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-06",
+   "tema": "T2",
+   "concepto": "Resistencias de hilo bobinado: mucha potencia y estabilidad, pero inductivas (no valen en RF)",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.2"
+   ],
+   "cubre": [
+    "F-T2.2"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-07",
+   "tema": "T2",
+   "concepto": "Potenciómetro: resistencia variable de tres terminales con cursor",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.1"
+   ],
+   "cubre": [
+    "F-T2.1"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-08",
+   "tema": "T2",
+   "concepto": "En un conductor metálico la resistencia aumenta con la temperatura",
+   "peso": 2,
+   "preguntas": [
+    "T2.3"
+   ],
+   "cubre": [
+    "T2.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-09",
+   "tema": "T2",
+   "concepto": "Termistores: PTC sube y NTC baja su resistencia al aumentar la temperatura",
+   "peso": 3,
+   "preguntas": [
+    "T2.5"
+   ],
+   "cubre": [
+    "T2.5",
+    "T2.4"
+   ],
+   "nota": "T2.5 tiene además como distractores la LDR (luz) y el varistor (tensión). T2.4 (PTC) es el dato contrario y se deduce de este."
+  },
+  {
+   "cid": "T2-10",
+   "tema": "T2",
+   "concepto": "Varistor (VDR): su resistencia depende de la tensión aplicada; protege contra sobretensiones",
+   "peso": 2,
+   "preguntas": [
+    "T2.38"
+   ],
+   "cubre": [
+    "T2.38"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-11",
+   "tema": "T2",
+   "concepto": "Fotorresistencia (LDR): su resistencia depende de la luz",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.3"
+   ],
+   "cubre": [
+    "F-T2.3"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-12",
+   "tema": "T2",
+   "concepto": "Componentes lineales (óhmicos, recta I-V por el origen) y no lineales (diodo)",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.25"
+   ],
+   "cubre": [
+    "F-T2.25",
+    "F-T2.24"
+   ],
+   "nota": "F-T2.24 (la característica de una resistencia óhmica es una recta por el origen) es la otra cara del mismo hecho y pertenece más bien a T1."
+  },
+  {
+   "cid": "T2-13",
+   "tema": "T2",
+   "concepto": "Múltiplos: 1 MΩ = un millón de ohmios",
+   "peso": 1,
+   "preguntas": [
+    "T2.57"
+   ],
+   "cubre": [
+    "T2.57"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-14",
+   "tema": "T2",
+   "concepto": "Unidad de capacidad: el faradio (no mide la carga)",
+   "peso": 2,
+   "preguntas": [
+    "T2.26"
+   ],
+   "cubre": [
+    "T2.26",
+    "T2.6"
+   ],
+   "nota": "T2.26 contiene la trampa típica (faradio ↔ culombio); T2.6 es la versión directa."
+  },
+  {
+   "cid": "T2-15",
+   "tema": "T2",
+   "concepto": "Capacidad: C = Q/V; el condensador almacena carga eléctrica",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.14"
+   ],
+   "cubre": [
+    "C-T2.14",
+    "T2.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-16",
+   "tema": "T2",
+   "concepto": "El dieléctrico es un aislante",
+   "peso": 1,
+   "preguntas": [
+    "T2.9"
+   ],
+   "cubre": [
+    "T2.9"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-17",
+   "tema": "T2",
+   "concepto": "C = εS/d: la capacidad depende de la superficie, la separación y el dieléctrico",
+   "peso": 2,
+   "preguntas": [
+    "T2.50",
+    "F-T2.28"
+   ],
+   "cubre": [
+    "T2.50",
+    "T2.8",
+    "F-T2.28"
+   ],
+   "nota": "T2.50 pregunta el efecto de la separación; F-T2.28 aplica la fórmula al variable de aire (lo que cambia al girar es la superficie enfrentada), un ángulo distinto."
+  },
+  {
+   "cid": "T2-18",
+   "tema": "T2",
+   "concepto": "La reactancia capacitiva disminuye al aumentar la frecuencia",
+   "peso": 3,
+   "preguntas": [
+    "T2.10"
+   ],
+   "cubre": [
+    "T2.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-19",
+   "tema": "T2",
+   "concepto": "Cálculo de la reactancia capacitiva X_C = 1/(2πfC)",
+   "peso": 2,
+   "preguntas": [
+    "F-T2.27"
+   ],
+   "cubre": [
+    "F-T2.27"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-20",
+   "tema": "T2",
+   "concepto": "Energía almacenada en un condensador: ½CV² (no confundir con ½LI²)",
+   "peso": 2,
+   "preguntas": [
+    "T2.13"
+   ],
+   "cubre": [
+    "T2.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-21",
+   "tema": "T2",
+   "concepto": "El condensador se opone a las variaciones de tensión; la bobina, a las de corriente",
+   "peso": 2,
+   "preguntas": [
+    "T2.41"
+   ],
+   "cubre": [
+    "T2.41",
+    "T2.53"
+   ],
+   "nota": "T2.53 es la pregunta dual (inductancia ↔ corriente) con el mismo par de opciones cruzadas."
+  },
+  {
+   "cid": "T2-22",
+   "tema": "T2",
+   "concepto": "En continua los condensadores se cargan al principio y luego bloquean la corriente",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.12"
+   ],
+   "cubre": [
+    "C-T2.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-23",
+   "tema": "T2",
+   "concepto": "Constante de tiempo τ = RC: 63 % de la carga en un τ, carga completa en unos 5τ",
+   "peso": 2,
+   "preguntas": [
+    "N-T2-01"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-24",
+   "tema": "T2",
+   "concepto": "Condensadores en serie: capacidad total menor que la menor (en paralelo se suman)",
+   "peso": 2,
+   "preguntas": [
+    "T2.47"
+   ],
+   "cubre": [
+    "T2.47"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-25",
+   "tema": "T2",
+   "concepto": "Electrolítico: el dieléctrico es una capa de óxido (con el electrolito como pasta)",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.3"
+   ],
+   "cubre": [
+    "C-T2.3",
+    "T2.45"
+   ],
+   "nota": "Se prefiere la del banco público; en el examen la opción correcta aparece como «una pasta química»."
+  },
+  {
+   "cid": "T2-26",
+   "tema": "T2",
+   "concepto": "Electrolítico: polarizado, hay que respetar la polaridad",
+   "peso": 2,
+   "preguntas": [
+    "T2.11"
+   ],
+   "cubre": [
+    "T2.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-27",
+   "tema": "T2",
+   "concepto": "Electrolítico: uso principal en el filtrado de fuentes de alimentación (no en RF)",
+   "peso": 2,
+   "preguntas": [
+    "T2.54"
+   ],
+   "cubre": [
+    "T2.54"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-28",
+   "tema": "T2",
+   "concepto": "Condensadores de mica: muy estables y de bajas pérdidas",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.29"
+   ],
+   "cubre": [
+    "F-T2.29"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-29",
+   "tema": "T2",
+   "concepto": "Desacoplo de RF con condensadores cerámicos (poca inductancia propia)",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.30"
+   ],
+   "cubre": [
+    "F-T2.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-30",
+   "tema": "T2",
+   "concepto": "Corriente de fuga de un condensador",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.31"
+   ],
+   "cubre": [
+    "F-T2.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-31",
+   "tema": "T2",
+   "concepto": "Coeficiente de temperatura de un condensador",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.32"
+   ],
+   "cubre": [
+    "F-T2.32"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-32",
+   "tema": "T2",
+   "concepto": "Marcado de condensadores con bandas de color (capacidad, tolerancia, tensión)",
+   "peso": 1,
+   "preguntas": [
+    "T2.12"
+   ],
+   "cubre": [
+    "T2.12"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-33",
+   "tema": "T2",
+   "concepto": "Marcado de condensadores con código de tres cifras en pF (104 = 100 nF)",
+   "peso": 1,
+   "preguntas": [
+    "N-T2-02"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-34",
+   "tema": "T2",
+   "concepto": "Descarga segura de un condensador a través de un elemento exterior",
+   "peso": 2,
+   "preguntas": [
+    "T2.59"
+   ],
+   "cubre": [
+    "T2.59"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-35",
+   "tema": "T2",
+   "concepto": "Unidad de autoinducción: el henrio",
+   "peso": 2,
+   "preguntas": [
+    "T2.14"
+   ],
+   "cubre": [
+    "T2.14"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-36",
+   "tema": "T2",
+   "concepto": "La bobina almacena energía en el campo magnético (½LI²)",
+   "peso": 2,
+   "preguntas": [
+    "T2.15"
+   ],
+   "cubre": [
+    "T2.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-37",
+   "tema": "T2",
+   "concepto": "La autoinducción depende de la construcción de la bobina (núcleo, dimensiones, temperatura), no de la señal",
+   "peso": 2,
+   "preguntas": [
+    "T2.40",
+    "C-T2.15"
+   ],
+   "cubre": [
+    "T2.40",
+    "C-T2.15"
+   ],
+   "nota": "T2.40: el núcleo ferromagnético aumenta L. C-T2.15 (banco público) es otro ángulo: la frecuencia cambia X_L, no L; se resuelve por eliminación (la temperatura)."
+  },
+  {
+   "cid": "T2-38",
+   "tema": "T2",
+   "concepto": "La autoinducción crece con el cuadrado del número de espiras",
+   "peso": 1,
+   "preguntas": [
+    "N-T2-03"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-39",
+   "tema": "T2",
+   "concepto": "La reactancia inductiva X_L = 2πfL crece con la frecuencia y es nula en continua",
+   "peso": 3,
+   "preguntas": [
+    "F-T2.6",
+    "T2.16"
+   ],
+   "cubre": [
+    "F-T2.6",
+    "T2.16"
+   ],
+   "nota": "F-T2.6 trata la proporcionalidad con f; T2.16 el caso f = 0 (cortocircuito en continua), que el examen pregunta por separado."
+  },
+  {
+   "cid": "T2-40",
+   "tema": "T2",
+   "concepto": "Cálculo de la reactancia inductiva X_L = 2πfL",
+   "peso": 2,
+   "preguntas": [
+    "F-T2.4"
+   ],
+   "cubre": [
+    "F-T2.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-41",
+   "tema": "T2",
+   "concepto": "Desfase en reactancias puras: en la bobina la tensión adelanta 90° (en el condensador, la corriente)",
+   "peso": 2,
+   "preguntas": [
+    "F-T2.5"
+   ],
+   "cubre": [
+    "F-T2.5"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-42",
+   "tema": "T2",
+   "concepto": "Factor de calidad de una bobina: Q = X_L/R",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.19",
+    "F-T2.7"
+   ],
+   "cubre": [
+    "C-T2.19",
+    "F-T2.7"
+   ],
+   "nota": "C-T2.19 (banco público) es la relación cualitativa; F-T2.7 el cálculo, con los distractores de invertir, sumar o multiplicar."
+  },
+  {
+   "cid": "T2-43",
+   "tema": "T2",
+   "concepto": "Efecto pelicular: en RF la corriente va por la superficie y la resistencia efectiva aumenta",
+   "peso": 2,
+   "preguntas": [
+    "F-T2.8",
+    "F-T2.9"
+   ],
+   "cubre": [
+    "F-T2.8",
+    "F-T2.9"
+   ],
+   "nota": "F-T2.8 pide dónde circula la corriente; F-T2.9 la consecuencia (más resistencia que en continua), que se pregunta aparte."
+  },
+  {
+   "cid": "T2-44",
+   "tema": "T2",
+   "concepto": "Choque de RF: deja pasar la continua y frena la RF",
+   "peso": 1,
+   "preguntas": [
+    "N-T2-04"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-45",
+   "tema": "T2",
+   "concepto": "Electroimán: atrae solo mientras circula corriente",
+   "peso": 1,
+   "preguntas": [
+    "T2.52"
+   ],
+   "cubre": [
+    "T2.52"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-46",
+   "tema": "T2",
+   "concepto": "Relé: electroimán que abre y cierra un circuito",
+   "peso": 1,
+   "preguntas": [
+    "C-T2.4"
+   ],
+   "cubre": [
+    "C-T2.4"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-47",
+   "tema": "T2",
+   "concepto": "El transformador son dos bobinas acopladas que transforman una alterna en otra alterna",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.5"
+   ],
+   "cubre": [
+    "C-T2.5",
+    "T2.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-48",
+   "tema": "T2",
+   "concepto": "Con continua en el primario no hay corriente en el secundario",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.7"
+   ],
+   "cubre": [
+    "C-T2.7"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-49",
+   "tema": "T2",
+   "concepto": "Relación de transformación: cociente de tensiones o de espiras",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.2",
+    "T2.18"
+   ],
+   "cubre": [
+    "C-T2.2",
+    "T2.18"
+   ],
+   "nota": "Las dos preguntas usan convenciones inversas (V_s/V_p en C-T2.2, N_p/N_s en T2.18): conviene ver ambas para no caer en las opciones de potencia o peso. No ponerlas en el mismo simulacro sin aclarar."
+  },
+  {
+   "cid": "T2-50",
+   "tema": "T2",
+   "concepto": "Elevador o reductor según el número de espiras de primario y secundario",
+   "peso": 3,
+   "preguntas": [
+    "C-T2.10"
+   ],
+   "cubre": [
+    "C-T2.10",
+    "T2.20"
+   ],
+   "nota": "T2.20 es el caso contrario (reductor) y se deduce del mismo hecho."
+  },
+  {
+   "cid": "T2-51",
+   "tema": "T2",
+   "concepto": "Cálculo de la tensión del secundario: V_s = V_p · N_s/N_p",
+   "peso": 3,
+   "preguntas": [
+    "T2.19"
+   ],
+   "cubre": [
+    "T2.19"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-52",
+   "tema": "T2",
+   "concepto": "Corrientes en el transformador ideal: van en proporción inversa a las tensiones (potencia constante)",
+   "peso": 2,
+   "preguntas": [
+    "F-T2.10"
+   ],
+   "cubre": [
+    "F-T2.10"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-53",
+   "tema": "T2",
+   "concepto": "El transformador también sirve para adaptar impedancias",
+   "peso": 2,
+   "preguntas": [
+    "T2.60"
+   ],
+   "cubre": [
+    "T2.60"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-54",
+   "tema": "T2",
+   "concepto": "Cálculo de la adaptación de impedancias: Z_p = (N_p/N_s)² Z_s (balun 4:1 = espiras 2:1)",
+   "peso": 2,
+   "preguntas": [
+    "F-T2.12",
+    "F-T2.13"
+   ],
+   "cubre": [
+    "F-T2.12",
+    "F-T2.11",
+    "F-T2.13"
+   ],
+   "nota": "F-T2.12 calcula la impedancia vista; F-T2.13 es el cálculo en el otro sentido (de la relación de impedancias a la de espiras) con el caso clásico del balun 4:1. F-T2.11 repite el sentido inverso con otros números."
+  },
+  {
+   "cid": "T2-55",
+   "tema": "T2",
+   "concepto": "Autotransformador: primario y secundario comparten parte del devanado",
+   "peso": 1,
+   "preguntas": [
+    "T2.39"
+   ],
+   "cubre": [
+    "T2.39"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-56",
+   "tema": "T2",
+   "concepto": "Núcleo de aire frente a núcleo ferromagnético",
+   "peso": 1,
+   "preguntas": [
+    "T2.55"
+   ],
+   "cubre": [
+    "T2.55"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-57",
+   "tema": "T2",
+   "concepto": "Núcleo de chapas aisladas para reducir las corrientes de Foucault",
+   "peso": 1,
+   "preguntas": [
+    "N-T2-05"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-58",
+   "tema": "T2",
+   "concepto": "Materiales semiconductores: silicio y germanio",
+   "peso": 1,
+   "preguntas": [
+    "T2.37"
+   ],
+   "cubre": [
+    "T2.37"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-59",
+   "tema": "T2",
+   "concepto": "El transistor es un dispositivo semiconductor (de tres terminales)",
+   "peso": 1,
+   "preguntas": [
+    "C-T2.8"
+   ],
+   "cubre": [
+    "C-T2.8"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-60",
+   "tema": "T2",
+   "concepto": "Semiconductor tipo P (mayoría de huecos) y el hueco como portador de carga positiva",
+   "peso": 1,
+   "preguntas": [
+    "T2.35",
+    "T2.36"
+   ],
+   "cubre": [
+    "T2.35",
+    "T2.36"
+   ],
+   "nota": "T2.36 pregunta la definición de hueco, que T2.35 da por sabida."
+  },
+  {
+   "cid": "T2-61",
+   "tema": "T2",
+   "concepto": "El diodo deja pasar la corriente en un solo sentido",
+   "peso": 3,
+   "preguntas": [
+    "T2.21"
+   ],
+   "cubre": [
+    "T2.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-62",
+   "tema": "T2",
+   "concepto": "Aplicación del diodo: detección (y rectificación)",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.13"
+   ],
+   "cubre": [
+    "C-T2.13"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-63",
+   "tema": "T2",
+   "concepto": "Tensión de conducción en directa de un diodo de silicio: 0,6–0,7 V",
+   "peso": 2,
+   "preguntas": [
+    "N-T2-06"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-64",
+   "tema": "T2",
+   "concepto": "Corriente de fuga inversa del diodo: muy pequeña y crece con la temperatura",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.17"
+   ],
+   "cubre": [
+    "F-T2.17"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-65",
+   "tema": "T2",
+   "concepto": "Superar la tensión inversa máxima lleva a la ruptura y puede destruir el diodo",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.18"
+   ],
+   "cubre": [
+    "F-T2.18"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-66",
+   "tema": "T2",
+   "concepto": "Diodo zéner: estabiliza tensión trabajando en inversa, en la zona de ruptura",
+   "peso": 3,
+   "preguntas": [
+    "T2.22",
+    "F-T2.14"
+   ],
+   "cubre": [
+    "T2.22",
+    "F-T2.14"
+   ],
+   "nota": "T2.22 pide para qué sirve; F-T2.14 cómo se polariza (inversa, en ruptura), la trampa que distingue al zéner del LED."
+  },
+  {
+   "cid": "T2-67",
+   "tema": "T2",
+   "concepto": "Cálculo de la resistencia serie de un zéner (corriente por la resistencia)",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.15"
+   ],
+   "cubre": [
+    "F-T2.15"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-68",
+   "tema": "T2",
+   "concepto": "LED: emite luz polarizado en directa",
+   "peso": 2,
+   "preguntas": [
+    "T2.33"
+   ],
+   "cubre": [
+    "T2.33"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-69",
+   "tema": "T2",
+   "concepto": "Cálculo de la resistencia limitadora de un LED",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.16"
+   ],
+   "cubre": [
+    "F-T2.16"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-70",
+   "tema": "T2",
+   "concepto": "Varicap: capacidad controlada por la tensión inversa (más tensión, menos capacidad)",
+   "peso": 2,
+   "preguntas": [
+    "T2.25",
+    "N-T2-07"
+   ],
+   "cubre": [
+    "T2.25"
+   ],
+   "nota": "T2.25 da la definición; N-T2-07 el sentido de la variación, que el banco no pregunta y la hoja de repaso destaca."
+  },
+  {
+   "cid": "T2-71",
+   "tema": "T2",
+   "concepto": "Transistor bipolar: terminales emisor, base y colector; tipos NPN y PNP",
+   "peso": 3,
+   "preguntas": [
+    "T2.23",
+    "T2.24"
+   ],
+   "cubre": [
+    "T2.23",
+    "T2.24"
+   ],
+   "nota": "T2.23 mezcla en los distractores los nombres de FET y válvula; T2.24 pregunta los tipos de capas."
+  },
+  {
+   "cid": "T2-72",
+   "tema": "T2",
+   "concepto": "Ganancia de corriente β = I_C/I_B",
+   "peso": 3,
+   "preguntas": [
+    "T2.32",
+    "F-T2.19"
+   ],
+   "cubre": [
+    "T2.32",
+    "F-T2.19"
+   ],
+   "nota": "T2.32 es la definición; F-T2.19 el cálculo, con la trampa de dividir en vez de multiplicar y la conversión μA → mA."
+  },
+  {
+   "cid": "T2-73",
+   "tema": "T2",
+   "concepto": "Corriente de emisor: I_E = I_B + I_C",
+   "peso": 1,
+   "preguntas": [
+    "N-T2-08"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-74",
+   "tema": "T2",
+   "concepto": "Polarización: en el NPN el colector es positivo; en el PNP, negativo",
+   "peso": 2,
+   "preguntas": [
+    "T2.48",
+    "T2.49"
+   ],
+   "cubre": [
+    "T2.48",
+    "T2.49"
+   ],
+   "nota": "T2.49 es el dato contrario (PNP)."
+  },
+  {
+   "cid": "T2-75",
+   "tema": "T2",
+   "concepto": "Polarización de la base con un divisor de tensión",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.20"
+   ],
+   "cubre": [
+    "F-T2.20"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-76",
+   "tema": "T2",
+   "concepto": "Usos del transistor: amplificar, oscilar, mezclar (no rectificar ni hacer de balun)",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.16",
+    "C-T2.1"
+   ],
+   "cubre": [
+    "C-T2.16",
+    "C-T2.1"
+   ],
+   "nota": "Las dos son del banco público: C-T2.16 en forma directa y C-T2.1 en negativo (el balun es un elemento pasivo)."
+  },
+  {
+   "cid": "T2-77",
+   "tema": "T2",
+   "concepto": "Configuración de emisor común: ganancia de tensión y corriente, salida invertida 180°",
+   "peso": 2,
+   "preguntas": [
+    "N-T2-09"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-78",
+   "tema": "T2",
+   "concepto": "Configuración de colector común (seguidor de emisor): ganancia de tensión ≈ 1, Z de entrada alta y de salida baja",
+   "peso": 2,
+   "preguntas": [
+    "N-T2-10"
+   ],
+   "cubre": [],
+   "nota": "El distractor d describe la base común (Z de entrada baja, usada en RF)."
+  },
+  {
+   "cid": "T2-79",
+   "tema": "T2",
+   "concepto": "FET y MOSFET: terminales puerta, drenador y surtidor; control por tensión de puerta",
+   "peso": 2,
+   "preguntas": [
+    "T2.34",
+    "C-T2.20"
+   ],
+   "cubre": [
+    "T2.34",
+    "C-T2.20"
+   ],
+   "nota": "T2.34 con los nombres cruzados de bipolar y válvula; C-T2.20 (banco público) pregunta el MOSFET por su puerta y descarta pasivo y filamento."
+  },
+  {
+   "cid": "T2-80",
+   "tema": "T2",
+   "concepto": "Ventaja del FET: impedancia de entrada muy alta",
+   "peso": 3,
+   "preguntas": [
+    "C-T2.11"
+   ],
+   "cubre": [
+    "C-T2.11"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-81",
+   "tema": "T2",
+   "concepto": "Inconveniente del transistor frente a la válvula: sensibilidad al calor",
+   "peso": 1,
+   "preguntas": [
+    "T2.42"
+   ],
+   "cubre": [
+    "T2.42"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-82",
+   "tema": "T2",
+   "concepto": "Oscilación indeseada de un amplificador por acoplamiento entre salida y entrada",
+   "peso": 1,
+   "preguntas": [
+    "T2.51"
+   ],
+   "cubre": [
+    "T2.51"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-83",
+   "tema": "T2",
+   "concepto": "Electrodos de la válvula diodo (cátodo y placa) y del tríodo (+ rejilla)",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.9",
+    "T2.27"
+   ],
+   "cubre": [
+    "C-T2.9",
+    "T2.27"
+   ],
+   "nota": "C-T2.9 (banco público) para el diodo; T2.27 para el tríodo, con los terminales de bipolar y FET como distractores."
+  },
+  {
+   "cid": "T2-84",
+   "tema": "T2",
+   "concepto": "Emisión termoiónica: el cátodo caliente emite y la válvula conduce solo con la placa positiva",
+   "peso": 2,
+   "preguntas": [
+    "T2.28"
+   ],
+   "cubre": [
+    "T2.28",
+    "T2.29"
+   ],
+   "nota": "T2.29 (función del cátodo) queda contenida en la explicación de T2.28."
+  },
+  {
+   "cid": "T2-85",
+   "tema": "T2",
+   "concepto": "El nombre de la válvula cuenta electrodos: pentodo = cátodo, tres rejillas y placa",
+   "peso": 2,
+   "preguntas": [
+    "T2.30"
+   ],
+   "cubre": [
+    "T2.30"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-86",
+   "tema": "T2",
+   "concepto": "Rejilla de pantalla: reduce la capacidad rejilla-placa",
+   "peso": 1,
+   "preguntas": [
+    "T2.31"
+   ],
+   "cubre": [
+    "T2.31"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-87",
+   "tema": "T2",
+   "concepto": "Rejilla supresora: devuelve a la placa los electrones secundarios",
+   "peso": 1,
+   "preguntas": [
+    "N-T2-11"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-88",
+   "tema": "T2",
+   "concepto": "Equipos de válvulas: esperar el caldeo antes de transmitir",
+   "peso": 1,
+   "preguntas": [
+    "T2.44"
+   ],
+   "cubre": [
+    "T2.44"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-89",
+   "tema": "T2",
+   "concepto": "Escalas de integración: SSI, MSI, LSI, VLSI («CSI» no existe)",
+   "peso": 1,
+   "preguntas": [
+    "T2.58"
+   ],
+   "cubre": [
+    "T2.58"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-90",
+   "tema": "T2",
+   "concepto": "Ventaja de los circuitos digitales: inmunidad al ruido (dos niveles lógicos)",
+   "peso": 1,
+   "preguntas": [
+    "N-T2-12"
+   ],
+   "cubre": [],
+   "nota": ""
+  },
+  {
+   "cid": "T2-91",
+   "tema": "T2",
+   "concepto": "Puertas lógicas Y (AND) y O (OR)",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.21"
+   ],
+   "cubre": [
+    "F-T2.21"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-92",
+   "tema": "T2",
+   "concepto": "Puerta inversora (NOT)",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.22"
+   ],
+   "cubre": [
+    "F-T2.22"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-93",
+   "tema": "T2",
+   "concepto": "Sistema binario: conversión a decimal",
+   "peso": 1,
+   "preguntas": [
+    "F-T2.23"
+   ],
+   "cubre": [
+    "F-T2.23"
+   ],
+   "nota": ""
+  },
+  {
+   "cid": "T2-94",
+   "tema": "T2",
+   "concepto": "Símbolos de resistencia, condensador, bobina y diodo",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.22"
+   ],
+   "cubre": [
+    "C-T2.22",
+    "T2.61",
+    "T2.62",
+    "T2.63",
+    "T2.64"
+   ],
+   "nota": "Depende de figura (no se puede evitar). C-T2.22 (banco público) muestra en sus opciones los cuatro símbolos, así que cubre T2.61–T2.64."
+  },
+  {
+   "cid": "T2-95",
+   "tema": "T2",
+   "concepto": "Símbolos de transistores: bipolar frente a FET",
+   "peso": 2,
+   "preguntas": [
+    "C-T2.21",
+    "T2.66"
+   ],
+   "cubre": [
+    "C-T2.21",
+    "T2.65",
+    "T2.66"
+   ],
+   "nota": "Depende de figura. C-T2.21 (banco público) dibuja el JFET; T2.66 el MOSFET con la puerta separada, otra variante del símbolo. T2.65 (bipolar) usa las mismas opciones."
+  }
+ ],
+ "nuevas": [
+  {
+   "nid": "N-T2-01",
+   "cid": "T2-23",
+   "tema": "T2",
+   "enunciado": "Un condensador descargado se conecta a una fuente de continua a través de una resistencia. Al cabo de un tiempo igual a la constante de tiempo $tau = R C$, la tensión del condensador ha alcanzado aproximadamente:",
+   "opciones": [
+    "el 37 % de la tensión de la fuente",
+    "el 63 % de la tensión de la fuente",
+    "el 100 % de la tensión de la fuente",
+    "el 50 % de la tensión de la fuente"
+   ],
+   "clave": "b",
+   "sol": "La carga sigue la exponencial $v(t) = V (1 - e^(-t slash tau))$: en un $tau$ llega al 63 % y se da por completa hacia $5 tau$. El 37 % es lo que todavía le falta, y el 100 % no se alcanza en un solo $tau$.",
+   "fuente": "chapters/t02.typ:415"
+  },
+  {
+   "nid": "N-T2-02",
+   "cid": "T2-33",
+   "tema": "T2",
+   "enunciado": "Un condensador cerámico lleva impreso el código «104». Su capacidad es:",
+   "opciones": [
+    "104 pF",
+    "10 nF",
+    "100 nF",
+    "104 μF"
+   ],
+   "clave": "c",
+   "sol": "El código de tres cifras da el valor en picofaradios: dos cifras y el número de ceros. «104» es $10 dot 10^4$ pF = 100 000 pF = 100 nF. Leerlo tal cual (104 pF) olvida que la tercera cifra es el número de ceros.",
+   "fuente": "chapters/t02.typ:491"
+  },
+  {
+   "nid": "N-T2-03",
+   "cid": "T2-38",
+   "tema": "T2",
+   "enunciado": "Si se duplica el número de espiras de una bobina sin cambiar su diámetro ni su longitud, su autoinducción:",
+   "opciones": [
+    "se duplica",
+    "se cuadruplica",
+    "se reduce a la mitad",
+    "no varía"
+   ],
+   "clave": "b",
+   "sol": "La autoinducción crece con el cuadrado del número de espiras ($L = mu N^2 A slash ell$): con el doble de espiras, $L$ se multiplica por $2^2 = 4$. Pensar que se duplica es la trampa: olvida que $N$ va al cuadrado.",
+   "fuente": "chapters/t02.typ:598"
+  },
+  {
+   "nid": "N-T2-04",
+   "cid": "T2-44",
+   "tema": "T2",
+   "enunciado": "En la alimentación del transistor final de un transmisor se coloca en serie con el colector un choque de RF (una bobina). Su función es:",
+   "opciones": [
+    "dejar pasar la continua de la fuente y frenar la RF para que no se escape hacia la fuente",
+    "bloquear la continua y dejar pasar la RF hacia la fuente",
+    "rectificar la señal de RF",
+    "elevar la tensión de alimentación del colector"
+   ],
+   "clave": "a",
+   "sol": "Para la continua la bobina es un cable ($X_L = 0$), así que el colector recibe la tensión de la fuente; para la RF presenta una reactancia de miles de ohmios y la señal no se escapa por la alimentación. Bloquear la continua y dejar pasar la RF es lo que hace un condensador, no una bobina.",
+   "fuente": "chapters/t02.typ:689"
+  },
+  {
+   "nid": "N-T2-05",
+   "cid": "T2-57",
+   "tema": "T2",
+   "enunciado": "El núcleo de hierro de un transformador de red de 50 Hz se construye con chapas delgadas aisladas entre sí para:",
+   "opciones": [
+    "reducir las pérdidas por corrientes de Foucault",
+    "aumentar la relación de transformación",
+    "permitir que funcione con corriente continua",
+    "aislar eléctricamente el primario del secundario"
+   ],
+   "clave": "a",
+   "sol": "Las chapas aisladas cortan el camino de las corrientes de Foucault que el flujo variable induce en el hierro y que lo calentarían. La relación de transformación depende solo de las espiras, y ningún núcleo hace que un transformador funcione con continua.",
+   "fuente": "chapters/t02.typ:806"
+  },
+  {
+   "nid": "N-T2-06",
+   "cid": "T2-63",
+   "tema": "T2",
+   "enunciado": "Un diodo de silicio polarizado en directa empieza a conducir de forma apreciable cuando la tensión entre sus terminales alcanza aproximadamente:",
+   "opciones": [
+    "0,06 V",
+    "0,6–0,7 V",
+    "1,8–3 V",
+    "6 V"
+   ],
+   "clave": "b",
+   "sol": "En el silicio hace falta vencer la barrera de la unión PN, unos 0,6–0,7 V; por debajo apenas pasa corriente y por encima crece de forma exponencial. Entre 1,8 V y 3 V es la caída de un LED, no la de un diodo de silicio.",
+   "fuente": "chapters/t02.typ:978"
+  },
+  {
+   "nid": "N-T2-07",
+   "cid": "T2-70",
+   "tema": "T2",
+   "enunciado": "Al aumentar la tensión inversa aplicada a un diodo varicap, su capacidad:",
+   "opciones": [
+    "aumenta",
+    "disminuye",
+    "no varía",
+    "aumenta solo si la tensión es alterna"
+   ],
+   "clave": "b",
+   "sol": "Con más tensión inversa la zona de deplexión, que hace de dieléctrico, se ensancha: es como separar las placas, y por $C = epsilon S slash d$ la capacidad baja (aproximadamente como $1 slash sqrt(V)$). Así, al subir la tensión de sintonía sube la frecuencia de un VCO.",
+   "fuente": "chapters/t02.typ:1126"
+  },
+  {
+   "nid": "N-T2-08",
+   "cid": "T2-73",
+   "tema": "T2",
+   "enunciado": "En un transistor bipolar, la corriente de emisor es:",
+   "opciones": [
+    "la suma de las corrientes de base y de colector",
+    "la diferencia entre la corriente de colector y la de base",
+    "igual a la corriente de base",
+    "la corriente de colector dividida por $beta$"
+   ],
+   "clave": "a",
+   "sol": "Todo lo que entra por la base y por el colector sale por el emisor (o al revés en el PNP): $I_E = I_B + I_C$. La corriente de colector dividida por $beta$ es la de base, no la de emisor.",
+   "fuente": "chapters/t02.typ:1210"
+  },
+  {
+   "nid": "N-T2-09",
+   "cid": "T2-77",
+   "tema": "T2",
+   "enunciado": "En un amplificador con transistor bipolar en configuración de emisor común, la señal de salida respecto de la de entrada:",
+   "opciones": [
+    "está en fase",
+    "está invertida (desfasada 180°)",
+    "está desfasada 90°",
+    "tiene siempre la misma amplitud"
+   ],
+   "clave": "b",
+   "sol": "Cuando la señal aumenta la corriente de base, crece la corriente de colector, cae más tensión en la resistencia de colector y la tensión del colector baja: la salida va invertida, 180°. Las configuraciones de base común y colector común no invierten la fase; misma amplitud es lo propio del seguidor de emisor.",
+   "fuente": "chapters/t02.typ:1365"
+  },
+  {
+   "nid": "N-T2-10",
+   "cid": "T2-78",
+   "tema": "T2",
+   "enunciado": "La configuración de colector común (seguidor de emisor) se caracteriza por:",
+   "opciones": [
+    "una ganancia de tensión alta y una impedancia de entrada baja",
+    "una ganancia de tensión próxima a 1, impedancia de entrada alta y de salida baja",
+    "invertir la fase de la señal 180°",
+    "una impedancia de entrada baja, por lo que se prefiere en RF por su estabilidad"
+   ],
+   "clave": "b",
+   "sol": "El emisor sigue a la base unos 0,6 V por debajo: la tensión de salida es casi igual a la de entrada, pero entrega mucha más corriente de la que toma, así que adapta una fuente de alta impedancia a una carga de baja. Invertir la fase es propio del emisor común, y la impedancia de entrada baja, de la base común.",
+   "fuente": "chapters/t02.typ:1367"
+  },
+  {
+   "nid": "N-T2-11",
+   "cid": "T2-87",
+   "tema": "T2",
+   "enunciado": "En una válvula pentodo, la rejilla supresora tiene la función de:",
+   "opciones": [
+    "reducir la capacidad entre la rejilla de control y la placa",
+    "devolver a la placa los electrones secundarios que esta emite",
+    "emitir electrones al calentarse",
+    "controlar la corriente de placa con la tensión de la señal"
+   ],
+   "clave": "b",
+   "sol": "Los electrones llegan a la placa con tanta energía que arrancan electrones secundarios; la supresora, al potencial del cátodo, los devuelve a la placa. Reducir la capacidad rejilla-placa es la tarea de la rejilla de pantalla, emitir es la del cátodo y controlar la corriente, la de la rejilla de control.",
+   "fuente": "chapters/t02.typ:1543"
+  },
+  {
+   "nid": "N-T2-12",
+   "cid": "T2-90",
+   "tema": "T2",
+   "enunciado": "Una ventaja característica de los circuitos digitales frente a los analógicos es:",
+   "opciones": [
+    "su gran inmunidad al ruido, porque solo tienen que distinguir dos niveles lógicos",
+    "que no necesitan alimentación",
+    "que el ruido que se suma a la señal ya no puede separarse de ella",
+    "que amplifican la señal sin consumir energía"
+   ],
+   "clave": "a",
+   "sol": "Con solo dos niveles bien separados, una perturbación pequeña no convierte un 0 en un 1: basta comparar con un umbral para recuperar la información limpia. Que el ruido sumado se quede en la señal es justo lo que ocurre en un circuito analógico.",
+   "fuente": "chapters/t02.typ:1450"
+  }
+ ],
+ "descartadas": [],
+ "problemas": [
+  {
+   "id": "C-T2.2",
+   "detalle": "No es clave errónea, sino de convención: C-T2.2 define la relación de transformación como V_s/V_p y T2.18 como N_p/N_s (inversas). Ambas claves son coherentes con su enunciado, pero no deben aparecer juntas en un simulacro sin aclararlo."
+  },
+  {
+   "id": "C-T2.15",
+   "detalle": "Clave del banco público aceptable solo por eliminación (la temperatura); el enunciado es impreciso, como ya reconoce la solución. Se mantiene como segunda pregunta del concepto por ser del banco oficial."
+  },
+  {
+   "id": "T2.65",
+   "detalle": "La solución dice que «el FET tiene la puerta separada por un hueco», lo que solo es cierto para el MOSFET; en el JFET (símbolo que usa C-T2.21 del banco público) la puerta toca el canal. Igualmente, chapters/t02.typ:1927 afirma que el FET que dibuja el examen es el MOSFET, pero C-T2.21 dibuja JFET. La clave no cambia."
+  }
+ ]
+}
